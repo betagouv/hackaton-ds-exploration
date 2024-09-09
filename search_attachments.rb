@@ -7,7 +7,7 @@ data = JSON.parse(file)
 
 def all_words_of(field_descriptor)
   first_level_words = words_of(field_descriptor)
-  second_level_words = field_descriptor['champDescriptors'].map{|d| words_of(d)} if field_descriptor['champDescriptors']
+  second_level_words = field_descriptor['champDescriptors'].map{|d| all_words_of(d)} if field_descriptor['champDescriptors']
 
   [first_level_words, second_level_words].flatten.compact.join(' ## ')
 end
