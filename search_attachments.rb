@@ -5,16 +5,27 @@ DATA_PATH = '../20240901041013-demarches.json'
 file = File.read(DATA_PATH)
 data = JSON.parse(file)
 
-def words_of(field_descriptor)
-  [field_descriptor['label'], field_descriptor['description'] || nil].compact.join(' ## ')
+def all_words_of(field_descriptor)
+  first_level_words = words_of(field_descriptor)
+  second_level_words = field_descriptor['champDescriptors'].map{|d| words_of(d)} if field_descriptor['champDescriptors']
+
+  [first_level_words, second_level_words].flatten.compact.join(' ## ')
 end
+
+def words_of(field_descriptor)
+  [field_descriptor['label'], field_descriptor['description'] || nil]
+end
+
+USEFUL_FIELDS_TYPES = %w[RepetitionChampDescriptor PieceJustificativeChampDescriptor]
 
 useful_data = data.map do |d|
   {
     id: d['number'],
     dossiersCount: d['dossiersCount'],
     link: "https://github.com/betagouv/hackaton-ds-exploration/blob/main/demarches/#{d['number']}.json",
-    words: d['revision']['champDescriptors'].select{|cd| cd['__typename'] == 'PieceJustificativeChampDescriptor'}.map{|cd| words_of(cd)}
+    words: d['revision']['champDescriptors'].select do |cd|
+      USEFUL_FIELDS_TYPES.include? cd['__typename'] || cd['champDescriptors']
+    end.map{|cd| all_words_of(cd)}
   }
 end
 
