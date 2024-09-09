@@ -11,8 +11,9 @@ end
 
 useful_data = data.map do |d|
   {
-    number: d['number'],
+    id: d['number'],
     dossiersCount: d['dossiersCount'],
+    link: "https://github.com/betagouv/hackaton-ds-exploration/blob/main/demarches/#{d['number']}.json",
     words: d['revision']['champDescriptors'].select{|cd| cd['__typename'] == 'PieceJustificativeChampDescriptor'}.map{|cd| words_of(cd)}
   }
 end
@@ -54,7 +55,7 @@ def sanitize_filename(filename)
   return fn.join '.'
 end
 
-result_filename = sanitize_filename("search_attachments_#{query}.json")
-File.open(result_filename, 'w') do |f|
+result_filename = sanitize_filename("#{query}.json")
+File.open("search_attachments/#{result_filename}", 'w') do |f|
   f.write(JSON.pretty_generate(result))
 end
