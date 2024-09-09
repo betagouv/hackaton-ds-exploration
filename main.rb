@@ -34,4 +34,18 @@ puts "#{p_number data_with_dossiercount.count} Démarches avec au moins un dossi
 # COUNT PER DOSSIER #
 data_per_dossiercount = data.inject(Hash.new(0)) { |h, e| h[e['dossiersCount']] += 1 ; h }.sort.to_h
 # pp data_per_dossiercount
-puts "démarche avec le plus de dossiers : #{p_number data_per_dossiercount.keys.max}"
+puts "La démarche qui a le plus de dossiers en a : #{p_number data_per_dossiercount.keys.max}"
+
+# DEMARCHES GROUPED BY DOSSIERS AMOUNT ^ 10 #
+
+data_per_rounded_dossiers_count = data_with_dossiercount.inject({}) do |h, e|
+  rounded_amount = 10 ** (e['dossiersCount'].to_s.length)
+  h[rounded_amount] = [] unless h[rounded_amount]
+  h[rounded_amount].push e['number']
+  h
+end.sort.to_h
+# pp data_per_rounded_dossiers_count
+
+data_per_rounded_dossiers_count.each do |count, dossiers|
+  puts "Démarches avec entre #{count/10} et #{count} dossiers : #{dossiers.count}"
+end
