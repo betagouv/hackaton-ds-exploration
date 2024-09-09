@@ -1,1 +1,1 @@
-ruby search.rb > search_results.txt
+ruby search.rb $1 > search_results.txt

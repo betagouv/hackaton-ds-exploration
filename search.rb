@@ -52,7 +52,7 @@ def search(regex, data)
   end
 end
 
-query = 'stage'
+query = ARGV[0]
 search_results = search(query, useful_data)
 
 puts "Résultats de la recherche #{query} : #{p_number search_results.count} résultats:\n\n"
