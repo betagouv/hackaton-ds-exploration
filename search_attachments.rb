@@ -13,11 +13,9 @@ useful_data = data.map do |d|
   {
     number: d['number'],
     dossiersCount: d['dossiersCount'],
-    words: d['revision']['champDescriptors'].map{|cd| words_of(cd)}
+    words: d['revision']['champDescriptors'].select{|cd| cd['__typename'] == 'PieceJustificativeChampDescriptor'}.map{|cd| words_of(cd)}
   }
 end
-
-# pp useful_data.first
 
 def search(regex, data)
   regex = /#{regex}/ if regex.is_a? String
@@ -56,7 +54,7 @@ def sanitize_filename(filename)
   return fn.join '.'
 end
 
-result_filename = sanitize_filename("search_#{query}.json")
+result_filename = sanitize_filename("search_attachments_#{query}.json")
 File.open(result_filename, 'w') do |f|
   f.write(JSON.pretty_generate(result))
 end
