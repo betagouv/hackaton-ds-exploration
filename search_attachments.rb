@@ -13,7 +13,8 @@ def all_words_of(field_descriptor)
 end
 
 def words_of(field_descriptor)
-  [field_descriptor['label'], field_descriptor['description'] || nil]
+  description = field_descriptor['description'] == "" ? nil : field_descriptor['description']
+  [field_descriptor['label'], description]
 end
 
 USEFUL_FIELDS_TYPES = %w[RepetitionChampDescriptor PieceJustificativeChampDescriptor]
