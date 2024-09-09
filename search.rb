@@ -47,7 +47,8 @@ def search(regex, data)
 
     matched
   end.map do |d|
-    d[:words] = d[:words].select{|words| words.downcase =~ regex }
+    d[:matchs] = d[:words].select{|words| words.downcase =~ regex }
+    d.delete :words
     d
   end
 end
