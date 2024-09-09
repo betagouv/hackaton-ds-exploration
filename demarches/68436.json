@@ -1,0 +1,364 @@
+{
+  "number": 68436,
+  "title": "Demande de création d'un Fournisseur d'Identité AgentConnect ",
+  "description": "Cette demande peut concerner le réseau RIE, Internet ou les deux. \r\n\r\nElle permet : \r\n\r\n- soit de demander la création d'un Fournisseur d'Identité AgentConnect sur l'environnement d'intégration afin de vous permettre de réaliser vos développements et vos tests une fois que votre demande datapass a été validée, \r\n\r\n- soit de demander la création d'un Fournisseur d'Identité AgentConnect sur l'environnement de production une fois que votre implémentation a été validée par un membre de notre équipe. ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transformation et de la Fonction publiques"
+  ],
+  "datePublication": "2023-01-13T10:04:07+01:00",
+  "service": {
+    "nom": "AgentConnect",
+    "organisme": "DINUM",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-creation-fi-fca",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/demande-creation-fi-fca",
+  "cadreJuridiqueUrl": "https://www.gouvernement.fr/sites/default/files/contenu/piece-jointe/2021/05/20210601-dinum-ac-creation_agentconnect-vf.pdf",
+  "logo": {
+    "filename": "AgentConnect-Logo-HD.png",
+    "checksum": "mB5DL1JgQOqjzF37lSR5OA==",
+    "byteSize": "44535",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 24,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur votre Fournisseur d'Identité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du Fournisseur d'Identité",
+        "description": "Nom de votre Fournisseur d'Identité Internet tel qu'il apparaîtra aux utilisateurs d'AgentConnect.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de la demande datapass",
+        "description": "Renseignez ici le numéro de la demande datapass qui a été validée et qui vous permet d'utiliser AgentConnect. Cette information nous permet de faire le lien avec les étapes précédentes.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de votre administration",
+        "description": "Renseignez ici le nom de votre organisation (ministère / territoire de rattachement ou opérateur de l'Etat).",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Réseau(x) du Fournisseur d'Identité",
+        "description": "Merci de sélectionner le(s) réseau(x) sur lequel (lesquels) vous souhaitez que votre Fournisseur d'Identité soit créé (RIE, Internet ou les deux). ",
+        "required": true,
+        "options": [
+          "RIE",
+          "Internet",
+          "Internet et RIE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Environnement du Fournisseur d'Identité",
+        "description": "Merci de sélectionner sur quel environnement vous souhaitez que votre Fournisseur d'Identité soit créé.  \r\n\r\nPour information: \r\n- La demande de création d'un Fournisseur d'Identité en intégration se fait lorsque votre demande datapass a été validée, afin de pouvoir débuter l' implémentation d'AgentConnect ainsi que vos tests. Sans la validation de cette étape, la création de votre Fournisseur d'Identité en intégration ne peut se faire. \r\n- La demande de création d'un Fournisseur d'Identité en production se fait lorsque votre implémentation a été validée par un membre de notre équipe. Sans la validation de cette étape, la création de votre Fournisseur d'Identité en production ne peut se faire. ",
+        "required": true,
+        "options": [
+          "Intégration",
+          "Production"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Domaines emails concernés par votre Fournisseur d'Identité",
+        "description": "Renseignez ici les domaines emails utilisés par votre Fournisseur d'identité. AgentConnect redirige automatiquement l'utilisateur vers le Fournisseur d'Identité qui gère ce domaine.\r\nPar exemple : un utilisateur entre son email jean.dupont@insee.fr, il est redirigé par AgentConnect vers le fournisseur d'identité opéré par l'INSEE.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'implémentation de mon Fournisseur d'Identité a été validée",
+        "description": "Merci d'indiquer ici si votre implémentation AgentConnect a été validée par un membre de notre équipe.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Configuration de votre Fournisseur d'Identité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Informations techniques",
+        "description": "Précisez dans cette section l'ensemble des informations techniques de votre plateforme d'intégration. Ces informations sont nécessaires à l'équipe AgentConnect pour configurer votre Fournisseur d'Identité d'intégration. Merci de ne pas renseigner ici des informations de production.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Informations techniques",
+        "description": "Précisez dans cette section l'ensemble des informations techniques de votre plateforme de production. Ces informations sont nécessaires à l'équipe AgentConnect pour configurer votre Fournisseur d'Identité de production.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Utilisez-vous une Discovery URL",
+        "description": "Merci de nous indiquer si votre configuration contient une discovery URL.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Discovery URL Internet",
+        "description": "Renseignez ici la liste la Discovery URL Internet de votre Fournisseur d'Identité.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Discovery URL RIE",
+        "description": "Renseignez ici la liste la Discovery URL RIE de votre Fournisseur d'Identité.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Discovery URL Internet",
+        "description": "Renseignez ici la liste la Discovery URL Internet de  votre Fournisseur d'Identité.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Discovery URL RIE",
+        "description": "Renseignez ici la liste la Discovery URL RIE de votre Fournisseur d'Identité.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Issuer URL Internet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Issuer URL RIE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Issuer URL Internet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Issuer URL RIE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "JWKS URL Internet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "JWKS URL RIE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "JWKS URL Internet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "JWKS URL RIE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Token URL Internet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Token URL RIE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Token URL Internet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Token URL RIE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "UserInfo URL Internet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "UserInfo URL RIE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "UserInfo URL Internet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "UserInfo URL RIE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Authorization URL Internet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Authorization URL RIE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Authorization URL Internet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Authorization URL RIE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Logout URL Internet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Logout URL RIE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Logout URL Internet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Logout URL RIE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Client ID Internet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Client ID RIE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Client ID Internet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Client ID RIE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Client Secret",
+        "description": "Merci de transmettre le client_secret associé au client_id via notre outil de partage sécurisé privatebin :\r\n\r\n- se rendre sur https://privatebin.dev-franceconnect.fr/\r\n- coller le client_secret dans le champ texte prévu à cet effet \r\n- transmettre l'url qui a été généré à support.partenaires@agentconnect.gouv.fr en précisant dans l'objet du mail le nom de votre fournisseur d'identité",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Algorithme de signature Internet",
+        "description": "Renseignez ici l'Algorithme utilisé pour la signature des jetons id token et userinfo Internet.",
+        "required": true,
+        "options": [
+          "ES256",
+          "RS256",
+          "HS256"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Algorithme de signature RIE",
+        "description": "Renseignez ici l'Algorithme utilisé pour la signature des jetons id token et userinfo RIE.",
+        "required": true,
+        "options": [
+          "ES256",
+          "RS256",
+          "HS256"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Algorithme de signature Internet",
+        "description": "Renseignez ici l'Algorithme utilisé pour la signature des jetons id token et userinfo Internet.",
+        "required": true,
+        "options": [
+          "ES256",
+          "RS256",
+          "HS256"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Algorithme de signature RIE",
+        "description": "Renseignez ici l'Algorithme utilisé pour la signature des jetons id token et userinfo RIE.",
+        "required": true,
+        "options": [
+          "ES256",
+          "RS256",
+          "HS256"
+        ],
+        "otherOption": false
+      }
+    ]
+  }
+}

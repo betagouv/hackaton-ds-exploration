@@ -1,0 +1,575 @@
+{
+  "number": 3333,
+  "title": "AGIR14-formation",
+  "description": "Accompagnement Global pour l'Intégration des Réfugiés - Base école\n\n\n\n\n",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2018-04-11T14:52:56+02:00",
+  "service": null,
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/30c217d9-0cd3-45c0-b3d0-94a8e6be828b",
+  "dpoUrl": null,
+  "noticeUrl": "",
+  "siteWebUrl": "http://www.calvados.gouv.fr",
+  "cadreJuridiqueUrl": null,
+  "logo": {
+    "filename": "procedure-266d0d23-bbb5-458b-953c-bff63fe4e81f.jpg",
+    "checksum": "rpDguQMepooM+nmaWRZ91Q==",
+    "byteSize": "23215",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 3,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Cartographie",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Bénéficiaire de l'action",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom",
+        "description": "Nom",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "prénom",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "Date de naissance jj/mm/aaaa",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sexe",
+        "description": "masculin, féminin",
+        "required": false,
+        "options": [
+          "masculin",
+          "féminin"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Nationalité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "N°CIR",
+        "description": "N°de CIR (OFII)",
+        "required": false
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "N°AGDREF",
+        "description": "N° AGDREF",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date entrée en France",
+        "description": "Date entrée en france",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'obtention du statut",
+        "description": "Date d'obtention du statut",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Programme de rattachement",
+        "description": "Relocalisé\r\nRéinstallé",
+        "required": false,
+        "options": [
+          "Relocalisé ou sortant d'un dispositif local",
+          "Réinstallé"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Statut du ménage",
+        "description": "statut du ménage",
+        "required": false,
+        "options": [
+          "Personne isolée",
+          "Marié ou Pacsé",
+          "Divorcé"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Composition familiale",
+        "description": "Nombre et date de naissance des enfants",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Existence d'un projet de réunification ou regroupement familial",
+        "description": "Projet de regroupement familial",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Elaboration du projet individuel",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Structure chargée de l'organisme",
+        "description": "Organisme chargé du suivi de la personne",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Coordonnées du référent",
+        "description": "Coordonnées et mél du référent chargé du suivi",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début de suivi",
+        "description": "Date de début de suivi de la personne",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'entrée dans le programme",
+        "description": "Date d'entrée dans le programme d'intégration",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Niveau scolaire",
+        "description": "Niveau scolaire dans le pays d'origine",
+        "required": false,
+        "options": [
+          "primaire",
+          "secondaire",
+          "universitaire"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Diplômes obtenus dans le pays d'origine",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Permis de conduire pays d'origine",
+        "description": "Dans le pays d'origine",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Permis de conduire en France",
+        "description": "En France",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Volet linguistique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Langue maternelle",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Langue étrangère",
+        "description": "Langue étrangère autre que le français",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Maîtrise du Français",
+        "description": "A remplir par un agent de l'OFII - Communication parlée",
+        "required": false,
+        "options": [
+          "Difficile",
+          "Facile",
+          "Francophone"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Maîtrise du Français écrit",
+        "description": "A remplir par un agent de l'OFII - Communication écrite",
+        "required": false,
+        "options": [
+          "Difficile",
+          "Facile",
+          "Francophone"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Besoin d'un interprete?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Nature des cours de Français suivis:",
+        "description": "",
+        "required": false,
+        "options": [
+          "Aucun",
+          "Formation en cours",
+          "Formation achevée"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Organisme de formation",
+        "description": "Description de l'organisme",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Formation",
+        "description": "Précisez le type de formation, le niveau et la durée",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Besoin de formation complémentaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Volet emploi",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Projet professionel",
+        "description": "Pays d'origine",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Qualification obtenue",
+        "description": "Pays d'origine",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Profession exercée",
+        "description": "Pays d'origine",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Expérience professionelle acquise",
+        "description": "Pays d'origine",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Démarches entreprises en France",
+        "description": "Les démarches auprès de pôle emploi ou des missions locales",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identifiant pôle emploi",
+        "description": "N° pôle emploi",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identifiant mission locale",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Emploi antérieur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Projet professionel",
+        "description": "Décrire en quelques lignes le projet professionnel",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Secteurs d'activité à privilégier",
+        "description": "préciser le ou les secteurs d'activité souhaités",
+        "required": false,
+        "options": [
+          "A-agriculture,pêche, espaces naturels",
+          "B-Arts et faconnage d'ouvrages d'arts",
+          "C-Banque, assurance, immobilier",
+          "D-Commerce, vente",
+          "E-Communication, médias",
+          "F-Construction, BTP",
+          "G-Hotellerie, restauration, tourisme",
+          "H-Industrie",
+          "I-Installation et maintenance",
+          "J-santé"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Volet emploi à remplir par l'administration",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Employeurs potentiels",
+        "description": "A remplir par l'administration avec coordonnées ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pré-requis necessaires",
+        "description": "Administration",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Formation complémentaire proposée",
+        "description": "Administration",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'entrée en formation",
+        "description": "Administration",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de fin de formation",
+        "description": "Administration",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de contrat de travail proposé",
+        "description": "type de contrat",
+        "required": false,
+        "options": [
+          "CDD",
+          "CDI",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de contrat signé",
+        "description": "",
+        "required": false,
+        "options": [
+          "CDD",
+          "CDI",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de signaturedu contrat",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de fin de contrat",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Fin de contrat motif lié à la nature du contrat?",
+        "description": "Fin de contrat",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Motif lié à l'employeur",
+        "description": "préciser",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Motif lié au salarié",
+        "description": "Préciser",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Volet logement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Mode de logement ou d'hébergement actuel",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Mode d'hébergement",
+        "description": "Nom et adresse de la structure d'hébergement",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Mode de logement",
+        "description": "Nom et adresse de la structure de logement",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Logement recherché",
+        "description": "Démarches entreprises, n°unique départemental et propositions",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Démarches entreprises",
+        "description": "Démarches en cours auprès de bailleurs",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Numéro unique départemental",
+        "description": "NUD",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Propositions en cours",
+        "description": "Proposition de logements?",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du bailleur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Complément apporté",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Capacité d'autonomie de la personne",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Existence de freins à l'insertion sociale",
+        "description": "insertion sociale comme professionelle",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Problématique de santé",
+        "description": " A prendre en compte dans le cadre du projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Handicap reconnu",
+        "description": "à Préciser",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Demande de reconnaissance de handicap",
+        "description": "En cours",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du dépot de dossier MDPH",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Etat des démarches administratives",
+        "description": " CAF CPAM RSA ...",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "N° allocataire CAF",
+        "description": "numéro d'allocataire CAF",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de fin de la PUMA",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du contrat d'insertion RSA",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Autres observations utiles",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autres observations utiles:",
+        "description": "Veuillez saisir d'autres informations non présentes dans le formulaire. ( poste que la personne ne pourrait pas tenir)",
+        "required": false
+      }
+    ]
+  }
+}

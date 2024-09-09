@@ -1,0 +1,189 @@
+{
+  "number": 61011,
+  "title": "Relevé d'index en cours de sécheresse - seuil d'alerte renforcée",
+  "description": "Relevé d'index en cours de sécheresse - seuil d'alerte renforcée",
+  "tags": [
+    "Chasse",
+    "Environnement",
+    "Animaux",
+    "Tirs"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2022-06-14T08:41:17+02:00",
+  "service": {
+    "nom": "Service Environnement et Littoral DDTM 80",
+    "organisme": "DDTM 80",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/releve-d-index-alerte-renforcee-secheresse-2022",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.somme.gouv.fr/Politiques-publiques/Environnement/Eau-assainissement-et-milieux-aquatiques/Gestion-de-la-ressource-en-eau/Secheresse-et-irrigation",
+  "cadreJuridiqueUrl": "http://www.somme.gouv.fr/Politiques-publiques/Environnement/Eau-assainissement-et-milieux-aquatiques/Gestion-de-la-ressource-en-eau/Secheresse-et-irrigation",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 9,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "RELEVE DES INDEX AU STADE D'ALERTE RENFORCEE",
+        "description": "Transmission des consommations aux services de l’État, pour attribution du volume restant à prélever.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "I - Informations générales",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de PACAGE",
+        "description": "Pacage",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": "tél",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse e-mail",
+        "description": "e-mail",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "II - Point de captage concerné",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Référence DDTM de l'ouvrage",
+        "description": "Ce numéro est rappelé dans le mail. Il comporte de un à quatre chiffres.",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune d'implantation de l'ouvrage",
+        "description": "Adresse de l'ouvrage",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Zone d'alerte",
+        "description": "Merci d'indiquer le bassin-versant sur lequel l'ouvrage est situé.",
+        "required": true,
+        "options": [
+          "1 - Authie",
+          "2 - Maye",
+          "3 - Nièvre-Hallue",
+          "4 - Ancre",
+          "5 - Somme-Amont",
+          "6 - Avre",
+          "7 - Selle",
+          "8 - Somme-Aval",
+          "9 - Bresle"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "III - Relevé du compteur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Index en début de campagne",
+        "description": "index en début de saison (en m3)",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Index à la date de prise de l'arrêté d'alerte renforcée sécheresse",
+        "description": "index du jour (en m3)",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Volume consommé en 2022",
+        "description": "Différence entre l'index du jour et l'index en début d'année 2022 (en m3)",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous changé de compteur depuis votre dernière déclaration?",
+        "description": "Si non passez directement au chapitre V\n",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IV - En cas de changement de compteur dans l'année",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du changement de compteur",
+        "description": "Uniquement si concerné",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Index de l'ancien compteur lors de sa dépose (en m3)",
+        "description": "Uniquement si concerné",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Volume consommé sur l'ancien compteur en 2022 (en m3)",
+        "description": "Uniquement si concerné",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "La prise en compte de votre changement de compteur sera effective dès que vous aurez fourni le justificatif.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de dépose et pose de compteur",
+        "description": "Photo, fichier PDF...",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IV - Commentaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Libre d'écriture",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je déclare ces informations exactes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Poursuite de l'irrigation",
+        "description": "Après dépôt de votre dossier, la DDTM vous indiquera par mail le volume restant à consommer dans les meilleurs délais. ",
+        "required": false
+      }
+    ]
+  }
+}

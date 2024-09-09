@@ -1,0 +1,187 @@
+{
+  "number": 77138,
+  "title": "Registre de capture et de cession de grenouilles rousses 2024",
+  "description": "Enregistrement des captures et cessions  conformément à l'arrêté ministériel du arrêté ministériel du 8 janvier 2021 fixant la liste des amphibiens et des reptiles représentés sur le territoire métropolitain protégés sur l’ensemble du territoire national et les modalités de leur protection.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2024-02-01T10:07:07+01:00",
+  "service": {
+    "nom": "DREAL Bourgogne-Franche-Comté",
+    "organisme": "DREAL, Service Biodiversité Eau Patrimoine",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/registre-ranaculture-2024",
+  "dpoUrl": "https://www.bourgogne-franche-comte.developpement-durable.gouv.fr/IMG/pdf/202208_rgpd_ranaculture_cle0d5189.pdf",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.bourgogne-franche-comte.developpement-durable.gouv.fr/ranaculture-registre-electronique-de-capture-et-d-a8853.html",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/LEGIARTI000043118100/2021-02-12/",
+  "logo": {
+    "filename": "logo1.jpg",
+    "checksum": "NpmhCz7d4t8X82O+p7g6Fg==",
+    "byteSize": "104528",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 862,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Comment remplir le registre",
+        "description": "- le registre électronique doit être tenu à jour toutes les 48h maximum ;\r\n- lors de la première saisie, bien déposer le dossier ;\r\n- Démarches-Simplifiées envoie un message de confirmation (vérifier les \"indésirables\" en cas de non-réception) contenant le lien vers le dossier déposé ;\r\n- il suffira ensuite de reprendre ce lien pour enregistrer toutes les informations de la campagne 2024 sous ce même dossier :\r\n=> cliquer sur \"accéder à votre dossier\",\r\n=> modifier le dossier (bouton en haut à droite)\r\n=> ajouter les dates ( cliquer sur le bouton \"Ajouter un élément pour Date\"),\r\n=> \"déposer les modifications\".",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité du pétitionnaire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "code de l'arrêté",
+        "description": "référence  de l'arrêté  préfectoral d'autorisation d'utilisation. Ce code est indiqué article 6  paragraphe 3.",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune de la zone de prélèvement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Registre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Rappel",
+        "description": "Les relevés de nasses étant quotidiens, il convient de saisir tous les jours de relevé, même lorsque les captures sont à 0.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Date",
+        "description": "Ajoutez un nouvel élément (bouton  pour chaque jour d'activité ",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Capture",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Nombre d'engins",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Nombre de grenouilles capturées",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Nombre de grenouilles mortes",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Nombre de grenouilles relâchées dans le milieu naturel",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Remise dans la zone de prélèvement d'oeuf et/ou de tétards",
+            "description": "Ne sont autorisées que les remises à l'eau d'œufs et de têtards issus des grenouilles de la zone de prélèvement.",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Utilisation non-commerciale",
+            "description": "Utilisation à des fins de consommation personnelle (la date correspond à la mise à mort)",
+            "required": true
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Nombre de grenouilles utilisées non-commercialement",
+            "description": "Rappel : cette utilisation correspond à une consommation personnelle/familiale ne pouvant être supérieure à 1500 grenouilles.",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Utilisation commerciale (y compris vente)",
+            "description": "La date correspond à la cession ou à la vente.",
+            "required": true
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Nombre de grenouille cédées ou vendues",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du client",
+            "description": "nom du particulier ou de la société",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Coordonnées du client",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaire",
+        "description": "Complément d'information que vous souhaitez porter à la connaissance de l'administration.",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Engagement sur l'honneur",
+        "description": "Je certifie sur l'honneur :\r\n- l’exactitude des renseignements fournis dans cette demande,\r\n- détenir les droits d'engager la structure que je représente le cas échéant,\r\n- détenir les droits réels et personnels des plans d’eau sur lesquels des prélèvements peuvent être mis en œuvre pendant la durée de validité de la dérogation,\r\n- avoir pris connaissance des conditions relatives au traitement de mes données (RGPD :https://www.bourgogne-franche-comte.developpement-durable.gouv.fr/IMG/pdf/202208_rgpd_ranaculture_cle0d5189.pdf)",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "RAPPEL",
+        "description": "N'oubliez pas de déposer votre dossier dès la première déclaration !",
+        "required": false
+      }
+    ]
+  }
+}

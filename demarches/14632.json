@@ -1,0 +1,679 @@
+{
+  "number": 14632,
+  "title": "Signalement logement insalubre Martinique",
+  "description": "Permettre à des locataires d'identifier à partir de ce formulaire les principaux désordres présents dans leurs logements.\r\n\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2019-04-30T15:33:28+02:00",
+  "service": {
+    "nom": "DEAL Martinique / SLVD",
+    "organisme": "Ministère de la Transition écologique et solidaire",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/5cb4a9ee-6663-4639-b8a9-6c5c0abd82c6",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.martinique.developpement-durable.gouv.fr/logement-ville-durable-r89.html",
+  "cadreJuridiqueUrl": "",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 8,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Renseignements généraux (occupant, logement)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": true,
+        "options": [
+          "Madame",
+          "Monsieur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Code postal",
+        "description": "",
+        "required": true,
+        "options": [
+          "97200",
+          "97211",
+          "97212",
+          "97213",
+          "97214",
+          "97215",
+          "97216",
+          "97217",
+          "97218",
+          "97220",
+          "97221",
+          "97222",
+          "97223",
+          "97224",
+          "97225",
+          "97226",
+          "97227",
+          "97228",
+          "97229",
+          "97230",
+          "97231",
+          "97232",
+          "97233",
+          "97234",
+          "97240",
+          "97250",
+          "97260",
+          "97270",
+          "97280",
+          "97290"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Ville",
+        "description": "",
+        "required": true,
+        "options": [
+          "Basse Pointe",
+          "Case Pilote",
+          "Ducos",
+          "Fonds-Saint-Denis",
+          "Fort-de-France",
+          "Grand'Rivière",
+          "Gros-Morne",
+          "L'Ajoupa Bouillon",
+          "La Trinité",
+          "Le Carbet",
+          "Le Diamant",
+          "Le François",
+          "Le Lamentin",
+          "Le Lorrain",
+          "Le Marigot",
+          "Le Marin",
+          "Le Morne-Rouge",
+          "Le Morne-Vert",
+          "Le Prêcheur",
+          "Le Robert",
+          "Le Vauclin",
+          "Les Anses-d'Arlet",
+          "Les trois Ilets",
+          "Macouba",
+          "Rivière-Pilote",
+          "Rivière-Salée",
+          "Saint-Esprit",
+          "Saint-Joseph",
+          "Saint-Pierre",
+          "Saint-Anne",
+          "Sainte-Luce",
+          "Sainte-Marie",
+          "Schoelcher"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Téléphone domicile",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Téléphone portable",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Email",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Vous êtes :",
+        "description": "",
+        "required": true,
+        "options": [
+          "Locataire",
+          "Sous-locataire",
+          "Occupant sans titre",
+          "Hébergé à titre gracieux",
+          "Autres"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Composition des membres du logement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre d'adultes :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre d'enfants :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Années de naissance :",
+        "description": "(Séparer par une barre oblique les années de naissance, ex: 2001/2009/2015)",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Êtes-vous  allocataire de la CAF ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre logement",
+        "description": "",
+        "required": false,
+        "options": [
+          "Appartement",
+          "Maison individuelle",
+          "Autres"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Logement HLM",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, précisez le nom de l'organisme HLM",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Typologie du logement",
+        "description": "",
+        "required": false,
+        "options": [
+          "studio",
+          "T2",
+          "T3",
+          "T4",
+          "T5"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Surface approximative en m2",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Etage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de signature du bail",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'entrée dans les lieux :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Montant du loyer sans les charges :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Montant des charges :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Entretien du bâtiment, des parties communes et des abords (défauts apparents) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Eclairage suffisant (entrée, escalier)",
+        "description": "",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas",
+          "Sans objet"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Présence d'éléments instables",
+        "description": "(gouttières, volet, tuile, balcon....)",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Nuisances (déchets, encombrants, terrain non-entretenu, squat,...)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Présence d'éléments dégradés",
+        "description": "(marches d'escalier affaissées, rampes instables, fil électrique apparent,...)",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Habitabilité du logement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre logement est aménagé dans une pièce totalement ou partiellement enterrée :",
+        "description": "(cave, sous-sol)",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez si particularité du logement :",
+        "description": "(local commercial, garage, mobil-home...)",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Y-a-t'il des pièces principales ne disposant pas de fenêtres vitrées donnant sur l'extérieur ?",
+        "description": "(séjour, chambre, salon)",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Allume-t'on l'électricité en journée ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Une des pièces principales fait au moins 9m2 de surface ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La hauteur sous plafond des pièces principales fait au moins 2,20 m ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les toilettes sont :",
+        "description": "",
+        "required": false,
+        "options": [
+          "à l'intérieur",
+          "à l'extérieur",
+          "absente"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Il y a une salle d'eau/salle de bain ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Il y a une cuisine ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quel est l'état des revêtements des planchers ou plafonds ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "Bon",
+          "Mauvais",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quel est l'état des menuiseries extérieures ?",
+        "description": "(Fenêtre, volet, porte d'entrée)",
+        "required": false,
+        "options": [
+          "Bon",
+          "Mauvais",
+          "Je ne sais"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Equipement du logement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "\"Eau\"",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le réseau est-il alimenté en eau potable ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Humidité : Présence d'humidité /moisissure",
+        "description": "",
+        "required": false,
+        "options": [
+          "oui",
+          "non",
+          "je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Absence ou vetusté du compteur individuel ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Raccordement à l'assainissement public ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Remontées des eaux usées",
+        "description": "(odeurs)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "\"Réseau électrique\"",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Absence ou vetusté du tableau électrique",
+        "description": "",
+        "required": false,
+        "options": [
+          "oui",
+          "non",
+          "je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Absence ou vetusté du compteur individuel",
+        "description": "",
+        "required": false,
+        "options": [
+          "oui",
+          "non",
+          "je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Présence de fils électriques apparents",
+        "description": "",
+        "required": true,
+        "options": [
+          "oui",
+          "non",
+          "je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Inssufisance de prises fonctionnelles ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "oui",
+          "non",
+          "je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Propriétaire / Gestionnaire du logement ou de l'immeuble / Syndicat de co-propriété",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Gestionnaire du logement ou propriétaire :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Démarches engagées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'occupant a-t-il informé son propriétaire ou gestionnaire des désordres ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser :",
+        "description": "(Courrier avec A/R, mail, ...)",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous eu une réponse de votre propriétaire ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'occupant a-t-il engagé une démarche de relogement ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'occupant accepte que son logement fasse  l'objet d'une enquête de salubrité ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, précisez :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "\"Nuisibles\"",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Présence de rongeurs, insectes",
+        "description": "(cafards, souris, punaises de lit, mites, termites...)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Divers observations :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Déclarant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Téléphone :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Mail :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie avoir vérifier toutes les données saisies afin de faciliter le traitement de ma demande.",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

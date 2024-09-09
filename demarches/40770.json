@@ -1,0 +1,282 @@
+{
+  "number": 40770,
+  "title": "GDB - Demande de mutation de régime de Sécurité Sociale",
+  "description": "Formulaire en ligne de demande de mutation dans le cadre d'une évolution de situation entraînant un changement de régime de Sécurité Sociale.\r\n\r\nPour une connexion simple et pratique, utilisez la connexion France-Connect.\r\n",
+  "tags": [
+    "Professionnels de santé"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2021-03-04T09:19:36+01:00",
+  "service": {
+    "nom": "Caisse Primaire d'Assurance Maladie - Pôle assuré",
+    "organisme": "CPAM ",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/gestion-des-beneficiaires-demande-de-mutation-de-r",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "declic.cpam50.fr",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/",
+  "logo": {
+    "filename": "revu Manche_Logo_Nov.2020_CMJN jpg.png",
+    "checksum": "LX4Bt+jQLVXJOcbn/1bFmQ==",
+    "byteSize": "917811",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 170,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande de mutation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le formulaire de demande de mutation doit être utilisé en cas d'évolution de votre situation entraînant un changement de régime de Sécurité sociale. Cette démarche n'est pas nécessaire si vous devez être rattaché(e) au régime agricole. En effet, dans ce cas, un dispositif spécifique existe qui entraîne un rattachement direct.",
+        "description": "Il convient de le compléter et de le retourner à votre nouvelle caisse d'assurance maladie accompagné d'une photocopie d'une pièce d'identité ou d'un titre de séjour (en cours de validité) et d'un relevé d'identité bancaire (n° IBAN) établi à vos nom et prénom(s).\n\nLes agents de la Fonction Publique doivent joindre aussi :\n\n> Pour les fonctionnaires : un arrêté de stage, de nomination ou d'affectation.\n> Pour les contractuels/vacataires : une copie du contrat de travail.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'assuré(e)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "A quelle Caisse primaire d'assurance maladie souhaitez-vous être rattaché/affilié ?",
+        "description": "Indiquez le département de votre Caisse Primaire d'Assurance Maladie",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Votre n° de sécurité sociale",
+        "description": "Saisir les 15 chiffres sans espace",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Vos nom et prénom(s) :",
+        "description": "(Nom de famille (de naissance) suivi du nom d'usage (facultatif et s'il y a lieu) ; prénoms dans l'ordre de l'état civil)\n(Si vous êtes artiste auteur et que vous utilisez un pseudonyme, précisez-le après votre nom de famille)",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Votre date de naissance",
+        "description": "Format jj/mm/aaaa",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune de naissance",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Pays de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Votre adresse actuelle",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Votre n° de téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre ancienne situation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Organisme auprès duquel vous perceviez vos prestations de Sécurité Sociale :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Bénéficiez-vous d'une pension d'invalidité ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Bénéficiez-vous d'une rente accident du travail/maladie professionnelle ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre nouvelle situation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Indiquez la date de changement de votre situation",
+        "description": "Format jj/mm/aaaa",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Indiquez votre situation professionnelle",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre situation",
+        "description": null,
+        "required": true,
+        "options": [
+          "Salarié(e) du régime général",
+          "Sans activité",
+          "Agent de la Fonction Publique"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si Agent de la Fonction Publique",
+        "description": "Indiquez votre situation",
+        "required": false,
+        "options": [
+          "Agent de la Fonction Publique d'Etat",
+          "Agent de la Fonction Publique Territoriale",
+          "Agent de la Fonction Publique Hospitalière"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quel est votre statut",
+        "description": "",
+        "required": false,
+        "options": [
+          "Fonctionnaire titulaire",
+          "Fonctionnaire stagiaire",
+          "Contractuel/vacataire",
+          "Autre (à préciser ci-dessous)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si, autre en tant qu'agent de la Fonction Publique",
+        "description": "Merci de préciser",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Ministère employeur :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Profession :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et adresse du service ou de l'établissement d'exercice :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Autre situation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si votre situation ne correspond pas à celles figurant ci-dessus, veuillez préciser votre nouvelle situation (par exemple : artiste-auteur, élu local, praticien ou auxiliaire médical conventionné...) :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Attestation sur l'honneur à compléter par l'assuré(e)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "L'assuré(e) identifié(e) ci-dessus, atteste sur l'honneur l'exactitude de l'ensemble des renseignements fournis dans ce dossier.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Fait à",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Le",
+        "description": "format jj/mm/aaaa",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vos justificatifs",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déposez votre dernier bulletin de salaire",
+        "description": "Ceci est une pièce obligatoire",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déposez vos pièces justificatives",
+        "description": "exemple : RIB, pièces d'identité,....",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "IMPORTANT :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "- si vous êtes polyactif ou polypensionné et que vous souhaitez exercer un droit d'option pour un autre régime que celui auquel vous êtes actuellement rattaché, veuillez compléter un formulaire 758 CNAM.",
+        "description": "Ce formulaire est téléchargeable sur \n- www.ameli.fr \n- auprès de votre caisse\n- disponible en ligne https://www.demarches-simplifiees.fr/commencer/droit-d-option-aupres-du-rgm-competent-frais-sante",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "- si vous avez des enfants mineurs à votre charge, veuillez compléter un formulaire S3705,",
+        "description": "Ce formulaire est téléchargeable sur www.ameli.fr ou à demander à votre caisse.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "----------------------",
+        "description": "La loi rend passible d'amende et/ou d'emprisonnement quiconque se rend coupable de fraudes ou de fausses déclarations en vue d'obtenir ou de faire obtenir des avantages indus (articles 313-1 à 313-3, 433-19, 441-1 et suivants du Code pénal).\n\nEn outre, l'inexactitude, le caractère incomplet des déclarations ou l'absence de déclaration d'un changement de situation dans le but d'obtenir ou de faire obtenir des prestations indues, peuvent faire l'objet d'une pénalité financière en application de l'article L. 114-17-1 du Code de la sécurité sociale.\n\nL'organisme d'assurance maladie peut, à tout moment, procéder à des opérations de contrôle en vous demandant les pièces justificatives de votre situation (articles L. 114-10-3 et L. 161-1-4 du Code de la sécurité sociale).\n\nLa loi n° 78-17 du 6 janvier 1978 modifiée relative à l'informatique, aux fichiers et aux libertés s'applique aux réponses faites sur ce formulaire. Elle garantit un droit d'accès et de rectification pour les données vous concernant auprès de votre organisme d'assurance maladie.",
+        "required": false
+      }
+    ]
+  }
+}

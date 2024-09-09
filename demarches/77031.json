@@ -1,0 +1,109 @@
+{
+  "number": 77031,
+  "title": "Bilan destruction à tir des pigeons ramiers",
+  "description": "Le pigeon ramier ou palombe (Columba palumbus) est une espèce commune de la famille des colombidés qui peut causer des dégâts considérables aux cultures, notamment pendant la période des semis de printemps ou juste avant la récolte de céréales. \r\nDans le département de l'Ariège, un arrêté préfectoral  classe le pigeon ramier comme « susceptible d’occasionner des dégâts » sur les communes classées en zone de plaine. \r\n Dans ce cadre-là, la destruction à tir du pigeon ramier peut être autorisée après demande et obtention d'une autorisation individuelle de destruction délivrée par le préfet. \r\nA la suite des actions de la destruction, le bénéficiaire d'une autorisation doit établir le bilan des prélèvements effectués. S'il a bénéficié de plusieurs autorisations, il doit établir un bilan par autorisation.",
+  "tags": [
+    "Chasse"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2023-06-15T12:10:50+02:00",
+  "service": {
+    "nom": "Service environnement - risques",
+    "organisme": "DDT d'Ariège",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/bilan-destruction-pigeon-ramier-09",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Environnement-biodiversite/Chasse/Pigeon-ramier",
+  "cadreJuridiqueUrl": "Site de la Préfecture de l'Ariège",
+  "logo": {
+    "filename": "Logo.jpg",
+    "checksum": "oGk1GD3Zju/KWj13dyeH2A==",
+    "byteSize": "13033",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 16,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Je soussigné (identification du bénéficaire de l'autorisation)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de l'autorisation préfectorale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Indiquer ici votre numéro de téléphone",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Bilan des tirs",
+        "description": "Il est demandé de donner un bilan  même en cas de bilan nul, dans ce cas indiquer 0 pour l'espèce.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom des tireurs",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune d'intervention",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de pigeons prélevés",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Incidents et/ou observations",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Bilan des tirs",
+        "description": "Je certifie sur l'honneur l’exactitude des données transmises.",
+        "required": true
+      }
+    ]
+  }
+}

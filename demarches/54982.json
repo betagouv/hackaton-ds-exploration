@@ -1,0 +1,881 @@
+{
+  "number": 54982,
+  "title": "Transmission centralisée des données de fonctionnement des méthaniseurs en service en région Ile-de-France",
+  "description": "Ce formulaire a été conçu par les services de l’Etat (DRIEAT, DRIAAF), la Région Ile-de-France, la Direction Régionale de l’ADEME et l’Institut Paris-Région (Observatoire Régional des Déchets [ORDIF] et Agence Régionale Énergie-Climat [AREC])\r\nIl permet de répondre aux objectifs suivants:\r\n•\trépondre à l’obligation de transmettre à la DRIEAT un bilan annuel de fonctionnement pour les bénéficiaires des dispositifs d’obligation d’achat ou de complément de rémunération de l’électricité ou du biométhane produit, tout en homogénéisant le contenu des bilans ;\r\n•\trépondre à l’obligation de transmission de données annuelles d’exploitation aux financeurs (ADEME, Région Ile-de-France) pour les bénéficiaires d’aides régionales à l’investissement ;\r\n•\tsimplifier et faciliter la transmission des données utiles aux services de l’État dans l’exercice de leurs missions ;\r\n•\tcontribuer au suivi de la filière et des objectifs fixés par les différents plans et schémas régionaux, à l’alimentation des systèmes d’information dédiés au suivi du développement de la méthanisation ;\r\n•\tacquérir des connaissances et suivre chaque année les installations en fonctionnement, leurs intrants et leurs productions d’énergie, en y intégrant également les enjeux environnementaux ;\r\n•\tcontribuer à l’accompagnement de la filière régionale, notamment, en capitalisant des données réelles objectives, ce qui est favorable à l’acceptabilité sociale des projets, et en orientant des actions d’information, formation et/ou sensibilisation.\r\n",
+  "tags": [
+    "Environnement"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2022-02-22T09:13:31+01:00",
+  "service": {
+    "nom": "Service Énergie Bâtiment",
+    "organisme": "DRIEAT Ile-de-France",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/bilan-methanisation",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.driee.ile-de-france.developpement-durable.gouv.fr/energies-renouvelables-et-de-recuperation-a3432.html",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "logo partenaires.jpg",
+    "checksum": "NjFmYimasX/ZxUa39wgo7g==",
+    "byteSize": "38338",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "Note enquête méthanisation.pdf",
+    "checksum": "T+j2ZdAOz305oUI331RAvw==",
+    "byteSize": "175508",
+    "contentType": "application/pdf"
+  },
+  "deliberation": {
+    "filename": "2022_Note enquête méthanisation.pdf",
+    "checksum": "QM6nITSIWRgKKO8Yp6fvUQ==",
+    "byteSize": "275628",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 29,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Aucune des informations et données collectées ne sera communiquée en dehors de l'équipe projet (voir note) de façon individualisée. Seules les données agrégées de l'ensemble des méthaniseurs franciliens pourront faire l'objet d'une diffusion .",
+        "description": "Nous vous invitons à lire la note de présentation du formulaire mentionnant les conditions d'utilisation des données.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations générales sur l'installation de méthanisation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'installation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du référent de l'unité",
+        "description": "Indiquez le prénom et le nom",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction du référent de l'unité",
+        "description": "Indiquer ici la fonction du référent de l'unité. Il doit s'agir de la personne pouvant être recontactée au sujet de ce formulaire.\nEx: Associé en charge de la méthanisation, responsable/gérant de l'unité, directeur des services techniques...",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Téléphone du référent",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Mail de contact",
+        "description": "Privilégier si possible un mail générique non nominatif ",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Nombre total d'emplois pour l'unité de méthanisation",
+        "description": "En équivalent ETP (y compris la gestion et les astreintes)",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Nombre d'emplois pour les prestations externes réalisées par le personnel de l'unité (CIVE, épandage)",
+        "description": "en nombre d'ETP",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Certifications",
+        "description": "Plusieurs choix possibles",
+        "required": false,
+        "options": [
+          "ISO9001",
+          "ISO140001",
+          "ISO50001",
+          "OHSAS18001",
+          "EMAS",
+          "Autre",
+          "Pas de certification"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires éventuels",
+        "description": "Vous pouvez indiquer vos commentaires sur cette partie ou apporter des informations supplémentaires ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations générales sur le process de méthanisation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de mise en service du digesteur",
+        "description": "Renseigner ici la date à laquelle le digesteur a commencé à être alimenté pour lancer le process.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Typologie de l'unité",
+        "description": "A LA FERME : portée par un agriculteur ou un établissement agricole et implantée sur la ferme.\nCOLLECTIF AGRICOLE : porté par au minimum 2 structures agricoles (actionnaires majoritaires).\nTERRITORIALE : porté par une collectivité ou un développeur privé, et traitant les déchets et sous-produits de son rayon d'approvisionnement.\nINDUSTRIELLE : portée par une entreprise pour la valorisation de ses déchets.",
+        "required": false,
+        "options": [
+          "A la ferme",
+          "Collective agricole",
+          "Territoriale (privée ou publique)",
+          "Industrielle",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Process de méthanisation",
+        "description": "Plusieurs choix possibles",
+        "required": false,
+        "options": [
+          "Voie liquide de type infiniment mélangé",
+          "Voie sèche continue de type piston",
+          "Voie sèche discontinue en garage",
+          "Voie sèche discontinue en silos bâchés",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Température de digestion",
+        "description": "Plusieurs choix possibles",
+        "required": false,
+        "options": [
+          "Mésophile",
+          "Thermophile",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Agrément sanitaire de l'installation",
+        "description": "Plusieurs choix possibles - si agrément sanitaire provisoire, sélectionner également la catégorie sur laquelle il porte",
+        "required": false,
+        "options": [
+          "Agrément sanitaire provisoire",
+          "Agrément SPAN cat 2 effluent d'élevage",
+          "Agrément SPAN cat 2 autre que effluent d'élevage",
+          "Agrément SPAN cat 3 DCT",
+          "Agrément SPAN cat 3 autre que DCT",
+          "Autre",
+          "Ne détient pas d'agrément sanitaire"
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'obtention de l'agrément sanitaire",
+        "description": "Le cas échéant",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Capacité réglementaire de l'installation (en t/j)",
+        "description": "En tonnes par jour",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Capacité technique de l'installation (en t/an)",
+        "description": "En t/an",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Données sur les matières entrantes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bilan des intrants",
+        "description": "Veuillez compléter le fichier suivant et de le joindre complété. ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Données agricoles",
+        "description": "Pour les installations sans intrants agricoles, indiquer 0",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface agricole utile fournissant des intrants au méthaniseur (en ha)",
+        "description": "En ha- Indiquer la surface utile agricole en ha exploitée par la ou les exploitation(s) agricole(s) du méthaniseur et de ses partenaires- fournisseurs.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Dont surface de culture intermédiaire à vocation énergétique (CIVE) récoltée sur l'année par la ou les exploitation(s) fournissant l’unité (en ha)",
+        "description": "En ha - Indiquer la surface en hectares de cultures intermédiaires à vocation énergétique introduites dans le méthaniseur dans l'année y compris les CIVE provenant des stocks.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Dont surface de culture alimentaire ou énergétique cultivée à titre de culture principale récoltée sur l'année par la ou les exploitation(s) fournissant l’unité (en ha)",
+        "description": "En ha –  Indiquer la surface en hectares de cultures principales introduites dans l'unité de méthanisation dans l'année (y compris celles provenant des stocks). Si l'unité n'utilise aucune culture principale dans ses intrants, indiquer 0. -  Les prairies permanentes ne sont pas considérées comme des cultures énergétiques dédiées (cultures à des fins d'utilisation énergétique).",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Dont surface de prairie permanente récoltée sur l'année par la ou les exploitation(s) fournissant l’unité (en ha)",
+        "description": "En ha - Indiquer la surface en hectares de prairies permanentes introduites dans l'unité de méthanisation dans l'année (y compris celles provenant des stocks) .",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Dont surface de prairie temporaire récoltée sur l'année par la ou les exploitation(s) fournissant l’unité (en ha)",
+        "description": "En ha - Indiquer la surface en hectares de prairies temporaires introduites dans l'unité de méthanisation dans l'année (y compris celles provenant des stocks) .",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires éventuels",
+        "description": "Vous pouvez indiquer vos commentaires sur cette partie ou apporter des informations supplémentaires ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Valorisation du biogaz produit",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Quantité totale de biogaz produite (en Nm3/an)",
+        "description": "En Nm3 sur l'année",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Mode de valorisation du biogaz produit",
+        "description": "Plusieurs choix possibles - Suivant le ou les modes de valorisation de l'unité, ne remplir que la ou les parties 5,6,7 concernées du questionnaire",
+        "required": false,
+        "options": [
+          "Thermique (y compris pour l'autoconsommation tel que le chauffage du ou des digesteur - hors énergie thermique produite par cogénération)",
+          "Cogénération",
+          "Injection de biométhane",
+          "Autre",
+          "Sans valorisation (Torchère...)"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Présence d'un débitmètre de biogaz",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Modalités de chauffage du ou des digesteurs",
+        "description": "Préciser la ou les modalités de chauffage du ou des digesteurs ",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Teneur moyenne annuelle en CH4 du biogaz",
+        "description": "En % ",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Quantité de biogaz torché (en Nm3/an)",
+        "description": "En Nm3 sur l'année",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Consommation électrique de l’unité (éléments principaux nécessaire à la production, le stockage et l'épuration du biogaz) en kWhe",
+        "description": "En kWhe",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Nombre d'heures de fonctionnement de la torchère (en heures/an)",
+        "description": "en heures/an",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Consommation de gaz naturel fossile en kWh",
+        "description": "En kWh. Hors engins et véhicules. ",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Consommation de produits pétroliers (fioul et essence) de l'unité de méthanisation",
+        "description": "En kWh",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Autoconsommation de biogaz de l'unité de méthanisation",
+        "description": "en kWh/an",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires éventuels",
+        "description": "Vous pouvez indiquer vos commentaires sur cette partie ou apporter des informations supplémentaires ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Valorisation thermique du biogaz produit",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Champs suivants à renseigner pour les installations valorisant tout ou partie du biogaz par combustion directe",
+        "description": "Cette section concerne la valorisation thermique du biogaz (y compris les chaudières uniquement destinées à l'autoconsommation) - hors chaleur générée par cogénérateur\n-\nSi non concerné, passer à la section suivante",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Quantité totale de biogaz consommé par la chaudière (en Nm3/an)",
+        "description": "En Nm3 sur l'année",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Quantité totale d’énergie thermique produite (en kWh)",
+        "description": "En kWh",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Dont énergie thermique autoconsommée pour le process de méthanisation (chauffage du digesteur,...) (en kWh)",
+        "description": "En kWh",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Dont énergie thermique consommée pour la préparation/transformation des intrants (hygiénisation,...) (en kWh)",
+        "description": "En kWh",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Dont énergie thermique consommée pour le traitement du digestat (séchage,...) (en kWh)",
+        "description": "En kWh",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Dont énergie thermique valorisée en interne (pour process industriel…) (en kWh)",
+        "description": "En kWh - Énergie thermique valorisée hors process, traitement des digestats ou préparation/transformation des intrants",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quelle valorisation le cas échéant ?",
+        "description": "Préciser la valorisation du biogaz qui est faite en interne si elle existe.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Dont énergie thermique vendue à un tiers (en kWh)",
+        "description": "En kWh",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires éventuels",
+        "description": "Vous pouvez indiquer vos commentaires sur cette partie ou apporter des informations supplémentaires ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Valorisation par cogénération du biogaz produit",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Champs suivants à renseigner uniquement pour les installations valorisant tout ou partie du biogaz en cogénération",
+        "description": "Si non concerné, passer à la section suivante",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Puissance électrique maximale installée (en kWe)",
+        "description": "En kWe – En cas de plusieurs moteurs, indiquer la somme des puissances unitaires",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Nombre d'heures de fonctionnement du moteur",
+        "description": "Indiquer le nombre d'heures de fonctionnement du moteur sur l'année. Si plusieurs moteurs, faire la moyenne",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Quantité de biogaz consommé en entrée de cogénérateur (en Nm3/an)",
+        "description": "En Nm3 sur l'année",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Énergie électrique utilisée en injection sur le réseau (en kWhe)",
+        "description": "En kWhe - Nette des consommations des auxiliaires des moteurs de cogénération",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Energie électrique utilisée en interne (en kWhe)",
+        "description": "En kWhe - Nette des consommations des auxiliaires des moteurs de cogénération",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Quantité d'énergie thermique produite par le cogénérateur (en kWh)",
+        "description": "En kWh",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Dont chaleur autoconsommée pour les besoins du process (chauffage du digesteur,...) (en kWh)",
+        "description": "En kWh",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Dont chaleur consommée pour la préparation/transformation des intrants (hygiénisation,...) en kWh",
+        "description": "En kWh",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Dont chaleur consommée pour le traitement des digestats produits par l'unité (séchage,...) en kWh",
+        "description": "En kWh",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Dont chaleur valorisée en kWh",
+        "description": "En kWh - Énergie thermique valorisée hors process, traitement des digestats ou préparation/transformation des intrants",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Type de valorisation de la chaleur",
+        "description": "Ex : élevage, séchoir, habitation, entreprise extérieure, équipements communaux...\nSi une partie de cette énergie thermique valorisée hors process, traitement des digestats, ou préparation/transformation des intrants est utilisée pour des besoins qui étaient auparavant satisfaits par une autre source d'énergie non-fossile, le préciser et indiquer la quantité d'énergie correspondante (en kWh).",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Tarif d'achat",
+        "description": "en €/kWh produit",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires éventuels",
+        "description": "Vous pouvez indiquer vos commentaires sur cette partie ou apporter des informations supplémentaires ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Valorisation en injection du biogaz produit",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Champs suivants à renseigner uniquement pour les installations valorisant tout ou partie du biogaz en injection",
+        "description": "Si non concerné, passer à la section suivante",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Capacité maximale (Cmax) figurant actuellement sur le contrat d'achat (En Nm3/h)",
+        "description": "En Nm3/h",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Capacité maximale (Cmax) figurant actuellement sur le contrat d'achat (En GWh/an)",
+        "description": "Ne remplissez ce champ que si votre contrat est libellé en GWh/an",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Quantité de biogaz traité par le système d’épuration (en Nm3/an)",
+        "description": "En Nm3 de biogaz produit dans l'année",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Augmentation de capacité maximale dans l'année",
+        "description": "Le cas échéant, indiquez l'augmentation de  capacité maximale de l'installation obtenue dans l'année (Nm3/an ou en GWh)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Quantité de biométhane injecté sur le réseau par mois",
+        "description": "Remplir le tableau mensuel proposé en pièce jointe sur la période du bilan OU\nTransmettre le fichier de suivi de l'injection issue de GRDF/GRT",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Temps de fonctionnement à débit maximal",
+        "description": "h",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Tarif d'achat",
+        "description": "€/MWh",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Addition de propane ou butane",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires éventuels",
+        "description": "Vous pouvez indiquer vos commentaires sur cette partie ou apporter des informations supplémentaires ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Données sur les digestats sortants",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "8.1. Traitement du digestat",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Quantité de digestat brut produit avant tout traitement ( tMB/an)",
+        "description": "En tMB/an",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Quantités annuelles et compositions des digestats épandus",
+        "description": "Remplir le tableau proposé en pièce jointe sur la période du bilan. Pour la partie relative à la composition, vous pouvez ajouter directement les derniers résultats d'analyse du digestat",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport d'analyses du digestat",
+        "description": "Le cas échéant si vous optez pour cette possibilité au lieu de remplir la partie analyse du tableau",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Taux de MS du digestat brut",
+        "description": "en %",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Séparation de phase",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Part de digestat brut séparée si tout le digestat brut n'est pas séparé",
+        "description": "En %",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Quantité d'eau de dilution ajoutée",
+        "description": "m3/an",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Traitement du digestat brut",
+        "description": "Plusieurs choix possibles",
+        "required": false,
+        "options": [
+          "Compostage",
+          "Évapoconcentration",
+          "Filtration membranaire",
+          "Stripping de l'azote",
+          "Traitement biologique boues activées",
+          "Précipitation de struvite",
+          "Séchage",
+          "Autre",
+          "Aucun traitement"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Traitement du digestat solide séparé",
+        "description": "Plusieurs choix possibles",
+        "required": false,
+        "options": [
+          "Compostage",
+          "Autre",
+          "Aucun traitement"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si autre, précisez le mode de traitement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Traitement du digestat liquide séparé",
+        "description": "Plusieurs choix possibles",
+        "required": false,
+        "options": [
+          "Compostage",
+          "Évapoconcentration",
+          "Filtration membranaire",
+          "Stripping de l'azote",
+          "Traitement biologique boues activées",
+          "Précipitation de struvite",
+          "Séchage",
+          "Autre",
+          "Aucun traitement"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Mode(s) de stockage du digestat brut",
+        "description": "Préciser si stockage(s) couvert(s) ou non et capacité(s) associée(s) (en m3)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Mode(s) de stockage du digestat solide séparé",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Mode(s) de stockage du digestat liquide séparé",
+        "description": "Préciser si stockage(s) couvert(s) ou non et capacité(s) associée(s) (en m3)",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "8.2. Voie de valorisation du digestat",
+        "description": "Renseigner ici la/les section(s) correspondante(s) à la ou les issue(s) du digestat.\n-\n\nIl est possible d'ajouter des blocs d'issues supplémentaires par type de valorisation, en cliquant sur \"ajouter un élément\" ",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Valorisation par un « plan d’épandage » sur parcelle agricole :",
+        "description": "Si non concerné, passer à la section suivante",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Plan d'épandage",
+            "description": "Plusieurs choix possibles - si les autorisations loi sur l'eau sont en cours d'obtention, cocher la case concernée ainsi que la catégorie sur laquelle elles portent",
+            "required": false,
+            "options": [
+              "Traité par connexité avec l'ICPE",
+              "Soumis à Autorisation 2.1.4.0",
+              "Soumis à Déclaration 2.1.4.0",
+              "Autre",
+              "En cours d'obtention"
+            ]
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Superficie totale du plan d’épandage en ha",
+            "description": "En ha",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Surface annuelle épandue en ha",
+            "description": "En ha",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Distance moyenne d'épandage du digestat",
+            "description": "en km",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Existence d'un système de transport du digestat par canalisations (système d'irrigation enterré ou par tuyaux mobiles)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Valorisation comme « matière fertilisante » normée ou homologuée ou conforme à un cahier des charges",
+        "description": "Si non concerné, passer à la section suivante",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Indiquer le nom de la norme ou le numéro d’homologation ministériel ou le cahier des charges",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Volume de produit valorisé tMB/an",
+            "description": "En tMB",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Élimination du digestat",
+        "description": "Le cas échéant\n-\nSi non concerné, passer à la section suivante",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Volume annuel éliminé en tMB/an",
+            "description": "En tMB/an",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de l'incinérateur ou du centre d'enfouissement et commune",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Raisons de l'élimination du digestat",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Equipement(s) utilisé(s) pour l'épandage du digestat liquide ou brut non séparé",
+        "description": "Indiquer le ou les équipement(s) utilisé(s) pour l'épandage du digestat liquide ou brut non séparé",
+        "required": false,
+        "options": [
+          "Tonne",
+          "Pendillards",
+          "Enfouisseur",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Autres flux entrants et sortants",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Déchets reçus non méthanisés et flux sortants hors digestats",
+        "description": "Cette section concerne les flux de déchets reçus mais non méthanisés sur le site ainsi que les flux sortants du site hors digestats en lien avec l'installation\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déchets reçus mais non méthanisés",
+        "description": "Remplir le tableau en pièce-jointe si l'installation a reçu des déchets qu'elle n'a pas méthanisé au cours de l'année écoulée. Cela ne comprend pas les intrants qui constituent le stock d'ensilage intégrés dans le méthaniseur l'année suivante",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Flux sortants et constitution de stocks",
+        "description": "Remplir le tableau en pièce-jointe concernant les flux sortants du site liés à l'installation de méthanisation hors digestats",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires éventuels",
+        "description": "Vous pouvez indiquer vos commentaires sur cette partie ou apporter des informations supplémentaires ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "MERCI ! Si vous le souhaitez, vous pouvez nous faire remonter vos problématiques, suggestions, difficultés dans la partie suivante du questionnaire (facultative)",
+        "description": "Merci ! Vous avez fini de renseigner les champs importants pour nous permettre de mieux connaître le fonctionnement des méthaniseurs en Ile-de-France et nous vous en remercions. Si vous avez encore un peu de temps, nous vous invitons à répondre à la dernière section facultative relative à la vie de votre projet/installation. ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Bilan des émissions de gaz à effet de serre (préparation à REDII)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Quantité d'émissions de gaz à effet de serre évitées par l'installation",
+        "description": "en t eq CO2/an (si connu)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations générales sur la vie du projet",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Afin de mieux connaître les conditions de déploiement de la filière méthanisation, les organismes partenaires de ce formulaire vous proposent de transmettre des informations générales sur la vie de votre projet",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Fonctionnement de l'installation et faits marquants sur l'année écoulée",
+        "description": "Vous pouvez indiquer en quelques mots, si vous le souhaitez, les faits marquants de l'année ainsi que des remarques sur le fonctionnement général de l'installation sur l'année. Ex: incidents, nouveaux équipements, nouveau personnel embauché, formations suivies, projets à venir, nouvel arrêté préfectoral...",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Remarques sur le questionnaire",
+        "description": "Ce champ est libre, vous pouvez ici formuler toutes vos remarques sur ce questionnaire",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le renseignement du formulaire est terminé.",
+        "description": "L'ensemble des organismes partenaires de cette démarche vous remercie pour votre contribution.",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,522 @@
+{
+  "number": 47423,
+  "title": "Demande d'agrément comme centre de certification Pix",
+  "description": "Cette démarche est destinée aux structures souhaitant obtenir l'agrément pour être centre de certification Pix.",
+  "tags": [
+    "Agrément"
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2021-09-28T18:11:08+02:00",
+  "service": {
+    "nom": "Agrément des centres de certification",
+    "organisme": "Pix",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-agrement-centre-certification-pix",
+  "dpoUrl": "dpo@pix.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://cloud.pix.fr/s/Pmiien8DNjnNAr9",
+  "cadreJuridiqueUrl": "https://pix.fr/dp-formulaire-demande-agrement/",
+  "logo": {
+    "filename": "logo-pix-couleur.png",
+    "checksum": "zFBWLVNC3hTXxakAZRLMMg==",
+    "byteSize": "17786",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "Notice explicative de la démarche de demande d'agrément individuelle - Démarches simplifiées .pdf",
+    "checksum": "fmG1KPkL7XfllSHlPMxkzw==",
+    "byteSize": "66173",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 231,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Demande d'agrément comme centre de certification Pix",
+        "description": "Ce formulaire permet à une organisation de faire une demande d’agrément comme centre de certification Pix. Cette demande doit être faite par une personne mandatée par la gouvernance ou la direction de l'organisation.\r\n\r\nUn délai d'environ deux mois est à prévoir entre le moment du dépôt de votre dossier et la possibilité d'organiser vos premières sessions de certification Pix.\r\n\r\n\r\nCe délai comprend notamment l'analyse de votre dossier, sa validation en interne devant un jury, l'envoi et la signature de la convention d'agrément.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1 - Informations générales sur l'organisation candidate",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1.1 - Identification",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom complet de l'organisation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code UAI si approprié (Unité Administrative Immatriculée)",
+        "description": "Le code UAI (unité administrative immatriculée) désigne toutes sortes d'unités, et les établissements d'enseignement supérieur en ont tous un. Si vous ne connaissez pas celui de votre établissement, voici deux sources de données ouvertes qui pourront vous être utiles : \nhttps://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-principaux-etablissements-enseignement-superieur/export/?disjunctive.type_d_etablissement&disjunctive.typologie_d_universites_et_assimiles&sort=uo_lib\nhttps://www.data.gouv.fr/fr/datasets/principaux-etablissements-denseignement-superieur/",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1.2 - Responsable institutionnel de l'organisation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du Responsable Institutionnel de l'organisation",
+        "description": "Rappel du paragraphe 1.4.2 du cahier des charges : \"La responsabilité juridique et administrative du centre de certification est assurée par le responsable de l’organisme. Il est le signataire de la convention d’agrément établie entre le centre et le GIP Pix.\"",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction du responsable institutionnel",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel du responsable institutionnel",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1.3 - Statut",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "L'organisation candidate est-elle :",
+        "description": "",
+        "required": true,
+        "options": [
+          "un établissement public d’enseignement supérieur",
+          "une école accréditée par l’Etat à délivrer un titre d'ingénieur diplômé",
+          "un établissement d'enseignement supérieur technique privé et consulaire autorisé à délivrer un diplôme visé par le ministre chargé de l'enseignement supérieur ou à conférer le grade de master à ses titulaires",
+          "une école de la fonction publique ou une école à statut militaire",
+          "un établissement public de formation professionnelle pour adultes",
+          "un établissement privé labellisé \"Etablissement d'enseignement supérieur privé d'intérêt général\" (EESPIG)",
+          "un autre établissement public ayant une mission de formation",
+          "un organisme de formation certifié Qualiopi",
+          "un CFA (centre de formation des apprentis) certifié Qualiopi"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certificat Qualiopi ou pièce justifiant le référencement Datadock",
+        "description": "justificatif obligatoire pour les Organismes de Formations ainsi que pour les CFA.\nA partir de janvier 2022, la labellisation Qualiopi sera exigée.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif d’existence légale de moins de 3 mois",
+        "description": "Nécessaire si l'organisation candidate n'est pas un établissement de l’enseignement supérieur relevant du Ministère chargé de l’enseignement supérieur : extrait Kbis pour une organisation exerçant une activité commerciale, avis de situation pour une association, ...",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document précisant le statut juridique (si cela n'apparaît pas dans le précédent document)",
+        "description": "Nécessaire si l'organisation candidate n'est pas un établissement de l’enseignement supérieur relevant du Ministère chargé de l’enseignement supérieur",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1.4 - Contact",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse physique de l'organisation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse postale (si différente)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "numéro de téléphone de la personne en charge du dépôt du présent dossier de demande d'agrément",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Site web de l'organisation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1.5 - Caractéristiques de l'organisation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre de personnels travaillant dans l'organisation",
+        "description": "nombre de salariés et/ou intervenants extérieurs",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre d’étudiants / élèves / stagiaires / apprenants accueillis en formation dans l'organisation par an",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Indiquer le(s) type(s) de formations proposées par votre structure",
+        "description": "",
+        "required": true,
+        "options": [
+          "courtes (de quelques jours à quelques semaines)",
+          "moyennes (de quelques semaines à 6 mois)",
+          "longues (6 mois et plus)"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "L’organisation dispose-t-elle d’une expérience préalable dans l’organisation de sessions d’examen sur poste informatique ? Si oui, indiquez les examens/certifications organisés par votre structure :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si votre organisation est agréée par d’autres organismes certificateurs, merci de joindre les justificatifs",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre organisation est-elle habilitée par Certif Pro à délivrer la certification CléA Numérique ?",
+        "description": "Les centres bénéficiant de l'agrément Pix auront la possibilité de demander l'habilitation pour la double certification Pix/CléA Numérique. Les informations utiles seront communiquées une fois l'agrément Pix délivré, le cas échéant. ",
+        "required": true,
+        "options": [
+          "oui",
+          "non",
+          "je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Pourquoi souhaitez-vous devenir centre de certification Pix ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Pouvez-vous nous détailler les formations proposées par votre organisation ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - Public",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Prévoyez-vous d’ouvrir tout ou partie de vos sessions à des candidats externes ? (il peut s'agir de candidats libres ou candidats inscrits par une autre structure)",
+        "description": "Cette réponse n'est pas définitive.\nUne fois l'agrément octroyé, un questionnaire spécifique vous sera envoyé avant d'afficher votre organisation sur notre liste publique de centres accueillants des candidats externes ( https://pix.fr/trouver-une-session/ )",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quels types de candidats l’organisation prévoit-elle d’accueillir en session de certification ?",
+        "description": "plusieurs choix possibles",
+        "required": true,
+        "options": [
+          "Étudiants en formation initiale",
+          "Stagiaires de la formation continue",
+          "Apprentis",
+          "Salariés en activité",
+          "Demandeurs d'emploi",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Détaillez votre stratégie de déploiement de la certification Pix ?",
+        "description": "La certification Pix serait-elle proposée à l'ensemble de vos apprenants ? ou seulement à l'issue de formations spécifiques ?\nSerait-elle ouverte aux candidats libres ?\n\nAvez-vous des partenariats avec Pôle Emploi, des missions locales, entreprises issues de votre tissu économique local ?\n\nEnvisagez-vous de promouvoir la certification Pix en interne et/ou en externe ?\n....",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Combien de sessions de certification l'organisation candidate prévoit-elle d’organiser au cours de l'année ?",
+        "description": " (votre estimation ou objectif)",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Quel volume de candidats votre organisation prévoit-elle d'accueillir au cours de l'année ?",
+        "description": "(votre estimation, ou objectif, du nombre de certifications à réaliser dans l'année)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - Moyens humains",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.1 - Référent Pix",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information préalable :",
+        "description": "Le paragraphe 1.4.2.b du cahier des charges mentionne les rôles et responsabilités du référent Pix",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom et nom du référent Pix pour l'organisation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction du référent Pix dans l'organisation",
+        "description": "Le référent doit faire partie des effectifs internes de la structure.",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel du référent Pix",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du référent Pix",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Qualifications du référent Pix (titres, diplômes)",
+        "description": "veuillez lister les titres / diplômes / certifications en lien avec le rôle du référent Pix",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Détaillez ici les expériences préalables du référent Pix :",
+        "description": "- en pédagogie (dans le domaine du numérique de préférence) \n- ainsi que dans l’organisation et la surveillance d’examens sur matériel informatique ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "CV référent Pix",
+        "description": "CV synthétique (ne pas mentionner votre adresse personnelle ou situation maritale par exemple)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.2 - Personnel d'accueil et de surveillance",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information préalable :",
+        "description": "Afin d’assurer le bon déroulement de la session et de respecter le principe d’égalité entre tous les candidats à la certification Pix, le centre de certification s’engage à appliquer les mesures énoncées au paragraphe 1.4.2.c du cahier des charges. \n",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le centre est-il en mesure de proposer des surveillants qui n’auront pas été les formateurs d’un ou plusieurs candidats au cours des 6 derniers mois avant la certification ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quels seront les statuts, fonctions et qualifications des surveillants des sessions de certification Pix de manière générale ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Les surveillants sont-ils à l’aise avec le numérique ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les surveillants ont-ils déjà une expérience de surveillance en salle informatique ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.3 - Personnel en charge du matériel informatique",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L’organisation dispose-t-elle en son sein, de personnels qualifiés et disponibles en mesure d’intervenir, au cours d’une session de certification, sur les postes informatiques en cas de problème technique ?",
+        "description": " ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui, précisez les statuts/fonctions/qualifications de ce personnel :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si non, avez-vous une solution permettant de pallier un problème informatique durant une session de certification ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - Locaux et matériels",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4.1 - Sites",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les sessions de certification seront-elles organisées exclusivement à l’adresse principale de l'organisation indiquée en rubrique 1 ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Si non, indiquez les autres sites susceptibles d’accueillir des sessions de certification",
+        "description": "Vous pouvez ajouter autant de lignes que nécessaire grâce au bouton \"+ Ajouter une ligne...\"",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du site",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse du site",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L’organisation prévoit-elle d’organiser des sessions de certifications dans des lieux tiers, par exemple dans les locaux d’une organisation tierce (centre de formation, entreprise, administration…cf paragraphe 1.2 du cahier des charges)) ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4.2 - Salles et réseau internet",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information préalable :",
+        "description": "Les salles informatiques et leurs postes doivent respecter les conditions spécifiées dans le cahier des charges (cf paragraphe 1.4.1 Moyens en locaux et matériels), ",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "De combien de salles adaptées à l’organisation des sessions de certification Pix le centre dispose-t-il ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déposez ici le fichier décrivant les salles mobilisables pour des sessions de certification Pix.",
+        "description": "Si le téléchargement du modèle ne fonctionne plus, il suffit de recharger/actualiser la page pour y accéder à nouveau. Les informations indiquées s'enregistrent automatiquement.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Confirmez-vous avoir une connexion à internet satisfaisante et adaptée au nombre de postes informatiques connectés au réseau (à titre indicatif, la connexion d’un participant à son compte Pix représente le téléchargement de 1,5 Mo de données) ?",
+        "description": "vous pouvez tester votre réseau en lançant ce crash test sur plusieurs postes simultanément : https://app.pix.fr/courses/recSyufV7WWWJdj17",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4.3 - Configuration des postes informatiques (vue d'ensemble)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information préalable :",
+        "description": "Le paragraphe \"configuration minimale des ordinateurs\"  du cahier des charges (1.4.1.b) décrit la configuration attendue pour assurer les bonnes conditions de tests de certification.\n\nLa configuration des postes devra être indiquée aux candidats en amont du test de certification.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quel(s) système(s) d’exploitation seront mis à disposition ? (globalement pour l'ensemble des salles) ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quel(s) navigateur(s) web seront mis à disposition ? (globalement pour l'ensemble des salles) ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quelle(s) suite(s) bureautique(s) seront mises à disposition ? (globalement pour l'ensemble des salles) ?",
+        "description": "S'il s'agit d'une suite Microsoft, merci de préciser la version en cas d'achat de licence, ou bien de préciser s'il s'agit d'un abonnement.\nS'il s'agit d'une suite gratuite, merci de vous assurer de les mettre à jour régulièrement.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quels logiciels de traitement d'images et de vidéos sont installés sur vos postes informatiques ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5 - Dépôt de la demande d'agrément",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Lettre signée attestant de votre dépôt",
+        "description": "Téléchargez la lettre modèle de dépôt de la demande d'agrément et déposez-la ci-dessous une fois remplie et signée.\nSi le téléchargement ne fonctionne plus, il suffit de recharger/actualiser la page pour y accéder à nouveau. Les informations indiquées s'enregistrent automatiquement.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document détaillant les procédures de contrôle interne des sites d’examen",
+        "description": "Le fichier ci-joint fournit une liste illustrative et non exhaustive d'exemples, à adapter pour votre organisation. \nSi le téléchargement du modèle ne fonctionne plus, il suffit de recharger/actualiser la page pour y accéder à nouveau. Les informations indiquées s'enregistrent automatiquement.",
+        "required": true
+      }
+    ]
+  }
+}

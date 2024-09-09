@@ -1,0 +1,425 @@
+{
+  "number": 32121,
+  "title": "ARSIF - Déclaration de modification des conditions d'installation d'une officine de pharmacie (DMI)",
+  "description": "Le présent formulaire vous permet de saisir l’Agence régionale de santé d'Île-de-France d'une déclaration de modification  des conditions d'installation d'une officine de pharmacie, en application de l'article R.5125-11 du code de la santé publique : \r\n\r\n- modification relative à la surface des locaux, à l'ajout ou la suppression d'un local de stockage, aux aménagements du bâti, ou liée à la réalisation d'une nouvelle activité ;\r\n\r\n- ouverture de l'annexe d'une officine implantée dans un aéroport ;\r\n\r\n- déplacement de l'officine sans changement d'adresse, y compris en cas de déplacement provisoire pour cause de travaux au sein de l'officine.\r\n\r\nCette démarche ne concerne que les pharmacies situées dans la région Île-de-France. \r\nPour les pharmacies situées en dehors de l'Île-de-France, il convient de se rapprocher de l'Agence régionale de santé de la région concernée.\r\n\r\n\r\nTexte de référence : article R.5125-11 du code de la santé publique.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-12-23T16:49:10+01:00",
+  "service": {
+    "nom": "Département Politique du médicament et de la démarche qualité et pertinence",
+    "organisme": "Agence régionale de santé d'Île-de-France",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ars-idf-pharma-modification-locaux",
+  "dpoUrl": "ars-idf-dpd@ars.sante.fr",
+  "noticeUrl": null,
+  "siteWebUrl": " https://www.iledefrance.ars.sante.fr/dematerialisation-des-demarches-administratives-entre-les-pharmaciens-dofficine-et-lars",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000037269728&cidTexte=LEGITEXT000006072665",
+  "logo": {
+    "filename": "dd.png",
+    "checksum": "41BxGNDZM9a35dRpGQLFzw==",
+    "byteSize": "44946",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "Guide_utilisateur_démarches simplifiées_ARS_IDF.pdf",
+    "checksum": "aVYMzYYpE7TiPL0hHUA+mw==",
+    "byteSize": "1132146",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 24,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité du/des demandeur(s)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "NOM et Prénom du/des pharmacien(s) titulaire(s) ou gérant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La pharmacie est-elle exploitée par une société ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Forme juridique de la société exploitant la pharmacie",
+        "description": "Veuillez renseigner la forme sociale (EURL, SARL, SEL...) telle qu'elle apparait dans les statuts et sur le Kbis de la société.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale de la société exploitant la pharmacie",
+        "description": "Veuillez renseigner la raison sociale (dénomination sociale) de la société telle qu'elle apparait dans les statuts et sur le Kbis.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du représentant légal de la société exploitant la pharmacie",
+        "description": "Veuillez renseigner les noms et prénoms du représentant légal, tel que désigné dans les statuts.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La société est-elle inscrite au tableau de l'Ordre des pharmaciens ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées de contact du demandeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone de la pharmacie ou du pharmacien demandeur",
+        "description": "Merci d'indiquer à quel numéro de téléphone vous pouvez être contacté(e) par l'ARS en cas de besoin.",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courrier électronique de contact",
+        "description": "Merci d'indiquer l'adresse électronique à laquelle vous pouvez être contacté(e) par l'ARS en cas de besoin (si différente de l'adresse électronique utilisée à la création du compte démarches-simplifiées).",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Adresse de notification de l'avis",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Notification de l'avis : adresse du pharmacien demandeur",
+        "description": "Veuillez renseigner l'adresse du pharmacien demandeur pour la notification de l'avis par l'Agence régionale de santé.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom, Prénom/Raison sociale du destinaire",
+            "description": "Veuillez indiquer l'identité (nom, prénom ou raison sociale) du destinataire du courrier à laquelle vous souhaitez que l'Agence régionale de santé notifie l'avis.",
+            "required": true
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Département",
+            "description": "",
+            "required": true,
+            "options": [
+              "75 - PARIS",
+              "77 - SEINE ET MARNE",
+              "78 - YVELINES",
+              "91 - ESSONNE",
+              "92 - HAUTS DE SEINE",
+              "93 - SEINE SAINT DENIS",
+              "94 - VAL DE MARNE",
+              "95 - VAL D'OISE"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° et nom de la voie",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Complément d'adresse",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Code postal",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Commune",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Adresse de la pharmacie déclarant la modification",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Numéro de licence de l'officine de pharmacie",
+        "description": "Merci d'indiquer le numéro de la licence de votre officine de pharmacie.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'officine de pharmacie",
+        "description": "Merci d'indiquer le nom de l'officine de pharmacie si différent de la raison sociale.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Département",
+        "description": null,
+        "required": true,
+        "options": [
+          "75 - PARIS",
+          "77 - SEINE ET MARNE",
+          "78 - YVELINES",
+          "91 - ESSONNE",
+          "92 - HAUTS DE SEINE",
+          "93 - SEINE SAINT DENIS",
+          "94 - VAL DE MARNE",
+          "95 - VAL D OISE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° et nom de la voie",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Code postal",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations concernant la modification",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description de votre projet",
+        "description": "Décrire le projet de modification des conditions d'installation de votre officine.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "En cas de travaux, description de l'organisation",
+        "description": "Précision des dates de début et de fin des travaux et description de l'organisation de l'officine pendant cette période.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si changement de local (même provisoire), emplacement du nouveau local",
+        "description": "Préciser les coordonnées exactes si nouveau local ou local provisoire.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces à joindre à la demande de modification des conditions d'installation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Fiche descriptive du projet de modification des conditions d'installation",
+        "description": "Merci de compléter l'intégralité de la fiche jointe puis de la déposer au format recommandé.\r\n\r\nFormats recommandés : PDF/A ou PDF 1.7 (.pdf) ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Lettre de demande de modification des conditions d'installation signée du (ou des) pharmacien(s) titulaire(s)",
+        "description": "Formats recommandés : PDF/A ou PDF 1.7 (.pdf) ",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Attestation d'inscription au tableau de l'Ordre des pharmaciens",
+        "description": "Veuillez cliquer sur \"+ Ajouter un élément pour « Attestation d'inscription au tableau de l'Ordre des pharmaciens »\" autant de fois qu'il y a de pharmacien titulaire de l'officine concernée.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation d'inscription au tableau de l'Ordre des pharmaciens",
+            "description": "Merci de déposer votre attestation d'inscription au tableau de la section A de l'Ordre des pharmaciens.\r\n\r\nFormats recommandés : PDF/A ou PDF 1.7 (.pdf) r ",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autorisation d'urbanisme pour l'aménagement du local",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Permis de construire ou attestation de non-opposition ou attestation sur l'honneur",
+            "description": "Selon la situation, il faudra fournir : \r\n\r\n- si l'aménagement du local implique un permis de construire (art. L.421-1 du code de l'urbanisme) : le permis de construire accordé (ou une attestation de permis tacite, le cas échéant)\r\n\r\n- si l'aménagement du local implique une déclaration préalable de travaux (art. L.422-2 du code de l'urbanisme) : l'attestation municipale de non-opposition à cette déclaration\r\n\r\n- si l'aménagement du local n'implique ni permis de construire, ni déclaration préalable : une attestation sur l'honneur signée par tous les demandeurs, précisant que les travaux envisagés ne sont soumis ni à autorisation ni à déclaration au titre du code de l'urbanisme\r\n\r\nFormats recommandés : PDF/A ou PDF 1.7 (.pdf)",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Plan(s) fourni(s) à l'appui de la demande de permis de construire, le cas échéant",
+            "description": "A fournir obligatoirement en cas de construction d'un bâtiment.\r\n\r\nFormats recommandés : PNG (.png), TIFF (.tif), JPEG 2000 (.jp2), PDF/A ou PDF 1.7 (.pdf)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces à fournir en cas d'agrandissement, réaménagement ou déplacement de l'officine de pharmacie",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre déclaration concerne l'un des cas de modification des conditions d'installation de votre officine listés ci-dessous :",
+        "description": "- agrandissement ou réaménagement de votre officine de pharmacie,\r\n- déplacement de l'officine sans changement d'adresse, y compris en cas de déplacement pour cause de travaux au sein de votre officine de pharmacie.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan détaillé du local AVANT modification",
+        "description": "Formats recommandés : PNG (.png), JPEG 2000 (.jp2), PDF/A ou PDF 1.7 (.pdf)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan côté du local APRES modification",
+        "description": "Le plan doit permettre d'établir que l'aménagement, l'agencement et l'équipement intérieur des locaux de l'officine pourront répondre aux conditions fixées aux articles L. 5125-3, R. 5125-8 et R. 5125-9 du code de la santé publique.\r\nLe plan doit être lisible et doit faire figurer les dimensions de chaque équipement dans l'officine.\r\n\r\nTaille recommandée pour une bonne lisibilité : format A3\r\n\r\nFormats recommandés : PNG (.png), TIFF (.tif), JPEG 2000 (.jp2), PDF/A ou PDF 1.7 (.pdf)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Accessibilité aux personnes à mobilité réduite ou handicapées",
+        "description": "Tout document attestant que le local est conforme aux dispositions des articles L.164-1 et suivants du code de la construction et de l'habitation, concernant l'accessibilité aux personnes à mobilité réduite ou handicapées.\r\n\r\nFormats recommandés : PDF/A ou PDF 1.7 (.pdf)",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre déclaration induit l'achat ou la location d'un nouveau local",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif des droits sur le local",
+        "description": "Tout document établissant que le ou les pharmaciens ou la société sont propriétaires ou locataires du local ajouté ou du nouveau local et que ce local est à usage commercial (exemple : contrat de bail commercial).\r\n\r\nFormats recommandés : PDF/A ou PDF 1.7 (.pdf)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Le cas échéant, permis de changement de destination du local",
+        "description": "Le cas échéant, un permis de changement de destination du local pour un usage commercial (dans le cas d'une transformation d'un local d'habitation en local commercial en particulier).\r\n\r\nFormats recommandés : PDF/A ou PDF 1.7 (.pdf)",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre déclaration concerne un déplacement de votre officine de pharmacie sans changement d'adresse ou un déplacement provisoire pour cause de travaux au sein de votre officine",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de secteur",
+        "description": "Un plan de secteur mis à l'échelle situant l'emplacement du nouveau local en cas de déplacement de l'officine sans changement d'adresse ou du local provisoire en cas de travaux au sein du local de votre officine de pharmacie.\r\n\r\nFormats recommandés : PNG (.png), TIFF (.tif), JPEG 2000 (.jp2), PDF/A ou PDF 1.7 (.pdf)",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces complémentaires éventuelles",
+        "description": "Vous pouvez joindre ici toutes pièces que vous estimeriez utiles à l'instruction de votre demande.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièces complémentaires éventuelles",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Observations complémentaires éventuelles",
+        "description": "Vous pouvez ici apporter toutes précisions que vous estimeriez utiles à l'instruction de votre demande par l'Agence régionale de santé.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces à fournir en cas de déclaration d'un local annexe",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre déclaration concerne un local de stockage",
+        "description": "Un local de stockage est un local se trouvant à proximité de votre officine, dans les limites de son quartier d'implantation mentionné à l'article L. 5125-3-1 du présent code, à condition qu'il ne soit pas ouvert au public et ne comporte ni signalisation, ni vitrine extérieure.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan côté du local de stockage",
+        "description": "Un plan du local de stockage mentionnant la superficie globale de celui-ci et de celle de chaque pièce, le cas échéant, et permettant d'établir que l'aménagement, l'agencement et l'équipement intérieur du local pourra répondre aux conditions fixées aux articles L. 5125-3, R. 5125-8 et R. 5125-9 du code de la santé publique.\r\n\r\nTaille recommandée pour une bonne lisibilité : format A3\r\n\r\nFormats recommandés : PNG (.png), TIFF (.tif), JPEG 2000 (.jp2), PDF/A ou PDF 1.7 (.pdf)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de secteur",
+        "description": "Un plan mis à l'échelle situant l'emplacement du local de stockage par rapport à votre officine de pharmacie. \r\nIl doit être situé dans le même quartier.\r\n\r\nFormats recommandés : PNG (.png), TIFF (.tif), JPEG 2000 (.jp2), PDF/A ou PDF 1.7 (.pdf)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatifs des droits sur le local",
+        "description": "Tout document établissant que le ou les pharmaciens ou la société sont propriétaires ou locataires du local ajouté (exemple : contrat de bail commercial).",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces complémentaires éventuelles",
+        "description": "Vous pouvez joindre ici toutes pièces que vous estimeriez utiles à l'instruction de votre demande.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièces complémentaires éventuelles",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Observations complémentaires éventuelles",
+        "description": "Vous pouvez ici apporter toutes précisions que vous estimeriez utiles à l'instruction de votre demande par l'Agence régionale de santé.",
+        "required": false
+      }
+    ]
+  }
+}

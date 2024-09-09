@@ -1,0 +1,363 @@
+{
+  "number": 81107,
+  "title": "Demande de création nouveau circuit parapheur FAST",
+  "description": "Cette démarche permet de demander la création d'un nouveau circuit sur le parapheur ATE. L'ensemble des champs doit être renseigné avec attention ; ils serviront lors de l'instruction de la demande pour juger de la pertinence et de l'opportunité de celle-ci.\r\n\r\nAvant toute demande de création d'un nouveau circuit dans le parapheur électronique, le demandeur doit s'assurer de la validation de sa hiérarchie.\r\nLa demande sera pré-instruite par le référent FAST de la structure concernée avant d'être transmise à la direction du SGCD pour décision.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2023-10-23T10:16:17+02:00",
+  "service": {
+    "nom": "SGC69 / DINSIC",
+    "organisme": "DINSIC",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-creation-nouveau-circuit-parapheur-fast",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "Communication interne via CODIR",
+  "cadreJuridiqueUrl": "Décision du COPIL SGC du 03 juillet 2023",
+  "logo": {
+    "filename": "logo Secrétariat Général Commun(5).png",
+    "checksum": "3q21TT8WkrB9Fh23R4T+wg==",
+    "byteSize": "66739",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 12,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Pour quelle organisation faite-vous la demande ?",
+        "description": "Rappel : cette démarche concerne uniquement le parapheur ATE 69.",
+        "required": true,
+        "options": [
+          "DDETS",
+          "DDPP",
+          "Préfecture",
+          "SGCD"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification du demandeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom du demandeur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": "Pour vous joindre en cas de demande de précisions.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous le contact à privilégier en cas de demandes de précisions ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Coordonnées de la/les personne(s) à contacter pour plus de précisions",
+        "description": "Indiquer son nom, prénom et numéro de téléphone professionnel.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Qualification du circuit",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Cartographie du circuit",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Cartographie du circuit",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations complémentaires sur le circuit",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Niveau de criticité du processus",
+        "description": "",
+        "required": true,
+        "options": [
+          "Sévère (contentieux fréquent et / ou fort engagement de l'administration)",
+          "Significatif (contentieux possible, impact pour l'usager ou l'administration)",
+          "Mineur (sans risque)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le service émet-il déjà des circuits dématérialisés ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Avez-vous prévu de dématérialiser d'autres circuits à horizon 12 mois ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le ou les signataire(s) signe(nt)-t-il(s) déjà électroniquement ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le ou les signataire(s) dispose(nt)-t-il(s) d'une carte agent ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les documents à valider / signer ou les annexes comportent-ils des données de santé ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Non",
+          "Oui, le document à valider / signer",
+          "Oui, les annexes",
+          "Oui, les deux"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si le circuit est sous délai contraint, indiquer le délai moyen",
+        "description": "Ex : sous 48h",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Volume annuel estimatif",
+        "description": "Sur la base de l'année précédente afin d'évaluer le coût induit par le circuit",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre moyen de pages présent dans le parapheur par dossier",
+        "description": "Document à valider / signer et annexes",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quel est l'actuel canal et typologie d'envoi / remise du document signé au destinataire ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Par voie postale via le service courrier du SGCD",
+          "Par Imprim’FiP (solution d’envoi dématérialisé de courrier simple de moins de 10 pages de la DGFiP avec remise postale au destinataire)",
+          "Par voie postale via une autre solution de dématérialisation des courriers",
+          "Par messagerie électronique",
+          "Par dépôt sur une plateforme d’échange (Téléprocédure, applicatif métier…)",
+          "Remise en mains propres (guichet, convocation, par les forces de l’ordre…)"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Dans le cas d'un envoi postal, envoi en :",
+        "description": "",
+        "required": true,
+        "options": [
+          "Courrier simple",
+          "Lettre suivie",
+          "Lettre recommandée"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Existe-t-il d'autres processus qui pourraient être intégrés dans ce circuit ?",
+        "description": "Processus qui aurait le même déposant, valideur, signataire et nombre d'étapes.",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Pouvez-vous préciser ?",
+        "description": "Quel processus, nombre de documents,...",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Impact de la solution sur l’organisation et les règles de gestion associées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Réception de la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Préciser l’impact éventuel de la dématérialisation du circuit sur le traitement ",
+        "description": "Ex. : besoin de dématérialiser les pièces qui seront intégrées dans le parapheur, pas d’impact car la demande n’est pas intégrée au parapheur…)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Constitution des pièces",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le document à valider ou signer doit être déposé au format PDF et les pièces justificatives au format d’origine (sauf si elles doivent également être signées : adossées au document principal dans un seul PDF ou dépôt des pièces en lot). Cette étape pose-t-elle des difficultés ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Lesquelles ? Et quelles sont les pistes de solutions envisagées ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Emission et gestion du circuit",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous des dossiers susceptibles de dépasser 200MO ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Indiquez si vous avez déjà pensé à une solution de contournement.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Dans la mesure où plusieurs dossiers sont circularisés par semaine, indiquer si le dépôt sera unitaire au fil de l’eau ou en lot",
+        "description": "Il est utile de se coordonner avec les valideurs et signataires pour définir l’organisation appropriée, sachant que même dans le cas d’un dépôt unitaire au fil de l’eau, le valideur ou le signataire peut paramétrer les notifications certains jours de la semaine.",
+        "required": true,
+        "options": [
+          "--Unitaire au fil de l'eau--",
+          "--Par lot--",
+          "Lundi",
+          "Mardi",
+          "Mercredi",
+          "Jeudi",
+          "Vendredi"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Le valideur ou le signataire principal peut être absent, indiquez comment cette absence est anticipée",
+        "description": "",
+        "required": true,
+        "options": [
+          "Paramétrage de groupes utilisateurs à chaque étape avec annotation au valideur ou signataire mobilisé en secours en cas de besoin",
+          "Paramétrage de délégations de validation ou de signature et les modalités de gestion",
+          "Choix non déterminé à ce jour"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Le valideur et le signataire peuvent souhaiter une modification du document à valider/signer. Indiquer les modalités de modification retenues.",
+        "description": "",
+        "required": true,
+        "options": [
+          "Fichier source déposé en annexe pour modification et remplacement directement par le valideur/signataire",
+          "Rejet du dossier avec annotation",
+          "Choix non déterminé à ce jour"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous identifié l'ensemble des métadonnées* ?",
+        "description": "* Une métadonnée est une « donnée qui fournit de l'information sur une autre donnée ». Il s'agit en fait des renseignements qui sont générés lorsqu'on utilise la technologie et qui permettent de situer dans leur contexte (qui, quoi, où, quand et comment) diverses activités.\r\n-> Les métadonnées sont indispensables pour faciliter les recherches. Cela peut être la référence du dossier, le nom de l’usager…",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Envoi/remise au destinataire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "L’envoi dématérialisé est à privilégier (destinataire ou tiers en copie) mais dépend des outils à disposition et du cadre réglementaire. Indiquer si les modalités d’envoi sont modifiées suite à la dématérialisation du circuit ou si elles restent inchangées et les bénéfices/inconvénients induits",
+        "description": "Ex. : envoi par mail pour éviter la rematérialisation, en substitution de l’envoi en lettre simple",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Archivage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Informations",
+        "description": "Pas d’archivage du document signé préconisé en local (papier ou numérique) puisqu’archivé dans le Système d’Archivage Electronique avec le dossier de preuves consultables et téléchargeables à tout moment (réversibilité prévue en cas de changement d’outil). Néanmoins les exigences spécifiques des archivistes et des archives départementales doivent être prises en compte et traitées (modalités de versement d’un échantillonnage par exemple) ainsi que les exigences liées à des SAE internes, aux applicatifs métiers ou à la transmission des pièces exigée en centrale. Nb : seul le document signé est archivé dans le SAE sauf si demande spécifique et les documents validés ou signés numériquement qui seraient imprimés ne sont que des copies.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Préconisations service archive du SGC",
+        "description": "Chaque circuit parapheur devra être paramétré pour que le document final signé électroniquement soit déposé automatiquement dans le coffre-fort électronique ARKHINEO, relié à Fast. ARKHINEO est un prestataire agréé par le ministère de la Culture pour conserver des données numériques publiques, aussi la conservation à moyen terme dans le coffre-fort électronique de FAST est tout à fait adéquat.  A noter que les documents signés via Fast seront supprimés automatiquement, sans préavis, au bout de 4 mois si les services n'ont pas activé ce paramètre de dépôt automatique.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quelle est la règle de gestion envisagée ? Indiquer si les modalités d’archivage sont modifiées suite à la dématérialisation ou si elles restent inchangées et les bénéfices/inconvénients induits.",
+        "description": "Ex. : modalités inchangées ce qui induit une charge d’impression pour intégrer les pièces dans le dossier papier adressé à la centrale",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Motivations",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Vous pouvez, si vous le souhaitez, indiquer vos motivations, vos remarques complémentaires ou tout autre élément qui pourrait aider dans l'instruction de votre demande. (non obligatoire)",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

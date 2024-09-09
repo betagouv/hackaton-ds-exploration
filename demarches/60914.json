@@ -1,0 +1,126 @@
+{
+  "number": 60914,
+  "title": "Taxis parisiens - Aide à l'acquisition ou à la location de taxis peu polluants accessibles en fauteuil roulant",
+  "description": "La démarche vise à identifier les titulaires d'une ADS délivrée par le préfet de police de Paris souhaitant s'engager dans l'acquisition ou la location d'un taxi peu polluant accessible en fauteuil roulant.\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2022-09-08T16:21:19+02:00",
+  "service": {
+    "nom": "Bureau des taxis et transports publics",
+    "organisme": "Préfecture de Police de Paris",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/aide-taxis-pmr",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.prefecturedepolice.interieur.gouv.fr",
+  "cadreJuridiqueUrl": "Loi informatique et liberté",
+  "logo": null,
+  "notice": null,
+  "deliberation": {
+    "filename": "Décret n° 2022-809 du 14 mai 2022 relatif à l'aide à l'acquisition ou à la location de taxis peu polluants accessibles en fauteuil roulant.pdf",
+    "checksum": "YxvJDNluO4J51d9ggTSIbQ==",
+    "byteSize": "321821",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 413,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Rappel du dispositif",
+        "description": "Cette  démarche est ouverte aux artisans ou sociétés titulaires d'une ou plusieurs autorisations de stationnement (ADS) délivrées par le préfet de police de Paris, mais également aux loueurs, centrales de réservations et entreprises agissant pour le compte d'un ou plusieurs titulaires de ces mêmes ADS.\r\n\r\nUne fois votre demande validée, vous pourrez télécharger la convention rappelant les obligations du titulaire de l'ADS. Ce dernier devra la signer et la joindre au dossier de demande d'aide. Une copie devra être adressé au bureau des taxis et transports publics",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination du titulaire de l'ADS ou du loueur",
+        "description": "Merci d'indiquer vos nom et prénom (artisan) ou la dénomination de votre société",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom du représentant légal de la société, le cas échéant",
+        "description": "Si le titulaire de l'ADS est une société, merci d'indiquer le nom et le prénom de son représentant légal.",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Numéro SIRET",
+        "description": "Merci d'indiquer votre numéro de SIRET",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de véhicules commandés",
+        "description": "Seuls les véhicules n'ayant pas fait l'objet précédemment d'une première immatriculation en France ou à l'étranger sont éligibles ",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Renseignement relatifs au(x) véhicule(s) commandé(s)",
+        "description": "En cas de commande de plus de deux véhicules, merci de remplir les information relative au premier véhicule, puis de cliquer sur \" Ajouter un élément pour « Renseignement relatifs au(x) véhicule(s) commandé(s) » \" afin de renseigner les informations relative aux autres véhicules concernés",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Marque du véhicule commandé",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Modèle du véhicule commandé",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Vignette Crit'Air du véhicule commandé",
+            "description": "pour rappel : \r\nCrit'Air 0 : sources d'énergie : AC (air comprimé), EL (électricité), H2 (hydrogène), HE (hybride hydrogène-électricité rechargeable) et HH (hybride hydrogène-électricité non rechargeable)\r\nCrit'Air 1 : Tout véhicule hybride rechargeable depuis l’extérieur ; toute carburation faisant intervenir du gaz naturel ou du gaz de pétrole liquéfié ; toute carburation faisant intervenir de l'essence, de l'éthanol ou du superéthanol, postérieure au 1er janvier 2011 (normes Euro 5 et 6). Ces véhicules doivent émettre moins de 170 grammes de Co2 / km",
+            "required": true,
+            "options": [
+              "Crit'Air 0",
+              "Crit'Air 1"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Trimestre et année de livraison (prévisionnel)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Bon de commande ou bon de location",
+            "description": "Merci de joindre l’intégralité du document en format .pdf ou .eg",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Convention",
+        "description": "Merci de remplir et signer la convention et de la joindre impérativement à ce dossier.\r\nUne fois votre dossier validé, vous recevrez la convention signée par le préfet de Police.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie que le bénéficaire de l'aide est titulaire d'une ou plusieurs autorisation de stationnement délivrée par le préfet de police de Paris",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie l'exactitude des renseignements portés sur le présent formulaire, ainsi que l'authenticité des documents joints.",
+        "description": "Article 441-6 du code pénal :\r\nLe fait de se faire délivrer indûment par une administration publique (...) par quelque moyen frauduleux que ce soit, un document destiné à constater un droit, une identité ou une qualité ou à accorder une autorisation est puni de deux ans d'emprisonnement et de 30 000 € d'amende.\r\n\r\nArticle 441-7 du code pénal :\r\nIndépendamment des cas prévus au présent chapitre, est puni d'un an d'emprisonnement et de 15 000 € d'amende le fait : \r\n1° d'établir une attestation ou un certificat faisant état de faits matériellement inexacts (...) \r\n2° de faire usage d'une attestation ou d'un certificat inexact ou falsifié. (...)",
+        "required": true
+      }
+    ]
+  }
+}

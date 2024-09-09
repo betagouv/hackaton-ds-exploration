@@ -1,0 +1,715 @@
+{
+  "number": 15092,
+  "title": "Avis du coordonnateur local (subdivision de Nancy)",
+  "description": "Formulaire à remplir par le coordonnateur local sur la demande d'agrément d'un terrain de stage agréé pour le 3° cycle des études médicales.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2019-02-27T09:59:31+01:00",
+  "service": {
+    "nom": "UNESS - Université Numérique en Santé et Sport",
+    "organisme": "Groupement d’Intérêt Public (GIP) Université Numérique Francophone des Sciences, de la santé et du sport (UNF3S), ministère  de l'enseignement supérieur et de la recherche",
+    "typeOrganisme": "etablissement_enseignement"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/aviscoordonnateurlocalnancy",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": " https://www.grand-est.ars.sante.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000033479390&categorieLien=id",
+  "logo": {
+    "filename": "procedure-9fcef3ac-a37a-4562-b477-94ee5ed39a83.jpg",
+    "checksum": "Xt2Ah/7r6HVxqsCl7T6ekQ==",
+    "byteSize": "15365",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 53,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "AVIS du COORDONNATEUR LOCAL / PILOTE sur la demande d'agrément d'un terrain de stage pour le 3° cycle des études médicales",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Numéro du dossier évalué :",
+        "description": "Il s'agit du numéro généré par demarches-simplifiees.fr; celui-ci figure en haut de la demande d'agrément ainsi que dans le courriel d'invitation à donner votre avis.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Avis donné sur la base :",
+        "description": "choisir une réponse dans le menu",
+        "required": false,
+        "options": [
+          "de la grille complétée par le responsable médical",
+          "d'une visite sur site"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pour les D.E.S. nouveau régime, l'agrément peut être proposé pour un ou plusieurs niveaux (I, II ou III). Le niveau I (phase socle), adapté à un étudiant débutant, doit avoir :",
+        "description": "- un recrutement de patients couvrant un éventail suffisant des pathologies prises en charge par la discipline, en particulier les plus fréquentes et une exposition aux urgences\r\n- un fort niveau d’encadrement\r\n- une supervision directe des prescriptions\r\n- la possibilité pour l’étudiant de mettre en application l’apprentissage théorique et pratique qu’il aura acquis au cours de sa formation hors stage (gestes/techniques/explorations « de base » propres à chaque discipline)\r\n- des réunions bibliographiques et une initiation à la recherche.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le niveau II (phase d’approfondissement), adapté à un étudiant ayant au moins un an d’ancienneté, doit avoir :",
+        "description": "- un niveau d’encadrement suffisant pour une supervision différée\r\n- un nombre de patients pris en charge par l’étudiant plus important\r\n- un échographe / doppler / endoscope / tout appareil nécessaire à la formation dans la discipline à disposition (si nécessaire)",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le niveau III (phase de consolidation), adapté à un étudiant en autonomie, doit avoir :",
+        "description": "- un niveau d’encadrement permettant une activité en autonomie supervisée\r\n- avec une possibilité de stage mixte supervisé par un binôme praticien libéral / praticien hospitalier\r\n- avec une activité incluant des consultations, la rédaction de courriers de synthèse et des actes ambulatoires\r\n- un échographe / doppler / endoscope / tout appareil nécessaire à la formation dans la discipline à disposition (si nécessaire)\r\n- une possibilité de gestes techniques diagnostiques et thérapeutiques",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "TERRAIN DE STAGE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination officielle du terrain de stage :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Terrain de stage universitaire :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu de stage :",
+        "description": "(ville)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du responsable médical du terrain de stage :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Établissement :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la visite :",
+        "description": "facultative",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Visite réalisée par :",
+        "description": "Indiquer les noms",
+        "required": false,
+        "options": [
+          "PU-PH / MCU-PH",
+          "PH (d'un service différent du service universitaire du PU-PH)",
+          "Étudiant"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Terrain de stage déjà agréé :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Année de l'évaluation antérieure :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le terrain de stage est-il agréé pour une autre spécialité?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui, préciser :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "AVIS DU COORDONNATEUR LOCAL",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Grille d'évaluation",
+        "description": "D : éliminatoire pour tout agrément sauf activité de recherche et enseignement pour agrément III\r\nA : nécessaire partout sauf hors salle pour agrément I\r\nA ou B : nécessaires en activité salle et hors salle pour agrément II\r\nA : nécessaire en activité hors salle pour agrément III",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Organisation du terrain de stage :",
+        "description": "choisir une valeur",
+        "required": false,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Conditions de travail des étudiants :",
+        "description": "choisir une valeur",
+        "required": false,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Projet de formation :",
+        "description": "choisir une valeur",
+        "required": false,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Activité d'enseignement et  :de recherche",
+        "description": "choisir une valeur",
+        "required": false,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Activité clinique de l'étudiant en salle :",
+        "description": "choisir une valeur",
+        "required": false,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Activité clinique de l'étudiant hors salle :",
+        "description": "choisir une valeur",
+        "required": false,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Avis des étudiants :",
+        "description": "choisir une valeur",
+        "required": false,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Évaluation globale :",
+        "description": "choisir une valeur",
+        "required": false,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PROPOSITIONS D'AGRÉMENT POUR L'ANCIEN RÉGIME",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Spécialité demandée dans le cadre du D.E.S. de :",
+        "description": "",
+        "required": false,
+        "options": [
+          "DES Anatomie et cytologie pathologiques",
+          "DES Anesthésie-Réanimation",
+          "DES Cardiologie et maladies vasculaires",
+          "DES Chirurgie générale (viscérale)",
+          "DES Chirurgie générale (osseuse)",
+          "DES Dermatologie et vénéréologie",
+          "DES Endocrinologie, diabète, maladies métaboliques",
+          "DES Gastro-entérologie et hépatologie",
+          "DES Génétique médicale",
+          "DES Gynécologie médicale",
+          "DES Gynécologie obstétrique",
+          "DES Hématologie",
+          "DES Médecine du travail",
+          "DES Médecine générale",
+          "DES Médecine interne",
+          "DES Médecine nucléaire",
+          "DES Médecine physique et de réadaptation",
+          "DES Néphrologie",
+          "DES Neurochirurgie",
+          "DES Neurologie",
+          "DES Oncologie médicale",
+          "DES Oncologie radiothérapique",
+          "DES Ophtalmologie",
+          "DES ORL et chirurgie cervico-faciale",
+          "DES Pédiatrie",
+          "DES Pneumologie",
+          "DES Psychiatrie",
+          "DES Radiodiagnostic et imagerie médicale",
+          "DES Rhumatologie",
+          "DES Santé publique et médecine sociale",
+          "DES Stomatologie"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre proposition :",
+        "description": "",
+        "required": false,
+        "options": [
+          "agrément sans problème pour 5 ans",
+          "agrément temporaire pour un an (motif à préciser ci-dessous)",
+          "refus d'agrément (motif à préciser ci-dessous)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si agrément temporaire pour un an, préciser :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si REFUS d'agrément, préciser :",
+        "description": "",
+        "required": false,
+        "options": [
+          "dossier insuffisamment motivé",
+          "encadrement insuffisant dans le terrain de stage",
+          "terrain de stage très spécialisé et insuffisamment formateur dans la discipline pour laquelle est sollicité l'agrément",
+          "activité insuffisante du terrain de stage au titre de la spécialité",
+          "terrain de stage ne répondant pas aux critères de formation retenus pour la spécialité",
+          "autre (voir espace ci-dessous)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre motif de refus :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Spécialité demandée dans le cadre du D.E.S.C. de :",
+        "description": "",
+        "required": false,
+        "options": [
+          "DESC Addictologie",
+          "DESC Allergologie et immunologie clinique",
+          "DESC Andrologie",
+          "DESC Cancérologie",
+          "DESC Chirurgie de la face et du cou",
+          "DESC Chirurgie infantile",
+          "DESC Chirurgie maxillo-faciale et stomatologie",
+          "DESC Chirurgie orthopédique et traumatologie",
+          "DESC Chirurgie plastique, reconstructrice et esthétique",
+          "DESC Chirurgie thoracique et cardio-vasculaire",
+          "DESC Chirurgie urologique",
+          "DESC Chirurgie vasculaire",
+          "DESC Chirurgie viscérale et digestive",
+          "DESC  Dermatopathologie",
+          "DESC Foetopathologie",
+          "DESC Gériatrie",
+          "DESC Hémobiologie-transfusion",
+          "DESC Médecine d'urgence",
+          "DESC Médecine de la douleur et médecine palliative",
+          "DESC Médecine de la reproduction",
+          "DESC Médecine du sport",
+          "DESC Médecine légale et expertises médicales",
+          "DESC Médecine vasculaire",
+          "DESC Néonatologie",
+          "DESC Neuropathologie",
+          "DESC Nutrition",
+          "DESC Orthopédie dento-maxillo-faciale",
+          "DESC Pathologie infectieuses et tropicale, clinique & biol",
+          "DESC Pharmacologie clinique et évaluation des thérapies",
+          "DESC Psychiatrie de l'enfant et de l'adolescent",
+          "DESC Réanimation"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre proposition :",
+        "description": "",
+        "required": false,
+        "options": [
+          "agrément sans problème pour 5 ans",
+          "agrément temporaire pour un an (motif à préciser ci-dessous)",
+          "refus d'agrément (motif à préciser ci-dessous)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si agrément temporaire pour un an, préciser :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si REFUS d'agrément, préciser :",
+        "description": "",
+        "required": false,
+        "options": [
+          "dossier insuffisamment motivé",
+          "encadrement insuffisant dans le terrain de stage",
+          "terrain de stage très spécialisé et insuffisamment formateur dans la discipline pour laquelle est sollicité l'agrément",
+          "activité insuffisante du terrain de stage au titre de la spécialité",
+          "terrain de stage ne répondant pas aux critères de formation retenus pour la spécialité",
+          "autre (voir espace ci-dessous)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre motif de refus :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PROPOSITIONS D'AGRÉMENT POUR LE NOUVEAU RÉGIME",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Spécialité demandée dans le cadre du D.E.S. de :",
+        "description": "",
+        "required": false,
+        "options": [
+          "Allergologie",
+          "Anatomie et cytologie pathologiques",
+          "Anesthésie-réanimation",
+          "Biologie médicale",
+          "Chirurgie maxillo-faciale",
+          "Chirurgie orale",
+          "Chirurgie orthopédique et traumatologique",
+          "Chirurgie pédiatrique",
+          "Chirurgie plastique, reconstructrice et esthétique",
+          "Chirurgie thoracique et cardiovasculaire",
+          "Chirurgie vasculaire",
+          "Chirurgie viscérale et digestive",
+          "Dermatologie et vénéréologie",
+          "Endocrinologie-diabétologie-nutrition",
+          "Génétique médicale",
+          "Gériatrie",
+          "Gynécologie médicale",
+          "Gynécologie-obstétrique",
+          "Hématologie",
+          "Hépato-gastro-entérologie",
+          "Maladies infectieuses et tropicales",
+          "Médecine cardiovasculaire",
+          "Médecine d'urgences",
+          "Médecine et santé au travail",
+          "Médecine générale",
+          "Médecine intensive-réanimation",
+          "Médecine interne et immunologie clinique",
+          "Médecine légale et expertises médicales",
+          "Médecine nucléaire",
+          "Médecine physique et de réadaptation",
+          "Médecine vasculaire",
+          "Néphrologie",
+          "Neurochirurgie",
+          "Neurologie",
+          "Oncologie",
+          "Ophtalmologie",
+          "ORL et chirurgie cervico-faciale",
+          "Pédiatrie",
+          "Pneumologie",
+          "Psychiatrie",
+          "Radiologie et imagerie médicale",
+          "Rhumatologie",
+          "Santé publique",
+          "Urologie"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "niveau I",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "niveau II",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "niveau III",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre proposition :",
+        "description": "",
+        "required": false,
+        "options": [
+          "agrément sans problème pour 5 ans",
+          "agrément temporaire pour un an (motif à préciser ci-dessous)",
+          "refus d'agrément (motif à préciser ci-dessous)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si agrément temporaire pour un an, préciser :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si REFUS d'agrément, préciser :",
+        "description": "",
+        "required": false,
+        "options": [
+          "dossier insuffisamment motivé",
+          "encadrement insuffisant dans le terrain de stage",
+          "terrain de stage très spécialisé et insuffisamment formateur dans la discipline pour laquelle est sollicité l'agrément",
+          "activité insuffisante du terrain de stage au titre de la spécialité",
+          "terrain de stage ne répondant pas aux critères de formation retenus pour la spécialité",
+          "autre (voir espace ci-dessous)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre motif de refus :",
+        "description": "Préciser",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Spécialité demandée dans le cadre d’une F.S.T.",
+        "description": "Indiquer laquelle",
+        "required": false,
+        "options": [
+          "Addictologie",
+          "Bio-informatique médicale",
+          "Cancérologie déclinaison hémato-cancérologie pédiatrique",
+          "Cancérologie traitements médicaux des cancers déclinaison cancérologie de l’adulte",
+          "Cardiologie pédiatrique et congénitale",
+          "Chirurgie de la main",
+          "Chirurgie en situation de guerre ou de catastrophe",
+          "Chirurgie orbito-palpébro-lacrymale",
+          "Douleur",
+          "Expertise médicale-préjudice corporel",
+          "Fœtopathologie",
+          "Génétique et médecine moléculaire bioclinique",
+          "Hématologie bioclinique",
+          "Hygiène-prévention de l’infection, résistances",
+          "Maladies allergiques",
+          "Médecine scolaire",
+          "Médecine et biologie de la reproduction-andrologie",
+          "Médecine du sport",
+          "Nutrition appliquée",
+          "Pharmacologie médicale/thérapeutique",
+          "Soins palliatifs",
+          "Sommeil",
+          "Thérapie cellulaire/transfusion",
+          "Urgences pédiatriques"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre proposition :",
+        "description": "",
+        "required": false,
+        "options": [
+          "agrément sans problème pour 5 ans",
+          "agrément temporaire pour un an (motif à préciser ci-dessous)",
+          "refus d'agrément (motif à préciser ci-dessous)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si agrément temporaire pour un an, préciser :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si REFUS d'agrément, préciser :",
+        "description": "",
+        "required": false,
+        "options": [
+          "dossier insuffisamment motivé",
+          "encadrement insuffisant dans le terrain de stage",
+          "terrain de stage très spécialisé et insuffisamment formateur dans la discipline pour laquelle est sollicité l'agrément",
+          "activité insuffisante du terrain de stage au titre de la spécialité",
+          "terrain de stage ne répondant pas aux critères de formation retenus pour la spécialité",
+          "autre (voir espace ci-dessous)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre motif de refus :",
+        "description": "Préciser",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Spécialité demandée dans le cadre d’une Option :",
+        "description": "Indiquer laquelle",
+        "required": false,
+        "options": [
+          "Co-DES anesthésie-réanimation/médecine intensive-réanimation - Réanimation pédiatrique",
+          "DES chirurgie viscérale et digestive - Endoscopie chirurgicale",
+          "DES d'oncologie - Oncologie médicale",
+          "DES d'oncologie - oncologie radiothérapie",
+          "DES de biologie médicale - Agents infectieux",
+          "DES de biologie médicale - Biologie de la reproduction",
+          "DES de biologie médicale - Biologie générale",
+          "DES de biologie médicale - Hématologie et immunologie",
+          "DES de biologie médicale - Médecine moléculaire, génétique et pharmacologie",
+          "DES de chirurgie pédiatrique  - Orthopédie pédiatrique",
+          "DES de chirurgie pédiatrique - Chirurgie viscérale pédiatrique",
+          "DES hépato-gastro-entérologie - Endoscopie de niveau 2",
+          "DES hépato-gastro-entérologie - Proctologie",
+          "DES médecine cardio-vasculaire - Cardiologie interventionnelle de l’adulte",
+          "DES médecine cardio-vasculaire - Imagerie cardiovasculaire d’expertise",
+          "DES médecine cardio-vasculaire - Rythmologie interventionnelle et stimulation cardiaque",
+          "DES neurochirurgie - Neurochirurgie pédiatrique",
+          "DES ophtalmologie - Chirurgie ophtalmopédiatrique et strabologique",
+          "DES oto-rhino-laryngologie - chirurgie cervico-faciale- Audiophonologie (audiologie et phoniatrie)",
+          "DES pédiatrie - Néonatologie",
+          "DES pédiatrie - Neuropédiatrie",
+          "DES pédiatrie - Pneumopédiatrie",
+          "DES pédiatrie - Réanimation pédiatrique",
+          "DES psychiatrie - Psychiatrie de l’enfant et de l’adolescent",
+          "DES psychiatrie- Psychiatrie de la personne âgée",
+          "DES radiologie et imagerie médicale - Radiologie interventionnelle avancée",
+          "DES santé publique - Administration de la santé"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre proposition :",
+        "description": "",
+        "required": false,
+        "options": [
+          "agrément sans problème pour 5 ans",
+          "agrément temporaire pour un an (motif à préciser ci-dessous)",
+          "refus d'agrément (motif à préciser ci-dessous)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si agrément temporaire pour un an, préciser :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si REFUS d'agrément, préciser :",
+        "description": "choisir une réponse",
+        "required": false,
+        "options": [
+          "dossier insuffisamment motivé",
+          "encadrement insuffisant dans le terrain de stage",
+          "terrain de stage très spécialisé et insuffisamment formateur dans la discipline pour laquelle est sollicité l'agrément",
+          "activité insuffisante du terrain de stage au titre de la spécialité",
+          "terrain de stage ne répondant pas aux critères de formation retenus pour la spécialité",
+          "autre (voir espace ci-dessous)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre motif de refus :",
+        "description": "Préciser",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires libres",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom du Coordonnateur / Pilote",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

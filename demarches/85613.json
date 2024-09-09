@@ -1,0 +1,93 @@
+{
+  "number": 85613,
+  "title": "Guichet unique d'accès à l'ingénierie territoriale pour les communes rurales de l'Essonne",
+  "description": "Recueillir les demandes d'aides en accompagnement des communes rurales essonniennes qui souhaitent monter des projets complexes en ingénierie",
+  "tags": [
+    "guichet unique",
+    "ruralité",
+    "Essonne",
+    "communes",
+    "France_Ruralités",
+    "communes_rurales"
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2023-12-22T16:08:48+01:00",
+  "service": {
+    "nom": "Guichet unique d'ingénierie territoriale",
+    "organisme": "Préfecture de l'Essonne, Sous-préfecture d'Etampes",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/guichet-unique-ruralite",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.essonne.gouv.fr/",
+  "cadreJuridiqueUrl": "https://agence-cohesion-territoires.gouv.fr/france-ruralites-1247",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 5,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Nom de la commune",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du contact privilégié côté mairie pour suivi du dossier",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "N° téléphone du contact mairie",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel du contact mairie",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Thématiques du projet",
+        "description": "",
+        "required": true,
+        "options": [
+          "Transition énergétique (rénovation énergétique, éclairage public, production ENR)",
+          "Habitat, logement, bâti privé dégradé",
+          "Équipements publics",
+          "Patrimoine, cadre de vie, tourisme",
+          "Aménagement urbain, paysager",
+          "Transition écologique, biodiversité",
+          "Réseaux",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description courte du projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Avez-vous effectué des démarches antérieures sur votre projet ? Si oui, lesquelles ? Quels contacts avez-vous pris ? Quelles difficultés rencontrez-vous? Qu'est-ce qui empêche le projet de se réaliser ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "[Facultatif] Vous pouvez joindre toutes pièces que vous jugerez utile à votre demande",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

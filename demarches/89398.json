@@ -1,0 +1,376 @@
+{
+  "number": 89398,
+  "title": "Fonds d'urgence viticulture Hérault",
+  "description": "Mise en place d'une aide de trésorerie exceptionnelle pour les exploitations viticoles dont les difficultés économiques ont été accrues par les pertes de production subies en 2023\r\nPériode de dépôt des dossiers : du 12 février 2024 au 23 février 2024 inclus",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2024-02-12T09:10:15+01:00",
+  "service": {
+    "nom": "Service agriculture forêt",
+    "organisme": "DDTM de l'Hérault",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fonds-d-urgence-viticulture-herault",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.herault.gouv.fr/Actions-de-l-Etat/Agriculture-et-foret/Agriculture/Aides-conjoncturelles/",
+  "cadreJuridiqueUrl": "-",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 1688,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur votre exploitation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Numéro SIRET",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro PACAGE",
+        "description": "si connu",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro CVI",
+        "description": "numéro Casier Viticole Informatisé ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale",
+        "description": "si GAEC, EARL, autre société agricole",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code postal",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse e-mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IbanChampDescriptor",
+        "label": "IBAN",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Eligibilité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Explications sur l'éligibilité du statut de l'exploitation agricole",
+        "description": "Pourront bénéficier de la mesure, les exploitants agricoles à titre principal (ATP), les GAEC (avec application de la transparence), les EARL, les autres personnes morales ayant pour objet l'exploitation agricole et dont au moins 50% du capital est détenu par des exploitations à titre principal (directement ou indirectement) ",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut de l'exploitation agricole",
+        "description": "Cocher à la case qui vous concerne",
+        "required": true,
+        "options": [
+          "Agriculteur à titre principal (ATP)",
+          "GAEC",
+          "EARL",
+          "Autre société agricole"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Si GAEC, indiquez le nombre d'associés :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Si autre société agricole, indiquez le pourcentage du capital détenu par des ATP :",
+        "description": "Si moins de 50% du capital est détenu par des exploitants ATP, la structure n'est pas éligible.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mon exploitation fait l'objet d'une procédure de sauvegarde ou de redressement judiciaire.",
+        "description": "Si oui, vous devez disposer d'un plan arrêté par le tribunal de commerce au moment du paiement de la présente aide. ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mon exploitation est concernée par une procédure de liquidation judiciaire.",
+        "description": "Si oui, mon exploitation n'est pas éligible à cette aide. Si une procédure de liquidation intervient postérieurement au dépôt de ce dossier, vous avez l'obligation d'en informer la DDTM de l'Hérault.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Explications sur les 2 cas d'éligibilité :",
+        "description": "2 cas pour être éligible :\r\nCas 1 : avoir subi une perte de chiffre d'affaires sur 2023 ou une perte d'EBE sur le dernier exercice comptable clos > ou égale à 20% ET avoir sollicité ou demandé une simulation de réaménagement de la dette auprès de la banque\r\n\r\nCas 2 : avoir des difficultés financières prévisionnelles liées à des pertes constatées > ou égales à 20% sur la déclaration de récolte 2023.\r\n\r\nPour chacun des cas ci-dessus, l’année de référence pour comparaison avec 2023 est laissée au choix de l’exploitant, en choisissant soit l’année 2020 soit l’année 2022.",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Indiquer le cas d'éligibilité vous concernant",
+        "description": "Les questions suivantes seront adaptées au cas choisi.",
+        "required": false,
+        "options": [
+          "Cas 1",
+          "Cas 2"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Année de référence choisie pour calculer la perte",
+        "description": "",
+        "required": true,
+        "options": [
+          "2020",
+          "2022"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Pourcentage de perte de chiffre d'affaires ou d'EBE (en %)",
+        "description": "Pour une perte de 30 %, indiquer 30.\r\nLe seuil d'éligibilité est fixé à 20 %.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Pertes de chiffre d'affaires ou d'EBE (en €)",
+        "description": "\r\n\r\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation comptable ou autre document permettant de justifier la baisse de chiffre d'affaires ou d'EBE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste avoir sollicité ou avoir demandé une simulation de réaménagement de dettes (exemple : année blanche) auprès de ma banque.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document bancaire lié au réaménagement de dettes",
+        "description": "Document de simulation ou document définitif",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface en vigne en 2023 (en ha)",
+        "description": "sur la base de votre déclaration de récolte 2023\r\n",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Quantité totale récoltée en 2023 (en hl)",
+        "description": "sur la base de votre déclaration de récolte 2023\r\n\r\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration de récolte de l'année  2023",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface en vigne de l'année de référence 2020 ou 2022 selon votre choix (en ha)",
+        "description": "sur la base de votre déclaration de récolte de l'année de référence\r\n",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Quantité totale récoltée de l'année de référence 2020 ou 2022 selon votre choix (en hl)",
+        "description": "sur la base de votre déclaration de récolte de l'année choisie 2020 ou 2022",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration de récolte de l'année de référence 2020 ou 2022 selon votre choix",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Taux de perte entre 2023 et l'année de référence choisie :",
+        "description": "Indiquer le pourcentage de perte que vous avez calculé. Pour une perte de 30 %, indiquer 30.\r\nLe seuil d'éligibilité est fixé à 20 %.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Critère de priorisation et de modulation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Explication sur ce critère",
+        "description": "Les informations demandées dans cette partie serviront à prioriser les dossiers et à déterminer des montants d'aide différenciés, en complément de vos éléments de pertes.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Nouvel installé à partir de 2013",
+        "description": "Indiquer \"oui\" si vous êtes affilié à la MSA à partir du 01/01/2013 ou si l'un des associé de votre société est affilié à la MSA à partir de cette date.\r\nIndiquer \"non\", sinon.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si en société (GAEC, EARL, autre société agricole éligible), nom du nouvel installé",
+        "description": "Nom et prénom",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'installation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Situation des aides de minimis et des aides Ukraine",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Aides dites « de minimis » agricole (en  référence aux règlements (UE) n° 1408/2013 et n° 2019/316).",
+        "description": "Indiquer le montant éventuel des aides de minimis agricoles reçues, ainsi que demandées et non encore reçues, au cours de l’exercice fiscal en cours et des deux exercices fiscaux précédents. \r\n\r\nA titre indicatif, les principales aides de minimis ces dernières années sont :\r\n- les prises en charge de cotisation MSA, sauf la plupart des prises en charges liées au gel 2021,\r\n-  les fonds d'urgence 2022 et 2023,\r\n- le crédit d’impôt agriculture biologique,\r\n- le crédit d'impôt remplacement pour congé,\r\n- l'exonération de la taxe foncière sur le non bâti proposée par certaines communes pour les agriculteurs en bio,\r\n- l'aide TICPE,\r\n- l'aide du Conseil Départemental pour la confusion sexuelle.\r\n\r\nLes indemnités perçues au titre des calamités agricoles et les aides suite à des investissements dans les dossiers PCAE (avec du FEADER) ne sont pas des des aides minimis.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant d'aides de minimis agricoles reçues ou demandées au cours de l’exercice fiscal en cours et des deux exercices fiscaux précédents :",
+        "description": "Mettre 0 si non concerné",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Attestation de minimis",
+        "description": "- J'atteste sur l'honneur le montant des aides minimis reçues et demandées, mais non encore reçues, déclarées ci-dessus,\r\n- Je déclare avoir mentionné dans le présent formulaire l’ensemble des aides de minimis agricole reçues au cours de l’exercice fiscal en cours et des deux exercices fiscaux précédents,\r\n- Je m'engage à conserver tout document permettant de vérifier l’exactitude de la présente déclaration pendant dix (10) exercices fiscaux à compter du versement de l’aide demandée,\r\n- J'atteste sur l'honneur ne pas avoir reçu d'aides de minimis au titre d'autres règlements de minimis (règlements deminimis entreprise, de minimis pêche ou de minimis SIEG).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant cumulé des aides Ukraine reçues ou demandées",
+        "description": "A titre d'exemple, l'aide Ukraine sur l'aide de crise bio 2023 versée par FranceAgriMer.\r\n\r\nMettre 0 si non concerné",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Attestation des montants des aides Ukraine",
+        "description": "- J'atteste sur l'honneur le montant des aides Ukraine reçues et demandées, mais non encore reçues, déclarées ci-dessus,\r\n- Je déclare avoir mentionné dans le présent formulaire l’ensemble des aides Ukraine reçues.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Autre pièce à joindre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB (obligatoire)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Engagements et autorisations",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie",
+        "description": "- avoir pouvoir pour représenter le demandeur dans le cadre de la présente formalité,\n- l'exactitude de l'ensemble des informations fournies dans le présent formulaire et les pièces jointes.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'autorise :",
+        "description": "- la DDTM à recueillir ou transmettre les informations relatives à ce dossier auprès d'autres administrations, collectivités, ou acteurs privés, notamment auprès de la MSA, des assureurs, \r\n- la DDTM  à me transmettre par courrier électronique toute information relative à mon dossier de demande d’aide.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commentaires ou informations diverses",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Vous pouvez indiquer à l'administration ici toute information complémentaire ou explication que vous jugez utile.",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

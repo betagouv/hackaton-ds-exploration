@@ -1,0 +1,274 @@
+{
+  "number": 18102,
+  "title": "92-Demande de permis de stationnement, sur voie de circulation (route, piste cyclable, voie de bus ou trottoir), pour déménagement ou livraison de matériels",
+  "description": "Pour le département des Hauts-de-Seine (92) et pour les routes classées à grande circulation, demande de permis de stationnement pour effectuer un déménagement (ou une livraison de matériels) sur voie de circulation (route, piste cyclable, voie de bus ou trottoir).",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2019-07-25T15:11:44+02:00",
+  "service": {
+    "nom": "DRIEAT-ILE DE FRANCE (partie arrêtés de circulation 92)",
+    "organisme": "Service de la sécurité des transports-Département Sécurité, Education et Circulation Routières",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/d6f82d83-5a23-4145-a41a-948a547eaca7",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.driea.ile-de-france.developpement-durable.gouv.fr",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "procedure-025579c3-4b23-401a-b4e7-2f2897268113.png",
+    "checksum": "yN95vRmiHpcNmRDoOFwkew==",
+    "byteSize": "5704",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Descriptif de la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Je confirme qu'il n'existe aucune place de stationnement réglementé à proximité du lieu du déménagement",
+        "description": "Si la réponse est \"non\", nous vous invitons à renseigner le formulaire \"Demande de permis de stationnement, sur places existantes, pour déménagement (ou livraison de matériels)\"",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Longueur totale à neutraliser",
+        "description": "Voiture = 5m de longueur [par voiture]\nPetit camion (< 20 m³) = 10m de longueur [par petit camion]\nGros camion (> 20 m³) = 20m de longueur [par gros camion]",
+        "required": true
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "Date et heure de début de la neutralisation :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "Date et heure de fin de la neutralisation :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse complète du lieu concerné par la demande",
+        "description": "Numéro, rue, code postal, ville\n\n",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Numéro de la route départementale",
+        "description": "Dans le doute, nous vous conseillons :\n- d'effectuer une recherche sur un moteur de recherche.\n- de vous adresser à la mairie du lieu du déménagement. ",
+        "required": true,
+        "options": [
+          "D7",
+          "D17",
+          "D19",
+          "D131",
+          "D907",
+          "D908",
+          "D909",
+          "D910",
+          "D911",
+          "D912",
+          "D913",
+          "D914",
+          "D920",
+          "D985",
+          "D986",
+          "D992",
+          "Route du bassin n°5",
+          "Route du bassin n°6",
+          "Route principale du port"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sens de la circulation",
+        "description": null,
+        "required": true,
+        "options": [
+          "sens Paris-Province",
+          "sens Province-paris"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de voie neutralisée",
+        "description": "Plusieurs choix sont possibles.\nAttention, en cas de neutralisation de la totalité des voies de circulation dans un sens, il sera nécessaire de prévoir une signalisation à l'aide de feux tricolores",
+        "required": true,
+        "options": [
+          "voie de bus",
+          "cheminement piéton (trottoir)",
+          "voie cyclable (piste vélo)",
+          "1 voie de circulation (voie de droite)",
+          "1 voie de circulation (voie de gauche)",
+          "2 voies de circulation",
+          "la totalité des voies de circulation"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de matériel stationné sur la voie neutralisée",
+        "description": "Plusieurs choix sont possibles.",
+        "required": true,
+        "options": [
+          "Monte(s)-meubles",
+          "Nacelle(s)",
+          "Véhicule(s) de déménagement"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précision complémentaire",
+        "description": "\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées de la personne morale (société)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le déménagement est-il effectué par une personne morale (société) ?",
+        "description": "Si oui, veuillez renseigner les coordonnées de la personne morale",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "N° du SIRET",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la société",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse complète de la personne morale",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées du permissionnaire (personne physique qui sera redevable de la redevance (facture) relative au permis de stationnement)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "En application de l’article L 2331-4-8 du code général des collectivités territoriales, l’autorisation délivrée donne lieu au paiement d’une redevance dont le montant, les modalités de paiement et de révision sont fixées par la commune du lieu du stationnement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse complète du permissionnaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Complément d'adresse",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "En répondant \"Oui\", je confirme qu'au moment où j'effectue ma demande, les éléments à neutraliser sont existants et disponibles (absence de travaux ou d'obstacle gênant la neutralisation par exemple).",
+        "description": "Pour votre information, la mairie concernée par votre demande de neutralisation attestera de l'absence de travaux ou d'obstacle gênant la neutralisation, le(les) jour(s) de votre (vos) neutralisation(s)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Photographie récente du ou des lieux concernés par la demande",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de situation (ou schéma) précisant les cotations du ou des lieux concerné(s) par la demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

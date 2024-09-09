@@ -1,0 +1,395 @@
+{
+  "number": 51068,
+  "title": "Demande de qualification d'un fournisseur de service pour FranceConnect",
+  "description": "Vous souhaitez être fournisseur de service pour FranceConnect et vous avez déjà eu votre demande d'habilitation validé via datapass ainsi que réaliser l'intégration technique de FranceConnect à votre service. \r\n\r\nL'étape suivante est de demander la qualification par l'équipe FranceConnect de votre intégration. \r\n\r\nCette démarche vous permet demander la qualification de votre intégration de FranceConnect qui vous permettra d'utiliser FranceConnect en production. ",
+  "tags": [
+    "Formation"
+  ],
+  "zones": [
+    "Premier ministre"
+  ],
+  "datePublication": "2024-05-15T17:41:31+02:00",
+  "service": {
+    "nom": "FranceConnect",
+    "organisme": "Direction interministérielle du numérique",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-qualification-fs",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://partenaires.franceconnect.gouv.fr/fcp/fournisseur-service",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037611479/",
+  "logo": {
+    "filename": "fc-logo.png",
+    "checksum": "iO2XAceINqgv1W1b8/XsmA==",
+    "byteSize": "17566",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 570,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur votre Fournisseur de Service",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du Fournisseur de Service",
+        "description": "Renseignez ici le nom du Fournisseur de Service (projet) tel qu'il a été déclaré dans votre demande Datapass.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de votre organisation",
+        "description": "Renseignez ici le nom de votre organisation tel qu'il a été déclaré dans votre demande Datapass.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de la demande Datapass",
+        "description": "Renseignez ici le numéro de la demande Datapass qui a été validée et qui vous permet d'utiliser FranceConnect.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de mise en production prévisionnelle",
+        "description": "Indiquez ici la date de mise en production prévisionnelle de FranceConnect sur votre service. Vous devez déposer votre demande de recette au minimum trois semaines avant la date de mise en production prévisionnelle. \n\nCette date est donnée à titre d'information afin de permettre à l'équipe FranceConnect de s'organiser pour répondre au mieux à vos contraintes. Il ne s'agit en aucun cas d'un engagement de l'équipe FranceConnect sur le délai de traitement de votre dossier.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Recette précédente",
+        "description": "Votre service a-t-il déjà fait l'objet d'une recette ?",
+        "required": true
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Lien de la précédente recette",
+        "description": "Si vous avez déjà effectué une demande de qualification de votre Fournisseur de Service qui n'a pas été validée, merci de nous l'indiquer en nous donnant la référence du dossier correspondant. Cela permettra à l'équipe FranceConnect de gagner du temps dans le traitement de votre nouvelle demande. ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre service est il un service numérique en santé?",
+        "description": "En application des articles L. 1470-2 et L. 1470-5 du code de la santé publique, êtes vous soumis au référentiel de sécurité relatif à l'identification électronique des utilisateurs des services numériques en santé?",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre service propose-t-il une modification de RIB?",
+        "description": "Indiquez ici si votre service permet de modifier ou d'enregistrer le RIB de l'usager. ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre service propose-t-il de stocker et / ou de télécharger des documents sensibles?",
+        "description": "Indiquez ici si votre service permet de stocker et / ou de télécharger des documents sensibles.  Par exemple : pièce d'identité, justificatif de domicile, avis d'imposition, bulletin de salaire, pièces concernant l'état civil (acte de naissance, acte de mariage...)",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Transmettez vous une notification dans le cas d'une mise à jour d'une donnée sensible ou d'un téléchargement de document sensible?",
+        "description": "Indiquez ici si vous transmettez une notification par mail ou sms dans le cas d'une mise à jour d'une donnée sensible ou d'un téléchargement de document sensible?",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Editeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Utilisez vous une solution éditeur pour votre Fournisseur de Service?",
+        "description": "Indiquez ici si vous utilisez un éditeur de solution intégrant FranceConnect. Certains éditeurs ayant déjà eu une qualification de leur solution, cela peut vous exempter de la qualification de votre intégration. ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'éditeur",
+        "description": "Si vous utilisez un éditeur, veuillez indiquer ici le nom de celui-ci. Merci de préciser le nom de son produit entre parenthèses.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Accès à votre environnement de recette",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Client ID d'intégration",
+        "description": "Renseignez ici le client ID de votre FS qui vous a été communiqué sur l'environnement d'intégration FranceConnect.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre environnement de recette est-il accessible sur internet ?",
+        "description": "Indiquez ici si votre environnement de recette est accessible sur internet. Si c'est le cas, la recette pourra être effectuée de manière autonome par l'équipe FranceConnect. Dans le cas contraire, l'équipe FranceConnect reviendra vers vous pour réaliser la recette.  ",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Adresses de votre environnement de recette",
+        "description": "Indiquez ici la liste des pages de votre service sur lesquelles se trouve le bouton FranceConnect sur votre environnement de recette. ",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "URL de la page",
+            "description": "Ajoutez ici l'url de la page sur laquelle apparaît le bouton FranceConnect.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie que l'ensemble des pages a été déclaré",
+        "description": "Indiquez ici que vous déclarez que l'ensemble des pages de votre service sur lesquelles apparait le bouton FranceConnect a bien été renseigné ci-dessus. ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Cas de tests de votre service",
+        "description": "Indiquez ici les identités de tests à utiliser lors de la recette de votre service et décrivez si besoin le résultat pour chaque identité. Renseigner avec précision les cas de recette permet d'accélérer le traitement de votre demande de qualification.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Identités de test",
+        "description": "Indiquez ici les identités de test à utiliser lors de la recette de votre service et décrivez si besoin le résultat attendu pour chaque identité. Les identités de test disponibles sont listées sur https://github.com/france-connect/identity-provider-example/blob/master/database.csv\r\nRenseigner avec précision les cas de recette permet d'accélérer le traitement de votre demande de qualification.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identités à utiliser pour tester la cinématique de Connexion",
+        "description": "Indiquez ici la ou les identités de test à utiliser pour pouvoir tester la cinématique de Connexion simple \r\n(connexion d'une personne existante dans mon service)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description du cas d'usage pour la cinématique de Connexion",
+        "description": "Décrivez ici si besoin le résultat attendu pour chaque identité de test choisie au-dessus",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identités à utiliser pour tester la cinématique d'Inscription",
+        "description": "Indiquez ici la ou les identités de test à utiliser pour pouvoir tester la cinématique d'Inscription \r\n(connexion d'une personne n'ayant pas d'espace dans mon service : création de compte)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description du cas d'usage pour la cinématique d'Inscription",
+        "description": "Décrivez ici si besoin le résultat attendu pour chaque identité de test choisie au-dessus",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identités à utiliser pour tester la cinématique de Réconciliation (si existante)",
+        "description": "Indiquez ici la ou les identités de test à utiliser pour pouvoir tester la cinématique de Réconciliation \r\n(connexion d'une personne ayant un espace dans mon service, mais n'ayant jamais utilisé FranceConnect pour y accéder)",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description du cas d'usage pour la cinématique de Réconciliation",
+        "description": "Décrivez ici si besoin le résultat attendu pour chaque identité de test choisie au-dessus\r\nIl est nécessaire d'indiquer ici le login / mot de passe du ou des comptes locaux correspondants aux identités de test choisies",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations supplémentaires",
+        "description": "Indiquez ici toute information complémentaire qui pourrait être nécessaire à la réalisation de la qualification de l'intégration de FranceConnect à votre service. ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Résultat de votre recette interne",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie que j'ai réalisé l'ensemble des tests de recette indiqués ci-dessous",
+        "description": "Préalablement à votre demande de qualification de votre solution, vous devez réaliser une recette interne de votre intégration à partir du cahier de recette disponible ci-dessous. Vous devez certifier avoir réalisé cette recette et certifier que vous considérez cette recette conforme aux critères indiqués dans ce cahier de recette. \r\n\r\nTout critère non respecté dans votre intégration de FranceConnect pourra amener à un refus de qualification de votre service. ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "1. Section Connexion - Bouton FranceConnect",
+        "description": "Le bouton FranceConnect est présent dans la section Connexion du site, ainsi que le texte explicatif au-dessus : \"FranceConnect est la solution proposée par l’État pour sécuriser et simplifier la connexion à vos services en ligne\".\r\n\r\nVous trouverez le package du bouton FranceConnect dans la documentation partenaire. \r\nLa couleur et la taille doivent être conformes, et le survol du bouton doit provoquer un changement d'état comme indiqué dans la documentation. ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "2. Section Connexion - Lien \"Qu'est-ce que FranceConnect ?\"",
+        "description": "Le lien \"Qu'est-ce que FranceConnect ?\" est présent dans la section Connexion du site et positionné sous le bouton FranceConnect.\r\n\r\nCe lien pointe vers la page https://franceconnect.gouv.fr/",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "3. Section Inscription - Bouton FranceConnect",
+        "description": "Le bouton FranceConnect est présent dans la section Inscription du site, ainsi que le texte explicatif au-dessus : \"FranceConnect est la solution proposée par l’État pour sécuriser et simplifier la connexion à vos services en ligne\".\r\n\r\nVous trouverez le package du bouton FranceConnect dans la documentation partenaire. \r\nLa couleur et la taille doivent être conformes, et le survol du bouton doit provoquer un changement d'état comme indiqué dans la documentation. ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "4. Section Inscription - Lien \"Qu'est-ce que FranceConnect ?\"",
+        "description": "Le lien \"Qu'est-ce que FranceConnect ?\" est présent dans la section Inscription du site et positionné sous le bouton FranceConnect.\r\n\r\nCe lien pointe vers la page https://franceconnect.gouv.fr/\r\n",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "5. FranceConnect est le premier mode de connexion",
+        "description": "Le bouton FranceConnect est situé en premier mode de connexion, au-dessus des autres moyens d'identification.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "6. FranceConnect est séparé des autres modes de connexion",
+        "description": "Une séparation visible doit être mise en place entre le bouton FranceConnect et les autres modes de connexion natifs. La mention \"OU\" doit y figurer.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "7. FranceConnect n'est pas associé à des réseaux sociaux et autres services privés",
+        "description": "Le bouton FranceConnect ne doit pas être positionné près de liens, d'icônes ou de services d'identification proposés par des réseaux sociaux et autres services privés.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "8. Version TLS",
+        "description": "Le service ne doit pas utiliser de version de TLS inférieure à 1.2 et doit obligatoirement utiliser des versions 1.2 ou 1.3.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "9. Scopes",
+        "description": "Les scopes demandés lors de l'appel à /authorize sont les mêmes que ceux déclarés et autorisés dans la demande Datapass. ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "10. Niveau eIDAS",
+        "description": "Le niveau eIDAS doit être obligatoirement précisé dans le paramètre acr_values lors de l'appel à /authorize. Sa valeur doit être eidas1. ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "11. Client ID",
+        "description": "Le Client ID déclaré ici doit être le même que celui configuré pour la plateforme de recette ainsi que lors des appels à /authorize.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "12. Paramètres state et nonce",
+        "description": "Les paramètres state et nonce doivent faire au minimum 22 caractères (chiffres et lettres majuscules et minuscules), et doivent être aléatoires et uniques à chaque session FranceConnect. \r\nLeur intégrité doit également être vérifiée par le FS : ils doivent être contrôlés systématiquement et la connexion ne doit pas aboutir si l'un des deux ne correspond pas à ceux envoyés dans la requête /authorize. \r\nIl est recommandé également de déconnecter l'usager de sa session FranceConnect dans le cas où le state et/ou le nonce ne sont pas valides (avec idéalement un retour sur la page d'accueil).",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "13. Cinématique - Connexion",
+        "description": "L'usager peut se connecter via FranceConnect sur le service.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "14. Cinématique - Déconnexion",
+        "description": "En se déconnectant du FS, l'usager se déconnecte bien de sa session FranceConnect.\r\nLes 3 paramètres attendus dans le logout sont : id_token_hint, state et post_logout_redirect_uri",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "15. Cinématique - Suppression ou dissociation de compte",
+        "description": "Si le service propose de supprimer en ligne son compte (ou de dissocier celui-ci de FranceConnect), lors de la suppression (ou dissociation) de celui-ci, l'usager doit être déconnecté également de FranceConnect.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "16. Cinématique - Inscription",
+        "description": "Inscription : Création d'un compte en ligne local en utilisant une identité FranceConnect\r\nPréconditions : l’usager ne dispose pas de compte en ligne",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "17. Cinématique - Réconciliation de compte",
+        "description": "Réconciliation : Association d'un compte en ligne local à son identité FranceConnect\r\nPréconditions : l’usager dispose d’un compte en ligne local et il n’a pas associé son compte à son identité FranceConnect\r\n\r\nLa réconciliation de compte doit respecter ce qui est indiqué dans la documentation de l'espace partenaire : https://partenaires.franceconnect.gouv.fr/monprojet/cadrage#Parcoursdereconciliation\r\n\r\nSi le FS dispose de comptes locaux et souhaite gérer la réconciliation entre ses données locales et celles transmises par FranceConnect, il y a deux cas de figure :\r\n - une réconciliation automatique, sans intervention de l'usager\r\n - une réconciliation manuelle, faisant intervenir l’usager.\r\n\r\nLa réconciliation ne doit pas se baser uniquement sur l'adresse email de l'usager.",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Sur quelles données de l'identité basez-vous votre réconciliation ?",
+        "description": "Indiquez ici la liste des données que vous utilisez pour associer vos données locales avec l'identité reçue de FranceConnect.",
+        "required": true,
+        "options": [
+          "Nom de naissance",
+          "Prénoms",
+          "Date de naissance",
+          "Ville de naissance",
+          "Pays de naissance",
+          "Sexe",
+          "Nom d'usage",
+          "Email"
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Utilisation de l'adresse email pour la réconciliation",
+        "description": "Attention, il n'est pas possible de baser la réconciliation uniquement sur l'adresse email. Veillez à bien utiliser des informations présentes dans l'identité pivot en complément de l'adresse email pour réaliser votre réconciliation. ",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "18. Identification de l'usager",
+        "description": "L'usager doit pouvoir identifier clairement qu'il est connecté et son profil accessible.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "19. Interdiction des pop-ups et iframes",
+        "description": "Les fenêtres pop-ups et iframes sont interdites une fois connecté via FranceConnect. L'usager doit pouvoir vérifier qu'il est bien redirigé sur la plateforme FranceConnect en ayant accès à l'url et au certificat de FranceConnect. ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "20. Non modification de l'identité pivot",
+        "description": "Sur la page du profil ou dans le formulaire d'inscription, les champs suivants ne doivent pas être modifiables : nom de naissance, prénoms de naissance, date de naissance, ville de naissance, pays de naissance, sexe.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "21. Modification des autres données",
+        "description": "Sur la page du profil ou dans le formulaire d'inscription, les champs suivants doivent rester modifiables : email et nom d'usage.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "22. Second facteur d'authentification",
+        "description": "Le FS doit proposer un second facteur d'authentification (possession ou biométrie) si le service est :\r\n - un service numérique en santé,\r\n - ou un service proposant une modification de RIB,\r\n - ou un service proposant de modifier ou télécharger des données / documents sensibles.\r\n\r\nUn second facteur d'authentification est il en place en complément de FranceConnect pour accéder à votre service ?\r\n\r\nLes types de facteurs complémentaires utilisables sont : \r\n - facteur de possession\r\n - facteur biométrique \r\n\r\nL'OTP envoyé par mail n'est pas accepté comme un second facteur, car il peut être considéré comme un facteur de connaissance (mot de passe de la boîte mail). \r\n\r\nLe second facteur d'authentification doit être en place pour l'ensemble des connexions de l'utilisateur, notamment lors de la première connexion à votre service.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Second facteur d'authentification obligatoire",
+        "description": "Dans votre cas, l'ajout d'un second facteur d'authentification semble obligatoire. Veuillez indiquez dans les commentaires de votre recette interne les raisons pour lesquelles vous ne l'avez pas mis en place. ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Critère(s) obligatoire(s) non respecté(s)",
+        "description": "Vous avez renseigné ne pas avoir respecté un ou plusieurs critères obligatoires. Merci de nous indiquer la ou les raisons dans les commentaires de votre recette interne. ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires recette interne",
+        "description": "Indiquez ici si vous avez des remarques particulières sur la recette interne que vous avez effectuée, notamment si vous considérez que certains critères ne s'appliquent pas pour votre service. Dans ce cas, vous devez nous apporter une justification. ",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,682 @@
+{
+  "number": 82737,
+  "title": "LBC Ville Arborée",
+  "description": "Le projet de méthode « Ville arborée », porté par la Société Forestière de la CDC, a pour objectif de valoriser le carbone stocké par des projets d’accroissement du couvert arboré en ville, c’est-à-dire tout projet de plantation d’arbres et d’arbustes, y compris la replantation d’arbres ayant subi des dégâts non-anthropiques lourds (tempêtes, dépérissements massifs, maladies infectieuses, parasitaires, attaques sanitaires, etc.) ou dont le maintien sur pied présente un danger immédiat. La méthode sera, pour l’instant, uniquement applicable sur des territoires urbains en France métropolitaine.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition énergétique"
+  ],
+  "datePublication": "2024-01-29T10:23:22+01:00",
+  "service": {
+    "nom": "Direction Générale de l'Energie et du Climat",
+    "organisme": "Ministère de la Transition Ecologique",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/lbc-ville-arboree",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://label-bas-carbone.ecologie.gouv.fr/",
+  "cadreJuridiqueUrl": "A COMPLETER",
+  "logo": null,
+  "notice": {
+    "filename": "notice demandeur LBC_tous projets.docx",
+    "checksum": "4vnbPCZ8HxOMPGVUdduyaA==",
+    "byteSize": "20592",
+    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "deliberation": null,
+  "dossiersCount": 6,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Avant de remplir le formulaire, nous vous conseillons de bien lire la méthode Ville Arborée",
+        "description": "https://www.bulletin-officiel.developpement-durable.gouv.fr/documents/Bulletinofficiel-0033260/ENER2330715S_Annexe.pdf\r\n",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Région administrative du projet",
+        "description": "C'est la région dans laquelle se trouve la plus grande surface du projet.",
+        "required": true,
+        "options": [
+          "Auvergne Rhône Alpes",
+          "Bourgogne Franche Comté",
+          "Bretagne",
+          "Centre Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Ile de France",
+          "Normandie",
+          "Nouvelle Aquitaine",
+          "Occitanie",
+          "PACA",
+          "Pays de la Loire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Notification du projet",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de notification du projet",
+        "description": "Si vous notifiez ce projet pour la première fois : indiquez la date du jour.\r\nSi vous avez déjà notifié votre projet auprès de l'autorité avant l'ouverture de ce formulaire, ou sous une version simplifiée de ce formulaire : indiquez la date de cette première notification. ",
+        "required": true
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Numéro du demandeur",
+        "description": "Si vous n'avez pas de numéro, vous pouvez vous inscrire ici : https://www.demarches-simplifiees.fr/commencer/inscription-en-tant-que-demandeur-de-lbc\r\nCette première inscription vous évite de renseigner les mêmes informations si vous déposez plusieurs dossiers de demande de Label Bas-Carbone. \r\nSi vous êtes une société mandataire, nous vous conseillons d'utiliser toujours le même numéro de demandeur pour cette société et non pas un numéro pour chacun de vos agents ce qui ne permettrait pas de regrouper tous vos projets dans notre futur registre.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre projet est-il individuel ou collectif?",
+        "description": "Un projet collectif est un projet qui réunit soit des projets distincts d’un même demandeur, soit des projets de porteurs de projets distincts, ou encore, une combinaison des 2. \r\nLes projets collectifs ne devront comporter que des projets individuels situés au sein d’un même EPCI ou d’EPCI voisins.\r\n\r\nSi votre projet est un projet collectif, le terme générique \"projet\" désignera à la suite de ce formulaire le projet collectif, et non ses sous-projets. \r\n",
+        "required": true,
+        "options": [
+          "Individuel",
+          "Collectif"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Qualité du demandeur",
+        "description": "",
+        "required": true,
+        "options": [
+          "Je suis un propriétaire privé de la ou des parcelle(s) du projet",
+          "Je suis un acteur public",
+          "Je suis mandataire du ou des propriétaires de la ou des parcelle(s) concernée(s) par le projet"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Régions (et EPCI) dans lesquelles se situent le projet",
+        "description": "Si plusieurs régions sont concernées par le projet, cliquez sur \"Ajouter un élément pour \"Régions dans lesquelles se situent le projet\".\r\nCe champ permettra de localiser votre projet collectif sur le site internet du label bas-carbone. ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "EpciChampDescriptor",
+            "label": "EPCI dans lequel se situent un ou plusieurs sous-projets",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de sous-projets dans cet EPCI",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Communes concernées par le projet",
+        "description": "Ajouter les communes sur lesquelles se situe le projet, ou les projets collectifs. (ajouter un élément par commune)",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Communes concernées par le projet",
+            "description": "Répéter ce champ autant de fois qu'il y a de communes d",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "EpciChampDescriptor",
+        "label": "EPCI dans lequel se situe le projet",
+        "description": "Ce champ permettra de situer votre projet sur la carte des projets labellisés sur notre site internet du Label Bas Carbone. ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description succincte du projet",
+        "description": "Merci de réaliser une description succincte du projet comprenant au moins les éléments suivants :\r\n- Contexte et but du projet\r\n- Surface concernée par le projet\r\n- Principaux aménagements réalisés\r\n\r\n<strong> Nous vous conseillons vivement de soigner cette présentation qui figurera sur la fiche projet sur notre site internet du label bas-carbone et sera donc visible par le public et les financeurs. </strong>",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Important : Conditions de recevabilité du projet",
+        "description": "Nous vous rappelons les exigences de la méthode Ville Arborée: \r\n\r\nCette méthode s’applique à tout projet individuel ou collectif de plantation d’arbres et d’arbustes, y compris la replantation d’arbres ayant subi des dégâts non-anthropiques lourds (tempêtes, dépérissements massifs, maladies infectieuses, parasitaires, attaques sanitaires…) ou dont le maintien sur pied présente un danger immédiat.\r\n\r\nLa méthode est applicable exclusivement sur le territoire de la France métropolitaine, aux projets situés en ville (au sens de l’unité urbaine : espace à fort degré d’anthropisation caractérisé par une zone de bâti continu comptant au minimum 2 000 habitants). Ainsi les projets éligibles seront situés dans les communes de type « unité urbaine », définie par l’Insee .\r\n\r\nLe projet, individuel ou collectif, est éligible si et seulement si il respecte l’ensemble des conditions suivantes : \r\n\r\n☐ Le projet (collectif le cas échéant) présente a minima 25 tCO2eq de réductions d’émissions (RE) après rabais ;\r\n☐ Le projet ne fait pas l’objet d’une obligation règlementaire ou légale imposant une plantation équivalente ;\r\n☐ Le projet respecte la réglementation qui lui est applicable ;\r\n☐ Le projet ne doit pas engendrer d’imperméabilisation « brute » supérieure à 50% de la surface totale de l’aménagement considéré, c’est-à-dire qu’à défaut d’une réglementation plus contraignante, un projet qui imperméabilise plus de 50% des surfaces anciennement perméables existantes sur le périmètre concerné (sans qu’elles soient forcément végétalisées) ne sera pas éligible ;\r\n☐ De plus, le taux d’imperméabilisation « nette » devra être au maximum de 25%, c’est-à-dire que si un projet imperméabilise 50% de la surface, il devra également désimperméabiliser 25% de la surface totale pour aboutir à un taux net de 25% ;\r\n☐ Le projet exclut tout remplacement d’arbres et d’arbustes ayant subi des dégâts d’origine anthropique directe dans les 5 dernières années, sauf si ces individus représentent un danger immédiat (sur expertise) ;\r\n☐ Chaque projet individuel contient plus d’un arbre planté ; \r\n☐ Le projet ne comporte pas de plantation d’espèces exotiques envahissantes ;\r\n☐ Les volumes de fosses (sans connexion au sol naturel) sont supérieurs à 6 m3 ;\r\n☐ Le projet ne prévoit pas l’usage d’intrants chimiques ;\r\n☐ Le bâchage plastique des sols ainsi que les manchons de protection en plastique le cas échéant sont interdits sur toute la durée de vie du projet, sauf en cas de recours dûment justifié comme mesure de lutte contre une ou plusieurs espèces exotiques envahissantes.\r\n\r\n<strong>A défaut, la labellisation du projet sera refusée.</strong> ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si vous choisissez de déposer votre dossier ultérieurement :",
+        "description": "Dans ce cas, lorsque votre dossier est finalisé, n'oubliez pas d'en informer le service instructeur via la messagerie Démarches Simplifiées, afin qu'il puisse commencer l'instruction. Lorsqu'il aura pris connaissance de votre message, il passera le dossier \"en instruction\" et vous n'aurez plus la main pour le compléter. Si des compléments sont nécessaires, le service instructeur repassera votre dossier \"en construction\" pour rendre le dossier modifiable de nouveau.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Notification ou dépôt du dossier",
+        "description": "Indiquez si votre dossier sera déposé d'un coup ou si vous comptez prendre le temps de le compléter au fur et à mesure. Pour rappel, vous disposez d'un an à compter de la date de notification du projet pour le compléter et d'amorcer le dépôt final pour instruction.\r\n\r\nSi vous choisissez de déposer votre dossier ultérieurement :\r\nDans ce cas, lorsque votre dossier est finalisé, n'oubliez pas d'en informer le service instructeur via la messagerie Démarches Simplifiées, afin qu'il puisse commencer l'instruction. Lorsqu'il aura pris connaissance de votre message, il passera le dossier \"en instruction\" et vous n'aurez plus la main pour le compléter. Si des compléments sont nécessaires, le service instructeur repassera votre dossier \"en construction\" pour rendre le dossier modifiable de nouveau.",
+        "required": true,
+        "options": [
+          "Je notifie mon projet et je déposerai le dossier plus tard : je remplis les informations essentielles de la partie I. et je clique sur \"Déposer le dossier\".",
+          "Je notifie mon projet et je dépose le dossier en même temps : je remplis tout le formulaire avant de cliquer sur \"Déposer le dossier\". Lorsque j'ai cliqué sur \"Déposer le dossier\", j'informe le service instructeur via la messagerie de Démarches Simplifiées que l'instruction peut débuter."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Liste des sous-projets",
+        "description": "Vous pouvez ne remplir que les premières colonnes(A-H) de l'onglet \"Liste de projets individuels\" au stade de la notification. \r\nSi votre projet est individuel, ne remplir qu'une seule ligne. ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Mandat, engagements et informations générales",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de propriétaires concernés par le projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de parcelles concernées par le projet",
+        "description": "Préciser le nombre total de parcelles cadastrales concernées par le projet. ",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 0 : Mandat [obligatoire]",
+        "description": "Mandat signés par chaque propriétaire et le cas échéant donnant mandat au demandeur d'obtenir le Label Bas-Carbone pour le projet. Vous pouvez télécharger le modèle ci-dessous puis le convertir sous format PDF.\r\n\r\n<strong> Merci de cliquer sur \"ajouter un élément\" pour télécharger les différents mandats. </strong>",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 0 : Mandat du porteur de projet et mandat [obligatoire]",
+            "description": "Ajoutez un Document 0 par propriétaire de parcelle(s). \r\nChaque groupe de parcelles appartenant à un propriétaire différent doit faire l'objet d'un mandat dans le cadre du dépôt de projet. \r\n<strong> Attention : merci de nommer les documents avec le numéro de sous-projet de la feuille excel précédemment remplie. </strong>\r\n",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Si le mandataire est une société, merci d'indiquer le SIRET de cette société :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Si le porteur de projet est en société, indiquez ici son SIRET :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autre cas :",
+        "description": "Précisez ici des cas de structures spécifiques qui ne rentrent pas dans les cas précédents.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Le projet",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Suivi du projet",
+        "description": "Pour rappel, la méthode Ville Arborée prévoit des modalités de suivis intermédiaires et diagnostics finaux servant à vérifier la mise en place du projet et de sa permanence.\r\nNous vous recommandons de soigneusement lire la méthode pour identifier toutes les modalités obligatoires liées au suivi de projet. ",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Surface totale du projet (en m²)",
+        "description": "Merci de renseigner la surface totale concernée par le projet en mètres carrés.\r\nDans le cas d'un projet collectif, agréger les surfaces des sous-projets. ",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Surface totale bâtie du projet (en m²)",
+        "description": "Merci de renseigner la surface couverte par du bâti dans le projet, en mètres carrés.\r\nDans le cas d'un projet collectif, agréger les surfaces des sous-projets. ",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Surface totale d'espaces libres (en m²)",
+        "description": "Merci de renseigner la surface non-bâtie dans le projet, en mètres carrés.\r\nDans le cas d'un projet collectif, agréger les surfaces des sous-projets. ",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Scénario de référence",
+        "description": "Conformément aux exigences du référentiel du Label bas-carbone, il est fait état que sur le périmètre d’application de la présente méthode :\r\n•\tLes projets ne peuvent faire l’objet d’une obligation légale (ex : compensation obligatoire) ou réglementaire (hors règlement d’urbanisme considéré dans le scénario de référence) imposant spécifiquement la plantation ou la replantation d’arbres et d’arbustes tel que prévu par le projet ;\r\n•\tDe manière générale, les incitations financières annuelles actuelles visant la plantation d’arbres en ville sont insuffisantes ou non pérennes pour couvrir les besoins de financement de tous les projets à l’horizon 2050. \r\nC’est le cas du Fonds Vert dont l’enveloppe de 2Mds€ dédiées aux collectivités pour le financement pour l’année 2023 de projets d’adaptation au changement climatique dont des projets de renaturation en ville. Outre le fait que ce fonds ne soit destiné qu’aux collectivités, le caractère permanent de cette modalité de financement n’est pas assuré (I4CE, 2022). \r\nNéanmoins, lorsque les projets bénéficient d’aides publiques, le taux de couverture des coûts sera étudié dans l’analyse des aides (partie 5.2.1 du doc méthode) ;\r\n•\tLe couvert arboré en zone urbaine ne s’est globalement pas accru ces dernières années du fait des pratiques courantes alors même que les objectifs d’adaptation au changement climatique imposent un accroissement du couvert arboré dans les villes.\r\n\r\n<strong> Le porteur de projet devra décrire le scénario de référence dont il dépend en fonction des caractéristiques du projet déposé suivant le schéma représenté dans le document de méthode. </strong>\r\n\r\nDans tous les cas, le scénario de référence devra comprendre tous les arbres existants avant le projet sur les zones prévues non bâties (espaces libres). Ces arbres existants pourront convenir au respect des obligations réglementaires le cas échéant.\r\nIl est convenu que les arbres qui auront été abattus, car situés sur l’emprise du bâti, ne seront pas considérés dans le scénario de référence, l’ayant été en l’absence de Label bas carbone.\r\n\r\nPour définir précisément son scénario de référence, le porteur de projet devra renseigner dans le calculateur [document 7], les parties B1. et B2. et la feuille I.B Arbres préexistants.\r\n\r\n",
+        "required": false,
+        "options": [
+          "[Aucune construction] - Maintien de l’état initial du terrain",
+          "[Construction] - Application des obligations réglementaires définies dans les documents d’urbanisme (PLU)",
+          "[Construction] - Application du scénario par défaut en l'absence de PLU applicable"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date prévisionnelle ou réelle de début de validité du projet",
+        "description": "Date qui doit se situer en aval de la date de notification. \r\n",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date prévisionnelle des travaux de plantation",
+        "description": "Dans le cadre d'un projet collectif, indiquer la date de livraison des travaux du dernier sous-projet individuel réalisé. \r\nCette date sert de référence aux audits de 5 ans et 10 ans.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Coûts prévisionnels au m² (en €/m²)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Budget total estimatif du projet (€)",
+        "description": "(travaux initiaux + gestion sur 25 ans)",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Déroulé du projet",
+        "description": "Décrivez le calendrier prévisionnel du projet [se référer à la partie 7 de la méthode] :\r\n- date du diagnostic initial et des calculs de scénario de référence/projet\r\n- calendrier prévisionnel des travaux\r\n- période prévisionnelle pour les audits\r\n\r\n<strong> Vous pouvez également déposer tout document utile à la compréhension du déroulé du projet dans la partie tout en bas permettant le dépôt de pièces justificatives supplémentaires. </strong>",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Additionnalité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Analyse légale et réglementaire",
+        "description": "Le porteur de projet devra indiquer que le projet ne fait pas l’objet d’une mesure compensatoire de plantation (ou de replantation) et qu’il va au-delà de la réglementation et des documents d’urbanisme existants.\r\n\r\n<strong> Si le projet fait l'objet de mesures compensatoires, il faudra en apporter la preuve documentaire dans les pièces justificatives supplémentaires à la fin de ce dossier </strong>",
+        "required": false,
+        "options": [
+          "Le projet ne fait pas l'objet d'une mesure compensatoire de plantation ou de replantation",
+          "Le projet fait l'objet d'une mesure compensatoire de plantation ou de replantation"
+        ]
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Analyse légale et réglementaire",
+        "description": "En cochant cette case, le porteur de projet certifie que son projet va au-delà des réglementations et des documents d'urbanisme existants. ",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Analyse des aides publiques existantes",
+        "description": "Les aides autres que les aides publiques ne sont pas prises en compte pour la présente analyse.",
+        "required": false,
+        "options": [
+          "Il n’existe aucune aide publique liée au projet de plantation en ville au jour du dépôt de la demande de labellisation, qu’elle soit communale, intercommunale, départementale, régionale, nationale ou européenne.",
+          "Il existe des aides publiques pour le projet et le porteur de projet les sollicite entièrement ou en partie",
+          "Il existe des aides publiques pour le projets, mais le porteur de projet ne les sollicite pas"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Analyse des aides publiques existantes",
+        "description": "Dans le cas où il existerait des aides publiques et que le porteur de projet les sollicite, même en partie, il est demandé de présenter un récapitulatif des demandes d'aides et des aides déjà perçues pour le projet.\r\n<strong> Le porteur de projet agrègera toutes ces preuves en un document pdf, à joindre à ce champ. </strong>",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Analyse économique",
+        "description": "Il est demandé au Porteur de projet ou au Mandataire d’établir qu’il ne persiste pas d’effet d’aubaine par la démonstration financière de l’additionnalité de la manière suivante : \r\n\r\nCSR = Coûts du scénario de référence (investissement + gestion des espaces verts) = [combien ?] €    \r\nCSP = Coûts du scénario de projet (investissement + gestion des espaces verts)  = [combien ?]  €\r\n\r\nSi ΔCoûts < 0, l’additionnalité économique est démontrée : \r\nΔCoûts = CSP - CSR = [combien ?] €\r\n\r\n<strong> Le porteur de projet précisera ce calcul dans un document pdf, en indiquant les détails des calculs et la manière dont ils ont été établis (même si le calcul est fait à l'à-peu-près, notamment pour le scénario de référence). \r\nDans le cadre d'un projet collectif, le porteur de projet fera une démonstration par sous-projet, en maintenant la numérotation faite dans le premier excel récapitulatif du début de formulaire.  </strong>\r\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives du projet et emplacement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 1 [obligatoire] : Justificatifs de propriété ou habilitations",
+        "description": "Merci d'ajouter des éléments en fonction du nombre de parcelles concernées par le projet.\r\nIl suffit de cliquer sur le bouton \"ajouter un élément\" ci-dessous et de répéter l'action pour toute nouvelle pièce justificative différent que vous souhaitez déposer. ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 1 [obligatoire] : justificatif de propriété",
+            "description": "Ajoutez un Document 1 par parcelle du projet afin de justifier de la propriété de la parcelle concernée. \r\nType de document : Matrice cadastrale, relévé cadastral ou attestation notariale \r\n<strong> Attention : merci de nommer les documents avec le numéro de sous-projet. </strong>",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 1bis [conditionnel] : habilitation à disposer des parcelles",
+            "description": "Dans le cas d’un porteur de projet non-propriétaire,  un document signé du ou des propriétaires, démontrant son habilitation à disposer des parcelles du projet\r\n<strong> Attention : il ne s'agit pas d'un mandat pour prouver l'habilitation à déposer un projet LBC. </strong>",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 2 [conditionnel] : Documents d'urbanisme auxquels le projet est soumis",
+        "description": "Merci d'ajouter des documents, si il y en a, pour chaque sous-projet",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 2 [conditionnel] : Documents d'urbanisme auxquels le projet est soumis",
+            "description": "Si existants, documents d’urbanisme auxquels le projet est soumis\r\n",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 2 [conditionnel] : Documents d'urbanisme auxquels le projet est soumis",
+        "description": "Si existants, documents d’urbanisme auxquels le projet est soumis\r\n",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 3 [obligatoire] : Plans détaillés du projet",
+        "description": "Merci d'ajouter autant de documents qu'il y a de sous-projets. ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 3 [obligatoire] : Plans détaillés du projet",
+            "description": "Plans détaillés du projet montrant la surface potentielle couverte par les houppiers des arbres et couvertes par les strates inférieures (arbustives et herbacées) accompagnés du descriptif des différentes surfaces",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 3 [obligatoire] : Plans détaillés du projet",
+        "description": "Plans détaillés du projet montrant la surface potentielle couverte par les houppiers des arbres et couvertes par les strates inférieures (arbustives et herbacées) accompagnés du descriptif des différentes surfaces",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 4 [obligatoire] : Devis de fourniture des plants",
+        "description": "Merci d'ajouter autant de documents qu'il y a de sous-projets. ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 4 [obligatoire] : Devis de fourniture des plants",
+            "description": "Devis permettant de justifier des coûts du projet ",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 4 [obligatoire] : Devis de fourniture des plants",
+        "description": "Devis permettant de justifier des coûts du projet ",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 4bis [obligatoire] : Devis des autres coûts",
+        "description": "Devis permettant de justifier des coûts du projet ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 4bis [obligatoire] : Devis des autres coûts",
+            "description": "Devis des autres coûts de projets et/ou autres éléments permettant de justifier ces coûts, dont les coûts de gestion de l’espace vert.\r\nSi possible, agréger les différents documents sous un seul pdf. Autrement, déposer les documents restants dans les pièces justificatives supplémentaires tout au bas du formulaire.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 4bis [obligatoire] : Devis des autres coûts",
+        "description": "Devis des autres coûts de projets et/ou autres éléments permettant de justifier ces coûts, dont les coûts de gestion de l’espace vert.\r\nSi possible, agréger les différents documents sous un seul pdf. Autrement, déposer les documents restants dans les pièces justificatives supplémentaires tout au bas du formulaire.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 5 [obligatoire] : Document descriptif des espèces plantées",
+        "description": "Document descriptif des espèces plantées (nom de l’espèce, type de plants, taille (circonférence/hauteur), quantité).\r\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 5 [obligatoire] : Document descriptif des espèces plantées",
+            "description": "Document descriptif des espèces plantées (nom de l’espèce, type de plants, taille (circonférence/hauteur), quantité).\r\nMerci d'ajouter un document par projet",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 6 [obligatoire] : Photographie aérienne des parcelles",
+        "description": "Ajouter une photographie pour chaque parcelle, en indiquant bien le numéro de la parcelle. \r\nSi les parcelles ne sont pas dispersées, une seule photo suffira pour le projet. ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 6 [obligatoire] : Photographie aérienne des parcelles",
+            "description": "Une photographie aérienne des parcelles datant d’au moins 3 ans, datée avec la source et l’emprise exacte du projet (avec, si possible, une superposition du cadastre)/\r\nNous vous recommandons d'utiliser les sites www.geoportail.fr ou www.remonterletemps.ign.fr ",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 6bis [obligatoire] : Photographie in-situ des parcelles",
+        "description": "Merci d'ajouter des photographies pour chaque parcelle.\r\nS'il y a plusieurs photographies pour une seule parcelle, merci de les agréger en un seul document. \r\nMerci également d'indiquer la localisation des photos et les angles de prises de vue. ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 6bis [obligatoire] : Photographie in-situ des parcelles",
+            "description": "Un ou plusieurs photographies actuelles des parcelles in situ, avec indication de la parcelle lorsque le projet concerne plusieurs parcelles, de la localisation précise et de l’angle de vue (idéalement sur carte ou plan)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Parcelles cadastrales",
+        "description": "Indiquez l'emprise de votre projet en sélectionnant les parcelles concernées (\"sélectionner les parcelles cadastrales\" au niveau de la flèche en haut à gauche). Ou en utilisant la fonction \"dessiner un polygone\". Si les parcelles du projet sont contiguës, vous pouvez tracer un unique polygone et indiquer le nom des parcelles cadastrales dans la description. Si les parcelles ne sont pas contiguës, merci d'indiquer la référence cadastrale de chacune des parcelles après les avoir tracées.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Quantification des réductions d'émissions",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 7 [obligatoire] : Tableur de calcul des émissions",
+        "description": "Calculateur afférent à la méthode dûment rempli\r\nVous pouvez télécharger le modèle ci-joint. \r\n\r\nLe Porteur de projet ou le Mandataire certifie que les parcelles pour lesquelles il sollicite la certification d’un projet Ville arborée auprès du Label bas-carbone excluent tout remplacement d’arbres et d’arbustes ayant subi des dégâts d’origine anthropique directe dans les 5 dernières années sauf si ces individus représentent un danger immédiat (sur expertise).\r\n\r\nEn cas d’abattage d’arbres sains dans le cadre du projet, le Porteur de projet justifie dûment les motifs de ces abatages et apporte le détail des dimensions de tous les arbres abattus, renseignées dans le calculateur [Document 7]. Il y renseigne également les arbres sains maintenus avec le projet.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 7 [obligatoire] : Tableur de calcul des émissions",
+        "description": "Ajouter un tableur renseigné par sous-projet. ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 7 [obligatoire] : Tableur de calcul des émissions",
+            "description": "Calculateur afférent à la méthode dûment rempli\r\nVous pouvez télécharger le modèle ci-joint. \r\n\r\nLe Porteur de projet ou le Mandataire certifie que les parcelles pour lesquelles il sollicite la certification d’un projet Ville arborée auprès du Label bas-carbone excluent tout remplacement d’arbres et d’arbustes ayant subi des dégâts d’origine anthropique directe dans les 5 dernières années sauf si ces individus représentent un danger immédiat (sur expertise).\r\n\r\nEn cas d’abattage d’arbres sains dans le cadre du projet, le Porteur de projet justifie dûment les motifs de ces abatages et apporte le détail des dimensions de tous les arbres abattus, renseignées dans le calculateur [Document 7]. Il y renseigne également les arbres sains maintenus avec le projet.\r\n",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Total des réductions d'émissions avec rabais (en tCO2)",
+        "description": "Dans le cadre d'un unique projet : Recopier la valeur de la cellule C24 de l'onglet \"II. Bilan RE\" du tableur de calcul (Document 7) ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Calcul des co-bénéfices",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Co-bénéfice global : Biodiversité - note globale obtenue",
+        "description": "Dans le cadre d'un unique projet : Reproduire la note finale indiquée ligne 27 de l'onglet \"III. Co-bénéfices\" du tableur de calcul\r\nDans le cadre d'un projet collectif : Reproduire la note agrégée de l'onglet récapitulatif du document récapitulatif complété.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Co-bénéfice global : Biodiversité - note globale maximale possible",
+        "description": "Dans le cadre d'un unique projet : Reproduire la note maximale possible indiquée ligne 27 de l'onglet \"III. Co-bénéfices\" du tableur de calcul\r\nDans le cadre d'un projet collectif : Reproduire la note agrégée de l'onglet récapitulatif du document récapitulatif complété.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Co-bénéfice global : Rafraîchissement urbain - note globale obtenue",
+        "description": "Dans le cadre d'un unique projet : Reproduire la note finale indiquée ligne 42 de l'onglet \"III. Co-bénéfices\" du tableur de calcul\r\nDans le cadre d'un projet collectif : Reproduire la note agrégée de l'onglet récapitulatif du document récapitulatif complété.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Co-bénéfice global : Rafraîchissement urbain - note globale maximale possible",
+        "description": "Dans le cadre d'un unique projet : Reproduire la note maximale possible indiquée ligne 42 de l'onglet \"III. Co-bénéfices\" du tableur de calcul\r\nDans le cadre d'un projet collectif : Reproduire la note agrégée de l'onglet récapitulatif du document récapitulatif complété.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Co-bénéfice global : Gestion de l'eau - note globale obtenue",
+        "description": "Dans le cadre d'un unique projet : Reproduire la note finale indiquée ligne 54 de l'onglet \"III. Co-bénéfices\" du tableur de calcul\r\nDans le cadre d'un projet collectif : Reproduire la note agrégée de l'onglet récapitulatif du document récapitulatif complété.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Co-bénéfice global : Gestion de l'eau - note globale maximale possible",
+        "description": "Dans le cadre d'un unique projet : Reproduire la note maximale possible indiquée ligne 54 de l'onglet \"III. Co-bénéfices\" du tableur de calcul\r\nDans le cadre d'un projet collectif : Reproduire la note agrégée de l'onglet récapitulatif du document récapitulatif complété.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Co-bénéfice global : Qualité de vie et Santé - note globale obtenue",
+        "description": "Dans le cadre d'un unique projet : Reproduire la note finale indiquée ligne 70 de l'onglet \"III. Co-bénéfices\" du tableur de calcul\r\nDans le cadre d'un projet collectif : Reproduire la note agrégée de l'onglet récapitulatif du document récapitulatif complété.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Co-bénéfice global : Qualité de vie et Santé - note globale maximale possible",
+        "description": "Dans le cadre d'un unique projet : Reproduire la note maximale possible indiquée ligne 70 de l'onglet \"III. Co-bénéfices\" du tableur de calcul\r\nDans le cadre d'un projet collectif : Reproduire la note agrégée de l'onglet récapitulatif du document récapitulatif complété.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Coefficient de Biotope par Surface harmonisé (CBSh)",
+        "description": "Reproduire le résultat indiqué ligne 57 de l'onglet \"IV. CBSh\" du tableur de calcul",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document(s) 8 [obligatoire] : Documents de justification des cobénéfices",
+        "description": "<strong> Documents de justification des cobénéfices - si possible à combiner dans un document unique. </strong>\r\n\r\nPour les indicateurs obligatoires :\r\n-\tPlan de gestion écologique et / ou protocole de suivi de la biodiversité et/ou certificat d’adhésion ou engagement du porteur de projet à faire adhérer le projet à un label de gestion écologique certifiant ;\r\n-\tPlan général montrant la position du projet dans la ou les trames d’appartenance (Verte, Bleue, Brune, Noire, continuité urbaine). Cela peut être le Schéma Régional de Cohérence Ecologique ou un autre plan, ou la démonstration de l’inclusion du projet à ces trames.\r\n-\tPlan général ou ciblé (type vue aérienne) permettant d’identifier les établissements accueillant du public à proximité (moins de 300mètres et moins de 150 mètres) ;\r\n-\tPhotos de site montrant la bonne réalisation des travaux (plantations, équipements, usage des sols, mur végétal le cas échéant, horaires du parc, etc.) ;\r\n-\tOnglet CBSh rempli (calculateur) ;\r\n-\tLorsque le projet est non-éligible aux projets d’infiltration, document officiel le justifiant (plan de risques naturels ou autre) ;\r\n-\tLorsque le projet est en zone inondable : document officiel permettant de démontrer que le projet est en zone inondable (zone inondable, zone prioritaire au PPRNI, périmètre aléa inondations fort au zonage de ruissellement, axe prioritaire d’écoulement) ;\r\n-\tToute note ou élément descriptif permettant de justifier l’atteinte d’un niveau si non-justifiée par les éléments ci-dessus.\r\n\r\nEt pour les indicateurs optionnels le cas échéant :\r\n-\tDocuments certifiant l’origine des plants et graines ;\r\n-\tJustification des programmes de sensibilisation en fonction du niveau d’animation atteint (voir fiche indicateur Sensibilisation à la biodiversité) ;\r\n-\tJustification de la campagne de perception du projet à l’aide d’une note descriptif engageant le porteur de projet avant sa réalisation à mener une enquête terrain. Puis, à la réalisation : note synthétique de la campagne d’entretien une fois menée et fourniture de la grille utilisée ;\r\n-\tJustification de l’effet barrière de la végétation contre la pollution de l’air : fourniture de l’étude d’ingénierie sur la qualité de l’air.\r\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document(s) 8 [obligatoire] : Documents de justification des cobénéfices",
+            "description": "Ajoutez des éléments en fonction du nombre de documents séparés que vous souhaitez déposer.\r\n<strong> Les agréger en un seul document est plus lisible pour le service instructeur. Merci d'établir un sommaire en page 1, de manière à rapidement pouvoir naviguer entre les différents documents.</strong>",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Récapitulatif des engagements du demandeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Le mandataire certifie qu'il a contrôlé les conditions d'éligibilité de tous les sous-projets soumis au titre de ce projet.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 9 [obligatoire] : Lettre d’engagements du porteur de projet",
+        "description": "Merci de faire signer une lettre d'engagement par sous-projet",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 9 [obligatoire] : Lettre d’engagements du porteur de projet",
+            "description": "Le porteur de projet doit assurer à l’Autorité que son projet ne fait pas l’objet d’une mesure compensatoire de plantation (ou de replantation). \r\nIl s’assurera également qu’aucune règlementation interdit la plantation. \r\nPour cela, il signe la lettre d’engagement (document 9).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 9 [obligatoire] : Lettre d’engagements du porteur de projet",
+        "description": "Le porteur de projet doit assurer à l’Autorité que son projet ne fait pas l’objet d’une mesure compensatoire de plantation (ou de replantation). \r\nIl s’assurera également qu’aucune règlementation interdit la plantation. \r\nPour cela, il signe la lettre d’engagement (document 9).\r\n",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "NB : au moment de l'audit et de la vérification",
+        "description": "Le rapport de suivi, obligatoire, peut être réalisé par le porteur de projet lui-même ou par une tierce entité mandatée, l’auditeur du projet le cas échéant. Le suivi du projet est réalisé aux frais du porteur de projet. Il utilise pour cela le calculateur en sélectionnant le stade de projet auquel il se trouve.\r\nLe rapport de suivi devra faire état des modifications du projet lors de la mise en œuvre et la durée de vie, en renseignant le calculateur, préalablement à chaque audit :\r\n•\tDu suivi des individus pour la vérification des RE générables et recalcule le cas échéant ces dernières à partir des paramètres nécessaires suivant :\r\no\tNombre d’arbres survivants par espèce et de la mortalité constaté des arbustes ;\r\no\tNombre d’arbres ou d’arbustes replantés entre chaque audit ;\r\no\tDonnées dendrométriques d’un échantillon d’arbres par espèce : diamètre et hauteur (uniquement à 25 ans) ;\r\no\tRépartition des surfaces de l’aménagement (enherbée, arbustives, arborées, perméables, imperméables) ;\r\no\tMode de gestion par individu ou par surface (arbres élagués, arbustes taillés, pelouses tondues, pairies fauchées) – attestation signée  ;\r\n•\tDu suivi des données propres à la détermination des indicateurs de cobénéfice.\r\nLe rapport de suivi est obligatoire et conditionne le déclenchement de l’audit.\r\nLe porteur de projet devra a minima réaliser une mesure des données dendrométriques d’un échantillon d’arbres par espèce calculé par l’Équation 20. L’échantillon est calculé automatiquement dans le calculateur.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations supplémentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Souhaitez-vous ajouter des informations supplémentaires ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Souhaitez-vous ajouter des pièces justificatives supplémentaires ?",
+        "description": "N'hésitez pas à déposer ici tout document utile à la compréhension du projet ou qui ne pourrait être déposé dans les parties précédentes. \r\nPAR EXEMPLE LE RAPPORT D'EXPERT DANS CERTAINS CAS (abattage d'arbres)\r\nIl n'y a pas de limite de documents qui puissent être déposés. ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Fin du dépôt de dossier",
+        "description": "Lorsque vous avez terminé de compléter votre dossier, <strong>n'oubliez pas d'envoyer un message au service instructeur via la Messagerie de la plateforme. Ce message l'informera que votre dossier a été complété et que l'instruction peut débuter. A défaut, il peut considérer que vous êtes toujours en train de le constituer.</strong>",
+        "required": false
+      }
+    ]
+  }
+}

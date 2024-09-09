@@ -1,0 +1,181 @@
+{
+  "number": 86990,
+  "title": "Taxi - entrée de conducteur(s)",
+  "description": "Ce formulaire en ligne permet au taxis de transmettre les justificatifs obligatoires et d'informer la CPAM des Pyrénées-Orientales d'une entrée de conducteur(s)",
+  "tags": [
+    "Taxi"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2024-01-08T13:09:07+01:00",
+  "service": {
+    "nom": "Caisse Primaire d'Assurance Maladie des Pyrénées-Orientales",
+    "organisme": "CPAM",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fichier-ps-taxi-entree-de-conducteur-s-ou-conducte",
+  "dpoUrl": "dpo.cpam-pyrenees-orientales@assurance-maladie.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://declic.cpam66.fr/",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/   ",
+  "logo": {
+    "filename": "Logo_AM_Des_PO.png",
+    "checksum": "NwzN0VyY1NENkmzU+ejkiw==",
+    "byteSize": "19704",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 27,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification du transporteur :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Dans quel département est située votre entreprise ?",
+        "description": "Indiquez le département de votre entreprise",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° de l'assurance maladie",
+        "description": "Référence qui nous permet de vous identifier lors de la facturation\nNuméro composé de 9 caractères",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'entreprise",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du contact",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Annexe 1",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Annexe 1 à la convention. Veuillez renseigner votre n° Assurance Maladie",
+        "description": "Merci de déposer ici l'annexe 1 complétée\r\nLes documents déjà transmis à la CPAM concernant des conducteurs et des véhicules ne doivent pas être réadressés\r\nTous les formats sauf Office (xls, doc, ppt, pps)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Personnels :",
+        "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pour chaque nouveau conducteur :",
+        "description": "Si vous avez plusieurs conducteur, cliquer sur (+  Ajouter un  conducteur pour « Pour chaque nouveau conducteur : » )",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie de la carte professionnelle (carte taxi) en cours de validité",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déclaration Préalable à l'Embauche - DPAE",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Carte professionnelle",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation d'aptitude physique en cours de validité",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation de formation continue en cours de validité",
+            "description": "Si la date d'obtention de la carte professionnelle de conducteur de taxi est supérieure à 5 ans, merci de transmettre l'attestation de formation continue\r\nTous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Engagement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, je certifie conforme les saisies et je signe ma déclaration.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Fait à :",
+        "description": "Indiquez la commune",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Le :",
+        "description": "Format jj/mm/aaaa",
+        "required": true
+      }
+    ]
+  }
+}

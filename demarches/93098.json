@@ -1,0 +1,120 @@
+{
+  "number": 93098,
+  "title": "Demande de duplicata certiphyto - DRAAF/ SRFD - Provence Alpes Côte d'Azur",
+  "description": "Demande le duplicata de certiphyto en cours de validité\r\nRégion Provence Alpes Côte d'Azur",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2024-04-04T16:01:19+02:00",
+  "service": {
+    "nom": "SRFD PACA",
+    "organisme": "DRAAF Provence Alpes Côte d'Azur",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-duplicata-certiphyto-draaf-srfd-provenc",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://draaf.paca.agriculture.gouv.fr/demande-d-attestation-d-obtention-du-certificat-individuel-certiphyto-a1686.html",
+  "cadreJuridiqueUrl": "https://www.mesdemarches.agriculture.gouv.fr/demarches/exploitation-agricole/obtenir-un-droit-une-autorisation/article/obtenir-le-certificat-produits-322",
+  "logo": {
+    "filename": "entete demarche simplifie certiphyto.png",
+    "checksum": "6ysRIWLo/Yia8Y9BK2rYAw==",
+    "byteSize": "59209",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 8,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité du détenteur du certiphyto",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance",
+        "description": "Attention, il s'agit bien ici d'indiquer son nom de naissance et pas son nom d'usage (pour les femmes mariées notamment)",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu de naissance",
+        "description": "Préciser ville et département (ou pays si à l'étranger)",
+        "required": true
+      },
+      {
+        "__typename": "TitreIdentiteChampDescriptor",
+        "label": "Carte d'identité (en recto/verso) ou passeport",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse courriel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Motif de la demande",
+        "description": "",
+        "required": true,
+        "options": [
+          "J'ai perdu mon certiphyto (ou carte -avant 2016)",
+          "Je n'arrive pas à télécharger mon certiphyto depuis mon espace personnel sur service-public.fr"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Certiphyto concerné",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Certiphyto détenu",
+        "description": "",
+        "required": true,
+        "options": [
+          "Conseil",
+          "Vente (MVPP)",
+          "Décideur soumis à agrément (DESA)",
+          "Décideur non soumis à agrément (DENSA)",
+          "Opérateur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Connaissez-vous votre numéro de certiphyto ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° du certiphyto détenu",
+        "description": "(ex : OF-0000-0000)",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Année d'obtention du certificat",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

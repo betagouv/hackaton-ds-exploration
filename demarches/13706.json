@@ -1,0 +1,1007 @@
+{
+  "number": 13706,
+  "title": "Health Data Hub - Appel à projets",
+  "description": "Premier appel à projets du Health Data Hub\r\n\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2019-01-31T17:15:22+01:00",
+  "service": {
+    "nom": "DREES",
+    "organisme": "Ministère de la Santé",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/929b1c8c-0c2f-4053-8af4-44f990ae3df4",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "www.healthdatahub.solidarites-sante.gouv.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Préambule",
+        "description": "En fonction de l'avancée de votre projet, il est possible que vous ne soyez pas en mesure de renseigner l'ensemble des champs ci-dessous.\r\nL'absence de réponse à des champs non-obligatoires n'est pas éliminatoire. \r\nVous êtes invité à répondre de façon précise et concise, dans l'état actuel de vos connaissances (maximum 1000 caractères par champ).",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Liens utiles",
+        "description": "- Tutoriel utilisateur demarches-simplifiees.fr - https://doc.demarches-simplifiees.fr/tutoriels/tutoriel-usager\r\n- Foire aux questions du Health Data Hub - http://qa.health-data-hub.fr/\r\n-  Adresse  de contact pour l'appel à projets - hdh-aap@sante.gouv.fr\r\n- Site du Health Data Hub - http://healthdatahub.solidarites-sante.gouv.fr/",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1 - Fiche d'identité du projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du projet - court",
+        "description": "Nom court, abrégé ou acronyme",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du projet - long",
+        "description": "Nom complet - si nécessaire",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordinateur/porteur du projet - point de contact",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'organisme",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du coordinateur/porteur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du coordinateur/porteur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Présentation du coordinateur/porteur",
+        "description": "Présentation rapide du porteur de projet et capacité à porter le projet",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Equipe projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description",
+        "description": "Description de l'équipe projet (nombre de personnes impliquées et degré d'implication, profils)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Expérience du traitement de données",
+        "description": "Experience dans l'utilisation des données de santé, demande(s) d'accès déjà effectuée(s), exploitation(s) déjà réalisée(s)\r\n",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Références",
+        "description": "Expérience de l'équipe et références académiques ou business",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "CV du porteur/des membres de l'équipe projet",
+        "description": "Vous pouvez importer plusieurs documents en une fois",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Partenaires",
+        "description": "Présentation des éventuels partenaires (en nombre limité), définition des rôles et obligations respectives",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Thématique du projet",
+        "description": "",
+        "required": true,
+        "options": [
+          "1. Recherche",
+          "2. Information et suivi patients",
+          "3. Appui aux professionnels de santé",
+          "4. Efficacité du système de santé"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Livrable",
+        "description": "",
+        "required": true,
+        "options": [
+          "1. Étude et recherche ponctuelle",
+          "2. Développement d’une application",
+          "3. Entrainement d’un modèle (type machine learning)",
+          "4. Outil innovant de collecte de données"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description",
+        "description": "Décrire de façon concise et précise l’objectif principal du projet, le livrable, la méthode et les données à mobiliser (1000 caractères maximum)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Contexte",
+        "description": "En quelques chiffres, contexte dans lequel s'inscrit le projet (par exemple : quelle pathologie, taux de population concernée, mortalité...)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Bénéfices",
+        "description": "Décrire les bénéfices directs et indirects générés par le projet (pour les patients, la communauté scientifique, le tissu économique…)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Réplicabilité",
+        "description": "Potentiel de réutilisation dans d'autres applications, domaines, échelles...",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Maturité \t",
+        "description": "Statut du projet à date : idée, protocole en cours de rédaction, formalisé, première expérience réalisée à petite échelle, prêt au déploiement…",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Résultats 2020",
+        "description": "Description des résultats attendus dans les 6 à 12 mois après l'accès effectif aux données",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Perspectives\t",
+        "description": "Présenter les perspectives de plus long terme du projet (2 à 3 ans)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Financement du projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Rappel",
+        "description": "L'appel à projets n'a pas vocation à financer les projets par le biais d'une subvention d’ensemble.\r\nL’aide financière mobilisable vise essentiellement à prendre en charge si nécessaire  l’éventuel coût d’accès aux données et le développement de briques techniques mutualisables (documentation ou structuration d'une base, outil de collecte ou de traitement...). Cette aide ne saurait se substituer à d’autres sources de financement que pourrait mobiliser le projet par ailleurs.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Disposez-vous d'un financement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si existant - montant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Postes de dépenses financés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Durée et modalités",
+        "description": "Précisez la durée et les modalités du financement",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de financement du projet",
+        "description": "Plan de financement sur la durée complète du projet (au-delà de la période d’accompagnement par le Hub) et planning prévisionnel de mobilisation de l'équipe projet",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - Valeur contributrice à la mise en place du Hub",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Rappel",
+        "description": "L’appel à projets cible en priorité les projets contribuant au partage des données, outils et connaissances.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Détails des contributions proposées à l'écosystème",
+        "description": "Description des éléments de documentation, de requêtes et algorithmes, d'outils, scripts, jeux de données, de compétence que vous proposez de mettre en commun",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Réplicabilité",
+        "description": "Description du caractère réutilisable ou non des données, documentations, outils et des algorithmes développés",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Partage",
+        "description": "Description des modalités souhaitées de partage (données, documentation, outils et algorithmes) ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Propriété intellectuelle\t",
+        "description": "Répartition envisagée de la propriété intellectuelle ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - Sources de données",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Rappel",
+        "description": "Les informations relatives aux sources de données mobilisées doivent être renseignées pour chaque type de source. \r\nLe porteur de projet est invité à fournir les informations les plus complètes et les plus précises possible, dans l'état actuel de ses connaissances.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3A - Source de données 1",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Source de données 1",
+        "description": "Nom et nature de la source ou les sources de données (SNDS, cohortes, registres, données d'entrepôts hospitaliers, de ville, iot...)",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Existence de la base",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire",
+        "description": "Si les données ne sont pas déjà collectées, intuition sur le mode de collecte possible (ajout d'un flux de données dans un entrepôt, application à destination du patient...)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description des données : population visée, caractéristiques techniques",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "1. Population d'intérêt",
+        "description": "Patients, établissements, professionnels de santé...",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "2. Taille de la population cible",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "3. Critères de constitution d'une cohorte le cas échéant",
+        "description": "Par exemple : patient de plus de 60 ans traité pour un cancer",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "4. Identifiants (en vue d'éventuels appariements)",
+        "description": "Identifiants nominatifs (le cas échéant présence des noms, prénoms, date et lieu de naissance), ou NIR, ou autre identifiant - si connu par le porteur de projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "5. Nature des données",
+        "description": "Données structurées ou non (par exemple : tables, textes, images...)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "6. Profondeur d’historique",
+        "description": "Intervalle de temps\r\n",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "7. Nombre de tables",
+        "description": "Si connu par le porteur de projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "8. Nombre d’observations",
+        "description": "Nombre de lignes ou de fichiers - si connu par le porteur de projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "9. Volume de données requis pour le projet (To)",
+        "description": "Si connu par le porteur de projet - une estimation est souhaitable ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "10. Type de la ou des bases de données",
+        "description": "Base de données structurée : base relationnelle ; base de données semi/non structurée : clé-valeur, orientée document, … - si connu par le porteur de projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "11. Fréquence de mise à jour de la source requise pour le projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Qualité estimée",
+        "description": "[Faible, moyen, bon] et description du travail de mise en qualité, notamment standardisation, documentation, création de vues…  - si nécessaire ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Processus de collecte - si pertinent\t",
+        "description": "Décrire les modalités de collecte des données lorsqu'elles sont connues par le porteur de projet si les données ne sont pas déjà centralisées",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Documentation",
+        "description": "Disponibilité ou non de documentation des données\r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Echantillon",
+        "description": "Disponibilité ou non d’échantillons des données\r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Expérience de l'équipe projet",
+        "description": "Expérience de l'utilisation de ce type de données",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Producteur de données",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du producteur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Niveau de participation au projet du producteur ",
+        "description": "",
+        "required": true,
+        "options": [
+          "Non informé",
+          "Informé",
+          "Associé",
+          "Partenaire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Accessibilité juridique\t \t \t \t",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Règles de gouvernance et d'accès aux données",
+        "description": "Si connues par le porteur de projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "La base dispose-t-elle d'une autorisation CNIL ?",
+        "description": "Si connue par le porteur de projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Modalités de protection de leur confidentialité, technique d'anonymisation ou de pseudonymisation",
+        "description": "Fait ou à faire ?",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Modalité d’information individuelle des patients et/ou dérogation",
+        "description": "À préciser",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Accessibilité technique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Accessibilité technique",
+        "description": "Description des modalités d’accès actuelles lorsqu'elles sont connues par le porteur de projet, d’extraction et de traitement (les données sont-elles déjà dans une base de données ouverte à la recherche et l'innovation, doivent-elles être extraites de logiciels métier, les données sont-elles a priori déplaçables à votre connaissance et dans le cas contraire quelles sont les conditions à leur analyse par le porteur de projet, y a-t-il une nécessité de développer des outils spécifiques pour obtenir les données, les traiter, des délais de copie pour des données…), certaines actions sont-elles déjà prises ou prévues par le porteur de projet ?",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande d'accès",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Demande d'accès par le porteur",
+        "description": "Éventuelles formalités déjà entreprises par le porteur de projet auprès des producteurs et instances institutionnelles (INDS, conseils scientifiques, CNIL...)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commentaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire",
+        "description": "Par exemple : projet atypique, à décrire le plus précisément possible",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information",
+        "description": "Si votre projet ne fait appel qu'à une seule source de données, vous pouvez passer directement à la rubrique 4.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3B - Source de données 2",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Source de données",
+        "description": "Nom et nature de la source ou les sources de données (SNDS, cohortes, registres, données d'entrepôts hospitaliers, de ville, iot...)",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Existence de la base\t",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire\t",
+        "description": "Si les données ne sont pas déjà collectées, intuition sur le mode de collecte possible (ajout d'un flux de données dans un entrepôt, application à destination du patient...)\r\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description des données : population visée, caractéristiques techniques",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "1. Population d'intérêt",
+        "description": "Patients, établissements, professionnels de santé...",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "2. Taille de la population cible",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "3. Critères de constitution d'une cohorte le cas échéant",
+        "description": "Par exemple : patient de plus de 60 ans traité pour un cancer",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "4. Identifiants (en vue d'éventuels appariements)",
+        "description": "Identifiants nominatifs (le cas échéant présence des noms, prénoms, date et lieu de naissance), ou NIR, ou autre identifiant - si connu par le porteur de projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "5. Nature des données",
+        "description": "Données structurées ou non (par exemple : tables, textes, images...)\r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "6. Profondeur d’historique",
+        "description": "Intervalle de temps",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "7. Nombre de tables",
+        "description": "Si connu par le porteur de projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "8. Nombre d’observations",
+        "description": "Nombre de lignes ou de fichiers - si connu par le porteur de projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "9. Volume de données requis pour le projet (To)",
+        "description": "Si connu par le porteur de projet - une estimation est souhaitable ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "10. Type de la ou des bases de données",
+        "description": "Base de données structurée : base relationnelle ; base de données semi / non structurée : clé-valeur, orientée document, … - si connu par le porteur de projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "11. Fréquence de mise à jour de la source requise pour le projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Qualité estimée",
+        "description": "[Faible, moyen, bon] et description du travail de mise en qualité, notamment standardisation, documentation, création de vues… - si nécessaire",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Processus de collecte - si pertinent\t",
+        "description": "Décrire les modalités de collecte des données lorsqu'elles sont connues par le porteur de projet si les données ne sont pas déjà centralisées\r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Documentation\t",
+        "description": "Disponibilité ou non de documentation des données",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Echantillon \t",
+        "description": "Disponibilité ou non d’échantillons des données",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Expérience de l'équipe projet",
+        "description": "Expérience de l'utilisation de ce type de données",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Producteur\t \t",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du producteur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Niveau de participation au projet du producteur",
+        "description": "",
+        "required": false,
+        "options": [
+          "Non informé",
+          "Informé",
+          "Associé",
+          "Partenaire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Accessibilité juridique\t \t \t \t",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Règles de gouvernance et d'accès aux données",
+        "description": "Si connues par le porteur de projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "La base dispose-t-elle d'une autorisation CNIL ?",
+        "description": "Si connue par le porteur de projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Modalités de protection de leur confidentialité, technique d'anonymisation ou de pseudonymisation",
+        "description": "Fait ou à faire ?",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Modalité d’information individuelle des patients et/ou dérogation",
+        "description": "À préciser",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Accessibilité technique \t",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Accessibilité technique \t",
+        "description": "Description des modalités d’accès actuelles lorsqu'elles sont connues par le porteur de projet, d’extraction et de traitement (les données sont-elles déjà dans une base de données ouverte à la recherche et l'innovation, doivent-elles être extraites de logiciels métier, les données sont-elles a priori déplaçables à votre connaissance et dans le cas contraire quelles sont les conditions à leur analyse par le porteur de projet, y a-t-il une nécessité de développer des outils spécifiques pour obtenir les données, les traiter, des délais de copie pour des données…), certaines actions sont-elles déjà prises ou prévues par le porteur de projet ?",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande d'accès par le porteur\t",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Demande d'accès par le porteur\t",
+        "description": "Éventuelles formalités déjà entreprises par le porteur de projet auprès des producteurs et instances institutionnelles (INDS, conseils scientifiques, CNIL...)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commentaire\t",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire\t",
+        "description": "Par exemple : projet atypique, à décrire le plus précisément possible",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3C - Source de données 3",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Source de données 3",
+        "description": "Nom et nature de la source ou les sources de données (SNDS, cohortes, registres, données d'entrepôts hospitaliers, de ville, iot...)\r\n",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Existence de la base\t",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire\t",
+        "description": "Si les données ne sont pas déjà collectées, intuition sur le mode de collecte possible (ajout d'un flux de données dans un entrepôt, application à destination du patient...)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description des données : population visée, caractéristiques techniques",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "1. Population d'intérêt",
+        "description": "Patients, établissements, professionnels de santé...",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "2. Taille de la population cible",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "3. Critères de constitution d'une cohorte le cas échéant",
+        "description": "Par exemple : patient de plus de 60 ans traité pour un cancer",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "4. Identifiants (en vue d'appariements)",
+        "description": "Identifiants nominatifs (le cas échéant présence des noms, prénoms, date et lieu de naissance), ou NIR, ou autre identifiant - si connu par le porteur de projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "5. Nature des données",
+        "description": "Données structurées ou non (par exemple : tables, textes, images...)",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "6. Profondeur d’historique",
+        "description": "Intervalle de temps",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "7. Nombre de tables",
+        "description": "Si connu par le porteur de projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "8. Nombre d’observations",
+        "description": "Nombre de lignes ou de fichiers - si connu par le porteur de projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "9. Volume de données requis pour le projet (To)",
+        "description": "Si connu par le porteur de projet - une estimation est souhaitable",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "10. Type de la ou des bases de données",
+        "description": "Base de données structurée : base relationnelle ; base de données semi/non structurée : clé-valeur, orientée document, … - si connu par le porteur de projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "11. Fréquence de mise à jour de la source requise pour le projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Qualité estimée\t",
+        "description": "[Faible, moyen, bon] et description du travail de mise en qualité, notamment standardisation, documentation, création de vues… - si nécessaire",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Processus de collecte - si pertinent",
+        "description": "Décrire les modalités de collecte des données lorsqu'elles sont connues par le porteur de projet si les données ne sont pas déjà centralisées",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Documentation",
+        "description": "Disponibilité ou non de documentation des données",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Echantillon",
+        "description": "Disponibilité ou non d’échantillons des données\r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Expérience de l'équipe projet",
+        "description": "Expérience de l'utilisation de ce type de données",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Producteur de données",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom du producteur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Niveau de participation au projet du producteur",
+        "description": "",
+        "required": false,
+        "options": [
+          "Non informé",
+          "Informé",
+          "Associé",
+          "Partenaire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Accessibilité juridique \t",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Règles de gouvernance et d'accès aux données",
+        "description": "Si connues par le porteur de projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "La base dispose-t-elle d'une autorisation CNIL",
+        "description": "Si connue par le porteur de projet",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Modalités de protection de leur confidentialité, technique d'anonymisation ou de pseudonymisation",
+        "description": "Fait ou à faire ?",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Modalité d’information individuelle des patients et/ou dérogation",
+        "description": "À préciser",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Accessibilité technique \t",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Accessibilité technique \t",
+        "description": "Description des modalités d’accès actuelles lorsqu'elles sont connues par le porteur de projet, d’extraction et de traitement (les données sont-elles déjà dans une base de données ouverte à la recherche et l'innovation, doivent-elles être extraites de logiciels métier, les données sont-elles a priori déplaçables à votre connaissance et dans le cas contraire quelles sont les conditions à leur analyse par le porteur de projet, y a-t-il une nécessité de développer des outils spécifiques pour obtenir les données, les traiter, des délais de copie pour des données…), certaines actions sont-elles déjà prises ou prévues par le porteur de projet ?",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande d'accès par le porteur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Demande d'accès par le porteur\t",
+        "description": "Éventuelles formalités déjà entreprises par le porteur de projet auprès des producteurs et instances institutionnelles (INDS, conseils scientifiques, CNIL...)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commentaire\t",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire\t",
+        "description": "Par exemple : projet atypique, à décrire le plus précisément possible",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - Accompagnement souhaité au-delà de la mise à disposition des données via la plateforme technologique du Health Data Hub",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Difficultés anticipées ",
+        "description": "Description des différents freins rencontrés ou anticipés",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Accompagnement technico-juridique et institutionnel dans l'accès aux données",
+        "description": "Par exemple : identification des procédures d'accès, aide au remplissage des dossiers de demande d'accès, identification des contacts, sécurisation de la circulation des données ou de la réalisation des appariements (le cas échéant), conviction et coordination des acteurs, mise en relation avec des experts des données visées…",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Aide à la collecte et à la consolidation des données visées",
+        "description": "Par exemple : soutien aux producteurs pour produire les données visées si non existantes, à les documenter, les structurer, les mettre en qualité, interaction avec les industriels du logiciel, développement de briques technologiques pour la collecte, la pseudonymisation, le traitement...",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Aide à l'analyse des données",
+        "description": "Mise à disposition des ressources humaines par le Health Data Hub pour une activité identifiée et sur une durée limitée : besoin à préciser (profil, compétences, activités, date de début et durée souhaitée) et à justifier au regard du potentiel de réutilisation ou du partage d'une partie des travaux",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Fédérer l'écosystème",
+        "description": "Aide à la mise en relation, à la participation à des appels à projets européens (à préciser), à la fédération des initiatives via des événements ou des projets opensource, à la communication des résultats...",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Suggestion d'accompagnement\t",
+        "description": "Projet atypique, besoins spécifiques à décrire le plus précisément possible ",
+        "required": false
+      }
+    ]
+  }
+}

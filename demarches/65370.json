@@ -1,0 +1,240 @@
+{
+  "number": 65370,
+  "title": "TS - Mouvement de personnels entrants",
+  "description": "Ce formulaire vous permet de déclarer l’embauche d’un nouveau salarié ou le renouvellement d’un contrat à durée déterminée. \r\n\r\nA noter que dans le cas où l’un de vos salariés viendrait à changer de fonction et donc de contrat dans l’entreprise, ce changement doit être signalé via ce formulaire.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2024-05-13T10:19:57+02:00",
+  "service": {
+    "nom": "ARS ARA - le service transports sanitaires",
+    "organisme": "Agence régionale de santé Auvergne Rhône-Alpes",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ts-mouvement-de-personnels-entrants2024",
+  "dpoUrl": "ars-ara-dpd@ars.sante.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.auvergne-rhone-alpes.ars.sante.fr/demarches-administratives-en-ligne",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/eli/arrete/2012/7/12/AFSE1128927A/jo/texte/fr",
+  "logo": {
+    "filename": "2020_Logo_RH_ARS_ARA_Horizontal.png",
+    "checksum": "9zUg82YNfn7fyU0fYro6xQ==",
+    "byteSize": "71396",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 1775,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DECLARANT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Numéro de département",
+        "description": null,
+        "required": true,
+        "options": [
+          "01",
+          "03",
+          "07",
+          "15",
+          "26",
+          "38",
+          "42",
+          "43",
+          "63",
+          "69",
+          "73",
+          "74"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Quotité de travail par lieu d'implantation",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse du lieu d'implantation du véhicule",
+            "description": "Adresse du local d'accueil des patients et de garage",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Quotité de travail se rapportant à ce lieu",
+            "description": "Inscrire la valeur sans le symbole %.  exemple : 40",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro d'agrément",
+        "description": "Saisir le numéro d'agrément sans caractères spéciaux (/ -)\r\nATTENTION : Indiquer le numéro d'agrément du siège social du département",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DECLARATION DE SALARIE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du salarié",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Qualification",
+        "description": "",
+        "required": true,
+        "options": [
+          "1- Ambulancier : DEA/DA/CCA",
+          "2- Pompiers",
+          "3- Auxiliaire ambulancier",
+          "3- Professions réglementées Auxiliaires médicaux",
+          "3- PSC1 ou carte d'Auxiliaire sanitaire",
+          "4- Conducteur d'ambulance"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quotité de travail",
+        "description": "Ex : 50 pour un mi-temps (50%) et 100 pour un temps plein (100%)",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début de contrat",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nature du contrat",
+        "description": null,
+        "required": true,
+        "options": [
+          "CDD",
+          "CDI"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de fin de contrat",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de fin de validité de l'attestation préfectorale (TARS)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Habilitation à la conduite d'ambulance (TARS) validée par la préfecture",
+        "description": "En format pdf.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de fin de validité de l'AFGSU 2",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "AFGSU 2 ou recyclage de l'AFGSU 2",
+        "description": "En format pdf.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'obtention du diplôme / attestation de réussite",
+        "description": "Obligatoire à l'exception de la qualification conducteur d'ambulance",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document attestant de la qualification de l'intéressé (diplômes/ attestation de réussite)",
+        "description": "En format PDF\r\nObligatoire à l'exception de la qualification conducteur d'ambulance",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de formation complémentaire aux actes professionnels pouvant être accomplis dans le cadre de l'aide médicale urgente",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Permis de conduire (recto/verso)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ENGAGEMENT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J’atteste sur l’honneur l’exactitude de toutes les informations communiquées.",
+        "description": "Les informations fournies sur ce document engagent l'entière responsabilité du représentant légal et doivent correspondre à la réalité exacte de l'entreprise de transports sanitaires concernée.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Signature du représentant légal (nom et prénom)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "RGPD",
+        "description": "Conformément au règlement (UE) 2016/679 du Parlement européen et à la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, modifiée par la loi n°2018-493 du 20 juin 2018 (décret 2018-687 du 1er août 2018), vous pouvez accéder aux données vous concernant ou demander leur effacement. Vous disposez également d'un droit d’opposition, d’un droit de rectification et d’un droit à la limitation du traitement de vos données. Pour exercer ces droits, vous pouvez contacter le Délégué à la Protection des Données (DPO) de l’ARS (ars-ara-dpd@ars.sante.fr).",
+        "required": false
+      }
+    ]
+  }
+}

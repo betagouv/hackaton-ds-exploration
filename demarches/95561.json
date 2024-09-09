@@ -1,0 +1,89 @@
+{
+  "number": 95561,
+  "title": "Demande de réservation de salles communales pour la période de septembre 2024 à décembre 2025",
+  "description": "Ce formulaire, destiné aux associations arnolphiennes, leur permet de transmettre à la mairie leurs souhaits de réservation de salles pour la période septembre 2024 à décembre 2025.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2024-05-07T16:04:31+02:00",
+  "service": {
+    "nom": "Service Animation, Culture, Sport",
+    "organisme": "Mairie de Saint-Arnoult-en-Yvelines",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-reservation-de-salles-communales-pour-l",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "www.reservation-salle-2024-2025.say78.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/eli/loi/2018/6/20/JUSC1732261L/jo/texte",
+  "logo": {
+    "filename": "logo st arnoult.png",
+    "checksum": "NhM42csrGl7cwFqlVwbTHg==",
+    "byteSize": "404140",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 24,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Explications",
+        "description": "Remplir les champs ci-dessous, puis ajouter si nécessaire un ou plusieurs souhaits supplémentaires en cliquant sur \"Ajouter un élément pour « Souhait de réservation » \"\nAjouter un souhait par date et par salle. ",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Souhait de réservation",
+        "description": "Ajouter autant de fois cette élément que de réservations souhaitées, en cliquant sur \"Ajouter un élément pour « Souhait de réservation » \"",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Date de réservation",
+            "description": "Date de réservation au format jj/mm/aaaa \r\nOu réservation récurrente, exemple : Tous les jeudis de mars à mai 2025",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Horaires de réservation",
+            "description": "Merci de préciser les horaires de réservation de la salle, en tenant compte des temps d'installation, de désinstallation et de la prise en charge des élèves ou adhérents de l'association. ",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Objet de la réservation",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Salle à réserver",
+            "description": "Ajouter la salle à réserver pour la date choisie dans la liste ci-dessous",
+            "required": true,
+            "options": [
+              "Cratère + Anna de Noailles (gratuit)",
+              "Cratère + Anna de Noailles (payant)",
+              "Colombier (gratuit)",
+              "Colombier (payant)",
+              "Cratère (gratuit)",
+              "Cratère (payant)",
+              "Anna de Noailles",
+              "Victor Hugo",
+              "Rêverie",
+              "Printemps",
+              "Paul Verlaine",
+              "Arthur Rimbaud",
+              "Centre de loisirs"
+            ],
+            "otherOption": false
+          }
+        ]
+      }
+    ]
+  }
+}

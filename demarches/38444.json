@@ -1,0 +1,97 @@
+{
+  "number": 38444,
+  "title": "Déposer vos documents",
+  "description": "Pour l'instant, ce service est réservé uniquement aux assurés de la CPAM de la Manche. Par exception, les assurés en invalidité des CPAM de l'Orne et du Calvados peuvent utiliser ce formulaire.\r\n\r\nPour une connexion simple et pratique, utilisez la connexion France-Connect.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2021-01-19T16:19:55+01:00",
+  "service": {
+    "nom": "Caisse Primaire d'Assurance Maladie - Pôle assuré",
+    "organisme": "CPAM ",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/deposer-vos-documents",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://declic.cpam50.fr/ ",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/",
+  "logo": {
+    "filename": "revu Manche_Logo_Nov.2020_CMJN jpg.png",
+    "checksum": "LX4Bt+jQLVXJOcbn/1bFmQ==",
+    "byteSize": "917811",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 464,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre formulaire de dépôt",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "La CPAM de la Manche vous offre dorénavant la possibilité d'adresser vos documents, nécessaires à l'instruction de votre dossier (merci de conserver les documents originaux), en complétant le formulaire suivant.",
+        "description": "En cas de questions et/ou demandes de renseignement, nous vous invitons à vous connecter sur le site Ameli (une réponse vous sera apportée dans un délai de 48 heures) ou à contacter le 3646.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre demande concerne",
+        "description": "",
+        "required": true,
+        "options": [
+          "Accident du travail/Maladie Professionnelle",
+          "Aide financière (ASS)",
+          "Commission de Recours Amiable (CRA)",
+          "Complémentaire Santé solidaire (C2S)",
+          "Informations administratives et droits (affiliation et changement de situation...)",
+          "Indemnités journalières accident du travail/maladie professionnelle",
+          "Indemnités journalières maladie, maternité, congés paternité",
+          "Invalidité",
+          "Mise à jour de vos coordonnées bancaires (uniquement en cas d'impossibilité de mise à jour sur votre compte ameIi)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "De quelle Caisse Primaire d'Assurance Maladie dépendez-vous ?",
+        "description": "Indiquez le département de votre Caisse Primaire d'Assurance Maladie\n",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de sécurité sociale",
+        "description": "Saisir les 15 chiffres sans espace",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Vos pièces à fournir",
+        "description": "Plusieurs pièces à déposer, vous pouvez faire \"+ Ajouter un élément pour......\"",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déposer ici vos pièces",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

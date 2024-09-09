@@ -1,0 +1,314 @@
+{
+  "number": 77461,
+  "title": "INVENTAIRE DES LOGEMENTS COMMUNAUX EN ARIEGE",
+  "description": "Avoir une connaissance actualisée du parc de logement communal par EPCI dans le département de l'Ariège en prévision des projets de rénovation énergétique pour respecter le décret sur les passoires énergétiques.",
+  "tags": [
+    "Rénovation thermique",
+    "Logement",
+    "Logement communal",
+    "Logement-communal"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2023-10-10T18:50:31+02:00",
+  "service": {
+    "nom": "Service Aménagement Urbanisme Habitat",
+    "organisme": "Direction Départementale des Territoires, Préfecture de l'Ariège, Ministère de la Transition Ecologique",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/inventaire-des-logements-communaux-en-ariege",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ariege.gouv.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042953125",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 208,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Personne à contacter",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Intercommunalité",
+        "description": "",
+        "required": true,
+        "options": [
+          "200067791 - CA Pays Foix-Varilhes",
+          "200066223 - CC Arize Lèze",
+          "200067940 - CC Couserans-Pyrénées",
+          "200066363 - CC de la Haute Ariège",
+          "200066231 - CC des Portes d'Ariège Pyrénées",
+          "240900464 - CC du Pays d'Olmes",
+          "200044469 - CC du Pays de Mirepoix",
+          "240900431 - CC du Pays de Tarascon"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la personne ressource",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "adresse mail de la personne ressource",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone de la personne ressource",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Le parc de logement communal",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de logements communaux",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de logements communaux conventionnés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Logement communal",
+        "description": "Merci de remplir logement par logement",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "Information concernant chaque logement",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse du logement",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Le logement est-il conventionné (social) ?",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro de la convention",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "Caractéristiques du logement",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Typologie du logement",
+            "description": "",
+            "required": true,
+            "options": [
+              "T1",
+              "T1 bis",
+              "T2",
+              "T2 bis",
+              "T3",
+              "T4",
+              "T5",
+              "T6 et +"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Surface du logement",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant du loyer (hors charges)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Le logement comporte-il une annexe ?",
+            "description": "Cave, cellier, etc.",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Le logement possède-t-il un garage ?",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Le logement possède-t-il un espace extérieur ?",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type d'extérieur",
+            "description": "",
+            "required": false,
+            "options": [
+              "Terrasse",
+              "Balcon / loggia",
+              "Jardin"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Le logement est-il accessible aux Personnes à Mobilité Réduite",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "Performance énergétique",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Un diagnostic de performance énergétique (DPE) a-t-il été réalisé pour le logement ?",
+            "description": "",
+            "required": true,
+            "options": [
+              "Oui",
+              "Non",
+              "Je ne sais pas"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Quelle est la classe énergétique ?",
+            "description": "",
+            "required": true,
+            "options": [
+              "Classe A",
+              "Classe B",
+              "Classe C",
+              "Classe D",
+              "Classe E",
+              "Classe F",
+              "Classe G",
+              "Classe G+"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Quelle est la date du DPE ?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Quel est le type de chauffage du logement ?",
+            "description": "",
+            "required": true,
+            "options": [
+              "Chaudière fioul",
+              "Chaudière gaz",
+              "Chaudière à condensation",
+              "Pompe à chaleur (PAC) air-eau",
+              "Biomasse (poêle bois/granulés)",
+              "Radiateurs électriques",
+              "Pompe(s) à chaleur (PAC) air/air",
+              "Je ne sais pas"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Quelle est la performance d'isolation du logement ?",
+            "description": "",
+            "required": true,
+            "options": [
+              "Le logement est bien isolé",
+              "Le logement est mal ou partiellement isolé",
+              "Le logement n'est pas isolé",
+              "Je ne sais pas"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "Entretien du logement",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Le logement a-t-il fait l'objet de travaux récents ?",
+            "description": "",
+            "required": true,
+            "options": [
+              "Oui",
+              "Non",
+              "Je ne sais pas"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Quels sont les travaux réalisés ?",
+            "description": "Travaux de plomberie, d'électricité, de menuiseries, de couverture, d'isolation, d'accessibilité, etc.",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Quand ont été réalisés ces travaux ?",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Des travaux sont-ils envisagés prochainement ?",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Quels types de travaux ?",
+            "description": "Travaux de plomberie, d'électricité, de menuiseries, de couverture, d'isolation, d'accessibilité, etc.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Nous vous remercions d'avoir répondu à cette enquête et restons à votre disposition pour toute demande d'information complémentaire. Vous pouvez modifier ou compléter les informations fournies jusqu'à la clôture de cette démarche.",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

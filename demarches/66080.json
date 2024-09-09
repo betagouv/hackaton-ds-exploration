@@ -1,0 +1,164 @@
+{
+  "number": 66080,
+  "title": "DDPP85 / IAHP / Déclaration Mise en place ZCT Faune sauvage",
+  "description": "Démarche pour déclaration des mises en place pour des élevages en ZCT Faune Sauvage pour le département de la Vendée",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2022-11-03T17:35:55+01:00",
+  "service": {
+    "nom": " Ministère de l'agriculture et de la souveraineté alimentaire.",
+    "organisme": "Direction générale de l'alimentation (DGAL)",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ddpp85-iahp-declaration-mise-en-place-zct-faune-sa",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.vendee.gouv.fr/mise-en-place-des-volailles-dans-les-elevages-r1184.html",
+  "cadreJuridiqueUrl": "",
+  "logo": null,
+  "notice": null,
+  "deliberation": {
+    "filename": "AM Mesures Tech IAHP_18012008_Modif3.docx",
+    "checksum": "NaGOmwr1XFCADoU+8KnRZA==",
+    "byteSize": "62822",
+    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "dossiersCount": 1641,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATIONS SUR LA MISE EN PLACE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'exploitation où se fait la mise en place",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Numéro SIRET",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Géolocalisation du site",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse/lieu dit où se fait la mise en place",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Bâtiment concerné",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "INUAV",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "LinkedDropDownListChampDescriptor",
+            "label": "Type d'animaux mis en place",
+            "description": "",
+            "required": true,
+            "options": [
+              "--Galliformes--",
+              "Poussins 1 jour",
+              "Poules prêtes à pondre",
+              "Volailles démarrées",
+              "Reproducteurs",
+              "--Palmipèdes--",
+              "Canetons 1 jour",
+              "Palmipèdes démarrés",
+              "Palmipèdes pour mise en gavage",
+              "Palmipèdes en gavage",
+              "Reproducteurs",
+              "--Autres--",
+              "Autres"
+            ]
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre d'animaux mis en place",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de la mise en place",
+            "description": "(Nota bene : cette déclaration ne remplace pas la déclaration de toute entrée / sortie d'oiseaux sur une base de données électronique (Ex : BDAvicole, ATM).",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du couvoir ou exploitation d'origine des animaux mis en place",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune du couvoir/exploitation d'origine des animaux",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type d'organisation",
+            "description": "Si groupement, sélectionner \"autre\" et indiquer le nom du groupement dans le champ libre ",
+            "required": true,
+            "options": [
+              "Indépendant"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "JUSTIFICATIFS",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Adhésion à une charte sanitaire",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Audit biosécurité favorable",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Ajouter en PJ le justificatif",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "number": 36328,
+  "title": "Entretien/Maintenance LPMC",
+  "description": "Formulaire de demande d'intervention pour maintenance, entretien ou aménagement des locaux et matériels du lycée Pierre & Marie Curie",
+  "tags": [
+    "Scolaire"
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2021-09-02T08:44:55+02:00",
+  "service": {
+    "nom": "Service gestion",
+    "organisme": "Lycée Pierre & Marie Curie",
+    "typeOrganisme": "etablissement_enseignement"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/entretien-maintenance-lpmc",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://curie.paysdelaloire.e-lyco.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000502177/2008-03-18/",
+  "logo": {
+    "filename": "Mariane lycée.png",
+    "checksum": "MJfBv6ygPwxFJLLkcIR74g==",
+    "byteSize": "38916",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 493,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Objet de la demande",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d'intervention",
+        "description": null,
+        "required": true,
+        "options": [
+          "Réparation",
+          "Aménagement",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description",
+        "description": "Afin d'optimiser l'intervention, merci d'être le plus précis possible.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Urgence",
+        "description": null,
+        "required": true,
+        "options": [
+          "Immédiate",
+          "Haute",
+          "Moyenne",
+          "Basse"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Bâtiment",
+        "description": null,
+        "required": true,
+        "options": [
+          "Administration",
+          "Atelier",
+          "CFA/GRETA",
+          "Espaces extérieurs",
+          "Externat",
+          "Internat",
+          "Restauration"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Salle/Espace",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": "Vous pouvez joindre des photos ou tout autre document pouvant illustrer la demande.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce jointe",
+            "description": null,
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

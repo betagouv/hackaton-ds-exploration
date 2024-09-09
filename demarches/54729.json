@@ -1,0 +1,328 @@
+{
+  "number": 54729,
+  "title": "Demande de visa exceptionnel pour deux jours d'une même semaine cinématographique et un maximum de 500 séances",
+  "description": "Ce formulaire vous permet d'envoyer au CNC une demande de visa exceptionnel pour un nombre de séances n’excédant pas 500 et une durée n’excédant pas deux jours d’une même semaine cinématographique, pour une œuvre ou un document. \r\n\r\nLa demande de visa exceptionnel doit être adressée via ce formulaire au moins deux semaines avant la date prévue pour la première représentation publique de l'œuvre ou du document.\r\n\r\nAvant toute projection, il convient de s'assurer de l'accord de l'ayant droit.\r\n\r\nPour toute question ou renseignement complémentaire vous pouvez vous adresser à : visa.exceptionnel@cnc.fr.",
+  "tags": [
+    "Cinéma"
+  ],
+  "zones": [
+    "Ministère de la Culture"
+  ],
+  "datePublication": "2022-03-08T16:59:37+01:00",
+  "service": {
+    "nom": "Direction du Cinéma, Service de la diffusion en salles",
+    "organisme": "Centre national du cinéma et de l'image animée",
+    "typeOrganisme": "operateur_d_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/visa-exceptionnel-2jours",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.cnc.fr/professionnels/visas-et-classification",
+  "cadreJuridiqueUrl": "https://www.cnc.fr/professionnels/code-du-cinema-et-de-limage-animee-et-reglement-general-des-aides-financieres-du-centre-national-du-cinema-et-de-limage-animee-rga_124252",
+  "logo": {
+    "filename": "cnc.png",
+    "checksum": "FWcxYn4Mek5+1tyPKHDeew==",
+    "byteSize": "3303",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 492,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1- Identité du demandeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": true,
+        "options": [
+          "Monsieur",
+          "Madame"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Faites-vous cette demande en tant que :",
+        "description": " ",
+        "required": true,
+        "options": [
+          "Distributeur",
+          "Producteur",
+          "Ayant-droit",
+          "Organisateur des projections (exploitant,festival...)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale",
+        "description": "Si la demande est formulée pour le compte d'une personne morale, il est impératif de compléter ce champ. ",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Numéro SIRET",
+        "description": "Si la demande est formulée pour le compte d'une personne morale, il est impératif de compléter ce champ. ",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse postale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du contact",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email du contact",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. Renseignements sur l'œuvre concernée",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Titre de l'œuvre",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Titre original",
+        "description": "Ne compléter que pour les œuvres étrangères.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Réalisateur / réalisatrice",
+        "description": "S'il y a plusieurs réalisateurs ou réalisatrices, cliquer sur le bouton \"ajouter un élément\".",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom et NOM du réalisateur ou de la réalisatrice",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Distributeur de l'œuvre",
+        "description": "Si l'œuvre n'a pas de distributeur, veuillez indiquer le producteur ou l'ayant droit ou l'entité agissant en tant que distributeur.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "SIREN ou SIRET du distributeur de l'œuvre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro d'immatriculation au RCA de l'œuvre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Nationalité de l'oeuvre",
+        "description": "Si l'œuvre est franco-étrangère, indiquer \"FRANCE\" dans la nationalité.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Genre de l'œuvre",
+        "description": "",
+        "required": true,
+        "options": [
+          "Animation",
+          "Documentaire",
+          "Fiction",
+          "Expérimental"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Année de production de l'œuvre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Durée de l'œuvre (en minutes)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Version",
+        "description": null,
+        "required": true,
+        "options": [
+          "Version originale (VO)",
+          "Version française (VF)",
+          "Version doublée (VD)"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Synopsis ou présentation détaillée de l'œuvre",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. Renseignements sur la programmation prévue en salles",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Conformément à l'article R.211-45 du code du cinéma et de l'image animée, la diffusion ne doit pas excéder deux jours d'une même semaine cinématographique (consécutifs ou non) et ne doit dépasser 500 séances.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Première date de projection prévue",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Seconde date de projection prévue, le cas échéant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de séances prévues",
+        "description": "Conformément à l'article R211-45 du code du cinéma et de l'image animée, le nombre de diffusion ne peut excéder 500 séances. ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Présentation de la programmation de l'œuvre (dates et lieux de projection)",
+        "description": "Vous pouvez présenter la programmation prévue de l'œuvre dans cette zone de texte ou bien attacher un document présentant cette programmation ci-après.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce jointe présentant la programmation de l'œuvre (dates et lieux de projection)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4. Classification de l'œuvre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Mesures de restrictions prononcées dans les autres pay",
+        "description": "Si l'œuvre a fait l'objet d'une exploitation cinématographique dans d'autres pays, indiquer les mesures de restriction prononcées dans ces pays. \r\nSi plusieurs pays, cliquer sur le bouton \"ajouter un élément\".",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PaysChampDescriptor",
+            "label": "Pays",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Mesure de restriction",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Classification déterminée par le demandeur",
+        "description": "",
+        "required": true,
+        "options": [
+          "Tous publics",
+          "Interdiction aux moins de 12 ans",
+          "Interdiction aux moins de 16 ans",
+          "Interdiction aux moins de 18 ans"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Avertissement",
+        "description": "La mesure de classification peut être accompagnée d'un avertissement destiné à l'information du spectateur sur le contenu ou certaines des particularités de l'œuvre .",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5. Programme de courts métrages",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Cette partie du formulaire est à compléter uniquement si l'œuvre est diffusée dans le cadre d'un programme de courts métrages",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Titre du programme de courts métrages",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre la liste des œuvres composant le programme",
+        "description": "Pour les œuvres disposant d'un numéro de visa, indiquer ce numéro.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Distributeur du programme de courts métrages",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "SIREN ou SIRET du distributeur du programme de courts métrages",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

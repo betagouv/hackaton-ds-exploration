@@ -1,0 +1,104 @@
+{
+  "number": 38518,
+  "title": "Recensement des référentiels APSA CAP",
+  "description": "Recensement des référentiels APSA CAP",
+  "tags": [
+    "Recensement"
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2021-01-14T15:23:20+01:00",
+  "service": {
+    "nom": "[DEC] Rectorat Académie Nancy-Metz",
+    "organisme": "DEC",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/recensement-des-referentiels-apsa-cap",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://partage.ac-nancy-metz.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 11,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonateur de l'établissement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro d'établissement",
+        "description": " RNE",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Etablissement",
+        "description": "Libellé - Code postal - Ville",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom Coordonateur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom coordonateur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Fichiers Référentiels",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Fiches Référentiels",
+        "description": "Vous pouvez ajouter un fichier supplémentaire via [ajouter une ligne pour « Fiche Référentiel »] ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Insérer ci-dessous un fichier référentiel",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Fiche Navette",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Insérer ci-dessous la Fiche Navette",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Validation par le chef d'établissement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie la validation par le chef d'établissement des documents déposés.",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

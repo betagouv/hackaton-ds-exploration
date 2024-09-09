@@ -1,0 +1,874 @@
+{
+  "number": 58876,
+  "title": "Auto-diagnostic cybersécurité des collectivités des Pyrénées-Atlantiques - Module 2",
+  "description": "Saisie des résultats de l'auto-diagnostic cybersécurité (Module 2) des collectivités des Pyrénées-Atlantiques, à l'initiative de l'ADM64, de l'APGL64 et de La Fibre64.",
+  "tags": [
+    "Numérique"
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2022-05-20T11:13:08+02:00",
+  "service": {
+    "nom": "Service solution numérique",
+    "organisme": "Syndicat Mixte La Fibre64",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/auto-diagnostic-cybersecurite-des-collectivites",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://cyber.lafibre64.fr",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "Logo demarche module 2 V2.png",
+    "checksum": "Vu1o21df17+iC5shiZut1w==",
+    "byteSize": "187153",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "Présentation de l'offre d'accompagnement à la cybersécurité.pdf",
+    "checksum": "umJqs9zCfGzJfqEtwkwznA==",
+    "byteSize": "809572",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 14,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la collectivité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identité de l'interlocuteur",
+        "description": "(Prénom+Nom)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse mail",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Sensibilisation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "L'ensemble des agents de votre collectivité a été sensibilisé à la cybersécurité ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "L'ensemble des élus de votre collectivité a été sensibilisé à la cybersécurité ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Une charte d'utilisation du Système d'Information (SI) a été élaborée dans votre collectivité ?",
+        "description": "Document permettant d'informer l'utilisateur sur les usages permis, les règles de sécurité en vigueur, les mesures de contrôle prises par l'employeur, les sanctions encourues,....",
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre collectivité a été sensibilisée à la protection des données à caractère personnel (mise en conformité au Règlement Général sur la Protection des Données (RGPD)) ?",
+        "description": "Avez-vous désigné un Délégué à la Protection des Données et avez-vous commencé une démarche de mise en conformité au RGPD?",
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Inventaire du Système d'Information (SI)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Un inventaire exhaustif des éléments informatiques de votre SI (pc, serveur, box internet, routeur, etc.) a été élaboré dans votre collectivité ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Un inventaire exhaustif des éléments nomades (smartphones, tablettes, etc.) a été élaboré dans votre collectivité ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre collectivité est-elle géographiquement implantée sur plusieurs sites (distants) ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "1 seul site",
+          "2 sites",
+          "+ de 2 sites"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les éléments numériques utilisés (Pc, smartphone, tablette, etc.) sont uniquement des éléments de la collectivité (pas d'outils personnels) ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "La collectivité est dépourvue d'objet connectés (enceintes connectées, capteurs de mesure, etc.) ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Le pilotage du SI fait partie des missions d'un agent bien identifié ?",
+        "description": "L'administration, le paramétrage, le contrôle, .. du système d'information est attribué à un agent identifié dans la collectivité.",
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Contrat",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Un contrat de \"prestation/maintenance\" avec un prestataire informatique est signé et d'actualité ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Un contrat de \"prestation/maintenance\" avec vos prestataires de logiciel métier est signé et d'actualité ?",
+        "description": "Les logiciels métiers sont des logiciels répondant aux besoins spécifiques d'une mission et sont conçus sur mesure selon un cahier des charges. Ex : un logiciel de comptabilité, de gestion RH, ...",
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Une démarche de mise en conformité au RGPD est initiée dans la collectivité ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Un contrat de maintenance couvrant le risque cyber est établi pour la collectivité ?",
+        "description": "Contrat couvrant les risques liés à l'informatique. Ex : les piratages, les virus, les ransomware ou encore les attaques par dénie de service (Ddos).",
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Gestion de crise",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Une liste de contacts utiles à prevenir en cas de cyberattaque (prestataire, gendarmerie, ANSSI, assurance, etc.) existe dans la collectivité ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Un Plan de Continuité d'Activité (PCA) est défini et établi dans la collectivité en cas de cyberattaque ?",
+        "description": "Ensemble des mesures visant à assurer, selon divers scénarios de crise, le maintien des prestations de service essentielles à la collectivité.",
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Un prestataire informatique cyber est identifié et accompagne déjà la collectivité ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les bons reflexes lors d'une attaque cyber sont ils connus de tous dans votre collectivité ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Contrôle d'accès physique",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les accès à votre collectivité font l’objet de protections et sont vérifiées régulièrement (alarmes anti-intrusion, détecteur de présence, portes sécurisées, etc.) ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Vos accès aux postes de travail sont-il sécurisés (accès aux bureaux, etc.) ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Vos accès aux équipements d'infrastructure (serveurs, NAS, routeur…) sont-ils sécurisés (salle dédiée, accès par clé, etc.) ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les accès aux outils mis à disposition du public (pc, tablettes, etc.) sont-ils sécurisés ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Réseau",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "La connexion filaire sur votre SI est réservé à des agents identifiés ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "L'accès au réseau Wifi privé est séparé de celui du réseau Wifi public ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "La connexion au réseau Wifi privé est sécurisé (clés fortes) ?",
+        "description": "Le mot de passe pour se connecter au WiFi privé est composé de plus de 8 caractères et comprend des lettres ainsi que des chiffres.",
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "L'utilisation de connexions mobiles (4G, IoT, etc.) est encadrée et sécurisée ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Un audit de sécurité de votre réseau informatique interne a été réalisé ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Un audit de sécurité de votre réseau d'infrastructure hebergé (cloud, site internet, messagerie, etc.) a été réalisé ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Droits d'accès logique",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Chaque utilisateur dispose t'il d'un identifiant unique (pas de compte générique ni de session sans mot de passe) ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les differents accès aux terminaux utilisés (smartphone, tablette,etc.) sont-ils sécurisés par une authentification robuste ?",
+        "description": "L'activation des terminaux mobiles se fait par la saisie d'un code, d'un schéma, d'une empreinte digitale, ...",
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les differents accès aux services en ligne (messagerie, stockage,etc.) sont-ils sécurisés par une double authentification ?",
+        "description": "Saisie d'un mot de passe prédéfini ainsi que d'un code aléatoire fourni par un outil.",
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Une politique de mot de passe administrateur rigoureuse a-t'elle été adoptée (distinction \"Administrateur / Utilisateur\") ?",
+        "description": "Les comptes administrateurs ne sont utilisés que pour des interventions ponctuelles d'administration du SI.",
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Une politique de gestion des droits et des accès au système d'information est adoptée par la collectivité ?",
+        "description": "Dans le système d'information chaque utilisateur possède des droits spécifiques et adaptés à ses besoins et missions.",
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les comptes obsolètes font l'objet d'un changement de mot de passe, puis d'une suppression ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Antivirus",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Un antivirus est installé sur chacun de vos postes de travail ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Un antivirus est installé sur chaque serveur ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre antivirus est régulièrement utilisé (Scan du pc, etc.) ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Un logiciel de nettoyage (Ccleaner, etc.) est installé sur chaque poste de travail ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Un logiciel antimalware (Malwarebytes, etc.) est installé sur chaque poste de travail ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Une solution d'anti-spam/anti-phishing (MailInBlack, etc.) est installée sur la messagerie ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Mot de passe",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les mots de passe utilisés par votre collectivité sont confidentiels et non partagés (pas sur post-it, cahier, fichier excel, etc.) ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les mots de passe utilisés sont uniques et différents pour chaque compte / utilisation ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les mots de passe utilisés sont assez robustes (+ de 9 caractères, min, maj, num et symbole) ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "À quelle fréquence votre collectivité procède-t-elle au renouvellement des mots de passe ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Occasionnellement",
+          "Rarement",
+          "Jamais"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Mise à jour",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "L'ensemble de vos postes de travail se met à jour automatiquement d'un point de vue du sytème d'exploitation (MAJ Windows) ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "L'ensemble de vos postes de travail se met à jour automatiquement d'un point de vue des navigateurs Internet (Chrome, Firefox, etc.) ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les mises à jour de sécurité de vos serveurs sont-elles automatiques ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les logiciels de vos autres équipements (réseaux, stockage...) sont-ils à jour ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les antivirus se mettent à jour régulièrement et de façon automatique ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Chiffrement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Vos supports amovibles (clés ou disques USB) sont-ils chiffrés ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les disques durs de vos postes de travail sont-ils chiffrés ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les pièces jointes confidentielles de mail sont-elles chiffrées ou protégées par un mot de passe ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "L'ensemble des ordinateurs de la collectivité est équipé d'un logiciel de chiffrement (Bitlocker, Veracrypt, etc.) ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Sauvegarde",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Est-ce que l'ensemble de vos données sont sauvegardées ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Disposez-vous de plusieurs copies de sauvegarde ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Possedez-vous une sauvegarde en permanance en dehors de votre réseau (offline) ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Disposez-vous d'au moins une copie de sauvegarde en dehors du site hébergeant vos serveurs ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "La gestion de vos sauvegardes est-elle automatisée ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "En partie",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "A quelle fréquence réalisez-vous votre sauvegarde ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Quotidienne",
+          "Mensuelle",
+          "Jamais"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Combien de jeux de sauvegarde differentes conservez-vous ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "2 ou plus",
+          "1",
+          "Aucun"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Fin du questionnaire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case je déclare avoir répondu à l'ensemble des questions de cet autodiagnostic et valide ma demande d'analyse auprès du Syndicat Mixte La Fibre64.",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

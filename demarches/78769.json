@@ -1,0 +1,335 @@
+{
+  "number": 78769,
+  "title": "Formulaire de demande unique de pénétration de zone interdite de survol",
+  "description": "Dans le cadre de la Posture Permanente de Sureté Air (PPS-Air), l’Armée de l’Air et le l'Espace est en charge de la gestion des autorisations de pénétration (accréditations) d’un certain nombre de zones interdites LF-P et ZIT. Il est possible pour des aéronefs (pilotés ou non) d’obtenir des accréditations, dans le cadre de leurs activités professionnelles. Ce formulaire vise à déposer la demande. ",
+  "tags": [
+    "Dérogation",
+    "LF-P",
+    "ZIT",
+    "Accréditation",
+    "CNOA",
+    "zones interdites"
+  ],
+  "zones": [
+    "Ministère des Armées"
+  ],
+  "datePublication": "2024-03-12T14:31:06+01:00",
+  "service": {
+    "nom": "Bureau accréditations",
+    "organisme": "Centre National des Opérations Aériennes",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/formulaire-de-demande-unique",
+  "dpoUrl": "https://www.cnil.fr/fr/reglement-europeen-protection-donnees",
+  "noticeUrl": null,
+  "siteWebUrl": "https://prod-derog-zones-interdites-admin.cnmosis.dirisi.defense.gouv.fr",
+  "cadreJuridiqueUrl": "https://www.dircam.dsae.defense.gouv.fr/images/Stories/Doc/MIAM_OACI/MIAM_OACI_ENR%205.1.pdf",
+  "logo": {
+    "filename": "CNOA.png",
+    "checksum": "sPi5pYPhxKojcXCrrHtysw==",
+    "byteSize": "8484",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 657,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations télépilote(s)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "N° SIRET",
+        "description": "a remplacer par SIRET OBLIGATOIRE (OPTIONS)",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Civilité",
+        "description": "Télépilote",
+        "required": true,
+        "options": [
+          "Madame",
+          "Monsieur"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "Télépilote",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "Télépilote",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail",
+        "description": "Pilote / Télépilote",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "N° téléphone portable",
+        "description": "Pilote Télépilote",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale (Mandataire)",
+        "description": "Nom de la société",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Adresse de la société du pilote / télépilote",
+        "required": true
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Pays",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Souhaitez-vous déclarer d'autres pilotes/télépilotes ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau déclaratif des pilotes/télépilotes",
+        "description": "NOM - PRENOM - N° TELEPHONE - MAIL - N° LICENCE\r\nFormat .pdf",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Licence(s) télépilote(s)",
+        "description": "Scan de TOUTES les licences des télépilotes",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Êtes-vous mandaté par un organisme/une société extérieur(e) ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale (Commanditaire)",
+        "description": "Même si vous êtes votre propre commanditaire, merci de remplir cette case",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Lettre de mission",
+        "description": "Bon de commande / Devis / Lettre de mission\r\n\r\nPour la lettre de mission, faire apparaître la nature, la date, le lieu de la mission dans un document daté (de moins de 6 mois) et signé\r\n",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail",
+        "description": "Société commanditaire",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Société commanditaire",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations de vol",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Zone interdite",
+        "description": "LF-P / ZIT",
+        "required": true,
+        "options": [
+          "LF-P 01 BLAYAIS",
+          "LF-P 02 CIVAUX",
+          "LF-P 03 GOLFECH",
+          "LF-P 04 LACQ",
+          "LF-P 05 BARP",
+          "LF-P 06.1 / 06.2 FLAMANVILLE",
+          "LF-P 07 LA HAGUE",
+          "LF-P 08 SAINT-NAZAIRE",
+          "LF-P 09 BUGEY",
+          "LF-P 10 CADARACHE",
+          "LF-P 11 CREYS-MALVILLE",
+          "LF-P 12 CRUAS-MEYSSE",
+          "LF-P 13 FOS-SUR-MER",
+          "LF-P 14 GRENOBLE",
+          "LF-P 15 FEYZIN",
+          "LF-P 16 MARCOULE",
+          "LF-P 18 SAINT-ALBAN",
+          "LF-P 19 PIERRELATE TRICASTIN",
+          "LF-P 20 BELLEVILLE-SUR-LOIRE",
+          "LF-P 21 BRUYERES LE CHATEL",
+          "LF-P 22 CHINON",
+          "LF-P 24 DAMPIERRE EN BURLY",
+          "LF-P 25 FONTENAY AUX ROSES",
+          "LF-P 26 GRAVELINES",
+          "LF-P 27 GRAVENCHON",
+          "LF-P 28 LE HAVRE",
+          "LF-P 29 LE RIPAULT",
+          "LF-P 31 NOGENT SUR SEINE",
+          "LF-P 32 PALUEL",
+          "LF-P 33 PENLY",
+          "LF-P 34 SAINT-LAURENT-DES-EAUX",
+          "LF-P 35 MONT-DE-MARSAN",
+          "LF-P 36 FESSENHEIM",
+          "LF-P 37 VALDUC",
+          "LF-P 38 CHOOZ",
+          "LF-P 39 CATTENOM",
+          "LF-P 40 AVORD",
+          "LF-P 41 ISTRES",
+          "LF-P 50 GRAMMAT",
+          "LF-P 72 SAINT-DIZIER",
+          "LF-P 65 TAVERNY",
+          "ZIT MONT-VERDUN"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début du vol souhaitée",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de fin du vol souhaitée",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Horaires souhaitées",
+        "description": "Format : HHhMM - HHhMM\r\n\r\nSauf desiderata particuliers, merci d'indiquer 08h00 - 18h00 par défaut",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Motif de la mission",
+        "description": "",
+        "required": false,
+        "options": [
+          "Sécurité / Sûreté",
+          "D'intérêt public (ou assimilé)",
+          "Sur demande du gestionnaire",
+          "D'intérêt privé",
+          "Loisirs",
+          "Autres"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Description de la mission",
+        "description": "Expliquez brièvement le motif de la mission",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de vol",
+        "description": "Capture d'écran / Dessin de la zone d'intervention",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Hauteur de vol (AGL)",
+        "description": "AGL - Au dessus du niveau du sol\r\nAMSL - Au dessus du niveau de la mer",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur le(s) aéronef(s)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "S’agit-il d’un aéronef d’état ? (police, armée, douane, sécurité civile, etc.)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Aéronefs d'état",
+        "description": "Aucune demande pour des aéronefs d'état ne sera traitée sur Démarches Simplifiées, si vous n'avez pas connaissance de la procédure, vous pouvez nous contacter par mail : cdaoa-bapps-div-rens-derog-zones-interdites.contact.fct@def.gouv.fr .",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d'aéronef",
+        "description": "",
+        "required": true,
+        "options": [
+          "Drone",
+          "Avion / Hélicoptère"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous déclarer plusieurs aéronefs ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Liste des aéronefs (si plus d'un aéronef)",
+        "description": "Tableau listant les aéronefs susceptibles d'effectuer la mission. \r\nFaire apparaître : Immatriculation, modèle ( et n° de série pour les drones. \r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Modèle",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Immatriculation",
+        "description": "OACI",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° Série",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Notification de vol DGAC/DSAC",
+        "description": "Déclaration préalable au vol en zone peuplée d'un aéronef sans équipage à bord",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,503 @@
+{
+  "number": 56484,
+  "title": "Porter à connaissance de vidange d'un plan d'eau en Ille-et-Vilaine",
+  "description": "Cette fiche permet d'instruire une demande de vidange d'un plan d'eau.\r\nSont concernées les vidanges puis remplissages de plans d'eau d’une superficie supérieure à 1000 m² et, s’ils sont issus de barrages de retenue, dont la hauteur de retenue est inférieure à 10 m et le volume inférieur à 5 millions de m3.\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2022-03-23T11:38:28+01:00",
+  "service": {
+    "nom": "SEB,DDTM 35",
+    "organisme": "Direction Départementale des Territoires et de la Mer d'Ille-et-Vilaine, Ministère de la Transition Ecologique et de la Cohésion des Territoires",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/porter-a-connaissance-de-vidange-d-un-plan-d-eau",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ille-et-vilaine.gouv.fr/Politiques-publiques/Environnement-Risques-naturels-et-technologiques/L-eau/Plans-d-eau/Plans-d-eau-Etendues-d-eau-douce-de-surface",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043936142#:~:text=Dans%20les%20r%C3%A9sum%C3%A9s-,Arr%C3%AAt%C3%A9%20du%209%20juin%202021%20fixant%20les%20prescriptions%20techniques%20g%C3%A9n%C3%A9rales,du%20code%20de%20l'environnement",
+  "logo": {
+    "filename": "Bloc_marque_DDTM35_2020.jpg",
+    "checksum": "RuS8QOpVURQDz4GJJ34wsQ==",
+    "byteSize": "74967",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 58,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTITE DU PLAN D'EAU",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Connu de l'administration",
+        "description": "N° de plan d'eau attribué par l'administration  figurant sur les  courriers à rappeler en référence \nPour plus d information merci de lire au préalable la page d’information sur les plans d’eau du site Internet des services de l’État en Ille-et-Vilaine :<a href=\"https://www.ille-et-vilaine.gouv.fr/Politiques-publiques/Environnement-Risques-naturels-et-technologiques/L-eau/Plans-d-eau/Plans-d-eau-Etendues-d-eau-douce-de-surface\">Cliquez ici </a>",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro du plan d'eau",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Nom du plan d'eau",
+        "description": "lieu-dit  le plus proche suivi du nom de la commune ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTITE DU OU DES BENEFICIAIRE(S)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Demandeur",
+        "description": null,
+        "required": false,
+        "options": [
+          "Le propriétaire",
+          "L'exploitant",
+          "Le représentant ou Gérant"
+        ]
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Personnalité morale",
+        "description": "Collectivité, Établissement, Société, SCI... ",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "N° SIRET (personnalité morale)",
+        "description": "Veuillez saisir les 14 caractères du n° SIRET ",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom-prénom ou Dénomination",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "saisir le n° de rue ou du lieu-dit suivi du code postal puis sélectionner",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Mail",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "IDENTITE DU PROPRIETAIRE (si différent de demandeur)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom-prénom",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LOCALISATION CARTOGRAPHIQUE DU PLAN D'EAU",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Carte d'aide à la localisation",
+        "description": "Vous pouvez localiser le plan d'eau  sur la carte ci-dessous, pour cela  entrer dans\"Rechercher une adresse  ....\" le lieu-dit suivi du  nom commune ou code postal (Copier Coller du champ ci-dessus)\nSélectionner le fond de carte  de préférence «Vectoriel», carte avec une représentation des plans d’eau.\nLocaliser le plan d'eau au moyen des outils : \"Dessiner un polygone\" (le tracer du contour du plan d'eau entraine le calcul de sa surface) ; \"Ajouter un point\"(cordonnées en X Y) ; \"Sélectionner les parcelles cadastrales\" (N° de(s) parcelle(s) concernée(s)).\nA minima une localisation du plan d’eau avec «Ajouter un point» est demandée.\nL'option \"Ajouter un fichier GPX ou KML\" permet d'importer un fichier saisi par GPS.\nAutre possibilité en dessous de la carte le menu \"Ajouter un point sur la carte\" en coordonnées  en  X Y (déconseillé).\nEn cas de difficultés à utiliser outil cartographique, passer au champ suivant  et sollicité une aide avec \"inviter une personne à modifier ce dossier\". \nBesoin d'aide ? page 2 du guide\n<a href=\"https://www.ille-et-vilaine.gouv.fr/content/download/57435/389389/file/GUIDE_DE_LA_DEMARCHE_PLAN_D_EAU.pdf#%5B%7B%22num%22%3A10%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C28.4%2C403.8%2C0%5D\" target=\"_blank\">Cliquez ici puis sur précédent pour retrouver votre démarche </a>",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "CARACTERISTQUES  DU PLAN D'EAU",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du plan d'eau (si différent du champ identité)",
+        "description": "Nom figurant sur la carte IGN  exemple :  \"Étang de la forge\"   Sinon attribuer un nom constitué du lieu-dit le plus proche suivi du n° cadastral de la parcelle exemple :  \"Les  Aulnaies parcelle 119\"",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Existe-t-il un acte administratif relatif à ce plan d'eau",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser la nature de cet acte",
+        "description": "Prescriptions de vidange, usage pisciculture, régularisation du plan d'eau,. autre ... ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "et sa date",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre une copie de cet acte",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Superficie du plan d'eau déclaré (en m2)",
+        "description": "au niveau maximal, dite surface \"au miroir\"",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Profondeur (en m)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Volume (en m3)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Cours d'eau récepteur",
+        "description": "Nom du cours d’eau le plus proche dans lequel s’effectuera le rejet :\nhttps://www.ille-et-vilaine.gouv.fr/Politiques-publiques/Environnement-Risques-naturels-et-technologiques/L-eau/Cartographie-des-cours-d-eau-en-Ille-et-Vilaine2/Cartographie-des-cours-d-eau-en-Ille-et-Vilaine",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Catégorie piscicole du cours d’eau",
+        "description": "Pour les cours d’eau classés en 1ère catégorie piscicole, les vidanges ne sont pas autorisées entre le 1er\ndécembre et le 31 mars (période de reproduction des salmonidés).\nInformation accessible sur le site : https://www.peche35.fr/3657-reglementation.htm",
+        "required": false,
+        "options": [
+          "1 ère catégorie",
+          "2 ème catégorie"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Préciser le(s) dispositif(s) de vidange",
+        "description": "Schéma d'ouvrages : page 7 du guide\n <a href=\"https://www.ille-et-vilaine.gouv.fr/content/download/57435/389389/file/GUIDE_DE_LA_DEMARCHE_PLAN_D_EAU.pdf#%5B%7B%22num%22%3A50%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C28.4%2C801.4%2C0%5D\" target=\"_blank\" title=\"Tutoriels HTML\">Cliquez ici </a>",
+        "required": true,
+        "options": [
+          "Moine",
+          "Vanne levant",
+          "Planches mobiles",
+          "Conduite, tuyau ...",
+          "Pompage"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre préciser",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "REALISATION DE LA VIDANGE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Objet de la vidange",
+        "description": "",
+        "required": true,
+        "options": [
+          "Vidange périodique *",
+          "Entretien des ouvrages",
+          "Optimisation de la production piscicole",
+          "Mise à sec temporaire ( minéralisation des vases)",
+          "Curage (partiel) du plan d’eau **",
+          "Gestion de la végétation",
+          "Mise à sec définitive"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "* Date de la dernière vidange",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "**Curage partiel indiquer le volume en m³  et lieu de destination",
+        "description": "Rappel : les boues doivent être déposées dans le respect des autres réglementations\nen vigueur.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Période  prévue de vidange",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Durée prévue pour la vidange en jour",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Dispositions de protection du milieu",
+        "description": "Les eaux évacuées lors de la vidange ne doivent pas nuire au milieu naturel (cf. article L432-2 du code de l’environnement )\nPréciser les dispositions prisent  pour piéger les sédiments et les matières\nen suspension qui devront être positionnés en aval du système de vidange.",
+        "required": false,
+        "options": [
+          "Bassins de décantation",
+          "Filtre à paille",
+          "Massif filtrant",
+          "Filets"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre(s) préciser",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "GESTION DU POISSON",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Réglementation « pêche »",
+        "description": "Dans le cas d’un plan d’eau disposant du statut « d’eau libre », seuls les pêcheurs professionnels ou les pisciculteurs peuvent vendre le produit de leur pêche (article L.436-13 du code de l’Environnement).",
+        "required": true,
+        "options": [
+          "Eaux closes",
+          "Eaux libres,",
+          "Pisciculture"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Espèces piscicoles présentes dans le plan d’eau",
+        "description": "",
+        "required": false,
+        "options": [
+          "Salmonidés",
+          "Carnassiers",
+          "Cyprinidés (poissons blancs)",
+          "Présence d'espèces indésirables (perche-soleil. poissons-chat. écrevisses-américaine. carpe-amour..etc...)"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autres espèces piscicoles",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Intervenant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pisciculteur ou organisme désigné pour réaliser la  pêche \"numéro zoosanitaire\"",
+        "description": "Numéro zoosanitaire : FR  XX XX XX CE             ",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Mode de récupération des poissons",
+        "description": "Préciser le ou les procédé(s) mis en œuvre pour la récupération des poissons",
+        "required": false,
+        "options": [
+          "Pêcherie",
+          "Filets"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre(s) préciser",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Destination du poisson",
+        "description": "Le poisson collecté suite à la vidange sera :",
+        "required": false,
+        "options": [
+          "Vendu à un pisciculteur,",
+          "Vendu à des particuliers",
+          "Auto-consommé",
+          "Déplacé vers un autre plan d'eau"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les espèces indésirables, non autochtones et invasives seront récupérées et éliminées",
+        "description": " * animales : Poisson-chat, Perche-soleil, Écrevisses américaines, … \n* végétales : Élodées dense et crépue, Jussies, Myriophylle du Brésil, Crassule de Helms, Hydrocotyle fausse-renoncule, Lentille d’eau minuscule… ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "REMISE  EN EAU",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Le plan d'eau est alimenté par :",
+        "description": "",
+        "required": false,
+        "options": [
+          "Source(s)",
+          "Nappe",
+          "Fossé(s)",
+          "Drain(s)",
+          "Ruissellement des eaux pluviales",
+          "Forage*",
+          "Autre plan d'eau en amont**",
+          "Cours d'eau***"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "**Si le plan d'eau est alimenté par un autre plan d'eau en amont, préciser son nom et/ou sa localisation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "***Si le plan d'eau est alimenté par un cours d'eau, préciser son nom eventuel",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Période prévue pour le remplissage",
+        "description": "le remplissage du plan d’eau doit être réalisé en dehors des périodes d’interdiction temporaire de remplissage des plans d’eau.  L’article R.214-1 du code de l’environnement stipule que le remplissage est interdit du 15 juin au 30 septembre.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Durée en jour(s)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autres dispostions prises pour le respect du transit du débit minimum biologique",
+        "description": "Normes à respecter:\n1) Le débit du rejet devra être inférieure à 2 000 m3/ j ou à 5 % du débit moyen interannuel du cours d'eau.\n2) Les valeurs limites suivantes ne doivent pas être dépassées : oxygène>3 milligrammes par litre, ammonium\n(NH4)<2 milligrammes par litre et matières en suspension< 1 gramme par litre.\n\n\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DIVERS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autre(s)  document(s)",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autre(s)  document(s)",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ENGAGEMENT DU DÉCLARANT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fait à",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "le",
+        "description": "\n",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Engagements du déclarant",
+        "description": "J'atteste que les éléments fournis sont conformes.\nJe m’engage :\n• à respecter les prescriptions de l’arrêté de prescriptions générales du 9 juin 2021 applicables aux plans d’eau  (dispositifs, période, surveillance, suivi de la qualité de l’eau...)\n• à respecter les modalités de réalisation des travaux et/ou opérations décrites ci-dessus.\n• quinze jours à l’avance, à communiquer au service en charge de la Police de l’eau, au service départemental de l’OFB (Office Français  et la Biodiversités) et au(x) maire(s) de(s) commune(s) concernée(s) les dates de début et de fin de chantier et sommairement les différentes phases prévues de déroulement des opérations.\n",
+        "required": true
+      }
+    ]
+  }
+}

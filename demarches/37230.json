@@ -1,0 +1,149 @@
+{
+  "number": 37230,
+  "title": "MDPH 92 - Demande d’orientations scolaires (v1.9)",
+  "description": "Ce service permet aux enseignants référents de transmettre les dossiers d'orientations scolaires à la MDPH 92.",
+  "tags": [
+    "Handicap"
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2021-01-18T15:42:40+01:00",
+  "service": {
+    "nom": "MDPH92 ",
+    "organisme": "Maison départementale des personnes handicapées des Hauts-de-Seine",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/mdph-92-demande-d-orientations-scolaires-v1-9",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.hauts-de-seine.fr/solidarites/handicap-et-autonomie/maison-departementale-des-personnes-handicapees-mdph/",
+  "cadreJuridiqueUrl": "https://www.cnsa.fr/documentation/vademecum_rentree_scolaire_vd.pdf",
+  "logo": {
+    "filename": "procedure-99e7fe66-3d9c-42ca-8879-81c1b1c41c50.jpg",
+    "checksum": "TeA8qVCf4P7uG8INwW+OMg==",
+    "byteSize": "16768",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 50,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "A lire avant de commencer la démarche svp!",
+        "description": "Merci de ne pas transférer les fonds de dossier des enfants en passant par cette démarche. Elle n'est pas prévue pour. La MDPH ne peut pas gérer ce genre d'envoi. Vous pouvez adresser ces fonds de dossier à blablabla.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1/ Identification de l'enfant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'enfant habite-t-il dans les Hauts-de-Seine ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "L'enfant n'habitant pas dans les Hauts-de-Seine, vous ne pouvez pas utiliser cette démarche pour déposer le dossier d'orientation scolaire.",
+        "description": "La MDPH des Hauts-de-Seine ne traitera pas ce dossier. Merci de l'adresser à la MDPH du département de résidence de l'enfant.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'enfant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom de l'enfant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance de l'enfant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2/ Pièces justificatives",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Cerfa de demande",
+        "description": "Le fichier doit avoir pour nom : \"NOM_prénom_demande\". ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Cerfa médical",
+        "description": "Le fichier doit avoir pour nom : \"NOM_prénom_médical\".",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatifs d’identité",
+        "description": "Si l'enfant dispose déjà d'un dossier à la MDPH 92, la fourniture de cette pièce n'est pas nécessaire. Le fichier doit avoir pour nom : \"NOM_prénom_identité\". ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de domicile",
+        "description": "Le fichier doit avoir pour nom : \"NOM_pénom_domicile\". ",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "GEVAsco et travaux d’élève",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "GEVAsco et travaux d’élève",
+            "description": "Le fichier doit avoir pour nom : \"NOM_prénom_scolaire\"",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Tous les bilans de rééducation et bilan psy",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Tous les bilans de rééducation et bilan psy",
+            "description": "Le fichier doit avoir pour nom : \"NOM_prénom_paramédical\".",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Justificatifs d’embauche, factures et devis",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Justificatifs d’embauche, factures et devis",
+            "description": "Le fichier doit avoir pour nom : \"NOM_prénom_justificatifs\".",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

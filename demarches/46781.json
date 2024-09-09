@@ -1,0 +1,354 @@
+{
+  "number": 46781,
+  "title": "Demandes de paiement (DSIL, DSID, DPV, DETR, fonds vert) - Demandes de prolongation des délais de commencement ou d'achèvement des travaux",
+  "description": "Gestion des demandes de paiement (avances, acomptes, soldes) concernant les subventions d'investissement : DSIL, DSID, DPV, DETR.\r\n\r\nGestion des demandes de prolongation des délais de commencement ou d'achèvement des travaux.\r\n\r\n\r\n\r\n",
+  "tags": [
+    "Subvention"
+  ],
+  "zones": [
+    "Ministère de la Cohésion des territoires et des Relations avec les collectivités territoriales"
+  ],
+  "datePublication": "2021-10-20T09:15:53+02:00",
+  "service": {
+    "nom": "Direction de la Citoyenneté et de la Légalité - Bureau du Contrôle Budgétaire et des Dotations de l'Etat",
+    "organisme": "Préfecture du Val-de-Marne",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/dotations-paiements",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.val-de-marne.gouv.fr/Politiques-publiques",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCode.do?idSectionTA=LEGISCTA000036395965&cidTexte=LEGITEXT000006070633&dateTexte=20180628",
+  "logo": {
+    "filename": "le-Val-de-Marne.jpg",
+    "checksum": "Wpuf7xrPbGx/sOWFU9m0MQ==",
+    "byteSize": "27562",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 341,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTIFICATION DU DEMANDEUR",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Arrondissement",
+        "description": "",
+        "required": true,
+        "options": [
+          "Créteil",
+          "L'Haÿ-les-Roses",
+          "Nogent-sur-Marne"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et qualité du représentant légal",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Référent(s)",
+        "description": "Personnes à contacter",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom et qualité du référent en charge du dossier",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone du référent",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Email du référent",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "NATURE DE LA DEMANDE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Je demande",
+        "description": null,
+        "required": true,
+        "options": [
+          "Le versement d'une avance",
+          "Le versement d'un acompte",
+          "Le versement d'un solde",
+          "La prorogation du délai de commencement d'exécution d'une opération",
+          "La prolongation du délai d'achèvement d'une opération"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PROJET CONCERNE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Dotation",
+        "description": "",
+        "required": true,
+        "options": [
+          "DSIL",
+          "DSID",
+          "DPV",
+          "DETR",
+          "FONDS VERT"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Année",
+        "description": "Indiquez l'année au titre de laquelle le projet a obtenu la subvention",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Arrêté n°",
+        "description": "Indiquez le numéro de l'arrêté préfectoral portant attribution de la subvention",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Intitulé du Projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de notification de la subvention",
+        "description": "Date à laquelle l'arrêté portant attribution de la subvention a été notifié",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date initiale de commencement de l'opération",
+        "description": "Date à laquelle, au moment de l'attribution de la subvention, le projet devait commencer",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date initiale de fin prévisionnelle de l'opération",
+        "description": "Date à laquelle, au moment de l'attribution de la subvention, le projet devait s'achever",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Coût prévisionnel global du projet (HT)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Le projet a-t-il déjà fait l'objet d'une demande de paiements auprès de la préfecture",
+        "description": "Ex : Avance / Acompte demandé le ... pour un montant de ... €",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande d'avance",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Montant sollicité",
+        "description": "Le montant de la demande d'avance ne peut excéder 30% du montant de la subvention",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande écrite signée du maire ou du président de la collectivité sollicitant la demande d'avance",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de démarrage des travaux",
+        "description": "L'attestation de démarrage des travaux doit préciser la date de début d'exécution et être signée du maire ou du président de la collectivité. Attention : le \"CERFA N°13407*03 Déclaration d'ouverture de chantier\" ne vaut pas attestation",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande d'acompte",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Acompte N°",
+        "description": "",
+        "required": false,
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Montant sollicité",
+        "description": "Le montant de la demande d'acompte ne peut excéder 80% du montant de la subvention",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande écrite signée du maire ou du président de la collectivité sollicitant la demande d'acompte",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de démarrage des travaux",
+        "description": "Si aucune avance n'a été versée",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Etat récapitulatif des paiements",
+        "description": "L'état récapitulatif des paiements doit être certifié exact, et visé à la fois par le maire ou le président de la collectivité et par le comptable.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Factures correspondant à l'état récapitulatif des paiements",
+        "description": "Factures non déjà transmises",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Facture",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande de solde",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Coût des travaux réalisés (HT)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande écrite signée du maire ou du président de la collectivité sollicitant le versement du solde",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de démarrage des travaux",
+        "description": "L'attestation de démarrage des travaux doit préciser la date de début d'exécution et être signée du maire ou du président de la collectivité.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation d'achèvement des travaux",
+        "description": "L'attestation d'achèvement des travaux doit préciser la date de fin de l'exécution et être signée par le maire ou le président de la collectivité.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bilan final d'exécution des travaux",
+        "description": "Le bilan retrace l'objet de l'opération, les objectifs visés, les différentes étapes du projet, et les modalités définitives du financement (coût total et financements publics perçus)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Etat récapitulatif des paiements",
+        "description": "L'état récapitulatif des paiements doit être certifié exact, et visé à la fois par le maire ou le président de la collectivité et par le comptable.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Factures correspondant à l'état récapitulatif des paiements",
+        "description": "Factures non déjà transmises",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Facture",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Photos des travaux",
+        "description": "1 ou 2 photos (transmission par mail à ...)",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Photos des travaux",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'inauguration envisagée",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Prorogation du délai de commencement d'exécution de l'opération",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de prorogation détaillée du maire ou du président de la collectivité",
+        "description": "L'opération doit faire l'objet d'un commencement d'exécution dans un délai de deux ans à compter de la notification de la subvention, ce délai pouvant être prorogé d'un an au vu des justifications apportées par le maître d'ouvrage. La demande de prorogation doit intervenir avant la fin du délai de deux ans.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Prolongation du délai d'achèvement de l'opération",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de prolongation détaillée du maire ou du président de la collectivité",
+        "description": "L'opération doit être achevée dans un délai de quatre ans à partir de la date du commencement des travaux. Le préfet peut, exceptionnellement, par décision motivée, prolonger le délai d'exécution pour une durée qui ne peut excéder deux ans (art. R2334-29 du CGCT). La demande de prolongation doit impérativement intervenir avant la fin du délai des quatre ans sous peine d'être irrecevable.",
+        "required": false
+      }
+    ]
+  }
+}

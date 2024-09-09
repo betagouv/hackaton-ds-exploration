@@ -1,0 +1,131 @@
+{
+  "number": 68851,
+  "title": "Recensement des structures avec consultations de soins non programmées",
+  "description": "Permet aux structures de soins, qui le souhaitent, de figurer dans la liste des établissements proposant des consultations de soins non programmées sur le site santé. fr (https://www.sante.fr/carte-des-lieux-de-soins ).",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2024-05-14T17:03:31+02:00",
+  "service": {
+    "nom": "ARS",
+    "organisme": "ARS",
+    "typeOrganisme": "operateur_d_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/recensement-des-structures-avec-consultations-de-s",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.bourgogne-franche-comte.ars.sante.fr/recensement-structures-soins-non-programmes-en-bfc",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": {
+    "filename": "logo partenaires ARS BFC .jpg",
+    "checksum": "p0gfMWbxypwZ859xgPnWGQ==",
+    "byteSize": "218544",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 13,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'établissement ou de la structure",
+        "description": "Eviter les noms génériques comme \"Centre de santé\", \"MMG\" : préférer \"Maison Médicale de Garde (MMG) de Saint-Eloi\"",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "FINESS",
+        "description": "Renseigner \"N/A\" si pas de Finess",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone 1",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone 2",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Site internet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Possibilité de prendre rendez vous sur le site internet?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "URL du site internet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez vous figurer sur la carte?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "Les informations indiquées dans ces champs sont destinées au grand public uniquement et seront publiées. ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Merci d'indiquer vos horaires d'ouverture et les modalités d'accès",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Assurez vous des soins non programmés les week-end?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Indiquer les plages horaires d'ouvertures le week-end ainsi que les modalités d'accès",
+        "description": "Merci de nous signaler si ces informations ne doivent être rendues publiques",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Assurez vous des soins non programmés sur horaires élargies?",
+        "description": "Si des créneaux de SNP sont proposés le soir, hors des horaires habituels des cabinets, ou la nuit.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Merci d'indiquer les créneaux horaires élargis et les modalités d'accès",
+        "description": "Merci de nous signaler si ces informations ne doivent être rendues publiques",
+        "required": false
+      }
+    ]
+  }
+}

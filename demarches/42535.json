@@ -1,0 +1,215 @@
+{
+  "number": 42535,
+  "title": "Université de NANTES, Pôle Santé, Tutorat Santé",
+  "description": "Inscription au Tutorat Santé",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Enseignement supérieur et de la Recherche"
+  ],
+  "datePublication": "2021-08-24T11:56:36+02:00",
+  "service": {
+    "nom": "Tutorat du Pôle Santé",
+    "organisme": "Université de NANTES",
+    "typeOrganisme": "etablissement_enseignement"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/universite-de-nantes-sante-tutorat",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://medecine.univ-nantes.fr/vie-etudiante/tutorat-sante/presentation-du-tutorat-sante-nantes",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037085952",
+  "logo": {
+    "filename": "LogoUN-bleu.png",
+    "checksum": "KpTtp5duUNXqEtXsSbCJpg==",
+    "byteSize": "17993",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 1220,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "COMPLEMENTS D'INFORMATION",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "Sert uniquement en cas d'homonymie",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail UNIVERSITAIRE",
+        "description": "Sert pour communiquer avec vous les plannings, informations générales. Pas de messagerie personnelle. \nExemple: prenom.nom@etu.univ-nantes.fr",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro d'étudiant",
+        "description": "Sans le \"e\" initial.\nSert à vous reconnaître administrativement.\nExemple: 123456A",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Organisation des séances de groupe",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Filière en 1ère intention",
+        "description": "Quelle filière souhaites-tu faire en première intention?",
+        "required": true,
+        "options": [
+          "Médecine",
+          "Pharmacie",
+          "Odontologie",
+          "Maïeutique",
+          "Kinésithérapie"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Fillière en 2ème intention",
+        "description": "Quelle filière souhaites-tu faire en deuxième intention?",
+        "required": false,
+        "options": [
+          "Médecine",
+          "Pharmacie",
+          "Odontologie",
+          "Maïeutique",
+          "Kinésithérapie"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Impossibilités",
+        "description": "As-tu un jour d'impossibilité pour ta séance de groupe (pas de panique: ta séance sera forcément après tes cours).\nMaximum 2 choix sur les 3.",
+        "required": false,
+        "options": [
+          "Lundi",
+          "Mardi",
+          "Mercredi"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Tuteur",
+        "description": "Quel tuteur souhaites-tu en particulier pour ta séance? S'il n'y a personne, ne mets rien.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Ami(e)?",
+        "description": "As-tu un(e) ami(e) avec qui tu souhaiterais être en groupe? On ne garantit rien mais on fera notre possible!",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, qui?",
+        "description": "Si oui, indiques son NOM, Prénom et numéro d'étudiant.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Parcours",
+        "description": "En quel parcours es-tu?",
+        "required": true,
+        "options": [
+          "PASS Chimie",
+          "PASS Sciences de la vie (SV)",
+          "PASS Sciences de la vie et de la terre (SVT)",
+          "PASS Psychologie",
+          "PASS Sciences humaines et sociales (SHS)",
+          "PASS STAPS",
+          "PASS Maths",
+          "PASS Physique",
+          "PASS Sciences pour l’ingénieur (SPI)",
+          "PASS Informatique",
+          "PASS Économie gestion",
+          "PASS Humanité",
+          "L.AS Chimie",
+          "L.AS Sciences de la vie (SV)",
+          "L.AS Sciences de la vie et de la terre (SVT)",
+          "L.AS Psychologie",
+          "L.AS STAPS",
+          "L.AS Maths",
+          "L.AS Physique",
+          "L.AS Sciences pour l’ingénieur (SPI)",
+          "L.AS Économie gestion",
+          "L.AS Droit (la Roche sur Yon)",
+          "L.AS Humanité"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "L.AS 1 ou 2",
+        "description": "Si tu es en L.AS, es-tu en L1 ou L2?",
+        "required": true,
+        "options": [
+          "L1 L.AS",
+          "L2 L.AS",
+          "Non concerné (PASS)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "TARIFS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Boursier d'échelon au moins 1",
+        "description": "Es-tu boursier d'échelon 1 ou plus? \nEchelons 0 et 0bis non inclus.\nJoindre OBLIGATOIREMENT l'attestation.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si OUI, attestation de droits",
+        "description": "Joindre l'attestation de droits aux bourses, OBLIGATOIRE pour les boursiers.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Tarifs",
+        "description": "Tarifs votés au conseil d'administration de l'Université de Nantes du 01/07/2021",
+        "required": true,
+        "options": [
+          "PASS tarif plein :   45 euros",
+          "PASS tarif réduit :   23 euros",
+          "L.AS tarif plein :   31 euros",
+          "L.AS tarif réduit :    16 euros"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Charte de confidentialité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Télécharger et indiquer \"lu et approuvé\"",
+        "description": "https://medecine.univ-nantes.fr/charte-de-confidentialite-tutorat-sante",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Tu as lu et tu acceptes la charte de confidentialité du Tutorat, tu t'engages à la respecter",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

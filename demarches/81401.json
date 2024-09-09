@@ -1,0 +1,909 @@
+{
+  "number": 81401,
+  "title": "Dossier de demande de subventions - Programmation INTERCOMMUNALE 2024 du Contrat de Ville Métropolitain",
+  "description": "Ce formulaire permet la saisie des demandes de subventions, au titre du Contrat de ville, auprès de l’Etat (dont ASV, CV, PIC, VVV, hors FIPD), de la Région, du Département, de la MEL, des communes et de la CAF.\r\nLes programmes de subventions sont décrits dans la note de cadrage 2024 que vous pouvez retrouver sur le site de la MEL.\r\nPour pouvoir compléter ce dossier de demande de subventions, vous devez vous munir du numéro d’enregistrement de votre structure 2024 reçu par email. Vous pouvez aussi le retrouver sur votre espace en vous connectant sur https://www.demarches-simplifiees.fr/users/sign_in.\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2023-10-20T17:36:50+02:00",
+  "service": {
+    "nom": "Service Politique de la Ville ",
+    "organisme": "Métropole Européenne de Lille",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/dossier-de-demande-de-subventions-programmation-in",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.lillemetropole.fr/votre-metropole/competences/amenagement-du-territoire/politique-de-la-ville",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 154,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATIONS GÉNÉRALES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Merci de rappeler le numéro d'enregistrement dématérialisé 2024 de votre structure",
+        "description": "Numéro reçu par email après la création du dossier d’enregistrement de votre structure (via le lien « j’enregistre ma structure »).",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Dispositifs Etat politique de la ville dans lequel s'inscrit le projet.",
+        "description": "Choix du dispositif dans la liste proposée.\r\nCochez la mention applicable, une seule valeur possible.",
+        "required": true,
+        "options": [
+          "AUCUN",
+          "ASV (Atelier Santé Ville)",
+          "CV (Contrat de Ville)",
+          "PRE (Programme de Réussite Educative)",
+          "VVV (Opération Ville Vie Vacances)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début prévue",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de fin prévisionnelle",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Indiquez le type d'action",
+        "description": "Cochez la mention applicable, une seule valeur possible.",
+        "required": true,
+        "options": [
+          "Action reconduite",
+          "Nouvelle action"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Si action reconduite, depuis quelle année ? Si \"non\" indiquer 2024.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Merci de rappeler le numéro de votre dossier déposé dans le cadre de la programmation 2023 du Contrat de ville",
+        "description": "Uniquement pour une action reconduite.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Action se déroulant sur une année civile ou scolaire",
+        "description": "Cochez la mention applicable, une seule valeur possible.",
+        "required": true,
+        "options": [
+          "Année civile",
+          "Année scolaire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Une demande de report de l'action 2023 a t'elle été faite ou est-elle envisagée ?",
+        "description": "Cochez la mention applicable.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Pour un projet annuel, souhaitez-vous développer votre action l'année prochaine ?",
+        "description": "Cochez la mention applicable.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si \"oui\", sera t-elle redéposée à l'identique ou sera t-elle enrichie ?",
+        "description": "Cochez la mention applicable.",
+        "required": false,
+        "options": [
+          "Action identique",
+          "Action enrichie"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous bénéficier d'un financement pluriannuel (CPO) ?",
+        "description": "Cochez la mention applicable.\r\nDemande d'une Convention Pluriannuelle d'Objectifs (CPO) : financement de l'action sur plusieurs années ?\r\nAttention, cela nécessite la présentation d'un budget prévisionnel argumenté sur chaque année du projet (ex. : sur 3 ans, budgets 2024/2025/2026).",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous déjà bénéficié d'un financement pluriannuel (CPO) ?",
+        "description": "Cochez la mention applicable.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Si \"oui\", indiquez l'année de début de la CPO. Si \"non\", indiquez l'année en cours.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Personne en charge du projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Civilité / Nom / Prénom",
+        "description": "M.....  .........  ...................",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction au sein de la structure",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Contact mail",
+        "description": "Merci d'indiquer l'adresse e-mail utilisée pour se connecter à la plateforme \"démarches simplifiées\". Il est préférable d'utiliser une adresse mail générique utilisée par plusieurs personnes au sein de votre structure.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Typologie structure",
+        "description": null,
+        "required": true,
+        "options": [
+          "Association loi 1901",
+          "Bailleur social",
+          "Caisse des écoles",
+          "Centre communal d'action sociale",
+          "Centre social",
+          "Collectivité territoriale",
+          "Etablissement public",
+          "Autre organisme à but non lucratif",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "nombre de salariés de la structure",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Contact(s) auprès des co-financeurs",
+        "description": "Si vous êtes déjà en contact avec un (ou des) co-financeur(s) sur ce projet, merci d'indiquer ici la (ou les) structure(s) concernée(s) et le nom de vos contacts.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Présentation de la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description synthétique du projet",
+        "description": "Pour la description synthétique de votre projet, merci de réaliser un résumé d'une dizaine de lignes maximum.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description complète du projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Objectifs du projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Lien avec les objectifs communaux du contrat de ville",
+        "description": "Merci d’indiquer de quelle manière l’action répond aux objectifs des communes concernées.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Thématique d'intervention principale",
+        "description": "Cochez la mention applicable, une seule valeur possible :\r\n1. La réussite éducative et scolaire de tous les jeunes\r\n2. L’accès à l’emploi de tous les habitants\r\n3. L’accès aux soins et à la prévention (notamment la santé mentale)\r\n4. Le vivre ensemble (cohésion sociale, engagement citoyen, sécurité-prévention de la délinquance, image et attractivité des quartiers, rééquilibrage territoriale)\r\n5. La transition écologique (précarité énergétique, renaturation de la ville, agriculture urbaine)\r\n6. Accès aux droits, transition numérique, lutte contre les discriminations",
+        "required": true,
+        "options": [
+          "Réussite éducative et scolaire de tous les jeunes",
+          "Accès à l’emploi de tous les habitants",
+          "Accès aux soins et à la prévention",
+          "Vivre ensemble",
+          "Transition écologique",
+          "Accès aux droits, transition numérique, lutte contre les discriminations"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quartiers où est réalisé le projet",
+        "description": "Veuillez sélectionner les quartiers dans lesquels se déroule votre action. ",
+        "required": true,
+        "options": [
+          "Armentières – Artagette – Chanzy",
+          "Armentières – Bizet – Briquetterie",
+          "Armentières – Près du Hem",
+          "Armentières – Route d’Houpline",
+          "Armentières – Salengro",
+          "Croix – Saint Pierre",
+          "Fâches Thumesnil – Lille Sud – Thumesnil en Nord",
+          "Haubourdin – Quartier du Parc, du P’tit Belgique et de l’Heurtebise",
+          "Hellemmes – Dombrowski",
+          "Hellemmes – L’Epine",
+          "Hem – Beaumont",
+          "Hem – Hauts-Champs – Longchamp – 3 Fermes",
+          "Hem – Lionderie – 3 baudets",
+          "La Madeleine – Ancienne Zone urbaine sensible",
+          "Lambersart – Pacot-Vandracq",
+          "Lille – Bois-Blancs",
+          "Lille – Centre",
+          "Lille – Faubourg de Béthune",
+          "Lille – Fives",
+          "Lille – Lille Sud",
+          "Lille – Moulins",
+          "Lille – Saint-Maurice Pellevoisin",
+          "Lille – Vauban Esquermes",
+          "Lille – Vieux Lille",
+          "Lille – Wazemmes",
+          "Lomme – Marais – Mitterie – Mont-à-Camp",
+          "Loos – Clémenceau-Kiener",
+          "Loos – Epi de Soil",
+          "Loos – Les Oliveaux",
+          "Loos – Schuman",
+          "Lys Lez Lannoy – Longchamp",
+          "Marcq en Baroeul – La Briquèterie",
+          "Mons en Baroeul – Les Sarts – Nouveau Mons",
+          "Ronchin – La Comtesse",
+          "Roubaix - Quartiers NORD - Alma, Fosse aux Chêne",
+          "Roubaix - Quartiers NORD - Entrepont, Cartigny, Hutin, Oran",
+          "Roubaix - Quartiers NORD - Hommelet",
+          "Roubaix - Quartiers NORD - Cul de Four",
+          "Roubaix - Quartiers SUD - Moulin",
+          "Roubaix - Quartiers SUD – Potennerie",
+          "Roubaix - Quartiers SUD - Nouveau Roubaix",
+          "Roubaix - Quartiers SUD - Hauts-Champs",
+          "Roubaix - Quartiers SUD - Petites Haies (QVA)",
+          "Roubaix - Quartiers EST - Pile- Trois ponts –St Elisabeth",
+          "Roubaix - Quartiers EST - Fraternité, Sartel-carihem (QDV)",
+          "Roubaix - Quartiers OUEST - Epeule, Trichon, Fresnoy-Mackellerie",
+          "Roubaix - Quartiers CENTRE - Anseele-Motte Bossut-Tuileries",
+          "Roubaix - Quartiers CENTRE - Espérance",
+          "Roubaix - Quartiers CENTRE - Nations Unies",
+          "Roubaix - Quartiers CENTRE - Centre-Ville",
+          "Roubaix - Quartiers CENTRE - Crouy",
+          "Seclin – La Mouchonnière",
+          "Tourcoing – Bas Blanc Seau",
+          "Tourcoing – Belencontre",
+          "Tourcoing – Blanche Porte",
+          "Tourcoing – Bourgogne",
+          "Tourcoing – Croix Rouge",
+          "Tourcoing – Epidème MCR Prouvot",
+          "Tourcoing – Le Haut Blanc Seau",
+          "Tourcoing – Les Flocons",
+          "Tourcoing – Les Orions",
+          "Tourcoing – Marlière",
+          "Tourcoing – Phalempins",
+          "Tourcoing – Pont Rompu",
+          "Tourcoing – Virolois-Piats",
+          "Villeneuve d’Ascq – Pont de Bois - Vétérans",
+          "Villeneuve d’Ascq – Poste – Terroir - Résidence",
+          "Wattignies – Blanc Riez",
+          "Wattrelos – Beaulieu",
+          "Wattrelos – Crétinier",
+          "Wattrelos – Laboureur",
+          "Wattrelos – Martinoire",
+          "Wattrelos – Mousserie",
+          "Wattrelos – Sartel",
+          "Wattrelos – Villas Couteaux"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Site NPNRU",
+        "description": "Veuillez sélectionner le(s) site(s) de renouvellement urbain dans lequel/lesquels se déroule votre action. Sinon, sélectionner Aucun",
+        "required": true,
+        "options": [
+          "Aucun",
+          "Hem - la Lionderie-Trois Baudets",
+          "Lille – Concorde",
+          "Lille - Faubourg d’Arras",
+          "Lille - Jean-Baptiste Clément",
+          "Lille - Quartiers anciens",
+          "Lille - Bois Blancs",
+          "Loos - Les Oliveaux",
+          "Mons-en-Barœul  - Nouveau Mons",
+          "Roubaix – Alma",
+          "Roubaix – Epeule",
+          "Roubaix – le Pile",
+          "Roubaix - Trois Ponts",
+          "Tourcoing – la Bourgogne",
+          "Wattignies - le Blanc Riez",
+          "Wattrelos - les Villas"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Indiquez le/les lieu(x) et site(s) d'intervention",
+        "description": "Merci de préciser le(s) lieu(x) et le(s) nom(s) des sites où se déroule les interventions.\r\n(Ex : espace public : nom de la rue, du parc, de la place ou des établissements scolaires concernés..).",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Besoins et contexte dans lequel s'inscrit le projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "A quels besoins répond le projet ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Comment ont-ils été identifiés ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Egalité Femmes/Hommes",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Introduction",
+        "description": "La parité signifie que chaque sexe est représenté à égalité dans les institutions. C'est un instrument au service de l'égalité, qui consiste à assurer l'accès des femmes et des hommes aux mêmes opportunités, droits, occasions de choisir, conditions matérielles tout en respectant leurs spécificités.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Pour le montage de ce projet, le porteur a t-il reçu une formation ou une sensibilisation sur l'égalité femmes-hommes ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Egalité réelle entre les femmes et les hommes",
+        "description": "Au regard des enjeux autour de l'égalité femmes/hommes, diriez vous que (à cocher) ? :",
+        "required": true,
+        "options": [
+          "A - Votre projet n'est pas impacté par la question de l'égalité femmes/hommes",
+          "B - Votre projet est peut être impacté par la question de l'égalité femmes/hommes, mais vous n'avez pas encore engagé d'action corrective",
+          "C - Vous avez identifié une problématique autour de la question de l'égalité femmes/hommes et l'avez prise en compte dans la conduite de votre projet",
+          "D - La question de l'égalité femmes/hommes fait partie de votre projet, vous l'y avez intégrée comme un objectif secondaire et avez prévu les moyens pour y répondre",
+          "E - La question de l'égalité femmes/hommes est au coeur de votre projet, c'est un objectif principal et vous avez les moyens d'y répondre par votre expertise"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire",
+        "description": "Veuillez préciser les observations justifiant votre choix ainsi que, le cas échéant, les actions correctives que votre projet en faveur de l'égalité femmes/hommes ainsi que les modalités de suivi envisagées.\r\n\r\nVotre réponse n'aura pas d'impact sur la validation de votre projet mais vous permettra d'être accompagné sur le sujet.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Public bénéficiaire prévisionnel et partenaires locaux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de bénéficiaires en quartiers prioritaires",
+        "description": "Indiquez le nombre de bénéficiaires prévus",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Présentation du public cible",
+        "description": "Merci de présenter le public cible et d'indiquer le nombre de bénéficiaires en précisant les tranches d'âge, ainsi que le nombre d'Hommes et de Femmes par tranche d'âge :",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "0 à 5 ans",
+        "description": "Indiquez le nombre de bénéficiaires par tranches d'âge (si pas de bénéficiaires, indiquez 0).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "dont femmes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "dont hommes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "6 à 15 ans",
+        "description": "Indiquez le nombre de bénéficiaires par tranches d'âge (si pas de bénéficiaires, indiquez 0).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "dont femmes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "dont hommes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "16 à 25 ans",
+        "description": "Indiquez le nombre de bénéficiaires par tranches d'âge (si pas de bénéficiaires, indiquez 0).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "dont femmes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "dont hommes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "26 à 64 ans",
+        "description": "Indiquez le nombre de bénéficiaires par tranches d'âge (si pas de bénéficiaires, indiquez 0).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "dont femmes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "dont hommes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "65 ans et +",
+        "description": "Indiquez le nombre de bénéficiaires par tranches d'âge (si pas de bénéficiaires, indiquez 0).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "dont femmes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "dont hommes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Moyens mis en oeuvre pour sensibiliser le public à l'action",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Modalités d'association des bénéficiaires à l'action",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Partenaires locaux associés à l'action",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Services municipaux associés à l'action",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Dispositif de suivi de l'évaluation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Evaluation du projet",
+        "description": "Précisez vos indicateurs de suivi et d'évaluation du projet (mesures, moyens mobilisés, outils, suivi et effets de l'action) :\r\nMerci de bien vouloir argumenter dans la zone ci-dessous :",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations budgétaires sur le projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant total du projet annuel 2024",
+        "description": "Indiquez le montant total annuel du projet.\r\nSi demande de convention pluriannuelle d'Objectifs (CPO) : indiquez le montant annuel pour la 1ère année de financement.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant total du projet annuel 2025 (Si demande de CPO)",
+        "description": "Uniquement si demande de convention pluriannuelle d'Objectifs (CPO) : Indiquez le montant annuel total du projet pour la deuxième année de financement.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant total du projet annuel 2026 (si CPO)",
+        "description": "Uniquement si demande de convention pluriannuelle d'Objectifs (CPO)  : Indiquez le montant annuel total du projet pour la troisième année de financement.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Est-il prévu une participation financière des bénéficiaires (ou du public visé) du projet ?",
+        "description": "Cochez la mention applicable.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Pratiques tarifaires appliquées",
+        "description": "Cochez la mention applicable, une seule valeur possible.",
+        "required": true,
+        "options": [
+          "Gratuité",
+          "Tarifs modulés",
+          "Barème",
+          "Prix unique",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Observations éventuelles sur le budget prévisionnel",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie des subventions demandées aux co-financeurs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Fonctionnement ou investissement ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Fonctionnement",
+          "Investissement"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Crédits politique de la ville - Montant annuel sollicité - Année 2024",
+        "description": "Indiquez le montant total annuel sollicité auprès de l'ensemble des partenaires du contrat de ville (communes/Etat/Région/MEL).\r\nSi CPO : indiquez le montant total annuel sollicité pour la 1ère année de financement.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Crédits politique de la ville - Montant annuel sollicité - Année 2025 (si demande de CPO)",
+        "description": "Uniquement si CPO : Indiquez le montant total annuel sollicité auprès de l'ensemble des partenaires du contrat de ville (communes/Etat/Région/MEL) pour la deuxième année de financement.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Crédits politique de la ville -- Montant annuel sollicité - Année 2026 (si demande de CPO)",
+        "description": "Uniquement si CPO : Indiquez le montant total annuel sollicité auprès de l'ensemble des partenaires du contrat de ville (communes/Etat/Région/MEL) pour la troisième année de financement.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Crédits de Droit commun - Montant annuel sollicité - Année 2024",
+        "description": "Indiquez le montant total annuel sollicité auprès de l'ensemble des partenaires du contrat de ville (communes/Etat/Région/MEL/ Département/CAF).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Crédits de Droit commun - Montant sollicité - Année 2025 (Si demande de CPO)",
+        "description": "Uniquement si CPO : Indiquez le montant total annuel sollicité auprès de l'ensemble des partenaires du contrat de ville (Villes/Etat/Région/MEL/ Département/ CAF) pour la deuxième année de financement.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Crédits de Droit commun - Montant sollicité - Année 2026 (Si demande de CPO)",
+        "description": "Uniquement si CPO : Indiquez le montant total annuel sollicité auprès de l'ensemble des partenaires du contrat de ville (Villes/Etat/Région/MEL/Département/CAF) pour la troisième année de financement .",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie des autres subventions sollicitées (hors subventions précitées ainsi que subvention auprès de la MEL)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autres subvention(s) sollicitée(s)",
+        "description": "Indiquez le(s) financeur(s), montant(s) et année(s) de financement.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autres subvention(s) déjà obtenue(s)",
+        "description": "Indiquez le(s) financeur(s), montant(s) et année(s) de financement.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Moyens humains et matériels nécessaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Moyens humains et matériels",
+        "description": "Merci d'apporter en pièce jointe de ce dossier le descriptif précis des éléments demandés : la présentation des moyens humains et des moyens matériels (Vous trouverez un modèle vierge en bas de ce formulaire).\r\n \r\nMerci également d'apporter des éléments descriptifs synthétiques ci-dessous.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Descriptif synthétique des moyens humains et matériels (locaux, équipements, etc.) mobilisés",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Attestation sur l'honneur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom du déclarant",
+        "description": "Le droit d'accès aux informations prévues par la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés s'exerce auprès du service ou de l'établissement auprès duquel vous déposez cette demande.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Qualité du déclarant",
+        "description": "Pour les associations : si le déclarant n'est pas le responsable légal, merci de joindre ci-dessous la délégation de pouvoir.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste",
+        "description": "Le représentant légal atteste sur l'honneur, conformément à l'article L. 113-13 du code des relations entre le public et l'administration,\r\n- que l'association est à jour de ses obligations administratives, comptables, sociales et fiscales (déclarations et\r\npaiements correspondants) ;\r\n- que l’association souscrit au contrat d’engagement républicain annexé au décret pris pour l’application de l’article 10-1 de la loi n° 2000-321 du 12 avril 2000 relative aux droits des citoyens dans leurs relations avec les administrations ;\r\n- exactes et sincères les informations du présent formulaire, notamment relatives aux demandes de subventions déposées auprès d'autres financeurs publics ;\r\n- que l'association respecte les principes et valeurs de la Charte des engagements réciproques conclue le 14 février 2014 entre l'État, les associations d'élus territoriaux et le Mouvement associatif, ainsi que les déclinaisons de cette charte ;\r\n- que l’association a perçu un montant total et cumulé d’aides publiques (subventions financières -ou en numéraire- et en nature) sur les trois derniers exercices (dont l’exercice en cours) ;\r\n- que cette subvention, si elle est accordée, sera versée au compte bancaire de l'association.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "l’association a perçu un montant total et cumulé d’aides publiques (subventions financières -ou en numéraire- et en nature) sur les trois derniers exercices (dont l’exercice en cours)",
+        "description": "",
+        "required": true,
+        "options": [
+          "inférieur ou égal à 500 000 €",
+          "supérieur à 500 000 €"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Contrat d'Engagement Républicain",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste",
+        "description": "L'importance des associations et des fondations dans la vie de la Nation et leur contribution à l'intérêt général justifient que les autorités administratives décident de leur apporter un soutien financier ou matériel. Il en va de même pour les fédérations sportives et les ligues professionnelles. L'administration, qui doit elle-même rendre des comptes aux citoyens, justifier du bon usage des deniers publics et de la reconnaissance qu'elle peut attribuer, est fondée à s'assurer que les organismes bénéficiaires de subventions publiques ou d'un agrément respectent le pacte républicain.\r\nA cette fin la loi n° 2021-1109 du 24 août 2021 confortant le respect des principes de la République a institué le contrat d'engagement républicain.\r\nConformément aux dispositions des articles 10-1 et 25-1 de la loi n° 2000-321 du 12 avril 2000 relative aux droits des citoyens dans leurs relations avec les administrations, le présent contrat a pour objet de préciser les engagements que prend toute association ou fondation qui sollicite une subvention publique ou un agrément de l'Etat. Ainsi, l'association ou la fondation « s'engage (…) à respecter les principes de liberté, d'égalité, de fraternité et de dignité de la personne humaine ainsi que les symboles de la République (…) », « à ne pas remettre en cause le caractère laïque de la République » et « à s'abstenir de toute action portant atteinte à l'ordre public ».\r\nCes engagements sont souscrits dans le respect des libertés constitutionnellement reconnues, notamment la liberté d'association et la liberté d'expression dont découlent la liberté de se réunir, de manifester et de création.\r\n\r\nENGAGEMENT N° 1 : RESPECT DES LOIS DE LA RÉPUBLIQUE\r\n\r\nLe respect des lois de la République s'impose aux associations et aux fondations, qui ne doivent entreprendre ni inciter à aucune action manifestement contraire à la loi, violente ou susceptible d'entraîner des troubles graves à l'ordre public.\r\nL'association ou la fondation bénéficiaire s'engage à ne pas se prévaloir de convictions politiques, philosophiques ou religieuses pour s'affranchir des règles communes régissant ses relations avec les collectivités publiques.\r\nElle s'engage notamment à ne pas remettre en cause le caractère laïque de la République.\r\n\r\nENGAGEMENT N° 2 : LIBERTÉ DE CONSCIENCE\r\n\r\nL'association ou la fondation s'engage à respecter et protéger la liberté de conscience de ses membres et des tiers, notamment des bénéficiaires de ses services, et s'abstient de tout acte de prosélytisme abusif exercé notamment sous la contrainte, la menace ou la pression.\r\nCet engagement ne fait pas obstacle à ce que les associations ou fondations dont l'objet est fondé sur des convictions, notamment religieuses, requièrent de leurs membres une adhésion loyale à l'égard des valeurs ou des croyances de l'organisation.\r\n\r\nENGAGEMENT N° 3 : LIBERTÉ DES MEMBRES DE L'ASSOCIATION\r\n\r\nL'association s'engage à respecter la liberté de ses membres de s'en retirer dans les conditions prévues à l'article 4 de la loi du 1er juillet 1901 et leur droit de ne pas en être arbitrairement exclu.\r\n\r\nENGAGEMENT N° 4 : ÉGALITÉ ET NON-DISCRIMINATION\r\n\r\nL'association ou la fondation s'engage à respecter l'égalité de tous devant la loi.\r\nElle s'engage, dans son fonctionnement interne comme dans ses rapports avec les tiers, à ne pas opérer de différences de traitement fondées sur le sexe, l'orientation sexuelle, l'identité de genre, l'appartenance réelle ou supposée à une ethnie, une Nation, une prétendue race ou une religion déterminée qui ne reposeraient pas sur une différence de situation objective en rapport avec l'objet statutaire licite qu'elle poursuit, ni cautionner ou encourager de telles discriminations.\r\nElle prend les mesures, compte tenu des moyens dont elle dispose, permettant de lutter contre toute forme de violence à caractère sexuel ou sexiste.\r\n\r\nENGAGEMENT N° 5 : FRATERNITÉ ET PREVENTION DE LA VIOLENCE\r\n\r\nL'association ou la fondation s'engage à agir dans un esprit de fraternité et de civisme.\r\nDans son activité, dans son fonctionnement interne comme dans ses rapports avec les tiers, l'association s'engage à ne pas provoquer à la haine ou à la violence envers quiconque et à ne pas cautionner de tels agissements. Elle s'engage à rejeter toutes formes de racisme et d'antisémitisme.\r\n\r\nENGAGEMENT N° 6 : RESPECT DE LA DIGNITÉ DE LA PERSONNE HUMAINE\r\n\r\nL'association ou la fondation s'engage à n'entreprendre, ne soutenir, ni cautionner aucune action de nature à porter atteinte à la sauvegarde de la dignité de la personne humaine.\r\nElle s'engage à respecter les lois et règlements en vigueur destinés à protéger la santé et l'intégrité physique et psychique de ses membres et des bénéficiaires de ses services et ses activités, et à ne pas mettre en danger la vie d'autrui par ses agissements ou sa négligence.\r\nElle s'engage à ne pas créer, maintenir ou exploiter la vulnérabilité psychologique ou physique de ses membres et des personnes qui participent à ses activités à quelque titre que ce soit, notamment des personnes en situation de handicap, que ce soit par des pressions ou des tentatives d'endoctrinement.\r\nElle s'engage en particulier à n'entreprendre aucune action de nature à compromettre le développement physique, affectif, intellectuel et social des mineurs, ainsi que leur santé et leur sécurité.\r\n\r\nENGAGEMENT N° 7 : RESPECT DES SYMBOLES DE LA RÉPUBLIQUE\r\n\r\nL'association s'engage à respecter le drapeau tricolore, l'hymne national, et la devise de la République.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commentaires supplémentaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Merci d'indiquer ici tous les éléments supplémentaires dont vous voulez informer les co-instructeurs de votre dossier :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Budget prévisionnel du projet - Année 2024",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Budget prévisionnel du projet annuel - Année 2025",
+        "description": "Uniquement si CPO.\r\nA insérer par la suite. (vous pouvez utiliser la pièce-jointe proposée dans le modèle du budget prévisionnel 2024).",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Budget prévisionnel du projet annuel - Année 2026",
+        "description": "Uniquement si CPO.\r\nA insérer par la suite. (vous pouvez utiliser la pièce-jointe proposée dans le modèle du budget prévisionnel 2024).",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bilan intermédiaire 2023 de l'action",
+        "description": "Seulement si l'action est reconduite. \r\nDéposer le bilan déjà saisi sur la plateforme DAUPHIN.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bilan intermédiaire de l'action 2024",
+        "description": "A insérer par la suite. (vous pouvez utiliser la pièce-jointe proposée dans le modèle du bilan intermédiaire 2023).\r\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bilan intermédiaire de l'action 2025",
+        "description": "Uniquement si CPO. \r\nA insérer par la suite. (vous pouvez utiliser la pièce-jointe proposée dans le modèle du bilan intermédiaire 2023).",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bilan intermédiaire de l'action 2026",
+        "description": "Uniquement si CPO. \r\nA insérer par la suite. (vous pouvez utiliser la pièce-jointe proposée dans le modèle du bilan intermédiaire 2023).",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bilan financier de l'action 2023",
+        "description": "Seulement si l'action est reconduite. \r\nA insérer par la suite.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bilan financier de l'action 2024",
+        "description": "A insérer par la suite.\r\n(vous pouvez utiliser la pièce-jointe proposée dans le modèle du bilan financier 2023).",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bilan financier de l'action 2025",
+        "description": "Uniquement si CPO. \r\nA insérer par la suite. (vous pouvez utiliser la pièce-jointe proposée dans le modèle du bilan financier 2023).",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bilan financier de l'action 2026",
+        "description": "Uniquement si CPO. \r\nA insérer par la suite. (vous pouvez utiliser la pièce-jointe proposée dans le modèle du bilan financier 2023).",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Moyens humains et matériels",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Délégation de pouvoir",
+        "description": "Uniquement pour les associations et dans le cas où le déclarant n'est pas le représentant légal de la structure.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Schéma d'ingénierie",
+        "description": "Uniquement pour les actions en Ingénierie.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments à joindre (1)",
+        "description": "Insérer les éléments complémentaires que vous jugez utiles à l'instruction de votre dossier ainsi que ceux demandés par les partenaires financeurs lors de l'instruction du projet",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments à joindre (2)",
+        "description": "Insérer les éléments complémentaires que vous jugez utiles à l'instruction de votre dossier ainsi que ceux demandés par les partenaires financeurs lors de l'instruction du projet",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments à joindre (3)",
+        "description": "Insérer les éléments complémentaires que vous jugez utiles à l'instruction de votre dossier ainsi que ceux demandés par les partenaires financeurs lors de l'instruction du projet",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments à joindre (4)",
+        "description": "Insérer les éléments complémentaires que vous jugez utiles à l'instruction de votre dossier ainsi que ceux demandés par les partenaires financeurs lors de l'instruction du projet",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments à joindre (5)",
+        "description": "Insérer les éléments complémentaires que vous jugez utiles à l'instruction de votre dossier ainsi que ceux demandés par les partenaires financeurs lors de l'instruction du projet",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments à joindre (6)",
+        "description": "Insérer les éléments complémentaires que vous jugez utiles à l'instruction de votre dossier ainsi que ceux demandés par les partenaires financeurs lors de l'instruction du projet",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments à joindre (7)",
+        "description": "Insérer les éléments complémentaires que vous jugez utiles à l'instruction de votre dossier ainsi que ceux demandés par les partenaires financeurs lors de l'instruction du projet",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments à joindre (8)",
+        "description": "Insérer les éléments complémentaires que vous jugez utiles à l'instruction de votre dossier ainsi que ceux demandés par les partenaires financeurs lors de l'instruction du projet",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments à joindre (9)",
+        "description": "Insérer les éléments complémentaires que vous jugez utiles à l'instruction de votre dossier ainsi que ceux demandés par les partenaires financeurs lors de l'instruction du projet",
+        "required": false
+      }
+    ]
+  }
+}

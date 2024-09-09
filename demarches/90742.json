@@ -1,0 +1,443 @@
+{
+  "number": 90742,
+  "title": "DISPONIBILITE RENFORTS EXTRA DEPARTEMENTAUX FDF SAISON 2024",
+  "description": "Recherche et centralisation de l'ensemble des disponibilités des FDF 1 et FDF 2 pour les renforts extra-départementaux FFEN pour la saison estivale 2024",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2024-04-12T10:09:44+02:00",
+  "service": {
+    "nom": "Equipe suivi RH - FDFEN",
+    "organisme": "SDIS 73",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/disponibilitefdf2024",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "www.sdis73.fr",
+  "cadreJuridiqueUrl": "www.sdis73.fr",
+  "logo": {
+    "filename": "logo_fdfen_73_3.png",
+    "checksum": "2oZPBekGaw5uesYsr40ChQ==",
+    "byteSize": "434350",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 182,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1 - IDENTITE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Grade",
+        "description": "",
+        "required": true,
+        "options": [
+          "Sapeur",
+          "Caporal",
+          "Caporal-Chef",
+          "Sergent",
+          "Sergent-Chef",
+          "Adjudant",
+          "Adjudant-Chef",
+          "Lieutenant",
+          "Capitaine"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut",
+        "description": "",
+        "required": true,
+        "options": [
+          "SPP",
+          "SPV"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "BO d'appartenance",
+        "description": "",
+        "required": true,
+        "options": [
+          "BO Aix les Bains Chautagne",
+          "BO Albertville",
+          "BO Avant Pays Savoyard",
+          "BO Chambéry Chartreuse",
+          "BO Combe de Savoie Bauges",
+          "BO Haute Maurienne Vanoise",
+          "BO Haute Tarentaise",
+          "BO Maurienne",
+          "BO Moutiers 3 Vallées",
+          "ETAT MAJOR",
+          "CTA-CODIS"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": "Uniquement si votre numéro de téléphone a changé dans les 3 dernières années\r\n Numéro à utiliser lors de l'engagement de la colonne. PAS DE FIXE",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - QUALIFICATIONS FFEN",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Qualification FFEN",
+        "description": "",
+        "required": true,
+        "options": [
+          "FDF 1",
+          "FDF 2"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Qualifications de conduite (FMPA à jour)",
+        "description": "",
+        "required": true,
+        "options": [
+          "COD 2 PL",
+          "COD 2 VL",
+          "COD 3",
+          "AUCUN"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - DISPONIBILITES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Disponibilité été 2024",
+        "description": "Merci de cocher chacune des périodes pour laquelle vous seriez disponible. Les disponibilités s'entendent du vendredi 8h00 au vendredi 8h00 avec la nécessité d'être disponible jusqu'au dimanche soir suivant le vendredi en cas d'engagement de la colonne le jeudi ou la nuit du jeudi au vendredi de la fin de période d'astreinte.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Semaine 25",
+        "description": "Vendredi 14 Juin au Vendredi 21 Juin",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut demandé sur la semaine 25",
+        "description": "",
+        "required": true,
+        "options": [
+          "SPP en IMO",
+          "SPP en SPV",
+          "SPP selon besoin du service"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Semaine 26",
+        "description": "Vendredi 21 Juin au Vendredi 28 Juin",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut demandé sur la semaine 26",
+        "description": "",
+        "required": true,
+        "options": [
+          "SPP en IMO",
+          "SPP en SPV",
+          "SPP selon besoin du service"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Semaine 27",
+        "description": "Vendredi 28 Juin au Vendredi 5 Juillet",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut demandé sur la semaine 27",
+        "description": "",
+        "required": true,
+        "options": [
+          "SPP en IMO",
+          "SPP en SPV",
+          "SPP selon besoin du service"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Semaine 28",
+        "description": "Vendredi 5 Juillet au Vendredi 12 Juillet",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut demandé sur la semaine 28",
+        "description": "",
+        "required": true,
+        "options": [
+          "SPP en IMO",
+          "SPP en SPV",
+          "SPP selon besoin du service"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Semaine 29",
+        "description": "Vendredi 12 Juillet au Vendredi 19 Juillet",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut demandé sur la semaine 29",
+        "description": "",
+        "required": true,
+        "options": [
+          "SPP en IMO",
+          "SPP en SPV",
+          "SPP selon besoin du service"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Semaine 30",
+        "description": "Vendredi 19 Juillet au Vendredi 26 Juilletv",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut demandé sur la semaine 30",
+        "description": "",
+        "required": true,
+        "options": [
+          "SPP en IMO",
+          "SPP en SPV",
+          "SPP selon besoin du service"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Semaine 31",
+        "description": "Vendredi 26 Juillet au Vendredi 2 Août",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut demandé sur la semaine 31",
+        "description": "",
+        "required": true,
+        "options": [
+          "SPP en IMO",
+          "SPP en SPV",
+          "SPP selon besoin du service"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Semaine 32",
+        "description": "Vendredi 2 Août au Vendredi 9 Août",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut demandé sur la semaine 32",
+        "description": "",
+        "required": true,
+        "options": [
+          "SPP en IMO",
+          "SPP en SPV",
+          "SPP selon besoin du service"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Semaine 33",
+        "description": "Vendredi 9 Août au Vendredi 16 Août",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut demandé sur la semaine 33",
+        "description": "",
+        "required": true,
+        "options": [
+          "SPP en IMO",
+          "SPP en SPV",
+          "SPP selon besoin du service"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Semaine 34",
+        "description": "Vendredi 16 Août au Vendredi 23 Août",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut demandé sur la semaine 34",
+        "description": "",
+        "required": true,
+        "options": [
+          "SPP en IMO",
+          "SPP en SPV",
+          "SPP selon besoin du service"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Semaine 35",
+        "description": "Vendredi 23 Août au Vendredi 30 Août",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut demandé sur la semaine 35",
+        "description": "",
+        "required": true,
+        "options": [
+          "SPP en IMO",
+          "SPP en SPV",
+          "SPP selon besoin du service"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Semaine 36",
+        "description": "Vendredi 30 Août au Vendredi 6 Septembre",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut demandé sur la semaine 36",
+        "description": "",
+        "required": true,
+        "options": [
+          "SPP en IMO",
+          "SPP en SPV",
+          "SPP selon besoin du service"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Semaine 37",
+        "description": "Vendredi 6 Septembre au Vendredi 13 Septembre",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut demandé sur la semaine 37",
+        "description": "",
+        "required": true,
+        "options": [
+          "SPP en IMO",
+          "SPP en SPV",
+          "SPP selon besoin du service"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Semaine 38",
+        "description": "Vendredi 13 Septembre au Vendredi 20 Septembre",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut demandé sur la semaine 38",
+        "description": "",
+        "required": true,
+        "options": [
+          "SPP en IMO",
+          "SPP en SPV",
+          "SPP selon besoin du service"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Semaine 39",
+        "description": "Vendredi 20 Septembre au Vendredi 27 Septembre",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut demandé sur la semaine 38",
+        "description": "",
+        "required": true,
+        "options": [
+          "SPP en IMO",
+          "SPP en SPV",
+          "SPP selon besoin du service"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - ENGAGEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Respect de la charte FFEN",
+        "description": "En cochant cette case, je m'engage à respecter la charte FFEN d'engagement sur un renfort extra-départemental pour la saison estivale 2024. Je télécharge une copie de cette charte.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Respect de la charte FFEN",
+        "description": "Je télécharge une copie de cette charte",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Accord du chef de centre",
+        "description": "En cochant cette case, je m'engage à avoir sollicité l'accord de mon chef de centre au préalable.",
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "number": 40230,
+  "title": "Une idée, un projet ? L'État dans le Calvados à votre écoute",
+  "description": "Vous représentez une collectivité territoriale (commune ou EPCI) et vous avez un projet.\r\nQuelle que soit l'ampleur de votre dossier, vous vous questionnez ou ne savez pas par où commencer.\r\nRenseignez ce court questionnaire pour nous en dire plus sur votre projet et le service de l’État concerné reviendra vers vous dans les meilleurs délais. ",
+  "tags": [
+    "Aap"
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2021-03-19T16:30:54+01:00",
+  "service": {
+    "nom": "Direction de la coordination des politiques publiques et de l'appui territorial",
+    "organisme": "Préfecture du Calvados",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/une-idee-un-projet-letatdanslecalvadosavotreecoute",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.calvados.gouv.fr/ingenierie-territoriale-r1787.html",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/fr/tiers-autorises-la-cnil-publie-un-guide-pratique-et-un-recueil-de-procedures",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 10,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Collectivité",
+        "description": "Nom et adresse de la collectivité :",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET",
+        "description": "Numéro SIRET de la collectivité :",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "INSEE",
+        "description": "Numéro INSEE de la collectivité demandeuse (commune ou EPCI) :",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "EPCI",
+        "description": "Nom de l'EPCI d'appartenance (communauté urbaine ou communauté de communes) ",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Arrondissement",
+        "description": "Arrondissement d'appartenance",
+        "required": true,
+        "options": [
+          "Caen",
+          "Lisieux",
+          "Bayeux",
+          "Vire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Contact",
+        "description": "Nom de la personne à contacter :\n",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Votre projet",
+        "description": "Intitulé de votre projet",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre projet concerne",
+        "description": null,
+        "required": true,
+        "options": [
+          "Un bâtiment existant",
+          "Une construction",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si autre, précisez",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Maturité du projet",
+        "description": "Quel est le niveau de maturité du projet ?",
+        "required": true,
+        "options": [
+          "Réflexion naissante (aucune étude réalisée)",
+          "Délibération prise en conseil",
+          "Diagnostic réalisé",
+          "Étude de faisabilité réalisée",
+          "Autre, précisez"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si autre, précisez",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Besoin",
+        "description": "Quel est votre besoin ?",
+        "required": true,
+        "options": [
+          "Information",
+          "Réflexion stratégique (usage...)",
+          "Avis sur l'opportunité",
+          "Accompagnement juridique",
+          "Accompagnement technique",
+          "Soutien financier",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si autre, précisez",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Services de l'Etat",
+        "description": "Avez-vous déjà eu des contacts avec des services de l’État ?",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui, lesquels ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous être recontacté ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Le projet",
+        "description": "Décrivez votre projet en quelques lignes",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Localisation du projet",
+        "description": "Si la localisation du projet est connue, renseigner l'adresse exacte de celui-ci",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Description du projet",
+        "description": "Vous pouvez joindre ici toute pièce complémentaire (étude réalisée, pré-projet...) que vous jugerez nécessaire à la bonne compréhension du projet.",
+        "required": false
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Lien avec un autre projet",
+        "description": "Si votre projet est en lien avec un autre projet déjà connu des services de l’État, merci de le préciser ici",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Destination",
+        "description": "Si l'usage, la destination de votre projet est connu(e), merci de renseigner le domaine concerné",
+        "required": false,
+        "options": [
+          "Commerce",
+          "Culturel",
+          "Développement économique",
+          "Éducation",
+          "Emploi",
+          "Environnement",
+          "Lien social",
+          "Santé",
+          "Service à la personne",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si autre, précisez",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Population concernée",
+        "description": "Quelle population sera bénéficiaire du projet ?",
+        "required": false,
+        "options": [
+          "Petite enfance",
+          "Jeunesse",
+          "Personnes âgées",
+          "Tout public"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "Commentaires, les cas échéant",
+        "required": false
+      }
+    ]
+  }
+}

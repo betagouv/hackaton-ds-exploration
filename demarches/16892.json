@@ -1,0 +1,614 @@
+{
+  "number": 16892,
+  "title": "Demande d'autorisation pour un regroupement d'officines de l'ARS Auvergne - Rhône - Alpes",
+  "description": "Procédure dématérialisée des demandes d'autorisations pour les regroupements d'officine de l'Agence Régionale de Santé Auvergne - Rhône - Alpes",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2020-01-20T16:53:20+01:00",
+  "service": {
+    "nom": "ARS ARA - pôle pharmacie biologie de la Direction de l'offre de soins",
+    "organisme": "ARS Auvergne-Rhône-Alpes",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-d-autorisation-pour-un-regroupement-d-offi",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "PAPS Auvergne-Rhône-Alpes",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006690018",
+  "logo": {
+    "filename": "2020_Logo_RH_ARS_ARA_Horizontal.png",
+    "checksum": "9zUg82YNfn7fyU0fYro6xQ==",
+    "byteSize": "71396",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "Notice Regroupement_version pour démarches simplifiées.pdf",
+    "checksum": "R0/bO2ivdDDwMkqN04VMkA==",
+    "byteSize": "588786",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 13,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées de l'interlocuteur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le mail utilisé pour les échanges sera celui utilisé pour la connexion à cette plateforme démarches simplifiées",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone de l'interlocuteur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Officine n°1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Coordonnées du  titulaire",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du titulaire",
+            "description": "Nom patronymique du titulaire",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom du titulaire",
+            "description": "(tel qu'il figure sur l'état civil)",
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Mail du titulaire",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone du titulaire",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mode d'exploitation",
+        "description": "mode d'exploitation actuel de l'officine avant regroupement",
+        "required": true,
+        "options": [
+          "SELARL",
+          "EURL",
+          "Personne physique",
+          "Régime prévoyance soc. minière",
+          "SARL",
+          "SELAS",
+          "SELAFA",
+          "SELASU",
+          "SELCA",
+          "SELURL",
+          "SNC",
+          "Société de fait",
+          "Société mutualiste"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Inscription de la société à l'Ordre",
+        "description": "La société exploitant l'officine avant regroupement est-elle inscrite au tableau de l'Ordre des pharmaciens?",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse actuelle de l'officine",
+        "description": "N° et libellé de la voie - code postal- nom de la commune ( adresse de l'officine AVANT regroupement)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse",
+        "description": "Exemples : centre commercial, numéro de cellule ...",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Population de la commune",
+        "description": "Population municipale issue du dernier recensement de la population publié au journal officiel de la République Française.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre théorique de pharmacies dans la commune de la pharmacie n°1 au regard des seuils prévus à l'article L 5125-4 du code de la santé publique",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre réel de pharmacies dans la commune de pharmacie n°1",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Officine n°2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Coordonnées du titulaire",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du titulaire",
+            "description": "Nom patronymique du titulaire",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom du titulaire",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Mail du titulaire",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone titulaire",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mode d'exploitation",
+        "description": "Mode d'exploitation actuel de l'officine avant regroupement",
+        "required": true,
+        "options": [
+          "SELARL",
+          "EURL",
+          "Personne physique",
+          "Régime prévoyance soc. minière",
+          "SARL",
+          "SELAS",
+          "SELAFA",
+          "SELASU",
+          "SELCA",
+          "SELURL",
+          "SNC",
+          "Société de fait",
+          "Société mutualiste"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Inscription de la société à l'Ordre",
+        "description": "La société exploitant l'officine avant regroupement est-elle inscrite au tableau de l'Ordre des pharmaciens?",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse actuelle de l'officine",
+        "description": "N° et libellé de la voie - code postal- nom de la commune ( adresse de l'officine AVANT regroupement)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse",
+        "description": "Exemples : centre commercial, numéro de cellule ...",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Population de la commune",
+        "description": "Population municipale issue du dernier recensement de la population publié au journal officiel de la République Française.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre théorique de pharmacies dans la commune de la pharmacie n°2 au regard des seuils prévus à l'article L 5125-4 du code de la santé publique",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre réel  de pharmacies dans la commune n°2",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Officine n°3",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Coordonnées du titulaire",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du titulaire",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom du titulaire",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Mail du titulaire",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone du titulaire",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Mode d'exploitation",
+            "description": null,
+            "required": false,
+            "options": [
+              "SELARL",
+              "EURL",
+              "Personne physique",
+              "Régime prévoyance soc. minière",
+              "SARL",
+              "SELAS",
+              "SELAFA",
+              "SELASU",
+              "SELCA",
+              "SELURL",
+              "SNC",
+              "Société de fait",
+              "Société mutualiste"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Inscription de la société à l'Ordre",
+        "description": "La société exploitant l'officine avant regroupement est-elle inscrite au tableau de l'Ordre des pharmaciens?",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse actuelle de l'officine",
+        "description": "N° et libellé de la voie - code postal- nom de la commune ( adresse de l'officine AVANT regroupement)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse",
+        "description": "Exemples : centre commercial, numéro de cellule ...",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Population de la commune",
+        "description": "Population municipale issue du dernier recensement de la population publié au journal officiel de la République Française.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre théorique de pharmacies dans la commune de la pharmacie n°3 au regard des seuils prévus à l'article L 5125-4 du code de la santé publique",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre réel  de pharmacies dans la commune de pharmacies n°3",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "La future officine",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Département futur local",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du futur local",
+        "description": "Adresse d'installation de la future officine",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse",
+        "description": "Exemples : centre commercial, numéro de cellule...",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le regroupement s'effectue-t-il au sein de la même commune?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le regroupement s'effectue-t-il au sein d'un même quartier?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Délimitation du quartier actuel des officines",
+        "description": "Indiquer les rues, infrastructures ou frontières naturelles constituant la limite du quartier où sont actuellement installées les officines",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Délimitation du quartier actuel de l'officine",
+            "description": "Bloc à répéter pour chacune des officines",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Délimitation du futur quartier de l'officine issue du regroupement",
+        "description": "Indiquer les rues, infrastructures ou frontières naturelles constituant la limite du quartier où sera installée l'officine",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Des permis de construire ont-ils été accordés pour la construction de logements au sein du quartier d'accueil ?",
+        "description": "Permis de construire accordés par la mairie de la commune d'accueil pour des logements individuels ou collectifs",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le bâtiment dans lequel se situe le futur local est-il déjà existant ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La future officine sera-t-elle exploitée par une société?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Motivation du demandeur",
+        "description": "Motivation des pharmaciens et date prévisionnelle pour l'opération de regroupement.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Mandat de représentation",
+        "description": "A ne fournir que si la demande est présentée par un conseil (avocat, ...)",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Attestation d'inscription au conseil de l'ordre",
+        "description": "Fournir une attestation d'inscription à l'Ordre pour tous les pharmaciens titulaires en exercice au moment de la demande.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Extrait du Kbis",
+        "description": "Datant de moins de 3 mois de la société exploitant chaque officine lorsque celle-ci est exploitée sous forme de société",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Extrait du Kbis",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Attestation d'inscription de la société au tableau de l'ordre",
+        "description": "Obligatoire pour les sociétés d'exercice libéral",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation d'inscription de la société au tableau de l'ordre",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Statuts signés ou projets de statuts de la future société qui exploitera l'officine après regroupement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document justifiant que le pharmacien / la société disposera de droits sur les locaux au moment de l'octroi de la licence",
+        "description": "Le document fourni doit préciser l'adresse géographique du futur local ou à défaut le numéro de cadastre du lot. \nLe local doit être à usage commercial.\nLe document fourni ne doit pas être soumis à des conditions suspensives ou résolutoires de nature à compromettre les droits des demandeurs à l'issue du délai d'instruction.\nPar exemple peuvent être transmis : \n- bail commercial\n- acte d’achat du local ou du terrain (compromis de vente ou acte notarié)\n- contrat de réservation du local (en vue d’un bail ou d’une vente)\n- promesse de bail\n- promesse de vente",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si le futur local est situé dans un bâtiment déjà existant, document justifiant des autorisations d'urbanisme nécessaires",
+        "description": "Selon la situation : \n- permis de construire exprès ou tacite si l'aménagement du local implique un permis de construire au titre du code de l'urbanisme\n- décision de non opposition à la déclaration de travaux délivrée par l'autorité compétente si l'aménagement du local implique une déclaration préalable de travaux au titre du code de l'urbanisme.\n- attestation sur l'honneur signée par tous les demandeurs si l'aménagement du local n'est soumis ni à permis de construire ni à déclaration préalable de travaux au titre du code de l'urbanisme.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si le futur local est situé dans un bâtiment à construire, permis de construire du bâtiment et plan fourni à l'appui de la demande de permis de construire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Le cas échéant, permis de changement de destination du local pour un usage commercial",
+        "description": "Si le futur local est situé dans un bâtiment existant et qu'un changement de destination du local est nécessaire",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document attestant que le futur local est conforme aux article L164-1 à L164-3 du Code de la construction et de l'habitation",
+        "description": "Tout document justifiant de la conformité en matière d'accessibilité des locaux. Par exemple : attestation d'accessibilité pour les ERP de 5ème catégorie ou avis de la commission consultative de sécurité et d'accessibilité ... ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de masse du bâtiment",
+        "description": "Doit permettre de situer le futur local dans son environnement immédiat.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan coté de l'officine",
+        "description": "Mentionne obligatoirement la superficie globale des locaux et celle de chaque pièce, y compris le local de stockage le cas échéant.\nCe plan doit permettre de vérifier la conformité du futur local aux conditions minimales d'installation des officines (R5125-8 et R 5125-9 du code de la santé publique)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Notice descriptive de l'aménagement de l'officine",
+        "description": "Compléter le formulaire ci-joint.\nUne notice descriptive précisant l'aménagement, l'agencement et l'équipement intérieur prévus pour la future officine. \nCette notice doit permettre de vérifier la conformité du futur local aux conditions minimales d'installation des officines (R5125-8 et R5125-9 du code de la santé publique)",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Plan de secteur des quartiers d'origine des officines",
+        "description": "Plan mis à l'échelle, faisant apparaitre : \n- la délimitation proposée du quartier d'origine des officines\n- l'emplacement exact des locaux d'origine\n- l'emplacement des locaux de stockage le cas échéant\n- l'emplacement exact des officines environnantes",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Plan de secteur du quartier d'origine",
+            "description": "Bloc à répéter pour chacune des officines",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de secteur du quartier d'accueil",
+        "description": "Plan mis à l'échelle, faisant apparaitre : \n- la délimitation proposée du quartier d'accueil de l'officine issue du regroupement\n- l'emplacement exact du local d'accueil\n- l'emplacement des locaux de stockage le cas échéant\n- l'emplacement exact des officines environnantes\n- l'emplacement des projets immobiliers pour lesquels un permis de construire a été accordé le cas échéant.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document mentionnant les distances entre l'emplacement d'origine et l'emplacement d'accueil et les autres officines environnantes",
+        "description": "Source de l'information à préciser obligatoirement. \nLa distance est calculée par voie terrestre. ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Mode de transport motorisé collectif à préciser",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "PJ relative au mode de transport motorisé collectif",
+        "description": "Exemple : pièce justificative sur les horaires des bus.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Liste des permis de construire accordés dans le quartier d'accueil",
+        "description": "Uniquement pour les demandes motivées par une évolution de la population. Cette liste doit être établie par les services municipaux compétents. ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si le regroupement se fait vers une autre commune, l'extrait du JORF ayant publié le décret authentifiant les chiffres des populations municipales",
+        "description": "Les conditions démographiques doivent être remplies  dans la commune d'accueil au vu de ces chiffres.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Argumentaire justifiant que le regroupement permet une desserte optimale en médicaments de la population",
+        "description": "Compléter le formulaire ci-joint.\r\n• Accès aisé, visibilité, aménagement piétonniers, stationnements, le cas échéant desserte par les transports en commun ;\r\n• Accessibilité (article L164-1 à L164-3  du code de la construction et de l’habitation) et aménagement des locaux (respect des conditions minimales d’installation, réalisation des nouvelles missions pharmaceutiques, garantie d’un accès permanent du public) ;\r\n• Desserte de la même population résidente ou d’une population résidente jusqu’alors non desservie ou d’un population résidente dont l’évolution est avérée ou prévisible au regard des permis de construire délivrés pour des logements individuels ou collectifs, dans le quartier d’accueil défini par le demandeur ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Argumentaire justifiant que le regroupement ne compromettra pas l'approvisionnement en médicaments de la population des quartiers ou des communes d'origine",
+        "description": "Compléter le formulaire ci-joint.\nÉléments justifiant qu'il existe au sein des quartiers ou des communes d'origine ou des communes limitrophes une officine disposant d'emplacements de stationnement et accessible au public par voie piétonnière ou par transports collectifs conformément au décret 2018-671 .",
+        "required": true
+      }
+    ]
+  }
+}

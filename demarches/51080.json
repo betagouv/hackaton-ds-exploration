@@ -1,0 +1,458 @@
+{
+  "number": 51080,
+  "title": "Invalidité - Demande d'allocation supplémentaire d'invalidité",
+  "description": "Ce service est réservé uniquement aux assurés Invalide des CPAM de Lille-Douai de l'Artois et Roubaix-Tourcoing.\r\n\r\nPour une connexion simple et pratique, utilisez la connexion France-Connect.\r\n\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2022-07-08T09:25:05+02:00",
+  "service": {
+    "nom": "ASSURE",
+    "organisme": "CPAM LILLE DOUAI",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/invalidite-asi-lille-douai",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "declic.cpam-lille-douai.fr",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/",
+  "logo": {
+    "filename": "ASSURANCE_MALADIE_Logo_CMJN_Lille Douai.png",
+    "checksum": "v5MxLBR6dkK6qyQUbv1wLA==",
+    "byteSize": "23392",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "Guide de la demande d'ASI en ligne.pdf",
+    "checksum": "2AM8aGPLCv/jbNOeM2qssg==",
+    "byteSize": "65245",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 62,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Demande d'allocation supplémentaire d'invalidité",
+        "description": "(Articles L.815-24 et suivants, L.815-25, 27 et D.815-19 du Code de la sécurité sociale)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vous-même (le/la demandeur(se))",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "De quelle Caisse Primaire d'Assurance Maladie dépendez-vous ?",
+        "description": "Indiquez le département de votre Caisse Primaire d'Assurance Maladie",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Votre nom de famille (de naissance)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Votre nom d'usage",
+        "description": "S'il y lieu",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Vos prénoms",
+        "description": "Dans l'ordre de l'état civil.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Votre numéro de sécurité sociale",
+        "description": "Saisir les 15 chiffres sans espace",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "Format jj/mm/aaaa",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Votre numéro d'allocataire CAF",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Votre nationalité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Votre adresse actuelle",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Votre numéro de téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse email",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre conjoint(e) ou partenaire PACS ou concubin(e)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Je suis",
+        "description": null,
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Marié(e)",
+          "En concubinage",
+          "Pacsé(e)",
+          "Divorcé(e)",
+          "Veuf(ve)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nouveau champ Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "A remplir uniquement si vous êtes marié(e), pacsé(e) ou en concubinage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Son nom de famille (de naissance)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Son nom d'usage",
+        "description": "S'il y a lieu",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Ses prénoms",
+        "description": "Ordre de l'état civil",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Son numéro de sécurité sociale",
+        "description": "Saisir les 15 chiffres sans espace",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro d'Allocataire CAF",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Sa date de naissance",
+        "description": "Format jj/mm/aaaa",
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Sa commune de naissance",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département de naissance",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Sa nationalité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vos revenus en France et/ou à l'étranger des 3 derniers mois",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Les informations sont disponibles dans le guide de la démarche (en haut de ce formulaire)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Choix des ressources",
+        "description": "Faire \"+ Ajouter un élément pour \"Choix des ressources\" pour déclarer plusieurs mois et plusieurs ressources",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Choix des ressources",
+            "description": null,
+            "required": false,
+            "options": [
+              "Salaires et/ou gains assimilés",
+              "Revenus professionnels non salariaux retenus par l'administration fiscale",
+              "Indemnités journalières payées par votre CPAM",
+              "Allocations chômage, préretraite",
+              "Pensions, retraites, rentes personnelles et de réversion",
+              "Retraites complémentaires personnelles et de réversion",
+              "Allocations",
+              "Autre revenus"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Indiquez le mois et le montant de la ressource",
+            "description": "Montant à indiquer en euros",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Uniquement dans les cas où vous percevez déjà une pension, une retraite, une rente personnelle, une rente de réversion, une retraite complémentaire, une allocation ou un autre revenu",
+            "description": "Merci d'indiquer ici le type de ressources, la date d'attribution, le nom de l'organisme payeur et son adresse",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Les revenus de votre conjoint(e) ou partenaire PACS ou concubin(e) en France et/ou à l'étranger des 3 derniers mois",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "A remplir uniquement si vous êtes marié(e), pacsé(e) ou en concubinage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Choix des ressources",
+        "description": "Faire \"+ Ajouter un élément pour \"Choix des ressources\" pour déclarer plusieurs mois et plusieurs ressources",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Choix des ressources",
+            "description": null,
+            "required": false,
+            "options": [
+              "Salaires et/ou gains assimilés",
+              "Revenus professionnels non salariaux retenus par l'administration fiscale",
+              "Indemnités journalières payées par votre CPAM",
+              "Allocations chômage, préretraite",
+              "Pensions, retraites, rentes personnelles et de réversion",
+              "Retraites complémentaires personnelles et de réversion",
+              "Allocations",
+              "Autre revenus"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Indiquez le mois et le montant de la ressource",
+            "description": "Montant à indiquer en euros",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Uniquement dans les cas où votre conjoint(e) ou partenaire PACS ou concubin(e) perçoit déjà une pension, une retraite, une rente personnelle, une rente de réversion, une retraite complémentaire, une allocation ou un autre revenu",
+            "description": "Merci d'indiquer ici le type de ressources, la date d'attribution, le nom de l'organisme payeur et son adresse",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Biens immobiliers et mobiliers",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous et/ou votre conjoint(e), concubin(e), partenaire PACS, des biens mobiliers et/ou immobiliers en France et/ou à l'étranger ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Si oui, remplissez les éléments ci-dessous. Sinon passez directement au point 7",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Biens immobiliers et mobiliers",
+            "description": "*en commun (commun au ménage)",
+            "required": false,
+            "options": [
+              "Biens immobiliers à vous",
+              "Biens immobiliers en commun*",
+              "Biens immobiliers à votre conjoint(e), concubin(e), partenaire PACS",
+              "Biens mobiliers à vous",
+              "Biens mobiliers en commun*",
+              "Biens mobiliers à votre conjoint(e), concubin(e), partenaire PACS"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nature, adresse et valeur actuelle du bien",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si vous possédez un bien immobilier, habitez-vous la maison dont vous et/ou votre conjoint(e), concubin(e), partenaire PACS êtes propriétaire ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Biens immobiliers ou mobiliers dont il a été fait donation depuis moins de 10 ans",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si vous n'êtes pas concerné, vous pouvez directement passer au point 8",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Qui est le donateur ?",
+        "description": null,
+        "required": false,
+        "options": [
+          "Vous-même",
+          "Votre conjoint(e), concubin(e), partenaire PACS",
+          "Vous et votre conjoint(e)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nature du bien, adresse et valeur actuelle",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la donation",
+        "description": "(Date de l'acte)\nFormat jj/mm/aaaa",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lien de parenté avec le bénéficiaire de la donation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Déclaration sur l'honneur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste sur l'honneur que les renseignements portés sur cette demande sont exacts.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m'engage à vous faire connaître toute modification de mes ressources et de celles de mon conjoint ou partenaire PACS ou concubin ainsi que tout changement familial et de résidence, et à faciliter toute enquête.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Le",
+        "description": "Format jj/mm/aaaa",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Fait à",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Votre dernier avis d'imposition",
+        "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Le dernier avis d'imposition de votre concubin(e), ou votre partenaire PACS",
+        "description": "Uniquement si vous êtes concerné\nTous les formats sauf Office (xls, doc, ppt, pps)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "2 justificatifs de moins de 6 mois prouvant que vous résidez en France",
+        "description": "Exemples : quittances de loyer, factures d'eau, de gaz, d'électricité, de téléphone, attestation du Maire,....\nTous les formats sauf Office (xls, doc, ppt, pps)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Votre titre de séjour et/ou celui de votre conjoint(e)",
+        "description": "Si vous résidez en France et si vous êtes (ou votre conjoint(e) de nationalité étrangère sauf si vous êtes ressortissant de l'Union européenne*, de l'Islande, du Liechtenstein, de la Norvège ou de la Suisse. (*liste des pays disponible dans le guide de la démarche)\nTous les formats sauf Office (xls, doc, ppt, pps)",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "--------------------------------------",
+        "description": "La loi rend passible d'amende et/ou d'emprisonnement quiconque se rend coupable de fraudes ou de fausses déclarations en vue d'obtenir ou de tenter d'obtenir des avantages indus (articles 313-1 à 3, 441-1 et 441-6 du Code pénal).\nToutes les informations figurant sur cette déclaration sont destinées à votre organisme d'assurance maladie aux fins de calcul de vos droits et de contrôle.\nEn application de la loi du 6 janvier 1978 modifiée, vous pouvez obtenir communication des informations vous concernant, et, le cas échéant, leur rectification en vous adressant à votre organisme d'assurance maladie.\nEn outre, l'inexactitude, le caractère incomplet des déclarations ou l'absence de déclaration d'un changement de situation ayant abouti au versement de prestations indues, peut faire l'objet d'une pénalité financière en application de l’article L. 162-1-14 du Code de la sécurité sociale.",
+        "required": false
+      }
+    ]
+  }
+}

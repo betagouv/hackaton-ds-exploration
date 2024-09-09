@@ -1,0 +1,547 @@
+{
+  "number": 74155,
+  "title": "Dépôt de recours DALO auprès de la Commission de Médiation du Var (complet ou partiel)",
+  "description": "Cette plateforme permet à tout usager, accompagné ou non d'un travailleur social, de déposer un recours DALO complet ou partiel.\r\nEn effet, il peut également adresser une partie du recours par voie postale et compléter l'envoi des pièces via cette plateforme.\r\n\r\nA noter :\r\n- les champs suivis d'une astérisque sont des informations à renseigner obligatoirement, à défaut le dossier ne pourra être déposé et votre dossier restera alors enregistré en \"brouillon\" ;\r\n- un « brouillon » du dossier est automatiquement sauvegardé, ainsi vous pouvez à tout moment reprendre la constitution de celui-ci ;\r\n- une fois déposé, le dossier est transmis automatiquement au Secrétariat DALO. A réception du dossier, celui-ci a la possibilité de vous réclamer toutes pièces complémentaires utiles à l’instruction du dossier. Les pièces réclamées devront être enregistrées dans la section « Pièces Jointes » du dossier.\r\n\r\nNous vous invitons à prendre connaissance de la notice explicative, disponible tout au long de la procédure de constitution du dossier dans le \"Guide de la démarche\" (situé en haut de la page).",
+  "tags": [
+    "DALO",
+    "Var"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2024-03-22T14:23:24+01:00",
+  "service": {
+    "nom": "Secrétariat DALO",
+    "organisme": "--",
+    "typeOrganisme": "operateur_d_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/depot-dalo-var-tout-ou-partiel",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.var.gouv.fr/index.php/Services-de-l-Etat/Accueil-et-horaires-des-services-recevant-le-public/Le-site-service-public/Le-site-service-public#!/particuliers/page/F18005",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037669926/2018-11-25/",
+  "logo": {
+    "filename": "logo Var.jpg",
+    "checksum": "TN1foHlU1AUQfaRTo6TM4g==",
+    "byteSize": "344781",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "Guide_dépôt_recours-DALO-Var.pdf",
+    "checksum": "CEvyb2a/GHsr4eXWYW2XSQ==",
+    "byteSize": "2428587",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 147,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Dépôt du CERFA",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "J'ai pris connaissance du guide de la démarche",
+        "description": "Veuillez prendre connaissance du guide de la démarche (situé ci-dessus) avant de compléter la demande.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous déjà envoyé le CERFA n° 15036*01 par voie postale ?",
+        "description": "Pour rappel, le CERFA n° 15036*01 est une pièce obligatoire. ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro d'enregistrement du recours DALO",
+        "description": "Si vous avez adressé votre recours DALO par voie postale, vous avez dû recevoir en échange un accusé d'enregistrement. Merci d'indiquer ici le numéro de cet accusé :",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous souhaitez déposer des pièces complémentaires en réponse à un appel de pièces que vous a transmis le secrétariat DALO",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dépôt du cerfa n° 15036*01",
+        "description": "Vous avez la possibilité :\r\n\r\n- soit d'adresser votre cerfa par voie postale à :\r\n           Secrétariat DALO \r\n                   BP 37 \r\n      83952 La Garde Cedex \r\n\r\n- soit de scanner votre cerfa papier et de le déposer sur cette plateforme.\r\n \r\n\r\nLe modèle peut-être téléchargé ici et sur : https://www.formulaires.service-public.fr/gf/cerfa_15036.do\r\n\r\nQuel que soit le mode choisi pour l'envoi, <strong>le cerfa doit obligatoirement être transmis au secrétariat DALO.</strong>\r\n\r\nLe cerfa doit être <strong>signé par le requérant</strong> (ou par son tuteur si le requérant est sous tutelle). Si le cerfa n'est pas signé ou signé par une tierce personne, il sera considéré irrecevable. ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Recours amiable / recours gracieux",
+        "description": "Un recours amiable est un premier recours déposé devant la commission de médiation du Var.\r\n\r\nUn recours gracieux est un nouveau recours déposé dans les deux mois suivant une décision défavorable de la part de la commission de médiation du Var. Il peut prendre la forme d'un simple courrier signé par le requérant ou par son avocat (s'il est signé par une tierce personne, il ne sera pas recevable).",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre recours DALO est :",
+        "description": "",
+        "required": true,
+        "options": [
+          "un recours amiable",
+          "un recours gracieux"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Vous pouvez préciser ici le numéro du recours amiable pour lequel vous déposez un recours gracieux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Etes-vous accompagné(e) dans vos démarches ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Un travailleur social ou une association vous accompagne-t-il dans vos démarches concernant le logement et/ou le DALO ?",
+        "description": "Cet accompagnement n'est pas obligatoire.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Coordonnées du travailleur social ou de l'association qui vous accompagne",
+        "description": "Vous n'avez pas besoin de préciser ces coordonnées ici si vous les avez déjà indiqué dans le cerfa.",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Mail du travailleur social ou de l'association qui vous accompagne",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "En dehors de la constitution du dossier pour ce recours amiable, êtes-vous en contact avec un travailleur social ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Coordonnées du travailleur social ou de l'association qui vous accompagne",
+        "description": "Vous n'avez pas besoin de préciser ces coordonnées ici si vous les avez déjà indiqué dans le cerfa.",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Mail du travailleur social ou de l'association qui vous accompagne",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Où joindre un travailleur social ?",
+        "description": "Tout varois peut s'adresser aux unités de travailleurs sociaux du Conseil Départemental afin d'être reçu par un travailleur social sur un centre de solidarité ou une des nombreuses antennes sociales, selon sa commune de résidence.\r\nLe 1er accueil social est joignable au : 04 83 95 24 42.\r\nPar ailleurs, en cliquant sur \"modèle à télécharger\", vous accéderez à la liste des travailleurs sociaux du département.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Dépôt de justificatifs généraux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dépôt de justificatifs généraux",
+        "description": "Tout recours DALO doit être accompagné <em>a minima</em> de certains justificatifs. \r\nSi vous ne les avez pas transmis par voie postale et qu'ils ne sont pas présents dans votre demande de logement social, vous pouvez les déposer ici.\r\n\r\nSans transmission de ces justificatifs, votre recours DALO pourra être considéré irrecevable.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro Unique Départemental en cours de validité",
+        "description": "Il est recommandé de bien penser à renouveler votre demande chaque année, et à vous assurer qu'elle sera valide au jour du passage de votre recours devant la Commission de Médiation. \r\nEn effet, le dépôt d’une demande de logement social est une démarche préalable obligatoire à l’obtention d’un logement. ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce d'identité",
+        "description": "Vous pouvez transmettre ici les cartes d'identité, passeports et/ou titres de séjour, cartes de résident de tous les majeurs présents dans le recours DALO (si vous ne les avez pas adressés par voie postale ou s'ils ne sont pas présents dans votre demande de logement social).\r\n<strong>Ces pièces sont obligatoires.</strong> Elles doivent être valides au jour du passage en commission de médiation.\r\n\r\nLe récépissé de 1ère demande de titre de séjour n'est valable que s'il porte la mention « réfugié ».\r\nLe renouvellement de titre de séjour n'est valable qu'accompagné du précédent titre de séjour.\r\n\r\nL'ensemble des titres de séjour valides sont listés par l'arrêté du 20 avril 2022 fixant la liste des titres de séjour prévue aux articles R. 300-1 et R. 300-2 du code de la construction et de l'habitation :  https://www.legifrance.gouv.fr/loda/id/LEGIARTI000045704890/2022-04-30/#LEGIARTI000045704890/jorf/id/JORFTEXT000045684322",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Carte de résident",
+        "description": "Au moins l'une des pièces d'identité de votre ménage est-elle une carte de résident ?",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation sur l'honneur",
+        "description": "Si votre pièce d'identité est une carte de résident, vous pouvez déposer ici une déclaration sur l’honneur attestant que vous n’avez pas quitté le territoire français et résidé à l'étranger pendant une période de plus de trois ans consécutifs.\r\n<strong>Il s'agit d'une pièce obligatoire.</strong>",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quelle est votre situation matrimoniale ?",
+        "description": "Attention, une personne est séparée lorsqu'elle se trouve en procédure de divorce ou de dissolution de PACS.",
+        "required": false,
+        "options": [
+          "Célibataire",
+          "Marié(e)",
+          "Divorcé(e)",
+          "Séparé(e)",
+          "PACS",
+          "Concubin(e)",
+          "Veuf/Veuve"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Situation de famille",
+        "description": "Vous pouvez intégrer ici tout justificatif concernant votre situation de famille (si vous ne l'avez pas adressé par voie postale ou s'il n'est pas présent dans votre demande de logement social).\r\n\r\nExemples :\r\n- livret de famille\r\n- jugement de divorce \r\n- ordonnance sur mesures provisoires de moins de 30 mois\r\n- attestation de votre avocat indiquant la mise en place d'une procédure de divorce par consentement mutuel\r\n- fiche RPVA\r\n- attestation familiale provisoire si vous avez le statut de réfugié",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Avis d'imposition N-2 et N-1",
+        "description": "Si vous en disposez, vous pouvez intégrer ici les avis d'imposition sur les revenus N-2 et N-1 de toutes les personnes majeurs présentes dans le recours DALO (si vous ne les avez pas adressés par voie postale ou s'ils ne sont pas présents dans votre demande de logement social).\r\nCes pièces non obligatoires permettent à la commission de vérifier que vous ne dépassez pas les plafonds de ressource permettant l’accès au logement social.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Revenus mensuels (obligatoire)",
+        "description": "Vous pouvez transmettre ici les pièces justificatives de vos ressources mensuelles et de celles des personnes de votre foyer (si vous ne l'avez pas adressé par voie postale ou s'il n'est pas présent dans votre demande de logement social).\r\nCes pièces doivent dater de moins de 3 mois.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° CAF/MSA",
+        "description": "Merci de renseigner votre numéro si vous en disposez.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "CAF ou MSA",
+        "description": "Vous pouvez transmettre ici tout justificatif fourni par la CAF ou la MSA avec le détail des prestations perçues (si vous ne l'avez pas adressé par voie postale ou s'il n'est pas présent dans votre demande de logement social).",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vos démarches préalables",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tout justificatif de démarche préalable que vous auriez pu faire (facultatif)",
+        "description": "Par exemple : lettre à la mairie, recherches en agence immobilière, sur Internet...",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Lettre(s) de refus de la part de bailleurs (facultatif)",
+        "description": "Si vous avez déjà eu des refus de la part de bailleurs sociaux ou privés, vous pouvez déposer ici cette/ces lettre(s) de refus.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Refus de votre part de logement social (facultatif)",
+        "description": "Si vous avez déjà refusé un ou plusieurs logements sociaux, vous pouvez déposer ici votre/vos lettre(s) de refus.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Handicap",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous une personne handicapée ou avez-vous à votre charge une personne handicapée ?",
+        "description": "Certains motifs de reconnaissance du DALO peuvent être conditionnés par la présence d'au moins une personne handicapée au sein du foyer :\r\n- logement non décent et présence d'une personne handicapée ou d'un enfant mineur\r\n- logement en suroccupation  et présence d'une personne handicapée ou d'un enfant mineur\r\n- logement inadapté au handicap",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de handicap",
+        "description": "Vous pouvez intégrer ici vos justificatifs (si vous ne les avez pas adressés par voie postale ou s'ils ne sont pas présents dans votre demande de logement social).\r\n\r\nExemples de justificatifs :\r\n- carte d’invalidité, \r\n- décision de la Maison Départementale des Personnes Handicapées (MDPH),\r\n- décision de la Commissions des droits et de l'autonomie des personnes handicapées,\r\n- décision de la Commission départementale de l’Éducation spéciale, \r\n- décision de la Commission technique d'orientation et de reclassement professionnel\r\n- décision d’un organisme de sécurité sociale\r\n- pour les personnes de plus de 60 ans, notification d'APA ou classification GIR",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Motif(s) du recours DALO",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Situations pouvant entrainer une reconnaissance DALO",
+        "description": "Les situation permettant la reconnaissance d'un DALO sont les suivantes :\r\n- Je suis dépourvu(e) de logement\r\n- Je suis hébergé(e) chez un particulier\r\n- Je suis menacé(e) d’expulsion sans relogement\r\n- Je suis hébergé(e) de façon continue dans une ou des structure(s) sociale(s) d’hébergement\r\n- Je suis logé(e) temporairement dans un logement de transition (par exemple logement fourni par une association), un logement-foyer (résidence sociale, maison relais…) ou une résidence hôtelière à vocation sociale\r\n- Je suis logé(e) dans des locaux impropres à l’habitation ou dans un logement qui est insalubre ou dangereux\r\n- Mon logement est non décent et je suis une personne handicapée ou j'ai à ma charge une personne handicapée ou un enfant mineur\r\n- Mon logement est sur-occupé et je suis une personne handicapée ou j'ai à ma charge une personne handicapée ou un enfant mineur\r\n- Je suis une personne handicapée ou j'ai à ma charge une personne handicapée et mon logement est inadapté à ce handicap\r\n- J'attends un logement social depuis un délai supérieur au délai anormalement long fixé dans le département par arrêté préfectoral",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Vous déposez un recours DALO pour le(s) motif(s) suivant(s)",
+        "description": "Les justificatifs à fournir dépendent du ou des motifs cochés.",
+        "required": true,
+        "options": [
+          "Je suis dépourvu(e) de logement",
+          "Je suis hébergé(e) chez un particulier",
+          "Je suis menacé(e) d’expulsion sans relogement",
+          "Je suis hébergé(e) de façon continue dans une ou des structure(s) sociale(s) d’hébergement",
+          "Je suis logé(e) temporairement dans un logement de transition (par exemple logement fourni par une association), un logement-foyer (résidence sociale, maison relais…) ou une résidence hôtelière à vocation sociale",
+          "Je suis logé(e) dans des locaux impropres à l’habitation ou dans un logement qui est insalubre ou dangereux",
+          "Mon logement est non décent et je suis une personne handicapée ou j'ai à ma charge une personne handicapée ou un enfant mineur",
+          "Mon logement est sur-occupé et je suis une personne handicapée ou j'ai à ma charge une personne handicapée ou un enfant mineur",
+          "Je suis une personne handicapée ou j'ai à ma charge une personne handicapée et mon logement est inadapté à ce handicap",
+          "J'attends un logement social depuis un délai supérieur au délai anormalement long fixé dans le département par arrêté préfectoral"
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous êtes dépourvu(e) de logement",
+        "description": "Vous habitez dans un hôtel, camping, abri, garage, véhicule, squat, autre",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Vous êtes dépourvu(e) de logement",
+        "description": "Vous pouvez intégrer ici vos justificatifs (si vous ne les avez pas adressés par voie postale ou s'ils ne sont pas présents dans votre demande de logement social).\r\n\r\nExemples de justificatifs pour ce motif :\r\n- attestation d'élection de domicile auprès d'un CCAS ou d'une association agréée\r\n- rapport d'un travailleur social\r\n- inscription auprès du SIAO (pour le contacter, vous pouvez joindre le 115 qui est un n° de téléphone gratuit)\r\n- facture d'hôtel ou de camping",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous êtes hébergé(e) chez un particulier",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Les personnes qui vous hébergent sont :",
+        "description": "",
+        "required": false,
+        "options": [
+          "Vos parents",
+          "Vos enfants",
+          "Un autre membre de votre famille",
+          "Une personne extérieure à votre famille"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lien avec l'hébergeant",
+        "description": "Merci de préciser le lien de parenté que vous avez avec votre hébergeant",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lien avec l'hébergeant",
+        "description": "Merci de préciser le lien que vous avez avec votre hébergeant",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Vous êtes hébergé(e) chez un particulier",
+        "description": "Vous pouvez intégrer ici vos justificatifs (si vous ne les avez pas adressés par voie postale ou s'ils ne sont pas présents dans votre demande de logement social).\r\n\r\nExemples de justificatifs pour ce motif :\r\n- attestation de la personne qui vous héberge\r\n- pièce d'identité de la personne qui vous héberge\r\n- bail de la personne qui vous héberge\r\n- attestation d’un travailleur social ou d’une association…",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous êtes menacé(e) d’expulsion sans relogement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif d'expulsion",
+        "description": "Vous pouvez intégrer ici vos justificatifs (si vous ne les avez pas adressés par voie postale ou s'ils ne sont pas présents dans votre demande de logement social).\r\n\r\nExemples de justificatifs pour ce motif :\r\n- le commandement de quitter les lieux,\r\n- le jugement d'expulsion,\r\n- tout courrier de la préfecture ou de la sous-préfecture d'arrondissement.\r\n\r\nEn cliquant sur \"modèle à télécharger\", vous accéderez au schéma de la procédure d'expulsion.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous expulsé(e) pour dette de loyer ou de charges ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Démarches entreprises pour solder la dette",
+        "description": "Vous pouvez intégrer ici vos justificatifs (si vous ne les avez pas adressés par voie postale ou s'ils ne sont pas présents dans votre demande de logement social).\r\n\r\nExemples de justificatifs :\r\n- justificatif de reprise, même partiel, des paiements\r\n- engagement de résorption de votre dette (plan d'apurement)\r\n- sollicitation d'une aide du fonds de solidarité pour le logement (FSL) du\r\ndépartement \r\n- dépôt/acceptation d'un dossier de surendettement auprès de la Banque de France",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Information concernant les PCB",
+        "description": "En parallèle de votre recours DALO, au vu des difficultés financières dont vous faites l’état, vous pouvez, si ce n'est déjà fait, vous adresser à l’un des Points conseil budget dont vous trouverez la liste ci-jointe.\r\nLes Points conseil budget offrent à toute personne qui le souhaite, notamment si elle se trouve en situation de fragilité financière, des conseils et des orientations de manière personnalisée, gratuite et confidentielle pour l’accompagner dans la gestion de son budget ou en cas de surendettement.\r\nEn cliquant sur \"modèle à télécharger\", vous accéderez à la liste des PCB ainsi qu'à un descriptif plus complet de ce dispositif.\r\n\r\nVous pouvez également contacter « SOS Loyer impayé » au 08.05.16.00.75. Il s’agit d’un numéro vert à destination des locataires pour bénéficier de conseils et d'un accompagnement adapté.\r\n\r\nEnfin, si vous êtes en situation de surendettement, vous pouvez contacter la Banque de France (www.banque-france.fr) :\r\n    • par téléphone au 3414\r\n    • par courrier à : TSA 50120 75035 Paris Cedex 01",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous êtes hébergé(e) de façon continue dans une ou des structure(s) sociale(s) d’hébergement",
+        "description": "Exemples de structures sociales d'hébergement : \r\n- centre d’accueil pour demandeurs d’asile (CADA), \r\n- centre d’hébergement et de réinsertion sociale (CHRS)\r\n- centre maternel\r\n- hébergement avec allocation de logement temporaire (ALT)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la structure dans laquelle vous êtes hébergé(e) actuellement",
+        "description": "A préciser si vous ne l'avez pas noté dans le recours CERFA.",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d’entrée dans cette structure",
+        "description": "A préciser si vous ne l'avez pas noté dans le recours CERFA.\r\nPour rappel, vous devez être hébergé(e) dans une structure d'hébergement ou une résidence hôtelière à vocation sociale <strong>de façon continue depuis plus de 6 mois</strong>.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Vous êtes hébergé(e) de façon continue dans une ou des structure(s) sociale(s) d’hébergement",
+        "description": "Vous pouvez intégrer ici vos justificatifs (si vous ne les avez pas adressés par voie postale ou s'ils ne sont pas présents dans votre demande de logement social).\r\n\r\nExemple de justificatifs pour ce motif :\r\n- attestation d'hébergement de la structure",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si vous le souhaitez, vous pouvez préciser ici les coordonnées du travailleur social qui vous accompagne au sein de la structure",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avant d'intégrer votre structure actuelle, étiez-vous hébergé(e) dans d’autres structures d’hébergement auparavant ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Merci de préciser le nom de cette/ces précédente(s) structure(s)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "A quelle date êtes-vous entré(e) dans cette précédente structure / dans la première de ces structures ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous êtes logé(e) temporairement dans un logement de transition, un logement foyer ou une résidence hôtelière à vocation sociale",
+        "description": "Il peut s'agir par exemple :\r\n- d'un logement temporaire\r\n- d'une intermédiation locative\r\n- d'une résidence sociale",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et adresse de l’organisme qui vous procure ce logement",
+        "description": "A préciser si vous ne l'avez pas noté dans le recours CERFA",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de votre entrée dans les lieux",
+        "description": "A préciser si vous ne l'avez pas noté dans le recours CERFA.\r\n\r\nPour rappel, vous devez être  logé(e) temporairement dans un logement de transition ou un logement-foyer <strong>depuis plus de 18 mois</strong>.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif d’accueil dans le logement de transition, le logement-foyer ou la résidence hôtelière à vocation sociale",
+        "description": "Vous pouvez intégrer ici vos justificatifs (si vous ne les avez pas adressés par voie postale ou s'ils ne sont pas présents dans votre demande de logement social).\r\n\r\nExemples de justificatifs pour ce motif :\r\n- attestation de l’organisme qui met le logement à votre disposition\r\n- bail\r\n- convention d’occupation",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si vous le souhaitez, vous pouvez préciser ici les coordonnées du travailleur social qui vous accompagne au sein de la structure",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous êtes logé(e) dans des locaux impropres à l’habitation ou dans un logement qui est insalubre ou dangereux",
+        "description": " <em><u>Locaux impropres à l’habitation</em></u>\r\n <p>Ce sont les locaux manifestement, ni destinés, ni aménagés à usage d’habitation, tels que les caves, les sous-\r\nsols, les combles non aménagés, les garages, les rez-de-chaussée commerciaux, les cabanes et cabanons, les\r\nlocaux dépourvus d’ouvertures sur l’extérieur, locaux dépourvus d’éclairage naturel, qui sont mis à votre disposition\r\npar des personnes. </p>\r\n \r\n<em><u>Logements insalubres et dangereux</em></u>\r\n<em>Logements insalubres</em>\r\n<p>Ce sont des logements présentant un risque grave pour la santé ou la sécurité des occupants du fait de\r\nl’addition de gros problèmes exigeant de lourds travaux de réhabilitation.\r\nCes problèmes peuvent concerner tout ou plusieurs des éléments suivants : état général du bâti, toiture,\r\néquipements sanitaires, alimentation en eau ou assainissement, installations électriques, manifestations\r\nd’humidité, chauffage, disposition ou taille des pièces...</p>\r\n<em>Logements dangereux</em>\r\n<p>Le danger peut provenir notamment :\r\nde risques d’effondrement de tout ou d’éléments du bâti (par exemple : escaliers, plafonds et planchers, murs, balcons et garde- corps...) mettant en cause la sécurité des occupants, d’un risque d’incendie.</p>\r\n<p>\r\n</p>\r\n<p><strong>Il est nécessaire de justifier des démarches signalant la situation aux autorités compétentes ( ARS, Mairie...) ou à votre bailleur.</strong></p>",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif concernant les locaux impropres à l’habitation ou l'insalubrité ou la dangerosité du logement",
+        "description": "Vous pouvez intégrer ici vos justificatifs concernant les démarches déjà engagées (si vous ne les avez pas adressés par voie postale ou s'ils ne sont pas présents dans votre demande de logement social).\r\n\r\nExemples de justificatifs pour ce motif :\r\n- justificatifs des démarches que vous avez effectuées auprès de votre propriétaire pour sortir de la situation d’insalubrité ou de mise en sécurité\r\n- arrêté d’insalubrité ou de mise en sécurité (anciennement \"de péril\")\r\n- avis de l’ARS\r\n- document établi par un professionnel du bâtiment, un service public, un travailleur social ou une association ayant pour objet l’insertion ou le logement, photos\r\n- attestation de la commission de conciliation, de la caisse d’allocations familiales ou de la caisse de mutualité sociale agricole…",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous habitez dans un logement non décent et vous êtes une personne handicapée ou vous avez à votre charge une personne handicapée ou un enfant mineur",
+        "description": "Pour rappel, le logement non décent ne permet la reconnaissance du DALO que si votre foyer comprend au moins une personne handicapée ou un enfant mineur.\r\n<strong>S'il n'y a pas d'enfant mineur dans votre composition familiale, le chapitre 5 \"Handicap\" doit obligatoirement avoir été rempli.</strong>\r\n\r\nInformations sur la non décence : https://www.anil.org/non-decence/\r\nQuelques signes de non décence :\r\n- aucune pièce principale de plus de 9 m²,\r\n- pas d’eau chaude,\r\n- installation électrique défectueuse,\r\n- fenêtres ne s’ouvrant pas sur l’extérieur,\r\n- pièces humides et mal ventilées,\r\n- chauffage insuffisant dans le logement…\r\n\r\n<p>\r\n<strong>Il est nécessaire de justifier des démarches signalant la situation aux autorités compétentes ( ARS, Mairie...) ou à votre bailleur.</strong></p>",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de non décence",
+        "description": "Vous pouvez intégrer ici vos justificatifs (si vous ne les avez pas adressés par voie postale ou s'ils ne sont pas présents dans votre demande de logement social).\r\n\r\nExemples de justificatifs pour ce motif :\r\n- copie d’un document établi par un professionnel du bâtiment (ex: Les compagnons bâtisseurs)\r\n- copie d’un document établi par un service public (ex : CAF, MSA, PDLHI, SCHS)\r\n- copie du jugement d’un tribunal statuant sur la non décence du logement \r\n-  photos\r\n- attestation de la commission de conciliation",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous habitez dans un logement sur-occupé et vous êtes une personne handicapée ou vous avez à votre charge une personne handicapée ou un enfant mineur",
+        "description": "Pour rappel, le logement sur-occupé ne permet la reconnaissance du DALO que si votre foyer comprend au moins une personne handicapée ou un enfant mineur.\r\n<strong>S'il n'y a pas d'enfant mineur dans votre composition familiale, le chapitre 5 \"Handicap\" doit obligatoirement avoir été rempli.</strong>",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Surfaces de la sur-occupation",
+        "description": "Les surfaces minimum légales sont prévues par l'article R. 822-25 du Code de la Construction et de l’Habitation : \r\n\r\n« Le logement au titre duquel le droit à l'aide personnelle au logement est ouvert doit présenter une surface habitable globale au moins égale à neuf mètres carrés pour une personne seule, seize mètres carrés pour un ménage sans enfant ou deux personnes, augmentée de neuf mètres carrés par personne en plus, dans la limite de soixante-dix mètres carrés pour huit personnes et plus. »\r\n\r\nEn cliquant sur \"modèle à télécharger\", vous accéderez aux surfaces minimales en fonction du nombre de personnes présentes dans votre foyer.\r\n\r\nVous pouvez intégrer ici vos justificatifs (si vous ne les avez pas adressés par voie postale ou s'ils ne sont pas présents dans votre demande de logement social).\r\n\r\nExemples de justificatifs pour ce motif :\r\n- bail précisant la surface\r\n- diagnostic de performance énergétique (DPE) \r\n- attestation d’un professionnel, d’un travailleur social ou d’une association.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous êtes une personne handicapée ou vous avez à votre charge une personne handicapée et votre logement est inadapté à ce handicap",
+        "description": "A titre d'information, la MDPH propose des aides d'adaptation de votre logement à votre handicap si vous êtes reconnu(e) handicapé(e) à plus de 80%.\r\nhttps://mdph.var.fr/prestations-communes\r\n\r\nSi vous êtes locataire d'un logement social, vous pouvez également vous rapprocher de votre bailleur pour demander une adaptation de votre logement à votre handicap.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif d'inadaptation de votre logement au handicap",
+        "description": "Attention, le fait de disposer d'une reconnaissance de handicap n'est pas suffisant pour justifier que votre logement est inadapté à votre situation. \r\nVous devez donc apporter toute pièce montrant le caractère inadapté de votre logement actuel à votre handicap. \r\n\r\nVous pouvez intégrer ici vos justificatifs (si vous ne les avez pas adressés par voie postale ou s'ils ne sont pas présents dans votre demande de logement social).\r\n\r\nExemples de justificatifs pour ce motif :\r\n- rapport d'un professionnel (travailleur social, agent municipal, ergothérapeute, etc.) ayant constaté sur place l'inadaptation\r\n- précisions sur la présence ou non d'un ascenseur\r\n- photographies démontrant l'inadaptation du logement au handicap",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous attendez un logement social depuis un délai supérieur au délai anormalement long fixé dans le département par arrêté préfectoral",
+        "description": "Le délai anormalement long pour le Var est actuellement fixé à 30 mois.\r\n\r\nPour rappel, le délai anormalement long ne permet la reconnaissance du DALO que si vous vous trouvez également dans une situation présentant un caractère d'urgence (cf. décision n°399710 en date du 13/10/17 du Conseil d'État).\r\n\r\nPour évaluer l’urgence, le degré d’inadaptation de votre situation doit être apprécie. Par exemple :\r\n- typologie de votre logement inadaptée à votre composition familiale,\r\n- taux d'effort locatif trop élevé (somme des dépenses liées à votre logement trop élevées par rapport à vos revenus),\r\n- logement inadapté à l'état de santé...",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de l'urgence de votre situation",
+        "description": "Vous pouvez intégrer ici vos justificatifs (si vous ne les avez pas adressés par voie postale ou s'ils ne sont pas présents dans votre demande de logement social).\r\n\r\nExemple de justificatif pour ce motif : situation financière justifiant un taux d'effort trop élevé\r\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Argumentaire libre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Vous pouvez apporter ici toutes précisions complémentaire sur votre situation :",
+        "description": "Si vous avez précisé des éléments dans la partie 11. \"Argumentaire libre\" du cerfa, il est inutile de les remettre ici.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Attestation sur l'honneur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Sincérité des données",
+        "description": "Je certifie et atteste sur l’honneur la sincérité des documents fournis sur cette plateforme.\r\n\r\nJe suis conscient(e) que toute fausse déclaration est passible des peines mentionnées à l’article 441-6 du Code pénal. La loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés s’applique aux réponses faites sur ce formulaire. Elle garantit un droit d’accès et de rectification pour les données vous concernant. Les droits d’accès et de rectification prévus aux articles 39 et 40 de la loi du 6 janvier 1978 susvisée s’exercent auprès du secrétariat des commissions départementales de médiation où la demande a été déposée.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Information",
+        "description": "Je reconnais être informé(e) que, pour l’instruction de mon dossier de recours, les informations qui sont nécessaires à l’appréciation de ma situation peuvent être demandées par le service instructeur de la commission de médiation aux professionnels de l’action sociale des collectivités territoriales et à la CAF ou à la MSA, et que le numéro d’allocataire mentionné rubrique 7 permet aux agents habilités du service instructeur de la commission de médiation de consulter les données de la caisse d’allocations familiales.",
+        "required": true
+      }
+    ]
+  }
+}

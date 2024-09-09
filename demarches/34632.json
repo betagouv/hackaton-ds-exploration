@@ -1,0 +1,316 @@
+{
+  "number": 34632,
+  "title": "Plan du service prioritaire de l'électricité du département du Puy-de-Dôme",
+  "description": "Cette procédure permet l'interrogation des établissements industriels (ou assimilés) susceptibles d'êtres retenus comme établissements prioritaires dans le cadre du service prioritaire de l'électricité du département du Puy-de-Dôme.",
+  "tags": [
+    "Électricité"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2020-10-08T12:45:37+02:00",
+  "service": {
+    "nom": "Service PRICAE",
+    "organisme": "DREAL AURA",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/puy-de-dome",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.auvergne-rhone-alpes.developpement-durable.gouv.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000351015&dateTexte=",
+  "logo": {
+    "filename": "BlocMarque_PREF_region_Auvergne_Rhone_Alpes_RVB_RapportOuWeb.jpg",
+    "checksum": "16DfG9Ko1nDxXLnDNd9ULA==",
+    "byteSize": "580786",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. Renseignements généraux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'établissement (ou de l'installation)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "(rue, lieu-dit...)\n",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code postal",
+        "description": "\n\n",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mode de fonctionnement",
+        "description": "",
+        "required": false,
+        "options": [
+          "continu",
+          "discontinu"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Personne à contacter",
+        "description": "Fonction",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Personne à contacter",
+        "description": "Email",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Personne à contacter",
+        "description": "Téléphone",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail",
+        "description": "Cette adresse mail doit être une adresse générique (service ou direction...) et pérenne, elle sera utilisée pour notifier des décisions administratives.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Est-ce que l’établissement considéré est un établissement industriel ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, l’établissement est-il soumis à autorisation au titre des ICPE ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, l’établissement est-il classé SEVESO ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. Alimentation du site en énergie électrique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fournisseur d’énergie électrique pour l’établissement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Gestionnaire de réseau auquel l’établissement est raccordé",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Numéro du Point de Livraison",
+        "description": "N° PDL",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Puissance maximale souscrite auprès du distributeur (kW)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Conditions de raccordement au réseau",
+        "description": "(antenne, coupure d’artère, double alimentation, réseau aérien/souterrain)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. Description des moyens de secours (si existants)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Type",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Puissance électrique (kVA)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Carburant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Durée d'autonomie (en h)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Installations alimentées en priorité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Ces moyens permettent-ils de mettre le site en sécurité ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Pendant combien de temps (en h) ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Ces moyens permettent-ils d'arrêter l'outil de production sans dommages ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4. Conséquences d’une coupure prolongée d’alimentation en énergie électrique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Sécurité du personnel",
+        "description": "Précisez de manière aussi détaillée que possible et suivant un ordre chronologique, quelles peuvent être les conséquences d’une rupture prolongée d’alimentation électrique (celle-ci pouvant être due à des causes diverses, défaillance technique notamment) et les mesures prises pour y remédier.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Sauvegarde de l'installation ou de l'outil de production",
+        "description": "Précisez de manière aussi détaillée que possible et suivant un ordre chronologique, quelles peuvent être les conséquences d’une rupture prolongée d’alimentation électrique (celle-ci pouvant être due à des causes diverses, défaillance technique notamment) et les mesures prises pour y remédier.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Conservation des produits en cours de fabrication",
+        "description": "Précisez de manière aussi détaillée que possible et suivant un ordre chronologique, quelles peuvent être les conséquences d’une rupture prolongée d’alimentation électrique (celle-ci pouvant être due à des causes diverses, défaillance technique notamment) et les mesures prises pour y remédier.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Indiquez en nombre d'heures la durée maximale supportable d’une interruption de votre alimentation en énergie électrique pour assurer la sauvegarde de l'outil de production uniquement",
+        "description": "En heures",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Indiquez en nombre d'heures la durée maximale supportable d’une interruption de votre alimentation en énergie électrique pour assurer la sauvegarde de l'outil de production et des produits en cours de fabrication",
+        "description": "En heures",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Indiquez en nombre d'heures la durée maximale supportable d’une interruption de votre alimentation en énergie électrique pour assurer la conservation des produits finis",
+        "description": "En heures",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Indiquez en kW la puissance minimum nécessaire pour préserver la sécurité du personnel oeuvrant à proximité des installations à risques",
+        "description": "En kW",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Indiquez en kW la puissance minimum nécessaire pour sauvegarder l'outil de production",
+        "description": "En kW",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Indiquez en kW la puissance minimum nécessaire pour sauvegarder la production",
+        "description": "En kW",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Indiquez en nombre d'heures le temps nécessaire pour atteindre ce minimum",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5. Retour d'expériences lors des précédentes interruptions dans l’alimentation en énergie électrique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous déjà subi une interruption dans l’alimentation en énergie électrique ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, votre installation a-t-elle subi des dommages ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quel en a été leur coût ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quelles ont été les conséquences pour votre établissement ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Des mesures ont-elles été prises pour parer à de telles coupure ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui, lesquelles ?",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

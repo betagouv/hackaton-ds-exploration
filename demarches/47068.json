@@ -1,0 +1,103 @@
+{
+  "number": 47068,
+  "title": "Conditions LEMG DRSD ",
+  "description": "Déclaration des conditions DRSD associées aux licences d'exportations de matériels de guerre",
+  "tags": [
+    "Rh"
+  ],
+  "zones": [
+    "Ministère des Armées"
+  ],
+  "datePublication": "2022-02-02T12:30:00+01:00",
+  "service": {
+    "nom": "Sous direction du contrôle export",
+    "organisme": "MinArm/DGA/DI/SPEM/SDCE",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/drsd",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ixarm.com/fr/contacts-sous-direction-du-controle-export",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000034022579/2017-02-11",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 172,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de licence",
+        "description": "Format 2x 00xxxx",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Condition générale bloquante",
+        "description": "Format PdF.\r\nA fournir si demandé dans les conditions",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Condition DRSD",
+        "description": "Un bloc déclaratif par ligne de licence, type de matériel et fabriquant.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autorisation d'importation dans le pays destinataire",
+            "description": "Format PdF.\r\nA fournir si demandé dans les conditions",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Numéro SIGALE de ligne de la licence",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type",
+            "description": "",
+            "required": true,
+            "options": [
+              "Canon",
+              "Carabine",
+              "Flash-ball",
+              "Fusil",
+              "Fusil d’assaut",
+              "Fusil mitrailleur",
+              "LBD",
+              "Lance grenades",
+              "Lance-roquettes",
+              "Mitrailleuse",
+              "Mortier",
+              "Pistolet",
+              "Pistolet mitrailleur",
+              "Revolver"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Fabriquant",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Quantités",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Numéros de série",
+            "description": "xxxx ; xxxx ; ....",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

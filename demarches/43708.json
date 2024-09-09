@@ -1,0 +1,183 @@
+{
+  "number": 43708,
+  "title": "Pyrénées-Orientales - Recensement des membres des bureaux de vote ou fonctionnaires communaux non-vaccinés mobilisés les jours des scrutins départemental et régional (20 et 27 juin 2021) ",
+  "description": "Formulaire de recensement à destination des maires pour recenser les personnes volontaires à la vaccination parmi les personnes mobilisées pour la tenue des bureaux de vote",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2021-04-30T19:31:48+02:00",
+  "service": {
+    "nom": "AGENCE REGIONALE DE SANTE",
+    "organisme": "Agence Régionale de Santé",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/po-vaccination-elections",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.pyrenees-orientales.gouv.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043403678?r=b7gZXzKz2a",
+  "logo": {
+    "filename": "ars pref 66.png",
+    "checksum": "Ev8ouMVn09dLLfZy0TpaWA==",
+    "byteSize": "106237",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "infog_vaccins_particuliers (1).pdf",
+    "checksum": "DzcBc3VWYa6XtUh/OqUo9w==",
+    "byteSize": "52133",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 35,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "NOTICE D'UTILISATION",
+        "description": "Cette démarche de recensement et d'identification NE REMPLACE PAS l'attestation individuelle de priorité vaccinale que vous devez fournir A CHAQUE PERSONNE QUI LA DEMANDE parmi les personnes concernées. Ce formulaire permet d'identifier les besoins en termes de vaccins et d'assurer un suivi des personnes volontaires en cas de difficultés à accéder à la vaccination.\n\nVous pouvez à tout moment interrompre et reprendre le remplissage de ce formulaire et le modifier autant de fois que nécessaire jusqu'à la date de clôture prévue le 21 mai 2021\n\nPour l'identification des personnes volontaires à la vaccination, vous pouvez générez AUTANT de fiches individuelles que nécessaire, en cliquant sur le bouton \"Ajouter un élément pour « Détail des personnes volontaires à la vaccination »\" en bas à gauche de cette page.\nChacune de ses fiches sera prise en compte.\n\nVous pouvez également remplir ce formulaire à plusieurs personnes au sein de votre service (en cliquant en haut à droite sur le bouton \"Inviter une personne à modifier ce dossier\")",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de la commune",
+        "description": "Identifier les personnes membres du / des bureaux de vote (membres ou personnels communaux) non-vaccinés ayant manifesté le souhait de se faire vacciner avant la tenue du scrutin",
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Nom de la commune",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail du référent de la commune pour les élections 2021",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone du référent de la commune pour les élections 2021",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Recensement des bureaux de vote et des personnes mobilisées",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de bureaux de vote sur la commune",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre total prévisionnel des personnes mobilisées dans les bureaux de vote le jour des scrutins",
+        "description": "comptabiliser :\nle nombre total de personnes mobilisées (membres de bureaux + personnels communaux) en incluant les effectifs pour les élections départementales et régionales\n\nne pas comptabiliser\nles personnes associées à la préparation des bureaux mais non présentes le jour du scrutin",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre prévisionnel de personnes volontaires à la vaccination parmi les personnes mobilisées sur les buraux de vote",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Recensement des personnes volontaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Détail des personnes volontaires à la vaccination",
+        "description": "Afin de faciliter leur accès à la vaccination, merci de renseigner ici les informations relatives aux personnes volontaires à la vaccination (membres des bureaux de vote et personnels communaux présents SEULEMENT)",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": true,
+            "options": [
+              "Membre du bureau de vote",
+              "Personnel communal présent le jour du scrutin"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "La personne volontaire a-t-elle déjà bénéficié d'une première injection ?",
+            "description": "facultatif \nà ne renseigner que si la personne volontaire a consenti à vous donner cette information en vue de son recensement",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom prénom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "téléphone",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "email de la personne volontaire",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Lieu (EPCI) de résidence de la personne volontaire",
+            "description": null,
+            "required": false,
+            "options": [
+              "Perpignan Méditerranée Métropole",
+              "Albères Côte Vermeille",
+              "Sud Roussillon",
+              "Corbières Salanque Méditerranée",
+              "Vallespir",
+              "Conflent Canigou",
+              "Aspres",
+              "Roussillon Conflent",
+              "Haut Vallespir",
+              "Pyrénées Cerdagne",
+              "Pyrénées Catalanes",
+              "Agly Fenouillèdes",
+              "Capcir Haut Conflent"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": "Facultatif : préciser ici des éléments de précision sur l'identification et le recensement des personnes volontaires à la vaccination dans votre commune",
+        "required": false
+      }
+    ]
+  }
+}

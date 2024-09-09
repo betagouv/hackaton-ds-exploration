@@ -1,0 +1,323 @@
+{
+  "number": 52966,
+  "title": "Mobilités collectives en France 2022",
+  "description": "Formulaire pour les mobilités collectives (voyages et sorties scolaires) en France des apprenants de l'enseignement agricole en Nouvelle-Aquitaine.",
+  "tags": [
+    "Scolaire"
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2022-04-08T14:13:36+02:00",
+  "service": {
+    "nom": "SRFD - Coopération internationale",
+    "organisme": "DRAAF Nouvelle-Aquitaine",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/na-mobilites-collectives-en-france-2022",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://draaf.nouvelle-aquitaine.agriculture.gouv.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/eli/loi/2018/6/20/JUSC1732261L/jo/texte",
+  "logo": {
+    "filename": "Logo Min_agri_2021.png",
+    "checksum": "lN/n/iXbcolrA4qWbhrOdQ==",
+    "byteSize": "61798",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "tuto formulaire mobi.pdf",
+    "checksum": "mPNKOZBb5BOgFt+sXTQ2Ag==",
+    "byteSize": "440544",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 120,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "AnnuaireEducationChampDescriptor",
+        "label": "Code RNE de l'établissement",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité responsable de la mobilité prévue",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Fonction",
+        "description": null,
+        "required": true,
+        "options": [
+          "Direction",
+          "Enseignant",
+          "Personnel administratif"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Accompagnant(s)",
+        "description": "Dans le cas d'une mobilité avec plusieurs accompagnateurs, vous pouvez rajouter plusieurs blocs.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Mail",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Statut",
+            "description": null,
+            "required": true,
+            "options": [
+              "Contractuel",
+              "Titulaire"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Apprenants",
+        "description": "Si le projet concerne plusieurs classes ou groupes, vous pouvez rajouter des blocs.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Année d'étude",
+            "description": null,
+            "required": false,
+            "options": [
+              "4e",
+              "3e",
+              "Seconde",
+              "Première",
+              "Terminale",
+              "1ère année",
+              "2e année"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "LinkedDropDownListChampDescriptor",
+            "label": "Filière",
+            "description": null,
+            "required": false,
+            "options": [
+              "--CAPA--",
+              "Jardinier paysagiste",
+              "Maréchal ferrant",
+              "Métiers de l'Agriculture",
+              "Opérateur IA",
+              "SAPVER",
+              "Sellier harnacheur",
+              "Travaux forestiers",
+              "--BPREA--",
+              "--Bac pro--",
+              "Agroéquipement",
+              "Aménagements paysagers",
+              "Conduite et gestion de l’Exploitation Agricole",
+              "Conduite et Gestion de l’Entreprise Hippique",
+              "Conduite et Gestion de l’entreprise du secteur canin et félin",
+              "Conseil vente en animalerie, produits alimentaires, vins et spiritueux, produits de jardin",
+              "Forêt",
+              "Gestion des Milieux Naturels et de la Faune",
+              "Laboratoire contrôle qualité",
+              "Productions aquacoles",
+              "Productions horticoles",
+              "Services aux personnes et aux territoires",
+              "Technicien en expérimentation animale",
+              "Vente (négo., suivi clientèle)",
+              "--Générale--",
+              "2nde Générale",
+              "1ère Générale",
+              "Terminale Générale",
+              "--Bac Techno--",
+              "Aménagement",
+              "Production",
+              "--BTS--",
+              "Agronomie productions végétales",
+              "Aménagements paysagers",
+              "Analyse, conduite et stratégie de l'entreprise agricole",
+              "Analyses agricoles, biologiques et biotechnologies",
+              "Aquaculture",
+              "Développement et animation des territoires ruraux",
+              "Gestion et maîtrise de l’eau",
+              "Gestion et protection de la nature",
+              "Gestion forestière",
+              "Génie des équipements agricoles",
+              "Production horticole",
+              "Productions animales",
+              "Sciences et technologies des aliments",
+              "Techniques et services en matériels agricoles",
+              "Technico-commercial",
+              "Viticulture-oenologie"
+            ]
+          }
+        ]
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de garçons",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de mineurs",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Effectif total",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "situation de handicap",
+        "description": "avec présence d'un accompagnant AESH",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Liste des apprenants",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Lieu mobilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Département et commune",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Planning",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date départ",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Département(s) et commune(s)",
+        "description": "Dans le cas d'une mobilité comportant plusieurs étapes, vous pouvez rajouter d'autres lieux en cliquant sur le bouton + ajouter un élément.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Département et commune",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date retour",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Projet",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Programme détaillé",
+        "description": "Joindre un document indiquant le programme détaillé du séjour.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Projet pédagogique et éducatif",
+        "description": "Joindre un document indiquant le projet pédagogique et éducatif.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Transport",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Mode de transport",
+        "description": "Plusieurs choix sont possibles.",
+        "required": true,
+        "options": [
+          "Avion",
+          "Bateau",
+          "Train",
+          "Société de transport",
+          "Véhicule établissement",
+          "Véhicule structure d'accueil"
+        ]
+      }
+    ]
+  }
+}

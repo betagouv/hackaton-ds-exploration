@@ -1,0 +1,107 @@
+{
+  "number": 80256,
+  "title": "Lycée Viollet-le-Duc - Inscription du personnel au service de restauration",
+  "description": "Inscription du personnel au service de restauration du lycée Viollet-le-Duc à Villiers-Saint-Frédéric",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2023-09-01T14:34:44+02:00",
+  "service": {
+    "nom": "Service intendance",
+    "organisme": "Lycée Viollet-le-Duc",
+    "typeOrganisme": "etablissement_enseignement"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/lycee-vld-inscription-restaurationdupersonnel",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.lyc-violletleduc.ac-versailles.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 28,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse postale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse e-mail obligatoire",
+        "description": "IMPORTANT : Une fois votre inscription validée, vous recevrez vos identifiants de connexion à cette adresse e-mail.\n Ces identifiants vous permettront d'accéder à la plateforme de réservation des repas et de paiement en ligne Turbo-self.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "MODALITES DE PAIEMENT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Choix du mode de paiement",
+        "description": "",
+        "required": true,
+        "options": [
+          "Paiement en ligne",
+          "Prélèvement automatique"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Choix du mode de paiement",
+        "description": "- En choisissant le prélèvement automatique, vous serez prélevé en début de mois du montant des repas consommés le mois précédant. Vous autorisez ainsi le lycée Viollet-le-Duc à envoyer des instructions à votre banque pour débiter votre compte et votre banque à débiter votre compte conformément aux instructions du lycée Viollet-le-Duc.\r\n\r\nIdentifiant Créancier SEPA : FR93ZZZ611376\r\nNom et adresse du créancier :\r\nAgent comptable du lycée Viollet-le-Duc\r\n1 route de Septeuil\r\n78640 VILLIERS-SAINT-FRÉDÉRIC\r\n\r\n\r\n- En choisissant le paiement en ligne, vous vous engagez à alimenter votre compte par carte bleue pour accéder au self.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SIGNATURE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Fiche de paie",
+        "description": "Afin de calculer votre prix de repas en fonction de votre indice, veuillez joindre votre dernière fiche de paie.\nA défaut de fournir cette pièce justificative, le prix du repas sera de 5.32 euros.",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Inscription au service de demi-pension et acceptation des modalités de fonctionnement du service.",
+        "description": "En cochant la case ci-dessus, j'atteste avoir lu et approuvé  les modalités de fonctionnement de la demi-pension, accessible en cliquant sur \"Guide de la démarche\".",
+        "required": true
+      }
+    ]
+  }
+}

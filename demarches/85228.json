@@ -1,0 +1,208 @@
+{
+  "number": 85228,
+  "title": "Préparation de la gestion de situations sanitaires exceptionnelles - Normandie - 2023",
+  "description": "Cette enquête a pour objectif de rassembler les données nécessaires à la gestion de situations sanitaires exceptionnelles pour le système de santé en Normandie",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2023-12-06T10:52:15+01:00",
+  "service": {
+    "nom": "Direction de l'autonomie",
+    "organisme": "ARS de Normandie",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/sse-esms-normandie",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.normandie.ars.sante.fr/",
+  "cadreJuridiqueUrl": "https://www.normandie.ars.sante.fr/mentions-legales-2",
+  "logo": {
+    "filename": "ARS_N-Rep-Fr-RVB.jpg",
+    "checksum": "OAzuDWqgj42hdj8XXH6YFQ==",
+    "byteSize": "228235",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 3,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'établissement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale de l'établissement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "FINESS géographique de l'établissement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "FINESS juridique de l'établissement (FINESS gestionnaire)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune de l'établissement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Département",
+        "description": "",
+        "required": true,
+        "options": [
+          "14",
+          "27",
+          "50",
+          "61",
+          "76"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Catégorie",
+        "description": "EHPAD, FAM, EAM, MAS, IME, IEM, ITEP, ESAT, etc...",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Quelle est la capacité d'hébergement maximale de l'établissement ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Plan bleu",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Rappel",
+        "description": "Le plan bleu, intégré dans le projet d’établissement (article D. 312-160 du code de l’action sociale et des familles), constitue le plan global de gestion des risques des établissements médico-sociaux pour faire face à tout type de crises et de situations sanitaires exceptionnelles susceptibles de les impacter (épidémies, rupture de flux, incendie, infections nosocomiales, actes de malveillance et de terrorisme, catastrophes naturelles et technologiques, etc.).\r\nLe guide d’aide à l’élaboration du plan bleu met à disposition des EHPAD des outils méthodologiques et opérationnels actualisés de préparation et de gestion de crise pour leur permettre de répondre au mieux, en fonction de leurs besoins et de leurs ressources, à tout type de crise.\r\nhttps://sante.gouv.fr/prevention-en-sante/securite-sanitaire/article/guide-d-aide-a-l-elaboration-du-plan-bleu-en-ehpad",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'établissement a t 'il un plan bleu ou équivalent ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de réalisation du plan bleu initial",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la dernière mise à jour du plan bleu",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Contact alerte",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail alerte",
+        "description": "Pour rappel, il est recommandé de créer une adresse mail spécifique, non nominative, diffusant sur plusieurs boites emails.\r\nProposition de format d'adresse : alerte-[nom de l'établissement]@[domaine.xx]\r\nIl est nécessaire qu'elle soit consultable 7j/7 et 24h/24.\r\n\r\n",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone alerte",
+        "description": "Ce numéro doit permettre de contacter l'établissement 7j/7 24h/24",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Groupe électrogène",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'établissement dispose-t-il d'un groupe électrogène ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Ce groupe électrogène vous appartient il en propre ?",
+        "description": "(propriétaire)",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "À quelle fréquence annuelle la maintenance du groupe électrogène est-elle réalisée ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Moins d'une fois par an",
+          "1 fois par an",
+          "2 fois par an",
+          "Plus de 2 fois par an"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'établissement dispose-t-il d'un contrat de maintenance du groupe électrogène ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quelles sont les dispositions prévues par l'établissement en cas de coupures d'électricité ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Contrat de location de groupe électrogène avec un prestataire",
+          "Convention permettant l'achat d’énergie à un particulier proche, fournisseur autonome",
+          "Convention de mise à disposition/partage d'un groupe électrogène avec un autre EMS, un ES ou un autre acteur",
+          "Convention prévoyant le transfert des résidents les plus fragiles vers un autre établissement",
+          "Pas de solution conventionnée prévue"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Stock d'eau potable de l'établissement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Combien de litres d'eau potable sont stockés au sein de l'établissement ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Nous vous remercions d'avoir pris le temps de répondre à ce questionnaire.",
+        "description": "Pour toute question complémentaire, vous pouvez contacter le référent préparation SSE de la Direction de l'Autonomie : cathy.talbot@ars.sante.fr",
+        "required": false
+      }
+    ]
+  }
+}

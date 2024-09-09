@@ -1,0 +1,654 @@
+{
+  "number": 60742,
+  "title": "Inscription BDMS - MUSAR FRA-12",
+  "description": "Recueil des coordonnées agents pour la base de données opérationnelle du MUSAR FRA-12",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2022-10-05T08:48:38+02:00",
+  "service": {
+    "nom": "MUSAR FRA-12",
+    "organisme": "SDIS 74, SDIS73",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/inscription-bdms",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "www.sdis73.fr",
+  "cadreJuridiqueUrl": "www.sdis73.fr",
+  "logo": {
+    "filename": "Logo_USAR_FRA12.PNG",
+    "checksum": "/Tjo17BPGplcb8xAFT8OkA==",
+    "byteSize": "122924",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 153,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Affectation principale",
+        "description": "",
+        "required": true,
+        "options": [
+          "SDIS 73",
+          "SDIS 74",
+          "SDMIS (FENICS)",
+          "SDIS13 (FENICS)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "CIS ou service",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTITE :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Matricule",
+        "description": "Votre numéro de matricule SDIS",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Grade",
+        "description": null,
+        "required": true,
+        "options": [
+          "Sapeur 2ème classe",
+          "Sapeur 1ère classe",
+          "Caporal",
+          "Caporal-chef",
+          "Sergent",
+          "Sergent-chef",
+          "Adjudant",
+          "Adjudant-chef",
+          "Lieutenant",
+          "Capitaine",
+          "Commandant",
+          "Lieutenant-colonel",
+          "Colonel",
+          "Expert",
+          "Infirmier",
+          "Infirmier de classe normale",
+          "Infirmier principal",
+          "Infirmier de classe supérieure",
+          "Infirmier chef",
+          "Infirmier hors classe",
+          "Médecin aspirant",
+          "Médecin Lieutenant",
+          "Médecin capitaine",
+          "Médecin de classe normale stagiaire",
+          "Médecin commandant",
+          "Médecin de classe normale titulaire",
+          "Médecin lieutenant-colonel",
+          "Médecin hors classe",
+          "Médecin colonel",
+          "Médecin de classe exceptionnelle",
+          "Médecin commandant",
+          "Médecin colonel"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Statut",
+        "description": "",
+        "required": true,
+        "options": [
+          "--SPP--",
+          "SPP",
+          "SPV",
+          "--SPV--",
+          "SPV"
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de sécurité sociale",
+        "description": "numéro complet sans espace et avec la clé",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Photo d'identité",
+        "description": "Merci de fournir au format image ou pdf une copie de votre photo d'identité",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées personnelles",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone portable",
+        "description": "Numéro à utiliser lors de l'engagement. PAS DE FIXE",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse personnelle",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email personnel",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées professionnelles",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse professionnelle",
+        "description": "Merci d'indiquer votre adresse de résidence administrative ou professionnelle",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email professionnel",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Personne à contacter en cas d'urgence",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM contact",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom contact",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone contact",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Lien de parenté",
+        "description": null,
+        "required": true,
+        "options": [
+          "Conjoint - concubin",
+          "Parent",
+          "Enfant",
+          "Tuteur",
+          "Personne de confiance"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Engagement USAR - FENICS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Acceptez-vous d'intégrer un engagement MUSAR / FENIC hors du territoire national ?",
+        "description": "L'engagement MUSAR ou FENICS suppose de se tenir à jour de ses vaccinations et documents d'identités pour des projections à l'international.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "QUALIFICATIONS USAR :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Qualification USAR",
+        "description": "Plusieurs choix possibles",
+        "required": true,
+        "options": [
+          "USAR 1",
+          "USAR 2",
+          "USAR 3",
+          "Aucune"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Fonctions USAR",
+        "description": "Plusieurs choix possibles",
+        "required": true,
+        "options": [
+          "SEARCH & RESCUE",
+          "TEAM LEADER",
+          "DEPUTY TEAM LEADER",
+          "STRUCTURAL ENGINEER",
+          "SAFETY OFFICER",
+          "MANAGER",
+          "Cellule MANAGEMENT",
+          "BoO - LOG",
+          "SIC",
+          "Aucune"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "QUALIFICATIONS FENICS :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Qualifications FENICS",
+        "description": "",
+        "required": true,
+        "options": [
+          "Aucune",
+          "ESIC",
+          "ELOG",
+          "OSIC",
+          "OLOG",
+          "SANITARY OFFICER",
+          "LIAISON OFFICER",
+          "TEAM LEADER",
+          "DEPUTY TEAM LEADER"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Spécialités détenues",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "RCH",
+        "description": "Spécialité détenue et recyclée",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "RAD",
+        "description": "Spécialité détenue et recyclée",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "FDF",
+        "description": "Spécialité détenue et recyclée",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "CYN",
+        "description": "Spécialité détenue et recyclée",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "SMO - IMP",
+        "description": "Spécialité détenue et recyclée",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "SIC",
+        "description": "",
+        "required": true,
+        "options": [
+          "Aucune",
+          "TECHSIC",
+          "OFFSIC",
+          "COMSIC"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "DRONE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Niveau linguistique",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Anglais",
+        "description": "Niveau linguistique CECRL (A1 = débutant, A2 = élémentaire, B1 = intermédiaire, B2 = intermédiaire++, C1= avancé / autonome, C2= maitrise)",
+        "required": true,
+        "options": [
+          "Aucun",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Allemand",
+        "description": "Niveau linguistique CECRL (A1 = débutant, A2 = élémentaire, B1 = intermédiaire, B2 = intermédiaire++, C1= avancé / autonome, C2= maitrise)",
+        "required": true,
+        "options": [
+          "Aucun",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Italien",
+        "description": "Niveau linguistique CECRL (A1 = débutant, A2 = élémentaire, B1 = intermédiaire, B2 = intermédiaire++, C1= avancé / autonome, C2= maitrise)",
+        "required": true,
+        "options": [
+          "Aucun",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Espagnol",
+        "description": "Niveau linguistique CECRL (A1 = débutant, A2 = élémentaire, B1 = intermédiaire, B2 = intermédiaire++, C1= avancé / autonome, C2= maitrise)",
+        "required": true,
+        "options": [
+          "Aucun",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre langue vivante maîtrisée",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "CNI",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "n° de la CNI",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "date de validité CNI",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "CNI recto-verso",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "copie CNI",
+            "description": "Joindre le recto et le verso",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Passeport",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "n° de passeport",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "date de validité passeport",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Passeport recto-verso",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "copie passeport",
+            "description": "Joindre le recto et le verso",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Permis de conduire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "n° du permis de conduire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "date de validité permis",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de permis",
+        "description": "Plusieurs choix possibles",
+        "required": false,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "EB",
+          "EC",
+          "ED"
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Permis de conduire  recto-verso",
+        "description": "Joindre le recto et le verso",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "copie permis VL-PL",
+            "description": "Joindre le recto et le verso",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Permis de conduire international",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "n° du permis international",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "date de validité permis international",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Permis international  recto-verso",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "copie permis international",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "B-SAFE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "n° du B-SAFE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "date d'obtention",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "B-safe",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "copie B-Safe",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IATA",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "date obtention IATA",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "IATA",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "copie IATA",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Modules UE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Modules UE détenus",
+        "description": "",
+        "required": false,
+        "options": [
+          "UCC",
+          "MBC",
+          "CMI",
+          "OPM",
+          "Autre"
+        ]
+      }
+    ]
+  }
+}

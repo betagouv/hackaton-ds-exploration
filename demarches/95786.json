@@ -1,0 +1,909 @@
+{
+  "number": 95786,
+  "title": "Fiche équipement",
+  "description": "Recensement des équipements sportifs",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère des Sports et des Jeux olympiques et paralympiques"
+  ],
+  "datePublication": "2024-05-14T18:13:33+02:00",
+  "service": {
+    "nom": "Pôle SCFE - Unité Certification-Formation",
+    "organisme": "DRAJES Centre-Val de Loire",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fiche-equipement-aps",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ac-orleans-tours.fr/jeunesse-engagement-et-sports-122683",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": {
+    "filename": "BM Région académique CVL DRAJES - BBD.jpg",
+    "checksum": "r7gXTRWfNrCzsSBYtwQmoA==",
+    "byteSize": "57770",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 11,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTIFICATION DE L'ÉQUIPEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM complet de l'équipement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type",
+        "description": "Exemples : bassin sportif de natation, gymnase, boulodrome, piste de padel, terrain de football...",
+        "required": false,
+        "options": [
+          "Bassin sportif de natation",
+          "Bassin aquatique",
+          "Gymnase",
+          "Terrain de football",
+          "Gymnase",
+          "Boulodrome,",
+          "Piste de padel",
+          "Terrain de football",
+          "Terrain de tennis",
+          "Structure Artificielle d’Escalade (SAE)",
+          "Pas de tir"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Installation particulière",
+        "description": "",
+        "required": false,
+        "options": [
+          "Aucun",
+          "Aérodrome / Aéroport",
+          "Base de plein air et/ou loisirs",
+          "Complexe sportif",
+          "CREPS ou Ecole Nationale",
+          "Etablissement pénitentiaire",
+          "Domaine de ski",
+          "Installation militaire",
+          "Etablissement scolaire",
+          "Piscine"
+        ]
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse postale de l'équipement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "CARACTÉRISTIQUES JURIDIQUES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET du NOM du propriétaire principal",
+        "description": "Le propriétaire principal est le propriétaire du bâti, le secondaire celui du terrain.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Le cas échéant, Unité Administrative Immatriculée (UAI)",
+        "description": "Pour rechercher votre n° UAI : https://www.education.gouv.fr/acce_public/index.php",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Unité Administrative Immatriculée (UAI)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM du propriétaire principal",
+        "description": "Le propriétaire principal est le propriétaire du bâti, le secondaire celui du terrain.",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type",
+        "description": "",
+        "required": false,
+        "options": [
+          "Etat",
+          "Région",
+          "Département",
+          "EPCI / Département",
+          "Commune",
+          "Établissement d’enseignement privé",
+          "Établissement privé commercial",
+          "Établissement public",
+          "Association(s)",
+          "Privé non commercial"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de gestion (État)",
+        "description": "",
+        "required": false,
+        "options": [
+          "Propriétaire principal",
+          "Propriétaire secondaire",
+          "Gestionnaire",
+          "Co-gestionnaire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de gestion (Région)",
+        "description": "",
+        "required": false,
+        "options": [
+          "Propriétaire principal",
+          "Propriétaire secondaire",
+          "Gestionnaire",
+          "Co-gestionnaire"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de gestion (Département)",
+        "description": "",
+        "required": false,
+        "options": [
+          "Propriétaire principal",
+          "Propriétaire secondaire",
+          "Gestionnaire",
+          "Co-gestionnaire"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de gestion (EPCI / Groupement com.)",
+        "description": "",
+        "required": false,
+        "options": [
+          "Propriétaire principal",
+          "Propriétaire secondaire",
+          "Gestionnaire",
+          "Co-gestionnaire"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de gestion (Commune)",
+        "description": "",
+        "required": false,
+        "options": [
+          "Propriétaire principal",
+          "Propriétaire secondaire",
+          "Gestionnaire",
+          "Co-gestionnaire"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de gestion (Établissement d’enseignement privé)",
+        "description": "",
+        "required": false,
+        "options": [
+          "Propriétaire principal",
+          "Propriétaire secondaire",
+          "Gestionnaire",
+          "Co-gestionnaire"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de gestion (Établissement privé commercial)",
+        "description": "",
+        "required": false,
+        "options": [
+          "Propriétaire principal",
+          "Propriétaire secondaire",
+          "Gestionnaire",
+          "Co-gestionnaire"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de gestion (Établissement public)",
+        "description": "",
+        "required": false,
+        "options": [
+          "Propriétaire principal",
+          "Propriétaire secondaire",
+          "Gestionnaire",
+          "Co-gestionnaire"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de gestion (Association(s))",
+        "description": "",
+        "required": false,
+        "options": [
+          "Propriétaire principal",
+          "Propriétaire secondaire",
+          "Gestionnaire",
+          "Co-gestionnaire"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de gestion (Privé non commercial)",
+        "description": "",
+        "required": false,
+        "options": [
+          "Propriétaire principal",
+          "Propriétaire secondaire",
+          "Gestionnaire",
+          "Co-gestionnaire"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Gestion DSP",
+        "description": "DSP : Délégation de Service Public",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Arrêté d'ouverture au public",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type d'ERP",
+        "description": "",
+        "required": false,
+        "options": [
+          "X",
+          "PA",
+          "PE",
+          "L",
+          "REF",
+          "SG",
+          "CTS",
+          "R"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Catégorie ERP",
+        "description": "* Les types et catégories ERP figurent sur l’arrêté d’ouverture au public https://entreprendre.service-public.fr/vosdroits/F32351",
+        "required": false,
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'homologation préfectorale",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Année de mise en service",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "CARACTÉRISTIQUES ARCHITECTURALES STRUCTURANTES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Nature de l'équipement",
+        "description": "",
+        "required": false,
+        "options": [
+          "Intérieur",
+          "Extérieur couvert",
+          "Découvert",
+          "Découvrable",
+          "Site aménagé",
+          "Site naturel",
+          "Site nature aménagé"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de chauffage / Source d'énergie",
+        "description": "",
+        "required": false,
+        "options": [
+          "Non chauffé",
+          "Fuel",
+          "Electricité",
+          "Solaire",
+          "Gaz",
+          "Autre (obs.)"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Derniers gros travaux",
+        "description": "",
+        "required": false,
+        "options": [
+          "Mise en conformité avec les règlements (sécurité, incendie, hygiène...)",
+          "Mise en conformité avec les normes AFNOR ou règles fédérales",
+          "Inadaptation aux attentes des usagers",
+          "Dégâts liés à des dégradations ou à une catastrophe (nat. et ind.)",
+          "Vétusté normale, remise à niveau",
+          "Equipement récent - Aucuns gros travaux effectués"
+        ]
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "En quelle année ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "AIRE D’ÉVOLUTION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Aire de pratique à laquelle s’ajoute l’espace de sécurité qui lui est réservé",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Longueur (m)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Largeur (m)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Hauteur (m)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface (m²)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Éclairage de l’aire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Nature du sol",
+        "description": "Ssi mixte, indiquer la matière qui prédomine",
+        "required": false,
+        "options": [
+          "Béton",
+          "Terre battue",
+          "Surface naturelle",
+          "Terre artificielle",
+          "Carrelage, tomettes, pavés",
+          "Synthétique",
+          "Sable",
+          "Gazon naturel",
+          "Gazon synthétique",
+          "Bitume",
+          "Stabilisé / cendré",
+          "Sciure / copeaux",
+          "Glace",
+          "Stabilisé / cendré",
+          "Bois (hors parquet)",
+          "Parquet",
+          "Bois (hors parquet)",
+          "Métal (acier, inox, etc.)",
+          "Hybride",
+          "AUTRE"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si AUTRE nature de sol, précisez",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de couloirs / pistes / postes / jeux / pas",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "AMÉNAGEMENTS COMPLÉMENTAIRES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Les aménagements complémentaires concernent ceux accessibles à l’équipement uniquement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de place en tribune",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de vestiaires SPORTIFS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de vestiaires ARBITRES/ ENSEIGNANT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Présence de douches",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Présence de sanitaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Locaux complémentaires",
+        "description": "",
+        "required": false,
+        "options": [
+          "Aucun",
+          "Salle(s) de réunion / cours",
+          "Club(s) house",
+          "Buvette",
+          "Local contrôle anti-dopage",
+          "Infirmerie",
+          "Bureau(x) Club(s)",
+          "Local de rangement",
+          "Centre médico-sportif",
+          "Réception / Accueil",
+          "AUTRE(S)"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si AUTRE(S) locaux complémentaires, précisez",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Aménagement(s) de confort",
+        "description": "",
+        "required": false,
+        "options": [
+          "Aucun",
+          "Solarium",
+          "Sauna",
+          "Bain(s) bouillonnant(s)",
+          "Bain(s) de vapeur / hammam",
+          "AUTRE(S)"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si AUTRE(S) Aménagement(s) de confort, précisez",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Transport en commun (- 10 minutes à pied)",
+        "description": "",
+        "required": false,
+        "options": [
+          "Pas de desserte",
+          "Bus",
+          "Métro",
+          "Tramway",
+          "Train",
+          "Avion",
+          "Bateau"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ACCESSIBILITÉ (CONCERNE L’ÉQUIPEMENT UNIQUEMENT)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Accessibilité de l’installation en faveur des personnes handicapées",
+        "description": "",
+        "required": false,
+        "options": [
+          "Non accessible",
+          "Accessible aux personnes handicapées à mobilité réduite",
+          "Accessible aux personnes handicapées sensorielles"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Accessibilité aux personnes handicapées à mobilité réduite",
+        "description": "Note : Accueil spécifique",
+        "required": false,
+        "options": [
+          "Aire de jeu",
+          "Tribunes",
+          "Vestiaires",
+          "Douches",
+          "Sanitaires",
+          "Accueil",
+          "Cheminements"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Accessibilité aux personnes handicapées sensorielles",
+        "description": "Note : Signalétique spécifique",
+        "required": false,
+        "options": [
+          "Aire de jeu",
+          "Tribunes",
+          "Vestiaires",
+          "Douches",
+          "Sanitaires",
+          "Accueil",
+          "Cheminements"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "CARACTÉRISTIQUES D’USAGES ET UTILISATEURS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Types d’utilisateurs",
+        "description": "",
+        "required": false,
+        "options": [
+          "Individuels, familles",
+          "Clubs, comités, ligues, fédérations",
+          "Scolaires, universités Autre - associations et divers"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Accès libre (24/24h et non cadré)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Ouverture saisonnière (- 6 mois par an)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "CRITÈRES SPÉCIFIQUES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Avez-vous à déclarer ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "Bassin aquatique",
+          "Piste d'athlétisme",
+          "Structure Artificielle d’Escalade (SAE)",
+          "Type de pas de (tir)"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Bassin aquatique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Longueur (m)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Largeur (m)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface (m²)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Profondeur minimum (m)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Profondeur maximum (m)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Piste d'athlétisme",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Longueur (m)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Structure Artificielle d’Escalade (SAE)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Hauteur (m)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface (m²)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de couloirs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Type de pas de (tir)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Distance(s) du pas de tir",
+        "description": "",
+        "required": false,
+        "options": [
+          "10 m",
+          "25 m",
+          "50 m",
+          "100 m",
+          "200 m",
+          "300 m",
+          "Plateaux",
+          "AUTRE"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si AUTRE type de pas de tir, précisez",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DIVERS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Veuillez placer le repère de l'équipement sur la carte",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ACTIVITÉS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Exemple d'APS",
+        "description": "Ci-dessous vous trouverez un exemple d’APS : 701 (badminton) spécialisable de niveau 3. Ici \"spécialisable\" veut dire qu’il faut préparer l’équipement pour pratiquer l’APS. Dans notre exemple, on peut imaginer qu’il faille installer des poteaux et le filet. Le niveau 3 de l’activité correspond au niveau scolaire, des compétitions ne sont pas possibles sur cette équipement. Dans notre cas, on peut imaginer une aire d’évolution trop juste pour la fédération mais suffisant pour la découverte de l’APS",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Combien d'activités avez-vous à déclarer ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "1 activité",
+          "2 activité"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1ère activité - Code APS ou nom de l’activité à défaut",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "1ère activité - Réalisation",
+        "description": "",
+        "required": false,
+        "options": [
+          "Praticable",
+          "Pratiquée",
+          "Spécialisable"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "1ère activité - Niveau effectivement pratiqué (en relation avec l’APS)",
+        "description": "",
+        "required": false,
+        "options": [
+          "1. Non défini",
+          "2. Loisir – Entretien – Remise en forme",
+          "3. Scolaire",
+          "4. Entraînement",
+          "5. Compétition départementale",
+          "6. Compétition régionale",
+          "7. Compétition nationale",
+          "8. Compétition internationale"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "2ème activité - Code APS ou nom de l’activité à défaut",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "2ème activité - Réalisation",
+        "description": "",
+        "required": false,
+        "options": [
+          "Praticable",
+          "Pratiquée",
+          "Spécialisable"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "2ème activité - Code APS ou nom de l’activité à défaut",
+        "description": "",
+        "required": false,
+        "options": [
+          "1. Non défini",
+          "2. Loisir – Entretien – Remise en forme",
+          "3. Scolaire",
+          "4. Entraînement",
+          "5. Compétition départementale",
+          "6. Compétition régionale",
+          "7. Compétition nationale",
+          "8. Compétition internationale"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "OBSERVATION(S)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous des observation(s) à nous apporter ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Notez vos observations",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "EXACTITUDE DES DONNÉES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Mail",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Par le dépôt de ce dossier, que je confirme l'exactitude des données fournies",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

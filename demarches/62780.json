@@ -1,0 +1,147 @@
+{
+  "number": 62780,
+  "title": "Demande d'AFCI",
+  "description": "Matériels de guerre, armes et munitions - Demande d'Autorisation de fabrication, de Commerce et d'Intermédiation (AFCI)",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère des Armées"
+  ],
+  "datePublication": "2022-07-27T17:57:48+02:00",
+  "service": {
+    "nom": "Sous direction du contrôle export",
+    "organisme": "MinArm/DGA/DI/SPEM/SDCE",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-afci",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://armement.defense.gouv.fr/exporter/reglementation-materiels-de-guerre-et-assimiles/autorisation-de-fabrication-de-commerce-et",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000034022579/2017-02-11",
+  "logo": null,
+  "notice": {
+    "filename": "Formulaire DEMANDE AFCI v7-final.pdf",
+    "checksum": "8ke1127Q+48GLnkLTnDbCw==",
+    "byteSize": "1306538",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 255,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nom inscrit au Kbis de la société commançant par",
+        "description": null,
+        "required": true,
+        "options": [
+          "les lettres A à I",
+          "les lettres J à Z et autres caractères"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la société",
+        "description": "Le nom de la société est celui qui est inscrit au Kbis.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de demande",
+        "description": null,
+        "required": true,
+        "options": [
+          "Première demande",
+          "Renouvellement",
+          "Modification",
+          "Renouvellement et modification"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Catégorie(s)",
+        "description": "Catégorie A2 : Selon Art. R311-2 du code de la sécurité intérieure.\r\nCatégorie AMA4 : selon la partie 2, alinéa 4, de l'annexe 1 de l'arrêté du 27 juin 2012 modifié (autres matériels assimilés).\r\n",
+        "required": true,
+        "options": [
+          "--A2--",
+          "A2 §1",
+          "A2 §2",
+          "A2 §3",
+          "A2 §4",
+          "A2 §5",
+          "A2 §6",
+          "A2 §7",
+          "A2 §8",
+          "A2 §9",
+          "A2 §10",
+          "A2 §11",
+          "A2 §12",
+          "A2 §13",
+          "A2 §14",
+          "A2 §15",
+          "A2 §16",
+          "A2 §17",
+          "A2 §18",
+          "A2 §19",
+          "--Formation opérationnelle--",
+          "AMA 4"
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Dirigeants",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Carte d'identité ou passeport",
+            "description": "Format PDF, le document peut être encapsulé ACID.\nLes clés publiques ACID sont disponibles en téléchargement depuis https://armement.defense.gouv.fr/exporter/reglementation-materiels-de-guerre-et-assimiles/autorisation-de-fabrication-de-commerce-et",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Formulaire de demande d'AFCI",
+        "description": "Format PDF, le document peut être encapsulé ACID.\r\nLes clés publiques ACID et  le formulaire à renseigner sont disponibles en téléchargement depuis https://armement.defense.gouv.fr/exporter/reglementation-materiels-de-guerre-et-assimiles/autorisation-de-fabrication-de-commerce-et",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Extrait Kbis",
+        "description": "Format PDF, le document peut être encapsulé ACID.\nhttps://armement.defense.gouv.fr/exporter/reglementation-materiels-de-guerre-et-assimiles/autorisation-de-fabrication-de-commerce-et",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Registre sur les 3 dernières années",
+        "description": "Format Excel ou PDF\r\nLe document peut être encapsulé ACID.\r\nhttps://armement.defense.gouv.fr/exporter/reglementation-materiels-de-guerre-et-assimiles/autorisation-de-fabrication-de-commerce-et",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Informations complémentaires éventuelles",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Commentaires",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative complémentaire",
+            "description": "Format PDF, le document peut être encapsulé ACID.\nhttps://armement.defense.gouv.fr/exporter/reglementation-materiels-de-guerre-et-assimiles/autorisation-de-fabrication-de-commerce-et",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "number": 67513,
+  "title": "DDT49 - Demande de paiement de subvention FPRNM attribuée par la Préfecture de Maine-et-Loire",
+  "description": "Cette téléprocédure concerne toutes les demandes de paiement (avance - acompte(s) - solde) pour les subventions FPRNM\r\n\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2023-02-01T17:53:42+01:00",
+  "service": {
+    "nom": "Service Urbanisme Aménagement et Risques",
+    "organisme": "Direction Départementale des Territoires de Maine-et-Loire",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ddt49-demande-de-paiement-de-subvention-fprnm",
+  "dpoUrl": "ddt-mpsj@maine-et-loire.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.maine-et-loire.gouv.fr/fonds-de-prevention-des-risques-naturels-majeurs-r2115.html",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "pref_maine_et_loire_logo_rvb_cle547941-2.jpg",
+    "checksum": "DqtpE/VZPi2AXfrSIGdWqg==",
+    "byteSize": "448034",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 8,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification du demandeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Vous êtes :",
+        "description": "",
+        "required": true,
+        "options": [
+          "Un établissement public ou une collectivité",
+          "Une entreprise",
+          "Un particulier"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Attention, pour les entreprises et les particuliers, seul le particulier ou la personne responsable de l'entreprise bénéficiaire de la subvention doit déposer une demande de paiement, car ce formulaire vaut attestation.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET",
+        "description": "\r\n",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du référent en charge du dossier",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique du référent",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du responsable de l'entreprise",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du responsable de l'entreprise",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse électronique du responsable de l'entreprise",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse électronique",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": "Merci d'indiquer un numéro permettant de joindre facilement la personne en charge du dossier",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Rappel du projet subventionné",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Intitulé ou description du projet",
+        "description": "Saisir l'intitulé ou la description du projet tel qu'il est précisé dans l'arrêté ou la convention d'attribution de la subvention",
+        "required": true
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Si connu, ou encore disponible, merci de préciser le n° de dossier de demande de subvention",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "L'opération a été subventionnée par l'arrêté ou la convention N°",
+        "description": "Merci d'indiquer le numéro de l'arrêté ou de la convention indiqué en haut de la première page de l'arrêté ou de la convention",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de l'arrêté attributif ou de la convention",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant de la subvention (en euros)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande de paiement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Je sollicite le versement :",
+        "description": "Vous pouvez demander une avance à la signature d'un devis. \r\nSi vous avez payé une partie des factures",
+        "required": true,
+        "options": [
+          "d'une avance de 30 % de la subvention",
+          "d'un acompte de la subvention",
+          "du solde de la subvention"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous déjà perçu une avance ou un acompte ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste sur l'honneur que le projet désigné ci-dessus a fait l'objet d'un commencement d'exécution",
+        "description": "La signature d'un devis correspond à un commencement d'exécution.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Transmettre le(s) devis daté(s) et signé(s) permettant d'attester le commencement du projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Je sollicite le versement d'un acompte de subvention d'un montant de (en euros) :",
+        "description": "Cet acompte ne peut dépasser 80% de la subvention, avance et précédent(s) acompte(s) compris(es) le cas échéant",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste sur l'honneur que le projet désigné ci-dessus est terminé et a été réalisé dans les conditions subordonnant l’octroi de la subvention.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Je sollicite le versement du solde de subvention du projet désigné ci-dessus, soit un montant de (en euros) :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pour le projet désigné ci-dessus, je déclare avoir payé les factures suivantes :",
+        "description": "Merci d'insérer autant de ligne que de facture(s) en cliquant sur \"ajouter un élément...\"",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nature de la prestation",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de l'entreprise ayant réalisé les travaux",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant HT (en euros)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant TTC (en euros)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date du paiement",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Ajouter ici la facture payée correspondante au format pdf",
+            "description": "Pour une demande de paiement d'un acompte, vous pouvez joindre une facture d'acompte (vous avez payé en partie la facture).\r\nPour une demande de paiement de solde vous devez joindre une facture d'acquittement (vous avez payé en totalité la facture).",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pour le projet désigné ci-dessus, je déclare avoir déjà reçu, au titre du Fonds de Prévention des Risques Naturelles Majeures (FPRNM), les sommes suivantes :",
+        "description": "Merci d'insérer autant de lignes que d'acompte ou avance(s) reçu(s) en cliquant sur \"ajouter un élément...\"",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Nature du paiement reçu",
+            "description": "",
+            "required": true,
+            "options": [
+              "Avance",
+              "Acompte n°1",
+              "Acompte n°2",
+              "Acompte n°3"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant (en euros)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de réception",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Je déclare",
+        "description": "",
+        "required": true,
+        "options": [
+          "n'avoir reçu ou n'être bénéficiaire d'aucune autre subvention ou indemnité assurantielle en lien avec le projet désigné ci-dessus.",
+          "avoir reçu ou être bénéficiaire d'une ou plusieurs autre(s) subvention(s) ou indemnité(s) assurantielle(s) en lien avec le projet désigné ci-dessus."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Description de(s) subvention(s) ou indemnité(s) assurantielle(s) perçue(s) ou attendue(s)",
+        "description": "Merci d'insérer autant de descriptions que de subventions ou indemnités reçues en cliquant sur \"ajouter un élément...\"",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Description de la subvention ou de l'indemnité",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant (en euros)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Ajouter ici la décision de versement de subvention ou d'indemnité",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de versement sollicité",
+        "description": "",
+        "required": true,
+        "options": [
+          "avance de 30 % de la subvention",
+          "acompte de la subvention",
+          "solde de la subvention"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La demande d'avance a-t-elle été sollicitée en même temps que la demande de subvention ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Lettre de demande de paiement signée par le responsable de la structure ou son mandataire",
+        "description": "Pour l'opération désignée ci-dessus, cette lettre doit préciser le montant de l'avance de la subvention sollicitée.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Lettre de demande de paiement signée par le responsable de la structure ou son mandataire",
+        "description": "Pour l'opération désignée ci-dessus, cette lettre doit préciser le montant de la subvention à affecter aux dépenses exposées.\r\nVous trouverez des exemples de lettre de demande d'acompte ou de solde dans la rubrique paiement sur le lien suivant :\r\nhttps://www.maine-et-loire.gouv.fr/fonds-de-prevention-des-risques-naturels-majeurs-r2115.html",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Lettre de demande de paiement signée par le responsable de la structure ou son mandataire",
+        "description": "Pour l'opération désignée ci-dessus, cette lettre doit :\r\n- préciser l'ensemble des aides publiques et leur montant respectif,\r\n- préciser le montant de la subvention à affecter aux dépenses exposées,\r\n- certifier que l'opération a été réalisée dans les conditions subordonnant l’octroi de la subvention.\r\nVous trouverez des exemples de lettre de demande d'acompte ou de solde dans la rubrique paiement sur le lien suivant :\r\nhttps://www.maine-et-loire.gouv.fr/fonds-de-prevention-des-risques-naturels-majeurs-r2115.html",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de commencement de l'opération",
+        "description": "Le commencement de l'opération est constitué par le premier acte juridique passé pour la réalisation de l'opération (signature des devis, notification du marché, etc). Merci de transmettre un devis signé, la notification du marché ou un certificat administratif attestant du démarrage des travaux.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement de l'opération",
+        "description": "Vous trouverez un exemple de déclaration dans la rubrique paiement sur le lien suivant :\r\nhttps://www.maine-et-loire.gouv.fr/fonds-de-prevention-des-risques-naturels-majeurs-r2115.html",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Etat récapitulatif des dépenses effectuées, avec les avance(s) et acompte(s) reçu(s)",
+        "description": "Si possible, décompte présenté sous forme d'un tableau récapitulatif co-signé du comptable public et du responsable de la structure.\r\nVous trouverez un exemple de tableau dans la rubrique paiement sur le lien suivant :\r\nhttps://www.maine-et-loire.gouv.fr/fonds-de-prevention-des-risques-naturels-majeurs-r2115.html",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces justificatives des dépenses",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Ajouter ici la ou les facture(s) acquitté(es)",
+            "description": "Pour les animations PAPI, merci de transmettre ici un état des dépenses détaillées par mois concernant les salaires et charges pour les dépenses d'animation co-signé par le comptable public et le responsable de la structure.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autres pièces justificatives - 1",
+        "description": "Pour certains projets, l'envoi de documents complémentaires spécifiques est nécessaire pour la validation du paiement. Merci de consulter l'arrêté ou la convention d'attribution de la subvention.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autres pièces justificatives - 2",
+        "description": "Pour certains projets, l'envoi de documents complémentaires spécifiques est nécessaire pour la validation du paiement. Merci de consulter l'arrêté ou la convention d'attribution de la subvention.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autres pièces justificatives - 3",
+        "description": "Pour certains projets, l'envoi de documents complémentaires spécifiques est nécessaire pour la validation du paiement. Merci de consulter l'arrêté ou la convention d'attribution de la subvention.",
+        "required": false
+      }
+    ]
+  }
+}

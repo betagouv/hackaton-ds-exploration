@@ -1,0 +1,224 @@
+{
+  "number": 72376,
+  "title": "CPAM 24 - TS & TAXI - DEMANDE ACCORD PREALABLE TRANSPORT",
+  "description": "Formulaire de demande d'accord préalable à la prise en charge des transports.\r\nIl est impératif de joindre à cette demande le document cerfa 'Demande d'accord préalable de transport valant prescription médicale' établi par le médecin.",
+  "tags": [
+    "DAP"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2023-05-15T14:00:56+02:00",
+  "service": {
+    "nom": "GSV - Gestion Soins de Ville",
+    "organisme": "CPAM DORDOGNE",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/cpam-24-ts-taxi-demande-accord-prealable-transport",
+  "dpoUrl": "dpo.cpam-dordogne@assurance-maladie.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://cpam24.fr/professionnels/",
+  "cadreJuridiqueUrl": "https://www.ameli.fr/dordogne/transporteur-sanitaire/exercice-professionnel/presciption-prise-charge/demande-accord-prealable",
+  "logo": {
+    "filename": "LOGO_CPAM241_600_Blanc.jpg",
+    "checksum": "QnfhiviCcBv1hnXVkA8dHA==",
+    "byteSize": "61373",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 1215,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ORGANISME D'AFFILIATION DU BENEFICIAIRE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Le bénéficiaire des soins dépend de cet organisme",
+        "description": "",
+        "required": true,
+        "options": [
+          "24- CPAM DORDOGNE",
+          "Section locale mutualiste DORDOGNE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTITE DU TRANSPORTEUR",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° identification Assurance Maladie du PS [Avec clé]",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du demandeur dans l'entreprise",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "N° de téléphone de contact entreprise",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail de contact entreprise",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTIFICATION BENEFICIAIRE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de sécurité sociale",
+        "description": "Afin que nous puissions identifier le bénéficiaire des soins de manière formelle, renseigner ici le numéro de sécurité sociale. Format attendu : Numéro + clé (15 caractères)",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Le bénéficiaire de la demande d'accord préalable transport est",
+        "description": "",
+        "required": true,
+        "options": [
+          "L'assuré",
+          "Son conjoint",
+          "Un enfant",
+          "Un autre bénéficiaire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom du bénéficiaire des soins",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATIONS RELATIVES AU TRANSPORT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nature du transport",
+        "description": "",
+        "required": true,
+        "options": [
+          "Transport à + de 150km",
+          "Transports en série",
+          "Transports vers un CAMSP ou un CMPP",
+          "Transport engagement maternité",
+          "Transport par avion ou bateau de ligne régulière"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mode de transport prescrit par le médecin",
+        "description": "",
+        "required": true,
+        "options": [
+          "Ambulance",
+          "VSL",
+          "Taxi",
+          "TPMR"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune de départ",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune arrivée",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Motif du trajet",
+        "description": "Si 'Autre', préciser l'objet du trajet\r\n** Attention ** : Aucune information à caractère médical ne doit être renseignée sur ce formulaire.",
+        "required": true,
+        "options": [
+          "Retour à domicile",
+          "Transport vers un établissement de santé",
+          "Transport vers un cabinet médical"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la structure de soins",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date prévisionnelle du transport",
+        "description": "Pour des transports en série, renseigner la date du 1er transport ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DÉPOT DU DOCUMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre la demande d'accord préalable transport",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ENGAGEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je restitue le document original à l'assuré",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m'engage à joindre le volet 3 de la DAP à la facturation si je réalise le transport",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case je certifie l'exactitude des données renseignées et déposées",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

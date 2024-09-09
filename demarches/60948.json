@@ -1,0 +1,661 @@
+{
+  "number": 60948,
+  "title": "ANSM - Questionnaire d'analyse de risque pour les inspections PV conduite en France",
+  "description": "Ce questionnaire s’adresse aux opérateurs concernés par le périmètre des inspections de Pharmacovigilance de l’ANSM :\r\n - Titulaire d'AMM non exploitant* dont le PSMF est localisé en France ;\r\n - Filiale, exploitant* de médicaments à usage humain (au sens de l’article L. 5111-1 (1)) dont la\r\nmaison-mère est titulaire de tout ou partie des AMMs exploitées ;\r\n - Établissement exploitant* de médicaments à usage humain pour le compte d’un ou plusieurs\r\ntitulaires d’AMMs ;\r\n - Établissement exploitant* de médicaments à usage humain, titulaire d’une partie ou de la totalité\r\ndes AMMs exploitées ;\r\n - Titulaire d’AMM commercialisant des spécialités en France depuis un autre pays de l’Espace\r\nÉconomique Européen, …\r\n\r\n*Exploitant au sens de l’article R. 5124-2 (3°) du code de la santé publique (CSP).\r\n\r\n-------------------------------------------------------------------------\r\n\r\n\r\nMENTIONS LÉGALES – Informations sur les données à caractère personnel recueillies et traitées par l’Agence Nationale de Sécurité du Médicament et des Produits de Santé (ANSM)\r\n\r\nCe traitement est effectué sous la responsabilité de l’ANSM dans le cadre de l’exercice de ses missions, conformément aux dispositions du règlement général sur la protection des données (RGPD) et de la loi 78-17 du 6 janvier 1978 modifiée relative à l’informatique, aux fichiers et aux libertés. \r\nL’accès à vos données est exclusivement réservé aux agents de l’ANSM et est couvert par des mesures de sécurité permettant d’assurer leur intégrité et leur confidentialité pour toute la durée de leur traitement. \r\nVous disposez des droits prévus à l’article 40 de la loi 78-17 du 6 janvier 1978 modifiée, et notamment  du droit d’accès et de rectification de vos données. \r\nVous pouvez exercer ces droits à tout moment auprès de notre Délégué à la protection des données, par demande écrite, en y joignant un justificatif d’identité comportant votre signature à l’une des adresses suivantes : ANSM, DAJR, délégué à la protection des données, 143-147 Boulevard Anatole France 93285 SAINT DENIS Cedex ou dpo@ansm.sante.fr.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2023-07-05T16:22:05+02:00",
+  "service": {
+    "nom": "Pôle Inspection des essais et des vigilances - Direction de l'inspection ",
+    "organisme": "ANMS",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ansm-analyserisqueinspectionpvfr",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://ansm.sante.fr/",
+  "cadreJuridiqueUrl": "https://www.ansm.sante.fr/",
+  "logo": {
+    "filename": "ansm.jpg",
+    "checksum": "9NMz2Jn/ehTzpKNY/8dmFQ==",
+    "byteSize": "10901",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "ANSM_GuideRemplissageQuestionnaireAnalyseRisqueInspectionsDePVConduitesEnFrance_VersionFRetEN.pdf",
+    "checksum": "9D+7/R32MVJGuYoKOC6iag==",
+    "byteSize": "196551",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 326,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "MENTIONS LÉGALES – Informations sur les données à caractère personnel recueillies et traitées par l’Agence Nationale de Sécurité du Médicament et des Produits de Santé (ANSM)",
+        "description": "Ce traitement est effectué sous la responsabilité de l’ANSM dans le cadre de l’exercice de ses missions, conformément aux dispositions du règlement général sur la protection des données (RGPD) et de la loi 78-17 du 6 janvier 1978 modifiée relative à l’informatique, aux fichiers et aux libertés. \nL’accès à vos données est exclusivement réservé aux agents de l’ANSM et est couvert par des mesures de sécurité permettant d’assurer leur intégrité et leur confidentialité pour toute la durée de leur traitement. \nVous disposez des droits prévus à l’article 40 de la loi 78-17 du 6 janvier 1978 modifiée, et notamment  du droit d’accès et de rectification de vos données. \nVous pouvez exercer ces droits à tout moment auprès de notre Délégué à la protection des données, par demande écrite, en y joignant un justificatif d’identité comportant votre signature à l’une des adresses suivantes : ANSM, DAJR, délégué à la protection des données, 143-147 Boulevard Anatole France 93285 SAINT DENIS Cedex ou dpo@ansm.sante.fr.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SECTION 1 - INFORMATIONS GÉNÉRALES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations concernant la structure",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination de la structure",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de la structure",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de structure",
+        "description": "",
+        "required": true,
+        "options": [
+          "Filiale",
+          "Maison-mère",
+          "Distributeur-Exploitant"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de structure",
+        "description": "Exploitant au sens de l’article R. 5124-2 (3°) du code de la santé publique (CSP).",
+        "required": true,
+        "options": [
+          "Titulaire d'AMM non exploitant dont le PSMF est localisé en France",
+          "Filiale, exploitant de médicaments à usage humain (au sens de l’article L. 5111-1 (1)) dont la maison-mère est titulaire de tout ou partie des AMMs exploitées",
+          "Établissement exploitant de médicaments à usage humain pour le compte d’un ou plusieurs titulaires d’AMMs",
+          "Établissement exploitant de médicaments à usage humain, titulaire d’une partie ou de la totalité des AMMs exploitées",
+          "Titulaire d’AMM commercialisant des spécialités en France depuis un autre pays de l’Espace Économique Européen, …"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations concernant les personnes responsables",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM Prénom de la personne à contacter concernant ce questionnaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone de la personne à contacter concernant ce questionnaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email de la personne à contacter concernant ce questionnaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM Prénom du pharmacien responsable (PR)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM Prénom de la personne de référence en matière de pharmacovigilance en France (RPV France)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Personne(s) responsable(s) de la PV dans l'espace économique européen (EU QPPV)",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "NOM Prénom du EU QPPV",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PaysChampDescriptor",
+            "label": "Pays de résidence et de l'exercice du EU QPPV",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations concernant le(s) dossier(s) permanent de PV (PSMF)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "PSMF",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "MFL Code",
+            "description": "Sous la forme \"MFLXXXX\" sans espace.",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Titulaire de l'AMM",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PaysChampDescriptor",
+            "label": "Pays de localisation du PSMF",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Substances actives commercialisées en France sur la période",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de substances actives (ou associations fixes) pour lesquelles une AMM est commercialisée en France",
+        "description": "Cf. EURD list publiée sur le site de l'EMA",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous des produits qui ne sont pas dans l'EURD list avec PSUR National ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la (des) substance(s) active(s) concernée(s)",
+        "description": "Cf code de la santé publique, article  R. 5121-152 alinéa 7",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SECTION 2 : BASE DE DONNÉES DE PV",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "2.1 : Les données de PV France sont enregistrées localement, par la structure :",
+        "description": "1 :  dans une base de données de PV ou module d'interface filiale\r\n5 : dans un tableau Excel \r\n10 : dans un registre papier ou fichier Word ou autre",
+        "required": true,
+        "options": [
+          "1",
+          "5",
+          "10"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "2.2 : Validation de la base de données (BD) globale de PV",
+        "description": "Dans le cas d'exploitant travaillant avec plusieurs titulaires d'AMM, si un des titulaires d'AMM possède une BD non validée, choisir le score 15. \r\n\r\n0 : Si non-applicable\r\n1 : Si base de données de PV validée\r\n15 : Si base de données de PV non validée",
+        "required": true,
+        "options": [
+          "0",
+          "1",
+          "15"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Préciser pour quel(s) motif(s) la réponse a été « scoré » comme non applicable",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "2.3 : Changement de la base de données de PV entre le 31/12/2019 et le 31/12/2022  (= mise en production d’une nouvelle base de données de PV)",
+        "description": "0 : Si non-applicable ou pas de changement de la BD\r\n10 : si changement de la base de données de PV",
+        "required": true,
+        "options": [
+          "0",
+          "10"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser pour quel(s) motif(s) la réponse a été « scoré » comme non applicable",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "2.4 : Migration de données de PV dans la base de données de PV globale entre le 31/12/2019 et le 31/12/2022 (quelle que soit la cause : ex. changement de base de données de PV, rachat de produits)",
+        "description": "0 : Si non-applicable\r\n5 : Si la migration de données de PV a été effectuée\r\n15 : Si la migration de données de PV n’a pas été effectuée",
+        "required": true,
+        "options": [
+          "0",
+          "5",
+          "15"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser pour quel(s) motif(s) la réponse a été « scoré » comme non applicable",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SECTION 3 : PROFIL DE SECURITE DES PRODUITS COMMERCIALISÉS EN FRANCE ENTRE LE 31/12/2019 ET LE 31/12/2022",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "3.1 : Retrait hors de France,  pour des raisons de sécurité, d'un ou plusieurs produits toujours commercialisé(s) en France",
+        "description": "0 : Si non applicable.\r\n10 : Si concerne 1 produit commercialisé sur la période   \r\n20 : Si concerne plus d'1 produit",
+        "required": true,
+        "options": [
+          "0",
+          "10",
+          "20"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "3.2 : Signalement d’une mesure urgente de sécurité pour un ou plusieurs produits commercialisé(s) en France sur la période",
+        "description": "0 : Si non applicable.\r\n10 : Si concerne 1 produit commercialisé sur la période  \r\n20 : Si concerne plus d'1 produit",
+        "required": true,
+        "options": [
+          "0",
+          "10",
+          "20"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "3.3 : Nombre de signaux validés par la structure  et/ou le titulaire d'AMM ou par les autorités compétentes (PRAC, ANSM) sur la période pour des produits commercialisés en France",
+        "description": "0 : Si non applicable.\r\n10 : Si 1 à 5 signaux sur la période   \r\n20 : Si plus de 5 signaux sur la période. ",
+        "required": true,
+        "options": [
+          "0",
+          "10",
+          "20"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "3.4 : Nombre de signaux validés par le PRAC pour des produits commercialisés en France sur la période et ayant entrainé une modification de l'information produit",
+        "description": "0 : Si non applicable.\r\n10 : Si concerne 1  produit commercialisé sur la période   \r\n20 : Si concerne plus d'1  produit",
+        "required": true,
+        "options": [
+          "0",
+          "10",
+          "20"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "3.5 : Nombre de produits commercialisés en France avec PSUR 6 mois",
+        "description": "0 : Si non applicable.\r\n10 : Si concerne 1  produit commercialisé sur la période   \r\n20 : Si concerne plus d'1  produit",
+        "required": true,
+        "options": [
+          "0",
+          "10",
+          "20"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "3.6 : Nombre de produits commercialisés en France faisant l'objet d'un PGR avec des mesures de réduction des risques (hors mesures de routine) ou des mesures additionnelles de PV sur la période",
+        "description": "0 : Si non applicable.\r\n10 : Si concerne 1  produit commercialisé sur la période   \r\n20 : Si concerne plus d'1  produit",
+        "required": true,
+        "options": [
+          "0",
+          "10",
+          "20"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "3.7 : Nombre de produits commercialisés en France qui font ou ont fait l’objet d’un suivi national de PV ou d’une enquête de PV au cours des 10 dernières années",
+        "description": "0 : Si non applicable.\r\n10 : Si concerne 1  produit commercialisé sur la période   \r\n20 : Si concerne plus d'1  produit",
+        "required": true,
+        "options": [
+          "0",
+          "10",
+          "20"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SECTION 4 :  DÉLAIS DE DÉCLARATIONS ENTRE LE 31/12/2019 ET LE 31/12/2022",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "4.1 : Pourcentage de conformité réglementaire pour les délais de soumission des cas graves survenus dans l'EEE et déclarés dans le module Post-Marketing d’EudraVigilance (EVPM) sur la période du 31/12/2019 au 31/12/2022 (conformité ≤ 15 jours)",
+        "description": "0 : Si non applicable\r\n1 : Si plus de 95%  sur la période\r\n5 : Si de 90% à 95% sur la période \r\n10 : Si moins de 90% sur la période ",
+        "required": true,
+        "options": [
+          "0",
+          "1",
+          "5",
+          "10"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Préciser pour quel(s) motif(s) la réponse a été « scoré » comme non applicable",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "4.2 : Pourcentage de conformité réglementaire pour les délais de soumission des cas non graves survenus dans l'EEE et déclarés dans le module Post-Marketing d’EudraVigilance (EVPM) sur la période  (conformité ≤ 90 jours)",
+        "description": "0 : Si non applicable\r\n1 : Si plus de 95%  sur la période\r\n5 : Si de 90% à 95% sur la période \r\n10 : Si moins de 90% sur la période ",
+        "required": true,
+        "options": [
+          "0",
+          "1",
+          "5",
+          "10"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Préciser pour quel(s) motif(s) la réponse a été « scoré » comme non applicable",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "4.3 : Pourcentage de conformité réglementaire pour les délais de soumission des cas graves survenus hors EEE déclarés dans le module Post-Marketing d’EudraVigilance (EVPM) sur la période  (conformité ≤ 15 jours)",
+        "description": "0 : Si non applicable\r\n1 : Si plus de 95%  sur la période\r\n5 : Si de 90% à 95% sur la période \r\n10 : Si moins de 90% sur la période ",
+        "required": true,
+        "options": [
+          "0",
+          "1",
+          "5",
+          "10"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Préciser pour quel(s) motif(s) la réponse a été « scoré » comme non applicable",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "4.4 : Pourcentage de conformité réglementaire pour les délais de soumission auprès de l’EMA (ANSM) des rapports périodiques de sécurité (PSUR) pour les spécialités ayant une AMM France sur la période",
+        "description": "0 : Si non applicable\r\n1 : Si plus de 95%  sur la période\r\n5 : Si de 90% à 95% sur la période \r\n10 : Si moins de 90% sur la période ",
+        "required": true,
+        "options": [
+          "0",
+          "1",
+          "5",
+          "10"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Préciser pour quel(s) motif(s) la réponse a été « scoré » comme non applicable",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SECTION 5 : ACTIVITÉ(S) SOUS-TRAITÉE(S) EN EXTERNE (À LA DATE OÙ LE QUESTIONNAIRE EST COMPLETÉ)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "5.1 : Sous-traitance externe de la responsabilité de la (des) personne(s) de référence responsable(s) en matière de la PV pour l’UE (EU QPPV)*",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination de la société prestataire de service",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début de la prestation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "5.2 : Sous-traitance externe de la responsabilité de la personne de référence en matière de PV pour la France (RPV)*",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination de la société prestataire de service",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début de la prestation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "5.3 : Gestion des appels téléphoniques pendant les heures ouvrées",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination de la société prestataire de service",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début de la prestation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "5.4 Système d'astreinte en dehors des heures ouvrées",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination de la société prestataire de service",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début de la prestation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "5.5 : Gestion et déclaration des cas de PV (spontanés et sollicités)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination de la société prestataire de service",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début de la prestation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "5.6 : Gestion des questions d’information médicale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination de la société prestataire de service",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début de la prestation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "5.7 : Gestion de la surveillance de la littérature médicale globale et/ou locale France",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination de la société prestataire de service",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début de la prestation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "5.8 : Gestion des PSURs Européens et/ou nationaux",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination de la société prestataire de service",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début de la prestation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "5.9 : Gestion de la base de données de PV",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination de la société prestataire de service",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début de la prestation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SECTION 6 : INSPECTION (À LA DATE OÙ LE QUESTIONNAIRE EST COMPLETÉ)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "6.1 : Dernière inspection du système de pharmacovigilance conduite par le Pôle Inspections des Essais et des Vigilances (INSEVI) de l’ANSM",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Score à appliquer",
+        "description": "1 : Si écarts autres \r\n20 : Si moins de 5 écarts majeurs \r\n50 : Si plus de 5 écarts majeurs et /ou au moins 1 écart critique\r\n100 : Aucune inspection de PV",
+        "required": true,
+        "options": [
+          "1",
+          "20",
+          "50",
+          "100"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du 1er jour de l'inspection",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "AUTRES INFORMATIONS UTILES POUR L'ANSM",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

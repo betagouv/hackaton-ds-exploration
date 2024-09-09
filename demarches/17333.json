@@ -1,0 +1,744 @@
+{
+  "number": 17333,
+  "title": "Fiche de repérage de l'état d'un logement",
+  "description": "Si vous vous trouvez ou connaissez une personne en situation d'habitat indigne, vous pouvez la faire connaitre ici afin de trouver des solutions pour y remédier.\r\nAprès avoir rempli la fiche de repérage de l'état d'un logement, vous pourrez suivre l'évolution de votre dossier qui sera transmis au Pôle Départemental de Lutte contre l'Habitat Indigne de l'Indre.\r\n\r\nSi le logement relève d’une situation d’insalubrité présentant un danger imminent* pour la santé ou la sécurité des occupants, contacter la délégation départementale de l’Indre de l’Agence Régionale de Santé Centre Val de Loire par mail: ars-cvl-dd36-unite-sante-environnement@ars.sante.fr ou par téléphone au 02.38.77.34.00. \r\n\r\n*danger imminent : installation électrique dangereuse, instabilité du bâti (sols, murs, …), risque d’intoxication (peinture au plomb, chauffage défectueux, humidité …)",
+  "tags": [
+    "Logement"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2019-12-12T15:39:41+01:00",
+  "service": {
+    "nom": "Direction Départementale des Territoires de l'Indre",
+    "organisme": "Service habitat construction",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fiche-de-reperage-de-l-etat-d-un-logement",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.adil36.org",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000020438861&dateTexte=20090327",
+  "logo": {
+    "filename": "logo PDLHII 2.jpg",
+    "checksum": "Q0q7kexwejIyEE4j/RAGEA==",
+    "byteSize": "100907",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 219,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du signalement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du logement repéré",
+        "description": "Adresse précise comportant la nature et le libellé de la voie et, si collectif, les numéros de bâtiment, d'escalier et d'étage.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Le propriétaire du logement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nouveau champ Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom",
+        "description": "Nom et prénom du propriétaire du logement repéré ",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse courriel (mail)",
+        "description": "Adresse courriel (mail) du propriétaire du logement repéré",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse du propriétaire",
+        "description": "Si différente de celle du logement repéré",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Numéro de téléphone (fixe ou portable) où le propriétaire peut être joint",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité de la personne ou de l’organisme à l’origine du repérage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom",
+        "description": "Nom et prénom de l'auteur du repérage",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Qualité du repérant",
+        "description": "Menu déroulant",
+        "required": true,
+        "options": [
+          "Occupant (propriétaire)",
+          "Occupant (locataire)",
+          "Famille de l'occupant",
+          "Proche de l'occupant",
+          "Voisin",
+          "Services communaux",
+          "Organisme à vocation sociale",
+          "Organisme à vocation médicale",
+          "Pompier",
+          "Police ou gendarmerie",
+          "Prestataire de service",
+          "Opérateur OPAH ou PIG",
+          "Bailleur",
+          "Bailleur social",
+          "ARS",
+          "CAF",
+          "MSA",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Numéro de téléphone (fixe ou portable) de l'auteur du repérage ou de l'organisme repérant",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel (mail)",
+        "description": "Adresse courriel (mail) de l'auteur du repérage",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Les occupants",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut d'occupation du logement",
+        "description": "Menu déroulant\r\n",
+        "required": false,
+        "options": [
+          "Propriétaire occupant",
+          "Locataire",
+          "Sous-locataire",
+          "Autre"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la prise d'effet du bail:",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre la copie du bail",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous êtes locataire, pour demander la mise en conformité de votre logement, vous devez contacter votre propriétaire par lettre recommandée avec accusé de réception et lui indiquer les désordres constatés (joindre copie du courrier)",
+        "description": "IMPORTANT: Vous devez continuer à régler le loyer à votre propriétaire.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre la copie du courrier au propriétaire bailleur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Un préavis de départ a-t-il été déposé?",
+        "description": "\n",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "À quelle date est prévu le départ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'occupants",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom et Prénom de(s) l'occupant(s) principal(ux)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Numéro de téléphone (fixe ou portable) où l'occupant principal peut être joint",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse courriel (mail)",
+        "description": "Adresse courriel (mail) de l'occupant principal",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Aide au logement",
+        "description": "",
+        "required": false,
+        "options": [
+          "OUI",
+          "NON",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Organisme payeur des aides",
+        "description": "Menu déroulant",
+        "required": false,
+        "options": [
+          "CAF",
+          "MSA"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro allocataire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Des enfants vivent ils dans le logement?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'enfants occupants le logement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Âges des enfants nés ou à naitre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Problématiques de santé liées au logement:",
+        "description": "",
+        "required": false,
+        "options": [
+          "Respiratoires",
+          "Allergiques",
+          "Autres"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description du logement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type",
+        "description": "Menu déroulant",
+        "required": true,
+        "options": [
+          "Maison individuelle",
+          "Appartement"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Le logement se trouve:",
+        "description": "Menu déroulant\nSi vacant, remplir le cadre suivant",
+        "required": true,
+        "options": [
+          "Occupé",
+          "Vacant"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Vacant depuis le:",
+        "description": "Si vous ignorez la date précise, indiquer 00/00 et préciser l'année ",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si immeuble, combien d'étages a-t-il?",
+        "description": "Menu déroulant",
+        "required": false,
+        "options": [
+          "R+1",
+          "R+2",
+          "R+3",
+          "R+4",
+          "R+5",
+          "R+6 et plus"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Le logement se trouve:",
+        "description": "Menu déroulant",
+        "required": false,
+        "options": [
+          "En sous-sol",
+          "Sous-comble",
+          "Dans une cave",
+          "Autres (locaux impropres à l'habitation)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Le logement date-t-il d'avant 1949?",
+        "description": "Menu déroulant",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ]
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Surface approximative du logement en M2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de pièces",
+        "description": "Pièces de vie: salon, salle à manger, chambre(s). Ne pas compter les sanitaires et la cuisine.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Y a-t-il des pièces de vie sans éclairement naturel?",
+        "description": "Éclairement naturel: ne comportant aucune ouverture vers l'extérieur",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Dossier de diagnostic technique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Disposez-vous d'un dossier de diagnostic technique?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du diagnostic",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Classe énergétique du logement",
+        "description": "Menu déroulant",
+        "required": false,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre copie du Diagnostic de Performance Énergétique (DPE)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Voit-on apparaitre sur le diagnostic technique:",
+        "description": "Menu déroulant\nSi plusieurs réponses possibles, remplir le cadre suivant",
+        "required": false,
+        "options": [
+          "Présence d'amiante",
+          "Présence de plomb",
+          "Non-conformité électrique",
+          "Non-conformité gaz",
+          "Non-conformité assainissement non collectif"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Indiquer les problèmes importants signalés sur le diagnostic",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Problèmes repérés dans le logement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Suspicion d'incurie",
+        "description": "Accumulation d'objets et/ou de déchets",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Absence d'entretien",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Présence d'animaux nuisibles",
+        "description": "Rongeurs, insectes....",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Structure du bâtiment et sécurité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Y a-t-il un risque pour un tiers?",
+        "description": "Danger pour le voisinage, les passants, sur la voie publique, sur un chemin privé....\n",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser:",
+        "description": "Décrire la nature du danger",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La stucture du bâtiment comporte-t-elle des fissures?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Extérieur: Fuites d'eau (sur canalisation)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Extérieur: Infiltration d'eau",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Effondrements",
+        "description": "Effondrements avérés",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Instabilité",
+        "description": "Instabilité des planchers, des escaliers, des murs, de la toiture, d'un balcon....",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Electricité dangereuse",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Portes ou fenêtres non étanches et/ou sans garde-corps",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Chauffage et ventilation:",
+        "description": "Si \"Autre\" remplir le cadre suivant",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Chauffage insuffisant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mode de chauffage",
+        "description": "Menu déroulant\r\nSi autre, remplir le cadre suivant",
+        "required": true,
+        "options": [
+          "Absence",
+          "Électrique",
+          "Gaz",
+          "Fioul",
+          "Bois",
+          "Autre"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Entretien annuel du système de chauffage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Intérieur : présence importante de moisissures, d'humidité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Intérieur : Problème de ventilation",
+        "description": "Ventilation obstruée ou inexistante dans les pièces de vie",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si le logement dispose d'une cheminée, est-elle obstruée?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Sanitaires, salle de bain, cuisine",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Absence de WC et/ou de salle de bain",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Absence d'eau chaude",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Absence d'évier",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Impossibilité d'installer un appareil de cuisson",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mauvaises odeurs",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mauvais écoulement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Conduites cassées",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Absence ou problème de ventilation",
+        "description": "Dans les pièces d'eau uniquement",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Trace d'humidité persistante",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Eau potable et Assainissement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Raccordement sur le réseau d'alimentation en eau potable de la commune",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Raccordement au réseau d'eaux usées communal ou à un dispositif d'assainissement individuel",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commentaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Remarques et précisions",
+        "description": "Indiquer ici toute information utile à l'appréciation de l'état du logement",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Merci de joindre des photos",
+        "description": "Les photos sont un complément important à votre dossier. Elles doivent illustrer et appuyer les désordres indiqués. ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 1",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 2",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 3",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 4",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 5",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 6",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 7",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 8",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 9",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 11",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 10",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces supplémentaires",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce supplémentaire",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je comprends que les informations recueillies sur ce formulaire sont exclusivement réservées à l'instruction du dossier par le pôle départemental de lutte contre l'habitat indigne de l'Indre. Conformément aux dispostions de la loi « informatique et libertés » je dispose d'un droit d'accès aux données me concernant en contactant le pôle départemental de lutte contre l'habitat indigne de l'Indre (vhl.shc.ddt-36@equipement-agriculture.gouv.fr).",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

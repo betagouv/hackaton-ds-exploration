@@ -1,0 +1,535 @@
+{
+  "number": 82546,
+  "title": "Enquête de satisfaction à destination des professionnels de santé libéraux",
+  "description": "L'objectif est de sonder les professionnels de santé à la suite de leur accompagnement par un cabinet d'études ou par l'URPS ML, pour la réalisation d'une étude de faisabilité, la rédaction de leur projet de santé ou l'aide à la mise en opérationnalisation de leur projet de santé. ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2023-12-26T14:43:42+01:00",
+  "service": {
+    "nom": "Service accès aux soins sur les territoires, parcours coordonnés et coopération",
+    "organisme": "Agence Régionale de Santé des Hauts-de-France, Ministère de la Santé et de la Prévention",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/enquete-de-satisfaction-a-destination-des-professi",
+  "dpoUrl": "ars-hdf-dpd@ars.sante.fr  ",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.hauts-de-france.paps.sante.fr/lexercice-coordonne-156?rubrique=11814",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044628615, https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038886353/",
+  "logo": {
+    "filename": "ARS_LOGOS_CMJN Haut212AFD8.png",
+    "checksum": "INcN+InjnWopdZwpOJUeRw==",
+    "byteSize": "18358",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 5,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous avez bénéficié d’un accompagnement par un de nos bureaux d’études ou par l’URPS ML afin de vous assister dans la réalisation de votre projet de structure d’exercice coordonné de type maison de santé pluri professionnelle (MSP) ou équipe de soins primaires (ESP) souple visant à améliorer l’accès aux soins de 1er recours. Afin d’évaluer votre satisfaction relative à cet accompagnement, nous vous invitons à remplir le présent questionnaire et à le diffuser auprès des professionnels de santé et de l’éventuelle collectivité territoriale / locale ayant participé à l’étude. Nous vous remercions de votre collaboration.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "De quel type d’accompagnement avez-vous bénéficié ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Etude de faisabilité",
+          "Ecriture de votre projet de santé",
+          "Mise en opérationnalisation de votre projet de santé"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quel type de structure d’exercice coordonné est concerné par l’accompagnement ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Maison de santé pluri professionnelle",
+          "Equipe de soins primaires souple"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Quelle(s) commune(s) est/sont concernée(s) par le projet ?",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "commune",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quelle est votre profession ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Médecin généraliste",
+          "Infirmier",
+          "Masseur kinésithérapeute",
+          "Pédicure podologue",
+          "Ergothérapeute",
+          "Psychomotricien",
+          "Orthophoniste",
+          "Orthoptiste",
+          "Diététicien",
+          "Sage femme",
+          "Chirurgien dentiste",
+          "Pharmacien",
+          "Préparateur en pharmacie",
+          "Manipulateur électro-radiologie médicale",
+          "Audio prothésiste",
+          "Opticien lunetier",
+          "Orthésiste",
+          "Psychologue",
+          "Ostéopathe",
+          "Profession administrative",
+          "Collectivité territoriale"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Par quel prestataire avez-vous été accompagné ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "URPS ML",
+          "Acsantis",
+          "Icone et médiation santé",
+          "Mazars"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quelle a été la durée de l’accompagnement ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "2 mois",
+          "3 mois",
+          "4 mois",
+          "5 mois",
+          "6 mois",
+          "7 mois",
+          "8 mois",
+          "9 mois",
+          "10 mois",
+          "11 mois",
+          "12 mois",
+          "Plus d'un an"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "7.\tPensez-vous que la durée de l’accompagnement était :",
+        "description": "",
+        "required": true,
+        "options": [
+          "Satisfaisante",
+          "Non satisfaisante"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, pourquoi ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Est-ce que selon vous le prestataire a identifié l’ensemble des professionnels de santé du territoire ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "De quelle manière ont-ils été approchés ?  (plusieurs réponses possibles)",
+        "description": "",
+        "required": true,
+        "options": [
+          "Par un entretien individuel",
+          "Par une réunion collective",
+          "Par une enquête",
+          "Par un autre moyen",
+          "Ne sais pas"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lequel?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La qualité de ces approches était-elle suffisante ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, avez-vous des propositions d’amélioration ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Est-ce que selon vous le prestataire a identifié l’ensemble des problématiques de santé du territoire ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le prestataire a-t-il organisé une réunion de présentation des différents types de structures d’exercice coordonné ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, l’heure était-elle adaptée ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, avez-vous des propositions d’amélioration ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, le lieu était-il adapté ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, avez-vous des propositions d’amélioration ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, les informations étaient-elles suffisamment claires ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, pour quelles raisons ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Il est attendu que le prestataire contacte la collectivité territoriale ou locale afin de l’informer d’une éventuelle dynamique, voire de l’associer dans le cadre d’un projet de bâti. Est-ce que dans le cadre de votre projet, elle a été sensibilisée ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Est-ce qu’au cours de l’accompagnement le prestataire a eu un rôle de médiateur pour débloquer un éventuel différent ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, souhaitez-vous apporter des précisions ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Une réunion de restitution permettant de clôturer l’accompagnement et valider (ou pas) la présence d’une dynamique de maison de santé pluri professionnelle / équipe de soins primaires souple a-t-elle été organisée ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, l’ensemble des professionnels de santé intéressés par la dynamique étaient-ils présents ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, les élus étaient-ils présents ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, la CPAM était-elle présente ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Un entretien préalable avec le porteur de projet a-t-il été réalisé par le prestataire?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Des entretiens individuels avec l’ensemble des professionnels de santé ont-ils été réalisés par le prestataire en amont des réunions de travail collectives ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, cela vous a-t-il semblé utile ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Combien de réunions de travail collectives ont été réalisées ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "+ de 7"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Pensez-vous que le nombre de réunions était adapté ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, avez-vous des propositions d’amélioration ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Pensez-vous que la durée des réunions était adaptée ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, avez-vous des propositions d’amélioration ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Pensez-vous que la périodicité des réunions était adaptée ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, avez-vous des propositions d’amélioration ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Pensez-vous que le contenu (connaissance de l’environnement juridique et économique des maisons de santé pluri professionnelles / équipes de soins primaires souples) était adapté ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, pour quelles raisons ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Que pensez-vous de la qualité de retranscription de vos idées à l’écrit ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Très satisfaisant",
+          "Satisfaisant",
+          "Peu satisfaisant",
+          "Pas du tout satisfaisant"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Que pensez-vous de la qualité rédactionnelle du projet de santé ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Très satisfaisant",
+          "Satisfaisant",
+          "Peu satisfaisant",
+          "Pas du tout satisfaisant"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Souhaitez-vous préciser votre réponse ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Est-ce que le prestataire a eu un rôle de médiateur pour débloquer un éventuel différent apparu au cours de l’accompagnement?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, souhaitez-vous apporter des précisions ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le prestataire vous a-t-il apporté les connaissances nécessaires à l’établissement d’un plan de financement permettant l’équilibre médico-économique de votre structure ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, souhaitez-vous apporter des précisions ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Une réunion de restitution permettant de clôturer l’accompagnement a-t-elle été organisée ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, l’ensemble des professionnels de santé signataires du projet de santé étaient-ils présents ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, la CPAM était-elle présente ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, un support de présentation a-t-il été élaboré par le prestataire ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quels outils le prestataire a-t-il mis à votre disposition ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Fiches action",
+          "Calendrier de mise en œuvre",
+          "Plan d'action",
+          "Indicateurs de suivi",
+          "Aucun",
+          "Autres outils"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lesquels?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Ces outils vous ont-ils aidés dans la mise en œuvre de votre projet de santé ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, souhaitez-vous apporter des précisions ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La mobilisation des partenaires externes a-t-elle été abordée par le prestataire ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si oui, dans quelle mesure ? (plusieurs réponses possibles)",
+        "description": "",
+        "required": true,
+        "options": [
+          "Identification des partenaires",
+          "Concertation des partenaires",
+          "Contractualisation avec les partenaires"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Une réunion de restitution permettant de clôturer l’accompagnement a-t-elle été organisée ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, l’ensemble des professionnels de santé de l’équipe étaient-ils présents ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, la CPAM était-elle présente ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "De manière générale, l’accompagnement effectué par le prestataire vous a semblé :",
+        "description": "",
+        "required": true,
+        "options": [
+          "Très satisfaisant",
+          "Satisfaisant",
+          "Peu satisfaisant",
+          "Pas du tout satisfaisant"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Souhaitez-vous apporter des remarques complémentaires ?",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

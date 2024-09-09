@@ -1,0 +1,275 @@
+{
+  "number": 19708,
+  "title": "TS - Déclaration de remplacement définitif d’un véhicule ou attestation de conformité",
+  "description": "Madame, Monsieur,\r\n\r\nJe vous remercie du soin que vous prendrez à compléter ce formulaire établi dans une logique de simplification et de qualité de service.\r\nNéanmoins, si des interrogations apparaissent lors de cette démarche dématérialisée, l'ARS Auvergne-Rhône-Alpes demeure à votre disposition pour vous apporter tout le soutien nécessaire.\r\n\r\nLe directeur général de\r\nl’Agence Régionale de Santé Auvergne-Rhône-Alpes\r\n\r\nLa loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, s’applique aux réponses faites à ce formulaire. Elle garantit un droit d’accès et de rectification pour les données vous concernant, auprès de l’Agence Régionale de Santé.\r\n\r\nConformément au règlement (UE) 2016/679 du Parlement européen et à  la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, modifiée par la loi n° 2018-493 du 20 juin 2018 (décret 2018-687 du 1er août 2018) , vous pouvez accéder aux données vous concernant. Pour exercer ces droits, vous pouvez contacter  le Délégué à la Protection des Données (DPO) de l’ARS (ars-ara-dpd@ars.sante.fr).\r\n",
+  "tags": [
+    "Transport"
+  ],
+  "zones": [
+    "Ministère de la Cohésion des territoires et des Relations avec les collectivités territoriales"
+  ],
+  "datePublication": "2020-07-01T09:31:52+02:00",
+  "service": {
+    "nom": "ARS ARA - le service transports sanitaires",
+    "organisme": "Agence régionale de santé Auvergne Rhône-Alpes",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ts-attestation-de-conformite-des-vehicules",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.auvergne-rhone-alpes.paps.sante.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/eli/arrete/2012/7/12/AFSE1128927A/jo/texte/fr",
+  "logo": {
+    "filename": "2020_Logo_RH_ARS_ARA_Horizontal.png",
+    "checksum": "9zUg82YNfn7fyU0fYro6xQ==",
+    "byteSize": "71396",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 1656,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Numéro de département",
+        "description": null,
+        "required": true,
+        "options": [
+          "01",
+          "03",
+          "07",
+          "15",
+          "26",
+          "38",
+          "42",
+          "43",
+          "63",
+          "69",
+          "73",
+          "74"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Numéro agrément",
+        "description": "Saisir le numéro d'agrément sans caractères spéciaux (/ -)",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Identification du véhicule à autoriser",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Catégorie de véhicule",
+            "description": null,
+            "required": false,
+            "options": [
+              "A-ASSU",
+              "C",
+              "C-équipée type B pour l'AMU",
+              "D-VSL"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de première mise en circulation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Marque du véhicule",
+            "description": "",
+            "required": true,
+            "options": [
+              "ALFA ROMEO",
+              "AUDI",
+              "BMW",
+              "CHEVROLET",
+              "CITROËN",
+              "DACIA",
+              "FIAT",
+              "FORD",
+              "HYUNDAI",
+              "JAGUAR",
+              "KIA",
+              "LEXUS",
+              "MAZDA",
+              "MERCEDES-BENZ",
+              "MG",
+              "NISSAN",
+              "OPEL",
+              "PEUGEOT",
+              "RENAULT",
+              "SEAT",
+              "SKODA",
+              "SUZUKI",
+              "TESLA",
+              "TOYOTA",
+              "WOLKSWAGEN",
+              "VOLVO"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro d'immatriculation",
+            "description": "Les plaques délivrées depuis 2009 utilisent le format AA-001-AA, composé de sept caractères alphanumériques : deux lettres, trois chiffres et deux lettres, les trois parties étant séparées par des tirets.",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Véhicule nouvellement mis en service suite :",
+            "description": null,
+            "required": false,
+            "options": [
+              "Remplacement définitif",
+              "Transfert cession avec véhicule associé",
+              "Transfert cession sans véhicule",
+              "Distribution AMS supplémentaire"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "Identification du véhicule sortant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Catégorie de véhicule",
+            "description": null,
+            "required": false,
+            "options": [
+              "A-ASSU",
+              "C",
+              "C-équipée type B pour l'AMU",
+              "D-VSL"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Marque du véhicule",
+            "description": null,
+            "required": false,
+            "options": [
+              "ALFA ROMEO",
+              "AUDI",
+              "BMW",
+              "CHEVROLET",
+              "CITROËN",
+              "DACIA",
+              "FIAT",
+              "FORD",
+              "HYUNDAI",
+              "JAGUAR",
+              "KIA",
+              "LEXUS",
+              "MAZDA",
+              "MERCEDES-BENZ",
+              "NISSAN",
+              "OPEL",
+              "PEUGEOT",
+              "RENAULT",
+              "SEAT",
+              "SKODA",
+              "SUZUKI",
+              "TOYOTA",
+              "WOLKSWAGEN",
+              "VOLVO"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro d'immatriculation",
+            "description": "Les plaques délivrées depuis 2009 utilisent le format AA-001-AA, composé de sept caractères alphanumériques : deux lettres, trois chiffres et deux lettres, les trois parties étant séparées par des tirets.",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Situation du véhicule sortant",
+            "description": null,
+            "required": false,
+            "options": [
+              "Restitution du véhicule au bailleur",
+              "Vente",
+              "Destruction",
+              "Véhicule de remplacement au sein de la société",
+              "Véhicule conservé pour d'autre usage dans le parc de la société"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "Pièces à joindre pour le nouveau véhicule",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie recto-verso du certificat d'immatriculation",
+            "description": "En format PDF",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie du dernier contrôle technique",
+            "description": "En format PDF",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date du dernier contrôle technique",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie du certificat de conformité (UTAC ou autres organismes certificateurs)",
+            "description": "En format PDF",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie du contrat de location/leasing le cas échéant",
+            "description": "En format PDF",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Toute autre pièce justificative que vous jugeriez nécessaire de joindre à votre demande",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste sur l’honneur que le véhicule mis en circulation est conforme aux dispositions de l’arrêté du 12 décembre 2017 fixant les conditions exigées pour les véhicules et les installations matérielles affectés aux transports sanitaires terrestres. Je m'engage (nous nous engageons) à ce qu'il le demeure pendant toute la durée de mise en service. Je suis informé du fait que des contrôles, pour vérifier l'exactitude de cette attestation, pourront être réalisés par les services de l'ARS. En cas de manquements aux dispositions dudit arrêté, je m’expose : -\tà des sanctions conformément au l'article R.6312-5 du Code de la Santé Publique  \"En cas de manquement aux obligations de la présente section par une personne bénéficiant de l'agrément, celui-ci, après que l'intéressé a été mis à même de présenter ses observations, en préalable à l'avis du sous-comité des transports sanitaires, peut être retiré temporairement ou sans limitation de durée par décision motivée du directeur général de l'agence régionale de santé…\" -\tà des poursuites pénales prévues à l'article 441-6 du code pénal \"Le fait de se faire délivrer indûment par une administration publique ou par un organisme chargé d'une mission de service public, par quelque moyen frauduleux que ce soit, un document destiné à constater un droit, une identité ou une qualité ou à accorder une autorisation est puni de deux ans d'emprisonnement et de 30 000 euros d'amende\" et à l'article 441-7 du code pénal \"…Est puni d'un an d'emprisonnement et de 15 000 euros d'amende le fait : 1° D'établir une attestation ou un certificat faisant état de faits matériellement inexacts ; 2° De falsifier une attestation ou un certificat originairement sincère ; 3° De faire usage d'une attestation ou d'un certificat inexact ou falsifié. Les peines sont portées à trois ans d'emprisonnement et à 45 000 euros d'amende lorsque l'infraction est commise en vue de porter préjudice au Trésor public ou au patrimoine d'autrui\"",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Signature du représentant légal (nom et prénom)",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

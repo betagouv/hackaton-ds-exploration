@@ -1,0 +1,79 @@
+{
+  "number": 52008,
+  "title": "Shom",
+  "description": "Ce formulaire est destiné à recueillir vos demandes et observations relatives à :\r\n- une demande concernant le service presse et communication ;\r\n- une demande concernant les produits et services du shom (site institutionnel du Shom, espace de diffusion, datashom, etc.) ;\r\n- une demande concernant les ressources humaines (emplois, stages, etc.).\r\nLes demandes adressées via le formulaire seront traitées en priorité par rapport à toute autre sollicitation.\r\n\r\nNe pas hésiter à consulter les questions les plus posées avant de nous solliciter (voir sites web ou notice explicative).",
+  "tags": [
+    "Rh"
+  ],
+  "zones": [
+    "Ministère des Armées"
+  ],
+  "datePublication": "2022-01-10T16:02:28+01:00",
+  "service": {
+    "nom": "Service hydrographique et océanographique de la marine",
+    "organisme": "(Shom)",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/formulaire_de_contact_du_shom",
+  "dpoUrl": "dpd@shom.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://diffusion.shom.fr/demarches-simplifiees",
+  "cadreJuridiqueUrl": "https://diffusion.shom.fr/donnees-personnelles/",
+  "logo": {
+    "filename": "DS-logo-INFOG-468x130-2.png",
+    "checksum": "s+xy3o+FbjReV9MDYBr/sA==",
+    "byteSize": "17304",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "DS_Contact_Shom.pdf",
+    "checksum": "nE9O/exnit4Qo59NRIMECw==",
+    "byteSize": "97261",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 358,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Service concerné",
+        "description": null,
+        "required": true,
+        "options": [
+          "Portail des limites maritimes.gouv.fr",
+          "Presse et communication",
+          "Produits et services",
+          "Ressources humaines"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Sujet",
+        "description": "Sujet de la demande",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Message",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Piece jointe",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Piece jointe",
+            "description": "",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

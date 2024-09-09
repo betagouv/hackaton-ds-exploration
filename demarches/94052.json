@@ -1,0 +1,193 @@
+{
+  "number": 94052,
+  "title": "CPAM91 DIPLÔMES AUDIOPROTHÉSISTES 2023",
+  "description": "Obtenir les noms, diplômes et numéros ADELI des audioprothésistes pour l'année 2023. Obtenir les noms et les adresses des différents établissements où ils exercent la fonction d’audioprothésiste.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère du Travail, de la Santé et des Solidarités"
+  ],
+  "datePublication": "2024-06-27T11:14:54+02:00",
+  "service": {
+    "nom": "DAPSE / DPSR",
+    "organisme": "CPAM de l'Essonne",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/cpam91_diplomes_audioprothesistes",
+  "dpoUrl": "dpo.cpam-essonne@assurance-maladie.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ameli.fr/assure",
+  "cadreJuridiqueUrl": "« L’Arrêté du 24 juin 2022 portant extension d’application de la convention nationale organisant les rapports entre les audioprothésistes délivrant des produits et prestations inscrits au chapitre 3 du titre II de la liste prévue à l’article L. 165-1 du code de la sécurité sociale et l’assurance maladie. « L’entreprise en audioprothèse communique à chaque organisme de rattachement de ses différents établissements les noms, diplômes et numéros ADELI des audioprothésistes appelés à exercer dans chaque établissement implanté dans son ressort. ».",
+  "logo": {
+    "filename": "Logo_CPAM91_couleur.png",
+    "checksum": "KW8+nx7wvfQ1Mwdf0uJ8ng==",
+    "byteSize": "83989",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 75,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Mentions légales :",
+        "description": "La CPAM de l’Essonne met en œuvre des traitements informatisés ou non qui comportent\r\ndes données personnelles notamment à des fins de gestion du conventionnement des professionnels de santé (article\r\n6.1.e du RGPD). Les informations sont recueillies sous la responsabilité du Directeur\r\nGénéral de la CPAM de l’Essonne sise 2 rue Ambroise Croizat à Evry 91000, et sont\r\nconservées pendant la durée nécessaire à leur traitement. Conformément aux\r\ndispositions relatives à la protection des données personnelles, vous pouvez exercer votre\r\ndroit d’accès, de rectification ainsi que votre droit à la limitation de vos données. Le droit\r\nd’opposition ne s’applique pas au présent traitement. Ces droits s’exercent sur demande\r\nécrite auprès du Délégué à la Protection des Données de la CPAM de l’Essonne :\r\ndpo.cpam-essonne@assurance-maladie.fr. Les réclamations au titre de la protection des\r\ndonnées personnelles peuvent être introduites auprès de la CNIL (commission nationale\r\ninformatique et libertés - TSA 80715 - 75334 PARIS CEDEX 07) ».",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "L'effectif demandé se fait uniquement au titre de l'année 2023. Les structures doivent dépendre de la CPAM de l'Essonne.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dans une volonté de simplifier et d’accélérer vos démarches, la CPAM de l'Essonne met à votre disposition ce formulaire qui remplace et sécurise les échanges.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de la structure :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la structure :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro d'identification Assurance Maladie :",
+        "description": "Numéro à 9 chiffres qui vous a été attribué par l'Assurance Maladie lors de votre conventionnement (exemple : 912xxxxxx)",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse (sans code postal) :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Code postal / ville :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification du dirigeant :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le dirigeant est-il audioprothésiste ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Effectif :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d’audioprothésiste(s) total dans la structure sur l’année 2023 :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Audioprothésistes présents :",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "L'audioprothésiste est-il parti durant l'année 2023 ?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom :",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom :",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de l'activité :",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de l'activité :",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "L'audioprothésiste a-t-il été informé et a-t-il donné son accord pour cette collecte d'informations ?",
+            "description": "Tant que l'audioprothésiste n'est pas informé de la démarche et n'a pas donné son accord, vous ne pouvez pas valider les informations le concernant.",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Diplôme (en format PDF) :",
+            "description": "Pour les nouveaux diplômés le relevé de notes ou l'attestation de réussite sont possibles. \r\n(Le fichier doit être en PDF)",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Attestation sur l'honneur de la personne remplissant le formulaire :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom Prénom :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction de la personne dans la structure :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie sur l'honneur l'exactitude des renseignements déclarés.",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

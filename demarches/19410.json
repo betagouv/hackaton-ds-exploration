@@ -1,0 +1,595 @@
+{
+  "number": 19410,
+  "title": "ARS BFC - SIGNALEMENT DE CHANGEMENT DE SITUATION AU RÉPERTOIRE ADELI - BOURGOGNE-FRANCHE-COMTE",
+  "description": "Cette démarche administrative dématérialisée permet le signalement d'un changement de situation (personnelle, mobilité professionnelle, cessation d'activité) afin de mettre à jour votre enregistrement au fichier ADELI.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2020-05-12T09:10:08+02:00",
+  "service": {
+    "nom": "Agence Régionale de Santé de Bourgogne-Franche-Comté - Elections",
+    "organisme": "Direction de l'Organisation des Soins",
+    "typeOrganisme": "operateur_d_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/adeli-changement-de-situation",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.bourgogne-franche-comte.ars.sante.fr/professionnels-de-sante-tout-savoir-sur-le-repertoire-adeli",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000026393379&dateTexte=20180803",
+  "logo": {
+    "filename": "procedure-965524b9-71c9-47c1-bd7f-d053b84ebf82.jpg",
+    "checksum": "TGTwvn3tbot18ks+Ms27xw==",
+    "byteSize": "7907",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 16,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ATTENTION ! VEUILLEZ LIRE LES INSTRUCTIONS CI-DESSOUS AVANT DE COMPLETER VOTRE DOSSIER",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Avertissement juridique :",
+        "description": "Le fait de produire de faux diplômes est susceptible de caractériser le délit de faux prévu et réprimé par l’article 441-1 du Code pénal. \n: \"constitue un faux toute altération frauduleuse de la vérité, de nature à causer un préjudice et accomplie par quelque moyen que ce soit, dans un écrit ou tout autre support d’expression de la pensée qui a pour objet ou qui peut avoir pour effet d’établir la preuve d’un droit ou d’un fait ayant des conséquences juridiques. »\n\nLe faux et l’usage de faux sont punis de trois ans d’emprisonnement et de 45 000 euros d’amende (C. pén. art. 441-1, al. 2).\n\nSi les conditions visées par le texte sont réunies, le salarié ayant fabriqué de faux diplômes présentés à l’employeur s’expose à une condamnation pénale. \n\nLe défaut de diplôme nécessaire à l’exercice d’une profession réglementée constitue par principe une cause réelle et sérieuse de licenciement (Cass. soc. 14 juin 2007, n° 06-41637). \n\nIl pourra vous être demandé à tout moment de présenter vos originaux de diplômes, attestations de formation ou stages, et pièces d'identité.\n",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Département d'exercice :",
+        "description": "",
+        "required": true,
+        "options": [
+          "- 21",
+          "- 25",
+          "- 39",
+          "- 58",
+          "- 70",
+          "- 71",
+          "- 89",
+          "- 90"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "N° ADELI :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Profession :",
+        "description": "",
+        "required": true,
+        "options": [
+          "Assistant dentaire",
+          "Assistant de service social",
+          "Audioprothésiste",
+          "Chiropracteur (usage de titre)",
+          "Diététicien",
+          "Epithésiste",
+          "Ergothérapeute",
+          "Infimier",
+          "Infirmier psychiatrique",
+          "Manipulateur ERM",
+          "Oculariste",
+          "Opticien-Lunetier",
+          "Orthopédiste-orthésiste",
+          "Orthophoniste",
+          "Orthoprothésiste",
+          "Orthoptiste",
+          "Ostéopathe (usage de titre)",
+          "Podo-orthésiste",
+          "Psychologue",
+          "Psychomotricien",
+          "Psychothérapeute (usage de titre)",
+          "Technicien de laboratoire médical",
+          "Autre profession"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si autre profession, précisez :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Merci de joindre une copie scannée de votre pièce d'identité en cours de validité (carte d'identité, passeport....)  :",
+        "description": "recto-verso\nen couleur\nen format PDF",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom d'exercice :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom patronymique (nom de naissance) :",
+        "description": "Inscrire Idem si le même nom que le nom d'exercice",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom usuel (si différent du 1er) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ADRESSE PERSONNELLE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse :",
+        "description": "n° et nom de rue",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Code postal :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Ville :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "VOTRE CHANGEMENT DE SITUATION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Changement de situation :",
+        "description": "Choisissez dans la liste déroulante le ou les motif(s) sur lequel (lesquels) porte le changement de situation, puis continuer à remplir les champs correspondants à la lettre du motif (de A à F). L'exercice en qualité de remplaçant sera mentionné dans les rubriques D et E.",
+        "required": true,
+        "options": [
+          "A. Coordonnées personnelles (nom d'exercice, domicile...)",
+          "B. Cessation d'activité (entraîne une radiation du fichier)",
+          "C. Changement de département (entraîne une radiation du fichier  départemental et nécessite une nouvelle inscription dans le nouveau département d'exercice)",
+          "D. Changement de votre activité principale",
+          "E. Changement de votre activité secondaire (Nouvelle activité secondaire ou changement d'activité secondaire si l'activité principale est dans le département)",
+          "F. Autres changements de situation"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "A. Coordonnées personnelles",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Changement de nom-prénom d'exercice :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif du changement de nom/prénom d'exercice :",
+        "description": "Joignez copie du livret de famille, acte de mariage, carte nationale d'identité avec nom marital ou décision du tribunal entérinant le changement d'état civil (copie scannée recto-verso en format pdf)",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Nouveau domicile :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si OUI, nouvelle adresse personnelle (n° et nom de rue) :",
+        "description": "(Attention, si votre activité principale consiste à réaliser des remplacements, et si vous quittez le département, cela entraîne la radiation du fichier départemental où vous exerciez et vous devrez vous enregistrer dans le nouveau département où un nouveau numéro ADELI vous sera attribué, cf C.)",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Code postal :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Ville :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "B. Cessation d'activité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nature de l'activité faisant l'objet d'une cessation d'activité :",
+        "description": "Précisez la nature de l'activité que vous cessez :",
+        "required": false,
+        "options": [
+          "- principale",
+          "- secondaire",
+          "- autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de cessation d'activité :",
+        "description": "Cela entraîne la radiation du fichier",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Motif de la cessation d'activité :",
+        "description": "Choisir dans la liste déroulante : ",
+        "required": false,
+        "options": [
+          "- cessation provisoire",
+          "- retraite",
+          "- autre (autre actif, bénévole, recherche d'emploi...)",
+          "- inactif",
+          "- changement de mode d 'exercice (indépendant-artisan-commerçant, libéral, mixte, salarié)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Précision :",
+        "description": "Si vous avez choisi le motif \"changement de mode d'exercice\", veuillez remplir les rubriques D ou E",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "C. Changement de département du lieu d'exercice",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Précision :",
+        "description": "Ces informations concernent le changement du département du lieu d'exercice ou de l'adresse personnelle pour les remplaçants dont c'est l'activité principale",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "A compter du :",
+        "description": "Cela entraine la radiation du fichier départemental et nécessite que vous alliez vous enregistrer dans le nouveau département  où un nouveau numéro ADELI vous sera attribué.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Je désire recevoir une attestation de radiation :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "D. Changement de votre activité principale",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de changement d'exercice professionnel principal :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Activité nouvelle :",
+        "description": "Précisez le type d'activité (premier menu déroulant) et le mode d'activité (2ème menu déroulant)",
+        "required": false,
+        "options": [
+          "--libérale--",
+          "remplaçant soumis à autorisation de l'ordre pour les Infirmiers",
+          "libéral en cabinet individuel",
+          "libéral en cabinet de groupe",
+          "libéral en société",
+          "libéral en établissement",
+          "--salariée--",
+          "salarié du secteur public",
+          "salarié du secteur privé",
+          "intérim",
+          "--activité indépendante--",
+          "gérant",
+          "collaborateur",
+          "autre"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si activité principale libérale en cabinet, précisez votre statut :",
+        "description": "",
+        "required": false,
+        "options": [
+          "- statut collaborateur",
+          "- statut d'assistant",
+          "- statut autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si statut autre, précisez :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pour les infirmiers remplaçants libéraux :",
+        "description": "Joindre les documents suivant :",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "- Copie de l'autorisation de l'Ordre des infirmiers  :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "- Décision de mise en disponibilité le cas échéant :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Lieu d'exercice de l'activité principale",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale du lieu d'exercice de l'activité principale :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Numéro FINESS du lieu d'exercice de l'activité principale :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "N° SIRET de l'activité principale (14 chiffres) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse professionnelle principale (ou adresse personnelle dans le cadre du remplacement libéral) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Code Postal :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Ville :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email activité principale :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "E. Changement de votre activité secondaire (nouvelle activité secondaire ou changement d'activité secondaire)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de changement d'exercice professionnel secondaire :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Activité nouvelle :",
+        "description": "Précisez le type d'activité (premier menu déroulant) et le mode d'activité (2ème menu déroulant)",
+        "required": false,
+        "options": [
+          "--libérale--",
+          "remplaçant soumis à autorisation de l'ordre pour les Infirmiers",
+          "libéral en cabinet individuel",
+          "libéral en cabinet de groupe",
+          "libéral en société",
+          "libéral en établissement",
+          "--salariée--",
+          "salarié du secteur public",
+          "salarié du secteur privé",
+          "intérim",
+          "--activité indépendante--",
+          "gérant",
+          "collaborateur",
+          "autre"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si activité secondaire libérale en cabinet, précisez votre statut :",
+        "description": "",
+        "required": false,
+        "options": [
+          "- statut de collaborateur",
+          "- statut d'assistant",
+          "- statut autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si statut autre, précisez :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si activité secondaire autre que libérale, salariée, indépendante, précisez  (bénévole, consultant..) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pour les infirmiers remplaçants libéraux :",
+        "description": "Joindre les documents suivant :",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "- Copie de l'autorisation de l'Ordre des infirmiers :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "- Décision de mise en disponibilité le cas échéant :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Lieu d'exercice de l'activité secondaire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale du lieu d'exercice secondaire :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Numéro FINESS du lieu d'exercice de l'activité secondaire :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Numéro SIRET de l'activité secondaire (14 chiffres) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse professionnelle secondaire(ou adresse personnelle dans le cadre du remplacement libéral) :",
+        "description": "n° et nom de rue",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Code postal :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Ville :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "F. Autres changements de situation",
+        "description": "\r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires libres sur un autre changement de situation dont vous souhaitez nous faire part (ex : une 3e activité) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autres pièces justificatives :",
+        "description": "En cas de besoin, vous pouvez joindre une autre pièce",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Déclaration sur l'honneur :",
+        "description": "En cochant cette case, Je déclare sur l'honneur l'exactitude des renseignements fournis dans ce document et l'authenticité des pièces dont la copie est fournie. Je suis averti (e) des risques et peines encourus en cas de production et usage de faux documents. Je m'engage à présenter sur demande de l'ARS tout original des documents justificatifs demandés dans le présent formulaire.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Droit d'accès aux informations :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Modalités d'exercice :",
+        "description": "Pour exercer votre droit d'accès, de vérification et de suppression des informations vous concernant, veuillez vous adresser à : \nService ADELI : ars-bfc-adeli@ars.sante.fr\nDélégué à la protection des données : ars-bfc-dpd@ars.sante.fr",
+        "required": false
+      }
+    ]
+  }
+}

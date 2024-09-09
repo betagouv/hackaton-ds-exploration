@@ -1,0 +1,299 @@
+{
+  "number": 88003,
+  "title": "Programme CaRE HospiConnect  Appel à projet alpha",
+  "description": "Cette démarche permet de candidater à l’Appel à Projet alpha HospiConnect du <a href=\"https://esante.gouv.fr/strategie-nationale/cybersecurite\"> Programme CaRE </a>",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2024-03-18T13:57:24+01:00",
+  "service": {
+    "nom": "Projet Hospiconnect du programme CaRE",
+    "organisme": "Agence du Numérique en Santé ",
+    "typeOrganisme": "operateur_d_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/aaphospiconnectalpha",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://esante.gouv.fr/actualites/hospiconnect-premier-appel-projet-pour-simplifier-et-securiser-lacces-aux-services-numeriques-sensibles",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": {
+    "filename": "Logo ANS.png",
+    "checksum": "JYFOVj2PrV1k00rrX0n2BQ==",
+    "byteSize": "232068",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 23,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification du référent responsable de la candidature",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénoms",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email professionnel",
+        "description": "Cette adresse email sera utilisée pour tout échange lié à votre candidature. Elle peut ête différente de celle utilisée pour l'accès à Démarches-Simplifiées.",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Ce numéro de téléphone peut être utilisé pour tout échange lié à votre demande de souscription. ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "A propos de l'appel à projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Cible à laquelle le projet proposé dans le cadre de votre candidature va répondre",
+        "description": "Pour plus détails sur les différentes cibles, se référer <a href=\"https://esante.gouv.fr/sites/default/files/media_entity/documents/aap_alpha_hospiconnect_cdc_-v1.0.pdf\">au cahier des charges de l’appel à projet</a>",
+        "required": true,
+        "options": [
+          "Cible 1",
+          "Cible 2",
+          "Cible 3"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° de dossier Datapass",
+        "description": "Maturité technique de l’établissement :\r\nLa brique de SSO utilisée par l’établissement de santé est compatible avec une fédération d’identité avec PSC selon le standard OIDC (fournir le numéro datapass soumis à PSC pour attester de l’initialisation de la démarche de contractualisation).",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Option auto-enregistrement",
+        "description": "Pour plus détails sur cette option, se référer <a href=\"https://esante.gouv.fr/sites/default/files/media_entity/documents/aap_alpha_hospiconnect_cdc_-v1.0.pdf\">au cahier des charges de l’appel à projet</a>",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de professionnels travaillant au sein de la structure au total",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de professionnels se connectant à des services sensibles",
+        "description": "Les services « sensibles » sont les services numériques en santé au sens du L. 1470-1 du code de la santé publique, qui traitent des données de santé à caractère personnel au sens du RGPD, et répondant à certains critères. Plus de précisions <a href=\"https://esante.gouv.fr/produits-services/pgssi-s/corpus-documentaire\">au chapitre 4.1.2 du Référentiel d'identification électronique (PGSSI-S) personnes physiques. </a>\r\n\r\n\r\nSi l'établissement a pris part au programme HOP'EN, il a déjà référencé le nombre de services numériques sensibles qu'il utilise dans la partie P3.4\r\n",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de professionnels concernés par le projet",
+        "description": "Le projet porte sur un sous-ensemble de la population de professionnels de l’établissement, représentatif des utilisateurs de services numériques sensibles (n’impliquant pas exclusivement des professions réglementées relevant d’un enregistrement au RPPS par les Ordres nationaux, mais également des professionnels dont l’autorité d’enregistrement au RPPS est constituée par l’établissement employeur, qui devra contracter à cet effet avec l’ANS) : a minima 100 utilisateurs.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Préciser le secteur de la population pilote participant au projet au sein de la structure",
+        "description": "",
+        "required": true,
+        "options": [
+          "Sanitaire",
+          "Médico-social",
+          "Les deux"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quel logiciel RH (de base de données du personnel) utilisez-vous au sein de votre établissement ?",
+        "description": "Vous devez indiquer le nom de votre solution ainsi que le nom de l’éditeur de la solution ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quel répertoire d'identités locales utilisez vous ?",
+        "description": "Vous devez indiquer le nom de votre solution de répertoire d’identités locales",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Catégorie et nombre de professionnels concernés par le projet avec description des moyens d’identification électronique actuels et en cible au terme du projet.",
+        "description": "Veuillez <b>télécharger</b> et <b>remplir</b> le fichier ci-dessous. Une fois rempli, veuillez nous transmettre le fichier via le bouton <b>« Choisir un fichier »</b> ci-dessous. ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l’éditeur de DPI/DUI impliqué dans le projet et nom de la solution utilisée",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom des éditeurs participant potentiellement au projet",
+        "description": "éditeurs IAM/SSO",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description du projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description du projet en quelques lignes",
+        "description": "<b>Si votre candidature concerne plusieurs sites géographiques, veuillez le préciser dans cette rubrique </b>",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "A propos du cadre de réponse",
+        "description": "Retrouvez ci-dessous le cadre de réponse vous permettant de structurer votre dossier. ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Description détaillée du projet",
+        "description": "Description détaillée du projet, comportant les éléments listés dans <b>le chapitre 2</b> du cadre de réponse fourni ci-dessus.\r\n\r\nLe format du document est laissé à votre convenance. ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Mise en œuvre du projet",
+        "description": "Description du déroulement du projet et des moyens nécessaires, comportant les éléments listés dans le <b>chapitre 3</b> du cadre de réponse fourni précédemment. \r\n\r\nLe format du document est laissé à votre convenance. ",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Budget prévisionnel du projet",
+        "description": "Reportez ici le budget prévisionnel que vous aurez indiqué dans le document AAP_HospiConnect_Fichier_déclaration_coûts_candidat_v1.0.xlsxà joindre dans la partie <b>Déclaration des coûts du projet</b> un peu plus bas. ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Les pièces à joindre à votre candidature",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quel est votre profil de candidat",
+        "description": "Sélectionnez la situation qui vous correspond afin de pouvoir identifier les pièces jointes attendues pour votre dossier de candidature",
+        "required": true,
+        "options": [
+          "Structure publique",
+          "Structure privée",
+          "Association"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Fiche de demande d’aide (selon le modèle fourni)",
+        "description": "Veuillez <b>télécharger</b> et <b>remplir</b> le fichier ci-dessous. Une fois rempli, veuillez nous transmettre le fichier via le bouton <b>« Choisir un fichier »</b> ci-dessous. ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration des coûts du projet",
+        "description": "Veuillez <b>télécharger</b> et <b>remplir</b> le fichier ci-dessous. Une fois rempli, veuillez nous transmettre le fichier via le bouton <b>« Choisir un fichier »</b> ci-dessous. ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Données comptables",
+        "description": "Dernière liasse fiscale complète ou dernier bilan et compte de résultats approuvés par l’assemblée et rapport du commissaire aux comptes (ou à défaut de l’expert-comptable) sur les comptes du dernier exercice approuvé <b> [document à transmettre sauf si le candidat est un établissement public].</b>",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestations de régularité fiscale et sociale",
+        "description": "Attestations de régularité fiscale et sociale <b>[document à transmettre sauf si le candidat est un établissement public].</b>  ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Preuve de l’existence légale (avis de situation attestant de l’immatriculation au répertoire SIRENE)",
+        "description": "Pour les associations : un extrait du journal Officiel publiant la constitution de l'association ou récépissé de dépôt à la préfecture ou sous-préfecture",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justification de l'existence et de la capacité juridique de l'association",
+        "description": "<li> Extrait du journal Officiel publiant la constitution de l'association </li>\r\n<li>Récépissé de dépôt à la préfecture ou sous-préfecture</li>",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Statuts actualisés signés",
+        "description": "Document à transmettre sauf si le candidat est un établissement public.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Représentation de l'actionnariat",
+        "description": "Un document listant tous les actionnaires personnes physiques ou morales détenant directement ou indirectement des parts ou des actions (table de capitalisation ou organigrammes détaillés avec pourcentage de détention) <b>[document à transmettre sauf si le candidat est une association ou un établissement public]</b>.  ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Liste des membres du bureau dont le trésorier et le dernier rapport moral et financier",
+        "description": "Document à transmettre si le candidat est une association",
+        "required": true
+      },
+      {
+        "__typename": "TitreIdentiteChampDescriptor",
+        "label": "Copie d'un document  permettant l'identification de la personne physique représentant l’entité demandeuse",
+        "description": "<li>Un document en cours de validité (CNI, passeport, etc.) </li>\r\n\r\n",
+        "required": true
+      },
+      {
+        "__typename": "TitreIdentiteChampDescriptor",
+        "label": "Copie d'un document (en cours de validité) permettant l'identification",
+        "description": "<li>de la personne physique représentant l’entité demandeuse  </li>\r\n<li>des actionnaires détenant plus de 20% du capital :</li>  \r\n<b>si personnes physiques :</b> CNI, passeport ou carte de séjour + justificatif de l'adresse du domicile  \r\n<b>si personnes morales :</b> présentation de l'actionnariat, extrait Kbis de moins de 3 mois, statuts certifiés conformes ou équivalent pour une société étrangère.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB IBAN",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Annexe libre",
+        "description": "Vous pouvez compléter votre dossier par des annexes qui vous paraitraient utiles à la compréhension de votre candidature",
+        "required": false
+      }
+    ]
+  }
+}

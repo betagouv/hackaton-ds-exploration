@@ -1,0 +1,206 @@
+{
+  "number": 68681,
+  "title": "Saisine CCP Test é è -",
+  "description": "Test",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2023-01-11T15:31:03+01:00",
+  "service": {
+    "nom": "Test",
+    "organisme": "Test",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/saisine-ccp-test",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.cdg35.fr/accueil_internet/gerer_les_rh/les_instances_consultatives/les_commisions_administratives_paritaires",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006067031/2021-01-18/",
+  "logo": {
+    "filename": "procedure-3c1b9141-77a9-42c7-bbe0-4780d89be34d.png",
+    "checksum": "sW/YevdrIor6z8eEdxnCAQ==",
+    "byteSize": "15354",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de la collectivité et de l'autorité territoriale :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Titre de l'autorité territoriale :",
+        "description": null,
+        "required": true,
+        "options": [
+          "Madame le Maire",
+          "Monsieur le Maire",
+          "Madame la Présidente",
+          "Monsieur le Président"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la collectivité :",
+        "description": "En MAJUSCULE sans accent, exemples :\nBECHEREL - MAIRIE\nGAEL - CCAS\nCHATEAUBOURG - SYNDICAT DES EAUX",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse postale :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM Prénom et qualité du référent en charge du dossier :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone du référent :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse e-mail du référent :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'agent :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'agent :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom de l'agent :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance de l'agent :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Grade de l'agent :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Temps de travail hebdomadaire :",
+        "description": "exemples : Temps complet ou Temps non complet 20/35e",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Service d'affectation :",
+        "description": "-Désignation du service d'affectation\n-Effectif global du service \n-Grades des agents composant le service",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre d'agents du service :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Traitement de la demande du congé pour formation syndicale :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Demande de l'agent",
+        "description": "Indiquez la date à laquelle l'agent a formulé une demande de congé pour formation syndicale",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Durée",
+        "description": "Nombre de jours de la formation syndicale",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Période :",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Du :",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Au :",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Refus de l'autorité à la demande de l'agent :",
+        "description": "Indiquez la date à laquelle vous avez formulé votre refus à l'agent",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Motif(s) de refus :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces à joindre :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre le courrier de demande de l'agent :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre le courrier de réponse à l'agent :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre le courrier d'information aux membres de la CAP :",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

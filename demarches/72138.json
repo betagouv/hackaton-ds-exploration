@@ -1,0 +1,602 @@
+{
+  "number": 72138,
+  "title": "Rapport d’activité des données 2022 - Points conseil budget",
+  "description": "Ce questionnaire retranscrit numériquement le rapport d'activité des structures labellisées Point Conseil Budget.\r\nIl est à remplir annuellement sur les données de l'année n-1.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère des Solidarités, de l'Autonomie et des personnes handicapées"
+  ],
+  "datePublication": "2023-04-11T11:29:39+02:00",
+  "service": {
+    "nom": "Direction Générale de la Cohésion Sociale",
+    "organisme": "DDETS, DRETS, DGCS, ministère des solidarités",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/rapport-d-activite-des-donnees-2022-points-conseil",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/rapport-d-activite-type-du-reseau-points-conseil-b",
+  "cadreJuridiqueUrl": "https://www.demarches-simplifiees.fr/admin/procedures",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 262,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Périmètre régional de votre PCB",
+        "description": null,
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand-Est",
+          "Guadeloupe",
+          "Guyane",
+          "Hauts-de-France",
+          "Île-de-France",
+          "Martinique",
+          "Mayotte",
+          "Normandie",
+          "Nouvelle Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d'Azur",
+          "Réunion"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de la structure",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'organisme",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'organisme labellisé",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Territoire d'intervention du PCB",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse email du service ou du responsable de l’activité PCB :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Réseau d'appartenance",
+        "description": "",
+        "required": false,
+        "options": [
+          "UDAF",
+          "Familles Rurales",
+          "CCAS",
+          "Crésus",
+          "PIMM'S",
+          "Nouvelles Voies",
+          "Secours Populaire",
+          "ADAC",
+          "FACE"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Typologie du public et évolutions des situations",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 1 - Combien de personnes avez-vous reçues ?",
+        "description": "Il peut s’agir d’un appel téléphonique ou d’un premier rendez-vous/entretien. Il s’agit donc du nombre de personnes qui se sont adressées au service labellisé PCB au cours de l’année 2022.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Combien y a-t-il de femmes parmi les personnes reçues ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Combien y a-t-il d'hommes parmi les personnes reçues ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 2 - Combien de personnes ont été suivies (plus de 2 entretiens) au cours de l’année ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Question 3 - Combien de personnes ont été nouvellement suivies au cours de l'année ?",
+        "description": "Une personne est dite nouvellement suivie si elle a été reçue pour la 1ere fois en 2022 et au moins lors de 2 rendez-vous.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Parmi les personnes qui ont été nouvellement suivies au cours de l'année, combien y a-t-il de femmes ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Parmi les personnes qui ont été nouvellement suivies au cours de l’année, combien y a-t-il d'hommes ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.1 - Parmi les personnes nouvellement suivies au cours de l’année, combien de personnes sont salariées à temps plein ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.1 -Parmi les personnes nouvellement suivies au cours de l'année, combien de personnes sont salariées à temps partiel (hors étudiants) ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.1 - Parmi les personnes nouvellement suivies au cours de l'année, combien de travailleurs non-salariés ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.1 - Parmi les personnes nouvellement suivies au cours de l’année, combien sont demandeuses d'emploi ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.1 - Parmi les personnes nouvellement suivies au cours de l’année, combien d'étudiants/ étudiantes ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.1 - Parmi les personnes nouvellement suivies au cours de l’année, combien d'inactifs (hors étudiants) ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.2 - Parmi les personnes nouvellement suivies au cours de l’année, combien perçoivent des minimas sociaux ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.3 - Parmi les personnes nouvellement suivies au cours de l'année, combien ont moins de 25 ans ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.3 - Parmi les personnes nouvellement suivies au cours de l'année, combien ont entre 25 et 60 ans ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Question 3.3 - Parmi les personnes nouvellement suivies au cours de l'année, combien ont plus de 60 ans ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.4 - Parmi les personnes nouvellement suivies au cours de l'année, combien sont des ménages composés d’un homme seul ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.4 - Parmi les personnes nouvellement suivies au cours de l'année, combien sont des ménages composés d’une femme seule ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.4 - Parmi les personnes nouvellement suivies au cours de l'année, combien sont des ménages composés d’un couple avec enfants à charge ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.4 - Parmi les personnes nouvellement suivies au cours de l'année, combien sont des ménages composés d'un couple sans enfants ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.4. - Parmi les personnes nouvellement suivies au cours de l'année, combien sont des ménages monoparentaux ?",
+        "description": "Une famille monoparentale comprend un parent isolé et un ou plusieurs enfants célibataires. \r\nEst considérée comme isolée une personne veuve, divorcée, séparée ou célibataire, qui ne vit pas en couple et qui ne met pas en commun avec un conjoint, concubin ou partenaire de PACS ses ressources et ses charges.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.4 Parmi les ménages monoparentaux combien ont pour cheffe de famille une femme ? ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.4 Parmi les ménages monoparentaux combien ont pour chef de famille un homme ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.5 - Parmi les personnes nouvellement suivies au cours de l'année, combien perçoivent un revenu par mois de moins de 1000 € ?",
+        "description": "Revenu disponible des ménages = revenus primaires - prélèvements obligatoires + prestations sociales\r\nLe revenu disponible doit être exprimé par mois et par Unité de Consommation ( 1 UC au premier adulte du ménage, 0,5 UC aux autres personnes de 14 ans ou plus et 0,3 UC aux enfants de moins de 14 ans).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.5 - Parmi les personnes nouvellement suivies au cours de l'année, combien perçoivent un revenu par mois  entre 1000 € et 1500 € :",
+        "description": "Revenu disponible des ménages = revenus primaires - prélèvements obligatoires + prestations sociales\r\nLe revenu disponible doit être exprimé par mois et par Unité de Consommation ( 1 UC au premier adulte du ménage, 0,5 UC aux autres personnes de 14 ans ou plus et 0,3 UC aux enfants de moins de 14 ans).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.5 - Parmi les personnes nouvellement suivies au cours de l'année, combien perçoivent un revenu par mois entre 1500 et 2000 € ?",
+        "description": "Revenu disponible des ménages = revenus primaires - prélèvements obligatoires + prestations sociales\r\nLe revenu disponible doit être exprimé par mois et par Unité de Consommation ( 1 UC au premier adulte du ménage, 0,5 UC aux autres personnes de 14 ans ou plus et 0,3 UC aux enfants de moins de 14 ans).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.5- Parmi les personnes nouvellement suivies au cours de l'année, combien perçoivent un revenu par mois entre 2000 et 3000 € :",
+        "description": "Revenu disponible des ménages = revenus primaires - prélèvements obligatoires + prestations sociales\r\nLe revenu disponible doit être exprimé par mois et par Unité de Consommation ( 1 UC au premier adulte du ménage, 0,5 UC aux autres personnes de 14 ans ou plus et 0,3 UC aux enfants de moins de 14 ans).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.5 - Parmi les personnes nouvellement suivies au cours de l'année, combien perçoivent un revenu par mois plus de 3 000 € :",
+        "description": "Revenu disponible des ménages = revenus primaires - prélèvements obligatoires + prestations sociales\r\nLe revenu disponible doit être exprimé par mois et par Unité de Consommation ( 1 UC au premier adulte du ménage, 0,5 UC aux autres personnes de 14 ans ou plus et 0,3 UC aux enfants de moins de 14 ans).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.6 - Parmi les personnes nouvellement suivies au cours de l'année, combien ont un solde bancaire négatif ?",
+        "description": "Revenu disponible des ménages = revenus primaires - prélèvements obligatoires + prestations sociales\r\nLe revenu disponible doit être exprimé par mois et par Unité de Consommation ( 1 UC au premier adulte du ménage, 0,5 UC aux autres personnes de 14 ans ou plus et 0,3 UC aux enfants de moins de 14 ans).",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.7 - Parmi les personnes nouvellement suivies au cours de l'année, combien ont eu au moins un arriéré de paiement au cours des douze derniers mois ?",
+        "description": "Il peut s'agir d'un prélèvement automatique rejeté, chèque refusé ou d'une échéance de facture non honorée.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.8 - Parmi les personnes nouvellement suivies au cours de l'année, combien ont été accompagnées vers l'ouverture de droits ?",
+        "description": "Pour une même personne ou pour un même ménage, plusieurs services ou orientations peuvent être proposés. ",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.8 - Parmi les personnes nouvellement suivies au cours de l'année, combien ont bénéficié d'un accompagnement budgétaire ?",
+        "description": "Pour une même personne ou pour un même ménage, plusieurs services ou orientations peuvent être proposés. ",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.8 - Combien de personnes nouvellement suivies au cours de l'année, ont été accompagnées pour le montage d’un dossier de surendettement ou le suivi du dossier de surendettement ?",
+        "description": "Pour une même personne ou pour un même ménage, plusieurs services ou orientations peuvent être proposés. ",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.9 - Combien de personnes nouvellement suivies au cours de l'année l'ont été à la suite de mesures décidées par une commission de surendettement ?",
+        "description": "Pour une même personne ou pour un même ménage, plusieurs services ou orientations peuvent être proposés. ",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 3.9 - Combien de personnes nouvellement suivies au cours de l'année l'ont été à la suite d'autres orientations (ex: orientation d'un créancier) ?",
+        "description": "Pour une même personne ou pour un même ménage, plusieurs services ou orientations peuvent être proposés. ",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 4 - Nombre de personnes dont le suivi s’est terminé au cours de l’année ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de femmes dont le suivi s’est terminé au cours de l’année ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'hommes dont le suivi s’est terminé au cours de l’année ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 4.1 - Nombre d’accompagnements terminés suite à l’accord des deux parties sur l’atteinte des objectifs initiaux ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 4.1 -  Nombre d’accompagnements terminés sur demande de la personne ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 4.1 - Nombre d’accompagnements terminés suite à la perte de contact avec la personne ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 4.1 - Nombre d’accompagnements terminés car les compétences du PCB ne sont pas adaptées, orientation vers un autre dispositif ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 4.2 - Combien de personnes dont le suivi s'est terminé au cours de l'année avaient un solde bancaire négatif ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 4.2 - Combien de personnes dont le suivi s'est terminé au cours de l'année avaient eu au moins un arriéré de paiement au cours de l’année (prélèvement automatique rejeté, chèque refusé ou échéance de facture non honorée)  ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 4.2 - Combien de personnes dont le suivi s'est terminé au cours de l'année  n’avaient pas établi de budget mensuel avant leur prise de contact et qui en ont établi un durant l’accompagnement",
+        "description": "Exemple : utilisation d’une application, liste des dépenses, carnet de suivi, etc",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 4.2 - Combien de personnes ont fait l'objet d'une interruption de leur suivi pour un autre motif ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Activité du PCB",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 5 - Nombre de sessions d’informations collectives organisées au cours de l’année  :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 5.1 - Nombre total de personnes ayant participé aux sessions d'informations collectives :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 6.1 - Nombre de sessions de formations des intervenant(es) suivies au cours de l’année :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 6.2 - Nombre de sessions de formation d'acquisition socle au cours de l'année : :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 6.3 - Nombre de sessions de formation d'actualisation des connaissances au cours de l'année :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 6.4 - Nombre de bénévoles formés :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 6.5 - Nombre de salarié(e)s/agent(e)s formé(e)s :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Question 7 - Quel est le nombre actuel de salariés affectés aux activités du PCB en Equivalent Temps Plein (ETP)   ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "•\tAucun",
+          "•\tEntre 0 et 0,5 ETP",
+          "•\tEntre 0,5 et 1 ETP",
+          "•\tEntre 1 et 1,5 ETP",
+          "•\tEntre 1,5 et 2 ETP",
+          "•\tEntre 2 et 4 ETP",
+          "•\tEntre 4 et 5 ETP",
+          "•\tPlus de 5 ETP"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 8 - Montant total des moyens humains",
+        "description": "En €, charges comprises, coût total du personnel dédié au PCB, en prenant en compte le salaire annuel du(des) salarié(s), ainsi que les éventuels remboursement de frais au(x) bénévole(s).",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Question 9 - Le PCB dispose-t-il d'un logiciel informatique dédié ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Question 10 - Le PCB dispose-t-il de ses propres locaux ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Question 11 - Coût annuel total estimé de l’activité PCB (en milliers d'euros, hors coûts de structure) :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Synthèse qualitative sur le type d’accompagnement mis en œuvre",
+        "description": "Décrire en quelques lignes les types d’accompagnement les plus fréquents, ainsi que les constats et difficultés rencontrées",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Question 12 - Décrire en quelques lignes les types d’accompagnement les plus fréquents, ainsi que les constats et difficultés rencontrées.",
+        "description": "Vous aurez la possibilité de décrire davantage les thèmes abordés lors des sessions collectives et des formations.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Partenariats",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Question 13 - Quels sont les principaux organismes / structures qui orientent des personnes vers votre structure pour l’activité PCB ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Créanciers",
+          "Employeurs",
+          "Banque de France",
+          "Pôle emploi",
+          "CAF",
+          "Conseil départemental",
+          "Centres communaux ou intercommunaux d’action sociale (CCAS/CIAS)",
+          "Acteurs associatifs",
+          "Etablissements bancaires",
+          "Maisons de service au public (MSAP)",
+          "Points Information Médiation Multi Services (PIMMS)",
+          "Conseil départemental de l’accès au droit (CDAD), Maisons d’accès au droit, Point d’accès au droit",
+          "Autres"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si vous avez coché \"autre\", merci de préciser :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Question 14 - Quels sont les principaux organismes / structures vers lesquels vous orientez les personnes pour leurs besoins spécifiques ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Créanciers",
+          "Employeurs",
+          "Banque de France",
+          "Pôle emploi",
+          "CAF",
+          "Conseil départemental",
+          "Centres communaux ou intercommunaux d’action sociale",
+          "Acteurs associatifs",
+          "Etablissements bancaires",
+          "Maisons de service au public (MSAP)",
+          "Points Information Médiation Multi Services (PIMMS)",
+          "Conseil départemental de l’accès au droit (CDAD), Maisons d’accès au droit, Point d’accès au droit",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Question 15 - Si vous avez coché \"autre\", merci de préciser",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Question 16 - Avez-vous conclu des conventions de partenariats avec des entités tierces pour la prescription/l’orientation de personnes reçues ou accompagnées au sein du PCB ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Question 17 - Si oui, préciser avec quelles entités :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Question 18 - Avez-vous conclu d’autres types de partenariats dont vous estimez qu’ils sont utiles au développement de l’activité du PCB ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Question 18.1 - Si oui, lesquels ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commentaires généraux",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Question 19 - Faits marquants de l'année ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Question 20 - Commentaires éventuels sur l’évolution de l’activité, des publics, des problématiques, les attentes vis-à-vis des services de l’Etat ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Question 21 - Explication des différences éventuelles entre la file active prévisionnelle et la file active réelle ?",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

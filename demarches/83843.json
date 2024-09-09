@@ -1,0 +1,425 @@
+{
+  "number": 83843,
+  "title": "Agrément vidangeurs assainissement non collectif",
+  "description": "Demande d’agrément pour l’activité de vidanges et de prises en charges du transport jusqu'au lieu d’élimination des matières extraites des installations d’assainissement non collectif",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2023-11-21T15:13:23+01:00",
+  "service": {
+    "nom": "Direction Départementale des Territoires de l'Aube",
+    "organisme": "DDT 10 / Service Eau et Biodiversité",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/agrement-vidangeurs",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.aube.gouv.fr/Actions-de-l-Etat/Environnement/EAU/Reglementation-et-information/Assainissement",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000021125184&fastPos=1&fastReqId=1087651930&categorieLien=cid&oldAction=rechTexte",
+  "logo": {
+    "filename": "marianne.png",
+    "checksum": "znyjSoSG//1DgUbRDB+x/Q==",
+    "byteSize": "9837",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 11,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Objet de la demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "En savoir plus",
+        "description": " Arrêté NOR :DEVO0920065A du 7 septembre 2009 définissant les modalités d’agrément des personnes réalisant les vidanges et prenant en charge le transport et l’élimination des matières extraites des installations d’assainissement non collectif\r\nhttps://www.legifrance.gouv.fr/loda/id/JORFTEXT000021125109\r\n\r\n\r\n    Arrêté NOR : DEVO1021668A du 3 décembre 2010 modifiant l’arrêté du 7 septembre 2009 définissant les modalités d’agrément des personnes réalisant les vidanges et prenant en charge le transport et l’élimination des matières extraites des installations d’assainissement non collectif\r\nhttps://www.legifrance.gouv.fr/loda/id/JORFTEXT000023229591",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Objet de la demande",
+        "description": "",
+        "required": true,
+        "options": [
+          "Première demande",
+          "Renouvellement",
+          "Modification",
+          "Dépôt du bilan d'activité de vidange annuel"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro départemental d’agrément de vidangeur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de fin de validité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Motif de la modification",
+        "description": "",
+        "required": true,
+        "options": [
+          "Identification du demandeur",
+          "Moyens mis en œuvre",
+          "Filières d’élimination"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification du demandeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom du représentant légal",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Numéro SIRET",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro d'immatriculation au Registre du Commerce et des Sociétés (RCS)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'adresse de la société est différente de l'adresse du siège sociale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du siège social",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone fixe",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Portable",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Moyens mis en oeuvre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Effectif du personnel affecté à ces activités",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Matériel utilisé pour la vidange",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de véhicules",
+            "description": "",
+            "required": true,
+            "options": [
+              "Hydrocureur",
+              "Tracteur",
+              "Citerne",
+              "Autre"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Autre : Déterminer le type de véhicule",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Type de véhicules",
+            "description": "",
+            "required": true,
+            "options": [
+              "Vidange",
+              "Transport",
+              "Épandage"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro immatriculation",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Capacité totale",
+            "description": "En m³",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Type de filière et quantité maximale annuelle de matières extraites",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Quantité maximale annuelle de matières de vidange pour laquelle l’agrément est demandé",
+        "description": "En m³",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "La quantité maximale annuelle",
+        "description": "Préciser la répartition",
+        "required": true,
+        "options": [
+          "Dépotage",
+          "Épandage",
+          "Capacité de stockage"
+        ]
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Dépotage (station d’épuration, centre de traitement matières de vidange…)",
+        "description": "En m³",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Dans les stations d’épuration",
+        "description": "En m³",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Dans les filières alternatives",
+        "description": "En m³",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Epandage des matières de vidange",
+        "description": "En m³",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Capacité de stockage pendant les périodes d'interdiction d'épandage des matières extraites",
+        "description": "En m³",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Renseignement sur les activités",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Département(s) d’activité de dépotage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Département(s) d’activité de vidange",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Département(s) d’activité de d'épandage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Liste des filières d’élimination",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Capacité de stockage",
+        "description": "Capacité de stockage : Fumière - bâche  souple - ...",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de stockage",
+            "description": "",
+            "required": true,
+            "options": [
+              "Fumière",
+              "Bâche  souple"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune d'implantation de l’unité de stockage",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date du récépissé de déclaration",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Volume maximum",
+            "description": "En m³",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Localisation des unités de stockage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Filières alternatives",
+        "description": "Filières alternatives : Station d’épuration - centre de traitement matières de vidange -  … ",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Nom de la filière",
+            "description": "",
+            "required": true,
+            "options": [
+              "Station d’épuration",
+              "Centre de traitement matières de vidange",
+              "Autre filière alternative"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Dénomination de la filières alternatives",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune de la filières d'élimination",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date signature  convention",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Volume maximal admissible",
+            "description": "En m³",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Convention de la filière alternative",
+            "description": "(par exemple : convention de dépotage) \r\nCes documents doivent comporter les informations relatives aux installations recevant les matières de vidanges et aux quantités maximales pouvant y être apportées.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces à joindre",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Le bilan d’activité prévu à l’article 9 de l’arrêté du 7 septembre 2009 ",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Elimination des matières de vidanges par épandage agricole",
+            "description": "Un plan d'épandage conforme à la nomenclature 2.1.3.0 de l'article R214-1 du code de l'environnement s’il épand des quantités de matières de vidange supérieures au seuil de la Loi sur l’Eau (> 100 m3).",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Convention de mise à disposition de terres agricoles pour épandage des matières de vidange",
+            "description": "Accord entre le producteur et l’exploitant pour la mise à disposition des matières de vidange.\r\nAttention : Une convention pour chaque exploitant. ",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Exemplaire du  bordereau de suivi",
+            "description": "Lien vers l'arrêté :\r\nhttps://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000021125184&fastPos=1&fastReqId=1087651930&categorieLien=cid&oldAction=rechTexte",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déclaration pour l’exercice de transport de déchets  non dangereux",
+            "description": "L'article R. 541-50 du code de l'environnement prévoit que pour exercer l'activité de collecte ou de transport de déchets, les entreprises doivent déposer une déclaration auprès du préfet du département où se trouve leur siège social ou, à défaut, le domicile du déclarant, dès lors qu'elles collectent ou transportent une quantité supérieure à 0,1 tonne par chargement de déchets dangereux, ou une quantité supérieure à 0,5 tonne par chargement de déchets non dangereux.",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

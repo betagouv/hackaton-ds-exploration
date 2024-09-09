@@ -1,0 +1,137 @@
+{
+  "number": 81368,
+  "title": "Obtention et maintien de l’agrément définitif des Centres de Santé",
+  "description": "Envoi des pièces justificatives dans le cadre de l'obtention et du maintien de l’agrément définitif des Centres de Santé.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2023-10-03T16:11:03+02:00",
+  "service": {
+    "nom": "ARS-AGPPS",
+    "organisme": "ARS",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/cds-agrement-definitif-cvl",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.centre-val-de-loire.ars.sante.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 28,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de demande",
+        "description": "",
+        "required": true,
+        "options": [
+          "Obtention de l'agrément définitif",
+          "Maintien de l'agrément définitif"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Envoi des pièces justificative",
+        "description": "",
+        "required": true,
+        "options": [
+          "Suite à la demande de l'ARS",
+          "A ma propre initiative"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Département",
+        "description": "",
+        "required": true,
+        "options": [
+          "18",
+          "28",
+          "36",
+          "37",
+          "41",
+          "45"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro FINESS juridique",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro FINESS du centre de santé",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du centre",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Règlement de fonctionnement actualisé",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Projet de santé actualisé",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Compte rendu du comité dentaire ou du comité médical",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Déclaration des liens d'intérêt de l’ensemble des membres de l’instance dirigeante (si nécessaire)",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déclaration des liens d'intérêt de l’ensemble des membres de l’instance dirigeante  (si nécessaire)",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Tous les contrats liant l’organisme gestionnaire à des sociétés tierces (si nécessaire)",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Tous les contrats liant l’organisme gestionnaire à des sociétés tierces (si nécessaire)",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Contrats et diplômes des professionnels",
+        "description": "Dans le cadre d'une demande d'agrément définitif, les contrats et les diplômes de l'ensemble des professionnels doivent être transmis.\r\n\r\nPour le maintien de cet agrément définitif, il est nécessaire de transmettre, à chaque nouvelle embauche et à chaque avenant au contrat de travail : les contrats, les avenants et les diplômes. De plus, l'organigramme actualisé du centre de santé doit nous être communiqué dans ces circonstances ainsi qu'en cas de rupture d'un contrat de travail.\r\n<br>\r\n\r\nPour des raisons de confidentialité, la saisie de l'organigramme, des contrats de travail (et des avenants), ainsi que des diplômes doit être réalisée sur : https://www.demarches-simplifiees.fr/commencer/diplomes-contrat-organigramme-agrement\r\n<br>\r\n<b>professionnels concernés : </b>chirurgiens-dentistes, des assistants dentaires, des ophtalmologistes et des orthoptistes",
+        "required": false
+      }
+    ]
+  }
+}

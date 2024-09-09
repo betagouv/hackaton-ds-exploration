@@ -1,0 +1,340 @@
+{
+  "number": 46399,
+  "title": "PP/DTPP - Demande initiale ou renouvellement d'agrément pour un organisme de formation ",
+  "description": "Demande initiale ou de renouvellement d'un agrément d'organisme délivrant la formation sur les droits et obligations attachés à l'exploitation d'un débit de boissons à consommer sur place ou d'un établissement pourvu de le \"petite licence restaurant\" ou de la \"licence restaurant\" (PEX) et/ou à la vente à emporter des boissons alcooliques entre 22 heures et 8 heures (PVBAN).",
+  "tags": [
+    "Formation"
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2021-06-30T16:33:34+02:00",
+  "service": {
+    "nom": "Section Débits de Boissons-Agrément",
+    "organisme": "Préfecture de Police",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/pp-dtpp-agrement-initial-renouvellement",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.prefecturedepolice.interieur.gouv.fr/demarches-et-services-en-ligne/accueil-demarches?type=87&groupe=1153",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041510405/",
+  "logo": {
+    "filename": "logo2020_pp_cmjn.png",
+    "checksum": "Atim1R3YWeZISkbgO8LQ+A==",
+    "byteSize": "363891",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 26,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Avertissement",
+        "description": "Tout usage ou falsification de documents est puni d’un an d’emprisonnement et de 15 000 euros d’amende.\n\nLa loi n°78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, s’applique aux réponses faites à ce formulaire. Elle garantit un droit d’accès et de rectification pour les données vous concernant auprès de la préfecture où la demande a été faite.\n\nArticle 441-7 du code pénal\n« Est puni d’un an d’emprisonnement et de 15 000 euros d’amende le fait :\n-1° d’établir une attestation ou un certificat faisant état de faits matériellement inexacts ;\n-2° De falsifier une attestation ou un certificat originairement sincère ;\n-3° De faire usage d’une attestation ou d’un certificat inexact ou falsifié.\nLes peines sont portées à trois ans d’emprisonnement et 45 000 euros d’amende lorsque l’infraction est commise en vue de porter préjudice au trésor Public ou au patrimoine d’autrui.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Motif de la demande",
+        "description": null,
+        "required": true,
+        "options": [
+          "Demande initiale ",
+          "Renouvellement de l'agrément"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demandeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom d'usage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "L'ORGANISME DE FORMATION",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'organisme",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone de l'organisme",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel de l’organisme de formation",
+        "description": "Cet e-mail sera utilisé pour l'envoi de l'agrément.",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Confirmation de l'adresse e-mail",
+        "description": "Merci de ressaisir votre adresse e-mail. ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Représenté par",
+        "description": "Prénom, NOM",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "En qualité de",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, je certifie que l'extrait n°3 du casier judiciaire du représentant de l'organisme de formation date de moins de 3 mois à la date de la demande.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Extrait n°3 du casier judiciaire du représentant",
+        "description": "Vous pouvez solliciter ce document sur le service en ligne dédié : https://casier-judiciaire.justice.gouv.fr/pages/accueil.xhtml\n\nCette démarche en ligne ne prend que quelques minutes.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Formation pour laquelle/lesquelles l’agrément est demandé",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Cocher la ou les cases correspondantes",
+        "description": null,
+        "required": true,
+        "options": [
+          "Formation sur les droits et obligations attachés à l’exploitation d’un débit de boissons à consommer sur place ou d’un établissement pourvu de la « petite licence restaurant » ou de la « licence restaurant » (permis d'exploitation - PEX)",
+          "Formation sur les droits et obligations attachés à la vente à emporter de boissons alcooliques entre 22h et 8h (permis de vendre des boissons alcooliques la nuit -PVBAN)"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité de chaque formateur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, je certifie que l'organisme comprend une équipe pédagogique spécialisée permanente composée au minimum d'un formateur juriste et d'un formateur professionnel",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Formateur juriste (PEX et/ou PVBAN)",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "En cochant cette case, je certifie que le formateur juriste détient un diplôme de master II, un DEA ou un DESS en droit.",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce d'identité du formateur juriste",
+            "description": "Carte nationale d’identité, passeport, titre de séjour ou autre justificatif d’identité.",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Diplôme du formateur juriste",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Formateur professionnel PEX",
+        "description": "Uniquement pour la formation au permis d'exploitation",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "En cochant cette case, je certifie que le formateur professionnel dispose d’une expérience de cinq ans en relation directe avec la clientèle dans le secteur des cafés, hôtels, bars, restaurants, discothèques",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce d'identité du formateur professionnel",
+            "description": "Carte nationale d’identité, passeport, titre de séjour ou autre justificatif d’identité.",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Expérience",
+            "description": "Compléter un tableau selon le modèle en pièce jointe",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Justificatifs d'expérience professionnelle",
+            "description": "contrats de travail, fiches de paye, etc",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Formateur professionnel PVBAN",
+        "description": "Uniquement pour la formation au permis de vente à emporter des boissons alcooliques la nuit ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "En cochant cette case, je certifie que le formateur professionnel dispose d’une expérience de cinq ans en relation directe avec la clientèle dans le secteur du commerce de l'épicerie ou des cavistes",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce d'identité du formateur professionnel",
+            "description": "Carte nationale d’identité, passeport, titre de séjour ou autre justificatif d’identité.",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Expérience",
+            "description": "Compléter un tableau selon le modèle en pièce jointe ",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Justificatifs d'expérience professionnelle",
+            "description": "contrats de travail, fiches de paye, etc",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Formation dispensée",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Programme de la formation",
+        "description": "Programme des journées de formation ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Support remis aux participants",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Module détaillé",
+        "description": "Explication détaillée de chaque module dispensé lors de la formation. ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Outils pédagogiques",
+        "description": "Moyens utilisés par le formateur pour animer la formation. ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Sessions de formation prévues par an",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Session de formation",
+        "description": "Détailler par formation les différents éléments ",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Lieu de la formation",
+            "description": "Adresse",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de la formation",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Effectifs",
+            "description": "maximum de 15 participants par session",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Prix par participant",
+            "description": "En euros",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Engagements",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, j’atteste que l’organisme de formation susmentionné n’entretient aucun lien de nature économique avec tout établissement relevant du secteur des cafés, hôtels, restaurants et discothèques ainsi qu’avec tout entreprise ou organisme des secteurs de l’alcool ou du tabac",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, je certifie l’exactitude de l’intégralité des renseignements fournis et je m’engage à",
+        "description": "-solliciter le renouvellement quinquennal de mon agrément au moins deux mois avant l’expiration de celui-ci ;\n-signaler immédiatement tout changement de situation ;\n-fournir annuellement à la date d’anniversaire de l’agrément un rapport comprenant la liste par département des centres de formation, le nombre de candidats formés et le nombre d’attestation délivrées au niveau national et départemental ;\n-fournir un exemplaire de chaque PEX ou de PVBAN délivré lors des formations.",
+        "required": true
+      }
+    ]
+  }
+}

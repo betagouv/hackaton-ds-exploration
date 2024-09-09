@@ -1,0 +1,163 @@
+{
+  "number": 17860,
+  "title": "Demande d'informations sur le retournement de prairies permanentes",
+  "description": "Bienvenue sur le formulaire guichet unique de la prairie.\r\n\r\nVous envisagez de retourner une prairie permanente. Sachez que la prairie constitue un milieu naturel qui est susceptible d’être protégé au titre de différentes réglementations. Le retournement peut être interdit, ou soumis à certaines conditions.\r\n\r\nVous êtes donc invité à compléter le présent formulaire à l’aide d’informations sur l’exploitation et sur les parcelles que vous envisagez de retourner. \r\n\r\nLa Direction Départementale des Territoires pourra ainsi étudier votre demande. Après analyse, un courrier vous sera adressé afin de lister l’ensemble des réglementations auxquelles votre retournement est soumis, ainsi que les démarches à réaliser si besoin auprès des services concernés. ",
+  "tags": [
+    "Agriculture"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2019-11-29T11:42:31+01:00",
+  "service": {
+    "nom": "Service économie des territoires",
+    "organisme": "Direction départementale des territoires de l'Orne",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/retournement-prairies",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.orne.gouv.fr/le-guichet-unique-de-la-prairie-permanente-a9317.html",
+  "cadreJuridiqueUrl": "http://www.orne.gouv.fr/le-guichet-unique-de-la-prairie-permanente-a9317.html",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 57,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité du déclarant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale",
+        "description": "Raison sociale (si personne morale)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "Nom du demandeur",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "Prénom du demandeur",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Adresse complète (n°, rue, lieu-dit, code postal, commune) du demandeur ou du siège social (si personne morale)",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "N° de téléphone",
+        "description": "Ne pas insérer d'espace ou de point de séparation",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse email",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° Pacage",
+        "description": "N° à 9 chiffres commençant par 061",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Parcelle(s) de prairie permanente concernée(s) par le projet de retournement",
+        "description": "Pour renseigner plusieurs parcelles cliquez sur le bouton \"Ajouter une ligne\"",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Lieu-dit",
+            "description": "Indiquer le lieu-dit de la prairie concernée",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Commune",
+            "description": "Commune où est située la prairie concernée",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de références de la parcelle",
+            "description": "Indiquer le type de références retenu pour identifier la parcelle",
+            "required": true,
+            "options": [
+              "Références cadastrales",
+              "N° d'îlot et de parcelle de votre RPG"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Références de la parcelle",
+            "description": "Indiquer les références cadastrales de la parcelle (exemple :  AA...) ou les n° d'îlot et de parcelle de votre RPG (exemple : 24-1)",
+            "required": true
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Année du RPG",
+            "description": "Préciser l'année du RPG si identification par n° d'îlot et de parcelle",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date envisagée du retournement",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Surface retournée",
+            "description": "Estimation de la surface retournée en ha (utiliser la virgule comme séparateur décimal et non le point du clavier numérique)",
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Description des prairies",
+            "description": "Superficie totale de la parcelle, caractéristiques et motif du retournement",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Carte de situation",
+            "description": "Carte permettant la localisation du retournement de prairies permanentes (à partir du RPG, d'une photo aérienne, d'un plan IGN, ou bien du cadastre...).\r\nLiens utiles :\r\n- photographies aériennes et cartes https://www.geoportail.gouv.fr/\r\n- le cadastre https://www.cadastre.gouv.fr/",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autre pièce justificative",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "----------------------           -----------------------           -----------------------           -----------------------           -----------------------",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je comprends que les informations recueillies sur ce formulaire sont exclusivement réservées à l'instruction du dossier par le service Économie des Territoires de la Direction Départementale des Territoires de l'Orne (ddt61)",
+        "description": "Conformément au Règlement Général sur la Protection des Données (RGPD) entré en vigueur le 25/05/2018,  je dispose d'un droit droit d’accès, de rectification, d’opposition, d’effacement, à la portabilité et à la limitation du traitement des données personnelles me concernant en contactant le service Économie des Territoires (ddt-set-ea@orne.gouv.fr)\r\n",
+        "required": true
+      }
+    ]
+  }
+}

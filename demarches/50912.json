@@ -1,0 +1,823 @@
+{
+  "number": 50912,
+  "title": "TELETRAVAIL - Recensement -  Mise en oeuvre de la nouvelle décision relative au télétravail à l'IRD",
+  "description": "Le télétravail désigne toute forme d'organisation du travail dans laquelle les fonctions qui auraient pu être exercées par un agent dans les locaux de son employeur sont réalisées hors de ces locaux de façon régulière et volontaire en utilisant les technologies de l'information et de la communication.\r\n\r\nLa campagne est ouverte du lundi 31 janvier 2022 au vendredi 11 mars 2022 (23 h 59, heure de métropole) inclus.\r\n\r\nCette campagne concerne les demandes des personnels de l'IRD exerçant en métropole, outre-mer et à l’étranger :\r\n- aux fonctionnaires ;\r\n- aux contractuels de droit public ;\r\n- aux contractuels de l’Institut régis par un droit du travail spécifique (étranger, outre-mer). La mise en œuvre sera progressive par pays au regard de la législation locale, dans le cadre d’un accord collectif local ;\r\n- aux stagiaires études ;\r\n- aux agents exerçant sous un statut de volontaire (VSC / VI) ;\r\n- aux personnes exerçant sous le statut d’apprenti.\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Enseignement supérieur et de la Recherche"
+  ],
+  "datePublication": "2022-01-28T13:10:26+01:00",
+  "service": {
+    "nom": "Direction des Ressources Humaines - TELETRAVAIL",
+    "organisme": "Institut de Recherche pour le Développement",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ird-campagne-teletravail",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ird.fr/teletravail-faites-votre-demande",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000032036983&categorieLien=id",
+  "logo": {
+    "filename": "1.1. logo Marianne IRD.JPG",
+    "checksum": "Xm4YqljZNQ9Wg58yU9YxKg==",
+    "byteSize": "22071",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "Guide de la démarche 2022.pdf",
+    "checksum": "IMxr+2CpH9m22Wy+wQdb5w==",
+    "byteSize": "2368976",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 845,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "La mise en place du télétravail",
+        "description": "Dans le cadre de la campagne ouverte du lundi 31 janvier 2022 au lundi 28 février 2022, les agents peuvent faire une demande de télétravail.\n\nLa quotité maximum de télétravail pour un agent à temps complet, en fonction des nécessités de service est de 1 à 3 jours hebdomadaires fixes et réguliers (dégressif avec le temps partiel), soit un plafond annuel de 132 jours (sur la base de 44 semaines travaillées).\n\nUn minimum de 2 jours de présence hebdomadaire sur le site professionnel est obligatoire. \n\nEx : un agent à temps partiel à 80 % (4 jours travaillés) verrait sa semaine décomposée comme suit : télétravail 2 jours, 1 jour non travaillé et 2 jours sur site.\n\nLes demandes de télétravail sur préconisations médicales ou au titre du bénéfice de l'obligation d'emploi n'ont pas à être déposées sur cette plateforme mais font l'objet d'un traitement spécifique entre le Service Développement des Talents et de la Qualité de vie au travail de la DRH de l'IRD, le service médical et votre Gestionnaire RH. \n\nPour toute question relative à votre situation administrative (date effective de mobilité, accueil, etc...), vous pouvez vous rapprocher de votre Gestionnaire ressources humaines dédié(e). \n\nPour toutes vos autres demandes en rapport direct avec le télétravail, vous pouvez écrire à drh.teletravail@ird.fr .",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "VOTRE SITUATION",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Matricule IRD",
+        "description": "Vous pouvez trouver ce numéro sur votre bulletin de paie ou sur toute décision administrative vous concernant ou sur le portail du SI (celui où vous déposez vos congés) : données personnelles/données administratives\n\nPour les stagiaires \"scolaires études\" et pour les personnels locaux, vous indiquerez la mention 000000.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "PRENOM NOM",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "IDENTIFICATION DE VOTRE RESPONSABLE HIERARCHIQUE DIRECT(E)",
+        "description": "Il s'agit, par exemple, de votre responsable d'équipe, de service, de direction ou de laboratoires selon l'organisation de l'unité structurelle dans laquelle vous travaillez. \nIl est votre aussi le valideur de vos congés habituellement.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom et NOM de votre responsable hiérarchique direct(e)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Courriel de votre hiérarchique direct(e)",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "VOTRE AFFECTATION",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Unité structurelle (délégations, laboratoires, directions fonctionnelles, représentations)",
+            "description": "Attention :\nles personnels relevant des ACS sont rattachés à l'ACP et non à la délégation régionale où ils travaillent. \n\nLes personnels relevant d'une direction fonctionnelle du siège sont rattachés à cette direction et non à la délégation régionale de leur affectation géographique.\n\nEnfin, un agent reste rattaché à son unité de recherche qu'il soit affecté à l'étranger ou en outre-mer.",
+            "required": true,
+            "options": [
+              "AGENCE COMPTABLE PRINCIPALE",
+              "AMAP",
+              "AMSE",
+              "BOREA",
+              "CBGP",
+              "CEFE",
+              "CEPED",
+              "CERDI",
+              "CEREGE",
+              "CES",
+              "CESBIO",
+              "CESSMA",
+              "CPST",
+              "DELEGATION REGIONALE ILE DE FRANCE",
+              "DELEGATION REGIONALE OCCITANIE",
+              "DELEGATION REGIONALE OUEST",
+              "DELEGATION REGIONALE SUD-EST",
+              "DEPART RELATIONS INTERNAT ET EUROPEENNES",
+              "DEPARTEMENT DISCO",
+              "DEPARTEMENT ECOBIO",
+              "DEPARTEMENT MOBILIS RECH ET INNOV DEVPT",
+              "DEPARTEMENT OCEANS",
+              "DEPARTEMENT SAS",
+              "DEPARTEMENT SOC",
+              "DEVSOC",
+              "DIADE",
+              "DIRECTION DE LA COMM ET DU PART DE L'INF",
+              "DIRECTION DES AFFAIRES JURIDIQUES",
+              "DIRECTION DES FINANCES",
+              "DIRECTION DES RESSOURCES HUMAINES",
+              "DIRECTION DVPT DES USAGES NUM INNOVANTS",
+              "ECCE TERRA",
+              "ECO&SOLS",
+              "EDB",
+              "EGCE",
+              "EIO",
+              "ENTROPIE",
+              "ESPACE-DEV",
+              "G-EAU",
+              "GÉOAZUR",
+              "GET",
+              "HSM",
+              "IDLIC",
+              "IEES-Paris",
+              "IFAECI",
+              "IGE",
+              "IMAF",
+              "IMAGO",
+              "IMBE",
+              "IMPMC",
+              "INTERTRYP",
+              "IPSL",
+              "ISE-M",
+              "ISTERRE",
+              "IUEM",
+              "LAERO",
+              "LAM",
+              "LEDA",
+              "LEGOS",
+              "LEMAR",
+              "LISAH",
+              "LMV",
+              "LOCEAN",
+              "LOG",
+              "LOPS",
+              "LPED",
+              "LSTM",
+              "MARBEC",
+              "MEPHI",
+              "MERIT",
+              "MIO",
+              "MISSION CULTURE SCIENTIFIQUE ET TECHNOLO",
+              "MISSION D'ACCOMPAGNEMENT AU CHANGEMENT",
+              "MISSION D'APPUI AU PARTEN. A LA SCIENCE",
+              "MISSION EVALUATION ET PROGRAMM RECHERCHE",
+              "MISSION EXPERTISE ET CONSULTANCE",
+              "MISSION POUR LA SCIENCE OUVERTE",
+              "MISSION QUALITE SANTE SECURITE ENVIR",
+              "MIVEGEC",
+              "MOISA",
+              "NET",
+              "OMP",
+              "OREME",
+              "OSUG",
+              "PALOC",
+              "PHARMADEV",
+              "PHIM",
+              "PIMIT",
+              "PRÉSIDENCE",
+              "PRODIG",
+              "PYTHEAS",
+              "QUALISUD",
+              "REPRÉSENTATION À LA RÉUNION",
+              "REPRÉSENTATION À MADAGASCAR",
+              "REPRÉSENTATION AU BÉNIN",
+              "REPRÉSENTATION AU BRÉSIL",
+              "REPRÉSENTATION AU BURKINA FASO",
+              "REPRÉSENTATION AU CAMBODGE",
+              "REPRÉSENTATION AU CAMEROUN",
+              "REPRÉSENTATION AU KENYA",
+              "REPRÉSENTATION AU LAOS",
+              "REPRÉSENTATION AU MALI",
+              "REPRÉSENTATION AU MAROC",
+              "REPRÉSENTATION AU MEXIQUE",
+              "REPRÉSENTATION AU NIGER",
+              "REPRÉSENTATION AU PÉROU",
+              "REPRÉSENTATION AU SÉNÉGAL",
+              "REPRÉSENTATION AU VIETNAM",
+              "REPRÉSENTATION EN AFRIQUE DU SUD",
+              "REPRÉSENTATION EN BOLIVIE",
+              "REPRÉSENTATION EN CÔTE D'IVOIRE",
+              "REPRÉSENTATION EN ÉQUATEUR",
+              "REPRÉSENTATION EN GUYANE",
+              "REPRÉSENTATION EN INDONÉSIE",
+              "REPRÉSENTATION EN NOUVELLE-CALÉDONIE",
+              "REPRÉSENTATION EN POLYNÉSIE FRANÇAISE",
+              "REPRÉSENTATION EN THAÏLANDE",
+              "REPRÉSENTATION EN TUNISIE",
+              "REPRÉSENTATION PRÈS L'UNION EUROPÉENNE",
+              "RESILIENCES",
+              "SEDYL",
+              "SENS",
+              "SESSTIM",
+              "STRUCTURE GESTION DES PERSONNELS",
+              "STRUCTURE MAD SORTANT",
+              "TRANSVIHMI",
+              "UMMISCO",
+              "URMIS",
+              "UVE",
+              "VITROME"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom et NOM de votre responsable de structure",
+            "description": "Il s'agit du directeur d'une unité de recherche, de la direction fonctionnelle ou de la délégation régionale, représentation dont vous dépendez.",
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Courriel de votre responsable de structure",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "FONCTIONS OCCUPEES",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Intitulé des fonctions occupées",
+            "description": "Préciser l'intitulé de la fonction (du poste) que vous occupez actuellement.",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Situation administrative - statut",
+            "description": "Préciser votre situation administrative vis-à-vis de l'IRD : fonctionnaire ou contractuel, etc..",
+            "required": true,
+            "options": [
+              "Fonctionnaire stagiaire",
+              "Fonctionnaire titulaire",
+              "Contractuel (contrat à durée déterminée) - Droit public",
+              "Contractuel (contrat à durée indéterminée) - Droit public",
+              "Contractuel (contrat à durée déterminée) - Droit local",
+              "Contractuel (contrat à durée indéterminée) - Droit local",
+              "Volontaire service civique",
+              "Volontaire international",
+              "Apprenti",
+              "Stagiaire \"études scolaire\""
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "FONCTIONNAIRES",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Grade",
+            "description": "Fonctionnaires : précisez votre grade.",
+            "required": false,
+            "options": [
+              "DR 0 (DR Hors Classe)",
+              "DR 1ère classe",
+              "DR 2nde classe",
+              "__________",
+              "CR Hors classe",
+              "CR Classe normale",
+              "________",
+              "IR 0 (IR Hors classe)",
+              "IR 1ère classe",
+              "IR 2nde classe",
+              "________",
+              "IE Hors classe",
+              "IE Classe normale",
+              "________",
+              "Assistant ingénieur",
+              "________",
+              "Technicien Classe exceptionnelle",
+              "Technicien Classe supérieure",
+              "Technicien Classe normale",
+              "________",
+              "Adjoint technique principal 1ère classe",
+              "Adjoint technique principal 2ème classe",
+              "Adjoint technique (C1)"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "CONTRACTUEL (personnels en CDD et CDI)",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Niveau de recrutement contractuel",
+            "description": "Contractuels : préciser votre niveau de recrutement.",
+            "required": false,
+            "options": [
+              "Chercheur contractuel",
+              "Doctorant contractuel",
+              "Ingénieur de recherche contractuel",
+              "Ingénieur d'études contractuel",
+              "Assistant ingénieur contractuel",
+              "Technicien de la recherche contractuel",
+              "Adjoint technique de la recherche contractuel"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Votre contrat de travail : date de fin",
+            "description": "Pour les contractuels dont le contrat est à durée déterminée, préciser la date de fin de votre contrat de travail actuel auprès de l'IRD.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "VOTRE TEMPS DE TRAVAIL",
+        "description": "La quotité de journées télétravaillées est proratisée pour les agents à temps partiel, dans la limite d'un temps de travail à 80%.\n\nLes agents travaillant à 80% sur 2 jours ou à 90% peuvent bénéficier du télétravail. Deux jours de présence hebdomadaires sur site restent obligatoires, quelle que soit la quotité de travail. ",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Quotité de travail",
+            "description": "Ex : un agent à temps partiel à 80 % (4 jours travaillés) verrait sa semaine décomposée comme suit : télétravail 2 jours, 1 jour non travaillé et 2 jours sur site.\n\nLe télétravail sur préconisations médicales ou au titre du bénéfice de l'obligation d'emploi n'est pas concerné ici. ",
+            "required": true,
+            "options": [
+              "100 % (temps plein)",
+              "90 %",
+              "80 %"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "VOTRE GESTIONNAIRE RESSOURCES HUMAINES",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Si connu, nom et prénom de votre Gestionnaire Ressources Humaines",
+            "description": "Prénom et nom du gestionnaire ressources humaines tel que mentionnés sur votre portail IRD : \"Ressources humaines > Données personnelles > Mon dossier > Données administratives\"",
+            "required": false,
+            "options": [
+              "DR SE - Corinne Bourbant",
+              "DR SE - Caroline Grégoire",
+              "DR SE - Alexandra Epoque",
+              "DR Occitanie - Geoffrey Jacquemin",
+              "DR Occitanie - Céline Collin",
+              "DR Occitanie - Odile Roux",
+              "DR Occitanie - Daniel Fonta",
+              "DR Occitanie - Laura Calixte",
+              "DR Ile-de-France - Nadine Kesli",
+              "DR Ile-de-France - Silvia Poli",
+              "DR Ile-de-France - Sandrine Gras",
+              "DRH - Pôle ARH - Laura Dublin / Lydia Tazamoucht",
+              "DRH - Pôle ARH - Sandra Le Fur",
+              "DRH - Pôle ARH - Audrey Valero / Zina Lekhetari ",
+              "DRH - Pôle ARH - Élodie Hoareau"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTIFICATION DES ACTIVITES EXERCEES EN TELETRAVAIL ET DES MOYENS INFORMATIQUES UTILISÉS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Activités ou tâches pouvant être réalisées en télétravail",
+        "description": "Cela fera partie des échanges entre le responsable et vous, en tant qu'agent : vous préciserez dans le cadre d'un entretien les activités \"télétravaillables\" ainsi que les logiciels ou applications informatiques nécessaires à la mise en œuvre de vos missions.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Activités pouvant être réalisées en télétravail",
+            "description": "Merci de décrire le plus précisément possible ces activités et/ou tâches réalisées en télétravail.",
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Applications informatiques nécessaires",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ORGANISATION SOLLICITEE PAR L’AGENT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Choix du ou des jour(s) fixe(s) télétravaillé(s) / fréquence / adresse complète du lieu d'exercice du télétravail",
+        "description": "La quotité maximum de télétravail pour un agent à temps complet, en fonction des nécessités de service est de 1 à 3 jours hebdomadaires fixes et réguliers (dégressif avec le temps partiel), soit un plafond annuel de 132 jours (sur la base de 44 semaines travaillées).\n\nUn minimum de 2 jours de présence hebdomadaire sur le site professionnel est obligatoire. ",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Engagement n°1 de la saisie des jours télétravaillés sur le Portail SI IRD",
+        "description": "Suite à l'accord par mon responsable hiérarchique direct à ma demande de télétravail, je m'engage à mettre à jour et à compléter sur le portail du système d'informations (Portail SAP Congés) mon planning de jours de télétravail mis en place dans l'outil après la campagne. \nCette saisie (mise à jour)  permet la traçabilité de ma présence sur site ou domicile en cas d'accident et le paiement de l'indemnisation du télétravail si je demande à en bénéficier.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Engagement n°2 de la saisie de tout changement ou modification des jours télétravaillés sur le Portail SI IRD",
+        "description": "Je m'engage également à utiliser le portail pour tout changement ou modification d'une journée initialement prévue en télétravail ( dans ces cas, 72 heures au préalable).\n\nCette modification s'effectue en accord avec mon responsable hiérarchique.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "MODALITE de télétravail ENVISAGEE",
+        "description": "Les journées ouvertes au télétravail sont comprises entre 1 et 3 jours hebdomadaires. \n\nExemple : je choisis la modalité de 2 jours de télétravail par semaine. Je peux télétravailler toutes les semaines 2 jours mais il est possible, après accord de ma hiérarchie, de supprimer un jour de télétravail pour raisons professionnelles (un séminaire en présentiel par exemple). Il me sera possible dans les semaines qui suivent d'ajouter ce jour en télétravail si j'en ressens le besoin professionnel.\n\nLe caractère systématique et fréquent de demandes de modifications de nombre ou choix de jours de télétravail entrainera la nécessité de revoir les modalités de ma demande de télétravail avec mon supérieur hiérarchique.",
+        "required": true,
+        "options": [
+          "1 jour par semaine",
+          "2 jours par semaine",
+          "3 jours par semaine"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Conditions d’accès liées à l’espace de télétravail habituel",
+        "description": "Vous devez préciser le lieu privilégié que vous choisirez pour exercer le télétravail.\n\nVous pourrez avoir des lieux autres en fonction de votre besoin professionnel et / ou personnel.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du lieu de télétravail principal",
+        "description": "Écriture intuitive.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du lieu de télétravail secondaire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "JOUR(S) DE TELETRAVAIL SOLLICITE(S)",
+        "description": "Dans le respect des jours télétravaillables arrêtés par le responsable de structure, en fonction des activités de son ou de ses services.\n\nVous pouvez cocher la ou les case(s) de votre choix en utilisant la barre d'espace de votre clavier.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "LUNDI",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "MARDI",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "MERCREDI",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "JEUDI",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "VENDREDI",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "CONDITIONS MATERIELLES DU TELETRAVAIL",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Je dispose d'une connexion Internet adaptée à mes besoins professionnels",
+            "description": "...c'est-à-dire que je suis en mesure d'effectuer mes activités du quotidien en télétravail (visioconférence, séminaire, formation, échanges...)",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Je dispose d’une ligne téléphonique JABBER",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Je dispose d’un espace dédié au télétravail adapté offrant de bonnes conditions d’ergonomie",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "EN COMPLEMENT DE LA QUESTION PRECEDENTE",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Disposez-vous d'un ordinateur portable fourni par l'IRD dans le cadre de votre activité professionnelle ?",
+            "description": "Dans l'hypothèse où vous ne disposeriez pas d'un ordinateur portable fourni par l'IRD, une demande de mise à disposition de matériel sera adressée à la DDUNI à l'issue de la campagne.",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Marque (fournisseur)",
+            "description": null,
+            "required": false,
+            "options": [
+              "DELL",
+              "HEWLETT-PACKARD",
+              "APPLE"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Type de matériel déjà installé à domicile",
+            "description": "Il s'agit ici du matériel professionnel que vous pourriez déjà détenir à votre domicile.\n\nVous avez la possibilité de sélectionner plusieurs items dans la liste ci-dessous.",
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Aucun",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Ecran",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Clavier",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Souris",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Réhausseur",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Sac à dos ou Sacoche",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Si vous avez répondu \"aucun\" ou pour tout besoin complémentaire, type de matériel souhaité",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Document à joindre à votre demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "ATTESTATION D'ASSURANCE A FOURNIR",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Document obligatoire",
+            "description": "  ",
+            "required": false
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Attestation d'assurance habitation couvrant l'exercice du télétravail à domicile, datée et signée par votre société d'assurance.   Toute autre attestation ne faisant pas mention de la possibilité d'activités en \"télétravail\" ne sera pas prise en compte et le dossier sera réputé incomplet.",
+            "description": "Vous ne serez donc pas autorisé à télétravailler sans la transmission de l'attestation d'assurance HABITATION TELETRAVAIL pour une période de couverture débutant a minima au 2 février 2022. ",
+            "required": false
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "En cours d’année, pensez à renouveler votre assurance habitation mentionnant l’activité télétravail lorsque celle-ci arrive à échéance et à l'envoyer à votre Gestionnaire RH dédié(e) ; il en est de même si vous changez de lieu d'exercice de télétravail (changement de domicile, recours à un tiers lieux....)",
+            "description": "A défaut de cette attestation lors de votre demande initiale, aucune autorisation de télétravail ne pourra vous être délivrée.",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce à déposer ici par téléchargement",
+            "description": "Pour déposer la pièce à joindre, cliquez sur \"parcourir\" / récupérer la pièce dans vos documents / cliquez sur \"ok\" ou \"joindre\" ; le dépôt est réussi lorsque l'intitulé de votre document est visible ci-dessous.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ATTESTATIONS SUR L'HONNEUR",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "En cochant les cases suivantes, vous attestez sur l'honneur de la conformité de votre lieu de télétravail (aucune autre attestation sur l'honneur ne vous sera demandée).",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Attestation sur l'honneur : CONFORMITE ELECTRIQUE",
+            "description": "J'atteste sur l’honneur de la conformité électrique de l'espace de travail à la réglementation en vigueur pour l'exercice du télétravail (domicile personnel ou tiers lieux privés - installation électrique, protection des circuits et dispositifs assurant la sécurité des personnes).",
+            "required": true
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Attestation sur l'honneur : CONFORMITE DU DOMICILE / TIERS LIEU",
+            "description": "J’atteste disposer d'un aménagement de mon poste de travail me permettant d'exercer mon activité professionnelle dans des conditions satisfaisantes, dans un espace dédié, disposant d’espaces de rangement des fournitures et documents professionnels, susceptible d’accueillir le matériel informatique  mis à disposition par l’IRD, doté d’un éclairage adapté par lumière naturelle et lumière artificielle, dans un espace salubre, correctement chauffé et isolé des bruits extérieurs et intérieurs et des sollicitations familiales.\n\nJ’atteste de la conformité de mon logement à la législation relative à la prévention incendie.\nDe manière générale, mon domicile ne présente pas de défaut électrique ou d’éléments sous tension accessibles par contact (prise abimée, fils dénudés, …).\n\nJ'atteste avoir vérifié auprès de l'administration de mon tiers lieu privé de télétravail de l'existence d'une assurance habitation / dommages.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "AVIS RENDU PAR LE RESPONSABLE HIERARCHIQUE SUITE A ENTRETIEN",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "PARTIE A COMPLETER PAR LE RESPONSABLE N+1 SUITE A L'ENTRETIEN",
+        "description": "Un entretien doit obligatoirement avoir lieu entre vous et votre responsable N+1.\n\nDans le cadre de cette campagne, les parties ci-dessous devront être complétées impérativement par le responsable hiérarchique. \n\nUn état de contrôle sera envoyé au dit responsable ainsi qu'au directeur de structure à l'issue de la campagne pour validation définitive du dispositif.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Guide Démarches simplifiées TELETRAVAIL : Responsable & Agent",
+            "description": "RAPPEL :\nUn guide est accessible en cliquant en haut de cette page sur \" -i- GUIDE DE LA DÉMARCHE\"\nIl vous permettra une appropriation du site  démarches simplifiées. \nVous et votre responsable N+1 pouvez le consulter pour vous aider dans la démarche de finalisation du dépôt du dossier.",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "DATE DE L'ENTRETIEN",
+            "description": "Partie complétée par le responsable hiérarchique N+1.",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "ACCORD SUR LA MISE EN OEUVRE DU TELETRAVAIL",
+            "description": "Partie complétée par le responsable hiérarchique N+1.",
+            "required": true
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "MOTIF(S) DE REFUS",
+            "description": "Partie complétée par le responsable hiérarchique N+1.",
+            "required": false,
+            "options": [
+              "Ancienneté insuffisante sur le poste",
+              "Temps partiel incompatible avec la demande de télétravail",
+              "Nature des activités incompatible avec le télétravail (à préciser)",
+              "Incompatibilité avec la bonne marche du service (organisation de son service, réunions, méthode de travail) et/ou configuration de l'équipe incompatible (préciser dans la case commentaires)",
+              "L'agent ne maîtrise pas suffisamment les savoirs, les outils et le réseau d'interlocuteurs dont il a besoin pour travailler hors site",
+              "Motifs de la demande tenant exclusivement à des convenances personnelles",
+              "Maîtrise insuffisante d’au moins une des compétences suivantes (Capacité d’organisation, Autonomie, Aptitude à la communication et au « rendre compte », Maîtrise des technologies de la communication, Gestion du temps, Sens de l’initiative)",
+              "Espace de travail à domicile inadapté",
+              "Connexion haut débit inexistante",
+              "La distance entre le domicile de l’agent et le lieu d’affectation met l’agent dans l’impossibilité de rejoindre son site en cas de nécessité de service",
+              "Autres (à préciser) - Commentaires :"
+            ]
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "ARGUMENTAIRE RELATIF AU REFUS",
+            "description": "Partie complétée par le responsable hiérarchique N+1, si nécessaire.",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "DATE DE DEBUT DE TELETRAVAIL",
+            "description": "Partie complétée par le responsable hiérarchique N+1.\n\nLa date de début du télétravail est fixée pour tous les agents de l'IRD à compter du 2 février 2022 (date de levée du télétravail obligatoire pour raison de crise sanitaire).",
+            "required": true
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "JOUR(S) TELETRAVAILLE(S) ACCORDE(S) PAR LE RESPONSABLE HIERARCHIQUE",
+            "description": "Partie complétée par le responsable hiérarchique N+1.\n\nRappel :\n2 jours sur site obligatoires pour tous (personnels à temps plein ou à temps partiel)\nsoit un maximum de 3 jours télétravaillés par semaine accordés.",
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "LUNDI",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "MARDI",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "MERCREDI",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "JEUDI",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "VENDREDI",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "HORAIRES PRATIQUES ET VALIDES EN TELETRAVAIL",
+            "description": "Partie complétée par le responsable hiérarchique N+1.\n\nRAPPEL\n\nConformément à la Décision n° 201A398 du 7 novembre 2001 portant aménagement et réduction du temps de travail à l'IRD en vigueur, la durée hebdomadaire du travail arrêtée par décision du Directeur Général est égale au choix, dans le respect du fonctionnement du service, à 36h11 (7 h 12 par jour) ou à 38h30 ( 7 h 42 par jour), pour l'ensemble des personnels titulaires et non titulaires en fonction. \nLa durée quotidienne de travail effectif ne peut excéder 10 heures. \nL'amplitude maximale de travail ne peut excéder 12 heures. \nUne pause méridienne (interruption de midi) est obligatoire. Elle ne peut être inférieure à 45 minutes. Elle n'est pas comptabilisée dans le temps de travail.",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Horaires",
+            "description": "Partie complétée par le responsable hiérarchique N+1.\n\nPréciser horaires de matinée et horaires d'après-midi de la manière suivante ; par exemple, pour un agent à temps plein exerçant 38h30 par semaine :\n\n8 h 00 - 12 h 00 / 13 h 00 - 17 h 42  ",
+            "required": true
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "APRÈS CETTE ÉTAPE REALISEE PAR VOTRE RESPONSABLE HIÉRARCHIQUE (N+1), VOUS, en tant qu’AGENT DEMANDEUR,...",
+            "description": "... pouvez procéder au dépôt définitif de votre dossier dans démarches simplifiées en cliquant sur \"DÉPOSER LE DOSSIER\" en respectant la date de fin de campagne\n\n\nRappel : \nla fin de la campagne est fixée au lundi 28 février 2022 - 23 h 59, heure de métropole.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "EN GENERAL...",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Contact",
+            "description": "Pour toutes questions sur le dispositif expérimental du télétravail mis en place à l’IRD, vous pouvez contacter :\n  - Le Référent télétravail : Service Développement des talents et qualité de vie au travail (DRH)\n  - Le Référent administratif télétravail : Service Administration RH & Politique sociale (DRH)\n\nvia l'adresse : drh.teletravail@ird.fr\n\n* RAPPEL : \nconformément à la Décision n° 201A398 du 7 novembre 2001 portant aménagement et réduction du temps de travail à l'IRD en vigueur, la durée hebdomadaire du travail arrêtée par décision du Directeur Général est égale au choix, dans le respect du fonctionnement du service, \nà 36h11 (7 h 12 par jour) \nou à 38h30 ( 7 h 42 par jour) , \npour l'ensemble des personnels titulaires et non titulaires en fonction. La durée quotidienne de travail effectif ne peut excéder 10 heures. L'amplitude maximale de travail ne peut excéder 12 heures. \n\nUne pause méridienne (interruption de midi) est obligatoire. Elle ne peut être inférieure à 45 minutes. Elle n'est pas comptabilisée dans le temps de travail.",
+            "required": false
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Lien entre la DRH et le directeur de structure",
+            "description": "A la fin de la campagne, la Direction des Ressources Humaines procédera en lien avec les directeurs de structure à la vérification des modalités de télétravail afin d'assurer la diffusion des autorisations de télétravail en minimisant les risques d'anomalies.",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

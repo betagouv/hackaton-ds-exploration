@@ -1,0 +1,632 @@
+{
+  "number": 91842,
+  "title": "Incorporation EOGN 2024",
+  "description": "Cette démarche permet la constitution de votre dossier d'incorporation à l'EOGN",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2024-04-25T15:49:14+02:00",
+  "service": {
+    "nom": "Section Administration des Élèves",
+    "organisme": "École des officiers de la gendarmerie nationale",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/incorporation-eogn-2024",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "le lien leur sera envoyé par courriel",
+  "cadreJuridiqueUrl": "https://www.legifrance.com",
+  "logo": {
+    "filename": "logo_eogn.png",
+    "checksum": "wOVFTT8/J7alhRKDGvq5uQ==",
+    "byteSize": "36000",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 146,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information",
+        "description": "Merci de joindre les pièces justificatives en respectant les consignes suivantes :\r\n- format .pdf uniquement\r\n- respect impératif du nommage du fichier indiqué pour chaque pièce à la date du document (AAAAMMJJ)",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Recrutement",
+        "description": "",
+        "required": true,
+        "options": [
+          "OG TITRES (OGT)",
+          "OG UNIVERSITAIRE (OGU)",
+          "OG SCIENTIFIQUE (OGS)",
+          "OG CAT.A",
+          "OCTA CAT.B",
+          "OCTA TITRES (OCTA T)",
+          "OSC_ENCADREMENT (OSC_E)",
+          "OSC_SPÉCIALISTES (OSC_S)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dossier à retourner avant le 31/05/2024 date de rigueur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dossier à retourner avant le 02/06/2024 date de rigueur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dossier à retourner avant le 21/06/2024 date de rigueur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dossier à retourner avant le 28/06/2024 date de rigueur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° Identifiant Défense (NID)",
+        "description": "Ce numéro correspond à l'identifiant défense présent sur l'attestation de la journée défense et citoyenneté (JDC)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation JDC (ou document attestant du NID)",
+        "description": "Nom du fichier .pdf :  ATTEST_JDC_AAAAMMJJ",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° INSEE (sécurité sociale)",
+        "description": "Pour la Polynésie et la Nouvelle-Calédonie, indiquer \"999\"",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation sécurité sociale ou copie recto/verso de la carte vitale",
+        "description": "Nom du fichier .pdf :  ATTEST_SS",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ETAT-CIVIL",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sexe",
+        "description": "",
+        "required": true,
+        "options": [
+          "Masculin",
+          "Féminin"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom d'usage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous être connu en gendarmerie sous votre nom d'usage ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si oui, vous devez remplir le formulaire de port du nom d'usage en gendarmerie",
+        "description": "Nom du fichier .pdf : NOM_USAGE_AAAAMMJJ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom(s)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département de naissance",
+        "description": "Pour l'étranger choisir 99 - Etranger",
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune de naissance",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Ville de naissance",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Pays de naissance",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Acte de naissance intégral ou copie complète du livret du famille (en couleurs)",
+        "description": "extrait de moins de 3 mois à demander en ligne à la mairie du lieu de naissance.\r\n\r\nNom du fichier .pdf : ACTE_NAISS",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Carte nationale d'identité ou passeport - (recto-verso sur le même document)",
+        "description": "Nom du fichier .pdf : CNI",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SITUATION FAMILIALE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation",
+        "description": "",
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Marié(e)",
+          "Pacsé(e)",
+          "Concubinage",
+          "Divorcé(e)",
+          "Séparé(e)",
+          "Veuf/ve"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de situation de famille (hors célibataire)",
+        "description": "Acte de mariage, PACS\r\nNom du fichier .pdf : \r\n- PACS_AAAMMJJ\r\n- ACTE_MARIAGE_AAAAMMJJ \r\n- LIVRET_FAMILLE\r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom du conjoint",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Profession du conjoint",
+        "description": "",
+        "required": false,
+        "options": [
+          "Salarié du secteur privé",
+          "Salarié du secteur public",
+          "Fonctionnaire",
+          "Militaire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si conjoint MILITAIRE, indiquer l'Arme et son grade",
+        "description": "",
+        "required": false,
+        "options": [
+          "Armée de Terre",
+          "Armée de l'Air et de l'Espace",
+          "Marine Nationale",
+          "Gendarmerie"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'enfants fiscalement à charge",
+        "description": "Si aucun enfant à charge, merci de le préciser.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "COORDONNÉES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du domicile",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse courriel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Confirmation de votre adresse courriel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone portable",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PERSONNE À PRÉVENIR EN CAS D'URGENCE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lien",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone 1",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATIONS DIVERSES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Restriction alimentaire",
+        "description": "Ex : allergies, végétarien, sans porc...",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Taille",
+        "description": "en cm",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "QUALIFICATIONS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information",
+        "description": "Pour les recrutements OG universitaire, scientifique, titres et OCTA titres vous devez obligatoirement être titulaire d'un diplôme d'ingénieur ou titre conférant le grade de master ou d'un diplôme ou titre homologué au RNCP au niveau I.\r\n\r\nLes conditions de diplôme exigées des candidats sont appréciées jusqu'à la date d'admission à l'École des officiers de la gendarmerie nationale.",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Diplômes scolaires et universitaires",
+        "description": "",
+        "required": true,
+        "options": [
+          "Baccalauréat",
+          "DUT/BTS",
+          "Licence",
+          "Maîtrise",
+          "Master",
+          "Diplôme d'ingénieur",
+          "Doctorat"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Préciser la spécialité des diplômes (droit, sciences criminelles, économie....)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie des diplômes obtenus",
+        "description": "Fournir la copie des diplômes (1 seul fichier.pdf)\r\nNom du fichier : DIPL_CIVILS",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie des diplômes de premiers secours",
+        "description": "ex : PSC1, PSE1, BNSSA (1 seul fichier.pdf)\r\nNom du fichier : SECOURISME",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Permis de conduire",
+        "description": "",
+        "required": true,
+        "options": [
+          "Permis A",
+          "Permis B",
+          "Permis C",
+          "Permis D",
+          "Permis E",
+          "Pas de permis de conduire"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "copie du permis (recto-verso)",
+        "description": "Nom du fichier .pdf : PC_AAAAMMJJ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Qualifications spécifiques",
+        "description": "Préciser la/les spécialités détenues  : cavalier, montagne, chef de 1/4...\r\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Diplôme(s) spécialité(s)",
+        "description": "Fournir une copie des diplômes, certificats et/ou attestations (1 seul fichier pdf)\r\nNom du fichier .pdf : QUALIFS_SPÉCIFIQUES",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autres qualifications militaires",
+        "description": "Fournir une copie de toutes les qualifications militaires (1 seul fichier pdf)\r\nNom du fichier : QUALIFS_MILIS",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RESERVISTE/VOLONTARIAT/ENGAGEMENT EN GENDARMERIE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Êtes-vous ou avez vous été réserviste, engagé ou volontaire ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "NIGEND",
+        "description": "Si ancien gendarme adjoint ou réserviste, précisez le NIGEND",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Relevé d'activité des jours de réserve",
+        "description": "Nom du fichier : RA_AAAAMMJJ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RÉSERVISTE/ VOLONTARIAT / ENGAGEMENT DANS UN AUTRE CORPS D'ARMÉE",
+        "description": "\r\n",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Êtes-vous ou avez-vous été réserviste, engagé ou volontaire dans un autre corps d'armée ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Préciser l'arme",
+        "description": "",
+        "required": false,
+        "options": [
+          "Armée de Terre",
+          "Armée de l'Air et de l'Espace",
+          "Marine Nationale"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'engagement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fournir tous les documents relatifs aux services effectués",
+        "description": "- État Signalétique et des Services \r\n- Fiche CONCERTO (Armée de Terre), Fiche individuel du marin , Carte de visite (Armée de l'Air)\r\n- Copies des anciens contrat(s), renouvellement(s) et / ou décisions de résiliation(s)\r\n- Relevé des jours d'activité de réserve\r\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "État Signalétique et des Services",
+        "description": "Nom du fichier : ESS_AAAAMMJJ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Fiche CONCERTO (AdT), Fiche individuel du marin , Carte de visite (AA)",
+        "description": "Nom du fichier :\r\n- FICH_CONCERTO_AdT_AAAAMMJJ\r\n- FIM_AAAAMMJJ\r\n- CV_AA_AAAAMMJJ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Contrats d'engagement , résiliation de contrat, nomination de grade",
+        "description": "1 seul fichier .pdf\r\nNom du fichier : SERVICES_MILIS",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Relevé des jours d'activité de réserve",
+        "description": "Nom du fichier .pdf : RA_AAAAMMJJ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Solde (ne concerne pas les réservistes)",
+        "description": "Militaires du rang\r\nPièces à fournir :\r\n- Dernier Bulletin de Solde \r\n- Certificat de cessation de paiement - obligatoire pour être soldé en gendarmerie\r\n- Fiche Indemnité de mobilité géographique des militaires (IMGM) à faire renseigner par votre gestionnaire RH",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative - Dernier bulletin de solde",
+        "description": "Nom du fichier .pdf :  BS_AAAAMMJJ\r\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative - Certificat de cessation de paiement",
+        "description": "Nom du fichier .pdf : - CCP_AAAAMMJJ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative - IMGM",
+        "description": "A faire renseigner par votre gestionnaire RH\r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pièce justificative - IMGM",
+        "description": "Nom du fichier .pdf : FICHE_IMGM_AAAAMMJJ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Dossier Individuel Unique",
+        "description": "Coordonnées de votre gestionnaire RH\r\nService\r\nGrade_Nom_Prénom\r\nCourriel\r\nN° de téléphone\r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Chancellerie",
+        "description": "Lister :\r\n- les médailles\r\n- les lettres de félicitations\r\n- les citations",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": "un seul fichier .pdf\r\nNom du fichier : CHANCELLERIE",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PIÈCES COMPLÉMENTAIRES À JOINDRE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB",
+        "description": "Le RIB doit :\r\n- être à votre nom\r\n- concerner un compte courant domicilié dans une banque française \r\n\r\nobligatoirement au format A4\r\nNom du fichier .pdf : RIB",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certificat médico-administratif d'aptitude à l'incorporation",
+        "description": "Validation de votre aptitude par le médecin militaire.\r\nNom du fichier .pdf : CMAA_AAAAMMJJ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Concerne uniquement les candidats des recrutements OG CAT. A et OCTA CAT.B",
+        "description": "Fournir soit :\r\n- l'arrêté de détachement de l'administration d'appartenance (pour les titulaires)\r\n- la copie de votre congé pour convenances personnelles (pour les non titulaires)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièces justificative",
+        "description": "Nom du fichier .pdf :  - ARR_DÉTACHEMENT_AAAAMMJJ\r\n                                       - CONGÉ_CONVENANCE_PERSO_AAAAMMJJ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Documents annexes",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Formulaire département des langues",
+        "description": "Formulaire à compléter et à retourner par mail à l'adresse indiquée sur le document : dl.dcip.eogn@gendarmerie.interieur.gouv.fr\r\nNom du fichier .pdf : NOM_USAGE_DL",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Formulaire accès véhicule",
+        "description": "Formulaire à compléter et à retourner par mail à l'adresse indiquée sur le document : ssecu.csa.eogn@gendarmerie.interieur.gouv.fr\r\nNom du fichier .pdf : NOM_USAGE_VHL",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Liste des effets complementaires",
+        "description": "Liste des effets complémentaires à posséder avant votre incorporation en août.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pack tactique – Effet combat",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Paquetage reçu par type de recrutement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Listing des effets disponibles au comptoir des ventes EOGN",
+        "description": "Listing des effets au  complément paquetage disponibles au comptoir des ventes EOGN",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Tuto pour faire un sac de bivouac",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

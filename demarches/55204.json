@@ -1,0 +1,387 @@
+{
+  "number": 55204,
+  "title": "ISERE – Dispositif d’urgence – Soutien aux exploitations d’élevage porcin (jusqu'au 17 mars 2022 inclus)",
+  "description": "Régime d’aide d’État SA. 56 985 (2020/N) – France – COVID 19 : Régime cadre temporaire pour le soutien aux entreprises, tel que prolongé par le régime SA.100959(2021/N)\r\n\r\nLe dispositif d'urgence est réservé aux exploitations agricoles d'élevage porcin les plus fragiles dont l'effet ciseaux (hausse des coûts de production combinée à une baisse des cours de la viande porcine) pèse sur la trésorerie au risque de mettre en péril la pérennité de l'activité. \r\n\r\nL’aide d’urgence est forfaitaire : 15 000 € par exploitation avec application de la transparence GAEC, et ne pourra être versée que si les pertes d'exploitations subies depuis septembre 2021 sont au moins égales à 15 000 €.\r\n\r\nA noter qu'un éleveur non propriétaire des animaux n'est pas éligible. \r\n\r\nSi les tous les dossiers ne peuvent pas être financés, une priorisation des demandes sera effectuée par la cellule départementale de crise en fonction :\r\n– du taux de spécialisation de l'exploitation en élevage porcin, \r\n– du système d'alimentation des animaux et des modalités de commercialisation de la viande, \r\n– du statut de jeune installé, \r\n– de la situation de fragilité de l'exploitation agricole. \r\n\r\nLa demande d'aide peut être déclarée jusqu'au 17 mars 2022 inclus. ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2022-02-24T16:35:22+01:00",
+  "service": {
+    "nom": "Service Agriculture et Développement rural",
+    "organisme": "Direction Départementale des Territoires de l'Isère",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/isere-aide-urgence-porcs",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.isere.gouv.fr/Politiques-publiques/Agriculture-foret-et-developpement-rural/Aides-conjoncturelles",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "LogoMaa.PNG",
+    "checksum": "iAJTTPRqM+fw2QwpzU+7cw==",
+    "byteSize": "8151",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "CirculaireCrisePorcine.pdf",
+    "checksum": "hq2FJcva7WZQ7Npt22oyqQ==",
+    "byteSize": "229848",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 18,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification du demandeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° SIRET",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Avis de situation au répertoire SIRENE ou KBIS de moins de 3 mois",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° PACAGE",
+        "description": "Bien penser à commencer la saisie par 0380 suivie de 5 chiffres.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom prénom ou raison sociale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Statut juridique de l'exploitation",
+        "description": "Exploitation individuelle, GAEC, EARL, SCEA, SARL, ...",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Pour les GAEC, préciser le nombre d'associés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Pour les GAEC, préciser le nombre d'UTH affectés à l'atelier porcin",
+        "description": "1 UTH = 1 unité de travail humain, équivaut à 1 temps complet sur l'exploitation\n",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Nouveaux installés comme chef d'exploitation à titre principal depuis le 01/01/2017",
+        "description": "Référence : date d'installation MSA",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Report de cotisations demandé à la MSA",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Système d'élevage",
+        "description": null,
+        "required": true,
+        "options": [
+          "propriétaire des animaux ",
+          "intégration"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si intégration, préciser le nom de l'intégrateur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de détenteur",
+        "description": "Attribué par l'EDE, 12 chiffres, commence par 03838 (sauf si autre département)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de marquage",
+        "description": "Attribué par l'EDE, sur le format FR 38 ABC",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Activités",
+        "description": "Plusieurs cases peuvent être cochées",
+        "required": true,
+        "options": [
+          "maternité collective",
+          "naisseur",
+          "engraisseur",
+          "naisseur/engraisseur (dont post-sevrage)"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre de truies",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre moyen de porcs charcutiers produits par an",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Système d'alimentation des animaux et modalités de commercialisation",
+        "description": null,
+        "required": true,
+        "options": [
+          "commercialisation en filière longue et achats totaux des aliments pour les porcs",
+          "commercialisation en filière longue et achats partiels des aliments pour les porcs (fabrication à la ferme)",
+          "commercialisation en filière courte (vente directe ou via des magasins de producteurs, y/c transformation à la ferme) et achats totaux ou partiels des aliments"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Chiffre d’affaires global de l’exploitation",
+        "description": "Dernier exercice comptable clôturé ",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Chiffre d'affaires de l'atelier porcin",
+        "description": "Dernier exercice comptable clôturé ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre une attestation comptable présentant le chiffre d'affaires global de l'exploitation et le chiffres d'affaires porcin, pour le dernier exercice comptable clôturé",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées du demandeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code Postal",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Indiquer votre numéro de téléphone fixe et/ou de portable",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": "Indiquer votre adresse email",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations bancaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Exploitation multi-bancaire",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser le nom des organismes bancaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre un RIB/IBAN",
+        "description": "Joindre le RIB du compte sur lequel l'aide sera versée en cas d'attribution d'une aide\n\nATTENTION l'adresse affichée sur le RIB doit être la même que celle liée au SIRET",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Critères d'éligibilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justification d'une trésorerie dégradée récemment du fait d'un effet ciseaux (hausse des coûts de production combinée à une baisse des cours de vente)",
+        "description": "Joindre au moins un des justificatifs suivants : \n– attestation comptable ou bancaire justifiant de la consommation de 80% de crédits court terme pendant un mois à compter du 01/01/2022,\n– attestation bancaire du montant des en-cours bancaires au 31/01/2021 et au 31/01/2022,\n– attestation comptable ou des fournisseurs sur le montant total des dettes « fournisseurs » au 31/01/2021 et au 31/01/2022\n– attestation comptable du montant de la trésorerie nette globale hors compte(s) courants d'associé(s) au 31/12/2020 et au 31/12/2021",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Demande de Prêt Garanti par l'Etat",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si oui, joindre un justificatif",
+        "description": "Justification d'un engagement ou d'une démarche de demande de PGE antérieure au 31/01/22 (un mail suffit)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Procédures Collectives",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Exploitation en procédure collective ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si oui préciser",
+        "description": null,
+        "required": false,
+        "options": [
+          "Sauvegarde",
+          "Règlement Amiable Judiciaire ",
+          "Redressement judiciaire ",
+          "Liquidation Judiciaire"
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'homologation du plan",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'ouverture",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Mentions Légales",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "La loi n°78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés s’applique aux réponses faites sur ce formulaire. Elle garantit un droit d’accès et de rectifications pour les données à caractère personnel vous concernant auprès de l’organisme qui traite votre demande.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Signature et engagements",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Je soussigné :",
+        "description": "Nom Prénom",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pour les GAEC, préciser noms et prénoms des associés",
+        "description": "séparer le nom des associés par un point-virgule",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Certifie :",
+        "description": "• avoir pouvoir pour représenter le demandeur dans le cadre de la présente formalité ;\n• l'exactitude de l'ensemble des informations fournies dans le présent formulaire et les pièces jointes.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste sur l'honneur être propriétaire des animaux et j'autorise l'administration à le vérifier par accès aux données détenues par l'organisme de pesée-classement-marquage dont je relève",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m'engage :",
+        "description": "à délivrer tout document ou justificatif sur demande de l'autorité compétente dans le cadre de la présente demande ;  à me soumettre et à faciliter l'ensemble des contrôles administratifs ;\n\nJe suis informé qu'en cas d'irrégularité ou de non respect des engagements ci-dessus, le remboursement des sommes perçues sera exigé, majoré d'intérêts de retard et éventuellement de pénalités financières, sans exclure d'autres poursuites et sanctions prévues par les textes en vigueur.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste sur l'honneur :",
+        "description": " - que l'aide demandée ne dépasse pas le montant des pertes d'exploitation subies depuis septembre 2021,\n\n- et que la somme du montant de l'aide demandée via le présent formulaire et du montant des aides COVID déjà reçues par le demandeur ne dépasse pas le plafond individuel prévu par le régime-cadre temporaire pour le soutien aux entreprises SA. 56 985 (2020/N) tel que prolongé par le régime SA.100959(2021/N),  ce plafond étant mutiplié par le nombre d'associés lorsque le demandeur est un GAEC. ",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J’accepte :",
+        "description": "- que ma situation soit étudiée en cellule départementale de crise et de transmettre, le cas échéant, aux membres de cette cellule les données de mon exploitation (technique, économique, financière, et sociale) strictement nécessaires à l’instruction de ma demande d’aide. Je prends acte que ces échanges se limiteront au seul périmètre de cette cellule de crise. Je suis informé qu’en l’absence de ces éléments, l’administration pourrait, faute d’éléments être amenée à rejeter ma demande d’aide.\n\n- que ma situation soit abordée, en toute confidentialité, en cellule départementale d’accompagnement des agriculteurs en difficultés qui pourra éventuellement me proposer un accompagnement adapté aux difficultés rencontrées sur mon exploitation.",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Fait à :",
+        "description": "Indiquer le lieu où vous avez complété ce formulaire.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Le :",
+        "description": "Indiquer la date à laquelle vous avez complété ce formulaire.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Autre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tout autre document méritant d'être porté à notre connaissance",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

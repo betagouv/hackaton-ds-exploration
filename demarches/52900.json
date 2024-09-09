@@ -1,0 +1,179 @@
+{
+  "number": 52900,
+  "title": "DEPOSER une FICHE ACTION PDASR du GARD",
+  "description": "En réponse à l'appel à projet  :\r\nDéposer une fiche action descriptive d'action de sécurité routière en vue de son inscription au PDASR ou en préalable d'une demande de subvention.\r\nPréalable à la demande de subvention :\r\nhttps://www.demarches-simplifiees.fr/commencer/demande-de-subvention-pdasr-du-gard-2022",
+  "tags": [
+    "Aap"
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2022-01-10T16:40:00+01:00",
+  "service": {
+    "nom": "Coordination Sécurité routière",
+    "organisme": "Préfecture du Gard",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/deposer-une-fiche-action-pdasr-du-gard",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.gard.gouv.fr/",
+  "cadreJuridiqueUrl": "https://www.securite-routiere.gouv.fr/",
+  "logo": {
+    "filename": "Bloc_marque_PREFET_Gard.jpg",
+    "checksum": "HC/rwFy08KNCN0u2HLqMoQ==",
+    "byteSize": "365645",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 4,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Fiche de l'action PDASR",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Titre de l'action",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Enjeu auquel se rattache l'action",
+        "description": "",
+        "required": true,
+        "options": [
+          "Jeunes",
+          "Séniors",
+          "Réduction des risques routiers en entreprise",
+          "Conduites addictives",
+          "Usagers vulnérables (piétons, vélos, EDPM, cyclos)",
+          "2-roues motorisés (> ou = à 125 cm3)"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description",
+        "description": "Décrivez les objectifs , le déroulement et les bénéfices attendus de l'action",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Organisme association responsable",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'organisme",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Contact  Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Contact Prénom",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Numéro  de téléphone",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse courriel",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autres informations jugées utiles",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Partenariats",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Listes des partenaires",
+        "description": "Quels sont les partenaires impliqués dans l'action à vos côtés ? \r\nExemple : Éducation nationale, forces de l'ordre, associations, collectivité...",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Financement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Coût total de l'action",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Subvention demandée au titre du PDASR",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant de la subvention demandée au itre duPDASR",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autre(s) subvention(s)",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Organisme",
+            "description": "",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

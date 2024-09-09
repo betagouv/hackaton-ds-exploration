@@ -1,0 +1,943 @@
+{
+  "number": 84882,
+  "title": "ARS Nouvelle-Aquitaine - Pharmacies à usage intérieur sans activités à risques - PUI Dossier Activité de préparation des doses à administrer (PDA)",
+  "description": "La présente démarche est spécifique aux établissements et structures disposant d’une pharmacie à usage intérieur (PUI) sans activité à risque (activités à risques définies au R.5126-33 du CSP). \r\nPour les établissements exerçant cette activité, elle leur permet de déposer à l’ARS Nouvelle-Aquitaine leur demande d’autorisation de PUI pour la partie Activité de préparation des doses à administrer (PDA) conformément aux dispositions de l’ordonnance n°2016-1729 et du décret modifié n°2019-489 pris pour son application, dans le cadre de la campagne 2024-2025. \r\nElle s’inscrit en complément du dossier de demande « Dossier socle – Moyens généraux » disponible via le lien : https://www.demarches-simplifiees.fr/commencer/ars-nouvelle-aquitaine-pharmacies-a-usage-interieu\r\nLes documents déposés doivent être nommés selon la « notice de nommage des documents » disponible sur le site de l’ARS Nouvelle-Aquitaine : \r\nhttps://www.nouvelle-aquitaine.ars.sante.fr/pharmacies-en-etablissements\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2023-11-27T11:19:06+01:00",
+  "service": {
+    "nom": "Agence Régionale de Santé Nouvelle-Aquitaine",
+    "organisme": "Agence Régionale de Santé Nouvelle-Aquitaine",
+    "typeOrganisme": "operateur_d_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ars-nouvelle-aquitaine-pda",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.nouvelle-aquitaine.ars.sante.fr/pharmacies-en-etablissements",
+  "cadreJuridiqueUrl": " https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000006190697/#LEGISCTA000038598200",
+  "logo": {
+    "filename": "BlocLogo_ARS_ETAT_05_22_png.png",
+    "checksum": "x0MHqrO3wWY2AUevuDorjw==",
+    "byteSize": "117641",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 17,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Avant de déposer un dossier technique pour l'activité de préparation de doses à administrer , vous devez avoir déposé un dossier Moyens généraux",
+        "description": "https://www.demarches-simplifiees.fr/commencer/ars-nouvelle-aquitaine-pharmacies-a-usage-interieu",
+        "required": false
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Veuillez saisir le numéro du dossier Administratif Moyens généraux, numéro que vous avez reçu par mail lors du dépôt du dossier administratif Moyens généraux",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'établissement (ou du GCS)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Personne en charge du dossier",
+        "description": "Nom, prénom, qualité (pharmacien ou autre)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "téléphone de la personne en charge du dossier",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "MOTIF DE LA DEMANDE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Mentionner un ou plusieurs motifs en cochant dans la liste suivante",
+        "description": "",
+        "required": true,
+        "options": [
+          "Création de PUI",
+          "Transfert de la PUI",
+          "Exercice de l’activité de PDA pour le compte de la PUI",
+          "Exercice de l’activité de PDA pour le compte d’une autre PUI",
+          "Renouvellement de l’autorisation de l’activité",
+          "Autre (suppression de l’activité, etc.)"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "A preciser",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "S'il s'agit d'une nouvelle activité",
+        "description": "Préciser le calendrier de réalisation d'éventuels travaux et la date prévisionnelle de démarrage de l'activité",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PERIMETRE DE L’ACTIVITE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "’activité de PDA réalisée par la PUI demandeur concerne :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les médicaments du L.4211-1 du CSP (monopole pharmaceutique)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les médicaments expérimentaux",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les médicaments auxiliaires",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Elle est réalisée sous forme de  Doses unitaires (DU)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "PDA manuelle",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "PDA Automatisée",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Elle est réalisée sous forme de Doses nominatives (DN) : (piluliers, sachets, anneaux, plaquettes, etc.)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "PDA manuelle",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "PDA Automatisée",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Elle est réalisée sous une autre forme",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Préciser la nature, les formes pharmaceutiques et la voie d’administration des doses préparées :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Place de l’activité envisagée dans le projet pharmaceutique :",
+        "description": "Décrire notamment la quantification de l’activité de PDA au regard de l’activité globale de la PUI",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La PDA comprend des opérations de  déconditionnement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La PDA comprend des opérations de  reconditionnement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La PDA comprend des opérations de  surétiquetage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La PDA comprend des opérations de surconditionnement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Indiquer le nombre de patients/résidents pris en charge sur le site principal de la PUI de l’établissement demandeur et la typologie des services concernés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Nombre de patients / résidents concernés",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Typologie des services concernés (MCO, SSR, PSY, EHPAD, etc.)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de patients/résidents",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La PUI dessert-elle d’autres sites ?",
+        "description": "Pour la même entité juridique",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Indiquer les nom et adresse des sites et le nombre de patients/résidents pris en charge",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom, adresse des site(s)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Typologie des services concernés (MCO, SSR, PSY, EHPAD, étab pénitentiaire, etc.)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de patients/résidents/détenus",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Coopérations",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L’activité de PDA est menée pour le compte d’autre(s) PUI",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Médicaments du L.4211-1 du CSP  (monopole pharmaceutique",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Médicaments expérimentaux",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Médicaments auxiliaires",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Etablissements concernés",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Nom et coordonnées",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Typologie des services concernés (MCO, SSR, PSY, EHPAD, etc.)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de patients/résidents",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Type de PDA",
+            "description": "",
+            "required": true,
+            "options": [
+              "DU",
+              "DN",
+              "Manuelle",
+              "Automatisée"
+            ]
+          }
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L’activité de PDA est menée pour le compte d’autre(s) structure(s) sans PUI :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Médicaments du L.4211-1 (monopole pharmaceutique)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Médicaments expérimentaux",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Médicaments auxiliaires",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Liste des Etablissements concernés",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "- Nom et coordonnées",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "- Typologie des services concernés (MCO, SSR, PSY, EHPAD, etc.)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "- Nombre de patients/résidents",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "- Type de PDA",
+            "description": "",
+            "required": true,
+            "options": [
+              "DU",
+              "DN",
+              "Manuelle",
+              "Automatisée"
+            ]
+          }
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L’activité de PDA est confiée partiellement à une autre PUI",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom, coordonnées et statut de la PUI prestataire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Médicaments du L.4211-1 (monopole pharmaceutique)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Médicaments expérimentaux",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Médicaments auxiliaires",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les modalités de la coopération",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PERSONNEL",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pharmacien en charge de l’activité de PDA",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse email",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Temps pharmaceutique affecté à l'activité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Décrire les modalités de remplacement du pharmacien en charge de l’activité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Liste/tableau du personnel participant à l'activité",
+        "description": "Sur l'activité de PDA, effectifs totaux et ETP de pharmaciens, préparateurs et autres catégories de personnels (notamment si automates)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les modalités de formation et d’habilitation du personnel pour l’exécution des opérations de cette activité :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les précautions prises relatives à la santé, à la sécurité, à l’hygiène et à l’habillage du personnel pour la réalisation de l’activité de PDA :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LOCAUX",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Locaux dédiés à l'activité?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Superficie totale des locaux dédiés à l'activité",
+        "description": "Dont locaux dédiés aux automates le cas échéant",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Emplacement des locaux",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse du lieu, bâtiment",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Intitulé des pièces/zones",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Superficie m2",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Décrire les locaux permettant la réalisation de l’activité PDA en vue de démontrer leur conformité aux BPPH, notamment",
+        "description": "-\téclairage, emplacement des fenêtres, puits de lumière, \r\n-\tnature des revêtements des surfaces apparentes (sols, murs, plafonds, plan de travail),\r\n-\tisolation, \r\n-\tdispositions prises pour réguler et suivre la température et l’hygrométrie des locaux, \r\n-\tventilation des locaux,\r\n-\tcanalisations et gaines installées de façon à ne pas créer de recoins,\r\n-\tetc.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description des locaux",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les conditions de sécurisation des locaux",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les conditions d’entretien des locaux et surfaces de travail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les contrôles environnementaux réalisés",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "EQUIPEMENTS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire des modalités de qualification des équipements et du matériel ainsi que leur fréquence",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les modalités de nettoyage des équipements et la traçabilité des opérations effectuées",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire des modalités de maintenance des équipements et du matériel ainsi que leur fréquence",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SYSTEME D’INFORMATION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Généralités",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Noms des logiciels utilisés",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Fonction (prescription, gestion des stocks, analyse pharmaceutique, administration, automate, etc.)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Version",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Validé",
+            "description": "Notamment qualification, certification HAS, marquage CE",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Interopérabilité avec d’autres logiciels",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Lesquels",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire synthétiquement le système d’information incluant l’infrastructure matérielle et logicielle ainsi que les modalités de sauvegarde et de sécurisation dans laquelle la PDA s’inscrit :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les moyens des sauvegardes informatiques, notamment rythmes et support",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Indiquer la solution dégradée envisagée en cas de panne informatique",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les moyens mis en œuvre pour protéger les données de santé à caractère personnel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "FONCTIONNEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Adéquation des moyens alloués à la PUI pour l’exercice de l’activité de PDA",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les éléments permettant de justifier que les ressources et les moyens mis en œuvre (personnel, locaux, équipements, etc.) seront adaptés à l’activité réalisée :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Le cas échéant, décrire les résultats de l’analyse d’opportunité pour l’implémentation d’une solution automatisée pour la délivrance nominative : cf. site de l’ARS IDF « Automatisation du circuit du médicament » :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Modalités de réalisation de l’activité de PDA",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire ou fournir le schéma du processus de préparation des doses de la prescription à l’administration au patient (lieux, opérations, acteurs, contrôles, transport, etc.) :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Modalités de fonctionnement les week-end et jours fériés",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les modalités de gestion des préparations des doses à administrer retournées par le service de soins ou l’établissement à la PUI :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "En cas de PDA automatisée, décrire les modalités de fonctionnement en mode dégradé :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Procédure dégradée de la PDA automatisée",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Modalités de transport en cas de coopération",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les moyens de transport et de livraison des produits concernés par l’activité de PDA y compris les conditions de sous-traitance du transport (fournir projet ou convention de sous-traitance des transports) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "GESTION DE LA QUALITE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Décrire synthétiquement le système qualité pharmaceutique dans lequel s’inscrit la PDA et les conditions de sécurisation de la documentation pharmaceutique (éléments de traçabilité) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire l’impact de la PDA sur la gestion des DLU , la gestion des non-conformités, réclamations, rappels de lots  :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Une étude des risques  de l’activité a-t-elle été réalisée ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Indiquer l’outil utilisé",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Annexes - Pièces jusitificatives",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Notice explicative des pièces à joindre au dossier :",
+        "description": "Si l’activité est déjà mise en place : joindre les pièces listées ci-dessous en 1 et 2\r\nDans les autres cas : joindre les pièces listées ci-dessous en 1 et les engagements cités en 3",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "1.\tPour toute demande :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Organigramme reflétant l’organisation pharmaceutique de la PUI sur lequel figureront les postes clés (préciser s’ils sont occupés par des pharmaciens) et les liens hiérarchiques et fonctionnels",
+        "description": "personnel",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de formation prévisionnel pour l’année N",
+        "description": "personnel",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Planning type hebdomadaire de l’activité PDA",
+        "description": "Préciser les horaires de fonctionnement",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de masse de la PUI par rapport à l’établissement",
+        "description": "locaux",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan coté des locaux, de préférence au format A3, avec emplacement à taille réelle des équipements, précisant la superficie totale de chaque zone, toutes les ouvertures et accès ainsi que la localisation des contrôles d’accès, les lieux d’exercice des opérations relatives à l’activité de PDA (en particulier les emplacements des zones de déconditionnement, de stockage, de production, de nettoyage, de rangement, sas pour l’habillage, zone de quarantaine)",
+        "description": "locaux",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Un ou plusieurs plans précisant les flux des personnes, des produits et des déchets liés aux opérations pharmaceutiques et précisant l’implantation des équipements principaux  (permettant de montrer la conformité aux BPPH chapitre 3)",
+        "description": "locaux",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Le cas échéant, planning de réalisation des travaux de la PUI",
+        "description": "locaux",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "La liste complète des équipements et du matériel nécessaires à l’exercice des opérations de PDA envisagées (y compris chariots, réfrigérateur, déblistéreuse, appareil pour le contrôle des doses préparées, etc.)",
+        "description": "équipement ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Le cas échéant, schéma du processus de préparation des doses à administrer",
+        "description": "fonctionnement",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Projet de convention de coopération (ou convention de coopération si renouvellement) lorsque la PUI exerce une activité de PDA (tout ou partie) pour le compte d’une autre PUI ou pour le compte d’une structure sans PUI ou confie l’activité de PDA en partie à une autre PUI.",
+        "description": "coopération ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "En cas de coopération, le projet ou convention de sous-traitance des transports des doses à administrer",
+        "description": "coopération",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Calendrier de montée en charge de l’activité",
+        "description": "coopération ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "2.\tSi l’activité de PDA est déjà mise en place, joindre également :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Fiche(s) de poste/fonction du personnel affecté à l’activité PDA",
+        "description": "personnel",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de formation du personnel affecté à l’activité PDA pour l’année N-1",
+        "description": "personnel",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "La liste des procédures et modes opératoires relatifs à l’activité de la PDA",
+        "description": "système qualité",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Les résultats de l’analyse et de la cartographie des risques du processus de la préparation des doses à administrer ainsi que le plan d’actions mis en œuvre qui en découle (déconditionnement, étiquetage, contrôle libératoire...)",
+        "description": "système qualité",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Procédure de contrôle des doses préparées avant délivrance ou dispensation aux services",
+        "description": "système qualité",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Procédure de fonctionnement en mode dégradé ou en cas d’incident afin d’assurer la continuité de l’activité",
+        "description": "système qualité",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Procédure relative à la gestion des non-conformités et des réclamations",
+        "description": "système qualité",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Procédure de gestion des alertes sanitaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Procédure de nettoyage des équipements automatisés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "3.\tEngagements du représentant légal de l’établissement",
+        "description": "Obligatoire si l'activité n'est pas encore effective ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Courrier d'engagements du représentant légal de l’établissement",
+        "description": "Rédiger les fiches de poste/fonction du personnel affecté à l’activité de PDA\r\nTransmettre dès réception, les conclusions du (des) rapport(s) de qualification des équipements\r\nRéaliser une cartographie des risques du processus de la préparation des doses à administrer ainsi que le plan d’actions mis en œuvre qui en découle (déconditionnement, étiquetage, contrôle libératoire...) – cf. arrêté du 6 avril 2011\r\nRéaliser un retour d’expérience sur l’activité de PDA à échéance d’un an après le démarrage avec communication des résultats à l’Agence régionale de santé\r\nRédiger les procédures et modes opératoires pour l’activité de PDA",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autres éléments utiles à l'instruction du dossier",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

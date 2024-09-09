@@ -1,0 +1,232 @@
+{
+  "number": 87896,
+  "title": "[Qualif] Dépôt annuel des comptes et du rapport d'activité des fondations d'entreprise (national)",
+  "description": "Cette procédure permet de transmettre annuellement l'ensemble des documents comptables exigés par la réglementation ainsi que le rapport d'activité de la fondation d'entreprise. Cette procédure doit être réalisée pour chaque exercice.",
+  "tags": [
+    "Subvention"
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2024-02-05T10:23:46+01:00",
+  "service": {
+    "nom": "Bureau des associations et fondations - Pôle conseil",
+    "organisme": "Direction des libertés publiques et des affaires juridiques",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/qualif-compte-ra-fe",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/qualif-compte-ra-fe",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000874956",
+  "logo": {
+    "filename": "Logo MI.png",
+    "checksum": "FKQ7wmsT4e9rsj3E1oEWng==",
+    "byteSize": "17561",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 13,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de la structure",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RNFChampDescriptor",
+        "label": "Identifiant au répertoire national des fondations (RNF)",
+        "description": "<strong>L'identifiant RNF</strong> est un numéro unique qui suit votre structure tout au long de sa vie administrative. Si vous voulez créer votre identifiant RNF ou retrouver cet identifiant, vous devez engager la démarche \"Demande d'identifiant RNF\".",
+        "required": true
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département du siège de votre structure",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Déclarant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Qualité du déclarant",
+        "description": null,
+        "required": true,
+        "options": [
+          "Membre du conseil d'administration ou relevant de l'administration (interne à la structure)",
+          "Personne mandatée (externe à la structure)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonctions du déclarant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Le mandat provenant de la fondation d'entreprise",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone du déclarant",
+        "description": "Nous vous invitons à renseigner ce numéro de téléphone qui permettra à l'administration de vous joindre plus facilement pour compléter ou modifier votre dossier en cas de difficulté.\nA défaut, les demandes de l'administration seront réalisées sur la boite mail rattachée à votre compte \"démarches simplifiées\".",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Année déclarée pour le dépôt de vos comptes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Pour quelle année déposez-vous votre rapport d'activité et vos documents comptables ?",
+        "description": "Si les documents comptables et rapports d'activités transmis s'étendent par exemple du 1er mars 2018 au 29 février 2019, vous devrez inscrire : 2019. \r\nSi l'exercice s'étend du 1 janvier 2021 au 31 décembre 2021, vous devez inscrire : 2021.\r\nC'est l'année de clôture des comptes qui doit être renseigné\r\n<!-- #bncode-account-year-bncode# -->",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Les données comptables (en euro)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Montant total des actifs immobilisés",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Montant total des fonds propres",
+        "description": "Sont exclus des fonds propres les fonds dédiés et fonds reportés.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Montant total du bilan",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Montant total des produits issus des dons de salariés et autres",
+        "description": "L'article 19-8 de la loi mentionne que la fondation d'entreprise peut recevoir <em>\"des dons effectués par les salariés, mandataires sociaux, sociétaires, adhérents ou actionnaires de l'entreprise fondatrice ou des entreprises du groupe, au sens de l'article 223 A du code général des impôts, auquel appartient l'entreprise fondatrice.\"</em>",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Montant total des subventions publiques",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Montant total des produits",
+        "description": "Le montant total des produits comporte la somme des produits d'exploitation, des produits financiers et des produits exceptionnels. ",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Montant total des charges",
+        "description": "Le montant total des charges comporte la somme des charges d'exploitation, des produits financiers et des produits exceptionnels. ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "La transmission des documents comptables",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Etats financiers",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport du commissaire aux comptes, bilan et annexes",
+        "description": "Votre fondation d'entreprise doit déposer le rapport du commissaire aux comptes et ses états financiers (bilan, compte de résultat et ses annexes). \r\nCes documents doivent être établis conformément au règlement comptable des organismes sans but lucratif. \r\nPour les exercices antérieurs à 2020 : https://www.associations.gouv.fr/IMG/pdf/reg_9901_consolide.pdf\r\nA partir de 2020, conformément aux pages 43 à 46 : https://www.anc.gouv.fr/files/live/sites/anc/files/contributed/ANC/1_Normes_fran%c3%a7aises/Reglements/2018/Reglt_2018_06/Reglt_2018_06_Asso_version_commentaires-janv-2023.pdf\r\n<strong>Les annexes comptables doivent comprendre une information concernant </strong>: \r\n<strong>• les versements attendus ; </strong>\r\n<strong>• le suivi du programme d’action pluriannuel ; </strong>\r\n<strong>• le mode de comptabilisation des engagements.</strong>",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Appel à la générosité des salariés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Compte d'emploi des ressources collectées auprès du public",
+        "description": "La fondation d'entreprise alimentée par des dons issus de la générosité des salariés doit faire figurer en annexe de ses comptes un compte d'emploi annuel des ressources collectées auprès du public.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Le rapport d'activité annuel",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La fondation a-t-elle réalisé des actions à l'international ou financé des organismes dont le siège n'est pas en France ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Le rapport d'activité annuel",
+        "description": "Le rapport d'activité à déposer doit comprendre l'ensemble des rubriques exigées ci-dessous ou une mention \"NEANT\" au sein de ces rubriques :\r\n\r\na) Un compte rendu de l'activité de la fondation d’entreprise, qui porte tant sur son fonctionnement interne que sur ses rapports avec les tiers ;\r\nb) Une description des actions d'intérêt général réalisées par la fondation, et leurs montants ;\r\nc) La dénomination, l'adresse du siège social, l'adresse électronique, les coordonnées téléphoniques, la nature des personnes morales bénéficiaires des financements, les montants des redistributions versées et une description des actions d’intérêt général associées à ces redistributions ;\r\nd) Si la fondation d’entreprise perçoit des dons effectués par les salariés, mandataires sociaux, sociétaires, adhérents ou actionnaires de l'entreprise fondatrice ou des entreprises du groupe, au sens de l'article 223 A du code général des impôts, auquel appartient l'entreprise fondatrice, le montant des dons collectés et les moyens utilisés pour la collecte. \r\n\r\nUn modèle de rapport d'activité est disponible ci-dessous.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "L'approbation par le conseil d'administration de la fondation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Procès verbal d'approbation des comptes et du rapport d'activité annuel",
+        "description": "Votre fondation d'entreprise doit transmettre la décision de son conseil d'administration approuvant les comptes et le rapport d'activité de l'année déclarée.\r\n\r\nLa composition du conseil d'administration doit être conforme à la dernière déclaration effectuée en préfecture. A défaut, la déclaration de dépôt des comptes sera rejetée. Il convient donc au préalable de procéder à la déclaration des changements intervenus dans votre conseil d'administration.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'approbation des comptes",
+        "description": "La date doit être conforme à celle présente dans le procès verbal",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièce(s) supplémentaire(s)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièces supplémentaires",
+        "description": "Vous pouvez déposer d'autres pièces nécessaires à l'examen de votre dossier.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Budget prévisionnel",
+        "description": "<!-- #bncode-file-budget-account-bncode# -->",
+        "required": true
+      }
+    ]
+  }
+}

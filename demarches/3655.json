@@ -1,0 +1,950 @@
+{
+  "number": 3655,
+  "title": "Demande d'autorisation d'expérimentation de véhicule à délégation de conduite sur des voies ouvertes à la circulation publique",
+  "description": "Le cadre d’autorisation de la circulation à des fins expérimentales d’un véhicule à délégation partielle ou totale de conduite est défini par l’ordonnance n°2016-1057 du 3 août 2016 et le décret n°2018-211 du 28 mars 2018 et l'arrêté du 17 avril 2018 relatifs à l’expérimentation de véhicules à délégation de conduite sur les voies publiques.\r\n\r\nLa personne morale qui demande ce type d’autorisation doit être le propriétaire du ou des véhicules concernés par l’expérimentation, ou une personne justifiant de son lien avec ce propriétaire.\r\n\r\nLa demande est instruite selon les modalités du décret n°2018-211 du 28 mars 2018 et l'arrêté du 17 avril 2018 relatifs à l’expérimentation de véhicules à délégation de conduite sur les voies publiques par le groupe inter-services sur le véhicule autonome regroupant notamment les services du ministère de l'intérieur, du ministère en charge de l'environnement, du ministère en charge des transports et de l'Agence Nationale de la Sécurité des Systèmes d'Informations.",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2018-04-20T17:24:46+02:00",
+  "service": {
+    "nom": "Sous-direction de la sécurité et des émissions des véhicules",
+    "organisme": "Ministère de la transition écologique et solidaire",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/autorisation-experimentation-vdptc",
+  "dpoUrl": null,
+  "noticeUrl": "",
+  "siteWebUrl": "Aucun lien fourni",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/eli/decret/2018/3/28/TRER1717809D/jo/texte",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 10,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité du demandeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'entreprise",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "La demande d'autorisation est effectuée par une entreprise tierce mandatée.",
+        "description": "Cocher cette case si la procédure de demande d'autorisation d'expérimentation n'est pas suivie par l'entreprise responsable de l'expérimentation. Il peut s'agir par exemple d'un cabinet de conseil.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Les informations ci-dessous concerne la personne responsable de l'expérimentation. Elle doit avoir la capacité d'engager son entreprise.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du responsable",
+        "description": "Indiquer le nom et le prénom de la personne appartenant à l'entreprise demandeuse responsable de l'expérimentation. Cette personne doit avoir le pouvoir d'engager son entreprise.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Intitulé de sa fonction",
+        "description": "Intitulé de la fonction de la personne responsable de l'expérimentation.",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "Courriel de la personne responsable de l'expérimentation.",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Adresse de la personne responsable de l'expérimentation.",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Numéro de téléphone de la personne responsable de l'expérimentation.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Les informations ci-dessous concerne la personne s'occupant de la demande d'autorisation d'expérimentation.",
+        "description": "C'est cette personne qui sera contactée dans le cadre de l'instruction de la demande si des renseignements complémentaires sont nécessaires.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du responsable de la demande",
+        "description": "Indiquer le nom et le prénom de la personne s'occupant de la demande d'autorisation.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Intitulé de sa fonction",
+        "description": "Intitulé de la fonction de la personne s'occupant de la demande d'autorisation d'expérimentation.",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Numéro de téléphone de la personne s'occupant de la demande d'autorisation.",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "Courriel de la personne s'occupant de la demande d'autorisation d'expérimentation.",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Adresse de la personne s'occupant de la demande d'autorisation d'expérimentation.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description de l'expérimentation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quel est le type de l'expérimentation",
+        "description": "Il est possible de sélectionner plusieurs réponses",
+        "required": true,
+        "options": [
+          "Essais techniques et mises au point",
+          "Évaluation des performances en situation de l'usage pour lequel est destiné le véhicule DPTC",
+          "Démonstration publique, notamment lors de manifestations événementielles"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisions éventuelles",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels sont les objectifs de l'expérimentation ?",
+        "description": "Détailler les principaux objectifs de l'expérimentation",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quel est le niveau d'autonomie des véhicules à délégation de conduite durant l'expérimentation",
+        "description": "Niveaux de 0 à 5 selon le standard SAE J3016",
+        "required": true,
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisions éventuelles",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quelles sont les modalités globales de l'expérimentation",
+        "description": "Description succincte de l'expérimentation",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quelles sont les parties prenantes de l'expérimentation et leurs rôles respectifs ?",
+        "description": "Exemples : constructeurs, opérateurs de transport, prestataires, collectivité locale, autorité de police de circulation, autorité organistarice de la mobilité...",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Conditions de l'expérimentation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début de l'expérimentation",
+        "description": "Ne pas oublier les périodes de préparation de l'expérimentation,  notamment pour le rodage d'une démonstration.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de fin de l'expérimentation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de véhicule",
+        "description": "",
+        "required": true,
+        "options": [
+          "Voiture particulière",
+          "Transport en commun de personnes",
+          "Transport de marchandises",
+          "Véhicule agricole",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisions éventuelles",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de véhicule",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Essais réalisés durant l'expérimentation",
+        "description": "À compléter s'il ne s'agit pas d'une pure opération de démonstration ni d'une présentation aux médias",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Réseaux de voiries sur lesquels se dérouleront les expérimentations",
+        "description": "Indiquer la synthèse du formulaire \"réseau de voirie\". Ne pas oublier de fournir dans le dossier d'expérimentation les plans et informations nécessaires à l'instruction de la demande.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le véhicule circulera-t-il en mode conventionnel sur des réseaux routiers autres que ceux empruntés en mode délégué, notamment pour rejoindre les sites d'expérimentations (parcours de liaison) ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser lesquels.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'expérimentation se déroulera-t-elle partiellement sur des voies fermées à la circulation publique ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser lesquelles.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le parcours du véhicule est-il protégé ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser par quels moyens.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Des équipements et des aménagements supplémentaires sont-ils prévus pour les expérimentations",
+        "description": "Exemples : signalisation, voirie, communication...",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser lesquels.",
+        "description": "Exemples : signalisation, voirie, communication...",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Attention",
+        "description": "Certains aménagements (notamment la mise en place d'une signalisation non réglementaire) peuvent être soumis à une autorisation spécifique de la délégation à la sécurité routière et de la direction générale des infrastructures, des transports et de la mer nécessitant une demande distincte de la présente procédure.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Des mesures de police de circulation sont-elles prévues pour les expérimentations ?",
+        "description": "Exemples : modification de la signalisation, restriction de circulation, abaissement de la vitesse, changement des régimes de priorité aux intersections...",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser lesquelles.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quelles seront les interactions avec les flux de véhicules usuels (véhicules particuliers, bus, tramways, sites propres, piste-bandes cyclables...) ?",
+        "description": "Préciser le type et la géométrie - carrefour, rond-point... - si besoin au moyen de schémas joints à votre demande.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Des interactions avec des piétons sont-elles possibles ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Des interactions avec des cyclistes sont-elles possibles ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Des interactions avec des deux roues motorisés sont-elles possibles ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Des interactions avec d'autres usagers vulnérables sont-elles possibles ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Vitesse maximale du véhicule durant les expérimentations",
+        "description": "En km/h. Elle peut être différente de la vitesse par construction du véhicule.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisions éventuelles.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Conduite du véhicule et passagers embarqués",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La personne responsable de la conduite du véhicule se trouve-t-elle à bord du véhicule ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Qui sont les personnes responsables de la conduite ?",
+        "description": "Exemples : conducteurs experts, employés, prestataires...",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels sont les moyens de contrôle (latéral et/ou longitudinal) dont dispose la personne reponsable de la conduite du véhicule ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si la personne responsable de la conduite ne se trouve pas à bord du véhicule :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser où elle se trouve.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Décrire les retours d'information dont elle dispose en provenance du véhicule expérimental et du terrain d'expérimentation.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser les protocoles de passage en mode autonome et de retour en mode conventionnel.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dans tous les cas",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le protocol expérimental prévoit-il la présence d'un superviseur dans le véhicule ?",
+        "description": "Un superviseur est une personne différente du conducteur, présente dans la voiture durant l'expérimentation, qui dispose de tous les moyens de contrôler le véhicule, et qui durant certaines phases de l'expérimentation peut devenir le conducteur du véhicule.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser les moyens de conduite du superviseur et les modalités de transfert de la conduite du conducteur au superviseur et du superviseur au conducteur.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lorsque le véhicule circule en mode conventionnel, s'il y a lieu, préciser qui assurera la fonction de conducteur et comment ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quel est le type du permis de conduire des personnes responsables de la conduite du véhicule ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "La formation des personnes responsables de la conduite est-elle interne ou externe ?",
+        "description": "Préciser son contenu.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "À part la ou les personnes responsables de la conduite du véhicule, y aura-t-il d'autres personnes en charge de l'expérimentation à bord du véhicule ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser le contexte, le nombre et s'il s'agit de professionnels et/ou d'employés de l'entreprise).",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "En dehors des expérimentateurs, y aura-t-il des passagers à bord du véhicule ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pour rappel",
+        "description": "Si oui, le demandeur a l'obligation de se conformer aux prescriptions du décret n°2018-211 du 28 mars 2018 et à l'arrêté du 17 avril 2018 relatifs à l'expérimentation de véhicules à délégation de conduite sur les voies publiques.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Caractéristiques du véhicule",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Motorisation",
+        "description": "",
+        "required": true,
+        "options": [
+          "Thermique",
+          "Électrique",
+          "Hybride",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro(s) de série du (des) véhicule(s) ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de places assises y compris le(s) poste(s) de conduite le cas échéant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de places debout y compris le(s) poste(s) de conduite le cas échéant.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Vitesse maximale par construction du véhicule",
+        "description": "En km/h",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quelle est la classification du véhicule ?",
+        "description": "Soit la classification à laquelle appartient le véhicule s'il existe une configuration de série homologuée, soit la classification à laquelle le véhicule pourrait se rattacher",
+        "required": true,
+        "options": [
+          "Autobus ou autocar",
+          "Autobus/autocar articulé",
+          "Camionnette",
+          "Cyclomoteur",
+          "Motocyclette",
+          "Motocyclette légère",
+          "Poids lourd",
+          "Quadricycle léger à moteur",
+          "Quadricycle lourd à moteur",
+          "Tricycle à moteur",
+          "Véhicule de transport en commun",
+          "Voiture particulière",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisions éventuelles.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "En mode conventionnel, le véhicule est-il homologué ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le véhicule aura-t-il été modifié par rapport aux règles d'homologation de cette catégorie ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, décrire ces modifications.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le véhicule expérimental aura-t-il fait l'objet de tests avant l'expérimentation demandée ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser notamment pour ce qui concerne les systèmes de délégation, les systèmes assurant la sécurité des personnes à bord et celle des usagers de la voirie.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le véhicule dispose-t-il d'avertisseurs sonores ou lumineux spécifiques ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisions éventuelles",
+        "description": "S'il s'agit d'un véhicule homologué modifié, préciser si le véhicule disposera d'avertisseurs spécifiques autres que ceux homologués ;\r\nS'il s'agit d'un véhicule non homologué, décrire les avertisseurs sonores et lumineux dont il disposera ;\r\nS'il s'agit d'un véhicule électrique, préciser également s'il disposera d'un avertisseur de courtoisie pour signaler sa présence.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Sous quelle(s) forme(s) la mention \"Véhicule expérimental à délégation partielle ou totale de conduite\" figure-t-elle dans le véhicule ?",
+        "description": "Préciser le ou les emplacements, la taille, le format...",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Indiquer les données qui seront sauvegardées par l'enregistreur de données évenementielles et les périodes de conservation de ces données.",
+        "description": "Comment et où sont-elles sauvegardées ? Dans quelles conditions ces données peuvent-elles être mises à disposition des autorités en cas d'accident sur la voirie ?",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Un journal de bord, manuscrit ou électronique, sera-t-il présent à bord du véhicule ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser les éléments indiqués dans ce journal.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le véhicule sera-t-il supervisé depuis un poste de contrôle fixe ? Uniquement durant les phases d'expérimentation ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, décrire la supervision.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Décrire les systèmes de délégation de conduite.",
+        "description": "Quels sont les systèmes de délégation ? Comment le véhicule passe-t-il en mode délégation de conduite ? Quels sont les systèmes d'alerte du conducteur ? ...\r\nIl est possible de renvoyer aux pièces du dossier pour les descriptions approfondies.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Mise en oeuvre d'un service de transport",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Répondre aux questions suivantes uniquement si le(s) véhicule(s) sera (seront) affecté(s) à un service de transport",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autorité qui organise le service de transport",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Nature du service de transport",
+        "description": "",
+        "required": false,
+        "options": [
+          "Transport public de personnes",
+          "Transport privé de personnes",
+          "Transport de marchandises"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Opérateur de transport partenaire (s'il y a lieu)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quel est le numéro d'inscription de cet opérateur au registre de transport ?",
+        "description": "Registre de transport par route de personnes ou registre de transport par route de marchandises, selon la typologie de transport effectué ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quelle est la durée de la phase d'expérimentation sans service de transport (marche à blanc) ?",
+        "description": "Indiquer la période (dates de début et de fin) et le programme de cette phase.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "S'il s'agit d'un service de transport public de personnes, décrire l'itinéraire et les points d'arrêts des parcours envisagés.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "S'il s'agit d'un service de transport public de personnes, indiquer les plages horaires durant lesquelles le service sera ouvert.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "S'il s'agit d'un service de transport public de personnes, quelle est l'information mise à disposition du public concernant ce service ?",
+        "description": "Détailler suivant le média utilisé : sur les points d'arrêts, site internet, système d'information multimodal, dans la presse, par des flyers...",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "S'il s'agit d'un service de transport public de personnes, comment chaque passager est-il informé que ce service s'appuie sur des véhicules à délégation partielle ou totale de condutie ?",
+        "description": "Préciser le cas échéant.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "S'il s'agit d'un service de transport public de personnes, quelles sont les conditions d'accès à ce service et quelle est la politique tarifaire appliquée ?",
+        "description": "Préciser le cas échéant.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "S'il s'agit d'un service de transport public de personnes, quels sont les réglements applicables en matière de transport de passagers pris en compte dans le cadre de l'expérimentation ?",
+        "description": "Préciser.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre société est-elle inscrite au registre électronique des transporteurs par route ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser les dérogations à l'arrêté du 2 juillet 1982 relatif aux transports en commun de personnes.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Sécurité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Comment avez-vous analysé les risques de sécurité ?",
+        "description": "Préciser la méthode employée.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'analyse de risque a-t-elle été effectuée par un organisme extérieur ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels sont les principaux risques liés à cette expérimentation ?",
+        "description": "Lister et décrire.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quelles mesures ont été mises en place pour limiter ces risques ?",
+        "description": "Lister et décrire.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quelles sont les procédures de détection, d'analyse et de traitement des incidents ?",
+        "description": "Décrire le type de mesures correctives mises en place, etc.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quel système d'enregistrement des événements de sécurité avez-vous mis en oeuvre ?",
+        "description": "Préciser.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Cybersécurité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Comment avez-vous analysé les risques relatifs à la cybersécurité ?",
+        "description": "Préciser la méthode employée.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Cette analyse de risque a-t-elle été effectuée par un organisme extérieur ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels sont les principaux risques de cybersécurité liés à cette expérimentation ?",
+        "description": "Lister et décrire.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quelles mesures ont été mises en place pour limiter ces risques de cybersécurité ?",
+        "description": "Lister et décrire.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quelles sont les procédures de détection, d'analyse et de traitement des incidents de cybersécurité ?",
+        "description": "Décrire le type de mesures correctives mises en place, etc.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Comment la cybersécurité a-t-elle été prise en compte ?",
+        "description": "Préciser les mesures de cybersécurité.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels sont les risques de cybersécurité résiduels identifiés lors des audits de sécurité effectués sur le systèmes d'information concernés par l'expérimentation ?",
+        "description": "Préciser.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous fait appel à un prestataire pour réaliser les audits de sécurité des systèmes d'information concernés par l'expérimentation ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si vous avez fait appel à un prestataire d'audits, a-t-il fait l'objet d'une qualifciation par l'ANSSI ( Agence nationale de la sécurité des systèmes d'information) ou par un autre organisme ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quel système d'enregistrement des événements de sécurité avez-vous mis en oeuvre ?",
+        "description": "Préciser.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Consultation des acteurs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels sont les gestionnaires de voirie auprès desquels des démarches ont été effectuées ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si des mesures de police de la circulation sont prévues sur ces infrastructures en relation directe avec l'expérimentation, auprès de quelles autorités de police des démarches ont-elles été effectuées ?",
+        "description": "Préciser quelles autorités, les mesures de police de la circulation, les dates de consultation...",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Existe-t-il des demandes particulières envers les gestionnaires d'infrastructures ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser.",
+        "description": "Exemples : modalités d'intervention, équipements, signalisation, travaux de voirie...",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Par quels moyens les forces de l'ordre et les services de secours sont-ils informés de la tenue de l'expérimentation et des particularités du véhicule ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Par quels moyens les autres usagers sont-ils informés de l'expérimentation (si cela est nécessaire) ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le demandeur garantit-il que l'expérimentation sera couverte par une assurance adéquate ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser les risques couverts",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Lettre de demande",
+        "description": "Lettre de demande officielle, signée par une personne ayant la capacité pour représenter son entreprise dans cette démarche (délégation de pouvoir, mandat…)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dossier d'expérimentation",
+        "description": "Dossier de présentation de l’expérimentation, tel que décrit à l'annexe 3 de l'arrêté du 17 avril 2018 relatif à l'expérimentation des véhicules à délégation de conduite sur les voies publiques.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dossier technique",
+        "description": "Dossier technique sur le véhicule tel que décrit à l'annexe 2 de l'arrêté du 17 avril 2018 relatif à l'expérimentation des véhicules à délégation de conduite sur les voies publiques.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre document",
+        "description": "Tout document qui peut être utile à la compréhension de la demande.",
+        "required": false
+      }
+    ]
+  }
+}

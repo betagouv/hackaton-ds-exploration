@@ -1,0 +1,586 @@
+{
+  "number": 51518,
+  "title": "Demande de subvention DETR - Campagne 2022",
+  "description": "Procédure dématérialisée pour le dépôt des dossiers de demande de subvention au titre de la campagne DETR pour 2022",
+  "tags": [
+    "Subvention"
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2021-12-15T11:36:01+01:00",
+  "service": {
+    "nom": "Direction des relations avec les collectivités territoriales (DRCT) - Bureau du contrôle budgétaire et des dotations de l'Etat",
+    "organisme": "Préfecture des Côtes d'Armor",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-subvention-detr-campagne-2022",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.cotes-darmor.gouv.fr/Politiques-publiques/Relations-avec-les-collectivites-territoriales/Dotations-et-Subventions/Dotations-d-investissement-Subventions-Ingenierie/DETR-Dotation-d-equipement-des-territoires-ruraux/DETR-2022",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCode.do;jsessionid=0CF155FE74D72D79DEEACCA24B35534E.tplgfr25s_2?idSectionTA=LEGISCTA000023650557&cidTexte=LEGITEXT000006070633&dateTexte=20200327",
+  "logo": {
+    "filename": "Logo.jpg",
+    "checksum": "bJbArH5LmdXKm0do8QP6NA==",
+    "byteSize": "45493",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "DETR - partie législative.pdf",
+    "checksum": "2HZ0z/ma2ywc63sxoSicIg==",
+    "byteSize": "97536",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 293,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre arrondissement",
+        "description": null,
+        "required": true,
+        "options": [
+          "Arrondissement de Dinan",
+          "Arrondissement de Guingamp",
+          "Arrondissement de Lannion",
+          "Arrondissement de Saint-Brieuc"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Cartographie",
+        "description": "Vous pouvez renseigner la localisation précise de l'opération envisagée",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTIFICATION DU DEMANDEUR",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Porteur de projet : commune, groupement ou syndicat",
+        "description": "Collectivité éligible à la DETR (Précisez le nom de la collectivité ou porteur de projet)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Maître d'ouvrage (si différent)",
+        "description": "Si la maîtrise d'ouvrage est assurée par un tiers non éligible à la DETR",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Arrondissement",
+        "description": "",
+        "required": true,
+        "options": [
+          "Dinan",
+          "Guingamp",
+          "Lannion",
+          "Saint-Brieuc"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "EPCI d'appartenance (pour les communes)",
+        "description": null,
+        "required": true,
+        "options": [
+          "Communauté de Communes du Kreiz-Breizh",
+          "Communauté de Communes de la Côte d’Emeraude",
+          "Dinan Agglomération",
+          "Guingamp Paimpol Agglomération (GPA)",
+          "Lamballe Terre et Mer (LTM)",
+          "Lannion Trégor Communauté (LTC)",
+          "Leff Armor Communauté (LAC)",
+          "Loudéac Communauté Bretagne Centre (LCBC)",
+          "Poher communauté",
+          "Pontivy communauté",
+          "Saint-Brieuc Armor Agglomération (SBAA)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Commune classée en ZRR",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du demandeur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM et Prénom du représentant légal",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Qualité du représentant légal",
+        "description": "",
+        "required": true,
+        "options": [
+          "Maire",
+          "Président",
+          "Autre (à préciser en PJ)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM et Prénom du référent en charge du dossier",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du référent",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel du référent",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DESCRIPTION DU PROJET",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Intitulé du projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Dossier déjà déposé :",
+        "description": "Dossier déposé au titre de la DETR et/ou DSIL en 2021",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Ordre de priorité du dossier",
+        "description": "Si vous ne déposez qu'une demande de subvention, indiquer 1\nSi vous déposez plusieurs demandes de subvention, indiquer impérativement l'ordre de priorité pour chaque projet.",
+        "required": true,
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Catégorie d'opération DETR",
+        "description": "Telle que validée par la commission des élus du 13 décembre 2021.",
+        "required": true,
+        "options": [
+          "1- Équipements scolaires, péri-scolaires et accueil de la petite enfance",
+          "2- Patrimoine immobilier (hors travaux concernant les logements sociaux)",
+          "3- Assainissement des eaux usées",
+          "4- Équipements sportifs",
+          "5- Travaux ou équipements de voirie liés à la sécurité (hors entretien courant) et travaux de sécurité liés aux risques de submersion marine et/ou inondation",
+          "6- Projets de développement économique, social, environnemental ou touristique",
+          "7- Projets visant à maintenir et développer les services publics notamment en milieu rural",
+          "8- Travaux de sécurité en faveur des ports de plaisance",
+          "9- Équipements liés à la lutte contre les algues vertes",
+          "10- Déchetteries"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description synthétique du projet",
+        "description": "En quelques phrases préciser : \n- le contexte/la problématique \n- les objectifs du projet\n- les résultats attendus\n- toutes particularités ou spécificités à signaler",
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "L'opération est-elle phasée en plusieurs tranches (fonctionnelles, budgétaires...) ?",
+        "description": "Si le projet a déjà bénéficié d'une subvention, joindre le justificatif\nDans tous les cas, le financement d'une première phase n'engage en rien l'Etat quant au financement des tranches ultérieures",
+        "required": true,
+        "options": [
+          "--Oui--",
+          "cette demande porte sur la 1ère tranche",
+          "une 1ère tranche a déjà été subventionnée par la DETR",
+          "une 1ère tranche a déjà été subventionnée par la DSIL",
+          "une 1ère et 2ème tranches ont déjà été subventionnées par la DETR",
+          "une 1ère et 2ème tranches ont déjà été subventionnées par la DSIL",
+          "--Non--"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Localisation du projet (si différente de celle du demandeur)",
+        "description": "Les plans et titre de propriété seront à joindre au dossier",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'édifice (la zone) concerné par la demande est-il inscrit/classé au titre des Bâtiments de France ?",
+        "description": "Si oui, joindre l'avis de l'architecte des Bâtiments de France",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "EVALUATION DU COUT TOTAL H.T DU PROJET",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Coût prévisionnel global du projet H.T",
+        "description": "Indiquer le coût total global de l'opération (travaux, études, honoraires et frais divers éventuels)\nToute demande émanant d'une collectivité éligible au F.C.T.V.A sera formulée en H.T",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DETAIL DES POSTES DE DEPENSES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant des travaux (H.T)",
+        "description": "Joindre les devis estimatifs et détaillés précisant le coût H.T de chaque lot ou type de travaux (VRD-gros œuvre, charpente, menuiserie, électricité, plomberie, peinture, terrassement, réseaux eaux usées, eaux pluviales, assainissement, espaces verts...)",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant de l'acquisition éventuelle",
+        "description": "Une acquisition récente liée au projet peut éventuellement être prise en compte dans la dépense subventionnable.\nJoindre le justificatif d'achat.\n",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant des travaux de démolition/désamiantage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant du matériel, mobiliers et/ou équipements éventuels",
+        "description": "Joindre le justificatif de l'imputation en section d’investissement",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant des frais divers",
+        "description": "Indiquer les éventuels frais d'honoraires, d’études, de maîtrise d’œuvre, de contrôle et de coordination.\nPar principe, ces frais ne seront pas inclus dans la dépense subventionnable, sauf exception",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Estimation de la part éventuelle d’aléas/imprévus",
+        "description": "Uniquement en cas d’investissement pluriannuel et sur justificatif\nPar principe, cette part d'aléas ne doit pas être incluse dans l'assiette de subvention",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PLAN DE FINANCEMENT PREVISIONNEL DU PROJET",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Montant de la subvention sollicitée (H.T)",
+        "description": "Par application du taux d'intervention de la catégorie concernée (validée en commission DETR) au montant de la dépense subventionnable (montant des travaux)\nLa participation du maître d'ouvrage doit toujours être au minimum de 20 %.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant des cofinancements (hors subvention objet de cette demande)",
+        "description": "Préciser le montant et le détail des cofinancements sollicités et/ou obtenus\nPour les financements acquis, les décisions d'attribution seront à joindre au dossier\nDans tous les cas, joindre le plan de financement détaillé selon le modèle disponible ci-dessous",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Participation du maître d'ouvrage (autofinancement + emprunt)",
+        "description": "La participation du maître d'ouvrage doit toujours être au minimum de 20 %",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'opération porte t'elle sur une compétence à chef de file du demandeur ?",
+        "description": "--> Se référer à l'article L.1111-9 du CGCT\nSi oui, le taux de participation minimale du maître d'ouvrage est de 30%, sauf disposition contraire",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'opération génère-t-elle des recettes ?",
+        "description": "Ex : revente d'une surproduction d'électricité, perception de loyers (dans ce cas joindre l'estimatif des recettes générées selon le modèle de plan de financement spécifique disponible ci-dessous",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ECHEANCIER DE REALISATION DU PROJET",
+        "description": "Article R.2334-24 du CGCT - L'opération ne doit pas avoir débuté avant la date de réception de la demande par l'autorité compétente (les études, la MO et les acquisitions foncières ne constituent pas un commencement d'exécution de l'opération).\r\n",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la délibération approuvant l'opération et son plan de financement",
+        "description": "La délibération est à joindre au dossier.\nSi vous n'êtes pas en mesure de joindre la délibération avant la date limite de dépôt des dossiers, joindre une attestation précisant la date de la prochaine réunion du conseil.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date envisagée du commencement d'exécution",
+        "description": "Le commencement d'exécution s'entend par le 1er acte juridique engageant le maître d'ouvrage, soit la notification d'un marché, la signature d'un bon de commande ou un ordre de service de démarrer les travaux.\nArticle R.2334-24 du CGCT - L'opération ne doit pas avoir débuté avant la date de réception de la demande par l'autorité compétente (les études, la MO et les acquisitions foncières ne constituent pas un commencement d'exécution de l'opération).",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date prévisionnelle de démarrage des travaux",
+        "description": "La date de démarrage des travaux peut être différente et postérieure à la date de commencement d'exécution définie ci-dessus.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date prévisionnelle de fin des travaux",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de lancement des études et/ou de la maîtrise d’oeuvre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de dépôt du permis de construire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date prévisionnelle du lancement des appels d'offres",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Maturité du projet",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Etat d'avancement du projet",
+        "description": null,
+        "required": true,
+        "options": [
+          "Réflexion en cours",
+          "Etude d'opportunité / de faisabilité",
+          "Avant-projet sommaire (APS)",
+          "Avant-projet détaillé (APD)",
+          "Rédaction cahier des charges",
+          "Lancement de la consultation d'appel d'offre"
+        ]
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Concertation citoyenne",
+        "description": "La validation du projet nécessite t'elle une concertation citoyenne ?",
+        "required": true,
+        "options": [
+          "--OUI--",
+          "la concertation a déjà eu lieu",
+          "la concertation est à mener",
+          "--NON--"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Opération verte",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Orientations environnementales / transition énergétique",
+        "description": "Indiquer si l’opération soutenue au titre de la DETR s’inscrit, de manière concrète, dans un objectif de transition écologique. Le but poursuivi par ce projet s'inscrit dans un mouvement :\n* de transition énergétique, \n* de développement d'énergie ou de matériaux durables, \n* de réduction des consommations énergétiques, \n* de promotion des mobilités alternatives / durables \nToute dimension environnementale peut être prise en compte ( EX : utilisation de matériaux biosourcés dans une rénovation, réhabilitation d'une friche, réduction des factures énergétiques, remplacement des éclairages par des Led, atteindre les normes RT 2012 ou supérieures, développement des voies douces/pistes cyclables, partage de véhicules électriques, plateforme de mobilité actives ...)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Note relative à l'aspect environnemental du projet",
+        "description": "Si vous êtes accompagné par un CEP - conseiller en énergie partagé - ou tout autre service (SDE 22, ALEC) vous pouvez joindre la grille d'analyse qualitative et la note d'opportunité complétées",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Grille d'analyse qualitative",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Justificatifs et pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Note explicative du projet : contexte, nature et descriptif de l'opération, objectifs poursuivis, coût prévisionnel HT ainsi que le montant de la subvention sollicitée",
+        "description": "Cette note reprend succinctement les éléments décrits dans le formulaire\nSi vous le souhaitez vous pouvez utiliser le modèle ci-dessous",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Délibération du conseil municipal ou de l'organe délibérant : précisant la nature du projet, son coût HT et le plan de financement prévisionnel",
+        "description": "Si vous n'êtes pas en mesure de joindre la délibération avant la date limite de dépôt des dossiers, joindre une attestation précisant la date de la prochaine réunion du conseil.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de financement prévisionnel",
+        "description": "Modèle à télécharger, compléter et signer par l'autorité compétente\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de financement prévisionnel AVEC RECETTES",
+        "description": "Modèle de plan de financement à utiliser lorsque l'opération envisagée génère des recettes (perception de loyers ...)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Cofinancement",
+        "description": "Joindre les éventuelles décisions attributives de subventions émanant des autres cofinanceurs (arrêtés, lettres d'intention ...)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Devis descriptifs estimatifs et détaillés",
+        "description": "Joindre le (ou les devis) détaillant chaque lot ou type de dépenses",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Echéancier de réalisation de l'opération",
+        "description": "Modèle à télécharger, compléter et signer par l'autorité compétente\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Étude d’impact pluriannuel sur les dépenses de fonctionnement ",
+        "description": "Article L.1611-9 - l’étude d’impact pluriannuel sur les dépenses de fonctionnement est établie pour tout projet d'opération exceptionnelle d'investissement\nVoir fiche explicative ci-dessous",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "En cas d'acquisition immobilière",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de situation et plan cadastral",
+        "description": "La lisibilité des plans doit permettre d'apprécier la qualité du projet",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Titre de propriété",
+        "description": "Joindre le titre de propriété, ou à défaut la promesse de vente et/ou d'achat dans l'attente de la signature définitive",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "En cas d’acquisition de mobiliers ou d'équipements document confirmant l’imputation de l’achat en section d’investissement",
+        "description": "Imputation aux comptes 21, 23 ou 28 dans la nomenclature budgétaire M14",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "En cas de travaux",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de situation et plan masse",
+        "description": "La lisibilité des plans doit permettre d'apprécier la qualité du projet",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document précisant la situation juridique des terrains et immeubles",
+        "description": "Joindre une attestation établissant que le demandeur a ou aura la libre disposition de ceux-ci (numéro de parcelle cadastrale ...)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Avis de l'ABF si l’édifice est inscrit ou classé au titre des monuments de France",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Programme détaillé des travaux",
+        "description": "Établi par le maître d’œuvre",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dossier d'avant-projet / Cahier des charges / Note technique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Engagement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste que l'opération pour laquelle je sollicite une subvention n'a pas connu de début d'exécution avant la réception de l'accusé dépôt du dossier",
+        "description": "Engagement du maire (ou président d'EPCI)\nArticle R.2334-24 du CGCT - L'opération ne doit pas avoir débuté avant la date de réception de la demande par l'autorité compétente (les études, la maîtrise d'oeuvre et les acquisitions foncières ne constituent pas un commencement d'exécution de l'opération).",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de non commencement",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m'engage à démarrer les travaux dans l’année",
+        "description": "Engagement du maire (ou président d'EPCI)",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste que le projet ne bénéficie pas d'une aide incompatible avec la DETR",
+        "description": "Annexe VII du CGCT :  Liste des missions, programmes, actions établie pour l'application des articles L. 2334-39 et R. 2334-19 ",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie exacte l'ensemble des renseignements ci-dessus et m'engage à joindre les pièces justificatives dans les délais réglementaires.",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

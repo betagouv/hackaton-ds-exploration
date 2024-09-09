@@ -1,0 +1,511 @@
+{
+  "number": 90518,
+  "title": "SGCD 33 - Dossier de demande pour une place en crèche au sein du parc réservé aux agents du Ministère de l'Intérieur affectés en Gironde",
+  "description": "Ce site est réservé aux agents du Ministère de l'Intérieur, affectés en Gironde. Vous pouvez déposer une demande de place en crèche et transmettre les pièces nécessaires à l'instruction de votre dossier. \r\n\r\nAprès analyse de votre dossier et en fonction des places disponibles, une proposition de place en crèche pourra vous être faite. Vous recevrez un mél pour vous en informer. \r\n\r\nIl est vivement conseillé d'effectuer parallèlement des demandes auprès d'autres modes de garde.\r\n\r\nProtection des données personnelles : En application du règlement européen sur la protection des données (RGPD), modifiant la loi n°78-17 du 6 janvier 1978 (loi Informatique et Libertés), vous disposez d'un droit d'accès, de rectification, de modification et de suppression des données qui vous concernent.\r\n\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2024-03-21T16:35:57+01:00",
+  "service": {
+    "nom": "SGCD33 - SRH - Pôle Action sociale et QVCT",
+    "organisme": "Préfecture de la Gironde",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/sgcd-33-demande-de-place-en-creche-campagne-2024",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://actionsociale.interieur.ader.gouv.fr/index.php",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000812102",
+  "logo": {
+    "filename": "PREFET_Gironde_RVB.jpg",
+    "checksum": "kd3nTut40VYEt1TT1PVNJg==",
+    "byteSize": "150977",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "décret du 6 janvier 2006.pdf",
+    "checksum": "asPPcnl38iF7HYxtovMI1A==",
+    "byteSize": "105245",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 18,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dépôt d'une demande de place en crèche",
+        "description": "Cet espace vous permet de déposer une demande pour obtenir une place au sein d'une crèche de l'action sociale départementale.\r\n\r\nDifférents critères entrent en ligne de compte pour l’attribution d’une place en crèche : l'arrivée dans le département, la composition de la famille, le besoin de garde en horaires atypiques, le handicap d'un enfant, la perte subite du mode de garde, ou toute situation d’urgence.\r\n\r\nLes places sont attribuées par le Pôle social du SGCD 33 sur le contingent SDAS en fonction des points attribués aux différents critères mentionnés ci-dessus.\r\n\r\nLes places se libèrent majoritairement début septembre lors de l’entrée à l’école des plus grands, même si un départ en cours d’année n’est jamais exclu. \r\n\r\nIl est conseillé de rechercher également un autre mode de garde auprès de votre commune et/ou de la SRIAS parallèlement à la demande déposée auprès du SGCD 33.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LE PARENT DEMANDEUR",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM",
+        "description": "Nom du parent bénéficiaire et responsable de l'enfant",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "Prénom du parent bénéficiaire et responsable de l'enfant",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Périmètre d'affectation",
+        "description": null,
+        "required": true,
+        "options": [
+          "POLICE Actif",
+          "POLICE adm/techn/scient",
+          "SGAMI",
+          "PREFECTURE/SOUS-PREFECTURES/SGAR",
+          "SGCD",
+          "personnels civils GENDARMERIE",
+          "SECURITE ROUTIERE - DPCSR/IPCSR"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Service et adresse d'affectation",
+        "description": "Précisez votre structure administrative.\nEn cas de mutation proche, préciser votre futur lieu d'affectation",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Situation professionnelle",
+        "description": "Précisez si vous êtes en activité, en congé maternité, en congé parental, ...",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Grade",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "catégorie",
+        "description": "HF Hauts fonctionnaires (préfets, administratrice civile)\r\n\r\nADM_A Administratif de catégorie A (attaché, conseillère d'administration…)\r\n\r\nADM_B Administratif de catégorie B (secrétaire administratif)\r\n\r\nADM_C Administratif de catégorie C (adjoint administratif)\r\n\r\nTECH_A Personnels techniques de catégorie A (ingénieur des services techniques, ingénieure SIC)\r\n\r\nTECH_B Personnels techniques de catégorie B (technicienne des services techniques, technicien SIC)\r\n\r\nTECH_C Personnels techniques de catégorie C (adjoint technique, adjointe SIC)\r\n\r\nCCD_CC_HF Corps de conception et de direction, corps de commandement (commissaire, commissaire divisionnaire, commissaire général, lieutenant, capitaine, commandant et commandant divisionnaire)\r\n\r\nCEA_B Corps d'encadrement et d'application (gardien de la paix, brigadier, brigadier-chef, major)\r\n\r\nPADJ Policier adjoint\r\n\r\nPTS_A Police technique et scientifique de catégorie A (ingénieure de la police technique et scientifique)\r\n\r\nPTS_B Police technique et scientifique de catégorie B (technicien de la police technique et scientifique)\r\n\r\nPTS_C Police technique et scientifique de catégorie C (agent spécialisé de la police technique et scientifique)\r\n\r\nDPCSR_A Délégué au permis de conduire et à la sécurité routière\r\n\r\nIPCSR_B Inspecteur du permis de conduire et de la sécurité routière\r\n\r\nOE Ouvrier d’État\r\n\r\nContractuel (agent non titulaire)\r\n",
+        "required": true,
+        "options": [
+          "Administratif – Haut Fonctionnaire",
+          "Administratif – Catégorie A",
+          "Administratif – Catégorie B",
+          "Administratif – Catégorie C",
+          "Technique – Catégorie A",
+          "Technique – Catégorie B",
+          "Technique – Catégorie C",
+          "Police Actif – Corps CCD CC HF",
+          "Police Actif – Corps CEA B",
+          "Police Actif – Policier Adjoint",
+          "Police Technique et Scientifique – Catégorie A",
+          "Police Technique et Scientifique – Catégorie B",
+          "Police Technique et Scientifique – Catégorie C",
+          "Corps Sécurité Routière – DPCSR A",
+          "Corps Sécurité Routière – IPCSR B",
+          "Ouvrier d’État",
+          "Contractuel"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Temps partiel",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "quotité temps  (en %)",
+        "description": "Précisez si vous êtes à 50%, 80% etc...",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse domicile",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "CODE POSTAL",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "téléphone du responsable de l'enfant",
+        "description": "Veuillez indiquer le n° de téléphone où vous êtes le plus facilement joignable",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "adresse mél",
+        "description": "Veuillez indiquer l'adresse mél où vous souhaitez être joint(e)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "CONJOINT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM PRENOM CONJOINT(e)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Situation professionnelle du conjoint (e)",
+        "description": "préciser si le conjoint (e) est en activité ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "profession du conjoint(e)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Temps de travail",
+        "description": null,
+        "required": false,
+        "options": [
+          "100 %",
+          "90%",
+          "80%",
+          "50%"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LA FAMILLE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Composition du foyer - nbre d'adultes",
+        "description": "Veuillez préciser le nombre de personnes vivant au foyer",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nbre d'enfants",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "L'ENFANT CONCERNÉ PAR LA DEMANDE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "nom de l'enfant concerné par la demande",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom de l'enfant concerné par une demande de place en crèche",
+        "description": "Si à naître préciser \"à naître\"",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "date de naissance",
+        "description": "ou date de naissance prévue\r\n",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "date souhaitée d'entrée en crèche",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "âge à l'entrée en crèche",
+        "description": "précisez, en mois , l'âge qu'aura votre enfant à la date d'entrée en crèche souhaitée",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom de l'enfant 2 concerné par une demande de place en crèche",
+        "description": "En cas de demande pour un 2e enfant du foyer",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "date de naissance (enfant 2)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "date d'entrée souhaitée en crèche (enfant 2)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "âge à l'entrée en crèche (enfant 2)",
+        "description": "précisez, en mois , l'âge qu'aura votre enfant 2 à la date d'entrée en crèche souhaitée",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "CHOIX DE LA CRECHE (3 choix maximum)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "3 choix possibles",
+        "description": "Vous pouvez indiquer, par ordre décroissant de priorité, au maximum 3 choix parmi la liste de crèches ci-jointe",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "liste des crèches",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "CHOIX  N°1",
+        "description": "Préciser le nom de la crèche et l'adresse de la crèche en respectant le modèle suivant :\nNom de la crèche - Adresse de la crèche",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "CHOIX n°2 (facultatif)",
+        "description": "Préciser le nom de la crèche et l'adresse de la crèche en respectant le modèle suivant :\nNom de la crèche - Adresse de la crèche",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "CHOIX  n°3 (facultatif)",
+        "description": "Préciser le nom de la crèche et l'adresse de la crèche en respectant le modèle suivant :\nNom de la crèche - Adresse de la crèche",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "secteur à privilégier",
+        "description": "Dans le cas où votre demande sur les crèches choisies ne pourrait aboutir, une proposition sur une autre crèche disposant de disponibilités pourrait vous être faite. Dans ce cas, veuillez préciser si vous préféreriez le secteur de votre domicile ou le secteur de votre lieu de travail",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "je privilégie :",
+        "description": null,
+        "required": true,
+        "options": [
+          "le secteur de mon domicile",
+          "le secteur de mon lieu de travail",
+          "l'un ou l'autre me convient indifféremment"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "nombre de jours de garde demandé",
+        "description": "1 journée = 1",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "jours demandés",
+        "description": "Si le nombre de jours demandé est inférieur à 5 jours, veuillez préciser les jours de garde demandés",
+        "required": false,
+        "options": [
+          "lundi",
+          "mardi",
+          "mercredi",
+          "jeudi",
+          "vendredi"
+        ]
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "nombre de jours de garde demandé si différent pour le 2e enfant",
+        "description": "\n1 journée = 1",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "jours demandés",
+        "description": null,
+        "required": false,
+        "options": [
+          "lundi",
+          "mardi",
+          "mercredi",
+          "jeudi",
+          "vendredi"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Eléments complémentaires (cochez les cases qui vous concernent)",
+        "description": "Toute case cochée fait l'objet d'une demande de justificatif à joindre à votre demande.\nDans tous les cas, vous devez joindre une copie du livret de famille ou une déclaration de grossesse.",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "famille monoparentale",
+        "description": " ",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "parent en situation de handicap",
+        "description": "joindre un document MDPH",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "enfant en situation de handicap",
+        "description": "joindre un document MDPH",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "célibat géographique",
+        "description": " joindre une attestation professionnelle parent éloigné",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "contraintes horaires liées à l'activité professionnelle",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "En cas de perte subite du mode de garde",
+        "description": "précisez le motif ",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "naissances multiples",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "frère ou soeur déjà dans la crèche ou demande pour plusieurs enfants",
+        "description": "joindre l'attestation de la crèche",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "attestation crèche",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "bulletin de paie du parent demandeur",
+        "description": "dernier bulletin de paie justifiant l'appartenance au MI.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bulletin de paie du conjoint",
+        "description": "Dernier bulletin de paie du conjoint",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dernier avis d'imposition",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation MDPH",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre justificatif",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Compléments d'informations",
+        "description": "Si vous souhaitez compléter votre demande ou préciser des informations qui vous semblent importantes à porter à notre connaissance, vous pouvez compléter le champs \"Compléments d'informations sur ma demande.\"",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Compléments d'informations sur ma demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste sur l'honneur l'exactitude des informations communiquées",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m'engage à signaler tout changement de situation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je reconnais avoir pris connaissance des informations relatives à la protection des données *",
+        "description": "Le SGCD de la Gironde procède à un traitement de vos données personnelles dans le cadre de la présente téléprocédure sur le fondement de l’article 6, 1c (traitement nécessaire au respect d’une obligation légale : article 6, 1.c) du Règlement (UE) 2016/679 du Parlement Européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l’égard du traitement des données à caractère personnel et à la libre circulation de ces données (règlement général sur la protection des données ou RGPD) et de la loi n° 78-17 du 6 janvier 1978 modifiée, relative à l’informatique, aux fichiers et aux libertés. Les informations recueillies sur ce formulaire sont enregistrées dans un fichier informatisé sécurisé afin d’assurer une gestion individualisée de votre dossier. Les données collectées ne seront en aucun cas communiquées à des tiers autres que ceux utiles à leur traitement (structures gouvernementales et institutionnelles, services centraux et déconcentrés, organismes sous tutelle, opérateurs). Les données enregistrées dans le traitement sont conservées pendant cinq ans et sont accessibles auprès du responsable RGPD au SGCD de la Gironde.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'accepte que mes données personnelles soient conservées par l'administration (maximum 36 mois)",
+        "description": "L'accès aux données personnelles des agents ne sera accessible que par les administrateurs et instructeurs des dossiers",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Nous restons à votre disposition pour toute question concernant votre demande.",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

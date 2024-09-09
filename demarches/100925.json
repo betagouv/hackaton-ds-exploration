@@ -1,0 +1,223 @@
+{
+  "number": 100925,
+  "title": "DDT37 - Demande d'autorisation de chasse particulière par tir des corvidés",
+  "description": "En août de cette année, donc hors période de régulation des espèces susceptibles d'occasionner des dégâts (ESOD), les agriculteurs victimes des dégâts agricoles peuvent solliciter la possibilité de tir des corvidés dans le cadre de chasses particulières prévues aux articles L427-6, R427-4 et R427-8 du code de l'environnement.  \r\nVos données personnelles collectées dans le cadre de la démarche simplifiée \"Demande d'autorisation de chasse particulière par tir  des corvidés\" font l'objet d'un traitement automatisé soumis au règlement général sur la protection des données (RGPD).\r\n Elles seront conservées pendant 12 mois . Le responsable du traitement est  monsieur Thierry JACQUIER (DDT/SERN).\r\nVous pouvez exercer vos droits d'accès et de rectification auprès du responsable du traitement ou du correspondant du délégué du ministre de l'intérieur à la protection des données (pref-donnees-personnelles@indre-et-loire.gouv.fr)\".\r\n",
+  "tags": [
+    ""
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2024-08-08T15:21:47+02:00",
+  "service": {
+    "nom": "DDT37 - Service de l'Eau et des Ressources Naturelles",
+    "organisme": "Direction Départementale des Territoires d'Indre et Loire",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ddt37-demande-d-autorisation-de-chasse-particulier-2",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.indre-et-loire.gouv.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.fr",
+  "logo": {
+    "filename": "Intro DS logo préfet DDT.png",
+    "checksum": "0x2yB+Hisasw5wD9i9kMPw==",
+    "byteSize": "92641",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 4,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code postal",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune",
+        "description": "Choisir le département puis la commune",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Portable",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande d'autorisation de chasse particulière",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Descriptif de la chasse particulière",
+        "description": "La chasse particulière est autorisée uniquement dans les parcelles désignées ci-dessous à compter de la date de l'autorisation et jusqu'à l'ouverture de la chasse.\r\nSollicite l'autorisation de chasse particulière sur les territoires suivants : ",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Commune sur laquelle se déroule la chasse",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Lieu-dit",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Section cadastrale",
+            "description": "Exemple AA",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Numéro de la parcelle",
+            "description": "Exemple 0000",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Type de culture",
+            "description": "Cliquer sur \"ajouter un élément\" pour déclarer une nouvelle demande de chasse sur une section cadastrale différente. ",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité des intervenants",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Intervenants",
+        "description": "Identité des intervenants (prénom, nom et adresse), tous porteurs de leur permis de chasse validé : \r\nLe premier intervenant peut correspondre au demandeur et ensuite les délégués. Il ne peut y avoir que 2 tireurs identifiés nominativement. Aucune délégation ne pourra être donnée à un autre tireur non identifié par le présent arrêté. \r\nCliquer sur \"ajouter un élément\" autant de fois que vous souhaitez déclarer de délégués",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom de l'intervenant",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de l'intervenant",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse de l'intervenant",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Code postal",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Commune de l'intervenant",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Espèces",
+        "description": "",
+        "required": true,
+        "options": [
+          "Corbeau freux",
+          "Corneille noire"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Bilan de l'année précédente",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Corbeau freux",
+        "description": "Nombre d'animaux prélevés\r\nIndiquer 0 si vous n'avez prélevé aucun animal ou si vous n'avez pas fait de demande l'an dernier.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Corneille noire",
+        "description": "Nombre d'animaux prélevés\r\nIndiquer 0 si vous n'avez prélevé aucun animal ou si vous n'avez pas fait de demande l'an dernier.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Déclaration sur l'honneur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste sur l'honneur être détenteur du droit de chasse",
+        "description": "Case à cocher ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Je m'engage à vérifier que tous les intervenants seront porteurs de leur permis de chasse validé",
+        "description": "Case à cocher ",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m'engage à respecter les dates de chasses particulières autorisées du 1er août à l'ouverture de la chasse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Je m'engage à prendre toutes les dispositions pour assurer la sécurité des tirs",
+        "description": "Case à cocher ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Je déclare sur l'honneur avoir retourné le bilan de l'année précédente ou n'avoir pas fait de chasse particulière",
+        "description": "Case à cocher ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Je m'engage à télédéclarer sur \"démarche simplifiée\" avant l'ouverture de  l'année en cours, le compte rendu complet des chasses particulières réalisées, y compris s'il en a été réalisée aucune",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

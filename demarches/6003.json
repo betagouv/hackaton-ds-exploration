@@ -1,0 +1,712 @@
+{
+  "number": 6003,
+  "title": "Téléprocédure APA Etablissement (v16) ",
+  "description": "Avant d'entamer la procédure, assurez-vous que le bénéficiaire est éligible à l'APA. \r\n\r\nPour être éligible, le bénéficiaire doit : \r\n- avoir au moins 60 ans,\r\n- justifier d’une résidence stable et régulière en France,\r\n- résider dans le département des Hauts-de-Seine depuis au moins 3 mois (dans le cas contraire, rapprochez-vous de votre département d'origine).\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2018-06-26T16:27:04+02:00",
+  "service": {
+    "nom": "CD92 – Direction des Prestations du Financement et du Budget - Service gestion des droits et des prestations (APA E)",
+    "organisme": "Conseil Départemental des Hauts-de-Seine",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/teleprocedure-apa-etablissement-v16",
+  "dpoUrl": null,
+  "noticeUrl": "http://www.hauts-de-seine.fr/solidarites/personnes-agees/lhebergement-des-personnes-agees/",
+  "siteWebUrl": "http://www.hauts-de-seine.fr/solidarites/personnes-agees/lhebergement-des-personnes-agees/",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "procedure-4ac06963-53b8-46e4-a790-78aaaa7d27e0.png",
+    "checksum": "Aw8kdPONzDJ0cw5vKlrLMw==",
+    "byteSize": "6839",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1 - Personne en charge de la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Pour qui faites-vous la demande?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Je suis le bénéficiaire",
+          "Je suis une personne désignée légalement (tuteur, curateur, sauvegarde de justice)",
+          "Je suis un organisme désigné légalement (tuteur, curateur, sauvegarde de justice)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2.a - Identités : informations concernant le bénéficiaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance du bénéficiaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance du bénéficiaire",
+        "description": "Exemple 12/12/1931",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu de naissance du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nationalité du bénéficiaire",
+        "description": "",
+        "required": true,
+        "options": [
+          "Française",
+          "UE",
+          "Hors UE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de domicile du bénéficiaire",
+        "description": "L'adresse saisie doit être l'adresse où résidait le bénéficiaire avant son entrée en établissement (EHPAD/USLD/EHPA/Foyer logement).",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code postal du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Date d’entrée dans le logement",
+        "description": "",
+        "required": true,
+        "options": [
+          "Depuis plus de 3 mois",
+          "Depuis moins de 3 mois"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de sortie du logement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel du bénéficiaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation familiale du bénéficiaire",
+        "description": "Si le bénéficiaire est célibataire, merci de sélectionner \"Célibataire\" dans le menu déroulant et merci de passer à la rubrique 2.c - Identités : informations concernant la personne référente.",
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Marié",
+          "Concubin",
+          "Pacsé",
+          "Divorcé",
+          "Veuf"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "-",
+        "description": "Si la situation de veuvage date de moins de 2 ans, merci de préciser la date de décès du conjoint.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2.b - Identités : informations concernant le conjoint, concubin ou partenaire de pacs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "Exemple 12/12/1931",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu de naissance",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone fixe ou portable",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nationalité",
+        "description": "",
+        "required": false,
+        "options": [
+          "Française",
+          "UE",
+          "Hors UE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Lieu de résidence",
+        "description": "",
+        "required": false,
+        "options": [
+          "A domicile",
+          "En établissement"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2.c - Identités : informations concernant la personne référente",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité du référent",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du référent",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du référent",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance du référent",
+        "description": "Exemple 12/12/1931",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu de naissance du référent",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du référent",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone fixe ou portable du référent",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel du référent",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Lien entre le référent et le demandeur",
+        "description": "",
+        "required": false,
+        "options": [
+          "Conjoint(e)",
+          "Enfant",
+          "Belle-fille",
+          "Gendre",
+          "Tiers familial",
+          "Fille de madame",
+          "Fille de monsieur",
+          "Fils de madame",
+          "Fils de monsieur",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - Protection juridique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quel est le type de mesure de protection ?",
+        "description": "Si le bénéficiaire ne fait pas l'objet d'une mesure de protection, merci de saisir dans le menu déroulant \"Aucune mesure\" et merci de passer à la rubrique 4 - Résidence.",
+        "required": true,
+        "options": [
+          "Aucune mesure",
+          "Sauvegarde de justice",
+          "Curatelle",
+          "Tutelle",
+          "Habilitation familiale",
+          "Mandat de protection futur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d’effet de la mesure",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'organisme nommé dans le cadre de cette protection",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Ou",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité de la personne désignée légalement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la personne désignée légalement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom de la personne désignée légalement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de la personne désignée légalement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone fixe ou portable de la personne désignée légalement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel de la personne désignée légalement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - Résidence",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'établissement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'entrée dans cet établissement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de résidence",
+        "description": "L’adresse saisie doit être l’adresse de l’établissement.",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel de l'établissement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5 - Allocations perçues",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Bénéficiez-vous de l’Aide Sociale à l’Hébergement (ASH)?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si non, une demande est-elle en cours ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Bénéficiez-vous d'une aide-ménagère à domicile, prise en charge par une caisse de retraite, ou l’aide sociale départementale?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Bénéficiez-vous de la prestation de compensation du handicap (PCH)?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Bénéficiez-vous de l’allocation compensatrice pour tierce personne (ACTP)?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Bénéficiez-vous de la majoration pour aide constante d’une tierce personne versée par la Sécurité sociale?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Bénéficiez-vous de la prestation complémentaire pour recours à tierce personne?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "_",
+        "description": "Attention, l’APA n’est pas cumulable avec les 5  dernières aides citées ci-dessus. Si vous avez répondu oui à une des questions, il vous faudra choisir entre l’APA et l’allocation dont vous bénéficiez actuellement.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "6.a – Les ressources : biens(s) immobilier(s), bâti(s) ou non bâti(s), en propriété ou en usufruit ou en indivision",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Je déclare posséder un ou des biens(s) immobilier(s), bâti(s) ou non bâti(s), en propriété ou en usufruit ou en indivision.",
+        "description": "Si vous répondez \"Oui\" à la question, merci de bien vouloir indiquer l’adresse des biens immobiliers bâtis ou non bâtis. ",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "____________________________________________________________________________________________________________",
+        "description": "Résidence principale",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de la résidence principale",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La résidence principale est-elle occupée par le conjoint, le concubin, le partenaire de pacs, un enfant ou un petit enfant ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La résidence principale est-elle louée par un tiers ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "____________________________________________________________________________________________________________",
+        "description": "Résidence secondaire n°1",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de la résidence secondaire n°1",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Ce bien est-il loué par un tiers ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "____________________________________________________________________________________________________________",
+        "description": "Résidence secondaire n°2",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de la résidence secondaire n°2",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Ce bien est-il loué par un tiers ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "____________________________________________________________________________________________________________",
+        "description": "Résidence secondaire n°3",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de la résidence secondaire n°3",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Ce bien est-il loué par un tiers ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "____________________________________________________________________________________________________________",
+        "description": "Résidence secondaire n°4",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de la résidence secondaire n°4",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Ce bien est-il loué par un tiers ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "6.b - Les ressources : contrats d'assurance-vie",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Je déclare posséder un ou des contrat(s) d’assurance-vie",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "7 – Validation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie sur l’honneur l’exactitude des renseignements saisis",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m’engage à fournir toutes les pièces justificatives demandées.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je suis informé(e) que toute fausse déclaration ou falsification de document, toute obtention usurpée d’un droit, m’expose à des sanctions pénales et financières en application des articles 313-1, 313-7 et 313-8 du Code pénal, ainsi que, le cas échéant, à la récupération par le Département des sommes indûment perçues.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je suis tenu(e) d’informer, dans les meilleurs délais, le Département, de tout changement ultérieur de situation (changement d’établissement, retour à domicile, changement de GIR, changement de tarifs, changement de RIB, décès du bénéficiaire ou du conjoint).",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie recto verso du justificatif d’identité du bénéficiaire",
+        "description": "Pour les personnes de nationalité française : carte d'identité ou passeport | Pour les personnes ressortissantes de l’Espace économique européen : carte  d'identité ou passeport en cours de validité | Pour les personnes non ressortissantes de l’Espace économique européen : carte de résidence ou titre de séjour en cours de validité.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie d’un justificatif de domicile (de moins de 3 moins avant l'entrée en EHPAD, type quittance EDF ou de loyer)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie du bulletin d’entrée en établissement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie de jugement pour les demandes dont le bénéficiaire fait l'objet d'une procédure judiciaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie de la décision d’attribution d'une aide ou allocation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie intégrale (les 2 feuilles recto-verso, soit 4 pages) du dernier avis d'imposition ou de non-imposition à l'impôt sur le revenu",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie recto verso de la taxe foncière pour la résidence principale",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie recto verso de la taxe foncière pour la résidence secondaire n°1",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie recto verso de la taxe foncière pour la résidence secondaire n°2",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie recto verso de la taxe foncière pour la résidence secondaire n°3",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie recto verso de la taxe foncière pour la résidence secondaire n°4",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie du ou des dernier(s) relevés d’assurance-vie",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Relevé d'identité bancaire (RIB) au nom du bénéficiaire ou de l’établissement",
+        "description": "La transmission du RIB est obligatoire si le bénéficiaire réside dans un établissement situé en dehors du 92.",
+        "required": false
+      }
+    ]
+  }
+}

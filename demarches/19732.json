@@ -1,0 +1,462 @@
+{
+  "number": 19732,
+  "title": "TS - Attestation de conformité des installations matérielles",
+  "description": "Madame, Monsieur,\r\n\r\nJe vous remercie du soin que vous prendrez à compléter ce formulaire établi dans une logique de simplification et de qualité de service.\r\nNéanmoins, si des interrogations apparaissent lors de cette démarche dématérialisée, l'ARS Auvergne-Rhône-Alpes demeure à votre disposition pour vous apporter tout le soutien nécessaire.\r\n\r\nLe directeur général de\r\nl’Agence Régionale de Santé Auvergne-Rhône-Alpes\r\n\r\nLa loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, s’applique aux réponses faites à ce formulaire. Elle garantit un droit d’accès et de rectification pour les données vous concernant, auprès de l’Agence Régionale de Santé.\r\n\r\nConformément au règlement (UE) 2016/679 du Parlement européen et à  la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, modifiée par la loi n° 2018-493 du 20 juin 2018 (décret 2018-687 du 1er août 2018) , vous pouvez accéder aux données vous concernant. Pour exercer ces droits, vous pouvez contacter  le Délégué à la Protection des Données (DPO) de l’ARS (ars-ara-dpd@ars.sante.fr).\r\n",
+  "tags": [
+    "Médical"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2020-07-01T09:31:02+02:00",
+  "service": {
+    "nom": "ARS ARA - le service transports sanitaires",
+    "organisme": "Agence régionale de santé Auvergne Rhône-Alpes",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ts-attestation-de-conformite-des-installations-mat",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.auvergne-rhone-alpes.paps.sante.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/eli/arrete/2012/7/12/AFSE1128927A/jo/texte/fr",
+  "logo": {
+    "filename": "2020_Logo_RH_ARS_ARA_Horizontal.png",
+    "checksum": "9zUg82YNfn7fyU0fYro6xQ==",
+    "byteSize": "71396",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 135,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Numéro du département",
+        "description": "",
+        "required": true,
+        "options": [
+          "01",
+          "03",
+          "07",
+          "15",
+          "26",
+          "38",
+          "42",
+          "43",
+          "63",
+          "69",
+          "73",
+          "74"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro d'agrément ARS si société déjà agréée",
+        "description": "Pour toute première demande d'agrément, le numéro sera attribué lors de la délivrance de l'arrêté portant autorisation pour effectuer des transports sanitaires terrestres.\nSaisir le numéro d'agrément sans caractères spéciaux ( / -)",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Les installations matérielles peuvent faire l'objet d'une visite de conformité en amont de la délivrance de l'agrément",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "L'entreprise dispose-t-elle d'un local d'accueil des patients ou de leur famille",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Local propre à l'entreprise permettant l'accueil de la patientèle",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Local commun à plusieurs entreprises",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Si oui, indiquez le nom de la ou des société(s) implantée(s) à la même adresse",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de la société",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Adresse du local d'accueil",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de la voie",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de la voie",
+        "description": "(avenue, boulevard, etc)",
+        "required": false,
+        "options": [
+          "Rue",
+          "Avenue",
+          "Boulevard",
+          "Allée",
+          "Place",
+          "Route",
+          "Cours",
+          "Chemin",
+          "Impasse",
+          "Promenade",
+          "Sentier",
+          "Le bourg",
+          "Centre",
+          "Lieu-dit",
+          "Lotissement",
+          "Passage",
+          "ZA",
+          "ZAC",
+          "ZAD",
+          "Chaussée",
+          "Quai",
+          "Faubourg",
+          "Hameau"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la voie",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse (lieu-dit...)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Code postal",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Ville/commune",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Présence d'une plaque ou d'une enseigne extérieure",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Local accessible aux personnes à mobilité réduite",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Installation téléphonique permettant, en dehors de la garde, d'indiquer le service ambulancier de permanence ou solution alternative",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Si oui, numéro de téléphone",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Affichage lisible de l'extérieur pour les heures d'accueil et dispositions alternatives en cas d'absence",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Un local pourvu de couchages permettant le repos pendant la garde départementale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Un local pourvu de sanitaires comprenant a minima un wc, une douche, un lavabo",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "L'entreprise dispose-t-elle d'une aire de stationnement et/ou d'un garage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Présence d'un garage couvert dont le volume doit permettre d'accueillir a minima une ambulance de catégorie A",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du garage si différent de l'adresse du local",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Présence d'une aire de stationnement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Adresse de l'aire de stationnement si différente de l'adresse du local",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de la voie",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de la voie",
+        "description": null,
+        "required": false,
+        "options": [
+          "Rue",
+          "Avenue",
+          "Boulevard",
+          "Allée",
+          "Place",
+          "Route",
+          "Cours",
+          "Chemin",
+          "Impasse",
+          "Promenade",
+          "Sentier",
+          "Le bourg",
+          "Centre",
+          "Lieu-dit",
+          "Lotissement",
+          "Passage",
+          "ZA",
+          "ZAC",
+          "ZAD",
+          "Chaussée",
+          "Quai",
+          "Faubourg",
+          "Hameau"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la voie",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse (lieu-dit...)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code postal",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Ville/commune",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre le contrat de location ou acte de propriété ou mise à disposition",
+        "description": "Dans l'hypothèse où l'aire de stationnement et/ou le local de désinfection serai(en)t à une adresse différente du local d'accueil, merci de joindre le ou les justificatifs correspondants. ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Toute autre pièce justificative que vous jugeriez nécessaire de joindre à votre demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si le garage n’est pas contigu au local d’accueil, nécessité d’une liaison téléphonique ou radiotéléphonique avec celui-ci de façon à permettre tout départ immédiat",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Aires de stationnement suffisantes pour le nombre de véhicules exploités",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "L'entreprise dispose d'un local de désinfection et d'entretien des véhicules",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Un local situé dans la commune ou l'agglomération permettant le lavage, la désinfection et l'entretien courant des véhicules ainsi que la maintenance du matériel",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Adresse du local d'entretien si différent du garage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de la voie",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de la voie",
+        "description": null,
+        "required": false,
+        "options": [
+          "Rue",
+          "Avenue",
+          "Boulevard",
+          "Allée",
+          "Place",
+          "Route",
+          "Cours",
+          "Chemin",
+          "Impasse",
+          "Promenade",
+          "Sentier",
+          "Le bourg",
+          "Centre",
+          "Lieu-dit",
+          "Lotissement",
+          "Passage",
+          "ZA",
+          "ZAC",
+          "ZAD",
+          "Chaussée",
+          "Quai",
+          "Faubourg",
+          "Hameau"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la voie",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse (lieu-dit...)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code postal",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Ville/commune",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Un local avec présence d'un point d'eau",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Un local avec présence d'une aire de lavage des véhicules",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avec présence de prises électriques",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avec affichage d'un protocole de désinfection",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Si local/garage commun, indiquer nom des sociétés",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de la société",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je soussigné représentant légal de l’entreprise précitée, déclare sur l’honneur que les installations matérielles sont conformes aux normes déterminées en application de l’article R.6312-13 du code de la santé publique.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Signature (nom et prénom)",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

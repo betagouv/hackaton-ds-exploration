@@ -1,0 +1,464 @@
+{
+  "number": 13676,
+  "title": "ALISA 2018- Module Gestion des ALERTES en abattoirs de Volaille V1- Test AO",
+  "description": "Interaction avec les usagers Abatteurs de volaille pour la transmission des ICA (Information sur la chaine alimentaire) des lots à alertes, c'est-à-dire présentant un critère d'alerte en dépassement.",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2019-02-01T09:08:00+01:00",
+  "service": {
+    "nom": "DDPP85 - Secteur La Roche Ouest",
+    "organisme": "Direction Departementale de la Protection des Populations de la Vendée",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/cc683903-02f1-45ca-937f-3e9a1015b95f",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "",
+  "cadreJuridiqueUrl": "http://galatee.national.agri/doc/gal/g17164.pdf",
+  "logo": {
+    "filename": "procedure-52f1f926-1623-4cf7-b1f3-b3821ef3a147.jpg",
+    "checksum": "IKi54uTwcTFCY1esLMVH7g==",
+    "byteSize": "117671",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 2,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Abattoir",
+        "description": "",
+        "required": true,
+        "options": [
+          "SA Claude COUTHOUIS",
+          "SA Marcel FAVREAU",
+          "SA Leon DUPONT",
+          "SAS Volailes Elie FRESLON",
+          "SAS PERIDY",
+          "SARL Gerard BURGAUD",
+          "EARL La COUARTIERE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTIFICATION DU LOT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "Date et heure d'abattage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Numéro de lot",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Raison social de l'éleveur - INUAV",
+        "description": "",
+        "required": false,
+        "options": [
+          "AMIOT GAEC",
+          "AUBAIN JEAN",
+          "AUVINET EARL",
+          "AVENIR GAEC",
+          "BARBE GAEC",
+          "BARGE GAEC",
+          "BARON EARL",
+          "BARRE GAEC",
+          "BAUCHET GAEC",
+          "BAUGE STEPHANE EARL",
+          "BAZIREAU EARL",
+          "BEL AIR EARL",
+          "BOISSEAU FABIENNE",
+          "BREBION GILLES",
+          "BRUNO LEGUI",
+          "CHANSON PHILIPPE",
+          "CHANSON YVON",
+          "CHARBONNEAU",
+          "CHARBONNEAU EARL",
+          "CHAUVIN JEAN-PIERRE",
+          "CHIRON DIDIER",
+          "CLAVEAU RENE",
+          "COUE EMMANUEL",
+          "DAVY EARL",
+          "DE L'AVENIR GAEC",
+          "DE L'OASIS SCEA",
+          "DE LA FORET EARL",
+          "DE LA TELLANDIERE SCEA",
+          "DE LA TREUILLERE EARL",
+          "DES DEUX LANDES GAEC",
+          "DES HAUTS VILLAGES GAEC",
+          "DES SAULES GAEC",
+          "DES TROIS RIVIERES EARL",
+          "DU BREUIL RATEAU EARL",
+          "DU COIN DE LA TERRE EARL",
+          "DU LAC EARL",
+          "DU MANOIR EARL",
+          "DU PLESSIS GAEC",
+          "ECLAIRCIE EARL",
+          "ECOMARD SAMUEL",
+          "ENCLOS EARL",
+          "EVIDENCE GAEC",
+          "FONTELANDE GAEC",
+          "FORGETTE GAEC",
+          "GIRARDIERE GAEC",
+          "GRANDS CHENES EARL",
+          "GRANDS R EARL",
+          "GUIET CLAUDE",
+          "GUILLET DOMINIQUE EARL",
+          "HILAIRET GAEC",
+          "HURTAUD PASCAL",
+          "JARDRIOUX GAEC",
+          "JAULME EARL",
+          "L'AULIERE GAEC",
+          "LA PIERRIERE EARL",
+          "LA VALLEE DU FIEF GAEC",
+          "LANDE EARL",
+          "LAVAU GAEC",
+          "LE BRETON EARL",
+          "LE FAMILIAL GAEC",
+          "LE FOURNIL EARL",
+          "LE MOULIN PLESSIS GAEC",
+          "LE SOMMET GAEC",
+          "LES BIGNONS GAEC",
+          "LES MATTES GAEC",
+          "LES ROBLINS GAEC",
+          "LES SUISSIERES GAEC",
+          "LES VRIGNAIS GAEC",
+          "LITTORAL EARL",
+          "LMA PASQUIER EARL",
+          "LUCAS",
+          "MERLERIE GAEC",
+          "MOINARD KARINE",
+          "MON NID EARL",
+          "MON NID EARL",
+          "MURS LOUIS MARIE",
+          "NAZARETH GAEC",
+          "NICOLEAU",
+          "NOUVEL HORIZON GAEC",
+          "PACAUD",
+          "PACAUD OLIVIER",
+          "PAS DU BOIS GAEC",
+          "PELTIER CYRILLE",
+          "PLESSIS GAEC",
+          "POIVET XAVIER",
+          "PONIERE GAEC",
+          "POUIVET EARL",
+          "PROUST DEBORAH",
+          "RABALLAND",
+          "RAVELEAU HERVE",
+          "RENAUDIERE GAEC",
+          "ROBERT EARL",
+          "ROGERIE GAEC",
+          "ROY CHRISTIAN",
+          "RUTA JEAN",
+          "SANS FRONTIERE GAEC",
+          "SAUVIGNAC EARL",
+          "SEBASTOPOL EARL",
+          "SEIGNEURIE EARL",
+          "STE PAULINE GAEC",
+          "TRICOIRE",
+          "TROIS RIVIERES EARL",
+          "VALLEE DU FIEF GAEC",
+          "VEZIN GAEC",
+          "VILLENEUVE GAEC",
+          "VIVRAIE EARL"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nouvel éleveur: raison social, code postel et adresse du batiment",
+        "description": "A ne remplir que si l'éleveur ne parait pas dans la base de donnée.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "INUAV",
+        "description": "Format \"V-zéro-département-3lettres\"",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Code postal et Commune",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Groupement de production",
+        "description": "",
+        "required": false,
+        "options": [
+          "ALIMENTS MERCIER",
+          "ALLARD",
+          "ANTIGNY NUTRITION",
+          "ATLANTIC ALIMENTS",
+          "BELLAVOL",
+          "CAVAC",
+          "CIAB-CAPELEVAGE",
+          "CAP ELEVAGE",
+          "CERTI'FERME",
+          "GAEVOL",
+          "GESLIN",
+          "LA COUVEE",
+          "LES ELEVEURS DE CHALLANS",
+          "NUTREA",
+          "NNA -SAS",
+          "NOREA",
+          "NUTRIVENDEE",
+          "PRODAVI",
+          "SANDERS",
+          "SELCO",
+          "SOULARD",
+          "TERRENA",
+          "TRISKALIA",
+          "UKL",
+          "VAL'IANCE",
+          "VBO"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Espece",
+        "description": "",
+        "required": false,
+        "options": [
+          "Canard maigre",
+          "Oie"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sexe",
+        "description": "",
+        "required": false,
+        "options": [
+          "Mâle",
+          "Femelle",
+          "Non sexé"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de production",
+        "description": "",
+        "required": false,
+        "options": [
+          "standard",
+          "plein air",
+          "label",
+          "bio",
+          "réforme",
+          "autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "CAUSE DE L'ALERTE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Cette alerte est en lien avec l'alerte n°:",
+        "description": "Laisser le champ vide si absence de lien avec une autre alerte",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Alerte ICA",
+        "description": "",
+        "required": false,
+        "options": [
+          "01-ICA_absence fiche 24H avant abattage",
+          "02-ICA_infos non disponibles",
+          "03-ICA_absence résultat salmonelle",
+          "04-ICA_médicament (aliment ou traitement)",
+          "05-ICA_résultat salmonelle positif",
+          "06-ICA_mortalité J-15",
+          "07-ICA_mortalité totale",
+          "08-ICA_lot fractionné – alertes antérieures",
+          "09-ICA_zone provenance sous restriction",
+          "10-ICA_mortalité 2 derniers jours / autres anomalies",
+          "11-ICA_non concordance caractéristiques",
+          "12-ICA_non concordance nombre",
+          "13-IAM_mortalité transport",
+          "14-IAM_signes cliniques",
+          "15-IAM_lot anormalement sale",
+          "16-IPM_retrait total",
+          "17-IPM_anomalies inhabituelles ou atypiques"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si salmonelle: typage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ICA et  documents en lien avec l'alerte",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "ICA",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Resultat salmonelle",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre document utile",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ENGAGEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "A remplir obligatoirement avant envoi",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nom et qualité",
+        "description": "",
+        "required": false,
+        "options": [
+          "Mme BEILARD Mariella- RQ",
+          "M. JUGUET Mickaël- RQ",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, je m'engage sur la veracité des informations ci-dessus.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RESULTATS D'ABATTAGE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "A remplir à l'isue de l'abattage du lot.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'animaux abattus",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de retraits totaux (en %)",
+        "description": "Etouffés inclus",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Dont étouffés (en nombre)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de C2",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de C3",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Motif principal",
+        "description": "",
+        "required": false,
+        "options": [
+          "Odeur anormale",
+          "Carcasse cadavérique",
+          "Carcasse congestive",
+          "Carcasse saigneuse",
+          "Autre anomalies de coloration (preciser en commentaire)",
+          "Caracasse cachectique",
+          "Carcasse gonflée",
+          "Arthrite-Synovite",
+          "Ascite",
+          "Gros jabot",
+          "Autre anomalie de conformation (préciser en commentaire)",
+          "Ampoule de bréchet",
+          "Lésions purulentes",
+          "Picage-Griffage",
+          "Autres lésions cutanée (préciser en commentaire)",
+          "Hématome-Fracture",
+          "Souillures",
+          "Défaut de plumaison",
+          "Autre anomalie d'aspect (préciser en commentaire)",
+          "Aérosacculite",
+          "Processus tumoral",
+          "Peritonite",
+          "Anomalies des viscères (préciser en commentaire)",
+          "Motif autre que sanitaire (préciser en commentaire)"
+        ]
+      }
+    ]
+  }
+}

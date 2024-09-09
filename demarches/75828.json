@@ -1,0 +1,271 @@
+{
+  "number": 75828,
+  "title": "DDETS 77 - Demande de prolongation de l'aide sociale hébergement en CHRS",
+  "description": "Demande de prolongation de l'aide sociale pour les personnes hébergées en centre d'hébergement et de réinsertion sociale (CHRS) du département de Seine-et-Marne.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère des Solidarités, de l'Autonomie et des personnes handicapées"
+  ],
+  "datePublication": "2024-05-23T13:32:08+02:00",
+  "service": {
+    "nom": "Mission Inspection Contrôle",
+    "organisme": "DDETS de Seine-et-Marne",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ddets-77-demande-de-prolongation-de-l-aide-sociale",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.seine-et-marne.gouv.fr/Services-de-l-Etat/Direction-Departementale-de-l-Emploi-du-Travail-et-des-Solidarites-DDETS/Mission-inspection-des-ESMS/Centres-d-hebergement-et-de-reinsertion-sociale-Prolongations-de-sejours",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCode.do;jsessionid=C6241892C3EBCAAD0A3990C6A3342254.tplgfr23s_1?idSectionTA=LEGISCTA000006157691&cidTexte=LEGITEXT000006074069&dateTexte=20181218",
+  "logo": {
+    "filename": "PREF_Seine_et_marne_CMJN 464-285.jpg",
+    "checksum": "EUZpBcbWgViejoN+jyxvGw==",
+    "byteSize": "48613",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 87,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "DEMANDE DE PROLONGATION AIDE SOCIALE HEBERGEMENT EN CHRS",
+        "description": "aux termes de l'article R345-4 du Code de l'Action Sociale et des Familles",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "S'agit-il d'un ménage déjà connu ?",
+        "description": "C'est à dire présent dans l'établissement avant la mise en place des démarches simplifiées.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si le ménage est déjà connu, préciser les identités, dates de naissance et date d'admission.",
+        "description": "Nos services procéderont au recollement des informations afin de retrouver le dossier correspondant.\r\nPour chaque personne : Nom/Prénom/Date de Naissance",
+        "required": true
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "NUMERO DE DOSSIER",
+        "description": "Il vous a été communiqué au moment de la déclaration d'admission ou s'il s'agit d'un ménage connu lors de la première demande de prolongation dans la démarche simplifiée.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ACTUALISATION DU DOSSIER",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La composition de la famille a-t-elle évoluée ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Si oui, préciser l'identité complète du nouveau membre de la famille (lien de parenté, civilité, nom, prénom, date de naissance, lieu de naissance)",
+        "description": "cliquer sur plus pour rajouter autant de membres que nécessaire",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nouveau membre en précisant dans l'ordre :  lien de parenté, genre (H/F), nom, prénom, date de naissance, lieu de naissance)",
+            "description": "si enfant, préciser le rang de naissance\r\nsi grossesse en cours, l'indiquer tel quel en précisant la date prévue d'accouchement",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Un changement de lieu d'hébergement est-il intervenu depuis l'admission ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui, préciser les raisons du changement",
+        "description": "Par exemple : naissance, comportement inadapté, dégradations, dégât des eaux, incendie, etc...). Indiquer alors les nouvelles conditions d'hébergement (ville, collectif ou diffus, typologie si diffus, cohabitation ou non).",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PARTICIPATION FINANCIERE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le bénéficiaire peut-il s'acquitter d'une participation financière aux frais d'hébergement ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quel est le montant de la participation du bénéficiaire ? (préciser le pourcentage appliqué)",
+        "description": "par exemple : 100 euros soit 10% des ressources",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le bénéficiaire est-il à jour de ses règlements ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, quel est le montant de la dette ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quelles sont les actions mises en place pour régulariser la situation ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "AIDE AU RETOUR",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Une présentation du dispositif d'aide au retour a-t-elle été réalisée ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui, quelles sont les suites envisagées ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si non, merci d'en préciser les raisons",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ACCES AU LOGEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Demande de logement déposée",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, veuillez indiquer le numéro de DLS",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, veuillez indiquer le numéro SYPLO si vous le connaissez",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le bénéficiaire est-il reconnu DALO ou DAHO ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le bénéficiaire est-il reconnu prioritaire au titre des accords collectifs départementaux ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, des propositions de logement ont-elles été faites ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "En cas de propositions de logement faites, quelles suites ont été données ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si pas de dépôt de DLS, merci de préciser le motif",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si aucune proposition de faite, merci d'en préciser les raisons",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RAPPORT SOCIAL",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Rapport social (bilan intermédiaire tous les 6 mois)",
+        "description": "Résumez les motivations de la demande de prolongation",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Validation de la demande d'aide sociale",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie que le ménage est informé et a accepté cette demande de prolongation d'aide sociale.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de prolongation d'admission à l'aide sociale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "projet personnalisé actualisé",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "bénéficiaire : nouveau document d'identité si évolution de la situation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "conjoint du bénéficiaire : nouveau document d'identité si évolution de la situation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Une remarque ou une suggestion pour améliorer cette démarche.",
+        "description": "Faites le savoir sur https://www.plus.transformation.gouv.fr/ !!!",
+        "required": false
+      }
+    ]
+  }
+}

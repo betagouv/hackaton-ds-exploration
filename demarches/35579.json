@@ -1,0 +1,294 @@
+{
+  "number": 35579,
+  "title": "Registre des autorisations de stationnement de taxi",
+  "description": "Cette procédure vous permet de déclarer les ADS qui ont été délivrées sur votre territoire.\r\n\r\nLa saisie d'un formulaire correspond à une autorisation de stationnement. Vous aurez à remplir autant de formulaires que vous avez délivré d'ADS.\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2022-04-25T16:34:20+02:00",
+  "service": {
+    "nom": "Bureau T3P - DGITM",
+    "organisme": "Ministère des transports",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/registre-des-autorisations-de-stationnement",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ecologie.gouv.fr/taxi-vtc-reglementation-des-transports-publics-particuliers-personnes",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=JORFARTI000029527163&cidTexte=LEGITEXT000029528524&categorieLien=id",
+  "logo": {
+    "filename": "kisspng-water-taxi-logo-clip-art-cabs-5b30d7ce506157.1031525015299276303293.png",
+    "checksum": "ZbT6YFGn9zDrGc8KV5nhuQ==",
+    "byteSize": "7431",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 105,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'autorité ayant délivré l'ADS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Indiquer le type de votre autorité",
+        "description": "",
+        "required": true,
+        "options": [
+          "Mairie",
+          "EPCI",
+          "Préfecture"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Indiquer le numéro SIRET de votre structure",
+        "description": "Vous avez la possibilité de retrouver le numéro SIRET de votre structure à l'adresse : https://entreprise.data.gouv.fr/",
+        "required": true
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Indiquer le département de votre mairie, EPCI ou préfecture",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Indiquer l'adresse de votre mairie, EPCI ou préfecture (voie et ville)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur l'ADS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Indiquer le numéro d’identification de l'ADS dans votre commune, EPCI ou préfecture",
+        "description": "S'il n'existe pas de numéro d'identification des ADS, vous pouvez en créer un, en classant les ADS par ordre chronologique de création",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Indiquer la date de création initiale de l’ADS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sélectionner le champ correspondant",
+        "description": "",
+        "required": true,
+        "options": [
+          "L'ADS a été créée après la loi du 1er octobre 2014 : \"nouvelle ADS\"",
+          "L'ADS a été créée avant la loi du 1er octobre 2014 : \"ancienne ADS\""
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Indiquer la date d’attribution de l’ADS au titulaire actuel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Indiquer le mode d'obtention de l'ADS par le titulaire actuel",
+        "description": "",
+        "required": true,
+        "options": [
+          "Gratuitement (délivrée par l'autorité compétente)",
+          "Cession à titre onéreux",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si Autre, précisez le mode d'obtention",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Indiquer si l'autorisation de stationnement exploitée est conventionnée par l'Assurance Maladie",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur le véhicule de taxi",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Indiquer le numéro d'immatriculation du véhicule de taxi",
+        "description": "Le numéro d'immatriculation du véhicule est indiqué sur l'arrêté de l'autorisation de stationnement",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Indiquer si le véhicule est équipé pour le transport de personnes à mobilité réduite (PMR)",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Indiquer si le véhicule est électrique ou hybride",
+        "description": "- Cocher \"Oui\", si le véhicule est électrique ou hybride\n- Cocher \"Non\", si le véhicule est ni électrique, ni hybride",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur le titulaire de l'ADS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le titulaire de l'ADS est la personne à qui a été délivrée l'ADS. Il peut l'exploiter personnellement ou la faire exploiter par l'intermédiaire d'un tiers (locataire gérant ou salarié).",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Indiquer le nom du titulaire, ou du représentant légal de l'entreprise titulaire de l'ADS",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Indiquer le prénom du titulaire, ou du représentant légal de l'entreprise titulaire de l'ADS",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Indiquer le numéro SIRET du titulaire de l'ADS *",
+        "description": "Le numéro SIRET du titulaire est indiqué sur l'arrêté d'attribution de l'autorisation de stationnement\n\nVous pouvez retrouver le numéro SIRET du titulaire de l'ADS à partir son nom et prénom sur le site : https://entreprise.data.gouv.fr/",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Est-ce que le titulaire exploite personnellement son ADS ?",
+        "description": "Si le titulaire exploite personnellement son ADS, alors sélectionner \"Titulaire exploitant\" à la question suivante sur le statut de l'exploitant.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur l'exploitant de l'ADS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "L'exploitant de l'ADS est la personne physique ou morale qui exploite commercialement l'ADS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Indiquer le statut de l’exploitant",
+        "description": "",
+        "required": true,
+        "options": [
+          "Titulaire exploitant",
+          "Locataire gérance",
+          "Coopérateur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Indiquer la raison sociale de l'exploitant, ou son nom et prénom",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Indiquer le numéro SIRET de l'exploitant *",
+        "description": "Vous pouvez retrouver le numéro SIRET de l'exploitant à partir du numéro SIREN, de la raison sociale ou du représentant légal de l'entreprise sur le site : https://entreprise.data.gouv.fr/",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur le(s) conducteur(s)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Saisir les informations du ou des conducteurs",
+        "description": "Pour rajouter un conducteur supplémentaire, cliquer sur le bouton ci-dessous : \"Ajouter un élément pour « Saisir les informations du ou des conducteurs »\"",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro de carte professionnelle de conducteur de taxi",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom(s)",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom(s)",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Arrêté portant attribution de l'ADS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre la copie de l'arrêté d'attribution de l'ADS",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

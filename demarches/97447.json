@@ -1,0 +1,199 @@
+{
+  "number": 97447,
+  "title": "FAJ Sarthe Nord",
+  "description": "Gestion du FAJ pour Sarthe Nord",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2024-06-05T17:36:11+02:00",
+  "service": {
+    "nom": "Service RSA",
+    "organisme": "Département de la Sarthe",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/faj-sarthe-nord",
+  "dpoUrl": "dpo@sarthe.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "Viesion",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": {
+    "filename": "SartheDep-CMJN.jpg",
+    "checksum": "EcVNImPHHa6I41cIlKkODA==",
+    "byteSize": "107546",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 26,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la commission",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Age le jour de la demande",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Ville de résidence",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Hébergement",
+        "description": "",
+        "required": false,
+        "options": [
+          "Logé chez les parents",
+          "Hébergé chez un tiers",
+          "Logement autonome (propriétaire / locataire)",
+          "Hôtel",
+          "En Foyer",
+          "CHRS, Hébergement d'urgence",
+          "Sans abri"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation d'activité",
+        "description": "",
+        "required": false,
+        "options": [
+          "En emploi ou stage rémunéré",
+          "Scolarisé/Etudiant, sans emploi ni stage rémunéré",
+          "Ni scolarisé, ni en emploi, ni en stage",
+          "Autres",
+          "Inconnu"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Niveau de formation",
+        "description": "",
+        "required": true,
+        "options": [
+          "Sans diplôme",
+          "CAP / BEP",
+          "Bac et +"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "SOMME TOTALE DEMANDEE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Dont régie d'avance",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Dont somme versée en Tickets-Service",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Dont somme versée en don",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Dont prêt",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Finalité des aides individuelles attribuées",
+        "description": "Si une aide a plusieurs finalités, la classer selon la finalité principale",
+        "required": true,
+        "options": [
+          "Alimentaire",
+          "Transport (dont aide au permis de conduire)",
+          "Formation",
+          "Logement",
+          "Autres (Recherche d'emploi / santé...)",
+          "Inconnu"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Demande d'Accompagnement Social",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Demande d'un diagnostic",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Demande d'une mesure d'accompagnement social",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de mois d'accompagnement démandé",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Renseignements complémentaires / Explications nécessaires à la compréhension de la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "La mission locale certifie que l'éligibilité au FAJ est vérifiée. Les pièces justificatives sont conservées par ses soins",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Engagements",
+        "description": "Le bénéficiaire, avec l'aide de son référent s'engage à :\r\n- faire périodiquement avec lui une évaluation\r\n- le prévenir de tout changement de situation pouvant donner lieu à une nouvelle étude de son dossier\r\n- respecter ses engagements\r\n\r\nEn cas de non respect des engagements pris par le bénéficiaire, le comité d'examen se réserve le droit de redéfinir les termes du contrat\r\n\r\nFait à                                             Le \r\n\r\nSignature référent                                                                  Signature bénéficiaire",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "number": 27103,
+  "title": "Demandes relatives à l'agrément des GAEC",
+  "description": "La démarche vise à clarifier et faciliter l'échange de pièces relatives à l'agrément de GAEC, entre les exploitants ou leurs juristes (qui verseront les documents) et le SEADER de la DDT du Rhône (qui réceptionnera les documents).",
+  "tags": [
+    "Gaec"
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2020-03-12T15:31:35+01:00",
+  "service": {
+    "nom": "SERVICE ECONOMIE AGRICOLE ET DEVELOPPEMENT RURAL",
+    "organisme": "DIRECTION DEPARTEMENTALE DES TERRITOIRES DU RHONE",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/procedure_gaec_rhone_version3",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.rhone.gouv.fr/Politiques-publiques/Agriculture-foret-et-developpement-rural/Liens-utiles-pour-les-agriculteurs",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCode.do;jsessionid=5353556C63102C4264607637DFC53D88.tplgfr24s_3?idSectionTA=LEGISCTA000030294884&cidTexte=LEGITEXT000006071367&dateTexte=20190718",
+  "logo": {
+    "filename": "procedure-04d60aa7-bfa7-4292-b3eb-778f2e53aabb.png",
+    "checksum": "bU7xQ2xdZX3uk7DwA7ezLQ==",
+    "byteSize": "64751",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 370,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom du GAEC",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom de la commune du siège social du GAEC",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la Formation Spécialisée Gaec",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Etape de la demande",
+        "description": null,
+        "required": true,
+        "options": [
+          "Demande préalable",
+          "Transmission des pièces définitives"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type d'opération GAEC",
+        "description": "",
+        "required": true,
+        "options": [
+          "Création",
+          "Création + dérogation travail extérieur",
+          "Transformation société autre en Gaec",
+          "Dérogation travail extérieur",
+          "Entrée associé",
+          "Sortie associé",
+          "Entrée+Sortie associé",
+          "Sortie associé+Transformation",
+          "Sortie associé+statut Gaec unipersonnel",
+          "Transformation en société autre que Gaec",
+          "Autre modification de statuts",
+          "Dissolution",
+          "Dissolution+Liquidation",
+          "Liquidation"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom du conseiller juridique",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Procédure de reconnaissance (note relative à l'origine du GAEC et aux conditions de son fonctionnement)",
+        "description": "Cette pièce signée (Cerfa n°14363*01) est obligatoire lors de la demande préalable pour la création d'un GAEC.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Note de synthèse",
+        "description": "Cette pièce est nécessaire pour la bonne information des membres de la Formation spécialisée GAEC.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Faisabilité économique du Gaec",
+        "description": "Conformément à l'article L323-11 du CRPM, l'administration vérifie, en particulier, l'adéquation entre la dimension de l'exploitation commune et le nombre d'associés lors d'un agrément d'un Gaec.",
+        "required": true,
+        "options": [
+          "Plan d'entreprise dans le cadre d'une Installation aidée déjà fourni à la DDT",
+          "Résultats économiques du Gaec existant avant l'entrée d'un nouvel associé",
+          "Résultats économiques de(s) exploitation(s) concernée(s) par la création du Gaec",
+          "Autre étude économique",
+          "Etude économique simplifiée"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document justifiant la faisabilité économique du Gaec",
+        "description": "En l'absence de Plan d’Entreprise, fournir ici toute étude économique ou résultats économiques des années précédentes ou une étude simplifiée présentant à minima le calcul  de 4 indicateurs économiques : produit brut, EBE, montant des annuités et revenu disponible.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre document justifiant la faisabilité économique du Gaec",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Procès verbal d'Assemblée générale",
+        "description": "Projet ou acte définitif signé selon l'étape de la procédure.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Statuts",
+        "description": "Projet ou acte définitif signé selon l'étape de la procédure.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Convention de mise à disposition",
+        "description": "Projet ou acte définitif signé selon l'étape de la procédure.\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Extrait Kbis",
+        "description": "Cette pièce est obligatoire lors de la transmission des actes définitifs.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dérogation activité extérieure CONTINUITE",
+        "description": "Il s'agit d'une activité dans la continuité du Gaec pratiquée par tous les associés en vue de la commercialisation ou la transformation des produits du Gaec. Elle est pratiquée sans limite d'heures.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Formulaire dérogation activité extérieure LIMITEE",
+        "description": "Il s'agit d'une activité accessoire pratiquée par un ou plusieurs associés et ne représentant pas plus de 536 heures annuelles par associé.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Procès verbal d'assemblée générale autorisant l'activité extérieure",
+        "description": "Cette pièce est obligatoire dans le cas d'une demande de dérogation pour activité extérieure.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dérogation pour statut Gaec unipersonnel",
+        "description": "Cette pièce est à fournir que ce soit pour une première demande ou une prolongation.",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,711 @@
+{
+  "number": 68308,
+  "title": "2024 - HABILITATIONS CCF et UC - DRAAF/SRFD Auvergne-Rhône-Alpes",
+  "description": "Portail de dépôt des demandes d'habilitation à la mise en œuvre des évaluations en CCF ou UC pour les formations par la voie de l'apprentissage ou de la formation professionnelle continue du Ministère en charge de l'agriculture en région Auvergne-Rhône-Alpes.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2024-02-26T14:12:41+01:00",
+  "service": {
+    "nom": "DRAAF, SRFD Auvergne-Rhône-Alpes",
+    "organisme": "Ministère de l'Agriculture et de la Souveraineté Alimentaire",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/2023-habilitations-ccf-uc-draaf-aura",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://draaf.auvergne-rhone-alpes.agriculture.gouv.fr/dossiers-d-habilitation-uc-et-ccf-a4815.html",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/eli/loi/2018/6/20/JUSC1732261L/jo/texte",
+  "logo": {
+    "filename": "logo draaf.PNG",
+    "checksum": "kwYeQhHfFluBwoD4bZ6e/w==",
+    "byteSize": "18784",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "arrete habilitation du  13-01-14.pdf",
+    "checksum": "yU7oXeKVSPpoFR8BgpjDLQ==",
+    "byteSize": "86464",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 212,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "A LIRE AVANT TOUT DEPOT DE DOSSIER",
+        "description": "Avant de déposer le dossier, veuillez prendre connaissance de la note de service relative à la mise en œuvre des dossiers d'habilitation en cliquant ici : https://info.agriculture.gouv.fr/gedei/site/bo-agri/instruction-2014-109\r\n\r\nLes dossiers incomplets ne seront pas instruits.\r\n\r\nPour toute question préalable au dépôt d'un dossier, merci de vous adresser à : habilitationccf-uc.draaf-auvergne-rhone-alpes@agriculture.gouv.fr \r\n",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "BTSA SEMESTRIALISE",
+        "description": "ATTENTION ! L'habilitation pour un BTSA SEMESTRIALISE n'est pas réalisée par cette interface de démarches simplifiées. Si votre demande concerne l'habilitation d'un BTSA SEMESTRIALISE, vous devez compléter la démarche simplifiée accessible ici : https://www.demarches-simplifiees.fr/commencer/habilitation-a-la-semestrialisation-pour-les-btsa-\r\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité du centre de formation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM DU CENTRE DE FORMATION",
+        "description": "Indiquer le nom du centre de formation.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "LIEU DE FORMATION = SITE DE FORMATION",
+        "description": "Préciser le NOM du SITE où se déroule la formation. \r\nSi la formation se déroule sur 2 sites différents, déposer 2 dossiers de demande d'habilitations.",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "COMMUNE DU LIEU DE FORMATION",
+        "description": "Préciser la commune où se trouve le site du lieu de la formation.",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "E MAIL DU CENTRE DE FORMATION",
+        "description": "Mail institutionnel de centre de formation. ",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "E MAIL REFERENT DU DOSSIER",
+        "description": "Mail du référent en charge du dossier dans le centre de formation.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Visa de la direction du centre de formation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Cochez la case",
+        "description": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "La Direction du centre de formation atteste l'exactitude des éléments fournis.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Formation concernée par la demande d'habilitation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "TYPE DE DEMANDE",
+        "description": "Habilitation complète : pour une nouvelle formation ou le renouvellement d'une habilitation au terme des 5 ans. Les dossiers doivent être déposés 3 mois au moins avant le début de la formation.\nActualisation : à renouveler chaque année. Les dossiers doivent être déposés 2 mois avant le début de la formation.\n",
+        "required": true,
+        "options": [
+          "Habilitation complète",
+          "Actualisation"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "OBJET DE LA DEMANDE",
+        "description": "Dans le cadre d'une habilitation complète, préciser l'objet de la demande",
+        "required": true,
+        "options": [
+          "Première demande d'habilitation",
+          "Renouvellement",
+          "Rénovation de diplôme"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "VOIE DE FORMATION",
+        "description": "Indiquer la voie de formation du diplôme.\r\nsi vous proposez la même formation pour les deux voies de formation (apprentissage et formation continue), il est nécessaire de déposer un dossier pour chaque voie.",
+        "required": true,
+        "options": [
+          "Apprentissage",
+          "Formation continue"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "MENTION AGRICULTURE BIOLOGIQUE",
+        "description": "Si vous cochez OUI, prendre connaissance de la note de service que vous pouvez télécharger ici : https://info.agriculture.gouv.fr/gedei/site/bo-agri/instruction-2020-357",
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "DIPLÔME",
+        "description": "Sélectionner le diplôme concerné par votre demande dans le menu déroulant.\r\nUn deuxième menu s'ouvrira automatiquement pour sélectionner la spécialité du diplôme.",
+        "required": true,
+        "options": [
+          "--CAPa--",
+          "Jardinier Paysagiste (JP)",
+          "Lad - Cavalier d'entraînement (Lad)",
+          "Maréchal-Ferrant (MF)",
+          "Métiers de l'Agriculture (MA)",
+          "Opérateur Industries Alimentaires (OIA)",
+          "Palefrenier Soigneur (PS)",
+          "Service à la Personne et Vente en Espace Rural (SAPVER)",
+          "Travaux Forestiers (TF)",
+          "--BPA--",
+          "Transformations alimentaires (Transfo)",
+          "Travaux de la production animale (PA)",
+          "Travaux de la vigne et du vin (TVV)",
+          "Travaux de l'élevage canin et félin (TECF)",
+          "Travaux des aménagements paysagers (TAP)",
+          "Travaux des productions horticoles (TPH)",
+          "Travaux forestiers (TF)",
+          "Bucheron",
+          "Ouvrier d'élevage de ruminant et de cultures fourragères",
+          "ouvrier maraicher",
+          "ouvrier spécialisé en paysage",
+          "ouvrier viticole",
+          "--BP--",
+          "Aménagements paysagers (AP)",
+          "Conducteurs de machines agricoles (CMA)",
+          "Educateur canin (EC)",
+          "Industries alimentaires (IA)",
+          "Responsable de chantiers de bûcheronnage manuel et sylviculture (RCBS)",
+          "Responsable de chantiers de bûcheronnage manuel et débardage (RCBD)",
+          "Responsable de productions légumières, fruitières, florales et de pépinières (RPLFFP)",
+          "Responsable d'entreprise agricole (REA)",
+          "Responsable d'entreprise hippique (REH)",
+          "--Bac Pro--",
+          "Agro-équipement (AE)",
+          "Aménagements paysagers (AP)",
+          "Conduite de productions aquacoles (Aqua)",
+          "Conduite de productions horticoles (CPH)",
+          "Conduite et gestion de l'entreprise agricole (CGEA)",
+          "Conduite et gestion de l'entreprise hippique (CGEH)",
+          "Conduite et gestion de l'entreprise vitivinicole (CGEVV)",
+          "Conduite et gestion d'une entreprise du secteur canin et félin (CGECF)",
+          "Forêt",
+          "Gestion des milieux naturels et de la faune (GMNF)",
+          "Laboratoire contrôle qualité (LCQ)",
+          "Services aux personnes et animation dans les territoires (SAPAT)",
+          "Technicien conseil vente en alimentation (TCVAlim)",
+          "Technicien conseil vente en animalerie (TCVAnim)",
+          "Technicien conseil vente univers jardinerie (TCVJardin)",
+          "Technicien en expérimentation animale (TEA)",
+          "--BTSA--",
+          "Agronomie et cultures durables (ACD)",
+          "Aménagements paysagers (AP)",
+          "Analyse, conduite et stratégie de l'entreprise agricole (ACSE)",
+          "Analyses biologiques, biotechnologiques, agricoles et environnementales (Anabiotech agri/envi)",
+          "Aquaculture (Aqua)",
+          "Développement, animation des territoires ruraux (DATR)",
+          "Génie des équipements agricoles (GEA)",
+          "Gestion et maîtrise de l'eau (GEMEAU)",
+          "Gestion et protection de la nature (GPN)",
+          "Gestion forestière (GF)",
+          "Métiers du végétal : Alimentation, ornement et environnement (MVAOE)",
+          "Productions animales (PA)",
+          "Qualité, alimentation, innovation et maîtrise sanitaire (BioQualim)",
+          "Technico-commercial (TC)",
+          "Viticulture-œnologie (Viti-oeno)",
+          "--CS--",
+          "Apiculture (Api)",
+          "Arboriste Elagueur (AE)",
+          "Arrosage Automatique : espaces verts et sols sportifs (AA)",
+          "Concepteur Paysagiste (Concept P)",
+          "Conduite de la production de plantes à parfum, aromatiques et médicinales (PPAM)",
+          "Conduite d'un élevage avicole et commercialisation des produits (Avi)",
+          "Conduite d'un élevage bovin lait (bovin lait)",
+          "Conduite d'un élevage bovin viande (bovin viande)",
+          "Conduite d'un élevage caprin (caprin)",
+          "Conduite d'un élevage ovin viande (ovin)",
+          "Conduite d'un élevage porcin (porcin)",
+          "Conduite de productions maraîchères (Maraîch)",
+          "Constructions Paysagères (Constr P)",
+          "Education et travail des jeunes équidés (Educ équidés)",
+          "Jardinier de golf et entretien des sols sportifs engazonnés (Golf)",
+          "Pilote de machines de bûcheronnage (PMB)",
+          "Production, transformation et commercialisation des produits fermiers (Produits fermiers)",
+          "Responsable d'une unité de méthanisation agricole (Méthanisation)",
+          "Responsable technico-commercial : agrofournitures (TC AF)",
+          "Responsable technico-commercial en agroéquipements (TC AE)",
+          "Responsable technico-commercial en IAA : produits laitiers (TC lait)",
+          "Restauration collective (Restau Co)",
+          "Sols sportifs engazonnés (SSE)",
+          "Technicien spécialisé en transformation laitière (Transfo lait)",
+          "Technicien-conseil en comptabilité et gestion agricoles (TC compta)",
+          "Transformation des produits carnés (Transfo carnée)",
+          "Travaux mécanisés de génie écologique (TMGE)",
+          "Utilisation et conduite d'attelages de chevaux (Attelage)"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "S'il s'agit d'un Bac Pro, l'entrée se fait-elle en seconde pro ?",
+        "description": "Préciser si votre demande concerne la formation dès la seconde pro (pour les dossiers de demande d'habilitation d'un Bac Pro).",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Support ou option du diplôme",
+        "description": "Si votre demande concerne un des diplômes mentionnés, vous devez préciser son support ou option.\r\nSi votre demande concerne un des diplômes de la liste, sélectionnez-le.\r\nSi non, passez directement à la question suivante.",
+        "required": false,
+        "options": [
+          "CAPa Métiers de l'agriculture",
+          "CAPa Opérateur en industries agroalimentaires",
+          "Bac Pro Conduite et Gestion de l'Entreprise Agricole",
+          "BPA Transformations alimentaires",
+          "BPA Travaux de la production animale",
+          "BPA Travaux de la vigne et du vin",
+          "BPA Travaux des productions horticoles",
+          "BPA Travaux forestiers",
+          "BTSA Technico-commercial"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Support ou option de la spécialité du diplôme",
+        "description": "Préciser LE SUPPORT du diplôme. \r\nSi plusieurs supports, déposer autant de dossiers de demande d'habilitations que de supports.",
+        "required": true,
+        "options": [
+          "Equins (élevage et/ou détention)",
+          "Ruminants",
+          "Porcs ou aviculture (gibier exclu)",
+          "Arboriculture",
+          "Grandes cultures",
+          "Horticulture",
+          "Viticulture"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Support ou option de la spécialité du diplôme",
+        "description": "Préciser LE SUPPORT du diplôme. \r\nSi plusieurs supports, déposer autant de dossiers de demande d'habilitations que de supports.",
+        "required": true,
+        "options": [
+          "Conduite de machines",
+          "Transformation de produits alimentaires"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Support ou option de la spécialité du diplôme",
+        "description": "Préciser LE SUPPORT du diplôme. \r\nSi plusieurs supports, déposer autant de dossiers de demande d'habilitations que de supports.",
+        "required": true,
+        "options": [
+          "Transformation de produits alimentaires",
+          "Transformation des viandes",
+          "Transformation du lait"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Support ou option de la spécialité du diplôme",
+        "description": "Préciser LE SUPPORT du diplôme. \r\nSi plusieurs supports, déposer autant de dossiers de demande d'habilitations que de supports.",
+        "required": true,
+        "options": [
+          "Elevage de porcs",
+          "Elevage de ruminants",
+          "Elevage de volailles",
+          "Polyculture-élevage"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Support ou option de la spécialité du diplôme",
+        "description": "Préciser LE SUPPORT du diplôme. \r\nSi plusieurs supports, déposer autant de dossiers de demande d'habilitations que de supports.",
+        "required": true,
+        "options": [
+          "Travaux de la cave",
+          "Travaux de la vigne"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Support ou option de la spécialité du diplôme",
+        "description": "Préciser LE SUPPORT du diplôme. \r\nSi plusieurs supports, déposer autant de dossiers de demande d'habilitations que de supports.",
+        "required": true,
+        "options": [
+          "Arboriculture fruitière",
+          "Horticulture ornementale et légumière"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Support ou option de la spécialité du diplôme",
+        "description": "Préciser LE SUPPORT du diplôme. \r\nSi plusieurs supports, déposer autant de dossiers de demande d'habilitations que de supports.",
+        "required": true,
+        "options": [
+          "Conduite de machines forestières",
+          "Travaux de bûcheronnage",
+          "Travaux de sylviculture"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Support ou option de la spécialité du diplôme",
+        "description": "Préciser LE SUPPORT du diplôme. \r\nSi plusieurs supports, déposer autant de dossiers de demande d'habilitations que de supports.",
+        "required": true,
+        "options": [
+          "Produits de la filière bois",
+          "Vins, bières et spiritueux",
+          "Jardinerie et animalerie",
+          "Biens et services pour l'agriculture",
+          "Alimentation et boissons"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Support ou option de la spécialité du diplôme",
+        "description": "Préciser LE SUPPORT du diplôme. \r\nSi plusieurs supports, déposer autant de dossiers de demande d'habilitations que de supports.",
+        "required": true,
+        "options": [
+          "Grandes cultures",
+          "Polycultures-élevage"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "MODE D'EVALUATION",
+        "description": "Indiquer si le diplôme est évalué en Contrôle en Cours de Formation (CCF) ou en Unités Capitalisables (UC).",
+        "required": true,
+        "options": [
+          "Contrôle en Cours de Formation (CCF)",
+          "Unités Capitalisables (UC)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "PRESENTATION SYNTHETIQUE DU PROJET",
+        "description": "Préciser le contexte et l'origine du projet pour le choix de cette formation au niveau du centre de formation.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "FINANCEUR PRINCIPAL DE LA FORMATION",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "MODALITES DE MISE EN OEUVRE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "DATE PREVISIONNELLE DE DEBUT DE FORMATION",
+        "description": "Indiquer la date prévisionnelle de démarrage de la formation en centre de formation",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "DATE PREVISIONNELLE DE FIN DE FORMATION",
+        "description": "Indiquer la date prévisionnelle de fin de la formation en centre de formation",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "DUREE EN HEURES EN CENTRE DE FORMATION",
+        "description": "Indiquer la durée en heures de la formation réalisée en centre de formation (y compris classe de seconde si habilitation Bac Pro demandée pour le cycle en trois ans).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "DUREE EN HEURES DES PERIODES EN ENTREPRISE",
+        "description": "Indiquer la durée en heures des périodes réalisées en entreprise",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "REGROUPEMENT DE PUBLICS DIFFERENTS",
+        "description": "Cocher oui si le centre regroupe différents publics dans la même formation.",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "TYPE DE PUBLICS REGROUPES",
+        "description": "Cette information ne permet pas d'habiliter automatiquement les différentes voies de formation. Rappel : il est  nécessaire de déposer un dossier par voie de formation. La formation initiale scolaire n'est pas concernée par cette démarche simplifiée. ",
+        "required": true,
+        "options": [
+          "Apprentissage",
+          "FPC",
+          "Formation initiale scolaire"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "PARTENARIAT MOBILISE POUR LA MISE EN OEUVRE DE LA FORMATION",
+        "description": "Préciser les partenariats mis en œuvre pour la formation ainsi que la nature des collaborations prévues. Télécharger et compléter le tableau suivant avant de le déposer en pièce jointe ci-dessous.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "INDIVIDUALISATION DES PARCOURS DE FORMATION",
+        "description": "Expliquer les modalités d’individualisation spécifiques proposées (FOAD, dispositif d’entrées et sorties permanentes…)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "POSITIONNEMENT DES APPRENANTS",
+        "description": "Présenter le dispositif de positionnement des candidats.",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "UCARE",
+        "description": "Selon les formations, un ou plusieurs UCARE sont mis en œuvre par le centre formation (SAUF pour les CS)\r\nLa note de service DGER/SDPFE/2020-275 du 11/05/2020 (cliquez ou copiez-collez le lien) est accessible ici : https://info.agriculture.gouv.fr/gedei/site/bo-agri/instruction-2020-275",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "UCARE INSCRIT AU REGISTRE NATIONAL",
+            "description": "Préciser si l'UCARE est inscrit au registre national (consultable sur chlorofil.fr)",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "INTITULE UCARE",
+            "description": "Reprendre l'intitulé exact du registre national le cas échéant.",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Durée de l'UCARE (en heures)",
+            "description": "Une UCARE est un bloc de compétence. Sa durée doit être cohérente avec la durée de la formation et le nombre de blocs de compétences : ",
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "NOTE D'OPPORTUNITE DE L'UCARE",
+            "description": "La note doit démontrer en quoi la capacité développée va permettre de répondre aux besoins en compétences des entreprises du territoire ou permettre l’atteinte des résultats du projet (description des emplois du territoire et du bassin d'emploi en lien avec les demandes régionales de compétences spécifiques, mise en évidence des opportunités de diversification, de l’intérêt de développer de la polyvalence…).\r\nPrésenter la démarche (réunion, entretiens, conférence…).",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "DESCRIPTION DE L'UCARE",
+            "description": "Déposer la fiche descriptive de l'UCARE comportant la FDA (fiche descriptive des activités, les SPS (situations professionnelles significatives), la capacité globale et les deux capacités intermédiaires de l'UCARE.\r\nSi il s'agit d'une UCARE de registre national, déposer directement la fiche de l'UCARE disponible sur chlorofil. ",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "MODULES SPECIFIQUES (MIL / MAP / MIP et EIL)",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "NOUVEAU MODULE PROPOSE ?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "TYPE DE MODULE",
+            "description": "",
+            "required": true,
+            "options": [
+              "MIP",
+              "MAP",
+              "MIL",
+              "EIL"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "NOM DU MODULE",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "PREUVE DE L'HABILITATION DU MODULE",
+            "description": "La demande d'habilitation est à réaliser sur la démarche simplifiée n° 69151 :\r\nhttps://www.demarches-simplifiees.fr/commencer/habilitation-des-mip-map-mil-et-eil-draaf-auvergne\r\n\r\n",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "MODULES SPECIFIQUES (MIL / MAP / MIP et EIL)",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "TYPE DE MODULE",
+            "description": "",
+            "required": true,
+            "options": [
+              "MIP",
+              "MAP",
+              "MIL",
+              "EIL"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "NOM DU MODULE",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "PREUVE DE L'HABILITATION DU MODULE",
+            "description": "La demande d'habilitation est à réaliser sur la démarche simplifiée n° 69151 :\r\nhttps://www.demarches-simplifiees.fr/commencer/habilitation-des-mip-map-mil-et-eil-draaf-auvergne\r\n",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ANNEXES A JOINDRE",
+        "description": "Joindre les documents en lien avec la mise en œuvre de la formation et complétant la demande d'habilitation.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "ACTE DU CONSEIL D'ADMINISTRATION",
+        "description": "Joindre obligatoirement la délibération ou les extraits des procès-verbaux du conseil d'administration autorisant l'ouverture ou la reconduction de la formation. Ces documents doivent être datés et signés (acte des délibérations...)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "CALENDRIER DES PERIODES EN CENTRE / EN ENTREPRISE",
+        "description": "Joindre le calendrier d'alternance indiquant les périodes en centre de formation et les périodes en entreprise. \r\nLe calendrier d'alternance joint doit correspondre à la durée totale de la formation = cycle de formation.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RUBAN PEDAGOGIQUE",
+        "description": "Joindre le ruban pédagogique de la formation précisant la durée par unité de formation, unité capitalisable ou module.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "STRATEGIE DE FORMATION PAR ALTERNANCE",
+        "description": "Pour les formations par apprentissage, déposez le TSF (Tableau Stratégique de Formation) ou plan de formation en précisant les rôles respectifs du centre de formation et de l’entreprise pour l’atteinte des objectifs de formation.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "SUIVI DES APPRENANTS EN ENTREPRISE",
+        "description": "Joindre le document vous permettant d'assurer le suivi des apprenants en entreprise (carnet de liaison, livret du stagiaire...)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "CONTRAT INDIVIDUEL DE FORMATION",
+        "description": "Joindre le contrat pédagogique individuel (CIF) élaboré par le centre de formation à partir du positionnement réalisé en début de formation. \r\nPour les apprentis : Ce contrat doit mentionner les visas par l'intéressé, le directeur du centre de formation et le maitre d'apprentissage.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "PARCOURS INDIVIDUEL DE FORMATION",
+        "description": "Joindre le document formalisant le parcours individuel de formation (PIF) des apprenants. Ce document permet d'indiquer les allègements ou augmentations de la formation contractualisés entre le centre de formation et l'apprenant.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "PLAN D'EVALUATION PREVISIONNEL",
+        "description": "Joindre le plan d'évaluation prévisionnel (PEP) comportant les situations d'évaluation et les capacités concernées (adapté à la voie de formation).",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "PLAN D'EVALUATION PREVISIONNEL",
+        "description": "Pour les formations en UC, le PEP est composé des annexes 1, 2 et 3 de la note de service DGER/SDPFE/2016-31 du 15 janvier 2016.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "COMPTE-RENDUS DE REUNIONS",
+        "description": "Joindre les comptes rendus de réunions pédagogiques et bilan de formation (en un seul fichier).\r\nAu moins deux comptes rendus.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "QUALIFICATION DES FORMATEURS en seconde",
+        "description": "Télécharger et compléter le tableau suivant avant de le déposer en pièce jointe. Uniquement pour la classe de seconde. Dans le champ suivant ne complétez que pour le cycle 1ère terminale.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "QUALIFICATION DES FORMATEURS",
+        "description": "Télécharger et compléter le tableau suivant avant de le déposer en pièce jointe.\r\n75% des horaires dispensés doivent être assurés par des formateurs répondant aux conditions fixées par l’arrêté\r\nSi la formation est en UC, l’habilitation ne peut être accordée que si au moins deux formateurs du cycle de formation concerné ont suivi une formation propre au dispositif de formation en UC.\r\nle cas échéant pour les formations UC : « créer un onglet par parcours TYPE » dans le tableau.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "HABILITATION UC FORMATEUR 1",
+        "description": "Joindre l'attestation de formation UC : agrément à la conduite du dispositif d’évaluation  (organisée sous la responsabilité d’IAD). \r\nNommer le fichier déposé avec le nom du formateur concerné",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "HABILITATION UC FORMATEUR 2",
+        "description": "Joindre l'attestation de formation UC : agrément à la conduite du dispositif d’évaluation  (organisée sous la responsabilité d’IAD). \r\nNommer le fichier déposé avec le nom du formateur concerné",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "AUTRES ANNEXES",
+        "description": "Joindre tout autre document que vous jugerez pertinent pour l'instruction de cette habilitation.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "ANNEXE COMPLEMENTAIRE",
+            "description": "Le nom du fichier de votre annexe doit être explicite.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "COMPLEMENT DEMANDE LORS DE L'INSTRUCTION",
+        "description": "Ce champ sera à utiliser si l'instructeur vous demande des compléments d'information lors de l'instruction de votre dossier.\r\nLe nom du fichier de votre annexe doit être explicite.\r\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Description",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Fichier complémentaire",
+            "description": "Le nom du fichier de votre annexe doit être explicite.",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

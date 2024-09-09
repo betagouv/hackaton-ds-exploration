@@ -1,0 +1,85 @@
+{
+  "number": 62564,
+  "title": "Invalidité - Déposer vos documents",
+  "description": "Ce service est réservé uniquement aux assurés en Invalidité des CPAM de Lille-Douai de l'Artois et Roubaix-Tourcoing.\r\n\r\nPour une connexion simple et pratique, utilisez la connexion France-Connect.\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2022-07-20T15:49:05+02:00",
+  "service": {
+    "nom": "ASSURE",
+    "organisme": "CPAM LILLE DOUAI",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/depot-doc-lille-douai",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "declic.cpamLille-Douai.fr",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/",
+  "logo": {
+    "filename": "ASSURANCE_MALADIE_Logo_CMJN_Lille Douai.png",
+    "checksum": "v5MxLBR6dkK6qyQUbv1wLA==",
+    "byteSize": "23392",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 9246,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le Pôle Régional Invalidité vous offre la possibilité d'adresser vos documents, nécessaires à l'instruction de votre dossier (merci de conserver les documents originaux), en complétant le formulaire suivant.",
+        "description": "En cas de questions et/ou demandes de renseignement, nous vous invitons à vous connecter sur la messagerie sécurisée du compte ameli (www.ameli.fr) ou à contacter le 36 46.",
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Dans quel département habitez-vous ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "De quelle Caisse Primaire d'Assurance Maladie dépendez-vous ?",
+        "description": "Indiquez votre Caisse Primaire d'Assurance Maladie\r\n",
+        "required": true,
+        "options": [
+          "CPAM Lille-Douai",
+          "CPAM Roubaix-Tourcoing",
+          "CPAM Artois"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de sécurité sociale",
+        "description": "Saisir les 15 chiffres sans espace",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Vos pièces à fournir",
+        "description": "Plusieurs pièces à déposer, vous pouvez faire \"+ Ajouter un élément pour......\"",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déposer ici vos pièces",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

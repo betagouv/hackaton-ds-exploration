@@ -1,0 +1,118 @@
+{
+  "number": 40848,
+  "title": "Fonds de développement de la vie associative - transmission des bilans Meurthe et Moselle",
+  "description": "Espace de dépôt des bilans pour les associations subventionnées par le FDVA \"Fonctionnement Innovation\" en en Meurthe et Moselle (depuis 2018)",
+  "tags": [
+    "association",
+    "FDVA"
+  ],
+  "zones": [
+    "Ministère de la Jeunesse et des Sports"
+  ],
+  "datePublication": "2023-01-10T16:59:37+01:00",
+  "service": {
+    "nom": "SDJES - mission vie associative - agréments",
+    "organisme": "DSDEN 54 - Service départemental à la jeunesse, l'engagement et aux sports.",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/bilansfdva54",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ac-nancy-metz.fr/lancement-de-la-campagne-fdva-2023-en-region-grand-est-124519",
+  "cadreJuridiqueUrl": "http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000821399",
+  "logo": {
+    "filename": "fdva.png",
+    "checksum": "JDecLDz/z2FS1eRsMqaAdQ==",
+    "byteSize": "632600",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 8,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "L'association",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'association",
+        "description": "Nom de l'association concernée par la transmission des bilans",
+        "required": false
+      },
+      {
+        "__typename": "RNAChampDescriptor",
+        "label": "RNA de l'association",
+        "description": "Merci d'indiquer le numéro RNA de l'association pour le compte de laquelle la démarche est effectuée - l'association concernée va apparaitre.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Dépôt du bilan des actions financées par le FDVA",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Transmission du bilan",
+        "description": "CERFA du modèle de compte rendu de subvention - téléchargeable sur https://www.formulaires.service-public.fr/gf/cerfa_15059.do UN CERFA PAR AN / EXERCICE - Pour déposer sur plusieurs années, cliquez sur le bouton en fin de formulaire",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Année concernée par le bilan",
+            "description": "Merci d'indiquer l'année concernée par le bilan",
+            "required": false,
+            "options": [
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Bilan de la subvention",
+            "description": "Merci de téléverser le CERFA de bilan",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autre document utile",
+            "description": "Vous pouvez téléverser tout autre document utile à l'analyse du bilan . Dans le cas de documents multiples, merci de transférer une seule archive compressée (.zip)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Transmission de la demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom, Nom et fonction du déposant",
+        "description": "Merci d'indiquer qui effectue la démarche, sous la forme Prénom Nom + fonction du déposant (trésorier, président ...)",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel du déposant",
+        "description": "Merci d'indiquer votre adresse de courrier électronique",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Engagement sur l'honneur",
+        "description": "En cochant cette case, vous attestez être mandaté pour effectuer la démarche au nom de l'association et en demander la transmission au service concerné",
+        "required": true
+      }
+    ]
+  }
+}

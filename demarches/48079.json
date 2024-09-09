@@ -1,0 +1,158 @@
+{
+  "number": 48079,
+  "title": "FATEA 2020 - Plan de soutien aux Entreprises Adaptées (campagne de septembre 2021)",
+  "description": "Outil de déclaration et suivi de la création d’emploi par les entreprises adaptées dans le cadre des mesures de soutien (axe 2) du fonds d’accompagnement à la transformation EA. ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère du Travail, de la Santé et des Solidarités"
+  ],
+  "datePublication": "2021-09-07T13:48:56+02:00",
+  "service": {
+    "nom": "-Ministère du Travail du Plein Emploi et de l'Insertion-",
+    "organisme": "Mission à l'Emploi des Travailleurs Handicapés, DGEFP",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fatea2020-suivi-septembre21",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://travail-emploi.gouv.fr/FATEA-AP2020/",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "MinEmploi.png",
+    "checksum": "fzyvPJ+2MUzJJRP/+OZXkw==",
+    "byteSize": "14197",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "20210706_FATEA 2020_Mode-Emploi-Outil de suivi_v5.pptx",
+    "checksum": "7DCTBG3fXws9QLXKsKf3mA==",
+    "byteSize": "1202443",
+    "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+  },
+  "deliberation": {
+    "filename": "20210507_FATEA-2020_CadreJuridique_v1.docx",
+    "checksum": "OQfzSVY+4our0RcpMeisdQ==",
+    "byteSize": "38555",
+    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "dossiersCount": 296,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'ai pris connaissance du mode d'emploi",
+        "description": "décrivant la méthode de renseignement de la présente démarche",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Bilan d'exécution - Campagne de Septembre 2021",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Instructions",
+        "description": "-- Attention --\n\nCe formulaire vise à vous permettre de renseigner des indicateurs de suivi du réalisé par projet.\n\nLorsque votre projet bénéficie de plusieurs conventions, vous devez choisir une seule d'entre elles. Les objectifs d'emplois du projet sont rattachés à une seule convention.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Données FATEA (par projet)",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "SIRET bénéficiaire du CPOM",
+            "description": "Attention à bien vérifier le format du SIRET (14 chiffres sans espaces)",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° CPOM",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° convention FATEA",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "LinkedDropDownListChampDescriptor",
+            "label": "Nature du projet",
+            "description": null,
+            "required": true,
+            "options": [
+              "--Projet régional--",
+              "--Projet relevant d'un consortium--",
+              "Consortium national automobile",
+              "Consortium national numérique",
+              "Consortium national textile",
+              "Consortium régional",
+              "Autre"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si consortium \"Autre\", préciser",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Bilan à date",
+            "description": "(Clôture de la démarche le 30/09/21 à 23h59)",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de personnes physiques embauchées",
+            "description": "depuis la signature de la convention",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Dont nombre de personnes physiques embauchées en CDD Tremplin",
+            "description": "depuis la signature de la convention",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Nombre d’ETP créés",
+            "description": "depuis la signature de la convention",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Dont nombre d’ETP en CDD tremplin créés",
+            "description": "depuis la signature de la convention",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Nombre de salariés dont le contrat est maintenu grâce au FATEA",
+            "description": "depuis la signature de la convention",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Nombre d’ETP maintenus grâce au FATEA",
+            "description": "depuis la signature de la convention",
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Commentaires",
+            "description": "concernant l'avancement du projet et des créations d'emploi, le cas échéant",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

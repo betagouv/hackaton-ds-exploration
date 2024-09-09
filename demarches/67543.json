@@ -1,0 +1,1075 @@
+{
+  "number": 67543,
+  "title": "Allocation Personnalisée d'Autonomie en Etablissement (Première demande et renouvellement) Version 012023",
+  "description": "Demande d'aide pour personne âgée d’au moins 60 ans, résidant en France, de façon stable et régulière, en perte d’autonomie, c'est-à-dire dont la dépendance est évaluée par une équipe médico-sociale comme relevant du GIR 1, 2, 3 ou 4 sur la base d’une grille d’évaluation nationale (grille AGGIR).",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2023-01-02T10:26:04+01:00",
+  "service": {
+    "nom": "Service Aide Sociale Générale, Direction de l'Autonomie",
+    "organisme": "Conseil Départemental de l'Aude",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/cd11-apa-e",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://aude.fr/apa-formulaire-demande-en-ligne",
+  "cadreJuridiqueUrl": "https://aude.fr/apa-formulaire-demande-en-ligne",
+  "logo": {
+    "filename": "procedure-dd5f855e-39b2-464b-9943-fdd2f50ba5f7.png",
+    "checksum": "izR2fwfJRhsHOe3teyftSw==",
+    "byteSize": "8925",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "NOTICE_APA_etablissement_A5_2023_web_page-a-page.pdf",
+    "checksum": "NfpEccOh2zlj/qfq+ZJ3vg==",
+    "byteSize": "595951",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 304,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pour toute question relative à votre dossier, veuillez utiliser l’adresse de messagerie asg@aude.fr ou contacter le 04.68.11.69.23",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Lien vers la notice d'information",
+        "description": "https://www.aude.fr/ressources/notice-info-apae",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "S'agit-il...",
+        "description": null,
+        "required": true,
+        "options": [
+          "D'une première demande",
+          "D'un renouvellement"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Quel est votre numéro de dossier ?",
+        "description": "(Vous ne savez-pas où trouver votre numéro de dossier ? Retrouvez-le grâce à la notice en ligne https://www.aude.fr/ressources/notice-utilisation-formulaire-en-ligne-apa)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RENSEIGNEMENTS SUR LA PERSONNE CONCERNEE PAR LA DEMANDE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous soumis.e à une mesure de protection juridique ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si oui, précisez la mesure juridique à laquelle vous êtes soumis.e",
+        "description": "",
+        "required": false,
+        "options": [
+          "Tutelle",
+          "Curatelle",
+          "Sauvegarde de justice",
+          "Habilitation familiale",
+          "Mandat de protection familiale"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Indiquez le nom et l'adresse du tuteur ou de l'association chargé.e de la mesure",
+        "description": "Pensez à bien indiquer le nom du tuteur ou de la personne morale en charge, ainsi que l'adresse",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "IDENTITE DU DEMANDEUR",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité du demandeur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du demandeur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance (si différent)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom.s du demandeur",
+        "description": "Séparer les prénoms par un espace uniquement",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Nationalité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation familiale",
+        "description": null,
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Marié.e",
+          "Divorcé.e",
+          "Séparé.e",
+          "Veuf.ve",
+          "Concubin.e",
+          "Pacsé.e"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de sécurité sociale",
+        "description": "de la personne concernée MAIS pas celui du conjoint ou d'un parent",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Caisse d'affiliation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Votre régime de retraite principal (préciser)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Votre régime de retraite autres (préciser)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quel est le nom de l'établissement où vous résidez actuellement ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Quelle est l'adresse de l'établissement ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "A quelle date êtes-vous entré.e dans cet établissement ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quelle était votre adresse précédente ?",
+        "description": "Avant l'entrée en établissement",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quelle est la commune de votre dernière résidence ?",
+        "description": "Tapez votre code postal ou utilisez le menu déroulant pour indiquer la commune avant l'entrée dans l’établissement",
+        "required": true,
+        "options": [
+          "11000 Berriac",
+          "11000 Carcassonne",
+          "11100 Bages",
+          "11100 Montredon-des-Corbières",
+          "11100 Narbonne",
+          "11110 Armissan",
+          "11110 Coursan",
+          "11110 Salles-d'Aude",
+          "11110 Vinassan",
+          "11120 Argeliers",
+          "11120 Bize-Minervois",
+          "11120 Ginestas",
+          "11120 Mailhac",
+          "11120 Marcorignan",
+          "11120 Mirepeisset",
+          "11120 Moussan",
+          "11120 Pouzols-Minervois",
+          "11120 Sainte-Valière",
+          "11120 Saint-Marcel-sur-Aude",
+          "11120 Saint-Nazaire-d'Aude",
+          "11120 Ventenac-en-Minervois",
+          "11130 Sigean",
+          "11140 Artigues",
+          "11140 Aunat",
+          "11140 Axat",
+          "11140 Belfort-sur-Rebenty",
+          "11140 Bessède-de-Sault",
+          "11140 Cailla",
+          "11140 Campagna-de-Sault",
+          "11140 Counozouls",
+          "11140 Escouloubre",
+          "11140 Fontanès-de-Sault",
+          "11140 Galinagues",
+          "11140 Gincla",
+          "11140 Joucou",
+          "11140 La Fajolle",
+          "11140 Le Bousquet",
+          "11140 Le Clat",
+          "11140 Marsa",
+          "11140 Mazuby",
+          "11140 Mérial",
+          "11140 Montfort-sur-Boulzane",
+          "11140 Niort-de-Sault",
+          "11140 Puilaurens",
+          "11140 Rodome",
+          "11140 Roquefort-de-Sault",
+          "11140 Sainte-Colombe-sur-Guette",
+          "11140 Salvezines",
+          "11150 Bram",
+          "11150 Pexiora",
+          "11150 Villasavary",
+          "11150 Villepinte",
+          "11150 Villesiscle",
+          "11160 Cabrespine",
+          "11160 Castans",
+          "11160 Caunes-Minervois",
+          "11160 Citou",
+          "11160 Lespinassière",
+          "11160 Peyriac-Minervois",
+          "11160 Rieux-Minervois",
+          "11160 Trassanel",
+          "11160 Trausse",
+          "11160 Villeneuve-Minervois",
+          "11170 Alzonne",
+          "11170 Carlipa",
+          "11170 Caux-et-Sauzens",
+          "11170 Cenne-Monestiés",
+          "11170 Montolieu",
+          "11170 Moussoulens",
+          "11170 Pezens",
+          "11170 Raissac-sur-Lampy",
+          "11170 Sainte-Eulalie",
+          "11170 Saint-Martin-le-Vieil",
+          "11170 Villesèquelande",
+          "11170 Villespy",
+          "11190 Antugnac",
+          "11190 Arques",
+          "11190 Bugarach",
+          "11190 Camps-sur-l'Agly",
+          "11190 Cassaignes",
+          "11190 Couiza",
+          "11190 Coustaussa",
+          "11190 Cubières-sur-Cinoble",
+          "11190 Fourtou",
+          "11190 La Serpent",
+          "11190 Luc-sur-Aude",
+          "11190 Montazels",
+          "11190 Peyrolles",
+          "11190 Rennes-le-Château",
+          "11190 Rennes-les-Bains",
+          "11190 Serres",
+          "11190 Sougraigne",
+          "11200 Argens-Minervois",
+          "11200 Bizanet",
+          "11200 Boutenac",
+          "11200 Camplong-d'Aude",
+          "11200 Canet",
+          "11200 Conilhac-Corbières",
+          "11200 Cruscades",
+          "11200 Escales",
+          "11200 Fabrezan",
+          "11200 Ferrals-les-Corbières",
+          "11200 Homps",
+          "11200 Lézignan-Corbières",
+          "11200 Luc-sur-Orbieu",
+          "11200 Montséret",
+          "11200 Névian",
+          "11200 Ornaisons",
+          "11200 Paraza",
+          "11200 Raissac-d'Aude",
+          "11200 Roubia",
+          "11200 Saint-André-de-Roquelongue",
+          "11200 Thézan-des-Corbières",
+          "11200 Tourouzelle",
+          "11200 Villedaigne",
+          "11210 Port-la-Nouvelle",
+          "11220 Arquettes-en-Val",
+          "11220 Caunettes-en-Val",
+          "11220 Coustouge",
+          "11220 Fajac-en-Val",
+          "11220 Jonquières",
+          "11220 Labastide-en-Val",
+          "11220 Lagrasse",
+          "11220 Mayronnes",
+          "11220 Ribaute",
+          "11220 Rieux-en-Val",
+          "11220 Saint-Laurent-de-la-Cabrerisse",
+          "11220 Saint-Martin-des-Puits",
+          "11220 Saint-Pierre-des-Champs",
+          "11220 Serviès-en-Val",
+          "11220 Talairan",
+          "11220 Taurize",
+          "11220 Tournissan",
+          "11220 Val-de-Dagne",
+          "11220 Villar-en-Val",
+          "11220 Villetritouls",
+          "11230 Chalabre",
+          "11230 Corbières",
+          "11230 Courtauly",
+          "11230 Montjardin",
+          "11230 Peyrefitte-du-Razès",
+          "11230 Puivert",
+          "11230 Rivel",
+          "11230 Saint-Benoît",
+          "11230 Sainte-Colombe-sur-l'Hers",
+          "11230 Sonnac-sur-l'Hers",
+          "11230 Tréziers",
+          "11230 Val de Lambronne",
+          "11230 Villefort",
+          "11240 Alaigne",
+          "11240 Bellegarde-du-Razès",
+          "11240 Belvèze-du-Razès",
+          "11240 Cailhau",
+          "11240 Cailhavel",
+          "11240 Cambieure",
+          "11240 Donazac",
+          "11240 Escueillens-et-Saint-Just-de-Bélengard",
+          "11240 Fenouillet-du-Razès",
+          "11240 Ferran",
+          "11240 Gramazie",
+          "11240 Hounoux",
+          "11240 La Courtète",
+          "11240 Lignairolles",
+          "11240 Mazerolles-du-Razès",
+          "11240 Montgradail",
+          "11240 Monthaut",
+          "11240 Routier",
+          "11240 Seignalens",
+          "11250 Caunette-sur-Lauquet",
+          "11250 Clermont-sur-Lauquet",
+          "11250 Couffoulens",
+          "11250 Gardie",
+          "11250 Greffeil",
+          "11250 Ladern-sur-Lauquet",
+          "11250 Leuc",
+          "11250 Montclar",
+          "11250 Pomas",
+          "11250 Preixan",
+          "11250 Rouffiac-d'Aude",
+          "11250 Saint-Hilaire",
+          "11250 Verzeille",
+          "11250 Villar-Saint-Anselme",
+          "11250 Villebazy",
+          "11260 Campagne-sur-Aude",
+          "11260 Espéraza",
+          "11260 Saint-Jean-de-Paracol",
+          "11260 Val-du-Faby",
+          "11270 Brézilhac",
+          "11270 Cazalrenoux",
+          "11270 Fanjeaux",
+          "11270 Gaja-la-Selve",
+          "11270 Generville",
+          "11270 La Cassaigne",
+          "11270 La Force",
+          "11270 Lasserre-de-Prouille",
+          "11270 Laurac",
+          "11270 Orsans",
+          "11270 Plavilla",
+          "11270 Ribouisse",
+          "11270 Saint-Amans",
+          "11270 Saint-Gaudéric",
+          "11270 Saint-Julien-de-Briola",
+          "11290 Alairac",
+          "11290 Arzens",
+          "11290 Lavalette",
+          "11290 Montréal",
+          "11290 Roullens",
+          "11290 Villeneuve-lès-Montréal",
+          "11300 Ajac",
+          "11300 Bouriège",
+          "11300 Bourigeole",
+          "11300 Brugairolles",
+          "11300 Castelreng",
+          "11300 Cépie",
+          "11300 Cournanel",
+          "11300 Festes-et-Saint-André",
+          "11300 Gaja-et-Villedieu",
+          "11300 La Bezole",
+          "11300 La Digne-d'Amont",
+          "11300 La Digne-d'Aval",
+          "11300 Lauraguel",
+          "11300 Limoux",
+          "11300 Loupia",
+          "11300 Magrie",
+          "11300 Malras",
+          "11300 Malviès",
+          "11300 Pauligne",
+          "11300 Pieusse",
+          "11300 Pomy",
+          "11300 Roquetaillade-et-Conilhac",
+          "11300 Saint-Couat-du-Razès",
+          "11300 Saint-Martin-de-Villereglan",
+          "11300 Saint-Polycarpe",
+          "11300 Tourreilles",
+          "11300 Villarzel-du-Razès",
+          "11300 Villelongue-d'Aude",
+          "11310 Lacombe",
+          "11310 Saint-Denis",
+          "11310 Saissac",
+          "11310 Villemagne",
+          "11320 Airoux",
+          "11320 Labastide-d'Anjou",
+          "11320 Les Cassés",
+          "11320 Montferrand",
+          "11320 Montmaur",
+          "11320 Saint-Paulet",
+          "11320 Soupex",
+          "11330 Albières",
+          "11330 Auriac",
+          "11330 Bouisse",
+          "11330 Davejean",
+          "11330 Dernacueillette",
+          "11330 Félines-Termenès",
+          "11330 Lairière",
+          "11330 Lanet",
+          "11330 Laroque-de-Fa",
+          "11330 Maisons",
+          "11330 Massac",
+          "11330 Montgaillard",
+          "11330 Montjoi",
+          "11330 Mouthoumet",
+          "11330 Palairac",
+          "11330 Salza",
+          "11330 Soulatgé",
+          "11330 Termes",
+          "11330 Vignevieille",
+          "11330 Villerouge-Termenès",
+          "11340 Belcaire",
+          "11340 Belvis",
+          "11340 Camurac",
+          "11340 Comus",
+          "11340 Espezel",
+          "11340 Roquefeuil",
+          "11350 Cucugnan",
+          "11350 Duilhac-sous-Peyrepertuse",
+          "11350 Padern",
+          "11350 Paziols",
+          "11350 Rouffiac-des-Corbières",
+          "11350 Tuchan",
+          "11360 Albas",
+          "11360 Cascastel-des-Corbières",
+          "11360 Durban-Corbières",
+          "11360 Embres-et-Castelmaure",
+          "11360 Fontjoncouse",
+          "11360 Fraissé-des-Corbières",
+          "11360 Quintillan",
+          "11360 Saint-Jean-de-Barrou",
+          "11360 Villeneuve-les-Corbières",
+          "11360 Villesèque-des-Corbières",
+          "11370 Leucate",
+          "11380 La Tourette-Cabardès",
+          "11380 Labastide-Esparbairenque",
+          "11380 Les Ilhes",
+          "11380 Mas-Cabardès",
+          "11380 Miraval-Cabardès",
+          "11380 Pradelles-Cabardès",
+          "11380 Roquefère",
+          "11390 Brousses-et-Villaret",
+          "11390 Caudebronde",
+          "11390 Cuxac-Cabardès",
+          "11390 Fontiers-Cabardès",
+          "11390 Laprade",
+          "11390 Les Martys",
+          "11400 Castelnaudary",
+          "11400 Fendeille",
+          "11400 Fonters-du-Razès",
+          "11400 Issel",
+          "11400 La Pomarède",
+          "11400 Labécède-Lauragais",
+          "11400 Lasbordes",
+          "11400 Laurabuc",
+          "11400 Les Brunels",
+          "11400 Mas-Saintes-Puelles",
+          "11400 Mireval-Lauragais",
+          "11400 Peyrens",
+          "11400 Puginier",
+          "11400 Ricaud",
+          "11400 Saint-Martin-Lalande",
+          "11400 Saint-Papoul",
+          "11400 Souilhanels",
+          "11400 Souilhe",
+          "11400 Tréville",
+          "11400 Verdun-en-Lauragais",
+          "11400 Villeneuve-la-Comptal",
+          "11410 Baraigne",
+          "11410 Belflou",
+          "11410 Cumiès",
+          "11410 Fajac-la-Relenque",
+          "11410 Gourvieille",
+          "11410 La Louvière-Lauragais",
+          "11410 Marquein",
+          "11410 Mézerville",
+          "11410 Molleville",
+          "11410 Montauriol",
+          "11410 Payra-sur-l'Hers",
+          "11410 Sainte-Camelle",
+          "11410 Saint-Michel-de-Lanès",
+          "11410 Salles-sur-l'Hers",
+          "11420 Belpech",
+          "11420 Cahuzac",
+          "11420 Lafage",
+          "11420 Mayreville",
+          "11420 Molandier",
+          "11420 Pécharic-et-le-Py",
+          "11420 Pech-Luna",
+          "11420 Peyrefitte-sur-l'Hers",
+          "11420 Plaigne",
+          "11420 Saint-Sernin",
+          "11420 Villautou",
+          "11430 Gruissan",
+          "11440 Peyriac-de-Mer",
+          "11480 La Palme",
+          "11490 Portel-des-Corbières",
+          "11500 Belvianes-et-Cavirac",
+          "11500 Coudons",
+          "11500 Ginoles",
+          "11500 Granès",
+          "11500 Nébias",
+          "11500 Quillan",
+          "11500 Quirbajou",
+          "11500 Saint-Ferriol",
+          "11500 Saint-Julia-de-Bec",
+          "11500 Saint-Just-et-le-Bézu",
+          "11500 Saint-Louis-et-Parahou",
+          "11500 Saint-Martin-Lys",
+          "11510 Caves",
+          "11510 Feuilla",
+          "11510 Fitou",
+          "11510 Treilles",
+          "11540 Roquefort-des-Corbières",
+          "11560 Fleury",
+          "11570 Cavanac",
+          "11570 Cazilhac",
+          "11570 Mas-des-Cours",
+          "11570 Palaja",
+          "11570 Villefloure",
+          "11580 Alet-les-Bains",
+          "11580 Belcastel-et-Buc",
+          "11580 Missègre",
+          "11580 Terroles",
+          "11580 Valmigère",
+          "11580 Véraza",
+          "11580 Villardebelle",
+          "11590 Cuxac-d'Aude",
+          "11590 Ouveillan",
+          "11590 Sallèles-d'Aude",
+          "11600 Aragon",
+          "11600 Bagnoles",
+          "11600 Conques-sur-Orbiel",
+          "11600 Fournes-Cabardès",
+          "11600 Fraisse-Cabardès",
+          "11600 Lastours",
+          "11600 Limousis",
+          "11600 Malves-en-Minervois",
+          "11600 Sallèles-Cabardès",
+          "11600 Salsigne",
+          "11600 Villalier",
+          "11600 Villanière",
+          "11600 Villardonnel",
+          "11600 Villarzel-Cabardès",
+          "11600 Villegailhenc",
+          "11600 Villegly",
+          "11610 Pennautier",
+          "11610 Ventenac-Cabardès",
+          "11620 Villemoustaussou",
+          "11700 Azille",
+          "11700 Blomac",
+          "11700 Capendu",
+          "11700 Castelnau-d'Aude",
+          "11700 Comigne",
+          "11700 Douzens",
+          "11700 Fontcouverte",
+          "11700 La Redorte",
+          "11700 Montbrun-des-Corbières",
+          "11700 Moux",
+          "11700 Pépieux",
+          "11700 Puichéric",
+          "11700 Roquecourbe-Minervois",
+          "11700 Saint-Couat-d'Aude",
+          "11800 Aigues-Vives",
+          "11800 Badens",
+          "11800 Barbaira",
+          "11800 Bouilhonnac",
+          "11800 Floure",
+          "11800 Fontiès-d'Aude",
+          "11800 Laure-Minervois",
+          "11800 Marseillette",
+          "11800 Montirat",
+          "11800 Monze",
+          "11800 Rustiques",
+          "11800 Saint-Frichoux",
+          "11800 Trèbes",
+          "11800 Villedubert"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Dans votre dernière résidence, vous êtiez",
+        "description": "",
+        "required": true,
+        "options": [
+          "Locataire",
+          "Propriétaire",
+          "Usufruitier",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RENSEIGNEMENTS CONCERNANT LE/LA CONJOINT.E (EPOUX.SE, CONCUBIN.E, PACSE.E)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "IDENTITE DE VOTRE CONJOINT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance (si différent)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom.s",
+        "description": "Séparer les prénoms par un espace uniquement",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu de naissance",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Nationalité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quelle est sa situation professionnelle ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "En activité",
+          "Retraité.e"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si votre conjoint.e est retraité.e, indiquez-nous sa caisse principale",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Actuellement, votre conjoint vit...",
+        "description": null,
+        "required": false,
+        "options": [
+          "A son domicile",
+          "En établissement",
+          "En famille d'accueil"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Si votre conjoint.e ne réside pas avec vous, indiquez-nous son adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RENSEIGNEMENTS CONCERNANT UNE AUTRE PERSONNE A CONTACTER (facultatif)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Proche aidant, enfant, frère/soeur, ami.e, voisin.e...",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom.s",
+        "description": "Séparer les prénoms par un espace uniquement",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone fixe",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de téléphone portable",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quel est votre lien avec cette personne ?",
+        "description": "(parent, voisin.e,...)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quelle est la nature de l'aide apportée ?",
+        "description": "(ménage, courses, ...)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RENSEIGNEMENTS CONCERNANT VOS REVENUS ET VOTRE PATRIMOINE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "4.1 ALLOCATIONS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "QUELLES ALLOCATIONS PERCEVEZ-VOUS ?",
+        "description": "Plusieurs choix sont possibles.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La majoration pour aide constante d'une tierce personne (MTP)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La prestation complémentaire pour recours à tierce personne (PCRTP)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'allocation compensatrice pour tierce personne (ACTP)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La prestation de compensation du handicap (PCH)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "4.2 PATRIMOINE DORMANT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "RENSEIGNEMENTS CONCERNANT VOTRE PATRIMOINE",
+        "description": "Vous devez préciser tous vos biens ainsi que ceux de votre conjoint.e, concubin.e ou de la personne avec laquelle vous avez conclu un pacte civil de solidarité.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous propriétaires de bien(s) immobilier(s) ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui, précisez leur nature et leur adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous propriétaires de bien(s) mobiliers et/ou de capitaux non placés ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui, précisez leur nature et leur valeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "VOUS SOUHAITEZ FAIRE UNE DEMANDE DE CARTE MOBILITE INCLUSION",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dans le département de l'Aude, la carte mobilité inclusion comportant les mentions \"priorité\" et \"stationnement pour personnes handicapées\" peut être délivrée sur appréciation de l'équipe médico-sociale prévue à l'article L.241-3 du Code de l'action sociale et des familles",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous bénéficier de la carte mobilité inclusion comportant la mention \"priorité\" ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous bénéficier de la carte mobilité inclusion comportant la mention \"stationnement pour personnes handicapées\" ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si l'allocation personnalisée d’autonomie vous est accordée au titre du GIR 1 ou 2, vous pouvez bénéficier sans autre condition et à titre définitif de la carte mobilité inclusion (CMI) prévue à l'art.L.241-3 du Code de l'action sociale et des familles comportant les mentions \"invalidité\" et \"stationnement\" pour personnes handicapées. Vous devrez en faire la demande après réception de la notification sur le formulaire CMI sur droits ouverts disponible sur \"aude.fr\" ou auprès de votre mairie.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Toute autre demande de CMI mention \"invalidité\" doit être formulée auprès de la Maison Départementale des Personnes Handicapées.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PIECES JOINTES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pour permettre l'étude de votre dossier, un certain nombre de pièces justificatives est nécessaire.",
+        "description": "Les pièces suivies d'un astérisque (*) sont obligatoires.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Seuls les fichiers dont l'extension est .pdf, .png, .jpg ou .jpeg sont autorisés.",
+        "description": "Avant de joindre un fichier, merci de vous assurer que celui-ci est valide et que le document s’ouvre correctement, faute de quoi votre demande ne pourra pas être traitée.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Grille AGGIR",
+        "description": "Si vous résidez en établissement en dehors du département de l'Aude, joindre également une copie de l'arrêté fixant le prix de la journée dépendance de l'établissement où vous résidez.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déposer votre fichier via le bouton \"Choisir un fichier\"",
+            "description": "Veuillez vous assurer que le fichier joint est valide.\r\n\r\nVous pouvez ajouter des fichiers supplémentaires en cliquant, ci dessous, sur: Ajouter un élément pour \"Grille AGGIR\"",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Imposition",
+        "description": "- La photocopie de votre dernier avis d'imposition ou de non-imposition sur le revenu (recto et verso) \r\n- La photocopie du dernier avis d'imposition de votre conjoint.e, concubin.e ou pacsé.e (en cas d'imposition séparée)\r\n",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déposer votre fichier via le bouton \"Choisir un fichier\"",
+            "description": "Veuillez vous assurer que le fichier joint est valide.\r\n\r\nVous pouvez ajouter des fichiers supplémentaires en cliquant, ci dessous, sur: Ajouter un élément pour \"Imposition\"",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Patrimoine dormant",
+        "description": "Toute pièce justificative des biens ou capitaux relevant du patrimoine dormant : photocopie du dernier relevé des taxes foncières sur les propriétés bâties et sur les propriétés non bâties (recto verso) et, le cas échéant, celui du conjoint, du concubin ou de la personne avec laquelle a été conclu un pacte civil de solidarité.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déposer votre fichier via le bouton \"Choisir un fichier\"",
+            "description": "Veuillez vous assurer que le fichier joint est valide.\r\n\r\nVous pouvez ajouter des fichiers supplémentaires en cliquant, ci dessous, sur: Ajouter un élément pour \"Patrimoine dormant\"",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Bulletin d'entrée dans l'établissement",
+        "description": "Le bulletin d'entrée doit être fourni seulement si vous demandez l'APA en établissement pour la première fois.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déposer votre fichier via le bouton \"Choisir un fichier\"",
+            "description": "Veuillez vous assurer que le fichier joint est valide.\r\n\r\nVous pouvez ajouter des fichiers supplémentaires en cliquant, ci dessous, sur: Ajouter un élément pour \"Bulletin d'entrée dans l'établissement\"",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièce d'identité",
+        "description": "La pièce d'identité doit être fournie seulement si vous demandez l'APA en établissement pour la première fois.\r\n- Pour les résidents français : carte nationale d'identité ou passeport ou livret de famille.\r\n- Pour les ressortissants hors union européenne : carte de résidence ou titre de séjour en cours de validité.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déposer votre fichier via le bouton \"Choisir un fichier\"",
+            "description": "Veuillez vous assurer que le fichier joint est valide.\r\n\r\nVous pouvez ajouter des fichiers supplémentaires en cliquant, ci dessous, sur: Ajouter un élément pour \"Pièce d'identité\"",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "RIB",
+        "description": "Le relevé d'identité bancaire ou postal (au nom du demandeur) doit être fourni seulement s'il a changé ou si vous demandez l'APA en établissement pour la première fois.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déposer votre fichier via le bouton \"Choisir un fichier\"",
+            "description": "Veuillez vous assurer que le fichier joint est valide.\r\n\r\nVous pouvez ajouter des fichiers supplémentaires en cliquant, ci dessous, sur: Ajouter un élément pour \"RIB\"",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ENGAGEMENT SUR L'EXACTITUDE ET LA COMPLETUDE DES DONNEES COMMUNIQUEES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "JE DECLARE avoir joint à cette demande les pièces demandées",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "JE M'ENGAGE à signaler toute modification dans ma situation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "JE CERTIFIE sur l'honneur l'exactitude des renseignements figurant dans ce dossier de demande d'allocation personnalisée d'autonomie",
+        "description": "(Le fait de percevoir ou de tenter de percevoir frauduleusement des prestations au titre de l'aide sociale pourra être sanctionné sur la base des articles 313-1, 441-1, 441-6 et 441-7 du code pénal.)",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "*Mentions d'information pour le formulaire de demande d'allocation personnalisée d'autonomie en établissement",
+        "description": "TRAITEMENT DE VOS DONNÉES\r\nLes traitements de vos données transmises dans le cadre de votre demande d’allocation personnalisée d’autonomie en établissement par le Département sont fondés sur une mission d’intérêt public au titre notamment de l’article L. 232-1 du Code de l’action sociale et des familles et sur l’intérêt légitime du Département à établir des statistiques.\r\n\r\nQUI RECUEILLE LES DONNÉES ?\r\nLes informations recueillies sont enregistrées et traitées par les services de la direction de l'autonomie du Département pour instruire votre demande d’allocation personnalisé d’autonomie, communiquer avec vous dans le cadre de votre demande d'aide et éditer des états statistiques.\r\n\r\nCOMBIEN DE TEMPS SONT-ELLES CONSERVEES ?\r\nCes données seront conservées pendant 6 ans à compter de l'extinction de vos droits.\r\nElles pourront être conservées pendant une durée plus longue afin de préserver les droits juridictionnels du Département.\r\n\r\nQUI EN A CONNAISSANCE ?\r\nElles sont destinées aux agents du Département devant intervenir dans le traitement de vos droits, à la Maison Départementale des Personnes Handicapées, aux autorités administratives ou déléguées par elles à des fins statistiques conformément aux articles D232-38 et D232-39 du code de l'action sociale et des familles. Les données communiquées ne seront pas utilisées pour permettre une décision automatisée ni utilisées à des fins de profilage.\r\n\r\nQUELS SONT VOS DROITS ?\r\nVous bénéficiez des droits suivants sur vos données personnelles :\r\n• Droit d'accès : vous pouvez accéder à vos données\r\n• Droit de rectification : vous pouvez les faire modifier si vous les constatez erronées\r\n• Droit d’opposition au traitement pour des raisons tenant à votre situation particulière\r\n• Droit à l'effacement des données (sous certaines conditions)\r\n• Droit de limitation (sous certaines conditions)\r\n\r\nCOMMENT EXERCER VOS DROITS ?\r\nVous pouvez exercer vos droits en adressant votre demande écrite accompagnée d'un justificatif d'identité, et, le cas échéant, des justificatifs du titre auquel vous exercez ces droits pour un tiers (autorité parentale, tutelle, mandat), plus un justificatif d'identité du tiers concerné, par courriel à dpo@aude.fr ou par courrier à :\r\nMonsieur le délégué à la protection des données\r\nDépartement de l'Aude\r\nHôtel du Département\r\nAllée Raymond Courrière\r\n11855 CARCASSONNE Cedex 9\r\nLe cas échéant vous pouvez introduire une réclamation auprès de la Commission informatique et libertés :\r\n3 Place de Fontenoy - TSA 80715 - 75334 PARIS CEDEX 07 - Tél : 01 53 73 22 22",
+        "required": false
+      }
+    ]
+  }
+}

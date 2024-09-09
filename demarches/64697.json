@@ -1,0 +1,79 @@
+{
+  "number": 64697,
+  "title": "Question au ministère de la Justice",
+  "description": "Vous avez des questions à adresser au service courrier du cabinet, ou à propos d’un site Internet du ministère de la Justice, d’un texte officiel, de la thématique Europe et international, vous pouvez envoyer un message au ministère de la Justice grâce au formulaire demarches-simplifiées.fr\r\n\r\nImportant : le ministère de la Justice ne donne pas de réponse ou de conseil sur un sujet personnel (exemple : une procédure en cours, une demande d’expertise, etc.).\r\n\r\nVous cherchez des informations sur vos droits ou souhaitez faire une démarche auprès de la justice, vous pouvez consulter le site justice.fr ou télécharger l’application mobile justice.fr.\r\n\r\nVous avez besoin d’information à propos d’un dossier à venir ou en cours, vous pouvez au choix :\r\n• Appeler le 3039\r\n• Vous rendre dans un Point-Justice près de vous : http://www.annuaires.justice.gouv.fr/34055\r\n• Vous rendre à l’accueil d’un tribunal : http://www.annuaires.justice.gouv.fr/22081\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Justice"
+  ],
+  "datePublication": "2023-03-08T10:07:39+01:00",
+  "service": {
+    "nom": "Secrétariat général, ministère de la justice",
+    "organisme": "Cabinet du garde des sceaux et secrétariat général, ministère de la justice",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/questions-au-ministere-de-la-justice",
+  "dpoUrl": "dpd@justice.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.justice.gouv.fr/contact",
+  "cadreJuridiqueUrl": "https://www.legifrance.fr",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 2157,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Important",
+        "description": "Le ministère de la Justice ne peut pas donner de réponse ou de conseil sur un sujet individuel : une procédure en cours, une demande d’expertise...",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Choisissez une catégorie de votre démarche",
+        "description": "",
+        "required": true,
+        "options": [
+          "Question à l'attention du service courrier du cabinet",
+          "Question relative à un site internet",
+          "Question sur \"Europe et international\"",
+          "Question pour trouver un \"Texte officiel\""
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse postale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Pays",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Objet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Avertissement",
+        "description": "Surtout ne pas communiquer de données sensibles à caractère personnel. Consultez le site de la CNIL pour en savoir plus sur les données sensibles à caractère personnel. https://www.cnil.fr/fr/definition/donnee-sensible.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Message",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

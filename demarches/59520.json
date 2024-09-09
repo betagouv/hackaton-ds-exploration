@@ -1,0 +1,760 @@
+{
+  "number": 59520,
+  "title": "Inscription au test de sélection-positionnement du DEJEPS perfectionnement sportif, mention parapente",
+  "description": "Ce formulaire vous permet de vous inscrire au test de sélection préalable à l'entrée en formation au DEJEPS parapente pour le cursus 2023-2024",
+  "tags": [
+    "Formation"
+  ],
+  "zones": [
+    "Ministère de la Jeunesse et des Sports"
+  ],
+  "datePublication": "2022-08-11T09:26:43+02:00",
+  "service": {
+    "nom": "département vol libre",
+    "organisme": "Ecole Nationale des Sports de Montagne",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/inscription-au-test-de-selection-dejeps",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "Site internet",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000017982563&dateTexte=",
+  "logo": {
+    "filename": "ENSA_ENSM.png",
+    "checksum": "deuTPcVKMYQ9apDKtlrGtw==",
+    "byteSize": "16374",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 106,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "ETAT CIVIL",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom :",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom :",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Date de naissance :",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Ville et département de naissance :",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nationalité :",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "COORDONNÉES :",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° et voie :",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Code Postal :",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Ville :",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone :",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Courriel :",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "SITUATION A L'INSCRIPTION",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Dernière classe suivie :",
+            "description": null,
+            "required": true,
+            "options": [
+              "3ème, CAP, BEP",
+              "2nde, 1ère, terminale",
+              "1ère ou 2ème année de DEUG, BTS, DUT",
+              "Licence, Maîtrise, Master, DESS, DEA et plus"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Diplôme le plus élevé obtenu :",
+            "description": null,
+            "required": true,
+            "options": [
+              "Aucun diplôme",
+              "BEPC",
+              "BEP - CAP",
+              "Bac général",
+              "Bac techno ou pro",
+              "DEUG, BTS, DUT, DEUST",
+              "Licence, Maîtrise, Master1",
+              "Master, Diplômes d'Etudes Supérieures Spécialisées, Diplôme d'Ingénieur",
+              "Doctorat, Habilitation à diriger des recherches"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Êtes-vous titulaire d'un BEES 1° ou 2°, d'un BPJEPS ou d'un DEJEPS ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si \"oui\", précisez la discipline de spécialité et date de délivrance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Autres diplômes liés à l'encadrement sportif contre rémunération",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "SITUATION SOCIO-PROFESSIONNELLE",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Vous êtes demandeur d'emploi :",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si \"oui\", précisez le n° de demandeur d'emploi :",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Bénéficiaire de l'allocation chômage :",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Date de fin de droit :",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Bénéficiaire du RSA :",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Vous êtes salarié :",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Profession :",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom et adresse de l'employeur :",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Téléphone de l'employeur :",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autre(s) situations :",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Précisez :",
+            "description": null,
+            "required": false,
+            "options": [
+              "Etudiant",
+              "Travailleur indépendant",
+              "Congé parental",
+              "Autre"
+            ]
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "FINANCEMENT / RÉMUNÉRATION :",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous effectué des démarches de financement ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si \"oui\", auprès de quel(s) organisme(s) ?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Prenez-vous en charge la totalité des frais pédagogiques de la formation ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Bénéficiez-vous d'une indemnisation mensuelle pendant le cursus ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Si \"oui\"",
+            "description": null,
+            "required": false,
+            "options": [
+              "Pendant toute la durée de la formation",
+              "uniquement sur les périodes de théorie en centre"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Par quel organisme :",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "PÉRIODE D'ALTERNANCE",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous déjà pris contact avec une structure qui serait susceptible de vous accueillir lors de votre stage en entreprise ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si \"oui\", laquelle :",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom - prénom du tuteur envisagé :",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "DESCRIPTION DE LA PRATIQUE SPORTIVE EN PARAPENTE",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Depuis quand pratiquez-vous le parapente ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nombre d’heures de pratique par an :",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Quel type de matériel utilisez-vous (marque/modèle) ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Distances couramment faites en cross ? Résultats en CFD ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Pratiquez-vous la voltige ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si \"oui\", avec quel matériel ?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Pratiquez-vous le speed-riding ou le speed flying ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si \"oui\", avec quel matériel ?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Faites-vous de la compétition ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si \"oui\", précisez votre classement et votre meilleur classement antérieur :",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Possédez-vous des qualifications fédérales en parapente ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Si \"oui\", lesquelles ?",
+            "description": null,
+            "required": false,
+            "options": [
+              "Qualification biplace",
+              "Animateur club",
+              "Accompagnateur club",
+              "Moniteur fédéral",
+              "UCC Marron",
+              "Treuil",
+              "Autre"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nommer les trois sites de vol que vous fréquentez le plus dans l’année :",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "DESCRIPTION DES PRATIQUES DE LOISIRS",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Autres pratiques sportives :",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Temps consacré et niveau de pratique :",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Autre(s) pratique(s) de loisir(s) :",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "EXPERIENCE EN ANIMATION ET (OU) EN ENSEIGNEMENT",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Possédez-vous des diplômes liés à l’animation ou à l’enseignement ?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si \"oui\", lesquels ?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Quelle est votre expérience dans le domaine de l’animation ?",
+            "description": "Précisez le lieu, type de structure et la durée de votre expérience",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Quelle est votre expérience dans le domaine de l’enseignement ?",
+            "description": "Précisez le lieu, type de structure et durée de l'expérience",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "CONNAISSANCES DANS LES DOMAINES LIES A LA PRATIQUE DU VOL LIBRE",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "A quel niveau estimez-vous vos connaissances dans les domaines évoqués ci-dessous ?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Météorologie, Aérologie :",
+            "description": null,
+            "required": true,
+            "options": [
+              "peu informé",
+              "informé",
+              "très informé"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Mécanique de vol :",
+            "description": null,
+            "required": true,
+            "options": [
+              "peu informé",
+              "informé",
+              "très informé"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Espace aérien :",
+            "description": null,
+            "required": true,
+            "options": [
+              "peu informé",
+              "informé",
+              "très informé"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Utilisation du matériel annexe (radio, GPS, Vario etc.…) :",
+            "description": null,
+            "required": true,
+            "options": [
+              "peu informé",
+              "informé",
+              "très informé"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Conception et entretien d’un parapente :",
+            "description": null,
+            "required": true,
+            "options": [
+              "peu informé",
+              "informé",
+              "très informé"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Les formations existantes en vol libre :",
+            "description": null,
+            "required": true,
+            "options": [
+              "peu informé",
+              "informé",
+              "très informé"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Quelles sont les sources d’informations qui vous permettent de vous tenir informé de l’actualité du vol libre dans les domaines évoqués ci-dessus ?",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "IMPLICATION ASSOCIATIVE ET PROJET PROFESSIONNEL",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "A quel club êtes-vous licencié ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Occupez-vous des fonctions au sein de ce club ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si \"oui\", lesquelles ?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Etes-vous impliqué au niveau fédéral ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si \"oui\", à quel niveau et pour quelles fonctions :",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Décrivez en quelques lignes votre projet professionnel et le projet que vous souhaitez développer dans le cadre de votre DEJEPS :",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Personne à prévenir en cas d'urgence :",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom :",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom :",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Lien de parenté éventuel :",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "N° de téléphone :",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces à joindre :",
+        "description": " ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Photo d'identité :",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Photocopie recto/verso de la carte nationale d'identité (ou passeport) en cours de validité :",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pour les candidats français âgés de moins de vingt-cinq ans : \tla copie de l'attestation de recensement (Mairie) \tla copie du certificat de participation à la journée d'appel de préparation à la défense",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Un certificat médical de non contre-indication à la pratique et à l’encadrement du parapente datant de moins d’un an (à la date du test)",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation de l’unité d’enseignement « Prévention et Secours Civiques de niveau 1 » (PSC 1) ou équivalent (Attestation de Formation aux Premiers Secours AFPS)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Justificatif de niveau de pilote de niveau V (brevet de pilote confirmé ou niveau V de l’IPPI Card)",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation signée du directeur technique national du vol libre faisant état de vos résultats en compétition",
+            "description": "Ce document devra être fourni le 04/09/2022 dernier délai, faute de quoi, vous ne pourrez être convoqué",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation signée par un professionnel de l’activité de 5 journées d‘observation du métier d’enseignant en structure",
+            "description": "Ce document devra être fourni le 04/09/2022 dernier délai, faute de quoi, vous ne pourrez être convoqué",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie de diplôme(s) dans le champ du sport et de l'animation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Règlement Général sur la Protection des Données (RGPD) daté et signé",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Le dossier de positionnement (facultatif) accompagné de toutes les pièces justificatives",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Les attestations de résultats en compétition peuvent être envoyées jusqu'au 5 septembre 2022",
+        "description": "(les compétitions du classement de juin 2022 seront les dernières à être prises en compte sous réserve de la parution du classement définitif FPRS de juillet 2022 avant le 04/09/2022).",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Nota : un règlement par virement de 95 € de participation aux frais de sélection et de positionnement vous sera demandé lors de votre convocation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "CONFIRMATION D'INSCRIPTION",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Je confirme faire acte de candidature à la sélection pour entrer en formation au D.E.J.E.P.S. perfectionnement sportif, mention parapente organisée entre le 10 et 14 septembre 2022",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "J'atteste que les renseignements fournis dans mon dossier d'inscription sont sincères et véritables",
+            "description": "La Loi condamne quiconque se rend coupable de fraudes ou de fausses déclarations (313-1,  313-3, 433-19, 441-1, 441-7 du code pénal).",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

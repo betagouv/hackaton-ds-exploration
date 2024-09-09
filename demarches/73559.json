@@ -1,0 +1,341 @@
+{
+  "number": 73559,
+  "title": "Inscription 3e Collège Juliette Adam 2024-2025",
+  "description": "Vous souhaitez inscrire en classe  de 3e un élève au Collège Juliette Adam de Gif-sur-Yvette (91) pour l'année scolaire 2024-2025",
+  "tags": [
+    "Inscription",
+    "Collège"
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2023-06-02T07:40:55+02:00",
+  "service": {
+    "nom": "Collège Juliette Adam Secrétariats ",
+    "organisme": "Collège Juliette Adam, Gif sur Yvette, Education nationale",
+    "typeOrganisme": "etablissement_enseignement"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/inscription-3e-college-juliette-adam-23-24",
+  "dpoUrl": "dpd@ac-versailles.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.clg-adam-gif.ac-versailles.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCode.do?idSectionTA=LEGISCTA000006182465&cidTexte=LEGITEXT000006071191",
+  "logo": {
+    "filename": "1-logo CLG J Adam 2020.png",
+    "checksum": "R2xOBN4R8KwANY+Y5zBsVw==",
+    "byteSize": "889094",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 3,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Information élève",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "INE",
+        "description": "L'INE (Identifiant National Elève) se trouve sur vos bulletins de notes (souvent sous le nom de l'élève).\r\nIl est composé de 9 chiffres et 2 lettres (ex: 123456789AB)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'élève",
+        "description": "Ces informations doivent être strictement identiques à celles figurant sur sa pièce d'identité (accents et ponctuation compris)",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Prénom",
+        "description": "Ces informations doivent être strictement identiques à celles figurant sur sa pièce d'identité.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom 1",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom 2",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom 3",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Restauration",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Choix de la restauration",
+        "description": "",
+        "required": true,
+        "options": [
+          "Demi-pensionnaire",
+          "Externe"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du responsable financier",
+        "description": "Le responsable financier est le parent qui perçoit les aides et paye les factures de demi-pension, des voyages scolaires et qui est susceptible d'être remboursé en cas de trop-perçu.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du responsable financier",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB du responsable financier",
+        "description": "Attention, le titulaire du RIB doit être le responsable financier.",
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Catégorie socio-professionnelle du responsable financier",
+        "description": "",
+        "required": true,
+        "options": [
+          "--AGRICULTEURS EXPLOITANTS--",
+          "10 Agriculteurs exploitants",
+          "--ARTISANS, COMMERCANTS ET CHEFS D’ENTREPRISE--",
+          "21 Artisans",
+          "22 Commerçants et assimilés",
+          "23 Chefs d’entreprise de 10 salariés ou plus",
+          "--CADRES ET PROFESSIONS INTELLECTUELLES--",
+          "31 Professions libérales",
+          "33 Cadres de la fonction publique",
+          "34 Professeurs, professions scientifiques",
+          "35 Professions de l’information, des arts et des spectacles",
+          "37 Cadres administratifs et commerciaux d'entreprise",
+          "38 Ingénieurs et cadres techniques d'entreprise",
+          "--PROFESSIONS INTERMEDIAIRES--",
+          "42 Professeurs des écoles, instituteurs et assimilés",
+          "43 Professions intermédiaires de la santé et du travail social",
+          "44 Clergé, religieux",
+          "45 Professions intermédiaires administratives de la fonction",
+          "46 Professions intermédiaires administratives commerciales en",
+          "47 Techniciens",
+          "48 Contremaîtres, agents de maîtrise",
+          "--EMPLOYES--",
+          "52 Employés civils et agents de service de la fonction publique",
+          "53 Policiers et militaires",
+          "54 Employés administratifs d’entreprise",
+          "55 Employés de commerce",
+          "56 Personnels des services directs aux particuliers",
+          "--OUVRIERS--",
+          "62 Ouvriers qualifiés de type industriel",
+          "63 Ouvriers qualifiés de type artisanal",
+          "64 Chauffeurs",
+          "65 Ouvriers qualifiés de la manutention, du magasinage et du",
+          "67 Ouvriers non qualifiés de type industriel",
+          "68 Ouvriers non qualifiés de type artisanal",
+          "69 Ouvriers agricoles",
+          "--RETRAITES--",
+          "71 Retraités agriculteurs exploitants",
+          "72 Retraités artisans, commerçants, chefs d’entreprise",
+          "74 Anciens cadres",
+          "75 Anciennes professions intermédiaires",
+          "77 Anciens employés",
+          "78 Anciens ouvriers",
+          "--PERSONNES SANS ACTIVITE PROFESSIONNELLE--",
+          "81 Chômeurs n’ayant jamais travaillé",
+          "83 Militaires du contingent",
+          "84 Elèves, étudiants",
+          "85 Personnes sans activité professionnelle < 60 ans (sauf retraités)",
+          "86 Personnes sans activité professionnelle >= 60 ans (sauf retraités)"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et adresse de l'employeur du responsable financier",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Responsable légal n°2",
+        "description": "Pour rappel : sauf déchéance de l'autorité parentale prononcée par un juge, les deux parents sont informés de la même manière quant à la scolarité de leur enfant...\r\n",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du responsable n°2",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du responsable n°2",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Catégorie socio-professionnelle du responsable n°2",
+        "description": "",
+        "required": true,
+        "options": [
+          "---AGRICULTEURS EXPLOITANTS--",
+          "10 Agriculteurs exploitants",
+          "--ARTISANS, COMMERCANTS ET CHEFS D’ENTREPRISE--",
+          "21 Artisans",
+          "22 Commerçants et assimilés",
+          "23 Chefs d’entreprise de 10 salariés ou plus",
+          "--CADRES ET PROFESSIONS INTELLECTUELLES--",
+          "31 Professions libérales",
+          "33 Cadres de la fonction publique",
+          "34 Professeurs, professions scientifiques",
+          "35 Professions de l’information, des arts et des spectacles",
+          "37 Cadres administratifs et commerciaux d'entreprise",
+          "38 Ingénieurs et cadres techniques d'entreprise",
+          "--PROFESSIONS INTERMEDIAIRES--",
+          "42 Professeurs des écoles, instituteurs et assimilés",
+          "43 Professions intermédiaires de la santé et du travail social",
+          "44 Clergé, religieux",
+          "45 Professions intermédiaires administratives de la fonction",
+          "46 Professions intermédiaires administratives commerciales en",
+          "47 Techniciens",
+          "48 Contremaîtres, agents de maîtrise",
+          "--EMPLOYES--",
+          "52 Employés civils et agents de service de la fonction publique",
+          "53 Policiers et militaires",
+          "54 Employés administratifs d’entreprise",
+          "55 Employés de commerce",
+          "56 Personnels des services directs aux particuliers",
+          "--OUVRIERS--",
+          "62 Ouvriers qualifiés de type industriel",
+          "63 Ouvriers qualifiés de type artisanal",
+          "64 Chauffeurs",
+          "65 Ouvriers qualifiés de la manutention, du magasinage et du",
+          "67 Ouvriers non qualifiés de type industriel",
+          "68 Ouvriers non qualifiés de type artisanal",
+          "69 Ouvriers agricoles",
+          "--RETRAITES--",
+          "71 Retraités agriculteurs exploitants",
+          "72 Retraités artisans, commerçants, chefs d’entreprise",
+          "74 Anciens cadres",
+          "75 Anciennes professions intermédiaires",
+          "77 Anciens employés",
+          "78 Anciens ouvriers",
+          "--PERSONNES SANS ACTIVITE PROFESSIONNELLE--",
+          "81 Chômeurs n’ayant jamais travaillé",
+          "83 Militaires du contingent",
+          "84 Elèves, étudiants",
+          "85 Personnes sans activité professionnelle < 60 ans (sauf retraités)",
+          "86 Personnes sans activité professionnelle >= 60 ans (sauf retraités)"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et adresse de l'employeur responsable n°2",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Coupon restauration",
+        "description": "Merci de joindre votre coupon restauration, demande à faire sur https://demarches.essonne.fr/education-jeunesse-citoyennete/college/ ; Education jeunesse et citoyenneté ; Collège (vous munir de l'avis d'imposition 2022 sur le revenu 2021, n° déclarant et n° fiscal)",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Règlement intérieur de la restauration",
+        "description": "http://www.clg-adam-gif.ac-versailles.fr/wp-content/uploads/sites/60/2023/05/reglement-interieur-demi-pension-2023.pdf",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, vous certifiez avoir pris connaisssance et accepter le règlement de la restauration",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, vous certifiez avoir choisi le mode de restauration de votre enfant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Moyen de transport",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Moyen(s) de transport(s) pour se rendre au collège",
+        "description": "Moyen(s) de transport(s) pour se rendre au collège",
+        "required": true,
+        "options": [
+          "N'utilise pas les transports collectifs",
+          "Utilise la ligne 10 : GIF SUR YVETTE gare RER/BUC",
+          "Utilise la ligne 13 : les Quinconces/Courcelle/collège",
+          "Utilise le cirtcuit n°27 : Hacquinière/Coudraies/Collège (S91L027)",
+          "Utilise le circuit n°55 : SAINT-AUBIN/Collège (S91L055)",
+          "Utilise la ligne RER B(SAINT-REMY LES-CHEVREUSE/ROISSY)",
+          "Utilise la ligne 11",
+          "Plateau du Moulon, GIF SUR YVETTE",
+          "Utilise le taxi",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Droit à l'image",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Autorisation de photographier mon enfant",
+        "description": "Il est possible de sélectionner plusieurs choix.",
+        "required": true,
+        "options": [
+          "Photo de groupe rentrée",
+          "Identité de rentrée",
+          "Activités collège pour le site du collège/Pronote",
+          "Ne veut pas être photographié"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Infirmerie",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Infirmerie : fiche d'urgence",
+        "description": "Merci de remplir la fiche d'urgence et de la téléverser.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Je, soussigné(e) responsable légal, reconnais avoir rempli  et téléversé la fiche d'urgence",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

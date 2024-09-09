@@ -1,0 +1,237 @@
+{
+  "number": 59825,
+  "title": "Formulaire assistants médicaux médecins (CPAM du Val-de-Marne)",
+  "description": "Formulaire à destination des médecins pour vérifier l'éligibilité au dispositif des assistants médicaux",
+  "tags": [
+    "Professionels de santé"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-06-07T11:50:08+02:00",
+  "service": {
+    "nom": "Pôle des relations conventionnelles avec les professionnels de santé",
+    "organisme": "CPAM du Val-de-Marne",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/formulaire-assistants-medicaux-medecins",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ameli.fr/val-de-marne/medecin/exercice-liberal/vie-cabinet/aides-financieres/aide-embauche-assistants-medicaux?text=assistant%20m%C3%A9dical",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000030456649/",
+  "logo": {
+    "filename": "logo---assurance-maladie-du-val-de-marne.png",
+    "checksum": "ajxFhfbGA3A0lEe7nqfqAQ==",
+    "byteSize": "21588",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 76,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. Identification du médecin",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N°Assurance Maladie",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N°RPPS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Mail",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "N° de téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la première installation en libéral",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de l'installation dans le département",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nature d'exercice",
+        "description": null,
+        "required": true,
+        "options": [
+          "Libéral intégral",
+          "Libéral activité salariée",
+          "Libéral temps partiel hospitalier",
+          "Libéral temps plein hospitalier"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Secteur conventionnel",
+        "description": null,
+        "required": true,
+        "options": [
+          "Secteur 1",
+          "Secteur 1 avec dépassement d'honoraires",
+          "Secteur 2 ",
+          "Secteur 2 avec OPTAM ou OPTAM-CO"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous été accompagné par un délégué d'Assurance Maladie (DAM) pour votre demande d'aide à l'embauche d'un assistant médical?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si vous connaissez son nom, veuillez le préciser",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. Sur le poste d'assistant médical",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Option du temps d'emploi",
+        "description": "Pour savoir si votre commune d'exercice relève d'une ZIP ou ZAC, veuillez vous référer au site suivant : \r\nhttps://www.iledefrance.ars.sante.fr/index.php/zonage-medecins-2022-carte-des-zones-concernees-par-les-aides-linstallation-et-au-maintien-de",
+        "required": false,
+        "options": [
+          "Mi-temps (1/2 ETP)",
+          "Plein temps (1 ETP)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Mode de recrutement et profil",
+        "description": "",
+        "required": false,
+        "options": [
+          "Recrutement infirmier",
+          "Recrutement aide soignant",
+          "Recrutement autre",
+          "Bascule du secrétaire médical en place sur le poste d'assistant médical"
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'effet du contrat",
+        "description": "Indiquer la date d'embauche, si vous la connaissez",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Vous prenez connaissance du fait que l'assistant médical doit avoir un niveau 4 (BAC) ou une expérience professionnelle de 3 ans comme secrétaire médical",
+        "description": "Cochez non si vous n'avez pas encore recruté votre assistant médical",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si vous allez ou avez recruté votre assistant médical, veuillez fournir le diplôme",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Vous prenez connaissance du fait que l'assistant médical a deux ans pour réaliser sa formation* à compter de la signature du contrat, et trois ans pour obtenir son CQP",
+        "description": "*Le coût de la formation est pris par en charge par l'OPCO EP, se renseigner auprès de l'organisme pour les modalités",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. Pré-requis",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Vous exercez en secteur à honoraires opposables (secteur 1 ou 2 adhérant à l'OPTAM ou OPTAM-CO)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4. Conditions cumulatives d'éligibilité",
+        "description": "- Exercice en maisons de santé pluriprofessionnelles, en équipes de soins primaires, en équipes de soins spécialisées (joindre un justificatif)\n\nOU \n\n- Autres formes d’organisations pluriprofessionnelles capables d’apporter une réponse coordonnée de proximité aux besoins de prise en charge des patients (joindre un justificatif)\n\nDès lors que les professionnels de santé ont organisé à l’échelle de leur territoire, dans le cadre de communautés professionnelles territoriales de santé (CPTS), une réponse collective aux besoins de santé de la population, le médecin devra participer aux missions de cette CPTS sans que son adhésion soit obligatoire ",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Vous êtes :",
+        "description": null,
+        "required": true,
+        "options": [
+          "Médecin Généraliste",
+          "Médecin ayant un Mode d'Exercice Particulier (MEP)",
+          "Dematologue",
+          "Pédiatre",
+          "Rhumatologue",
+          "Interniste",
+          "Neurologue",
+          "Endocrinologue",
+          "Cardiologue",
+          "Pneumologue",
+          "Gériatre",
+          "Gastro-entérologue",
+          "Ophtalmologiste",
+          "Allergologue",
+          "Médecine vasculaire",
+          "Psychiatres",
+          "Médecine Physique et Réadaptation (MPR)",
+          "Oto-Rhino-Laryngologiste médical",
+          "Gynécologue médical",
+          "Anesthésiste",
+          "Chirurgien",
+          "Médecine nucléaire",
+          "Radiologue",
+          "Anatomie et Cytologie Pathologique (ACP)"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Votre patientèle médecin traitant et/ou file active",
+        "description": "Cette donnée est consultable via Ameli pro > Convention ROSP OPTAM > Tableau de bord > En bas de page \"file active - données patientèle MT\"\n\nMédecin généraliste : la patientèle médecin traitant et la patientèle file active\n\nMédecin spécialiste : la patientèle file active",
+        "required": false
+      }
+    ]
+  }
+}

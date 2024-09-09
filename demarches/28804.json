@@ -1,0 +1,619 @@
+{
+  "number": 28804,
+  "title": "Service juridique - Déclaration des ressources et des charges de mon foyer",
+  "description": "Déclaration des ressources et des charges de mon foyer auprès de la Commission de Recours Amiable (CRA).\r\n\r\nPour l'instant, ce service est réservé uniquement aux assurés de la CPAM de la Manche.\r\n\r\nPour une connexion simple et pratique, utilisez la connexion France-Connect.",
+  "tags": [
+    "Sécurité sociale"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2021-01-19T16:17:59+01:00",
+  "service": {
+    "nom": "Caisse Primaire d'Assurance Maladie - Pôle assuré",
+    "organisme": "CPAM ",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/service-juridique-rdd",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://declic.cpam50.fr/",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/",
+  "logo": {
+    "filename": "revu Manche_Logo_Nov.2020_CMJN jpg.png",
+    "checksum": "LX4Bt+jQLVXJOcbn/1bFmQ==",
+    "byteSize": "917811",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 16,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "DECLARATION DE RESSOURCES ET CHARGES POUR DEMANDE DE REMISE DE DETTE AUPRES DE LA COMMISSION DE RECOURS AMIABLE",
+        "description": "Merci d'indiquer les valeurs en euros",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations concernant la dette",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Référence de la dette",
+        "description": "Indiquez ici la référence de la dette située dans l'entête du courrier de notification ",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant de la dette",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Renseignements concernant l'assuré(e)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "De quelle Caisse Primaire d'Assurance Maladie dépendez-vous ?",
+        "description": "Indiquez le département de votre Caisse Primaire d'Assurance Maladie ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Votre nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Votre prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Votre numéro de Sécurité Sociale",
+        "description": "Saisir les 15 chiffres sans espace",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Votre adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Votre numéro de téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Votre mail",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre situation familiale",
+        "description": "",
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Vie maritale",
+          "Pacsé(e)",
+          "Marié(e)",
+          "Divorcé(e)",
+          "Veuf(ve)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Votre numéro allocataire CAF",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Personnes vivant au foyer",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Personnes vivant au foyer",
+        "description": "Si plusieurs personnes vivent au foyer, faire \"+ Ajouter un élément pour \"Personnes vivant au foyer\"",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom et prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": "Format jj/mm/aaaa",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Qualité",
+            "description": "",
+            "required": false,
+            "options": [
+              "Assuré",
+              "Conjoint",
+              "Enfant",
+              "Autre"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Situation sociale",
+            "description": "Activité professionnelle, scolaire...",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Ressources mensuelles perçues au cours du mois précédant la demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Ressources des personnes vivant au foyer",
+        "description": "Si plusieurs personnes vivent au foyer, faire \"+ Ajouter un élément pour \"Ressources des personnes vivant au foyer\"",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": true,
+            "options": [
+              "Assuré",
+              "Conjoint",
+              "Enfant",
+              "Autre"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu un salaire / gains assimilés ?",
+            "description": "Merci d'indiquer vos revenus imposables",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant du salaire / gains assimilés",
+            "description": "Merci d'indiquer le montant en euros de vos revenus imposables perçus le mois précédant votre demande ",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu des revenus professionnels non salariaux ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant des revenus professionnels non salariaux",
+            "description": "Merci d'indiquer le montant en euros de vos revenus imposables perçus le mois précédant votre demande ",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu des indemnités journalières ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant des indemnités journalières",
+            "description": "Merci d'indiquer le montant en euros perçu le mois précédant votre demande ",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu un complément d'indemnités journalières par votre mutuelle ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant du complément d'indemnités journalières par votre mutuelle",
+            "description": "Merci d'indiquer le montant en euros perçu le mois précédant votre demande ",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu des allocations chômage ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant des allocations chômage",
+            "description": "Merci d'indiquer le montant en euros perçu le mois précédant votre demande",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu une rente d'accident du travail ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant de la rente d'accident du travail",
+            "description": "Merci d'indiquer le montant en euros perçu le mois précédant votre demande",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu une pension d'invalidité ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant de la pension d'invalidité",
+            "description": "Merci d'indiquer le montant en euros perçu le mois précédant votre demande",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu une pension de retraite ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant de la retraite",
+            "description": "Merci d'indiquer le montant en euros perçu le mois précédant votre demande",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu une pension de réversion ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant de la pension de réversion",
+            "description": "Merci d'indiquer le montant en euros perçu le mois précédant votre demande",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu l'allocation pour adulte handicapé (AAH) ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant de l'allocation pour adulte handicapé (AAH)",
+            "description": "Merci d'indiquer le montant en euros perçu le mois précédant votre demande",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu l'allocation CLCA par la CAF ?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant de l'allocation CLCA",
+            "description": "Merci d'indiquer le montant en euros perçu le mois précédant votre demande",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu l'allocation PréPaRe par la CAF ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant de l'allocation  PréPaRe",
+            "description": "Merci d'indiquer le montant en euros perçu le mois précédant votre demande",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu l'allocation AJAP par la CAF ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant de l'allocation AJAP",
+            "description": "Merci d'indiquer le montant en euros perçu le mois précédant votre demande",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu l'allocation AJPP par la CAF",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant de l'allocation AJPP",
+            "description": "Merci d'indiquer le montant en euros perçu le mois précédant votre demande",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu le RSA ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant du RSA",
+            "description": "Merci d'indiquer le montant en euros perçu le mois précédant votre demande",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu des revenus fonciers ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Montant des revenus fonciers",
+            "description": "Merci d'indiquer le montant en euros perçu le mois précédant votre demande",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu une rente viagère ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant de la rente viagère",
+            "description": "Merci d'indiquer le montant en euros perçu le mois précédant votre demande",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçus des revenus de mise en gérance d’un commerce ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant des revenus de mise en gérance d’un commerce",
+            "description": "Merci d'indiquer le montant en euros perçu le mois précédant votre demande",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu des revenus mobiliers",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Sélectionner le type de revenus mobiliers perçus :",
+            "description": "",
+            "required": false,
+            "options": [
+              "titres",
+              "actions",
+              "obligations",
+              "capitaux d’assurance vie",
+              "capitaux décès",
+              "autres"
+            ]
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montal total des revenus mobiliers ?",
+            "description": "Merci d'indiquer le montant en euros perçu le mois précédant votre demande",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous perçu d'autres ressources ?",
+            "description": "Exemple : pension alimentaire, donation",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Indiquer la nature des ressources",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant de ces ressources",
+            "description": "Merci d'indiquer le montant en euros perçu le mois précédant votre demande",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Charges",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Etes-vous propriétaire ou locataire ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Propriétaire",
+          "Locataire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant du Loyer / Remboursement prêt immobilier",
+        "description": "Si aucun prêt, indiquez 0",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant Aide au logement",
+        "description": "Si aucune aide, indiquez 0",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Impôts sur le revenu (montant mensuel)",
+        "description": "Joindre obligatoirement votre dernier avis d'imposition en fin de formulaire",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Pension Alimentaire versée (montant mensuel)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Crédits en cours",
+        "description": "A préciser - Si vous avez contracté plusieurs crédit, faire \"+ Ajouter crédits en cours\", 1 ligne par crédit",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Désignation du crédit",
+            "description": "Exemple : automobile, maison, appartement, à la consommation,.....",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant mensuel",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autres dettes",
+        "description": "A préciser - exemple : opposition sur salaire, ........ Si vous avez plusieurs dettes, faire \"+ Ajouter autres dettes\", 1 ligne par dette",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Dettes concernées",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant mensuel",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Bénéficiez-vous d'un plan de surendettement",
+        "description": "Si oui, joindre une copie du plan de surendettement en fin de formulaire",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date  du plan de surendettement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant de la mensualité en cours",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Renseignements complémentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Renseignements complémentaires",
+        "description": "Vous pouvez indiquer ici tous renseignements complémentaires que vous estimez utiles de nous fournir ",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "En cas de maintien de la dette, quel montant proposez-vous de rembourser chaque mois ?",
+        "description": "Montant en euros",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre engagement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie exacts les renseignements portés sur ce document",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date",
+        "description": "Format jj/mm/aaaa",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Votre dernier avis d'imposition",
+        "description": "Tous formats sauf Office (xls, doc, ppt, pps)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de surendettement",
+        "description": "Uniquement si vous êtes concernés -  Tous formats sauf Office (xls, doc, ppt, pps)",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Mentions obligatoires",
+        "description": "La loi rend passible d’amende et/ou d’emprisonnement quiconque se rend coupable de fraude ou de fausse déclaration en vue d'obtenir ou de tenter d’obtenir des avantages indus (articles 313-1 à 313-3, 433-19441-6 et 441-7 du Code pénal).\n\nEn outre, l'inexactitude, le caractère incomplet des déclarations ou l'absence de déclaration d'un changement de situation dans le but\nd'obtenir le versement de prestations indues, peuvent faire l'objet d'une pénalité financière en application de l'article L. 162-1-14 du\nCode de la sécurité sociale.\n\nLes informations collectées peuvent être informatisées et sont réservées à l'usage interne. Elles peuvent être communiquées à certains destinataires. Conformément à la loi n° 78-17 du 6 janvier 1978, toute personne peut accéder, rectifier ou supprimer les informations la concernant. Les demandes doivent être accompagnées d'une copie d'un titre d'identité et libellées «Demande d'information CNIL».\n\nElles peuvent être déposées dans un point d'accueil de votre CPAM ou adressées par courrier à Monsieur le Directeur de votre CPAM.",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "number": 8343,
+  "title": "Demande d'aménagement d'études pour étudiant.e en situation de handicap",
+  "description": "Procédure de prise de rendez vous et d'aménagement d'études pour étudiant.e en situation de handicap.",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2018-09-27T18:13:38+02:00",
+  "service": {
+    "nom": "Direction des études de l'Université des îles Kerguelen",
+    "organisme": "Université des îles Kerguelen",
+    "typeOrganisme": "etablissement_enseignement"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/test-ux-formation",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "www.ira-nantes.fr",
+  "cadreJuridiqueUrl": "https://legifrance.gouv.fr",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 4,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quelle date de rendez-vous souhaitez-vous",
+        "description": "Indiquez la demi journée qui vous convient le mieux",
+        "required": true,
+        "options": [
+          "Lundi matin",
+          "Lundi après midi",
+          "Mardi matin",
+          "Mardi après midi",
+          "Mercredi matin",
+          "Jeudi matin",
+          "Jeudi soir",
+          "Vendredi matin",
+          "Vendredi après midi",
+          "Samedi matin"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Votre numéro étudiant",
+        "description": "Le numéro se trouve sur votre carte ou sur votre certificat de scolarité.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Expliquez votre situation et le contenu de votre demande afin que le médecin puisse préparer le rendez-vous",
+        "description": "Expliquez votre demande et joignez toute pièce que vous estimerez utile. Attention, les documents comportant des informations liées au secret médical ne doivent pas être déposées sur la plate-forme mais emmenées lors du rendez-vous.",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m'engage à prévenir le plus tôt possible en cas d'impossibilité de venir au rendez-vous fixé.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document à l'appui de votre demande",
+        "description": "Pas de document d'ordre médical, ces derniers doivent être emmenés lors du rendez-vous.",
+        "required": false
+      }
+    ]
+  }
+}

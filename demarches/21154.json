@@ -1,0 +1,62 @@
+{
+  "number": 21154,
+  "title": "Transfert de documents avec DS",
+  "description": "Comme les utilisateurs n'ont pas souvent pas accès à Gdrive, pour leur transmettre des pjs il suffit de les mettre en modele ici.",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2019-09-11T22:18:37+02:00",
+  "service": {
+    "nom": "Demarches-simplifiees ",
+    "organisme": "DINSIC",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/depotfichiers",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "demarches-simplifiees.fr",
+  "cadreJuridiqueUrl": "www.legifrance.fr",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 9,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Objet de la transmission",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Objet de la transmission en quelques mots",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Une ou plusieurs PJ",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Titre de la pièce",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Upload",
+            "description": null,
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

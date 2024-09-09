@@ -1,0 +1,292 @@
+{
+  "number": 99817,
+  "title": "Evolution du dossier du ménage dans le SI-SIAO",
+  "description": "La Dihal a organisé des ateliers concernant les évaluations flash et approfondies. En lien avec les retours de ces ateliers, des modifications vont être apportées au dossier ménage dans le SI-SIAO. L'objet de ce questionnaire est de recueillir l'avis des SIAO concernant certaines de ces modifications avant la mise en production du nouveau dossier ménage. ",
+  "tags": [
+    ""
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2024-08-01T16:29:19+02:00",
+  "service": {
+    "nom": "Cellule SIAO national",
+    "organisme": "Dihal",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/evolution-du-dossier-du-menage-dans-le-si-siao",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "Via messagerie",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/circulaire/id/45305",
+  "logo": {
+    "filename": "Logo Dihal 2020.jpg",
+    "checksum": "TNVIFe3XPTr4dZX8X6emqg==",
+    "byteSize": "752248",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 20,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dans un objectif de simplification des saisies dans le SI-SIAO, nous souhaitons apporter des modifications dans le dossier du ménage. Nous souhaitons donc recueillir votre avis sur certaines de ces modifications.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "N° du département de votre SIAO",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Onglet ménage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "L'onglet ménage est la page d'accueil du ménage. Sur cette page les informations essentielles concernant le ménage doivent être visibles. Dans la liste suivante, merci de nous indiquer les information qui, selon vous, doivent figurer dès cette page d'accueil (vous pouvez choisir autant d'informations que vous le souhaitez).",
+        "description": "",
+        "required": true,
+        "options": [
+          "Nom(s)",
+          "Prénom(s)",
+          "Date(s) de naissance",
+          "Langues parlées",
+          "Présence d'un animal de compagnie",
+          "Femme enceinte",
+          "Aménagements nécessaires au sein du logement/hébergement",
+          "Besoins liés à la santé",
+          "Liste des professionnels qui accompagnent la personne / le ménage",
+          "Historique du parcours résidentiel de la personne",
+          "Demandes en cours"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quelles seraient les autres informations importantes à faire figurer sur la page d'accueil du ménage ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels professionnels doivent avoir accès à ces informations ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Onglet informations administratives (remplace l'onglet Identité)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Position au sein du ménage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Afin de mieux repérer les liens entre les membres d'un même ménage, nous souhaitons ajouter une rubrique \"position au sein du ménage\" qui comprendrait les éléments suivants :",
+        "description": "- Contact principal \r\n- Conjoint du contact principal\r\n- enfant du contact principal\r\n- père / mère du contact principal\r\n- beau-père / belle-mère du contact principal\r\n- grand-parents du contact principal\r\n- frère/sœur du contact principal\r\n- oncle/tante du contact principal\r\n- cousin/cousine du contact principal\r\n- autre\r\nCette rubrique vous paraît-elle utile ? \r\n",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dans la liste proposée, faut-il enlever / ajouter certains items?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "commentaires éventuels",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Langues parlées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nous souhaiterions ajouter une rubrique \"langues parlées\". Cette information vous paraît-elle utile ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires éventuels",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Suivis et contacts",
+        "description": "Il s'agit de recenser l'ensemble des professionnels accompagnant les ménages dans un objectif de coordination des interventions. ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dans une logique de coordination des interventions, nous souhaitons recenser l'ensemble des professionnels accompagnant un ménage.",
+        "description": "La liste des différents suivis serait organisée de la façon suivante   :  \r\n- AGIR\r\n- Aide sociale à l'enfance / protection judiciaire de la jeunesse\r\n- Autre suivi\r\n- Emploi\r\n- Logement\r\n- Mesure de protection juridique\r\n- Santé \r\n- Suivi judiciaire (dont SPIP)\r\n- Suivi lié à une situation de handicap\r\n(avec à chaque fois les coordonnées du référent : nom, structure, mail et téléphone)\r\nMerci de nous indiquer si certains de ces items vous paraissent inutiles, ou à contrario si d'autres items sont manquants. ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Onglet situation du ménage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Situation au regard du séjour",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nous souhaitons outiller les SIAO pour mieux appréhender les droits des personnes en fonction de leurs titres de séjour.",
+        "description": "Pour cela, nous allons rédiger des mémos concernant les questions fréquentes sur les droits des personnes  (droit au séjour, au travail, au logement social, aux minimas sociaux, à une assurance maladie ...) en fonction de leurs situations : \r\n- personnes ayant la nationalité française ; \r\n- personnes bénéficiaires d'une protection internationale ou apatride ;\r\n- ressortissants européens ; \r\n- demandeurs d'asile ; \r\n- ressortissants des pays tiers.  \r\nRencontrez-vous d'autres situations pour lesquelles vous souhaiteriez disposer d'un mémo ? ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Droit à l'assurance maladie",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nous avons proposé un nouveau menu déroulant",
+        "description": "- AME\r\n- CSS\r\n- Autre mutuelle\r\n- PUMA\r\n- Régime Agricole\r\n- Régime général\r\n- Régime social des indépendants\r\n- Autre Régime\r\n\r\nAvez-vous des items à ajouter/retirer ? ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "commentaires éventuels",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Onglet Souhaits et besoins (en lieu et place d'évaluations)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Besoins spécifiques",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Cette rubrique a pour double objectif l'identification des aménagements nécessaires des lieux d'accueil (hébergement / logement) et l'évaluation des vulnérabilités",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Aménagements nécessaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nous proposons une rubrique \"aménagements  liés à une situation de mobilité réduite\".",
+        "description": "Les items suivants sont proposés : \r\n- Logement accessible PMR\r\n- Logement en RDC\r\n- Possibilité de monter quelques marches\r\n- Besoin d'une aide humaine au quotidien \r\n- Autres\r\nAvez-vous des items à ajouter / supprimer ? ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires éventuels",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nous proposons une rubrique \"autres besoins d'aménagement spécifiques\".",
+        "description": "Cette rubrique contient les informations suivantes : \r\n- Restauration collective\r\n- Lieu pour cuisiner\r\n- micro-ondes\r\n- Réfrigérateur personnel\r\n- Ascenseur\r\n- mobilier bébé\r\n- Sanitaires individuels\r\n- douche individuelle\r\n- Autres besoins\r\n\r\nAvez-vous des items à ajouter / supprimer ? ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires éventuels",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Evaluation de la vulnérabilité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Les vulnérabilités évaluées sont les suivantes :",
+        "description": "- Etat de grossesse \r\n- Victime de violence\r\n- Mobilité réduite\r\n- Besoins de santé\r\n- Autres besoins spécifiques \r\n\r\nAvez-vous des items à ajouter / supprimer ? \r\n",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires éventuels",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Besoins résidentiels et d'accompagnement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nous proposons une rubrique permettant de définir les services de proximité nécessaires au ménage.",
+        "description": "Cette rubrique contient les items suivants : \r\n- Hôpital\r\n- transports\r\n- autres \r\n\r\nAvez-vous des items à ajouter / supprimer ? ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires éventuels",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nous proposons une rubrique permettant de définir les aides à mobiliser lors de l'accès au logement d'un ménage.",
+        "description": "Nous proposons les items suivants :\r\n- Aide au paiement de la caution / premier mois de loyer\r\n- Aide à l'acquisition de mobilier\r\n- Aide à l'installation dans les lieux\r\n- Aide à la rénovation du logement\r\n- Autre\r\nCes items vous paraissent-ils utiles ? suffisants?",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires éventuels",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Nous vous remercions d'avoir répondu à ce questionnaire et vous tiendrons informés des évolutions.",
+        "description": "La cellule SI-SIAO",
+        "required": false
+      }
+    ]
+  }
+}

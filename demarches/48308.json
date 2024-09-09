@@ -1,0 +1,502 @@
+{
+  "number": 48308,
+  "title": "Demande de subvention 2022",
+  "description": "Ce formulaire a été préparé pour aider votre association à formuler une demande de subvention auprès de la Ville de Versailles.\r\n\r\nConsidérant que le contexte sanitaire a pu compliquer et retarder la tenue de vos Assemblées générales, il vous est accordé un délai supplémentaire pour déposer vos dossiers complets.\r\n\r\nDATE LIMITE: LUNDI 27 SEPTEMBRE 2021\r\n\r\nMerci de respecter cette échéance, en cas de difficulté, vous pouvez contacter le service Vie associative au 01 30 97 29 10 ou à l’adresse électronique suivante : associations@versailles.fr\r\n\r\nNB : merci d'arrondir les montants à indiquer, sans virgule ni point.\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2021-09-14T17:02:14+02:00",
+  "service": {
+    "nom": "Ville de Versailles",
+    "organisme": "Service Vie Associative et Emploi",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-subvention-2022-new-version",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.versailles.fr/ma-ville/associations-et-quartiers/vie-associative/",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "procedure-70920159-f893-4f50-b867-d0989b5497ab.jpg",
+    "checksum": "7AVhr2cSzWoE/kKo7uLs0Q==",
+    "byteSize": "102170",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 10,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "PIÈCES NÉCESSAIRES À VOTRE DEMANDE DE SUBVENTION",
+        "description": "Afin de vous aider à remplir votre demande, nous vous conseillons de vous munir des documents suivants :\n\nPour les demandes de renouvellement de subvention (excepté les associations ayant fait l'objet d'une modification statutaire) :\n- RIB de l'association\n-Procès verbal de la dernière Assemblée générale\n-Rapport moral de la dernière Assemblée générale\n- Rapport d'activité de la dernière Assemblée générale\n- Compte approuvé lors de la dernière Assemblée générale\n-Relevé des comptes courant et épargne au dernier jour de l'exercice \nBudget prévisionnel de l'association du prochain exercice (2022) \n\nPour les premières demandes de subvention OU pour les associations ayant fait l'objet d'une modification statutaire:\n- Toutes les pièces mentionnées précédemment\n- Statuts de l'association\n-Publication au Journal Officiel\n\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTIFICATION DE L'ASSOCIATION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Si une demande a été déposée en 2020, indiquez le numéro de dossier",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse email de l'association",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse du site internet",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "MEMBRES DU BUREAU",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Membres du bureau",
+        "description": "Vous pouvez ajouter autant de personnes que nécessaire (Président, Trésorier, Secrétaire, ...)",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": true,
+            "options": [
+              "Président",
+              "Secrétaire",
+              "Trésorier",
+              "Vice-Président",
+              "Vice-Secrétaire",
+              "Vice-Trésorier",
+              "Administrateur"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Civilité",
+            "description": null,
+            "required": true,
+            "options": [
+              "Madame",
+              "Monsieur"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Téléphone",
+            "description": "Numéro de téléphone permettant facilement de joindre la personne. ",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Email",
+            "description": "Adresse email permettant facilement de joindre la personne.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RENSEIGNEMENTS ADMINISTRATIFS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Votre association dispose-t-elle d'agrément(s) administratif(s) ?",
+        "description": "Veuillez lister les agréments selon le format suivant:\n1. Type d'agrément, attribué par, en date du\n2.\n3.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre association dispose-t-elle d'un commissaire aux comptes ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Montant de la cotisation annuelle demandée à vos membres",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "MOYENS HUMAINS AU 31 DÉCEMBRE DE L’ANNÉE ÉCOULÉE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de salariés en CDD",
+        "description": "Indiquez le nombre de salariés en CDD travaillant pour l'association",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de salariés en CDI",
+        "description": "Indiquez le nombre de salariés en CDI travaillant pour l'association",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'emplois aidés",
+        "description": "Indiquez le nombre d'emplois aidés travaillant pour l'association\n(Les emplois aidés à travers le CUI-CAE ou CUI-CIE, sont issus du Parcours Emplois Compétences qui permet à des personnes éloignées de l’emploi de s’insérer professionnellement)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre de personnels mis à disposition ou détachés",
+        "description": "Indiquez le nombre de personnels mis à disposition ou détachés par une autorité publique",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre d'adhérents",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dont nombre d'adhérents versaillais",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre de bénévoles",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Votre association a-t-elle signé une convention d'objectifs et de moyens ou de mise à disposition de locaux ?",
+        "description": "Déclarez, le cas échéant, la collectivité et le type de convention.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LES MOYENS TECHNIQUES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Locaux utilisés",
+        "description": null,
+        "required": true,
+        "options": [
+          "Aucun",
+          "Mis à disposition par la Ville",
+          "Loués",
+          "Votre propriété"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RELATION AVEC D'AUTRES ASSOCIATIONS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre association est-elle affiliée à une fédération agréée ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, laquelle ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre association reçoit-elle d'autres subventions publiques ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui, merci d'indiquer le(s) montant(s) et l'administration",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "JUSTIFICATION DE LA SUBVENTION PRÉCÉDENTE (2021)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous perçu une subvention par la Ville de Versailles pour l’année 2021 ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui, décrivez précisément la mise en œuvre de l’action et à quoi a servi l’argent.",
+        "description": "Dans le cas où la somme n'a pas été complètement utilisée, indiquez à quoi elle vous servira ces prochains mois de 2021.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quel est le nombre approximatif de personnes bénéficiaires (par type de publics)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RESPONSABLE DU DOSSIER DE SUBVENTION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La personne en charge du dossier est-elle la même que le Responsable légal de l'association ?",
+        "description": "Si la personne est différente du Responsable légal, merci de préciser le nom de la personne en charge du dossier afin de faciliter les échanges avec nos services.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non : NOM, Prénom",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Qualité",
+        "description": "",
+        "required": false,
+        "options": [
+          "Président",
+          "Vice-président",
+          "Secrétaire",
+          "Secrétaire-adjoint",
+          "Trésorier",
+          "Trésorier-adjoint",
+          "Autre membre du Conseil d'administration",
+          "Directeur",
+          "Autre salarié"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse postale",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse e-mail",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "OBJET DE LA DEMANDE DE SUBVENTION 2022",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Objet de la demande",
+        "description": "Détailler le plus précisément possible l’objet de votre action et à quoi servira la subvention (aide au fonctionnement, aide au projet).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Montant de la subvention globale demandée à la Ville",
+        "description": "Veuillez indiquer le montant de la subvention globale demandée à la Ville.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quel est le nombre approximatif de personnes bénéficiaires (par type de publics)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ÉLÉMENTS COMPTABLES ET STATUTAIRES (ANNÉE PASSÉE)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Les éléments comptables seront à produire en pièces jointes",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Date de la dernière Assemblée générale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Montant de la trésorerie (dont épargne) à la fin de l’exercice",
+        "description": "En cas de versement d'une subvention pour l'année 2022, la Ville pourra demander une justification d'épargne.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ATTESTATION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le représentant légal atteste sur l'honneur, conformément à l'article L. 113-13 du code des relations entre le public et l'administration, que l'association est à jour de ses obligations légales, administratives, sociales, fiscales et comptables et : - que les informations ou données portées dans le formulaire ou provenant d'un système d'échange de données mentionné à l'article L. 113-12 du code des relations entre le public et l'administration, notamment celles relatives aux demandes de subventions déposées auprès d'autres financeurs publics ainsi que l'approbation du budget par les instances statutaires, sont exactes et sincères ; - que le montant total et cumulé d'aides publiques attribuées à l'association sur les trois derniers exercices, dont l'exercice en cours est, soit inférieur ou égal à 500 000 euros, soit supérieur à ce montant.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PIÈCES JOINTES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Statuts de l’association",
+        "description": "En cas de modification ou de première demande",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Publication au Journal Officiel",
+        "description": "En cas de modification ou de première demande",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB de l'association",
+        "description": "Le RIB doit impérativement être au nom et à l'adresse de l'association.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Procès verbal de la dernière Assemblée générale",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport moral de la dernière Assemblée générale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport d'activité de la dernière Assemblée générale",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Compte approuvé lors de la dernière Assemblée Générale (recettes / dépenses) correspondant au rapport financier ci-dessus",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Comptes certifiés par le commissaire aux comptes",
+        "description": "(s'ils existent)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Relevé des comptes courant et épargne au dernier jour de l'exercice",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Budget prévisionnel de l'association du prochain exercice (2022)",
+        "description": "Vous pouvez vous aider du tableau joint.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Associations sportives : attestation fédérale",
+        "description": "A faire remplir par le comité, ligue ou fédération.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Associations sportives : nombre d'adhérents",
+        "description": "Vous pouvez vous aider du tableau joint.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre pièce jointe 1",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre pièce jointe 2",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre pièce jointe 3",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

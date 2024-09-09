@@ -1,0 +1,139 @@
+{
+  "number": 55944,
+  "title": "Ordre de mission DAEP",
+  "description": "Dans le cadre des missions à la DAEP, un ordre de mission peut vous être utile.\r\nCette démarche vous permet de compléter les renseignements nécessaires à son élaboration.\r\nAttention, l'ordre de mission une fois signé vous parviendra sur votre adresse courriel académique.",
+  "tags": [
+    "Education",
+    "Mission"
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2022-03-14T16:25:30+01:00",
+  "service": {
+    "nom": "Délégation à l'action éducative et à la pédagogie",
+    "organisme": "Rectorat de Nantes",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ordre-de-mission-daep",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ac-nantes.fr/",
+  "cadreJuridiqueUrl": "https://www.education.gouv.fr/bo/16/Hebdo2/MENF1518124C.htm",
+  "logo": {
+    "filename": "logo région académique.jpg",
+    "checksum": "gEXTeWlmGe6Y5peBjMmmQA==",
+    "byteSize": "18870",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 56,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées de l'agent",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM",
+        "description": "Indiquez votre nom",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "indiquez votre prénom",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Grade",
+        "description": "Indiquez le grade (professeur certifié hors classe, professeur  agrégé, principal adjoint, attaché d'administration, SAENES...)",
+        "required": true
+      },
+      {
+        "__typename": "AnnuaireEducationChampDescriptor",
+        "label": "Résidence administrative",
+        "description": "Entrez le nom de votre établissement de rattachement et sélectionnez-le dans la liste de propositions",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse courriel de l'établissement",
+        "description": "Entrez l'adresse fonctionnelle de votre l'établissement. Une copie de votre ordre de mission lui sera adressée.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur la réunion",
+        "description": "Indiquez la date et l'heure de fin de la réunion sur place (sans temps de trajet)",
+        "required": false
+      },
+      {
+        "__typename": "AnnuaireEducationChampDescriptor",
+        "label": "Lieu de la réunion",
+        "description": "Entrez le nom de l'établissement dans lequel est prévue la réunion et sélectionnez-le dans la liste de propositions",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu de la réunion (hors éducation nationale)",
+        "description": "Si la réunion n'a pas lieu dans un établissement ou service de l'éducation nationale, vous pouvez entrez ici les coordonnées (nom et la ville) de l'établissement ou service d'accueil. ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Motif du déplacement",
+        "description": "Indiquez le motif du déplacement",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Date et horaires des réunions",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Début et de fin des réunions",
+        "description": "Indiquez la date et l'heure de début et de fin de chaque réunion sur place (sans temps de trajet)",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DatetimeChampDescriptor",
+            "label": "Date et heure de début de chaque réunion",
+            "description": "Indiquez la date et l'heure de début de chaque réunion sur place (sans temps de trajet)",
+            "required": true
+          },
+          {
+            "__typename": "DatetimeChampDescriptor",
+            "label": "Date et heure de fin de chaque réunion",
+            "description": "Indiquez la date et l'heure de fin de chaque réunion sur place (sans temps de trajet)",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Service de la DAEP concerné",
+        "description": null,
+        "required": true,
+        "options": [
+          "DAEP",
+          "CARDIE",
+          "CLEMI",
+          "CASNAV",
+          "CVS",
+          "DAAC",
+          "DANE",
+          "DAREIC",
+          "PSSH"
+        ]
+      }
+    ]
+  }
+}

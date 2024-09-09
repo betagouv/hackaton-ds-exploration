@@ -1,0 +1,608 @@
+{
+  "number": 52991,
+  "title": "Dialogue de gestion Entreprises adaptées HAUTS-DE-FRANCE",
+  "description": "Dans la perspective de la tenue des dialogues de gestion en 2022 avec les entreprises adaptées sur les données 2021 la DREETS HAUTS-DE-FRANCE a élaboré une trame régionale.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère du Travail, de la Santé et des Solidarités"
+  ],
+  "datePublication": "2022-02-25T09:19:43+01:00",
+  "service": {
+    "nom": "DREETS Hauts-de-France",
+    "organisme": "Ministère du travail",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/dialogue-de-gestion-entreprises-adaptees-hauts-de-",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://hauts-de-france.dreets.gouv.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000037388856/",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 16,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Indiquer votre département d'implantation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination ou raison sociale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom commercial de l'entreprise adaptée",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Statut juridique",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si association, organisme gestionnaire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et Qualité du/ de la représentant légal(e)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la/ du Directeur(trice)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Convention collective",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code NAF",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous un agrément ESUS?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si association, est-elle assujettie aux impôts commerciaux?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre la liste des Dirigeants ( membres du conseil d'administration et du bureau) , Associés,",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pour les autres formes juridiques, joindre les documents donnant la qualité de la personne morale et nomination du Dirigeant.",
+        "description": "Pour les établissements publics",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Dynamisme économique",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Liste des activités",
+        "description": "Préciser les activités exercées dans l'entreprise adaptée en 2021 (plusieurs choix possible)",
+        "required": true,
+        "options": [
+          "Agriculture, environnement et espaces verts",
+          "Alimentation, production alimentaire",
+          "Bâtiment et travaux publics",
+          "Bien-être",
+          "Blanchisserie",
+          "Collecte, traitement et recyclage des déchets",
+          "Conciergerie",
+          "Eco bâtiment -énergie renouvelable",
+          "Gestion, administration informatique",
+          "Hôtellerie, location de salle, tourisme",
+          "Impression, communication et évènementiel",
+          "Médical et Paramédical",
+          "Nettoyage et hygiène des locaux, conciergerie",
+          "Prestations intellectuelles",
+          "Production et sous-traitance industrielle",
+          "Réparation, dépannage, SAV",
+          "Restauration",
+          "Textile, ameublement, artisanat d'art",
+          "Transport logistique, conditionnement"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Compléter le tableau activité, ETP et chiffre d'affaires ci-joint",
+        "description": "Pour l'année 2021",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Indiquer vos 3 principaux clients ainsi que leur poids en % sur le chiffre d'affaire?",
+        "description": "pour l'année 2021",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quel a été l'impact de la crise sanitaire sur le plan économique ?",
+        "description": "Préciser l'impact économique par activité.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quel a été l'impact de la crise sanitaire en termes d'emploi ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Avez-vous eu recours à l'activité partielle en 2021?",
+        "description": "Préciser le nombre d'heures contingentées,  nombre d'heure chômées, ETP pour l'année 2021",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous développé de nouvelles activités (hors projet FAT EA)?",
+        "description": "Année 2021",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si oui, quelles activités avez-vous développées ?",
+        "description": null,
+        "required": false,
+        "options": [
+          "Agriculture, environnement et espaces verts",
+          "Alimentation, production alimentaire",
+          "Bâtiment et travaux publics",
+          "Bien-être",
+          "Blanchisserie",
+          "Collecte, traitement et recyclage des déchets",
+          "Conciergerie",
+          "Eco bâtiment -énergie renouvelable",
+          "Gestion, administration informatique",
+          "Hôtellerie, location de salle, tourisme",
+          "Impression, communication et évènementiel",
+          "Médical et Paramédical",
+          "Nettoyage et hygiène des locaux, conciergerie",
+          "Prestations intellectuelles",
+          "Production et sous-traitance industrielle",
+          "Réparation, dépannage, SAV",
+          "Restauration",
+          "Textile, ameublement, artisanat d'art",
+          "Transport logistique, conditionnement"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous subi des pertes de marchés ou de clients ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, quel en est l'impact sur votre développement économique ?",
+        "description": "Chiffrer la perte et les conséquences sur votre structure.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quelles sont vos perspectives de développement pour l'année 2022 ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre Bilan financier 2021",
+        "description": "Transmettre le bilan provisoire si celui-ci n'est pas validé.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre compte résultat 2021",
+        "description": "Transmettre le compte de résultat provisoire si celui-ci n'est pas validé.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Eléments que vous souhaitez porter à la connaissance de la DREETS HAUTS-DE-FRANCE.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Développement Stratégique - FATEA 2020/2021",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous bénéficié du FAT EA en 2020 ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si oui, compléter le tableau relatif au FAT EA 2020.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Impact du FAT EA 2020 sur le développement économique de l'entreprise adaptée.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Indiquer la (ou les) activité(s) nouvelle(s) développée(s) dans le cadre du FAT EA 2020.",
+        "description": null,
+        "required": false,
+        "options": [
+          "Agriculture, environnement et espaces verts",
+          "Alimentation, production alimentaire",
+          "Bâtiment et travaux publics",
+          "Bien-être",
+          "Blanchisserie",
+          "Collecte, traitement et recyclage des déchets",
+          "Conciergerie",
+          "Eco bâtiment -énergie renouvelable",
+          "Gestion, administration informatique",
+          "Hôtellerie, location de salle, tourisme",
+          "Impression, communication et évènementiel",
+          "Médical et Paramédical",
+          "Nettoyage et hygiène des locaux, conciergerie",
+          "Prestations intellectuelles",
+          "Production et sous-traitance industrielle",
+          "Réparation, dépannage, SAV",
+          "Restauration",
+          "Textile, ameublement, artisanat d'art",
+          "Transport logistique, conditionnement"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous bénéficié du FAT EA en 2021 ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si oui, compléter le tableau relatif au FAT EA 2021.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Impact du FAT EA 2021 sur le développement économique de l'entreprise adaptée.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Indiquer la (ou les) activité(s) nouvelle(s) développée(s) dans le cadre du FAT EA 2021.",
+        "description": null,
+        "required": false,
+        "options": [
+          "Agriculture, environnement et espaces verts",
+          "Alimentation, production alimentaire",
+          "Bâtiment et travaux publics",
+          "Bien-être",
+          "Blanchisserie",
+          "Collecte, traitement et recyclage des déchets",
+          "Conciergerie",
+          "Eco bâtiment -énergie renouvelable",
+          "Gestion, administration informatique",
+          "Hôtellerie, location de salle, tourisme",
+          "Impression, communication et évènementiel",
+          "Médical et Paramédical",
+          "Nettoyage et hygiène des locaux, conciergerie",
+          "Prestations intellectuelles",
+          "Production et sous-traitance industrielle",
+          "Réparation, dépannage, SAV",
+          "Restauration",
+          "Textile, ameublement, artisanat d'art",
+          "Transport logistique, conditionnement"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous bénéficié du FAT EA consortium national?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si oui, compléter le tableau relatif au consortium.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quel est l'impact du consortium sur le développement de l'entreprise adaptée?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Eléments que vous souhaitez porter à la connaissance de la DREETS HAUTS-DE-FRANCE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Ressources humaines",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre l'organigramme de l'entreprise adaptée précisant la fonction et le nombre d'ETP.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Compléter le tableau ressources humaines joint.",
+        "description": "Année 2021",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le nombre de contrats d'apprentissage de personnes en situation de handicap ?",
+        "description": "2021",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Préciser le nombre de contrat à durée déterminée en 2021, liés au surcroit d'activité?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Quelle est la part des femmes en situation de handicap sur l'Entreprise adaptée?",
+        "description": "Exprimer en pourcentage (pour l'année 2021)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Eléments que vous souhaitez porter à la connaissance de la DREETS HAUTS-DE-FRANCE.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Recrutement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels sont les processus mis en œuvre.",
+        "description": "Préciser les modes opératoires mis en œuvre dans le cadre des recrutements \n(convention coopération , plan d'action établi, fiche de poste, communication, relation avec le SPE...)",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Connaissez-vous des difficultés de recrutements ?",
+        "description": "Année 2021",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre les fiches de poste en tension sur l'entreprise adptée",
+        "description": "Fiche de poste posant des difficultés au recrutement",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Eléments que vous souhaitez porter à la connaissance de la DREETS HAUTS-DE-FRANCE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Accompagnement social et professionnel",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Compléter le tableau \"Modalités d'accompagnement\"",
+        "description": "Mettre une croix dans la colonne selon s'il s'agit d'un accompagnement Interne, Externe ou personnel ESAT ou IAE",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Joindre les fiches de poste et contrat de travail des salariés de l'entreprise adaptée en charge de l'accompagnement socio-professionnel.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre les justificatifs du recours à la prestation externe",
+        "description": "Convention de prestation, facturation...",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Joindre les justificatifs du recours aux personnels ESAT/IAE.",
+        "description": "Convention, Refacturation de la prestation",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le nombre d'heures réalisées en moyenne par salarié(e)s sur l'année ?",
+        "description": "Distinguer les salarié(e)s en EA socle et en CDD Tremplin",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Description des modalités mises en œuvre pour faire découvrir le milieu économique dans lequel l'insertion va être faite",
+        "description": "Préciser s 'il y a une procédure spécifique mise en œuvre dans le cadre des CDD Tremplin.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre les modalités mises en œuvre pour faire découvrir le milieu économique dans lequel l'insertion va être faite.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre tous éléments relatifs à l'accompagnement socio-professionnel que vous souhaitez porter à la connaissance de la DREETS HAUTS-DE-FRANCE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Eléments que vous souhaitez porter à la connaissance de la DREETS HAUTS-DE-FRANCE.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "FORMATION EA SOCLE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quel est votre OPCO?",
+        "description": null,
+        "required": true,
+        "options": [
+          "AFDAS",
+          "ANFH",
+          "ATLAS",
+          "OCAPIAT",
+          "UNIFORMATION",
+          "CONSTRUCTYS",
+          "L'OPCOMMERCE",
+          "AKTO",
+          "OPCO2I",
+          "OPCO MOBILITES",
+          "OPCO EP",
+          "OPCO SANTE"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quelle est la procédure mise en œuvre pour la définition des besoins de formation?",
+        "description": "Outils mis en œuvre pour identifier le besoin",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre les outils d'identification de la formation",
+        "description": "Modèle de process, livret d'information, de suivi ....",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Quelles formations ont été effectuées par les salarié(e)s en situation de handicap ?",
+        "description": "Compléter le tableau joint.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Joindre le plan de formation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Eléments que vous souhaitez porter à la connaissance de la DREETS HAUTS-DE-FRANCE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "CDD TREMPLIN",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le nombre de personnes en CDD Tremplin  au sein de votre entreprise adaptée en 2021 ?",
+        "description": "Préciser en personnes physiques et en ETP",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels sont les projets professionnels travaillés des salarié(e)s en CDD Tremplin ?",
+        "description": "Préciser les métiers visés, domaines d'activités, ... )",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dans le cadre du CDD Tremplin , quelles formations ont été effectuées par les salarié(e)s ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Compléter le tableau de sortie des CDD Tremplin joint.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous fait des demandes  dans le cadre le PIC EA ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser la ou les demande(s)?",
+        "description": "Préciser la demande ainsi que l'avis rendu\n(favorable ou défavorable).",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Eléments que vous souhaitez porter à la connaissance de la DREETS HAUTS-DE-FRANCE.",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "number": 51249,
+  "title": "Prolongation de Déclaration des investissements publics de recherche et développement",
+  "description": "L’article L. 162-17-4-3 du code de la sécurité sociale prévoit que les laboratoires exploitant des médicaments inscrits, ou ayant vocation à être inscrits (dans un délai maximal de cinq ans) sur la liste des spécialités remboursables aux assurés sociaux ou sur la liste des médicaments agréés à l’usage des collectivités publiques communiquent au CEPS le montant des investissements publics de recherche et développement dont ils ont bénéficié pour le développement de ces médicaments.\r\nLes investissements publics de recherche et de développement dont les montants doivent être déclarés sont les investissements publics directs de l’Etat français et des collectivités territoriales.\r\nLes entreprises sont  tenues de transmettre au CEPS, par voie dématérialisée un dossier comportant ces informations, au titre de l’année civile précédente. Au titre de l'article 2.C. de l'Accord-cadre les entreprises conventionnées avec le CEPS déclarent également les montants des contributions qu'elles versent aux organismes publics de recherche et de développement.\r\n\r\nEn l'absence d'investissement public, remplir néanmoins une déclaration  en renseignant les rubriques par \"autre\" et en précisant \"aucun\" dans le texte libre puis un montant à \"0\".\r\n\r\nLa possibilité de déclaration a été exceptionnellement  prolongée jusqu'au 15 mai 2022.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-03-17T18:08:30+01:00",
+  "service": {
+    "nom": "Comité économique des produits de santé",
+    "organisme": "Comité économique des produits de santé",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/declaration-investissements-publics",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://solidarites-sante.gouv.fr/ministere/acteurs/instances-rattachees/article/declarations-dematerialisees-des-entreprises-du-medicament?var_mode=calcul",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042673403, https://www.legifrance.gouv.fr/codes/id/LEGIARTI000044216147/2021-10-18",
+  "logo": {
+    "filename": "gouv 2.png",
+    "checksum": "Q9GAs4frwW2Ygda8WYn3WQ==",
+    "byteSize": "14254",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "Article L162-17-4-3.pdf",
+    "checksum": "lzVGTL9oLSK31uDKAPOnEw==",
+    "byteSize": "217986",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 112,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Entreprise déclarante",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Numéro SIRET",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "En l'absence de Numéro SIRET",
+        "description": "Préciser la situation de l'entreprise en France (par exemple installation d'une filiale, calendrier de reconnaissance comme établissement pharmaceutique) ou s'il existe un intermediaire exploitant",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Convention avec le CEPS",
+        "description": "L'entreprise dispose ou non d'une convention pluriannuelle avec le Comité économique des produits de santé",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'entreprise",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Identification du déclarant",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email du déclarant",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la déclaration",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone du déclarant",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Année concernée par la déclaration",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Déclaration d'une aide publique",
+        "description": "Les trois champs (libellé, entité et montant) sont à renseigner pour chaque aide publique reçue, en cliquant sur  \"ajouter un élément pour \"Déclaration d'une aide publique\"\" autant de fois que necessaire",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Libellé de l'aide publique",
+            "description": "Si la réponse est \"autre\", préciser le libellé de l'aide publique concernée dans le champs de texte",
+            "required": true,
+            "options": [
+              "I-Lab",
+              "I-Nov (ex PSCPC)",
+              "ATF (accompagnement et transformation des filieres)",
+              "ADI ( Aide pour le développement de l'innovation)",
+              "Grands Défis",
+              "AAP Résilience",
+              "AMI Capacity",
+              "PSPC COVID",
+              "Bourse French Tech",
+              "ADD ( aide au développement deeptech)",
+              "PIIEC (projet important d'intérêt européen commun en santé)"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Entité ayant versé l'aide",
+            "description": "Si la réponse est \"autre\", préciser le nom de l'entité ayant versé l'aide dans le champs de texte",
+            "required": true,
+            "options": [
+              "ANR",
+              "BPI",
+              "SGPI",
+              "Caisse des dépôts"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Montant perçu en Euros",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire libre (facultatif)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Contributions des entreprises versées aux organismes publics de recherche et développement.",
+        "description": "En application de l'article 2. c. de l'accord -cadre 2021-2024 les entreprises s'engagent à déclarer le montant des contributions financières qu’elles ont versées aux organismes publics de recherche et développement pour la même année considérée.\nCette déclaration ne doit pas reprendre les montants versés au titre des conventions avec des acteurs de santé visées par l'article L 1453-1 du Code de la Santé Publique.\nLes deux champs (Organisme et montant) sont à renseigner pour chaque contribution versée, en cliquant sur  \"ajouter un élément pour \"Contributions des entreprises versées aux organismes publics de recherche et développement\"\". autant de fois que nécessaire.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Organisme public de recherche et développement",
+            "description": "Si la réponse est \"autre\", préciser l'organisme concerné dans le champs de texte libre.",
+            "required": false,
+            "options": [
+              "INSERM",
+              "CNRS",
+              "CEA"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Montant de la contribution  en Euro",
+            "description": "Si la réponse est \"autre\", préciser le nom de l'organisme destinataire de la contribution",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "le déclarant s’engage sur la sincérité, l’exactitude et l’exhaustivité des données ci-dessus .",
+        "description": "Cocher la case ci-dessus avant d'achever votre déclaration .\n\nLa déclaration est modifiable jusqu'au 31 janvier 2021.",
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,998 @@
+{
+  "number": 84445,
+  "title": "Département du Var : Demande de conventionnement d'un PEDT et/ou d'un Plan Mercredi ",
+  "description": "Pour les années scolaires 2024-2025, 2025-2026 et 2026-2027",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale",
+    "Ministère de la Santé et de la Prévention",
+    "Ministère de l'Éducation nationale et de la Jeunesse",
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2024-05-14T14:13:50+02:00",
+  "service": {
+    "nom": "Le Groupe d'Appui Départemental PEDT du Var ",
+    "organisme": "Les Services Académiques du Var et la Caisse d'Allocations Familiales du Var",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/departement-du-var-demande-de-conventionnement-d-u",
+  "dpoUrl": "dpd@ac-nice.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ac-nancy-metz.fr/jeunesse-engagement-et-sports-123347",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006071191&idArticle=LEGIARTI000027682987&dateTexte=20130924",
+  "logo": {
+    "filename": "logo pedt.png",
+    "checksum": "XqM9EB+A4YG4K6f9xsQNhw==",
+    "byteSize": "22789",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 36,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Explication saisie du dossier",
+        "description": "Merci de compléter le questionnaire afin de présenter les éléments de votre PEDT/PLAN MERCREDI de façon synthétique et de joindre un projet détaillé en pièce jointe (voir bas de page). \r\n\r\nCes éléments et pièces jointes permettront une instruction par le GAD (Groupe d'Appui Départemental). Une fois l'instruction validée par le GAD vous recevrez une convention, à retourner signée par voie dématérialisée. \r\n\r\nInformation : votre saisie sera enregistrée automatiquement, vous pouvez fermer la page et reprendre par la suite. \r\n\r\nConseil : Prenez connaissance de tous les éléments à renseigner avant de compléter la démarche. \r\n\r\nSi vous souhaitez un accompagnement gratuit à la formalisation de votre PEDT (pièce jointe demandée) par les FRANCAS du Var, vous pouvez solliciter le GAD par mail aux adresses suivantes : \r\nenfancejeunesse@caf83.caf.fr\r\nien-83.peim@ac-nice.fr\r\nsdjes83-pedt@ac-nice.fr\r\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "VOTRE PEDT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "TERRITOIRE(S) CONCERNE(S)",
+        "description": "",
+        "required": true,
+        "options": [
+          "Commune",
+          "Regroupement de communes",
+          "Intercommunalité"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du territoire",
+        "description": "Nom de la ou des collectivités qui portent le PEDT qui apparaitront dans la convention telle que vous le saisissez ici.",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Sur quels projets portent l'engagement de votre territoire",
+        "description": "",
+        "required": true,
+        "options": [
+          "PEDT",
+          "Plan Mercredi"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "S'agit-il d'un renouvellement ?",
+        "description": "Pour être considéré comme un renouvellement, votre précédent PEDT devait couvrir l'année scolaire 2023-2024 ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LE PORTEUR DE LA CONVENTION",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Représentant de la commune",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom NOM du signataire",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction du signataire",
+        "description": "Format: article+intitulé de la fonction tel que cela apparaitra dans le convention ( Le Maire, La présidente...)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse postale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Courriel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LA COORDINATION DU PROJET EST ASSURÉE PAR :",
+        "description": "Identité du responsable pédagogique",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom NOM",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse postale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Circonscription de l'Education Nationale",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Informations circonscription",
+        "description": "https://www.ac-nice.fr/les-circonscriptions-du-var-121717",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'IEN",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Téléphone de la circonscription",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Courriel de la circonscription",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Conseiller en développement CAF du territoire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Conseillère CAF de votre territoire",
+        "description": "https://www.caf.fr/partenaires/caf-du-var/partenaires-locaux/thematique-libre/partenaires-vos-interlocuteurs-la-caf-du-var",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Courriel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LE TERRITOIRE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Indications",
+        "description": "Cette partie concerne les informations contenues dans l’état des lieux de l’offre éducative locale, les principales caractéristiques de la population, les ressources locales que le PEDT peut mobiliser.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Population totale (INSEE)",
+        "description": "Nombre d'habitants",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Principales caractéristiques socio-économiques de la population",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Population des enfants et des jeunes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Population des 0-2 ans",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d’établissements Petite Enfance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Population des 3-12 ans",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Population enfance/jeunesse scolarisée",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'écoles maternelles publiques et privées sous contrat",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'élèves scolarisés en maternelle",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'écoles élémentaires publiques et privées sous contrat",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'élèves scolarisés en élémentaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Population des 12-17 ans",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d’élèves de la commune scolarisés au(x) collège(s) publics et privés sous contrat",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d’élèves de la commune scolarisés au(x) lycée(s) publics et privés sous contrat",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Population 18-25 ans",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Organisation du temps scolaires",
+        "description": null,
+        "required": true,
+        "options": [
+          "CADRE GÉNÉRAL (24heures d'enseignement répartie sur une semaine de 9 demi-journées incluant le mercredi matin)",
+          "CADRE DÉROGATOIRE (8 demi-journées dont 5 matinées)",
+          "CADRE DÉROGATOIRE ( 8 demi-journée réparties sur 4 jours)",
+          "CADRE MIXTE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La commune est-elle située en zone prioritaire ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Typologie du zonage",
+        "description": "",
+        "required": false,
+        "options": [
+          "QPV Quartier Prioritaire de la Ville",
+          "ZRR Zone rurale revitalisée",
+          "Priorité petite enfance"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Dispositifs éducatifs existant sur la commune",
+        "description": "",
+        "required": false,
+        "options": [
+          "CLAS",
+          "PRE",
+          "Cité éducative",
+          "TER"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quels sont les principaux besoins éducatifs recensés sur le territoire ?",
+        "description": "L’analyse de l’état des lieux a-t-elle permis de dégager des priorités auxquelles le PEDT pourrait apporter des réponses ?",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LE PROJET EDUCATIF DE TERRITOIRE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quel sont les publics visés par le PEDT",
+        "description": "plusieurs choix possibles",
+        "required": true,
+        "options": [
+          "Les enfants de moins de 3 ans",
+          "Enfants scolarisés en maternelle",
+          "Enfants scolarisés en école élémentaire",
+          "Collégiens",
+          "Lycéens",
+          "Jeunes de 16 à 25 ans (quel que soit leur statut)"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LES PARTENARIATS, L'IMPLICATION DES FAMILLES ET DES JEUNES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "LES RESSOURCES LOCALES",
+        "description": "Quelles sont les ressources locales identifiées lors de l’état des lieux (associations, bénévoles,équipements, services municipaux, services civiques, réserve citoyenne, etc.) que le PEDT peut mobiliser ?",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Partenaires institutionnels",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les responsables des établissements scolaires seront-ils impliqués dans l’élaboration du PEDT et/ou dans son fonctionnement ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Les activités du PEDT sont-elles articulées avec le projet d'école ou le projet d'établissement ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui, toutes les écoles",
+          "Une partie",
+          "Non"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précisions et/ou commentaires sur le lien avec le projet d'école ou d'établissement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les parents ont-ils été impliqués dans l'élaboration du PEDT ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui, comment ont-ils été impliqués ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si non, pourquoi ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les parents seront-ils impliqués dans le pilotage du PEDT ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les enfants et les jeunes ont-ils été consultés sur les activités proposées dans le cadre du PEDT ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui, comment et quelles tranches d’âges ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si non , pourquoi ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "L'ORGANISATION DE L'ACCUEIL SUR VOTRE TERRITOIRE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Organisation du temps périscolaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Organisation du temps extrascolaire",
+        "description": "",
+        "required": true,
+        "options": [
+          "La collectivité ne délègue pas",
+          "La collectivité délègue la totalité",
+          "La collectivité délègue en partie",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ACCUEIL PÉRISCOLAIRE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Lieux dans lesquels se déroulent les activités périscolaires",
+        "description": "",
+        "required": true,
+        "options": [
+          "Locaux scolaires",
+          "Local périscolaire dédié",
+          "Salle des fêtes",
+          "Salle de restauration",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Accueil périscolaire",
+        "description": "Quels sont les temps d’activités périscolaires déclarés en accueil de loisirs auprès du SDJES ?",
+        "required": true,
+        "options": [
+          "Matin et soir",
+          "Pause Méridienne",
+          "Mercredi"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrivez l’organisation prévue",
+        "description": "les publics accueillis, les lieux de déroulement, les organisateurs, les principales familles d’activités prévues pour chaque temps périscolaire",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ACCUEIL EXTRA-SCOLAIRE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrivez l’organisation prévue",
+        "description": "(accueil de loisirs, autres actions), les publics accueillis, les lieux de déroulement, les organisateurs, les principales familles d’activités prévues pour chaque période extrascolaire).",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Transfert de responsabilités",
+        "description": "Avez-vous clairement défini les modalités du transfert de responsabilités entre les temps scolaires et les accueils périscolaires avant/après la classe ?",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Utilisation des locaux",
+        "description": "Des protocoles d’utilisation des locaux et du matériel ont-ils été élaborés ?",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LES INTERVENTIONS AU SEIN DES ACCUEILS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Convention avec associations",
+        "description": "Des conventions ont-elles été passées avec les associations qui interviennent dans le cadre du PEDT sur les temps périscolaires et/ou extrascolaires",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui, précisez :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LES AUTRES ACTIONS EN DIRECTION DU PUBLIC DE VOTRE PEDT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autres actions contenues dans le PEDT",
+        "description": "Si votre PEDT prévoit d’autres actions (ex : conseil municipal de jeunes, actions en lien avec un service municipal – sport/culture, actions avec une association, action avec une structure petite enfance (crèche, jardin d’enfant, RPE Relais Petite Enfance - ex-RAM), action en direction d’un public jeunes spécifique sous des formes variées (BIJ, chantier de jeunes etc.) décrivez les en précisant le public, le partenaire, la période de réalisation.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre projet éducatif prévoit-il des activités en lien avec le milieu aquatique ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui pouvez-vous préciser lesquelles ?",
+        "description": "ou décrire le projet dans lequel ces actions sont inclues.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous connaissance du dispositif ministériel « savoir nager » pour compléter vos actions ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre projet éducatif intègre-t-il la pratique d’activités physiques utilisant le vélo ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui pouvez-vous préciser lesquelles ?",
+        "description": "ou décrire le projet dans lequel ces actions sont inclues.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous connaissance du dispositif ministériel « savoir rouler » pour compléter vos actions ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LE PILOTAGE DU PEDT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le Comité de pilotage a-t-il validé ce PEDT ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quelle est la composition du comité de pilotage",
+        "description": "Nom, prénom et fonction de chaque membre",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Fréquence des réunions du Comité de pilotage du PEDT",
+        "description": "",
+        "required": true,
+        "options": [
+          "1 fois par an",
+          "2 fois par an",
+          "Tous les trimestres",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Merci de précisez la fréquence des Copils",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LES OBJECTIFS ÉDUCATIFS PARTAGÉS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pour plus d’informations, vous pouvez consulter le padlet des coordonnateurs PEDT :",
+        "description": "https://padlet.com/spailhous/espace-d-changes-des-coordonnateurs-pedt-du-var-mh0uqmxc9q8m4e6w",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Objectifs éducatifs partagés par l'ensemble des partenaires",
+        "description": "Liste des objectifs éducatifs généraux\r\n",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Qui sont les opérateurs en charge des activités périscolaires proposés dans le cadre de ce PEDT",
+        "description": "",
+        "required": true,
+        "options": [
+          "Agents territoriaux ou employés par la commune",
+          "Salariés des associations",
+          "Enseignants rémunérés par la commune ou l'intercommunalité",
+          "Bénévoles"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identifiez-vous des besoins en formations ?",
+        "description": "Vous avez identifié des besoins en formation pour mettre en œuvre ce PEDT",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "L'ACCUEIL DES PUBLICS SPECIFIQUES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Présentation des modalités d'accueil des enfants en situation de handicap",
+        "description": "La description fine de l'inclusion des enfants en situation de handicap doit apparaitre dans votre PEDT.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Présentation des modalités d'accueil des enfants de moins de 6 ans",
+        "description": "La description fine des modalités d'accueil des enfants de moins de 6 ans doit apparaitre dans votre PEDT.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "L'ÉVALUATION DE VOTRE PEDT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Suivi, bilans et évaluation",
+        "description": "Vous pouvez consulter le padlet des « coordonnateurs PEDT » pour plus d’informations :\r\nhttps://padlet.com/spailhous/espace-d-changes-des-coordonnateurs-pedt-du-var-mh0uqmxc9q8m4e6w\r\n\r\n\r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quelles modalités d'évaluation allez-vous mettre en place ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quelles modalités de suivi et de bilan allez –vous mettre en place ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LE PLAN MERCREDI",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "L’ORGANISATION DU PLAN MERCREDI",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le coordonnateur du Plan Mercredi est-il identique à celui du Projet Educatif de Territoire ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non,",
+        "description": "S’il est différent, merci de préciser le nom et les coordonnées du coordonnateur du Plan Mercredi",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quels sont les principaux objectifs poursuivis par votre plan mercredi ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Nombre de places ouvertes le mercredi par des ALSH signataires de la charte Plan Mercredi, au total sur la commune ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Enfants de moins de 6 ans",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Enfants de plus de 6 ans",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Compléter le tableau descriptif de l'offre d'accueil sur les temps du mercredi",
+        "description": "Tableau en pièce jointe : compléter l'organisation des temps du mercredi et lister les accueils concernés par le Plan Mercredi",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Complétez la description de l’organisation prévue le mercredi",
+        "description": "les organisateurs, les partenariats, les objectifs retenus et les principales activités prévues",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "CRITERES DE LABELLISATION DU PLAN MERCREDI",
+        "description": "La charte qualité « plan mercredi » invite à structurer l’accueil de loisirs du mercredi autour de 4 axes.\r\nhttps://www.jeunes.gouv.fr/la-charte-qualite-plan-mercredi-1561",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "AXE 1 : L’articulation des activités périscolaires avec les enseignements",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Dans quel cadre le Plan Mercredi, est-il présenté aux équipes enseignantes ?",
+        "description": "quand et par qui",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quelle articulation est établie entre le projet d’école et les activités proposées dans le Plan Mercredi afin d’assurer une complémentarité éducative ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Dans quel cadre le projet d’école est-il présenté aux équipes d’animation ?",
+        "description": "quand et par qui",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Dans quels cadres les activités de votre Plan Mercredi s’inscrivent-elles ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "Parcours Citoyen",
+          "Parcours Avenir",
+          "Parcours EAC (Education Artistique et Culturelle)",
+          "Parcours Santé",
+          "Autres dispositifs"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si autres dispositifs, merci de préciser lesquels :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Des activités du Plan Mercredi favorisent-elles le passage au collège des élèves du CM2 ?",
+        "description": "Si oui, lesquelles ?",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "AXE 2 : L’accessibilité et l’inclusion de tous les enfants",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Les publics en situation de handicap",
+        "description": "Lien vers le site du PARIH - Le Pôle d’Appui et de Ressources pour l’Inclusion Handicap\r\nhttps://parih83.fr/professionnels\r\nLien vers leur catalogue d'interventions \r\nhttps://parih83.fr/wp-content/uploads/2023/11/PARIH-83-nos-interventions-.pdf",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les offres du mercredi permettent-elles d’intégrer l’ensemble des demandes d’accueil d’enfants en situation de handicap ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, quels sont les besoins identifiés ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Une sensibilisation/formation des acteurs éducatifs, à l’accueil des enfants en situation de handicap est-elle prévue ?",
+        "description": "Infos formations loisirs & handicap \r\nhttps://www.caf.fr/sites/default/files/medias/831/2023%20Formations%20Inclusion%20H/INFOS%20Formations%20inclusion%20handicap%20en%20ACM%202023%202024%20relucg.pdf",
+        "required": true,
+        "options": [
+          "--Oui--",
+          "Les formations \"ALSH et Inclusion » financées par la CAF du Var, en lien avec le PARIH",
+          "Oui, autres formations",
+          "--Non--",
+          "Les acteurs sont déjà formés/sensibilisés",
+          "C'est prévu sur la durée du Plan Mercredi",
+          "Ce n'est pas prévu"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quels aménagements (renforts de personnel, matériel pédagogique adapté, accessibilité des locaux…) sont mis en place pour que les accueils du mercredi soient accessibles à tous les enfants, notamment ceux en situation de handicap ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "AXE 3 : L’ancrage du projet dans le territoire",
+        "description": "Le Plan mercredi permet de mener une action éducative mettant en synergie les services de l’État, d’autres collectivités, la Caf (MSA), les associations de jeunesse et d’éducation populaire partenaires du Plan mercredi, d’autres association et institutions à vocation sportive, culturelle, artistique ou scientifiques et les associations de parents d’élèves. ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quelles sont les principales richesses locales que vous avez identifiées qui pourront être mobilisées sur vos projets ?",
+        "description": "Atouts de la commune, locaux, transports etc. ",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quels partenariats avec des acteurs du territoire pourront être formalisés ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "Associations culturelles",
+          "Associations environnementales",
+          "Associations sportives",
+          "Équipe enseignante",
+          "Équipement public ( musées, bibliothèques, parcs naturels, espaces sportifs, etc...)",
+          "Structures privées ( fondations, parcs, entreprises culturelles et sportives, etc..)"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pouvez-vous nommer les partenaires ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "AXE 4 : Le développement d’activités éducatives de qualité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quelles  activités sont proposées sur les temps du mercredi ?",
+        "description": "Plusieurs réponses possibles.",
+        "required": true,
+        "options": [
+          "Activités artistiques",
+          "Activités scientifiques",
+          "Activités civiques",
+          "Activités numériques",
+          "Activités de découverte de l'environnement",
+          "Activités éco-citoyennes",
+          "Activités physiques et sportives",
+          "Temps calmes"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quels sont les intervenants sur les temps d'accueil ?",
+        "description": "En plus des animateurs / Plusieurs réponses possibles.",
+        "required": true,
+        "options": [
+          "Intervenants associatifs rémunérés",
+          "Intervenants associatifs bénévoles",
+          "Intervenants de statut privés non associatifs",
+          "Parents",
+          "Enseignants",
+          "Personnels municipaux ( éducateurs sportifs, ATSEM, bibliothécaires, jardiniers, etc.)"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "EVALUATION DU PLAN MERCREDI",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quelles sont les modalités particulières de suivi, de bilan et d'évaluation de ce Plan Mercredi ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Téléversement du projet détaillé  de votre PEDT au format libre",
+        "description": "Si vous souhaitez un accompagnement gratuit à la formalisation de votre PEDT (pièce jointe demandée) par les FRANCAS du Var, vous pouvez solliciter le GAD par mail aux adresses suivantes : \r\nenfancejeunesse@caf83.caf.fr\r\nien-83.peim@ac-nice.fr\r\nsdjes83-pedt@ac-nice.fr\r\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Un bilan du précédent PEDT est obligatoire pour pouvoir établir une nouvelle convention.",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

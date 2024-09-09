@@ -1,0 +1,89 @@
+{
+  "number": 41004,
+  "title": "CD08 - Demande de délai CER",
+  "description": "Vous êtes référent RSA conventionné dans le cadre du PDI et devez faire signer le CER d'un allocataire absent pour un motif légitime (justificatif a transmettre dans la procédure). \r\n\r\nCe formulaire permet de solliciter un délai supplémentaire pour faire signer le CER. ",
+  "tags": [
+    "Rsa"
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2021-03-11T09:52:24+01:00",
+  "service": {
+    "nom": "Service Orientation et Accompagnement vers l'Emploi",
+    "organisme": "Conseil départemental des Ardennes",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/delai-cer",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "www.cd08.fr",
+  "cadreJuridiqueUrl": "http://www.cd08.fr",
+  "logo": {
+    "filename": "logofse.png",
+    "checksum": "hdDP+CNy347NX3Ra/zBMQQ==",
+    "byteSize": "43536",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 446,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité de l'allocataire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom de l'allocataire",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'allocataire",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance de l'allocataire",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro allocataire (CAF ou MSA)",
+        "description": "Dans le cas ou le n° est inconnu, indiquez 999999. ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande du délai supplémentaire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Motivation de la demande",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative",
+        "description": "Voir la liste des pièces justificatives d'absences ici : http://bit.ly/3cogbSS",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Nouvelle date d'échéance souhaitée",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

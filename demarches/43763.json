@@ -1,0 +1,621 @@
+{
+  "number": 43763,
+  "title": "[ANSM]- Déclaration de vol ou détournement de substances ou préparations classées stupéfiants ou psychotropes",
+  "description": "Déclaration de vol ou détournement de substances ou préparations classées stupéfiants ou psychotropes\r\nListe des stupéfiants et psychotropes https://ansm.sante.fr/documents/reference/autres-produits-de-sante",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2024-03-18T16:38:56+01:00",
+  "service": {
+    "nom": "Pôle «  Régulation des flux des Stupéfiants et des Psychotropes  », Direction médicale médicaments 2",
+    "organisme": "ANSM",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ansm-declaration-de-vol-ou-detournement-de-stup",
+  "dpoUrl": "dpo@ansm.sante.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://ansm.sante.fr/",
+  "cadreJuridiqueUrl": "https://ansm.sante.fr/",
+  "logo": {
+    "filename": "Ansm-logo.jpg",
+    "checksum": "EXGPWPpqqSWqB6/Ko8KP5A==",
+    "byteSize": "35937",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 140,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "MENTIONS LEGALES – Informations sur les données à caractère personnel recueillies et traitées par l’Agence Nationale de Sécurité du Médicament et des Produits de Santé (ANSM)",
+        "description": "Ce traitement est effectué sous la responsabilité de l’ANSM dans le cadre de l’exercice de ses missions, conformément aux dispositions du règlement général sur la protection des données (RGPD) et de la loi 78-17 du 6 janvier 1978 modifiée relative à l’informatique, aux fichiers et aux libertés. \r\nL’accès à vos données est exclusivement réservé aux agents de l’ANSM et est couvert par des mesures de sécurité permettant d’assurer leur intégrité et leur confidentialité pour toute la durée de leur traitement. \r\nVous disposez des droits prévus à l’article 40 de la loi 78-17 du 6 janvier 1978 modifiée, et notamment  du droit d’accès et de rectification de vos données. \r\nVous pouvez exercer ces droits à tout moment auprès de notre Délégué à la protection des données, par demande écrite, en y joignant un justificatif d’identité comportant votre signature à l’une des adresses suivantes :\r\n1. dpo@ansm.sante.fr.\r\n2. ANSM / DRD / Délégué à la protection des données\r\n143-147 Bd Anatole France 93285 \r\nSAINT DENIS Cedex\r\n",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Références réglementaires",
+        "description": "Conformément aux articles R.5132-80 et R.5132-95 du code de la santé publique, tout vol ou détournement de substances ou préparations classées stupéfiants ou psychotropes doit être signalé sans délai aux autorités de police, à l’ARS, l'ANSES et à l'ANSM.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Type d'événements",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type d'évènements",
+        "description": "",
+        "required": true,
+        "options": [
+          "Vol",
+          "Détournement / Perte"
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la déclaration",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de l'évènement : début",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de l'évènement : fin",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité et coordonnées du déclarant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'établissement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du service",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur les substances ou préparations classées stupéfiants ou psychotropes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Substance / préparation classée stupéfiant ou psychotrope 1",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Informations importantes sur la saisie (paragraphes 3.1 à 3.10)",
+        "description": "Vous pouvez saisir jusqu’à 10 substances ou spécialités (paragraphe 3.1 à 3.10) sur une déclaration.\r\nUne seule substance ou spécialité peut être déclarée dans un paragraphe.\r\nNe pas saisir plusieurs substances ou spécialité  à la suite dans la même case du même paragraphe.\r\nSi vous avez plus de 10 substances ou  spécialités à déclarer, vous devez remplir un autre formulaire. Une fonctionnalité «dupliquer le dossier» est disponible lorsque vous avez terminé de compléter une déclaration.\r\n<br>Si un évènement survient à la suite du dépôt de votre dossier (ex : produits retrouvés..) vous pouvez nous envoyer un message par la messagerie en indiquant bien votre numéro de dossier.\r\nAu sein du dossier déposé, un fil de messagerie est accessible en haut de page, via l’onglet Messagerie, afin d’échanger avec le service instructeur de l’ANSM. Après avoir saisi le corps du texte, cliquer sur le bouton « Envoyer le message ». Il est également possible d’envoyer une pièce jointe via la messagerie.</br>\r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination du produit",
+        "description": "Indiquer la dénomination du produit concerné ainsi que sa forme pharmaceutique qui devra être en conformité à celle figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\nExemple : METHADONE AP-HP 5 mg, gélule  /  METHADONE AP-HP 20 mg, gélule.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code CIP",
+        "description": "Indiquer le code CIP de la spécialité concernée (sans espace entre les chiffres) figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/.\r\nExemple : 3400937914796 ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque spécialité pharmaceutique (en unité prise)",
+        "description": "Exemple : 5 gélules.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque substance active (en kg) hors spécialités pharmaceutiques",
+        "description": "Exemple : 5 kg de morphine.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination la substance active",
+        "description": "Indiquer la substance active concernée par le signalement \r\nRédiger la DCI sous le format suivant : substance-sel. Exemple : « morphine sulfate » et non « sulfate de morphine ».",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Substance / préparation classée stupéfiant ou psychotrope 2",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination du produit",
+        "description": "Indiquer la dénomination du produit concerné ainsi que sa forme pharmaceutique qui devra être en conformité à celle figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\nExemple : METHADONE AP-HP 5 mg, gélule  /  METHADONE AP-HP 20 mg, gélule.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code CIP",
+        "description": "Indiquer le code CIP de la spécialité concernée (sans espace entre les chiffres) figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\n\r\nExemple : 3400937914796",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque spécialité pharmaceutique (en unité prise)",
+        "description": "Exemple : 5 gélules.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque substance active (en kg) hors spécialités pharmaceutiques",
+        "description": "Exemple : 5 kg de morphine.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination la substance active",
+        "description": "Indiquer la substance active concernée par le signalement \r\nRédiger la DCI sous le format suivant : substance-sel. Exemple : « morphine sulfate » et non « sulfate de morphine ».",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Substance / préparation classée stupéfiant ou psychotrope 3",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination du produit",
+        "description": "Indiquer la dénomination du produit concerné ainsi que sa forme pharmaceutique qui devra être en conformité à celle figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\nExemple : METHADONE AP-HP 5 mg, gélule  /  METHADONE AP-HP 20 mg, gélule.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code CIP",
+        "description": "Indiquer le code CIP de la spécialité concernée (sans espace entre les chiffres) figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\n\r\nExemple : 3400937914796",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque spécialité pharmaceutique (en unité prise)",
+        "description": "Exemple : 5 gélules.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque substance active (en kg) hors spécialités pharmaceutiques",
+        "description": "Exemple : 5 kg de morphine.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination la substance active",
+        "description": "Indiquer la substance active concernée par le signalement \r\nRédiger la DCI sous le format suivant : substance-sel. Exemple : « morphine sulfate » et non « sulfate de morphine ».",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Substance / préparation classée stupéfiant ou psychotrope 4",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination du produit",
+        "description": "Indiquer la dénomination du produit concerné ainsi que sa forme pharmaceutique qui devra être en conformité à celle figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\nExemple : METHADONE AP-HP 5 mg, gélule  /  METHADONE AP-HP 20 mg, gélule.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code CIP",
+        "description": "Indiquer le code CIP de la spécialité concernée (sans espace entre les chiffres) figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\n\r\nExemple : 3400937914796",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque spécialité pharmaceutique (en unité prise)",
+        "description": "Exemple : 5 gélules.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque substance active (en kg) hors spécialités pharmaceutiques",
+        "description": "Exemple : 5 kg de morphine.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination la substance active",
+        "description": "Indiquer la substance active concernée par le signalement \r\nRédiger la DCI sous le format suivant : substance-sel. Exemple : « morphine sulfate » et non « sulfate de morphine ».",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Substance / préparation classée stupéfiant ou psychotrope 5",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination du produit",
+        "description": "Indiquer la dénomination du produit concerné ainsi que sa forme pharmaceutique qui devra être en conformité à celle figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\nExemple : METHADONE AP-HP 5 mg, gélule  /  METHADONE AP-HP 20 mg, gélule.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code CIP",
+        "description": "Indiquer le code CIP de la spécialité concernée (sans espace entre les chiffres) figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\n\r\nExemple : 3400937914796",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque spécialité pharmaceutique (en unité prise)",
+        "description": "Exemple : 5 gélules.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque substance active (en kg) hors spécialités pharmaceutiques",
+        "description": "Exemple : 5 kg de morphine.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination la substance active",
+        "description": "Indiquer la substance active concernée par le signalement \r\nRédiger la DCI sous le format suivant : substance-sel. Exemple : « morphine sulfate » et non « sulfate de morphine ».",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Substance / préparation classée stupéfiant ou psychotrope 6",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination du produit",
+        "description": "Indiquer la dénomination du produit concerné ainsi que sa forme pharmaceutique qui devra être en conformité à celle figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\nExemple : METHADONE AP-HP 5 mg, gélule  /  METHADONE AP-HP 20 mg, gélule.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code CIP",
+        "description": "Indiquer le code CIP de la spécialité concernée (sans espace entre les chiffres) figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\n\r\nExemple : 3400937914796",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque spécialité pharmaceutique (en unité prise)",
+        "description": "Exemple : 5 gélules.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque substance active (en kg) hors spécialités pharmaceutiques",
+        "description": "Exemple : 5 kg de morphine.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination la substance active",
+        "description": "Indiquer la substance active concernée par le signalement \r\nRédiger la DCI sous le format suivant : substance-sel. Exemple : « morphine sulfate » et non « sulfate de morphine ».",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Substance / préparation classée stupéfiant ou psychotrope 7",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination du produit",
+        "description": "Indiquer la dénomination du produit concerné ainsi que sa forme pharmaceutique qui devra être en conformité à celle figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\nExemple : METHADONE AP-HP 5 mg, gélule  /  METHADONE AP-HP 20 mg, gélule.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code CIP",
+        "description": "Indiquer le code CIP de la spécialité concernée (sans espace entre les chiffres) figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\n\r\nExemple : 3400937914796",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque spécialité pharmaceutique (en unité prise)",
+        "description": "Exemple : 5 gélules.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque substance active (en kg) hors spécialités pharmaceutiques",
+        "description": "Exemple : 5 kg de morphine.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination la substance active",
+        "description": "Indiquer la substance active concernée par le signalement \r\nRédiger la DCI sous le format suivant : substance-sel. Exemple : « morphine sulfate » et non « sulfate de morphine ».",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Substance / préparation classée stupéfiant ou psychotrope 8",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination du produit",
+        "description": "Indiquer la dénomination du produit concerné ainsi que sa forme pharmaceutique qui devra être en conformité à celle figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\nExemple : METHADONE AP-HP 5 mg, gélule  /  METHADONE AP-HP 20 mg, gélule.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code CIP",
+        "description": "Indiquer le code CIP de la spécialité concernée (sans espace entre les chiffres) figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\n\r\nExemple : 3400937914796",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque spécialité pharmaceutique (en unité prise)",
+        "description": "Exemple : 5 gélules.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque substance active (en kg) hors spécialités pharmaceutiques",
+        "description": "Exemple : 5 kg de morphine.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination la substance active",
+        "description": "Indiquer la substance active concernée par le signalement \r\nRédiger la DCI sous le format suivant : substance-sel. Exemple : « morphine sulfate » et non « sulfate de morphine ».",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Substance / préparation classée stupéfiant ou psychotrope 9",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination du produit",
+        "description": "Indiquer la dénomination du produit concerné ainsi que sa forme pharmaceutique qui devra être en conformité à celle figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\nExemple : METHADONE AP-HP 5 mg, gélule  /  METHADONE AP-HP 20 mg, gélule.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code CIP",
+        "description": "Indiquer le code CIP de la spécialité concernée (sans espace entre les chiffres) figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\n\r\nExemple : 3400937914796",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque spécialité pharmaceutique (en unité prise)",
+        "description": "Exemple : 5 gélules.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque substance active (en kg) hors spécialités pharmaceutiques",
+        "description": "Exemple : 5 kg de morphine.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination la substance active",
+        "description": "Indiquer la substance active concernée par le signalement \r\nRédiger la DCI sous le format suivant : substance-sel. Exemple : « morphine sulfate » et non « sulfate de morphine ».",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Substance / préparation classée stupéfiant ou psychotrope 10",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination du produit",
+        "description": "Indiquer la dénomination du produit concerné ainsi que sa forme pharmaceutique qui devra être en conformité à celle figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\nExemple : METHADONE AP-HP 5 mg, gélule  /  METHADONE AP-HP 20 mg, gélule.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code CIP",
+        "description": "Indiquer le code CIP de la spécialité concernée (sans espace entre les chiffres) figurant sur la Base de données publiques des médicaments disponible à l’adresse suivante : http://base-donnees-publique.medicaments.gouv.fr/ \r\n\r\nExemple : 3400937914796 ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque spécialité pharmaceutique (en unité prise)",
+        "description": "Exemple : 5 gélules.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité de chaque substance active (en kg) hors spécialités pharmaceutiques",
+        "description": "Exemple : 5 kg de morphine.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination la substance active",
+        "description": "Indiquer la substance active concernée par le signalement \r\nRédiger la DCI sous le format suivant : substance-sel. Exemple : « morphine sulfate » et non « sulfate de morphine ».",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description de l'événement",
+        "description": "Cliquer sur \"Ajouter un élément pour  «Description de la substance ou préparation classée stupéfiant ou psychotrope»\" afin de renseigner la / les spécialité(s) pharmaceutique(s) ou substance(s) active(s) concernée(s).",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Résultats des investigations et causes présumées",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Actions correctives mises en oeuvre le cas échéant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Annexe",
+        "description": "Tous documents explicatifs (document, photo...)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Si événement survenu pendant le transport",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Evénement survenu pendant le transport ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'établissement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description de l'événement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Transmission aux instances concernées",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Transmission à l'ARS",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de transmission à l'ARS",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Transmission à l'ANSES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de transmission à l'ANSES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Transmission aux autorités de police",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de transmission aux autorités de police",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Annexe (PV de police)",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

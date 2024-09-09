@@ -1,0 +1,85 @@
+{
+  "number": 12321,
+  "title": "Demande de renseignements juridiques ou réglementaires adressée à l'ANSM, hors dossier en cours d'instruction",
+  "description": "Le formulaire a pour objectif de recenser les demandes précises de renseignements juridiques ou réglementaires adressées à l'ANSM par un particulier ou un opérateur, afin de répondre par mail à sa question.\r\n\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2019-01-22T13:17:04+01:00",
+  "service": {
+    "nom": "Direction des Affaires Juridiques et Réglementaires",
+    "organisme": "Agence Nationale de Sécurité du Médicament et des produits de santé  ",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ffbed92b-1943-4790-8a6f-0d7323b40ab1",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://ansm.sante.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006690344&dateTexte=&categorieLien=cid",
+  "logo": {
+    "filename": "procedure-b0a79734-8ff5-4596-b308-26ecba104c5f.jpg",
+    "checksum": "nXblCC9Gq3wJDJXINJxG2A==",
+    "byteSize": "13851",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Mentions légales : Informations sur les données à caractère personnel recueillies et traitées par l’Agence Nationale de Sécurité du Médicament et des Produits de Santé (ANSM) Ce traitement est effectué sous la responsabilité de l’ANSM dans le cadre de l’exercice de ses missions, conformément aux dispositions du règlement général sur la protection des données (RGPD) et de la loi 78-17 du 6 janvier 1978 modifiée relative à l’informatique, aux fichiers et aux libertés.  L’accès à vos données est exclusivement réservé aux agents de l’ANSM et est couvert par des mesures de sécurité permettant d’assurer leur intégrité et leur confidentialité pour toute la durée de leur traitement.  Vous disposez des droits prévus à l’article 40 de la loi 78-17 du 6 janvier 1978 modifiée, et notamment du droit d’accès et de rectification de vos données.  Vous pouvez exercer ces droits à tout moment auprès de notre Délégué à la protection des données, par demande écrite, en y joignant un justificatif d’identité comportant votre signature à l’une des adresses suivantes : ANSM, DAJR, délégué à la protection des données, 143-147 Boulevard Anatole France 93285 SAINT DENIS Cedex ou dpo@ansm.sante.fr",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "objet de la demande",
+        "description": "choix du type de produit de santé concerné sans référence à un dossier en cours d'instruction",
+        "required": true,
+        "options": [
+          "médicament",
+          "sang, produit sanguin, tissu",
+          "dispositif médical",
+          "produit cosmétique",
+          "produit de tatouage"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "si opérateur, numéro de SIRET",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "courriel (e-mail)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "votre question",
+        "description": "champ libre",
+        "required": true
+      }
+    ]
+  }
+}

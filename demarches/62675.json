@@ -1,0 +1,1094 @@
+{
+  "number": 62675,
+  "title": "V2- Référencement et/ou dématérialisation d'une démarche (Ministère de la Culture)",
+  "description": "<strong>Attention : ce formulaire est uniquement destiné aux agents du ministère de la Culture qui souhaitent dématérialiser ou remettre en ligne une démarche (parfois ou systématiquement accompagnée d'une subvention, versée par le ministère de la Culture ou tout autre organisme partenaire) sur Démarches Simplifiées.</strong> \r\n\r\nCe formulaire vise à recueillir différentes informations sur votre démarche : titre, objectifs, thématique & politique publique, présentation, critères d'éligibilité, subvention, calendrier, pièces justificatives à joindre par le demandeur, formulaire à dématérialiser, ...\r\n\r\nUne partie des informations saisies sera reprise sur la page de présentation de la démarche sur le site culture.gouv. \r\nCes éléments permettront aux usagers d'identifier en quelques clics s'ils sont éligibles ou non au dispositif, quelles sont les pièces à préparer avant le dépôt du dossier en ligne, quel est le calendrier, etc. \r\n<strong>Cette page sera rédigée par la Ligne de produits \"Grand Public\" sur la base des informations que vous aurez fournies et vous sera envoyée pour relecture avant sa mise en ligne.</strong>\r\n\r\nL'autre partie des informations permettra à la ligne de produits \"Grand Public\" (Service du numérique) de vous accompagner au mieux dans la dématérialisation de votre démarche. Ces éléments nous permettront également d'intervenir plus facilement et plus rapidement en cas de besoin. ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Culture"
+  ],
+  "datePublication": "2022-09-02T13:46:47+02:00",
+  "service": {
+    "nom": "Service du numérique (SNUM) | Ligne de produits \"Grand Public\"",
+    "organisme": "Ministère de la Culture",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/referencement-dematerialisation-mincult",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://semaphore.culture.gouv.fr/home",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029716839",
+  "logo": {
+    "filename": "Logo Culture.jpg",
+    "checksum": "d+WGOPaSNCE0vQDkKnVqLw==",
+    "byteSize": "57435",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "20141106_OrdonnanceSVE.pdf",
+    "checksum": "5eT9KO5neHwj7t1RpMRzwA==",
+    "byteSize": "135395",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 92,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Définitions & informations préliminaires",
+        "description": "<strong>Avant toute mise en ligne</strong>, vous devez contacter <a href=\"mailto:marion.courdier@culture.gouv.fr\">Marion Courdier</a> pour faire relire et valider votre procédure dématérialisée.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information importante",
+        "description": "Cette demande de dématérialisation / référencement d'une démarche est une \"commande\" passée auprès de la Ligne de produits Dématérialisation (LPDemat). \r\nVotre formulaire dématérialisé et la page de présentation l'accompagnant seront construits sur la base des éléments saisis ci-après.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Définitions",
+        "description": "L'<strong>usager</strong>, ou <strong>demandeur</strong>, est la personne qui dépose un dossier en ligne.\r\nVous êtes actuellement un usager de la demande de référencement et/ou dématérialisation.\r\n\r\nL'<strong>instructeur</strong> est la personne qui étudie les dossiers déposés et statue sur leur recevabilité, leur acceptation / refus / classement sans suite.\r\n\r\nL'<strong>expert invité</strong> est un tiers qui a été invité par un instructeur à consulter le dossier et à émettre un avis sur celui-ci. \r\n<strong>Il est possible de désactiver le recours aux experts invités. </strong>\r\n\r\nL'<strong>administrateur</strong> est chargé de la gestion de la démarche et de la création du formulaire.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Partie 1 : Carte d'identité de la démarche",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Explication",
+        "description": "Renseignez ici les informations générales sur votre démarche. ",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "La démarche a-t-elle déjà existé ?",
+        "description": "Le fait que la démarche ait été dématérialisée ou non n'importe pas ici. ",
+        "required": true,
+        "options": [
+          "Oui, il s'agit de la réédition d'une démarche ayant déjà existé",
+          "Non, il s'agit de la première édition de cette démarche"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Titre de la démarche",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de démarche",
+        "description": "Le terme « subvention » s'entend ici au sens large et englobe notamment les dotations et participations aux frais. ",
+        "required": true,
+        "options": [
+          "Démarche avec subvention",
+          "Démarche sans subvention"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Objectif de la démarche",
+        "description": "",
+        "required": true,
+        "options": [
+          "Appel à projets / manifestations d'intérêt / candidatures",
+          "Demande de subvention",
+          "Déclaration (ou renouvellement)",
+          "Demande de labellisation, protection ou appellation",
+          "Demande d'autorisation"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de subvention",
+        "description": "",
+        "required": true,
+        "options": [
+          "Fonctionnement",
+          "Investissement",
+          "Fonctionnement ET investissement"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "BOP",
+        "description": "Indiquez le budget opérationnel de programme (BOP) concerné par la subvention.",
+        "required": true,
+        "options": [
+          "131",
+          "175",
+          "180",
+          "224",
+          "334",
+          "361"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Objectif de la démarche",
+        "description": "",
+        "required": true,
+        "options": [
+          "Appel à projets / manifestations d'intérêt / candidatures",
+          "Déclaration (ou renouvellement)",
+          "Demande de labellisation, protection ou appellation",
+          "Demande d'autorisation",
+          "Dépôt d'un bilan / compte-rendu / évaluation"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Thématique / politique publique",
+        "description": "Indiquez ici la thématique / politique publique <strong>principale</strong> dans laquelle s'inscrit la démarche, c'est-à-dire le cadre dans lequel la démarche intervient ou à quelle mesure de soutien elle est reliée. ",
+        "required": true,
+        "options": [
+          "Archéologie",
+          "Architecture",
+          "Archives",
+          "Arts plastiques",
+          "Audiovisuel",
+          "Cinéma",
+          "Circulation des biens culturels",
+          "Conservation - Restauration",
+          "Danse",
+          "Développement culturel & démocratisation culturelle",
+          "Développement durable",
+          "Design",
+          "Éducation artistique et culturelle",
+          "Égalité & Diversité",
+          "Enseignement supérieur & Recherche",
+          "Ethnologie de la France",
+          "Études & Statistiques",
+          "Europe & International",
+          "Industries culturelles et créatives",
+          "Innovation numérique",
+          "Langue française & Langues de France",
+          "Livre et lecture",
+          "Mécénat",
+          "Mode",
+          "Monuments & sites",
+          "Musique",
+          "Musées",
+          "Métiers d’art",
+          "Patrimoine culturel immatériel",
+          "Photographie",
+          "Presse",
+          "Sciences du patrimoine",
+          "Sécurité & Sûreté",
+          "Théâtre & Spectacle"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La démarche relève-t-elle du spectacle vivant ou des arts visuels ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Portée de la démarche",
+        "description": "La démarche est-elle gérée au niveau national ou relève-t-elle de la compétence des régions ?",
+        "required": true,
+        "options": [
+          "Démarche nationale",
+          "Démarche régionale"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Précision sur la portée",
+        "description": "",
+        "required": true,
+        "options": [
+          "France métropolitaine",
+          "France métropolitaine + régions d'outre-mer",
+          "France métropolitaine, régions d'outre-mer et collectivités territoriales d'outre-mer"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Région(s) concernée(s)",
+        "description": "Vous pouvez sélectionner plusieurs propositions.",
+        "required": true,
+        "options": [
+          "Toutes régions métropolitaines (13 régions)",
+          "Toutes régions métropole + outre-mer (18 régions)",
+          "Toutes régions métropole + outre-mer + collectivités d'outre-mer (18 régions + 6 collectivités)",
+          "--France métropolitaine--",
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Île-de-France",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d'Azur",
+          "--Outre-mer--",
+          "Toutes régions d'outre-mer",
+          "Guadeloupe",
+          "Martinique",
+          "Guyane",
+          "La Réunion",
+          "Mayotte",
+          "--Collectivités d'outre-mer--",
+          "Toutes collectivités",
+          "Nouvelle Calédonie",
+          "Polynésie française",
+          "Saint-Pierre-et-Miquelon",
+          "Saint-Barthélemy",
+          "Saint-Martin",
+          "Wallis-et-Futuna"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Partie 2 : Présentation de la démarche sur culture.gouv.fr",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Explication",
+        "description": "Les éléments renseignés dans cette partie apparaitront sur la page de présentation de la démarche sur le site Internet du ministère. <strong>Cette page sera rédigée par la LPGP sur la base de votre saisie</strong> et vous sera envoyée pour relecture avant sa mise en ligne. \r\n\r\n<strong>Aucune autre page ne sera nécessaire et ne devra être réalisée.</strong> Pour en savoir plus sur la politique éditoriale du ministère, vous êtes invités à vous adresser à <a href=\"mailto:redaction.dicom@culture.gouv.fr\">la DICOM (redaction.dicom@culture.gouv.fr)</a>.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2.1- Antériorité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous n'êtes pas concerné(e) par cette partie.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre démarche a-t-elle déjà fait l'objet d'une présentation rédigée par la Ligne de produits Grand Public sur culture.gouv ?",
+        "description": "Si une page de présentation a été rédigée par la LPGP, son lien d'accès commence par : https://www.culture.gouv.fr/Demarches-en-ligne/.\r\nSi le lien de votre fiche de présentation ne commence pas de cette façon, cochez \"Non\". ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lien de la page de présentation rédigée par la LPGP",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Souhaitez-vous apporter des modifications à cette page de présentation ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui, quelques modifications mineures",
+          "Oui, de nombreuses modifications ou des modifications majeures",
+          "Non, aucune modification n'est nécessaire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous souhaitez apporter des modifications mineures à la page de présentation de votre démarche.",
+        "description": "Merci de préciser ci-dessous les modifications à effectuer. \r\nIl vous est également demandé de (re)préciser ci-dessous : \r\n• les coordonnées du service porteur\r\n• les informations sur la subvention, le cas échéant\r\n• le calendrier et les modalités d'instruction de la démarche. \r\n\r\n<strong>La LPGP pourra par ailleurs vous demander des informations complémentaires si nécessaire</strong>.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous souhaitez apporter des modifications majeures à la page de présentation de votre démarche.",
+        "description": "Les éléments suivants vous seront demandés dans les parties ci-après :\r\n• coordonnées du service porteur\r\n• description de la démarche\r\n• conditions d'éligibilité\r\n• subvention, le cas échéant\r\n• calendrier de la démarche et modalités d'instruction",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous souhaitez conserver la page de présentation de votre démarche telle qu'elle existe actuellement.",
+        "description": "Il vous est demandé de (re)préciser ci-dessous : \r\n• les coordonnées du service porteur\r\n• les publics éligibles\r\n• les informations sur la subvention, le cas échéant\r\n• le calendrier et les modalités d'instruction de la démarche. \r\n\r\n<strong>La LPGP pourra par ailleurs vous demander des informations complémentaires si nécessaire</strong>.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Éléments à modifier",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Élément actuellement présenté",
+            "description": "Copiez-collez l'information que vous souhaitez modifier. ",
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Élément à présenter en remplacement",
+            "description": "Insérez ici le texte de remplacement. ",
+            "required": true
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Autre modification ?",
+            "description": "Pour ajouter un autre élément à modifier, cliquez sur \"<strong>+ Ajouter un élément pour « Éléments à modifier »\"</strong> sous ce bloc. Répétez autant de fois que nécessaire. ",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2.2- Coordonnées du service porteur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Explication",
+        "description": "Ces coordonnées sont à destination des demandeurs et seront affichées sur la page de présentation ainsi que dans la partie « Contact » sur Démarches Simplifiées. ",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Rattachement du service producteur/porteur",
+        "description": "Si vous êtes une DRAC, sélectionnez « Direction régionale des affaires culturelles (DRAC) ».",
+        "required": true,
+        "options": [
+          "Délégation à la langue française et aux langues de France  (DGLFLF)",
+          "Délégation générale à la transmission, aux territoires et à la démocratie culturelle (DG2TDC)",
+          "Direction générale de la création artistique (DGCA)",
+          "Direction générale des médias et des industries culturelles (DGMIC)",
+          "Direction générale des patrimoines et de l'architecture (DGPA)",
+          "Direction régionale des affaires culturelles (DRAC)",
+          "Secrétariat général (SG)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom complet du service producteur/porteur",
+        "description": "<em>Exemple : DRAC Auvergne-Rhône-Alpes > Pôle Publics & Territoires ; DGMIC > Bureau des médias privés ; etc.</em>",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail",
+        "description": "<strong>Il est largement recommandé de saisir une adresse fonctionnelle</strong>. \r\nCette adresse sera visible par les demandeurs et sera utilisée par eux pour toute question sur la démarche. ",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse postale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2.3- Description de la démarche",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous n'êtes pas concerné(e) par cette partie.",
+        "description": "La LPGP prendra contact avec vous en cas de besoin. ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Explication",
+        "description": "Décrivez ici votre démarche de la façon la plus claire possible.\r\nImaginez-vous vous adresser à quelqu'un qui ne connaît la démarche et la découvre pour la première fois. Que doit savoir cette personne pour comprendre la démarche ? Utilisez un vocabulaire simple mais précis. ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Résumez la démarche à quelqu'un qui la découvre",
+        "description": "<strong>5 lignes sont suffisantes.</strong>\r\n\r\n<em>Exemple : Les Micro-folies sont des musées modulables, que l'on peut installer partout en France dans un espace déjà existant. Le ministère de la Culture soutient leur création en allouant une subvention aux organisateurs d'un tel projet.</em>",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Présentez la démarche de façon détaillée",
+        "description": "Qu'est-ce que la démarche ? Qu'entreprend le ministère de la Culture dans le cadre de la politique publique liée ? Quels sont les objectifs de la démarche au niveau national, régional et local ? Que peuvent obtenir les demandeurs s'ils déposent un dossier ? Quelles sont les suites possibles ? Existe-t-il un partenariat avec d'autres entités et quel forme prend-il ? Que prévoit la loi ? Dans quel contexte la démarche a-t-elle été créée ? etc.",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Exemples d'actions / de lauréats soutenu(e)s par le passé",
+        "description": "Renseignez un premier exemple puis cliquez sur \"<strong>+ Ajouter un élément pour « Exemples d'actions / de lauréats soutenu(e)s par le passé »</strong>\" sous le bloc pour ajouter un autre exemple. Répétez autant de fois que nécessaire.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Titre du projet",
+            "description": "ou nom du monument, de l'équipe artistique, de la structure, du lauréat, ...",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Montant de la subvention versée",
+            "description": "En €, le cas échéant.",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Année au titre de laquelle la subvention a été versée",
+            "description": "Le cas échéant.",
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Description succincte du projet",
+            "description": "Vous pouvez ajouter des liens.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Existe-t-il un ou plusieurs rapport(s) d'activité ?",
+        "description": "ou rapport(s) du jury",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Rapport(s)",
+        "description": "Cliquez sur \"<strong>+ Ajouter un élément pour « Rapport(s) »</strong>\" sous le bloc pour ajouter un autre rapport. Répétez autant de fois que nécessaire.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Année",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Téléchargez ici le document",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "ou insérez ici le lien de la page sur lequel il figure",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2.4- Conditions d'éligibilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Explication",
+        "description": "Précisez ici tous les éléments permettant à l'usager de vérifier son éligibilité au dispositif ou le rendant, au contraire, inéligible.",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Qui peut déposer un dossier ?",
+        "description": "<strong>Vous pouvez sélectionner plusieurs propositions</strong>. \r\n\r\nÉtablissements publics / services de l’État : bibliothèques, etc. \r\nEntreprises publiques locales : entreprises au service des collectivités locales, des territoires et de leurs habitants\r\nParticuliers : personnes physiques professionnelles de la Culture ou non",
+        "required": true,
+        "options": [
+          "Associations",
+          "Communes",
+          "Départements",
+          "Entreprises privées",
+          "Entreprises publiques locales",
+          "EPCI à fiscalité propre",
+          "Établissements de recherche",
+          "Établissements publics / Services de l’État",
+          "Particuliers",
+          "Régions"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les demandeurs disposent-ils tous d'un numéro SIRET ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les conditions d'éligibilité sont-elles les mêmes pour toutes les régions concernées par la démarche ?",
+        "description": "Si votre démarche ne concerne qu'une seule région, cochez « oui ».",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Critères d'éligibilité",
+        "description": "<em>Exemples : avoir moins de 25 ans ; résider dans la région PACA ; être un(e) professionnel(le) de la Culture ; présenter un projet coconstruit avec un artiste, d'une durée minimale de deux mois ; ne pas avoir bénéficié d'une aide du ministère de la Culture dans le passé ; etc.</em>",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Critères de non-éligibilité",
+        "description": "<em>Exemples : personne ne résidant pas dans une région française ; demandeur ayant déjà été subventionné dans le cadre de la même démarche il y a 3 ans ou moins ; projet se déroulant hors temps scolaire ; etc.</em>",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Conditions d'éligibilité",
+        "description": "Détaillez les critères d'éligibilité et de non-éligibilité région par région. \r\nRemplissez les champs avec la première région puis cliquez sur \"<strong>+ Ajouter un élément pour « Conditions d'éligibilité »</strong>\" sous le bloc et remplissez de nouveau les champs. Répétez autant de fois que nécessaire.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Région(s) concernée(s)",
+            "description": "",
+            "required": true,
+            "options": [
+              "Auvergne-Rhône-Alpes",
+              "Bourgogne-Franche-Comté",
+              "Bretagne",
+              "Centre-Val de Loire",
+              "Corse",
+              "Grand Est",
+              "Hauts-de-France",
+              "Île-de-France",
+              "Normandie",
+              "Nouvelle-Aquitaine",
+              "Occitanie",
+              "Pays de la Loire",
+              "Provence-Alpes-Côte d'Azur",
+              "Guadeloupe",
+              "Martinique",
+              "Guyane",
+              "La Réunion",
+              "Mayotte",
+              "Nouvelle Calédonie",
+              "Polynésie française",
+              "Saint-Pierre-et-Miquelon",
+              "Saint-Barthélemy",
+              "Saint-Martin",
+              "Wallis-et-Futuna"
+            ]
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Critères d'éligibilité",
+            "description": "<em>Exemples : avoir moins de 25 ans ; résider dans la région PACA ; être un(e) professionnel(le) de la Culture ; présenter un projet coconstruit avec un artiste, d'une durée minimale de deux mois ; ne pas avoir bénéficié d'une aide du ministère de la Culture dans le passé ; etc.</em>rofessionnel de la Culture ; présenter un projet coconstruit avec un artiste, d'une durée minimale de deux mois ; etc.",
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Critères de non-éligibilité",
+            "description": "<em>Exemples : personne ne résidant pas dans une région française ; demandeur ayant déjà été subventionné dans le cadre de la même démarche il y a 3 ans ou moins ; projet se déroulant hors temps scolaire ; etc.</em>",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2.5- Subvention",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous n'êtes pas concerné(e) par cette partie.",
+        "description": "La LPGP prendra contact avec vous en cas de besoin.\r\n\r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Montant de la subvention (par lauréat)",
+        "description": "<strong>Saisissez de préférence une fourchette indicative</strong>. \r\nÀ défaut, vous pouvez saisir une valeur précise, le budget total disponible ET le nombre de projets entre lesquels le budget sera divisé, un pourcentage du budget de l'action, un montant minimal ou maximal, ...",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quelles sont les modalités de versement de la subvention ?",
+        "description": "<em>Exemple : La subvention est constituée d'une avance sur les frais prévisionnels et d'un remboursement des frais engagés. Elle sera versée en deux fois. Le premier versement (avance) aura lieu dans les deux mois suivant l'acceptation de votre dossier. Le second versement (remboursement) interviendra une fois la fiche d'évaluation transmise et au plus tard 1 an après la réalisation du projet subventionné.</em>",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quand la subvention sera-t-elle versée au demandeur ?",
+        "description": "Si plusieurs versements sont prévus, merci de le préciser. ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2.6- Calendrier de la démarche et instruction",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Le dépôt des dossiers est-il limité dans le temps ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui, il existe une date limite de dépôt des dossiers",
+          "Non, les dossiers peuvent être déposés toute l'année"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date souhaitée de mise en ligne",
+        "description": "Cette date pourra être modulée en fonction du plan de charge de la LPGP. ",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date limite de dépôt des dossiers",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les dossiers déposés feront-ils l'objet d'une instruction ?",
+        "description": "<em>Exemple de dossiers purement déclaratifs : compte-rendu de subvention</em>",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non, ils sont purement déclaratifs"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quand et comment les usagers sauront-ils si leur dossier a été accepté ou refusé ?",
+        "description": "Vous pouvez saisir une date exacte ou une période indicative. \r\n\r\n<em><em>Exemples : Les résultats seront affichés sur culture.gouv.fr courant mai 2022. Le numéro de référence du dossier sera nécessaire pour consulter les résultats. ; Les résultats seront communiqués sur Démarches Simplifiées aux usagers au plus tard 3 mois après la date de fin de dépôt des dossiers. ; Les usagers recevront une notification d'acceptation par courrier postal deux mois après le dépôt de leur candidature.</em></em>",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Comment seront évalués les dossiers déposés ?",
+        "description": "Détaillez ici le plus précisément possible les modalités d'évaluation des dossiers. \r\nPour rappel, ces informations sont à destination du demandeur et figureront sur la page de présentation de la démarche. \r\n\r\n<em>Exemple :\r\nL'instruction des dossiers prendra en compte :\r\n• la qualité de l'intervention des professionnels\r\n• la qualité du partenariat\r\n• la durabilité de l'action\r\n• la capacité de déploiement et/ou de reproductibilité de l'action</em>",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autres dates éventuelles",
+        "description": "Ajoutez ici toutes les <strong>autres dates à communiquer</strong> à l'usager : date de tenue de la commission, réunion du comité de sélection, convocation aux auditions complémentaires, date de remise de l'évaluation, date à laquelle le dossier est présumé être accepté, ... \r\nLe cas échéant, <strong>précisez la/les région(s) concernée(s)</strong>.\r\nSaisissez la première date puis cliquez sur \"<strong>+ Ajouter un élément pour « Autres dates éventuelles »</strong>\" sous le bloc pour saisir une autre date. Répétez autant de fois que nécessaire. ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Date ou période et explication",
+            "description": "<em>Exemples : Les auditions auront lieu le mercredi 20 avril 2022. La durée prévisionnelle est de 10 minutes par candidat ; Les commissions se réuniront du 11 au 13 juillet 2022 ; Le bilan du projet devra être transmis au plus tard 1 an après le versement de la subvention.</em>",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Partie 3 : Dématérialisation de la démarche",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous permettre le dépôt dématérialisé des dossiers pour cette démarche ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre démarche a-t-elle déjà été dématérialisée ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sur quel site ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Mes Démarches / 6Tzen (mesdemarches.culture.gouv.fr)",
+          "Démarches Simplifiées (demarches-simplifiees.fr)",
+          "Je ne sais pas/plus"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quel était le lien d'accès à la démarche ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quel était le numéro de référence de la démarche ?",
+        "description": "Ou à défaut son lien d'accès. ",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m'engage, même si ma démarche a déjà été dématérialisée pour une édition précédente et que je suis administrateur(trice) de celle-ci, à attendre que la LPGP traite la présente demande avant de débuter / reprendre la dématérialisation et avant de publier ma démarche.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.1- Formulaire à dématérialiser",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous n'êtes pas concerné(e) par cette partie.",
+        "description": "La LPGP prendra contact avec vous en cas de besoin.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Précision sur les demandes de subvention",
+        "description": "Les associations qui sollicitent une subvention de projets spécifiques ou de fonctionnement global auprès de l'État doivent obligatoirement remplir le formulaire CERFA 12156*06. À défaut, la subvention ne leur sera pas versée.\r\nVous pouvez visualiser ce formulaire ici : https://www.formulaires.service-public.fr/gf/cerfa_12156.do.\r\n\r\nCe formulaire CERFA 12156*06 est déjà dématérialisé sur Démarches Simplifiées. Si ce formulaire est nécessaire dans le cadre de votre démarche, la version dématérialisée par le ministère de la Culture sera dupliquée et mise à votre disposition. Il vous sera possible d'ajouter des champs mais vous ne devrez en aucun cas en supprimer.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les demandeurs devront-ils remplir le CERFA 12156*06 ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Formulaire demandeur",
+        "description": "Insérez ici le <strong>formulaire que les demandeurs devront remplir</strong>. \r\n\r\nPrécisez ci-dessous s'il s'agit d'une version provisoire ou définitive du formulaire à dématérialiser. \r\nS'il s'agit d'une version provisoire, <strong>vous pourrez charger ultérieurement un autre document en lieu et place de cette version</strong>, même si vous avez validé votre dépôt en ligne.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Le document joint ci-dessus est",
+        "description": "",
+        "required": true,
+        "options": [
+          "la version définitive du formulaire à dématérialiser",
+          "une version de travail, à laquelle des changements peuvent encore être apportés"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous connaissance d'un formulaire déjà existant que vous souhaiteriez cloner / dupliquer ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lequel ?",
+        "description": "Merci de préciser l'intitulé de la démarche ou le numéro de référence de celle-ci. ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.2- Modèles de documents et pièces justificatives",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous n'êtes pas concerné(e) par cette partie.",
+        "description": "La LPGP prendra contact avec vous en cas de besoin.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le demandeur devra-t-il joindre des pièces justificatives / complémentaires à son dossier ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Certaines pièces à joindre par le demandeur devront-elles respecter un modèle spécifique ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièce(s) à mettre à disposition du demandeur",
+        "description": "<em>Exemples : notice, modèle de budget prévisionnel, etc.</em>\r\n\r\nChargez le premier document à mettre à disposition de l'usager puis cliquez sur \"<strong>+ Ajouter un élément pour « Pièce(s) à mettre à disposition du demandeur »</strong>\" sous le bloc et chargez un autre document. Répétez autant de fois que nécessaire. ",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document",
+            "description": "Veillez à nommer votre document de façon claire. ",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Indiquez la liste des pièces à joindre au dossier par le demandeur",
+        "description": "<em>Exemples : pièce d'identité du demandeur, budget prévisionnel de l'action (établi en suivant modèle donné), etc. </em>\r\n\r\n<strong>Si les pièces varient en fonction du type de demandeur, précisez bien quel demandeur doit joindre quelle pièce</strong>. <em>Exemple : Pour les associations : budget du projet et RIB. Pour les personnes physique : budget du projet, RIB et pièce d'identité. </em>\r\n\r\n<strong>Certaines pièces ne peuvent plus être demandées. Pour en savoir plus, <a href=\"https://osmose.numerique.gouv.fr/jcms/129401768_DBFileDocument/fr/note-sg-sur-la-simplification-des-pieces-jointes-subventions?details=true\" target=\"_blank\">rendez-vous ici</a>.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.3- Déclaration de politique RGPD de la démarche",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous n'êtes pas concerné(e) par cette partie.",
+        "description": "La LPGP prendra contact avec vous en cas de besoin.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Explication",
+        "description": "Pour chacun des champs ci-dessous, remplissez les éléments nécessaires à l'établissement de la déclaration de politique RGPD de votre démarche. Le document final vous sera transmis par la LPGP.\r\n\r\n<strong>Ces éléments concernent le sort des données lors de l'INSTRUCTION. Ils ne concernent pas le RECUEIL des données, géré directement par Démarches Simplifiées. </strong>.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les informations à caractère personnel demandées dans le formulaire sont nécessaires pour l’instruction du dossier du demandeur. Elles sont destinées au ministère de la Culture, en sa qualité de responsable du traitement. La base de licéité du traitement est",
+        "description": "",
+        "required": true,
+        "options": [
+          "l’exécution d’une mission d’intérêt public",
+          "l’intérêt légitime"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Les informations à caractère personnel sont conservées pendant une durée de X mois à compter de la date de dépôt du dossier par le demandeur.",
+        "description": "Précisez le nombre de mois. La CNIL recommande de ne pas dépasser 36 mois. ",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "À l’issue de ce délai, les informations à caractère personnel seront détruites",
+        "description": null,
+        "required": true,
+        "options": [
+          "manuellement"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précisez le(s) texte(s) juridique(s) régissant la démarche",
+        "description": "Le cas échéant.\r\n\r\n<em>Exemple : Décret n°2006-1067 du 25 août 2006 pris pour l'application de l'article 80 de la loi n° 86-1067 du 30 septembre 1986 relative à la liberté de communication.</em>",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous enregistré votre démarche au registre du traitement, en lien avec Hervé Delmare ?",
+        "description": "Pour en savoir plus, vous pouvez contacter Hervé Delmare sur l'adresse : \r\n<a href=\"mailto:delegue-protection-donnees@culture.gouv.fr\">delegue-protection-donnees@culture.gouv.fr</a>.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.4- Processus d'instruction",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous n'êtes pas concerné(e) par cette partie.",
+        "description": "La LPGP prendra contact avec vous en cas de besoin.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les dossiers seront-ils instruits par",
+        "description": "Dans le cas où les dossiers seraient destinés à des instructeurs appartenant à plusieurs régions, un routage sera mis en place. ",
+        "required": true,
+        "options": [
+          "Un seul instructeur ou groupe d'instructeurs",
+          "Plusieurs groupes instructeurs, appartenant à différentes régions"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Adresses mails des instructeurs",
+        "description": "Personnes devant avoir accès aux dossier déposés. ",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Instructeurs",
+        "description": "Personnes devant avoir accès aux dossier déposés. \r\n\r\nSaisissez les adresses mails des instructeurs à habiliter dans le premier groupe puis indiquez l'intitulé du groupe (visible par les demandeurs, il doit donc être clair). Pour ajouter d'autres groupes, cliquez sur \"<strong>+ Ajouter un élément pour « Instructeurs »</strong>\" sous le bloc et replissez les champs. Répétez autant de fois que nécessaire. ",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Adresses mails des instructeurs",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Région",
+            "description": "Dans le cas d'une démarche nationale avec des instructeurs par région, merci de préciser ici la région d'appartenance de chacun.",
+            "required": false,
+            "options": [
+              "Auvergne-Rhône-Alpes",
+              "Bourgogne-Franche-Comté",
+              "Bretagne",
+              "Centre-Val de Loire",
+              "Corse",
+              "Grand Est",
+              "Hauts-de-France",
+              "Île-de-France",
+              "Normandie",
+              "Nouvelle-Aquitaine",
+              "Occitanie",
+              "Pays de la Loire",
+              "Provence-Alpes-Côte d'Azur",
+              "Guadeloupe",
+              "Martinique",
+              "Guyane",
+              "La Réunion",
+              "Mayotte",
+              "Nouvelle Calédonie",
+              "Polynésie française",
+              "Saint-Pierre-et-Miquelon",
+              "Saint-Barthélemy",
+              "Saint-Martin",
+              "Wallis-et-Futuna"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "ou intitulé du groupe de routage",
+            "description": "Si le routage ne doit dépend pas de la région : département, thématique, ...",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Souhaitez-vous dématérialiser tout ou partie le processus d'instruction ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "La LPGP prendra contact avec vous sous peu pour étudier les possibilités et votre besoin.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Annotations privées à prévoir",
+        "description": "Les annotations privées sont les <strong>champs réservés aux instructeurs, non visibles par les demandeurs</strong> et permettant aux instructeurs d'annoter le dossier lors de son instruction. \r\nVous pouvez joindre tout document expliquant le processus d'instruction de votre démarche ainsi que la liste des champs à prévoir pour le formulaire instructeurs. \r\nPour en savoir plus, <a href=\"https://osmose.numerique.gouv.fr/jcms/129395093_DBFileDocument/fr/tutoriel-administrateur-03-programmer-l-instruction?details=true\" target=\"_blank\"> rendez-vous ici</a>.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Souhaitez-vous autoriser les instructeurs à demander des avis externes ?",
+        "description": "Pour en savoir plus, <a href=\"https://osmose.numerique.gouv.fr/jcms/129395013_DBFileDocument/fr/tutoriel-expertinvite?details=true\" target=\"_blank\">rendez-vous ici</a>.",
+        "required": true,
+        "options": [
+          "Oui, parmi une liste définie au préalable.",
+          "Oui, sans liste définie au préalable.",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Liste des adresses mail des experts invités pouvant être sollicités",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Partie 4 : Données internes et statistiques",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Explication",
+        "description": "Les éléments demandés ci-après sont uniquement à usage interne au ministère de la Culture. \r\nIls visent notamment à enregistrer votre démarche dans le tableau de suivi du programme 100% démat et à faciliter sa prise en charge par la LPGP.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Volumétrie totale estimée",
+        "description": "Dans le cas d'une démarche permanente, indiquez la volumétrie annuelle estimée. ",
+        "required": true,
+        "options": [
+          "≤ 49 dossiers",
+          "50 à 99 dossiers",
+          "100 à 199 dossiers",
+          "200 à 499 dossiers",
+          "500 à 999 dossiers",
+          "≥ 1000 dossiers"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre total de dossiers (papiers et dématérialisés) reçus l'année n-2",
+        "description": "Indiquez \"0\" le cas échéant. ",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre total de dossiers (papiers et dématérialisés) reçus l'année n-1",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Êtes-vous le référent de la démarche au sein du ministère ?",
+        "description": "ou la personne contact pour la gestion de la démarche en interne",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Référent de la démarche à contacter au sein du ministère",
+        "description": "Merci de saisir un prénom et un nom. Cette personne peut être différente du contact pour les usagers.\r\n<strong>Il ne peut pas s'agir de Laureen Ho ni de Pauline Verfaillie : la personne à renseigner ici est celle que Laureen et Pauline pourront contacter en cas de besoin / question sur votre démarche</strong>. Le nom de cette personne n'apparaîtra pas dans la démarche ou sur la page de présentation, il s'agit d'un contact INTERNE au ministère, pour la gestion courante de la démarche. ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commentaire libre (facultatif)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Remarques et commentaires éventuels",
+        "description": "Saisissez ici toute autre information que vous souhaitez porter à l'attention de la LPGP.",
+        "required": false
+      }
+    ]
+  }
+}

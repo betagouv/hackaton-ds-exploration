@@ -1,0 +1,207 @@
+{
+  "number": 71965,
+  "title": "IJ AS : transmission de l’extrait d'acte de naissance ",
+  "description": "Ce formulaire en ligne permet à un employeur de transmettre à la CPAM de la Manche un extrait d'acte de naissance.\r\n\r\nVous pratiquez la DSN : vous devez faire votre signalement d’évènement dans votre logiciel de paie. Avec le signalement d’évènement DSN, vous n’avez plus besoin d’envoyer de tableau pour la(les) période(s) de fractionnement du congé de paternité. \r\n\r\nVous ne pratiquez pas la DSN : vous devez établir votre attestation de salaire sur NET-Entreprises et utiliser le service complémentaire DEPOFI pour transmettre le tableau pour la(les) période(s) de fractionnement du congé de paternité. Pour plus information sur ce nouveau service, n’hésitez pas à consulter le site net-entreprises.fr rubrique Actualités. \r\n\r\nA partir du 01/06/2023, ce formulaire sera uniquement accessible sur Net-Entreprises, pensez à ajouter ce service dans vos déclarations. Aide à l'inscription au 0820.000.516.\r\n\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2023-03-14T09:44:47+01:00",
+  "service": {
+    "nom": "Caisse Primaire d'Assurance Maladie - Pôle entreprise",
+    "organisme": "CPAM",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ij-as-transmission-de-l-extrait-d-acte-de-naissanc",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://declic.cpam50.fr/ ",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/   ",
+  "logo": {
+    "filename": "revu Manche_Logo_Nov.2020_CMJN jpg.png",
+    "checksum": "LX4Bt+jQLVXJOcbn/1bFmQ==",
+    "byteSize": "917811",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 5,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Ce formulaire en ligne permet à un employeur de transmettre à la CPAM de la Manche un extrait d'acte de naissance.",
+        "description": "Vous pratiquez la DSN : vous devez faire votre signalement d’évènement dans votre logiciel de paie. Avec le signalement d’évènement DSN, vous n’avez plus besoin d’envoyer de tableau pour la(les) période(s) de fractionnement du congé de paternité.\r\n\r\nVous ne pratiquez pas la DSN : vous devez établir votre attestation de salaire sur NET-Entreprises et utiliser le service complémentaire DEPOFI pour transmettre le tableau pour la(les) période(s) de fractionnement du congé de paternité. \r\nPour plus information sur ce nouveau service, n’hésitez pas à consulter le site net-entreprises.fr. (Rubrique Actualités)",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "N'hésitez pas à consulter ameli.fr pour plus d'informations sur le congé paternité.",
+        "description": "https://www.ameli.fr/assure/droits-demarches/famille/maternite-paternite-adoption/conge-paternite-accueil-enfant",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'assuré",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "De quelle Caisse Primaire d'Assurance Maladie dépend votre salarié ?",
+        "description": "Indiquer le département de la Caisse Primaire d'Assurance Maladie du salarié concerné \nRappel : ce service est disponible uniquement pour les assurés de la CPAM de la Manche",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de sécurité sociale",
+        "description": "Saisir les 15 chiffres sans espace",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom de l'assuré(e)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Situation familiale",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'enfants nés",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Identité de l'enfant",
+        "description": "si vous avez plusieurs enfants à indiquer, faire \"+ Ajouter un élément pour enfant",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance de l'enfant",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom et prénom de l'enfant",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Congé de naissance indemnisé par l'employeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "(3 jours au jour de la naissance ou le premier jour ouvrable)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Du :",
+        "description": "\r\n",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "au :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": "si vous avez plusieurs documents à déposer, faire \"+ Ajouter un élément pour pièces justificatives",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déposer ici l'extrait d'acte de naissance",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'employeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° SIRET",
+        "description": "Saisir les 14 chiffres sans espace",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination sociale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du contact",
+        "description": "Nom de la personne que la CPAM peut contacter si besoin",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Engagement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, je certifie conforme les saisies et je signe cette déclaration",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Fait à :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Fait le :",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

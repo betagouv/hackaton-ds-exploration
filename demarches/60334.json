@@ -1,0 +1,355 @@
+{
+  "number": 60334,
+  "title": "Maintien de la demande de place en crèche municipale",
+  "description": "Démarche pour les familles:\r\n- Avoir reçu une réponse négative suite à la Commission d'attribution du mois de mai et souhaiter maintenir leur demande pour l'année à venir.\r\n- Maintenir sa demande pour passage en Commission de places en crèche du mois de mai (à effectuer entre le 1er et 30 avril).\r\n- Réactiver sa demande de place en crèche (si votre dossier a été classé).\r\n\r\nUne fois votre demande instruite, vous recevrez un courriel indiquant les modalités de prise en compte de votre demande.",
+  "tags": [
+    "Famille"
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2022-05-31T11:14:45+02:00",
+  "service": {
+    "nom": "Direction de la petite enfance",
+    "organisme": "Mairie de Saint-Maur-des-Fossés",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/maintien-de-la-demande-de-place-en-creche-municipa",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "www.saint-maur.com",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": {
+    "filename": "sm.jpg",
+    "checksum": "jQ5Q2NKl5MngkOTda8uBjQ==",
+    "byteSize": "8466",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 267,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Motif du maintien",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Motif",
+        "description": null,
+        "required": true,
+        "options": [
+          "Avoir reçu une réponse négative suite à la Commission d'attribution du mois de mai et souhaiter maintenir leur demande pour l'année à venir.",
+          "Maintenir sa demande pour passage en Commission de places en crèche du mois de mai (à effectuer entre le 1er et 30 avril).",
+          "Réactiver sa demande de place en crèche (si votre dossier a été classé)."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la mère",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du père",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Nom de l'enfant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Enfant",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom enfant",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom enfant",
+            "description": "Indiquer \"A naître\" si l'accouchement n'a pas encore eu lieu",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance ou date d'accouchement prévue",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'entrée souhaitée",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Maintien de la demande sans modification",
+        "description": "Si vous n'avez pas de modification à apporter à votre demande et que votre situation n'a pas changé, vous pouvez directement valider votre démarche",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Maintien de la demande avec modification",
+        "description": "Vous devez compléter la suite de la démarche.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Modifications souhaitées sur la demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Nombre de jours souhaités:",
+        "description": "Cocher le ou les types de contrats souhaités. Attention, en cochant plusieurs cases, cela signifie que vous acceptez plusieurs types de contrat.\nExemple: vous cochez 3 jours et 5 jours, cela signifie que vous acceptez une place en crèche pour 3 jours ou 5 jours d'accueil.",
+        "required": false,
+        "options": [
+          "--Premier élément du menu--",
+          "Contrat de 1 jour",
+          "Contrat de 2 jours",
+          "Contrat de 3 jours",
+          "Contrat de 4 jours",
+          "Contrat de 5 jours"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Remarque",
+        "description": "En cas de temps partiel indiquez si le ou les jours libérés sont:\n- libres, la crèche décide du ou des jours sans accueil.\n- fixes, c'est vous qui décidez du ou des jours sans accueil.",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Jours d'accueil souhaités",
+        "description": "Cocher le ou les jours d'accueil souhaités",
+        "required": false,
+        "options": [
+          "--Premier élément du menu--",
+          "Lundi",
+          "Mardi",
+          "Mercredi",
+          "Jeudi",
+          "Vendredi"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Horaires souhaités",
+        "description": "Indiquer l'horaire idéal souhaité.\nExemple: 7h30-18h",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Souplesse horaire matin",
+        "description": "Indiquer votre flexibilité sur l'horaire du matin.\nExemple: entre 7h15 et 7h45.\nLa direction de la crèche pourra choisir un horaire fixe d'arrivée de votre enfant dans les horaires indiquées ci-dessous.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Souplesse horaire soir",
+        "description": "Indiquer votre flexibilité sur l'horaire du soir.\nExemple: entre 17h30 et 18h15. \nLa direction de la crèche pourra choisir un horaire fixe d'arrivée des parents dans les horaires indiquées ci-dessous.",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Structures souhaitées",
+        "description": "Indiquer la ou les structures souhaitées:\nA partir de septembre 2022, la ville réserve des places dans la nouvelle crèche privée réservataires \"Les petits chaperons rouges\" dans l'éco quartier du jardin des facultés se situant à la Varenne.",
+        "required": false,
+        "options": [
+          "Arromanches",
+          "Miss Cavell",
+          "Les Tournelles (dès 15 mois)",
+          "Villa Papillion",
+          "Babilou SM Rollin (Petits artistes)",
+          "Les 2 Lions (crèche départementale)",
+          "Brossolette",
+          "Les Mûriers",
+          "Champignol (dès 15 mois)",
+          "Babilou SM Varenne (Gazouillis)",
+          "8 mai 1945 (crèche départementale)",
+          "Du Mesnil",
+          "Abbaye",
+          "Les petits chaperons rouges Didier",
+          "Service d'accueil familial"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Veuilez indiquer ci-dessous l'ordre de préférence de vos choix si nécessaire:",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Service d'accueil familial",
+        "description": "Si vous avez choisi le service d'accueil familial, sélectionner le ou les quartiers d'habitation de l'assistante maternelle",
+        "required": false,
+        "options": [
+          "--Premier élément du menu--",
+          "Saint-Maur Créteil",
+          "Le Vieux Saint-Maur",
+          "Adamville",
+          "Le Parc de Saint-Maur",
+          "La Pie",
+          "Les Mûriers",
+          "La Varenne",
+          "Champignol"
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "ATTENTION",
+        "description": "Pour les crèches départementales, il est nécessaire de maintenir également votre demande sur\nwww.valdemarne.fr/creche",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Conseil",
+        "description": "A fournir uniquement en cas de changement de situation",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Situation professionnelle",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Justificatif de revenu",
+            "description": "Fournir le ou les avis d'imposition sur le revenu du foyer ou les trois derniers justificatifs de revenu des deux parents",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de statut étudiant",
+        "description": "Attestation de statut étudiant pour les parents étudiants ou stagiaires\n\n",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Changement de domicile",
+        "description": "Fournir deux justificatifs de domicile de moins de 3 mois : dernière taxe d’habitation, quittance d’électricité, quittance de loyer, facture d’eau (taxe foncière et factures de téléphone ne sont pas admises)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de domicile",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de domicile",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pour les personnes hébergées",
+        "description": ". Un courrier de l’hébergeant accompagné de la photocopie de sa pièce d’identité\n. 2 justificatifs de domicile de moins de 3 mois de l’hébergeant\n. Votre attestation de Sécurité Sociale à l’adresse indiquée \n. Attestation de la Caisse d’Allocations familiales à l’adresse indiquée",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce d'identité de l'hébergeant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pour les personnes hébergées",
+        "description": "Courrier de l'hébergeant",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de domicile de l'hébergeant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de domicile de l'hébergeant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de sécurité sociale à l'adresse indiquée",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de la CAF à l'adresse indiquée",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "En cas de séparation intervenue après la demande initiale de place en crèche",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pour les parents divorcés ou séparés",
+        "description": "Attestation du parent n’effectuant pas l’inscription Courrier de l'autre parent.\nCe courrier indique son accord pour l’inscription en crèche de l’enfant sur la commune de Saint-Maur-des-Fossés",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce d'identité de l'autre parent",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Jugement de divorce ou convention de garde",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Ajouter une autre pièce jointe",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autre pièce jointe",
+            "description": null,
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

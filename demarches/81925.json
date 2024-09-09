@@ -1,0 +1,80 @@
+{
+  "number": 81925,
+  "title": "CPAM 24 - GFE - DAP TRANSPORT",
+  "description": "Formulaire pour injection DIADEME et répertoire serveur des DAP transports + enregistrement Medialog+.",
+  "tags": [
+    "DAP",
+    "ACCORD PREALABLE TRANSPORT",
+    "TRANSPORT",
+    "GFE"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2024-02-12T17:17:09+01:00",
+  "service": {
+    "nom": "GFE - Gestion Flux Entrants",
+    "organisme": "CPAM DORDOGNE",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/cpam-24-gfe-dap-transport",
+  "dpoUrl": "dpo.cpam-dordogne@assurance-maladie.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/cpam-24-gfe-dap-transport",
+  "cadreJuridiqueUrl": "https://www.ameli.fr/dordogne/transporteur-sanitaire/exercice-professionnel/presciption-prise-charge/demande-accord-prealable",
+  "logo": {
+    "filename": "LOGO_CPAM241_600_Blanc.jpg",
+    "checksum": "QnfhiviCcBv1hnXVkA8dHA==",
+    "byteSize": "61373",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 39,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTIFICATION ASSURE et BENEFICIAIRE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de sécurité sociale ASSURE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATION RELATIVE AU TRANSPORT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date prévisionnelle du transport",
+        "description": "Pour des transports en série, renseigner la date du 1er transport",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Date non renseignée",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DÉPOT DU DOCUMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Image de la DAP transport",
+        "description": "Format pdf ou photo",
+        "required": true
+      }
+    ]
+  }
+}

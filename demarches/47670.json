@@ -1,0 +1,695 @@
+{
+  "number": 47670,
+  "title": "Production d'électricité à partir de biomasse",
+  "description": "Recueil des bilans annuels des installations de production d'électricité à partir de la combustion de biomasse. \r\nLes principaux thèmes abordés sont l'approvisionnement et l' efficacité énergétique des installations sous contrat d'achat ou de complément de rémunération.\r\nL'obligation de transmettre des informations, inscrite dans les cahiers des charges des appels d'offres, ou dans l'arrêté du 27 janvier 2011, est reprise dans les contrats passés avec les producteurs.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2021-10-13T17:51:14+02:00",
+  "service": {
+    "nom": "Ministère de la Transition Ecologique",
+    "organisme": "Diection Générale de l'Energie et du Climat",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/production-d-electricite-a-partir-de-biomasse",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ecologie.gouv.fr/biomasse-energie",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000024851601/ https://www.cre.fr/Documents/Appels-d-offres/appel-d-offres-portant-sur-la-realisation-et-l-exploitation-d-installations-de-production-d-electricite-a-partir-de-biomasse https://www.cre.fr/Documents/Appels-d-offres/appel-d-offres-portant-sur-des-installations-de-production-d-electricite-a-partir-de-biomasse https://www.cre.fr/Documents/Appels-d-offres/Appel-d-offres-portant-sur-des-installations-de-production-d-electricite-a-partir-de-biomasse2 https://www.cre.fr/Documents/Appels-d-offres/Appel-d-offres-portant-sur-des-installations-de-production-d-electricite-a-partir-de-biomasse3",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 30,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous êtes invité(e) à prendre connaissance de la notice explicative jointe.",
+        "description": "\n",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Une version générique de la notice est également consultable sur la présente plateforme: clic sur \"guide de la démarche\" en haut de page.",
+        "description": "\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Notice explicative",
+        "description": "Vous devez télécharger le document, en prendre connaissance, et le joindre à votre réponse pour poursuivre la démarche.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "OUI J'ai lu et j'accepte la notice explicative",
+        "description": "L'objectif est que vous confirmer votre accord sur le contenu de la notice. ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "L'entreprise de production d'électricité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'entreprise de production d'électricité",
+        "description": "Ce nom est celui qui figure dans le contrat d'achat ou de complément de rémunération de l'électricité produite à partir de biomasse",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de contrat",
+        "description": "FBM3 = 1er appel d'offres (CRE1)\nFBM6 = 2ème appel d'offres (CRE2)\nFBM9 = 3ème appel d'offres (CRE3)\nBM09 = guichet ouvert tarif 2009\nBM11 = guichet ouvert tarif 2011\nFB10 = quatrième appel d'offres (CRE4)\nFB16 = 1ère période du 5ème appel d'offres (CRE5.1)\nFB17 = 2ème période du 5ème appel d'offres (CRE5.2)",
+        "required": false,
+        "options": [
+          "FBM3",
+          "FBM6",
+          "FBM9",
+          "FB10",
+          "FB16",
+          "FB17",
+          "BM09",
+          "BM11"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Puissance souscrite",
+        "description": "Puissance électrique qui figure dans  le contrat d'achat ou de complément de rémunération (condition particulières) ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nouveau champ Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de prise d'effet du contrat d'achat ou de complément de rémunération",
+        "description": "Communiquer ces informations relatives aux contrats est important, surtout quand l'acheteur obligé est une entreprise locale, et non pas EDF.   ",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Echéance du contrat d'achat ou de complément de rémunération",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIREN",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET du siège",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du siège social",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET de l'établissement",
+        "description": "Le cas échéant",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code NAF ou APE",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "L'installation de production d'électricité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'installation de production d'électricité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code postal",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune où est située l'installation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RegionChampDescriptor",
+        "label": "Région",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la dernière attestation de conformité",
+        "description": "Il s'agit de la date de l'attestation de conformité délivrée par un organisme habilité pour le contrôle des installations de production d'électricité.\nVoir : \nhttps://www.ecologie.gouv.fr/controle-des-installations-production-delectricite\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de conformité",
+        "description": "Joindre la dernière attestation de conformité (mise en service, modification ou visite quadriennale).",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'organisme de contrôle",
+        "description": "Il s'agit de l'organisme qui a effectué le dernier contrôle, à la mise en service, lors d'une modification ou bien quadriennal.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Installation existante, nouvelle ou modifiée",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "L'environnement de l'installation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Principal industriel présent sur le site",
+        "description": "Il est fréquent que le nom de l'entreprise de production d'électricité soit moins connu que celui de l'industriel ou de la collectivité qui consomme la chaleur produite par l'installation. ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Sous quelle forme la chaleur est-elle valorisée : vapeur ou eau chaude ?",
+        "description": "Cette information est utile pour le calcule des économies d'énergie primaire (PES) réalisées par une installation de cogénération.  ",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Prix de vente de la chaleur",
+        "description": "Exprimée en €/MWh",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La chaleur est-elle utilisée par une industrie de première transformation du bois ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La chaleur est-elle distribuée au travers d'un réseau de chaleur urbain ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Maître d'ouvrage du réseau de chauffage urbain",
+        "description": "Dans le cas où la chaleur est valorisée à travers un réseau de chauffage urbain",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre nom d'usage ou surnom éventuel de la centrale \"biomasse\"",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom d'un éventuel autre producteur d'électricité présent sur le site",
+        "description": "Information utile dans le cas où plusieurs entreprises de production d'électricité sont implantées sur un même site. ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Caractéristiques de l'installation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de chaudières constituant l'unité de combustion",
+        "description": "Une unité de combustion peut être constituée d'une ou de plusieurs chaudières biomasse. Par exemple, une chaudière \"écorces\" et une chaudière \"liqueur noire\" dans une papeterie.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Puissance thermique de l'unité de combustion, exprimée en MW",
+        "description": "Il s'agit de la puissance thermique, au sens de l'unité de combustion \"amont\" de l'installation de production d'électricité sous contrat.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de référence de l'installation classée",
+        "description": "Numéro d'inspection ou S3IC",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de machines électrogènes constituant l'installation",
+        "description": "Il s'agit du nombre de machines électrogènes alimentées par l'unité de combustion de biomasse.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Puissance électrique autorisée (en MW)",
+        "description": "Précision dans le cas où la puissance souscrite (question 3), qui figure dans le contrat, serait inférieure à la puissance autorisée / éligible à l'appel d'offres. ",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Puissance électrique installée (en MW)",
+        "description": "Précision dans le cas où une installation bénéficie partiellement d'un contrat à la suite par exemple d'un appel d'offres pour un projet en augmentation de puissance sur une installation existante.  ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Puissance électrique raccordée (en MW)",
+        "description": "Puissance qui figure dans le contrat passé avec le gestionnaire de réseau (Enedis, RTE ou une entreprise locale de distribution).",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Autres machines électrogènes présentes sur le site",
+        "description": "La question porte sur la présence ou non, par exemple, à la fois d'une cogé gaz et d'une centrale \"biomasse\" sur un même site, ou bien de plusieurs centrales \"biomasse\" sous différents contrats.  \n",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précisions sur les autres machines électrogènes présentes sur le site",
+        "description": "En cas de réponse affirmative à la question précédente, il s'agit, le cas échéant, de préciser sur un site donné si d'autres machines électrogènes que celles de l'installation sous contrat, produiraient de l'électricité en autoconsommation ou pour la vendre sur le marché",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Approvisionnement de l'installation (en MWh)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Quantité d'énergie primaire issue de biomasse consommée pendant un an par l'installation de combustion (MWh)",
+        "description": "Attention à l'unité : saisir 400000 pour une quantité d'énergie primaire égale à 400 000 MWh",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Combustibles fossiles consommés par l'installation pendant un an (en MWh)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Autres combustibles non renouvelables (en MWh)",
+        "description": "En cas de recours à des refus de pulpeurs ou des combustibles de récupération, par exemple. ",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Proportion d'énergie fossile (en %)",
+        "description": "La proportion résulte de la division E fossile + E non renouvelable/E primaire\n\nAttention à saisir 5 si le pourcentage est égal à 5 % ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Plaquettes forestières et assimilées 2017-1-PFA",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Référentiels combustibles bois énergie de l'ADEME (2017)",
+        "description": "Voir les référentiels sur le site de l'ADEME : https://librairie.ademe.fr/energies-renouvelables-reseaux-et-stockage/1783-referentiels-combustibles-bois-energie-de-l-ademe.html",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Catégorie à retenir en cas d'impossibilté de distinction",
+        "description": "Par exemple, distinguer les plaquettes bocagères et les plaquettes bocagères n'est pas toujours possible. Dans ce cas, regrouper les plaquettes dans la catégorie où elles se situent principalement. \nPareil pour les écorces et les plaquettes de PCS.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Plaquettes forestières (en MWh PCI)",
+        "description": "1A – Les plaquettes  forestières,  sensu  stricto,  c’est-à-dire  les  plaquettes  bois  issues de  forêt,  y compris les souches et bois coupé sous linéaire (par exemple sous ligne électrique) ainsi que le bois issu de la sylviculture et des taillis à courte rotation.\n\n",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Plaquettes bocagères (en MWh PCI)",
+        "description": "1B – Les plaquettes bocagères ou agroforestières, qui correspondent aux plaquettes bois issues de haies, bosquets, arbres d’alignement agricole (bocage),  mais  aussi  de  vergers.  Cette  sous-catégorie contient tous les bois mobilisés dans le monde agricole, y compris les vergers fruitiers.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Plaquettes paysagères ligneuses (résiduelles) (en MWh PCI)",
+        "description": "1C – Les plaquettes paysagères ligneuses (résiduelles) : Il s’agit de plaquettes bois issues des tailles et élagages paysagers et urbains issus de l’entretien des parcs, jardins et linéaires urbains, pouvant être produits  par  les  professionnels  du  paysage  ou  les  particuliers.  Par  conséquent  et  par  extension,  cette sous-catégorie  englobe  les  plaquettes  ligneuses  formées  des  sous-produits du  paysagisme  en  amont (fraction ligneuse) et en aval (refus de crible) du compostage",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Connexes et sous-produits de l’industrie de première de transformation du bois 2017-2-CIB",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Les écorces (en MWh)",
+        "description": "2A – Les écorces : sous-produits abondants dans les scieries, sont distinguées les écorces feuillues des écorces résineuses davantage prisées pour l’énergie ",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Les plaquettes de PCS et assimilés (en MWh)",
+        "description": "2B – Les plaquettes de PCS (produits connexes de scierie) et assimilés : il s’agit de plaquettes (et sciures) issues  du  déchiquetage  de  dosses, délignures,  chutes,  culées,...  après  une  première opération de tronçonnage ou sciage de bois bruts. Sont également intégrés à cette catégorie, les sous-produits non traités de l’industrie de première transformation du liège.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Bois fin  de  vie  et  bois déchets 2017-3-BFVBD",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Les bois fin de vie utilisables selon la rubrique règlementaire 2910-A des ICPE (en MWh)",
+        "description": "3A – Les bois fin de vie utilisables selon  la rubrique règlementaire 2910-A des  ICPE : bois d’emballage en fin de vie ayant fait l’objet d’une sortie de statut de déchets (SSD).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Les bois fin de vie utilisables selon la rubrique règlementaire 2910-B des ICPE (en MWh)",
+        "description": "3B – Les bois fin de vie utilisables selon  la rubrique règlementaire 2910-B des  ICPE : bois d’ameublement,  de menuiseries, bois  d’emballage  ne  bénéficiant pas d’une SSD, bois issus de  la démolition et autres bois bruts. Les bois de cette catégorie doivent respecter les seuils définis par l’arrêté du  24/09/13  relatif aux prescriptions générales  applicables aux  installations relevant  du régime de l'enregistrement au titre  de la rubrique n°2910-B de la nomenclature des installations classées pour la protection de l'environnement.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Les déchets de bois non dangereux à traiter selon la rubrique règlementaire 2771 des ICPE (traitement thermique) (en MWh)",
+        "description": "3C – Les déchets de bois non dangereux à traiter selon la rubrique règlementaire 2771 des ICPE (traitement thermique) : bois d’ameublement, de menuiseries, bois d’emballage ne bénéficiant pas d’une SSD, bois issus de la démolition et autres bois bruts ou traités non éligibles à la rubrique 2910-B. Les bois de cette catégorie ne respectent pas les seuils définis par l’arrêté du 24/09/13 relatif aux prescriptions générales applicables aux installations relevant du régime de l'enregistrement au titre de la rubrique n° 2910-B de la nomenclature des installations classées pour la protection de l'environnement.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Les déchets de bois classés dangereux à traiter selon la rubrique 2770 des ICPE (traitement thermique) (en MWh)",
+        "description": "3D – Les déchets de bois classés dangereux à traiter selon la rubrique 2770 des ICPE (traitement thermique) : bois créosotés, bois autoclavés ou imprégnés de sels métalliques. Un déchet est classé dangereux s’il présente une ou plusieurs des propriétés de dangers énumérées à l'annexe III de la directive  2008/98/ CE du Parlement européen et du Conseil du 9 novembre 2008 relative aux déchets et abrogeant  certaines  directives  (propriétés  HP@).  Les  déchets dangereux sont signalés par un astérisque dans la liste des déchets mentionnée à l'article R. 541-7 (Nomenclature des déchets).",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Granulés 2017-4-GR",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Les granulés de bois (en MWh)",
+        "description": "4A – Les granulés de bois (100% Bois hors Déchets verts), normés NF  EN ISO  17225-2 : 2014 en domestique et en industriel.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Les granulés d’origine agricole (en MWh)",
+        "description": "4B – Les granulés d’origine agricole (y  compris granulés 100% déchets verts ou  en mélange bois/Déchets Verts), normés NF EN ISO 17225-6 : 2014.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Les granulés de bois traités thermiquement (en MWh)",
+        "description": "4C  – Les granulés de bois traités thermiquement, au steam explose@(black pellets) ou torréfaction@",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Autres combustibles renouvelables",
+        "description": "Dans le cas de ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Précisions sur d'éventuels autres combustibles",
+        "description": "Il importe de préciser ici les combustibles constitués de biomasse autres que les combustibles bois énergie. ",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Sous-produits de l'industrie papetière (en MWh)",
+        "description": "Liqueur noire, boues papetières.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Sous-produits de l'industrie agroalimentaire (en MWh)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Sous-produits agricoles (en MWh)",
+        "description": "Pailles, par exemple.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Biogaz (en MWh)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Autres combustibles composés exclusivement de biomasse (en MWh)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Approvisionnements exprimés en tonnes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Tonnages de combustibles",
+        "description": "Dans cette section, les données relatives aux approvisionnement peuvent être exprimées en tonnes à des fins d'utilisation par différents observatoires.  ",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Plaquettes 1A en tonnes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Plaquettes 1B en tonnes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Plaquettes 1C en tonnes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Ecorces 2A en tonnes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "PCS 2B en tonnes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Bois fin de vie 3A en tonnes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Bois fin de vie 3B en tonnes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Déchets de bois non dangereux 3C en tonnes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Déchets de bois dangereux 3D en tonnes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Granulets 4A en tonnes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Granulets 4B en tonnes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Granulets 4C en tonnes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autres combustibles renouvelables, à préciser",
+        "description": "Il s'agit par exemple de préciser, le cas échéant, le tonnage  de pailles, de liqueur noire, de boues papetières, etc.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Combustibles non renouvelables, à préciser",
+        "description": "Il s'agit de préciser non seulement le tonnage de combustibles fossiles mais aussi le tonnage de combustibles non renouvelable tels que les refus de pulpeurs et les combustibles de récupération.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Efficacité énergétique de l'installation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Energie primaire (en MWh)",
+        "description": "Énergie primaire en entrée de centrale (PCI) en MWh.  ",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Energie thermique valorisée (en MWh)",
+        "description": "Nota : L'énergie thermique produite qui est utilisée pour transformer la biomasse entrante dans la centrale n'est pas considérée comme une énergie thermique valorisée. Le cas échéant, la fraction non renouvelable de cette énergie vient en déduction de l'énergie valorisée. ",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Energie électrique nette produite (en MWh)",
+        "description": "La consommation électrique des auxiliaires vient en déduction de la production d'électricité (production nette).  ",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Electricité vendue sous contrat d'achat ou de complément de rémunération (en MWh)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Efficacité énergétique calculée sur 12 mois",
+        "description": "V = (énergie thermique valorisée + énergie électrique nette produite) / énergie primaire en entrée de centrale (PCI) \nAttention à saisir 65 si le pourcentage est égal à 65 % ",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Efficacité énergétique calculée du 1er novembre au 31 mars",
+        "description": "Dans le cas où la chaleur est valorisée uniquement à travers un réseau de chauffage urbain. \nAttention à saisir 68 si le pourcentage est égal à 68 %",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Disponibilité de l'installation (en équivalent pleine puissance)",
+        "description": "Production annuelle nette d'électricité  divisée par la puissance, calculée sur 12 mois. \nNombre d'heures équivalent pleine puissance  (hepp) ",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Economies d'énergie primaire (Ep ou PES)",
+        "description": "Information à communiquer par les installations de production d'électricité en cogénération. \nPour les installations uniquement électrique, la réponse est 0.\nLa Directive 2012/27/UE précise la formule de calcul de l’Ep.\nLe Règlement 2015/2402 précise les rendements de référence pour la production séparée respectivement de chaleur et d'électricité. \nL'arrêté du 17 août 2016 définit  le niveau de performance énergétique des installations de cogénération.\nPour en savoir plus, voir : \nhttps://aida.ineris.fr/consultation_document/36842\net\nhttps://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033066820/\nAttention à saisir 17 si le pourcentage est égal à 17 %. ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Elements transmis au Préfet pour publication",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Bilans annuels",
+        "description": "Il est généralement stipulé, dans les conditions de l'arrêté du 27 janvier 2011 ou les cahiers des charges des appels d'offres, que le producteurs doit transmettre des informations au Préfet de région pour publication. \ndans cette section, le producteur d'électricité est invité à transmettre ces informations.  ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Synthèse publiable",
+        "description": "Les contrats d'obligation d'achat prévoient généralement la transmission au Préfet de région de bilans ou synthèses publiables. Il s'agit de transmettre les informations et fichiers publiables",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bilan approvisionnement",
+        "description": "Les lauréats du dernier appel d'offres (lancé en 2016) sont obligés de transmettre des informations au préfet de région selon un cadre (annexe 9.1) qui a été publié sur le site de la CRE. \nIls sont invités à transmettre les informations transmises au préfet en occultant les informations confidentielles et données commerciales sensibles. Pour établir une synthèse à partir de données homogènes, les autres entreprises sont invitées à utiliser ce modèle, avec les mêmes réserves en matière de confidentialité et de données commerciales sensibles.   ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bilan chaleur",
+        "description": "Voir plus haut ",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Certification minimum (FSC, PEFC) en %",
+        "description": "Voir le § 2.1.6.6 du cahier des charges du 5ème appel d'offres. \nLa condition 6.6 porte sur le respect d'un seuil de certification minimum (FSC, PEFC).\nPar exemple, pour une installation située dans le Grand Est approvisionnée avec des plaquettes forestières 1A PF provenant de cette région, la ressource utilisée doit être certifiée à au moins 24 %. ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Expression libre",
+        "description": "Les personnes qui ont rempli ce questionnaire peuvent s'exprimer librement si elles le souhaitent pour préciser les réponses apportées aux questions posées. \n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Fichiers que le producteur souhaite transmettre",
+        "description": "Les personnes qui ont rempli ce questionnaire peuvent apporter des compléments si elles le souhaitent pour préciser les réponses apportées aux questions posées. \n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "FIN - Merci pour les informations transmises et votre contribution à cette enquête.",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

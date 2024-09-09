@@ -1,0 +1,224 @@
+{
+  "number": 57974,
+  "title": "Questionnaire simplifié de fonctionnement des GAEC",
+  "description": "Les Groupements Agricoles d’Exploitations en Commun (GAEC) sont soumis à un contrôle annuel réalisé par la DDT via le questionnaire proposé.\r\n\r\nCet questionnaire reprend les caractéristiques de chaque associé du groupement (pourcentage de capital social, pourcentage de revenus sur le GAEC (répartition annuelle), éléments d’activité extérieure (type d’activité, nom de l’employeur, nombre d’heures effectuées sur l’année civile n-1) et du groupement : régime fiscal, surface exploitée déclarée en année n-1), s’il participe à une autre société, s’il fait de la prestation de service, de l’entraide, etc.\r\n\r\nIl est aussi un moyen pour le groupement d’indiquer à la DDT, des modifications envisagées à court terme ou en cours de réalisation, entrée ou sortie d’associé, l’indication d’un associé en congé maladie, congé maternité ou en congé formation…",
+  "tags": [
+    "Agriculture"
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2022-04-12T15:41:27+02:00",
+  "service": {
+    "nom": "Service Economie Agricole",
+    "organisme": "Direction Départementale des Territoires de Haute-Savoie",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/questionnaire-simplifie-de-fonctionnement-des-gaec",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.haute-savoie.gouv.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCode.do;jsessionid=DC3A2ECFBE6EEC5E49ED7F0BC192FF81.tplgfr29s_1?idSectionTA=LEGISCTA000006152232&cidTexte=LEGITEXT000006071367&dateTexte=19930723",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 253,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Données générales",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "N° PACAGE du GAEC",
+        "description": "- Ne pas saisir le n°PACAGE d'un des associés ! \n- Bien penser à commencer la saisie par 074 suivie de 6 chiffres.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom - Raison sociale du GAEC",
+        "description": "Commencez la saisie par GAEC...",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail du GAEC",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nombre d'associés",
+        "description": "en 2021",
+        "required": true,
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Dernière date AG connue",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface Agricole Utile du GAEC",
+        "description": "en hectares\nExemple : 121,128",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Capital social",
+        "description": "en € pour 2021\n",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Valeur part",
+        "description": "en € pour 2021",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Régime fiscal",
+        "description": "Choisir un régime dans la liste déroulante.",
+        "required": true,
+        "options": [
+          "Micro BA",
+          "Réel",
+          "Impôt sur les sociétés"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Activités annexes du GAEC",
+        "description": "Choisir une activité dans la liste déroulante. Si pas d'autres activités, choisir \"Aucune\".",
+        "required": true,
+        "options": [
+          "Aucune",
+          "Déneigement",
+          "Epandage boues/déchets verts",
+          "Entraide entre voisins",
+          "Achat/revente dans le prolongement de l'activité GAEC",
+          "Autres"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "_",
+        "description": "Si vous avez répondu \"AUTRES\" à la question précédente, merci de préciser ci-dessous le type d'activité.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Si vous avez déclaré une activité annexe, indiquez son chiffre d'affaires",
+        "description": "en € pour l'activité renseignée ci-dessus",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Société commerciale en lien avec le GAEC",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, précisez son nom",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Remarques particulières",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Données concernant les associés",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "En 2021",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Liste des associés",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom  et prénom de l'associé",
+            "description": "Remplir les données individuellement pour chaque associé\nCliquez sur \"Ajouter un élément pour Associé\" en bas de la page en fonction du nombre d'associés.",
+            "required": true
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Part du capital social",
+            "description": "en pourcentage",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Pourcentage du revenu",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Activités extérieures",
+            "description": "Choisir une activité dans la liste déroulante",
+            "required": true,
+            "options": [
+              "Non",
+              "Salarié société commerciale",
+              "Métiers du commerce ",
+              "Service aux entreprises",
+              "Métiers de  la nature",
+              "Métiers de la montagne d'hiver",
+              "Service à la personne",
+              "Tourisme",
+              "Service Public",
+              "Artisanat",
+              "Travaux agricoles"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Nombre d'heures",
+            "description": "A saisir si vous êtes concernés par une activité extérieure.\nSaisir 0 si non concerné.",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Chiffres d'affaires",
+            "description": "en € pour 2021\nA saisir si vous êtes concernés par une activité extérieure.\nSaisir 0 si non concerné.",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

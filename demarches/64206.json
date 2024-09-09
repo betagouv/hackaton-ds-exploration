@@ -1,0 +1,352 @@
+{
+  "number": 64206,
+  "title": "Demande d'autorisation pour un transfert ou de regroupement d'officine -- ARS LA REUNION",
+  "description": "Procédure dématérialisée de demande d'autorisation pour le transfert  ou le regroupement d'officine -- ARS LA REUNION. \r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2023-03-06T10:19:15+01:00",
+  "service": {
+    "nom": "Service PSAB, DVSS",
+    "organisme": "Agence de santé de la Réunion",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-d-autorisation-pour-un-transfert-ou-de-reg",
+  "dpoUrl": "ars-reunion-dpo@ars.sante.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.lareunion.ars.sante.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006690018",
+  "logo": {
+    "filename": "ARS_REUNION_BLOC_300dpi.jpg",
+    "checksum": "cqRdkeZUcg4zyAQvQYP+wQ==",
+    "byteSize": "128823",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "Guide V3.pdf",
+    "checksum": "eNrhTY/WX7uf4M1xY+zeZQ==",
+    "byteSize": "370922",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 8,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées de l'interlocuteur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Coordonnées du titulaire",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du titulaire",
+            "description": "Nom patronymique du titulaire ",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom du titulaire",
+            "description": "Prénom du titulaire (tel qu'il figure sur l'état civil)",
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Mail titulaire",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Téléphone titulaire",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mode d'exploitation",
+        "description": "Mode d'exploitation actuel de l'officine à transférer",
+        "required": true,
+        "options": [
+          "SELARL",
+          "EURL",
+          "Personne physique",
+          "Régime prévoyance soc.minière",
+          "SARL",
+          "SELAS",
+          "SELAFA",
+          "SELASU",
+          "SELCA",
+          "SELURL",
+          "SNC",
+          "Société de fait",
+          "Société mutualiste"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Inscription de la société à l'Ordre",
+        "description": "La société exploitant l'officine à transférer est-elle inscrite au tableau de l'Ordre des pharmaciens ? ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse actuelle de l'officine",
+        "description": "N° et libellé de la voie - code postal - nom de la commune (adresse de l'officine AVANT transfert)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse",
+        "description": "(exemples : centre commercial, cellule n°1,...)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse du futur local",
+        "description": "N° et libellé de la voie - code postal - nom de la commune (futur local où l'installation par transfert est envisagée).",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse",
+        "description": "(exemples : centre commercial, cellule n°1,...)",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le transfert s'effectue-t-il au sein de la même commune ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le transfert s'effectue-t-il au sein d'un même quartier ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Délimitation du quartier actuel de l'officine",
+        "description": "Indiquer les rues, infrastructures ou frontières naturelles constituant la limite du quartier où est actuellement installée l'officine",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Délimitation du futur quartier d'installation de l'officine APRES transfert",
+        "description": "Si différent du quartier actuel : \nIndiquer les rues, infrastructures ou frontières naturelles constituant la limite du quartier où sera installée l'officine",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Des permis de construire ont-ils été accordés pour la construction de logements au sein du quartier d'accueil ?",
+        "description": "Permis de construire accordés par la mairie de la commune d'accueil pour des logements individuels ou collectifs",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le bâtiment dans lequel se situe le futur local est-il déjà existant ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La future officine sera-t-elle exploitée par une société ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PIECES JUSTIFICATIVES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "A - Pour toute demande le dossier comporte : un courrier signé par les titulaires de la demande",
+        "description": "Un courrier signé par les titulaires de la demande, adressé au directeur général de l’Agence régionale de santé, mentionnant l'identité et la qualification des pharmaciens ainsi que, le cas échéant, l'identité et la forme juridique de la ou des sociétés auteurs du projet. Lorsque la demande est présentée par une société ou par plusieurs pharmaciens réunis en copropriété, elle est signée par chaque associé ou copropriétaire devant exercer dans l'officine. La motivation du pharmacien et la date prévisionnelle pour l'opération de transfert sont à préciser.",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "B - Attestation d'inscription au tableau de la section compétente de l'ordre des pharmaciens.",
+        "description": "Fournir une attestation d'inscription à l'Ordre pour tous les pharmaciens titulaires en exercice au moment de la demande",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "1 - Lorsqu'il est envisagé d'exploiter l'officine sous forme de société :",
+        "description": "a)  une copie de l'extrait du registre du commerce et des sociétés datant de moins de trois mois",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "b) une attestation d'inscription de la société au tableau de la section compétente de l'ordre des pharmaciens, dans les cas prévus à l'article R. 4222-3 du code de la santé publique",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "2 - Lorsqu'il est envisagé d'exploiter l'officine créée, transférée ou issue du regroupement sous la forme d'une société non encore constituée ou en formation à la date du dépôt de la demande :",
+        "description": "le projet de statuts ou les statuts signés",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "3 - Tout document établissant que le ou les pharmaciens ou la société seront, au moment de l'octroi de la licence :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Propriétaires ou locataires du local et justifiant que celui-ci est destiné à un usage commercial.  Ces documents renseignent notamment l'adresse géographique du local ou, à défaut, le numéro de cadastre du lot. Ils ne doivent pas être soumis à des conditions suspensives ou résolutoires de nature à compromettre les droits du demandeur sur le local à l'issue du délai prévu à l'article R. 5125-3 du code de la santé publique (4 mois) ;",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "4 - Les documents suivants :",
+        "description": "a) Pour un local situé dans un bâtiment à construire, le permis de construire de l'immeuble, ainsi que le plan fourni à l'appui de ce permis ; b) Le cas échéant, pour un local situé dans un bâtiment existant, un permis de changement de destination du local pour un usage commercial ; c) Le cas échéant, lorsque l'aménagement du local implique une demande de permis de construire ou une déclaration de travaux au titre du code de l'urbanisme, le permis de construire, exprès ou tacite, ou la décision de non-opposition à la déclaration de travaux, délivrés par l'autorité compétente ; d) Si la demande d'autorisation n'implique ni une demande de permis de construire ni une déclaration de travaux au titre du code de l'urbanisme, une attestation sur l'honneur précisant que les travaux envisagés ne sont soumis ni à autorisation ni à déclaration ; ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "insérer votre pièce jointe",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "5 - Tout document de nature à justifier que le local est conforme aux dispositions de l'article L. 111-7-3 du code de la construction et de l'habitation",
+        "description": "(Les établissements recevant du public situés dans un cadre bâti existant doivent être tels que toute personne handicapée puisse y accéder, y circuler et y recevoir les informations qui y sont diffusées, dans les parties ouvertes au public. L'information destinée au public doit être diffusée par des moyens adaptés aux différents handicaps).\r\nPar exemple : attestation d'accessibilité pour les ERP de 5ème catégorie ou avis de la commission consultative de sécurité et d'accessibilité ...",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "6 - Quartiers d'origine et d'accueil au sens de l'article L. 5125-3-1 (cf § divers) :",
+        "description": "Délimitation du quartier actuel de l'officine :  indiquer les rues, infrastructures ou frontières naturelles constituant la limite du quartier où est actuellement installée l'officine :",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Délimitation du futur quartier d'installation de l'officine APRES transfert :  Si différent du quartier actuel : indiquer les rues, infrastructures ou frontières naturelles constituant la limite du quartier où sera installée l'officine",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Un plan de secteur mis à l'échelle proposant une délimitation des quartiers d'origine et d'accueil au sens de l'article L. 5125-3-1 (cf § divers), et positionnant exactement",
+        "description": "a) Les emplacements d'origine et d'accueil de la ou des officines concernées par la demande, y compris de leurs locaux de stockage ou de l'annexe prévue à l'article L. 5125-7-1 ;",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "PJ",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "7 - La distance, par voie terrestre, des officines les plus proches des emplacements d'origine et d'accueil de la ou des officines concernées par la demande et précisant la source de l'information ;",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "PJ",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "8 - Un plan de masse du bâtiment, permettant de situer le nouveau local dans son environnement immédiat ;",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "9 - Un plan côté de l'officine mentionnant la superficie globale et celle de chaque pièce, y compris, le cas échéant, du ou des locaux de stockage ;",
+        "description": "plan côté de l'officine",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "10 - Un plan et tout autre document éventuel venant préciser l'aménagement, l'agencement et l'équipement intérieur de l'officine en vue de répondre aux conditions minimales d'installation prévues aux articles R. 5125-8 et R. 5125-9 du code de la santé publique ;",
+        "description": "(modèle de formulaire ci-joint)\r\n1 - Il s’agit de préciser si (article R. 5125-8 du code de la santé publique) :\r\n- La superficie, l'aménagement, l'agencement et l'équipement des locaux d'une officine de pharmacie sont adaptés à ses activités et permettent le respect des bonnes pratiques mentionnées à l'article L. 5121-5.\r\n- Les locaux de l'officine sont soumis aux dispositions prévues aux articles L. 111-7 et L. 111-7-1 du code de la construction et de l'habitation (cf § divers), sauf s'ils bénéficient d'une dérogation prévue à l'article L. 111-7-3 du même code, ou s'ils sont situés dans un territoire régi par les dispositions des articles LO 6214-3, LO 6314-3 et LO 6414-1 du code général des collectivités territoriales.\r\n- Les locaux de l'officine forment un ensemble d'un seul tenant y compris pour ce qui concerne les activités spécialisées d'optique-lunetterie, d'audioprothèse et d'orthopédie.\r\n- Des lieux de stockage peuvent toutefois se trouver à proximité de l'officine, dans les limites de son quartier d'implantation mentionné à l'article L. 5125-3-1 du code de la santé publique, à condition qu'ils ne soient pas ouverts au public et ne comportent ni signalisation, ni vitrine extérieure.\r\n- Aucune communication directe n'existe entre l'officine et un autre local professionnel ou commercial.\r\n- Le mobilier pharmaceutique est disposé de telle sorte que le public n'ait directement accès ni aux médicaments, ni aux autres produits dont la vente est réservée aux officines.\r\n- Les médicaments de médication officinale mentionnés à l'article R. 5121-202 peuvent être présentés au public en accès direct dans les conditions prévues à l'article R. 4235-55. Les tests de grossesse et les tests d'ovulation peuvent également être présentés au public en accès direct, dans les mêmes conditions.\r\n- Lorsque des livraisons sont envisagées en dehors des heures d'ouverture, l'officine est aménagée de façon à permettre l'isolement des médicaments et autres produits livrés.\r\n\r\n2-\tPréciser si (article R5125-9 du code de la santé publique) :\r\nI. L'officine comporte, dans la partie accessible au public :\r\n1° Une zone clairement délimitée, pour l'accueil de la clientèle et la dispensation des médicaments, permettant la tenue d'une conversation à l'abri des tiers ;\r\n2° Pour les activités spécialisées d'optique-lunetterie, d'audioprothèse et d'orthopédie, un rayon individualisé et, le cas échéant, un espace permettant au patient d'essayer le produit dans des conditions répondant aux dispositions du présent code.\r\n3° Les locaux garantissent un accès permanent du public en vue d'assurer un service de garde et d'urgence.\r\n\r\nII. L'officine comporte, dans la partie non accessible au public :\r\n1° Un local, ou une zone, réservée à l'exécution et au contrôle des préparations magistrales et officinales et de taille adaptée à cette activité. Le cas échéant, ce local peut être utilisé de manière non simultanée pour la préparation des doses à administrer mentionnée à l'article R. 4235-48 du présent code ;\r\n2° Une armoire ou un local de sécurité destiné au stockage des médicaments et produits classés comme stupéfiants ainsi qu'il est prévu à l'article R. 5132-80 ;\r\n3° Un emplacement destiné au stockage des médicaments non utilisés au sens de l'article L. 4211-2 ;\r\n4° Le cas échéant, un emplacement destiné au stockage des déchets mentionnés à l'article R. 1335-8-1, rassemblés dans des collecteurs fermés définitivement, conformément aux dispositions de l'article R. 1335-6 ;\r\n5° Le cas échéant, une zone ou un local adapté à l'activité de commerce électronique des médicaments définie à l'article L. 5125-33 du présent code ;\r\n6° Les gaz à usage médical et les liquides inflammables sont stockés séparément, dans une armoire ou un local de taille adaptée et répondant aux recommandations de stockage propres à ces produits.\r\n3-\tNotice descriptive de l'aménagement de l'officine : (modèle de formulaire ci-joint) \r\nUne notice descriptive précisant l'aménagement, l'agencement et l'équipement intérieur prévus pour la future officine. Cette notice doit permettre de vérifier la conformité du futur local aux conditions minimales d'installation des officines (R5125-8 et R5125-9 du code de la santé publique)\r\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Modèle et /ou pièces jointes",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "11 - Uniquement pour les demandes motivées par une évolution de la population : une liste établie par les services de l'urbanisme de la commune d'implantation, précisant les permis de construire délivrés pour des logements individuels et collectifs dans le quartier d'accueil projeté ;",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Nouveau champ",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "12 - Le cas échéant, pour les demandes de création, ou les demandes de transfert ou de regroupement d'officines vers une commune distincte de la commune d'origine, la publication au Journal officiel de la République française du recensement de population justifiant que les conditions démographiques prévues à l'article L. 5125-4 sont remplies dans la commune d'accueil. Pour les demandes de création, ce document doit être fourni pour les deux dernières années.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "13 - Argumentaire justifiant que le transfert permet une desserte optimale en médicaments de la population  : (modèle de formulaire ci-joint)",
+        "description": "• Accès aisé, visibilité, aménagement piétonniers, stationnements, le cas échéant desserte par les transports en commun ; \r\n• Accessibilité (article L.111-7-3 du code de la construction et de l’habitation) et aménagement des locaux (respect des conditions minimales d’installation, réalisation des nouvelles missions pharmaceutiques, garantie d’un accès permanent du public) ;\r\n• Desserte de la même population résidente ou d’une population résidente jusqu’alors non desservie ou d’une population résidente dont l’évolution est avérée ou prévisible au regard des permis de construire délivrés pour des logements individuels ou collectifs, dans le quartier d’accueil défini par le demandeur\r\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "14 - Argumentaire justifiant que le transfert ne compromettra pas l'approvisionnement en médicaments de la population du quartier ou de la commune d'origine : (modèle de formulaire ci-joint)",
+        "description": "Éléments justifiant qu'il existe au sein du quartier ou de la commune d'origine ou d'une commune limitrophe une officine disposant d'emplacements de stationnement et accessible au public par voie piétonnière ou par transports collectifs conformément au décret 2018-671.",
+        "required": false
+      }
+    ]
+  }
+}

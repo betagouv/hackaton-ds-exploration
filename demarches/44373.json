@@ -1,0 +1,244 @@
+{
+  "number": 44373,
+  "title": "FICHE INFIRMERIE-fiche de liaison",
+  "description": "ANNÉE SCOLAIRE 2021-2022",
+  "tags": [
+    "Scolaire"
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2021-06-07T12:54:21+02:00",
+  "service": {
+    "nom": "Inscription",
+    "organisme": "CLG Anatole France - CADILLAC",
+    "typeOrganisme": "etablissement_enseignement"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fiche-infirmerie-fiche-de-liaison",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.afcadillac.net",
+  "cadreJuridiqueUrl": "https://doc.demarches-simplifiees.fr/cgu/cgu-par-les-usagers",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 3,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTITÉ DE L'ÉLÈVE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "NIVEAU",
+        "description": null,
+        "required": true,
+        "options": [
+          "6ÈME",
+          "5ÈME",
+          "4ÈME",
+          "3ÈME"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénoms",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Né(e) le",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "à",
+        "description": "Pour les élèves nés à l'étranger, saisir le nom de la ville en entier",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "EN CAS D'ACCIDENT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "L'établissement s'efforce de prévenir la famille par les moyens les plus rapides. Veuillez faciliter notre tâche en nous donnant au moins un numéro de téléphone.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Personne à contacter",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "NOM",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": false,
+            "options": [
+              "Mère",
+              "Père",
+              "Frère ou sœur",
+              "Autre lien de parenté",
+              "Autre"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Numéro de téléphone",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Après appel du SAMU. En cas d'urgence, un élève accidenté ou malade est orienté et transporté par les services de secours d'urgence vers l'hôpital le mieux adapté. La famille est immédiatement avertie par nos soins. Un élève mineur ne peut sortir de l'hôpital qu'accompagné de sa famille.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° et Adresse du Centre de Sécurité Sociale (données importantes si transfert vers l'hôpital)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "MEDECIN TRAITANT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM du Praticien",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune d'exercice",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "OBSERVATIONS PARTICULIÈRES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Observations particulières",
+        "description": "Que vous jugerez utiles de porter à la connaissance de l'établissement",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ALLERGIES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "diagnostiquées par un allergologue, joindre le certificat",
+        "description": "",
+        "required": false,
+        "options": [
+          "Médicamenteuses",
+          "Alimentaires",
+          "Autres"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DEMANDE D'AUTO ADMINISTRATION d'un traitement médical",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "(Les médicaments sont gérés par l'enfant selon la prescription)",
+        "description": "Pour cela vous devez remplir une demande d'auto-administration (à récupérer à l'infirmerie), joindre une prescription médicale. Les médicaments fournis seront rangés à l'infirmerie et à la disposition d'un adulte en cas d'absence de l'infirmière.\nPour l'asthme, l'élève doit garder son traitement avec lui et s'engage sous la responsabilité de ses parents à ne pas prêter son traitement à un autre élève.",
+        "required": false,
+        "options": [
+          "Migraines",
+          "Règles douloureuses",
+          "Asthme",
+          "Autres"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DEMANDE DE PAI - Projet d'Accueil Individualisé",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Présentation",
+        "description": "Il s'agit d'un document renseigné qui permet de prendre en charge au sein de l'établissement un élève atteint de troubles de la santé évoluant sur une longue période. Circulaire n°2003-135 du 09/09/2003",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "--> Motif du trouble de la santé",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "La demande est à effectuer auprès du Chef d'établissement et lui transmettre les documents nécessaires à l'élaboration du PAI :",
+        "description": "Pour les allergies alimentaires bilan allergologique obligatoire\n",
+        "required": false,
+        "options": [
+          "Une ordonnance qui précise les médicaments à administrer : nom, doses et horaires ",
+          "Si besoin, un protocole d'urgence dûment signé",
+          "La prescription ou non d'un régime alimentaire",
+          "La nécessité de mettre en œuvre des aménagements pendant le temps scolaire"
+        ]
+      }
+    ]
+  }
+}

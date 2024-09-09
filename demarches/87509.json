@@ -1,0 +1,122 @@
+{
+  "number": 87509,
+  "title": "CGNE - demande de convocation",
+  "description": "Cette démarche permet aux correspondants Garde nationale - Employeurs (CGNE) réservistes opérationnels de solliciter leur convocation auprès du Secrétariat général de la Garde nationale.",
+  "tags": [
+    "GardeNationale",
+    "CGNE",
+    "Réserve"
+  ],
+  "zones": [
+    "Ministère des Armées"
+  ],
+  "datePublication": "2024-03-28T12:10:35+01:00",
+  "service": {
+    "nom": "Secrétariat général de la Garde nationale",
+    "organisme": "Bureau des partenariats et des relations employeurs",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/cgne-demande-de-convocation",
+  "dpoUrl": "yann.chesse@intradef.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "www.garde-nationale.gouv.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000046496793?init=true&page=1&query=garde+nationale&searchField=ALL&tab_selection=all",
+  "logo": {
+    "filename": "20200717_logo_garde_nationale_sans_contour.png",
+    "checksum": "1mt7NrbsCqJaXB0YbH1Vew==",
+    "byteSize": "30581",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 53,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre identité de réserviste",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Indiquez votre composante",
+        "description": "",
+        "required": false,
+        "options": [
+          "Air et Espace",
+          "Commissariat des armées",
+          "Direction générale de l'armement",
+          "Gendarmerie",
+          "Marine nationale",
+          "Police nationale",
+          "Service des énergies opérationnelles",
+          "Service d'infrastructure de la Défense",
+          "Service de santé des armées",
+          "Terre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Votre grade actuel",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Dates demandées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "S'agit-il d'une demande de régularisation ?",
+        "description": "Si la mission est déjà passée, cochez oui.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Computation des heures",
+        "description": "La mission de CGNE conduit à être mobilisé(e) de façon fractionnée, sans qu'il ne s'agisse de journées complètes. Dans ce cas, il vous est demandé de computer les heures réalisées chaque mois et de faire une demande de convocation lorsque les heures prévues équivalent à une journée (8h). Il est important de bien choisir la date support de cette manoeuvre : si vous êtes déjà convoqué(e) par votre unité ce jour là, le SGGN ne pourra pas vous convoquer.",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Indiquez la ou les dates pour lesquelles vous sollicitez une convocation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "2nd jour le cas échéant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "3e jour le cas échéant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quelles seront (ont été) les missions exercées ce jour là ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Vous demandez un remboursement de frais",
+        "description": "Cochez si oui.\r\nLaisser blanc si non.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Ajuster vos justificatifs (le cas échéant)",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

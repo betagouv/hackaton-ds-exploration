@@ -1,0 +1,927 @@
+{
+  "number": 30938,
+  "title": "Pôle Départemental de Lutte contre l’Habitat Indigne du Calvados - Formulaire de signalement",
+  "description": "Formulaire et dossier d'instruction des signalements d'habitats indignes au PDLHI 14 (Pôle Départemental de Lutte contre l’Habitat Indigne du Calvados).",
+  "tags": [
+    "Logement"
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2021-02-05T15:57:18+01:00",
+  "service": {
+    "nom": "Service Construction, Aménagement et Habitat - PDLHI14",
+    "organisme": "Direction Départemantale des Territoires et de la Mer du Calvados",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/pole_departemental_lutte_habitat_indigne_calvados",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000020438861&dateTexte=20090327",
+  "logo": {
+    "filename": "logo PDLHI14.jpg",
+    "checksum": "vhZEQg8WW7FYGVoNbuPvyA==",
+    "byteSize": "49893",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 103,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information",
+        "description": "Ce formulaire est destiné à toute personne souhaitant signaler des désordres sur un habitat ou bien des situations de risque pour la santé ou la sécurité des personnes.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Date du signalement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du signalement",
+        "description": "Indiquez la date du signalement",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Signalement motivé suite à :",
+        "description": "Sélectionnez une réponse",
+        "required": true,
+        "options": [
+          "Une déclaration de l'occupant ou d'un tiers",
+          "Une visite",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si \"Autre\" coché ci-dessus",
+        "description": "Précisez",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la visite",
+        "description": "Si le signalement fait suite à une visite à domicile, en indiquer la date",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Auteur enregistrant le signalement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Auteur à l'origine du signalement",
+        "description": "Sélectionnez votre statut",
+        "required": true,
+        "options": [
+          "Administration",
+          "Autre organisme",
+          "Propriétaire occupant",
+          "Propriétaire bailleur",
+          "Locataire",
+          "Voisin",
+          "Membre famille",
+          "Autre personne physique."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Administration ou autre organisme",
+        "description": "Cochez la case correspondante (réservé Administration ou Organisme)",
+        "required": false,
+        "options": [
+          "ARS",
+          "CAF",
+          "DDCS (DDETS)",
+          "DDTM",
+          "Collectivité",
+          "Autre organisme"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si autre organisme coché ci-dessus",
+        "description": "Si autre organisme (CCAS, circonscription d'action sociale, association, etc..), indiquez lequel",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et Prénom",
+        "description": "Nom et Prénom de l'auteur du signalement.",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'auteur du signalement",
+        "description": "Adresse complète de l'auteur du signalement\n\n",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone auteur signalement",
+        "description": "Numéro de téléphone de l'auteur du signalement\n",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel auteur signalement",
+        "description": "Adresse courriel de l'auteur du signalement\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur le logement objet du signalement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Logement occupé par :",
+        "description": "",
+        "required": true,
+        "options": [
+          "Propriétaire occupant",
+          "Locataire",
+          "Sous-locataire",
+          "Sans titre",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et Prénom de l'occupant principal",
+        "description": "Indiquez les Nom et Prénom de l'occupant principal. Pour les femmes mariées, précisez le nom de jeune fille",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et Prénom second occupant",
+        "description": "Indiquez les Nom et Prénom du 2ème occupant.\nPour les femmes mariées, précisez le nom de jeune fille",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'adulte(s)",
+        "description": "Adulte(s) occupant le logement",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'enfant(s)",
+        "description": "Enfant(s) occupant le logement",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Enfants à venir",
+        "description": "Si enfant à naitre ou à venir dans le logement, cochez la case.",
+        "required": false,
+        "options": [
+          "Enfant(s) à venir"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Année(s) de naissance du ou des occupant(s)",
+        "description": "Si information non connue, indiquez RAS.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du logement signalé",
+        "description": "Indiquez précisément l'adresse du logement signalé.",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone occupant",
+        "description": "Numéro de téléphone de l'occupant du logement",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autre information concernant les occupants",
+        "description": "Indiquez toute autre information utile (coordonnées, nom de personne à contacter, etc..)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Section à compléter si vous êtes locataire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom et Prénom du propriétaire bailleur du logement",
+        "description": "à compléter impérativement. Indiquez les nom et prénom du (des) propriétaires et/ou de l'agence gérant le bien loué.  ",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de bailleur",
+        "description": "Cochez le type de bailleur",
+        "required": false,
+        "options": [
+          "Privé",
+          "Public (HLM)",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Adresse du Propriétaire Bailleur",
+        "description": "Indiquez l'adresse du propriétaire.",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du propriétaire bailleur",
+        "description": "Indiquez le numéro de téléphone du propriétaire bailleur ",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Présence d'un bail",
+        "description": "Indiquez si un bail a été conclu",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "État des lieux",
+        "description": "Indiquez si un état des lieux a été établi",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Diagnostic technique obligatoire à la location",
+        "description": "Sélectionnez le(s) diagnostic(s) qui ont été fournis lors de la location (plomb, performance énergétique, état de l'installation électrique et de gaz, amiante, état des risques et pollutions (pour certaines zones)",
+        "required": false,
+        "options": [
+          "Diagnostic performance énergétique",
+          "Diagnostic plomb ou constat de risque d'exposition au plomb (logement construit avant 1949)",
+          "État de l'installation électrique ou de gaz (si l'installation en question à plus de 15 ans)",
+          "Copie de l'état mentionnant la présence d'amiante",
+          "État des risques et de pollutions (selon si le logement est situé dans une zone concernée [information auprès de la mairie])",
+          "Diagnostic bruit",
+          "Autre diagnostic",
+          "Aucun diagnostic fourni"
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'entrée dans les lieux",
+        "description": "Indiquez la date d'entrée dans les lieux",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant du loyer (hors charges)",
+        "description": "Indiquez le montant du loyer sans les charges.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant des charges",
+        "description": "Indiquez le montant des charges",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Dette de loyer",
+        "description": "Indiquez si il y a une dette de loyer. ",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Aide au logement (CAF, MSA...)",
+        "description": "Indiquez si une aide au logement est versée. ",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Organisme payeur des aides",
+        "description": "Sélectionnez l'organisme versant les aides au logement",
+        "required": false,
+        "options": [
+          "CAF",
+          "MSA",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d'aide",
+        "description": "Cochez le type d'aide",
+        "required": false,
+        "options": [
+          "ALF",
+          "ALS",
+          "APL"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant aides / logement",
+        "description": "Précisez le montant des aides au logement",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro allocataire",
+        "description": "Indiquez le n° d'allocataire si vous en avez connaissance",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre information",
+        "description": "Si vous avez des commentaires supplémentaires à apporter à cette section",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Accompagnement social",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Accompagnement social",
+        "description": "L'occupant est-il suivi par un travailleur social (CCAS, circonscription d'action sociale ou autre organisme d'action sociale) ?",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui",
+        "description": "Indiquez le Nom/Prénom du travailleur social ainsi que son organisme de rattachement",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre information",
+        "description": "Indiquez si nécessaire, toute autre information complémentaire concernant l'accompagnement social. ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description du logement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type",
+        "description": "Cochez la case correspondante",
+        "required": true,
+        "options": [
+          "Maison",
+          "Immeuble",
+          "Appartement",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si autre",
+        "description": "Décrivez le type d'habitat",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Année de construction",
+        "description": "Cochez la case correspondante",
+        "required": false,
+        "options": [
+          "Avant 1949",
+          "Après 1949",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de logement",
+        "description": "Indiquez de quelle catégorie le logement relève (T1, T2 etc..)",
+        "required": true,
+        "options": [
+          "T1",
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "supérieur à T5",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Surface approximative",
+        "description": "en m²",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre information",
+        "description": "Indiquez le cas échéant, toute autre information concernant le type d'habitat (ne pas mettre ici les désordres constatés). par exemple ancienne grange ou corps de ferme aménagé, ancien local  mis à disposition, etc..",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Etat du bâti et environnement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Environnement",
+        "description": "Cochez la case correspondante",
+        "required": false,
+        "options": [
+          "Rural",
+          "Urbain",
+          "Commercial",
+          "Industriel"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Abords immédiats",
+        "description": "Cochez la case correspondante",
+        "required": false,
+        "options": [
+          "Non entretenus",
+          "Dégradés",
+          "Dangereux"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Risque d'écroulement ou d'affaissement du bâti",
+        "description": "Cochez la case correspondante",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Toiture, couverture, charpente et ossature bois",
+        "description": "Cochez la case correspondante",
+        "required": false,
+        "options": [
+          "En bon état",
+          "En mauvais état",
+          "Présence d'insectes xylophages",
+          "Ne sait pas"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Infiltration (à l'air et à l'eau)",
+        "description": "Cochez la case correspondante",
+        "required": false,
+        "options": [
+          "Infiltration à l'air",
+          "Infiltration à l'eau",
+          "Ne sait pas"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Murs et pignons",
+        "description": "Cochez la case correspondante",
+        "required": false,
+        "options": [
+          "En bon état",
+          "en mauvais état",
+          "Trous",
+          "Fissures",
+          "Ne sait pas"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Soubassements",
+        "description": "Cochez la case correspondante",
+        "required": false,
+        "options": [
+          "En bon état",
+          "en mauvais état",
+          "Trous",
+          "Fissures",
+          "Ne sait pas"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Planchers, plafonds, escaliers",
+        "description": "Cocher la case correspondante",
+        "required": false,
+        "options": [
+          "En bon état",
+          "en mauvais état",
+          "Affaissement",
+          "Instabilité",
+          "Ne sait pas"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Menuiseries",
+        "description": "Cocher la case correspondante",
+        "required": false,
+        "options": [
+          "En bon état",
+          "en mauvais état",
+          "Non étanche à l'air",
+          "Non étanche à l'eau",
+          "Ne sait pas"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Raccordement aux réseaux",
+        "description": "Alimentation en eau, cocher la case correspondante",
+        "required": false,
+        "options": [
+          "Réseau public",
+          "Puits ou source",
+          "Pas d'alimentation",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Assainissement des eaux usées",
+        "description": "Cocher la case correspondante",
+        "required": false,
+        "options": [
+          "Réseau collectif public",
+          "Installation individuelle (fosse, etc..)",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Raccordement au réseau électrique",
+        "description": "Indiquez si vous disposez d'un compteur électrique individuel. ",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non ",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre information",
+        "description": "Indiquez ici toute autre information complémentaire et utile concernant l'état du bâti ou l'environnement",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Confort et habitabilité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Salle d'eau",
+        "description": "Le logement dispose t-il d'une salle d'eau ?",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "WC",
+        "description": "Le logement dispose t-il de WC ?",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "WC en extérieur",
+        "description": "Cocher si WC en extérieur",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Chauffage par chaudière",
+        "description": "Indiquez si le mode de chauffage est une chaudière",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Autre modes de chauffage",
+        "description": "Indiquez quels sont les autres modes de chauffage.",
+        "required": false,
+        "options": [
+          "Pompe à chaleur",
+          "Radiateur inertie",
+          "Convecteurs électriques",
+          "Poêle",
+          "Insert",
+          "Cheminée",
+          "Appareil mobile d'appoint",
+          "Autre",
+          "Chauffage insuffisant"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Installation électrique",
+        "description": "Cochez la (les) case(s) correspondante(s)",
+        "required": false,
+        "options": [
+          "Absence de Prise de terre",
+          "Présence de fils dénudés",
+          "Prises détériorées",
+          "Surcharge de prise"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Ballon d'eau chaude",
+        "description": "Indiquez le type de ballon d'eau chaude et le cas échéant, son fonctionnement",
+        "required": false,
+        "options": [
+          "Ballon d'eau chaude électrique",
+          "Ballon d'eau chaude alimenté par chaudière.",
+          "En bon état de marche",
+          "Défectueux (fuite, raccordement dangereux, etc..)"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Système de ventilation permanent",
+        "description": "",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Partiel",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si répondu oui ou partiel",
+        "description": "Si répondu oui ou partiel à la question précédente, précisez le type de fonctionnement",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Normes d'habitabilité",
+        "description": "Indiquez si le logement dispose d'au moins une pièce principale de vie dont la surface est supérieur à 9m²sous 2,20 mètres (hauteur sous plafond)",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Autres pièces",
+        "description": "Indiquez si les autres pièces ont des surfaces inférieures à 7m² sous 2.20m (hauteur sous plafond)",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Ouvrants donnant sur extérieur",
+        "description": "Indiquez si le logement dispose d'au moins un ouvrant donnant sur l'extérieur.",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autre information",
+        "description": "Indiquez ici toute autre information complémentaire et  utile concernant le confort et l'habitabilité",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Sécurité et santé",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Risque de chutes des personnes",
+        "description": "Cocher la case correspondante",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui à la question précédente",
+        "description": "Précisez ci-dessous la nature du risque (sols, escaliers dangereux, absence garde-corps, etc..)",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Risque d'intoxication au monoxyde de carbone (CO)",
+        "description": "Cocher la case correspondante",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui à la question précédente",
+        "description": "Précisez la nature (vétusté et/ou absence d'entretien et/ou mauvais fonctionnement des appareils à combustion et des conduits de cheminée, utilisation de chauffage d'appoint, absence de système de ventilation, ...)",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Exposition au plomb",
+        "description": "Situation d'habitat ancien avec peintures dégradées",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Présence d'enfants mineurs",
+        "description": "Si oui à la question précédente, indiquez si des enfants mineurs sont présents",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Humidité et moisissures",
+        "description": "Présence d'humidité et/ou moisissures sur les murs et/ou revêtements",
+        "required": false,
+        "options": [
+          "Présence réduite et/ou localisée dans certaines pièces",
+          "Présence importante et/ou généralisée dans tout le logement"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Eclairement naturel insuffisant des pièces de vie",
+        "description": "Indiquez si les pièces de vie ont un éclairement naturel suffisant",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autre information",
+        "description": "Indiquez ici toute autre information complémentaire et  utile concernant la sécurité ou la santé",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Hygiène et entretien",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Risque pour la sécurité",
+        "description": "Indiquez si selon vous il y a un risque manifeste pour la santé ou la sécurité des occupants",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Animaux en surnombre",
+        "description": "Indiquez si des animaux sont en surnombre",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Accumulation anormale et abondante de déchets",
+        "description": "Accumulation d'objets et/ou de déchets",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Présence de nuisibles",
+        "description": "Indiquez si présence de nuisibles (rats, souris, insectes, blattes, cafards..)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commentaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire",
+        "description": "Indiquer ici toute information complémentaire utile à l'appréciation de l'état du logement",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": "Pour joindre plusieurs documents, cliquer sur \"Ajouter un champ\"",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document à joindre",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "____________________________________________________________________________________________________",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je comprends que les informations recueillies sur ce formulaire sont exclusivement réservées à l'instruction du dossier par le Pôle Départemental de Lutte contre l'Habitat Indigne du Calvados.",
+        "description": " Conformément aux dispositions de la loi « informatique et libertés », je dispose d'un droit d’accès, de rectification, d’opposition, d’effacement, à la portabilité et à la limitation du traitement des données personnelles me concernant en contactant le Pôle Départemental de Lutte contre l'Habitat Indigne du Calvados (ddtm-lhi@calvados.gouv.fr).",
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "number": 55319,
+  "title": "Invalidité : Déclaration de situation et de ressources en ligne",
+  "description": "Invalidité du Régime Général \r\n\r\nRéservé aux assuré(e)s en invalidité du Régime Général du Calvados-Manche-Orne\r\n\r\nPour une connexion simple et pratique, utilisez la connexion France-Connect.",
+  "tags": [
+    "Sécurité sociale"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-02-28T14:24:56+01:00",
+  "service": {
+    "nom": "Caisse Primaire d'Assurance Maladie - Pôle assuré",
+    "organisme": "CPAM ",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/invalidite-dsh",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://declic.cpam50.fr/",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/",
+  "logo": {
+    "filename": "revu Manche_Logo_Nov.2020_CMJN jpg.png",
+    "checksum": "LX4Bt+jQLVXJOcbn/1bFmQ==",
+    "byteSize": "917811",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 6136,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Invalidité - Déclaration de situation et de ressources",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "(articles L. 341-12 et 13, L. 341-16 al.2, R. 341-14 et 17, R. 815-39 et 78 du Code de la sécurité sociale)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "De quelle Caisse Primaire d'Assurance Maladie dépendez-vous ?",
+        "description": "Indiquez le département de votre Caisse Primaire d'Assurance Maladie",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Période de la déclaration",
+        "description": "Indiquez la périodicité de la déclaration que vous avez reçu sous forme papier (exemple : Période du 01/12/19 au 30/05/20 = Semestrielle)",
+        "required": true,
+        "options": [
+          "Mensuelle",
+          "Trimestrielle",
+          "Semestrielle",
+          "Annuelle"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Indiquez les dates inscrites sur votre Déclaration de Situation et de Ressources reçue en papier",
+        "description": "exemple : du 01/06/2020 au 31/08/2020",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre situation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Saisir votre numéro de sécurité sociale",
+        "description": "Saisir les 15 chiffres sans espace",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "a) Avez vous changé d'adresse ?",
+        "description": "si non, passez directement à la question b)",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, cette adresse est-elle provisoire ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Indiquez votre nouvelle adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "b) Indiquez votre situation familiale",
+        "description": null,
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Marié(e)",
+          "PACS",
+          "Concubin(e)",
+          "Divorcé(e)",
+          "Séparé(e)",
+          "Veuf(ve)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "c) Avez-vous séjourné hors du territoire français ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, indiquez les dates",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "d) Bénéficiez-vous ou avez-vous bénéficié (sur la période de cette déclaration) du versement d'indemnités journalières par votre caisse d'assurance maladie ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre situation professionnelle",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "art. R. 341-17 du Code de la sécurité sociale - application des règles de cumul entre une pension d'invalidité et des revenus d'activité professionnelle salariée ou non salariée.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Déclaration des ressources",
+        "description": "Si la période concerne plusieurs ressources ou plusieurs mois - faire (+ Ajouter un élément pour \"Déclaration des ressources \") sous ce cartouche (détailler un revenu par mois)",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Choisir le revenu concerné",
+            "description": null,
+            "required": false,
+            "options": [
+              "Activité salariée ou maintien de salaire",
+              "Activité commerciale, libérale, artisanale",
+              "Chômage indemnisé, nature de l'allocation",
+              "Autres revenus (indemnités journalières,.... hors pensions et rentes)"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Indiquez le mois concerné",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Indiquez le montant brut perçu",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "L'absence de ressources déclarées sera considérée comme un revenu à zéro. Ceci est une déclaration sur l'honneur. Un contrôle pourra être effectué. En cas de fausses déclarations, les sommes indûment versées pourront faire l'objet d'une récupération.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Autres Prestations",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si vous percevez une autre prestation. Merci choisir le libellé correspondant et indiquer le montant mensuel perçu",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Vos autres revenus ou prestations",
+        "description": "Si la période concerne plusieurs ressources ou plusieurs mois - faire (+ Ajouter un élément pour \"Vos autres revenus ou prestations \") sous ce cartouche (détailler un revenu par mois)",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Autres revenus",
+            "description": null,
+            "required": false,
+            "options": [
+              "Pension militaire d'invalidité",
+              "Pension d'un régime spécial",
+              "Pension du régime agricole",
+              "Rente Accident du travail",
+              "Autres (à précisez)"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Indiquez le mois concerné",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Indiquez le montant brut perçu",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si \"Autres\" - indiquez la nature du revenu ou de la prestation",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "L'absence de ressources déclarées sera considérée comme un revenu à zéro. Ceci est une déclaration sur l'honneur. Un contrôle pourra être effectué. En cas de fausses déclarations, les sommes indûment versées pourront faire l'objet d'une récupération.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pension de retraite",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "(Art   341-16 al.2 - versement de la pension d'invalidité jusqu'à la date de demande de pension de vieillesse en cas de poursuite de l'activité professionnelle au-delà de l'âge légal de la retraite)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous fait une demande de pension de retraite ?",
+        "description": "Si non, passez directement au point 6",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "si, oui indiquez la date de la demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Majoration pour Tierce Personne (MTP)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Êtes vous titulaire d'une Majoration pour Tierce Personne (MTP)",
+        "description": "Si non, passez directement au point 7",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, avez vous été hospitalisé(e) au cours de la période de référence",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, indiquez la ou les dates d'hospitalisation :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Réservé aux bénéficiaires de l'Allocation Supplémentaire d'Invalidité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si vous bénéficiez de l'Allocation Supplémentaire d'invalidité, veuillez remplir EGALEMENT les éléments ci-dessous. Si, vous n'êtes pas concernés, vous pouvez passer directement au point 8.",
+        "description": "Indiquez le TOTAL DES MONTANTS BRUTS des avantages perçus pendant la période que vous avez indiqué en début de formulaire. \n\nL'absence de ressources déclarées sera considérée comme un revenu à zéro. En cas de fausses déclarations, les sommes indûment versées pourront faire l'objet d'une récupération.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Avantages perçus par vous-même",
+        "description": "en complément des points 3 et 4. Si vous percevez plusieurs prestations, faire \"+ Ajouter un élément....\"",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Choisir la prestation",
+            "description": null,
+            "required": false,
+            "options": [
+              "Pensions, rentes et retraites",
+              "Allocation adulte handicapé/RSA",
+              "Salaires, gains, indemnités journalières",
+              "Allocations Chômage",
+              "Autres (complémentaires, prévoyance, allocation compensatoire...)",
+              "Valeurs des biens mobiliers/immobiliers, placement, assurance vie..."
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Indiquez le montant de l'avantage",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Avantages perçus par votre conjoint(e), concubin(e), partenaire de PACS",
+        "description": "Si vous percevez plusieurs prestations, faire \"+ Ajouter un élément....\"",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Choisir la prestation",
+            "description": null,
+            "required": false,
+            "options": [
+              "Pensions, rentes et retraites",
+              "Allocation adulte handicapé/RSA",
+              "Salaires, gains, indemnités journalières",
+              "Allocations Chômage",
+              "Autres (complémentaires, prévoyance, allocation compensatoire...)",
+              "Valeurs des biens mobiliers/immobiliers, placement, assurance vie..."
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Indiquez le montant de l'avantage",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous, ou votre conjoint(e), concubin(e) ou partenaire PACS, avez-vous fait une donation sur la période indiquée en début de formulaire ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Déposez ici toutes les pièces justificatives",
+        "description": "Pour déposer plusieurs pièces, faire \"+Ajouter un élément pour \"Déposez ici toutes les pièces justificatives\" sous cette fenêtre.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "exemple : bulletin de salaires, rémunération de stage,........",
+            "description": "Pour un traitement plus rapide, merci de classer vos bulletins de salaire dans l'ordre chronologique\n\n\n",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Je valide et j'atteste",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie sur l'honneur l'exactitude des renseignements portés sur la présente déclaration. Je m'engage à faire connaître à ma Caisse Primaire d'Assurance Maladie tous les changements pouvant les modifier, et à fournir toutes les pièces justificatives sur demande.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, je certifie conforme les saisies et je signe ma déclaration.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Fait le",
+        "description": "format jj/mm/aaaa",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Quiconque se rend coupable de fraude ou de fausse déclaration est passible de pénalités financières, d'amende et/ou d'emprisonnement (articl es 313-1, 441-1 et 441-6 du Code pénal, articles L.114-13 et L.162 2-1-14 du Code de la sécurité sociale).",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "En outre, l'inexactitude, le caractère incomplet des déclarations ou l'absence de déclaration, d'un changement de situation ayant abouti au versement de prestations indues, peut faire l'objet d'une pénalité financière en application de l'article L.162-1-14 du Code de la sécurité sociale.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Toutes les informations figurant sur cette déclaration sont destinées à votre organisme d'assurance maladie aux fins de contrôle et de paiement. En application de la loi du 6 janvier 1978 modifiée, vous pouvez obtenir communication des informations vous concernant et, le cas échéant, leur rectification en vous adressant à votre organisme d'assurance maladie.",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

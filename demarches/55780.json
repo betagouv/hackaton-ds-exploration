@@ -1,0 +1,185 @@
+{
+  "number": 55780,
+  "title": "Indemnités journalières : transmission de pièces justificatives",
+  "description": "Vous avez réalisé une DSIJ et devez transmettre des pièces complémentaires à la CPAM de la Dordogne (bulletins de salaire, extrait acte de naissance, jugement d'adoption, autre….).\r\nCe service en ligne vous permet de les déposer à son attention.\r\n\r\nLe numéro d'identification du compte-rendu DSIJ est nécessaire au dépôt.\r\n\r\nQuand vous déposez une demande en ligne il est inutile de nous adresser l’original du document déposé. Conservez-le.",
+  "tags": [
+    "Rh"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-04-27T11:32:26+02:00",
+  "service": {
+    "nom": "Indemnités journalières",
+    "organisme": "CPAM Dordogne",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/cpam24-employeurs-depot-pieces-ij",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://cpam24.fr/entreprises",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "logo.jpg",
+    "checksum": "fqQQ34MqkCHZTeKqFCJC1Q==",
+    "byteSize": "38579",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "mentions.txt",
+    "checksum": "joqo/jMIdhWBREWOJWzZcw==",
+    "byteSize": "1308",
+    "contentType": "text/plain"
+  },
+  "dossiersCount": 1274,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre demande concerne",
+        "description": "",
+        "required": true,
+        "options": [
+          "Indemnités journalières maladie",
+          "Indemnités journalières pour congés maternité/paternité",
+          "Indemnités journalières pour congés d'adoption",
+          "Indemnités journalières accident du travail ou maladie professionnelle"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro DSN / DSIJ",
+        "description": "Vous avez réalisé une DSIJ et vous devez fournir des pièces complémentaires, indiquez le numéro du compte rendu DSN / DSIJ (Exemple de format CRD-20200171040-501420161294)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. Identification de l'employeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination sociale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du contact",
+        "description": "Nom de la personne que la CPAM peut contacter si besoin",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. Identification de votre salarié(e)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Département de rattachement",
+        "description": "Le salarié est rattaché à la CPAM de la DORDOGNE, vous pouvez poursuivre la démarche. Dans le cas contraire, rapprochez-vous de sa caisse d'affiliation.",
+        "required": true,
+        "options": [
+          "24 - Dordogne"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de sécurité sociale (avec la clé)",
+        "description": "Saisir les 15 chiffres sans espace ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom de l'assuré",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. Situation du salarié au regard de l'arrêt de travail",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Dernier jour de travail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début d'arrêt",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de fin de l'arrêt",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de reprise, le cas échéant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": "Pour déposer plusieurs documents, cliquez sur le bouton \"Ajouter un élément\"",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déposer ici votre pièce",
+            "description": "Uniquement format image (JPG, PNG...) ou PDF",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Engagement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, je certifie conforme les saisies et je signe cette déclaration",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Fait à",
+        "description": "Siège de l'entreprise",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Le",
+        "description": "Format jj/mm/aaaa",
+        "required": true
+      }
+    ]
+  }
+}

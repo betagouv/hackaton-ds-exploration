@@ -1,0 +1,352 @@
+{
+  "number": 77585,
+  "title": "World Triathlon 2023 - Customs import formalities",
+  "description": "Accredited persons and accompanied luggages.\r\n\r\nDeclaration and authorisation of temporary admission and duty-free imports.\r\n\r\nCommunication of mandatory documents regarding the processing of specific goods (firearms, medicines, animals, etc).",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique"
+  ],
+  "datePublication": "2023-07-18T17:15:01+02:00",
+  "service": {
+    "nom": "DGDDI",
+    "organisme": "DGDDI",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/world-triathlon-2023-customs-import-formalities",
+  "dpoUrl": "https://douane.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "Guide des douanes - JO/JP 2024 / site douane.gouv.fr",
+  "cadreJuridiqueUrl": "https://eur-lex.europa.eu/eli/reg/2013/952/2020-01-01",
+  "logo": {
+    "filename": "World Triathlon.png",
+    "checksum": "dB2y1ijzKbDYWNn48fxuzA==",
+    "byteSize": "7080",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "CDU.pdf",
+    "checksum": "XrHIewCxEJ7eEcg++2In1Q==",
+    "byteSize": "1622947",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 25,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Legal capacity",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "I'm a minor or protected adult",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Identity of the person legaly responsible",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TitreIdentiteChampDescriptor",
+            "label": "ID document of the person legaly responsible",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Location of arrival in France",
+        "description": "",
+        "required": true,
+        "options": [
+          "Roissy Charles de Gaulle Airport",
+          "Orly Airport",
+          "Other"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Status",
+        "description": "Fill in the reason of your participation to the World Triathlon",
+        "required": true,
+        "options": [
+          "Dignitary",
+          "Athlete",
+          "Sports federation member",
+          "Sports federation doctor",
+          "Press team member",
+          "International technical officials"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Importation procedure",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "Day and time of arrival",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Departure country",
+        "description": "Fill in the country from which you are arriving.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "French adress",
+        "description": "Fill in the French adress where you will reside during the  World Triathlon.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Permanent import of goods",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Final importation with duty relief",
+        "description": "Reliefs from import duty allow certain types of goods, third-party to the European Union, to be imported, with total exemption from customs duties and taxes, intended to remain in, or even be consumed in, the territory. \r\n\r\n— exemption for pharmaceutical products used at international sporting events;  \r\n— import-related tax exemption relating to certain international relations (cuts, medals, trophies, etc.).",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Do I carry goods destined to be permanently imported ?",
+            "description": "",
+            "required": true,
+            "options": [
+              "Yes",
+              "No"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Types of duty relief",
+            "description": "Tick the following boxes regarding the type of goods imported.",
+            "required": true,
+            "options": [
+              "Pharmaceutical products used for an international sporting event",
+              "Rewards and medals"
+            ]
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Temporary import of goods",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Temporary Admission of goods",
+        "description": "The temporary admission procedure allows total or partial exoneration of customs duties and taxes for goods imported temporarily from third countries and which will be re-exported in the same state.\r\n\r\nDo not declare good which will be consumed.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Do I have goods destined to be reexported ?",
+            "description": "",
+            "required": true,
+            "options": [
+              "Yes",
+              "No"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Reason of temporary importation",
+            "description": "",
+            "required": true,
+            "options": [
+              "Professional Material: journalist, press",
+              "Professional Material: medical equipment",
+              "Sports equipment (competition, training, etc.)",
+              "Material for the organisation of the event.",
+              "Animals"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Estimated duration of stay",
+            "description": "",
+            "required": true,
+            "options": [
+              "3 month",
+              "6 month",
+              "12 month",
+              "18 month",
+              "24 month"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Principal storage location",
+            "description": "Mention the principal storage location of the goods.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Inventory of goods",
+        "description": "Join the .pdf file regarding the inventory of imported goods in accordance with Annex 6.11 of the Customs and Freight Guide edited by the Paris 2024 Organising Committee for the Olympic and Paralympic Games.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Specific goods",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Psychotropic or narcotic drugs and medicaments",
+        "description": "If you are an individual and are transporting psychotropic or narcotic drugs or substances for more than 3 months\r\n \r\nIf you are a doctor and transporting up to 10 units of narcotic substances.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Status",
+            "description": "",
+            "required": true,
+            "options": [
+              "I am an individual",
+              "I am a doctor"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Inventory of imported medicines, psychotropic or narcotif drugs",
+            "description": "If you are an individual, please bring a medical prescription in French or in English, which must be presented to the customs department in the event of a check on your arrival in France.\r\n",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Inventory of imported medicines, psychotropic or narcotif drugs",
+            "description": "If you are a doctor, please attach an inventory of imported medicines, psychotropic or narcotif drugs in French or English.",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "I come from Iceland, Liechtenstein, Norway or Switzerland and import narcotics and psychotropic drugs",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Certificate given by the country of origin",
+            "description": "If you are an individual coming from one of the country listed above, please bring the certificate given by the administration of the country of origin, which must be presented to the customs department in the event of a check on your arrival in France. ",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Animals",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "I imported my animal",
+            "description": "I come in France with my seeing-eye dog.\r\n\r\nPlease note: an original health certificate will be required for your pet upon arrival in France.",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "I come from a listed country or not",
+            "description": "",
+            "required": true,
+            "options": [
+              "No",
+              "Antigua and Barbuda",
+              "Argentina",
+              "Aruba",
+              "Australia",
+              "Bahrain",
+              "Barbados",
+              "Belarus",
+              "Bermuda",
+              "Bosnia and Herzegovina",
+              "Canada",
+              "Chile",
+              "Curaçao",
+              "United Arab Emirates",
+              "United States of America (including Guam, American Samoa, Northern Mariana Islands, Puerto Rico and U.S. Virgin Islands)",
+              "Fiji",
+              "Gibraltar",
+              "Guernsey",
+              "Hong Kong",
+              "Ascension Island, BES Islands (Bonaire, Sint Eustatius and Saba)",
+              "Cayman Islands",
+              "Falkland Islands",
+              "Isle of Man",
+              "British Virgin Islands",
+              "United Kingdom",
+              "Wallis and Futuna,",
+              "Jamaica",
+              "Japan",
+              "Jersey",
+              "North Macedonia",
+              "Malaysia",
+              "Mauritius",
+              "Mexico",
+              "Montserrat",
+              "New Caledonia",
+              "New Zealand",
+              "French Polynesia",
+              "Russia",
+              "St Kitts and Nevis",
+              "Sainte Hélène",
+              "Sainte Lucie",
+              "Sint Maarten (Dutch part – Sint Marteen)",
+              "Saint Pierre and Miquelon",
+              "Saint Vincent and the Grenadines Singapore",
+              "Taiwan",
+              "Trinidad and Tobago",
+              "Vanuatu",
+              "Andorra",
+              "Faroe Islands",
+              "Greenland",
+              "Iceland",
+              "Liechtenstein",
+              "Monaco",
+              "Norway",
+              "San Marino",
+              "Switzerland",
+              "Vatican City State"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Certificat of Rabies serum antibody titer tests",
+            "description": "If you don't come from one of the listed country, please attach the certificat of rabies serum antibody titer tests.",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

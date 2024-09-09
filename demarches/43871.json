@@ -1,0 +1,840 @@
+{
+  "number": 43871,
+  "title": "Lycée Sévigné - inscription des élèves de Seconde",
+  "description": "Inscription des élèves affectés au lycée, ayant déjà effectué la télé-inscription (complément d'inscription).",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2021-07-12T10:54:22+02:00",
+  "service": {
+    "nom": "Scolarité du lycée Sévigné",
+    "organisme": "Lycée Sévigné",
+    "typeOrganisme": "etablissement_enseignement"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/lycee-sevigne-inscription-des-eleves-de-seconde",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.lycee-sevigne-cesson.ac-rennes.fr/",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/fr/reglement-europeen-protection-donnees",
+  "logo": {
+    "filename": "Logo lycée Sevigné.jpg",
+    "checksum": "E1Igscoi6580r9r/sbhHyg==",
+    "byteSize": "99839",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTITÉ DE L’ÉLÈVE (Identique à la carte d'identité)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "CIVILITÉ DE L’ÉLÈVE",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM DE FAMILLE DE L’ÉLÈVE",
+        "description": "*Nom de famille : nom de naissance, obligatoire",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "PRÉNOMS DE L’ÉLÈVE",
+        "description": "Prénoms : dans l’ordre de l’état civil",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Pays de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nationalité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Insérer ici la copie livret de famille",
+        "description": "Fichier PDF",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Insérer ici la copie de l'extrait de jugement relatif à l'autorité parentale et la domiciliation de l'élève",
+        "description": "En cas de séparation ou divorce",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "AUTORISATIONS DIVERSES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Règlement intérieur",
+        "description": "J'atteste avoir pris connaissance du règlement intérieur du lycée Sévigné",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Droit à l'image",
+        "description": "Autorisation de photographier, filmer, stocker et diffuser l'image de votre enfant pour un usage pédagogique",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Distribution comprimés d'iodure de potassium",
+        "description": "En cas de déclenchement du dispositif \"ORSEC-IODE\"\n",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "COORDONNÉES DE L’ÉLÈVE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Résidence de l'élève :",
+        "description": null,
+        "required": true,
+        "options": [
+          "L'élève réside chez ses responsables",
+          "L'élève réside chez l'un de ses responsables",
+          "L'élève réside chez ses responsables par alternance",
+          "L'élève a sa propre adresse",
+          "Autre situation : préciser ci-dessous"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autre situation :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'élève",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email de l'élève",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone de l'élève",
+        "description": "Si l'élève ne possède pas de numéro de portable personnel, indiquez 00 00 00 00 00",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SCOLARITÉ DE L’ÉLÈVE 2020-2021",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Etablissement fréquenté en 2020-2021",
+        "description": "Nom de l'établissement et commune",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Classe",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Redoublement",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Elève boursier",
+        "description": "Avez-vous fait une demande de bourse de lycée ?",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Dispositif particulier mis en place",
+        "description": "Si cela est le cas, merci d’indiquer si l'élève bénéficie d'un dispositif particulier dans son établissement d'origine",
+        "required": false,
+        "options": [
+          "PAP (Plan d'accompagnement personnalisé)",
+          "PAI (Projet d'accueil individualisé)",
+          "PPS (Projet personnalisé de scolarisation)",
+          "PPRE (Projet personnalisé de réussite éducative)"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie du dispositif mis en oeuvre",
+        "description": "Copie scannée du projet ou du plan (en PDF)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SCOLARITÉ DE L’ÉLÈVE 2021-2022",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Langue vivante B",
+        "description": "Rappel de la deuxième langue vivante qui est nécessairement la poursuite de celle démarrée en 5ème et indiquée sur les Téléservices (La LVA est nécessairement l'anglais) ",
+        "required": true,
+        "options": [
+          "LVB Allemand",
+          "LVB Chinois",
+          "LVB Espagnol",
+          "LVB Italien"
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Section européenne anglais / Discipline Non Linguistique (DNL)",
+        "description": "ENSEIGNEMENT POSSIBLE APRÈS ACCORD DU CHEF D’ÉTABLISSEMENT\nSi vous êtes candidat : Fournir impérativement la copie des 3 bulletins de 3ème.\nIl est possible d’émettre 2 souhaits classés par ordre de préférence. \nSi 1 seul souhait est formulé et que le candidat n’est pas retenu, il n’aura pas la possibilité de postuler à l’autre Discipline Non Linguistique (DNL) après la commission qui se réunira le 07/07/2021.\nLes réponses seront transmises par mail.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "1er choix de DNL",
+        "description": null,
+        "required": false,
+        "options": [
+          "DNL Histoire-géographie",
+          "DNL Physique Chimie"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Second choix de DNL (le cas échéant)",
+        "description": null,
+        "required": false,
+        "options": [
+          "DNL Histoire-géographie",
+          "DNL Physique Chimie"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Enseignements optionnels",
+        "description": "Pour le japonais : fournir obligatoirement les 3 bulletins de 3ème. Une sélection sera effectuée en fonction du nombre des demandes.\n",
+        "required": false,
+        "options": [
+          "LVC Japonais (3h/semaine)",
+          "Langue et Culture de l'Antiquité (Latin) (3h/semaine)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bulletins 3ème (pour la DNL ou le japonais)",
+        "description": "Scannez et envoyez les 3 bulletins de 3ème.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "HÉBERGEMENT 2021-2022",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Régime",
+        "description": "Le régime \"Interne\" ne concerne que les élèves des Sections et Pôles sportifs",
+        "required": true,
+        "options": [
+          "Externe",
+          "Demi-pensionnaire 4 jours",
+          "Demi-pensionnaire 5 jours",
+          "Interne (réservé aux élèves des Sections et Pôles sportifs)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "REPRÉSENTANT LÉGAL (à contacter en priorité)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Définition",
+        "description": "Le représentant légal détient l'autorité parentale sur l'élève mineur soit par nature (parents), soit sur décision de justice. Il peut accomplir tous les actes relatifs à la scolarité de l'élève.",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Lien avec l'élève",
+        "description": "Le lien avec l'élève est à choisir parmi : mère, père, ascendant (grand-parent), fratrie (sœur, frère), autre membre de la famille (oncle, tante, cousin, etc.), tuteur, élève lui-même (pour les élèves majeurs), Aide Sociale à l'Enfance, éducateur, assistant familial, autre lien (ex : beau-parent)",
+        "required": true,
+        "options": [
+          "Mère",
+          "Père",
+          "Ascendant (grand-parent)",
+          "Fratrie (Sœur, frère)",
+          "Autre membre de la famille (oncle, tante, cousin, etc...)",
+          "Tuteur",
+          "Élève lui même (pour les élèves majeurs)",
+          "Aide sociale à l'enfance",
+          "Éducateur",
+          "Assistant familial",
+          "Autre lien"
+        ]
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de famille",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom d'usage (si différent)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Situation d'emploi",
+        "description": "",
+        "required": true,
+        "options": [
+          "1 - Emploi",
+          "2 - Chômage",
+          "3 - En retraite",
+          "4 - Autre"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Préciser la catégorie socio-professionnelle",
+        "description": null,
+        "required": true,
+        "options": [
+          "10 - AGRICULTEUR EXPLOITANT",
+          "21 - ARTISAN",
+          "37 - CADRE ADMINIS. ET COMMERC. D'ENTREPRISE",
+          "33 - CADRE DE LA FONCTION PUBLIQUE",
+          "23 - CHEF ENTREPRISE DE DIX SALARIES OU PLUS",
+          "81 - CHÔMEUR N'AYANT JAMAIS TRAVAILLE",
+          "44 - CLERGÉ, RELIGIEUX",
+          "22 - COMMERÇANT ET ASSIMILE",
+          "48 - CONTREMAÎTRE, AGENT DE MAÎTRISE",
+          "55 - EMPLOYÉ DE COMMERCE",
+          "54 - EMPLOYÉ ADMINISTRATIF D'ENTREPRISE",
+          "52 - EMPL.CIVIL - AGENT SERVICE FONCT. PUBL.",
+          "35 - PROFESSION INFORMATION, ARTS, SPECTACLE",
+          "38 - INGÉNIEUR - CADRE TECHN. D'ENTREPRISE",
+          "42 - INSTITUTEUR ET ASSIMILE",
+          "99 - NON RENSEIGNÉE (INCONNUE OU SANS OBJET)",
+          "69 - OUVRIER AGRICOLE",
+          "66 - OUVRIER NON QUALIFIE",
+          "61 - OUVRIER QUALIFIE",
+          "31 - PROFESSION LIBÉRALE",
+          "46 - PROFESSION INTERM. ADM.-COMMERCE ENTR.",
+          "45 - PROFESSION INTERM. ADM. FONCT. PUBL.",
+          "43 - PROFESSION INTERM. SANTÉ-TRAVAIL SOCIAL",
+          "53 - POLICIER ET MILITAIRE",
+          "34 - PROFESSEUR ET ASSIMILE",
+          "71 - RETRAITE AGRICULTEUR EXPLOITANT",
+          "72 - RETRAITE ARTISAN, COMMERC.CHEF ENTREP.",
+          "73 - RETRAITE CADRE, PROFES. INTERMÉDIAIRE",
+          "76 - RETRAITE EMPLOYÉ ET OUVRIER",
+          "82 - PERSONNE SANS ACTIVITÉ PROFESSIONNELLE",
+          "56 - PERSON. SERVICE DIRECT AUX PARTICULIERS",
+          "47 - TECHNICIEN"
+        ]
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse Email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone mobile",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone domicile (fixe)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone travail",
+        "description": "Utilisé en cas d'urgence",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "J'accepte de communiquer mes coordonnées aux associations de parents d'élèves",
+        "description": "FCPE et GPE (voir le document d'information joint avec les documents d'inscription)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "AUTRE REPRÉSENTANT LÉGAL",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Lien avec l'élève",
+        "description": null,
+        "required": false,
+        "options": [
+          "Mère",
+          "Père",
+          "Ascendant (grand-parent)",
+          "Fratrie (Sœur, frère)",
+          "Autre membre de la famille (oncle, tante, cousin, etc...)",
+          "Tuteur",
+          "Élève lui même (pour les élèves majeurs)",
+          "Aide sociale à l'enfance",
+          "Éducateur",
+          "Assistant familial",
+          "Autre lien"
+        ]
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de famille",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom d'usage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Situation d'emploi",
+        "description": null,
+        "required": false,
+        "options": [
+          "1 - Emploi",
+          "2 - Chômage",
+          "3 - En retraite",
+          "4 - Autre"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Préciser la catégorie socio-professionnelle",
+        "description": null,
+        "required": false,
+        "options": [
+          "10 - AGRICULTEUR EXPLOITANT",
+          "21 - ARTISAN",
+          "37 - CADRE ADMINIS. ET COMMERC. D'ENTREPRISE",
+          "33 - CADRE DE LA FONCTION PUBLIQUE",
+          "23 - CHEF ENTREPRISE DE DIX SALARIES OU PLUS",
+          "81 - CHÔMEUR N'AYANT JAMAIS TRAVAILLE",
+          "44 - CLERGÉ, RELIGIEUX",
+          "22 - COMMERÇANT ET ASSIMILE",
+          "48 - CONTREMAÎTRE, AGENT DE MAÎTRISE",
+          "55 - EMPLOYÉ DE COMMERCE",
+          "54 - EMPLOYÉ ADMINISTRATIF D'ENTREPRISE",
+          "52 - EMPL.CIVIL - AGENT SERVICE FONCT. PUBL.",
+          "35 - PROFESSION INFORMATION, ARTS, SPECTACLE",
+          "38 - INGÉNIEUR - CADRE TECHN. D'ENTREPRISE",
+          "42 - INSTITUTEUR ET ASSIMILE",
+          "99 - NON RENSEIGNÉE (INCONNUE OU SANS OBJET)",
+          "69 - OUVRIER AGRICOLE",
+          "66 - OUVRIER NON QUALIFIE",
+          "61 - OUVRIER QUALIFIE",
+          "31 - PROFESSION LIBÉRALE",
+          "46 - PROFESSION INTERM. ADM.-COMMERCE ENTR.",
+          "45 - PROFESSION INTERM. ADM. FONCT. PUBL.",
+          "43 - PROFESSION INTERM. SANTÉ-TRAVAIL SOCIAL",
+          "53 - POLICIER ET MILITAIRE",
+          "34 - PROFESSEUR ET ASSIMILE",
+          "71 - RETRAITE AGRICULTEUR EXPLOITANT",
+          "72 - RETRAITE ARTISAN, COMMERC.CHEF ENTREP.",
+          "73 - RETRAITE CADRE, PROFES. INTERMÉDIAIRE",
+          "76 - RETRAITE EMPLOYÉ ET OUVRIER",
+          "82 - PERSONNE SANS ACTIVITÉ PROFESSIONNELLE",
+          "56 - PERSON. SERVICE DIRECT AUX PARTICULIERS",
+          "47 - TECHNICIEN"
+        ]
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse Email",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone mobile",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone domicile (fixe)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone travail",
+        "description": "Utilisé en cas d'urgence",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "J'accepte de communiquer mes coordonnées aux associations de parents d'élèves",
+        "description": "FCPE et GPE (voir le document d'information joint avec les documents d'inscription)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATIONS FINANCIÈRES obligatoires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom/Prénom du responsable financier",
+        "description": "Personne qui paie les frais scolaires (restauration et/ou internat).",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Lien avec l'élève",
+        "description": null,
+        "required": true,
+        "options": [
+          "Mère",
+          "Père",
+          "Ascendant (grand-parent)",
+          "Fratrie (Sœur, frère)",
+          "Autre membre de la famille (oncle, tante, cousin, etc...)",
+          "Tuteur",
+          "Élève lui même (pour les élèves majeurs)",
+          "Aide sociale à l'enfance",
+          "Éducateur",
+          "Assistant familial",
+          "Autre lien"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre obligatoirement un relevé d'identité bancaire",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom/Prénom de la personne qui perçoit les bourses",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Lien avec l'élève",
+        "description": null,
+        "required": false,
+        "options": [
+          "Mère",
+          "Père",
+          "Ascendant (grand-parent)",
+          "Fratrie (Sœur, frère)",
+          "Autre membre de la famille (oncle, tante, cousin, etc...)",
+          "Tuteur",
+          "Élève lui même (pour les élèves majeurs)",
+          "Aide sociale à l'enfance",
+          "Éducateur",
+          "Assistant familial",
+          "Autre lien"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Autorisation de déductibilité",
+        "description": "Acceptez-vous que les bourses soient automatiquement utilisées pour le règlement de la restauration et/ou de l'internat ?",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PERSONNE AYANT LA CHARGE EFFECTIVE DE L’ÉLÈVE (assistant familial, foyer d'accueil...) à contacter en priorité et à compléter le cas échéant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Définition",
+        "description": "La personne en charge de l'élève lorsqu'elle existe est différente des représentants légaux : elle n'a pas l'autorité parentale sur l'élève mineur, elle héberge l'élève sur décision de justice ou avec l'accord des parents et elle est responsable de l'obligation scolaire",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Lien avec l'élève",
+        "description": null,
+        "required": false,
+        "options": [
+          "Mère",
+          "Père",
+          "Ascendant (grand-parent)",
+          "Fratrie (Sœur, frère)",
+          "Autre membre de la famille (oncle, tante, cousin, etc...)",
+          "Tuteur",
+          "Élève lui même (pour les élèves majeurs)",
+          "Aide sociale à l'enfance",
+          "Éducateur",
+          "Assistant familial",
+          "Autre lien"
+        ]
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de famille",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom d'usage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Situation d'emploi",
+        "description": null,
+        "required": false,
+        "options": [
+          "1 - Emploi",
+          "2 - Chômage",
+          "3 - En retraite",
+          "4 - Autre"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Préciser la catégorie socio-professionnelle",
+        "description": null,
+        "required": false,
+        "options": [
+          "10 - AGRICULTEUR EXPLOITANT",
+          "21 - ARTISAN",
+          "37 - CADRE ADMINIS. ET COMMERC. D'ENTREPRISE",
+          "33 - CADRE DE LA FONCTION PUBLIQUE",
+          "23 - CHEF ENTREPRISE DE DIX SALARIES OU PLUS",
+          "81 - CHÔMEUR N'AYANT JAMAIS TRAVAILLE",
+          "44 - CLERGÉ, RELIGIEUX",
+          "22 - COMMERÇANT ET ASSIMILE",
+          "48 - CONTREMAÎTRE, AGENT DE MAÎTRISE",
+          "55 - EMPLOYÉ DE COMMERCE",
+          "54 - EMPLOYÉ ADMINISTRATIF D'ENTREPRISE",
+          "52 - EMPL.CIVIL - AGENT SERVICE FONCT. PUBL.",
+          "35 - PROFESSION INFORMATION, ARTS, SPECTACLE",
+          "38 - INGÉNIEUR - CADRE TECHN. D'ENTREPRISE",
+          "42 - INSTITUTEUR ET ASSIMILE",
+          "99 - NON RENSEIGNÉE (INCONNUE OU SANS OBJET)",
+          "69 - OUVRIER AGRICOLE",
+          "66 - OUVRIER NON QUALIFIE",
+          "61 - OUVRIER QUALIFIE",
+          "31 - PROFESSION LIBÉRALE",
+          "46 - PROFESSION INTERM. ADM.-COMMERCE ENTR.",
+          "45 - PROFESSION INTERM. ADM. FONCT. PUBL.",
+          "43 - PROFESSION INTERM. SANTÉ-TRAVAIL SOCIAL",
+          "53 - POLICIER ET MILITAIRE",
+          "34 - PROFESSEUR ET ASSIMILE",
+          "71 - RETRAITE AGRICULTEUR EXPLOITANT",
+          "72 - RETRAITE ARTISAN, COMMERC.CHEF ENTREP.",
+          "73 - RETRAITE CADRE, PROFES. INTERMÉDIAIRE",
+          "76 - RETRAITE EMPLOYÉ ET OUVRIER",
+          "82 - PERSONNE SANS ACTIVITÉ PROFESSIONNELLE",
+          "56 - PERSON. SERVICE DIRECT AUX PARTICULIERS",
+          "47 - TECHNICIEN"
+        ]
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse Email",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone mobile",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone domicile (fixe)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone travail",
+        "description": "Utilisé en cas d'urgence",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "AUTRE PERSONNE A CONTACTER le cas échéant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Lien avec l'élève",
+        "description": null,
+        "required": false,
+        "options": [
+          "Mère",
+          "Père",
+          "Ascendant (grand-parent)",
+          "Fratrie (Sœur, frère)",
+          "Autre membre de la famille (oncle, tante, cousin, etc...)",
+          "Tuteur",
+          "Élève lui même (pour les élèves majeurs)",
+          "Aide sociale à l'enfance",
+          "Éducateur",
+          "Assistant familial",
+          "Autre lien"
+        ]
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de famille",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom d'usage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone mobile",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone domicile (fixe)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone travail",
+        "description": "Utilisé en cas d'urgence",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je soussigné, en tant que responsable légal, valider définitivement l'inscription de mon enfant au lycée Sévigné et attester agir avec l'autorisation de tous les détenteurs de l'autorité parentale",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

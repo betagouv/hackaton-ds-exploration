@@ -1,0 +1,258 @@
+{
+  "number": 17906,
+  "title": "Procédure CUS - Département de Seine-Maritime",
+  "description": "Le présent outil est utilisé pour les échanges entre l'administration et les bailleurs sociaux tenus de signer une Convention d'Utilité Sociale (CUS) dont le siège se situe dans la région Normandie. Il vise à améliorer les échanges entre les bailleurs et les services de l’État dans le cadre de cette procédure.\r\nCet outil est composé des éléments suivants :\r\n- Un formulaire dématérialisé,\t\r\n- Une plateforme d’échange de messages entre bailleur et instructeur,\r\n- La \ttransmission de pièces jointes, dans le cadre de la procédure ou \tpar messagerie, \r\n- Une procédure « minimaliste » d’instruction des CUS à destination des bailleurs.",
+  "tags": [
+    "Logement"
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2023-05-09T13:26:15+02:00",
+  "service": {
+    "nom": "DDTM Seine-Maritime",
+    "organisme": "Préfecture de Seine-Maritime",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/transmission_cus76",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.cohesion-territoires.gouv.fr/convention-d-utilite-sociale-2e-generation",
+  "cadreJuridiqueUrl": "",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 9,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d’organisme",
+        "description": "",
+        "required": true,
+        "options": [
+          "OPH",
+          "SA HLM",
+          "SCIC",
+          "SCP",
+          "SEM"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Type de CUS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "1. Partie CUS \"ordinaire\"",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de logements locatifs sociaux ordinaires détenus",
+        "description": "Données au 01/01/2019. Pour les SEM, nombre de logements conventionnés à l’APL, nombre de logements à usage locatif leur appartenant et construits, acquis ou améliorés avec le concours financier de l’État.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "2. Partie logement foyer de la CUS",
+        "description": "Rappel : \n- si le patrimoine de l’organisme comporte uniquement des logement foyers, sa CUS relève de des articles R445-30 et suivants. \n-Si le patrimoine comporte du locatif ordinaire, mais est majoritairement en logements-foyers, un partie logement foyer est ajoutée à la CUS ordinaire, conformément aux articles de la section 7 sous-section 1. \n-Si le patrimoine est majoritairement ordinaire, on ajoute à la CUS ordinaire les éléments des R445-36 et -37.",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de logements foyers gérés en logements équivalents",
+        "description": "1 logement équivalent égal à : \r\n- 3 lits si pas d'éléments d'autonomie - 1 à part entière si normes d'habitabilité respectés et éléments d'autonomie ",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Part de logements foyers dans le parc social (logement équivalent)",
+        "description": "",
+        "required": true,
+        "options": [
+          "Sans objet",
+          "<50 %",
+          "Entre >50% et <100 %",
+          "100 %"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "3. Partie accession à la propriété de la CUS",
+        "description": "Si l’organisme ne dispose pas de patrimoine locatif et exerce une activité d'accession sociale à la propriété, il réalise une CUS \"Accession\". \r\nSi l’organisme exerce une activité d'accession à la propriété, à l'exception des organismes ayant vendu moins de 20 logements neufs dans des opérations d’accession à la propriété de 2017 à 2019, la CUS comporte également le plan de développement ainsi que les indicateurs de l’accession.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L’organisme exerce t-il une activité d’accession à la propriété ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Ventes en accession réalisées de 2017 à 2019",
+        "description": "",
+        "required": true,
+        "options": [
+          "Sans objet",
+          "<20 sur les 3 ans",
+          "+ de 20 sur les 3 ans"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Plan stratégique de patrimoine",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Dernière date de réalisation ou d’actualisation du PSP (moins de 3 ans à la date d'entrée en vigueur de la CUS)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Appartenance à un groupe ou à une société de coordination (SC)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L’organisme appartient-il à un groupe ou à une SC ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du groupe et SIREN",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si votre organisme appartient à un groupe ou à une SC, disposez-vous du cadre stratégique patrimonial commun et du cadre stratégique d'utilité sociale commun de votre groupe ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Nouvelle politique des loyers (pour information)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "L’organisme prévoit-il de mettre en place la NPL pendant la durée de la CUS ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Certainement",
+          "Peut-être",
+          "Certainement pas",
+          "Ne se prononce pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si oui, en quelle année ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Délibération approuvant le PSP",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "PSP de l'organisme",
+        "description": "Transmission du PSP obligatoire au moment de la signature de la CUS",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Délibération de lancement de la CUS",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Projet de CUS",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de vente",
+        "description": "Tableur type fourni par la DDTM 76",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Lettre de transmission du projet de CUS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments relatifs à l'association des PPA",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments relatifs à la concertation locative",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau Excel des objectif / indicateurs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Annexe 1",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Annexe 2",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Annexe 3",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

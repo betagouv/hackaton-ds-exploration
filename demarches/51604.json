@@ -1,0 +1,500 @@
+{
+  "number": 51604,
+  "title": "92-Demande de permis de stationnement pour mise en place d'un échafaudage, sur places existantes ou sur voie de circulation (route, piste cyclable, voie de bus ou trottoir)v4",
+  "description": "Pour le département des Hauts-de-Seine (92) et pour les routes classées à grande circulation, demande de permis de stationnement pour mise en place d'un échafaudage, sur places existantes ou sur voie de circulation (route, piste cyclable, voie de bus ou trottoir).",
+  "tags": [
+    "Transport"
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2021-12-03T12:25:54+01:00",
+  "service": {
+    "nom": "DRIEAT-ILE DE FRANCE (partie arrêtés de circulation 92)",
+    "organisme": "Service de la sécurité des transports-Département Sécurité, Education et Circulation Routières",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/92-demande-de-permis-de-stationnement-pour-mise-en",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.driea.ile-de-france.developpement-durable.gouv.fr",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "procedure-636c0972-0b02-4cb1-b572-00ad5120db18.png",
+    "checksum": "yN95vRmiHpcNmRDoOFwkew==",
+    "byteSize": "5704",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 38,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le formulaire est séparé en plusieurs parties",
+        "description": "Première partie : échafaudage\nDeuxième partie : éléments annexes (base vie du chantier, stockage des éléments de l'échafaudage, stationnement des véhicules)\nTroisième partie : coordonnées (société chargée des travaux et demandeur)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "\"Partie échafaudage\" : Situation géographique [lieu d'installation (stationnement) de l'échafaudage]",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Lieu d'installation (stationnement) de l'échafaudage",
+        "description": "Plusieurs choix sont possibles.\nAttention, le stationnement sur les emplacements réservés est interdit (vigipirate, police, GIG, GIC, transports de fonds, ...).",
+        "required": true,
+        "options": [
+          "Sur cheminement piéton (trottoir)",
+          "Sur place matérialisée (place de stationnement)",
+          "Sur place de livraison",
+          "Sur arrêt-minute",
+          "Sur une contre-allée côté habitation (allée parallèle à la voie de circulation principale)",
+          "Sur une contre-allée côté voie de circulation (allée parallèle à la voie de circulation principale)",
+          "Sur voie de bus",
+          "Sur voie cyclable (piste vélo)",
+          "Sur 1 voie de circulation (voie de droite)",
+          "Sur 1 voie de circulation (voie de gauche)",
+          "Sur 2 voies de circulation",
+          "Sur la totalité des voies de circulation"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro(s) du lieu de stationnement",
+        "description": "exemple : 52 - 64",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du lieu concerné par la demande de stationnement",
+        "description": "Rue, code postal, ville\n\nNous vous conseillons de vous assurer que le stationnement est possible (absence de travaux sur les places par exemple)\n",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Numéro de la route départementale",
+        "description": "Dans le doute, nous vous conseillons :\n- d'effectuer une recherche sur un moteur de recherche.\n- de vous adresser à la mairie du lieu de la demande",
+        "required": true,
+        "options": [
+          "D7",
+          "D17",
+          "D19",
+          "D131",
+          "D907",
+          "D908",
+          "D909",
+          "D910",
+          "D911",
+          "D912",
+          "D913",
+          "D914",
+          "D920",
+          "D985",
+          "D986",
+          "D992",
+          "Route du bassin n°5",
+          "Route du bassin n°6",
+          "Route principale du port"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précision complémentaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "\"Partie échafaudage\" : Dimension de l'échafaudage et occupation au sol",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Longueur de l'échafaudage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Largeur de l'échafaudage",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface de l'échafaudage",
+        "description": "Surface = Longueur * largeur",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nombre de place(s) de stationnement matérialisée(s) et réglementaire(s) à neutraliser",
+        "description": "Si l'échafaudage est positionné sur une (ou des) place(s) de stationnement",
+        "required": true,
+        "options": [
+          "aucune",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          ">30"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "\"Partie échafaudage\" : Calendrier \"travaux\" (montage et démontage inclus)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "\"Travaux\" : Date et heure de début :",
+        "description": "Mentionner la durée totale des travaux (montage + travaux + démontage)",
+        "required": true
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "\"Travaux\" : Date et heure de fin :",
+        "description": "Mentionner la durée totale des travaux (montage + travaux + démontage)",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "\"Travaux\": Cheminement piéton",
+        "description": null,
+        "required": true,
+        "options": [
+          "Sur trottoir existant avec la présence d'un \"homme trafic\"",
+          "Sur trottoir existant avec la présence d'une barrière",
+          "Sous l'échafaudage avec la présence d'une bâche",
+          "Sur trottoir opposé"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "\"Partie échafaudage\" : Calendrier \"montage\" de l'échafaudage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "\"Montage\" de l'échafaudage : Date et heure de début :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "\"Montage\" de l'échafaudage : Date et heure de fin :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "\"Montage\" : Cheminement piéton",
+        "description": null,
+        "required": true,
+        "options": [
+          "Sur trottoir existant avec la présence d'un \"homme trafic\"",
+          "Sur trottoir opposé"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "\"Partie échafaudage\": Calendrier \"démontage\" de l'échafaudage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "\"Démontage\" de l'échafaudage : Date et heure de début :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "\"Démontage\" de l'échafaudage : Date et heure de fin :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "\"Démontage\" : Cheminement piéton",
+        "description": null,
+        "required": true,
+        "options": [
+          "Sur trottoir existant avec la présence d'un \"homme trafic\"",
+          "Sur trottoir opposé"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "\"Eléments annexes (base vie du chantier, stockage des éléments de l'échafaudage, stationnement des véhicules)\" :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "\"Eléments annexes\" : Présence d'éléments annexes",
+        "description": "Si oui, veuillez renseigner les cases suivantes",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "\"Eléments annexes\" : Lieu d'installation (stationnement) des éléments annexes",
+        "description": "Plusieurs choix sont possibles.\nAttention, le stationnement sur les emplacements réservés est interdit (vigipirate, police, GIG, GIC, transports de fonds, ...).",
+        "required": false,
+        "options": [
+          "Sur cheminement piéton (trottoir)",
+          "Sur place matérialisée (place de stationnement)",
+          "Sur place de livraison",
+          "Sur arrêt-minute",
+          "Sur une contre-allée côté habitation (allée parallèle à la voie de circulation principale)",
+          "Sur une contre-allée côté voie de circulation (allée parallèle à la voie de circulation principale)",
+          "Sur voie de bus",
+          "Sur voie cyclable (piste vélo)",
+          "Sur 1 voie de circulation (voie de droite)",
+          "Sur 1 voie de circulation (voie de gauche)",
+          "Sur 2 voies de circulation",
+          "Sur la totalité des voies de circulation"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "\"Eléments annexes\" : Nombre de place(s) de stationnement matérialisée(s) et réglementaire(s) à neutraliser",
+        "description": null,
+        "required": false,
+        "options": [
+          "aucune",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          ">30"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "\"Eléments annexes\" : Nombre de mètre linéaire à neutraliser",
+        "description": "A renseigner en cas de neutralisation de place(s) de stationnement matérialisée(s) et réglementaire(s), ou de stationnement sur trottoir",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "\"Eléments annexes\" : Numéro du lieu du stationnement",
+        "description": "A renseigner en cas de neutralisation de place(s) de stationnement matérialisée(s) et réglementaire(s), ou de stationnement sur trottoir",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "\"Eléments annexes\" : Adresse du lieu du stationnement",
+        "description": "A renseigner en cas de neutralisation de place(s) de stationnement matérialisée(s) et réglementaire(s), ou de stationnement sur trottoir",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées de la personne morale (société)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les travaux sont-ils effectués par une personne morale (société) ?",
+        "description": "Si oui, veuillez renseigner les coordonnées de la personne morale",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "N° du SIRET",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la société",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse complète de la société",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone de la société",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique de la société",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Responsable des travaux",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du responsable des travaux",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du responsable des travaux",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique du responsable des travaux",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées du permissionnaire (personne physique ou morale qui sera redevable de la redevance (facture) relative au permis de stationnement)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "En application de l’article L 2331-4-8 du code général des collectivités territoriales, l’autorisation délivrée donne lieu au paiement d’une redevance dont le montant, les modalités de paiement et de révision sont fixées par la commune du lieu du stationnement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom + prénom, ou Nom de la société",
+        "description": "Préciser les coordonnées du destinataire de la redevance (facture)",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET de la société (en cas de société uniquement)",
+        "description": "Préciser les coordonnées du destinataire de la redevance (facture)",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse complète",
+        "description": "Préciser les coordonnées du destinataire de la redevance (facture)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Complément d'adresse",
+        "description": "Préciser les coordonnées du destinataire de la redevance (facture)",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Préciser les coordonnées du destinataire de la redevance (facture)",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": "Préciser les coordonnées du destinataire de la redevance (facture)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Photographie très récente du ou des lieux concernés par la demande",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de situation (ou schéma) précisant les cotations du ou des lieux concerné(s) par la demande",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

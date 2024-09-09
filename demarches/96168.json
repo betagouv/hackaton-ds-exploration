@@ -1,0 +1,940 @@
+{
+  "number": 96168,
+  "title": "Demande de subvention investissement ALSH",
+  "description": "Ceci est le formulaire électronique qui vous permet de compléter une demande de subvention d’investissement ALSH à destination de la CAF du Pas De Calais.\r\n\r\nIl est à noter que toutes demandes de financement sur fonds nationaux doivent faire l’objet d’une sollicitation auprès de la Cnaf. \r\n\r\nPour 2024, les projets doivent être déposés au maximum pour le 1er aout. \r\nAprès cette date, ils seront provisionnés sur l’enveloppe nationale 2025. \r\n\r\nPour bénéficier d’un soutien méthodologique ou de renseignements complémentaires, veuillez prendre contact avec l’Antenne de Développement social de votre Territoire (coordonnées sur la caf.fr)\r\n",
+  "tags": [
+    "Subvention"
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2024-07-05T15:33:10+02:00",
+  "service": {
+    "nom": "SERVICE ACTION SOCIALE",
+    "organisme": "CAF PAS DE CALAIS",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-subvention-investissement-alsh",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": {
+    "filename": "LOGO_COULEUR.JPG",
+    "checksum": "V69ixq98NBhHtnNpuOy06w==",
+    "byteSize": "17088",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 6,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Veuillez cocher la case correspondant à votre demande",
+        "description": "",
+        "required": true,
+        "options": [
+          "Première Demande",
+          "Renouvellement de la demande"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Antenne de Développement Social ( ADS) CAF de rattachement",
+        "description": "Si besoin, un document figure sur le caf.fr vous permettant d’identifier votre antenne caf de rattachement ( En fonction du territoire sur lequel le projet est développé )\r\n",
+        "required": true,
+        "options": [
+          "ARRAS",
+          "BETHUNE",
+          "BOULOGNE-SUR-MER",
+          "BRUAY-LA-BUISSIERE",
+          "CALAIS",
+          "CARVIN",
+          "ETAPLES-SUR-MER",
+          "LENS",
+          "ST OMER"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1 - INFORMATIONS CONCERNANT LE DEMANDEUR",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Nouveau champ",
+        "description": "Le promoteur désigne le financeur du projet d’investissement. Il peut être différent du porteur de projet qui lui-même peut être différent du gestionnaire de l’activité. \r\nIl peut s’agir :\r\n- de collectivités territoriales (EPCI, Communes…) ;\r\n- d’organismes à but non lucratif (associations, comités d’entreprises, centre communal d’action sociale, établissement public, fondation, mutuelle…) ;\r\n- d’entreprises du secteur marchand.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1-1- INFORMATIONS SUR LE PROMOTEUR",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Coordonnées :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1-1-1-Dénomination du promoteur",
+        "description": "Promoteur = le financeur du projet",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "1-1-2- Statut juridique du promoteur",
+        "description": "",
+        "required": true,
+        "options": [
+          "Association loi 1901",
+          "Collectivité Territoriale",
+          "Établissement Public",
+          "Établissement Privé",
+          "Entreprise Privée",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1-1-3- Si autre, précisez",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "1-1-4- Numéro de SIRET/SIREN",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "1-1-5 - Adresse du promoteur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "1-1-6 - Numéro de Téléphone du promoteur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "1-1-7 - Adresse Email du promoteur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1-1-8 - Site internet du promoteur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Représentant légal :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1-1-9-Nom/Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1-1-10-Fonction",
+        "description": "Président, maire….",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Référent du Dossier :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1-1-11-Nom & Prénom du référent du Projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1-1-12- Fonction du référent du Projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "1-1-13 - Adresse électronique du référent du Projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "1-1-14 - Téléphone du référent du Projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1-2- INFORMATIONS SUR LE PORTEUR DU PROJET",
+        "description": "Adresse de correspondance, si différent du promoteur)",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "1-2-1- Le financeur du projet est-il différent du porteur de projet ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si oui,  merci de répondre aux questions 1-2-2  à 1-2-7",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "1-2-2- Civilité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1-2-3- Nom & Prénom du porteur de projet :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1-2-4- Fonction du porteur de projet :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "1-2-5- Adresse du porteur de projet  :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "1-2-6-- Coordonnées téléphoniques  :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "1-2-7-- Adresse électronique :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1-3- INFORMATIONS SUR LE GESTIONNAIRE OU FUTUR GESTIONNAIRE DE L'EQUIPEMENT",
+        "description": "Si le gestionnaire est différent du promoteur, merci de répondre aux questions Q 19 à Q 25",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si le gestionnaire est différent du promoteur, merci de répondre aux questions 1-3-1  à 1-3-7",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1-3-1- Dénomination du gestionnaire :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "1-3-2-  Statut juridique du gestionnaire *",
+        "description": "",
+        "required": false,
+        "options": [
+          "Association loi 1901",
+          "Collectivité Territoriale",
+          "Établissement Public",
+          "Établissement Privé",
+          "Entreprise Privée",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1-3-3-  Si autre, précisez :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1-3-4- Nom & Prénom du référent du Projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1-3-5 -Fonction du référent du Projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "1-3-6-  Adresse électronique du référent du Projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "1-3-7- Téléphone du référent du Projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2- PRESENTATION DU PROJET",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2-1- BESOINS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "2-1-1 - Contexte local",
+        "description": "Population, type d’habitat, situation géographique de la commune.....",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "2-1-2- Diagnostic :",
+        "description": "Expliciter les motifs et l’opportunité de l’opération au regard : \r\n-\tdes besoins du territoire au regard notamment de l’offre déjà existante ;\r\n-\tde la contribution à l’amélioration de l’attractivité de l’offre éducative \r\n-\tde l’amélioration des conditions de travail du personnel \r\n-\tdu développement de l’offre \r\n-\tde l’amélioration des conditions d’accueil des enfants en situation de handicap et des enfants en situation d’exclusion \r\n-\tde la réponse aux enjeux de transition écologiques \r\n\r\nEn complément , il vous est demandé de joindre le diagnostic au dossier en pièce jointe",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "2-1-3- Indiquer les structures existantes qui offrent le même service sur votre territoire et en quoi votre projet est-il complémentaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "2-1-4- Le projet est-il inclus dans le plan d’actions d’une Convention Territoriale Globale (CTG) ?",
+        "description": "Si c'est cas , précisez l'axe et la fiche action auquel se projet se rapporte",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2-2-EXPOSE DE LA DEMANDE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "2-2-1- Nature du projet",
+        "description": "",
+        "required": true,
+        "options": [
+          "► Création d’un ALSH",
+          "► Rénovation/extension d’un ALSH existant avec développement de l’offre",
+          "► Rénovation/extension d’un ALSH existant sans développement de l’offre",
+          "► Transplantation d’un ALSH avec développement de l’offre",
+          "► Transplantation d’un ALSH sans développement de l’offre",
+          "► Aménagements extérieurs d’espaces dédiés à un ALSH",
+          "► Développement de la mobilité douce",
+          "► Acquisition d’équipement (ameublement, matériel pédagogique)",
+          "► Informatisation de l’ALSH",
+          "►Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "2-2-2-Description du projet",
+        "description": "Expliciter, de manière synthétique, en quoi consiste précisément votre projet ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "2-2-3- Objectifs – Précisez ici les objectifs recherchés dans la mise en œuvre de projet.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "2-2-4-Objet de la demande de cofinancement",
+        "description": "",
+        "required": true,
+        "options": [
+          "► Achat d’un bien immobilier (terrain ou bâtiment)",
+          "► Construction d’un bâtiment",
+          "► Rénovation d’un bâtiment",
+          "► Extension d’un bâtiment",
+          "► Aménagements extérieurs",
+          "► Achat de matériel d’animation pédagogique (Hors matériel informatique de gestion)",
+          "► Achat de mobilier",
+          "► Achat de matériel informatique de gestion",
+          "► Achat de logiciel de gestion",
+          "► Honoraires et frais liés à la conception/réalisation du projet (Frais de maîtrise d’œuvre Bureau de contrôle, études diverses, assurances…)",
+          "► Aménagement pour faciliter la mobilité douce (accès aux transports en commun, création de parking à vélo…)",
+          "► Autre"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "2-2-5- Si autre, précisez",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si le projet concerne des travaux, merci de compléter les questions 2-2-6 à 2-2-11",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "2-2-6- A quel titre occupez-vous ces locaux ?",
+        "description": "Merci de compléter en annexe le formulaire correspondant ",
+        "required": false,
+        "options": [
+          "► Projet d'acquisition",
+          "► Propriétaire",
+          "► Locataire",
+          "► Mise à disposition"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "2-2-7 - Ces locaux sont-ils/seront-ils mutualisés avec d'autres services ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "2-2-8- Si oui, lesquels ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "2-2-9- détailler les aménagements envisagés : descriptif détaillé des locaux et des espaces extérieurs",
+        "description": "EN COMPLEMENT, IL VOUS EST DEMANDÉ :\r\n► d'ajouter en pièce jointe le plan des locaux en travaux ou en création \r\n► d'ajouter en pièce jointe un tableau de répartition des surfaces ( Document du maître d'Œuvre )\r\n► de compléter les onglets 7 de la pièce jointe nommée \"Plan d'investissement ALSH\"",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "2-2-10- Les travaux s’inscrivent-ils dans une démarche de labellisation ou certification :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "2-2-11- Si oui, Préciser le nom et la terminologie du label ou de la certification",
+        "description": "Au regard de la liste de référence Cnaf  annexe de la Lettre Circulaire  2024-082 ( Disponible sur le caf.fr)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2-3- DESTINATAIRES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "2-3-1- Structure destinataire",
+        "description": "",
+        "required": true,
+        "options": [
+          "Accueil périscolaire",
+          "Accueil extrascolaire"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "2-3-2 -Public accueilli",
+        "description": "",
+        "required": true,
+        "options": [
+          "►ALSH 3-11 ans",
+          "►ALSH 12-17 ans",
+          "►ALSH 3-17 ans",
+          "► Accueil de jeunes"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "2-3-3 -Préciser la tranche d’âge concernée",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2-4 - TERRITOIRE D'IMPLANTATION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "2-4-1-   Commune(s) d’implantation du projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "2-4-2-Adresse de l’équipement/ du futur équipement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "2-4-3- Zone d’influence",
+        "description": "Préciser si le projet à un rayonnement à l'échelle de plusieurs communes ou d'un EPCI",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "2-4-4- Territoire spécifique",
+        "description": "",
+        "required": true,
+        "options": [
+          "► Oui, commune en ZRR",
+          "► Oui, implantation de l'équipement au sein d'un quartier Politique Ville prioritaire",
+          "► Oui, implantation de l'équipement au sein d'un quartier Politique Ville en veille",
+          "► Non"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2-5-PARTENAIRES ASSOCIÉS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "2-5-1 - Quels sont les partenaires associés à l'élaboration et/ou la réalisation du projet ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "2-5-2- Quels sont les autres financeurs/co-financements sollicités ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "2-5-3 - Y a-t-il eu un/des comité(s) de pilotage ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "2-5-4 : Si oui, quand a-t-il/ont -ils été mis en place ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2-6- BUDGET",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "2-6-1- Régime fiscal",
+        "description": "La réponse à cette question fait l’objet de nombreuses erreurs, aussi, vérifier l’information auprès de vos services financiers ou comptable avant complétude",
+        "required": true,
+        "options": [
+          "► HT",
+          "► TTC"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "2-6-2- Montant total du coût du projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "2-6-3- Durée de l'amortissement (en mois)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "2-6-4- Montant de l’aide sollicitée en subvention",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "2-6-5- Montant de l’aide sollicitée en prêt",
+        "description": "Pour les projets d'investissement conséquents (construction-rénovation-aménagement de locaux), la CAF du Pas de Calais peut octroyer des prêts à taux 0 en complément de la subvention.\r\nEn cas de question(s), contacter votre interlocuteur CAF\r\n",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "2-6-6- Nombre d'annuité de remboursement sollicité",
+        "description": "Possibilité de rembourser en 10 ans maximum (1 annuité par an)",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Merci de compléter le budget Prévisionnel d'investissement sur l'onglet 6 de la pièce jointe nommée « Plan d'investissement ALSH »",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2-7- PLANNING D’EXECUTION DU PROGRAMME",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "2-7-1- En cas de projet d'acquisition, date d'achat prévue ( acquisition foncière et/ou matérielle )",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "2-7-2- Date prévue de démarrage des travaux",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "2-7-3- Date de fin de travaux",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "2-7-4- Date prévue de mise en service de l’équipement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3- DONNÉES PREVISIONNELLES D’ACTIVITÉ",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3-1-  En cas de création d'équipement, merci de compléter les deux questions suivantes",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "3-1-1- Capacité maximale d'accueil des locaux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "3-1-2-Effectif maximum de mineurs prévisionnel ( déclaration SDJES)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3-2- En cas d’extension, rénovation ou transplantation conduisant à un développement de l’offre, merci de compléter les cinq questions suivantes",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "3-2-1-\tCapacité d'accueil maximale  de mineurs avant travaux (du bâtiment):",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "3-2-2- Capacité d’accueil maximale prévisionnel de mineurs après travaux (du bâtiment) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "3-2-3- Avez-vous l'intention d'augmenter votre offre d'accueil après les travaux  ?",
+        "description": "Si c'est le cas, merci de répondre aux deux questions suivantes",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "3-2-4- Si oui, effectif maximum de mineurs  accueillis avant travaux (déclaré à la  SDJES)",
+        "description": "Dont enfants porteurs de handicap, si données disponibles",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "3-2-5- Si oui, effectif maximum de mineurs prévisionnel après travaux ( déclaration SDJES)",
+        "description": "Dont enfants porteurs de handicap, si données disponibles",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - FONCTIONNEMENT DE L’ETABLISSEMENT CONCERNE ET PERSONNEL AFFECTE :",
+        "description": "Merci de compléter l’onglet 1 de la pièce jointe nommée « Plan investissement ALSH  »",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Fonctionnement de l'établissement : Merci de compléter l'onglet 1  de la pièce jointe nommée  \"Plan d'investissement ALSH\"",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Personnels employés dans la structure : Merci de compléter l'onglet 2 de la pièce jointe nommée «Plan d'investissement ALSH\"",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Budgets prévisionnels de l'année N et N + 1  : merci de compléter les onglets 3 et 4 de la pièce jointe nommée  \"Plan d'investissement ALSH\"",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Bilan prévisionnel du gestionnaire : Merci de compléter l'onglet 5 de la pièce jointe nommée « Plan d'investissement ALSH\"",
+        "description": " (N = année d’ouverture) ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5 - Expression Libre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Y a-t-il d’autres informations dont vous souhaitez nous faire part  ?",
+        "description": "Il vous est également possible d'ajouter dans la partie \"Pièce à joindre \" des documents complémentaires aux documents sollicités (en dernier)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "6 - PIECES A JOINDRE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR TOUS : La délibération de l’assemblée responsable décidant de la réalisation du projet pour lequel est sollicité un cofinancement (Conseil d’Administration ou Conseil Municipal, Conseil Communautaire…)",
+        "description": "Si vous ne disposez pas encore de ce document obligatoire, il est impératif de déposer un projet de délibération sur lequel figure la date prévisionnelle de passage en conseil et de veiller à nous fournir la délibération définitive datée, tamponnée et signée après présentation en instance décisionnelle.\r\nSans cette pièce, votre projet ne pourra être présenté en commission d'aide aux partenaires.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR TOUS : Annexe 1-Attestation sur l'honneur relative aux obligations du demandeur »",
+        "description": "Annexe 1 - ATTESTATION SUR L’HONNEUR  ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR TOUS : Annexe 2 - Plan Investissement ALSH",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR TOUS : Relevé d'Identité Bancaire (RIB) ou Relevé d'Identité Postal (RIP)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR TOUS : Diagnostic des besoins",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR TOUS : Devis ou avant-projet chiffré",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR TOUS : Devis 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR TOUS : Devis 3",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR TOUS : Devis 4",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR TOUS : Devis 5",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR TOUS : Devis 6",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES DEMANDES DE SUBVENTIONS D’INVESTISSEMENT CONCERNANT DES TRAVAUX  : Plan de situation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES DEMANDES DE SUBVENTIONS D’INVESTISSEMENT CONCERNANT DES TRAVAUX : Plan de masse des travaux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES DEMANDES DE SUBVENTIONS D’INVESTISSEMENT CONCERNANT DES TRAVAUX : Plan des locaux en travaux ou en création",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES DEMANDES DE SUBVENTIONS D’INVESTISSEMENT CONCERNANT DES TRAVAUX : Tableau de répartition des surfaces ( Document du maître d'Œuvre )",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES DEMANDES DE SUBVENTIONS D’INVESTISSEMENT CONCERNANT DES TRAVAUX : Annexe 3- Renseignements Techniques",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES EPCI :Arrêté préfectoral portant création de l'EPCI",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES EPCI :Extrait des statuts datés et signés laissant apparaître les compétences attachées au projet présenté",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES ASSOCIATIONS : Annexe 4 -Attestation d'engagement au CER",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES ASSOCIATIONS : Compte de résultat et bilan de l’année écoulée, validés par le commissaire aux comptes pour les associations concernées.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES ASSOCIATIONS : Liste des membres du Conseil d’Administration",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES ASSOCIATIONS : Rapport d’activité de l’exercice précédent",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES ASSOCIATIONS : Récépissé déclaration en Préfecture",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES ASSOCIATIONS : Statuts",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES ASSOCIATIONS ET ENTREPRISES PRIVEES/GROUPEMENT D'ENTREPRISES -Annexe 5 -Attestation sur l'honneur de de probité et de non-condamnation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES ETABLISSEMENTS PUBLICS : Extrait des statuts datés et signés laissant apparaître les compétences attachées au projet présenté",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES ENTREPRISES PRIVÉES/GROUPEMENT D’ENTREPRISE : Compte de résultat et bilan de l’année écoulée",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES ENTREPRISES PRIVÉES/GROUPEMENT D’ENTREPRISE : Extrait du K Bis de moins de 3 mois",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES ENTREPRISES PRIVÉES/GROUPEMENT D’ENTREPRISE : Statuts",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR LES ENTREPRISES PRIVEES/GROUPEMENT D'ENTREPRISES : Annexe 6 - Déclaration d’intérêts",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR TOUS : Tout Document complémentaire que vous souhaitez ajouter",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "POUR TOUS : Tout Document complémentaire que vous souhaitez ajouter",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

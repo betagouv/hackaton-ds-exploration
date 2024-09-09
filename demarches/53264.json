@@ -1,0 +1,70 @@
+{
+  "number": 53264,
+  "title": "Conditions LEMG MATEX",
+  "description": "Levée des conditions MATEX pour LEMG\r\nPour demander les fiches et les clés ACID, merci de contacter : dga-catod.matex.fct@intradef.gouv.fr »",
+  "tags": [
+    "Rh"
+  ],
+  "zones": [
+    "Ministère des Armées"
+  ],
+  "datePublication": "2022-02-01T08:46:29+01:00",
+  "service": {
+    "nom": "Sous direction du contrôle export",
+    "organisme": "MinArm/DGA/DI/SPEM/SDCE",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/matex",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ixarm.com/fr/contacts-sous-direction-du-controle-export",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071307/LEGISCTA000006151497/#LEGISCTA000020933083",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 88,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de licence",
+        "description": "Format : 2x 00yyyy",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Lignes de la licence concernées par la demande de levée de condition",
+        "description": "Seules les lignes mentionnées verront leur condition bloquante levée.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Numéro de ligne",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": "Niveau maximum DR/SF sous archive ACID.\nPour les fiches Secret fournir le bordereau d'envoi au CATOD au format PdF\nPour demander les fiches et les clés ACID, merci de contacter : dga-catod.matex.fct@intradef.gouv.fr »",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Dossier MATEX",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires éventuels",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

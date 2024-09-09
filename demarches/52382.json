@@ -1,0 +1,390 @@
+{
+  "number": 52382,
+  "title": "Subventions 2022",
+  "description": "Procédure dématérialisée pour les demandes de subventions au titre de la DETR, de la DSIL, du FNADT et de la DSID.\r\n",
+  "tags": [
+    "Subvention"
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2021-12-27T14:40:10+01:00",
+  "service": {
+    "nom": "Bureau des Finances Locales",
+    "organisme": "Préfecture de la Haute-Marne",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/subventions-2022",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.haute-marne.gouv.fr/Politiques-publiques/Collectivites-territoriales/Subventions-d-investissement-de-l-Etat/DETR/Appel-a-projets-DETR-2022",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCode.do;jsessionid=130F38A62C3BC01805DACA038F871F1C.tplgfr25s_1?idSectionTA=LEGISCTA000023650557&cidTexte=LEGITEXT000006070633&dateTexte=20180628",
+  "logo": {
+    "filename": "LOGO-1.jpg",
+    "checksum": "MYKIrkiYxik0cNNTmFmffg==",
+    "byteSize": "12963",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 571,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Subvention sollicitée",
+        "description": "Choisir la subvention sollicitée.\n",
+        "required": true,
+        "options": [
+          "DETR",
+          "DSIL",
+          "DSID (Conseil départemental)",
+          "FNADT"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Enveloppe DSIL",
+        "description": "En cas de demande DSIL, merci d'indiquer l'enveloppe demandée.",
+        "required": false,
+        "options": [
+          "Grands Projets",
+          "Contrats de ruralité",
+          "Action Coeur de Ville",
+          "DSIL Relance",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification du demandeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Arrondissement",
+        "description": "",
+        "required": true,
+        "options": [
+          "Chaumont",
+          "Langres",
+          "Saint-Dizier"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Maître d'ouvrage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse du maître d'ouvrage",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du représentant légal",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Qualité du représentant légal",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Numéro SIRET",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du référent en charge du dossier",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Qualité du référent en charge du dossier",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du référent",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Jours et heures ouverture mairie",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description du projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Intitulé du projet",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu d'implantation du projet",
+        "description": "Pour les demandes qui émanent des Communautés d'agglomération, des Communautés de communes et des Syndicats, merci d'indiquer le nom de la commune.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Ligne d'imputation budgétaire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Ordre de priorité",
+        "description": "Au cas où la collectivité décide de déposer plusieurs projets, merci de les prioriser et d'indiquer le numéro de priorité.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Calendrier de l'opération",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Opération divisée en plusieurs tranches",
+        "description": "En cas de travaux en plusieurs tranches, préciser dans la notice explicative le déroulement du projet global, l'année de réalisation et le coût de chaque tranche ainsi que son caractère fonctionnel qui doit constituer une unité cohérente de nature à être mise en service ou exécutée sans adjonction.\nRépondre Oui ou Non.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date prévisionnelle de commencement de l'opération",
+        "description": "Cette date doit être la plus fiable possible et déterminée à partir d'un calendrier  réaliste tenant compte des délais de procédure (appel d'offre) et de travaux.\nLe commencement d'exécution est réputé constitué par le premier acte juridique passé pour la réalisation du projet ( ex :signature des devis ou de marchés de travaux).\nJJ-MM-AAAA",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date prévisionnelle de fin de l'opération",
+        "description": "JJ-MM-AAAA\nPrévoir une date de fin assez lointaine en cas d'imprévu\n",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Financement du projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Coût prévisionnel global du projet en euros HT",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Taux sollicité (%)",
+        "description": "Indiquer celui figurant sur l'appel à projet pour votre catégorie\n",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant de la subvention sollicitée en euros HT",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'opération génère-t-elle des recettes ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, de quelle nature ?",
+        "description": "Loyer, redevance, billetterie...\nJoindre tout document utile à l'estimation des recettes dans la partie \"Détail des recettes\".\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Détail des recettes",
+        "description": "Joindre tout document utile à l'estimation des recettes.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Cofinanceurs",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Joindre les autres courriers de demandes de subventions et si possible les réponses obtenues",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Formulaire Demande",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Notice explicative",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dépenses",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Devis",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Joindre les devis",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de Financement",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Délibération approuvant le projet",
+        "description": "Votre délibération doit au minimum préciser le coût du projet et si possible le plan de financement.\nMerci de ne pas faire apparaître le prestataire retenu.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces complémentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dossier d'avant-projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Plan(s)",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Plan cadastrale et parcellaire",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Plan d'aménagement (niveau avant-projet)",
+            "description": "Obligatoire pour les projets de sécurité routière",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autre(s) plan(s) éventuel(s)",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de propriété de terrain / immeuble",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Délibération prix de l'eau",
+        "description": "Pour la catégorie traitement de l'eau\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Avis SDIS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Avis Architecte des Bâtiments de France",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autre(s) avis",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Joindre avis divers",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Photos / Autres Documents",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Joindre des documents divers et / ou des photos",
+            "description": null,
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

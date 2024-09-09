@@ -1,0 +1,363 @@
+{
+  "number": 27693,
+  "title": "Invalidité - Demande de pension d'invalidité en ligne",
+  "description": "Réservé aux assurés du régime général des départements du Calvados - Manche - Orne\r\n\r\nPour une connexion simple et pratique, utilisez la connexion France-Connect.\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2020-05-26T16:04:02+02:00",
+  "service": {
+    "nom": "Caisse Primaire d'Assurance Maladie - Pôle assuré",
+    "organisme": "CPAM ",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-pension-invalidite-en-ligne",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "declic.cpam50.fr",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/",
+  "logo": {
+    "filename": "logo CPAM.png",
+    "checksum": "hAQF+K0XZRI3JxIgj54dAw==",
+    "byteSize": "60707",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "invalidité - notice de demande de pension en ligne.pdf",
+    "checksum": "dNwIufPFVTDuR+d+T+u0hw==",
+    "byteSize": "260128",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Personne qui demande la pension d'invalidité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "(Articles L. 160-5, L. 172- 1 et R. 172-16 à R. 172-21-3, L. 341-1 à L. 341-5, L. 341-13, L. 341-15 et 16, R. 341-4, L. 371-4, R. 160-10, R. 313-5, R. 341-8 et R. 341-17 du Code de la sécurité sociale)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom(s)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation familiale",
+        "description": null,
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Marié(e)",
+          "Pacsé(e)",
+          "Concubin(e)",
+          "Séparé(e) de droit",
+          "Divorcé(e)",
+          "Veuf(ve)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nationalité",
+        "description": null,
+        "required": true,
+        "options": [
+          "Française",
+          "UE/EEE/Suisse",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° de Sécurité Sociale",
+        "description": "Saisir les 15 chiffres sans espace",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "Format jj/mm/aaaa",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Mail",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Autres renseignements administratifs concernant le demandeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Votre situation au moment de la demande",
+        "description": "Choisissez la ligne correspondante à votre situation et remplissez les rubriques s'y rapportant",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre situation",
+        "description": null,
+        "required": true,
+        "options": [
+          "Activité Salariée",
+          "Activité non salariée",
+          "Chômage indemnisé",
+          "Autres"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "A remplir, si vous avez sélectionné \"Activité Salariée\"",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et adresse de votre dernier employeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date début de la période d'activité",
+        "description": "Format jj/mm/aaaa",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date fin de la période d'activité",
+        "description": "Format jj/mm/aaaa",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "---------------------------------------",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre maladie ou votre blessure justifiant la demande de pension résulte d'un accident causé par un tiers",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous avez bénéficié ou vous bénéficiez déjà d'une pension d'invalidité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, indiquez l'organisme ayant déjà attribué cette pension",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "--------------------------------------",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous avez été affilié(e) à un régime autre que le régime général",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "MSA - Salariés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "RSI",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "CRPCEN",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "CAVIMAC",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Autre régime",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si \"Autre régime\", indiquez lequel",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Au moment de votre demande, êtes-vous affilié(e) dans plusieurs régimes de protection sociale ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous bénéficiez d'une rente accidents du travail ou maladies professionnelles ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si, oui, indiquez le nom et adresse de l'organisme ayant attribué la rente :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous avez demandé une rente accident du travail ou maladie professionnelle qui est en cours d'étude ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, indiquez le nom et adresse de l'organisme qui étudie la demande :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous travaillé dans un pays de l'UE/EEE autre que la France ou dans un pays ou territoire signataire d'une convention bilatérale ou dans une collectivité d'outre-mer signataire d'un accord de coordination ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, indiquez les pays, territoire(s), collectivité(s) et les périodes concernées :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous demandé ou percevez-vous une pension militaire pour maladie, blessure de guerre ou au titre de victime civile de la guerre",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, indiquez le nom et adresse de l'organisme qui verse la pension :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Je certifie avoir pris connaissance des informations ci-dessous. La validation de ce formulaire vaut signature et vous engage.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je suis informé(e) que dans le cadre de l'application des règlements européens sur la coordination des systèmes de sécurité sociale et sauf opposition de ma part le rapport médical établi par le Service Médical près de l'organisme d'assurance maladie sera communiqué à l'Etat membre, dans lequel j'ai déclaré avoir travaillé, qui en fera la demande.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie sur l'honneur l'exactitude des informations portées sur cette demande et je m'engage à faire connaître à la caisse tous changements de ma situation.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Fait le",
+        "description": "Format jj/mm/aaaa",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "à :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Les pièces justificatives à joindre à votre demande - Selon votre situation - Merci de fournir des documents lisibles :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Carte d'identité ou passeport ou toute autre pièce justificative d'état civil et de nationalité",
+        "description": "Si vous êtes de nationalité française ou ressortissant d'un pays de l'UE/EEE ou de la Suisse\nTous formats sauf Office (xls, doc, ppt, pps)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Votre dernier avis d'impôt ou avis de situation déclarative à l'impôt sur les revenus",
+        "description": "Dans tous les cas,  pour justifier de vos revenus\nTous formats sauf Office (xls, doc, ppt, pps)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Notification de rente",
+        "description": "Si vous bénéficiez d'une rente d'accident du travail ou maladie professionnelle\nTous formats sauf Office (xls, doc, ppt, pps)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Notification de pension",
+        "description": "Si vous bénéficiez d'une pension d'invalidité servie par un autre régime que le régime général\nTous formats sauf Office (xls, doc, ppt, pps)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Notification de pension ainsi que la décision de la commission de réforme",
+        "description": "Si vous avez demandé le bénéfice d'une pension militaire pour maladie, blessure de guerre ou au titre de victime civile de la guerre\nTous formats sauf Office (xls, doc, ppt, pps)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Toute pièce, en cours de validité, justifiant de votre état civil et de la régularité de votre séjour en France : titre de séjour...",
+        "description": "Si vous êtes de nationalité étrangère (autre qu'UE/EEE ou Suisse)\nTous formats sauf Office (xls, doc, ppt, pps)",
+        "required": false
+      }
+    ]
+  }
+}

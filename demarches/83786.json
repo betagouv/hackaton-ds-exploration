@@ -1,0 +1,220 @@
+{
+  "number": 83786,
+  "title": "Demande d'aide sur le contrôle de performance dans les élevages d’ovins et bovins allaitants et ovins lait pour l’année 2024",
+  "description": "FranceAgriMer met en œuvre un programme qui vise à soutenir les activités de contrôle des performances des ovins et bovins allaitants et ovins lait. Elle participe en réduisant le coût de ces activités pour les éleveurs sélectionneurs à maintenir des populations sélectionnées adaptées à la diversité des agroécosystèmes.\r\n\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2023-11-16T19:45:27+01:00",
+  "service": {
+    "nom": "Pole génétique et expérimentation",
+    "organisme": "FranceAgriMer",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-d-aide-sur-le-controle-de-performance-dans",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.franceagrimer.fr/fam/Accompagner/Dispositifs-par-filiere/Aides-nationales/Genetique-animale/Controle-performance",
+  "cadreJuridiqueUrl": "https://www.franceagrimer.fr/fam/Accompagner/Dispositifs-par-filiere/Aides-nationales/Genetique-animale/Controle-performance",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 57,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "CELC - Nom du porteur",
+        "description": "Nom court ou Acronyme désignant le porteur du projet.\r\nMAXIMUM : 50 caractères ",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "CEML - Contact administratif",
+        "description": "Adresse mail de la personne qui peut être contactée sur les sujets administratifs.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Personne à contacter",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NPCP - Nom, Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "EMCP - E-mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "FNCP - Fonction",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "TLCP - Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Contrôle de Performance 2024",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de demandeurs",
+        "description": "Sont éligibles :\r\n- les organismes de sélection agréés par arrêtés du ministère chargé de l’agriculture qui réalisent eux-mêmes ces contrôles ;\r\n- les organismes de contrôle des performances qui réalisent ces contrôles par délégation d’organismes de sélection.",
+        "required": true,
+        "options": [
+          "Organismes de sélection agréés par arrêtés du ministère",
+          "Organismes de contrôle des performances qui réalisent ces contrôles par délégation d’organismes de sélection"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Sélectionner la (ou les) Filière concerné(es).",
+        "description": "",
+        "required": true,
+        "options": [
+          "Bovins Allaitants",
+          "Ovins Allaitants",
+          "Ovins Lait"
+        ]
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Activité prévisionnelle = nombre bovins suivis en ferme",
+        "description": "Indiquer le nombre d'animaux suivis prévus au total pour la période du 01/01/2024 au 31/12/2024",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Activité prévisionnelle = nombre ovins allaitants suivis en ferme",
+        "description": "Indiquer le nombre d'animaux suivis prévus au total pour la période du 01/01/2024 au 31/12/2024",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Activité prévisionnelle = nombre ovins laits suivis en ferme",
+        "description": "Indiquer le nombre d'animaux suivis prévus au total pour la période du 01/01/2024 au 31/12/2024",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre animaux suivis en VA0",
+        "description": "le protocole VA0 est un suivi de reproduction sans pesée des veaux ",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre animaux suivis en VA4",
+        "description": "le protocole VA4 permet d’évaluer la croissance des veaux jusqu’au sevrage (PAT 120 et 210 j) et l’aptitude laitière (allaitement) des vaches",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre animaux suivis en VPS",
+        "description": "le protocole VPS consiste à peser les jeunes bovins après sevrage (12, 18 voire 24 mois)",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre animaux suivis en FR",
+        "description": "le protocole FR est un suivi reproduction des brebis",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre animaux suivis en FE",
+        "description": "le protocole FE est un suivi reproduction et qualités maternelles des brebis",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre animaux suivis en FC",
+        "description": "le protocole FC est un suivi reproduction, qualités maternelles et croissance 30-70 jours des brebis",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant total des dépenses éligibles pour 2024",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant total d'aide demandé à FranceAgriMer pour 2024",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "CPRS - Résumé du projet",
+        "description": "Présenter les objectifs et enjeux du programme en indiquant le type de tests réalisés par filière. \r\nMAXIMUM : 4 000 caractères.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Le demandeur s’engage à répercuter l’intégralité de l’aide sur le montant du service rendu à l’éleveur lorsque celui-ci lui participe à son financement (au travers d’une facturation, de frais d’adhésions…).",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Les animaux sont déclarés une seule fois pour une formule donnée, sans double comptage.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Attention ! Pour que votre demande de paiement soit prise en compte, il est nécessaire de cliquer sur \"soumettre le dossier\" après avoir complété tous les champs obligatoires et avant la clôture de la phase de dépôt (21 décembre 2023 minuit). Les projets qui resteront au statut \"brouillon\" à la clôture des dépôts, ne seront pas pris en compte lors de l'instruction.",
+        "description": "Toute demande qui ne comprend pas l’intégralité des pièces mentionnées à l’article 2.3  de la décision INTV-SIIF-2023-59 dument remplies avant la fermeture de la téléprocédure de dépôt des demandes d’aide est inéligible.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "La demande d'aide doit obligatoirement être composée des pièces suivantes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Contenu du programme 2024 : présentant les actions de ctrl de performance prévues par filière qui seront dans le cadre du programme 2024",
+        "description": "Annexe n°1 de la décision INTV-SIIF-2023-59 complétée \r\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatifs de délégation d'activités",
+        "description": "Remettre la ou des convention(s) de délégation ou le ou les mandats de délégation des activités par filières de production / OS ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de mise en place de référentiels de contrôle de performances selon les filières",
+        "description": "ex. attestation d’audit (en filière bovine), protocole interprofessionnel, liste des délégataires CPL conformes…",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Budget prévisionnel 2024",
+        "description": "Annexe n°2 de la décision INTV-SIIF-2023-59 complétée. Ce budget présente les dépenses et les recettes prévisionnelles par filières ainsi que le cumul des montants prévus/demandés. ",
+        "required": true
+      }
+    ]
+  }
+}

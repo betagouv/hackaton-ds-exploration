@@ -1,0 +1,208 @@
+{
+  "number": 14138,
+  "title": "Déclaration de décès et demandes d'autorisations d'opérations funéraires",
+  "description": "Cette démarche en ligne vous permet d'effectuer des déclarations de décès, des demandes de crémation et de fermeture de cercueil.\r\n\r\nPour les demandes de crémation sans déclaration de décès (cas des actes de décès établis dans une autre commune que Bordeaux), vous devez utiliser la démarche \"Demandes d'autorisations d'opérations funéraires\"",
+  "tags": [
+    "Urbanisme"
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2019-02-25T18:17:12+01:00",
+  "service": {
+    "nom": "Ville de Bordeaux",
+    "organisme": "Ville de Bordeaux",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/03cfedbd-76e4-43fd-8060-acc0b8943b11",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "Aucun lien fourni",
+  "cadreJuridiqueUrl": "www.de.fr",
+  "logo": {
+    "filename": "procedure-7032c895-1f84-4ff5-8055-f83c43b0f99d.png",
+    "checksum": "lEja3AoDswdfDWHbENZnrg==",
+    "byteSize": "56068",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 5267,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DECLARANT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information",
+        "description": "Informations sur la personne qui viendra signer les actes officiels au guichet",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email de contact",
+        "description": "Mail sur lequel vous serez contacté lorsque votre demande sera traitée",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nature du déclarant",
+        "description": "",
+        "required": true,
+        "options": [
+          "Opérateur funéraire",
+          "Ambulancier",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse d'exercice",
+        "description": "Inutile de renseigner ce champs si votre adresse d'exercice est la même que celle du SIRET",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Profession",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "NATURE DE LA DEMANDE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Nature de la demande",
+        "description": "",
+        "required": true,
+        "options": [
+          "Acte de décès",
+          "Acte de décès + fermeture de cercueil",
+          "Acte de décès + fermeture de cercueil + demande de crémation"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTITÉ DU DÉFUNT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PIECES JOINTES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information",
+        "description": "Pour une déclaration de décès, merci de fournir les pièces justificatives suivantes : \n- Formulaire de déclaration de décès\n- Certificat médical\n- Acte de naissance ou livret de famille\n- Demande préalable de transport\n\nSi la déclaration de décès est accompagnée d'une demande de crémation, merci de joindre également :\n- La demande de crémation\n- Toute autre pièce justificative nécessaire (autres certificats médicaux, autorisation du procureur, ...)\n\nDans le cas d'un certificat de décès d'une personne non identifiée il est impératif de joindre le procès verbal d'identification établi par la police ou la gendarmerie",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Formulaire de déclaration de décès",
+        "description": "Vous devez transmettre le formulaire scanné ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certficat médical de décès",
+        "description": "délivré par le médecin",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Livret de famille ou l'acte de naissance du défunt",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande préalable au transport",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre pièce justificative",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre pièce justificative",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre pièce justificative",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre pièce justificative",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

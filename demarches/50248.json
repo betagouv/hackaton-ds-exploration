@@ -1,0 +1,569 @@
+{
+  "number": 50248,
+  "title": "Aide au résiduel",
+  "description": "<strong> /!\\ ATTENTION /!\\ Les données d'identité demandées doivent correspondre à celles du ménage. </strong>\r\n\r\nCe formulaire est strictement réservé aux <strong> professionnels </strong> diplômés du travail social, accompagnant un ménage résidant sur le territoire de Nantes Métropole.\r\n\r\nCe e-service vous permet de déposer une demande d’aide financière FSL pour le paiement d’une partie du loyer résiduel, loyer devenu inadapté pour le ménage, le temps que sa situation s’améliore (perspective de ressources supplémentaires, relogement économique, stabilisation du budget…).\r\n\r\nCe plan d’aide est accordé pour une durée de 1 à 6 mois, dans la limite de 12 mois maximum et inclut des versements mensuels qui seront recalculés en cours de période après établissement d’un bilan financier par le bailleur. En fonction des ressources du ménage, ce dernier disposera d’un reste à charge plus ou moins important qu’il devra impérativement respecter, quelle que soit l’évolution du loyer ou des allocations logement.\r\n\r\n<u> Conditions : </u>\r\n- être en situation régulière, \r\n- ne pas avoir le seul statut scolaire ou étudiant,\r\n- être âgé de plus de 25 ans (ou ne pas disposer de soutien matériel ou financier)\r\n- ne pas dépasser les plafonds de ressources du FSL\r\n- le taux d’effort du logement doit être supérieur à 40 %\r\n- le bail du logement doit être d’une durée minimale d’un an. \r\n\r\nSi vous utilisez pour la première fois la plateforme, il vous sera demandé de vous créer un compte personnel.",
+  "tags": [
+    "Subvention"
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2022-01-28T09:09:49+01:00",
+  "service": {
+    "nom": "Fonds de Solidarité pour le Logement",
+    "organisme": "Nantes Métropole",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fsl-nm-aide-au-residuel",
+  "dpoUrl": "dpd@nantesmetropole.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://eservices.nantesmetropole.fr/accueil-professionnels",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006051380/",
+  "logo": {
+    "filename": "Logo_FSL_NM.png",
+    "checksum": "KXNt+6KDSZ/nLzq/wetleQ==",
+    "byteSize": "21192",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "Guide utilisation Demarches Simplifiées Demandes FSL NM Professionnels.pdf",
+    "checksum": "UTKWGdm6EaFYkm8MAKfZiQ==",
+    "byteSize": "606440",
+    "contentType": "application/pdf"
+  },
+  "deliberation": {
+    "filename": "Reglement_interieur_FSL_1er_janvier_2020.pdf",
+    "checksum": "k77Ke2ZuidFc9hB2Kqg4nw==",
+    "byteSize": "211964",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 798,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Avant de déposer le dossier, avez-vous vérifié que le taux d'effort du logement soit bien supérieur à 40% ?",
+        "description": "<p>\r\nCalcul du taux d'effort : ((Loyer chargé - APL - RLS) / ressources mensuelles nettes) * 100\r\n</p>\r\n\r\n<p>\r\nLa nouvelle fiche budget vous permet d'effectuer un calcul automatique du taux d'effort. Téléchargeable ici : https://fslnmpartenaires-drive.mycozy.cloud/public?sharecode=xUBuMYqWvPae \r\n</p>",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1- Identification de l'organisme prescripteur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'organisme",
+        "description": "Merci de préciser quel EDS ou CCAS",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM et prénom du référent",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Qualité du référent",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone du référent",
+        "description": "Nous pouvons être susceptibles de vous contacter si besoin d'informations supplémentaires concernant la demande.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - Identification du ménage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le nom et prénom du ménage doivent être renseignés dans la première partie du formulaire \"Données d'identité\". Si cela n'est pas le cas, merci de modifier en cliquant sur le bouton en haut à droite \"mon identité\".",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail du ménage",
+        "description": "Pour information, nous privilégions l'envoi des notifications de décision par mail. ",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone du ménage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro allocataire CAF/MSA",
+        "description": "Si en cours de mutation, saisir \"0\"",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation familiale",
+        "description": "",
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Séparé(e)",
+          "Divorcé(e)",
+          "Vie maritale",
+          "Marié(e)",
+          "Pacsé(e)",
+          "En concubinage",
+          "Veuf(ve)"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation actuelle",
+        "description": "",
+        "required": true,
+        "options": [
+          "Demandeur(se) d'emploi",
+          "Actif(ve) ayant un emploi",
+          "En formation (apprentissage/alternance)",
+          "Inactif(ve)",
+          "Handicap/invalidité",
+          "En arrêt maladie",
+          "En congé parental",
+          "Travailleur(se) indépendant",
+          "Retraité(e)",
+          "Etudiant(e)"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Critères de fragilité",
+        "description": "Sélectionner le ou les critères correspondant à la situation du ménage.\r\nLe cas échéant, exposez la situation du ménage dans le rapport social ci-dessous. \r\n\r\n\r\nRappel : 2 critères de fragilité doivent être précisés si les ressources sont supérieures au plafond commun (→ https://fslnmpartenaires-drive.mycozy.cloud/public?sharecode=rOfcTTUPN1uF ). ",
+        "required": false,
+        "options": [
+          "Personne sans-abris, en logement insalubre ou indécent",
+          "Problématique de santé et/ou de handicap",
+          "Environnement du logement fortement dégradé",
+          "Isolement social et familial",
+          "Contexte de violence",
+          "Risque vis-à-vis du maintien dans le logement (expulsion)"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Composition familiale",
+        "description": "",
+        "required": true,
+        "options": [
+          "Personne seule",
+          "Personne seule avec enfant(s)",
+          "Couple sans enfant",
+          "Couple avec enfant(s)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autres personnes du foyer",
+        "description": "Cliquez sur \"ajouter un élément pour autres personnes du foyer\" pour ajouter une nouvelle personne",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Lien de parenté avec le demandeur",
+            "description": null,
+            "required": false,
+            "options": [
+              "Conjoint",
+              "Enfant",
+              "Frère/sœur",
+              "Parent",
+              "Grand-parent",
+              "Petit-enfant",
+              "Beau-frère/belle-sœur",
+              "Beau-fils/belle-fille",
+              "Membre hors foyer"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Situation scolaire ou professionnelle",
+            "description": "",
+            "required": false,
+            "options": [
+              "Enfant de moins de 3 ans",
+              "Scolarisé(e)",
+              "Etudiant(e)",
+              "Demandeur(se) d'emploi",
+              "Actif(ve) ayant un emploi",
+              "Inactif(ve)",
+              "En formation (apprentissage/alternance)",
+              "Handicap/invalidité",
+              "Retraité(e)",
+              "En arrêt maladie",
+              "En congé parental",
+              "Travailleur(se) indépendant"
+            ],
+            "otherOption": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - Informations quant au logement actuel",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation domiciliaire actuelle",
+        "description": "",
+        "required": true,
+        "options": [
+          "Locataire dans le parc social",
+          "Locataire dans le parc privé",
+          "Sous-locataire",
+          "Résident(e) sur une aide d'accueil permanente des gens du voyage",
+          "Résident(e) en logement-foyer ou résidence sociale"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du logement",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Commune",
+        "description": "",
+        "required": true,
+        "options": [
+          "Basse-Goulaine",
+          "Bouaye",
+          "Bouguenais",
+          "Brains",
+          "Carquefou",
+          "Couëron",
+          "Indre",
+          "La-Chapelle-sur-Erdre",
+          "La Montagne",
+          "Le Pellerin",
+          "Les Sorinières",
+          "Mauves-sur-Loire",
+          "Nantes",
+          "Orvault",
+          "Rezé",
+          "Saint- Aignan de Grand Lieu",
+          "Saint-Herblain",
+          "Saint-Jean-de-Boiseau",
+          "Saint-Léger-Les-Vignes",
+          "Sainte-Luce-sur-Loire",
+          "Saint-Sébastien-sur-Loire",
+          "Sautron",
+          "Thouaré-sur-Loire",
+          "Vertou"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du bailleur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bailleur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel du bailleur",
+        "description": "Pour information, nous privilégions l'envoi des notifications de décision par mail. ",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'entrée dans le logement",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Typologie du logement",
+        "description": "",
+        "required": true,
+        "options": [
+          "Studio",
+          "T1",
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6 ou plus"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Surface (en m²)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mise en place du tiers-payant",
+        "description": "En cas de refus de la part du bailleur, fournir une attestation. ",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non",
+          "En cours"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Etiquette énergétique du logement",
+        "description": null,
+        "required": false,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "Vierge"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Qualité du logement",
+        "description": null,
+        "required": true,
+        "options": [
+          "Bon état",
+          "Présomption d'indécence",
+          "Présomption d'insalubrité",
+          "Indécence avérée",
+          "Insalubrité avérée"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Cochez les cases correspondantes à la situation du logement",
+        "description": null,
+        "required": false,
+        "options": [
+          "Logement faisant l'objet d'un arrêté d'insalubrité ou de péril",
+          "Logement faisant l'objet d'une obligation de travaux contre le saturnisme"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Une procédure d'expulsion est-elle en cours ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Stade de la procédure d'expulsion",
+        "description": "",
+        "required": true,
+        "options": [
+          "Commandement de payer",
+          "Assignation aux fins de constat de résiliation du bailleur",
+          "Jugement de résiliation du bail",
+          "Commandement de quitter les lieux",
+          "Demande du concours de la force publique"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - Détail de la demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Montant de la participation mensuelle demandée laissée à la charge du locataire",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Rapport social",
+        "description": "Le rapport social doit mentionner impérativement les perspectives d'amélioration de la situation du ménage.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5 - Pièces justificatives",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Fiche budget",
+        "description": "Veuillez télécharger le fichier suivant, le compléter et le joindre.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB du bailleur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie intégrale du bail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Etat de compte locataire",
+        "description": "Bailleur privé : Veuillez télécharger le modèle ci-dessous, le faire compléter par le bailleur et le joindre à la demande.\r\n\r\nBailleur social : le cachet du bailleur doit figurer sur l'état de compte.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dans le cas d'une demande de relogement économique, fiche Immoweb",
+        "description": "Recto/verso",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de refus de mise en place du tiers-payant le cas échéant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de demande de versement direct de l'aide au logement au bailleur",
+        "description": "Attestation CAF/MSA",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autre pièce",
+        "description": "Autre pièce que vous souhaitez joindre au dossier.\nNon obligatoire",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autre pièce",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande de contingent préfectoral",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie avoir une demande d'accès au logement social en cours de validité et autorise la saisine par le FSL du contingent prioritaire préfectoral afin de pouvoir bénéficier d'un relogement économique.",
+        "description": "Conformément à l'avenant 2020 à la convention-cadre 2018-2020 sur les modalités de gestion du contingent prioritaire préfectoral en Loire-Atlantique.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande de visite à domicile Energie-Slime",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Les visites Energie-Slime",
+        "description": "<p>\r\nLe Slime c'est le Service Local d'Intervention pour la Maîtrise de l’Énergie destiné à lutter contre la précarité énergétique au niveau de Nantes Métropole.\r\nLes visites Énergie-Slime permettent un diagnostic sociotechnique du logement des ménages métropolitains les plus modestes. Il consiste à identifier les économies d’énergie et d’eau qui peuvent être réalisées en fonction des habitudes de consommation, des équipements présents et du bâti. À l’issue de ce diagnostic, les intervenant(e)s délivrent des conseils personnalisés et orientent les habitant(e)s vers les solutions les plus adaptées en passant le relai aux partenaires locaux.\r\nLe dispositif est entièrement gratuit pour les ménages.\r\n</p>\r\n\r\n<p> \r\nDepuis le 4 octobre 2021, le guichet unique, situé à la Maison de l'Habitant, centralise l'ensemble des demandes de visites à domicile Énergie-Slime, les gère et les répartit entre les différents opérateurs et enfin, oriente et conseille les ménages et les partenaires sur les visites à domicile Énergie-Slime. \r\n</p>\r\n\r\n<p>\r\n<u>Modalités de saisine du Guichet unique Slime par les professionnel(le)s :</u>\r\n▪ Fiche de liaison à remplir --> https://fslnmpartenaires-drive.mycozy.cloud/public?sharecode=qXO4u6iD4YiC \r\n▪ Factures d’énergie / eau du ménage à joindre\r\n▪ Documents à envoyer à slimenantesmetropole@adil44.fr\r\n</p>\r\n\r\n<p>\r\nAu préalable, pour toute demande de renseignement complémentaire, vous pouvez contacter le guichet unique :\r\n<u>Par téléphone :</u> 02 40 99 29 70 - Le lundi, mercredi et jeudi - 9h – 12h30\r\n<u>Par mail :</u> slimenantesmetropole@adil44.fr\r\n</p>\r\n",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le dépôt d'une demande est envisagé",
+        "description": "Le FSL ne transfère pas votre demande au Guichet Unique. Il vous appartient de saisir le Guichet Unique pour déposer une demande de visite à domicile (informations ci-dessus).",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Une demande a déjà été envoyée/une visite a a déjà été effectuée",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "6 - Validation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information sur la protection des données",
+        "description": "Dans le cadre de l'article 6 de la loi n° 90-449 du 31 mai 1990 visant à la mise en œuvre du droit au logement et du Règlement Intérieur du Fonds de Solidarité pour le Logement, Nantes Métropole va collecter et enregistrer les informations recueillies dans ce formulaire afin d'instruire votre demande d'aide FSL et aux fins d'évaluation des politiques publiques en la matière. \nLes données collectées seront réservées à l'usage du Fonds de Solidarité pour le Logement et seront conservées pendant trois ans après la clôture de votre dossier. \nConformément à la loi n°78-17 du 6 janvier 1978 dite \"informatique et liberté\" et au Règlement Européen sur la Protection des données 2016/679, vous pouvez accéder aux données vous concernant, les rectifier, demander leur effacement ou exercer votre droit à la limitation du traitement de vos données.\nPour exercer ces droits ou pour toute question sur le traitement de vos données dans ce dispositif, vous pouvez contacter le délégué à la protection des données de la collectivité (dpd@nantesmetropole.fr).\nVous avez le droit d'introduire une réclamation auprès de l'autorité de contrôle, la Commission Nationale de l'Informatique et des Libertés (CNIL – 3 Place de Fontenoy – TSA 80715) – 75334 PARIS CEDEX 07 – www.cnil.fr) ",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie sur l'honneur que les renseignements admnistratifs et financiers portés sur la présente demande, sont exacts et sincères.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m'engage par la présente à autoriser l'instructeur à recueillir auprès du bailleur ou des créanciers toute information utile à l'instruction de cette demande.",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

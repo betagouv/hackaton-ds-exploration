@@ -1,0 +1,126 @@
+{
+  "number": 60935,
+  "title": "Gestion des demandes et signalements",
+  "description": "Vous pouvez utiliser ce formulaire pour toute demande d'intervention d'un service municipal sur le domaine public, domaine privé relevant de la commune ou un bâtiment communal.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2023-08-27T21:17:43+02:00",
+  "service": {
+    "nom": "Accueil",
+    "organisme": "mairie de Ressons-le-Long",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ressons-gestion-des-demandes-et-signalements",
+  "dpoUrl": "dpd@ressonslelong.com",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.ressonslelong.com",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": {
+    "filename": "logotransp.png",
+    "checksum": "Mlu52bvAaauvunOyxFV5Gg==",
+    "byteSize": "14872",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 12,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom du demandeur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Qualité",
+        "description": "",
+        "required": true,
+        "options": [
+          "Habitant",
+          "Témoin",
+          "Éducation nationale",
+          "Agent/service",
+          "Élu"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du constat",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Situation du signalement",
+        "description": "1. Saisir une adresse ou une commune dans le champ suivant.\r\n2. Zoomer à l'aide de l'outil de zoom en haut à gauche de la carte.\r\n3. Cliquer sur l'outil \"Ajouter une Zone\" et dessiner la zone de signalement en maintenant le clic gauche.\r\n4. Pour supprimer ou modifier un polygone, cliquer sur le polygone avec le bouton gauche de la souris deux fois.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de demande",
+        "description": "",
+        "required": true,
+        "options": [
+          "Médiation : signaler un problème de voisinage autre que bruit",
+          "Médiation : signaler un problème de voisinage lié au bruit",
+          "Signaler un graffiti",
+          "Signaler un problème d'assainissement",
+          "Signaler un problème d'éclairage public",
+          "Signaler un problème d'espaces verts",
+          "Signaler un problème de mobilier urbain",
+          "Signaler un problème de détérioration de bâtiments publics (vitre cassée, menuiserie cassée…)",
+          "Signaler un problème de propreté",
+          "Signaler un animal (vivant ou mort)",
+          "Signaler un problème de voirie (Trou dans la chaussée, curage de fossés, trottoir défoncé…)",
+          "Signaler une fuite d'eau",
+          "Demande d'intervention",
+          "Tâche"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précision sur l'intervention",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Photographie",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

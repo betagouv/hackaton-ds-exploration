@@ -1,0 +1,265 @@
+{
+  "number": 27170,
+  "title": "TEST: formulaire de test de Démarches-simplifiées SOFTEAM",
+  "description": "Bonjour,\r\n\r\nLe formulaire TEST vous permet de découvrir un formulaire avec l'ensemble des champs disponibles sur DS.\r\nVous pouvez saisir un dossier et le déposer. \r\nLe formulaire est paramétré pour un dispositif \"déclaratif\" cela veut dire que votre dossier est automatique \"validé\" et ne fait donc pas l'objet d'instruction.\r\nVotre dossier sera par ailleurs supprimé sous 7 jours.",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2020-03-14T17:15:55+01:00",
+  "service": {
+    "nom": "SOFTEAM test",
+    "organisme": "Softeam test",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/test-formulaire-de-test-de-ds-softeam",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://doc.demarches-simplifiees.fr/listes-des-demarches",
+  "cadreJuridiqueUrl": "https://doc.demarches-simplifiees.fr",
+  "logo": {
+    "filename": "Bannière-site-web-docaposte_softeam.jpg",
+    "checksum": "195V+tu9J9SlEa2DZh0Qqw==",
+    "byteSize": "98181",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Bienvenu sur le formulaire de démonstration de \"démarches-simplifiées\".",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Titre de section",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Comme fonctionne un titre de section",
+        "description": "Le titre de section permet de segmenter votre formulaire.  En effet, ce dernier se construisant de manière linéaire par empilement de champs, il convient de le structurer afin de le rendre plus facilement lisible par l’usager. \nDans le formulaire, les titres de section sont numérotés.\n\nhttps://doc.demarches-simplifiees.fr/tutoriels/tutoriel-administrateur#r-titre-de-section",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "champ \"Texte\"",
+        "description": "Ce champs \"texte\" autorise une saisie d'un texte équivalent à une ligne.\n\nhttps://doc.demarches-simplifiees.fr/tutoriels/tutoriel-administrateur#a-renseigner-le-type-de-champ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "champ \"Zone de texte\"",
+        "description": "Ce champ est similaire au type \"Texte\" à la différence qu'il est adapté pour écrire une réponse longue. Il n'y a pas de limite de caractères. \n\nhttps://doc.demarches-simplifiees.fr/tutoriels/tutoriel-administrateur#b-zone-de-texte",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "champ \"Date\"",
+        "description": "Le champ date permet la saisie d'une date au format xx/xx/xxxx. Selon les navigateurs, la saisie peut être effectuée par le biais d'un calendrier.\n\nhttps://doc.demarches-simplifiees.fr/tutoriels/tutoriel-administrateur#c-date",
+        "required": false
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "Champ \"Date et Heure\"",
+        "description": "Le champs date et heure, reprend le champ date, mais y joute deux autres informations, une heure et un champ pour les minutes.\n\nhttps://doc.demarches-simplifiees.fr/tutoriels/tutoriel-administrateur#d-date-et-heure",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "champ \"Nombre decimal\"",
+        "description": "Ce champ autorise la saisie d'un nombre avec des décimale (, ou .)\n\nhttps://doc.demarches-simplifiees.fr/tutoriels/tutoriel-administrateur#f-nombre-decimal",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "champ \"Nombre entier\"",
+        "description": "N'autorise que la saisie de nombres entiers.",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Champ \"case a cocher\"",
+        "description": "Une case à cocher apparaît au début du texte du libellé.",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Champ \"civilté\"",
+        "description": "Deux choix de proposés : M ou Mme\nhttps://doc.demarches-simplifiees.fr/tutoriels/tutoriel-administrateur#h-civilite",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "champ \"email\"",
+        "description": "Ce champ est automatiquement contrôlé",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Champ \"Telephone\"",
+        "description": "Ce champ est automatiquement contrôlé",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Champ \"Adresse\"",
+        "description": "Le champ adresse est relié à l'API de la BAN qui autorise l'autocomplétion de ce champs, et évite donc les problèmes de saisie.\n\nhttps://api.gouv.fr/api/base-adresse-nationale",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "champ \"Oui/Non\"",
+        "description": "Comme son nom l'indique...\n\nhttps://doc.demarches-simplifiees.fr/tutoriels/tutoriel-administrateur#l-oui-non",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Champ \"Menu Déroulant\"",
+        "description": "Le menu déroulant permet d'entrer une liste de valeur, qui peuvent être rythmés par des ligne avec --\nhttps://doc.demarches-simplifiees.fr/tutoriels/tutoriel-administrateur#m-menu-deroulant",
+        "required": false,
+        "options": [
+          "--Type1--",
+          "v1",
+          "v2",
+          "--Type2--",
+          "v3"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "champ \"Menu deroulant à choix multiple\"",
+        "description": "Le mode de saisie de ce champs doit respecter un code qui est décrit dans la page :\nhttps://doc.demarches-simplifiees.fr/tutoriels/tutoriel-administrateur#a-renseigner-le-type-de-champ",
+        "required": false,
+        "options": [
+          "--Type1--",
+          "v1",
+          "v2",
+          "--Type2--",
+          "v3"
+        ]
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Champ \"Deux menus déroulants liés\"",
+        "description": "Types de champ 2 menu lié doit commencer par une entrée de menu primaire de la forme --texte--\n--Permier Choix--\nsous choix 1\nsous choix 2\n--Second Choix--\nsous choix 3\nsous choix 4\n-- Dernier choix--\n\nhttps://doc.demarches-simplifiees.fr/tutoriels/tutoriel-administrateur#a-renseigner-le-type-de-champ\n",
+        "required": false,
+        "options": [
+          "--Permier Choix--",
+          "sous choix 1",
+          "sous choix 2",
+          "--Second Choix--",
+          "sous choix 3",
+          "sous choix 4",
+          "-- Dernier choix--"
+        ]
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Champ \"Pays\"",
+        "description": "Relié à la BAN, ce champ fait apparaître la liste des pays",
+        "required": false
+      },
+      {
+        "__typename": "RegionChampDescriptor",
+        "label": "Champ \"Region\"",
+        "description": "Relié à la BAN, ce champ fait apparaître la liste des Régions",
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Champ \"Departement\"",
+        "description": "Relié à la BAN, ce champ fait apparaître la liste des Départements",
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Champ \"Commune\"",
+        "description": "Relié à la BAN, ce champ fait apparaître la liste des communes. A ce jour cette liste n'est pas liée au champ \"département\"",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Champ \"Explication\"",
+        "description": "Ce champ à vocation à accueillir du texte qui vient expliquer un formulaire, donner des conseils, des explications au sein d'un formulaire. Ils peuvent donc être mis à n'importe quel endroit du formulaire. \n\nhttps://doc.demarches-simplifiees.fr/tutoriels/tutoriel-administrateur#s-explication",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Champ \"Piece justificative\"",
+        "description": "Ce champ permet à l'usager d'ajouter à son dossier un document, quel que soit son format. La taille de chaque fichier doit être inférieure à 600 Mo. Il n'y a pas de limite globale de taille. \n\nVous avez également la possibilité de joindre un modèle de pièce justificative, que les usagers peuvent télécharger, remplir pour joindre à leur dossier. Cela est particulièrement utile dans les démarches impliquant l'utilisation de fichiers tableur. \n\nhttps://doc.demarches-simplifiees.fr/tutoriels/tutoriel-administrateur#u-piece-justificative",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Champ SIRET",
+        "description": "Ce champ permet de demander à l'usager de compléter sa demande avec un numéro SIRET.\nCela se traduit par un appel d'API vers l'APIENTREPRISE, et de récupérer toutes les informations présentes au sein de la base de données SIRET de l'INSEE, mais aussi du RNA, le registre national des associations du ministère de l'intérieur.\n\nhttps://doc.demarches-simplifiees.fr/tutoriels/tutoriel-administrateur#v-siret",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Champs spécifiques",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Champ \"Lien vers un autre dossier\" présent sur \"demarches-simplifiees.fr\"",
+        "description": "Ce champ est spécifique à \"démarches-simplifiees\".\nIl permet de relier deux dossiers ensemble\nEx: un dossier d'une campagne antérieure\n\nhttps://doc.demarches-simplifiees.fr/tutoriels/tutoriel-administrateur#t-lien-vers-un-autre-dossier",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Champ \"carte\"",
+        "description": "Ce champ permet de présenter un carte avec un fond \"open street map\", qui autorise des dessins et un appel vers des API de l'IGN pour intégrer automatiquement des informations des référentiels cartographiques\n\nhttps://doc.demarches-simplifiees.fr/tutoriels/tutoriel-administrateur#w-carte",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Titre d'un bloc répétable (exemple : déclarer les enfants que vous avez)",
+        "description": "Les blocs répétables sont une nouvelle fonctionnalité qui permet à l'usager de saisir un certain nombre de champs autant de fois qu'il le souhaite. \n\nPar exemple, s'il doit saisir 50 fois une commune et son code postal, l'administrateur n'a plus qu'à prévoir une seule fois ce \"bloc\" d'informations (commune + code postal) et l'usager pourra saisir autant de fois qu'il le souhaite.\n\nhttps://faq.demarches-simplifiees.fr/article/48-les-blocs-repetables",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie du livret de famille",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Engagement",
+        "description": "Ce champ fonctionne comme une case à cocher. Il a vocation à accueillir la phrase qui est généralement en fin d'un formulaire, pour solliciter le consentement explicite d'un usager",
+        "required": false
+      }
+    ]
+  }
+}

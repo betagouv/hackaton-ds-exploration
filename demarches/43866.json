@@ -1,0 +1,897 @@
+{
+  "number": 43866,
+  "title": "DOSSIER DE CANDIDATURE POSTES SPECIFIQUES-Campagne 2021",
+  "description": "Cette démarche permet la création d'un dossier de candidature à un poste spécifique dans le cadre du mouvement intra départemental  de l'académie de Martinique. \r\n\r\nEn cas de besoin, la circulaire cadrant l'appel à candidature aux postes à spécifiques apparaît en haut du formulaire de l’usager sous l'appellation \"Guide de la démarche\".\r\n\r\nCertaines pièces au format jpg ou pdf vous seront réclamées. Il vous est possible de les préparer en amont en les enregistrant sur votre support numérique. \r\n            - Lettre de motivation\r\n            - Curriculum Vitae\r\n            - Copie du dernier rapport d'inspection ou dernier compte rendu de PPCR\r\n          - Fichier image de votre signature",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2021-05-07T19:48:20+02:00",
+  "service": {
+    "nom": "DPE - Direction des Personnels Enseignants",
+    "organisme": "Académie de la Martinique",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/dossier-de-candidature-postes-specifiques-2021",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.ac-martinique.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr",
+  "logo": {
+    "filename": "JUIN_2020-logoAC_MARTINIQUE HD.jpg",
+    "checksum": "r7B1CVGoJYrFIxbAHeV0ng==",
+    "byteSize": "614003",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "Recueil des fiches de postes specifiques_et_PAP DIR ECOLE MVT_2021.pdf.pdf",
+    "checksum": "TfQofWKbhdI2lJXvkHppYQ==",
+    "byteSize": "2344901",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 95,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATIONS PERSONNELLES",
+        "description": "Saisir votre nom",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "CIVILITE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM D'USAGE",
+        "description": "Saisir votre nom marital",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM",
+        "description": "Saisir votre nom ou votre nom de jeune fille",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "PRENOM",
+        "description": "Saisir votre prénom",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Email / Téléphone",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "COURRIEL PROFESSIONNEL",
+            "description": "xxx@ac-martinique.fr",
+            "required": true
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "TELEPHONE",
+            "description": "Fixe ou mobile",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATIONS PROFESSIONNELLES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "CORPS / GRADE / AGS",
+        "description": "Informations liées aux corps, grade, ancienneté générale de service, ...",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "CORPS",
+            "description": "Choisir dans la liste déroulante",
+            "required": true,
+            "options": [
+              "Professeur des écoles",
+              "---",
+              "Agrégé",
+              "Certifié",
+              "PLP",
+              "PEPS",
+              "Autre"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si \"Autre\" Préciser",
+            "description": "Renseigner la zone de texte si votre Corps d'enseignement n'est pas référencé",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "DISCIPLINE",
+            "description": "Vous êtes personnel du 2nd degré, préciser votre discipline",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "GRADE",
+            "description": "Choisir dans la liste déroulante",
+            "required": true,
+            "options": [
+              "P.E CLASSE NORMALE",
+              "P.E HORS CLASSE",
+              "P.E CLASSE EXCEPTIONNELLE",
+              "1er Grade CLASSE NORMALE",
+              "2nd Grade HORS CLASSE",
+              "3ème Grade CLASSE EXCEPTIONNELLE"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "ANCIENNETE GENERALE DE SERVICE",
+            "description": "Préciser l'ancienneté générale de service au 1er septembre de l'année scolaire en cours. \nElle est disponible dans l'onglet \"Carrière\" de votre Iprof.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "AFFECTATION",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "CIRCONSCRIPTION OU BASSIN",
+            "description": "Choisir la circonscription ou le bassin dont vous dépendez dans la liste déroulante",
+            "required": true,
+            "options": [
+              "Fort de France 1",
+              "Lamentin",
+              "Marigot",
+              "Marin",
+              "Morne rouge",
+              "Rivière Salée",
+              "Saint Joseph",
+              "Schoelcher",
+              "St Esprit",
+              "Trinité",
+              "Fort de France 4",
+              "ASH-CTR",
+              "ASH-EGPA",
+              "-------",
+              "Bassin nord caraïbe",
+              "Bassin centre nord atlantique",
+              "Bassin centre sud"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Etablissement (RNE)",
+            "description": "Saisir le RNE de votre établissement de rattachement",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "AFFECTATION (Etablissement / Code Postal /Ville)",
+            "description": "Saisir : le nom de l'établissement / le code postal et le nom de la ville dans laquelle il se trouve",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DIPLOMES ET TITRES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "DIPLOMES ET TITRES",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Sélectionnez le.s diplôme.s et titre.s obtenu.s",
+            "description": "Plusieurs diplômes ou titres peuvent être choisis",
+            "required": false,
+            "options": [
+              "CAPFIPEMF",
+              "C2I2E",
+              "CAPSAIS",
+              "CAPA-SH",
+              "CAPPEI",
+              "2CA-SH",
+              "Directeur d'école",
+              "Liste d'aptitude Directeur d'école",
+              "Habilitation LVE",
+              "Habilitation LVR",
+              "Certificat d'Enseignement du Français Langue Etrangère (FLS)",
+              "Autre"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Autre",
+            "description": "Si \"Autre\" Précisez",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "EXPERIENCE EN EDUCATION PRIORITAIRE",
+            "description": " (précisez la durée)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "INFORMATIONS CAFIPEMF",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "EN COURS D'OBTENTION",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "OPTION DU CAFIPEMF",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "INFORMATIONS CAPPEI",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Spécialité du CAPPEI",
+            "description": "TFA : Troubles de la fonction auditive\nTFC : Troubles des fonctions cognitives\nTSA : Troubles du spectre autistique\nGDS : Grande difficulté scolaire\nCEF : Centre éducatif fermé\nGDCA :Grande difficulté de compréhension des attentes de l’école\nLFPC : Langue française Parlée Complétée \nLSF : Langue des Signes Française\nTFMMI : Troubles des fonctions motrices et maladies invalidantes\nTFV : Troubles de la fonction visuelle\nTr psychiques : Troubles psychiques\nTSLA : Troubles spécifiques du langage et des apprentissages",
+            "required": false,
+            "options": [
+              "TFA",
+              "TFC",
+              "TSA",
+              "GDS",
+              "CEF",
+              "GDCA",
+              "LFPC",
+              "LSF",
+              "TFMMI",
+              "TFV",
+              "Tr psychiques",
+              "TSLA"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "SITUATION",
+            "description": null,
+            "required": false,
+            "options": [
+              "Obtenu",
+              "Stagiaire",
+              "En cours de passation (candidat libre)"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "INFORMATIONS CAPSAIS",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Choisissez l'option",
+            "description": null,
+            "required": false,
+            "options": [
+              "Opt A",
+              "Opt B",
+              "Opt C",
+              "Opt D",
+              "Opt E",
+              "Opt F",
+              "Opt G"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SAISIE DES VOEUX SUR POSTES A PROFIL (PAP) - POSTES HORS MOUVEMENT - 3 CHOIX MAXIMUM",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "POSTES A PROFIL - CHOIX 1",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "LISTE DES POSTES A PROFIL",
+            "description": null,
+            "required": false,
+            "options": [
+              "- CONSEILLER PEDAGOGIQUE DEPARTEMENTAUX :",
+              "Appui mission des IEN / ADAASEN",
+              "Arts visuels",
+              "Bien-être à l’école, parentalité et Plan pauvreté",
+              "Coordonnateur CAPPEI",
+              "Éducation musicale",
+              "Éducation prioritaire",
+              "EPS",
+              "Evaluation - 100% réussite",
+              "Formation continue",
+              "Formation Examen et concours",
+              "LVE",
+              "LVR",
+              "Maîtrise de la langue",
+              "Mathématiques",
+              "Numérique éducatif",
+              "Numérique éducatif – Gestionnaire m@gistere (fiche 18)",
+              "Périscolaire",
+              "Plus de maîtres – Instruction à domicile et Evaluation établissements 1er degré",
+              "Sciences ",
+              "………….",
+              "- ANIMATEURS ACADEMIQUES : ",
+              "Animateur PEDT/PLAN MERCREDI et Politique de la ville",
+              "Chargé de mission Carte scolaire 1erD et remplacement",
+              "Chargé de mission départementale GRH – Remplacement - Accompagnement juridique des directeurs d’école",
+              "Systèmes d’information du 1er degré",
+              "………….",
+              "- CONSEILLER PEDAGOGIQUE AUPRES D’UN IEN ",
+              "CP généraliste",
+              "CP EPS",
+              "CP Référent Mathématiques ",
+              "CP Maternelle",
+              "CP ASH",
+              "………….",
+              "- COORDONNATEURS EDUCATION PRIORITAIRE : ",
+              "REP+ (1 poste)",
+              "REP (1 poste pour 2 réseaux)",
+              "………….",
+              "- ANIMATEUR CHAM",
+              "Animateur en CHAM/CHOEUR",
+              "………….",
+              "- DIRECTIONS D’ECOLE ",
+              "Directeur d’école à forts effectifs ou présentant des spécificités particulières",
+              "………….",
+              "- ASH :",
+              "Coordonnateur des AESH",
+              "Coordonnateur SAPAD/AESH",
+              "Coordonnateur PIAL",
+              "Enseignant Référent ASH ",
+              "Enseignant en milieu hospitalier ",
+              "Enseignant en centre médico-psycho- pédagogique (CMPP)",
+              "Enseignant à l’unité d’enseignement autisme maternelle (UEAM)",
+              "Maître spécialisé itinérant Autisme (MSI)",
+              "Enseignant ressource Autisme",
+              "Coordonnateur CDOEA",
+              "Enseignant à l’Unité éducative d’activité de jour (UEAJ-PJJ)",
+              "Enseignant en centre pénitentiaire"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "AFFECTATION SOUHAITEE",
+            "description": null,
+            "required": false,
+            "options": [
+              "CIRCONSCRIPTIONS :",
+              "Fort de France 1",
+              "Lamentin",
+              "Marigot",
+              "Marin",
+              "Morne rouge",
+              "Rivière Salée",
+              "Saint Joseph",
+              "Schoelcher",
+              "St Esprit",
+              "Trinité",
+              "Fort de France 4",
+              "Autre"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "\"AUTRE\" Précisez",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "POSTES A PROFIL - CHOIX 2",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "LISTE DES POSTES A PROFIL",
+            "description": null,
+            "required": false,
+            "options": [
+              "- CONSEILLER PEDAGOGIQUE DEPARTEMENTAUX :",
+              "Appui mission des IEN / ADAASEN",
+              "Arts visuels",
+              "Bien-être à l’école, parentalité et Plan pauvreté",
+              "Coordonnateur CAPPEI",
+              "Éducation musicale",
+              "Éducation prioritaire",
+              "EPS",
+              "Evaluation - 100% réussite",
+              "Formation continue",
+              "Formation Examen et concours",
+              "LVE",
+              "LVR",
+              "Maîtrise de la langue",
+              "Mathématiques",
+              "Numérique éducatif",
+              "Numérique éducatif – Gestionnaire m@gistere (fiche 18)",
+              "Périscolaire",
+              "Plus de maîtres – Instruction à domicile et Evaluation établissements 1er degré",
+              "Sciences ",
+              "………….",
+              "- ANIMATEURS ACADEMIQUES : ",
+              "Animateur PEDT/PLAN MERCREDI et Politique de la ville",
+              "Chargé de mission Carte scolaire 1erD et remplacement",
+              "Chargé de mission départementale GRH – Remplacement - Accompagnement juridique des directeurs d’école",
+              "Systèmes d’information du 1er degré",
+              "………….",
+              "- CONSEILLER PEDAGOGIQUE AUPRES D’UN IEN ",
+              "CP généraliste",
+              "CP EPS",
+              "CP Référent Mathématiques ",
+              "CP Maternelle",
+              "CP ASH",
+              "………….",
+              "- COORDONNATEURS EDUCATION PRIORITAIRE : ",
+              "REP+ (1 poste)",
+              "REP (1 poste pour 2 réseaux)",
+              "………….",
+              "- ANIMATEUR CHAM",
+              "Animateur en CHAM/CHOEUR",
+              "………….",
+              "- DIRECTIONS D’ECOLE ",
+              "Directeur d’école à forts effectifs ou présentant des spécificités particulières",
+              "………….",
+              "- ASH :",
+              "Coordonnateur des AESH",
+              "Coordonnateur SAPAD/AESH",
+              "Coordonnateur PIAL",
+              "Enseignant Référent ASH ",
+              "Enseignant en milieu hospitalier ",
+              "Enseignant en centre médico-psycho- pédagogique (CMPP)",
+              "Enseignant à l’unité d’enseignement autisme maternelle (UEAM)",
+              "Maître spécialisé itinérant Autisme (MSI)",
+              "Enseignant ressource Autisme",
+              "Coordonnateur CDOEA",
+              "Enseignant à l’Unité éducative d’activité de jour (UEAJ-PJJ)",
+              "Enseignant en centre pénitentiaire"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "AFFECTATION SOUHAITEE",
+            "description": null,
+            "required": false,
+            "options": [
+              "CIRCONSCRIPTIONS :",
+              "Fort de France 1",
+              "Lamentin",
+              "Marigot",
+              "Marin",
+              "Morne rouge",
+              "Rivière Salée",
+              "Saint Joseph",
+              "Schoelcher",
+              "St Esprit",
+              "Trinité",
+              "Fort de France 4",
+              "Autre"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "\"AUTRE\" Précisez",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "POSTES A PROFIL - CHOIX 3",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "LISTE DES POSTES A PROFIL",
+            "description": null,
+            "required": false,
+            "options": [
+              "- CONSEILLER PEDAGOGIQUE DEPARTEMENTAUX :",
+              "Appui mission des IEN / ADAASEN",
+              "Arts visuels",
+              "Bien-être à l’école, parentalité et Plan pauvreté",
+              "Coordonnateur CAPPEI",
+              "Éducation musicale",
+              "Éducation prioritaire",
+              "EPS",
+              "Evaluation - 100% réussite",
+              "Formation continue",
+              "Formation Examen et concours",
+              "LVE",
+              "LVR",
+              "Maîtrise de la langue",
+              "Mathématiques",
+              "Numérique éducatif",
+              "Numérique éducatif – Gestionnaire m@gistere (fiche 18)",
+              "Périscolaire",
+              "Plus de maîtres – Instruction à domicile et Evaluation établissements 1er degré",
+              "Sciences ",
+              "………….",
+              "- ANIMATEURS ACADEMIQUES : ",
+              "Animateur PEDT/PLAN MERCREDI et Politique de la ville",
+              "Chargé de mission Carte scolaire 1erD et remplacement",
+              "Chargé de mission départementale GRH – Remplacement - Accompagnement juridique des directeurs d’école",
+              "Systèmes d’information du 1er degré",
+              "………….",
+              "- CONSEILLER PEDAGOGIQUE AUPRES D’UN IEN ",
+              "CP généraliste",
+              "CP EPS",
+              "CP Référent Mathématiques ",
+              "CP Maternelle",
+              "CP ASH",
+              "………….",
+              "- COORDONNATEURS EDUCATION PRIORITAIRE : ",
+              "REP+ (1 poste)",
+              "REP (1 poste pour 2 réseaux)",
+              "………….",
+              "- ANIMATEUR CHAM",
+              "Animateur en CHAM/CHOEUR",
+              "………….",
+              "- DIRECTIONS D’ECOLE ",
+              "Directeur d’école à forts effectifs ou présentant des spécificités particulières",
+              "………….",
+              "- ASH :",
+              "Coordonnateur des AESH",
+              "Coordonnateur SAPAD/AESH",
+              "Coordonnateur PIAL",
+              "Enseignant Référent ASH ",
+              "Enseignant en milieu hospitalier ",
+              "Enseignant en centre médico-psycho- pédagogique (CMPP)",
+              "Enseignant à l’unité d’enseignement autisme maternelle (UEAM)",
+              "Maître spécialisé itinérant Autisme (MSI)",
+              "Enseignant ressource Autisme",
+              "Coordonnateur CDOEA",
+              "Enseignant à l’Unité éducative d’activité de jour (UEAJ-PJJ)",
+              "Enseignant en centre pénitentiaire"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "AFFECTATION SOUHAITEE",
+            "description": null,
+            "required": false,
+            "options": [
+              "CIRCONSCRIPTIONS :",
+              "Fort de France 1",
+              "Lamentin",
+              "Marigot",
+              "Marin",
+              "Morne rouge",
+              "Rivière Salée",
+              "Saint Joseph",
+              "Schoelcher",
+              "St Esprit",
+              "Trinité",
+              "Fort de France 4",
+              "Autre"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "\"AUTRE\" Précisez",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SAISIE DES VOEUX SUR  POSTES A EXIGENCES PARTICULIERES (PEP) - 3 CHOIX MAXIMUM",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "POSTES A EXIGENCES PARTICULIERES - CHOIX 1",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "LISTE DES POSTES A EXIGENCES PARTICULIERES",
+            "description": "Le détail des titres requis figure en annexe",
+            "required": false,
+            "options": [
+              "- ANIMATEURS CIRCONSCRIPTION : ",
+              "ERUN",
+              "LVE",
+              "LVR",
+              "………….",
+              "- MAITRES SUPPLEMENTAIRES : ",
+              "Co-enseignant programme PARLER",
+              "Maîtres supplémentaires",
+              "………….",
+              "- DISPOSITIFS DE SCOLARISATION PARTICULIERS : ",
+              "U.P.E.A.A.",
+              "Scolarisation des moins de 3 ans",
+              "Enseignant spécialisé itinérant option A (MSI EEPU Marcel Placide 163V)",
+              "Coordonnateur d’unité locale d’inclusion scolaire ULIS école ",
+              "1 ULIS TFC/TSA : EEPU Gros Morne A (189Y)",
+              "1 ULIS TFC/TSA : EEPU Pierre Cirille (334F)",
+              "1 ULIS TFC/TSA : EEPU Les Oiseaux du Paradis (278V)",
+              "1 ULIS TFC/TSLA : EEPU Philemont Montout (319P)",
+              "Coordonnateur d’unité locale d’inclusion scolaire ULIS collège",
+              "Coordonnateur d’unité locale d’inclusion scolaire ULIS lycée général",
+              "Coordonnateur d’unité locale d’inclusion scolaire ULIS lycée professionnel",
+              "Enseignant spécialisé au RSMA"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "AFFECTATION SOUHAITEE",
+            "description": "En cas de postes existant sur plusieurs circonscriptions, indiquez par ordre de préférence, les circonscriptions demandées",
+            "required": false,
+            "options": [
+              "CIRCONSCRIPTIONS :",
+              "Fort de France 1",
+              "Lamentin",
+              "Marigot",
+              "Marin",
+              "Morne rouge",
+              "Rivière Salée",
+              "Saint Joseph",
+              "Schoelcher",
+              "St Esprit",
+              "Trinité",
+              "Fort de France 4",
+              "Autre"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "\"AUTRE\" Précisez",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "POSTES A EXIGENCES PARTICULIERES - CHOIX 2",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "LISTE DES POSTES A EXIGENCES PARTICULIERES",
+            "description": null,
+            "required": false,
+            "options": [
+              "- ANIMATEURS CIRCONSCRIPTION : ",
+              "ERUN",
+              "LVE",
+              "LVR",
+              "………….",
+              "- MAITRES SUPPLEMENTAIRES : ",
+              "Co-enseignant programme PARLER",
+              "Maîtres supplémentaires",
+              "………….",
+              "- DISPOSITIFS DE SCOLARISATION PARTICULIERS : ",
+              "U.P.E.A.A.",
+              "Scolarisation des moins de 3 ans",
+              "Enseignant spécialisé itinérant option A (MSI EEPU Marcel Placide 163V)",
+              "Coordonnateur d’unité locale d’inclusion scolaire ULIS école ",
+              "1 ULIS TFC/TSA : EEPU Gros Morne A (189Y)",
+              "1 ULIS TFC/TSA : EEPU Pierre Cirille (334F)",
+              "1 ULIS TFC/TSA : EEPU Les Oiseaux du Paradis (278V)",
+              "1 ULIS TFC/TSLA : EEPU Philemont Montout (319P)",
+              "Coordonnateur d’unité locale d’inclusion scolaire ULIS collège",
+              "Coordonnateur d’unité locale d’inclusion scolaire ULIS lycée général",
+              "Coordonnateur d’unité locale d’inclusion scolaire ULIS lycée professionnel",
+              "Enseignant spécialisé au RSMA"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "AFFECTATION SOUHAITEE",
+            "description": null,
+            "required": false,
+            "options": [
+              "CIRCONSCRIPTIONS :",
+              "Fort de France 1",
+              "Lamentin",
+              "Marigot",
+              "Marin",
+              "Morne rouge",
+              "Rivière Salée",
+              "Saint Joseph",
+              "Schoelcher",
+              "St Esprit",
+              "Trinité",
+              "Fort de France 4",
+              "Autre"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "\"AUTRE\" Précisez",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "POSTES A EXIGENCES PARTICULIERES - CHOIX 3",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "LISTE DES POSTES A EXIGENCES PARTICULIERES",
+            "description": null,
+            "required": false,
+            "options": [
+              "- ANIMATEURS CIRCONSCRIPTION : ",
+              "ERUN",
+              "LVE",
+              "LVR",
+              "………….",
+              "- MAITRES SUPPLEMENTAIRES : ",
+              "Co-enseignant programme PARLER",
+              "Maîtres supplémentaires",
+              "………….",
+              "- DISPOSITIFS DE SCOLARISATION PARTICULIERS : ",
+              "U.P.E.A.A.",
+              "Scolarisation des moins de 3 ans",
+              "Enseignant spécialisé itinérant option A (MSI EEPU Marcel Placide 163V)",
+              "Coordonnateur d’unité locale d’inclusion scolaire ULIS école ",
+              "1 ULIS TFC/TSA : EEPU Gros Morne A (189Y)",
+              "1 ULIS TFC/TSA : EEPU Pierre Cirille (334F)",
+              "1 ULIS TFC/TSA : EEPU Les Oiseaux du Paradis (278V)",
+              "1 ULIS TFC/TSLA : EEPU Philemont Montout (319P)",
+              "Coordonnateur d’unité locale d’inclusion scolaire ULIS collège",
+              "Coordonnateur d’unité locale d’inclusion scolaire ULIS lycée général",
+              "Coordonnateur d’unité locale d’inclusion scolaire ULIS lycée professionnel",
+              "Enseignant spécialisé au RSMA"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "AFFECTATION SOUHAITEE",
+            "description": null,
+            "required": false,
+            "options": [
+              "CIRCONSCRIPTIONS :",
+              "Fort de France 1",
+              "Lamentin",
+              "Marigot",
+              "Marin",
+              "Morne rouge",
+              "Rivière Salée",
+              "Saint Joseph",
+              "Schoelcher",
+              "St Esprit",
+              "Trinité",
+              "Fort de France 4",
+              "Autre"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "\"AUTRE\" Précisez",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PIECES / JUSTIFICATIFS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Lettre de Motivation",
+        "description": "Importer votre lettre de motivation datée et signée au format pdf ou jpg (5 Mo maximum)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Curriculum Vitae",
+        "description": "Importer votre CV au format pdf ou jpg (5 Mo maximum)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dernier rapport d'inspection ou dernier compte rendu de PPCR",
+        "description": "Importer votre dernier rapport d’inspection ou ou dernier compte rendu de PPCR au format pdf ou jpg (5 Mo maximum)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SIGNATURE DU FORMULAIRE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Déclaration sur l'honneur",
+        "description": "J’atteste sur l’honneur l’exactitude des renseignements portés sur cette déclaration. \nJe reconnais être informé(e) qu’une vérification de l'exactitude de mes informations et de l’authenticité des documents produits à l’appui de ma demande, peut être effectuée.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Fait le :",
+        "description": "jj/mm/aaaa",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "SIGNATURE",
+        "description": "Importer votre signature numérisée au format pdf ou jpg (5 Mo maximum)",
+        "required": true
+      }
+    ]
+  }
+}

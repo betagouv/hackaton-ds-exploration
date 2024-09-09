@@ -1,0 +1,131 @@
+{
+  "number": 81184,
+  "title": "Pass Culture - Dépôt de compte bancaire",
+  "description": "Cette démarche vous permet de déposer votre compte bancaire afin de percevoir les remboursements de vos offres.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Culture"
+  ],
+  "datePublication": "2024-03-05T12:24:31+01:00",
+  "service": {
+    "nom": "Homologation des acteurs culturels",
+    "organisme": "Pass Culture",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/pass-culture-depot-de-compte-bancaire",
+  "dpoUrl": "dpo@passculture.app",
+  "noticeUrl": null,
+  "siteWebUrl": "https://passculture.pro",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000038108956",
+  "logo": {
+    "filename": "procedure-360477a2-718b-42ff-b8af-2b4931f3a2d1.png",
+    "checksum": "x+jrSg4Tx8lU/WUsqWo33Q==",
+    "byteSize": "618739",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "DMS Notice explicative acteurs culturels .pdf",
+    "checksum": "s/PDcNQ04HwrocwuMwdLZQ==",
+    "byteSize": "865796",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 4481,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vos informations bancaires",
+        "description": "Envoyer ci-dessous votre RIB au format PDF",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Intitulé du compte bancaire",
+        "description": "Cet intitulé figurera sur vos justificatifs de remboursement. Vous ne pourrez plus le modifier par la suite.",
+        "required": true
+      },
+      {
+        "__typename": "IbanChampDescriptor",
+        "label": "IBAN",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "BIC",
+        "description": "Le BIC est composé de 8 ou 11 caractères",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB",
+        "description": "Téléchargez votre RIB au format PDF.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité du responsable légal",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TitreIdentiteChampDescriptor",
+        "label": "Carte d'identité (recto) ou passeport du responsable légal de la structure",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Structure",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nature juridique de votre structure",
+        "description": "",
+        "required": true,
+        "options": [
+          "Association",
+          "Collectivité territoriale",
+          "Entreprise individuelle",
+          "Société commerciale"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "PV AG daté et signé par le responsable légal, de moins d'un an",
+        "description": "Veuillez joindre l'ensemble des documents nécessaires pour que votre dossier soit traité.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Arrêté de nomination du Régisseur ou Délibération du conseil décisionnaire",
+        "description": "Document justifiant de la création ou de l'activité de l'établissement (décret, délibération du conseil décisionnaire, arrêté de nomination du régisseur).",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Déclaration sur l'honneur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je déclare sur l’honneur disposer de l'autorisation du responsable légal pour effectuer cette démarche",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je déclare que l'ensemble des réponses et documents fournis sont corrects et authentiques",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "number": 40052,
+  "title": "SOS patrimoine UFC",
+  "description": "Signalez vos besoins d'interventions sur les immeubles, et le patrimoine de l'Université de Franche-Comté en général.",
+  "tags": [
+    "Culture"
+  ],
+  "zones": [
+    "Ministère de l'Enseignement supérieur et de la Recherche"
+  ],
+  "datePublication": "2021-02-22T21:40:49+01:00",
+  "service": {
+    "nom": "Direction du Patrimoine",
+    "organisme": "Université de Franche-Comté",
+    "typeOrganisme": "etablissement_enseignement"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/sos-patrimoine-ufc",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://ent.univ-fcomte.fr/",
+  "cadreJuridiqueUrl": "http://ent.univ-fcomte.fr/",
+  "logo": {
+    "filename": "LOGO UNIV-FC_COULEUR_r.png",
+    "checksum": "YMdiMnDqZFLOosT/eMlc7A==",
+    "byteSize": "15438",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 28,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Secteur géographique",
+        "description": null,
+        "required": true,
+        "options": [
+          "Besançon",
+          "défaut",
+          "Nord Franche-Comté"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description de votre besoin",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de besoins",
+        "description": "Dans la mesure du possible, merci de choisir le (ou les) type(s) de besoin(s). Cela facilitera l'attribution de votre demande à un(e) collaborateur(trice) de l'équipe ou à un prestataire externe.",
+        "required": false,
+        "options": [
+          "Plomberie - dépannage",
+          "Plomberie - travaux",
+          "Électricité - dépannage",
+          "Électricité - travaux, mises aux normes",
+          "Remise en peinture",
+          "Aménagt int. - cloisons - faux plaf.",
+          "Revêtements de sol souples",
+          "Petite menuiserie",
+          "Métallerie, serrures",
+          "Aide logistique",
+          "Partage de véhicules",
+          "Intervention Espaces verts",
+          "Autre besoin"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrivez votre besoin ou la panne à traiter",
+        "description": "Précisez avec la maximum de détails la nature de l'intervention que vous souhaitez de la part de la DPI.",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Support budgétaire UB",
+        "description": " Sur quel budget cette intervention va-t-elle être imputée ?",
+        "required": true,
+        "options": [
+          "901 SLHS",
+          "902 SJEPG",
+          "903 ST",
+          "904 SANTE",
+          "905 UPFR SPORTS",
+          "906 STGI",
+          "911 IUT 25-70",
+          "912 IUT 90-25",
+          "914 ISIFC",
+          "917 OBS - OSU",
+          "918 ESPE ex IUFM",
+          "920 SAIC",
+          "921 ",
+          "922 FC",
+          "923 SCD",
+          "924 SUMPPS",
+          "926 CTU",
+          "927 CLA",
+          "928 UO"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Code CR",
+        "description": "Sur quelle ligne budgétaire cette intervention va-t-elle être imputée ?",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Estimation financière (Oui/Non)",
+        "description": "Avez-vous une idée du montant des dépenses à engager pour votre besoin ou votre projet ?",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant prévu ou estimé (en euros)",
+        "description": "Avez-vous fait faire un devis ? Si oui, quel en est le montant ?",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Autorisation d'agir",
+        "description": "En cliquant sur cette case à cocher, vous attestez que vous êtes en droit d'engager des dépenses pour votre structure.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Références immobilières",
+        "description": "Si votre demande concerne un immeuble ou un site en particulier, notamment pour des travaux, merci de mentionner ici les références Chorus REFX de l'immeuble (format 123456/654321) ou la codification interne à l'UFC",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "localisation précise",
+        "description": "Nous permet de mieux affecter la ressource interne ou externe dont vous avez besoin.\nUsage de l'outil :\n1) Remplissez le champ avec un début d'adresse. Dès que celle-ci est reconnue, validez la.\n2) Puis utilisez : \n2.1) la souris ou les 4 flèches du clavier pour vous déplacer \n2.2) les balises +/- de la carte ou de votre clavier, ou la roulette de la souris pour zoomer et dézoomer.\n3) En haut à gauche vous avez des outils de dessin :\n3.1) de ligne (clic déplacer clic déplacer double-clic) pour un linéaire de bordure de trottoir à désherber par exemple\n3.2) de délimitation de surface (clic déplacer clic déplacer clic... jusqu'à la composition du polygone souhaité avec double-clic à la fin. Chaque sommet peut ensuite être déplacé.\n3.3) de dépôt d'un point.\n4) Quand votre sélection est acceptée (ligne, polygone, point) sa couleur passe en bleu,  le surlignage de la parcelle de rattachement s'affiche. Ses coordonnées GPS s'affichent en dessous de la zone de cartographie.\n5) Vous pouvez ensuite ajouter une nouvelle sélection en cliquant à nouveau sur l'outil ad hoc.\n6) Pour détruire une sélection, cliquez dessus pour la sélectionner et cliquez sur l'icône de la poubelle.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Périodicité",
+        "description": "Selon le cas, la DPI peut également envisager recourir à des ressources externes (déjà en contrat avec l'UFC ou à solliciter pour l'occasion).",
+        "required": false,
+        "options": [
+          "Intervention unique",
+          "Besoin régulier mais aléatoire",
+          "Besoin récurrent",
+          "Pas très sûr !..."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Mise à disposition",
+        "description": "Mentionnez la date à laquelle vous souhaitez disposer de cette prestation.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Urgent ?",
+        "description": "Urgence technique (fuite, panne électrique, intrusion...)",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre structure",
+        "description": "Choisissez dans la liste votre UFR ou composante d'appartenance.",
+        "required": true,
+        "options": [
+          "Présidence",
+          "UFR SLHS",
+          "SLHS CLA",
+          "UFR ST",
+          "ST Métrologie",
+          "ST Utinam",
+          "ST SAIC",
+          "ST DSIN",
+          "ST FEMTO ST",
+          "ST ISI FC",
+          "UFR SMP",
+          "UPFR Sport",
+          "STAPS",
+          "UFR SJEPG",
+          "Service Commun Documentation SCD",
+          "BU Droit",
+          "BU Sciences et Sport",
+          "BU SMP",
+          "BU Montbéliard",
+          "BU Belfort",
+          "IUT 25",
+          "IUT 70",
+          "IUT 90",
+          "STGI",
+          "INSPE Griffon",
+          "INSPE Montjoux",
+          "FC",
+          "Observatoire",
+          "SUAPS",
+          "Université ouverte",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Eventuelle autre structure non listée",
+        "description": "Si vous avez été contraint(e) de choisir \"autre\", précisez le libellé de votre structure ou l'éventuel regroupement de services qui seraient concernés.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Suivi de la demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Nouveau champ Texte",
+        "description": "Préciser les coordonnées de l'interlocuteur interne qui, au sein de votre service, suivra la concrétisation de votre demande.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "adresse du responsable du suivi (si elle diffère du lieu d'intervention mentionné en première partie)",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone fixe",
+        "description": "fixe ou portable, c'est comme vous voulez...",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone mobile",
+        "description": "fixe ou portable, c'est comme vous voulez...",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "courriel nominatif ou générique du service.(indispensable pour garder le contact entre nous)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire",
+        "description": "Mentionnez ici toute information de contexte qui nous permettra de vous donner entière satisfaction.\nPar exemple :\n- absence programmée pour congés donc indisponibilité momentanée pour nous répondre,\n- précisions dans les attendus de votre besoin (réactivité de la DPI ou du prestataire, \n- site sensible d'intervention,\n- intervention ne pouvant se faire que dans certaines plages horaires\n- souhait d'insister sur la thématique RSE.... \net bien d'autres choses encore...",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièces annexes",
+        "description": "Vous souhaitez nous adresser des éléments complémentaires d'information (photos, plans, devis, liste de contacts ou de sites concernés, attestations, cahier des charges existant...) utilisez cette fonction",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Merci",
+        "description": "Grâce à l'ensemble de ces informations, la DPI est en mesure de prendre en compte votre demande. Si besoin elle contactera le correspondant mentionné pour disposer de plus amples informations. A bientôt.",
+        "required": false
+      }
+    ]
+  }
+}

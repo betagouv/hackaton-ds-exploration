@@ -1,0 +1,131 @@
+{
+  "number": 71421,
+  "title": "Formulaire de demande d'adhésion à un contrat d'aide au maintien ou à l'installation des infirmiers",
+  "description": "Seuls les infirmiers en zone très sous-dotées sont éligibles.\r\n\r\nL'ensemble des informations demandées dans ce formulaire sont nécessaires au traitement de votre demande.\r\n\r\nPour plus d'information sur les contrats d'aide, consulter le site ameli.fr :\r\nhttps://www.ameli.fr/infirmier/exercice-liberal/vie-cabinet/installation-liberal/processus-installation\r\n\r\nLe nouveau zonage avec la liste des communes \"très sous dotées\" est consultable sur le site du PAPS : https://www.iledefrance.paps.sante.fr/ou-minstaller-174?rubrique=9949&parent=9951",
+  "tags": [
+    "Professionels de santé"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2023-04-06T11:16:49+02:00",
+  "service": {
+    "nom": "Pôle des relations conventionnelles avec les professionnels de santé",
+    "organisme": "CPAM du Val-de-Marne",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/contratdemo-ide94",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "ameli.fr",
+  "cadreJuridiqueUrl": "https://www.ameli.fr/infirmier/exercice-liberal/vie-cabinet/installation-liberal/processus-installation",
+  "logo": {
+    "filename": "logo---assurance-maladie-du-val-de-marne.png",
+    "checksum": "ajxFhfbGA3A0lEe7nqfqAQ==",
+    "byteSize": "21588",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 6,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. Identification infirmier",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N°Assurance Maladie",
+        "description": "Au format 946",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "L'adresse du lieu d'exercice principal",
+        "description": "Seules les communes « très sous dotées » donnent accès à un contrat d'aide au maintien ou à l'installation. Pour connaître le zonage de votre commune d'exercice consultez le  portail d'accompagnement des professionnels de santé : https://www.iledefrance.paps.sante.fr/ou-minstaller-174?rubrique=9949&parent=9951",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début d'activité en tant qu'infirmier libéral",
+        "description": "A ne pas confondre avec la date d'installation dans la commune actuelle",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'installation dans la commune \"très sous dotée\"",
+        "description": "Les infirmiers nouvellement installés en zone \"très sous dotée\" peuvent bénéficier d'un contrat d'aide à l'installation (CAII ou CAPII). Les infirmiers qui ne sont pas nouvellement installés peuvent bénéficier d'un contrat d'aide au maintien (CAMI).\r\n\r\nSont considérés comme « nouvel installé », les infirmiers qui s’installent dans une zone très sous dotée, moins d’un an avant la parution du nouveau zonage régional, ou après cette date, soit l’ensemble des infirmier.e.s installé.e.s à compter du 15/12/2019.",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Indiquez la ou les structures dans lesquelles vous exercez",
+        "description": "",
+        "required": true,
+        "options": [
+          "Un groupe formé d’infirmiers",
+          "Un groupe pluri professionnel (exemple : Maison de santé, cabinet de libéraux, centre de santé)",
+          "Une communauté professionnelle territoriale de santé (CPTS)",
+          "Une équipe de soin primaire (ESP)"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie de votre contrat de groupe",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Combien de jours par semaine exercez-vous votre activité d’infirmier libéral ?",
+        "description": "Indiquez le nombre de jours en moyenne sur l’année",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous bénéficié d'un contrat démographique ? De quel contrat d'aide au maintien ou à l'installation conclu avec la CPAM avez-vous déjà bénéficié ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, précisez (type de contrat, durée, CPAM de rattachement)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. Engagements à respecter",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Vous vous engagez à remplir les conditions permettant de percevoir le FAMI",
+        "description": "Une vérification par la CPAM sera réalisée en année N+1.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Vous vous engagez à exercer votre activité pendant une durée minimale dans la zone « très sous-dotée » à compter de la date d’adhésion au contrat",
+        "description": "5 ans pour le CAII et le CAPII\r\n3 ans pour le CAMI",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Vous vous engagez à justifier d’une activité libérale conventionnée réalisée à 50 % dans la zone « très sous-dotée » en ayant un honoraire annuel sans dépassement de plus de 10 000 € sur la zone la 1re année et 30 000 € les années suivantes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Vous vous engagez à exercer au sein d’un groupe formé d’infirmiers, d’un groupe pluri-professionnel, appartenir à une communauté professionnelle territoriale de santé (CPTS) ou à une équipe de soin primaire (ESP).",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

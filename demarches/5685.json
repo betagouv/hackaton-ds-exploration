@@ -1,0 +1,359 @@
+{
+  "number": 5685,
+  "title": "Demande d'accès à l'API Entreprise",
+  "description": "L'accès à l'API Entreprise n'est pour l'instant disponible que si vous êtes une administration. Une offre est disponible pour les entreprises, les particuliers et les associations à cette adresse : https://entreprise.data.gouv.fr/api_doc\r\n\r\nPour accéder à l'API Entreprise, qui diffuse des données à caractère personnel, il doit vous être demandé de préciser le cadre juridique dans lequel vous souhaitez accéder à ces données.\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2018-06-14T14:41:33+02:00",
+  "service": {
+    "nom": "API Entreprise",
+    "organisme": "DINSIC",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/api-entreprise",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://entreprise.api.gouv.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000031366350&idArticle=LEGIARTI000031367412&dateTexte=&categorieLien=cid",
+  "logo": {
+    "filename": "procedure-e8e753fe-c82b-4ac3-bf0a-ee59af3e8c58.png",
+    "checksum": "k6CaHsMmlSZ5RSKmWHH/IA==",
+    "byteSize": "27458",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 5,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pourquoi ce formulaire ?",
+        "description": "L'accès à l'API Entreprise n'est pour l'instant disponible que si vous êtes une administration.\r\n\r\nPour accéder à l'API Entreprise, qui diffuse des données à caractère personnel, il doit vous être demandé de préciser le cadre juridique dans lequel vous souhaitez accéder à ces données.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Organisme demandeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Numéro de SIRET",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du département, bureau ou service",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Responsable du traitement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM Prénom",
+        "description": "Qui est le responsable du traitement : https://www.cnil.fr/fr/definition/responsable-de-traitement",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse e-mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Contact métier",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse e-mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Contact technique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse e-mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Délégué à la Protection des Données (DPO)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM Prénom",
+        "description": "Qu'est-ce qu'un Délégué à la Protection des Données (DPO) : https://www.cnil.fr/fr/designation-dpo",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse e-mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre démarche",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Intitulé de la démarche",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description succinte de la démarche",
+        "description": "Décrivez brièvement votre service ainsi que l‘utilisation prévue des données transmises. C'est la raison pour laquelle vous traitez ces données qui peuvent inclure des données à caractère personnel.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Cadre juridique",
+        "description": "Indiquez la référence ou l'URL du du fondement légal de votre droit à demander ces informations (délibération du conseil municipal, décret…).\r\n\r\nEn cas de besoin, vous pouvez aussi joindre le document lui-même en fin de ce formulaire.",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Conservation des données (en mois)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Les données nécessaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Sélectionner ci-dessous les API qui sont strictement nécessaires pour cette démarche",
+        "description": "Vous pouvez trouver une description détaillée de chaque API ici : https://doc.entreprise.api.gouv.fr/",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Association",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Attestation AGEFIPH",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Attestation Fiscale",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Attestation Sociale",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Bilans Entreprises BDF",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Carte Pro FNTP",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Certificat CNETP",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Cotisation MSA",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Certificat OPQIBI",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Certificat PROBTP",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Certificat Qualibat",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Document association",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Exercice",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Extrait INPI",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Extrait RCS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "INSEE Entreprise",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "INSEE Etablissement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Liasse fiscale",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Destinataires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pour mémoire, seuls les agents dûment habilités pour traiter cette démarche doivent pouvoir accéder aux données transmises.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Destinataires des données",
+        "description": "Que sont les destinataires : https://www.cnil.fr/fr/definition/destinataire",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Validation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie que le Délégué à la Protection des Données de mon organisme est informé de ma demande",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Conditions Générales d'Utilisation :",
+        "description": "https://entreprise.api.gouv.fr/cgu/",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie avoir lu et accepté les Conditions Générales d'Utilisation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "Toute information susceptible de faciliter l'instruction de votre demande (volumétrie provisionnelle, saisonnalité, etc)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Cadre juridique (pièce)",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

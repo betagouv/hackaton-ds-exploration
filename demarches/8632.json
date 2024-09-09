@@ -1,0 +1,101 @@
+{
+  "number": 8632,
+  "title": "Demande de logement de fonction",
+  "description": "La procédure a pour objectif de permettre à l'agent de faire sa demande de logement en ligne en toute sécurité. Les services instructeurs et décideurs traiteront celle-ci dans les meilleurs délais et pourront interagir avec l'agent pendant les phases d'instruction et de décision.",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2018-10-01T16:45:11+02:00",
+  "service": {
+    "nom": "Service instructeur",
+    "organisme": "Académie de Lille",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/test-demande-de-logement-de-fonction",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "Aucun lien fourni",
+  "cadreJuridiqueUrl": "La référence correspond soit au texte de loi idoine soit à la référence à obtenir auprès du DPD académique dans le cadre du traitement de données à caractére personnel",
+  "logo": {
+    "filename": "procedure-be085cdc-2fe9-4cae-a95e-9b672b86c2b2.png",
+    "checksum": "t1K9+NwY5deTzaou10ds1A==",
+    "byteSize": "11804",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Information générale",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Objet de votre demande",
+        "description": "Description de l'objet de la demande de logement de fonction. C'est le fondement de votre demande.",
+        "required": true,
+        "options": [
+          "--motif professionnel--",
+          "Mutation",
+          "Première affectation",
+          "--motif personnel--",
+          "Déménagement",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Détail de la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nombre de bénéficiaires",
+        "description": "Indiquez le nombre de bénéficiaires associés à votre demande (y compris vous)",
+        "required": true,
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Préciser la zone recherchée",
+        "description": "Indiquez l'adresse de votre établissement d'affectation",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce d'identité",
+        "description": "Joignez une copie de votre pièce d'identité",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Arrêté d'affectation",
+        "description": "Joignez une copie de votre arrêté d'affectation",
+        "required": false
+      }
+    ]
+  }
+}

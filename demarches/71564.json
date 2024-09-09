@@ -1,0 +1,71 @@
+{
+  "number": 71564,
+  "title": "Entretien AESH / Renouvellement ",
+  "description": "Faciliter la récupération des CR d’entretien avec la possibilité de vérifier que tous ont été évalués grâce à un fichier de restitution de l’enquête. Eventuellement récupérer les fiches de demande de non renouvellement de contrat s’il y en a.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2023-03-08T11:08:08+01:00",
+  "service": {
+    "nom": "Service Ecole inclusive",
+    "organisme": "DSDEN de la Moselle",
+    "typeOrganisme": "operateur_d_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/entretien-aesh-renouvellement57",
+  "dpoUrl": "christophe.dagostino@ac-nancy-metz.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "http://partage.ac-nancy-metz.fr/",
+  "cadreJuridiqueUrl": "https://legifrance.gouv.fr",
+  "logo": {
+    "filename": "50_logodsden_57_acnancy_metz_2020-08-28_10-44-32_223 (1).jpg",
+    "checksum": "qGzHdY8N+fLbeJDlgNz5Sw==",
+    "byteSize": "232511",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 2,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'AESH",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom de l'AESH",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° du PIAL",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déposer ici le compte rendu d'évaluation de l'AESH",
+        "description": "NOMMAGE DES FICHIERS A DEPOSER\r\n- Pour le compte-rendu (Format pdf)\r\nCRnomprénomnuméroduPIAL\r\nExemple : CRsorel_julien15.pdf",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Contrat de l’AESH à renouveler",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déposer ici la fiche de non renouvellement de l'AESH",
+        "description": "NRNomprénomnuméroduPIAL(Format pdf)\r\nExemple : NRsorel_julien15",
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "number": 14600,
+  "title": "FORMULAIRE - Demande de vidange de plan d'eau",
+  "description": "Pour que la vidange de plan d'eau puisse être légalement exercée, le plan d'eau concernée doit être conforme à la réglementation sur l'eau en vigueur (en particulier : répertorié par les services de l'Etat en charge de la police de l'eau, et conforme aux caractéristiques précisées dans le dossier, et conforme  à l'arrêté ministériel de prescriptions techniques générales du 9 juin 2021.\r\nLes prescriptions et précautions listées en conclusion de ce formulaire seront prises en compte pour la préparation et la conduite de l'opération de vidange.",
+  "tags": [
+    "Chasse",
+    "Environnement",
+    "Animaux",
+    "Tirs"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2020-06-03T10:43:19+02:00",
+  "service": {
+    "nom": "Service Eau, Environnement et Forêt",
+    "organisme": "Direction Départementale des Territoires du Loiret",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-vidange-plan-d-eau_045",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.loiret.gouv.fr/Politiques-publiques/Environnement-eau-foret-chasse-peche/Eau/Projets-soumis-a-la-loi-sur-l-eau/Impacts-sur-le-milieu-aquatique-ou-sur-la-securite-publique/Plans-d-eau/Vidange",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000577946",
+  "logo": {
+    "filename": "vidange.webp",
+    "checksum": "lfiOPjcLyLmVTca6isYq4Q==",
+    "byteSize": "20008",
+    "contentType": "image/webp"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 20,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "INTRODUCTION",
+        "description": "Pour que la vidange de plan d'eau puisse être légalement exercée, le plan d'eau concerné doit être conforme à la réglementation sur l'eau en vigueur (en particulier : répertorié par les services de l'Etat chargés de la police de l'eau, être conforme aux caractéristiques précisées dans le dossier et être coforme aux arrêtés ministériels de prescriptions générales).\r\n\r\nLes prescriptions et précautions listées en annexe de ce formulaire seront prises en compte pour la préparation et la conduite de l'opération de vidange.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATIONS GENERALES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Qualité du demandeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Qualite",
+        "description": "Qualité du demandeur :\r\n- Propriétaire\r\n- Gestionnaire",
+        "required": true,
+        "options": [
+          "Propriétaire",
+          "Gestionnaire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM",
+        "description": "NOM Prénom / Raison sociale\r\nExemple : DUPONT Jean",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du demandeur",
+        "description": "Adresse postale\r\nExemple : 45000 ORLEANS",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Tel",
+        "description": "Numéro de téléphone \r\nExemple : 02-99-99-99-99",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Mail",
+        "description": "Courriel\r\nExemple : exemple@test.com",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Plan d'eau concerné",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom_PE",
+        "description": "Nom éventuel du plan d'eau concerné (notamment si mentionné sur IGN)",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Commune du plan d'eau",
+        "description": "Adresse postale\r\nExemple : 45000 ORLEANS",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Références cadastrales du plan d'eau",
+        "description": "Numéro(s) de section du/des parcelles du plan d'eau\r\nNuméro(s) de parcelle(s) du plan d'eau\r\nExemple : AD 0025",
+        "required": true
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Localisation_PE",
+        "description": "Localisation du plan d'eau faisant l'objet de la présente démarche\r\n(En cas de difficultés, cf. guide de la démarche disponible en haut à droite ou le tutoriel vidéo proposé ci-dessus)",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "BV",
+        "description": "Cf. http://carto.geo-ide.application.developpement-durable.gouv.fr/879/Carte_cours_eau_police_eau_045.map",
+        "required": false,
+        "options": [
+          "FRGR0007a - LA LOIRE DEPUIS LA CONFLUENCE DE L'ALLIER JUSQU'A GIEN",
+          "FRGR0007b - LA LOIRE DEPUIS GIEN JUSQU'A SAINT-DENIS-EN-VAL",
+          "FRGR0007c - LA LOIRE DEPUIS SAINT-DENIS-EN-VAL JUSQU'A LA CONFLUENCE AVEC LE CHER",
+          "FRGR0287a - LE BEUVRON ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A LAMOTTE-BEUVRON",
+          "FRGR0293 - LA TREZEE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR0294 - LA CHEUILLE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR0295 - LA NOTREURE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR0296 - LA BONNEE DEPUIS OUZOUER-SUR-LOIRE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR0297 - L'AQUIAULNE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR0298 - L'OUSSANCE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR0299 - LE LOIRET ET SES AFFLUENTS DEPUIS OLIVET JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR0300 - L'ARDOUX DEPUIS ARDON JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR0301 - LA MAUVE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR0308 - LE COSSON ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A LA CONFLUENCE AVEC LA CANNE",
+          "FRGR0309a - LE COSSON DEPUIS LA CONFLUENCE DE LA CANNE JUSQU'A VINEUIL",
+          "FRGR0310 - LA CANNE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LE COSSON",
+          "FRGR0493 - LA CONIE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LE LOIR",
+          "FRGR0913 - CANAL D'ORLEANS DE COMBREUX A CHECY",
+          "FRGR0915 - CANAL DE BRIARE",
+          "FRGR0956c - CANAL LATERAL A LA LOIRE DE JOUET-SUR-L'AUBOIS A BRIARE",
+          "FRGR1008 - L'AVENELLE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR1017 - LE BALANCE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR1034 - L'ETHELIN ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR1046 - L'OCRE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR1049 - L'OUSSON ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR1060 - LE NOLLAIN ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LE BEUVRON",
+          "FRGR1075 - L'ARIGNAN ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LE COSSON",
+          "FRGR1084 - LE FOSSE JURE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR1091 - LE RAU DE SAINT-LAURENT-NOUAN ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC L'ARDOUX",
+          "FRGR1097 - LE LIEN ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR1100 - LE FOSSE DU MOULIN ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR1111 - LE VEZENNE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC L'ARDOUX",
+          "FRGR1112 - LA SANGE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR1116 - LE BEC D'ABLE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR1118 - LE RU ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR1119 - LE RAU DE DAMPIERRE-EN-BURLY ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR1122 - LE PETIT ARDOUX ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC L'ARDOUX",
+          "FRGR1130 - LE SAINT-DENIS-DE-L'HOTEL ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR1140 - LA DHUY ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LE LOIRET",
+          "FRGR1144 - LE SAINT-LAURENT ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA BONNEE",
+          "FRGR1153 - LE RAU DE BOUZY-LA-FORET ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA BONNEE",
+          "FRGR1156 - LE LENCHE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR1159 - LE MIRLOUDIN ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA BONNEE",
+          "FRGR1173 - LA MAUVE DE SAINT-AY ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR1182 - LA BIONNE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR1560 - LES TRAPPES ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LA LOIRE",
+          "FRGR1565 - LA GRAVOTTE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC LE BEUVRON",
+          "FRGR1566 - L'ARDOUX ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A ARDON",
+          "FRGR1642 - L'EGOUTIER ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A SA CONFLUENCE AVEC L'OUSSANCE",
+          "FRGR2251 - LA TUILERIE ET SES AFFLUENTS DEPUIS LA SOURCE JUSQU'A L'ETANG DE LA TUILERIE",
+          "FRHR74A - LE LOING DE SA SOURCE AU CONFLUENT DE L'OUANNE (EXCLU)",
+          "FRHR74A-F4107000 - RUISSEAU DU MILLERON",
+          "FRHR74A-F4108000 - RUISSEAU LE TALOT",
+          "FRHR75 - L'AVEYRON DE SA SOURCE AU CONFLUENT DU LOING (EXCLU)",
+          "FRHR75-F4113000 - RU DE DORLOT",
+          "FRHR76 - LE LOING DU CONFLUENT DE L'OUANNE (EXCLU) AU CONFLUENT DE LA CLERY (EXCLU)",
+          "FRHR76-F4275150 - RU DE LA CRESSONNIERE",
+          "FRHR79 - L'OUANNE DU CONFLUENT DU BRANLIN (EXCLU) AU CONFLUENT DU LOING (EXCLU)",
+          "FRHR79-F4159000 - RUISSEAU LA CHANTERAINE",
+          "FRHR79-F4161000 - FONTAINE DE MONTCORBON",
+          "FRHR79-F4162000 - RU DU CUIVRE",
+          "FRHR79-F4164000 - RU DES ETOITS",
+          "FRHR80 - LE PUISEAUX DE SA SOURCE AU CONFLUENT DU LOING (EXCLU)",
+          "FRHR80-F4218000 - VERNISSON",
+          "FRHR81B - LE SOLIN DE SA SOURCE AU CONFLUENT DU LOING (EXCLU)",
+          "FRHR81B-F4228400 - RUISSEAU LA MENOTTE",
+          "FRHR81B-F4228600 - RUISSEAU LA TREILLE",
+          "FRHR81B-F4228870 - RU AUX CERFS",
+          "FRHR82 - LA BEZONDE DE SA SOURCE AU CONFLUENT DU LOING (EXCLU)",
+          "FRHR82-F4235000 - RU DU PONTS AUX SENINS",
+          "FRHR82-F4240600 - RUISSEAU L'HUILLARD",
+          "FRHR82-F4259000 - RUISSEAU LE LIMETIN",
+          "FRHR84 - LA CLERY DE SA SOURCE AU CONFLUENT DU LOING (EXCLU)",
+          "FRHR84-F4282000 - RU DE BOUGIS",
+          "FRHR84-F4284000 - RU DE PENSE FOLIE",
+          "FRHR86 - LE FUSAIN DE SA SOURCE AU CONFLUENT DU PETIT FUSAIN (INCLU)",
+          "FRHR86-F4302000 - RUISSEAU DU RENOIR",
+          "FRHR86-F43-0420 - RIVIERE LE MAUREPAS",
+          "FRHR86-F4350600 - RUISSEAU LE PETIT FUSAIN",
+          "FRHR87 - LE FUSAIN DU CONFLUENT DU PETIT FUSAIN (EXCLU) AU CONFLUENT DU LOING (EXCLU)",
+          "FRHR87-F4362000 - RUISSEAU DE SAINT-JEAN",
+          "FRHR88A - LE LOING DU CONFLUENT DE LA CLERY (EXCLU) AU CONFLUENT DE LA SEINE (EXCLU)",
+          "FRHR88B - LE BETZ DE SA SOURCE AU CONFLUENT DU LOING (EXCLU)",
+          "FRHR88B-F4298350 - RU DES ETANGS DE GALLETAS",
+          "FRHR88B-F4298500 - RUISSEAU DE SAINTE-ROSE",
+          "FRHR88B-F4299000 - VALLEE DES ARDOUSES",
+          "FRHR93A - L'OEUF DE SA SOURCE AU CONFLUENT DE LA RIMARDE (EXCLU)",
+          "FRHR93A-F4501000 - RUISSEAU LA VARENNE",
+          "FRHR93B - L'ESSONNE DU CONFLUENT DE LA RIMARDE (EXCLU) AU CONFLUENT DE LA JUINE (EXCLU)",
+          "FRHR93B-F4521000 - COURS D'EAU DE LA FERME MACHERON",
+          "FRHR94 - LA RIMARDE DE SA SOURCE AU CONFLUENT DE L'ESSONNE (EXCLU)",
+          "FRHR94-F4511000 - RUISSEAU LA PETITE RIMARDE",
+          "FRHR94-F4518000 - RUISSEAU DE MARTINVAU",
+          "FRHR95A - LA JUINE DE SA SOURCE AU CONFLUENT DE LA CHALOUETTE (INCLUS)",
+          "FRGL007 - ETANG DU PUITS",
+          "FRGL110 - ETANG DE LA TUILERIE",
+          "FRGL111 - ETANG DE LA VALLEE",
+          "FRGL112 - ETANG DE LA GRANDE RUE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Cat_Piscicole",
+        "description": "Catégorie piscicole du principal cours d'eau de la masse d'eau sélectionnée.\r\n\r\nCf. http://www.loiret.gouv.fr/content/download/9463/61787/file/Principaux_cours_d_eau_du_Loiret_cle7ff227.pdf",
+        "required": false,
+        "options": [
+          "Première",
+          "Seconde"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vidange du plan d'eau",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Debut_Vidange",
+        "description": "Date prévue du début de la vidange\r\n\r\nNB : La demande doit être reçue par le service chargé de la police de l'eau au minimum 15 jours avant le début de la vidange.",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Duree_Vidange",
+        "description": "Durée prévisible de la vidange",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Rejet_Vidange",
+        "description": "Le rejet s'effectue en direct dans :\r\n- un écoulement superficiel (déterminer le statut de l'écoulement grâce à la carte en ligne : http://carto.geo-ide.application.developpement-durable.gouv.fr/879/Carte_cours_eau_police_eau_045.map )\r\n- un plan d'eau",
+        "required": true,
+        "options": [
+          "Non cours d'eau",
+          "Cours d'eau",
+          "Indéterminé",
+          "Inconnu",
+          "Plan d'eau"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom_CE",
+        "description": "Nom du cours d'eau, exutoire des eaux de vidange",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Distance_CE",
+        "description": "Distance approximative entre le point de rejet et le cours d'eau exutoire",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Recuperation_Poisson",
+        "description": "Le plan d'eau est-il équipé d'un système de pêcherie ? \r\nSi oui, est-il permanent ou temporaire ?\r\nSinon, une pêche de sauvetage est-elle prévue ?",
+        "required": false,
+        "options": [
+          "aucun",
+          "permanent",
+          "temporaire et amovible",
+          "pêche de sauvetage"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dest_Poisson",
+        "description": "Préciser la destination du poisson",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Especes_Indesirables",
+        "description": "Préciser le mode de destruction et la destination des carcasses des espèces indésirables",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Remplissage du plan d'eau après vidange",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Remplissage",
+        "description": "Période de remplissage prévue du plan d'eau après vidange.\r\n\r\nNB : La période de remplissage peut faire l'objet d'une demande séparée. Cependant, cette demande devra être reçue par le service chargé de la police de l'eau au minimum 15 jours avant le début du remplissage.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATIONS COMPLEMENTAIRES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": "Informations complémentaires :\r\nentreprise(s) chargée(s) des opérations, moyens techniques mis en oeuvre, etc.\r\n\r\nNB : Ces informations peuvent faire l'objet d'une note ou d'un courrier joint au présent formulaire.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Note technique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RECOMMANDATIONS ET PRESCRIPTIONS APPLICABLES AUX OPERATIONS DE VIDANGES DE PLAN D'EAU",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Liste",
+        "description": "Les éléments listés ci-dessous constituent les précautions minimales à prendre en compte. Des prescriptions plus précises peuvent être prévues par l’arrêté autorisant l’exploitation du plan d’eau ou dans le dossier de déclaration.\r\n\r\nTout incident doit être déclaré immédiatement aux services chargés de la police de l’eau.\r\n\r\n\r\n    1) La période de vidange doit être communiqué aux services chargés de la police de l’eau au minimum 15 jours avant le début de l’opération de vidange.\r\n       Les vidanges dont les eaux s’écoulent directement ou indirectement dans un cours d’eau de première catégorie piscicole sont interdites pendant la période du 1er décembre au 31 mars. Les cours d’eau de première catégorie sont l’Aquiaulne, l’Aveyron, le Betz, la Cléry, la Notreure et l’Ouanne ainsi que tous leurs affluents.\r\n       \r\n    2) Le temps et le mode de vidange devront permettre de :\r\n    • récupérer les poissons en bon état,\r\n    • récupérer et détruire tous les individus des espèces indésirables :\r\n        ◦ pour les cours d’eau de seconde catégorie piscicole, les espèces indésirables sont celles susceptibles de provoquer des déséquilibres biologiques (poisson chat, perche soleil, écrevisses non autochtones, …).\r\n        ◦ pour les cours d’eau de première catégorie piscicole, les espèces indésirables sont les mêmes qu’en seconde catégorie auxquelles s’ajoutent le brochet, la perche, le sandre et le black-bass.\r\n\r\nLa vidange devra être faite de manière régulière et continue, plus lente sur la fin de vidange afin d’éviter tout départ de vase. Les à-coups et opérations de « chasse » en fin de vidange sont donc à proscrire. Il sera ainsi fait en sorte de :\r\n    • ne pas dégrader les berges du ruisseau en aval par une accélération trop importante du courant,\r\n    • ne pas créer d’inondation en aval,\r\n    • ne pas porter préjudice aux propriétés et ouvrages situés à l’aval.\r\n\r\nLe débit de rejet devra être en adéquation avec le milieu récepteur.\r\nEn aucun cas, le temps de vidange ne pourra être inférieur à 2 jours par hectare.\r\n\r\n    3) La pêcherie doit retenir toutes les espèces, afin de :\r\n    • Récupérer un maximum d’alevins produits dans l’étang\r\n    • Récupérer et détruire toutes les espèces indésirables, telles que les poissons-chats, perches soleils, écrevisses non autochtones, …\r\n      \r\nPour cela, il pourra être placé, avant ou après la bonde de vidange, une grille à faible écartement (10 mm maximum entre les barreaux) auquel on ajoutera un filtre décrit au paragraphe suivant.\r\nIl est également à noter que toute introduction d’espèces indésirables dans les eaux libres à l’aval du plan d’eau constitue un délit, prévu par la législation (article L.432-10 du Code de l’Environnement), qui fera l’objet d’un procès-verbal et de poursuites pénales.\r\n\r\n    4) Afin d’éviter le départ de matière en suspension (vase) dans le cours d’eau aval, un dispositif de filtre devra être mis en place :\r\n    • Soit un filtre à gravier 0-40 mm qui sera implanté à une vingtaine de mètres de la vidange lorsque cela est possible. Le filtre ainsi placé sera plus efficace pour la décantation des matières entre lui et la digue. Sa longueur ne pourra être inférieure à 1,50 mètres.\r\n    • A défaut, un filtre constitué de ballots de paille pourra être envisagé. Sa longueur ne pourra être inférieure à 1,50 mètres.\r\n      \r\nQuel que soit le dispositif utilisé, le filtre ne devra jamais être submergé.\r\n       \r\nDe plus, il est rappelé que le départ de vase dans les eaux libres constitue une pollution qui fera l’objet d’un procès verbal et de poursuites pénales (articles L. 216-6 et L. 432-2 du Code de l’Environnement).\r\n\r\nDurant la vidange, les eaux rejetées dans le cours d'eau respectent les valeurs suivantes en moyenne sur deux heures :\r\n- matières en suspension (MES) : inférieure à 1 gramme par litre ;\r\n- ammonium (NH4) : inférieure à 2 milligrammes par litre ;\r\n- teneur en oxygène dissous (O2) : supérieure à 3 milligrammes par litre.\r\n\r\nLa qualité des eaux de vidange doit être particulièrement surveillée ou vérifiée dans les dernières heures de la vidange où le risque de transport des sédiments de fond est le plus fort.\r\nPour les plans d'eau soumis à autorisation, le responsable de l'opération de vidange est tenu de réaliser ou faire réaliser un suivi de la qualité des eaux rejetées. Les mesures sont effectuées en aval juste avant le rejet dans le cours d'eau.\r\n       \r\n    5) Le remplissage du plan d’eau est interdit entre le 15 juin et le 30 septembre.\r\n       \r\n       Pour les étangs implantés sur les cours d’eau ou alimentés par dérivation du cours d’eau, le remplissage du plan d’eau après vidange devra être exécuté telle que la vanne laisse passer un débit suffisant en aval de l’étang. Ce débit doit être compatible avec la vie aquatique. Le débit ainsi réservé devra être au moins égal au dixième du débit moyen du cours d’eau (module inter annuel) ou à défaut au débit amont si celui-ci est inférieur au débit réservé.\r\n       \r\n       Le non-respect de ce débit réservé est réprimé par les articles L.214-18 et L.216-7 du Code de l’Environnement et fera l’objet d’un procès verbal et de poursuites pénales.\r\n       \r\n    6) Le chaulage est recommandé en cas de présence d’espèces indésirables dans le plan d’eau. Il doit être fait en assec de longue durée, d’au moins six mois, avec de la chaux vive et pendant une période sèche.\r\n\r\nLa chaux vive étant toxique pour les espèces aquatiques, il conviendra de veiller à éviter tout départ de chaux dans le milieu hydrologique aval afin de ne pas engendrer de pollution qui ferait alors l’objet d’un procès verbal et de poursuites pénales.",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Certificat",
+        "description": "Je certifie sur l'honneur que les informations mentionnés dans le présent document sont exactes et que j'ai pris acte des recommandations et prescriptions à respecter dans le cadre de la vidange de mon plan d'eau.",
+        "required": true
+      }
+    ]
+  }
+}

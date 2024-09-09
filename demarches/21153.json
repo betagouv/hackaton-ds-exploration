@@ -1,0 +1,249 @@
+{
+  "number": 21153,
+  "title": "Déclaration de manifestation sur la voie publique",
+  "description": "Formulaire de déclaration préalable d'une manifestation sur la voie publique.\r\n\r\nAttention : ce formulaire ne peut pas être utilisé pour déclarer une manifestation :\r\n - à caractère sportif (consultez https://www.manifestationsportive.fr);\r\n - nautique ;\r\n - sur le territoire de la ville de Paris.",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2019-11-05T11:40:51+01:00",
+  "service": {
+    "nom": "FEDEL-DM",
+    "organisme": "Formulaires et démarches en ligne - déclaration de manifestation - démonstrateur",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fedel-dm",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/test/aebbc291-f0da-4b3f-a426-f719bbe08d46",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCode.do?idSectionTA=LEGISCTA000025508382&cidTexte=LEGITEXT000025503132",
+  "logo": {
+    "filename": "logo_PP_2019.png",
+    "checksum": "eVOCHnHd6B12/IsFpsgwAw==",
+    "byteSize": "8095",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 1,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Organisateur de la manifestation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Organisme",
+        "description": "C'est l'organisme qui organise la manifestation : votre association, mairie, entreprise...\nSi vous êtes un particulier, vous pouvez laisser cette zone vide.",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET",
+        "description": "Si votre organisme dispose d'un SIRET, indiquez-le ici",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Contact principal",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction",
+        "description": "Indiquez votre ou vos fonction(s) dans le cadre de cette manifestation (coordinateur, responsable sécurité, contact presse...). Vous devez être l'un des organisateurs de la manifestation.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Domicile",
+        "description": "Indiquez l'adresse de votre domicile",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Indiquez-nous un téléphone (mobile de préférence) permettant de vous contacter avant et pendant la manifestation",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autres contacts",
+        "description": "L'article L211-2 du code de la sécurité intérieure impose de fournir l'identité et le domicile de deux personnes en plus du déclarant.\nIndiquez-nous ici les deux autres.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Domicile",
+            "description": "Indiquez l'adresse du domicile",
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Courriel",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Caractéristiques de la manifestation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la manifestation",
+        "description": "Donnez un nom à votre manifestation",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "La manifestation se déroule",
+        "description": "Choisissez une ligne",
+        "required": true,
+        "options": [
+          "sur voie publique",
+          "dans un lieu clos",
+          "dans un lieu ouvert"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nombre de manifestants",
+        "description": "Estimation du nombre de personnes sur la totalité de la manifestation",
+        "required": true,
+        "options": [
+          "Moins de 5 personnes",
+          "Entre 5 et 49 personnes",
+          "Entre 50 et 199 personnes",
+          "Entre 200 et 999 personnes",
+          "1 000 personnes et plus"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Emplacement de départ",
+        "description": "Indiquez l'emplacement où les manifestants vont s'assembler",
+        "required": true
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "Date et heure de début",
+        "description": "Indiquez l'heure prévue pour le rassemblement",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Heure du début du déplacement",
+        "description": "Indiquez, si besoin, l'heure de début du déplacement à partir du lieu de rassemblement",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Heure de fin",
+        "description": "Indiquez-nous l'heure de fin de la manifestation",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrivez le déplacement prévu",
+        "description": "Si votre manifestation inclut un déplacement, décrivez l'itinéraire prévu",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Éléments de sécurité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Sensibilité particulière",
+        "description": "Indiquez-nous si des éléments nécessitent une attention particulière -- vous pouvez sélectionner plusieurs lignes",
+        "required": false,
+        "options": [
+          "Présence de nombreux enfants (plus de 10%)",
+          "Manifestation à caractère religieux",
+          "Déplacement de la manifestation sur la chaussée",
+          "Manifestation à caractère revendicatif"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Dispositif d'encadrement",
+        "description": "Si vous avez prévu un dispositif d'encadrement de la manifestation, décrivez-le (nombre de personnes, organisation, filtrage, accès pour les premiers secours, etc.)",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Dispositif de premiers secours",
+        "description": "Si vous avez prévu un dispositif de premiers secours, décrivez-le.\nSi une organisme de sécurité civile (Croix rouge, Croix blanche, Protection civile, Ordre de Malte...) est prévue, indiquez-nous un contact (organisme, nom, téléphone)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre avis sur la déclaration de manifestation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Votre impression générale",
+        "description": "Indiquez-nous comment nous pouvons améliorer ce système de déclaration.",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Ma manifestation aura réellement lieu",
+        "description": "Ce formulaire est en version de test.\nSi la manifestation que vous avez indiquée doit réellement avoir lieu, cochez cette case.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Il ne reste plus qu'à cliquer sur « Déposer le dossier » pour valider l'ensemble de ces informations. Un grand merci à vous !",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Après la validation de ce formulaire, vous pourrez remplir un questionnaire de satisfaction.",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

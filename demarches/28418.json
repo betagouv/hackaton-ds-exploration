@@ -1,0 +1,214 @@
+{
+  "number": 28418,
+  "title": "GDB - Déclaration de changement de régime",
+  "description": "Ce formulaire en ligne permet aux administrations, aux collectivités locales et à certains services publics de déclarer un changement de régime.\r\n\r\nPour l'instant, ce service est réservé uniquement aux assurés habitant dans la Manche.",
+  "tags": [
+    "Rh"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2021-01-19T16:42:31+01:00",
+  "service": {
+    "nom": "Caisse Primaire d'Assurance Maladie - Pôle entreprise",
+    "organisme": "CPAM",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/gestion-des-beneficiaires-changement-situation",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://declic.cpam50.fr/",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/",
+  "logo": {
+    "filename": "revu Manche_Logo_Nov.2020_CMJN jpg.png",
+    "checksum": "LX4Bt+jQLVXJOcbn/1bFmQ==",
+    "byteSize": "917811",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 272,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Déclaration de changement de régime",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "à remplir par les administrations, les collectivités locales et certains services publics",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'assuré",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom",
+        "description": "Nom de naissance, suivi, s'il y a lieu, du nom d'usage (marital)",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "Format jj/mm/aaaa",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° de Sécurité sociale",
+        "description": "Saisir les 15 chiffres sans espace",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Personnelle et complète",
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Dans quel département  habite l'assuré ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la caisse d'affiliation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'arrivée dans le département de la Manche",
+        "description": "Format jj/mm/aaaa",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "S'il s'agit d'un agent retraité, précisez également s'il bénéficie d'une ou de plusieurs autres pensions ou retraites",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, indiquez lesquelles",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Nouvelle situation en regard de la Sécurité sociale",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "L'agent désigné ci-dessus bénéficie :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "du décret du 11/01/1960 (JO du 19/01/1960). Agent permanent (titulaire) des départements, des communes et de leurs établissements publics n'ayant pas le caractère industriel et commercial.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Précisez :",
+        "description": null,
+        "required": true,
+        "options": [
+          "affilié à la CNRACL",
+          "non affilié à la CNRACL"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "du décret du 13/07/1977. Stagiaires des collectivités locales.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "à compter du",
+        "description": "Format jj/mm/aaaa",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'employeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identification de l'administration, de la collectivité locale ou du service public",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Qualité de son représentant",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom du représentant",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Fait à",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Le",
+        "description": "Format jj/mm/aaaa",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives à joindre obligatoirement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie du dernier bulletin de salaire",
+        "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "--------------",
+        "description": "Les informations collectées peuvent être informatisées et sont réservées à l'usage interne. Elles peuvent être communiquées à certains destinataires. Conformément à la loi n° 78-17 du 6 janvier 1978, toute personne peut accéder, rectifier ou supprimer les informations la concernant. Les demandes doivent être libellées \"Demande d'information CNIL\" et adressées par courrier à Monsieur le Directeur de votre CPAM, en joignant la copie d'une pièce d'identité.",
+        "required": false
+      }
+    ]
+  }
+}

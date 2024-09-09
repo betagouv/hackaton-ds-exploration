@@ -1,0 +1,205 @@
+{
+  "number": 93643,
+  "title": "Demande de modification d'un fournisseur de service pour FranceConnect ou FranceConnect+",
+  "description": "Cette démarche vous permet de demander la modification d'un fournisseur de service FranceConnect ou FranceConnect+ sur l'environnement d'intégration ou de production. ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Premier ministre"
+  ],
+  "datePublication": "2024-05-15T17:39:59+02:00",
+  "service": {
+    "nom": "FranceConnect",
+    "organisme": "Direction interministérielle du numérique",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-modification-fs-fc",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://partenaires.franceconnect.gouv.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037611479/",
+  "logo": {
+    "filename": "fc-logo.png",
+    "checksum": "iO2XAceINqgv1W1b8/XsmA==",
+    "byteSize": "17566",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 11,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Choix de l'environnement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "FranceConnect ou FranceConnect+",
+        "description": "Indiquez ici si votre Fournisseur de Service est sur FranceConnect ou FranceConnect+",
+        "required": true,
+        "options": [
+          "FranceConnect",
+          "FranceConnect+"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Intégration ou Production",
+        "description": "Votre demande de modification de Fournisseur de Service concerne-t-elle l'environnement d'Intégration ou de Production ?",
+        "required": true,
+        "options": [
+          "Intégration",
+          "Production"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur votre Fournisseur de Service",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du Fournisseur de Service",
+        "description": "Renseignez ici le nom du Fournisseur de Service tel qu'il a été créé dans nos environnements",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Client ID du Fournisseur de Service en Intégration",
+        "description": "Renseignez ici le client ID d'Intégration du Fournisseur de Service tel qu'il a été créé dans nos environnements",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Client ID du Fournisseur de Service en Production",
+        "description": "Renseignez ici le client ID de Production du Fournisseur de Service tel qu'il a été créé dans nos environnements",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de la demande Datapass",
+        "description": "Renseignez ici le numéro de la demande d'habilitation Datapass",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Nouvelle configuration de votre Fournisseur de Service",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Configuration à mettre à jour en Intégration",
+        "description": "Quelle configuration de votre Fournisseur de Service souhaitez vous modifier ?",
+        "required": true,
+        "options": [
+          "Nom du FS",
+          "URL du site",
+          "URL de redirection de connexion",
+          "URL de redirection de déconnexion",
+          "JWKS URL",
+          "Plages d'adresses IP"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Configuration à mettre à jour en Production",
+        "description": "Quelle configuration de votre Fournisseur de Service souhaitez vous modifier ?",
+        "required": true,
+        "options": [
+          "Nom du FS",
+          "URL du site",
+          "URL de redirection de connexion",
+          "URL de redirection de déconnexion",
+          "JWKS URL",
+          "Plages d'adresses IP"
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Attention",
+        "description": "Il n'est pas permis d'enrôler plusieurs environnements sous un même Fournisseur de Service. \r\nCela signifie qu'un seul nom de domaine et un seul nom de sous-domaine est autorisé par FS",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du Fournisseur de Service",
+        "description": "Renseignez ici le nouveau nom du Fournisseur de Service, tel que vous souhaitez qu'il s'affiche dans la cinématique FranceConnect\r\nCelui-ci remplacera le nom actuellement déclaré dans nos environnements",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "URL du site",
+        "description": "Renseignez ici la nouvelle URL du site de votre Fournisseur de Service (page affichant le bouton FranceConnect)\r\nCelle-ci remplacera l'URL actuellement déclarée dans nos environnements",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Liste des URLs de redirection de connexion",
+        "description": "Renseignez ici la nouvelle liste exhaustive des URLs de redirection de connexion de votre Fournisseur de Service.\r\nCelle-ci remplacera la liste des URLs actuellement déclarées dans nos environnements",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "URL de redirection de connexion",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Liste des URLs de redirection de déconnexion",
+        "description": "Renseignez ici la nouvelle liste exhaustive des URLs de redirection de déconnexion de votre Fournisseur de Service\r\nCelle-ci remplacera la liste des URLs actuellement déclarées dans nos environnements",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "URL de redirection de déconnexion",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Client keys url (FranceConnect+ uniquement)",
+        "description": "Renseignez ici l'URL qui expose les clés publiques de signature de votre Fournisseur de Service\r\nCelle-ci remplacera l'URL actuellement déclarée dans nos environnements",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Liste des adresses IP",
+        "description": "Renseignez ici la nouvelle liste des adresses IP utilisées par votre Fournisseur de Service\r\nCelle-ci remplacera la liste des adresses IP actuellement déclarées dans nos environnements",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse IP",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Demande d'ouverture de flux",
+        "description": "Cochez cette case si les modifications que vous demandez impliquent un changement du nom de domaine de la totalité des URLs de votre Fournisseur de Service. Une nouvelle ouverture de flux sera nécessaire dans ce cas, afin que votre Fournisseur de Service reste fonctionnel.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations supplémentaires",
+        "description": "Indiquez ici toute information complémentaire que vous jugerez nécessaire concernant le traitement de votre demande",
+        "required": false
+      }
+    ]
+  }
+}

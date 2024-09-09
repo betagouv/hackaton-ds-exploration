@@ -1,0 +1,113 @@
+{
+  "number": 26966,
+  "title": "Demande d'adhésion à \"démarches-simplifiées\" pour les organismes, privés et publics, qui veulent tester les API ",
+  "description": "La demande d'inscription à \"démarches-simplifiées\" est demandée au tout organisme privé qui souhaite tester les API de DS.\r\nVous serez invité à vous créer un compte, puis indiquer le SIRET de votre organisme, et compléter le formulaire de demande. \r\nLes échanges avec la DINUM avant l'ouverture d'un compte se feront exclusivement au travers de \"démarches-simplifiées\", qui pourra vous inviter à préciser le périmètre de votre projet. \r\nATTENTION, le mail demandé comme LOGIN sera utilisé pour dialoguer avec vous.\r\nVous aurez alors à votre disposition un formulaire de test, que vous pourrez utilisé pour créer des dossiers puis les visionner dans une interface instructeur.\r\nUn Token vous sera aussi délivré, pour tester la récupération des dossiers pour la démarche qui vous sera attribué.\r\n\r\nLes information sur les API GraphQL de DS\r\nhttps://doc.demarches-simplifiees.fr/pour-aller-plus-loin/graphql\r\n\r\nSi vous voulez aussi utiliser le Webhook, il conviendra de nous donner l'information lors de la demande d'inscription.\r\nSur le Webhook\r\nhttps://doc.demarches-simplifiees.fr/pour-aller-plus-loin/webhook\r\n\r\nLe délais peut être de plusieurs jours, afin d'effectuer ce paramétrage.",
+  "tags": [
+    "Ds"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2020-03-11T23:12:18+01:00",
+  "service": {
+    "nom": "DINUM",
+    "organisme": "DINUM",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-d-adhesion-a-ds-pour-api",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://doc.demarches-simplifiees.fr/pour-aller-plus-loin/graphql#vous-etes-un-organisme-public-un-integrateur-une-ssii-ou-un-editeur-et-vous-souhaitez-tester-lapi-graph-ql",
+  "cadreJuridiqueUrl": "https://doc.demarches-simplifiees.fr/pour-aller-plus-loin",
+  "logo": {
+    "filename": "demarche simplfiees.png",
+    "checksum": "D1eRt8Rdgg4mC/oWGuDMgA==",
+    "byteSize": "17008",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 57,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Information complémentaire sur le demandeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom contact",
+        "description": "Nom demandeur",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "Prénom",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Téléphone",
+        "description": "Téléphone",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Qualité",
+        "description": "Qualité",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Les raisons de votre demande (objet, partenaires...)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Qu'elles sont les raisons de votre demande",
+        "description": null,
+        "required": false,
+        "options": [
+          "Projet en cours avec une administration",
+          "A la demande d'un organisme public",
+          "Préparer une réponse à un appel d'offre",
+          "Par curiosité"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Des précisons sur votre projet",
+        "description": "Description de votre demande",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Souhaitez vous participer à l'amélioration du dispositif",
+        "description": "Oui /Non",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Paramétrage du WEBHOOK",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Souhaitez vous paramétrer un WEBHOOK",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, merci de bien vouloir nous indiquer l'adresse Web",
+        "description": "Cette adresse pourra être fournie ultérieurement",
+        "required": false
+      }
+    ]
+  }
+}

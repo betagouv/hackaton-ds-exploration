@@ -1,0 +1,164 @@
+{
+  "number": 30409,
+  "title": "BILAN DE CHASSE ANTICIPEE AU SANGLIER du 1er Juin au 14 Août 2020",
+  "description": "Bilan suite à l'autorisation individuelle de chasse anticipée du sanglier du 1er juin au 14 août 2020.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2020-05-25T16:41:54+02:00",
+  "service": {
+    "nom": "DIRECTION DEPARTEMENTALE DES TERRITOIRES ET DE LA MER DE L'EURE",
+    "organisme": "Service Eau, Biodiversité, Forêts ",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/bilan-chasse-anticipee-sanglier-1er-juin",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.demarches-simplifiees.fr/commencer/bilan-eure-chasse-anticipee-sanglier-2020",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "logo2020.jpg",
+    "checksum": "/Bk7K/1LMlN0e1+ymbMi8Q==",
+    "byteSize": "351499",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations du bénéficiaire de l’autorisation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "Bénéficiaire de l'autorisation préfectorale de chasse anticipée au sanglier à l'affût ou à l'approche",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Numéro de l'autorisation préfectorale de chasse au sanglier à l'affût ou à l'approche",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de l'autorisation",
+        "description": "Elle figure en bas de l'autorisation préfectorale",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "TOTAL DES SANGLIERS PRELEVES",
+        "description": "Nombre total de sangliers prélevés du 1er juin au 14 août",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de sangliers observés",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Bilan des prélèvements sangliers",
+        "description": "Indiquer pour chaque sanglier prélevé,  la commune, le sexe et le poids. ",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Identifiant du sanglier",
+            "description": "Identifier le sanglier (ex : sanglier 1, sanglier 2, ...)",
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune",
+            "description": "Indiquer le nom de la commune de prélèvement",
+            "required": true
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Poids (kg)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Sexe",
+            "description": "",
+            "required": true,
+            "options": [
+              "Mâle",
+              "Femelle"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "TOTAL DE RENARDS PRELEVES",
+        "description": "Nombre total de renards prélevés du 1er juin au 14 août",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre de renards observés",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Bilan des prélèvements renards",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Identifiant du renard",
+            "description": "Identifier le renard (ex : renard 1, renard 2, ...)",
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune",
+            "description": "indiquer la commune du prélèvement",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Observations complémentaires",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

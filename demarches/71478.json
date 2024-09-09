@@ -1,0 +1,202 @@
+{
+  "number": 71478,
+  "title": "Déploiement matériel télétravail",
+  "description": "Vérifier l'éligibilité pour un écran supplémentaire en télétravail et/ou changer son tiny par un portable.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2023-03-07T12:17:13+01:00",
+  "service": {
+    "nom": "DIRSO/SG/AMI",
+    "organisme": "DIR Sud-Ouest",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/materiel-teletravail",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/materiel-teletravail",
+  "cadreJuridiqueUrl": "",
+  "logo": null,
+  "notice": null,
+  "deliberation": {
+    "filename": "Protocole d'accord télétravail finalisé version consolidee.pdf",
+    "checksum": "q2MA1cUdmf0qysCsWV/6tQ==",
+    "byteSize": "846236",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 6,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Service/District",
+        "description": "",
+        "required": true,
+        "options": [
+          "DIRSO/District Centre",
+          "DIRSO/District Est",
+          "DIRSO/District Ouest",
+          "DIRSO/District Sud",
+          "DIRSO/SG",
+          "DIRSO/SIGT",
+          "DIRSO/SIR",
+          "DIRSO/SIR/DPE",
+          "DIRSO/SMEE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "-Type de PC actuel",
+        "description": "Pour les titulaires de portable : pas de changement\r\nPour les titulaire de Tiny (pc fixe petit format) : un nouveau champs s'ajoutera pour vous proposer de changer par un portable\r\nVous pouvez vérifier l'année de votre Tiny grâce à l'étiquette d'inventaire collée dessus : DIRSO-XXB-YYYYY (année du tiny = XX)\r\nPour les titulaires d'expert : on verra dans un second temps si besoin de changement",
+        "required": true,
+        "options": [
+          "Portable",
+          "Tiny 2019",
+          "Tiny 2020 ou plus récent",
+          "PC fixe Expert"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": ".Type de PC actuel",
+        "description": "Pour les titulaires de portable : pas de changement\r\nPour les titulaire de Tiny (pc fixe petit format)  : un nouveau champs s'ajoutera pour vous proposer de passer avec un portable\r\nVous pouvez vérifier l'année de votre Tiny grâce à l'étiquette d'inventaire collée dessus : DIRSO-XXB-YYYYY (année du tiny = XX)",
+        "required": true,
+        "options": [
+          "Portable",
+          "Tiny 2019",
+          "Tiny 2020 ou plus récent"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Je souhaite changer mon Tiny par un portable",
+        "description": "Le changement sera fait en priorité pour les Tiny de 2019.\r\nLes autres seront faits dans un second temps en fonction du plan de charge d'AMI (d'ici fin de l'année ou année prochaine)",
+        "required": true,
+        "options": [
+          "OUI",
+          "NON"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Matériel à restituer",
+        "description": "Voir annexe 2 de votre convention télétravail\r\nAvec un portable ne sont conservés que la souris, la carte agent et le smartphone.\r\nLe reste doit être restitué.",
+        "required": true,
+        "options": [
+          "Tiny+alim",
+          "Écran",
+          "Câbles Écran",
+          "Clavier",
+          "Clé Wifi",
+          "Câble RJ45 (ethernet)",
+          "Alim PC supp"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Matériel à restituer",
+        "description": "Voir annexe 2 de votre convention télétravail\r\nAvec un portable ne sont conservés que la souris, la carte agent et le smartphone.\r\nLe reste doit être restitué.",
+        "required": false,
+        "options": [
+          "Tiny+alim",
+          "Écran",
+          "Câbles Écran",
+          "Clavier",
+          "Clé Wifi",
+          "Câble RJ45 (ethernet)",
+          "Alim PC supp"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Matériel à restituer",
+        "description": "Voir annexe 2 de votre convention télétravail\r\nAvec un portable ne sont conservés que la souris, la carte agent et le smartphone.\r\nLe reste doit être restitué.",
+        "required": false,
+        "options": [
+          "Tiny+alim",
+          "Écran",
+          "Câbles Écran",
+          "Clavier",
+          "Clé Wifi",
+          "Câble RJ45 (ethernet)",
+          "Alim PC supp"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "J'ai besoin d'un lecteur de carte agent",
+        "description": "Cas où vous aviez un clavier à lecteur de carte intégré qui est à restituer",
+        "required": true,
+        "options": [
+          "OUI",
+          "NON"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Organisation du télétravail",
+        "description": "L'organisation se compte en jours fixes + jour flottants\r\nSont éligibles pour obtenir un 2ème écran les télétravailleurs qui font 2 jours ou + par semaine, 8 jours ou plus par mois, 80 jours ou plus par an.",
+        "required": true,
+        "options": [
+          "1 jour ou moins par semaine",
+          "2 jours ou plus par semaine",
+          "7 jours ou moins par mois",
+          "8 jours ou plus par mois",
+          "79 jours ou moins par an",
+          "80 jours ou plus par an"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Je fais une utilisation intensive du/des logiciel(s)",
+        "description": "Sont éligibles pour obtenir les télétravailleurs qui font moins de 2 jours par semaine, 8 jours par mois ou 80 jours par an qui font une utilisation intensive d'au moins un des logiciels : SIG, Chorus/Chorus Formulaire, Gemme ou Autocad",
+        "required": true,
+        "options": [
+          "SIG",
+          "Chorus/Chorus Formulaire",
+          "Gemme",
+          "Autocad",
+          "Aucun"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Je souhaite bénéficier du 2ème écran",
+        "description": "Pour les portables : L'écran est de la même taille que l'écran du portable, il se positionne à côté et se branche directement à l'ordinateur. \r\nLe déploiement se fera au fur et à mesure en fonction des stocks disponibles.\r\n\r\nPour ceux qui conservent un PC fixe, déploiement d'un 2ème moniteur avec câblage",
+        "required": true,
+        "options": [
+          "OUI",
+          "NON"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Je ne suis pas éligibile au 2ème écran",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire libre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative",
+        "description": "Convention télétravail signée à joindre",
+        "required": true
+      }
+    ]
+  }
+}

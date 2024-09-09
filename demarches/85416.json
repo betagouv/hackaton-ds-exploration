@@ -1,0 +1,121 @@
+{
+  "number": 85416,
+  "title": "Enquête SOLTéA",
+  "description": "Déclaration du montant de solde de taxe d’apprentissage perçu en 2022 ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2024-06-06T12:19:40+02:00",
+  "service": {
+    "nom": "Direction générale de l'enseignement scolaire (Dgesco)",
+    "organisme": "Bureau des lycées professionnels, de l'apprentissage et de la formation professionnelle continue  (Dgesco A2-2)",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/enquete-soltea",
+  "dpoUrl": "dpd@education.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "http://eduscol.education.fr",
+  "cadreJuridiqueUrl": "Loi du 5 septembre 2018 pour la liberté de choisir son avenir professionnel",
+  "logo": {
+    "filename": "Logo.jpg",
+    "checksum": "uOGQvkG/pGaEHeaqBFe3iw==",
+    "byteSize": "8508",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "Notice.docx",
+    "checksum": "lLZxu9hbWCQB89LD/6iFmw==",
+    "byteSize": "17864",
+    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "deliberation": null,
+  "dossiersCount": 2946,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "1. Mail de contact",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "2. Numéro de téléphone de contact",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AnnuaireEducationChampDescriptor",
+        "label": "3. identification de l'établissement",
+        "description": "Saisissez votre numéro UAI OU le libellé de votre établissement",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "3a. SI (et seulement SI) votre établissement n'est pas reconnu, saisissez votre numéro UAI",
+        "description": "7 chiffres et une lettre alpahabétique",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "4. Quelle était votre situation en 2023 ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Votre numéro de SIRET est identique à celui de 2022",
+          "Votre numéro de SIRET actuel a remplacé le numéro de SIRET 2022",
+          "Votre numéro de SIRET 2022 a été remplacé par plusieurs numéros de SIRET",
+          "Votre numéro de SIRET actuel correspond au regroupement de plusieurs numéros de SIRET 2022"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "5. Montant de solde de TA perçu en 2022",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "5. Numéro de SIRET 2022",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "5. Montant de solde de TA perçu en 2022",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "SIRET 2022 multiple",
+        "description": "Vous devez saisir autant ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "SiretChampDescriptor",
+            "label": "Numéro de SIRET 2022",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant de solde de TA perçu en 2022",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "6. Pièce(s) justificative(s)",
+        "description": "Documents acceptés :\r\n\r\n- Attestation d'un agent comptable public ;\r\n- Attestation d’un expert-comptable ;\r\n- Comptes certifiés par un CAC ;\r\n- Compte de résultat.\r\n\r\nPlusieurs documents peuvent être téléversés",
+        "required": true
+      }
+    ]
+  }
+}

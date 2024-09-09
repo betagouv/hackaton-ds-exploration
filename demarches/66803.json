@@ -1,0 +1,372 @@
+{
+  "number": 66803,
+  "title": "Solution Mobilité Emploi",
+  "description": "L'aide « Solution Mobilité Emploi » s’adresse aux habitants du Département de la Somme confrontés à des difficultés de déplacement dans le cadre d’un projet d’insertion professionnelle soit de retour ou de maintien dans l’emploi, soit d’une formation ou d’un stage. Cette aide peut prendre la forme d’une aide non remboursable et/ou d’un prêt.\r\nElle est regroupée via le site démarches-simplifiées, cette aide est financée conjointement par le Conseil départemental de la Somme et la Caisse d’Allocations Familiales de la Somme.\r\nCette aide peut permettre de financer une partie des frais pour :\r\n-\tL’achat de véhicule (dont vélo électrique, deux roues, casque)\r\n-\tLa réparation du véhicule\r\n-\tTransport en commun (participation aux abonnements en complément de la participation des employeurs et/ des aides de la Région, collectivités) \r\n-\tIndemnité kilométrique, selon le barème des impôts \r\n\r\nLe coût restant à la charge des familles est au moins égal à 10 % (dont le prêt si celui-ci est mobilisé).\r\nLe coût du permis de conduire n’est pas pris en charge dans le cadre de cette aide mobilité mais peut être sollicité auprès de Pôle Emploi ou de la Mission Locale. \r\nEn complément, les plateformes de mobilité « Wimoov » https://wimoov.org/qui-sommes-nous/ , « Mob’in » https://www.mobin-solutions.fr/presentation peuvent être sollicitées afin de vous aider dans vos démarches liées à la mobilité.\r\n\r\nA noter : que le formulaire ne peut être complété que pour une seule aide. L’aide doit forcément correspondre à un devis. Si vous souhaitez dissocier plusieurs financements, il convient de faire une demande et un devis par financement.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2024-01-03T15:51:52+01:00",
+  "service": {
+    "nom": "Direction Générale Adjointe à la Solidarité_CD80 et Caisse d'allocations familiales de la Somme",
+    "organisme": "Conseil départemental de la Somme (80)",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/solution-mobilite-emploi",
+  "dpoUrl": "dpo@somme.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "www.somme.fr ; www.caf.fr",
+  "cadreJuridiqueUrl": "www.somme.fr",
+  "logo": {
+    "filename": "logos-caf-cd80.png",
+    "checksum": "aejIfzcqA0zJjyGS3y3qoA==",
+    "byteSize": "137114",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "Délibération_Fonds_Mobilité_Emploi.pdf",
+    "checksum": "jZmGB/MlkXZgMyUp9bP/rA==",
+    "byteSize": "317065",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 576,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ETAT CIVIL",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes vous allocataire CAF ou MSA ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro allocataire CAF ou MSA",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance",
+        "description": "Pour les femmes portant un nom d'usage différent de son nom de naissance",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SITUATION FAMILIALE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation familiale",
+        "description": "",
+        "required": true,
+        "options": [
+          "Couple avec enfants",
+          "Couple sans enfant",
+          "Famille monoparentale avec enfants",
+          "Personne seule"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Enfant(s)",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "NOM et Prénom de l'enfant",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance de l'enfant",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RESSOURCES/CHARGES MENSUELLES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Ressources",
+        "description": "NOTE EXPLICATIVE : \r\n<b>Vous pouvez intégrer plusieurs types successifs de ressources en cliquant en bas du bloc sur le bouton \"Ajouter un élément pour « Ressources »\".</b>\r\nRevenus professionnels : salaires, indemnités journalières, indemnités de formation, indemnités apprentis\r\nRSA : RSA et prime d'activité\r\nAutres : MDPH, allocation jeunes majeurs, pension alimentaire, etc...",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de revenus",
+            "description": "",
+            "required": true,
+            "options": [
+              "Revenus professionnels",
+              "RSA",
+              "Indemnités chômage",
+              "Prestations familiales"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant mensuel",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Justificatif du revenu",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Charges",
+        "description": "NOTE EXPLICATIVE : \r\n<b>Vous pouvez intégrer plusieurs types successifs de charges en cliquant en bas du bloc sur le bouton \"Ajouter un élément pour « Ressources »\".</b>\r\nLogement : eau, loyer, assurances, électricité, gaz\r\nTransport : frais de trajet, assurance voiture ou 2 roues, carburant, abonnement de transport\r\nImpôts et taxes : ordures ménagères, taxe d'habitation, taxe foncière, impôts sur le revenu\r\nAutres : temps d'accueil péri-scolaire, étude-garderie, pension alimentaire, obligation alimentaire, remboursement micro-crédit etc...",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de charges mensuelles",
+            "description": "Les charges doivent être indiquées par rapport au montant mensuel dépensé",
+            "required": true,
+            "options": [
+              "Logement",
+              "Transport",
+              "Santé/mutuelle",
+              "Impôts et taxes"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant mensuel",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Justificatif lié aux charges",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire éventuel",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DEMANDE D'AIDE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif d'activité professionnelle ou promesse d'embauche ou attestation de formation ou justificatif d'un référent attestant votre engagement dans une démarche d'insertion",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Motif de l'aide demandée",
+        "description": "",
+        "required": true,
+        "options": [
+          "Achat de véhicule",
+          "Réparation du véhicule",
+          "Transport en commun",
+          "Indemnité kilométrique (selon le barème des impôts)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "MODALITES DE FINANCEMENT SOUHAITÉES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de financement :",
+        "description": "",
+        "required": true,
+        "options": [
+          "Aide financière",
+          "Prêt"
+        ]
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant de l'aide sollicitée :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant du prêt sollicité :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mon aide ne couvrira pas l'intégralité du montant nécessaire au financement de ce projet, j'atteste que je peux auto-financer la partie qui restera à ma charge :",
+        "description": "Pour rappel, l'aide financière est plafonnée à 1500€ sauf pour les familles monoparentales pour lesquelles la plafond est relevé à 2500€.\r\nLe prêt est quant à lui plafonné à 2000€.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ÉLEMENTS LIÉS AUX DEPENSES ENGAGÉES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Devis établis et signés par le fournisseur",
+        "description": "pour le remboursement des indemnités kilométriques, utiliser les sites spécialisés de type www.viamichelin.fr ou www.mappy.fr\r\nLes services se réserveront le droit à tout moment de vous demander la facture pour justifier de l'achat .",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Devis établis et signés par le fournisseur",
+        "description": "Les services se réserveront le droit à tout moment de vous demander la facture pour justifier de l'achat.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant total du devis",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Contrôle technique du véhicule",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IbanChampDescriptor",
+        "label": "IBAN du compte à créditer (sous réserve de validation de la demande)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IbanChampDescriptor",
+        "label": "IBAN du fournisseur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire éventuel",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATIONS COMPLEMENTAIRES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous sollicité une autre aide dans le cadre de la mobilité ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quelles sont les autres aides sollicitées ?",
+        "description": "Si vous déposez plusieurs dossiers pour cette aide (par exemple, une demande pour l'achat d'un scooter et une autre demande pour l'achat d'un casque), merci de nous l'indiquer ici.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous sous tutelle ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Je soussigné(e), Nom et Prénom du tuteur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Certifie mon \"Bon pour accord\"",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous un dossier de surendettement en cours d'étude ou accordé ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je déclare sur l'honneur avoir pris connaissance du règlement intérieur (ci-dessous) et l'exactitude de cette déclaration et des documents joints",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Réglement intérieur",
+        "description": "www.somme.fr/services/rsa-insertion/les-aides-a-linsertion/les-aides-mobilite/",
+        "required": false
+      }
+    ]
+  }
+}

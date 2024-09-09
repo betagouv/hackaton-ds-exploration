@@ -1,0 +1,131 @@
+{
+  "number": 78174,
+  "title": "[Qualif]Demande d'identifiant RNF",
+  "description": "Le RNF est un identifiant unique permettant de gérer la vie administrative des organismes philanthropiques (fonds de dotation, fondations d'entreprise et fondations reconnues d'utilité publique).",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2023-07-04T17:48:07+02:00",
+  "service": {
+    "nom": "Un très bon service",
+    "organisme": "d'un excellent organisme",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/qualif-demande-d-identifiant-rnf",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": {
+    "filename": "Logo MIOM.jpg",
+    "checksum": "p6HTWJOUIr/pNyoefkjToQ==",
+    "byteSize": "63517",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 6,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre structure possède-t-elle déjà un identifiant RNF ?",
+        "description": "Création d'un identifiant unique au sein du répertoire national des fondations et fonds de dotation (dit \"RNF\") qui permettra d'identifier votre structure tout au long de sa vie administrative.\r\nSi votre structure possède déjà un identifiant, il n'est pas nécessaire de remplir ce formulaire. ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Renseigner votre identifiant RNF pour vérification",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Lien vers formulaire de création d'identifiant RNF",
+        "description": "Vous ne disposez pas d'identifiant RNF. Veuillez vous créer un identifiant via ce lien :\r\nhttps://www.demarches-simplifiees.fr/commencer/2aece7c1-652e-4464-8c11-4ee7fc96946b",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de structure",
+        "description": "Sélectionner le type de structure nécessitant un identifiant\r\n<!-- #rnf-type-rnf# -->",
+        "required": true,
+        "options": [
+          "Fonds de dotation",
+          "fondation d'entreprise",
+          "Fondation reconnue d'utilité publique (FRUP)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Siège de votre structure",
+        "description": "Indiquer le département du siège de votre structure",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Titre de la structure",
+        "description": "Indiquer le titre de la structure\r\n<!-- #rnf-titre-rnf# -->",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du siège social de la structure",
+        "description": "<!-- #rnf-addresse-rnf# -->",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel de contact de la structure",
+        "description": "<!-- #rnf-courriel-rnf# -->",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone contact de la structure",
+        "description": "<!-- #rnf-telephone-rnf# -->",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Déclarant pour la structure",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité du déclarant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique du déclarant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone du déclarant",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

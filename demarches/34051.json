@@ -1,0 +1,397 @@
+{
+  "number": 34051,
+  "title": "demande préalable de travaux sur des affleurements rocheux - POUR AGRICULTEURS",
+  "description": "Formulaire à remplir et à transmettre à la DDT du Doubs préalablement à tous travaux projetés sur des affleurements rocheux",
+  "tags": [
+    "Nature"
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2020-10-02T14:55:35+02:00",
+  "service": {
+    "nom": "DDT25 / agro-environnement",
+    "organisme": "Préfecture du Doubs",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-travaux-affleurements-rocheux-agriculteurs",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.doubs.gouv.fr/Politiques-publiques/Environnement/Protection-des-milieux-naturels_-Natura-2000/Preservation-des-elements-fixes-du-paysage",
+  "cadreJuridiqueUrl": "",
+  "logo": null,
+  "notice": {
+    "filename": "DPafflt_notice_explicative.pdf",
+    "checksum": "4k44CfHa7G+hrfHHYyaUHg==",
+    "byteSize": "3596911",
+    "contentType": "application/pdf"
+  },
+  "deliberation": {
+    "filename": "DPafflt_cadre_juridique.doc",
+    "checksum": "vSQZE7obBZKXmFMTD6w2fA==",
+    "byteSize": "34816",
+    "contentType": "application/msword"
+  },
+  "dossiersCount": 145,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom, prénoms ou raison sociale",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "n° PACAGE",
+        "description": "Si vous êtes agriculteur, merci de renseigner votre numéro pacage entier",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "n° SIRET",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Renseignements relatifs aux affleurements concernés par le projet, par ilôt",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Informations à renseigner par ilôt PAC",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "n° ilôt PAC",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "n° parcelle PAC",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "code culture de la dernière déclaration PAC",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "propriétaire(s) du ou des terrain(s)",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type d'affleurement rocheux",
+            "description": "selon la typologie indiquée dans la notice explicative",
+            "required": true,
+            "options": [
+              "type 1 \"têtes de chat\"",
+              "type 2 \"grand ensemble d'affleurements rocheux\"",
+              "type 3 \"autres affleurements rocheux\""
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Ilôt ayant déjà fait l'objet de destruction d'affleurements rocheux",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Surface estimé des affleurements concernés par le projet (en m²)",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Autres particularités topographiques concernées par les travaux",
+            "description": "ex : arrachage de haies, de bosquets de moins de 50a. Préciser le linéaire et la surface le cas échéant. ",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Photo 1",
+            "description": "Merci de joindre des photos des affleurements rocheux et de la parcelle dans son ensemble (si vous souhaitez transmettre plus de 5 photos par ilôt, merci de les envoyer par mail à ddt-topo-prairies@doubs.gouv.fr)",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Photo 2",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Photo 3",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Photo 4",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Photo 5",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Plan de situation des travaux",
+            "description": "Le plan doit indiquer le zonage des travaux sur la ou les parcelles concernées (entourer les affleurements rocheux objet des travaux)",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Motif(s) de la destruction d'affleurement(s) (cocher plusieurs cases si nécessaire)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Amélioration du caractère mécanisable de la parcelle",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "A détailler",
+        "description": "(ex : réduction du temps de travail sur la parcelle, notamment pour son entretien, réduction du risque de casse du matériel...)",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Travaux de réouverture",
+        "description": "Notamment si vous envisagez la mise en prairie d'une parcelle boisée.\n\nSi vous en avez un, joindre votre plan de gestion des parcelles concernées (voir en fin de formulaire pour joindre des pièces)",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Gain de surface / productivité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le gain estimé en surface et productivité (lait, fourrage...)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Autres motifs",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Motif :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Informations complémentaires pour justifier la demande de travaux",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Type d'outil de broyage(s) envisagé(s)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Choisissez l'outil",
+        "description": "plusieurs outils peuvent être cochés",
+        "required": true,
+        "options": [
+          "Broyeur mixe type \"casse-cailloux\"",
+          "Girobroyeur",
+          "Pelle mécanique",
+          "Brise roche",
+          "Autre(s)"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser si autre(s) outil(s) utilisé(s)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Information sur la parcelle (cocher la ou les cases nécessaires)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Préciser l'année de référence",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Prairies",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de prairie(s) le cas échéant",
+        "description": "plusieurs choix possibles",
+        "required": true,
+        "options": [
+          "Prairie permanente",
+          "Prairie temporaire",
+          "Prairie de fauche",
+          "Pâture"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisions sur les prairies le cas échéant",
+        "description": "pratiques culturales, historique de la parcelle, est-ce une parcelle productive à votre connaissance...",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Autres cultures annuelles",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisions sur les autres cultures annuelles le cas échéant",
+        "description": "type, rotation, rendement...",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Forêt",
+        "description": "bois d'une surface supérieure à 50 ares",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisions sur les espaces forestiers le cas échéant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Usage non agricole",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisions sur l'usage non agricole le cas échéant",
+        "description": "aménagement touristique, communal,...",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Après travaux",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Sélectionnez le ou les modes de culture envisagés",
+        "description": null,
+        "required": true,
+        "options": [
+          "Prairie de fauche",
+          "Pâture",
+          "Culture",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser si autre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Envisagez-vous d'apporter du matériau pour reconstituer le sol de la parcelle après travaux?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser la nature du matériau",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Indiquer toute autre information relative à votre projet que vous souhaitez porter à connaissance de l'administration",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre une note explicative ou tout autre document justifiant votre demande",
+        "description": "Facultatif",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Signature",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Fait à",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "En date du",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie que les renseignements figurant dans le présent imprimé sont sincères et véritables",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

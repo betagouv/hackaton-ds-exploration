@@ -1,0 +1,415 @@
+{
+  "number": 63517,
+  "title": "ARS_IDF_SRTS - DECLARATION DE PERSONNEL (Entrée/Actualisation/Sortie)",
+  "description": "<strong><em>ERRATUM: Ne tenez pas compte du temps de remplissage estimé indiqué ci-dessus. Cela dépend du nombre de salarié déclaré</strong></em> \r\n\r\nMadame, Monsieur,\r\n\r\nNous vous remercions du soin que vous prendrez à compléter ce formulaire établi dans une logique de simplification et de qualité de service.\r\n\r\nComplétez ce formulaire si vous souhaitez :\r\n○ déclarer l'embauche d'un nouveau membre d'équipage,\r\n○ actualiser la situation d'un membre d'équipage (AFGSU2 obtenue/renouvelée, diplôme obtenu, visite médicale, quotité de temps de travail modifiée, prolongation de contrat),\r\n○ déclarer la fin de contrat d'un membre d'équipage.\r\n\r\nNéanmoins, si des interrogations apparaissent, nous demeurons à votre disposition pour vous apporter tout le soutien nécessaire.\r\n\r\nLe service régional des transports sanitaires \r\nde l'ARS Ile-de-France",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-09-07T15:57:59+02:00",
+  "service": {
+    "nom": "Le service régional des transports sanitaires",
+    "organisme": "ARS Île-de-France, Ministère de la Santé et de la Prévention",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ars-idf-srts_declaration-de-personnel",
+  "dpoUrl": "ars-idf-dpd@ars.sante.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.iledefrance.ars.sante.fr/transporteurs-sanitaires-declarer-un-changement",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "MARIANNE_ET_LOGO-RP.jpg",
+    "checksum": "qWUf+PT8dYKqB4sIhjPNqw==",
+    "byteSize": "796360",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "Nos principales références juridiques_v3.pdf",
+    "checksum": "gxt+adYRO6Zt6xqkZFWMPA==",
+    "byteSize": "525458",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 13893,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Rappel sur la composition des équipages :",
+        "description": "Conformément aux dispositions de l'article R.6312-6 du code de la santé publique et de l'arrêté modifié du 21 décembre 1987 relatif à la composition du dossier d'agrément des personnes effectuant des transports sanitaires terrestres et au contrôle des véhicules affectés aux transports sanitaires, vous devez garantir par implantation au moins autant d'équipages employés à temps complet, ou en équivalent temps plein que de véhicules A ou C (ASSU ou ambulances).\r\n\r\nConformément aux dispositions des articles R.6312-7 et R.6312-10 du code de la santé publique : l'équipage d'une ambulance est composé de deux personnes dont au moins une personne titulaire du DEA (ou CCA ou DA).\r\n\r\nL'équipage d'un VSL est composé d'une personne titulaire du DEA (ou CCA OU DA) ou PSC1 ou de la carte d'auxiliaire sanitaire ou appartenant aux professions réglementées des livres I et III (professions médicales, auxiliaires médicaux, aides-soignants, auxiliaires de puériculture. . .).\r\n\r\nConformément aux dispositions des articles R.6312-7 et R.6312-10 du code de la santé publique, les membres d'équipage sans diplôme ou titre peuvent uniquement conduire les ambulances (catégories A et C) et ne sont pas autorisés à conduire les véhicules sanitaires légers (VSL).\r\nUn personnel non diplômé ne dispose pas des qualifications requises pour assurer la surveillance du patient dans la cellule sanitaire de l'ambulance. ",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Numéro de département :",
+        "description": "",
+        "required": true,
+        "options": [
+          "75",
+          "77",
+          "78",
+          "91",
+          "92",
+          "93",
+          "94",
+          "95"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro d'agrément :",
+        "description": "<em>Saisir le numéro d'agrément tel qu'il est inscrit sur l'arrêté.</em>",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DANS QUEL CONTEXTE EFFECTUEZ-VOUS CETTE DECLARATION ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Entrée de personnel (nouvelle embauche) :",
+        "description": "<em>Dans ce cas, merci de vous rendre en partie: A. JE DECLARE EMPLOYER.</em>",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Sortie de personnel (fin de contrat) :",
+        "description": "<em>Dans ce cas, merci de vous rendre en partie: B. JE DECLARE NE PLUS EMPLOYER.</em>",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Actualisation de personnel (qualification, attestation, contrat, quotité de temps de travail) :",
+        "description": "<em> Dans ce cas, merci de vous rendre en partie: C. J'ACTUALISE LA SITUATION D'UN(E) SALARIE(E).</em>",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "A. JE DECLARE EMPLOYER",
+        "description": "<em> S'il y a plusieurs salariés à déclarer, veuillez cliquer sur <strong>\"+ ajouter un élément pour \"JE DECLARE EMPLOYER\"</strong> en dessous de ce bloc, et renseignez les informations pour chacun(e) des employé(e)s de l'entreprise.</em>",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "A compter du ...",
+            "description": "<em> Saisir ici la date de début de contrat.</em>",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de famille :",
+            "description": "<em> (appelé aussi nom de naissance) </em>",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom d'usage :",
+            "description": "<em> (appelé aussi nom de mariage)</em>",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom :",
+            "description": "<em>En l'absence de prénom, veuillez renseigner ce qui est indiqué sur la pièce d'identité. </em>",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance :",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Lieu de naissance :",
+            "description": "<em> Si votre salarié(e) est né(e) hors du territoire Français, vous devez saisir 99 dans le code postal puis la ville et le pays\r\n(exemple: 99 - Canberra - AUSTRALIE). </em>",
+            "required": false
+          },
+          {
+            "__typename": "TitreIdentiteChampDescriptor",
+            "label": "Joindre la copie recto-verso d'un titre d'identité :",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "Aptitude à la conduite",
+            "description": "<strong>merci de saisir dans cette section les informations liées à l'aptitude à la conduite de votre salarié(e)</strong>",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Votre salarié(e) détient un permis de conduire en cours de validité, obtenu le :",
+            "description": "<em>Conformément aux dispositions de l'article R.6312-7 du code de la santé publique, les membres d'équipage doivent être titulaires du permis de conduire de catégorie B en cours de validité et ne doivent plus être en période probatoire.\r\n\r\nLes codes 105 et 106 sont mentionnés sur le verso du permis de conduire des conducteurs en période probatoire (nouveaux titulaires du permis de conduire pour la première fois ou à la suite d'une invalidation ou annulation judiciaire).</em> ",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie du permis de conduire (recto/verso) :",
+            "description": "<em> en 1 seule pièce-jointe</em> ",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Attestation préfectorale d’aptitude à la conduite d’une ambulance obtenue le :",
+            "description": "<em> Attestation préfectorale d’aptitude à la conduite d’une ambulance ou de l’avis médical délivré et validé par la Préfecture (CERFA n°14880*01) en cours de validité.</em> ",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Joindre la copie de l'attestation préfectorale d’aptitude à la conduite d’une ambulance ou de l’avis médical délivré et validé par la Préfecture (CERFA n°14880*01) en cours de validité :",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "Qualification(s)",
+            "description": "<strong>merci de saisir dans cette section les informations liées aux qualifications de votre salarié(e)</strong>",
+            "required": false
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "BON A SAVOIR:",
+            "description": "<em>En cas de perte de votre CCA, DA, DEA merci de prendre contact avec la Direction régionale interdépartementale de l’économie, de l’emploi, du travail et des solidarités (DRIEETS) de votre région.</em> ",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Diplôme, certificat, brevet ...",
+            "description": "Les personnes composant les équipages des véhicules spécialement adaptés au transport sanitaire terrestre mentionnés à l'article R. 6312-7 appartiennent aux catégories suivantes :",
+            "required": false,
+            "options": [
+              "DEA (diplôme d'état d'ambulancier), ",
+              "DA (diplôme d'ambulancier)",
+              "CCA ( certificat de capacité d'ambulancier)",
+              "Auxiliaire ambulancier",
+              "PSC1 (Prévention et secours civique de niveau 1)",
+              "AFPS (ancienne formation aux premiers secours)",
+              "BNS (Brevet national de secourisme)",
+              "BNPS (Brevet National de Premiers Secours)",
+              "BEDPS (Brevet Européen Des Premiers Secours) ",
+              "sapeur-pompier",
+              "médecin",
+              "sage-femme",
+              "infirmier",
+              "aide-soignant",
+              "auxiliaire de puériculture",
+              "conducteur d'ambulance",
+              "stagiaire",
+              "stagiaire DEA"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date d'obtention de la dernière qualification obtenue :",
+            "description": "<em> Obligatoire à l'exception de la qualification conducteur d'ambulance. </em> ",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Joindre la copie de la dernière qualification obtenue :",
+            "description": "- Obligatoire à l'exception de la qualification conducteur d'ambulance.\r\n- Transmission de l'inscription ADELI ou RPPS (le cas échéant). </em>",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de délivrance de l'AFGSU2 :",
+            "description": "<em> Attestation de Formation aux Gestes et Soins d’Urgence de niveau 2 (AFGSU 2) en cours de validité \r\nou inscription au recyclage.</em> ",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Joindre la copie de l'AFGSU2 ou du recyclage de l'AFGSU2 ou de l'inscription au recyclage.",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "Contrat",
+            "description": "<strong> merci de saisir dans cette section les informations liées au contrat de votre salarié(e)</strong> ",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Nature du contrat :",
+            "description": "",
+            "required": false,
+            "options": [
+              "CDI",
+              "CDD",
+              "MAD (mise à disposition)",
+              "Occasionnel (vacataire/intérimaire)"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Pour un CDD, merci de préciser la date de fin du contrat :",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Quotité de travail par mois :",
+            "description": "<em> Ex : 50 pour un mi-temps (50%) et 100 pour un temps plein (100%) </em> ",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Contrat de mise à disposition (le cas échéant).",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "B. JE DECLARE NE PLUS EMPLOYER",
+        "description": "<em> S'il y a plusieurs salariés à déclarer, veuillez cliquer sur <strong>\"+ ajouter un élément pour \"JE DECLARE NE PLUS EMPLOYER\"</strong> en dessous de ce bloc, et renseignez les informations pour chacun(e) des employé(e)s sorti(e)s de l'entreprise.</em>",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "A compter du :",
+            "description": "<em> Saisir ici la date de fin de contrat.</em>",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de famille :",
+            "description": "<em> (appelé aussi nom de naissance) </em>",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom d'usage :",
+            "description": "<em> (appelé aussi nom de mariage)</em>",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom :",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "C. J'ACTUALISE LA SITUATION D'UN(E) SALARIE(E)",
+        "description": "<em> S'il y a plusieurs situations à actualiser, veuillez cliquer sur <strong>\"+ ajouter un élément pour \"J'ACTUALISE LA SITUATION D'UN(E) SALARIE(E)\" </strong> en dessous de ce bloc, et renseignez les informations pour chacun(e) des employé(e)s de l'entreprise.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité :",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de famille :",
+            "description": "<em> (appelé aussi nom de naissance)</em>",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom d'usage :",
+            "description": "<em> (appelé aussi nom de mariage) </em>",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom :",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance :",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune de naissance :",
+            "description": "<em> Si votre salarié(e) est né(e) hors du territoire Français, vous devez saisir 99 dans le code postal puis la ville et le pays\r\n(exemple: 99 - Agadir - MAROC). </em>",
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Situation à actualiser :",
+            "description": "<em>Plusieurs choix possibles, puis rendez-vous dans <strong>\"PIECE(S) JUSTIFICATIVE(S) COMPLEMENTAIRE(S)\"</strong> afin de télécharger les pièces justificatives supplémentaires.</em>",
+            "required": false,
+            "options": [
+              "AFGSU2 en cours de validité ou Inscription au recyclage",
+              "Attestation d'aptitude à la conduite d'une ambulance en cours de validité",
+              "Avis médical délivré par la Préfecture (CERFA n°14880*01) en cours de validité",
+              "Diplôme/Qualification",
+              "Passage en CDD(*)",
+              "Prolongation de CDD(*)",
+              "Passage en CDI",
+              "Quotité de temps de travail"
+            ]
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "(*) Pour un CDD, merci de préciser la date de fin de contrat :",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "PIECE(S) JOINTE(S) COMPLEMENTAIRE(S)",
+        "description": "<em> Pour télécharger plusieurs pièces jointes, veuillez cliquer sur <strong>\"+ ajouter un élément pour \"PIECE(S) JOINTES(S) COMPLEMENTAIRE(S\"</strong> en dessous de ce bloc, et télécharger des pièces justificatives supplémentaires.</em>",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Télécharger ici :",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. RAPPEL REGLEMENTAIRE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Article R.6312-17 du code de la santé publique :",
+        "description": "<strong>Les personnes titulaires de l'agrément tiennent constamment à jour la liste des membres de leur personnel composant les équipages des véhicules de transport sanitaire, en précisant leur qualification.\r\nCette liste est adressée annuellement à l'ARS de la région dans laquelle les intéressés exercent leur activité. La même ARS est avisée sans délai de toute modification de la liste.</strong>",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Merci de joindre la liste actualisée des membres de votre personnel :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je soussigné(e), représentant(e) légal(e) de l'entreprise de transports sanitaires précitée, atteste sur l’honneur que ces personnels remplissent les conditions d’exercice fixées par la règlementation en vigueur.",
+        "description": "En cas de manquements aux dispositions dudit arrêté, je m’expose/nous nous exposons à des sanctions conformément à l’article R.6312-5 du code de la santé publique. Indépendamment de ces sanctions, toute fausse déclaration ainsi que l’usage d’un document falsifié sont passibles des peines prévues par les articles 441-6 et suivants du code pénal.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "L’Agence régionale de santé Île-de-France (ci-après ARS) procède à un traitement de données à caractère personnel pour permettre la gestion et le suivi des agréments des transporteurs sanitaires et des autorisations de véhicules affectés aux transports sanitaires terrestres conformément aux dispositions des articles L.6312-2 et suivants et R.6312-1 et suivants du code de la santé publique.",
+        "description": "<em>Ce traitement relève de l’exercice de l’autorité publique à laquelle l’ARS, en sa qualité de responsable de traitement, est investie en application de l’article 6.1.e du Règlement général sur la protection des données (RGPD) du 27 avril 2016. Les données enregistrées sont conservées jusqu’au retrait de l’agrément de transport sanitaire et ne peuvent être communiquées qu’aux destinataires suivants: personnels du service régional des transports sanitaires de l’ARS et personnels habilités de l’assurance maladie.\r\nConformément au RGPD et à la loi n° 78-du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, vous disposez d’un droit d’accès, de rectification, de limitation et d’opposition aux données vous concernant.\r\nVous pouvez exercer ces droits en adressant un courrier signé accompagné de la copie d’un justificatif d’identité au délégué à la protection des données de l’ARS à l’adresse suivante : délégué à la protection des données de l’ARS, Immeuble Curve, 13 rue du Landy 93200 SAINT-DENIS ou par courriel : ars-idf-dpd@ars.sante.fr.\r\nVous disposez d’un droit d'introduire une réclamation auprès de la Commission nationale de l’informatique et des libertés, si vous considérez que le traitement de données à caractère personnel vous concernant constitue une violation du RGPD et de la loi informatique et libertés.</em>",
+        "required": false
+      }
+    ]
+  }
+}

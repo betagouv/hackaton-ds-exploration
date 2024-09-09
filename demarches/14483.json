@@ -1,0 +1,175 @@
+{
+  "number": 14483,
+  "title": "Recensement des ADS",
+  "description": "Cette procédure vous permet de déclarer le nombre d'ADS qui ont été délivrées sur votre territoire ainsi que les exploitants et les titulaires liés.\r\n\r\nUn formulaire correspond à une autorisation de stationnement. Vous aurez à remplir autant de formulaires que vous avez délivré d'ADS.\r\n",
+  "tags": [
+    "Transport"
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2019-02-22T11:57:58+01:00",
+  "service": {
+    "nom": "DINSIC",
+    "organisme": "Service du Premier Ministre",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/recensement-des-ads",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "Aucun lien fourni",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=JORFARTI000029527163&cidTexte=LEGITEXT000029528524&categorieLien=id",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 30,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de la structure délivrant l'ADS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de votre autorité",
+        "description": "Indiquez le type de votre autorité compétente dans la délivrance des ADS",
+        "required": true,
+        "options": [
+          "Mairie",
+          "EPCI",
+          "Préfecture"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de votre structure",
+        "description": "Indiquez l'adresse (nom de la voie ET nom de la ville) de votre mairie, EPCI ou préfecture",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Information sur l'ADS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Numéro d'identification de l'ADS",
+        "description": "Indiquez le numéro d’identification de l'ADS dans votre commune, EPCI ou préfecture \r\nS'il n'existe pas de numéro d'identification des ADS, vous pouvez en créer un, en classant les ADS par ordre chronologique de création",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de création initiale de l’ADS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si délivrance après la loi du 1er octobre 2014",
+        "description": "- si l'ADS a été délivrée à partir du 1er octobre 2014 (\"nouvelle ADS\"), cochez \"Oui\"\r\n- si l'ADS a été délivrée avant le 1er octobre 2014 (\"ancienne ADS\"), cochez \"Non\"\r\n",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d’obtention de l’ADS par le titulaire actuel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mode d'obtention de l'ADS par le titulaire actuel",
+        "description": "",
+        "required": true,
+        "options": [
+          "Gratuitement (délivrée par l'autorité compétente)",
+          "Achat",
+          "Legs",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si Autre, précisez le mode d'obtention",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Conventionnement de l’ADS par une CPAM",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro d'immatriculation du véhicule de taxi",
+        "description": "Le numéro d'immatriculation du véhicule est indiqué sur l'arrêté de l'autorisation de stationnement",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Information sur le titulaire de l'ADS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du titulaire, ou du représentant légal de l'entreprise titulaire de l'ADS",
+        "description": "Le nom du titulaire, ou nom du représentant légal de l'entreprise titulaire de l'ADS, est indiqué sur l'arrêté de l'autorisation de stationnement",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du titulaire, ou du représentant légal de l'entreprise titulaire de l'ADS",
+        "description": "Le prénom du titulaire, ou prénom du représentant légal de l'entreprise titulaire de l'ADS, est indiqué sur l'arrêté de l'autorisation de stationnement",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "N° SIRET du titulaire de l'ADS",
+        "description": "Le numéro SIRET du titulaire est indiqué sur l'arrêté de l'autorisation de stationnement\r\nVous pouvez retrouver le numéro SIRET du titulaire de l'ADS sur Societe.com à partir du nom et du prénom du titulaire",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Est-ce que le titulaire exploite personnellement son ADS ?",
+        "description": "Si le titulaire exploite personnellement son ADS, alors sélectionner \"Titulaire exploitant\" à la question suivante sur le statut de l'exploitant.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Information sur l'exploitant de l'ADS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut de l’exploitant",
+        "description": "Le conducteur salarié n'est pas considéré comme exploitant de l'ADS",
+        "required": true,
+        "options": [
+          "Titulaire exploitant",
+          "Locataire gérance",
+          "Coopérateur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "N° SIRET de l'exploitant",
+        "description": "Vous pouvez retrouver le numéro SIRET de l'exploitant sur Societe.com à partir du numéro SIREN, de la raison sociale ou du représentant légal de l'entreprise",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale de l'exploitant, ou nom prénom de l'exploitant",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "number": 66459,
+  "title": "V3DDPP72_IAHP_demandes_de_crédits_DRAAF PDL",
+  "description": "La démarche vise à recueillir l'ensemble des dossiers et besoins en crédits en relation avec l'épizootie IAHP",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2022-11-14T13:45:37+01:00",
+  "service": {
+    "nom": "SRAL - DRAAF Pays-de-la-Loire",
+    "organisme": "DRAAF Pays-de-la-Loire",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/v3ddpp72_iahp_demandes_de_credits_draaf-pdl",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://draaf.pays-de-la-loire.agriculture.gouv.fr/Sante-et-protection-des-animaux",
+  "cadreJuridiqueUrl": "https://info.national.agri/gedei/site/bo-agri/instruction-2021-939",
+  "logo": {
+    "filename": "PREF_region_Pays_de_la_Loire_RVB2_cle86d963.png",
+    "checksum": "hRQ9yXOoahpRrvu9XjCK1A==",
+    "byteSize": "8264",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "2021-939_final-2.pdf",
+    "checksum": "8MPl5Eit3MXN5PCsi9yQnA==",
+    "byteSize": "688288",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 12,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "LA DEMANDE de DELEGATION de CREDITS CONCERNE la :",
+        "description": "",
+        "required": true,
+        "options": [
+          "DDPP_72"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Seules les données saisies dans les champs figureront dans le tableau d'extraction.",
+        "description": "Vous disposez d'un champ \"Éléments d'informations complémentaires si besoin\" en fin de formulaire. ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "A - Rattachement Administratif : Bénéficiaire - Type de dépenses  - Montant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Objet du dossier",
+        "description": "Chaque dossier correspond à l'expression des besoins de crédits pour un bénéficiaire en lien avec son SIRET.\nVous pouvez y insérer une ou plusieurs factures pour ce même bénéficiaire.\nVous pouvez créer autant de dossiers pour un même bénéficiaire que nécessaire.",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET _ Structure à indemniser ou à payer",
+        "description": "14 chiffres sans espace",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "RAISON SOCIALE _ Structure à indemniser ou à payer",
+        "description": "Champ non obligatoire ; s'il n'est pas renseigné, la raison sociale ne figurera pas dans le tableau de bord.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "TYPE de demande de dépenses à engager",
+        "description": "Un seul choix possible ; le champ \"Autre\" permet de déposer une demande particulière, avec champ libre à renseigner.",
+        "required": true,
+        "options": [
+          "FOYER - Acompte - Indemnisation",
+          "FOYER - Solde       - Indemnisation",
+          "Dépeuplement  - Acompte - Indemnisation",
+          "Dépeuplement - Solde - Indemnisation",
+          "Facture(s) liée(s) à une Réquisition -  DDPP",
+          "Autre(s) Facture(s) - DDPP"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Pour les dossiers - SOLDE : Email du bénéficiaire de l'indemnisation",
+        "description": "si connue - champ non bloquant",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "MONTANT des crédits demandés pour ce dossier",
+        "description": "uniquement des chiffres / sans espace /insérer une virgule pour les centimes /  ne pas rajouter euros ni €",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "B - Rattachement épidémiologique : dépenses / foyers",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "SIGNAL_IA 2022 - Rattachement au FOYER",
+        "description": "Renseigner les 4 chiffres du numéro unique SIGNAL_IA2022 du foyer auquel la dépense est rattachable (concerne aussi les élevages soumis à une opération de dépeuplement )\nSi la dépense est rattachable à plusieurs élevages : renseigner MULTI \nSi la dépense n'est pas rattachable  à un ou plusieurs foyers : renseigner DDPP\n",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations détaillées",
+        "description": "Pour les dossiers référencés en MULTI ou DDPP. Ce champ n'est pas bloquant.\nToute pièce complémentaire contenant des informations détaillées peut être jointe au dossier - en bas du formulaire  (ex annexe de facture ventilant les frais en relation avec les élevages / foyers concernés)\n",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "CARTOGIP- rattachement au FOYER",
+        "description": "Clé tech CARTOGIP : à récupérer sur SIGNAL en lien avec le numéro Signal IA2022 renseigné ci dessus.\nSi non rattaché à un foyer, renseigner : NRF pour non rattachable à un foyer.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "C - Pièces justificatives et informations",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "PJ - pièces justificatives",
+        "description": "Fiche comptable \nvoir instructions DGAL en vigueur \nLes justificatifs peuvent être regroupés en un seul document scanné. Si besoin, vous pouvez joindre d'autres pièces en fin de formulaire.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Eléments d'informations complémentaires si besoin",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autres pièces",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce complémentaire",
+            "description": null,
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

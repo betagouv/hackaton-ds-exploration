@@ -1,0 +1,282 @@
+{
+  "number": 72334,
+  "title": "TEST - Déclaration CENTRE des contrôles techniques",
+  "description": "Cette téléprocédure permet aux professionnels de déclarer un centre de contrôle technique.\r\n\r\nLes données saisies seront publiées sur le site des données ouvertes du Ministère : https://data.economie.gouv.fr/explore/dataset/controle_techn/ à l'exception des informations personnelles.\r\n\r\nSelon le décret n° 2019-1127 du 4 novembre 2019, ces informations doivent être disponibles et mises à jour autant que de besoin",
+  "tags": [
+    ""
+  ],
+  "zones": [
+    "Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique"
+  ],
+  "datePublication": "2024-07-04T10:15:52+02:00",
+  "service": {
+    "nom": "Bureau 6D, DIRECTION GENERALE DE LA CONCURRENCE, DE LA CONSOMMATION ET DE LA REPRESSION DES FRAUDES (DGCCRF)",
+    "organisme": "DGCCRF, Ministère de l’Économie, des Finances et de la Souveraineté industrielle et numérique",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/test-declaration-centre-ct",
+  "dpoUrl": "referent-pod@dgccrf.finances.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.economie.gouv.fr/dgccrf/Publications/Vie-pratique/Fiches-pratiques/Vehicule-automobile-controle-technique",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039314028/",
+  "logo": {
+    "filename": "Logo centre.png",
+    "checksum": "DBwz7fqeYNqrsmQF4NkRiA==",
+    "byteSize": "34256",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "20240516 FAQ Calibri.pdf",
+    "checksum": "lLwQBjIpcj16RyFlXFisYA==",
+    "byteSize": "569576",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 183,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "TYPE DE DÉCLARATION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Choix du type de déclaration",
+        "description": "Si votre centre est nouveau, choisissez \"Ouverture d'un centre de contrôle technique\".\r\nATTENTION, si votre centre était temporairement fermé, il faut choisir \"Modification des données d'un centre déjà déclaré\".\r\nSi vous souhaitez déclarer la fermeture de votre centre, choisissez \"Fermeture d'un centre de contrôle technique\".\r\nSi vous souhaitez modifier des informations d'un centre, choisissez \"Modification des données d'un centre déjà déclaré\".\r\nVous pouvez modifier :\r\n- le numéro d'agrément de votre centre,\r\n- les informations de contact des consommateurs,\r\n- les informations de contact de l'administration,\r\n- le nom du centre,\r\n- l'email du compte démarches-simplifiées à utiliser pour gérer le centre,\r\n- le type de prestations effectuées par le centre,\r\n- la réouverture du centre.",
+        "required": true,
+        "options": [
+          "Ouverture d'un centre de contrôle technique",
+          "Modification des données d'un centre déjà déclaré",
+          "Fermeture d'un centre de contrôle technique"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Points d'attention",
+        "description": "• Une fois l'établissement créé dans la base \"Prix des contrôles techniques\", votre compte 'Démarches Simplifiées' sera le seul habilité à déposer un dossier pour ce centre.\r\n• La raison sociale, l'adresse postale et les coordonnées de géolocalisation seront déterminées automatiquement à partir du SIRET de l'établissement. Si ces informations sont incorrectes, elles pourront être rectifiées ultérieurement en déposant un dossier de modification des données d'un centre déjà déclaré.\r\n• Attention, il est conseillé de modifier son adresse sur https://formalites.entreprises.gouv.fr/ également.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Points d'attention",
+        "description": "• Ne seront prises en considération que les déclarations réalisées avec le compte ‘Démarches Simplifiées’ habilité à déposer des dossiers au nom de l'établissement. Pour les centres dont les données ont été reprises du précédent portail de saisie des prix, le compte 'Démarches Simplifiées' habilité à déposer un dossier doit avoir comme identifiant l'adresse de messagerie qui était déclarée comme Email de contact du centre. Pour les centres créés à partir de 'Démarches Simplifiées', les comptes habilités à déposer des dossiers pour ces centres sont par défaut ceux qui ont été utilisés pour leur déclaration initiale.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATIONS SUR LE CENTRE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Numéro d'agrément du centre",
+        "description": "Merci d'inscrire le numéro d'agrément tel qu'il figure dans la notification préfectorale. Attention à bien distinguer les caractères semblables (S et 5, I et L, O et 0...)",
+        "required": true
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Numéro de téléphone destiné aux consommateurs",
+        "description": "Ce numéro sera rendu public sur le portail des consommateurs.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse du site internet destiné aux consommateurs",
+        "description": "Par exemple : https://www.economie.gouv.fr/dgccrf\r\nCe site sera rendu public sur le portail des consommateurs.",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Email de contact destiné à l'administration",
+        "description": "Cet adresse de messagerie ne sera pas rendue publique. Elle est susceptible d'être utilisée par l'administration pour, si nécessaire, entrer en relation avec le gérant du centre.",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quelles sont les prestations de contrôle technique effectuées dans votre centre ?",
+        "description": "Seules les prestations sélectionnées sur ce formulaire figureront sur le site public.\r\nToute nouvelle prestation déclarée doit faire l'objet d'une nouvelle déclaration de prix.",
+        "required": true,
+        "options": [
+          "Tout type de véhicule - ESSENCE",
+          "Tout type de véhicule - DIESEL",
+          "Tout type de véhicule - HYBRIDE",
+          "Tout type de véhicule - ELECTRIQUE",
+          "Tout type de véhicule - GAZ",
+          "Tout type d'énergie - Voiture particulière",
+          "Tout type d'énergie - 4 X 4",
+          "Tout type d'énergie - Camionnette",
+          "Tout type d'énergie - Camping-car (moins de 3,5 tonnes)",
+          "Tout type d'énergie - Voiture de collection",
+          "Voiture particulière - ESSENCE",
+          "Voiture particulière - DIESEL",
+          "Voiture particulière - HYBRIDE",
+          "Voiture particulière - ÉLECTRIQUE",
+          "Voiture particulière - GAZ",
+          "4 X 4 - ESSENCE",
+          "4 X 4 - DIESEL",
+          "4 X 4 - HYBRIDE",
+          "4 X 4 - ÉLECTRIQUE",
+          "4 X 4 - GAZ",
+          "Camionnette - ESSENCE",
+          "Camionnette - DIESEL",
+          "Camionnette - HYBRIDE",
+          "Camionnette - ÉLECTRIQUE",
+          "Camionnette - GAZ",
+          "Camping-car (moins de 3,5 tonnes) - ESSENCE",
+          "Camping-car (moins de 3,5 tonnes) - DIESEL",
+          "Camping-car (moins de 3,5 tonnes) - HYBRIDE",
+          "Camping-car (moins de 3,5 tonnes) - ÉLECTRIQUE",
+          "Camping-car (moins de 3,5 tonnes) - GAZ",
+          "Voiture de collection - ESSENCE",
+          "Voiture de collection - DIESEL",
+          "Voiture de collection - HYBRIDE",
+          "Voiture de collection - ÉLECTRIQUE",
+          "Voiture de collection - GAZ"
+        ]
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je veux modifier le numéro d'agrément du centre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Nouveau numéro d'agrément du centre",
+        "description": "Merci d'inscrire le numéro d'agrément tel qu'il figure dans la notification préfectorale. Attention à bien distinguer les caractères semblables (S et 5, I et L, O et 0...) \r\nCe numéro, propre à chaque centre de contrôle technique, figurera sur le portail des consommateurs.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je veux modifier les informations de contact des consommateurs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Nouveau numéro de téléphone destiné aux consommateurs",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nouvelle adresse du site internet destiné aux consommateurs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je veux modifier les informations de contact de l'administration",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Nouvel Email de contact destiné à la Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+        "description": "Cet adresse de messagerie ne sera pas rendue publique. Elle est susceptible d'être utilisée par l'administration pour, si nécessaire, entrer en relation avec le gérant du centre.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je souhaite utiliser un autre compte Démarches-simplifiées (DS) pour administrer les données du centre",
+        "description": "Cet identifiant est un email. Il s'agit de l'email rattaché au centre et habilité à déclarer un centre de contrôle technique, le fermer ou déclarer des tarifs par exemple.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Attention",
+        "description": "Cette nouvelle adresse désignera le seul compte Démarches-simplifiées habilité à déposer des dossiers pour votre centre de contrôle technique. \r\nIl vous appartient de vous assurer que l'adresse saisie est exacte, que le compte Démarches-simplifiées correspondant existe et que vous y avez accès.",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Nouvel identifiant Démarches-simplifiées (DS) habilité à administrer les données du centre",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je souhaite modifier les prestations effectuées par mon centre de contrôle technique",
+        "description": "ATTENTION ! Vous devez déclarer A NOUVEAU LA TOTALITÉ des prestations effectuées.\r\n\r\nIl vous faudra ensuite déclarer les tarifs des nouvelles prestations sur le catalogue de prix.",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quelles sont les prestations de contrôle technique effectuées dans votre centre ?",
+        "description": "Vous devez déclarer à nouveau toutes vos prestations effectuées.",
+        "required": true,
+        "options": [
+          "Tout type de véhicule - ESSENCE",
+          "Tout type de véhicule - DIESEL",
+          "Tout type de véhicule - HYBRIDE",
+          "Tout type de véhicule - ELECTRIQUE",
+          "Tout type de véhicule - GAZ",
+          "Tout type d'énergie - Voiture particulière",
+          "Tout type d'énergie - 4 X 4",
+          "Tout type d'énergie - Camionnette",
+          "Tout type d'énergie - Camping-car (moins de 3,5 tonnes)",
+          "Tout type d'énergie - Voiture de collection",
+          "Voiture particulière - ESSENCE",
+          "Voiture particulière - DIESEL",
+          "Voiture particulière - HYBRIDE",
+          "Voiture particulière - ÉLECTRIQUE",
+          "Voiture particulière - GAZ",
+          "4 X 4 - ESSENCE",
+          "4 X 4 - DIESEL",
+          "4 X 4 - HYBRIDE",
+          "4 X 4 - ÉLECTRIQUE",
+          "4 X 4 - GAZ",
+          "Camionnette - ESSENCE",
+          "Camionnette - DIESEL",
+          "Camionnette - HYBRIDE",
+          "Camionnette - ÉLECTRIQUE",
+          "Camionnette - GAZ",
+          "Camping-car (moins de 3,5 tonnes) - ESSENCE",
+          "Camping-car (moins de 3,5 tonnes) - DIESEL",
+          "Camping-car (moins de 3,5 tonnes) - HYBRIDE",
+          "Camping-car (moins de 3,5 tonnes) - ÉLECTRIQUE",
+          "Camping-car (moins de 3,5 tonnes) - GAZ",
+          "Voiture de collection - ESSENCE",
+          "Voiture de collection - DIESEL",
+          "Voiture de collection - HYBRIDE",
+          "Voiture de collection - ÉLECTRIQUE",
+          "Voiture de collection - GAZ"
+        ]
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je veux procéder à la réouverture de mon centre de contrôle technique.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "FERMETURE DE L'ÉTABLISSEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "L'établissement, identifié par son SIRET, est désormais fermé.",
+        "description": "Si vous cochez la case, l'établissement et ses données ne sont plus affichés sur le portail des consommateurs.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ENGAGEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Les données saisies sont exactes.",
+        "description": "Les informations soumises sont exactes et seront, pour partie, rendues publiques sur les sites de la DGCCRF et du Ministère chargé de l’Économie.\r\nToute déclaration frauduleuse est passible de sanctions pénales.",
+        "required": true
+      }
+    ]
+  }
+}

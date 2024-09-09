@@ -1,0 +1,254 @@
+{
+  "number": 73852,
+  "title": "Consultations_MININT_ACCEPTE",
+  "description": "Formulaire qui permet aux projeteurs éoliens et photovoltaïques, ainsi qu'aux promoteurs immobiliers et aux opérateurs télécoms de déposer une demande de consultation concernant l'existence ou non de servitudes.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2023-09-28T10:34:26+02:00",
+  "service": {
+    "nom": "Centre à Compétence Nationale en Ingénierie et Servitudes",
+    "organisme": "SGAMI Sud, Ministère de l'Intérieur",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/consultations_minint_accepte",
+  "dpoUrl": "fabrice.mattatia@interieur.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "http://sgami.zonesud.interieur.rie.gouv.fr/DSIC",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000031366350/LEGISCTA000031367312/#LEGISCTA000031367312",
+  "logo": null,
+  "notice": null,
+  "deliberation": {
+    "filename": "8_1_2_DR 08 1.1.pdf",
+    "checksum": "kuwZ1bHmzI/4uFMosxbeBQ==",
+    "byteSize": "821414",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 813,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Zones de compétence :",
+        "description": "Zone Nord, départements : 02 / 59 / 60 / 62 / 80\r\nZone Sud, départements : 2A / 2B / 04 / 05 / 06 / 09 / 11 / 12 / 13 / 30 / 31 / 32 / 34 / 46 / 48 / 65 / 66 / 81 / 82 / 83 / 84\r\nZone Est, départements : 08 / 10 / 21 / 25 / 39 / 51 / 52 / 54 / 55 / 57 / 58 / 67 / 68 / 70 / 71 /88 / 89 / 90\r\nZone Ouest, départements : 14 / 18 / 22 / 27 / 28 / 29 / 35 / 36 / 37 / 41 / 44 / 45 / 49 / 50 / 53 / 56 / 61 / 72 / 76 / 85\r\nZone Sud-Est, départements : 01 / 03 / 07 / 15 / 26 / 38 / 42 / 43 / 63 / 69 / 73 / 74\r\nZone Sud-Ouest, départements : 16 / 17 / 19 / 23 / 24 / 33 / 40 / 47 / 64 / 79 / 86 / 87",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Choix de la zone de compétence en fonction du numéro du département",
+        "description": "",
+        "required": true,
+        "options": [
+          "Zone de Défense Est",
+          "Zone de défense Nord",
+          "Zone de défense Ouest",
+          "Zone de défense Sud",
+          "Zone de défense Sud-Est",
+          "Zone de défense Sud-Ouest"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "COMMUNE(S) DU PROJET",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune principale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Autre commune",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Autre commune",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "DEMANDE DE CONSULTATION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de projet",
+        "description": "",
+        "required": true,
+        "options": [
+          "parc éolien",
+          "parc photovoltaïque",
+          "construction bâtimentaire",
+          "projet opérateur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "VOTRE DEMANDE :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Objet de votre demande",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Descriptif : texte libre de plusieurs lignes",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "TYPE D'ETUDE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Choix simple",
+        "description": "",
+        "required": true,
+        "options": [
+          "Une zone d'implantation potentielle",
+          "Les coordonnées géographique de chaque éolienne"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "LOCALISATION GEOGRAPHIQUE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Zone d'implantation potentielle / Position des éoliennes",
+        "description": "La zone d'implantation potentielle du projet doit représenter un polygone à plusieurs côtés. \r\nVous avez trois possibilités pour déterminer cette zone :\r\n- Le téléchargement d'un fichier KML uniquement.\r\n- Enregistrer les 4 points du polygone selon le format WGS84 en degrés-minutes-secondes en remplissant les champs prédéfinis sous la carte selon le format suivant : 46° 07′ 07″ N 000° 21′ 50″ E/W. Pour marquer le point sur la carte, il faut cliquer sur le + à droite de la zone de saisie.\r\n- Utiliser les outils graphiques en haut et à gauche de la carte pour dessiner des points ou/et un polygone pour relier les points préalablement dessinés.\r\n\r\n* Position de chaque éolienne : elle doit être la plus précise possible, la saisie des coordonnées serait la méthode la plus appropriée.\r\n\r\n* Projet photovoltaïque et bâtimentaire : l'outil polygone permettra de bien schématiser l'emprise au sol de votre projet. \r\n\r\nPar convention : \r\n- Les sommets de la zone d'implantation sont reliés entre eux par l'outil polygone.\r\n- Les éoliennes sont reliées entre elles par l'outil ligne.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Adresse de la nouvelle infrastructure",
+        "description": "Plusieurs possibilités pour localiser le projet :\r\n- Intégration d'un fichier KML\r\n- Renseigner l'adresse exacte au dessus de la carte.\r\n- Renseigner les coordonnées géographiques selon le format WGS84 en degrés-minutes-secondes en remplissant les champs prédéfinis sous la carte selon le format suivant : 46° 07′ 07″ N 000° 21′ 50″ E/W. Pour enregistrer la coordonnée, cliquer sur le + à droite de la zone de saisie.\r\n- Utiliser les outils graphiques en haut et à gauche de la carte.\r\nMerci d'indiquer sur la carte l'emprise  au sol du nouveau bâtiment avec les outils graphiques.",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Carte",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "JUSTIFICATIFS DIVERS DE VOTRE PROJET",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Cartes 1/25000, PDF, ...",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Cartes  1/25000, PDF, ...",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Cartes  1/25000, PDF, ...",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Cartes  1/25000, PDF, ...",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "GABARIT DES EOLIENNES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "La zone d'exclusion :",
+        "description": "La zone d'exclusion est par défaut de 150m de part et d'autre d'un faisceau et 500 m autour d'un centre radioélectrique.\r\nCependant, en connaissant les caractéristiques précises des éoliennes, la zone d'exclusion de part et d'autre du faisceau sera calculée au plus juste. \r\nMerci de renseigner avec précision les éléments ci-dessous.\r\nSi vous disposez de plusieurs gabarits d'éoliennes, merci de bien les renseigner dans la légende de chaque point au niveau des 'Sélections utilisateur' sous la carte.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Hauteur totale (bout de pale)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Hauteur moyeu (m)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Longueur des pales (m)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "INFORMATIONS BATIMENTAIRES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de permis de construire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Hauteur bâtiment",
+        "description": "Indiquer la hauteur totale du nouveau bâtiment :",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "CARACTERISTIQUES DU SUPPORT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Type de support",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Hauteur support",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

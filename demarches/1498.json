@@ -1,0 +1,203 @@
+{
+  "number": 1498,
+  "title": "Enregistrement d'activité des garants",
+  "description": "Formulaire de saisie des heures passées et des notes de frais de déplacement des garants nommés par la CNDP.\n",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2020-01-02T17:02:49+01:00",
+  "service": {
+    "nom": "Service des garants",
+    "organisme": "Commission Nationale du Débat Public",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/activite-des-garants",
+  "dpoUrl": null,
+  "noticeUrl": "",
+  "siteWebUrl": "https://www.debatpublic.fr",
+  "cadreJuridiqueUrl": null,
+  "logo": {
+    "filename": "procedure-6cac9a62-982e-4963-8c7e-2605e6648338.png",
+    "checksum": "EOGoPurygll+Cq+gRqUWxw==",
+    "byteSize": "27121",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 29,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code de la mission",
+        "description": "Information permettant de bien identifier votre mission.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date",
+        "description": "Date du déplacement (1 formulaire à remplir par jour de déplacement)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Déclaration des heures passées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Temps de travail personnel",
+        "description": "Travail personnel et/ou temps passé en réunions non publiques. Quantité à indiquer en heures (en mode décimal : 1,25 heures = 1 heure et quart).",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Temps passé en réunion publiques",
+        "description": "Temps passé en réunion publique. Quantité à indiquer en heures.",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Temps de transport",
+        "description": "Temps passé dans les transports. Quantité à indiquer en heures.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire",
+        "description": "Indiquez toute information qui vous semblerait utile concernant le travail effectué.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Trajet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Départ",
+        "description": "Ville de départ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Arrivée",
+        "description": "Ville de destination",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Aller et retour",
+        "description": "A cocher si Aller et Retour dans la même journée",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Heure de départ",
+        "description": "Heure de départ du domicile (si aller)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Heure de retour",
+        "description": "Heure de retour au domicile (si retour)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Frais engagés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Transports en commun",
+        "description": "Montant des tickets de train ou RATP. Remboursement sur la base du tarif en 2° classe - Justificatif original à transmettre par courrier",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de kilomètres",
+        "description": "Nombre de kilomètres effectués avec le véhicule personnel (la CNDP doit avoir la copie du permis du conduire et de la carte grise).",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Péage",
+        "description": "Montant payé pour les péages - Justificatif original à transmettre par courrier",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Parking",
+        "description": "Montant payé pour les frais de stationnement - Justificatif original à transmettre par courrier",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Taxi ou avion",
+        "description": "Montant payé pour les frais de transport en taxi ou en avion - Justificatif original à transmettre par courrier",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Location VL",
+        "description": "Montant payé pour la location d'un véhicule de tourisme (VL) - Justificatif original à transmettre par courrier",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Déjeuner",
+        "description": "Remboursement forfaitaire de 15,25€ - Justificatif original à transmettre par courrier",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Dîner",
+        "description": "Remboursement forfaitaire de 15,25€ - Justificatif original à transmettre par courrier",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Nuitée",
+        "description": "Remboursement forfaitaire de 60€ - Justificatif original à transmettre par courrier",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Frais divers",
+        "description": "Montant des frais divers (téléphone, reprographie, ...) - Justificatifs originaux à transmettre par courrier",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": "Si vous le souhaitez, vous pouvez utiliser cette zone pour tout commentaire qui vous semblerait utile.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Justificatifs originaux",
+        "description": "Tous les justificatifs originaux doivent être transmis par courrier à la CNDP - 244 Bd St Germain - 75007 Paris avec l'indication du numéro de votre note de frais fourni par le système.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document utile",
+        "description": "Nous transmettre tout document qui pourrait nous être nécessaire pour le remboursement de vos frais (en particulier copie de votre carte grise lors de la première utilisation d'un véhicule personnel).",
+        "required": false
+      }
+    ]
+  }
+}

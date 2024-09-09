@@ -1,0 +1,346 @@
+{
+  "number": 10072,
+  "title": "Demande d'Autorisation Administrative d'Importation d'équipement radioélectrique - AAI",
+  "description": "Cette procédure en ligne permet de demander l'autorisation à L'Agence Nationale des Fréquences qui la délivre pour le compte du Haut Commissariat de la République en Polynésie Française.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique"
+  ],
+  "datePublication": "2018-12-07T06:01:17+01:00",
+  "service": {
+    "nom": "Antenne de Polynésie française",
+    "organisme": "Agence nationale des fréquences",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/443835b7-12f2-4d6d-8170-92b969d7c38e",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.anfr.fr/outre-mer/polynesie-francaise/autorisations-dimportation/",
+  "cadreJuridiqueUrl": "Arrêté 1036 du BCO du 9 octobre 1990",
+  "logo": {
+    "filename": "procedure-d7fd1cd7-0d6f-41fd-8d56-f83152f4cd05.jpg",
+    "checksum": "BKA/T6iAySr4gRttNEDLFA==",
+    "byteSize": "41871",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Importateur ou Transitaire | Importer or freight forwarder",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité|Gender",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom/Raison Sociale|Last name/Name of the compagny",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom | First name",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse complète | Adress",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "BP | Postal box",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune | City",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone | Phone number",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Bénéficiaire (section à remplir si différent de l'importateur)|Beneficiary (if different than above section)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du Bénéficiaire/Raison sociale | last name / name of the compagny",
+        "description": "Si différent de l'importateur",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du Bénéficiaire | first name",
+        "description": "Si différent de l'importateur",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse | Adress",
+        "description": "Si différent de l'importateur",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune du bénéficiaire | City",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "BP Bénéficiaire | Postal box",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone | Phone",
+        "description": "Si différent de l'importateur",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Mail",
+        "description": "Si différent de l'importateur",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations concernant l'appareil faisant l'objet de la demande d'autorisation d'importation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d'utilisation | Type of use",
+        "description": "",
+        "required": true,
+        "options": [
+          "Terrestre - Drone",
+          "Terrestre - Réseaux Privés (PMR)",
+          "Terrestre - Talkie Walkie (PMR446)",
+          "Terrestre - CB",
+          "Terrestre - Télécommande / téléalarme",
+          "Terrestre - Produit WiFi ou Bluetooth",
+          "Terrestre - Microphone",
+          "Maritime - VHF",
+          "Maritime - MH/HF (BLU)",
+          "Maritime - Radar",
+          "Maritime - Balise de détresse",
+          "Maritime - Balise de pêche",
+          "Maritime - Radiogoniométrie",
+          "Aéronautique",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre | Other",
+        "description": "Si votre utilisation n'est pas dans la liste",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Bande(s) de fréquences (en kHz, MHz ou GHz) | Frequency band (kHz, MHz orGHz)",
+        "description": "",
+        "required": true,
+        "options": [
+          "--Terrestre - Drone--",
+          "2.4 GHz",
+          "5 GHz",
+          "--Terrestre - Réseaux Privés (PMR)--",
+          "156-174 MHz",
+          "450 MHz",
+          "--Terrestre - Talkie Walkie (PMR446)--",
+          "446 MHz",
+          "--Terrestre - CB--",
+          "27 MHz",
+          "--Terrestre - Télécommande/téléalarme--",
+          "27 MHz",
+          "40 MHz",
+          "869 MHz",
+          "--Terrestre - Produit WiFi ou Bluetooth--",
+          "2.4 GHz",
+          "5 GHz",
+          "--Terrestre - Microphone--",
+          "470-694 MHz",
+          "869 MHz",
+          "--Maritime - VHF--",
+          "156-174 MHz",
+          "457 MHz",
+          "--Maritime - MH/HF (BLU)--",
+          "2,4,8,12 MHz",
+          "--Maritime - Radar--",
+          "9 GHz",
+          "12 GHz",
+          "--Maritime - Balise de détresse--",
+          "406 MHz",
+          "156-174 MHz",
+          "--Maritime - Balise de pêche--",
+          "1.7-3 MHz",
+          "26 MHz",
+          "--Maritime - Radiogoniométrie--",
+          "--Aéronautique--",
+          "108-136 MHz",
+          "--Autre ou non trouvée--",
+          "Autre/Je ne sais pas"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si la fréquence n'est pas dans la liste | If the frequency is not listed above",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du navire (le cas échéant) | Name of the ship (if applicable)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Marque | Brand",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Modèle | Model",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Marquage CE | CE Mark",
+        "description": "",
+        "required": true,
+        "options": [
+          "CE",
+          "CE!",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Quantité | Quantity",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Puissance émise (en mW) | Transmited power",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Destination du produit | Final use of the product",
+        "description": "",
+        "required": true,
+        "options": [
+          "Réexportation | Reexportation",
+          "Commercialisation | To be sold",
+          "Utilisation Personnelle | Personal use"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Si l'utilisation est temporaire | For a temporary use only",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Début | Starting date",
+        "description": "si temporaire",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Fin | End date",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commentaires | Comment",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire - Comments",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration de Conformité RED | RED declaration of Conformity",
+        "description": "Joindre à votre dossier une déclaration ou un certificat de conformité à la directive européenne 2014/53/UE dite \"RED\" que vous pouvez obtenir auprès de votre fournisseur ou du fabricant notamment sur son site internet.\nInformation sur la RED à la page https://ec.europa.eu/growth/sectors/electrical-engineering/red-directive_en\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Documentation technique | Technical documentation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre document | Other",
+        "description": "Si vous souhaitez nous communiquer d'autres documents",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre document | Other",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre document | Other",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "number": 57630,
+  "title": "DDPP35 / IAHP / Grille visite vétérinaire / Levée de l'APMS d'une exploitation pris suite à l'introduction de volailles en provenance d'une zone réglementée IAHP",
+  "description": "Formulaire mis à disposition des vétérinaires sanitaires pour la collecte des observations réalisées en élevage de volailles pour la levée des APMS pris à la suite d'introduction de volailles en provenance de zones réglementées Influenza aviaire\r\n(Ces visites sont à la charges des éleveurs)\r\n\r\nTéléphone : 02 99 59 89 00\r\n\r\nCourriel : ddpp-iahp-lp@ille-et-vilaine.gouv.fr",
+  "tags": [
+    "Agriculture"
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2022-04-08T19:04:23+02:00",
+  "service": {
+    "nom": "Service Santé et Protection Animales de la DDPP35",
+    "organisme": "Direction Départementale de la Protection des Populations d'Ille et Vilaine (DDPP35)",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ddpp35-iahp-visite-veterinaire-expl-recevant-volailles-zr-levee-apms",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ille-et-vilaine.gouv.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000044126719?init=true&page=1&query=mesures+de+bios%C3%A9curit%C3%A9+applicables&searchField=TITLE&tab_selection=all",
+  "logo": {
+    "filename": "Logo Préfet 35.png",
+    "checksum": "1Ppfrn+ZOMv2uA/X0zuN6g==",
+    "byteSize": "113604",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 241,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DDPP35 / IAHP / Grille visite vétérinaire / Levée de l'APMS d'une exploitation pris suite à l'introduction de volailles en provenance d'une zone réglementée IAHP",
+        "description": "<Strong>Visite à faire au plus tôt 21 jours après l’introduction des volailles\nVisite à la charge de l'éleveur</Strong>",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Visite à la charge de l'éleveur à faire au plus tôt 21 jours après l’introduction des volailles",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'exploitation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'exploitation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'exploitation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° de SIRET",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Recensement et examen clinique des unités de production (renseigner un tableau par INUAV)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Examen des registres d’élevage",
+        "description": "Ajouter un \"élément\" par INUAV",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° INUAV",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Espèce présente",
+            "description": null,
+            "required": true,
+            "options": [
+              "Gallus",
+              "Dindes",
+              "Canards",
+              "Autres (à préciser)"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Effectif",
+            "description": "Détailler l'effectif par espèce dans le champ \"texte\" ci-dessous.",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Présence de signes cliniques évocateurs d’influenza aviaire",
+            "description": "<Strong>La réponse \"Oui\" doit conduire à une information de la DDPP immédiate.</Strong>",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Commentaires",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Réalisation de prélèvements pour recherche du virus de l’Influenza aviaire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Réalisation de prélèvements",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prélèvements réalisés :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Réalisation de prélèvements dans les cas suivants :",
+        "description": "1° Élevage suspect d’influenza aviaire suite à l’examen clinique\n2° Introduction de canetons provenant d’une zone réglementée \n\nPRÉLÈVEMENTS : 20 écouvillons cloacaux + 20 écouvillons trachéaux sur 20 oiseaux minimum (tous si inférieur)\nENVOI DES PRÉLÈVEMENTS DANS UN LABORATOIRE AGRÉE",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur le vétérinaire ayant réalisé la visite",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la visite",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du vétérinaire ayant effectué la visite",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro d'ORDRE du vétérinaire ayant effectué la visite",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

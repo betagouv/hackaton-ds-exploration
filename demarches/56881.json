@@ -1,0 +1,188 @@
+{
+  "number": 56881,
+  "title": "Bilan de ma ou mes sorties d'orpaillage de loisir - Ariège",
+  "description": "Démarches permettant d’effectuer le bilan de la ou les sorties d'orpaillage loisir\r\nEn cas de difficulté pour remplir la demande, vous pouvez contacter l'unité eau au 05 61 02 15 82 ou par mail à l'adresse ddt-spe@ariege.gouv.fr.",
+  "tags": [
+    "Biodiversité"
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2022-04-13T11:34:53+02:00",
+  "service": {
+    "nom": "Direction départementale des territoires - Service environnement risques",
+    "organisme": "Unité eau",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/bilan-de-ma-ou-mes-sorties-d-orpaillage-de-loisir-",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.ariege.gouv.fr/Politiques-publiques/Environnement-biodiversite/Eau/Orpaillage-de-loisir/",
+  "cadreJuridiqueUrl": "https://legifrance.gouv.fr/",
+  "logo": {
+    "filename": "pref_ariege_couleur_petit_cle2c2685-733e2-e6b46.jpg",
+    "checksum": "QA5YJfAZqkqV9z6Aq9vTPg==",
+    "byteSize": "4499",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "Orpaillage_secteurs_autorises_v2-2.jpg",
+    "checksum": "/kwdXHNvr1W/Saw7zTS8zg==",
+    "byteSize": "862146",
+    "contentType": "image/jpeg"
+  },
+  "deliberation": null,
+  "dossiersCount": 62,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "M ou Mme",
+        "required": true
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Pays",
+        "description": "Pays du demandeur",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "Nom du demandeur en majuscule\nLes associations peuvent déposer un bilan commun pour un stage donné mais chaque stagiaire doit être identifié comme accompagnant (voir ci après)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "Prénom du demandeur",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique",
+        "description": "adresse électronique du demandeur éventuellement différente de l'adresse utilisée sur démarches simplifiées",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Saisir les éléments de votre adresse de résidence ainsi que le code postal et la commune\n",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "code postal",
+        "description": "Code postal du lieu de résidence",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "ville",
+        "description": "Commune de résidence",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "J'ai effectué une sortie en 2022",
+        "description": "Si je n'ai pas pratiqué en 2022, je  n'ai pas besoin de compléter la suite du formulaire. \nSi j'ai pratiqué (aussi pour les stages organisés par les associations), je saisis un bilan par sortie dans les 15 jours après chaque pratique, en complétant la partie bilan ci-après (pour les associations, les stagiaires sont identifiés comme accompagnants).\n",
+        "required": true,
+        "options": [
+          "oui",
+          "non"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Le cas échéant, nom de l'association dans laquelle j'ai effectué mon stage d'orpaillage",
+        "description": "En cas de pratique dans le cadre d'un stage",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Bilan",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de la sortie",
+            "description": "Une sortie correspond à un jour",
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Secteur dans lequel j'ai orpaillé",
+            "description": "Préciser le secteur par sortie (jour) selon la carte des secteurs (1 à 6) qui a été jointe à l'autorisation d'orpailler et en ligne sur le site de internet de la préfecture de l'Ariège.",
+            "required": false,
+            "options": [
+              "Le Salat secteur 1",
+              "Le Salat secteur 2",
+              "Le Salat secteur 3",
+              "Le Salat secteur 4",
+              "Le Salat secteur 5",
+              "Le Salat secteur 6"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Etat des lieux à votre arrivée",
+            "description": "Décrire le lieux avant orpaillage (trace d'opaillage récents, présence de déchets, etc.)",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Vos actions de remise en état des lieux après votre pratique",
+            "description": "Décrire vos actions de remise en état du site après votre pratique de l'orpaillage",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Remarques diverses",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Accompagnant(s)",
+        "description": "Liste des accompagnants",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": "Nom de l'accompagnant",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": "Prénom de l'accompagnant",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse",
+            "description": "Adresse complète de l'accompagnant",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "code postal",
+            "description": "Préciser le code postal de la commune de résidence de l'accompagnant",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Ville",
+            "description": "Préciser le nom  de la commune de résidence de l'accompagnant",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

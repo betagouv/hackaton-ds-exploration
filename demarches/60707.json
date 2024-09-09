@@ -1,0 +1,104 @@
+{
+  "number": 60707,
+  "title": "Enquête de suivi des litiges après passage en commission départementale de conciliation",
+  "description": "Enquête à destination des usagers ayant eu recours à la commission de conciliation afin d'assurer un suivi et une continuité des dossiers instruits et connaitre les suites qui ont été données aux litiges après passage en séance. ",
+  "tags": [
+    "Enquete"
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2022-06-08T10:01:24+02:00",
+  "service": {
+    "nom": "Commission Départementale de Conciliation du Nord ",
+    "organisme": "DDETS du NORD",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/commission-de-conciliation-du-nord",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.nord.gouv.fr/Politiques-publiques/Solidarite-hebergement-logement-politique-de-la-ville-et-renovation-urbaine/Logement/La-Commission-de-conciliation-CDC2",
+  "cadreJuridiqueUrl": "",
+  "logo": null,
+  "notice": null,
+  "deliberation": {
+    "filename": "06-CIRCULAIRE_2002-38.pdf",
+    "checksum": "sE51HU7wOMtQohhmer946g==",
+    "byteSize": "6547849",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 67,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Vous êtes",
+        "description": "Demandeur : La personne ayant saisie la commission de conciliation\nDéfendeur : La partie adverse convoquée par la commission de conciliation",
+        "required": true,
+        "options": [
+          "Demandeur",
+          "Défendeur"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "et",
+        "description": null,
+        "required": true,
+        "options": [
+          "Locataire",
+          "Bailleur",
+          "Mandataire"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Avis rendue par la commission",
+        "description": null,
+        "required": true,
+        "options": [
+          "Conciliation",
+          "Absence de conciliation",
+          "Impossibilité de concilier (une des deux parties absente)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Après votre passage en commission, le litige a t-il été résolu ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous eu recours aux services judiciaires ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui, quelles sont les raisons de votre recours aux services judiciaires ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "La décision de justice était-elle en accord avec l'avis rendu en commission ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si non, expliquez les raisons :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Décision de justice",
+        "description": "Pourriez-vous nous fournir la décision de justice en complément de ce formulaire afin de porter les éléments à la connaissance du secrétariat.",
+        "required": false
+      }
+    ]
+  }
+}

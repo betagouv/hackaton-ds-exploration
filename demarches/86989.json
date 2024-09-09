@@ -1,0 +1,205 @@
+{
+  "number": 86989,
+  "title": "Taxi - changement de véhicule(s) : ADS conventionnée(s)",
+  "description": "Ce formulaire en ligne permet au taxi de transmettre les justificatifs obligatoires et d'informer la CPAM des Pyrénées-Orientales d'un changement de véhicule(s) : ADS conventionnée(s)",
+  "tags": [
+    "Taxi"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2024-01-08T13:10:30+01:00",
+  "service": {
+    "nom": "Caisse Primaire d'Assurance Maladie des Pyrénées-Orientales",
+    "organisme": "CPAM",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fichier-ps-taxi-changement-de-vehicule-s-ads-conve",
+  "dpoUrl": "dpo.cpam-pyrenees-orientales@assurance-maladie.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "http://declic.cpam66.fr/",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/   ",
+  "logo": {
+    "filename": "Logo_AM_Des_PO.png",
+    "checksum": "NwzN0VyY1NENkmzU+ejkiw==",
+    "byteSize": "19704",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 41,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification du transporteur :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Dans quel département est située votre entreprise ?",
+        "description": "Indiquez le département de votre entreprise",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° de l'assurance maladie",
+        "description": "Référence qui nous permet de vous identifier lors de la facturation\nNuméro composé de 9 caractères",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'entreprise",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du contact",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Annexe 1",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Annexe 1 à la convention locale. Veuillez renseigner votre n° Assurance Maladie",
+        "description": "Ce document est disponible dans la convention et téléchargeable ici\r\nTous les formats sauf Office (xls, doc, ppt, pps)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Cliquez sur \"+\" pour ajouter un nouveau véhicule",
+        "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pour chaque nouveau véhicule",
+        "description": "Si vous avez plusieurs véhicule, cliquer sur (+  Ajouter un élément pour « Pour chaque nouveau véhicule : » )",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° immatriculation du véhicule sortant",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° immatriculation du véhicule entrant",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autorisation de stationnement délivrée par la mairie (ou la communauté de communes)",
+            "description": "Carte ADS, arrêté municipal \r\nPour les ADS créées avant le 03/10/2014 fournir un document attestant de la date de création de l'ADS\r\nTous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Carte grise du véhicule qui stationne sur l’autorisation de stationnement",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Carnet métrologique d'installation",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Contrôle technique",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation d'assurance",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Facturette",
+            "description": "Justificatif d'équipement pour l'édition d'une note. Le n° d'immatriculation du véhicule doit être indiqué sur le document.\r\n",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Engagement signé TPMR",
+            "description": "Transport Personnes à Mobilité Réduite \r\nCahier des charges, engagement signé\r\nDocument téléchargeable dans la convention et ici\r\nTous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Liste du ou des véhicules adaptés TPMR",
+            "description": "Le document doit être fourni en complément de l'annexe 1 à la convention locale\r\nTous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Certificat de conformité TPMR délivré par le fournisseur",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Carte grise TPMR",
+            "description": "Portant la mention \"handicap\" en ligne J3\r\nTous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Engagement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, je certifie conforme les saisies et je signe ma déclaration.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Fait à :",
+        "description": "Indiquez la commune",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Le :",
+        "description": "Format jj/mm/aaaa",
+        "required": true
+      }
+    ]
+  }
+}

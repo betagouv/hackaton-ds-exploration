@@ -1,0 +1,425 @@
+{
+  "number": 52777,
+  "title": "DRAAF AURA - SRFD - Pôle AEVA - Mobilités collectives en France",
+  "description": "Formulaire pour les mobilités collectives (voyages et sorties scolaires) en France des apprenants de l'enseignement agricole.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2023-07-19T15:35:29+02:00",
+  "service": {
+    "nom": "DRAAF Auvergne Rhône-Alpes",
+    "organisme": "Service Régional de la Formation et du Développement - Pôle Action Educative et Vie des Apprenants",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/draaf-aura-srfd-pole-aeva-mobilites-collectives-en",
+  "dpoUrl": "dpo@agriculture.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://draaf.auvergne-rhone-alpes.agriculture.gouv.fr/",
+  "cadreJuridiqueUrl": "https://info.agriculture.gouv.fr/gedei/site/bo-agri",
+  "logo": {
+    "filename": "masa_cartouche_rvb_cle8f6c18_cle8d8f5c.png",
+    "checksum": "S40xOdrd9wtQ+0Dk586bkQ==",
+    "byteSize": "36621",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "Tuto usager.pdf",
+    "checksum": "oujHRoUUpliJFoKTM6Y4ng==",
+    "byteSize": "234964",
+    "contentType": "application/pdf"
+  },
+  "deliberation": {
+    "filename": "2021-642_final organisation de la gestion de crise dans les établissements d’enseignement technique.pdf",
+    "checksum": "BFfVt8h2rvcf1Lja4Y+Yqg==",
+    "byteSize": "237451",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 158,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité responsable de la mobilité prévue",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AnnuaireEducationChampDescriptor",
+        "label": "Code RNE",
+        "description": "Voir le guide",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom responsable pédagogique",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Fonction",
+        "description": "",
+        "required": true,
+        "options": [
+          "Direction",
+          "Enseignant",
+          "Personnel administratif"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Accompagnant(s)",
+        "description": "Dans le cas d'une mobilité avec plusieurs accompagnateurs, vous pouvez rajouter plusieurs blocs.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Mail",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Apprenants",
+        "description": "Si le projet concerne plusieurs classes ou groupes, vous pouvez rajouter des blocs.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Année d'étude",
+            "description": null,
+            "required": false,
+            "options": [
+              "4e",
+              "3e",
+              "Seconde",
+              "Première",
+              "Terminale",
+              "1ère année",
+              "2e année"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "LinkedDropDownListChampDescriptor",
+            "label": "Filière",
+            "description": null,
+            "required": false,
+            "options": [
+              "--CAPA--",
+              "1/2/Métiers de l'agriculture (Arboriculture)",
+              "1/2/Métiers de l'agriculture (Horticulture)",
+              "1/2/Métiers de l'agriculture (Ruminants)",
+              "2/2/Métiers de l'agriculture (Arboriculture)",
+              "2/2/Métiers de l'agriculture (Horticulture)",
+              "2/2/Métiers de l'agriculture (Ruminants)",
+              "1/2/Maréchal ferrant",
+              "2/2/Maréchal ferrant",
+              "1/2/Palefrenier soigneur",
+              "2/2/Palefrenier soigneur",
+              "1/2-Travaux forestiers",
+              "2/2-Travaux forestiers",
+              "1/2/Jardinier paysagiste",
+              "2/2/Jardinier paysagiste",
+              "1/2/SAPVER",
+              "2/2/SAPVER",
+              "--CPGE--",
+              "1/2/BCPST",
+              "2/2/BCPST",
+              "1/1/ATS Bio",
+              "--2de Pro--",
+              "1/1/Education nationale/Maintenance des matériels",
+              "1/1/Productions (Activités hippiques)",
+              "1/1/Productions (Agroéquipement)",
+              "1/1/Productions (Aquaculture)",
+              "1/1/Productions (Conduite cultures élevage)",
+              "1/1/Productions (Elevage canin et félin)",
+              "1/1/Productions (Horticulture)",
+              "1/1/Productions (Vigne et vin)",
+              "1/1/Tech Expériment Animale",
+              "1/1/Nature Jard Paysage Forêt (Travaux amenagt paysagers)",
+              "1/1/Nature Jard Paysage Forêt (Travaux forestiers)",
+              "1/1/Nature Jard Paysage Forêt (Travaux gestion des ENR)",
+              "1/1/Conseil vente (Animaux comp prod anim)",
+              "1/1/Conseil vente (Produits alimentaires)",
+              "1/1/Conseil vente (Produits de jardin)",
+              "1/1/Alimentation Bio ind Labo (Ctrl agri envir bio ind)",
+              "1/1/Alimentation Bio ind Labo (Produits des bio indust)",
+              "1/1/Serv pers et territoires",
+              "--Collège--",
+              "1/2/Classe de 4ème de l'EA",
+              "2/2/Classe de 3ème de l'EA",
+              "--Bac général--",
+              "1/2/Bac général",
+              "2/2/Bac général",
+              "--2de générale--",
+              "technolo",
+              "technolo (Principes fond. de l'éco)",
+              "technolo (SESG)",
+              "--Bac pro--",
+              "1/2/Bio industries transfo",
+              "1/2/Bio industries transformation",
+              "2/2/Bio industries transfo",
+              "2/2/Bio industries transformation",
+              "1/2/Maintenance des matériels/Option A : Agricoles",
+              "2/2/Maintenance des matériels/Option A : Agricoles",
+              "1/2/Métiers commerce et vente/Option A : Anim gest esp",
+              "2/2/Métiers commerce et vente/Option A : Anim gest esp",
+              "1/2/Agroéquipement",
+              "2/2/Agroéquipement",
+              "1/2/CGEA (Grandes cultures)",
+              "1/2/CGEA (Polyculture élevage)",
+              "2/2/CGEA (Grandes cultures)",
+              "2/2/CGEA (Polyculture élevage)",
+              "2/2/CGEVV",
+              "1/2/Conduite prod horticoles",
+              "2/2/Conduite prod horticoles",
+              "1/2/Tech-conseil vente animal",
+              "2/2/Tech-conseil vente animal",
+              "1/2/Productions aquacoles",
+              "2/2/Productions aquacoles",
+              "1/2/C.G.entr sect canin félin",
+              "2/2/C.G.entr sect canin félin",
+              "1/2/C. G entreprise hippique",
+              "2/2/C. G entreprise hippique",
+              "1/2/Technicien expé animale",
+              "2/2/Technicien expé animale",
+              "1/2/GMNF",
+              "2/2/GMNF",
+              "1/2/Forêt",
+              "2/2/Forêt",
+              "1/2/Aménagements paysagers",
+              "2/2/Aménagements paysagers",
+              "1/2/Tech cons vte univ jardin",
+              "2/2/Tech cons vte univ jardin",
+              "1/2/Labo contrôle qualité",
+              "2/2/Labo contrôle qualité",
+              "2/2/Tech conseil vente alim./Prod alimentaires",
+              "2/2/TCVA alim et boissons",
+              "1/2/TCVA alim et boissons",
+              "1/2/Serv pers territoires",
+              "2/2/Serv pers territoires",
+              "--Bac Techno--",
+              "1/2/STL/Biochimie Biologie Biotec",
+              "2/2/STL/Biochimie Biologie Biotec",
+              "1/2/STAV (2019) (Aménagement)",
+              "1/2/STAV (2019) (Production)",
+              "1/2/STAV (2019) (Services)",
+              "1/2/STAV (2019) (Transformation)",
+              "2/2/STAV (2019) (Aménagement)",
+              "2/2/STAV (2019) (Production)",
+              "2/2/STAV (2019) (Services)",
+              "2/2/STAV (2019) (Transformation)",
+              "--BTSA--",
+              "2/2/Technico commercial",
+              "1/2/Technico commercial",
+              "1/2/Cons comm solution tech",
+              "2/2/Cons comm solution tech",
+              "1/2/Génie équipements agri.",
+              "2/2/Génie équipements agri.",
+              "1/1/Technico-commercial (Prod filière forêt bois)",
+              "1/2/Technico-commercial (Animaux d'élev compagnie)",
+              "1/2/Technico-commercial (Jardins et végétaux d'orn)",
+              "1/2/Technico-commercial (Prod aliment. boissons)",
+              "1/2/Technico-commercial (Prod filière forêt bois)",
+              "2/2/Technico-commercial (Animaux d'élev compagnie)",
+              "2/2/Technico-commercial (Jardins et végétaux d'orn)",
+              "2/2/Technico-commercial (Prod aliment. boissons)",
+              "2/2/Technico-commercial (Prod filière forêt bois)",
+              "1/2/ACSE",
+              "2/2/ACSE",
+              "1/2/Production horticole",
+              "2/2/Production horticole",
+              "1/2/Agronomie-prod. végétales",
+              "2/2/Agronomie-prod. végétales",
+              "1/2/Productions animales",
+              "2/2/Productions animales",
+              "1/2/Aquaculture",
+              "2/2/Aquaculture",
+              "1/2/Gestion forestière",
+              "2/2/Gestion forestière",
+              "1/2/GPN",
+              "2/2/GPN",
+              "1/2/Aménagements paysagers",
+              "2/2/Aménagements paysagers",
+              "1/2/ANABIOTEC",
+              "2/2/ANABIOTEC",
+              "1/2/STA/Produits laitiers",
+              "2/2/STA/Produits laitiers",
+              "1/2/STA/Alim et processus techno",
+              "2/2/STA/Alim et processus techno",
+              "1/2/STA/Viandes et prod pêche",
+              "2/2/STA/Viandes et prod pêche",
+              "1/2/Dvpt anim terr ruraux",
+              "2/2/Dvpt anim terr ruraux",
+              "1/2/GEMEAU",
+              "2/2/GEMEAU"
+            ]
+          }
+        ]
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de garçons",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de mineurs",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Effectif total",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Liste des apprenants",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Lieu mobilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Structure d'accueil",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Nouveau champ Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Nouveau champ Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Planning",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date départ",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Département(s) et commune(s)",
+        "description": "Dans le cas d'une mobilité comportant plusieurs étapes, vous pouvez rajouter d'autres lieux en cliquant sur le bouton + ajouter un élément.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Département et commune",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date retour",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Projet",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Programme détaillé",
+        "description": "Joindre un document indiquant le programme détaillé du séjour.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Projet pédagogique et éducatif",
+        "description": "Joindre un document indiquant le projet pédagogique et éducatif.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Transport",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Mode de transport",
+        "description": "Plusieurs choix sont possibles.",
+        "required": true,
+        "options": [
+          "Avion",
+          "Bateau",
+          "Train",
+          "Société de transport",
+          "Véhicule établissement",
+          "Véhicule structure d'accueil",
+          "Véhicule personnel accompagnateur",
+          "Véhicule personnel des apprenants"
+        ]
+      }
+    ]
+  }
+}

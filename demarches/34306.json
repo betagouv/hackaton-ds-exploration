@@ -1,0 +1,401 @@
+{
+  "number": 34306,
+  "title": "Demande de télétravail",
+  "description": "Cette démarche permet aux agents BIATSS  de l'université Paul-Valéry Monstpellier 3 de déposer leur demande de télétravail.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Enseignement supérieur et de la Recherche"
+  ],
+  "datePublication": "2020-09-29T14:40:52+02:00",
+  "service": {
+    "nom": "UPV DRRH-IATSS",
+    "organisme": "UPV - Pôle de gestion des personnels BIATSS",
+    "typeOrganisme": "operateur_d_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/upv_demande-teletravail",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.univ-montp3.fr/fr/télétravail",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000032036983/2020-09-23/",
+  "logo": {
+    "filename": "logo_UPV.png",
+    "checksum": "j9WWKLl7fj96t0Tb4rqf0Q==",
+    "byteSize": "18219",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 272,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations concernant l'agent demandeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° de dossier",
+        "description": "Le numéro de dossier figure dans l'ENT, onglet Administration/Mon dossier administratif/Numéro Harpege",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse personnelle",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Affectation",
+        "description": "Service de l'UPV auquel vous êtes affecté.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Supérieur hiérarchique direct",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique du supérieur hiérarchique direct",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Intitulé du poste",
+        "description": "Intitulé de votre fiche de poste",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de prise de poste",
+        "description": "Date à laquelle vous avez pris vos fonctions du poste actuel",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Exercice de fonctions d'encadrement",
+        "description": "Vos fonctions vous amènent-elles à encadrer ?",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quotité de travail",
+        "description": "Le dispositif de télétravail UPV prévoyant une obligation de présence sur site 3 jours par semaine, l'exercice des fonctions sur une quotité inférieure à 70% est incompatible avec le télétravail",
+        "required": true,
+        "options": [
+          "100%",
+          "90%",
+          "80%",
+          "70%",
+          "Inférieure à 70%"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si temps partiel, préciser les jour(s)",
+        "description": null,
+        "required": false,
+        "options": [
+          "Lundi matin",
+          "Lundi après-midi",
+          "Mardi matin",
+          "Mardi après-midi",
+          "Mercredi matin",
+          "Mercredi après-midi",
+          "Jeudi matin",
+          "Jeudi après-midi",
+          "Vendredi matin",
+          "Vendredi après-midi"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Temps complet organisé sur 4,5 jours hebdomadaires",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si oui, préciser la demi-journée libérée",
+        "description": null,
+        "required": false,
+        "options": [
+          "Lundi matin",
+          "Lundi après-midi",
+          "Mardi matin",
+          "Mardi après-midi",
+          "Mercredi matin",
+          "Mercredi après-midi",
+          "Jeudi matin",
+          "Jeudi après-midi",
+          "Vendredi matin",
+          "Vendredi après-midi"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description par le demandeur des activités télétravaillables",
+        "description": "Précisez, parmi les activités qui vous sont confiées, celles qui pourraient être effectuées en télétravail",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dans tous les cas, joindre la fiche horaire prévisionnelle",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Organisation souhaitée du télétravail",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Jours fixes uniquement",
+        "description": "Cochez cette case et complétez les 2 cadres suivants si vous souhaitez un télétravail uniquement sous forme de jours fixes",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si jours fixes uniquement",
+        "description": null,
+        "required": false,
+        "options": [
+          "0,5 jour",
+          "1 jour",
+          "1,5 jours",
+          "2 jours"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si jours fixes uniquement",
+        "description": "Vous pouvez demander 0.5 jour minimum et 2 jours maximum par semaine de télétravail",
+        "required": false,
+        "options": [
+          "Lundi matin",
+          "Lundi après-midi",
+          "Mardi matin",
+          "Mardi après-midi",
+          "Mercredi matin",
+          "Mercredi après-midi",
+          "Jeudi matin",
+          "Jeudi après-midi",
+          "Vendredi matin",
+          "Vendredi après-midi"
+        ]
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Jours flottants uniquement",
+        "description": "Cochez cette case et complétez le cadre suivant si vous souhaitez un télétravail uniquement sous forme de jours flottants",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si jours flottants uniquement",
+        "description": "Maximum 20 jours par an",
+        "required": false,
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Mixte jours fixes et jours flottants",
+        "description": "Cochez cette case et complétez les 2 cadres suivants si vous souhaitez un télétravail sous forme mixte : jours fixes et jours flottants.\nReportez-vous à la circulaire pour plus de précisions sur les conditions",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si mixte, nombre de jours fixes",
+        "description": null,
+        "required": false,
+        "options": [
+          "0,5",
+          "1",
+          "1,5"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si mixte, organisation des jours fixes",
+        "description": null,
+        "required": false,
+        "options": [
+          "Lundi matin",
+          "Lundi après-midi",
+          "Mardi matin",
+          "Mardi après-midi",
+          "Mercredi matin",
+          "Mercredi après-midi",
+          "Jeudi matin",
+          "Jeudi après-midi",
+          "Vendredi matin",
+          "Vendredi après-midi"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si mixte, nombre de jours flottants",
+        "description": null,
+        "required": false,
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Date à laquelle le démarrage du télétravail est souhaité",
+        "description": null,
+        "required": true,
+        "options": [
+          "15 novembre 2020",
+          "15 janvier 2021",
+          "15 mars 2021"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Cadre de télétravail",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Lieu de télétravail",
+        "description": "Le télétravail peut être exercé dans plusieurs lieux.\nDans ce cas, indiquez dans la liste déroulante les différents lieux d'exercice, et précisez dans le champ \"Si autre lieu, préciser\" le mode d'organisation prévu.",
+        "required": true,
+        "options": [
+          "Domicile",
+          "Autre lieu privé, à préciser",
+          "Autre lieu à usage professionnel, à préciser"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si autre lieu, préciser :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Sur mon lieu de télétravail, je dispose d'un espace adapté pouvant être dédié au télétravail",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Sur mon lieu de télétravail, je dispose d'un accès internet haut débit",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Sur mon lieu de télétravail, je dispose d'une installation conforme à l'exercice du télétravail dans le respect des normes de sécurité électrique et incendie. Joindre une pièce justificative de la conformité du lieu de télétravail, datée et signée",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Je dispose d'une assurance couvrant l'exercice du télétravail. Joindre une pièce justificative de l'assurance couvrant l'exercice du télétravail sur le lieu prévu",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Temps de trajet pour rejoindre le site d'affectation en cas de nécessité",
+        "description": "Si le télétravail est exercé sur plusieurs lieux, précisez le temps de trajet pour chacun.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Motivation de la demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quelles sont les raisons qui m'amènent à demander le télétravail",
+        "description": null,
+        "required": true,
+        "options": [
+          "Diminution du temps de trajet domicile/lieu de travail",
+          "Meilleure conciliation vie personnelle/vie professionnelle",
+          "Meilleure concentration sur des dossiers",
+          "Réduction de l'empreinte carbone",
+          "Diminution des coûts liée aux trajets domicile/travail",
+          "Plus d'autonomie dans l'organisation",
+          "Raisons médicales",
+          "Autres, à préciser"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si \"Autres\", préciser",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

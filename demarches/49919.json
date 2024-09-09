@@ -1,0 +1,108 @@
+{
+  "number": 49919,
+  "title": "Caisse régionale d'Assurance Maladie d'Ile de France. Prestation Amiante",
+  "description": "ATTENTION : Ce formulaire est exclusivement destiné aux assurés titulaires de bla bla bla ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2021-10-21T16:34:54+02:00",
+  "service": {
+    "nom": "AMIANTE",
+    "organisme": "Assurance Maladie - Caisse régionale d'Ile-de-France",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/wxcvb",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "www.cramif.fr",
+  "cadreJuridiqueUrl": "www.cramif.fr",
+  "logo": {
+    "filename": "logo cramif.png",
+    "checksum": "uF06oVijrj/lkLl2kzI8iw==",
+    "byteSize": "18020",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 6,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Quelle est la raison de votre message ?",
+        "description": "description",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Choisissez l'une des options suivantes :",
+        "description": null,
+        "required": true,
+        "options": [
+          "1.\tL’attestation de paiement sur toute la durée de versement de la prestation",
+          "2.\tL’attestation de cessation de notification de l’allocation",
+          "3. Autre demande"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre identité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Votre Numéro de Sécurité Sociale sur 15 chiffres",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Votre numéro de téléphone",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Votre email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Champ libre pour écrire votre message",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Champ libre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Vous pouvez joindre 1 ou plusieurs documents",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Joindre un document",
+            "description": null,
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

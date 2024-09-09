@@ -1,0 +1,509 @@
+{
+  "number": 65218,
+  "title": "Procédure d'approbation des contrats d'activité libérale - ARS HDF",
+  "description": "Cette plateforme a pour objectif de recevoir les dépôts de demandes d'approbation des contrats d'activité libérale par l'ARS Hauts-de-France. \r\n\r\nElle concerne les dépôts de 1er contrat et de renouvellement. ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2023-01-09T09:11:27+01:00",
+  "service": {
+    "nom": "DOS / SD Démographie, formation et gestion des RH du système de santé / service Gestion des RH hospitalières",
+    "organisme": "ARS Hauts-de-France",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/procedure-approbation-cal",
+  "dpoUrl": "https://www.hauts-de-france.ars.sante.fr/",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.hauts-de-france.ars.sante.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000006171476/",
+  "logo": {
+    "filename": "Logo ARS HdF.JPG",
+    "checksum": "84SpvNma/u94I5dln8+90A==",
+    "byteSize": "261544",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 138,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Bienvenue sur la plateforme de dépôt des contrats d'activité libérale (CAL) Hauts-de-France",
+        "description": "Un formulaire est à compléter pour chaque contrat ou renouvellement de contrat soumis à l'ARS Hauts-de-France. \r\nDans un premier temps, merci de compléter les coordonnées du référent de l'établissement contact de l'ARS sur le sujet. \r\nPuis 3 grandes parties sont à compléter : \r\n1) Identification du praticien\r\n2) description du contrat \r\n3) Pièces justificatives",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom, Prénom du contact",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "fonction du contact",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "adresse mail du contact",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification du praticien",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du Praticien",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom(s) du praticien",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "n°RPPS",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "statut du praticien",
+        "description": "",
+        "required": true,
+        "options": [
+          "PH",
+          "PH probatoire",
+          "MCU-PH stagiaire"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "spécialité",
+        "description": "",
+        "required": true,
+        "options": [
+          "allergologie",
+          "anatomie et cytologie pathologiques",
+          "anesthésie réanimation",
+          "biologie médicale",
+          "chirugie maxillo-faciale",
+          "chirurgie générale",
+          "chirurgie orale",
+          "chirurgie pédiatrique",
+          "chirurgie plastique reconstructrice et esthétique",
+          "chirurgie thoracique et cardiovasculaire",
+          "chirurgie vasculaire",
+          "chirurgie viscérale et digestive",
+          "chrirurgie orthopédique et traumatologie",
+          "dermatologie et venereologie",
+          "endocrinologie diabétologie nutrition",
+          "génétique médicale",
+          "gériatrie",
+          "gynécologie médicale",
+          "gynécologie-obstétrique",
+          "hématologie",
+          "hémobiologie transfusion",
+          "hépato-gastro-entérologie",
+          "hygiène hospitalière",
+          "maladies infectieuses et tropicales",
+          "médecine cardiovasculaire",
+          "médecine d'urgence",
+          "médecine et santé au travail",
+          "médecine générale",
+          "médecine intensive - réanimation",
+          "médecine interne et immunologie clinique",
+          "médecine légale et expertises médicales",
+          "médecine nucléaire",
+          "médecine physique et de réadaptation",
+          "médecine vasculaire",
+          "néphrologie",
+          "neurochirurgie",
+          "neurologie",
+          "odontologie polyvalente",
+          "oncologie",
+          "oncologie radiothérapique",
+          "ophtalmologie",
+          "oto-rhino-laryngologie chirurgie cervico- faciale",
+          "pédiatrie",
+          "pharmacie polyvalente et pharmacie hospitalière",
+          "pharmacologie clinique et toxicologie",
+          "pneumologie",
+          "psychiatrie",
+          "radiologie et imagerie médicale",
+          "rhumatologie",
+          "santé publique",
+          "stomatologie",
+          "urologie"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "secteur d'exercice",
+        "description": "",
+        "required": true,
+        "options": [
+          "secteur 1",
+          "secteur 2"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Quotité d'exercice globale du praticien",
+        "description": "indiquer ici la quotité de travail de l'ensemble de l'activité du praticien (hospitalière et libérale) en nombre décimal. \r\nexemple : 0.8 pour une quotité à 80% ",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Etablissement principal d'affectation",
+        "description": "",
+        "required": true,
+        "options": [
+          "Centre Hospitalier ABBEVILLE",
+          "Centre Hospitalier AIRE SUR LA LYS",
+          "Centre Hospitalier ALBERT",
+          "Centre Hospitalier ARMENTIERES",
+          "Centre Hospitalier ARRAS",
+          "Centre Hospitalier BAILLEUL",
+          "Centre Hospitalier BAPAUME",
+          "Centre Hospitalier BEAUVAIS",
+          "Centre Hospitalier Bertinot Juel CHAUMONT EN VEXIN",
+          "Centre Hospitalier BETHUNE BEUVRY",
+          "Centre Hospitalier BOHAIN en VERMANDOIS",
+          "Centre Hospitalier BOULOGNE SUR MER",
+          "Centre Hospitalier CALAIS",
+          "Centre Hospitalier CAMBRAI",
+          "Centre Hospitalier CHÂTEAU THIERRY",
+          "Centre Hospitalier CHAUNY",
+          "Centre Hospitalier CLERMONT DE L'OISE",
+          "Centre Hospitalier CORBIE",
+          "Centre Hospitalier CREPY EN VALOIS",
+          "Centre Hospitalier CREVECOEUR LE GRAND",
+          "Centre Hospitalier de l'Arrondissement de MONTREUIL SUR MER - CHAM",
+          "Centre Hospitalier DENAIN",
+          "Centre Hospitalier DOUAI",
+          "Centre Hospitalier DOULLENS",
+          "Centre Hospitalier du Pays d'AVESNES",
+          "\"Centre Hospitalier du Ternois",
+          "SAINT POL SUR TERNOISE\"",
+          "Centre Hospitalier DUNKERQUE",
+          "Centre Hospitalier FELLERIES LIESSIES SOLRE LE CHÂTEAU",
+          "Centre Hospitalier FOURMIES",
+          "Centre Hospitalier Georges Decroze PONT SAINTE MAXENCE",
+          "Centre Hospitalier Gérontologique LA FERE",
+          "Centre Hospitalier GUISE",
+          "Centre Hospitalier HAM",
+          "Centre Hospitalier HAUTMONT EPHAD",
+          "Centre Hospitalier HAZEBROUCK",
+          "Centre Hospitalier HENIN BEAUMONT",
+          "Centre Hospitalier HESDIN",
+          "Centre Hospitalier HIRSON",
+          "Centre hospitalier Intercommunal COMPIEGNE - NOYON",
+          "Centre Hospitalier Intercommunal de la Baie de Somme RUE et ST VALERY SUR SOMME",
+          "Centre Hospitalier Intercommunal MONTDIDIER ROYE",
+          "Centre Hospitalier Intercommunal WASQUEHAL",
+          "Centre Hospitalier Isarien - EPSM de L'Oise de CLERMONT DE L'OISE",
+          "Centre Hospitalier JEUMONT",
+          "Centre Hospitalier LAON",
+          "Centre Hospitalier LE CATEAU CAMBRESIS",
+          "Centre Hospitalier LE NOUVION EN THIERACHE",
+          "Centre Hospitalier LE QUESNOY",
+          "Centre Hospitalier LENS",
+          "Centre Hospitalier PERONNE",
+          "Centre Hospitalier Région de SAINT OMER - HELFAUT",
+          "Centre Hospitalier ROUBAIX",
+          "Centre Hospitalier SAINT AMAND LES EAUX",
+          "Centre Hospitalier SAINT QUENTIN",
+          "Centre Hospitalier Sambre Avesnois MAUBEUGE - CHSA",
+          "Centre Hospitalier SOISSONS",
+          "Centre Hospitalier SOMAIN",
+          "Centre Hospitalier TOURCOING",
+          "Centre Hospitalier Universitaire AMIENS - PICARDIE",
+          "Centre Hospitalier VALENCIENNES",
+          "Centre Hospitalier VERVINS",
+          "Centre Hospitalier WATTRELOS",
+          "CH Etablissement Public de Santé \"Les Erables\" LA BASSEE",
+          "CHRU LILLE",
+          "CRF Jacques Ficheux SAINT GOBAIN",
+          "EPSM de la Somme",
+          "EPSM de l'Agglomération Lilloise SAINT ANDRE LEZ LILLE",
+          "EPSM des Flandres BAILLEUL",
+          "EPSM Lille Métropole ARMENTIERES",
+          "EPSM Val de Lys - Artois SAINT VENANT",
+          "EPSMD de l'Aisne PREMONTRÉ",
+          "Groupe Hospitalier Loos - Haubourdin GHLH",
+          "GHPSO CREIL et SENLIS",
+          "Groupe Hospitalier Seclin Carvin",
+          "HADOS - site CH Montdidier",
+          "Hôpital Maritime de  ZUYDCOOTE",
+          "Hôpital Maritime de Berck sur Mer",
+          "Hôpital Paul Doumer  LIANCOURT",
+          "Institut Départemental Albert Calmette CAMIERS",
+          "USLD Hôpital local Grandvilliers"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description du contrat d'activité libérale soumis à l'approbation de l'ARS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début de l'activité libérale ou date de renouvellement",
+        "description": "indiquer la date prévisionnelle de démarrage de l'activité libérale en cas de 1er contrat ou la date de renouvellement. \r\nLa date de renouvellement correspond au lendemain de l'échéance du contrat en cours. ",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "catégorie de contrat",
+        "description": "indiquez ici la catégorie de contrat soumis pour approbation ",
+        "required": true,
+        "options": [
+          "Contrat initial",
+          "Renouvellement du contrat"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de démarrage de l'activité libérale  (si renouvellement)",
+        "description": "indiquer ici la date de démarrage de l'activité libérale dans l'établissement ",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Taux de redevance (en %)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Quotité d'activité libérale dans l'établissement d'affectation",
+        "description": "indiquer ici la quotité de travail de l'activité libérale du praticien en nombre décimal. \r\nexemple : 0.1 pour une quotité à 10% ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Clause de non-concurrence",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "l'activité libérale est elle exercée sur 2 sites ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Etablissement secondaire",
+        "description": "",
+        "required": true,
+        "options": [
+          "Centre Hospitalier ABBEVILLE",
+          "Centre Hospitalier AIRE SUR LA LYS",
+          "Centre Hospitalier ALBERT",
+          "Centre Hospitalier ARMENTIERES",
+          "Centre Hospitalier ARRAS",
+          "Centre Hospitalier BAILLEUL",
+          "Centre Hospitalier BAPAUME",
+          "Centre Hospitalier BEAUVAIS",
+          "Centre Hospitalier Bertinot Juel CHAUMONT EN VEXIN",
+          "Centre Hospitalier BETHUNE BEUVRY",
+          "Centre Hospitalier BOHAIN en VERMANDOIS",
+          "Centre Hospitalier BOULOGNE SUR MER",
+          "Centre Hospitalier CALAIS",
+          "Centre Hospitalier CAMBRAI",
+          "Centre Hospitalier CHÂTEAU THIERRY",
+          "Centre Hospitalier CHAUNY",
+          "Centre Hospitalier CLERMONT DE L'OISE",
+          "Centre Hospitalier CORBIE",
+          "Centre Hospitalier CREPY EN VALOIS",
+          "Centre Hospitalier CREVECOEUR LE GRAND",
+          "Centre Hospitalier de l'Arrondissement de MONTREUIL SUR MER - CHAM",
+          "Centre Hospitalier DENAIN",
+          "Centre Hospitalier DOUAI",
+          "Centre Hospitalier DOULLENS",
+          "Centre Hospitalier du Pays d'AVESNES",
+          "\"Centre Hospitalier du Ternois",
+          "SAINT POL SUR TERNOISE\"",
+          "Centre Hospitalier DUNKERQUE",
+          "Centre Hospitalier FELLERIES LIESSIES SOLRE LE CHÂTEAU",
+          "Centre Hospitalier FOURMIES",
+          "Centre Hospitalier Georges Decroze PONT SAINTE MAXENCE",
+          "Centre Hospitalier Gérontologique LA FERE",
+          "Centre Hospitalier GUISE",
+          "Centre Hospitalier HAM",
+          "Centre Hospitalier HAUTMONT EPHAD",
+          "Centre Hospitalier HAZEBROUCK",
+          "Centre Hospitalier HENIN BEAUMONT",
+          "Centre Hospitalier HESDIN",
+          "Centre Hospitalier HIRSON",
+          "Centre hospitalier Intercommunal COMPIEGNE - NOYON",
+          "Centre Hospitalier Intercommunal de la Baie de Somme RUE et ST VALERY SUR SOMME",
+          "Centre Hospitalier Intercommunal MONTDIDIER ROYE",
+          "Centre Hospitalier Intercommunal WASQUEHAL",
+          "Centre Hospitalier Isarien - EPSM de L'Oise de CLERMONT DE L'OISE",
+          "Centre Hospitalier JEUMONT",
+          "Centre Hospitalier LAON",
+          "Centre Hospitalier LE CATEAU CAMBRESIS",
+          "Centre Hospitalier LE NOUVION EN THIERACHE",
+          "Centre Hospitalier LE QUESNOY",
+          "Centre Hospitalier LENS",
+          "Centre Hospitalier PERONNE",
+          "Centre Hospitalier Région de SAINT OMER - HELFAUT",
+          "Centre Hospitalier ROUBAIX",
+          "Centre Hospitalier SAINT AMAND LES EAUX",
+          "Centre Hospitalier SAINT QUENTIN",
+          "Centre Hospitalier Sambre Avesnois MAUBEUGE - CHSA",
+          "Centre Hospitalier SOISSONS",
+          "Centre Hospitalier SOMAIN",
+          "Centre Hospitalier TOURCOING",
+          "Centre Hospitalier Universitaire AMIENS - PICARDIE",
+          "Centre Hospitalier VALENCIENNES",
+          "Centre Hospitalier VERVINS",
+          "Centre Hospitalier WATTRELOS",
+          "CH Etablissement Public de Santé \"Les Erables\" LA BASSEE",
+          "CHRU LILLE",
+          "CRF Jacques Ficheux SAINT GOBAIN",
+          "EPSM de la Somme",
+          "EPSM de l'Agglomération Lilloise SAINT ANDRE LEZ LILLE",
+          "EPSM des Flandres BAILLEUL",
+          "EPSM Lille Métropole ARMENTIERES",
+          "EPSM Val de Lys - Artois SAINT VENANT",
+          "EPSMD de l'Aisne PREMONTRÉ",
+          "Groupe Hospitalier Loos - Haubourdin GHLH",
+          "GHPSO CREIL et SENLIS",
+          "Groupe Hospitalier Seclin Carvin",
+          "HADOS - site CH Montdidier",
+          "Hôpital Maritime de  ZUYDCOOTE",
+          "Hôpital Maritime de Berck sur Mer",
+          "Hôpital Paul Doumer  LIANCOURT",
+          "Institut Départemental Albert Calmette CAMIERS",
+          "USLD Hôpital local Grandvilliers"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Quotité d'activité libérale dans l'établissement secondaire",
+        "description": "indiquer ici la quotité de travail de l'activité libérale du praticien en nombre décimal. \r\nexemple : 0.1 pour une quotité à 10% ",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "GHT dont relèvent les 2 établissements",
+        "description": "",
+        "required": true,
+        "options": [
+          "Aisne-Nord Haute Somme",
+          "Artois",
+          "Artois-Ternois",
+          "CHI Clermont de l'Oise",
+          "Côte d'Opale",
+          "Douaisis",
+          "Dunkerquois et Audomarois",
+          "EPSMD Aisne",
+          "Hainaut Cambrésis",
+          "Lille métropole Flandre Intérieure",
+          "Oise Nord Est",
+          "Oise Ouest Vexin",
+          "Oise Sud",
+          "Psychiatrie du NPDC",
+          "SAPHIR",
+          "Somme littoral Sud"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Contrat d'activité libérale",
+        "description": "merci de télécharger ici le contrat d'activité libérale ou le contrat de renouvellement ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Avis du Directeur de l'établissement",
+        "description": "établissement d'affectation principale",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Avis du directeur de l'établissement secondaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Avis du Président de CME",
+        "description": "établissement d'affectation principale",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Avis du Président de CME établissement secondaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Avis du Chef de Pôle",
+        "description": "établissement d'affectation principale",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Avis Chef de pôle établissement secondaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "tableau de service",
+        "description": "établissement d'affectation principal\r\n\r\nles demi-journées prévisionnelles choisies doivent correspondre à la quotité d'activité libérale \r\n\r\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "tableau de service établissement secondaire",
+        "description": "les demi-journées prévisionnelles choisies doivent correspondre à la quotité d'activité libérale ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "bilan d'activité des 5 dernières années écoulées",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "observations",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

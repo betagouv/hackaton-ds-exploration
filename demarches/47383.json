@@ -1,0 +1,163 @@
+{
+  "number": 47383,
+  "title": "Projets de commandes LPMC",
+  "description": "Ce formulaire est destiné à transmettre toute demande de commande au service gestion.",
+  "tags": [
+    "Scolaire"
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2021-09-02T08:42:22+02:00",
+  "service": {
+    "nom": "Service gestion",
+    "organisme": "Lycée Pierre & Marie Curie",
+    "typeOrganisme": "etablissement_enseignement"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/projets-de-commandes-lpmc",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://curie.paysdelaloire.e-lyco.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000502177/2008-03-18/",
+  "logo": {
+    "filename": "Mariane lycée.png",
+    "checksum": "MJfBv6ygPwxFJLLkcIR74g==",
+    "byteSize": "38916",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 367,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Eléments généraux",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description du projet de commande",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Secteur concerné",
+        "description": null,
+        "required": true,
+        "options": [
+          "Administration",
+          "Maintenance/Entretien",
+          "Restauration",
+          "Pédagogique"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de livraison souhaitée",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant de la commande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Devis ou détail précis",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Renseignements complémentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Eléments pédagogiques",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Diplôme préparé",
+        "description": null,
+        "required": false,
+        "options": [
+          "DNB Pro",
+          "CAP",
+          "Bac Professionnel",
+          "Brevet Professionnel",
+          "MLDS",
+          "GRETA"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Formation concernée",
+        "description": null,
+        "required": false,
+        "options": [
+          "Assistance à la gestion des organisations",
+          "EDPI - Etude & définition de produits industriels",
+          "EPC - Equipier polyvalent de commerce",
+          "Logistique",
+          "MAV - Menuiserie aluminium verre",
+          "Métallier",
+          "Métiers du commerce et de la vente",
+          "MSPC - Maintenance des systèmes de production connectés",
+          "MVM - Maintenance des véhicules",
+          "OL - Opérateur logistique",
+          "Prépa-Métier",
+          "Serrurier mésallier",
+          "TRPM - Technicien en réalisation de produits mécaniques"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Niveau",
+        "description": null,
+        "required": false,
+        "options": [
+          "Troisième",
+          "Seconde",
+          "Première",
+          "Terminale"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Discipline",
+        "description": null,
+        "required": false,
+        "options": [
+          "Arts appliqués",
+          "CDI",
+          "Enseignement professionnel",
+          "EPS",
+          "Lettres - Histoire géo - Langues",
+          "Maths - Sciences"
+        ],
+        "otherOption": false
+      }
+    ]
+  }
+}

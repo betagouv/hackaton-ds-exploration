@@ -1,0 +1,291 @@
+{
+  "number": 29934,
+  "title": "contribution de l'Etat aux achats de masques en Haute-Vienne-COVID19",
+  "description": "Suite à la diffusion de la circulaire du 6 mai concernant la contribution de l'Etat aux achats  de masque pour les collectivités territoriales ( achats effectués entre le 13 avril 2020 et le 1er juin), la Préfecture de la Haute-vienne  met en oeuvre une procédure dématérialisée pour effectuer vos demandes",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2020-05-15T11:05:40+02:00",
+  "service": {
+    "nom": "DIRECTION DE LA COORDINATION ET DE L’APPUI TERRITORIAL - BUREAU DES CONCOURS FINANCIERS DE L’ETAT",
+    "organisme": "PREFECTURE DE LA HAUTE-VIENNE",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/pref87-remboursement-masques",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.haute-vienne.gouv.fr/Politiques-publiques/Collectivites-territoriales-et-Etat/Concours-financiers-et-dotations",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "PREF_Haute_vienne_RVB(1).png",
+    "checksum": "IFIJ1dhFOCSf9z6MpNt8Sg==",
+    "byteSize": "23554",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "20006149-contribution-de-letat-aux-achats-de-masques-par-les-collectivi.pdf",
+    "checksum": "yqizUxvJrzJkJJP2gBmxwQ==",
+    "byteSize": "662515",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 6,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Choix de l'entité",
+        "description": "Sélectionner le type d'organisme",
+        "required": true,
+        "options": [
+          "Mairies",
+          "EPCI",
+          "Conseil Départemental",
+          "Associations d'élus",
+          "Syndicat"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la collectivité",
+        "description": "Écrire en Majuscules le nom de votre collectivité",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code INSEE",
+        "description": "inscrire votre code INSEE",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'habitants",
+        "description": "Inscrire le nombre d'habitants de votre collectivités",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Personnes ressources à contacter",
+        "description": "Nom Prénom téléphone",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse messagerie",
+        "description": "Indiquez l'adresse de messagerie",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Catégorie de masques",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "identification de la Commande",
+        "description": "informations à renseigner pour chaque commande\nexemple : commande N°1\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de la commande",
+            "description": "Sélectionner la date dans le calendrier de votre commande ou taper la date sous forme jj/mm/aaaa.",
+            "required": true
+          },
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "Masques à usage unique",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de masques à usage unique",
+            "description": "dans cette commande saisir 0 si pas de masques de ce type",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Prix unitaire TTC",
+            "description": "Prix unitaire du masque à usage unique dans cette commande. Attention le séparateur est la virgule.",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Coût total TTC hors frais annexes (livraison)",
+            "description": "saisir le montant TTC hors frais annexes (livraison). Attention le séparateur est la virgule.",
+            "required": false
+          },
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "Masques grand public",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de masques grand public",
+            "description": "Nombre de masques grand public réutilisables\nsaisir 0 si pas de masque de ce type",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Prix unitaire TTC",
+            "description": "Saisir le prix unitaire TTC. Attention le séparateur est la virgule.",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Coût total TTC hors frais annexes",
+            "description": "Saisir le coût total TTC hors frais annexes (livraison). Attention le séparateur est la virgule.",
+            "required": false
+          },
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "Qui a commandé ?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Commande effectuée auprès du fournisseur par",
+            "description": "choisir dans la liste déroulante",
+            "required": true,
+            "options": [
+              "vous directement",
+              "votre EPCI",
+              "une association d'élus",
+              "autres"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "bon de commande détaillé",
+            "description": "joindre le bon de commande de préférence au format Pdf",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Facture",
+            "description": "Joindre votre facture de préférence au format Pdf",
+            "required": false
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Pour saisir une autre commande cliquer sur le champ ci-dessous \"Ajouter un élément pour \"identification de la commande\"\"",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Destinataires des masques",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Habitants de la collectivité",
+        "description": "OUI/NON (concerne l'ensemble des commandes recensées avant)",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Professionnels de santé ou de proximité",
+        "description": "OUI/NON (concerne l'ensemble des commandes recensées avant)",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Agents de la collectivité",
+        "description": "OUI/NON (concerne l'ensemble des commandes recensées avant)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autres (préciser)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Récapitulatif des commandes",
+        "description": "document récapitulatif  obligatoire de l'ensemble des commandes des achats de masques effectuées entre le 13 avril et le 1er juin 2020 et des remboursements demandés, signé par le maire ou le président de l'exécutif, directement ou par délégation.\ndate limite de dépôt le 15 juin 2020",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Financement de la commande de masques",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous financé l'intégralité de la commande ?",
+        "description": "OUI/NON",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous perçu une participation externe",
+        "description": "OUI/NON si non à la question précédente",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si oui laquelle ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Fonds européens",
+        "description": "OUI/NON",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant fonds européens",
+        "description": "Saisir le montant si vous avez répondu oui à la question précédente. Attention le séparateur est la virgule.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Lettres de demande d'aide et/ou réponses obtenues",
+        "description": "concerne les fonds européens",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Fonds de concours de particuliers",
+        "description": "OUI/NON",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant du concours de particuliers",
+        "description": "Saisir le montant si vous avez répondu oui à la question précédente. Attention le séparateur est la virgule.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Documents concernants les concours de particuliers",
+        "description": "Joindre les documents concernant les autres financements",
+        "required": false
+      }
+    ]
+  }
+}

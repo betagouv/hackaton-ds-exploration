@@ -1,0 +1,510 @@
+{
+  "number": 31185,
+  "title": "Dépôt de dossier de PACS",
+  "description": "Formulaire permettant de recueillir les pièces justificatifs à l'élaboration d'un dossier de PACS.\r\nDemande effectuée en préalable à l'obtention d'un rendez-vous à la mairie de Lingolsheim.\r\nSeul les partenaires qui ont leur résidence future commune sur Lingolsheim peuvent se pacser au sein de la Mairie de Lingolsheim. \r\n\r\nConditions relatives aux partenaires de PACS\r\n Chacun des futur(e)s partenaires doit : \r\n• avoir au moins 18 ans. \r\n• n'avoir aucun lien de proche parenté ou d'alliance avec le futur conjoint (dans certains cas, une dispense peut être accordée par le Président de la République), \r\n• et ne pas être déjà marié ou pacsé (que ce soit en France ou à l'étranger).\r\n\r\nAttention : Le jour du rendez-vous en mairie, la présence des deux futur(e)s partenair(es) est obligatoire (munis de leurs pièces d'identités).",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2020-06-10T13:19:16+02:00",
+  "service": {
+    "nom": "Pôle services aux usagers",
+    "organisme": "Mairie de Lingolsheim",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/lingolsheim-depot-de-dossier-de-pacs",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.lingolsheim.fr/",
+  "cadreJuridiqueUrl": "https://www.service-public.fr/particuliers/vosdroits/N142",
+  "logo": {
+    "filename": "LOGO LINGO V3.jpg",
+    "checksum": "8g3z67u9gCmTtTqysOKU1w==",
+    "byteSize": "575931",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "Date et heure",
+        "description": "Merci d'indiquer la date et l'heure souhaitées pour la signature du pacs. Attention, aucun enregistrement de pacs le samedi matin, seulement en semaine aux heures d'ouvertures. \n(voir sur www.lingolsheim.fr)\n\nUne confirmation vous sera donnée une fois l'instruction du dossier effectuée par l'officier d'état civil. ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identités des futur(e)s partenaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Premier partenaire",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénoms",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PaysChampDescriptor",
+            "label": "Pays de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nationalité",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Êtes-vous placé(e) sous la protection juridique et administrative de l'Ofpra (réfugié, aptride, bénéficiaire de la protection subsidiaire)?",
+            "description": "Si oui, merci de fournir un certificat de non-PACS à demander au Service Central de l’État Civil à Nantes.",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Faites-vous l'objet d'une mesure de protection juridique (sauvegarde de justice, curatelle, tutelle, habilitation familiale, mandat  de protection future)",
+            "description": "Si oui fournir : \n* régime de protection : décision de placement ou de renouvellement de la mesure de protection ou une copie de l'extrait du répertoire civil (délivré par le TGI du lieu de naissance ou en cas de naissance à l'étranger, délivré par le Service Central de l'Etat Civil à Nantes). \n* curatelle : présence du curateur le jour du RDV pour signer la convention du pacs. \nLa convention doit comporter la signature et l'identité du curateur. Donc également la pièce d'identité du curateur. \nLa déclaration conjointe doit également être signée par le curateur. (Sous curatelle simple, pas de signature sur déclaration conjointe, seulement sur la convention). \n* tutelle : autorisation du juge ou du conseil de famille. Présence du tuteur muni de sa pièce d'identité le jour du RDV pour signer la convention. \nL'Officier d'Etat Civil, en plus de l'identité et de la signature du tuteur, doit s'assurer que la convention comporte l'autorisation précitée qui elle-même doit être signée par le tuteur. \nLa déclaration conjointe doit également être signée par le tuteur. \n",
+            "required": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse du domicile",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Téléphone",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Email",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Situation matrimoniale",
+            "description": null,
+            "required": true,
+            "options": [
+              "Célibataire",
+              "Veuf(ve)",
+              "Dépacsé()e)",
+              "Divorcé(e)"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie du titre d'identité en cours de validité.",
+            "description": "L'original est à présenter obligatoirement en mairie le jour du rendez-vous. Validité en cours obligatoire.",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Acte de naissance (copie intégrale ou extrait avec filiation)",
+            "description": "L'original est à présenter obligatoirement en mairie le jour du rendez-vous. \nDélivré gratuitement par la mairie du lieu de naissance.\n•Si le service qui délivre l'acte est français, il doit être de 3 mois maximum ,\nhttps://www.service-public.fr/particuliers/vosdroits/N359\n\n•Si le service qui délivre l'acte est étranger, il doit être de 6 mois maximum et traduit en français pas un traducteur assermenté.. \n\nLES DOCUMENTS PROVENANT D’UN PAYS ÉTRANGER PEUVENT ETRE SOUMIS A : Apostille (par le pays d’origine) ou Légalisation (par le consulat). \n",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Acte de naissance traduit en français",
+            "description": "Si l'acte de naissance fourni est étranger, il doit être traduit par un traducteur assermenté.",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Acte de décès",
+            "description": "En cas de veuvage, merci d'apporter l'acte de décès original du/de la dernier(ère) conjoint(e) en mairie le jour du rendez-vous.",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "tion du divorce.)",
+            "description": "Un acte de mariage portant la mention du divorce ou le jugement de divorce avec certificat de non-appel et signification d’huissier à apporter le jour du rendez-vous en mairie.",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "En cas de précédent PACS (Si l'acte de naissance fournit ne porte pa la mention de la dissolution de pacs)",
+            "description": "Certificat de dissolution du PACS",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Partenaire étranger né à l'étranger (OBLIGATOIRE) : Certificat de coutume",
+        "description": "Si délivrés par leurs pays d'origine et non par le consulat ou l'ambassade, ces certificats doivent être soumis à apostille ou légalisation. \nValidité du document : 6 mois. ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Partenaire étranger né à l'étranger (OBLIGATOIRE) : Certificat de célibat",
+        "description": "Si délivrés par leurs pays d'origine et non par le consulat ou l'ambassade, ces certificats doivent être soumis à apostille ou légalisation. \nValidité du document : 6 mois. ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Partenaire étranger né à l'étranger (OBLIGATOIRE) : Certificat de non-PACS",
+        "description": "Délivré par le Service Central de l'Etat Civil de Nantes à l'aide du formulaire cerfa 12819*05 ( certificat à remplir sur service public, à envoyer à Nantes et ensuite Nantes leur renvoi le certificat). Validité 6 mois. ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Partenaire étranger né à l'étranger  (OBLIGATOIRE) : Attestation de non-inscription au répertoire civil",
+        "description": "Si résidence en France depuis plus d'un an : délivrée également par le Service Central de l'Etat Civil de Nantes - section PACS ou l'adresse suivante : pacs.scec@diplomatie.gouv.fr\n Validité 6 mois. ",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Parent 1",
+        "description": "Filiation du premier partenaire",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Prénoms",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Lieu de naissance",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Parent 2",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Lieu de naissance",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Second(e) partenaire",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénoms",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Commune de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Pays de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nationalité",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Êtes-vous placé(e) sous la protection juridique et administrative de l'Ofpra (réfugié, aptride, bénéficiaire de la protection subsidiaire)?",
+            "description": "Si oui, merci de fournir un certificat de non-PACS à demander au Service Central de l’État Civil à Nantes.",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Faites-vous l'objet d'une mesure de protection juridique (sauvegarde de justice, curatelle, tutelle, habilitation familiale, mandat de protection future)",
+            "description": "Si oui fournir : \n* régime de protection : décision de placement ou de renouvellement de la mesure de protection ou une copie de l'extrait du répertoire civil (délivré par le TGI du lieu de naissance ou en cas de naissance à l'étranger, délivré par le Service Central de l'Etat Civil à Nantes). \n* curatelle : présence du curateur le jour du RDV pour signer la convention du pacs. \nLa convention doit comporter la signature et l'identité du curateur. Donc également la pièce d'identité du curateur. \nLa déclaration conjointe doit également être signée par le curateur. (Sous curatelle simple, pas de signature sur déclaration conjointe, seulement sur la convention). \n* tutelle : autorisation du juge ou du conseil de famille. Présence du tuteur muni de sa pièce d'identité le jour du RDV pour signer la convention. \nL'Officier d'Etat Civil, en plus de l'identité et de la signature du tuteur, doit s'assurer que la convention comporte l'autorisation précitée qui elle-même doit être signée par le tuteur. \nLa déclaration conjointe doit également être signée par le tuteur. \n",
+            "required": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse du domicile",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Téléphone",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Email",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Situation matrimoniale",
+            "description": null,
+            "required": true,
+            "options": [
+              "Célibataire",
+              "Veuf(ve)",
+              "Dépacsé(e)",
+              "Divorcé(e)"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie du titre d'identité en cours de validité",
+            "description": "L'original est à présenter obligatoirement en mairie le jour du rendez-vous. Validité en cours obligatoire.",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Acte de naissance (copie intégrale ou extrait avec filiation)",
+            "description": "L'original est à présenter obligatoirement en mairie le jour du rendez-vous. \nDélivré gratuitement par la mairie du lieu de naissance.\n•Si le service qui délivre l'acte est français, il doit être de 3 mois maximum ,\nhttps://www.service-public.fr/particuliers/vosdroits/N359\n\n•Si le service qui délivre l'acte est étranger, il doit être de 6 mois maximum et traduit en français pas un traducteur assermenté.. \n\nLES DOCUMENTS PROVENANT D’UN PAYS ÉTRANGER PEUVENT ETRE SOUMIS A : Apostille (par le pays d’origine) ou Légalisation (par le consulat). \n",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Acte de naissance traduit en français",
+            "description": "Si l'acte de naissance fourni est étranger, il doit être traduit par un traducteur assermenté.",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Acte de décès",
+            "description": "En cas de veuvage, le jour du rendez-vous en mairie, merci d'apporter l'acte de décès original du/de la dernier(ère) conjoint(e).",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "En cas de précèdent mariage (si l'acte de naissance fournit ne portant pas la mention du divorce.",
+            "description": "Un acte de mariage portant la mention du divorce ou le jugement de divorce avec certificat de non-appel et signification d’huissier à apporter le jour du rendez-vous en mairie.",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "En cas de précédent PACS (Si l'acte de naissance fournit ne porte pa la mention de la dissolution de pacs)",
+            "description": "Certificat de dissolution du PACS",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Partenaire étranger né à l'étranger (OBLIGATOIRE) : Certificat de coutume",
+        "description": "Délivré par le consulat ou l'ambassade de l’État dont le partenaire est ressortissant. Validité 6 mois. ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Partenaire étranger né à l'étranger (OBLIGATOIRE) : Certificat de célibat",
+        "description": "Délivré par le consulat, l'ambassade ou le pays d'origine. Si délivrés par leurs pays d'origine et non par le consulat ou l'ambassade, ces certificats doivent être soumis à apostille ou légalisation. \nValidité du document : 6 mois. ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Partenaire étranger né à l'étranger (OBLIGATOIRE) : Certificat de non-PACS",
+        "description": "Délivré par le Service Central de l'Etat Civil de Nantes à l'aide du formulaire cerfa 12819*05 ( certificat à remplir sur service public, à envoyer à Nantes et ensuite Nantes leur renvoi le certificat). \n",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Partenaire étranger né à l'étranger (OBLIGATOIRE) : Attestation de non-inscription au répertoire civil",
+        "description": "Si résidence en France depuis plus d'un an : délivrée également par le Service Central de l’État Civil de Nantes - section PACS ou l'adresse suivante : pacs.scec@diplomatie.gouv.fr\nValidité 6 mois.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Parent 1",
+        "description": "Filiation du second partenaire",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénoms",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Lieu de naissance",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Parent 2",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénoms",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Lieu de naissance",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Domicile conjugal",
+        "description": null,
+        "required": true,
+        "options": [
+          "Domicile premier partenaire",
+          "Domicile second partenaire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Important : choix du type de convention",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Convention-type de PACS",
+        "description": "Si vous ne disposez pas du formulaire CERFA officiel, il est accessible ici : https://www.service-public.fr/particuliers/vosdroits/R48755",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "OU convention spécifique rédigée par les partenaires qui doit obligatoirement mentionner la référence à la loi instituant le PACS",
+        "description": "Si vous souhaitez rédiger votre propre convention, celle-ci doit obligatoirement mentionner la référence à la loi instituant le PACS « Nous X et Y, concluons un PACS régi par les dispositions des articles 515-1 à 515-7 du code civil»",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration conjointe de PACS et attestation sur l'honneur de non-parenté, non-alliance et résidence commune",
+        "description": "CERFA téléchargeable ici https://www.service-public.fr/particuliers/vosdroits/R48756",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Suite de votre démarche",
+        "description": "Ce formulaire ainsi que les pièces justificatives sont automatiquement transmis pour instruction  en mairie de Lingolsheim.\nLes demandeurs seront informés par mail du traitement de la demande\nUn rendez-vous pour l'enregistrement officiel du PACS vous sera proposé dès que le dossier sera complet.",
+        "required": false
+      }
+    ]
+  }
+}

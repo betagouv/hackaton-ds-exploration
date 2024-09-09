@@ -1,0 +1,647 @@
+{
+  "number": 12837,
+  "title": "Déclaration du registre des systèmes d'assainissement destinés à collecter et traiter une CBPO inférieure ou égale à 12 kg/j de DBO5 et supérieure à 1.2 kg/j de DBO5 prévu à l'article R.214-106-1 du code de l'environnement",
+  "description": "Registre des systèmes d'assainissement destinés à collecter et traiter une CBPO inférieure ou égale à 12 kg par jour et supérieure à 1,2 kg par jour.\r\nLe registre électronique mentionné à l' article R. 214-106-1 du code de l'environnement, comporte les informations précisées à l'annexe 4 de l'arrêté du 21 juillet 2015 modifié  ",
+  "tags": [
+    "Urbanisme"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2021-01-28T14:49:39+01:00",
+  "service": {
+    "nom": "Bureau de la lutte contre les pollutions domestiques et industrielles",
+    "organisme": "Ministère de la Transition  Ecologique",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/declaration-du-registre-des-systemes-d-assainissem",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://assainissement.developpement-durable.gouv.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000031052756/2021-01-22/",
+  "logo": {
+    "filename": "logo2017.png",
+    "checksum": "LcXtigsL4UeKqhuJ5EVokg==",
+    "byteSize": "465034",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 579,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations administratives relatives au maître d'ouvrage et à l'exploitant du système d'assainissement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information sur le département",
+        "description": "Ce champ doit être renseigné car il permet aux instructeurs, service de police de l'eau, de pouvoir traiter les dossiers de leur département. ",
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du maître d'ouvrage de la station de traitement des eaux usées",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Code postal",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous à la fois le maître d'ouvrage de la station de traitement des eaux usées et du systéme de collecte",
+        "description": "Dans le cas ou il y a plusieurs maîtres d'ouvrage compléter les champs relatifs aux maitres d'ouvrage du système de collecte",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Cas ou il y a plusieurs maîtres d'ouvrage pour le système de collecte",
+        "description": "Il suffit de  compléter les champs relatifs aux maitres d'ouvrage du système de collecte en séparant chaque information d'un ;\nExemple champ Nom du ou des maîtres d'ouvrage du système de collecte\nNom du premier maître d'ouvrage du système de collecte; Nom du deuxième maître d'ouvrage du système de collecte; \nExemple champ Adresse du ou des maîtres d'ouvrage du système de collecte\nAdresse du premier maître d'ouvrage du système de collecte; Adresse du deuxième maître d'ouvrage du système de collecte; ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du ou des maîtres d'ouvrage du système de collecte",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Code postal",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations relatives à la zone globale de collecte des eaux usées raccordées à la station",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombres d'habitations desservies par le sytème de collecte",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Équivalent-Habitant (EH) Unité de mesure",
+        "description": "Équivalent-Habitant (EH) est une unité de mesure utilisée pour définir la capacité d'une station d'épuration.\n\n1 habitant = 0,6 EH et en moyenne 1 habitation correspond à 2,5 habitants",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Estimation de la pollution moyenne journalière collectée (EH)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Estimation de la pollution moyenne journalière collectée (kg de DBO5)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Linéaire de canalisation d'eaux usées (en kilomètres)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de réseau",
+        "description": "Unitaire : collecte des eaux usées et pluviales dans un même réseau\nSéparatif : collecte séparée dans deux réseaux différents\nMixte : Mélange de réseau unitaire et séparatif\n",
+        "required": false,
+        "options": [
+          "Unitaire",
+          "Séparatif",
+          "Mixte"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Présence d'ouvrage de déversement d'eau usées non traitées  (DO -Trop Plein...)  sur le réseau",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'ouvrage de déversement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code sandre du sytème de collecte (si connu)",
+        "description": "Ce code est fourni par les agences de l'eau en métropole et les Directions de l'environnement, de l'aménagement et du logement (DEAL) dans les outre-mer",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de situation du réseau de collecte",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Extension prévue du réseau de collecte",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Echéance",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Linéaire de canalisation (en kilomètres)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Estimation de la pollution moyenne journalière nouvellement collectée (EH)",
+        "description": "Estimation de la pollution moyenne journalière nouvellement collectée",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Estimation de la pollution moyenne journalière nouvellement collectée (kg de DBO5)",
+        "description": "Estimation de la pollution moyenne journalière nouvellement collectée",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Activités autres que domestiques raccordées au système de collecte",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'entreprise",
+        "description": "Dans le cas ou il y a plusieurs entreprises, vous renseignez chaque nom des entreprises concernées en séparant chaque information d'un ;\nExemple champ Nom de l'entreprise 1 ; \nNom de l'entreprise 2;...\nVous appliquez le même principe pour les adresses correspondantes \nExemple champ Adresse de l'entreprise\nAdresse de l'entreprise 1; Adresse de l'entreprise 2; ...",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Activité de l'entreprise",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Estimation de la pollution moyenne journalière produite (kg de DBO5)",
+        "description": "Estimation de la pollution moyenne journalière produite (kg de DBO5)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations techniques relatives à la station de traitement des eaux usées",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code sandre de la station (si connu)",
+        "description": "A renseigner si il est connu. Ce code est fourni par les agences de l'eau en métropole et les Directions de l'environnement, de l'aménagement et du logement (DEAL) dans les outre-mer",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du permis de construire de la station de traitement des eaux usées",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Année de mise en service de la station de traitement des eaux usées au 31/12/XXXX",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Année de mise hors service de la station de traitement des eaux usées au 31/12/XXXX",
+        "description": "Dans le cas ou la date de mise hors service est renseignée alors indiquer la station de traitement des eaux usées qui traite désormais les effluents au niveau des champs suivants",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code sandre de la nouvelle station de traitement des eaux usées",
+        "description": "Code sandre de la station de traitement des eaux usées qui traite désormais les effluents.\nA renseigner si il est connu. Ce code est fourni par les agences de l'eau en métropole et les Directions de l'environnement, de l'aménagement et du logement (DEAL) dans les outre-mer",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la station de traitement des eaux usées",
+        "description": "Nom de la station de traitement des eaux usées qui traite désormais les effluents",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Localisation de la station de traitement des eaux usées",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Code postal",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Coordonnées de la station X (Lambert93 pour la Métropole et autre pour les DOM)",
+        "description": "Pour les DOM préciser le système de projection utilisé, champ suivant",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Coordonnées de la station Y (Lambert93 pour la Métropole et autre pour les DOM)",
+        "description": "Pour les DOM préciser le système de projection utilisé, champ suivant",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Système de projection",
+        "description": "Pour les DOM préciser le système de projection utilisé",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations techniques relatives à la filière de traitement des eaux usées",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Technologie utilisée",
+        "description": null,
+        "required": true,
+        "options": [
+          "Fosse toutes eaux",
+          "Boue activée",
+          "Décantation",
+          "Disque biologique",
+          "Filtre planté de roseaux ou autres",
+          "Filtre à sable",
+          "Lagunage",
+          "Traitement Physico-chimique",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre technologie utilisée",
+        "description": "A renseigner dans le cas ou vous avez indiqué autre pour la rubrique Technologie utilisée",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Capacité nominale hydraulique (m3/j)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Capacité nominale organique (EH)",
+        "description": "Renseigner un des deux champs\nCapacité nominale organique (EH) \nOU\nCapacité nominale organique (en kg de DBO5)",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Capacité nominale organique (en kg de DBO5)",
+        "description": "Renseigner un des deux champs\nCapacité nominale organique (EH) \nOU\nCapacité nominale organique (en kg de DBO5)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Niveau de traitement attendu pour les eaux usées traitées",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Niveau de traitement attendu pour les eaux usées traitées",
+        "description": "Performances minimales de traitement attendues pour les paramètres DBO5, DCO et éventuellement MES. La valeur de la concentration maximale à respecter ou le rendement minimum sont appliqués",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Concentration DBO5 (mg (O2)/l)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Rendement DBO5 (%)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Concentration DCO (mg (O2)/l)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Rendement DCO (%)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Concentration MES (mg/l)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Rendement MES (%)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Mesures prises pour prévenir les nuisances olfactives, sonores et visuelles",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nuisances olfactives",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nuisances sonores",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nuisances visuelles",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autres nuisances",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Présence de zones à usages sensibles à proximité de la station",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type d'usages",
+        "description": "A renseigner uniquement si vous avez indiqué oui a la rubrique Présence de zones à usages sensibles à proximité de la station",
+        "required": false,
+        "options": [
+          "Baignade",
+          "Production d'eau potable",
+          "Conchyliculture",
+          "Autres"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Mesures prises pour prévenir  et réduire les risques sanitaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Localisation du ou des points de rejet de la station de traitement des eaux usées",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de mileu recepteur des eaux usées traitées",
+        "description": "Dans le cas ou le type de milieu récepteur est l’infiltration dans le sol alors une étude pédologique, hydrogéologique et environnementale, montrant la possibilité et l'acceptabilité de l'infiltration est requise conformément à l'article 8 de l'arrêté du 21 juillet 2015 modifié.",
+        "required": true,
+        "options": [
+          "Cours d'eau",
+          "Mer",
+          "Infiltration dans le sol",
+          "REUT"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Etude pédologique, hydrogéologique et environnementale, montrant la possibilité et l'acceptabilité de l'infiltration",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Coordonnées X du point de rejet de la station (Lambert93 pour la Métropole et autre pour les DOM)",
+        "description": "Pour les DOM préciser le système de projection utilisé, champ suivant",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Coordonnées Y du point de rejet de la station X (Lambert93 pour la Métropole et autre pour les DOM)",
+        "description": "Pour les DOM préciser le système de projection utilisé, champ suivant",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Système de projection",
+        "description": "Pour les DOM préciser le système de projection utilisé",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de situation de la station",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Modalités d'autosurveillance",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Modalités d'autosurveillance",
+        "description": "Conformément aux annexes I et II de l'arrêté du 21 juillet 2015",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Existence d'un cahier de vie",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de passage par semaine sur la station de traitement des eaux usées",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations relatives à la filière de traitement et de valorisation/élimination des boues",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Technologie utilisée",
+        "description": "",
+        "required": false,
+        "options": [
+          "Compostage",
+          "Filtres plantés de roseaux ou autres",
+          "Épaississement ",
+          "déshydratation par filtration",
+          "Déshydratation par centrifugation",
+          "Stockage boues liquides",
+          "Déshydratation par filtration",
+          "Lits de séchage",
+          "Filtration",
+          "Épaississement par flottation"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Y-a-t-il stockage des boues ?",
+        "description": "Dans le cadre d'un stockage des boues, vous devez renseigner les deux champs suivants :\nLa capacité de stockage des boues (en m3) et la durée de stockage des boues (en nombre de mois)",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Capacité de stockage des boues (en m3)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Durée de stockage des boues (en nombre de mois)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre lieu de stockage des boues",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Filière de valorisation ou d'élimination des boues",
+        "description": "Dans le cas ou la filière de valorisation renseignée est une station de traitement des eaux usées, précisez dans les champs suivants le nom ainsi que le code de la station de traitement des eaux usées",
+        "required": false,
+        "options": [
+          "Épandage",
+          "Station de traitement des eaux usées",
+          "Incinération",
+          "Centre de stockage",
+          "Vidangeur agréé"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la station de traitement des eaux usées",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code sandre de la station de traitement des eaux usées",
+        "description": "Ce code est fourni par les agences de l'eau en métropole et les Directions de l'environnement, de l'aménagement et du logement (DEAL) dans les outre-mer",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nuisances olfactives",
+        "description": "Mesures prises pour prévenir les nuisances olfactives, sonores et visuelles",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nuisances sonores",
+        "description": "Mesures prises pour prévenir les nuisances olfactives, sonores et visuelles",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nuisances visuelles",
+        "description": "Mesures prises pour prévenir les nuisances olfactives, sonores et visuelles",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "number": 48307,
+  "title": "IJ : partenaire indemnités journalières",
+  "description": "Ce formulaire en ligne permet à l'ADMR ou à l'UNA de transmettre des déposer des documents pour des assurés affiliés à la CPAM de la Manche.\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2021-09-14T11:08:20+02:00",
+  "service": {
+    "nom": "Caisse Primaire d’Assurance Maladie - Pôle assuré",
+    "organisme": "CPAM",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ij-admr-una",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://declic.cpam50.fr/ ",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/   ",
+  "logo": {
+    "filename": "revu Manche_Logo_Nov.2020_CMJN jpg.png",
+    "checksum": "LX4Bt+jQLVXJOcbn/1bFmQ==",
+    "byteSize": "917811",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 348,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Vous êtes :",
+        "description": null,
+        "required": true,
+        "options": [
+          "l'ADMR",
+          "l'UNA"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° SIRET",
+        "description": "Saisir les 14 chiffres sans espace",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTIFICATION DU OU DE LA SALARIE(E)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de Sécurité sociale de l'assuré(e)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "De quelle Caisse Primaire d'Assurance Maladie dépend l'assuré(e) ?",
+        "description": "Indiquez le numéro du département",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ARRET DE TRAVAIL",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Raison de l'interruption de travail :",
+        "description": null,
+        "required": true,
+        "options": [
+          "Maladie",
+          "Maternité",
+          "Congé paternité",
+          "Adoption",
+          "Accident du travail ou maladie professionnelle"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début de l'arrêt de travail :",
+        "description": "Format jj/mm/aaaa",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du dernier jour de travail :",
+        "description": "Format jj/mm/aaaa",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de reprise :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RENSEIGNEMENTS COMPLEMENTAIRES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'assuré bénéficie-t'il d'un maintien de salaire ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Si oui, du :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Au :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PIECES JUSTIFICATIVES",
+        "description": "Avis d'arrêt de travail, bulletin d'hospitalisation, bulletin de salaire ...",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": "Si vous avez plusieurs documents à déposer, faire \"+Ajouter un élément pour pièces justificatives\"",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déposez ici les pièces justificatives",
+            "description": "Bulletin de salaire, avis d'arrêt de travail…..",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "COMMENTAIRES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Indiquez ici l'objet de votre demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ENGAGEMENT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, j'atteste sur l'honneur l'exactitude de l'ensemble des renseignements fournis dans ce dossier.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Fait le :",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

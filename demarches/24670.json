@@ -1,0 +1,111 @@
+{
+  "number": 24670,
+  "title": "[CEPS] Déclaration des volumes de ventes des dispositifs médicaux et produits LPPR (L. 165-4 CSS)",
+  "description": "Information : cette plateforme concerne uniquement les dispositifs médicaux inscrits sur la Liste des produits et prestations remboursables et où une convention liée aux volumes a été signée avec le CEPS. Cette plateforme ne concerne pas les autres déclarations (ANSM, taxe prévue à l'article 1600-0 O du CGI, taux L ou W, L. 5121-18 du CSP, etc.). \r\n\r\nConformément à l'article L. 165-4 du Code de la sécurité sociale, le Comité économique des produits de santé  (CEPS) peut établir des conventions prévoyant le reversement de remises ou la transmission de données sur simple demandes. \r\n\r\nLa transmission des données de ventes est l'élément préalable au calcul des remises et à une plus fine connaissance du marché. Cette plateforme permet aux entreprises conventionnées avec le CEPS de transmettre directement les données nécessaires. \r\n\r\nConformément à l'article L.165-2-1 du Code de la sécurité sociale, le CEPS peut prononcer une pénalité financière en cas de transmission de données manifestement erronées.",
+  "tags": [
+    "Santé"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2019-12-17T18:30:54+01:00",
+  "service": {
+    "nom": "Comité économique des produits de santé",
+    "organisme": "MINISTERE DES SOLIDARITES ET DE LA SANTE ",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ceps_ventes",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://solidarites-sante.gouv.fr/ministere/acteurs/instances-rattachees/article/ceps-comite-economique-des-produits-de-sante",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041397011",
+  "logo": {
+    "filename": "marianne gouv.png",
+    "checksum": "LFFazi81ouQ3d5CGK+DunA==",
+    "byteSize": "12788",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 320,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "J'atteste sur l'honneur que les données transmises sont exactes",
+        "description": "En remplissant cette déclaration, vous déclarez  être habilité par votre entreprise à transmettre ces données et qu'elles exactes. \nConformément à l'article L.165-2-1 du Code de la sécurité sociale, toute transmission de données manifestement erronées peut faire l'objet d'une pénalité financière.  ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'entreprise concernée",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Convention associée à cette déclaration",
+        "description": "En cas de changement de convention en cours d'année, il est possible d'ajouter différentes conventions ou avenants.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Convention associée à cette déclaration",
+            "description": "La convention relative à cette déclaration doit être transmise.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Déclaration de vente",
+        "description": "Ne renseigner qu'un seul code par rubrique. Merci de créer autant de rubrique que de codes concernés.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du dispositif concerné par la déclaration",
+            "description": "Il est attendu le nom de marque du dispositif concerné par la convention jointe. Si plusieurs produits sont concernés par la même convention, merci de créer une rubrique par produit.",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Code LPPR",
+            "description": "Si la convention prévoit la déclaration de différents patients pour un même code LPPR, merci de dupliquer le même code LPPR pour chaque catégorie de patients",
+            "required": true
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Année concernée par la transmission",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Période concernée par la transmission de données",
+            "description": "Préciser la période concernée par les données",
+            "required": true,
+            "options": [
+              "Annuelles",
+              "Trimestrielles",
+              "Semestrielles"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Unités vendues",
+            "description": "ou nombre de patients",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Données complémentaires",
+        "description": "Certaines conventions prévoient que d'autres données que les ventes soient transmises. Merci de transmettre ces informations ici.\nDes annexes peuvent être transmises directement par courriel au secrétariat général du CEPS.",
+        "required": false
+      }
+    ]
+  }
+}

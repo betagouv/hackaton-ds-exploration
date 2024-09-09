@@ -1,0 +1,806 @@
+{
+  "number": 87091,
+  "title": "Procédures relatives à la prise d'actes RH pour les personnels de police scientifique",
+  "description": "La présente démarche a pour objet de demander l'élaboration de tous les actes classiques de gestion relatifs aux personnels de police scientifique, à l'exception des temps partiels.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2024-06-18T09:44:54+02:00",
+  "service": {
+    "nom": "Bureau des personnels de police scientifique",
+    "organisme": "BPPS, DRHFS, ministère de l'intérieur et des Outre-mer",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/prise-d-acte-rh-pour-les-personnels-de-police-scientifique",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://drhfs.minint.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000033538303/2023-08-25/",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 25,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "informations du demandeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": "Merci de nous transmettre un numéro de téléphone sur lequel vous êtes joignable pour tous problèmes concernant la demande que vous êtes en train d'effectuer. (numéro professionnel)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur l'agent concerné par la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Matricule",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Genre",
+        "description": "",
+        "required": true,
+        "options": [
+          "Femme",
+          "Homme"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Direction",
+        "description": "",
+        "required": true,
+        "options": [
+          "Académie de Police",
+          "DGSI",
+          "SNPS",
+          "DNPJ"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Services centraux",
+        "description": "Pour cette démarche le BPPS traite uniquement les demandes des agents affectés au sein d'une administration centrale.\r\n\r\nPour un agent affecté dans un service déconcentré, vous êtes invitez à passer par la procédure suivante : lien",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Service",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Corps de l'agent",
+        "description": "",
+        "required": true,
+        "options": [
+          "ASPTS",
+          "Technicien",
+          "Ingénieur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Information sur le dossier",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nature de l'acte sollicité",
+        "description": "",
+        "required": true,
+        "options": [
+          "Avancement d'échelon",
+          "Congé de tout type",
+          "Détachement",
+          "Disponibilité",
+          "Radiation",
+          "Reconnaissance de CIMM",
+          "Régularisation d'un arrêté",
+          "Réintégration",
+          "Reprise d'ancienneté",
+          "Stage",
+          "Suspension à titre conservatoire (faute disciplinaire ou commission d'une infraction)",
+          "Temps partiel"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Motif de radiation",
+        "description": "",
+        "required": true,
+        "options": [
+          "Abandon de poste",
+          "Démission",
+          "Intégration dans un autre corps",
+          "Retraite",
+          "Autres"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Motif de réintégration",
+        "description": "",
+        "required": true,
+        "options": [
+          "Fin de détachement",
+          "Retour de disponibilité",
+          "Autre motif"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de détachement",
+        "description": "",
+        "required": true,
+        "options": [
+          "Détachement entrant",
+          "Détachement sortant",
+          "Détachement pour stage",
+          "Intégration"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Demande initiale ou renouvellement",
+        "description": "",
+        "required": true,
+        "options": [
+          "Demande initiale",
+          "Renouvellement"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Décision sollicitée",
+        "description": "",
+        "required": true,
+        "options": [
+          "Prolongation de stage",
+          "Prorogation de stage",
+          "Titularisation"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Motif de disponibilité",
+        "description": "",
+        "required": true,
+        "options": [
+          "Adopter un enfant",
+          "Créer ou reprendre une entreprise",
+          "Convenances personnelles",
+          "Élever un enfant de moins de 12 ans",
+          "Donner des soins à un proche",
+          "Suivre son époux ou partenaire de PACS"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Disponibilité",
+        "description": "Les disponibilités de droit ne peuvent être refusées par l'employeur (adopter un enfant, donner des soins à un proche et suivre son époux ou partenaire de Pacs).\r\n\r\nLes disponibilités pour convenance personnelle ou pour la création d'entreprise sont soumises à la nécessité de service. ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information stage",
+        "description": "Le BPPS ne prendra les arrêtes de prolongation de stage que pour les agents stagiaires affectés dans un service central.\r\n\r\n",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Motifs de nature à justifier la prolongation de stage",
+        "description": "",
+        "required": true,
+        "options": [
+          "Insuffisance professionnelle",
+          "Échec aux habilitations"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Motifs de nature à justifier la prorogation de stage",
+        "description": "",
+        "required": true,
+        "options": [
+          "Arrêt maladie",
+          "Temps partiel"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de congé",
+        "description": "",
+        "required": true,
+        "options": [
+          "Congé bonifié",
+          "Congé maternité",
+          "Congé parental",
+          "Congé proche aidant"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Demande de congé maternité",
+        "description": "",
+        "required": true,
+        "options": [
+          "Demande initial",
+          "Report"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de temps partiel",
+        "description": "",
+        "required": true,
+        "options": [
+          "Temps partiel de droit",
+          "Temps partiel classique"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Demande initiale, renouvellement ou modification",
+        "description": "",
+        "required": true,
+        "options": [
+          "Demande initiale",
+          "Modification",
+          "Renouvellement"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de temps partiel de droit",
+        "description": "",
+        "required": true,
+        "options": [
+          "Donner des soins à un enfant ou un proche",
+          "En raison de votre handicap",
+          "Naissance ou adoption d'un enfant"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Selectionnez les pièces justificatives transmises (2 minimum)",
+        "description": "",
+        "required": true,
+        "options": [
+          "Le lieu de naissance de l’agent",
+          "Le lieu de naissance des enfants",
+          "Le lieu de résidence avant l’entrée dans l’administration",
+          "Le lieu de résidence des père et mère ou, à défaut, des parents les plus proches",
+          "Informations des membres de la famille de l’agent, leur âge, leurs activités,  leur état de santé",
+          "Le cas échéant, le lieu de sépulture des parents les plus proches",
+          "Le lieu d’implantation des biens fonciers dont l’agent est propriétaire ou locataire",
+          "Le lieu où l’agent est titulaire de comptes bancaires, d’épargne ou postaux",
+          "La commune où l’agent s’acquitte de certains impôts",
+          "Le lieu d’inscription de l’agent sur les listes électorales",
+          "Les études effectuées sur le territoire considéré par l’agent et/ ou ses enfants",
+          "Les affectations professionnelles ou administratives antérieures",
+          "La fréquence des voyages que l’agent a pu effectuer vers le territoire considéré",
+          "La durée des séjours dans le territoire considéré",
+          "La fréquence des demandes de mutation vers le territoire considéré",
+          "Le bénéfice antérieur d’un congé bonifié"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Lieu de réintégration",
+        "description": "",
+        "required": true,
+        "options": [
+          "Dans le SGAMI d'origine",
+          "Dans un autre SGAMI"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Motif de convenance personnelle",
+        "description": "",
+        "required": true,
+        "options": [
+          "Exercer une activité professionnelle ou salariale",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez la raison",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "Toutes informations complémentaires que vous jugez nécessaire à la prise en charge de votre demande et à l'instruction du dossier. ",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Demande de congé parental",
+        "description": "",
+        "required": true,
+        "options": [
+          "Demande initiale",
+          "Renouvellement"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Réintégration en dehors du SGAMI d'origine",
+        "description": "L'agent est invité à s’inscrire dans la campagne de mobilité en cours.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Motif de la demande",
+        "description": "Merci de préciser quelle partie de l'arrêté doit être modifiée et pour quelles raisons",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Acte de naissance ou d'adoption ou copie du livret de famille",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autorisation d'adoption",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certificat médical du médecin",
+        "description": "Le certificat doit attester de la nécessité des soins pour la personne concernée par la demande de disponibilité.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de démission",
+        "description": "Merci de nous transmettre la demande de l'agent.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Arrêté d'intégration",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Arrêté à modifier",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Accusé de réception",
+        "description": "Accusé de réception du courriel de mise en demeure",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Curriculum Vitae (CV)",
+        "description": "Merci de nous transmettre le CV de l'agent.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport mi-stage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport de fin de stage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport du chef de service",
+        "description": "Rapport du chef de service qui motive la demande de prolongation de stage à l'égard de l'agent. Le rapport doit mettre en avant les mesures d'accompagnement mise en œuvre. ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande détachement",
+        "description": "Demande de détachement avec avis hiérarchique",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Fiche de poste",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de détachement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Arrêté d'échelon",
+        "description": "Merci de nous transmettre votre dernier arrêté d'échelon",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Avis du service d'acceuil",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Résultat du concours",
+        "description": "Résultat du concours justifiant la demande de détachement pour stage",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Arrêté d'échelon",
+        "description": "Merci de nous fournir le dernier arrêté d'échelon de l'agent.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Etat des services",
+        "description": "Merci de nous transmettre l'état des services de l'agent.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Fiche de poste",
+        "description": "Merci de nous transmettre la fiche de poste sur lequel l'agent sera affecté. ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "formulaire de demande avec l'avis du SNPS",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information",
+        "description": "Aucune pièce justificative n'est nécessaire pour traiter votre demande. Toutefois, si vous le souhaitez, vous pouvez nous transmettre une pièce complémentaire de nature à justifier la présente demande.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande avec avis hiérarchique",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport de l'agent",
+        "description": "Rapport de l'agent précisant la nature de l'activité de l'entreprise",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif suivi du conjoint",
+        "description": "Pièces justifiant la mobilité du conjoint, lettre d'embauche ect",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Courrier de confirmation",
+        "description": "Courrier de confirmation de la démission de l'agent",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Accusé de reception",
+        "description": "Accusé de réception de la demande de confirmation",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif d'étude",
+        "description": "Justificatif de doctorat ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Fiche de titularisation",
+        "description": "Point de vigilance : l'avis de la hiérarchie et l'avis du SNPS doivent bien apparaître dans la fiche.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande motivée de l'agent",
+        "description": "Demande motivé de l'agent de reconnaissance de CIMM",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de suspension à titre conservatoire",
+        "description": "Point de vigilance : la demande de suspension doit se faire sous la forme d'un rapport motivé et accompagné des pièces de nature à justifier une telle demande.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Les contrats de travail et/ou les avenants.",
+        "description": "Point de vigilance : il convient de nous envoyer tous les contrats de travail et avenants de l'agent, privés ou publics.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bulletins de paie",
+        "description": "Point de vigilance : il convient de nous fournir tous les bulletins de paie couvrant la période des contrats de travail et avenants de l'agent fournis dans le cadre de la présente procédure. ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Courrier de mise en demeure",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Acte de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certificat médical",
+        "description": "Certificat médical précisant la date d'accouchement prévisionnelle ou de l'aptitude à la reprise pour une demande de report",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de départ à la retraite",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de la caisse des retraites",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de l'agent",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Fiche de poste choisie par le service",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Formulaire de demande de temps partiel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation RQTH",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certificat médical",
+        "description": "Certificat médical attestant la nécessité de soins ou d'assistance",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Formulaire de demande de congés bonifiés",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Acte de naissance ou livret de famille",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Acte de naissance des enfants ou livret de famille",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de résidence avant l'entrée dans l'administration",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièces justificatives des membres de la famille",
+        "description": "Justificatif de domicile, d'activités, de leur état de santé ect.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièces justificatives des lieux de sépulture",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif des biens fonciers",
+        "description": "Justificatifs des biens fonciers dont l’agent est propriétaire ou locataire",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatifs d'imposition",
+        "description": "Pièces justificatives de la commune où l'agent s'acquitte des impôts ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatifs bancaires, d'épargne ou paustaux",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Carte électorale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation scolaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Affectations antérieures",
+        "description": "Arrêtés ou contrats de travail des affectations antérieures",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièces justificatives de voyages répetés",
+        "description": "Merci de nous transmettre toutes pièces justifiant un nombre de voyages répétés (billets d'avion, factures...)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "La durée des séjours",
+        "description": "Billets d'avions ou toutes autres pièces pouvant justifier la durée des séjours",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demandes de mutation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Arrêté portant attribution d'un congé bonifié antérieur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Livret de famille",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration sur l'honneur",
+        "description": "Déclaration sur l'honneur de votre lien familial avec la personne aidée ou de l'aide apportée à la personne âgée ou handicapée avec laquelle vous résidez ou entretenez des liens étroits et stables",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation médicale",
+        "description": "Attestation médicale justifiant la nécessité de soins ou d'aide à la personne",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de réintégration de l'agent",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièces complémentaires",
+        "description": "Toutes pièces complémentaires que vous estimez utiles à l'instruction du dossier (FACULTATIF).",
+        "required": false
+      }
+    ]
+  }
+}

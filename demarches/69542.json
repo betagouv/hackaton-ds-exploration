@@ -1,0 +1,150 @@
+{
+  "number": 69542,
+  "title": "Dossier de demande d'aide au démarrage MSP - IDF",
+  "description": "Votre projet de santé a été validé par l'ARS et vous souhaitez faire une demande de subvention dans le cadre de l'Aide au démarrage.\r\nNous vous invitons donc à remplir le formulaire suivant.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2023-09-19T01:02:29+02:00",
+  "service": {
+    "nom": "Département Organisation des soins de ville, Direction de l'offre de soins",
+    "organisme": "Agence Régionale de Santé (ARS) Ile-de-France",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/msp-fir-demarrage",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.iledefrance.paps.sante.fr/index.php/etre-accompagne-dans-la-creation-et-le-fonctionnement-dune-msp-9",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044628615",
+  "logo": {
+    "filename": "Logo ARS Île-de-France.JPG.jpg",
+    "checksum": "qWUf+PT8dYKqB4sIhjPNqw==",
+    "byteSize": "796360",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 15,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Département d'implantation de la MSP",
+        "description": "",
+        "required": true,
+        "options": [
+          "75 - Paris",
+          "77 - Seine-et-Marne",
+          "78 - Yvelines",
+          "91 - Essonne",
+          "92 - Hauts-de-Seine",
+          "93 - Seine-Saint-Denis",
+          "94 - Val-de-Marne",
+          "95 - Val d'Oise"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations générales",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Numéro Siret",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la MSP",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse complète de la MSP",
+        "description": "(site principal si MSP multisite)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du porteur de projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone de la MSP ou du porteur de projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique de la MSP ou du porteur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la réunion de restitution du projet de santé",
+        "description": "La réunion de restitution du projet de santé est obligatoire avant toute demande d'aide au démarrage. Aucune demande ne sera traitée avant la tenue de cette réunion.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Objet de la demande d'aide au démarrage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Votre demande de financement au titre du démarrage du projet",
+        "description": "Afin de mettre en place votre projet de santé vous pouvez bénéficier de la subvention d'aide au démarrage.\r\n\r\nPour rappel :\r\n- Les principaux postes de dépenses sont le système d'information partagé et le matériel informatique, la coordination et le matériel pluriprofessionnel (salle d'attente, salle de réunion, matériel médical pluriprofessionnel).\r\n- La subvention est uniquement destinée à l'exercice coordonné. C'est-à-dire que l'ARS prend en charge le matériel collectif/pluriprofessionnel qui permet la mise en œuvre du projet de santé. Elle ne prend pas en charge le matériel individuel (sauf parc informatique et SI).\r\n- A noter également que les demandes doivent être en conformité avec le cahier des charges MSP et en cohérence avec le projet de santé.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau récapitulatif de la demande d'aide au démarrage",
+        "description": "Veuillez synthétiser sous forme d’un tableau excel l’ensemble des demandes de financement. \r\nChaque poste de dépense devra être appuyé par un devis. \r\nIl est également attendu que les demandes soient justifiées, notamment en ce qui concerne le matériel médical (axe du projet de santé concerné, à l'usage de quels professionnels?...) et la coordination (fiche de poste).",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Ensemble des devis",
+        "description": "Veuillez joindre tous les devis en lien avec votre demande d'aide au démarrage.\r\nLes éléments demandés non justifiés par un devis ne seront pas pris en compte lors de l'instruction du dossier.\r\n\r\nVous avez la possibilité de déposer vos devis en plusieurs fichiers ci-dessous.\r\nSi vous effectuez le dépôt des devis en plusieurs fichiers, merci de nommer les documents de manière à ce qu'ils se réfèrent facilement aux éléments du tableau récapitulatif.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Devis",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Fiche de poste du coordonnateur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Liste des professionnels de la MSP",
+        "description": "Si la liste des professionnels de la MSP indiquée dans le projet de santé à évoluée, merci la joindre ci-dessous.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Complément d'informations sur la demande d'aide au démarrage",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

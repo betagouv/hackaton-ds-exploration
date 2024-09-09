@@ -1,0 +1,704 @@
+{
+  "number": 87699,
+  "title": "Demande de diagnostic d'accompagnement vers et dans le logement",
+  "description": "A compter du 1er janvier 2024, toutes les demandes de mise en oeuvre d'une mesure d'accompagnement vers et dans le logement DALO/Hors DALO/LHI doivent être présentées à la DDETS du Val-d'Oise.",
+  "tags": [
+    "Accompagnement",
+    "Logement",
+    "Val-d'Oise",
+    "VULNERABILITE",
+    "association"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2024-04-30T12:13:04+02:00",
+  "service": {
+    "nom": "DDETS95, PPHL, Mission AVDL",
+    "organisme": "Direction départementale de l'emploi, du travail et des solidarités.",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-diagnostic-d-accompagnement-vers-et-dan",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.val-doise.gouv.fr",
+  "cadreJuridiqueUrl": "https://www.drihl.ile-de-france.developpement-durable.gouv.fr/appel-a-projets-avdl-2024-2027-a1237.html",
+  "logo": null,
+  "notice": {
+    "filename": "guide du remplissage formulaire AVDL V2.pdf",
+    "checksum": "NGQbyErfgZMnLja82HcY5Q==",
+    "byteSize": "111752",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 14,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Profil des bénéficiaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La demande vise t-elle un ménage reconnu prioritaire et urgent au titre de la Loi DALO?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La demande concerne t-elle un ménage dit LHI (Lutte contre l'habitat indigne)?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La situation du ménage releve t-elle des violences faites aux femmes?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La demande concerne t-elle un ménage bénéficiaire de la protection internationale?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le ménage est il suivi dans le cadre d'une mesure ASLL?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dans le cas où le ménage est suivi dans le cadre d'une mesure d'ASLL,  vous devez demander  la levée de cette mesure auprès de la commission FSL.  En effet, la mesure d'AVDL sera initiée qu'une fois la levée de la mesure ASLL prononcée par la commission FSL et la préconisation de mise en oeuvre d'une mesure d'AVDL par cette dernière. La commission FSL demandera, dans le cadre des passerelles ASLL/AVDL, à la DDETS la mise en oeuvre d'un diagnostic AVDL.",
+        "description": "\r\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Type de diagnostic requis",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "S'agit-il d'une mesure de diagnostic pour un <strong> accès</strong> au logement?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "S'agit-il d'une mesure de diagnostic pour un <strong>maintien</strong> dans le logement?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1- Identification de l'organisme prescripteur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d'organisme prescripteur",
+        "description": "",
+        "required": true,
+        "options": [
+          "Bailleur social",
+          "SIAO",
+          "Structure d'hébergement généraliste",
+          "Structure d'hébergement (HUDA, CADA, CPH)",
+          "Action Logement",
+          "Travailleurs/intervenant social en commissariat (dans le cadre de FVV)",
+          "DDETS 95- Mission AVDL"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'organisme",
+        "description": "Merci de préciser l'établissement ou la structure dans laquelle vous exercez vos missions.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM et prénom du référent (demandeur du diagnostic)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Qualité du référent",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Mail du référent",
+        "description": "veuillez préciser une adresse sur laquelle vous êtes joignable",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone du référent",
+        "description": "Vous pourrez être contacter si besoin par l'opérateur désigné pour mener le diagnostic AVDL, si votre demande est acceptée. ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - Identification du ménage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "le ménage a t-il signé un Contrat d'Intégration Républicaine (CIR)?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le ménage est il actuellement suivi dans le cadre du programme AGIR?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information importante",
+        "description": "La concomitance d'un accompagnement dans le cadre du programme AGIR et de l'AVDL, n'est pas possible. \r\nIl est nécessaire d'attendre la fin de l'accompagnement dans le cadre du programme AGIR avant de demander une mesure d'AVDL.\r\nVous pourrez si le cumul des vulnérabilités est toujours constaté, solliciter une mesure d'AVDL. \r\nPour toute information complémentaire, vous pouvez envoyer un mail à ddets-fnavdl@val-doise.gouv.fr",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM  et Prénom du bénéficiaire de la mesure",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail du ménage",
+        "description": "Pour information, nous privilégions l'envoi des notifications de décision par mail. ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le lieu de vie actuel du ménage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone du ménage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de reconnaissance DALO",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le ménage est il reconnu prioritaire au titre du plan départemental d'actions en faveur du logement et de l'hébergement des personnes défavorisées (labellisé PDALHPD) (L441-1 du CCH)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro allocataire CAF/MSA du ménage",
+        "description": "Si en cours de mutation, saisir \"0\"",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation familiale du bénéficiaire",
+        "description": "",
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Séparé(e)",
+          "Divorcé(e)",
+          "Vie maritale",
+          "Marié(e)",
+          "Pacsé(e)",
+          "En concubinage",
+          "Veuf(ve)"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation actuelle",
+        "description": "",
+        "required": true,
+        "options": [
+          "Demandeur(se) d'emploi",
+          "Actif(ve) ayant un emploi",
+          "En formation (apprentissage/alternance)",
+          "Inactif(ve)",
+          "Handicap/invalidité",
+          "En arrêt maladie",
+          "En congé parental",
+          "Travailleur(se) indépendant",
+          "Retraité(e)",
+          "Etudiant(e)"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Composition familiale",
+        "description": "",
+        "required": true,
+        "options": [
+          "Personne seule",
+          "Personne seule avec enfant(s)",
+          "Couple sans enfant",
+          "Couple avec enfant(s)"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nombre de majeurs (+ 18 ans) composant le ménage",
+        "description": "",
+        "required": false,
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5 et plus"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nombre de mineurs (-18 ans) composant le ménage",
+        "description": "",
+        "required": false,
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6 et plus"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Personnes composant le foyer",
+        "description": "Cliquez sur \"ajouter un élément pour autres personnes du foyer\" pour ajouter une nouvelle personne",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Lien de parenté avec le demandeur",
+            "description": null,
+            "required": false,
+            "options": [
+              "Conjoint",
+              "Enfant",
+              "Frère/sœur",
+              "Parent",
+              "Grand-parent",
+              "Petit-enfant",
+              "Beau-frère/belle-sœur",
+              "Beau-fils/belle-fille",
+              "Membre hors foyer"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Situation scolaire ou professionnelle",
+            "description": "",
+            "required": false,
+            "options": [
+              "Enfant de moins de 3 ans",
+              "Scolarisé(e)",
+              "Etudiant(e)",
+              "Demandeur(se) d'emploi",
+              "Actif(ve) ayant un emploi",
+              "Inactif(ve)",
+              "En formation (apprentissage/alternance)",
+              "Handicap/invalidité",
+              "Retraité(e)",
+              "En arrêt maladie",
+              "En congé parental",
+              "Travailleur(se) indépendant"
+            ],
+            "otherOption": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - Critères justifiant la demande de diagnostic AVDL",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Critères justifiant la demande d'Accompagnement vers et dans le logement (AVDL)",
+        "description": "Sélectionner le ou les critères correspondant à la situation du ménage.\r\nLe cas échéant, <strong>exposez</strong> la situation du ménage dans le rapport social ci-dessous. \r\n\r\n",
+        "required": true,
+        "options": [
+          "Personnes en situation de handicap, au sens de l'article L. 114 du code de l'action sociale et des familles, ou familles ayant à leur charge une personne en situation de handicap ;",
+          "Personnes sortant d'un appartement de coordination thérapeutique mentionné au 9° de l'article L. 312-1 du même code ;",
+          "Personnes mal logées ou défavorisées et personnes rencontrant des difficultés particulières de logement pour des raisons d'ordre financier ou tenant à leurs conditions d'existence ou confrontées à un cumul de difficultés financières et de difficultés d'insertion sociale ;",
+          "Personnes hébergées ou logées temporairement dans un établissement ou un logement de transition ;",
+          "Personnes reprenant une activité après une période de chômage de longue durée ;",
+          "Personnes exposées à des situations d'habitat indigne ;",
+          "Personnes mariées, vivant maritalement ou liées par un pacte civil de solidarité justifiant de violences au sein du couple ou entre les partenaires, sans que la circonstance que le conjoint ou le partenaire lié par un pacte civil de solidarité bénéficie d'un contrat de location au titre du logement occupé par le couple puisse y faire obstacle, et personnes menacées de mariage forcé. Ces situations sont attestées par une décision du juge prise en application de l'article 257 du code civil ou par une ordonnance de protection délivrée par le juge aux affaires familiales en application du titre XIV du livre Ier du même code ;",
+          "Personnes victimes de viol ou d'agression sexuelle à leur domicile ou à ses abords, lorsque l'autorité judiciaire a imposé à la personne suspectée, poursuivie ou condamnée et pouvant être à l'origine d'un danger encouru par la victime de l'infraction, une ou plusieurs des interdictions suivantes ( une interdiction de se rendre dans certains lieux, dans certains endroits ou dans certaines zones définis dans lesquels la victime se trouve où qu'elle fréquente ; une interdiction ou une réglementation des contacts avec la victime) ;",
+          "Personnes engagées dans le parcours de sortie de la prostitution et d'insertion sociale et professionnelle prévu à l'article L. 121-9 du code de l'action sociale et des familles ;",
+          "Personnes victimes de l'une des infractions de traite des êtres humains ou de proxénétisme prévues aux articles 225-4-1 à 225-4-6 et 225-5 à 225-10 du code pénal ;",
+          "Personnes ayant à leur charge un enfant mineur et logées dans des locaux manifestement suroccupés ou ne présentant pas le caractère d'un logement décent ;",
+          "Personnes dépourvues de logement, y compris celles qui sont hébergées par des tiers ;",
+          "Personnes menacées d'expulsion sans relogement ;",
+          "Sortants d’ASE, mineurs émancipés ou majeurs âgés de moins de vingt et un ans pris en charge avant leur majorité par le service de l'aide sociale à l'enfance, dans les conditions prévues à l'article L. 222-5 du code de l'action sociale et des familles, jusqu'à trois ans après le dernier jour de cette prise en charge. »",
+          "Ménages cumulant des difficultés et fragilités (dettes, addiction, pathologies mentales);",
+          "Ménages non reconnus PU DALO par la COMED, dont la situation socio-économique est très fragile;",
+          "Ménages à la rue a priori en mesure d’intégrer un logement autonome;",
+          "Situations exceptionnelles et urgentes"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre le justificatif / rapport social correspondant à/aux vulnérabilités du ménage",
+        "description": "Vous pouvez également joindre une note présentant la situation de vulnérabilité du ménage.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - Informations au regard du logement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de la demande de logement social (DLS) du ménage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation domiciliaire",
+        "description": "",
+        "required": true,
+        "options": [
+          "Locataire dans le parc social",
+          "Locataire dans le parc privé",
+          "Résident(e) en logement-foyer ou résidence sociale",
+          "Sans domicile",
+          "Hébergé dans une structure"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'entrée dans le logement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du logement concerné",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Commune",
+        "description": "",
+        "required": true,
+        "options": [
+          "Aincourt (95008)",
+          "Ambleville (95011)",
+          "Amenucourt (95012)",
+          "Andilly (95014)",
+          "Argenteuil (95018)",
+          "Arnouville (95019)",
+          "Arronville (95023)",
+          "Arthies (95024)",
+          "Asnières-sur-Oise (95026)",
+          "Attainville (95028)",
+          "Auvers-sur-Oise (95039)",
+          "Avernes (95040)",
+          "Baillet-en-France (95042)",
+          "Banthelu (95046)",
+          "Beauchamp (95051)",
+          "Beaumont-sur-Oise (95052)",
+          "Le Bellay-en-Vexin (95054)",
+          "Bellefontaine (95055)",
+          "Belloy-en-France (95056)",
+          "Bernes-sur-Oise (95058)",
+          "Berville (95059)",
+          "Bessancourt (95060)",
+          "Béthemont-la-Forêt (95061)",
+          "Bezons (95063)",
+          "Boisemont (95074)",
+          "Boissy-l'Aillerie (95078)",
+          "Bonneuil-en-France (95088)",
+          "Bouffémont (95091)",
+          "Bouqueval (95094)",
+          "Bray-et-Lû (95101)",
+          "Bréançon (95102)",
+          "Brignancourt (95110)",
+          "Bruyères-sur-Oise (95116)",
+          "Buhy (95119)",
+          "Butry-sur-Oise (95120)",
+          "Cergy (95127)",
+          "Champagne-sur-Oise (95134)",
+          "La Chapelle-en-Vexin (95139)",
+          "Charmont (95141)",
+          "Chars (95142)",
+          "Châtenay-en-France (95144)",
+          "Chaumontel (95149)",
+          "Chaussy (95150)",
+          "Chauvry (95151)",
+          "Chennevières-lès-Louvres (95154)",
+          "Chérence (95157)",
+          "Cléry-en-Vexin (95166)",
+          "Commeny (95169)",
+          "Condécourt (95170)",
+          "Cormeilles-en-Parisis (95176)",
+          "Cormeilles-en-Vexin (95177)",
+          "Courcelles-sur-Viosne (95181)",
+          "Courdimanche (95183)",
+          "Deuil-la-Barre (95197)",
+          "Domont (95199)",
+          "Eaubonne (95203)",
+          "Écouen (95205)",
+          "Enghien-les-Bains (95210)",
+          "Ennery (95211)",
+          "Épiais-lès-Louvres (95212)",
+          "Épiais-Rhus (95213)",
+          "Épinay-Champlâtreux (95214)",
+          "Éragny (95218)",
+          "Ermont (95219)",
+          "Ézanville (95229)",
+          "Fontenay-en-Parisis (95241)",
+          "Fosses (95250)",
+          "Franconville (95252)",
+          "Frémainville (95253)",
+          "Frémécourt (95254)",
+          "Frépillon (95256)",
+          "La Frette-sur-Seine (95257)",
+          "Frouville (95258)",
+          "Garges-lès-Gonesse (95268)",
+          "Genainville (95270)",
+          "Génicourt (95271)",
+          "Gonesse (95277)",
+          "Goussainville (95280)",
+          "Gouzangrez (95282)",
+          "Grisy-les-Plâtres (95287)",
+          "Groslay (95288)",
+          "Guiry-en-Vexin (95295)",
+          "Haravilliers (95298)",
+          "Haute-Isle (95301)",
+          "Le Heaulme (95303)",
+          "Hédouville (95304)",
+          "Herblay-sur-Seine (95306)",
+          "Hérouville-en-Vexin (95308)",
+          "Hodent (95309)",
+          "L'Isle-Adam (95313)",
+          "Jagny-sous-Bois (95316)",
+          "Jouy-le-Moutier (95323)",
+          "Labbeville (95328)",
+          "Lassy (95331)",
+          "Livilliers (95341)",
+          "Longuesse (95348)",
+          "Louvres (95351)",
+          "Luzarches (95352)",
+          "Maffliers (95353)",
+          "Magny-en-Vexin (95355)",
+          "Mareil-en-France (95365)",
+          "Margency (95369)",
+          "Marines (95370)",
+          "Marly-la-Ville (95371)",
+          "Maudétour-en-Vexin (95379)",
+          "Menouville (95387)",
+          "Menucourt (95388)",
+          "Mériel (95392)",
+          "Méry-sur-Oise (95394)",
+          "Le Mesnil-Aubry (95395)",
+          "Moisselles (95409)",
+          "Montgeroult (95422)",
+          "Montigny-lès-Cormeilles (95424)",
+          "Montlignon (95426)",
+          "Montmagny (95427)",
+          "Montmorency (95428)",
+          "Montreuil-sur-Epte (95429)",
+          "Montsoult (95430)",
+          "Mours (95436)",
+          "Moussy (95438)",
+          "Nerville-la-Forêt (95445)",
+          "Nesles-la-Vallée (95446)",
+          "Neuilly-en-Vexin (95447)",
+          "Neuville-sur-Oise (95450)",
+          "Nointel (95452)",
+          "Noisy-sur-Oise (95456)",
+          "Nucourt (95459)",
+          "Omerville (95462)",
+          "Osny (95476)",
+          "Parmain (95480)",
+          "Le Perchay (95483)",
+          "Persan (95487)",
+          "Pierrelaye (95488)",
+          "Piscop (95489)",
+          "Le Plessis-Bouchard (95491)",
+          "Le Plessis-Gassot (95492)",
+          "Le Plessis-Luzarches (95493)",
+          "Pontoise (95500)",
+          "Presles (95504)",
+          "Puiseux-en-France (95509)",
+          "Puiseux-Pontoise (95510)",
+          "La Roche-Guyon (95523)",
+          "Roissy-en-France (95527)",
+          "Ronquerolles (95529)",
+          "Sagy (95535)",
+          "Saint-Brice-sous-Forêt (95539)",
+          "Saint-Clair-sur-Epte (95541)",
+          "Saint-Cyr-en-Arthies (95543)",
+          "Saint-Gervais (95554)",
+          "Saint-Gratien (95555)",
+          "Saint-Leu-la-Forêt (95563)",
+          "Saint-Martin-du-Tertre (95566)",
+          "Saint-Ouen-l'Aumône (95572)",
+          "Saint-Prix (95574)",
+          "Saint-Witz (95580)",
+          "Sannois (95582)",
+          "Santeuil (95584)",
+          "Sarcelles (95585)",
+          "Seraincourt (95592)",
+          "Seugy (95594)",
+          "Soisy-sous-Montmorency (95598)",
+          "Survilliers (95604)",
+          "Taverny (95607)",
+          "Théméricourt (95610)",
+          "Theuville (95611)",
+          "Le Thillay (95612)",
+          "Us (95625)",
+          "Vallangoujard (95627)",
+          "Valmondois (95628)",
+          "Vaudherland (95633)",
+          "Vauréal (95637)",
+          "Vémars (95641)",
+          "Vétheuil (95651)",
+          "Viarmes (95652)",
+          "Vienne-en-Arthies (95656)",
+          "Vigny (95658)",
+          "Villaines-sous-Bois (95660)",
+          "Villeron (95675)",
+          "Villers-en-Arthies (95676)",
+          "Villiers-Adam (95678)",
+          "Villiers-le-Bel (95680)",
+          "Villiers-le-Sec (95682)",
+          "Wy-dit-Joli-Village (95690)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Une procédure d'expulsion est-elle en cours ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Stade de la procédure d'expulsion",
+        "description": "",
+        "required": false,
+        "options": [
+          "Commandement de payer",
+          "Assignation aux fins de constat de résiliation du bail",
+          "Jugement de résiliation du bail",
+          "Commandement de quitter les lieux",
+          "Demande du concours de la force publique"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le montant de la dette du ménage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5 - Pièces justificatives complémentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièce justificative facultative à joindre à la demande pour l'appuyer",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autre pièce facultative",
+            "description": "Autre pièce que vous souhaitez joindre au dossier.\r\n<strong>non obligatoire </strong>",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "6 - Validation de la demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information sur la protection des données",
+        "description": "Dans le cadre de la loi du 5 mars 2007 instituant le droit au logement opposable (DALO),  de l'article 60 de la loi n° 2011-900 du 29 juillet 2011 de finances rectificative pour 2011 instaurant que le paiement des astreintes abonderait le FNAVDL.  L'objet du FNAVDL étant de financer des actions d'accompagnement personnalisé de personnes reconnues prioritaires et auxquelles un logement doit être attribué en urgence au titre du droit au logement opposable (DALO), en application du cinquième alinéa du II de l'article L. 441-2-3 du CCH et d'actions de gestion locative adaptée de logements destinés à ces personnes, favorisant leur accès à un logement et leur maintien dans le logement la DDETS va collecter et enregistrer les informations recueillies dans ce formulaire afin d'instruire cette demande d'AVDL et aux fins d'évaluation des politiques publiques en la matière. \r\nLes données collectées seront réservées à l'usage de la DDETS du Val-d'Oise dans le cadre de l'AVDL et seront conservées pendant trois ans après la clôture de votre dossier. \r\nConformément à la loi n°78-17 du 6 janvier 1978 dite \"informatique et liberté\" et au Règlement Européen sur la Protection des données 2016/679, vous pouvez accéder aux données vous concernant, les rectifier, demander leur effacement ou exercer votre droit à la limitation du traitement de vos données.\r\nPour exercer ces droits ou pour toute question sur le traitement de vos données dans ce dispositif, vous pouvez contacter le délégué à la protection des données.\r\nVous avez le droit d'introduire une réclamation auprès de l'autorité de contrôle, la Commission Nationale de l'Informatique et des Libertés (CNIL – 3 Place de Fontenoy – TSA 80715) – 75334 PARIS CEDEX 07 – www.cnil.fr) ",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie sur l'honneur que les renseignements portés sur la présente demande, sont exacts et sincères.",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

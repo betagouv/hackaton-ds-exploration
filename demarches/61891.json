@@ -1,0 +1,455 @@
+{
+  "number": 61891,
+  "title": "Phase d'ajustement : Affectation des élèves en première générale ou technologique dans un lycée public du Gard ",
+  "description": "Démarche pilotée par la DSDEN du Gard pour l'affectation des élèves dans une classe de première générale d'un lycée public du département lors de la phase d'ajustement ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2022-06-30T17:54:38+02:00",
+  "service": {
+    "nom": "Direction des services départementaux de l'éducation nationale du Gard (DSDEN30) - DVE Affectation en lycée",
+    "organisme": "Ministère de l'éducation nationale, de la jeunesse et des sports",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/phase-d-ajustement-affectation-premiere-generale-ou-technologique-gard",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ac-montpellier.fr/affectation-en-lycee-121868",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000006525839&cidTexte=LEGITEXT000006071191&dateTexte=20080207",
+  "logo": {
+    "filename": "Logo DSDEN.jpg",
+    "checksum": "u9TXntZyjMFI7mgWszU/bw==",
+    "byteSize": "26420",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 75,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "A qui s'adresse cette démarche ?",
+        "description": "Vous souhaitez une affectation en première générale dans un lycée public du Gard.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ÉLÈVE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM de l'élève (en MAJUSCULES)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "PRENOM de l'élève ( en MAJUSCULES)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'élève à prendre en compte",
+        "description": "Adresse de résidence dans le département du Gard (N° de la voie - Voie -  Bât- Code postal - Commune)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de domicile 1",
+        "description": "Sont acceptés : factures d'électricité, d'eau, de gaz ou de fournisseur internet de moins de 3 mois ; bail en cours ; compromis de vente ; avis d'imposition ou de non-imposition, attestation d'assurance. Ne sont pas acceptés : facture de téléphonie mobile et quittance de loyer.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de domicile 2",
+        "description": "Sont acceptés : factures d'électricité, d'eau, de gaz ou de fournisseur internet de moins de 3 mois ; bail en cours ; compromis de vente ; avis d'imposition ou de non-imposition, attestation d'assurance. Ne sont pas acceptés : facture de téléphonie mobile et quittance de loyer.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. Scolarité précédente",
+        "description": "Demande d'affectation en début d'année scolaire : ",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Etablissement actuel de scolarisation",
+        "description": "",
+        "required": true,
+        "options": [
+          "Etablissement public ou privé sous contrat relevant du Ministère de l'Education nationale",
+          "CNED",
+          "Autre situation"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "AnnuaireEducationChampDescriptor",
+        "label": "Dans un établissement public ou privé sous contrat de l'Education nationale",
+        "description": "Nom de l'établissement précédent ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autre situation",
+        "description": "Nom, commune, département et/ou pays du dernier établissement fréquenté : à compléter si le dernier établissement fréquenté est un établissement hors contrat ou situé à l'étranger.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Classe",
+        "description": "Classe fréquentée dans l'établissement précédemment renseigné.\nSi \"Autre\" merci de préciser dans le champ prévu à cet effet",
+        "required": true,
+        "options": [
+          "2nde générale et technologique"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bulletin scolaire",
+        "description": "Joindre obligatoirement la copie du dernier bulletin scolaire précisant la décision d'orientation.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. Scolarité demandée",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "S'agit-il d'un redoublement en 1ère générale ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "1er enseignement de spécialité demandé",
+        "description": "",
+        "required": true,
+        "options": [
+          "Histoire-géographie géopolitique sciences politiques",
+          "Humanités littérature philosophie",
+          "Langues littératures cultures étrangères Anglais",
+          "Langues littératures cultures étrangères Espagnol",
+          "Mathématiques",
+          "Physique-chimie",
+          "SVT",
+          "SES",
+          "LLCA - latin",
+          "LLCA - grec",
+          "Numérique et sciences informatiques",
+          "Sciences de l'ingénieur",
+          "Art - Arts plastiques",
+          "Arts - Cinéma audio visuel",
+          "Arts - Histoire des arts",
+          "Arts - Musique",
+          "Arts - Théâtre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "2ème enseignement de spécialité demandé",
+        "description": "",
+        "required": true,
+        "options": [
+          "Histoire-géographie géopolitique sciences politiques",
+          "Humanités littérature philosophie",
+          "Langues littératures cultures étrangères Anglais",
+          "Langues littératures cultures étrangères Espagnol",
+          "Mathématiques",
+          "Physique-chimie",
+          "SVT",
+          "SES",
+          "LLCA - latin",
+          "LLCA - grec",
+          "Numérique et sciences informatiques",
+          "Sciences de l'ingénieur",
+          "Art - Arts plastiques",
+          "Arts - Cinéma audio visuel",
+          "Arts - Histoire des arts",
+          "Arts - Musique",
+          "Arts - Théâtre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "3ème enseignement de spécialité demandé",
+        "description": "",
+        "required": true,
+        "options": [
+          "Histoire-géographie géopolitique sciences politiques",
+          "Humanités littérature philosophie",
+          "Langues littératures cultures étrangères Anglais",
+          "Langues littératures cultures étrangères Espagnol",
+          "Mathématiques",
+          "Physique-chimie",
+          "SVT",
+          "SES",
+          "LLCA - latin",
+          "LLCA - grec",
+          "Numérique et sciences informatiques",
+          "Sciences de l'ingénieur",
+          "Art - Arts plastiques",
+          "Arts - Cinéma audio visuel",
+          "Arts - Histoire des arts",
+          "Arts - Musique",
+          "Arts - Théâtre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Langue vivante 1",
+        "description": "",
+        "required": true,
+        "options": [
+          "Anglais",
+          "Allemand",
+          "Espagnol",
+          "Italien"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Langue vivante 2",
+        "description": null,
+        "required": true,
+        "options": [
+          "Anglais",
+          "Allemand",
+          "Espagnol",
+          "Italien"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "VOEUX D'AFFECTATION",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Examen des voeux",
+        "description": "Ce  lien vous permet de contrôler le le lycée de secteur dont vous dépendez : https://applications.ac-montpellier.fr/apps/dsden30/ecoly/lycees.php .\nLes demandes seront examinées et satisfaites au mieux. L'affectation dans le lycée et les enseignements de spécialité demandés dépend des possibilités réelles d'accueil à la date d'arrivée.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Voeu n°1",
+        "description": "Indiquer le lycée du département du Gard souhaité en 1er vœu.",
+        "required": true,
+        "options": [
+          "ALES - Lycée Jean-Baptiste Dumas",
+          "BAGNOLS S/CEZE - Lycée Albert Einstein",
+          "LE VIGAN -Lycée André Chamson",
+          "MILHAUD - Lycée G. Anthonioz De Gaulle",
+          "NIMES - Lycée Albert Camus",
+          "NIMES - Lycée Alphonse Daudet",
+          "NIMES - Lycée Dhuoda",
+          "NIMES - Lycée Ernest Hemingway",
+          "NIMES - Lycée Philippe Lamour",
+          "SOMMIERES - Lycée Lucie Aubrac",
+          "ST CHRISTOL LES ALES - Lycée J. Prévert",
+          "UZES - Lycée Charles Gide",
+          "VILLENEUVE LES AVIGNON - Lycée Jean Vilar"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Voeu n°2",
+        "description": "Indiquer le lycée du département du Gard souhaité en vœu n°2.",
+        "required": true,
+        "options": [
+          "ALES - Lycée Jean-Baptiste Dumas",
+          "BAGNOLS S/CEZE - Lycée Albert Einstein",
+          "LE VIGAN -Lycée André Chamson",
+          "MILHAUD - Lycée G. Anthonioz De Gaulle",
+          "NIMES - Lycée Albert Camus",
+          "NIMES - Lycée Alphonse Daudet",
+          "NIMES - Lycée Dhuoda",
+          "NIMES - Lycée Ernest Hemingway",
+          "NIMES - Lycée Philippe Lamour",
+          "SOMMIERES - Lycée Lucie Aubrac",
+          "ST CHRISTOL LES ALES - Lycée J. Prévert",
+          "UZES - Lycée Charles Gide",
+          "VILLENEUVE LES AVIGNON - Lycée Jean Vilar"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Voeu n°3",
+        "description": "Indiquer le lycée du département du Gard souhaité en vœu n°3.",
+        "required": false,
+        "options": [
+          "ALES - Lycée Jean-Baptiste Dumas",
+          "BAGNOLS S/CEZE - Lycée Albert Einstein",
+          "LE VIGAN -Lycée André Chamson",
+          "MILHAUD - Lycée G. Anthonioz De Gaulle",
+          "NIMES - Lycée Albert Camus",
+          "NIMES - Lycée Alphonse Daudet",
+          "NIMES - Lycée Dhuoda",
+          "NIMES - Lycée Ernest Hemingway",
+          "NIMES - Lycée Philippe Lamour",
+          "SOMMIERES - Lycée Lucie Aubrac",
+          "ST CHRISTOL LES ALES - Lycée J. Prévert",
+          "UZES - Lycée Charles Gide",
+          "VILLENEUVE LES AVIGNON - Lycée Jean Vilar"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RESPONSABLES LÉGAUX (pour les élèves mineurs)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM - Prénom du représentant légal 1",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse représentant légal 1",
+        "description": "N° de la voie - Voie -  Bât - CP - Ville",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM - Prénom du représentant légal 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse représentant légal 2",
+        "description": "N° de la voie - Voie -  Bât - CP - Ville",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie du livret de famille",
+        "description": "Copie des pages des responsables légaux et de l'enfant",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les responsables légaux sont-il séparés ou divorcés ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Situation de séparation ou de divorce",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Extrait du jugement",
+        "description": "Joindre l'extrait du jugement indiquant l'autorité parentale et fixant la résidence habituelle de l'enfant.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "MOTIF(S) DE LA DEMANDE",
+        "description": "Vous pouvez écrire ci-dessous les informations complémentaires que vous désirez porter à notre connaissance",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "S'agit-il d'un déménagement?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du déménagement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Indiquer ci-dessous les informations nécessaires à l'examen de la demande.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": "Vous pouvez déposer ici une autre pièce justificative que vous désireriez nous soumettre.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "VALIDATION DU DOSSIER",
+        "description": "Je certifie l'exactitude des renseignements donnés et l'authenticité des pièces justificatives transmises",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie l'exactitude des informations données.",
+        "description": "Faire une fausse attestation ou mentir lors d'une démarche administrative est un délit : https://www.service-public.fr/particuliers/vosdroits/F31612",
+        "required": true
+      }
+    ]
+  }
+}

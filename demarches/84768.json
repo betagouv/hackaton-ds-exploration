@@ -1,0 +1,286 @@
+{
+  "number": 84768,
+  "title": "TEST - Déclaration PRIX des contrôles techniques",
+  "description": "Ces informations doivent être disponibles et mises à jour autant que de besoin",
+  "tags": [
+    ""
+  ],
+  "zones": [
+    "Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique"
+  ],
+  "datePublication": "2023-12-26T15:27:42+01:00",
+  "service": {
+    "nom": "Bureau 6D, DIRECTION GENERALE DE LA CONCURRENCE, DE LA CONSOMMATION ET DE LA REPRESSION DES FRAUDES (DGCCRF)",
+    "organisme": "DGCCRF, Ministère de l’Économie, des Finances et de la Souveraineté industrielle et numérique",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/test-declaration-prix-ct",
+  "dpoUrl": "referent-pod@dgccrf.finances.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.economie.gouv.fr/dgccrf/Publications/Vie-pratique/Fiches-pratiques/Vehicule-automobile-controle-technique",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039314028/",
+  "logo": {
+    "filename": "Logo prix CT.png",
+    "checksum": "N8EElJ1QFNOzthh8C+HpzQ==",
+    "byteSize": "33378",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "20240717 FAQ Calibri.pdf",
+    "checksum": "aTzsdB0aT01s475+yOPiMQ==",
+    "byteSize": "442286",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 72,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Attention",
+        "description": "Ne seront prises en considération que les déclarations réalisées avec un compte ‘Démarches Simplifiées’ dont l’identifiant correspond à l’email autorisé pour l’établissement concerné. \r\n• Pour la déclaration d’un nouvel établissement, tous les identifiants ‘Démarches Simplifiées’ conviennent. En ce cas, l’email servant d’identifiant devient l’email autorisé par défaut. \r\n• Pour les centres dont les données ont été reprises du précédent portail de saisie des prix, l’email autorisé est celui qui était déclaré comme email de contact. \r\n• Pour modifier l’email autorisé pour un établissement, veuillez effectuer votre demande à l’aide du formulaire de contact.\r\n• Les prix déclarés doivent correspondre aux prix pratiqués dans votre centre, à l’exception de ponctuelles offres promotionnelles.\r\n\r\nIl n'est pas possible de rectifier directement les données d'un dossier déjà déposé. Il reste néanmoins possible de déposer un nouveau dossier, dont les données remplaceront celles du dossier précédent. ",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Numéro d'agrément du centre",
+        "description": "Merci d'inscrire le numéro d'agrément tel qu'il figure dans la notification préfectorale. Attention à bien distinguer les caractères semblables (S et 5, I et L, O et 0...)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. DATE D'APPLICATION DES NOUVEAUX PRIX",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Remarque",
+        "description": "Les prix seront valables pour le jour même, sauf si vous indiquez une date d'application dans le futur.\r\nLa date d'application des prix ne pourra pas être supérieure à la \"date de saisie + 1 an\". Par exemple, si vous saisissez vos prix au 17/03/2024, vous ne pourrez saisir une date d'application qu'entre le 17/03/2024 et le 17/03/2025.",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'application",
+        "description": "La date d'application ne peut être que la date du jour ou une date future. Toute demande applicable à une date antérieure à la date du jour sera considérée comme à la date du jour.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. VOTRE CATALOGUE DE PRIX (voitures particulières, 4x4, camionnettes, campings-cars, voitures de collection)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Remarques",
+        "description": "Si vous souhaitez modifier un seul prix, ne remplissez que le tarif correspondant. Les autres tarifs resteront inchangés.\r\n\r\nAttention à bien avoir déclaré toutes les prestations pour lesquelles vous souhaitez indiquer un tarif.\r\n\r\nSi vous avez ajouté de nouvelles prestations, ne saisissez que les tarifs de la nouvelle ou des nouvelles prestations ajoutées.\r\n\r\nMerci d'inscrire les prix des visites initiales ainsi que les prix minimum et maximum des contre-visites dans les champs de chaque prestation, en les séparant par le caractère \"/\" : par exemple \"80 / 20 / 45\".\r\n\r\nSi vous renseignez le prix \"0€\", cela signifie que la prestation est gratuite.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Voulez-vous indiquer les tarifs pour les contrôles techniques sur les voitures particulières ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Voiture particulière - essence - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "Exemple : 80,5/ 12.5 /45",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Voiture particulière - diesel - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Voiture particulière - hybride - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Voiture particulière - électrique - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Voiture particulière - gaz - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Voulez-vous indiquer les tarifs pour les contrôles techniques sur les 4x4 ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "4 X 4 - essence - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "Exemple : 80,5/ 12.5 /45",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "4 X 4 - diesel - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "4 X 4 - hybride - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "4 X 4 - électrique - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "4 X 4 - gaz - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Voulez-vous indiquer les tarifs pour les contrôles techniques sur les camionnettes ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Camionnette - essence - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "Exemple : 80,5/ 12.5 /45",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Camionnette - diesel - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Camionnette - hybride - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Camionnette - électrique - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Camionnette - gaz - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Voulez-vous indiquer les tarifs pour les contrôles techniques sur les camping-cars (moins de 3,5 T) ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Camping-car (moins de 3,5 tonnes) - essence - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "Exemple : 80,5/ 12.5 /45",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Camping-car (moins de 3,5 tonnes) - diesel - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Camping-car (moins de 3,5 tonnes) - hybride - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Camping-car (moins de 3,5 tonnes) - électrique - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Camping-car (moins de 3,5 tonnes) - gaz - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Voulez-vous indiquer les tarifs pour les contrôles techniques sur les voitures de collection ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Voiture de collection - essence - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "Exemple : 80,5/ 12.5 /45",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Voiture de collection - diesel - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Voiture de collection - hybride - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Voiture de collection - électrique - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExpressionReguliereChampDescriptor",
+        "label": "Voiture de collection - gaz - Prix (€ TTC) visite initiale/contre-visite (min)/contre-visite (max)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. VOTRE CATALOGUE DE PRIX (2 roues jusqu'au 50 cc, motos à partir de 125 cc, quads, voitures sans permis)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Cette démarche est en développement actuellement.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4. ENGAGEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Les données saisies sont exactes.",
+        "description": "Les informations soumises sont exactes et seront, pour partie, rendues publiques sur les sites de la DGCCRF et du Ministère chargé de l’Économie.\r\nToute déclaration frauduleuse est passible de sanctions pénales.",
+        "required": true
+      }
+    ]
+  }
+}

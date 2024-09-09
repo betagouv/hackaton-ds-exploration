@@ -1,0 +1,527 @@
+{
+  "number": 84416,
+  "title": "Première demande de délivrance d'autorisation provisoire de séjour au titre de la protection temporaire",
+  "description": "****** Attention vous devez être domicilié dans le Rhône******\r\n\r\nCette démarche est destinée uniquement aux personnes déplacées d'Ukraine souhaitant demander le bénéfice de la protection temporaire et obtenir un rendez-vous en vue de la délivrance d'une première autorisation provisoire de séjour.\r\n\r\nPour toute autre démarche, se reporter aux conditions spécifiques d'accueil sur :  http://www.rhone.gouv.fr/ \r\n\r\n\r\nAucune demande incomplète ou formulée par voie postale ne sera traitée. ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2023-12-21T18:37:24+01:00",
+  "service": {
+    "nom": "Direction des migrations et de l'intégration / Préfecture du Rhône",
+    "organisme": "Préfecture du Rhône",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/premiere-demande-prtt",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.rhone.gouv.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCode.do?cidTexte=LEGITEXT000006070158&dateTexte=20200529",
+  "logo": {
+    "filename": "logo préfecture.jpg",
+    "checksum": "gfqarxiX0r/kgU7TNQwttA==",
+    "byteSize": "17628",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 360,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre identité / Цивільний стан",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": true,
+        "options": [
+          "Madame / Жінка",
+          "Monsieur / Чоловік"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM / ПРІЗВИЩЕ",
+        "description": "Nom de naissance / Прізвище при народженні\r\n",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom d'usage / ПРІЗВИЩЕ В ШЛЮБІ",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom(s) / ІМ’Я",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance / ДАТА НАРОДЖЕННЯ",
+        "description": "Format JJ/MM/AAAA\r\n",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu de naissance / МІСЦЕ НАРОДЖЕННЯ",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Nationalité / ГРОМАДЯНСТВО",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièces justifiant de votre identité - A JOINDRE OBLIGATOIREMENT / Додати документ, що підтверджує вашу особу  - додати обов'язково",
+        "description": "CNI, passeport, ou tout autre document justifiant de l’état civil (livret de famille...).\r\n\r\nПосвідчення особи, паспорт або будь-який інший документ, що засвідчує сімейний стан (свідоцтво про шлюб тощо). ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Profession exercée",
+        "description": "Поточна професія",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vos coordonnées en France / Ваші контактні дані у Франції",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse complète / АДРЕСА",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail / ПОШТОВА АДРЕСА",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone / НОМЕР ТЕЛЕФОНУ",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre situation familiale / Сімейний стан",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre situation familiale / Сімейний стан",
+        "description": "",
+        "required": true,
+        "options": [
+          "Marié(e) / Одружений(-а)",
+          "Concubin(e) / Позашлюбне спільне проживання",
+          "Divorcé(e) / Розлучений(-а) / окреме проживання",
+          "Veuf/Veuve / вдівець/вдова",
+          "Célibataire / Неодружений(-а)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Conjoint(e) / ЧОЛОВІК - ДРУЖИНА",
+        "description": "Ce champ doit être rempli même si vous ne vivez plus avec votre conjoint(e) (divorce, décès).\r\nЦе поле повинно бути заповнене, навіть якщо ви більше не проживаєте з вашим чоловіком/дружиною (розірвання шлюбу, смерть)",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Votre conjoint est-il présent en France ? / Ваш чоловік/дружина присутні у Франції?",
+            "description": "",
+            "required": false,
+            "options": [
+              "Oui / Так",
+              "Non / Ні"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom et prénom du conjoint / Призвіще та їм'я ЧОЛОВІКА/ЖІНКИ",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance du conjoint / ДАТА НАРОДЖЕННЯ ЧОЛОВІКА/ЖІНКИ",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Lieu de naissance du conjoint / МІСЦЕ НАРОДЖЕННЯ ЧОЛОВІКА/ЖІНКИ",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PaysChampDescriptor",
+            "label": "Nationalité du conjoint / ГРОМАДЯНСТВО ЧОЛОВІКА/ЖІНКИ",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie du passeport valide, de sa CNI ou à défaut de tout acte d'état civil",
+            "description": "Копія дійсного національного паспорту, посвідчення особи у випадку відсутності  будь якого посвідчення про цивільний стан",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Votre conjoint a-t-il déjà obtenu un document de séjour en France ? / Чи отримав(-ла) чоловік/дружина документ, що дозволяє проживання у Франції?",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Si oui, veuillez indiquer son numéro étranger (numéro à 10 chiffres) / Якщо так, зазначте ідентифікаційний номер іноземця (номер із 10 цифр)",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Enfant / Діти",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom et prénom / Призвіще та ім'я",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance / ДАТА НАРОДЖЕННЯ",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PaysChampDescriptor",
+            "label": "Nationalité / ГРОМАДЯНСТВО",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Sexe / СТАТЬ",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Votre enfant est-il présent en France ? / Присутність вашої дитини у Франції",
+            "description": "",
+            "required": false,
+            "options": [
+              "Oui / Так",
+              "Non / Ні"
+            ]
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Votre enfant est-il scolarisé en France ? / Чи ходить ваша дитина до школи у Франції?",
+            "description": "",
+            "required": false,
+            "options": [
+              "Oui / Так",
+              "Non / Ні"
+            ]
+          },
+          {
+            "__typename": "AnnuaireEducationChampDescriptor",
+            "label": "Si oui, indiquer son établissement scolaire / Якщо так, вкажіть назву навчального закладу",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Pour renseigner un autre enfant, cliquer sur \"+ Ajouter un élément pour \"Enfant\"\"",
+            "description": "Щоб додати іншу дитину, натисніть на",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie du passeport valide, de sa CNI ou à défaut de tout acte d'état civil",
+            "description": "Копія дійсного національного паспорту, посвідчення особи у випадку відсутності  будь якого посвідчення про цивільний стан",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autres membres de votre famille en France / Ваша сім’я в Європейському Союзі або асоційованих державах",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom et prénom / Призвіще та ім'я",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Sexe / СТАТЬ",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance / ДАТА НАРОДЖЕННЯ",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nationalité / ГРОМАДЯНСТВО",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Lien de parenté / РОДИННИЙ ЗВ’ЯЗОК",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Cette personne réside-t-elle actuellement en France ? / Присутність цієї особи на даний час у Франції",
+            "description": "",
+            "required": false,
+            "options": [
+              "Oui / Так",
+              "Non / Ні"
+            ]
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie du passeport valide, de sa CNI ou à défaut de tout acte d'état civil",
+            "description": "Копія дійсного національного паспорту, посвідчення особи, у випадку відсутності будь якого посвідчення про цивільний стан",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre entrée en France / В’їзд до Франції",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'entrée en France / ДАТА В’ЇЗДУ ДО ФРАНЦІЇ",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Avez-vous déjà obtenu un document de séjour en France ?",
+        "description": "Чи ви отримали документ, що дозволяє проживання у Франції?",
+        "required": false,
+        "options": [
+          "Oui / Так",
+          "Non / Ні"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Veuillez indiquer votre numéro étranger (numéro à 10 chiffres)",
+        "description": "зазначте ідентифікаційний номер іноземця (номер із 10 цифр)",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Occupez-vous actuellement un emploi en France ?",
+        "description": "Чи працюєте ви у Франції?",
+        "required": false,
+        "options": [
+          "Oui / Так",
+          "Non / Ні"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et adresse de l'employeur / ІМ’Я та АДРЕСА ПОТОЧНОГО ПРАЦЕДАВЦЯ",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Votre employeur a-t-il sollicité une autorisation de travail auprès du service « main d’œuvre étrangère » ?",
+        "description": "Чи запитував ваш працедавець дозвіл на роботу в службі з питань праці за кордоном?",
+        "required": false,
+        "options": [
+          "Oui / Так",
+          "Non / Ні"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Liste des pièces justificatives à produire / Список підтверджувальних документів",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Veuillez cocher la case correspondant à votre situation :",
+        "description": "Відмітьте поле, що відповідає вашій ситуації.",
+        "required": true,
+        "options": [
+          "1. De nationalité ukrainienne, vous résidiez en Ukraine avant le 24 février 2022 / 1. Ви є громадянином України та проживали в Україні до 24 лютого 2022 року.",
+          "2. Vous n’êtes pas ressortissant ukrainien et vous bénéficiez d’une protection internationale ou nationale équivalente octroyée par les autorités ukrainiennes / 2. Ви не є громадянином України, і українська влада надала вам захист (міжнародний чи прирівняний до національного).",
+          "3. Vous êtes membre de famille d’une personne visée aux points 1 ou 2 / 3. Ви є членом сім’ї особи, зазначеної в пункті 1 або 2.",
+          "4. Vous n’êtes pas ressortissant ukrainien et vous êtes titulaire d’un titre de séjour permanent en cours de validité, délivré par les autorités ukrainiennes / 4. Ви не є громадянином України та маєте дійсний постійний дозвіл на проживання, виданий українською владою."
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "1. De nationalité ukrainienne, vous résidiez en Ukraine avant le 24 février 2022 / 1. Ви є громадянином України та проживали в Україні до 24 лютого 2022 року.",
+        "description": "Vous êtes entré (e) en France : /Ви в’їхали до Франції :",
+        "required": true,
+        "options": [
+          "Muni d'un passeport revêtu d'un tampon d'entrée dans l'espace Schengen ou d'un visa Schengen / Наявність паспорта зі штампом про в’їзд до Шенгенської зони або шенгенської візи",
+          "Sans tampon ou visa / Без штампу та візи"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie du tampon d’entrée dans l’espace Schengen",
+        "description": "Копія штампу про в’їзд до Шенгенської зони",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie du visa Schengen",
+        "description": "Копія шенгенської візи",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "à défaut, tout justificatif attestant d’un déplacement hors d’Ukraine, entre autres justificatifs de déplacement, compostage du document de voyage",
+        "description": "за відсутності такого, будь-який доказ виїзду за межі України, включаючи підтвердження\r\nпроїзду, проїзний документ з печаткою",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "En l'absence de tampon sur votre passeport ou d'attestation de passage frontière, vous devez apporter des preuves de votre résidence en Ukraine.",
+        "description": "У разі відсутності штампу в паспорті або довідки про перетин кордону необхідно надати підтвердження про проживання в Україні. ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "En l'absence de tampon sur votre passeport ou d'attestation de passage frontière, vous devez apporter des preuves de votre résidence en Ukraine.",
+        "description": "У разі відсутності штампу в паспорті або довідки про перетин кордону необхідно надати підтвердження про проживання в Україні. ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie du titre vous octroyant la protection internationale ou nationale en Ukraine ",
+        "description": "Копія документа, який надає їм міжнародний чи національний захист в\r\nУкраїні",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie du tampon d’entrée dans l’espace Schengen (ou à défaut, tout autre justificatif attestant d’un déplacement hors d’Ukraine, entre autres justificatifs de déplacement).",
+        "description": "Копія штампу про в’їзд до Шенгенської зони (або, за відсутності такого,\r\nбудь-який доказ виїзду за межі України, включаючи підтвердження\r\nпроїзду);",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif du lien de famille avec la personne d’une des deux premières catégories",
+        "description": "Копія документа, який надає їм міжнародний чи національний захист в\r\nУкраїні",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de la communauté de vie, qui doit être stable, en l’absence de lien de famille avec la personne appartenant à l’une des deux premières catégories (factures aux deux noms, bail d’habitation, attestation de vie commune, photographies, …) ; N.B : la présence des deux partenaires est exigée lors de la demande de titre.",
+        "description": "Підтвердження спільного проживання, яке має бути постійним, за\r\nвідсутності родинних стосунків з особою, яка належить до однієї з перших\r\nдвох категорій (рахунки на два прізвища, договір оренди житла, довідка\r\nпро спільне проживання, фотографії тощо);\r\nN.B.: при подачі заяви на отримання дозволу, вимагається присутність\r\nобох партнерів.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif du lien de dépendance pour le membre de famille à charge de la personne appartenant à l’une des deux premières catégories (justificatif de domicile commun notamment, …)",
+        "description": "Підтвердження перебування на утриманні члена сім'ї особи, віднесеної\r\nдо однієї з перших двох категорій (докази спільного проживання тощо)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif du lien de famille et justificatif de l’autorité parentale (notamment si parents non présents ensemble) pour les parents d’enfants mineurs Ukrainiens",
+        "description": "Підтвердження родинних стосунків та підтвердження батьківських\r\nповноважень (якщо присутній тільки один із двох батьків) для батьків\r\nнеповнолітніх дітей з України",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie du titre de séjour permanent octroyé par les autorités ukrainiennes",
+        "description": " Копія посвідки на постійне проживання",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Justificatif de domicile ou d'hébergement  / Підтвердження домашньої адреси або місця проживанняNouveau champ",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Si vous avez un logement / Якщо ви маєте житло",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Facture datant de moins de 6 mois à votre nom / Рахунок-фактура датована не пізніше 6 місяців на ваше ім'яNouveau champ",
+            "description": "Facture d'électricité, de gaz, d'internet, assurance habitation ou quittance de loyer non manuscrite (NB : les quittances entre particuliers ne sont pas acceptées).\r\nРахунок фактура на електроенергію, газ, інтернет, страхування житла,  квитанція за сплату оренди  не рукописна ( квитанції від фізичних осіб не приймаються)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Si vous êtes hébergé(e) / Якщо вас приймають",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation d'hébergement datée et signée par votre hébergeant / Довідка про проживання датована та підписана господаремNouveau champ",
+            "description": "Si vous êtes hébergé par une personne morale, l'attestation d'hébergement est suffisante. Vous n'avez pas à produire les autres documents (facture et copie de la pièce d'identité de l'hébergeant).\r\nЯкщо вас приймає юридична особа, довідки про проживання достатньо. Вам не потрібно пред'являти інші документи (фактури та копії, що посвідчують особу власника)",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Facture datant de moins de 6 mois au nom de votre hébergeant / Рахунок-фактура датована не пізніше 6 місяців на ім'я господара",
+            "description": "Facture d'électricité, de gaz, d'internet, assurance habitation ou quittance de loyer non manuscrite (NB : les quittances entre particuliers ne sont pas acceptées).\r\nРахунок фактура на електроенергію, газ, інтернет, страхування житла,  квитанція за сплату оренди , не рукописна. ( квитанції від фізичних осіб не приймаються)\r\nрахунок за воду, газ, електрику або телефон на ім’я особи",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie de la pièce d'identité de votre hébergeant / Копія документа, що посвідчує особу господаря",
+            "description": "",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

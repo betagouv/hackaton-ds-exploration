@@ -1,0 +1,571 @@
+{
+  "number": 67957,
+  "title": "Aide à l'accès (particuliers)",
+  "description": "Ce formulaire est strictement <strong>réservé aux particuliers</strong> accédant à un nouveau logement sur le territoire de Nantes Métropole et souhaitant déposer une demande d'aide aux frais d'accès.\r\n\r\nLe FSL versera sous la forme d'un forfait une aide pour participer au financement :\r\n- du dépôt de garantie\r\n- du premier mois de loyer\r\n- du double-loyer \r\n- des honoraires de location ou frais d’agence\r\n\r\nLa demande doit être déposée <strong>dans les 3 mois maximum après l'entrée dans les lieux.</strong>\r\n\r\nL'aide à l'accès ne peut être sollicitée qu'une fois tous les 36 mois. Toute nouvelle demande devra être justifiée d'une situation exceptionnelle nécessitant le relogement.\r\n\r\n<u>Conditions d'éligibilité : </u>\r\n- être en situation régulière, \r\n- ne pas avoir le seul statut scolaire ou étudiant,\r\n- être âgé de plus de 25 ans (ou ne pas disposer de soutien matériel ou financier)\r\n- ne pas dépasser les plafonds de ressources du FSL (lien vers plafonds --> https://fslnmpartenaires-drive.mycozy.cloud/public?sharecode=0undYCbb4eT8 )\r\n- le taux d’effort du logement doit être inférieur à un certain pourcentage modulé selon l'étiquette énergétique du logement (plus d'informations en cliquant ici --> https://fslnmpartenaires-drive.mycozy.cloud/public?sharecode=Qqu2e76PFZcd ) \r\n- le bail du nouveau logement doit être d’une durée minimale d’un an. \r\n\r\nSi vous utilisez pour la première fois cette plateforme, il vous sera demandé de créer un <u>compte personnel</u> ou de vous connecter via France Connect.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2022-12-21T15:10:08+01:00",
+  "service": {
+    "nom": "Fonds de Solidarité pour le Logement",
+    "organisme": "Nantes Métropole",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fsl-nm-aide-acces-particuliers",
+  "dpoUrl": "dpd@nantesmetropole.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://eservices.nantesmetropole.fr/accueil-particuliers",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006051380/",
+  "logo": {
+    "filename": "Logo_FSL_NM.png",
+    "checksum": "KXNt+6KDSZ/nLzq/wetleQ==",
+    "byteSize": "21192",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "Guide d'utilisation Demarches Simplifiées Demandes FSL NM - Ménages - V2.pdf",
+    "checksum": "VsRWRCD7jUOB2L4oxdG6lg==",
+    "byteSize": "303879",
+    "contentType": "application/pdf"
+  },
+  "deliberation": {
+    "filename": "Reglement_interieur_FSL_1er_janvier_2020.pdf",
+    "checksum": "k77Ke2ZuidFc9hB2Kqg4nw==",
+    "byteSize": "211964",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 118,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Ce formulaire est réservé aux particuliers.",
+        "description": "<p>\r\nAttention, si vous effectuez la demande <strong>en tant que travailleur social/professionnel de l'accompagnement</strong> (avec votre adresse de messagerie professionnelle nominative ou l'adresse collective utilisée pour votre structure), vous devez utiliser le formulaire dédié aux professionnels : https://www.demarches-simplifiees.fr/commencer/fsl-nm-aide-acces\r\n</p>",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1 - Vos informations personnelles",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Votre date de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Votre numéro de téléphone",
+        "description": "Le service FSL peut être amené à vous contacter directement par téléphone si besoin d'informations supplémentaires.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quelle est votre numéro allocataire CAF ou MSA ?",
+        "description": "Si en cours de mutation, saisir \"0\" \r\n\r\nSi MSA, celui-ci correspond à votre numéro de sécurité sociale. ",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quelle est votre situation familiale ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Séparé(e)",
+          "Divorcé(e)",
+          "Vie maritale",
+          "Marié(e)",
+          "Pacsé(e)",
+          "En concubinage",
+          "Veuf(ve)"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quelle est votre situation professionnelle ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Demandeur(se) d'emploi",
+          "Salarié(e)",
+          "En formation (apprentissage/alternance)",
+          "Inactif(ve)",
+          "Handicap/invalidité",
+          "En arrêt maladie",
+          "En congé parental",
+          "Travailleur(se) indépendant",
+          "Retraité(e)",
+          "Etudiant(e)"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Sélectionner le ou les critères correspondant à votre situation",
+        "description": "Le cas échéant, exposez votre situation dans l'exposé de situation ci-dessous.",
+        "required": false,
+        "options": [
+          "Personne sans-abris, en logement insalubre ou indécent",
+          "Problématique de santé et/ou de handicap",
+          "Environnement du logement fortement dégradé",
+          "Isolement social et familial",
+          "Contexte de violence (familiale/conjugale)",
+          "Risque vis-à-vis du maintien dans le logement (expulsion)"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Composition familiale",
+        "description": "",
+        "required": true,
+        "options": [
+          "Personne seule",
+          "Personne seule avec enfant(s)",
+          "Couple sans enfant",
+          "Couple avec enfant(s)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autres personnes du foyer",
+        "description": "Cliquez sur \"ajouter un élément pour autres personnes du foyer\" pour ajouter une nouvelle personne",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Lien de parenté avec vous",
+            "description": "",
+            "required": false,
+            "options": [
+              "Conjoint",
+              "Enfant",
+              "Frère/sœur",
+              "Parent",
+              "Grand-parent",
+              "Petit-enfant",
+              "Beau-frère/belle-sœur",
+              "Beau-fils/belle-fille",
+              "Membre hors foyer"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Situation scolaire ou professionnelle",
+            "description": "",
+            "required": false,
+            "options": [
+              "Enfant de moins de 3 ans",
+              "Scolarisé(e)",
+              "Etudiant(e)",
+              "Demandeur(se) d'emploi",
+              "Salarié",
+              "Inactif(ve)",
+              "En formation (apprentissage/alternance)",
+              "Handicap/invalidité",
+              "Retraité(e)",
+              "En arrêt maladie",
+              "En congé parental",
+              "Travailleur(se) indépendant"
+            ],
+            "otherOption": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - Informations sur le nouveau logement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nouvelle situation domiciliaire",
+        "description": "",
+        "required": true,
+        "options": [
+          "Locataire dans le parc social",
+          "Colocataire dans le parc social",
+          "Locataire dans le parc privé",
+          "Colocataire dans le parc privé",
+          "Sous-locataire",
+          "Résident(e) sur une aide d'accueil permanente des gens du voyage",
+          "Résident(e) en logement-foyer/résidence sociale/maison relais"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom du ou des autres colocataire(s) du logement",
+        "description": "Cette information est importante dans le cas où les autres colocataires du logement ont également déposé une demande d'aide à l'accès.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du nouveau logement",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Commune",
+        "description": "",
+        "required": true,
+        "options": [
+          "Basse-Goulaine",
+          "Bouaye",
+          "Bouguenais",
+          "Brains",
+          "Carquefou",
+          "Couëron",
+          "Indre",
+          "La-Chapelle-sur-Erdre",
+          "La Montagne",
+          "Le Pellerin",
+          "Les Sorinières",
+          "Mauves-sur-Loire",
+          "Nantes",
+          "Orvault",
+          "Rezé",
+          "Saint- Aignan de Grand Lieu",
+          "Saint-Herblain",
+          "Saint-Jean-de-Boiseau",
+          "Saint-Léger-Les-Vignes",
+          "Sainte-Luce-sur-Loire",
+          "Saint-Sébastien-sur-Loire",
+          "Sautron",
+          "Thouaré-sur-Loire",
+          "Vertou"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Qui est le propriétaire du logement pour lequel vous faites cette demande ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail de votre bailleur propriétaire",
+        "description": "Nous pouvons contacter votre bailleur afin de compléter votre dossier et transmettre le courrier de décision.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Est-ce que ce logement vous a été attribué suite à une décision prioritaire DALO ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'entrée dans le nouveau logement",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de logement",
+        "description": "",
+        "required": true,
+        "options": [
+          "Studio",
+          "T1",
+          "T1 bis",
+          "T2",
+          "T3",
+          "T4",
+          "T5 et plus"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Est-ce qu'une demande de versement direct de votre allocation de logement au bailleur a été déposée ?",
+        "description": "Formulaire de demande -> https://fslnmpartenaires-drive.mycozy.cloud/public?sharecode=EStfigsUdjTv \r\n\r\nEn cas de refus de la part de votre propriétaire bailleur, ce dernier doit vous fournir une attestation sur l'honneur de refus de mise en place du tiers-payant afin que vous puissiez l'ajouter au dossier.\r\n\r\nSi la demande est en cours d'étude par la CAF, veuillez fournir un justificatif.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Qualité du logement",
+        "description": null,
+        "required": true,
+        "options": [
+          "Bon état",
+          "Présomption d'indécence",
+          "Présomption d'insalubrité",
+          "Indécence avérée",
+          "Insalubrité avérée"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Le paiement du chauffage",
+        "description": "",
+        "required": true,
+        "options": [
+          "Est inclus dans les charges locatives",
+          "Est exclu des charges locatives"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - Nature de la demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre situation avant l'entrée dans ce nouveau logement",
+        "description": "",
+        "required": true,
+        "options": [
+          "Locataire dans le parc social",
+          "Locataire dans le parc privé",
+          "Sans domicile",
+          "Hébergé(e) par un tiers/la famille",
+          "Résident(e) en logement-foyer/résidence sociale/maison relais",
+          "Hébergé(e) dans une structure d'hébergement",
+          "Sous-locataire",
+          "Logé dans un logement d'urgence",
+          "Résident(e) sur une aide d'accueil permanente des gens du voyage",
+          "Hôtel",
+          "Hébergement mobile",
+          "Propriétaire occupant",
+          "Propriétaire accédant"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Pour quelle raison emménagez-vous dans ce logement ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Vous êtes sans logement ou hébergé par quelqu'un/la famille",
+          "Mon ancien logement était trop cher",
+          "Mon ancien logement était trop grand ou trop petit",
+          "Mon ancien logement n'était pas adapté à mon handicap",
+          "Ma situation familiale a évolué",
+          "J'ai été expulsé de mon ancien logement",
+          "L'ancien logement était insalubre, indécent ou indigne",
+          "Problèmes d'environnement ou de voisinage dans mon ancien logement",
+          "Glissement de bail suite à une sous-location",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Est-ce que vous ou une autre personne a déjà réglé les frais d'accès ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom/prénom de la ou les personne(s) ayant réglé les frais",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si vous percevez un salaire, avez-vous reçu une aide d'Action Logement dans le cadre de votre déménagement ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Demande en cours de dépôt"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Montant de l'aide d'Action Logement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si vous avez moins de 25 ans, avez-vous reçu une aide du Fonds d'aide aux jeunes (FAJ) dans le cadre de votre déménagement ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Demande en cours de dépôt"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Montant de l'aide du Fonds d'aide aux Jeunes (FAJ)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Exposé de situation",
+        "description": "Veuillez exposez votre situation et les raisons pour lesquelles vous déposez une demande d'aide à l'accès au FSL.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - Pièces justificatives",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Vos ressources",
+        "description": "Veuillez télécharger le fichier suivant, le compléter et le joindre.\r\n\r\nConcernant l'APL/AL, indiquez le montant estimé par la CAF. ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif d'identité recto-verso",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatifs des ressources perçues au cours des 3 derniers mois",
+        "description": "Uniquement pour le salaire, les indemnités journalières, les retraites et les versements pôle emploi.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de votre bailleur",
+        "description": "Si votre propriétaire est un bailleur social, il doit fournir une attestation. Celle-ci doit préciser :  \r\n- l'adresse et la nature du logement qui vous est attribué\r\n- le montant du loyer mensuel, des charges locatives (préciser si le chauffage est compris), de l'APL (estimé) et du RLS.\r\n- l'étiquette énergétique de votre logement.\r\n- le détail des frais d'accès (dépôt de garantie, premiers mois de loyer).",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie du bail ou convention d'occupation fourni avec un DPE (Diagnostic de Performance Energétique)",
+        "description": "Le bail doit être établi par écrit, daté et signé des deux parties. Il doit être d'une durée minimum d'un an et doit y figurer le <u>détail</u> des frais d'accès.",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Justificatif(s) de paiement des frais",
+        "description": "Quittance/état de compte/facture acquittée",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Justificatif",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation sur l'honneur du prêteur ayant avancé les frais certifiant avoir avancé les frais",
+        "description": "Si une personne a avancé les frais d'accès pour vous, elle doit rédiger une attestation sur l'honneur certifiant avoir avancé les frais.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "RIB de la ou les personnes ayant déjà réglé les frais",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "RIB",
+            "description": "Cliquez sur \"ajouter un élément\" si différentes personnes ont réglé les frais",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB de votre propriétaire bailleur",
+        "description": "Dans le cas où les frais d'accès n'ont pas déjà été réglés, l'aide sera versée à votre bailleur.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de refus de mise en place du versement direct de l'APL/AL à votre bailleur",
+        "description": "Attestation sur l'honneur complété et signé par votre propriétaire bailleur certifiant son refus pour la mise en place du versement direct de l'APL/AL.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de demande de versement direct de l'APL/AL",
+        "description": "Justificatif CAF/MSA",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autre pièce",
+        "description": "Autre pièce que vous souhaitez joindre au dossier.\nNon obligatoire",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autre pièce",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5 - Validation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information sur la protection des données",
+        "description": "Dans le cadre de l'article 6 de la loi n° 90-449 du 31 mai 1990 visant à la mise en œuvre du droit au logement et du Règlement Intérieur du Fonds de Solidarité pour le Logement, Nantes Métropole va collecter et enregistrer les informations recueillies dans ce formulaire afin d'instruire votre demande d'aide FSL et aux fins d'évaluation des politiques publiques en la matière. \nLes données collectées seront réservées à l'usage du Fonds de Solidarité pour le Logement et seront conservées pendant trois ans après la clôture de votre dossier. \nConformément à la loi n°78-17 du 6 janvier 1978 dite \"informatique et liberté\" et au Règlement Européen sur la Protection des données 2016/679, vous pouvez accéder aux données vous concernant, les rectifier, demander leur effacement ou exercer votre droit à la limitation du traitement de vos données.\nPour exercer ces droits ou pour toute question sur le traitement de vos données dans ce dispositif, vous pouvez contacter le délégué à la protection des données de la collectivité (dpd@nantesmetropole.fr).\nVous avez le droit d'introduire une réclamation auprès de l'autorité de contrôle, la Commission Nationale de l'Informatique et des Libertés (CNIL – 3 Place de Fontenoy – TSA 80715) – 75334 PARIS CEDEX 07 – www.cnil.fr) ",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie sur l'honneur que les renseignements admnistratifs et financiers portés sur la présente demande, sont exacts et sincères.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m'engage par la présente à autoriser l'instructeur à recueillir auprès du bailleur ou des créanciers toute information utile à l'instruction de cette demande.",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

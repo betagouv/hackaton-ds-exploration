@@ -1,0 +1,149 @@
+{
+  "number": 72224,
+  "title": "Club utilisateurs du Programme Vitam : nouveau membre",
+  "description": "Formulaire pour les nouveaux membres du Club utilisateurs du Programme Vitam",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Culture"
+  ],
+  "datePublication": "2023-03-17T15:11:26+01:00",
+  "service": {
+    "nom": "Programme Vitam",
+    "organisme": "Programme Vitam, Service du numérique, ministère de la Culture",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/vitam-club-utilisateurs",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.programmevitam.fr/pages/presentation/pres_acteurs_club/",
+  "cadreJuridiqueUrl": "https://www.programmevitam.fr/",
+  "logo": {
+    "filename": "ClubUtilisateur@0.5x.png",
+    "checksum": "fqYr3v2ZPcrnPLqEuWmxMw==",
+    "byteSize": "16960",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 16,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'organisation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom prénom de la personne remplissant le formulaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email de la personne remplissant le formulaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone de la personne remplissant le formulaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'organisation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'organisation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Logo de l'organisation",
+        "description": "Si l'organisation est d'accord, le logo nous permettra d'annoncer votre arrivée au sein du Club utilisateurs et d'afficher votre organisation parmi ses membres.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Personnes de votre organisation devant accéder aux outils du Programme Vitam",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Nous allons vous ouvrir les accès à différents outils par une inscription à notre annuaire LDAP. Cela vous permettra d'accéder aux environnements partenaires et à l'outil de tickets Tuleap.",
+        "description": "Nous avons besoin de savoir qui souhaite y accéder au sein de votre équipe en nous fournissant nom, prénom et adresse email.\r\nUn accès LDAP sera ouvert avec un identifiant sous la forme 'initiale du prénom nom' (exemple agrippon) avec un mot de passe transmis par Thierry Devillechabrolle par mail. En plus des environnements partenaires, cela vous permettra également d'avoir accès à Tuleap, l'outil de tickets.\r\nhttps://rec.env.programmevitam.fr/",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Identité des personnes: nom, prénom et adresse email",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre coffre sur les environnements partenaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Accès à Vitam-UI",
+        "description": "Pour Vitam UI, le front-office de Vitam, un coffre pour votre organisation va être créé. Pour cela, nous avons besoin d'une personne super-administrateur pour votre organisation qui pourra ensuite créer d'autres utilisateurs ainsi que du nom de domaine des adresses de messagerie des utilisateurs.\r\nhttps://v6rc-ui.env.programmevitam.fr/",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identité de l'administrateur du coffre",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de domaine à associer au coffre",
+        "description": "Type culture.gouv.fr, societe.com, etc.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Accès à Osmose",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le Programme Vitam sur Osmose",
+        "description": "Le Programme Vitam dispose de plusieurs espaces Osmose :\r\n- accueil général (sous espace : ReSIP\r\n- Club utilisateurs (sous espaces : collectivités territoriales, chantier signature électronique)\r\n- Echanges fonctionnels\r\n- Echanges techniques\r\n- Entreprises du secteur numérique (pour les dites entreprises)\r\nIl s'agit de nous fournir les identités des personnes souhaitant accéder à ces espaces.\r\nhttps://osmose.numerique.gouv.fr/jcms/p_2700039/fr/-vitam-accueil-programme-vitam",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom, prénom, adresse e-mail des personnes à inscrire dans les espaces Osmose",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Merci !",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Aide sur la prise en main des outils du Club utilisateurs",
+        "description": "La documentation sur Vitam-UI est disponible sur le site : https://www.programmevitam.fr/pages/documentation/pour_vitamUI/\r\nDe courts tuto sont disponibles sur Osmose : https://osmose.numerique.gouv.fr/jcms/184250795_JLearnResource/fr/se-connecter-aux-outils-du-club-utilisateurs, https://osmose.numerique.gouv.fr/jcms/188210319_JLearnResource/fr/se-connecter-a-vitam-ui et https://osmose.numerique.gouv.fr/jcms/188315830_JLearnResource/fr/vitam-ui-creer-un-groupe-de-profil-et-un-utilisateur\r\n\r\nTuleap, l'outil de tickets, est disponible ici : https://assistance.programmevitam.fr/ et un tuto est disponible ici: https://osmose.numerique.gouv.fr/jcms/p_2693855/fr/tuleap-v0-3\r\n\r\nPour toute question sur le fonctionnement et les outils du Club utilisateurs : Alice Grippon, alice.grippon@culture.gouv.fr et 0186696003",
+        "required": false
+      }
+    ]
+  }
+}

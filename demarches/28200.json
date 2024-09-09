@@ -1,0 +1,91 @@
+{
+  "number": 28200,
+  "title": "Déposer vos documents",
+  "description": "Formulaire en ligne permettant le dépôt de document pour votre Caisse Primaire d'Assurance Maladie\r\n(Réservé à la CPAM de la Manche)",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2020-06-09T14:50:56+02:00",
+  "service": {
+    "nom": "Caisse Primaire d'Assurance Maladie - Pôle assuré",
+    "organisme": "CPAM ",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/deposer-vos-documents",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "declic.cpam50.fr",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/",
+  "logo": {
+    "filename": "logo CPAM.png",
+    "checksum": "hAQF+K0XZRI3JxIgj54dAw==",
+    "byteSize": "60707",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre formulaire de dépôt",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "La CPAM de la Manche vous offre dorénavant la possibilité d'adresser vos documents, nécessaires à l'instruction de votre dossier (merci de conserver les documents originaux), en complétant le formulaire suivant.",
+        "description": "En cas de questions et/ou demandes de renseignement, nous vous invitons à vous connecter sur le site Ameli (une réponse vous sera apportée dans un délai de 48 heures) ou à contacter le 3646.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre demande concerne",
+        "description": null,
+        "required": true,
+        "options": [
+          "Paiement d'indemnités journalières maladie, maternité, congés paternité",
+          "Paiement d'indemnités journalières accident du travail/maladie professionnelle",
+          "Invalidité",
+          "Accident du travail/Maladie Professionnelle",
+          "Complémentaire Santé solidaire (C2S)",
+          "Aide à une complémentaire santé",
+          "Informations administratives et droits (affiliation et changement de situation...)",
+          "Commission de Recours Amiable",
+          "Feuille de soins"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de sécurité sociale",
+        "description": "Saisir les 15 chiffres sans espace",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Vos pièces à fournir",
+        "description": "Plusieurs pièces à déposer, vous pouvez faire \"+ Ajouter un élément pour......\"",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déposer ici vos pièces",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

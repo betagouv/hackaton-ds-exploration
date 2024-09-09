@@ -1,0 +1,231 @@
+{
+  "number": 65527,
+  "title": "F101 - Déclaration d’un nouveau représentant légal",
+  "description": "<strong>Pré requis : </strong>La structure doit déjà avoir souscrit un contrat d’adhésion auprès de l'ANS.\r\n\r\nLe représentant légal doit être :\r\n\r\n- Professionnel de Santé à Ordre\r\n- Professionnel de santé et professionnel de la santé enregistré par les ARS\r\n- Personnel administratif travaillant dans le domaine de la santé et du médico-social\r\n\r\nCette démarche est l’équivalent en ligne du formulaire de <i>commande de carte pour le représentant légal d’une structure (F101). </i>",
+  "tags": [
+    "ANS"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-12-02T10:18:19+01:00",
+  "service": {
+    "nom": "Agence du Numérique en Santé – Service clients",
+    "organisme": "Agence du Numérique en Santé",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/f101",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://esante.gouv.fr/documents/101",
+  "cadreJuridiqueUrl": "https://esante.gouv.fr/services/mentions-legales",
+  "logo": {
+    "filename": "Logo ANS.png",
+    "checksum": "JYFOVj2PrV1k00rrX0n2BQ==",
+    "byteSize": "232068",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 454,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Commander une carte CDE ou CDA (CPE ou CPA avec la mention de directeur)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Objet de la démarche",
+        "description": "La présente démarche s’adresse au représentant légal d’une structure qui n’est pas un professionnel de santé, et qui ne peut donc pas être titulaire d’une carte CPS.\r\nIl a pour objet de permettre l’attribution au représentant légal non professionnel de santé :\r\n\r\n\r\n<p>- d’une carte CDE (Carte de Directeur d’Etablissement), si celui-ci exerce dans une structure prenant en charge des patients/usagers, </p>\r\n<p>- d’une carte CDA (Carte de Directeur Autorisé), s’il exerce dans une structure ne prenant pas en charge de patients / usagers.</p>",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification du bénéficiaire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "FINESS",
+        "description": "Champ obligatoire composé de 9 chiffres pour les structures prenant en charge des patients ou des usagers.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Représentant légal",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom(s)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de matricule",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone portable",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email professionnel",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations spécifiques",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Adresse de livraison de la carte",
+        "description": "Renseignez les champs suivants uniquement si l'adresse de livraison est différente de celle de la structure désignée par le SIRET renseigné en préambule de cette démarche. ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'établissement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de livraison",
+        "description": "Préciser le pays pour les adresses hors France",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Demande particulière d'impression (facultatif)",
+        "description": "Si vous le souhaitez un libellé spécifique peut être imprimé sur les cartes de personnel de structure pour identifier celle-ci. \r\nExemple : C.H.U de BESANCON",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Libellé à imprimer sur les cartes de personnel de structure pour identifier la structure",
+        "description": "Le libellé ne doit pas dépasser 25 caractères espaces inclus. \r\nLes caractères spéciaux (à,é,@,!,?#,etc.) ne sont pas pris en charge. \r\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pour les structures fournissant de l'appareillage médical",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Etes vous une structure ayant une activité de fournisseur de l'appareillage médical",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Qui est concerné par cette partie ?",
+        "description": "Toute structure ayant une activité de fournisseur d’appareillage médical doit préciser les informations suivantes :",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Activité menée dans le cadre de la liste des produits et prestations remboursables par l’Assurance Maladie (LPP) et déclarée sur le K-bis comme activité principale.",
+        "description": " Une seule sélection peut être faite",
+        "required": true,
+        "options": [
+          "Non concerné(e)",
+          "Audioprothèse",
+          "Optique",
+          "Orthoprothèse",
+          "Orthopédie-orthèse",
+          "Prothèse oculaire",
+          "Epithèse",
+          "Podo-orthèse",
+          "Prestataires et autres"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mode d'exercice de l'établissement",
+        "description": "",
+        "required": true,
+        "options": [
+          "Indépendant (libéral)",
+          "Salarié"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives à joindre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si vous ne vous êtes pas connecté par France Connect, merci de nous faire parvenir un justificatif de votre identité",
+        "description": "Carte d’identité française/européenne (recto & verso), passeport européen, permis de conduire, carte de séjour ou de résident.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de représentant légal",
+        "description": "Copie de l’acte de nomination désignant le représentant légal de la structure dûment habilité à signer le présent Contrat (décret, arrêté, décision, procès-verbal d’Assemblée Générale, extrait du K-bis datant de moins de 3 mois et mentionnant le nom du représentant légal, etc.) ou de l’acte formalisant la délégation de signature",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Autorité d'enregistrement",
+        "description": "Si vous appartenez à une autorité d'enregistrement merci de nous fournir : \r\n\r\n- Pour les transporteurs sanitaires (hors taxis): l'agrément de l'ARS\r\n- Pour les taxis : l'exemplaire de la convention signée par la direction de la CPAM dont vous dépendez\r\n- Pour les établissements de santé publics : l'attestation d'enregistrement du Centre National de Gestion (CNG)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation d'enregistrement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie avoir lu et accepté les conditions générales d’utilisation relatives aux moyens d’identification électronique.",
+        "description": "les C.G.U sont consultables à l'adresse suivante : https://esante.gouv.fr/procedures/conditions-generales-utilisation",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie exactes les informations mentionnées ci-dessus. Il est rappelé que les fraudes et tentatives de fraude sont passibles de sanctions pénales et peuvent conduire à la suspension de l'instruction de votre demande ou au retrait des droits dont le bénéfice est demandé.",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

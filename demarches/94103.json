@@ -1,0 +1,836 @@
+{
+  "number": 94103,
+  "title": "Indicateurs de suivi du dispositif des équipes mobiles de prévention des expulsions locatives",
+  "description": "Le questionnaire vise à recueillir les indicateurs d'activité, de typologie, de réalisation et de résultat des 26 équipes mobiles de prévention des expulsions locatives présentes sur le territoire.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2024-06-03T17:34:25+02:00",
+  "service": {
+    "nom": "Pôle national de prévention des expulsions locatives",
+    "organisme": "Délégation Interministérielle à l'Hébergement et à l'Accès au Logement (Dihal)",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/indicateurs-de-suivi-du-dispositif-des-equipes-mob",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.idealco.fr/groupe/1549",
+  "cadreJuridiqueUrl": "https://www.info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2021_06_3eme_plan_dactions_interministeriel_de_prevention_des_expulsions_locatives_dihal_02.06.2021.pdf",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 17,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Période renseignée :",
+        "description": "Période correspondant aux indicateurs renseignés.",
+        "required": true,
+        "options": [
+          "Bilan mi-annuel (du 1er janvier au 30 juin 2024)",
+          "Bilan annuel (du 1er janvier au 31 décembre 2024)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Opérateur :",
+        "description": "Renseignez votre structure.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Notice explicative",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1 - Bilan d'activité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Bilan d'activité mi-annuel",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "1 - 1. Nombre total de nouveaux ménages sur l'année écoulée pour lesquels l'EMPEX a été saisie :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "1 - 1. Nombre total de nouveaux ménages sur le premier semestre de l'année pour lesquels l'EMPEX a été saisie :",
+        "description": "Sur la période courant du 1er janvier au 30 juin.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tDont nouveaux ménages avant le CDP :",
+        "description": "Nombre de nouveaux ménages pour lesquels l'EMPEX a été saisie avant le CDP sur l'année écoulée.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tDont nouveaux ménages au stade du CDP :",
+        "description": "Nombre de nouveaux ménages pour lesquels l'EMPEX a été saisie au stade du CDP sur l'année écoulée.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tDont nouveaux ménages au stade de l'assignation :",
+        "description": "Nombre de nouveaux ménages pour lesquels l'EMPEX a été saisie au stade de l'assignation sur l'année écoulée.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tDont nouveaux ménages au stade du CQL :",
+        "description": "Nombre de nouveaux ménages pour lesquels l'EMPEX a été saisie au stade du CQL sur l'année écoulée.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tDont nouveaux ménages au stade du CFP :",
+        "description": "Nombre de nouveaux ménages pour lesquels l'EMPEX a été saisie au stade du CFP sur l'année écoulée.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "1 - 2. Nombre de ménages pour lesquels l'accompagnement par l'EMPEX a pris fin au cours de l'année :",
+        "description": "Concerne toutes les sorties, y compris des ménages pour lesquelles l'EMPEX est intervenue antérieurement au 1er janvier de l'année.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "1 - 2. Nombre de ménages pour lesquels l'accompagnement par l'EMPEX a pris fin au cours du premier semestre de l'année :",
+        "description": "Concerne toutes les sorties, y compris des ménages pour lesquelles l'EMPEX est intervenue antérieurement au 1er janvier de l'année.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "1 - 3. Au 31 décembre, nombre de ménages accompagnés par l'EMPEX :",
+        "description": "Stock de ménages accompagnés en date du 31/12/2024",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "1 - 4. Intervenez-vous au domicile des ménages en binôme ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui, systématiquement",
+          "Oui, ponctuellement",
+          "Non, jamais"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les deux professionnels du binôme interviennent-ils ensemble ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui, les deux membres du binôme interviennent ensemble au domicile du ménage.",
+          "Non, un seul membre du binôme intervient au domicile du ménage."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les deux professionnels du binôme sont-ils internes à la même structure ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui, les deux professionnels mobilisés sont internes à la même structure.",
+          "Non, le binôme est composé de deux professionnels de structures différentes."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quels sont les professionnels qui composent ce binôme ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "1 travailleur social et 1 juriste",
+          "2 travailleurs sociaux"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - Indicateurs de typologie",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "À renseigner au moment de la saisine de l’EMPEX ou lors des premiers rendez-vous avec le ménage.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - 1. Enfant mineur à charge.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages avec au moins un enfant mineur à charge :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages pour lesquels la donnée est indisponible :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - 2. Nombre de ménages pour lesquels l'âge du signataire du bail le plus âgé est :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tMoins de 25 ans :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tEntre 25 et 62 ans :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tPlus de 62 ans :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tÂge inconnu :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - 3. Activité professionnelle.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages en activité professionnelle :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages pour lesquels la donnée est indisponible :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - 4. Allocataires CAF.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages allocataires de la CAF :",
+        "description": "Nombre de ménages disposant d’un numéro d’allocataire et percevant au moins une prestation de la CAF, quelle que soit la nature de la prestation.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages pour lesquels la donnée est indisponible :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - 5. Allocataires MSA.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages allocataires de la MSA :",
+        "description": "Nombre de ménages percevant au moins une prestation sociale de la MSA.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages pour lesquels la donnée est indisponible :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - 6. Allocation logement.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombres de ménages bénéficiaires d'une allocation logement :",
+        "description": "Allocation en cours ou suspendue.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages pour lesquels la donnée est indisponible :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - 7. Nombre de ménages pour lesquels vous avez évalué que la cause principale à l’origine de l'impayé est : (une seule réponse par ménage)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tUne rupture familiale :",
+        "description": "(divorce, séparation, décès, décohabitation familiale) ",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tUne baisse des ressources :",
+        "description": " (perte d’emploi, passage à la retraite, invalidité/handicap, maladie, etc.)",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tRessources insuffisantes en raison d’un non-recours aux droits auxquels le ménage pourrait prétendre :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tDes difficultés sociales :",
+        "description": "(problème de santé, santé mentale, difficultés administratives, difficultés de gestion)",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tUn conflit avec le bailleur :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tCauses inconnues :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - 8. Nombre de ménages pour lesquels le montant d'impayé de loyers (en tranches d'impayés, au moment de la saisine de l'EMPEX) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tEst inférieur à 500 euros :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tSe situe entre 501 et 1 000 euros :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tSe situe entre 1 001 et 3 000 euros :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tSe situe entre 3 001 et 6 000 euros :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tSe situe entre 6 001 et 10 000 euros :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tEst supérieur à 10 000 euros :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - 9. Nombre de ménages pour lesquels le montant d'impayé de loyers (en nombre de loyers mensuels nets ou bruts de charges, au moment de la saisine de l'EMPEX) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tEst inférieur à 2 mois :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tSe situe entre 2 et 3 mois :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tSe situe entre 4 et 6 mois :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tSe situe entre 7 et 12 mois :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tEst supérieur à 12 mois :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - Indicateurs de réalisation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - 1. Rencontre avec le ménage.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre total de ménages rencontrés au moins une fois :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tDont nombre d’évaluations sociales réalisées :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - 2. Diagnostic social et financier (DSF).",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de diagnostic social et financier (DSF)  complétés ou actualisés :",
+        "description": "(avec ou sans la participation du ménage) \r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "o\tSi non concerné, renseigner NC.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - 3. Nombre de ménages pour lesquels au stade de l'évaluation sociale, l’EMPEX préconise :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "a) Le relogement du ménage :",
+        "description": "Si non concerné, renseigner NC.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tDont en raison d'un loyer trop élevé au regard des ressources du ménage :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tDont en raison d'une typologie non adaptée à la composition du ménage :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tDont en raison d'une situation géographique non adaptée à la situation (distance au lieu de travail, etc.) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "o\tAutre, précisez :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "b) Le maintien du ménage dans son logement :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "c) Autres, précisez :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - 4. Contact avec le bailleur.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de bailleurs contactés :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tDont nombre de ménages pour lesquels l'EMPEX a eu un rôle de médiation avec le bailleur :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - 5. Ouverture de droit.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages pour lesquels au moins un droit a été ouvert :",
+        "description": "(APL, RSA, prime d’activité, prestations familiales, CSS, indemnités chômage, chèque énergie, etc.)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - 6. Demande d'accompagnement.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages pour lesquels une demande d’accompagnement (ASLL ou AVDL) a été sollicitée par l’EMPEX :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - 7. Demande de protection.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages pour lesquels une demande de protection ou de MASP, MAJ, MJAGBF, signalement au procureur, a été sollicité par l’EMPEX :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - 8. Relais partenaire.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages pour lesquels un relais avec un autre partenaire a été mis en place :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - 9. Insertion professionnelle.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages orientés vers des dispositifs d’insertion professionnelle :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - 10. Santé mentale.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages orientés vers un dispositif de santé mentale :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - 11. Orientation avocat / aide juridictionnelle.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages orientés vers un avocat ou l’aide juridictionnelle par l’EMPEX :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - 12. Accompagnement vers l'audience.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages rencontré par l’EMPEX au stade du CDP et accompagnés néanmoins jusqu’à l’audience :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - 13. Accompagnement physique à l'audience.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "o\tNombre de ménages accompagnés physiquement à l’audience par l’EMPEX :",
+        "description": "Si non concerné, renseigner NC.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - 14 - Demande de logement social (DLS).",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages disposant d'une DLS en cours :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - 15. Recours DALO.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de recours DALO déposés :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - 16. Orientation vers l'hébergement.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre d’orientations vers un dispositif d’hébergement (ou constitution d’un dossier SIAO) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - Indicateurs de résultat",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "À compléter lorsque l'intervention de l'EMPEX prend fin.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - 1. Nombre de ménages pour lesquels l'accompagnement de l'EMPEX a permis :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tLe maintien sécurisé du ménage dans son logement :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tLe relogement du ménage :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - 2. Résorption des impayés de loyer.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages pour lesquels l’impayé de loyer a été résorbé :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages pour lesquels la donnée est indisponible :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - 3. Plan d'apurement.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages pour lesquels un plan d'apurement a été mis en place avec le bailleur :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 -4. Garantie Visale.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages pour lesquels la garantie Visale souscrite à la signature du bail a été mobilisée :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - 5. Demande FSL.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages pour lesquels une demande de FSL a été sollicitée en vue de solder en partie ou en totalité la dette :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - 6. Dossier de surendettement.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tNombre de ménages pour lesquels un dossier de surendettement a été déposé :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - 7. Nombre de ménages pour lesquels le montant de l’impayé à l’issue de l’intervention de l’EMPEX (pour les situations où la dette n'a pu être totalement soldée) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tEst inférieur à 500 euros :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tSe situe entre 501 et 1 000 euros :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tSe situe entre 1 001 et 3 000 euros :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tSe situe entre 3 001 et 6 000 euros :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tSe situe entre 6 001 et 10 000 euros :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tEst supérieur à 10 000 euros :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "o\tDonnée indisponible :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires, précisions...",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

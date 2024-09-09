@@ -1,0 +1,97 @@
+{
+  "number": 50154,
+  "title": "CD08 - Recours Administratif Préalable Obligatoire",
+  "description": "Formulaire de Recours Administratif Préalable Obligatoire dans le cadre d'une sanction RSA.",
+  "tags": [
+    "Rsa"
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2021-10-26T16:14:29+02:00",
+  "service": {
+    "nom": "Service Orientation et Accompagnement vers l'Emploi",
+    "organisme": "Conseil départemental des Ardennes",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/rapo",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "www.cd08.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028251485/",
+  "logo": {
+    "filename": "Logo_CD08.jpg",
+    "checksum": "lz+0kxukKorCpKVnNRTMKg==",
+    "byteSize": "454169",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 271,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations complémentaires du demandeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° allocataire",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre recours",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Votre recours",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Documents justificatifs",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Informations importantes",
+        "description": "A l'issu du dépôt du Recours Administratif Préalable Obligatoire, vous recevez un accusé de réception de dépôt. \nL'administration dispose d'un délai de 2 mois pour traiter votre recours. L'absence de réponse dans les deux mois suivant la date de l'avis de réception du présent recours vaut rejet implicite de celui-ci. \nLa décision de rejet peut être contestée dans un délai de deux mois auprès du Tribunal Administratif.\nL'envoi du présent recours n'est pas suspensif de la procédure de sanction. ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Décision contesté",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie de la décision contesté",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

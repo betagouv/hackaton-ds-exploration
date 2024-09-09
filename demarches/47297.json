@@ -1,0 +1,367 @@
+{
+  "number": 47297,
+  "title": "CELLULE DE RENTREE 2ND DEGRE - DEMANDES D'AFFECTATION ",
+  "description": "Demandes d'affectations à la rentrée 2021 dans le 2nd degré\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2021-08-26T22:01:56+02:00",
+  "service": {
+    "nom": "CELLULE DE RENTREE  2nd Degré",
+    "organisme": "Académie de Martinique",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/cellule-de-rentree-2d-demandes-d-affectation",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.ac-martinique.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr",
+  "logo": {
+    "filename": "12_logoAC_MARTINIQUE.jpg",
+    "checksum": "8R8M9CuuGkTIFYxWMC9qdQ==",
+    "byteSize": "658722",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 53,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "IDENTIFICATION",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "TYPE D'ETABLISSEMENT",
+            "description": null,
+            "required": true,
+            "options": [
+              "CLG",
+              "CLG / SEGPA",
+              "LGT",
+              "LPO",
+              "LP",
+              "SEP",
+              "CIO"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "ETABLISSEMENT",
+            "description": "Saisir le nom de l'établissement",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "RNE",
+            "description": "Saisir le RNE",
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "EMAIL",
+            "description": "Saisir l'adresse email de l'établissement",
+            "required": true
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "TELEPHONE",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "FAX",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "PERSONNEL ADMINISTRATIF, SANTÉ, SOCIAL, ORIENTATION",
+        "description": "Conformément à la dotation. Préciser : Temps Plein - Mi-Temps",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "DATE DE LA DEMANDE",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "N° DE LA DEMANDE",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "FONCTION",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "STATUT",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "QUOTITE HORAIRE",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "OBERVATIONS",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "STATUT DE LA DEMANDE",
+            "description": "Cadre réservé à la cellule",
+            "required": false,
+            "options": [
+              "En cours de traitement",
+              "Traité"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "PERSONNEL DE VIE SCOLAIRE",
+        "description": "Les quotités horaires indiquées doivent être conformes au TRM",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "DATE DE LA DEMANDE",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "N°  DE LA DEMANDE",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "FONCTION",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "STATUT",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "QUOTITE HORAIRE",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "OBERVATIONS",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "STATUT DE LA DEMANDE",
+            "description": "Cadre réservé à la cellule",
+            "required": false,
+            "options": [
+              "En cours de traitement",
+              "Traité"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "PERSONNEL ENSEIGNANT",
+        "description": "Les quotités horaires indiquées doivent être conformes au TRM",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "DATE DE LA DEMANDE",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "N° DE LA DEMANDE",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "CODE DE LA DISCIPLINE",
+            "description": null,
+            "required": false,
+            "options": [
+              "C0217  :  LET MUSICA",
+              "C0218  :  LET ARTS P",
+              "C1315  :  MATH.SC.PH",
+              "C1317  :  MATH.EDUCA",
+              "E0030  :  EDUCATION",
+              "L0080   :  DOC LYCEES",
+              "L0100  :  PHILOSOPHI",
+              "L0201  :  LETT CLASS",
+              "L0202  :  LET MODERN",
+              "L0421  :  ALLEMAND  ",
+              "L0422  :  ANGLAIS   ",
+              "L0426  :  ESPAGNOL  ",
+              "L0433  :  PORTUGAIS ",
+              "L0449  :  CREOLE    ",
+              "L0452  :  CREOL LET ",
+              "L0460  :  CREOL ANGL",
+              "L1000  :  HIST. GEO.",
+              "L1100  :  SC.ECO.SOC",
+              "L1300  :  MATHEMATIQ",
+              "L1400  :  TECHNOLOGI",
+              "L1411  :  SII.AC    ",
+              "L1412  :  SII.EE    ",
+              "L1413  :  SII.SIN   ",
+              "L1414  :  SII.ING.ME",
+              "L1500  :  PHY.CHIMIE",
+              "L1510  :  PH ELEC AP",
+              "L1600  :  S. V. T.  ",
+              "L1700  :  EDU MUSICA",
+              "L1800  :  ARTS PLAST",
+              "L1900  :  E. P. S   ",
+              "L4010  :  SC.TEC.IND",
+              "L4100  :  G.ME.CONST",
+              "L6500  :  ARTS APPLI",
+              "L6520  :  DESIG COMM",
+              "L7100  :  BIOCH.BIOL",
+              "L7200  :  BIOT.SANTE",
+              "L7300  :  SC.&.TEC M",
+              "L8010  :  ECO.&.GEST",
+              "L8011  :  ECO.GE.COM",
+              "L8012  :  ECO.GE.FIN",
+              "L8013  :  ECO.GE.MK ",
+              "L8015  :  MUC       ",
+              "L8017  :  NRC       ",
+              "L8031  :  ECO.GE.SI ",
+              "L8510  :  PROD.CULIN",
+              "L8520  :  SERV.ACC  ",
+              "L8530  :  H TOURISME",
+              "Y0011  :  PSY-EN EDA",
+              "Y0012  :  PSY-EN EDO",
+              "P0080  :  DOCUMENT.",
+              "P0210  :  LET.HIS.GE",
+              "P0222  :  LET ANGLAI",
+              "P0226  :  LET ESPAGN",
+              "P1315  :  MATH.SC.PH",
+              "P2100  :  G.IND.BOIS",
+              "P2200  :  G.IND.TEXT",
+              "P2220  :  ENTRE TEXT",
+              "P2400  :  G.I.S.MET ",
+              "P2402  :  MET FEUILL",
+              "P2450  :  CONS.R.CAR",
+              "P3010  :  G.CONS.ECO",
+              "P3020  :  G.CONS.REA",
+              "P3027  :  PEINT VITR",
+              "P3028  :  PEINT REVT",
+              "P3100  :  GENIE THER",
+              "P4100  :  G.MEC.CONS",
+              "P4200  :  G.MEC.PROD",
+              "P4210  :  MICROTECHN",
+              "P4500  :  G.MECA.ENG",
+              "P4530  :  MA. BATEAU",
+              "P4550  :  G.MEC.AUTO",
+              "P5100  :  G.ELECTRON",
+              "P5112  :  AUDIOVISU ",
+              "P5120  :  M. R. B. T",
+              "P5150  :  MATH-SC.EL",
+              "P5200  :  G.ELECTROT",
+              "P6500  :  ARTS APPLI",
+              "P6501  :  DESSIN ART",
+              "P6630  :  ARTS METAL",
+              "P6640  :  ARTS TEXTI",
+              "P6971  :  FLEURISTE ",
+              "P6980  :  CINE & PHO",
+              "P7140  :  HORTICULTU",
+              "P7200  :  BIOTECHNOL",
+              "P7202  :  GENIE BIO.",
+              "P7210  :  EMP.TECH.C",
+              "P7300  :  SC.TEC.MED",
+              "P7410  :  ESTH.COSME",
+              "P7420  :  COIFFURE  ",
+              "P8013  :  ECO.GE.VEN",
+              "P8038  :  ECO.GE.LOG",
+              "P8039  :  ECO.GE.GA ",
+              "P8041  :  SECRETARIAT",
+              "P8510  :  H.TECH.CUL",
+              "P8512  :  PATISSERIE",
+              "P8520  :  H.SERV.COM",
+              "Y0012  :  PSY-EN EDO",
+              "Y0011  :  PSY-EN EDA"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "SPECIALITE",
+            "description": "Indiquer si nécessaire la spécialité",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "AUTRE DISCIPLINE",
+            "description": "Préciser si nécessaire le code de la discipline ET la discipline",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "QUOTITE HORAIRE",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "OBSERVATIONS",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "STATUT DE LA DEMANDE",
+            "description": "Cadre réservé à la cellule",
+            "required": false,
+            "options": [
+              "En cours de traitement",
+              "Traité"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "OBSERVATIONS COMPLEMENTAIRES",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

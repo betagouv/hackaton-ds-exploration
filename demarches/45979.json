@@ -1,0 +1,85 @@
+{
+  "number": 45979,
+  "title": "Suivi hebdomadaire SCC - Prestations d'installations bureautique 2021",
+  "description": "Les techniciens SCC renseignent chaque semaine avant jeudi 18h00 ce formulaire afin que la DNUM suive avec SCC les différentes actions menées dans les départements. \r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2021-06-21T11:18:53+02:00",
+  "service": {
+    "nom": "DNUM",
+    "organisme": "Ministère de l'intérieur",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/suivi-hebdomadaire-scc-prestations-d-installations",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://osmose.numerique.gouv.fr/",
+  "cadreJuridiqueUrl": "https://osmose.numerique.gouv.fr/jcms/c_2003504/responsables-nsic-departementaux",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 23,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de la semaine en cours",
+        "description": "(exemple : 22)",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du jour",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": "Email du technicien SCC",
+        "required": true
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département de la prestation",
+        "description": "Département du lieu de la prestation",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune",
+        "description": "Commune du lieu de la prestation ",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Prestations réalisées",
+        "description": "Cocher les prestations réalisées cette semaine",
+        "required": true,
+        "options": [
+          "Déploiement poste NOEMI",
+          "Migration dans domaine ATE",
+          "Passage à W10",
+          "Mise en conformité des postes DDI (re-masterisation des anciens postes CARINAE...)",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Données complémentaires",
+        "description": "Ce qui a été fait : \n(exemples : volume de 50 postes/semaine ou mise au point d'un processus, etc.)\n",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires sur la prestation",
+        "description": "Indiquer toute information utile aux équipes SCC et DNUM (non disponibilité des outils...)",
+        "required": true
+      }
+    ]
+  }
+}

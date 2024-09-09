@@ -1,0 +1,387 @@
+{
+  "number": 43161,
+  "title": "987_Demande de délai de paiement CHPF",
+  "description": "Formulaire de demande de délai de paiement aux redevables de titres du Centre hospitalier de la Polynésie française. ",
+  "tags": [
+    "Rh"
+  ],
+  "zones": [
+    "Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique"
+  ],
+  "datePublication": "2021-05-18T00:12:38+02:00",
+  "service": {
+    "nom": "RECOUVREMENT",
+    "organisme": "Trésorerie du centre hospitalier de la polynésie française",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/987_demande-de-delai-de-paiement-chpf",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "Haut commissariat de la polynésie Française",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/eli/decret/2012/11/7/EFIX1205948D/jo/texte",
+  "logo": {
+    "filename": "Logo_Finances Publique.jpg",
+    "checksum": "6tjhiKxQN09W0Twpstgk9A==",
+    "byteSize": "47937",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 17,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Important",
+        "description": "Madame, Monsieur,\n\nVous êtes redevable auprès du Centre hospitalier de la Polynésie française d’une dette et avez des difficultés de paiement.\nAfin d’instruire votre dossier et pouvoir vous accorder un échéancier de paiement, je vous invite à remplir le formulaire ci-dessous.\nAttention, un premier versement doit être effectué parallèlement au dépôt de votre dossier, soit par virement sur le compte de la trésorerie du centre hospitalier de la Polynésie Française (voir coordonnées ci-dessous), soit par chèque en précisant votre nom et la référence du ou des titres de recettes.\n\nRIB : 45189 00003 6C230000000 15 \nIBAN : FR43 4518 9000 036C 2300 0000 015 BIC : INDDPFT1\n\nAUCUN DOSSIER NE SERA INSTRUIT EN L’ABSENCE DE CE PREMIER VERSEMENT\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. Vos coordonées",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom d'épouse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénoms",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom Prénoms du malade si différent",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce d'identité",
+        "description": "Carte nationale d'identité ou passeport",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro DN",
+        "description": "Numéro de la CPS",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Ou",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de sécurité sociale/NIR",
+        "description": "Numéro de sécurité sociale nationale ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Adresse Postale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Coordonnées bancaires",
+        "description": "RIB",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. Créances concernées",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Numéro des titres concernés",
+        "description": "Exemple : 2021 012345",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Montant",
+        "description": "TOTAL des créances",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. Motivez votre demande",
+        "description": "Bulletin de salaire, pensions, allocations, autres........",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Choix parmi la liste",
+        "description": null,
+        "required": true,
+        "options": [
+          "Naissance",
+          "Séparation",
+          "Perte d'emploi",
+          "Décès",
+          "Accident",
+          "Autres"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Détails du motif",
+        "description": "Détailler en quelques lignes le ou les motifs",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4. Ressources et charges",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Montant des ressources moyennes mensuelles du foyer",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de votre employeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse complète",
+        "description": "De l'employeur",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de votre organisme prestataire",
+        "description": "(CPS, caisse de retraite, CAF etc...)",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse complète",
+        "description": "De l'organisme prestataire",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatifs de vos ressources",
+        "description": "Bulletin de salaire, pensions, allocations,  autres.....",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatifs de vos revenus",
+        "description": "Avis d'imposition ou de non-imposition le cas échéant",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'employeur de votre conjoint",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse complète",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'organisme prestataire de votre conjoint",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse complète de l'organisme prestataire de votre conjoint",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatifs des ressources du conjoint(e)",
+        "description": "Bulletin de salaire, pensions,allocations, autres....",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de personnes à charge",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Charges moyennes mensuelles",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Montant",
+        "description": "Total des charges mensuelles",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Détail",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": "Factures EDT, téléphone, eau, loyer, crédits, Relevés de compte, etc...",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative n°1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative N°2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative N°3",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative N°4",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative N°5",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative N°6",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5. Votre demande de délai de paiement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre d'échéances mensuelles souhaitées",
+        "description": "Attention, votre proposition doit être en accord avec vos ressources et charges et ne pas être supérieure à 12 mois. Exceptionnellement, un délai plus long pourrait être accordé mais ne sera valable que pour un an. Votre situation devra être réexaminée à l’issue de ce délai et vous devrez fournir des justificatifs actualisés de vos ressources et charges à ce moment-là.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Montant de l'échéance mensuelle",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Jour du mois souhaité",
+        "description": null,
+        "required": true,
+        "options": [
+          "-le 5 de chaque mois--",
+          "-le 10 de chaque mois--",
+          "-le 20 de chaque mois--",
+          "-le 30 de chaque mois--"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date",
+        "description": "Date de la dernière échéance",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "6. Autres renseignements",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "1. Avez-vous toujours réglé vos titres hospitaliers à la réception de l'avis/la facture ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "2. Avez-vous déjà obtenu des délais de paiement ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, quelle année",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "3. Etes-vous en situation de surendettement ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie l’exactitude des informations portées sur ce document.J’ai été informé que les informations recueillies feront l’objet d’une vérification et qu’en cas de déclaration erronée, l’octroi de délai et/ou la remise des frais pourront être annulés.",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

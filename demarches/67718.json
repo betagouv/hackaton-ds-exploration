@@ -1,0 +1,323 @@
+{
+  "number": 67718,
+  "title": "Formulaire signalement maltraitance animale - Département de l'Yonne",
+  "description": "Formulaire visant à signaler une situation de maltraitance animale auprès du service Santé Protection Animales et Environnement de la DDETSPP de l'Yonne.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2023-03-23T16:36:17+01:00",
+  "service": {
+    "nom": "Service vétérinaire santé protection animales et environnement",
+    "organisme": "Direction Départementale de l'Emploi du Travail des Solidarités et de la Protection des Populations",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/formulaire-signalement-maltraitance-animale-89",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.yonne.gouv.fr/Politiques-publiques/Agriculture/Sante-et-protection-animale/Protection-animale",
+  "cadreJuridiqueUrl": "L112-9 du code des relations entre le public et l'administration.",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 46,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Formulaire",
+        "description": "Le présent formulaire est l'unique voie de signalement d'un cas de maltraitance animale auprès de la DDETSPP de l'Yonne.\r\nLes signalements incomplets et/ou anonymes ne seront pas traités.\r\nSeuls les signalements concernant des animaux détenus dans l'Yonne sont de la compétence de la DDETSPP.\r\nEn cas de difficultés vous pouvez contacter le secrétariat du service Vétérinaire Santé Protection Animales et Environnement au 03 86 72 69 27.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vos coordonnées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom - Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "@",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Détenteur et localisation des animaux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom Prénom du détenteur des animaux signalés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du détenteur des animaux signalés",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Localisation des animaux (si différente de l'adresse du détenteur)",
+        "description": "Adresse où les animaux sont visibles.\r\nUniquement dans l'Yonne.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précisions de localisation",
+        "description": "Tout élément utile afin de trouver facilement les animaux.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description du signalement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Description des faits signalés",
+        "description": "Il s'agit d'apporter un maximum d'éléments permettant de caractériser la maltraitance en décrivant l'état des animaux, leurs conditions de vie.",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Espèces concernées",
+        "description": "",
+        "required": true,
+        "options": [
+          "Bovins",
+          "Équidés - ânes",
+          "Ovins",
+          "Caprins",
+          "Chiens",
+          "Chats",
+          "Volailles",
+          "Autres (précisez)"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez si la ou les espèces ne sont pas dans la liste",
+        "description": "ex : porcins, reptiles, lamas, rongeurs, poissons....",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre par espèce",
+        "description": "Estimation du nombre d'individus présents par espèces.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Présence d'animal mort",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre concerné",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Cadavre(s) présent(s) depuis plus de 4 jours",
+        "description": "État de décomposition du cadavre, os, restes",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface d'hébergement disponible",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Mode de détention des chiens",
+        "description": "",
+        "required": false,
+        "options": [
+          "Cage",
+          "Obscurité",
+          "Sol souillé, environnement sale",
+          "Parcours encombré (risque de blessure)",
+          "Maintien permanent en intérieur",
+          "Absence de couchage"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mise à l'abri",
+        "description": "En fonction du risque Influenza Aviaire.\r\nAlimentation et abreuvement à l'abri, protection des parcours (filets).",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Présence d'animal blessé",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'animaux concernés",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Décrire les blessures",
+        "description": "par exemple : morsures, plaies non soignées, boiteries...",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Présence d'animal maigre",
+        "description": "Les animaux maigres ont une ossature apparente (hanches, côtes, épine dorsale très visibles).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'animaux concernés",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si nécessaire préciser lesquels?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Présence d'animal abandonné",
+        "description": "Absence durable de présence humaine pendant plusieurs jours.",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Mode de détention chien",
+        "description": "Système d'attache, enclos, surface, conditions ambiantes",
+        "required": false,
+        "options": [
+          "Surface disponible moins de 5m²",
+          "Dispositif d'attache moins de 3m de longueur",
+          "Cage",
+          "Absence d'abri",
+          "Obscurité",
+          "Sol souillé",
+          "Parcours encombré (risque de blessure)",
+          "Maintien permanent en intérieur"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Mode de détention et entretien des équidés",
+        "description": "",
+        "required": false,
+        "options": [
+          "Pâture",
+          "Box",
+          "Absence abri naturel (haie, arbres) ou artificiel",
+          "Sabots non entretenus, de longueur excessive, cassés...",
+          "Parcours encombré (risque de blessure)",
+          "Absence de litière"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Défaut d'abreuvement",
+        "description": "Absence de point d'eau, bac vide, eau souillée...",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Défaut d'abreuvement",
+        "description": "",
+        "required": false,
+        "options": [
+          "Absence d'abreuvoir",
+          "Abreuvoir vide",
+          "Eau souillée",
+          "Eau gelée"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Alimentation",
+        "description": "Alimentation disponible",
+        "required": false,
+        "options": [
+          "Absence de couverture végétale suffisante",
+          "Absence de fourrage complémentaire"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Photos",
+        "description": "Ajoutez des prises de vues des animaux faisant l'objet du signalement dans leur environnement. Il s'agit de mettre en évidence la maltraitance signalée.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Y-a-t-il des animaux en divagation, si oui lesquels?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vos contacts",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Avez vous fait ce signalement auprès de :",
+        "description": "",
+        "required": false,
+        "options": [
+          "Mairie de la commune",
+          "Gendarmerie/Police",
+          "Vétérinaire",
+          "Autre",
+          "Aucun"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez la date et la personne contactée",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Merci pour votre signalement. Le service vétérinaire SPAE de la DDETSPP de l'Yonne reste attentif à toute forme de maltraitance animale. en conséquence votre signalement sera traité dans les meilleurs délais.",
+        "description": "Rappels législatifs :\r\n    • Article 441-1 du code pénal : Constitue un faux toute altération frauduleuse de la vérité, de nature à causer un préjudice et accomplie par quelque moyen que ce soit, dans un écrit ou tout autre support d'expression de la pensée qui a pour objet ou qui peut avoir pour effet d'établir la preuve d'un droit ou d'un fait ayant des conséquences juridiques. Le faux et l'usage de faux sont punis de trois ans d'emprisonnement et de 45 000 euros d'amende.\r\n    • Article 434-26 du code pénal : Le fait de dénoncer mensongèrement à l'autorité judiciaire ou administrative des faits constitutifs d'un crime ou d'un délit qui ont exposé les autorités judiciaires à d'inutiles recherches est puni de six mois d'emprisonnement et de 7 500 euros d'amende.\r\n    • Article 433-5 du code pénal : Constituent un outrage puni de 7 500 euros d'amende les paroles, gestes ou menaces, les écrits ou images de toute nature non rendus publics ou l'envoi d'objets quelconques adressés à une personne chargée d'une mission de service public, dans l'exercice ou à l'occasion de l'exercice de sa mission, et de nature à porter atteinte à sa dignité ou au respect dû à la fonction dont elle est investie. Lorsqu'il est adressé à une personne dépositaire de l'autorité publique, l'outrage est puni d'un an d'emprisonnement et de 15 000 euros d'amende.",
+        "required": false
+      }
+    ]
+  }
+}

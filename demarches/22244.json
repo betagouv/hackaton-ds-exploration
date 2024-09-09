@@ -1,0 +1,219 @@
+{
+  "number": 22244,
+  "title": "Paiement dossiers DETR",
+  "description": "Formulaire de paiement des dossiers DETR",
+  "tags": [
+    "Subvention"
+  ],
+  "zones": [
+    "Ministère de la Cohésion des territoires et des Relations avec les collectivités territoriales"
+  ],
+  "datePublication": "2020-02-24T17:00:11+01:00",
+  "service": {
+    "nom": "Bureau des finances locales",
+    "organisme": "Préfecture de Seine-et-Marne",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/paiement-dossiers-detr",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.seine-et-marne.gouv.fr/Politiques-publiques/Collectivites-locales/Dotation-d-equipement-des-territoires-ruraux-DETR/Dotation-d-equipement-des-territoires-ruraux-DETR",
+  "cadreJuridiqueUrl": "www.seine-et-marne.gouv.fr",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 866,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Intitulé du projet",
+        "description": "Saisir l'intitulé du projet tel qu'il est précisé dans l'arrêté d'attribution de la subvention.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Arrêté préfectoral",
+        "description": "Joindre l'arrêté préfectoral.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Arrondissement",
+        "description": null,
+        "required": true,
+        "options": [
+          "FONTAINEBLEAU",
+          "MEAUX",
+          "MELUN",
+          "PROVINS",
+          "TORCY"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et qualité du référent en charge du dossier",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du référent",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire",
+        "description": "Indiquer les précisions que vous souhaiter communiquer",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "FORMULAIRES DE DEMANDE",
+        "description": "Vous devez compléter un des formulaires suivants en fonction de votre demande : versement unique, avance, acompte ou solde.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande de versement unique",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je souhaite le versement de la totalité de la subvention",
+        "description": "Ce versement unique se fait à l'achèvement des travaux et en l'absence de demande(s) d'avance ou d'acompte(s).",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration de commencement d'exécution des travaux",
+        "description": "Joindre à la déclaration l’acte juridique justifiant du début d’exécution des travaux (bon de commande, devis signé, acte d’engagement du marché de travaux signé, ordre de service, acte de vente) ;\nUn seul fichier pdf pour l'ensemble des documents.\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certificat achèvement de l'opération",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Etat récapitulatif des mandatements",
+        "description": "Le tableau doit être signé par le porteur et visé par le comptable public",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Facture(s)",
+        "description": "Facture(s) acquittée(s) par la collectivité au titre de l'ensemble de l'opération.\nUn seul fichier pdf comprenant l'ensemble des pièces justificatives doit être déposé.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande d'avance",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je souhaite obtenir une avance",
+        "description": "Une avance représentant 30% du montant prévisionnel de la subvention peut être versée au bénéficiaire dès le démarrage de l'opération.\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration de commencement d'exécution des travaux",
+        "description": "Joindre à la déclaration l’acte juridique justifiant du début d’exécution des travaux (bon de commande, devis signé, acte d’engagement du marché de travaux signé, ordre de service, acte de vente) ;\nUn seul fichier pdf pour l'ensemble des documents.\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande d'acompte",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je souhaite obtenir des acomptes",
+        "description": "Le total ne peut excéder 80% du montant prévisionnel de la subvention (y compris l’avance de 30%).",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Numéro acompte",
+        "description": "Indiquer de quelle demande d'acompte il s'agit.",
+        "required": false,
+        "options": [
+          "Premier acompte",
+          "Deuxième acompte",
+          "Troisième acompte",
+          "Quatrième acompte",
+          "Cinquième acompte",
+          "Sixième acompte",
+          "Septième acompte",
+          "Huitième acompte",
+          "Neuvième acompte",
+          "Dixième acompte"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration de commencement d'exécution des travaux",
+        "description": "Joindre à la déclaration l’acte juridique justifiant du début d’exécution des travaux (bon de commande, devis signé, acte d’engagement du marché de travaux signé, ordre de service, acte de vente) ;\nUn seul fichier pdf pour l'ensemble des documents.\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Etat récapitulatif des mandatements",
+        "description": "Le tableau doit être signé par le porteur et visé par le comptable public",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Facture(s)",
+        "description": "Facture(s) correspondant au montant de l'acompte.\nUn seul fichier pdf comprenant l'ensemble des pièces justificatives doit être déposé.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande de solde",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je souhaite obtenir le solde",
+        "description": "La demande de solde fait suite au versement d'avance et/ou d'acompte(s) déjà effectués.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certificat achèvement de l'opération",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Etat récapitulatif des mandatements",
+        "description": "Le tableau doit être signé par le porteur et visé par le comptable public",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Facture(s)",
+        "description": "Facture(s) acquittée(s) par la collectivité au titre du solde.\nUn seul fichier pdf comprenant l'ensemble des factures doit être déposé.",
+        "required": false
+      }
+    ]
+  }
+}

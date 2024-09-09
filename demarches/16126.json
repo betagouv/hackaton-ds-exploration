@@ -1,0 +1,454 @@
+{
+  "number": 16126,
+  "title": "Procédure Convention d'Utilité Sociale (CUS) version 2019 - ILE-de-FRANCE",
+  "description": "Le présent outil est utilisé pour les échanges entre l'administration et les organismes de logements sociaux tenus de signer une Convention d'Utilité Sociale (CUS) dont le siège se situe dans la région Ile-de-France. Il permet les échanges entre les organismes HLM et les\r\nservices de l’État dans le cadre de cette procédure. Cet outil est composé des éléments suivants :\r\n\r\n  Un formulaire d'identification dématérialisé,\r\n\t\r\nUne plateforme d’échange de messages entre organisme et services de l’État ,\r\n\t\r\nLa transmission de pièces jointes, dans le cadre de la procédure ou par messagerie,\r\n\t\r\nUne procédure d’instruction des CUS par les services de l’État.\r\n\r\nLa DRIHL d'Ile-de-France assure l'administration de cette procédure. En cas de problème, n'hésitez pas à contacter \r\npatrick.le-boulch@developpement-durable.gouv.fr\r\n\r\n\r\n",
+  "tags": [
+    "Aap"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2019-06-25T15:01:43+02:00",
+  "service": {
+    "nom": "Direction Régionale et Interdépartementale de l'Hébergement et du Logement",
+    "organisme": "Ministère de la Cohésion des Territoires",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/cus-ile-de-france-deuxieme-generation",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.cohesion-territoires.gouv.fr/convention-d-utilite-sociale-2e-generation",
+  "cadreJuridiqueUrl": "",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 68,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Siège social",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département du siège social",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d’organisme",
+        "description": "",
+        "required": true,
+        "options": [
+          "OPH",
+          "SA HLM",
+          "SCIC",
+          "SCP",
+          "SEM",
+          "ASSO"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Type de CUS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "1. Partie CUS \"ordinaire\"",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre de logements locatifs sociaux ordinaires détenus",
+        "description": "Données au 01/01/2019. Pour les SEM, nombre de logements conventionnés à l’APL.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "2. Partie logement foyer de la CUS",
+        "description": "Rappel : \n- si le patrimoine de l’organisme comporte uniquement des logement foyers, sa CUS relève de la section 7 (R445-24 et suivants du CCH). \n-Si le patrimoine comporte des logements ordinaires, mais est majoritairement en logements-foyers, un partie logement foyer est ajoutée à la CUS ordinaire, conformément aux articles de la sous-section 7. \n-Si le patrimoine est majoritairement ordinaire, on ajoute à la CUS ordinaire les éléments des R445-36 et 37",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Part de logements foyers dans le parc social (logements équivalents)",
+        "description": "",
+        "required": true,
+        "options": [
+          "Sans objet",
+          "Inférieure à 50 %",
+          "Entre 50% et 100 %",
+          "100 %"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre de logements foyers détenus (logements équivalents)",
+        "description": "Données en équivalents logements - les logements étudiants relèvent de la catégorie logements ordinaires et ne figurent pas dans la catégorie logements foyers.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L’organisme exerce une activité d’accession à la propriété",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "3. Partie accession à la propriété de la CUS",
+        "description": "Si l’organisme ne dispose pas de patrimoine locatif et exerce une activité d'accession sociale à la propriété, il réalise une CUS \"Accession\". \r\nSi l’organisme exerce une activité d'accession à la propriété, à l'exception des organismes ayant vendu moins de 20 logements neufs dans des opérations d’accession à la propriété au cours des trois années ayant précédé l'entrée en vigueur de la CUS, celle-ci comporte également le plan de développement ainsi que les indicateurs de l’accession.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Ventes en accession réalisées au cours des trois années ayant précédé l'entrée en vigueur de la CUS",
+        "description": "",
+        "required": true,
+        "options": [
+          "Sans objet",
+          "Inférieure à 20 sur les 3 ans",
+          "Supérieure ou égal à 20 sur les 3 ans"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Localisation du patrimoine",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Liste des départements où l’organisme détient du patrimoine social",
+        "description": "",
+        "required": true,
+        "options": [
+          "(1) Ain",
+          "(2) Aisne",
+          "(3) Allier",
+          "(4) Alpes-de-Hautes-Provence",
+          "(5) Hautes-Alpes",
+          "(6) Alpes-Maritimes",
+          "(7) Ardèche",
+          "(8) Ardennes",
+          "(9) Ariège",
+          "(10) Aube",
+          "(11) Aude",
+          "(12) Aveyron",
+          "(13) Bouches-du-Rhône",
+          "(14) Calvados",
+          "(15) Cantal",
+          "(16) Charente",
+          "(17) Charente-Maritime",
+          "(18) Cher",
+          "(19) Corrèze",
+          "(2A) Corse-du-Sud",
+          "(2B) Haute-Corse",
+          "(21) Côte-d'Or",
+          "(22) Côtes d'Armor",
+          "(23) Creuse",
+          "(24) Dordogne",
+          "(25) Doubs",
+          "(26) Drôme",
+          "(27) Eure",
+          "(28) Eure-et-Loir",
+          "(29) Finistère",
+          "(30) Gard",
+          "(31) Haute-Garonne",
+          "(32) Gers",
+          "(33) Gironde",
+          "(34) Hérault",
+          "(35) Ille-et-Vilaine",
+          "(36) Indre",
+          "(37) Indre-et-Loire",
+          "(38) Isère",
+          "(39) Jura",
+          "(40) Landes",
+          "(41) Loir-et-Cher",
+          "(42) Loire",
+          "(43) Haute-Loire",
+          "(44) Loire-Atlantique",
+          "(45) Loiret",
+          "(46) Lot",
+          "(47) Lot-et-Garonne",
+          "(48) Lozère",
+          "(49) Maine-et-Loire",
+          "(50) Manche",
+          "(51) Marne",
+          "(52) Haute-Marne",
+          "(53) Mayenne",
+          "(54) Meurthe-et-Moselle",
+          "(55) Meuse",
+          "(56) Morbihan",
+          "(57) Moselle",
+          "(58) Nièvre",
+          "(59) Nord",
+          "(60) Oise",
+          "(61) Orne",
+          "(62) Pas-de-Calais",
+          "(63) Puy-de-Dôme",
+          "(64) Pyrénées-Atlantiques",
+          "(65) Hautes-Pyrénées",
+          "(66) Pyrénées-Orientales",
+          "(67) Bas-Rhin",
+          "(68) Haut-Rhin",
+          "(69) Rhône",
+          "(70) Haute-Saône",
+          "(71) Saône-et-Loire",
+          "(72) Sarthe",
+          "(73) Savoie",
+          "(74) Haute-Savoie",
+          "(75) Paris",
+          "(76) Seine-Maritime",
+          "(77) Seine-et-Marne",
+          "(78) Yvelines",
+          "(79) Deux-Sèvres",
+          "(80) Somme",
+          "(81) Tarn",
+          "(82) Tarn-et-Garonne",
+          "(83) Var",
+          "(84) Vaucluse",
+          "(85) Vendée",
+          "(86) Vienne",
+          "(87) Haute-Vienne",
+          "(88) Vosges",
+          "(89) Yonne",
+          "(90) Territoire-de-Belfort",
+          "(91) Essonne",
+          "(92) Hauts-de-Seine",
+          "(93) Seine-Saint-Denis",
+          "(94) Val-de-Marne",
+          "(95) Val-d'Oise",
+          "(971) Guadeloupe",
+          "(972) Martinique",
+          "(973) Guyane",
+          "(974) La Réunion",
+          "(976) Mayotte"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Plan stratégique de patrimoine",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L’organisme dispose d’un PSP ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Dernière date de réalisation ou d’actualisation PSP ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Période couverte par le PSP (année de début)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Période couverte par le PSP (année de fin)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Cadre stratégique d'utilité  sociale et cadre stratégique de patrimoine pour les sociétés appartenant à un groupe",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L’organisme appartient à un groupe",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du groupe (raison sociale)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "cadre stratégique d'utilité sociale pour les sociétés appartenant à un groupe",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Cadre stratégique de patrimoine pour les sociétés appartenant à un groupe",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Nouvelle politique des loyers (pour information)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L’organisme pense-t-il avoir recours à la NPL pendant la durée de la CUS ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si oui, en quelle année ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Cadre stratégique d'utilité sociale du groupe",
+        "description": "Si le bailleur appartient à un groupe.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Cadre stratégique de patrimoine du groupe",
+        "description": "Si le bailleur appartient à un groupe.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Synthèse du PSP",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Délibération de lancement de la CUS 2019-2024",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Liste des PPA associées à l'élaboration de votre CUS 2019-2024",
+        "description": "En distinguant les PPA souhaitant être signataires",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Eléments relatifs à l'association des personnes publiques associées (PPA)",
+        "description": "Le préfet signataire peut demander toute information relative à l'élaboration du projet de convention et à la réalité de la démarche d'association (Article R*445-2-5 du CCH). Joindre ici les éléments justifiant de la démarche d'association.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Lettre de réponse  de la collectivité",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments relatifs à la concertation locative",
+        "description": "Vous pouvez joindre ici des précisions relatives à la démarche de concertation des locataires dans le cadre de la CUS (Article R*445-2-7 du CCH)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Lettre de transmission du projet de CUS",
+        "description": "Lettre à destination du préfet accompagnant le projet de CUS (avant le 30/06/2019)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Projet de CUS 2019-2024",
+        "description": "A remettre avant le 30/06/2019",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "CUS signée par l'organisme et les PPA",
+        "description": "A remettre avant le 31 décembre 2019",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Annexe 1 à la CUS 2019-2024",
+        "description": "Si éléments supplémentaires, par exemple : cartes, chartes qualité, extraits de PV de conseils d'administration, contributions de collectivités locales ...",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Annexe 2 à la CUS 2019-2024",
+        "description": "Si éléments supplémentaires, par exemple : cartes, chartes qualité, extraits de PV de conseils d'administration, contributions de collectivités locales ...",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau état initial du parc",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau des engagements chiffrés (indicateurs logements ordinaires) de la CUS 2019-2024",
+        "description": "Ce tableau est provisoire, le modèle définitif sera mis à jour à la sortie du Décret. Les organismes ont jusqu'au 1 er octobre pour renseigner les indicateurs. ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau des engagements chiffrés (indicateurs logements foyers) de la CUS 2019-2024",
+        "description": "Ce tableau est provisoire, le modèle définitif sera mis à jour à la sortie du Décret. Il peut être actualisé fil de l'élaboration de la CUS . Est considérée comme définitive la version de ce tableau déposée au 31 décembre 2019.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau des engagements chiffrés (indicateurs accession sociale) de la CUS 2019-2024",
+        "description": "Ce tableau est provisoire, le modèle définitif sera mis à jour à la sortie du Décret. Il peut être actualisé fil de l'élaboration de la CUS . Est considérée comme définitive la version de ce tableau déposée au 31 décembre 2019.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de ventes",
+        "description": "Le plan de ventes se compose de deux parties :\n- la première reprend les logements non vendus dont la vente à déjà été autorisée.\n- la seconde reprend les logements pour lesquels le bailleur sollicite une autorisation de mise en vente sur la durée de la CUS.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Note d'enjeu des CUS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Note cession du parc HLM",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

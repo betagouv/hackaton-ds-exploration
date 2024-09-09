@@ -1,0 +1,171 @@
+{
+  "number": 37913,
+  "title": "Finances : état récapitulatif détaillé des paiements effectués v2",
+  "description": "Vous avez besoin de faire attester les paiements effectués pour vos partenaires financeurs dans le cadre des financements à recevoir (comme les subventions à recevoir par exemple), c'est bien cette démarche.\r\n\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2020-12-21T09:07:58+01:00",
+  "service": {
+    "nom": " GPSEO (Communauté urbaine Grand Paris Seine & Oise)",
+    "organisme": "Direction financière",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/finances-etat-recapitulatif-detaille-des-paiements-v2",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.gpseo.fr",
+  "cadreJuridiqueUrl": "https://www.service-public.fr",
+  "logo": {
+    "filename": "logo GPSEO.jpg",
+    "checksum": "dZRJcyiyZ1VkQxHSirDYTQ==",
+    "byteSize": "4625",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Données générales",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Données générales",
+        "description": "Précisez la référence, le libellé de l'opération, le lieu de l'opération, le numéro IRIS, le numéro d'engagement comptable ou tout autre élément demandé à caractère général.\nRassurez-vous, le détail est juste après :-)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Données détaillées par opération",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Libellé détaillé par opération",
+        "description": "Vous avez plusieurs opérations ?\nPas de problème, il suffit juste de penser à cliquer sur \"ajouter un champ\" à la fin de cette opération.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Type de dépense",
+            "description": "Investissement, fonctionnement, prestation externe/interne par exemple",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Exercice",
+            "description": "[Facultatif]",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de mandatement",
+            "description": "[Facultatif]",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du prestataire ou fournisseur",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro du bordereau",
+            "description": "[Facultatif]",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro du mandat",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Libellé",
+            "description": "[Facultatif]",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro du marché",
+            "description": "[Facultatif]",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "SIRET",
+            "description": "[Facultatif]",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Montant HT en €",
+            "description": "Pensez à mettre le sigle €",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Montant TVA en €",
+            "description": "Pensez à mettre le sigle €",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Montant TTC en €",
+            "description": "Pensez à mettre le sigle €",
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Eléments complémentaires",
+            "description": "[Facultatif]",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Une ou plusieurs pièces jointes ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Une ou plusieurs pièces jointes ?",
+        "description": "C'est le moment de les insérer (si vous en avez)",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce jointe",
+            "description": "Pensez à remettre votre tableau excel pour les partenaires financeurs",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Des précisions supplémentaires ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Avez-vous des précisions supplémentaires ?",
+        "description": "[Facultatif]",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "number": 77218,
+  "title": "Remboursement des frais de déplacement des membres de la PFRH Nouvelle-Aquitaine",
+  "description": "Cette \"démarche simplifiée\" est destinées aux seuls membres de la PFRH Nouvelle-Aquitaine ne pouvant pas saisir directement leurs ordres de missions et leurs état de frais dans CHORUS DTm.\r\n\r\nLes éléments collectés seront utilisé par la PFRH Nouvelle-Aquitaine pour renseigner CHORUS DTm et permettre un remboursement des frais engagés par les membres de la SRIAS Nouvelle-Aquitaine.\r\n\r\nLes textes applicables à la prise en charge de ces frais est :\r\n- décret n°2006-781 du 3 juillet 2006 fixant les conditions et les modalités de règlement des frais occasionnés par les déplacements temporaires des personnels civils de l'Etat\r\n- arrêté du 3 juillet 2006 fixant les taux des indemnités de mission prévues à l'article 3 du décret n° 2006-781 du 3 juillet 2006 fixant les conditions et les modalités de règlement des frais occasionnés par les déplacements temporaires des personnels civils de l'Etat\r\n- arrêté du 3 juillet 2006 fixant les taux des indemnités kilométriques prévues à l'article 10 du décret n° 2006-781 du 3 juillet 2006 fixant les conditions et les modalités de règlement des frais occasionnés par les déplacements temporaires des personnels de l'Etat\r\n- arrêté du 10 octobre 2019 portant politique de voyages pour les personnels civils du ministère de l'intérieur en application des articles 2-8°, 6 et 7-1 du décret n° 2006-781 du 3 juillet 2006 modifié fixant les conditions et modalités de règlement des frais occasionnés par les déplacements des personnels civils de l'Etat (applicable aux personnels civils à la charge des budgets des services du ministère de l'intérieur, ce qui inclut les collaborateurs occasionnels du ministère, qu'ils soient agents publics ou personnes privées)",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2023-06-19T10:55:52+02:00",
+  "service": {
+    "nom": "Plate-forme régionale d’appui interministériel à la gestion des ressources humaines",
+    "organisme": "Secrétariat général pour les affaires régionales - Nouvelle-Aquitaine, préfecture de Région Nouvelle-Aquitaine, ministère de l'Intérieur",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/frais-de-deplacement-pfrh33",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.prefectures-regions.gouv.fr/nouvelle-aquitaine",
+  "cadreJuridiqueUrl": "Décret n°2006-781 du 3 juillet 2006 fixant les conditions et modalités de règlement des frais de déplacements temporaires des personnels civils de l'État",
+  "logo": {
+    "filename": "LOGO PFRH 2023.PNG",
+    "checksum": "e44d32ckRpE2I7XOEN5RDg==",
+    "byteSize": "362899",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 18,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description de la mission",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Intitulé de la mission",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Convocation à la mission",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Début de mission",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "Date et heure de début de mission",
+        "description": "Date et heure de départ de son domicile ou du lieu de travail",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Point de départ de la mission",
+        "description": "Un seul choix possible\r\nSi le point de départ de la mission n'est ni la résidence administrative ni la résidence personnelle, merci de bien vouloir préciser ",
+        "required": true,
+        "options": [
+          "Résidence administrative",
+          "Résidence personnelle"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Types de frais à rembourser générés lors du départ en mission",
+        "description": "Plusieurs choix possibles ; à compléter pour pouvoir déposer les pièces justificatives",
+        "required": false,
+        "options": [
+          "Train",
+          "Bus / Tram / Métro / RER",
+          "Frais avec véhicule personnel",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Produire le ou les billets de train",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Produire le ou les billets de Bus / Tram / Métro / RER",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le nombre de km parcourus",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser la nature de cette dépense liée au départ en mission",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre(s) frais liés au départ en mission",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Fin de mission",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "Date et heure de fin de mission",
+        "description": "Date et heure de retour au domicile ou sur le lieu de travail",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Point d'arrivée de la mission",
+        "description": "Un seul choix possible\r\nSi le point d'arrivée de la mission n'est ni la résidence administrative ni la résidence personnelle, merci de bien vouloir préciser ",
+        "required": true,
+        "options": [
+          "Résidence administrative",
+          "Résidence personnelle"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Types de frais générés lors du retour de mission",
+        "description": "Plusieurs choix possibles ; à compléter pour pouvoir déposer les pièces justificatives",
+        "required": false,
+        "options": [
+          "Train",
+          "Bus / Tram / Métro / RER",
+          "Frais avec véhicule personnel",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Produire le ou les billets de train",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Produire le ou les billets de Bus / Tram / Métro / RER",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le nombre de km parcourus",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser la nature de cette dépense liée au retour de mission",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre(s) frais liés au retour de mission",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Frais lors du déroulé de la mission",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de frais générés lors de la mission",
+        "description": "",
+        "required": false,
+        "options": [
+          "Frais de restauration",
+          "Frais d'hébergement",
+          "Frais de stationnement"
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Frais de restauration",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date du repas",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Produire la ou les pièces justificatives du repas",
+            "description": "Remboursement de 17,50 € si le lieu et les conditions de la mission ne permettent pas d'accéder à un RIA.\r\nRemboursement de 8,75 € si le lieu et les conditions de la mission permettent d'accéder à un RIA.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Frais d'hébergement",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date du premier jour d'hébergement",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative de l'hébergement",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Frais de stationnement",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date du stationnement",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative du stationnement",
+            "description": "",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

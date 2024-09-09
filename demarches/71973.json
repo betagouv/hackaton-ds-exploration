@@ -1,0 +1,183 @@
+{
+  "number": 71973,
+  "title": "Paris 2024 Olympics and Paralympics Games - Reexportation customs formalities",
+  "description": "Accredited persons and accompanied luggages.\r\n\r\nRe-export of goods imported under temporary admission.\r\n\r\nCommunication of mandatory documents regarding firearms.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique"
+  ],
+  "datePublication": "2024-01-29T16:30:29+01:00",
+  "service": {
+    "nom": "Direction générale des douanes et des droits indirects (DGDDI)",
+    "organisme": "Direction générale des douanes et des droits indirects (DGDDI)",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/paris-2024-olympics-and-paralympics-games-reexport-en",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "Guide Douane et Fret",
+  "cadreJuridiqueUrl": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32013R0952&from=GA",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 447,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "COJOChampDescriptor",
+        "label": "Paris 2024",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Legal capacity",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "I am a minor or a protected adult",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Identity of the person legaly responsible",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TitreIdentiteChampDescriptor",
+            "label": "ID document of the person legaly responsible",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Place of departure",
+        "description": "Indicate the place of departure. \r\n\r\nIf you are departing via an EU Member State other than France, you must not complete this form. Please refer to the Customs and Freight Guide.",
+        "required": true,
+        "options": [
+          "Paris -  Charles de Gaulle Airport",
+          "Paris - Orly Airport",
+          "Gare du Nord - Train station",
+          "Gare de Lyon - Train station",
+          "Marne-la-Vallée Chessy - Train station",
+          "Marseille Provence Airport",
+          "Grand Port Maritime of Marseille",
+          "Eurotunnel Calais",
+          "Port of Calais",
+          "Port of Dunkirk",
+          "Lille Airport",
+          "Lille Europe - Train station",
+          "Beauvais Airport",
+          "Swiss border",
+          "Olympic village",
+          "Saint-Quentin",
+          "Nice Airport",
+          "Lyon Airport",
+          "Nantes Airport",
+          "Bordeaux-Mérignac Airport",
+          "Dieppe Port"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Status",
+        "description": "Inform the reason of your participation in the OG-PG",
+        "required": true,
+        "options": [
+          "Dignitary and Olympic family",
+          "Athlete",
+          "Sports federation member",
+          "Press team member",
+          "Sports federation doctor",
+          "International technical official",
+          "Technician / Handler"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Reexportation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Import file number",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Temporary Admission discharge of goods",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DatetimeChampDescriptor",
+            "label": "Day and time of departure",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PaysChampDescriptor",
+            "label": "Destination",
+            "description": "Inform the country of destination",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Temporary admission",
+            "description": "Join the file .pdf regarding the inventory of reexported goods in accordance with Annex 6.11 of the guidance",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Firearms and ammunition",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Fireams and ammunition",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "I reexport a firearm",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "I am returning to a listed country",
+            "description": "Listed countries : \r\n\r\nBelarus\r\nBurma\r\nCentral African Republic\r\nChina\r\nDemocratic Republic of Congo\r\nNorth Corea\r\nIrak\r\nIran\r\nLebanon\r\nLibya\r\nRussia\r\nSomalia\r\nSudan\r\nSouth Sudan\r\nSyria\r\nVenezuela\r\nYemen\r\nZimbabwe",
+            "required": true,
+            "options": [
+              "Yes",
+              "No"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Authorization of export",
+            "description": "If you are coming from one of the listed country above, please attach your authorization.",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

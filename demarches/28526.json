@@ -1,0 +1,136 @@
+{
+  "number": 28526,
+  "title": "Demande de réservation de place(s) de parking",
+  "description": "Demande de réservation de place(s) de parking pour les personnes qui se rendent en réunion dans les administrations hébergées dans la cité administrative (DREAL, DRAAF, SGAR, DDTM, DDPP et DRAC). \r\nL'accès se fait sur autorisation avec saisie d'un code unique attribué à chaque véhicule.",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2020-04-10T19:43:30+02:00",
+  "service": {
+    "nom": "Service logistique de la cité administrative",
+    "organisme": "Préfecture de la région Pays de la Loire",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-reservation-de-place-s-de-parking",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-reservation-de-place-s-de-parking",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000242359",
+  "logo": {
+    "filename": "logo préf PDL.jpg",
+    "checksum": "Exzt+bVh22Bdbn3oUprK7Q==",
+    "byteSize": "33994",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Madame ou Monsieur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Indiquez en majuscule les 3 premières lettres de votre nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Jour du rendez-vous",
+        "description": "Merci de renseigner le jour du rendez-vous de 1 à 31",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Mois du rendez-vous",
+        "description": "Merci de renseigner le mois du rendez-vous de 1 à 12",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Année du rendez-vous",
+        "description": "Merci de ne renseigner que les deux derniers chiffres de l'année du rendez-vous",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Heure du rendez-vous",
+        "description": "Merci de ne renseigner que l'heure d'arrivée et non les minutes",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Indiquez l'administration visitée",
+        "description": null,
+        "required": true,
+        "options": [
+          "DREAL",
+          "DRAAF",
+          "SGAR",
+          "DDTM",
+          "DDPP",
+          "DRAC"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "N° d'immatriculation du véhicule",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° d'immatriculation du véhicule",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Indiquez le parking souhaité",
+        "description": null,
+        "required": true,
+        "options": [
+          "Desanges (15 places dont 3 PMR)",
+          "Babinière (59 places)",
+          "Sohn (20 places dont 4 PMR)"
+        ],
+        "otherOption": false
+      }
+    ]
+  }
+}

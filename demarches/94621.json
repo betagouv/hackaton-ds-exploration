@@ -1,0 +1,94 @@
+{
+  "number": 94621,
+  "title": "FICHE FINANCIERE DE L'ELEVE",
+  "description": "Permettre aux parents du lycée NADAR de choisir le régime de leur enfant  et de fournir leur RIB pour être payés des bourses.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2024-04-26T11:39:32+02:00",
+  "service": {
+    "nom": "Service De Gestion,Service Demi-pension",
+    "organisme": "Lycée NADAR",
+    "typeOrganisme": "etablissement_enseignement"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fiche-financiere-de-l-eleve",
+  "dpoUrl": "dp.nadar@ac-versailles.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://lyc-nadar-draveil.ac-versailles.fr/",
+  "cadreJuridiqueUrl": "dp.nadar@ac-versailles.fr",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 273,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "QUALITE DE L'ELEVE",
+        "description": "Merci de nous dire si l'élève sera demi-pensionnaire ou externe",
+        "required": true,
+        "options": [
+          "Demi-Pensionnaire",
+          "Externe"
+        ]
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "CIVILITE DE L'ELEVE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM ET PRENOM DE L'ELEVE",
+        "description": "Merci d'indiquer le nom et prénom de l'élève",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "CIVILITE DU RESPONSABLE FINANCIER DE L'ELEVE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM ET PRENOM DU RESPONSABLE FINANCIER DE L'ELEVE",
+        "description": "Merci d'indiquer le nom et prénom du responsable financier de l'élève. Attention, pour les élèves boursier, le nom doit être obligatoirement celui du demandeur de bourses.",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "ADRESSE MAIL DU RESPONSABLE FINANCIER DE L'ELEVE",
+        "description": "Merci de fournir une adresse mail valide du responsable financier de l'élève.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB  DU RESPONSABLE FINANCIER DE L'ELEVE",
+        "description": "Merci de joindre votre RIB. Le RIB doit être au nom du responsable financier (compte individuel ou compte joint). Les RIB des élèves même majeurs ne seront pas acceptés.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "QUOTIENT FAMILIALE",
+        "description": "Merci de fournir une attestation de quotient familial CAF pour déterminer le prix du repas de l'élève. \r\nDans le cas où vous ne l'auriez pas, vous pourrez la fournir jusqu'à la rentrée de septembre 2024 par mail : dp.nadar@ac-versailles.fr",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "ACCEPTATION DU REGLEMENT INTERIEUR DU LYCEE",
+        "description": "L'élève et le responsable légal s'engagent à respecter toutes les dispositions mises en place par le règlement intérieur du lycée en matière d'accès aux services administratifs et au service Restauration.\r\nIl peuvent s'ils le désirent contacter le service de gestion à l'adresse suivante : dp.nadar@ac-versailles.fr",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "REGLEMENT INTERIEUR DE LA DEMI-PENSION",
+        "description": "Vous pouvez télécharger le règlement intérieur de la demi-pension du lycée.",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "number": 47525,
+  "title": "POC MSA - Démarche pour un Particulier ",
+  "description": "Ce formulaire est un exemple de démarches qui pourraient être mise en ligne par la MSA. Bonjour",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2021-09-08T18:31:02+02:00",
+  "service": {
+    "nom": "Service de traitement des démarches",
+    "organisme": "MSA ",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/poc-msa-demarche-pour-un-particulier",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "www.msa.fr/poc-msa-demarche-pour-un-particulier",
+  "cadreJuridiqueUrl": "https://www.msa.fr",
+  "logo": {
+    "filename": "Logo-MSA.png",
+    "checksum": "JEieC+wZ6TKDiWEUb3QZzQ==",
+    "byteSize": "19542",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "Notice_demande.pdf",
+    "checksum": "9bl/HXPKSUKfag4a0rXPXw==",
+    "byteSize": "210008",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 6,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre caisse MSA",
+        "description": null,
+        "required": true,
+        "options": [
+          "défaut",
+          "MSA Charentes",
+          "MSA de Poitou",
+          "MSA Ile De France"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de la demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de cette personne",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance de la personne concernée par la demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Régime d'imposition et pièces justificatives obligatoires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro MSA (n° de Sécurité Sociale)",
+        "description": "Renseignez votre numéro MSA sans la clé (soit un numéro à 13 chiffres). ",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mon année de référence est :",
+        "description": null,
+        "required": false,
+        "options": [
+          "2018",
+          "2019",
+          "2020",
+          "2021 (uniquement en cas d'exercice comptable décalé)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Chiffre d'affaires (hors primes PAC et Hors Taxes) des productions sinistrées par le gel",
+        "description": "Ajoutez autant d'éléments que d'espèces sinistrées.\nRappel : Indiquez les chiffres d'affaires de l'année de référence renseignée ci-dessus. ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Nature de la culture",
+            "description": null,
+            "required": false,
+            "options": [
+              "Abricots",
+              "Amandes",
+              "Asperges",
+              "Cerises",
+              "Coings",
+              "Fruits rouges",
+              "Grenades",
+              "Kiwis",
+              "Pêches nectarines",
+              "Poires",
+              "Pommes",
+              "Prunes",
+              "Vignes"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Chiffre d'affaires (hors prime et Hors Taxes) de la culture",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste sur l'honneur de la sincérité des données renseignées dans ce formulaire",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "number": 69951,
+  "title": "DSDEN81 - Déclaration d'intention de grève",
+  "description": "Démarche permettant le recensement des intentions de grève des professeurs des écoles, en vue du déclenchement du SMA, Service minimum d'accueil.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2023-02-10T16:26:37+01:00",
+  "service": {
+    "nom": "Direction des services départementaux de l'éducation nationale",
+    "organisme": "Education nationale",
+    "typeOrganisme": "operateur_d_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/dsden81-intention-de-greve",
+  "dpoUrl": "dpd@ac-toulouse.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ac-toulouse.fr/direction-des-services-departementaux-de-l-education-nationale-du-tarn-121697",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000019344416/",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Déclaratif d'intention de grève",
+        "description": "Indiquer la date de la grève. Chaque journée de grève doit faire l'objet d'un déclaratif.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM de l'école d'exercice",
+        "description": "L'école d'exercice est celle où l'agent est censé avoir charge de classe le jour de la grève.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "RNE de l'école d'exercice",
+        "description": "L'école d'exercice est celle où l'agent est censé avoir charge de classe le jour de la grève.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "COMMUNE de l'école d'exercice",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "CIRCONSCRIPTION",
+        "description": "",
+        "required": true,
+        "options": [
+          "ALBI",
+          "CASTRES",
+          "CARMAUX",
+          "GAILLAC",
+          "LAVAUR",
+          "MAZAMET",
+          "SDEI"
+        ]
+      }
+    ]
+  }
+}

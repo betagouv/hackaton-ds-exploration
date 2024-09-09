@@ -1,0 +1,353 @@
+{
+  "number": 53326,
+  "title": "Bilan 2021 des unités de méthanisation bretonnes en chaudière",
+  "description": "Déclaration annuelle du fonctionnement de l'unité de méthanisation fonctionnant en chaudière.\r\n\r\nLes éléments déclarés pourront être communiqués aux services de l'Etat intéressés, à l'ADEME Bretagne, à AILE et à l'Observatoire de l'environnement en Bretagne (OEB). \r\nLa présente déclaration réalisée permet d'apporter un retour d'expérience aux financeurs publics et d'évaluer la quantité de matière organique traitée par méthanisation. Elle ne dispense pas le producteur des déclarations à réaliser au titre de ses autres obligations réglementaires (code l'environnement, ICPE, Equipements sous pression, réglementation relative aux sous-produits d'origine animale, etc.) et à adresser aux services en charge de ces différents sujets.\r\n\r\nUne synthèse globale du fonctionnement des installations sera publiée (sans présentation des données individuelles).",
+  "tags": [
+    "Energie"
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2022-02-25T14:49:49+01:00",
+  "service": {
+    "nom": "DREAL Bretagne ",
+    "organisme": "DREAL Bretagne",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/bilan-2021-bretagne-metha-chaudiere",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.bretagne.developpement-durable.gouv.fr/biomasse.html",
+  "cadreJuridiqueUrl": "",
+  "logo": null,
+  "notice": null,
+  "deliberation": {
+    "filename": "AAP Plan biogaz Bzh 2020_VF-1.docx",
+    "checksum": "s1z2h/MEIIHpqaW0Muo8RQ==",
+    "byteSize": "385256",
+    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "dossiersCount": 15,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Information sur l'installation et ICPE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Département où est située l'installation",
+        "description": "Indiquer le département dans lequel est située l'installation de méthanisation",
+        "required": true,
+        "options": [
+          "22",
+          "29",
+          "35",
+          "56"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type d'unité",
+        "description": "Les unités de méthanisation à la ferme sont portées par un agriculteur ou des établissements de développement agricole, majoritaires au capital (>50% du capital), et implantées sur la ferme.  \nLes unités de méthanisation collectives agricoles sont portées par au minimum 3 structures agricoles (actionnaires majoritaires).  \nLes unités de méthanisation centralisées multi-acteurs sont des unités portées par un territoire ou un développeur privé.  \nLes unités de méthanisation industrielles sont des installations portées par une entreprise pour la valorisation de ses déchets.\nLes unités de micro-méthanisation valorisent uniquement des effluents d'élevage.\nSTEP: station d'épuration",
+        "required": true,
+        "options": [
+          "Méthanisation à la ferme",
+          "Méthanisation collective agricole",
+          "Méthanisation centralisée multi-acteurs",
+          "Méthanisation industrielle",
+          "Micro-méthanisation",
+          "STEP"
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de mise en service de l'installation",
+        "description": "Indiquer ici la date de mise en service de votre installation",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Régime ICPE",
+        "description": "",
+        "required": true,
+        "options": [
+          "Déclaration",
+          "Enregistrement",
+          "Autorisation"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Rubrique ICPE",
+        "description": "Indiquer la(es) rubrique(s) ICPE de l’installation de méthanisation (2781) du récépissé de déclaration (preuve de dépôt) ou de l’arrêté d’enregistrement ou de l’arrêté d’autorisation.\nPour les STEP, sélectionner \"Non ICPE (STEP)\".",
+        "required": true,
+        "options": [
+          "2781-1",
+          "2781-2",
+          "Non ICPE (STEP)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du constructeur",
+        "description": "Merci de préciser le nom du constructeur de votre unité de méthanisation",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du dernier contrôle ICPE",
+        "description": "Les installations de méthanisation, en fonction de leur régime ICPE, sont soumises à la réalisation, par un organisme agréé, d'un contrôle périodique, ou à des inspections réalisées par les services de l'Etat en charge de l'inspection des ICPE: indiquer la date du dernier contrôle périodique ICPE réalisé par un organisme agréé ou la date de la dernière inspection ICPE.\nSi l'installation est trop récente indiquer: 01/01/1900",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "La production de chaleur 2021",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Présence d'un débitmètre de biogaz",
+        "description": "Disposez-vous d'un débitmètre de biogaz produit?\n",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Quantité annuelle de biogaz mesurée à ce débimètre (en m3)",
+        "description": "Indiquer la quantité de biogaz produit sur l'année civile 2021 et mesurée sur le débitmètre indiqué précédemment.\nIndiquer 0 si pas de débitmètre sur l'installation.",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Volumes mesurés par ce débitmètre biogaz",
+        "description": "Indiquer ce que mesure le débitmètre du biogaz produit (notamment s'il permet de mesurer la quantité de biogaz en entrée chaudière et la quantité de biogaz torché)\nPlusieurs choix possibles",
+        "required": true,
+        "options": [
+          "Volume biogaz en entrée chaudière",
+          "Volume biogaz dirigé à la torchère",
+          "Pas de débitmètre biogaz"
+        ]
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Taux de CH4 dans le biogaz (%)",
+        "description": "Indiquer le pourcentage annuel moyen de CH4 dans le biogaz produit sur l'année",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Volume annuel de biogaz torché (Nm3)",
+        "description": "Indiquez la quantité de biogaz torché estimée sur la période du bilan (Nm3)",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mode de détermination du volume de biogaz torché",
+        "description": "Indiquer si le volume du biogaz torché est mesuré à partir d'un débitmètre dédié ou s'il est calculé (volume estimé).",
+        "required": true,
+        "options": [
+          "Débitmètre dédié",
+          "Calcul"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Puissance thermique (en kWth)",
+        "description": "indiquer la puissance thermique de votre chaudière (en kWth)",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous un compteur électrique dédié à l'unité de méthanisation?",
+        "description": "Préciser si vous disposez d'un compteur électrique spécifique pour l'unité de méthanisation",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Consommation électrique de l'unité pour le process de méthanisation sur l'année (en kWh)",
+        "description": "Il s'agit de l'énergie consommée par les pompes, brasseurs, broyeurs, trémies etc.\nIndiquer cette information si vous avez un compteur électrique dédié sur la méthanisation, sinon indiquer 0",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'heures de fonctionnement de la chaudière sur l'année (en heure)",
+        "description": "Combien d'heures a fonctionné la chaudière sur l'année 2021?",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Disposez-vous d'un compteur de la chaleur utilisée pour le procédé de méthanisation?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Si oui, quelle quantité de chaleur est utilisée pour le procédé de méthanisation? (en kWh)",
+        "description": "En l'absence de compteur de chaleur dédié au procédé, indiquer 0",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quelles sont vos principales sources d'utilisation de la chaleur (hors procédé)?",
+        "description": "En cas de valorisation de la chaleur, préciser l'utilisation qui lui en est donnée: plusieurs choix sont possibles\nSi vous ne valorisez pas la chaleur indiquer: pas de valorisation",
+        "required": true,
+        "options": [
+          "Chauffage des bâtiments d'élevage",
+          "Séchoir (fourrage, bois, multiproduit)",
+          "Chauffage habitation/bureau",
+          "Eau chaude sanitaire (exploitation, maison, bureau)",
+          "Serres de production alimentaire (champignon, spiruline, maraichère)",
+          "Pasteurisation",
+          "Chauffage de bâtiments publics",
+          "Utilisation par un industriel à proximité",
+          "Autre",
+          "Pas de valorisation"
+        ]
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Quantité de chaleur valorisée hors procédé (kWh)",
+        "description": "Préciser la chaleur valorisée en dehors de la chaleur utilisée pour le process.\nsi pas de chaleur valorisée, indiquer zero. sinon préciser en kWh",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Les Intrants",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration intrants",
+        "description": "Renseigner les tonnages de matières entrantes, sur la période du bilan, selon les catégories proposées dans le fichier Excel en pièce jointe.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Modification de la nature des intrants en 2021",
+        "description": "Dans le cas où il y a des modifications par rapport à l'année précédente sur la nature des intrants et/ou, pour les sous-produits animaux, sur l'origine des élevages: répondre oui et expliquer\nSinon, répondre non.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Agrément sanitaire",
+        "description": "Disposez-vous d'un agrément sanitaire",
+        "required": true,
+        "options": [
+          "oui",
+          "non",
+          "en cours de demande",
+          "agrément provisoire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Les Digestats",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Volume de digestat produit (en m3)",
+        "description": "Préciser la quantité de digestat brute produite sur l'année en m3",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Mode de valorisation du digestat",
+        "description": "Préciser sous quelle forme est traité et exporté le digestat: épandu brut, traité par compostage, épandu selon critères cahier des charges  DIGAGRI, mise sur le marché.\nPlusieurs choix possibles\n",
+        "required": true,
+        "options": [
+          "Epandu brut",
+          "Séparation de phase",
+          "Traité par compostage",
+          "Épandu selon critères cahier des charges DIGAGRI",
+          "Mise sur le marché",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Partie exportée hors de Bretagne",
+        "description": "Une partie du digestat est-elle exportée hors de Bretagne?",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Si oui, quel taux approximatif? (en %)",
+        "description": "préciser le pourcentage approximatif de la part du digestat exportée",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Surface totale des terres du plan d'épandage (ha)",
+        "description": "Indiquer la surface en hectares des terres du plan d'épandage (nombre entier arrondi).\nIndiquer 0 si pas de plan d'épandage",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Quantité d'engrais minéraux utilisée avant méthanisation (unité d'azote)",
+        "description": "Indiquer la quantité d'engrais minéraux utilisée avant la mise en oeuvre de la méthanisation (en unité d'azote)",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Quantité d'engrais minéraux utilisée en 2021 et après méthanisation (unité d'azote)",
+        "description": "Indiquer la quantité d'engrais minéraux utilisée en 2021 et après la mise en service de la méthanisation (en unité d'azote)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Dysfonctionnements",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous rencontrés des dysfonctionnements sur la période 2021?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quels types de dysfonctionnement ou problèmes avez-vous rencontrés?",
+        "description": "Si aucun problème sur l'année choisir: aucun dysfonctionnement",
+        "required": true,
+        "options": [
+          "Aucun dysfonctionnement",
+          "Problème conception unité (mauvais dimensionnement, introduction non adaptée, matériel non fonctionnel...)",
+          "Dysfonctionnement chaudière",
+          "Problème biologique (croûte, acidose, mousse...)",
+          "Manque substrats (ou potentiel méthanogène surestimé au stade projet)",
+          "Grosse maintenance (vidange digesteur, changement moteur...)",
+          "Autres : préciser (dans la question suivante)"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire sur le fonctionnement de l'installation pendant la période",
+        "description": "Merci de préciser en quelques mots le fonctionnement général de l'installation sur la période définie (panne, incident, autre)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commentaires/avis/remarques",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Votre avis",
+        "description": "Quels effets bénéfiques voyez-vous à votre activité de méthanisation?\nQuels seraient vos besoins pour faciliter/améliorer cette activité/filière?\nQuel est votre avis sur ce questionnaire? Des questions seraient-elles à reformuler?\nCette question libre est pour vous, n'hésitez pas à vous exprimer.\nMerci de votre collaboration",
+        "required": false
+      }
+    ]
+  }
+}

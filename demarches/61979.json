@@ -1,0 +1,490 @@
+{
+  "number": 61979,
+  "title": "Soumission d'une demande de Modifications substantielles (Avis CEREES ou CESREES)",
+  "description": "“Ce formulaire est destiné au projet ayant déjà fait l’objet d’un avis du CESREES et pour lequel une modification substantielle est demandée.\r\n\r\nIl permet de caractériser le type de modification souhaitée et de recueillir les éléments caractérisant votre projet et les pièces associées. Ces derniers seront ensuite instruits par  le secrétariat unique assuré par le Health Data Hub puis transmis pour avis au CESREES, avant dépôt à la CNIL pour autorisation.\r\n\r\nPoint d’attention : \r\n\r\nLes documents transmis doivent être ceux initialement examinés par le Comité ou soumis à la Cnil, les modifications demandées devant être apparentes;\r\nUne lettre d’accompagnement précisant les évolutions souhaitées doit être transmise.\r\n\r\nVous n’êtes toutefois pas concerné :\r\n\r\nSi votre projet mobilise des données de santé : mais qu’il relève d’une méthodologie de référence. Avant leur mise en oeuvre, ces projets doivent faire l’objet : \r\nd’un engagement de conformité sur le site de la CNIL (https://www.cnil.fr/fr/declarer-un-fichier)\r\npuis d’un enregistrement sur le répertoire public du Health Data Hub (https://www.health-data-hub.fr/depot).\r\nOu qu’il implique la personne humaine.\r\n\r\nPour plus d'informations sur les procédures d’accès aux données, nous vous invitons à consulter le guide sur les procédures d’accès aux données (lien).\r\n\r\nN’hésitez pas à poser vos questions sur notre forum (https://entraide.health-data-hub.fr) ou en écrivant à hdh@health-data-hub.fr. \r\n\r\nVous pouvez aussi consulter notre site internet (https://www.health-data-hub.fr) où un ensemble de supports sont mis à votre disposition pour vous accompagner dans vos démarches.”\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2024-01-22T14:52:30+01:00",
+  "service": {
+    "nom": "Health Data Hub",
+    "organisme": "Health Data Hub",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/soumission-d-une-demande-de-modifications-substant",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.health-data-hub.fr/depot",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000886460/",
+  "logo": {
+    "filename": "Health-Data-Hub-logo_bleu_HD (2).png",
+    "checksum": "Qq3+uaquGxI4jKCLXkPdbg==",
+    "byteSize": "72229",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 33,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Soumission d'une demande de Modifications substantielles (Avis CEREES ou CESREES)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro CNIL",
+        "description": "Merci de préciser le numéro figurant sur l'autorisation initiale de la CNIL",
+        "required": false
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Numéro de dossier initial",
+        "description": "Merci de préciser le numéro de la demande de modifications substantielles (Avis CEREES ou CESREES) pour lequel un deuxième avis du comité est demandé",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Titre complet de la recherche, étude, évaluation",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Titre",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Titre du projet à destination du public",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Caractérisation de la demande de modifications substantielles",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Informations relatives au déclarant",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Souhaitez-vous modifier des informations relatives au déclarant ?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si oui, merci de préciser : N° SIREN + NIC",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom/Raison sociale",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Ville",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Code postal",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse mail",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Personne à contacter au sein de l'organisme si un complément d'information doit être demandé :",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom et Prénom",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Fonction",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse mail",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Responsable de la mise en oeuvre",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Modifiez-vous le service chargé de la mise en œuvre du traitement ?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si oui, merci de préciser : N° SIREN + NIC",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom/Raison sociale",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Ville",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Code postal",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse mail",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Finalité à modifier",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Modifiez-vous la finalité de votre traitement ?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si oui, merci de préciser la nature de la modification",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Les données traitées",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Modifiez-vous les données traitées ?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Si oui, quelles sont les catégories de données ajoutées ?",
+            "description": "",
+            "required": false,
+            "options": [
+              "Etat-civil, Identité, Données d’identification",
+              "Vie personnelle (habitudes de vie, situation familiale, etc.)",
+              "Vie professionnelle (CV, scolarité, formation professionnelle, distinctions, etc.)",
+              "Informations d’ordre économique et financier (revenus, situation financière, situation fiscale, etc.)",
+              "Données de connexion (adresse IP, logs, etc.)",
+              "Données de localisation (déplacements, données GPS, GSM, etc.)",
+              "Autres données"
+            ]
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Quelles sont les données sensibles utilisées ?",
+            "description": "",
+            "required": false,
+            "options": [
+              "N° de sécurité sociale (NIR),",
+              "Infractions, condamnations, mesures de sûreté (réservé aux auxiliaires de justice),",
+              "Données biométriques (Annexe « Dispositifs biométriques à fournir»),",
+              "Données génétiques (ADN),",
+              "Origines raciales ou ethniques, opinions philosophiques, politiques, religieuses, syndicales, vie sexuelle,",
+              "Appréciations sur les difficultés sociales des personnes",
+              "Données de santé",
+              "Prélèvements biologiques identifiants",
+              "Décès des personnes",
+              "Données de l’assurance maladie",
+              "Données d’identification des investigateurs",
+              "Autres données sensibles"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Merci de préciser le contenu des données à modifier",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Durée de conservation des données",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Modifiez-vous la durée de conservation des données traitées ?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Si oui, merci de précisez la nouvelle durée de conservation",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Les destinataires de données",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Modifiez-vous les destinataires des données ?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Si oui, merci de préciser la nature de la qualité de ces destinataires",
+            "description": "Seule la qualité du destinataire doit être indiquée, et non son patronyme. Dans cette hypothèse, la modification ne sera pas prise en compte.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Échanges de données/Interconnexions de données",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Procédez-vous à des échanges de données ?",
+            "description": "",
+            "required": true,
+            "options": [
+              "Oui, avec d’autres services au sein de l’organisme déclarant",
+              "Oui, avec des organismes extérieurs au déclarant",
+              "Non"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Si oui, préciser la nature de la modification",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Transfert de données hors de l'Union européenne",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Transmettez-vous tout ou partie des données traitées vers un pays situé hors de l’Union européenne et n’assurant pas un niveau de protection suffisant ?",
+            "description": "Si oui, merci de compléter l’annexe « Transfert de données hors de l’Union européenne »\r\n",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Les modalités d'exercice du droit d'accès",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Modifiez-vous les modalités d’exercice du droit d’accès ?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Si oui, merci de préciser la nature de la modification",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Les dispositions de sécurité",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Modifiez-vous les dispositions de sécurité de votre traitement ?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Si oui, merci de préciser",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Lettre d'accompagnement",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Résumé amendé",
+            "description": "Modifications apparentes",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Protocole amendé",
+            "description": "Modifications apparentes",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autorisation initiale de la CNIL",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Avis comité compétent précédemment saisi",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déclaration d'intérêt du responsable de traitement, le cas échéant",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déclaration d'intérêt du responsable de mise en oeuvre, le cas échéant",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Lettre information patients/participants, le cas échéant",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Annexe transfert hors UE",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document complémentaire 1",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document complémentaire 2",
+            "description": "",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

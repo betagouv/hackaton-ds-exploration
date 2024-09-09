@@ -1,0 +1,187 @@
+{
+  "number": 45208,
+  "title": "Formulaire pour transmission des documents relatifs à la tenue d’un conseil de surveillance (ordre du jour, documents financiers, comptes rendus, procès-verbaux, présentations, …) ",
+  "description": "La bonne tenue d’un conseil de surveillance passe par la transmission des pièces nécessaires à celui-ci. Règlementairement, l’ordre du jour est adressé au moins 7 jours à l’avance (Article R.6143-8 du code de la santé publique), les délibérations sont transmises sans délai au Directeur Général de l’Agence Régionale de Santé (Article R.6143-14 du code de la santé publique) et les comptes-rendus de séance le sont dans les 15 jours qui suivent chaque réunion à tous les membres (Article R.6143-15 du code de la santé publique). \r\nA cette fin, vous pouvez déposer tous les documents relatifs à la tenue des conseils de surveillance sur cette plateforme.",
+  "tags": [
+    "Conseil de surveillance"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2021-08-23T14:28:37+02:00",
+  "service": {
+    "nom": "ARS ARA - DOS - Pôle coopérations et gouvernance des établissements (conseil de surveillance)",
+    "organisme": "Agence régionale de santé Auvergne-Rhône-Alpes",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/transmissionconseilssurveillance",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.auvergne-rhone-alpes.ars.sante.fr/autorisations-sanitaires-3",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=7B2B0746D849616835BA684F759D0048.tplgfr23s_1?idArticle=LEGIARTI000036627592&cidTexte=LEGITEXT000006072665&dateTexte=20190505&categorieLien=id&oldAction=&nbResultRech=",
+  "logo": {
+    "filename": "2020_Logo_RF_ARS_ARA_Horizontal.png",
+    "checksum": "D31EUTNyHIFk63RNkPLFrQ==",
+    "byteSize": "67620",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 1572,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Département concerné",
+        "description": null,
+        "required": true,
+        "options": [
+          "01 - Ain",
+          "03 - Allier",
+          "07 - Ardèche",
+          "15 - Cantal",
+          "26 - Drôme",
+          "38 - Isère",
+          "42 - Loire",
+          "43 - Haute-Loire",
+          "63 - Puy-De-Dôme",
+          "69 - Rhône",
+          "73 - Savoie",
+          "74 - Haute Savoie"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l’établissement :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Département de l’établissement",
+        "description": null,
+        "required": true,
+        "options": [
+          "01",
+          "03",
+          "07",
+          "15",
+          "26",
+          "38",
+          "42",
+          "43",
+          "63",
+          "69",
+          "73",
+          "74"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro FINESS de l’établissement",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination de l’établissement",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité du demandeur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du demandeur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du demandeur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction du demandeur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse email du demandeur",
+        "description": "(fonctionnelle de préférence) ",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone contact du demandeur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Objet du dépôt :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sélectionner l’objet de votre demande :",
+        "description": "",
+        "required": true,
+        "options": [
+          "Procès-verbal ou Compte-rendu du conseil de surveillance en date du",
+          "Documents en vue du prochain conseil de surveillance en date du",
+          "Autres : motions, documentations"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du conseil de surveillance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Titre de la demande",
+        "description": "\n",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Message accompagnant la demande :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document principal",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièce(s) complémentaire(s)",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce complémentaire",
+            "description": null,
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

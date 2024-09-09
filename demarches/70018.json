@@ -1,0 +1,651 @@
+{
+  "number": 70018,
+  "title": "DGER - Mobilité individuelle apprenant UE et hors UE",
+  "description": "Formulaire pour les mobilités individuelles UE et hors UE des apprenants de l’enseignement agricole.",
+  "tags": [
+    "DGER",
+    "apprenant",
+    "mobilité",
+    "Mobilité",
+    "Draaf"
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2023-03-17T20:28:15+01:00",
+  "service": {
+    "nom": "BRECI",
+    "organisme": "DGER",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/dger-mobilite-individuelle-apprenant",
+  "dpoUrl": "dpo@agriculture.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://portailcoop.educagri.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/eli/loi/2018/6/20/JUSC1732261L/jo/texte",
+  "logo": {
+    "filename": "Logo MASA.png",
+    "checksum": "q8jjBGR3bPSTg551BRUvyA==",
+    "byteSize": "23002",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "Tuto DS Breci mobilités 24112020.pdf",
+    "checksum": "oylVa98gG0GzzHFn1LSORA==",
+    "byteSize": "602426",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 6511,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Région",
+        "description": "",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Guadeloupe",
+          "Guyane",
+          "Hauts-de-France",
+          "Île-de-France",
+          "Martinique",
+          "Mayotte",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Polynésie française",
+          "Provence-Alpes-Côte d'Azur",
+          "Réunion"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Choix de la Région",
+        "description": "Merci de bien renseigner votre région d'appartenance.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre établissement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Statut établissement",
+        "description": "",
+        "required": true,
+        "options": [
+          "--Établissement privé--",
+          "CNEAP",
+          "MFR",
+          "UNREP",
+          "Autre",
+          "--Établissement public--",
+          "CFA",
+          "CFPPA",
+          "LEGTPA",
+          "LEGTA",
+          "LPA"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Apprenant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom apprenant",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom apprenant",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Apprenant mineur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut de l'apprenant",
+        "description": "Rappel : \r\n- les BTS sont considérés comme des étudiants.\r\n- les stagiaires FPC sont des adultes en formation professionnelle continue.",
+        "required": true,
+        "options": [
+          "Apprenti",
+          "Élève",
+          "Étudiant",
+          "Stagiaire de la FPC"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Niveau de formation",
+        "description": "",
+        "required": true,
+        "options": [
+          "--Enseignement technique--",
+          "Collège (4e, 3e)",
+          "BPA - BP",
+          "CAPA",
+          "Seconde professionnelle",
+          "Seconde générale et technologique",
+          "Première Bac professionnel",
+          "Première Bac technologique",
+          "Première Bac général",
+          "Terminale Bac professionnel",
+          "Terminale Bac technologique",
+          "Terminale Bac général",
+          "Autre formation par apprentissage",
+          "Autre formation par FPC",
+          "--Enseignement supérieur court (BTS)--",
+          "BTSA 1",
+          "BTSA 2",
+          "Autre formation par apprentissage",
+          "Autre formation par FPC"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Secteur de formation",
+        "description": null,
+        "required": true,
+        "options": [
+          "Aménagement de l'espace et protection de la nature",
+          "Production",
+          "Secteur Général et Technologique (ou Secteur GT)",
+          "Services aux personnes et au territoire",
+          "Autres services (dont commercialisation)",
+          "Transformation"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Type de mobilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Mobilité",
+        "description": "Mobilité d'études (ou mobilité académique) : période d'étude dans un établissement partenaire de votre établissement.\r\nMobilité de stage : période de stage dans une structure d’accueil (entreprise, exploitation, laboratoire...).",
+        "required": true,
+        "options": [
+          "Etudes",
+          "Stage"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mobilité hybride",
+        "description": "Mobilité hybride : périodes incluant des activités en distanciel et en présentiel.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Voyage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Transit",
+        "description": "Dans le cas d'un transit par plusieurs pays ou plusieurs villes, vous devez cliquer sur le bouton \"+ ajouter un élément\".",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PaysChampDescriptor",
+            "label": "Pays de Transit",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Ville de Transit",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Zonage MEAE",
+            "description": "Vérifier les recommandations du MEAE sur https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/",
+            "required": false,
+            "options": [
+              "Vigilance normale",
+              "Vigilance renforcée (sous condition d'avis)"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Lieu mobilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Pays",
+        "description": "Indiquez ici si le pays de destination de la mobilité fait partie de l'Union européenne ou s'il s'agit d'une mobilité à l'international (hors UE).",
+        "required": true,
+        "options": [
+          "Pays membre UE",
+          "International"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Pays membre de l'Union Européenne",
+        "description": "Vous pouvez inscrire l'initiale du pays pour accéder plus facilement au pays concerné.",
+        "required": true,
+        "options": [
+          "Allemagne",
+          "Autriche",
+          "Belgique",
+          "Bulgarie",
+          "Chypre",
+          "Croatie",
+          "Danemark",
+          "Espagne",
+          "Estonie",
+          "Finlande",
+          "Grèce",
+          "Hongrie",
+          "Irlande",
+          "Islande",
+          "Italie",
+          "Lettonie",
+          "Lituanie",
+          "Luxembourg",
+          "Malte",
+          "Pays-Bas",
+          "Pologne",
+          "Portugal",
+          "Roumanie",
+          "Slovaquie",
+          "Slovénie",
+          "Suède",
+          "Tchéquie"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "International",
+        "description": "Vous pouvez inscrire l'initiale du pays pour accéder plus facilement au pays concerné.",
+        "required": true,
+        "options": [
+          "Afghanistan",
+          "Afrique du Sud",
+          "Albanie",
+          "Algérie",
+          "Andorre",
+          "Angola",
+          "Antigua-et-Barbuda",
+          "Arabie saoudite",
+          "Argentine",
+          "Arménie",
+          "Australie",
+          "Azerbaïdjan",
+          "Bahamas",
+          "Bahrein",
+          "Bangladesh",
+          "Barbade",
+          "Bélize",
+          "Bénin",
+          "Bhoutan",
+          "Biélorussie",
+          "Birmanie",
+          "Bolivie",
+          "Bonaire",
+          "Bosnie-Herzégovine",
+          "Botswana",
+          "Brésil",
+          "Brunei",
+          "Burkina",
+          "Burundi",
+          "Cambodge",
+          "Cameroun",
+          "Canada",
+          "Cap-Vert",
+          "Centrafricaine (République)",
+          "Chili",
+          "Chine",
+          "Colombie",
+          "Comores",
+          "Congo",
+          "Congo (République démocratique)",
+          "Corée (République de)",
+          "Corée (République populaire démocratique de)",
+          "Costa Rica",
+          "Côte d'Ivoire",
+          "Cuba",
+          "Curaçao",
+          "Djibouti",
+          "Dominicaine (République)",
+          "Dominique",
+          "Égypte",
+          "Elsalvador",
+          "Émirats arabes",
+          "Équateur",
+          "Érythrée",
+          "États-unis",
+          "Éthiopie",
+          "Fidji",
+          "Gabon",
+          "Gambie",
+          "Géorgie",
+          "Ghana",
+          "Grenade",
+          "Guatemala",
+          "Guinée",
+          "Guinée-Bissau",
+          "Guinée équatoriale",
+          "Guyana",
+          "Haïti",
+          "Honduras",
+          "Inde",
+          "Indonésie",
+          "Iran",
+          "Iraq",
+          "Islande",
+          "Israel",
+          "Jamaïque",
+          "Japon",
+          "Jordanie",
+          "Kazakhstan",
+          "Kenya",
+          "Kirghizistan",
+          "Kiribati",
+          "Kosovo",
+          "Koweit",
+          "Laos",
+          "Lesotho",
+          "Liban",
+          "Liberia",
+          "Libye",
+          "Liechtenstein",
+          "Macédoine du Nord",
+          "Madagascar",
+          "Malaisie",
+          "Malawi",
+          "Maldives",
+          "Mali",
+          "Maroc",
+          "Marshall (Îles)",
+          "Maurice",
+          "Mauritanie",
+          "Mexique",
+          "Micronésie (États fédérés de)",
+          "Moldavie",
+          "Monaco",
+          "Mongolie",
+          "Monténégro",
+          "Mozambique",
+          "Namibie",
+          "Nauru",
+          "Népal",
+          "Nicaragua",
+          "Niger",
+          "Nigeria",
+          "Norvège",
+          "Nouvelle-Zélande",
+          "Oman",
+          "Ouganda",
+          "Ouzbékistan",
+          "Pakistan",
+          "Palaos (Îles)",
+          "Palestine (État de)",
+          "Panama",
+          "Papouasie-Nouvelle-Guinée",
+          "Paraguay",
+          "Pérou",
+          "Philippines",
+          "Qatar",
+          "Royaume-Uni",
+          "Russie",
+          "Rwanda",
+          "Saint-Christophe-et-Niévès",
+          "Sainte-Lucie",
+          "Saint-Marin",
+          "Saint-Martin (partie néerlandaise)",
+          "Saint-Vincent-et-les Grenadines",
+          "Salomon(Îles)",
+          "Samoa Occidentales",
+          "SaoTomé-et-Principe",
+          "Sénégal",
+          "Serbie",
+          "Seychelles",
+          "SierraLeone",
+          "Singapour",
+          "Somalie",
+          "Soudan",
+          "Soudan du Sud",
+          "SriLanka",
+          "Suisse",
+          "Suriname",
+          "Swaziland",
+          "Syrie",
+          "Tadjikistan",
+          "Tanzanie",
+          "Tchad",
+          "Thailande",
+          "Timororiental",
+          "Togo",
+          "Tonga",
+          "Trinité-et-Tobago",
+          "Tunisie",
+          "Turkménistan",
+          "Turquie",
+          "Tuvalu",
+          "Ukraine",
+          "Uruguay",
+          "Vanuatu",
+          "Vatican",
+          "Vénézuela",
+          "VietNam",
+          "Yémen",
+          "Zambie",
+          "Zimbabwé"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Avis Draaf",
+        "description": "Conformément à la note de service DGER/SDRICI/2015-524 du 16 juin 2015, le chef d’établissement doit solliciter l’avis de la DRAAF-SRFD pour tous les déplacements hors de l’Union Européenne. Cet avis sera indiqué sur l'autorisation de stage ou de mobilité d'étude.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Rappel : autorisation de stage / de mobilité d'étude",
+        "description": "La mobilité de stage ou d'étude d'un apprenant doit obligatoirement donner lieu à une autorisation signée par le chef d'établissement quel que soit le pays d'accueil.\r\nDans le cadre d'une mobilité dans l'Union Européenne, cette autorisation ne doit pas être envoyée dans ce formulaire mais devra être conservée par l'établissement.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Modèle autorisation de stage apprennant",
+        "description": "Autorisation stage : https://draaf.occitanie.agriculture.gouv.fr/IMG/pdf/apprenant_autorisation-stage_masa.pdf",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Modèle autorisation mobilité académique (étude)",
+        "description": "Autorisation mobilité académique : https://draaf.occitanie.agriculture.gouv.fr/IMG/pdf/apprenant_autorisation-academique_masa.pdf",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Zonage MEAE",
+        "description": "Vérifier les recommandations du MEAE sur https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/",
+        "required": true,
+        "options": [
+          "Vigilance normale",
+          "Vigilance renforcée (sous condition d'avis)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Ville(s)",
+        "description": "Dans le cas d'une mobilité\"itinérante\" dans plusieurs villes dans le pays d'accueil, vous devez cliquer sur le bouton \"+ ajouter un élément\".",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Ville",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Zonage MEAE",
+            "description": "Vérifier les recommandations du MEAE sur https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/",
+            "required": false,
+            "options": [
+              "Vigilance normale",
+              "Vigilance renforcée (sous condition d'avis)"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Durée mobilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date départ",
+        "description": "Ne s'applique qu'aux mobilités physiques.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date retour",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Autorisation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autorisation de départ en stage individuel",
+        "description": "Modèle en téléchargement.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autorisation de départ en mobilité d'études",
+        "description": "Modèle en téléchargement.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Attestation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Procédure d’inscription de la mobilité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Déclaration de mobilité",
+        "description": "<strong>L'apprenant et l'établissement attestent que le projet de mobilité a été déclaré sur le portail Ariane du ministère de l'Europe et des Affaires étrangères : https://pastel.diplomatie.gouv.fr/fildariane/dyn/public/login.html </strong>.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Financement mobilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Demande d'aide à la mobilité DGER prévue",
+        "description": "Les bénéficiaires doivent être inscrits dans un cursus de formation dans un établissement d’enseignement agricole public ou privé et préparer un CAPA, un Bac général, professionnel, technologique ou un BTSA. \r\nLes mobilités doivent être d’une durée minimale de 28 jours, transport compris. Elles doivent être individuelles.\r\nUn même apprenant ne peut bénéficier que d’une seule aide à la mobilité par cycle de formation.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "DGER - Aide à la mobilité individuelle apprenant",
+        "description": "Vous pourrez déposer votre demande d'aide DGER une fois votre dossier de mobilité individuelle accepté via le lien suivant : https://www.demarches-simplifiees.fr/commencer/dger-aide-mobilite-individuelle.",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quels sont les partenaires financiers de votre projet de mobilité ?",
+        "description": "Vous pouvez sélectionner plusieurs choix.",
+        "required": true,
+        "options": [
+          "Collectivités territoriales",
+          "Erasmus+",
+          "OFAJ",
+          "OFQJ",
+          "Autre partenaire",
+          "Aucun"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre partenaire (précisez)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Information finale",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information importante",
+        "description": "Vous avez opté pour une démarche dématérialisée. La validation du formulaire vaut signature.",
+        "required": false
+      }
+    ]
+  }
+}

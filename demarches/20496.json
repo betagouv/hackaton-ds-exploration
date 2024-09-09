@@ -1,0 +1,257 @@
+{
+  "number": 20496,
+  "title": "92-Demande d'émission d'un arrêté pour manifestation (sportive, brocante, fête diverse, défilé, film, concert...) sur places existantes ou sur voie de circulation (route, piste cyclable, voie de bus ou trottoir)",
+  "description": "Pour le département des Hauts-de-Seine (92) et pour les routes classées à grande circulation, demande d'émission d'un arrêté pour manifestation (sportive, brocante, fête diverse, défilé, film, concert...).",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2019-08-06T16:32:59+02:00",
+  "service": {
+    "nom": "DRIEAT-ILE DE FRANCE (partie arrêtés de circulation 92)",
+    "organisme": "Service de la sécurité des transports-Département Sécurité, Education et Circulation Routières",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/61456f52-9dd3-4a43-8a9e-32fd64bad3e3",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.driea.ile-de-france.developpement-durable.gouv.fr",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "procedure-006d0f70-13fc-4111-8c90-4cc1a1fe192d.png",
+    "checksum": "yN95vRmiHpcNmRDoOFwkew==",
+    "byteSize": "5704",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Objet de la manifestation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Objet de la manifestation",
+        "description": "Exemples : \nConcert de jazz\nDéfilé des anciens combattants\nFête des enfants\nCourse pédestre",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Date et heure de la manifestation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pourquoi dois-je EXCLUSIVEMENT lister certaines dates ?",
+        "description": "Le préfet a la charge de la police de la voie publique, sur les Routes à Grande Circulation (RGC) (décret n°2010-578).\nLe maire a la charge de la police de la voie publique, sur les voies communales.",
+        "required": false
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "Date et heure de début de la manifestation, sur la(les) RGC :",
+        "description": "Préciser uniquement la partie qui concerne le préfet.",
+        "required": true
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "Date et heure de fin de la manifestation, sur la(les) RGC :",
+        "description": "Préciser uniquement la partie qui concerne le préfet.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précisions complémentaires liées aux dates et heures",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Lieu(x) concerné(s) par la manifestation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pourquoi dois-je EXCLUSIVEMENT lister certaines rues/avenues/boulevards ?",
+        "description": "Le préfet a la charge de la police de la voie publique, sur les routes à grande circulation (décret n°2010-578).\nLe maire a la charge de la police de la voie publique, sur les voies communales.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Numéro de la route départementale concernée par la demande",
+        "description": "Dans le doute, nous vous conseillons :\n- d'effectuer une recherche sur un moteur de recherche.\n- de vous adresser à la mairie du lieu de la demande",
+        "required": true,
+        "options": [
+          "D7",
+          "D17",
+          "D19",
+          "D131",
+          "D907",
+          "D908",
+          "D909",
+          "D910",
+          "D911",
+          "D912",
+          "D913",
+          "D914",
+          "D920",
+          "D985",
+          "D986",
+          "D992",
+          "Route du bassin n°5",
+          "Route du bassin n°6",
+          "Route principale du port"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Itinéraire de la manifestation sur la(les) RGC",
+        "description": "Préciser uniquement la partie qui concerne le préfet.\nExemple : \nTrajet aller : du 104 avenue Aristide Briand 92220 BAGNEUX, jusqu'au 118 boulevard du maréchal Joffre 92340 BOURG LA REINE.\nTrajet retour : du 132 avenue du général Leclerc 92340 BOURG LA REINE, jusqu'au 3 avenue du général Leclerc 92340 BOURG LA REINE.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précisions complémentaires liées à l'itinéraire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Eléments neutralisés lors de la manifestation",
+        "description": "Plusieurs choix sont possibles.",
+        "required": true,
+        "options": [
+          "Cheminement piéton (trottoir)",
+          "Place matérialisée (place de stationnement)",
+          "Place de livraison",
+          "Arrêt-minute",
+          "Une contre-allée côté habitation (allée parallèle à la voie de circulation principale)",
+          "Une contre-allée côté voie de circulation (allée parallèle à la voie de circulation principale)",
+          "Voie de bus",
+          "Voie cyclable (piste vélo)",
+          "1 voie de circulation (voie de droite)",
+          "1 voie de circulation (voie de gauche)",
+          "2 voies de circulation",
+          "La totalité des voies de circulation"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées du responsable de la manifestation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Responsable de la manifestation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom+prénom du responsable de la manifestation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du responsable de la manifestation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique du responsable de la manifestation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées du permissionnaire (personne physique ou morale qui sera redevable de la redevance (facture) relative au permis de stationnement)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "En application de l’article L.2331-4-8 du code général des collectivités territoriales, l’autorisation délivrée peut donner lieu au paiement d’une redevance dont le montant, les modalités de paiement et de révision sont fixées par la commune du lieu du stationnement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom + prénom, ou Nom de la société/association",
+        "description": "Préciser les coordonnées du destinataire de la redevance éventuelle (facture).",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET de la société/association (en cas de société/association uniquement)",
+        "description": "Préciser les coordonnées du destinataire de la redevance éventuelle (facture).",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse complète",
+        "description": "Préciser les coordonnées du destinataire de la redevance éventuelle (facture).",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Complément d'adresse",
+        "description": "Préciser les coordonnées du destinataire de la redevance éventuelle (facture).",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Préciser les coordonnées du destinataire de la redevance éventuelle (facture).",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": "Préciser les coordonnées du destinataire de la redevance éventuelle (facture).",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Photographie du ou des lieux concerné(s) par la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de situation (ou schéma) explicatif",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

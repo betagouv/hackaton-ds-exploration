@@ -1,0 +1,235 @@
+{
+  "number": 33537,
+  "title": "Demande d’extraction de données du système intégré de gestion et de contrôle (SIGC) des aides attachées aux surfaces cultivées relevant de la PAC, et notamment du  registre parcellaire graphique (RPG)",
+  "description": "La direction régionale de l’agriculture, de l’alimentation et de la forêt (DRAAF) est chargée de la communication de certaines données du système intégré de gestion et de contrôle (SIGC) d’aides attachées aux surfaces cultivées et relevant de la politique agricole commune (PAC), et en particulier du Registre parcellaire graphique (RPG).",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2020-09-16T08:57:50+02:00",
+  "service": {
+    "nom": "Service Régional de l'Information Statistique, Economique et Territoriale",
+    "organisme": "Direction Régionale de l'Agriculture, l'Alimentation et le Forêt de Nouvelle-Aquitaine",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-extractions-donnees-pac-na",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://draaf.nouvelle-aquitaine.agriculture.gouv.fr/Liens-utiles",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "PREFETE_region_Nouvelle_Aquitaine_Couleurs1_cle847251.jpg",
+    "checksum": "I5KOjFIsz885a6BDfI3nFQ==",
+    "byteSize": "603741",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "Notice.pdf",
+    "checksum": "NGMDvf/pr4VtEXdRZ7ZG+g==",
+    "byteSize": "235682",
+    "contentType": "application/pdf"
+  },
+  "deliberation": {
+    "filename": "2018-706_final_circulaire_diffusionRPG_publie_27_sept.pdf",
+    "checksum": "mR4V5Zdg6qmRMCNqqO5yPg==",
+    "byteSize": "895398",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité du demandeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom, Prénom ou raison sociale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Coordonnées du délégué à la protection des données (DPD)",
+        "description": "Prénom, nom, téléphone, adresse électronique",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Note",
+        "description": "La désignation d'un Délégué est obligatoire pour :\n- les autorités et organismes publics (par exemple, les ministères, collectivités territoriales, établissements publics) ;\n- les organismes dont les activités de base les amènent à réaliser un suivi régulier et systématique des personnes à grande échelle. Par exemple : les compagnies d'assurance ou les banques pour leurs fichiers clients, les opérateurs téléphoniques ou les fournisseurs d'accès internet ;\n- les organismes dont les activités de base les amènent à traiter à grande échelle des données dites \"sensibles\" (données biométriques, génétiques, relatives à la santé, la vie sexuelle, l'origine raciale ou ethnique, les opinions politiques, les convictions religieuses ou philosophiques ou l'appartenance syndicale) ou relatives à des condamnations pénales et infractions.\n\nDans les autres cas, la désignation d'un Délégué à la protection des données est encouragée par la CNIL.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Coordonnées du responsable du traitement (RT)",
+        "description": "Prénom, nom, téléphone, adresse électronique",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nature de l'organisme demandeur",
+        "description": null,
+        "required": true,
+        "options": [
+          "Service de l’État",
+          "Collectivité",
+          "Établissement public",
+          "Organisme privé chargé d'une mission de service public",
+          "Particulier",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si \"Autre demandeur\", préciser",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nature et fondement juridique de la mission de SP nécissitant l'usage de données niveau 2",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Périmètre géographique demandé",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Choix du périmètre",
+        "description": "",
+        "required": true,
+        "options": [
+          "Administratif : joindre la liste des codes et libellés Insee au format numérique CSV, XLS ou ODS et le millésime du COG correspondant",
+          "Physique : joindre le périmètre dans un format SIG vecteur (shp, tab...)"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Périmètre",
+        "description": "Si plusieurs documents, ajouter un fichier compressé.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif du périmètre de compétence",
+        "description": "Si plusieurs documents, ajouter un fichier compressé.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Enumération des données demandées",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Choix du ou des millésimes",
+        "description": null,
+        "required": true,
+        "options": [
+          "2015",
+          "2016",
+          "2017",
+          "2018"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Tables géographiques",
+        "description": null,
+        "required": false,
+        "options": [
+          "Parcelles et assolements",
+          "Maec et bio"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Tables attributaires",
+        "description": null,
+        "required": false,
+        "options": [
+          "Exploitants (n°PACAGE et forme juridique)",
+          "Premier pilier",
+          "Second pilier"
+        ]
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Niveau 2+ (Services de l'État exclusiment) : table exploitants complète",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Usage des données demandées",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Intitulé de la mission de service public et références réglementaires",
+        "description": "L'instruction du dossier prendra en compte la compatibilité des données sollicitées avec la mission de service public poursuivie.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Usages attendus des données (objectifs fonctionnels des traitements)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description des traitements réalisés et en particulier des croisements de données",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative apte à faciliter l'instruction de la demande",
+        "description": "Si plusieurs documents, ajouter un fichier compressé.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Attestation d'exactitude et acte d'engagement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déposer ici votre attestation d'exactitude et votre acte d'engagement",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

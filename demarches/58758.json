@@ -1,0 +1,78 @@
+{
+  "number": 58758,
+  "title": "Déclaration de dérogation à l'obligation de la couverture des sols pendant les intercultures longues - Puy-de-Dome - Campagne 2022",
+  "description": "L’objectif de cette démarche simplifiée est de faciliter :\r\n\r\n- pour l’exploitant  le dépôt de son formulaire 2022 (limitation du nombre de pièces justificatives) pour la dérogation à la mise en place des CIPAN (volet  terres argileuses uniquement)\r\n- pour la DDT, la gestion de l’ensemble des demandes avec une exploitation cartographique simplifiée.\r\n",
+  "tags": [
+    "Agriculture"
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2022-06-24T14:48:16+02:00",
+  "service": {
+    "nom": "Service Eau Environnement Foret",
+    "organisme": "DDT du Puy-de-Dôme",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/63cipan2022",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://extranet-puy-de-dome.chambres-agriculture.fr/",
+  "cadreJuridiqueUrl": "https://draaf.auvergne-rhone-alpes.agriculture.gouv.fr/Mise-en-place-du-5eme-programme-d",
+  "logo": null,
+  "notice": {
+    "filename": "notice_derogation_cipan.pdf",
+    "checksum": "irUf+e9vLGjiiosl3S577A==",
+    "byteSize": "137586",
+    "contentType": "application/pdf"
+  },
+  "deliberation": {
+    "filename": "20180719_AP_PAR_signe.pdf",
+    "checksum": "yWQmqfDmQSejn3TH6WBXuw==",
+    "byteSize": "3663825",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 75,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° pacage",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "adresse électronique",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "GROUPE D'ILOTS RATTACHES A UNE ANALYSE DE SOL",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Analyse de sol",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "teneur en argile",
+            "description": "format pourcentage exemple : 40.2",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "n° ilot RPG 2022",
+            "description": "Lister les ilots concernées séparées par ;\r\nexemple : 1;5;6;15;25",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

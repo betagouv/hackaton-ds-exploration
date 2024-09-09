@@ -1,0 +1,62 @@
+{
+  "number": 55536,
+  "title": "test demarche",
+  "description": "formulaire de test",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-12-28T14:48:39+01:00",
+  "service": {
+    "nom": "Service projet développement SI",
+    "organisme": "ARS HDF",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/test-demarche-3",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.hauts-de-france.ars.sante.fr/",
+  "cadreJuridiqueUrl": "https://www.hauts-de-france.ars.sante.fr/",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 4,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Etablissement",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom établissement",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse domicile",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Finess",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "GHT",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

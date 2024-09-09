@@ -1,0 +1,82 @@
+{
+  "number": 64117,
+  "title": "Compte-rendu d'opérations : louvetiers",
+  "description": "Compte-rendu des interventions des lieutenants de louveterie",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2023-06-05T12:00:27+02:00",
+  "service": {
+    "nom": "Service environnement - risques",
+    "organisme": "DDT d'Ariège",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/compte-rendu-d-operations-louvetiers",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Environnement-biodiversite/Chasse",
+  "cadreJuridiqueUrl": "Arrêté du 14 juin 2010 relatif aux lieutenants de louveterie",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 58,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "circonscription du louvetier",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de l'arrêté préfectoral",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Prélèvement effectué",
+        "description": "Cliquez ci-dessous pour ajouter un prélèvement pour chaque espèce supplémentaire,",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Espèces concernées",
+            "description": "",
+            "required": true,
+            "options": [
+              "Blaireau",
+              "Renard",
+              "Sanglier",
+              "Corneille noire",
+              "Pigeon ramier",
+              "Ragondin"
+            ]
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Autres espèces",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre d'individus prélevés",
+            "description": "Nombre total d'animaux prélevés durant toute la période autorisée, pour l'espèce",
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Commune",
+            "description": "Sur quelles communes les prélèvements ont eu lieu :",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

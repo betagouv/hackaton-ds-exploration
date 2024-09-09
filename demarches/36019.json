@@ -1,0 +1,882 @@
+{
+  "number": 36019,
+  "title": "Demande de subventions pour les Associations",
+  "description": "Vous êtes responsables d’une association et souhaitez solliciter une aide auprès de la ville de La Rochelle.\r\n\r\nMerci de bien vouloir compléter les différentes rubriques du formulaire afin que votre demande puisse être étudiée au mieux par votre service référent.\r\n\r\nCette interface vous permettra de suivre votre demande et son état d'avancement.\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2020-12-24T15:55:32+01:00",
+  "service": {
+    "nom": "Direction Citoyenneté, Territoires, Vie associative",
+    "organisme": "Mairie de La Rochelle ",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/vlr-asso-subventions2021",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.larochelle.fr/vie-quotidienne/associations",
+  "cadreJuridiqueUrl": "https://www.larochelle.fr/donnees-personnelles",
+  "logo": {
+    "filename": "AcroRd32_2020-12-11_15-52-51.png",
+    "checksum": "tFPz7cyiCmGS01wUKk/bhw==",
+    "byteSize": "17676",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 219,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sélectionnez le service que vous sollicitez pour une demande de subvention.",
+        "description": null,
+        "required": true,
+        "options": [
+          "CCAS - Centre Communal d'Actions Sociales",
+          "Ville La Rochelle - Service Affaires Culturelles",
+          "Ville La Rochelle - Service Commerces et Marchés",
+          "Ville La Rochelle -  Service de la Voirie",
+          "Ville La Rochelle - Service Espaces verts",
+          "Ville La Rochelle - Service Nature et paysages",
+          "Ville La Rochelle -  Service Petite Enfance",
+          "Ville La Rochelle -  Service Relations publiques",
+          "Ville La Rochelle -  Service Santé Publique et Accessibilité",
+          "Ville La Rochelle - Service Secrétariat Général",
+          "Ville La Rochelle - Service Sports / Nautisme / Plage",
+          "Ville La Rochelle - Service Temps de vie de l’enfant (enfance)",
+          "Ville La Rochelle - Service Vie associative, Jeunesse"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations complémentaires sur l'association",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse du site internet",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel de l'association",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Utilité publique",
+        "description": "Merci de préciser si votre association est d'utilité publique (déclaration RUP) ?",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Commissaire aux comptes",
+        "description": "L'association fait-elle appel à un commissaire aux comptes ?",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Les membres du bureau",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Membres du bureau",
+        "description": "Vous pouvez ajouter autant de personnes que nécessaire (Président, Trésorier, Secrétaire, ...)",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": true,
+            "options": [
+              "Président / Présidente",
+              "Co-Président / Co-Présidente",
+              "Vice-Président / Vice-présidente",
+              "Trésorier / Trésorière",
+              "Secrétaire",
+              "Administrateur / Administratrice",
+              "Directeur / Directrice",
+              "Responsable"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse personnelle",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone fixe",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone mobile",
+            "description": "Numéro de téléphone permettant facilement de joindre la personne.",
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Courriel",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Les personnes adhérentes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre total de personnes adhérentes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de personnes adhérentes Rochelaises",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de personnes adhérentes résidantes sur l'agglomération",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de personnes adhérentes hors de l'agglomération",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Moyens humains au 31 décembre de l'année écoulée",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de bénévoles",
+        "description": "Indiquez le nombre de bénévoles (personne contribuant régulièrement à l'activité de l'association de manière non rémunérée).",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de  salariés en CDD",
+        "description": "Indiquez le nombre de salariés en CDD travaillant pour l'association.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de  salariés en CDI",
+        "description": "Indiquez le nombre de salariés en CDI travaillant pour l'association.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de  salariés en CDDU",
+        "description": "Indiquez le nombre de salariés en CDDU (activité culturelle) travaillant pour l'association.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'emplois aidés",
+        "description": "Indiquez le nombre d'emplois aidés travaillant pour l'association.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Type d'emplois aidés",
+        "description": "Si vous bénéficiez d'emplois aidés, merci de préciser le type de ces emplois.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de personnels mis à disposition ou détachés",
+        "description": "Indiquez le nombre de personnels mis à disposition ou détachés par une autorité publique.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Les moyens techniques",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Locaux utilisés",
+        "description": null,
+        "required": true,
+        "options": [
+          "Aucun",
+          "Mis à disposition par la Ville",
+          "Loués",
+          "Votre propriété"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface en m²",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autres moyens",
+        "description": "Autres moyens techniques (véhicules, matériel technique, ...)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande de subvention globale",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Objet de la demande",
+        "description": "Objet de la demande (aide au fonctionnement, aide au projet, aide à l'équipement).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant de la subvention globale demandée à la ville",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Personne en charge du dossier",
+        "description": "Merci de préciser le nom de la personne en charge de la demande afin de faciliter les échanges avec nos services.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Qualité",
+        "description": null,
+        "required": false,
+        "options": [
+          "Président / Présidente",
+          "Co-Président / Co-Présidente",
+          "Vice-Président / Vice-présidente",
+          "Trésorier / Trésorière",
+          "Secrétaire",
+          "Administrateur / Administratrice",
+          "Directeur / Directrice",
+          "Responsable"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pièces administratives",
+        "description": "Pièces administratives à joindre à votre dossier (pour être instruit, votre dossier devra être COMPLET).",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Votre Projet",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport d'activité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Le compte de résultat N-1 et budget prévisionnel",
+        "description": "Le compte de résultat N-1 et budget prévisionnel globale et à l'équilibre.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Relevé d'Identité Bancaire (RIB)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Les comptes annuels certifiés",
+        "description": "Les comptes annuels approuvés en Assemblée Générale et le rapport du commissaire aux comptes pour les associations qui en ont un). Si les comptes annuels ne sont pas prêts au moment du dépôt des dossiers, ils seront impérativement à transmettre au service instructeur (Courriel ou courrier).",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Fiche \"vie de l'association\" - service des affaires culturelles",
+        "description": "Uniquement pour les demandes concernant des subventions auprès du service des affaires culturelles.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Fiche \"vie de l'association\" - service des sports, nautisme",
+        "description": "Uniquement pour les demandes concernant des subventions auprès du service des sports, nautisme.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1ère déclaration",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pour toute première demande :",
+        "description": "Si c'est votre première demande de subvention, nous vous demandons de bien vouloir nous transmettre les pièces suivantes. Ces pièces ne sont pas obligatoires pour les associations ayant déjà effectué une demande de subvention.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Récépissé de déclaration en Préfecture",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Statuts de l'association",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande de subvention par activités",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Ne concerne pas les association sportives.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Par activité",
+        "description": "A compléter si vous sollicitez la Ville pour plusieurs actions (auprès de votre service référent ou d'un autre service de la Ville).",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Nom de l'activité",
+            "description": "Sélectionnez une activité qui concerne votre demande dans la liste.",
+            "required": true,
+            "options": [
+              "Accidentés ou victimes",
+              "Accueil",
+              "Action en faveur des hommes",
+              "Action syndicale",
+              "Actions en faveur des femmes",
+              "Actions en faveur des seniors",
+              "Actions entre générations",
+              "Actions prévention",
+              "Activité budgétaire globale",
+              "Activité loisir jeunesse",
+              "Activité loisir jeunesse (de 11 à 17 ans)",
+              "Activités enfants, parents",
+              "Activités loisirs adultes (jeux de cartes, couture, origami, …)",
+              "Activités multisports",
+              "Administration",
+              "Aéromodélisme",
+              "Aide à domicile",
+              "Aide à la personne",
+              "Aide à la vie quotidienne",
+              "Aide à l'enfance et à l'adolescence",
+              "Aide aux familles",
+              "Aide aux personnes",
+              "Aïkido",
+              "Alimentation",
+              "Allaitement et maternité",
+              "Animation",
+              "Aquagym.",
+              "Archéologie",
+              "Archives",
+              "Art floral",
+              "Artisanat d'art",
+              "Arts créatifs",
+              "Arts de la piste - Cirque",
+              "Arts martiaux",
+              "Arts visuels",
+              "Art-thérapie",
+              "Assemblée générale",
+              "Association de loisirs",
+              "Association de quartier",
+              "Associations d'amis des musées",
+              "Associations d'étudiants et lycéens",
+              "Associations patriotiques",
+              "Astrologie",
+              "Atelier",
+              "Ateliers petite enfance",
+              "Athlétisme",
+              "Audiovisuel, informatique et multimédia",
+              "Automobile",
+              "Aviation",
+              "Aviron",
+              "Aviron de mer",
+              "Badminton",
+              "Base-ball",
+              "Basket-ball",
+              "Beach-ball",
+              "Beach-soccer",
+              "Beach-tennis",
+              "Beach-volley",
+              "Belote",
+              "Bénévolat",
+              "Bibliothèque",
+              "Bi-Cross",
+              "Bike-polo",
+              "Billard",
+              "Biodanza",
+              "BMX",
+              "Boules",
+              "Boules en bois",
+              "Boules lyonnaises",
+              "Bourse aux jouets-vêtements",
+              "Bowling",
+              "Boxe",
+              "Boxe anglaise",
+              "Boxe française",
+              "Bridge",
+              "Budget, tronc commun",
+              "Budokan",
+              "Bushido",
+              "Café-théâtre",
+              "Calligraphie",
+              "Camping",
+              "Cancer",
+              "Capoeira",
+              "Carnaval",
+              "Catch",
+              "Célébration",
+              "Centre de loisirs",
+              "Centre de loisirs - accueils collectifs de mineurs",
+              "Centres de vacances",
+              "Centres sociaux",
+              "Chant, chorale",
+              "Cheerleading",
+              "Cinéma",
+              "Citoyenneté",
+              "Club du 3ème age",
+              "Clubs et amicales de retraités",
+              "Colombophilie",
+              "Comité de quartier",
+              "Commerçants",
+              "Concert, spectacle",
+              "Conférence",
+              "Conseil d'administration",
+              "Conseils en assurance",
+              "Conseils juridiques",
+              "Consommation",
+              "Conte",
+              "Contrainte service",
+              "Cours de langues",
+              "Course à pied",
+              "Course de grand fond",
+              "Course sur route",
+              "Couture-vannerie",
+              "Crèches et halte garderies associatives",
+              "Cuisine",
+              "Culte",
+              "Culture",
+              "Culture physique",
+              "Cultures du monde",
+              "Cyclisme",
+              "Cyclo Sportif",
+              "Cyclotourisme",
+              "Danse",
+              "Danse africaine",
+              "Défense des droits homosexuels",
+              "Défense des salariés",
+              "Défenses des usagers",
+              "Dépendance - Alcool",
+              "Dépendance - Drogues illicites",
+              "Dépendance - Tabac",
+              "Dessin",
+              "Développement durable",
+              "Diabète",
+              "Don d'organes - Don du Sang",
+              "Droits de l'enfant",
+              "Duathlon",
+              "Education",
+              "Education sanitaire",
+              "Entraide",
+              "E.p.s.",
+              "Equitation",
+              "Escalade",
+              "Escrime",
+              "Escrime japonaise",
+              "Examen-concours",
+              "Exposition",
+              "Expression plastique",
+              "Festivals",
+              "Fitness",
+              "Fléchettes",
+              "Football",
+              "Football à 11",
+              "Football à 7",
+              "Football américain",
+              "Footing",
+              "Formation",
+              "Full contact",
+              "Garde à domicile",
+              "Généalogie",
+              "Golf",
+              "Gymnastique aquatique",
+              "Gymnastique chinoise",
+              "Gymnastique d'entretien",
+              "Gymnastique rythmique et sportive",
+              "Gymnastique sportive",
+              "Haltérophilie",
+              "Hand-Ball",
+              "Handicap",
+              "Handisport",
+              "Harmonies, Fanfares",
+              "Hockey",
+              "Hockey sur glace",
+              "Information jeunesse",
+              "Informations, conseils, locataires, proprétaires",
+              "Informations, entraide judiciaire",
+              "Insertion professionnelle",
+              "Jardins familiaux",
+              "Jet Ski",
+              "Jeux de société",
+              "Jiu-Jitsu",
+              "Journal de quartier",
+              "Joutes",
+              "Judo",
+              "Karaté",
+              "Karting",
+              "Kayak de mer",
+              "Kendo",
+              "Kung Fu",
+              "Lâcher de pigeons",
+              "Lancer de javelot",
+              "Lancer de marteau",
+              "Lancer de poids",
+              "Langue",
+              "Langues des signes",
+              "Langues étrangères",
+              "Lieux d'accueil enfants-parents associatifs",
+              "Litterature",
+              "Logement",
+              "Logement étudiant",
+              "Loto",
+              "Ludothèque",
+              "Maladies des os, articulations et muscles",
+              "Maladies Digestives",
+              "Maladies Rares",
+              "Maladies Respiratoires",
+              "Manifestations festives",
+              "Marche à  pied",
+              "Marche nordique",
+              "Mariage",
+              "Médecine du Sport",
+              "Médiathèques - blibliothèques",
+              "Médiation familiale",
+              "Méditation et mieux-être",
+              "Mémoire",
+              "Mini Base-Ball",
+              "Modélisme",
+              "Motocyclisme",
+              "Motonautisme",
+              "Multi-activités",
+              "Musculation",
+              "Musée",
+              "Musique",
+              "Natation",
+              "Nature et science",
+              "Nautisme",
+              "Nettoyage",
+              "Neurologie",
+              "Œnologie",
+              "Organisation de festival",
+              "Organisation de manifestations sportives",
+              "Paléonthologie",
+              "Palet",
+              "Parachutisme",
+              "Parrainage",
+              "Passeport loisirs jeunes",
+              "Patrimoine",
+              "Patrimoine architectural",
+              "Patrimoine Instrumental",
+              "Patrimoine linguistique",
+              "Patrimoine Maritime",
+              "Pêche",
+              "Pêche en mer",
+              "Pelote basque",
+              "Pétanque",
+              "Philatélie",
+              "Photos",
+              "Pilates",
+              "Planche à voile",
+              "Plongée sous marine",
+              "Poésie",
+              "Précarité",
+              "Préparation physique",
+              "Protection de l'environnement",
+              "Protection des animaux",
+              "Protection juridique",
+              "Qi gong",
+              "Radio",
+              "Raid aventure",
+              "Rallye",
+              "Randonnée",
+              "Randonnée pédestre et alpine",
+              "Randonnée santé",
+              "Récupération textile",
+              "Relation enfant - parent",
+              "Relations parent - enfant",
+              "Relaxation",
+              "Rencontre",
+              "Repas de famille",
+              "Repas de mariage",
+              "Réunion",
+              "Réunion publique",
+              "Roller",
+              "Roller artistique",
+              "Roller hockey",
+              "Roller randonnee",
+              "Roller skating",
+              "Rugby",
+              "Samu social",
+              "Saut à la perche",
+              "Saut en hauteur",
+              "Saut en longueur",
+              "Scoutisme",
+              "Scrabble",
+              "Secourisme",
+              "Sexualité - Contraception",
+              "Skate-Board",
+              "Ski",
+              "Social",
+              "Soins",
+              "Soins palliatifs",
+              "Solidarité - Humanitaire",
+              "Solidarité, aide aux familles",
+              "Sophrologie",
+              "Soutien scolaire, aide à l'apprentissage",
+              "Spectacle",
+              "Spectacle musical",
+              "Sport scolaire et universitaire",
+              "Sport Tracte Mono-Chien",
+              "Sports d'entreprises",
+              "Squash",
+              "Stage de sécurité routière",
+              "Stretching",
+              "Structure organisatrice d’expositions et de manifestations",
+              "Surf",
+              "Taekwondo",
+              "Taï-chi-chuan",
+              "Tarot",
+              "Tennis",
+              "Tennis de Table",
+              "Tennis-Ballon",
+              "Thé dansant",
+              "Théâtre",
+              "Tir",
+              "Tir à l'arc",
+              "Tourisme",
+              "Travaux",
+              "Triathlon",
+              "Trottinette",
+              "Troubles psychologiques et maladies psychiques",
+              "Twirling bâton",
+              "Ultimate",
+              "Urologie - Nephrologie",
+              "Vernissage",
+              "Vide-greniers",
+              "Viet-Vo-Dao",
+              "VIH - Sida",
+              "Vin d'honneur",
+              "Voile",
+              "Voitures anciennes",
+              "Volley-Ball",
+              "V.T.T.",
+              "Water-Polo",
+              "Yoga",
+              "Yoseïkan-Budo",
+              "Zumba"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Objet de la demande",
+            "description": "Précisez le contexte de votre demande de subvention pour cette activité.",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant de subvention demandée",
+            "description": "Précisez le montant de la subvention demandée pour cette activité (en €).",
+            "required": true
+          },
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "Responsable de l'activité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": false,
+            "options": [
+              "Président / Présidente",
+              "Co-Président / Co-Présidente",
+              "Vice-Président / Vice-présidente",
+              "Trésorier / Trésorière",
+              "Secrétaire",
+              "Administrateur / Administratrice",
+              "Directeur / Directrice",
+              "Responsable"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du responsable",
+            "description": "Préciser le nom du responsable de cette activité.",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom du responsable",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse du responsable",
+            "description": "Préciser l'adresse du responsable de cette activité si différent des membres du bureau.",
+            "required": false
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Courriel du responsable",
+            "description": "Préciser le courriel du responsable de cette activité si différent des membres du bureau.",
+            "required": false
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone du responsable",
+            "description": "Préciser le téléphone du responsable de cette activité si différent des membres du bureau.",
+            "required": false
+          },
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "Pièces justificatives demandées",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Rapport d'activité",
+            "description": "Rapport d'activité pour l'activité sélectionnée.",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Le compte de résultat N-1 et budget prévisionnel",
+            "description": "Le compte de résultat N-1 et budget prévisionnel pour l'activité sélectionnée.",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Dossier d'argumentaire de la demande",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Attestation sur l'honneur",
+        "description": "Déclare que l'association est en règle au regard de l'ensemble des déclarations sociales et fiscales ainsi que des cotisations et paiements y afférent.\n\nCertifie exactes les informations du présent dossier, notamment la mention de l'ensemble des demandes de subvention introduites auprès d'autres financeurs publics.",
+        "required": true
+      }
+    ]
+  }
+}

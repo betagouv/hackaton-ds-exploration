@@ -1,0 +1,1661 @@
+{
+  "number": 39435,
+  "title": "ELECTIONS - Recensement des emplacements des bureaux de vote ",
+  "description": "Recensement des emplacements des bureaux de vote arrêtés au 1er janvier 2021. \r\nCette démarche a pour objet de centraliser les adresses des bureaux de vote de l'ensemble du département. \r\nATTENTION : Les modifications d'adresses susceptibles d’intervenir dans le cadre du double scrutin départementales/régionales 2021 seront collectées ultérieurement. \r\nRéponse avant le 22 mars 2021.",
+  "tags": [
+    "Elections"
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2021-03-10T16:17:29+01:00",
+  "service": {
+    "nom": "Bureau des élections et de la réglementation générale",
+    "organisme": "Préfecture du Var",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/elections-recensement-des-emplacements-des-bureaux",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/elections-recensement-des-emplacements-des-bureaux",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "Logo Marianne Préfecture du Var.jpg",
+    "checksum": "TN1foHlU1AUQfaRTo6TM4g==",
+    "byteSize": "344781",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "article R40 - bureaux de vote.pdf",
+    "checksum": "htM908QtsCixtWN2Rtxc8Q==",
+    "byteSize": "202388",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 126,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code INSEE de la commune",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Arrondissement",
+        "description": null,
+        "required": true,
+        "options": [
+          "Toulon",
+          "Draguignan",
+          "Brignoles"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Circonscription législative",
+        "description": null,
+        "required": true,
+        "options": [
+          "Circonscription 1",
+          "Circonscription 2",
+          "Circonscription 3",
+          "Circonscription 4",
+          "Circonscription 5",
+          "Circonscription 6",
+          "Circonscription 7",
+          "Circonscription 8"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Canton",
+        "description": null,
+        "required": true,
+        "options": [
+          "Brignoles (Canton 1)",
+          "La Crau (Canton 2)",
+          "Draguignan (Canton 3)",
+          "Flayosc (Canton 4)",
+          "Fréjus (Canton 5) ",
+          "La Garde (Canton 6)",
+          "Garéoult (Canton 7)",
+          "Hyères (Canton 8)",
+          "Le Luc (Canton 9)",
+          "Ollioules (Canton 10)",
+          "Roquebrune-sur-Argens (Canton 11)",
+          "Saint-Cyr-sur-Mer (Canton 12)",
+          "Saint-Maximin (Canton 13)",
+          "Saint-Raphaël (Canton 14)",
+          "Sainte-Maxime (Canton 15)",
+          "La Seyne-sur-Mer I (Canton 16)",
+          "La Seyne-sur Mer II (Canton 17)",
+          "Solliès-Pont (Canton 18)",
+          "Toulon I (Canton 19)",
+          "Toulon II (Canton 20) ",
+          "Toulon III (Canton 21)",
+          "Toulon IV (Canton 22)",
+          "Vidauban (Canton 23)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote centralisateur",
+        "description": "Dans le cas où la commune dispose d'un bureau de vote unique, celui-ci est désigné comme bureau centralisateur. ",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 1",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 1",
+        "description": "En cas de bureau de vote unique, indiquer \"toute la commune\" ou sinon indiquer le nom des rues concernées (au 1er janvier 2021).\nChaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 2",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 2",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 3",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°3",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 4",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 4",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 5",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 5",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 6",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 6",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 7",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 7",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 8",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 8",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 9",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 9",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 10",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 10",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 11",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 11",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 12",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 12",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 13",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 13",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 14",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 14",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 15",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 15",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 16",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 16",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 17",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 17",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 18",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 18",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 19",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 19",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 20",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 20",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 21",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 21",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 22",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 22",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 23",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 23",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 24",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 24",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 25",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 25",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 26",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 26",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 27",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 27",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 28",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 28",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse du bureau de vote n° 29",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 29",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 30",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 30",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 31",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 31",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n° 32",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n° 32",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°33",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°33",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°34",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°34",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°35",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°35",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°36",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°36",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°37",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°37",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°38",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°38",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°39",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°39",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°40",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°40",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°41",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°41",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°42",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°42",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°43",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°43",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°44",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°44",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°45",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°45",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°46",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°46",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°47",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°47",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°48",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°48",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°49",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°49",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°50",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°50",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°51",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°51",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°52",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°52",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°53",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°53",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°54",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°54",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°55",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°55",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°56",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°56",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°57",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°57",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°58",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°58",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°59",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°59",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°60",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°60",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°61",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°61",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°62",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°62",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°63",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°63",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°64",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°64",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°65",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°65",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°66",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°66",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°67",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°67",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°68",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°68",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°69",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°69",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°70",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°70",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°71",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°71",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°72",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°72",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°73",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°73",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°74",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°74",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°75",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°75",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°76",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°76",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°77",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°77",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°78",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°78",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°79",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°79",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°80",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°80",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°81",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°81",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°82",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°82",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°83",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°83",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°84",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°84",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°85",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°85",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°86",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°86",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°87",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°87",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°88",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°88",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°89",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°89",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°90",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°90",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°91",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°91",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°92",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°92",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°93",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°93",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°94",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°94",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°95",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°95",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°96",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°96",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°97",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°97",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°98",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°98",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°99",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°99",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°100",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°100",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°101",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°101",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°102",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°102",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°103",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°103",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°104",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°104",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°105",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°105",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°106",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°106",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°107",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°107",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°108",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°108",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°109",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°109",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°110",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°110",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°111",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°111",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°112",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°112",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°113",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°113",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°114",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°114",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°115",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°115",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°116",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°116",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°117",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°117",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°118",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°118",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°119",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°119",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°120",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°120",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°121",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°121",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°122",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°122",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°123",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°123",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°124",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°124",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°125",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°125",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°126",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°126",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°127",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°127",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°128",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°128",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bureau de vote n°129",
+        "description": "Attention : Mentionner le lieu ET l'adresse du bureau de vote (au 1er janvier 2021).\nEx : Salle des fêtes - Allée des fleurs",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre du bureau de vote n°129",
+        "description": "Chaque adresse doit être séparée par un point-virgule.\nEx : Allée F ; Chemin C ; Rue X ; etc.",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "number": 70757,
+  "title": "Etablissements d'abattage de volailles - Déclaration des volumes d'activités 2022",
+  "description": "Cette démarche permet à l'Administration (DDETSPP/Services vétérinaires) de collecter les volumes d'abattage des abattoirs de volailles et des SAAF* détenteurs d'un agrément UE de l'année 2022.\r\n\r\n* : salle d'abattage agréée à la ferme (palmipèdes gras)",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2023-02-22T08:46:50+01:00",
+  "service": {
+    "nom": "Service \"Sécurité sanitaire des aliments\"",
+    "organisme": "Direction départementale de l'emploi, du travail, des solidarités et de la protection des populations de Tarn-et-Garonne (DDETSPP82)",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/etablissements-d-abattage-de-volailles-declaration",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.tarn-et-garonne.gouv.fr/",
+  "cadreJuridiqueUrl": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=celex:32004R0852",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations générales",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone 1",
+        "description": "Ce numéro doit permettre de vous joindre en cas d'alertes ou d'urgence",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Volumes d'abattage 2022",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Espèces abattues",
+        "description": "ATTENTION : vous veillerez à créer autant de rubriques dans le formulaire que d'espèces abattues dans votre abattoir en cliquant sur : + Ajouter un élément pour « Espèces abattues » en bas du formulaire",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Espèces",
+            "description": null,
+            "required": true,
+            "options": [
+              "Poulets (y compris coquelets)",
+              "Chapons, Poulardes",
+              "Poules de réforme (filière œufs de consommation)",
+              "Coqs et Poules de réforme (reproducteurs)",
+              "Dindes",
+              "Pintades (y compris chaponnées)",
+              "Canards à rôtir",
+              "Canards gras (y compris foies)",
+              "Oies à rôtir",
+              "Oies grasses (y compris foies)",
+              "Lapins",
+              "Pigeons",
+              "Cailles ",
+              "Faisans ",
+              "Perdrix",
+              "Chevreaux",
+              "Petit gibier à poil (lièvres, ragondins)",
+              "Ratites (autruches, émeus, nandous)"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de têtes abattues",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Poids mort carcasses en Kg",
+            "description": null,
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "number": 54574,
+  "title": "Déclaration annuelle sur le fonctionnement des installations de production de biométhane",
+  "description": "Pour la Nouvelle-Aquitaine, déclaration annuelle du bilan de fonctionnement des installations de production de biométhane, obligatoire dans le cadre des arrêtés tarifaires au titre des dispositions du code de l'énergie.\r\n\r\nSeules les installations produisant du biométhane sont concernées.\r\n",
+  "tags": [
+    "Energie",
+    "Electricité"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2022-02-15T14:26:46+01:00",
+  "service": {
+    "nom": "DREAL Nouvelle-Aquitaine",
+    "organisme": "Ministère de la Transition Ecologique",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/declaration-annuelle-biomethane",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.nouvelle-aquitaine.developpement-durable.gouv.fr/injection-de-bio-methane-r4384.html",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042552351",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 31,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. Information sur l'installation et ICPE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Département où est située l'installation",
+        "description": "Indiquer le département dans lequel est située l'installation de production de biométhane",
+        "required": true,
+        "options": [
+          "16",
+          "17",
+          "19",
+          "23",
+          "24",
+          "33",
+          "40",
+          "47",
+          "64",
+          "79",
+          "86",
+          "87"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d'unité",
+        "description": "Les <em> unités de méthanisation à la ferme </em> sont portées par un agriculteur ou des établissements de développement agricole, majoritaires au capital (>50% du capital), et implantées sur la ferme.  \nLes <em> unités de méthanisation collectives agricoles </em> sont portées par au minimum 3 structures agricoles (actionnaires majoritaires).  \nLes <em> unités de méthanisation centralisées multi-acteurs </em> sont des unités portées par un territoire ou un développeur privé.  \nLes <em> unités de méthanisation industrielles </em> sont des installations portées par une entreprise pour la valorisation de ses déchets.\nLes <em> ISDND </em> sont des installations de stockage de déchets non dangereux (déchets ménagers et assimilés)\nLes <em> STEP </em> sont des stations d'épuration",
+        "required": true,
+        "options": [
+          "Méthanisation à la ferme",
+          "Méthanisation collective agricole",
+          "Méthanisation centralisée multi-acteurs",
+          "Méthanisation industrielle",
+          "ISDND",
+          "STEP"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de mise en service de l'installation (1ère injection)",
+        "description": "Indiquer ici la date de première livraison d'énergie sur le réseau de gaz naturel (et non pas la date du 1er remplissage du digesteur)",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Régime ICPE",
+        "description": "",
+        "required": true,
+        "options": [
+          "Déclaration",
+          "Enregistrement",
+          "Autorisation"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Rubrique ICPE",
+        "description": "Indiquer la(es) rubrique(s) ICPE de l’installation de méthanisation (2781) ou de stockage de déchets non dangereux (2760) du récépissé de déclaration (preuve de dépôt) ou de l’arrêté d’enregistrement ou de l’arrêté d’autorisation.\nPour les STEP, sélectionner \"Non ICPE (STEP)\".",
+        "required": true,
+        "options": [
+          "2781-1",
+          "2781-2",
+          "2760-2",
+          "Non ICPE (STEP)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Tonnage journalier du méthaniseur (t/j)",
+        "description": "Indiquer le tonnage journalier indiqué dans votre récépissé de déclaration, arrêté d'enregistrement ou arrêté d'autorisation\nEn cas d'Installation de Stockage de Déchets Non Dangereux ou de Station de Traitement des Eaux Polluées, indiquer 0",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. Contrat d'achat du biométhane injecté",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Acheteur",
+        "description": "Indiquer la raison sociale de l'acheteur du biométhane, l'adresse de son siège social, ainsi que le nom et les coordonnées (téléphone et adresse mail) d'un interlocuteur",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de signature du contrat",
+        "description": "Indiquer ici la date de signature du contrat d'achat de biométhane",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Arrêté tarifaire",
+        "description": "AM11: arrêté tarifaire du 23/11/2011\nAM20: arrêté tarifaire du 23/11/2020\nAM21: arrêté tarifaire du 13/12/2021",
+        "required": true,
+        "options": [
+          "AM11",
+          "AM20",
+          "AM21"
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de prise d'effet du dernier avenant au contrat d'achat de l'électricité",
+        "description": "Indiquer ici la date (jj/mm/aaaa) de prise d'effet du dernier avenant au contrat d'achat du biométhane produit\nEn l'absence d'avenant indiquer 01/01/1900",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nature des modifications",
+        "description": "En cas de signature d'un avenant au contrat d'achat de biométhane, préciser la nature des modifications enregistrées telles que visées à l'article D446-10-1 du code de l'énergie",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Période du bilan",
+        "description": "Préciser la période prise en compte dans ce bilan annuel",
+        "required": true,
+        "options": [
+          "du 1/01/22 au 31/12/22"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. La production d'énergie",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Capacité maximale de production de biométhane (en Nm3/h)",
+        "description": "Indiquer la capacité maximale de production en vigueur au 31/12/2022 (fixée dans l'attestation préfectorale, ou dans la dernière décision préfectorale de modification de l'attestation, ou dans le dernier avenant au contrat d'achat)",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Augmentation de la capacité maximale de production",
+        "description": "L'installation a-t-elle fait l'objet d'une augmentation de la capacité maximale de production (Nm3/h) au cours de l'année?\n\nSélectionnez une des deux valeurs",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Si oui, préciser la capacité maximale de production antérieure à la modification (Nm3/h)",
+        "description": "Si la capacité maximale de production de l'installation a été modifiée au cours de l'année, indiquer la valeur de la capacité maximale de production antérieure à la modification (Nm3/h)",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Production annuelle prévisionnelle de l'installation de production de biométhane (en GWh PCS/an)",
+        "description": "Indiquer la production annuelle prévisionnelle en vigueur au 31/12/2022 (fixée dans l'attestation préfectorale, ou dans la dernière décision préfectorale de modification de l'attestation, ou dans le dernier avenant au contrat d'achat)",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Augmentation de la production annuelle prévisionnelle",
+        "description": "L'installation a-t-elle fait l'objet d'une augmentation de la production annuelle prévisionnelle (GWH PCS/an) au cours de l'année?\r\n\r\nSélectionnez une des deux valeurs",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Si oui, préciser la production annuelle prévisionnelle antérieure à la modification (en GWh PCS/an)",
+        "description": "Si la production annuelle prévisionnelle de l'installation a été modifiée au cours de l'année, indiquer la valeur antérieure à la modification (en GWh PCS/an)",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Présence d'un dispositif de mesure du biogaz produit",
+        "description": "Le site dispose-t-il d'un débitmètre du biogaz produit?\n\nSélectionnez une des deux valeurs",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Position du dispositif de mesure du biogaz produit",
+        "description": "Si l'unité de production dispose d'un dispositif de mesure du biogaz produit: préciser sa position sur l'unité (en sortie de digesteur par exemple) et indiquer à quoi correspond le volume mesuré (volume total produit par le digesteur par exemple).\nSi l'unité de production ne dispose pas d'un dispositif de mesure du biogaz produit: indiquer 0",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Quantité mensuelle de biométhane injectée sur le réseau",
+        "description": "Renseigner le tableau mensuel proposé en pièce jointe",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Consommation électrique du système d'épuration",
+        "description": "Renseigner le tableau mensuel proposé en pièce jointe",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Addition de butane ou propane lors de l'injection du biométhane dans le réseau?",
+        "description": "Indiquer si du butane ou du propane ont été ajoutés lors de l'injection du biométhane dans le réseau de gaz naturel, addition qui aurait été rendue nécessaire par le respect des prescriptions techniques des gestionnaires de réseaux.\n\nSélectionnez une des deux valeurs\nSi non : indiquer  0\nSi oui : indiquer l'énergie utilisée et la quantité ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Energie utilisée pour le chauffage du digesteur",
+        "description": "Préciser le mode de chauffage du digesteur\nPour les ISDND: indiquer 0",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Utilisation d'énergie fossile",
+        "description": "Le fonctionnement de l'unité de production de biométhane a-t-il nécessité l'utilisation d'énergie fossile?\nSi oui: préciser les raisons, l'énergie fossile concernée et la quantité utilisée\nSi non: indiquer 0",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4. Intrants",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration intrants",
+        "description": "Remplir les tonnages de matières entrantes selon les catégories proposées dans le fichier calc en pièce jointe",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Des modifications sur la nature des intrants ont-elles été apportées par rapport à l'année précédente?",
+        "description": "Dans le cas où des modifications ont été apportées, s'agissant de la nature des intrants ou de leur origine: répondre oui et expliquer\nSinon, répondre: non",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Agrément sanitaire",
+        "description": "Disposez-vous d'un agrément sanitaire",
+        "required": true,
+        "options": [
+          "oui",
+          "non",
+          "en cours de demande",
+          "agrément provisoire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Dysfontionnements",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous rencontrés des dysfonctionnements sur la période 2022 ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quels types de dysfonctionnement ou problèmes avez-vous rencontré",
+        "description": "Si aucun problème sur l'année choisir : aucun dysfonctionnement",
+        "required": true,
+        "options": [
+          "Aucun dysfonctionnement",
+          "Problème conception unité (mauvais dimensionnement, introduction non adaptée, matériel non fonctionnel...)",
+          "Dysfonctionnement moteur cogénération ou génératrice",
+          "Problème biologique (croûte, acidose, mousse...)",
+          "Manque substrats (ou potentiel méthanogène surestimé au stade projet)",
+          "Grosse maintenance (vidange digesteur, changement moteur...)",
+          "Autres : préciser (dans la question suivante)"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire sur le fonctionnement de l'installation pendant la période",
+        "description": "Merci de préciser en quelques mots le fonctionnement général de l'installation sur la période définie (panne, incident, autre)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commentaires/avis/remarques",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Votre avis",
+        "description": "Votre avis sur ce questionnaire? y a t-il des questions mal formulées?\nCette question libre est pour vous, n'hésitez pas à vous exprimer.\nMerci de votre collaboration",
+        "required": false
+      }
+    ]
+  }
+}

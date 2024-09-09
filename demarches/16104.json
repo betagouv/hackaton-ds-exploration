@@ -1,0 +1,113 @@
+{
+  "number": 16104,
+  "title": "Déclaration de stockage de coquillages de taille marchande lors de périodes de pré-alerte ou d'avertissement. Etang de THAU",
+  "description": "Mise à l'abri ou en stock de coquillages lors des périodes de pré-alerte ou d'avertissement : Déclaration quantitative de coquillages de taille marchande stockés à sec ou en bassin en vue de la commercialisation.",
+  "tags": [
+    "Coquillages"
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2019-03-19T12:54:27+01:00",
+  "service": {
+    "nom": "DDPP de l'Hérault",
+    "organisme": "Unité territoriale de Sète",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/f88c464b-04c0-40a6-a799-110a29d11d4c",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.herault.gouv.fr/",
+  "cadreJuridiqueUrl": "",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 13,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom Prénom du déclarant",
+        "description": "Nom Prénom du déclarant",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Tél",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° d'agrément purification/expédition",
+        "description": "N° agrément CE",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Concession(s) détenue(s)",
+        "description": "",
+        "required": true,
+        "options": [
+          "zone Marseillan-Mèze",
+          "zone Bouzigues-Loupian",
+          "Les 2 zones",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Déclaration de stockage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de mise à l'abri",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Coquillages concernés",
+        "description": "",
+        "required": true,
+        "options": [
+          "HUITRES",
+          "MOULES",
+          "Coquillages fouisseurs"
+        ]
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Quantité stockée (Kg)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de stockage",
+        "description": "",
+        "required": true,
+        "options": [
+          "Bassins",
+          "A sec",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m'engage à respecter les protocoles de traçabilité et de gestion des établissement en période de crise",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

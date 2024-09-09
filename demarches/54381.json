@@ -1,0 +1,243 @@
+{
+  "number": 54381,
+  "title": "Suivi intermédiaire des actions financées par la Conférence des Financeurs de la Seine-Maritime (2ème chance)",
+  "description": "Ce formulaire vise à recueillir les informations relatives au niveau de mise en oeuvre des actions financées",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2022-02-28T17:09:14+01:00",
+  "service": {
+    "nom": "Conférence des financeurs de l'Eure (27)",
+    "organisme": "Département de l'Eure",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/suivi-intermediaire-cfppa76-v2",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.seinemaritime.fr/",
+  "cadreJuridiqueUrl": "LOI n° 2015-1776 du 28 décembre 2015 relative à l'adaptation de la société au vieillissement (1) ",
+  "logo": {
+    "filename": "Logo CFPPA2.jpg",
+    "checksum": "P63/Y40vFr4VZzFe0bgcRA==",
+    "byteSize": "11153",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 6,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous pouvez remplir cette fiche d'évaluation en plusieurs fois. Pour se faire cliquez sur \"Enregistrer le brouillon\". Une fois votre fiche complétée, cliquez bien sur \"Soumettre le dossier\".  Attention, nous vous remercions de compléter un dossier pour chaque action financée. Les données sont à compléter à la date d’aujourd’hui.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "FICHE PORTEUR DU PROJET",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de la structure",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'organisme",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Personne remplissant le bilan",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse de messagerie",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Merci de  bien vouloir renseigner le numéro de téléphone, sans espace ni signe de ponctuation\nEx : 0235035233",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Rappel succint de l'action financée",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Action financée",
+        "description": "Cliquer sur \"+  Ajouter un élément pour « Action financée  » \" en bas du présent bloc pour chaque nouvelle action à enregistrer.\nToutes les actions financées en 2020 et 2021 doivent apparaître",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Titre de l'action",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Année de financement de l'action",
+            "description": null,
+            "required": true,
+            "options": [
+              "2020",
+              "2021"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Thématique principale concerné par l'action",
+            "description": null,
+            "required": true,
+            "options": [
+              "1. Accès aux aides techniques",
+              "2. Nutrition",
+              "3. Mémoire",
+              "4. Sommeil",
+              "5. Activités physiques et atelier équilibre/prévention des chutes",
+              "6. Bien-être et estime de soi",
+              "7. Santé bucco-dentaire",
+              "8. Prévention de la dépression/du risque suicidaire",
+              "9. Autres actions santé",
+              "10. Lien social",
+              "11. Habitat/cadre de vie",
+              "12. Mobilité/sécurité routière",
+              "13. Accès aux droits",
+              "14. Usage du numérique",
+              "15. Préparation à la retraite",
+              "16. Autres actions collectives de prévention (n'entrant pas dans les rubriques ci-dessus)",
+              "17. Aide aux aidants",
+              "Autre"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Rappel synthétique de l'objet de l'action",
+            "description": "Description rapide en quelques phrases du projet (max 10 phrases)",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant de la subvention CFPPA obtenue",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Territoire de mise en oeuvre",
+            "description": "Indiquer la zone couverte (commune(s), etc..)\nMax quelques lignes",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Etat de la réalisation de l'action",
+            "description": null,
+            "required": true,
+            "options": [
+              "Achevée",
+              "En cours",
+              "Non initiée"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Solde de crédits",
+            "description": "Mettre 0 si tous les crédits ont été consommés",
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Description de la mise en oeuvre",
+            "description": "Description rapide de la réalisation de l'action (quelques lignes), notamment le nombre d'ateliers/de participants. Le bilan plus complet est à renseigner dans le cadre du suivi organisé au printemps pour le rapport d'activité.",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si l'action est achevée : dates de début et de fin effectives",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Si l'action est achevée et que tous les crédits ont été consommés, vous n'avez pas à remplir les questions suivantes",
+            "description": "Le bilan comportant l'ensemble des indicateurs sera à renseigner au printemps 2022 pour les actions financées en 2021",
+            "required": false
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Pour les actions initiées mais non achevée, les membres de la conférence des financeurs ont validé le principe d'autoriser un report de l'utilisation des crédits en 2022",
+            "description": "Si tel est le cas, merci de bien vouloir indiquer ci-dessous si vous souhaitez pouvoir poursuivre votre action en 2022 et le calendrier envisagé.\nDans le cas contraire ou pour les actions qui ne seront pas initiées en 2021, merci de bien vouloir vous rapprocher de la chargée de mission conférence des financeurs (Estelle Pasquier).\nCette question ne concerne pas les crédits 2022 des actions retenues sur l'AAP 2021 sur deux années (2021-2022), il s'agit bien du suivi des crédits 2021.",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Nous souhaitons pouvoir reporter sur 2022 la poursuite de la mise en oeuvre de l'action",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Indiquer les facteurs ayant entraîné la non-réalisation et/ou la modification de l'action",
+            "description": "A renseigner seulement si l'action est en cours ou non initiée, ou bien s'il reste des crédits",
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Indiquer le calendrier envisagé",
+            "description": "La conférence des financeurs de la Seine-Maritime a indiqué qu'il était souhaitable que les reports se fassent sur le premier semestre.",
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Commentaires le cas échéant",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autres commentaires le cas échéant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce jointe le cas échéant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Merci d'avoir renseigné ce suivi !",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information Protection des données à caractère personnel",
+        "description": "Les données à caractères personnel collectées à l'occasion de la présente procédure d'appel à projets (Nom, prénom de la personne en charge du dossier pour l' association, courriel, téléphone, fonction) font l'objet d'un traitement informatique ayant pour finalité : \n- L'instruction des dossiers soumis via le \ntélé-service, \n- La notification des décisions de refus ou attribution de subvention\n- Le paiement des subventions.\n\nCe traitement est fondé sur l'exécution d'une mission d'intérêt public relevant de l'exercice de l'autorité publique (articlesR.233-1 et suivants du code de l'action sociale et des familles). Sous la responsabilité du président du conseil départemental, Hôtel du Département 14 boulevard Georges Chauvin, CS 72101, 27021 Evreux Cedex, ces données sont destinées aux services ou organismes suivants : \nEn interne : Les instructeurs de direction de la solidarité autonomie, le pôle comptable, la paierie départementale.\nEn externe : les partenaires membres du bureau de la conférence des financeurs pour avis, via un identifiant et un mot de passe sur \"démarches-simplifiées\".",
+        "required": false
+      }
+    ]
+  }
+}

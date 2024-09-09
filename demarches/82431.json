@@ -1,0 +1,146 @@
+{
+  "number": 82431,
+  "title": "Déclaration consommation 2023",
+  "description": "Comme chaque année, nous vous demandons de déclarer les consommations réelles des quotas d’eau d’irrigation pour la campagne 2023\r\n\r\nJ’attire votre attention sur le fait que seul le responsable de l’ouvrage complétera ce formulaire pour lui même et pour ses co-utilisateurs.\r\n\r\nCette déclaration en ligne est à réaliser au plus tard avant le 1 décembre 2023.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire",
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2023-10-12T15:36:09+02:00",
+  "service": {
+    "nom": "Direction Départementale des Territoires de l'Aube",
+    "organisme": "DDT 10 / Service Eau et Biodiversité",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/declaration-consommation-2023",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.aube.gouv.fr/Politiques-publiques/Environnement/Eau/Ressource-en-eau/Secheresse",
+  "cadreJuridiqueUrl": "http://www.aube.gouv.fr/Politiques-publiques/Environnement/Eau/Ressource-en-eau/Secheresse",
+  "logo": {
+    "filename": "marianne.png",
+    "checksum": "znyjSoSG//1DgUbRDB+x/Q==",
+    "byteSize": "9837",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 422,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "IMPORTANT",
+        "description": "Un accusé de réception automatique vous sera adressé après validation.\r\nChaque demande de quota doit correspondre à une  déclaration de consommation.\r\nExemple : Si vous avez déposé 2 demandes de quota, vous devez effectué 2 déclarations de consommation.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° pacage",
+        "description": "Attention : Un numéro pacage commence par 010 et comporte 9 caractères.",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Relevé de consommation",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "N° du Point prélèvement",
+            "description": "Attention : Les numéros de point de prélèvement comportent 8 caractères.",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de point prélèvement",
+            "description": null,
+            "required": true,
+            "options": [
+              "Principal",
+              "Secondaire"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro du compteur",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Index fin de campagne",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "RAPPEL : Prélèvement d'eau",
+            "description": "Le volume annuel prélevé ne doit en aucun cas être supérieur volume annuel maximum mentionné dans l'arrêté de prélèvement.",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Consommation d'eau du compteur",
+            "description": "En m³\r\nCalcul du compteur : (Index de fin - Index de début) x coefficient lecture",
+            "required": true
+          },
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "MISE A JOUR DE LA BASE DE DONNEES DE LA DDT",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Statut du compteur pour la campagne 2024  cité ci-dessus",
+            "description": "RAPPEL : Les dispositifs de mesures sont une obligation réglementaire sur toutes les installations d’irrigation, sauf exception (réglementaire ou techniques avérés) il s’agit de compteurs volumétriques ou débitmétriques. Ils doivent être contrôlés tous les 7 ans ou changés tous les 9 ans.",
+            "required": true,
+            "options": [
+              "En fonction en 2024",
+              "Remplacé en 2023"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Prélèvement en gestion collective",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Je suis en",
+            "description": "Je suis adhérent à l'ASSOCIATION L´HERBISSONNE et/ou CUMA IBVB\r\nGestion collective :\r\nPréleveur : J'ai accès au point de prélèvement de la gestion collective\r\nReceveur : Je n'ai pas accès au point de prélèvement de la gestion collective\r\n\r\nAutre cas : Gestion individuelle",
+            "required": true,
+            "options": [
+              "Gestion individuelle",
+              "Gestion collective : Préleveur",
+              "Gestion collective : Receveur"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Volume total consommé = Volume provenant du bassin versant tension + Volume provenant de la gestion collective",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Volume total consommé",
+            "description": "",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

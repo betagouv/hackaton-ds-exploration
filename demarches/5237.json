@@ -1,0 +1,528 @@
+{
+  "number": 5237,
+  "title": "Demande d'autorisation de voirie ou de commencement de travaux",
+  "description": "Pour des raisons de rédaction, toute déclaration doit être effectuée au moins 10 jours ouvrés avant la date prévue, à défaut la réalisation desdits travaux ne pourra être accordée.",
+  "tags": [
+    "Agence de l'eau"
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2019-04-04T16:47:10+02:00",
+  "service": {
+    "nom": "Services Techniques de Megève",
+    "organisme": "Mairie de Megève",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-autorisation-de-voirie",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "Aucun lien fourni",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "procedure-70a77344-b030-49e3-9809-5e832fa02eb4.png",
+    "checksum": "AfyN60Auz7MC98WQMF/IzA==",
+    "byteSize": "10869",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 134,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Qualité (si entreprise)",
+        "description": "",
+        "required": false,
+        "options": [
+          "gérant",
+          "secrétaire assistant(e)",
+          "conducteur de travaux"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Pour le compte de",
+        "description": "",
+        "required": false,
+        "options": [
+          "la Mairie",
+          "les S.T.",
+          "la régie des eaux",
+          "autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "identité de l'interlocuteur",
+        "description": "si vous avez sélectionné S.T., régie des eaux ou autre",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées de la société ou de l’entreprise chargée des travaux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la société",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Tel fixe",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Tel portable",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Fax",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "N° SIRET/RCS",
+        "description": "obligatoire pour les sociétés",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "En cas de droits de voirie – coordonnées de la personne à laquelle sera adressée la facture (propriétaire ou entreprise)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Tel",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "N° SIRET/RCS",
+        "description": "obligatoire pour les sociétés",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Détail des travaux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Dates de début des travaux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Dates de fin des travaux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Horaires des travaux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Lieu précis de travaux",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de localisation 1/1000 ou 1/2000ème :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Croquis de l’emprise des travaux ou occupation du domaine public 1/100ème :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Nature précise des travaux",
+        "description": "",
+        "required": false,
+        "options": [
+          "branchement AEP",
+          "branchement EU",
+          "branchement EP",
+          "raccordement gaz",
+          "raccordement électricité"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "autres :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autorisation de la Régie des eaux :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Descriptif des travaux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Travaux de voirie",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Tranchée",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Si oui, préciser la largeur de la tranchée (ML) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Longueur de la tranchée (ML) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Surface de tranchée (m²) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Utilisation d’engins vibrants",
+        "description": "Tirs de mines, BRH, Marteau piqueur, pelle…",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si oui, fréquence d'utilisation",
+        "description": "",
+        "required": false,
+        "options": [
+          "permanente",
+          "temporaire",
+          "aléatoire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Modification de la Circulation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Fermeture de route",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Si oui, nombre de 1/2 journée(s)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Circulation alternée",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si oui",
+        "description": "choisir une ou plusieurs réponses",
+        "required": false,
+        "options": [
+          "Feu de signalisation",
+          "Alternat manuel",
+          "Rétrécissement chaussée"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Déviation route",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, itinéraire mis en place :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Dérogation de tonnage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser le tonnage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Autres occupations du domaine public",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Echafaudage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Si oui, préciser la longueur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Largeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Surface (m²)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Grue (emprise au sol)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Si oui, préciser la longueur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Largeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Surface (m²)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Engin élévateur (emprise au sol)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Si oui, préciser la longueur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Largeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Surface (m²)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Stationnement véhicule de chantier",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Si oui, nombre de véhicules",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Si emprise au sol, préciser la longueur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Largeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Surface (m²)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Stockage de matériaux : préciser la surface en m²",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Autres",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mise en place de pré-signalisation / signalisation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser par qui la mise en place sera effectuée",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de signalisation :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mise en place d’un périmètre de protection pour travaux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser par qui la mise en place sera effectuée",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan et détail du périmètre de protection :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "La personne ayant complété ce formulaire devra contacter les services techniques au 04 50 21 26 05 afin de savoir si l’autorisation a été accordée et ce avant toute installation. A défaut, celle-ci s’expose à une procédure judiciaire pour occupation illégale du domaine public.",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

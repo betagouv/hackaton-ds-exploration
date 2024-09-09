@@ -1,0 +1,214 @@
+{
+  "number": 84443,
+  "title": "ENM - SRH - Dossier administratif de paiement des vacations - intervenants",
+  "description": "Cette démarche permet d'établir le dossier de paiement des vacations pour les intervenants extérieurs à l'ENM.\r\n\r\nNB : Vous ne devez donc compléter la totalité de ce dossier qu’une seule fois pour toutes vos interventions. Seule une mise à jour de votre dossier sera nécessaire si vos documents sont amenés à être renouvelés ou modifiés",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Justice"
+  ],
+  "datePublication": "2023-11-20T11:06:46+01:00",
+  "service": {
+    "nom": "Service des ressources humaines",
+    "organisme": "Ecole Nationale de la Magistrature ",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/dossier-administratif-de-paiement-des-vacations-in",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "enm.fr",
+  "cadreJuridiqueUrl": "www.enm.justice.fr",
+  "logo": {
+    "filename": "Logo ENM.jpg",
+    "checksum": "Q+nun8yQ6WIfo3Ta/UgyYg==",
+    "byteSize": "121918",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 462,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Documents à préparer",
+        "description": "Pour renseigner ce formulaire, vous aurez besoin de joindre les pièces justificatives obligatoires suivantes (en format pdf) :\r\n- Pièce d'identité\r\n- RIB \r\n- Carte Vitale \r\n\r\nListe des pièces en fonction de votre situation :\r\n- Autorisation de cumul d'activité si agent public\r\n- Justificatif retraite",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nationalité - Nationality",
+        "description": "",
+        "required": true,
+        "options": [
+          "Française",
+          "Autre nationalité - Other nationality"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom d'usage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Adresse personnelle de domicile",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Numéro de contact téléphonique (portable ou numéro professionnel)",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Pays de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune de naissance",
+        "description": "Uniquement pour la France",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation familiale",
+        "description": "",
+        "required": true,
+        "options": [
+          "- Célibataire",
+          "- Marié(e)",
+          "- Divorcé(e)",
+          "- Pacsé(e)",
+          "- Veuf (ve)",
+          "- Concubinage/Union libre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Numéro de sécurité sociale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Profession exercée (Si retraité, veuillez l'indiquer)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'employeur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d'employeur",
+        "description": "Attention en cas d'employeur public : Obligation d'autorisation de cumul pour les profils suivants : Titulaire & contractuel français.  \r\nSi vous êtes votre propre employeur merci d'indiquer",
+        "required": true,
+        "options": [
+          "Employeur public",
+          "Employeur privé",
+          "Auto-entrepreneur",
+          "Profession libérale",
+          "Dirigeant d'entreprise",
+          "Retraité"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes vous enseignant chercheur ou chercheur",
+        "description": "les enseignants chercheurs ou chercheurs n'ont pas besoin de fournir une autorisation de cumul",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives à fournir obligatoirement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Carte Vitale ou attestation Améli (CPAM)",
+        "description": "Copie lisible",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB",
+        "description": "Relevé de domiciliation bancaire établi à votre nom.\r\nNom identique à celui indiqué sur votre pièce d'identité",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce d’identité valide",
+        "description": "(CNI, passeport)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives à fournir selon votre situation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autorisation de cumul secteur public",
+        "description": "Obligatoire pour les agents du secteur public (SAUF : Maître de Conférence et PROF Université)\r\nRemarque : l'autorisation de cumul de fonction est à télécharger et à remplir par votre employeur.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de cessation d'activité",
+        "description": "Obligatoire pour les retraités ou pré-retraité\r\nAttestation de cessation d'activité ou arrêté de radiation ou titre de pension",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Attestation sur  l'honneur selon votre situation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Attestation sur l'honneur",
+        "description": "Je certifie l’exactitude de tous les renseignements portés sur le présent dossier, sachant que toute erreur ou omission dans ces renseignements peut entraîner le rejet de ma demande de prise en charge.\r\n\r\nJe m’engage à communiquer à l'ENM tout changement d’adresse, de coordonnée bancaire (RIB) et à fournir toutes pièces administratives arrivées à échéance (autorisation de cumul).",
+        "required": true
+      }
+    ]
+  }
+}

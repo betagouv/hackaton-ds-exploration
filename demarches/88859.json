@@ -1,0 +1,423 @@
+{
+  "number": 88859,
+  "title": "Aide à l installation des professionnels de santé",
+  "description": "L'ARS, le Conseil Départemental et la CPAM de la Dordogne mettent à disposition des professionnels de santé un service d'aide à l'installation.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale",
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2024-03-13T09:39:36+01:00",
+  "service": {
+    "nom": "PFSMDA",
+    "organisme": "CPAM de la DORDOGNE ",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/accompagnement-a-l-installation-des-professionnels-de-sante",
+  "dpoUrl": "dpo.cpam-dordogne@assurance-maladie.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://soignerenperigord.fr/?page_id=11012",
+  "cadreJuridiqueUrl": "https://soignerenperigord.fr/?page_id=3",
+  "logo": {
+    "filename": "logo v01.PNG",
+    "checksum": "ub27mlLl2jkzV7ycHWLUBQ==",
+    "byteSize": "14958",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 16,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Objectif",
+        "description": "Recueillir les informations et les demandes de PS envisageant de s’installer en Dordogne",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "type de démarche",
+        "description": "Le PS a choisi de s'installer en Dordogne ou hésite encore à venir.",
+        "required": true,
+        "options": [
+          "installation",
+          "demande de renseignement"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "INSTALLATION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "DEMANDE DE RENSEIGNEMENTS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "N° de téléphone",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse de messagerie",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Profession",
+        "description": "",
+        "required": true,
+        "options": [
+          "assistant(e) médical(e)",
+          "chargé de mission MSP",
+          "chirurgien dentiste",
+          "coordonnateur",
+          "infirmier(e)",
+          "IPA",
+          "masseur-kinésithérapeute",
+          "médecin généraliste",
+          "médecin spécialiste",
+          "orthophoniste",
+          "orthoptiste",
+          "pédicure podologue",
+          "pharmacien",
+          "sage-femme"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Spécialité",
+        "description": "",
+        "required": false,
+        "options": [
+          "allergologie",
+          "anatomie-cytologie-pathologiques",
+          "anesthesiologie - reanimation chirurgicale",
+          "chirurgie  generale",
+          "chirurgie dentaire",
+          "chirurgie dentaire (spec. c.o.)",
+          "chirurgie dentaire (spec. m.b.d.)",
+          "chirurgie dentaire (spec. o.d.f.)",
+          "chirurgie infantile",
+          "chirurgie maxillo-faciale",
+          "chirurgie maxillo-faciale et stomatologie",
+          "chirurgie orale",
+          "chirurgie orthopedique et traumatologie",
+          "chirurgie plastique reconstructrice et esthetique",
+          "chirurgie thoracique et cardio-vasculaire",
+          "chirurgie urologique",
+          "chirurgie vasculaire",
+          "chirurgie viscerale et digestive",
+          "dermatologie et venerologie",
+          "endocrinologie et metabolismes",
+          "ergothérapeute",
+          "gastro-enterologie et hepatologie",
+          "genetique medicale",
+          "gériatrie",
+          "gynecologie medicale",
+          "gynecologie obstetrique",
+          "gynécologie obstétrique et gynécologie médicale",
+          "hematologie",
+          "infirmier",
+          "laboratoire .d'analyses medicales",
+          "laboratoire anatomo-pathologiste",
+          "laboratoire polyvalent",
+          "masseur kinesitherapeute",
+          "medecin biologiste",
+          "médecine d’urgence",
+          "médecine des maladies infectieuses et tropicales",
+          "medecine generale",
+          "medecine interne",
+          "médecine légale et expertises médicales",
+          "medecine nucleaire",
+          "medecine physique et de readaptation",
+          "médecine vasculaire",
+          "nephrologie",
+          "neuro psychiatrie",
+          "neurochirurgien",
+          "neurologie",
+          "obstetrique",
+          "oncologie medicale",
+          "oncologie radiotherapique",
+          "ophtamologie",
+          "orthophoniste",
+          "orthoptiste",
+          "oto rhino laryngologiste",
+          "pathologie cardio-vasculaire",
+          "pediatre",
+          "pédicure - podologue",
+          "pharmacie hospitaliere (réservé informationnel)",
+          "pharmacie mutualiste",
+          "pharmacien",
+          "pneumologie",
+          "psychiatrie de l'enfant et de l'adolescent",
+          "psychiatrie generale",
+          "psychologue clinicien / psychothérapeute",
+          "psychomotricien",
+          "radiodiagnostic et imagerie medicale",
+          "radiotherapie",
+          "réanimation médicale",
+          "rhumatologie",
+          "sage femme",
+          "santé publique et médecine sociale",
+          "stomatologie"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Démarche auprès de l'Ordre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mode d'exercice",
+        "description": "",
+        "required": true,
+        "options": [
+          "libéral",
+          "non libéral",
+          "mixte",
+          "salariat"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Hors structure",
+        "description": "",
+        "required": true,
+        "options": [
+          "MSP",
+          "cabinet de groupe",
+          "cabinet individuel",
+          "NSP"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Dans une structure",
+        "description": "",
+        "required": true,
+        "options": [
+          "centre de santé",
+          "clinique",
+          "hôpital",
+          "NSP"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Structure",
+        "description": "",
+        "required": false,
+        "options": [
+          "MSP",
+          "cabinet de groupe",
+          "cabinet individuel",
+          "centre de santé",
+          "clinique",
+          "hôpital"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire sur le mode d'exercice",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Activité",
+        "description": "",
+        "required": true,
+        "options": [
+          "remplacement",
+          "association",
+          "collaboration",
+          "succession"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "VIE DE FAMILLE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Garde d'enfant à prévoir",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Logement à prévoir",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Disposez-vous d'un véhicule ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Transport",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Faut il prévoir un emploi pour le ou la conjoint(e) ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "oui",
+          "non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Secteur d'activité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Profil recherché",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type d'habitat",
+        "description": "",
+        "required": false,
+        "options": [
+          "urbain",
+          "périurbain",
+          "rural"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Pays d'origne",
+        "description": "",
+        "required": false,
+        "options": [
+          "UE",
+          "hors UE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Pays",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Démarches",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Qu'est ce qui pourrait vous inciter à choisir la Dordogne",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Qu’est-ce qui pourrait favoriser votre installation dans notre département ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Connaissez-vous les différents mode d’exercice ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous bénéficier d'aides ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Année d'études ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Profession",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quelle zone du département vous interesserait ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'installation prévue",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Comment avez-vous connu Présence Médicale 24 ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune d'installation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

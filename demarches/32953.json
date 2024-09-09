@@ -1,0 +1,337 @@
+{
+  "number": 32953,
+  "title": "GDB : Demande d'adhésion à l'assurance volontaire en ligne",
+  "description": "\"Invalidité - Vieillesse - Veuvage\" ou \"Vieillesse - Veuvage\" ou \"Invalidité\"\r\n\r\nPour une connexion simple et pratique, utilisez la connexion France-Connect.",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2020-07-30T13:52:28+02:00",
+  "service": {
+    "nom": "Caisse Primaire d'Assurance Maladie - Pôle assuré",
+    "organisme": "CPAM ",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/gestion-des-beneficiaires-demande-d-adhesion-a-l-a",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "declic.cpam50.fr",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/",
+  "logo": {
+    "filename": "revu Manche_Logo_Nov.2020_CMJN jpg.png",
+    "checksum": "LX4Bt+jQLVXJOcbn/1bFmQ==",
+    "byteSize": "917811",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "droit de base - notice demande d'adhésion à l'assurance maladie.pdf",
+    "checksum": "Rkue7IEHOGsKJs4ANF+o8w==",
+    "byteSize": "365744",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 5,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Personne demandant l'adhésion",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "De quelle Caisse Primaire d'Assurance Maladie dépendez-vous ?",
+        "description": "Indiquez le département de votre Caisse Primaire d'Assurance Maladie\n",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de sécurité sociale",
+        "description": "Saisir les 15 chiffres sans espace",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "Format jj/mm/aaaa",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Rubriques à compléter selon votre situation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "A - Vous êtes ancien(ne) assuré(e) social(e)",
+        "description": "Vous avez été affilié(e) pendant au moins 6 mois, soit au régime général, soit à un régime spécial mentionné à l’article R. 711-1 du Code de la sécurité sociale (fonctionnaires,…), soit au régime des assurances sociales agricoles ET vous avez cessé de remplir les conditions d’assujettissement à ce régime - voir guide de la démarche\n\nVous devez obligatoirement fournir les pièces justificatives à la fin de ce formulaire selon votre situation. La liste des pièces à fournir est disponible dans le guide.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Choix de l'adhésion à l'assurance volontaire :",
+        "description": null,
+        "required": false,
+        "options": [
+          "Invalidité - vieillesse - veuvage",
+          "Vieillesse - veuvage"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Vous résidez :",
+        "description": null,
+        "required": false,
+        "options": [
+          "En France métropolitaine",
+          "En Outre-mer",
+          "A l'étranger"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous remplissez les conditions d'assujettissement obligatoire au régime général, au régime agricole ou à un régime spécial :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous bénéficiez d'un avantage vieillesse :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Vous avez été affilié(e), depuis au moins 6 mois, à un régime de sécurité sociale :",
+        "description": null,
+        "required": false,
+        "options": [
+          "A titre personnel",
+          "A titre d'ayant droit"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "--------------------------------------",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "B - Vous remplissez les fonctions de tierce personne auprès de votre conjoint(e) ou d’un membre de votre famille infirme ou invalide",
+        "description": "Vous ne percevez aucune rémunération pour cette activité et vous ne relevez pas de l’assurance vieillesse du régime général (article L.381-1, 2° du Code de la sécurité sociale) - voir le guide de la démarche\n\nVous devez obligatoirement fournir les pièces justificatives à la fin de ce formulaire selon votre situation. La liste des pièces à fournir est disponible dans le guide.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Choix de l'adhésion à l'assurance volontaire :",
+        "description": null,
+        "required": false,
+        "options": [
+          "Invalidité - vieillesse",
+          "Invalidité"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lien familial entre vous et la personne infirme ou invalide :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Vous êtes au service de la personne infirme ou invalide depuis le :",
+        "description": "Format jj/mm/aaaa",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom de la personne infirme ou invalide :",
+        "description": "Nom de famille (de naissance) suivi du nom d'usage (facultatif et s’il y a lieu).",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Son numéro de sécurité sociale",
+        "description": "Saisir les 15 chiffres sans espace",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Son adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous percevez une rémunération à ce titre :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous relevez de l'assurance vieillesse du régime général :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "--------------------------------------",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "C - Vous assurez l’éducation d’un enfant de moins de 20 ans à la charge de votre foyer",
+        "description": "Vous assumez la charge d’au moins un enfant de moins de 20 ans à la date de la demande d’adhésion, vous résidez en France et n'exercez aucune activité professionnelle - voir guide de la démarche)\n\nVous devez obligatoirement fournir les pièces justificatives à la fin de ce formulaire selon votre situation. La liste des pièces à fournir est disponible dans le guide.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Choix de l'adhésion à l'assurance volontaire :",
+        "description": null,
+        "required": false,
+        "options": [
+          "Invalidité - vieillesse - veuvage",
+          "Invalidité parentale"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous remplissez les conditions d'assujettissement obligatoire au régime général, au régime agricole ou à un régime spécial :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Vous avez été affilié(e), depuis au moins 6 mois, à un régime de sécurité sociale :",
+        "description": null,
+        "required": false,
+        "options": [
+          "A titre personnel",
+          "A titre d'ayant droit"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous déclarez ne pas être atteint(e) d'une affection congénitale ou invalidante :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Date d'affiliation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Date à laquelle vous souhaitez être affilié(e)",
+        "description": "Remarque : si vous assurez l'éducation d'un enfant de moins de 20 ans et que vous adhérez à l'assurance invalidité - vieillesse - veuvage, vous serez obligatoirement affilié(e) au 1er jour du trimestre civil qui suit la date de votre demande.",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Au 1er jour du trimestre civil qui suit la date de votre demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "ou au 1er jour du trimestre civil au cours duquel votre demande est présentée",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "ou, pour l'adhésion à l'invalidité parentale uniquement, au 1er jour du trimestre civil qui suit la date de votre cessation d'activité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vos justificatifs",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Si vous avez plusieurs pièces à déposer, faire (+ Ajouter un élément pour \"Si vous avez .......)",
+        "description": "Liste des pièces disponible sur le guide",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déposez ici vos pièces justificatives selon votre situation",
+            "description": "Tous formats sauf Office (xls, doc, ppt, pps)",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Attestation sur l'honneur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste sur l'honneur l'exactitude de l'ensemble des renseignements fournis dans ce dossier.",
+        "description": "En cochant cette case, vous certifiez et signez les informations saisies sur ce formulaire.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Fait le",
+        "description": "Format : jj/mm/aaaa",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Fait à",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "-------------------------------------",
+        "description": "La loi rend passible d'amende et/ou d'emprisonnement quiconque se rend coupable de fraudes ou de fausses déclarations en vue d'obtenir ou de tenter d'obtenir des avantages indus (articles 313-1 à 313-3, 433-19, 441-1, 441-6 et 441-7 du Code pénal).\nEn outre, l'inexactitude, le caractère incomplet des déclarations ou l'absence de déclaration d'un changement de situation dans le but d'obtenir le versement de prestations indues, peut faire l'objet d'une pénalité financière en application de l'article L. 162-1-14 du Code de la sécurité sociale.\nLa loi n° 78-17 du 6 janvier 1978 modifiée relative à l'informatique, aux fichiers et aux libertés s'applique aux réponses faites sur ce formulaire.\nElle garantit un droit d'accès et de rectification auprès de votre organisme pour les données vous concernant.",
+        "required": false
+      }
+    ]
+  }
+}

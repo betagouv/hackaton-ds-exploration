@@ -1,0 +1,103 @@
+{
+  "number": 90101,
+  "title": "Actualisation de données administratives relatives à l'irrigation dans l'Aube",
+  "description": "Actualiser les informations relatives aux forages et aux prélèvements destinés à l'irrigation dans le département de l'Aube",
+  "tags": [
+    "Irrigation",
+    "autorisation",
+    "administrative"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2024-03-07T14:18:42+01:00",
+  "service": {
+    "nom": "Direction Départementale des Territoires de l'Aube",
+    "organisme": "DDT 10 / Service Eau et Biodiversité ",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/actualisation-donnees-administratives-irrigation",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "www.aube.gouv.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000727760/",
+  "logo": {
+    "filename": "logo prefecture.jpg",
+    "checksum": "znyjSoSG//1DgUbRDB+x/Q==",
+    "byteSize": "9837",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 42,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du gérant / du responsable",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse courriel de contact",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Saisir un forage",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Référence DDT du forage",
+            "description": "Identifiant à 8 chiffres (ex : 10001234)",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Statut d'utilisation",
+            "description": "",
+            "required": true,
+            "options": [
+              "Fonctionnel",
+              "Abandonné"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Usage du forage",
+            "description": "",
+            "required": true,
+            "options": [
+              "Irrigation agricole",
+              "Autre(s) utilisation(s)"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "CarteChampDescriptor",
+            "label": "Localisation de l'ouvrage",
+            "description": "Pour localiser le forage : saisir le lieu-dit ainsi que la commune dans la barre de recherche située au dessus de la carte\r\nPour placer un point : cliquer sur le rond situé en haut à gauche de la carte puis placer la croix sur la carte à l'endroit exact où est localisé le forage",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autorisation administrative du prélèvement",
+            "description": "joindre ci-dessous :\r\n- une copie du récépissé de déclaration (et le cas échéant de la lettre d'accord) ou\r\n- une copie de l'arrêté d'autorisation de prélèvement",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Photographie de l'ouvrage",
+            "description": "Joindre ci-dessous un cliché photographique de la tête du forage avec sa margelle ",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

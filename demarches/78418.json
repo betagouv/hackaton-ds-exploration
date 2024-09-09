@@ -1,0 +1,349 @@
+{
+  "number": 78418,
+  "title": "Bilan de fonctionnement de l'année 2023 des unités valorisant du biogaz dans les réseaux en Centre-Val de Loire",
+  "description": "La démarche permet de répondre à l'obligation réglementaire d'établir un bilan annuel de\r\nfonctionnement. Elle participe également à l'amélioration de la connaissance de la filière.",
+  "tags": [
+    ""
+  ],
+  "zones": [
+    "Ministère de la Transition énergétique"
+  ],
+  "datePublication": "2023-11-21T17:23:01+01:00",
+  "service": {
+    "nom": "Service Connaissance Aménagement Transition Energétique et Logement",
+    "organisme": "DREAL Centre-Val de Loire",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/bilan-biogaz-2023-centre",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.centre-val-de-loire.developpement-durable.gouv.fr/energies-renouvelables-enr-r1730.html",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000023983208/",
+  "logo": null,
+  "notice": {
+    "filename": "Notice_explicative.pdf",
+    "checksum": "i3iZrqXYuVQ8PGs1nAnr7Q==",
+    "byteSize": "53276",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 57,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations générales sur l'installation de valorisation du biogaz",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'exploitant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'installation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET de l'installation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du site de valorisation du biogaz",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Géolocalisation de l'installation",
+        "description": "Emplacement géographique du méthaniseur\r\n- Indiquer votre adresse dans le pavé « recherchez une adresse saisissez au moins 2 caractères »\r\n- La carte zoome alors automatiquement vers votre adresse (ce qui prend quelques secondes)\r\n- Vous pouvez zoomer plus ou moins avec les fonctions + et - à droite de la carte pour situer l'emplacement de votre méthaniseur et changer le fonds de carte en cliquant en bas à gauche de la carte si vous le souhaitez\r\n- En haut à gauche de la carte, sélectionner \"dessiner un polygone\" qui est le 2eme symbole\r\n- Dessiner sur la carte les limites de l'installation, double-cliquez pour valider",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de valorisation l'année du bilan",
+        "description": "",
+        "required": true,
+        "options": [
+          "Cogénération",
+          "Injection"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Typologie d'unité",
+        "description": "Choisir dans le menu déroulant la typologie correspondant à votre situation\r\nRemarque : la méthanisation agricole est définie  comme la production de biogaz,  lorsque cette dernière est à la fois :\r\n- effectuée par un ou plusieurs exploitants agricoles ;\r\n- et provient pour au moins 50 % de matières premières issues d'exploitations agricoles\r\n",
+        "required": true,
+        "options": [
+          "Méthanisation agricole autonome",
+          "Méthanisation agricole collective",
+          "Méthanisation industrielle",
+          "Méthanisation territoriale de déchets",
+          "Méthanisation de boues de STEP urbaines",
+          "ISDND"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de mise en service de l'installation",
+        "description": "Indiquer ici la date de première livraison d'électricité ou biométhane au réseau (jj/mm/aaaa).",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Régime ICPE",
+        "description": "",
+        "required": true,
+        "options": [
+          "Déclaration",
+          "Enregistrement",
+          "Autorisation",
+          "Non ICPE (STEP)"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Equipement d'hygiénisation",
+        "description": "Disposez vous d’un équipement d'hygiénisation ?",
+        "required": true,
+        "options": [
+          "non",
+          "oui sur tout le mélange d’intrants",
+          "oui, sur certains sous-produits"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Achat de l'énergie produite",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Acheteur",
+        "description": "Indiquez la raison sociale de l'acheteur de l'électricité ou du biométhane",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Arrêté tarifaire de votre contrat en cours (électricité)",
+        "description": "Cocher la mention applicable, une seule valeur possible",
+        "required": true,
+        "options": [
+          "Arrêté du 3 octobre 2001 (BG01)",
+          "Arrêté du 10 juillet 2006 (BG6)",
+          "Arrêté du 19 mai 2011 (BG11)",
+          "Arrêté du 3 septembre 2019 (BGI19)",
+          "Arrêté du 13 décembre 2016 (BG16)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Arrêté tarifaire de votre contrat en cours (biométhane)",
+        "description": "Cocher la mention applicable, une seule valeur possible",
+        "required": true,
+        "options": [
+          "Arrêté du 23/11/2011",
+          "Arrêté du 23/11/2020",
+          "Arrêté du 13/12/2021"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Puissance électrique installée (Pmax en kWé)",
+        "description": "Indiquer la puissance électrique installée figurant sur le contrat d'achat de l'électricité en cours au 31 décembre de l'année du bilan (en kWé)",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Production annuelle prévisionnelle (en GWh PCS/an)",
+        "description": "Production annuelle prévisionnelle dans le contrat d'achat en cours au 31 décembre de l'année du bilan (en GWh PCS/an)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Production d'électricité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Période du bilan",
+        "description": "Pour la cogénération, possibilité de déclarer le bilan annuel du 1er novembre de l'année n-1 au 31 octobre de l'année n du bilan (= année EDF OA).",
+        "required": true,
+        "options": [
+          "1er janvier au 31 décembre de l'année du bilan (année civile)",
+          "1er novembre de l'année n-1 au 31 octobre de l'année n du bilan (année EDF OA)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Production d'électricité produite par l'installation",
+        "description": "Électricité brute produite par l'installation en kWh, comprenant l'électricité autoconsommée par les auxiliaires",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Production électrique injectée sur le réseau",
+        "description": "Électricité  vendue en kWh",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Chaleur produite valorisée (en dehors du procédé de méthanisation)",
+        "description": "Quelle quantité de chaleur valorisez vous en dehors de votre procédé de méthanisation  (en kWh)",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Utilisation d'énergie fossile",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Consommation d'énergie fossile",
+        "description": "Préciser la quantité d'énergie fossile (combustible non renouvelable) utilisée au cours de l'année au cours de l'année du bilan en kWh",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Quantité d'énergie primaire du biogaz",
+        "description": "Préciser la quantité d'énergie primaire du biogaz en kWh",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Energie autoconsommée",
+        "description": "Énergie autoconsommée par l'installation de production pour les besoins de son fonctionnement (fonctionnement des moteurs, aspiration du biogaz, aéroréfrigérants, etc.)  en kWh",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Production de biométhane",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bilan mensuel du biométhane injecté et de l'épuration du biogaz",
+        "description": "Compléter le tableau pour l'année du bilan (modèle de fichier à télécharger sur votre ordinateur, à compléter, à enregistrer sur votre ordinateur puis à télécharger ci-dessous avec \"choisir un fichier\").",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Addition de butane et/ou propane lors de l'injection du biométhane dans le réseau ?",
+        "description": "Préciser si du butane et/ou propane est/sont ajouté(s) lors de l’injection du biométhane dans les réseaux de gaz naturel, qui serai(en)t rendu(s) nécessaire(s) par le respect des prescriptions techniques des gestionnaires de réseaux",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Besoins en énergie liés au chauffage du digesteur",
+        "description": "Comment est chauffé le digesteur ?\r\n",
+        "required": true,
+        "options": [
+          "Utilisation du biogaz ou du biométhane produit par l'installation",
+          "Récupération de la chaleur fatale issue du système d'épuration ou de compression de l'installation de production",
+          "Pas chauffage",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le mode de chauffage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Bilan des intrants",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration de tous les intrants alimentant votre installation l'année du bilan",
+        "description": "UTILISATION OBLIGATOIRE du modèle de fichier à télécharger, un autre format ne sera pas accepté. Y compléter les cases grisées pour TOUS les intrants ayant alimenté votre installation l'année du bilan, selon les familles et catégories du fichier.\r\n\r\nComment procéder ? modèle de fichier à télécharger sur votre ordinateur, à compléter, à enregistrer sur votre ordinateur puis à télécharger ci-dessous avec \"choisir un fichier\"",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Dysfonctionnement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous connu des dysfonctionnement l'année du bilan ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quel type de dysfonctionnement avez-vous rencontré ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Digestat",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Quel est le volume de digestat produit sur l'année ?",
+        "description": "en TMB (tonne de matières brutes)",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Comment valorisez-vous le digestat ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "Épandage selon un plan d’épandage sur parcelle agricole",
+          "Valorisation comme « matière fertilisante » normée ou homologuée",
+          "Élimination par incinération",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre : à préciser",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commentaires/avis/remarques",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Votre avis (facultatif)",
+        "description": "Votre avis sur ce questionnaire? Y a t-il des questions mal formulées?  Cette question libre est pour vous, n'hésitez pas à vous exprimer.  \r\n",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Merci de votre collaboration !",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

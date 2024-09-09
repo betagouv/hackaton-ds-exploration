@@ -1,0 +1,408 @@
+{
+  "number": 32461,
+  "title": "Inscription Première professionnelle ou Terminale CAP",
+  "description": "Inscription au LPO A DE GAULLE en première professionnelle ou terminale CAP ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2020-07-09T10:09:25+02:00",
+  "service": {
+    "nom": "Pôle inscription des élèves",
+    "organisme": "LPO A DE GAULLE - MILHAUD",
+    "typeOrganisme": "etablissement_enseignement"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/inscription-premiere-professionnelle-ou-terminale-",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://lyc-anthoniozdegaulle-milhaud.ac-montpellier.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCode.do?idSectionTA=LEGISCTA000006166564&cidTexte=LEGITEXT000006071191",
+  "logo": {
+    "filename": "logoLycee3.jpg",
+    "checksum": "n7jCFmQO1bbp5l4sdZbSmQ==",
+    "byteSize": "75182",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité de l'élève",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom patronymique de l'élève",
+        "description": "Le nom doit être celui inscrit sur le document d'identité de l'enfant",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénoms de l'élève",
+        "description": "Indiquez TOUS les prénoms de l'enfant",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance de l'élève",
+        "description": "format jj/mm/nnnn",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail élève",
+        "description": "Si l'élève ne dispose pas d'une adresse mail, nous vous invitons à l'accompagner dans la création d'une adresse mail.",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone de l'élève",
+        "description": "Il est très vivement conseillé d'indiquer le numéro de portable de l'élève. Néanmoins, si l'élève ne dispose pas d'un numéro de portable, il est possible de saisir le numéro de l'un des deux responsables.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Inscription en PREMIERE",
+        "description": "Cette inscription ne peut pas être différente de la proposition validée par le conseil de classe du 3e trimestre.\nATTENTION : un dossier d'inscription qui demanderait une inscription dans une filière non validée par l'établissement sera refusé.\n",
+        "required": true,
+        "options": [
+          "1PRO ASSP domicile (Accompagnement, soins et services à la personne) spécialité domicile",
+          "1PRO ASSP structure (Accompagnement, soins et services à la personne) spécialité structure",
+          "TCAP"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Etablissement d'origine",
+        "description": "Inscrire le nom de l'établissement, la commune et le département.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Classe d'origine",
+        "description": "Il s'agit de la classe fréquentée en 2019/2020",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Elève redoublant son année de 1ère",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Classe de 1ère suivie en 2019/2020",
+        "description": "Merci de ne remplir cette partie QUE si vous êtes redoublant.",
+        "required": false,
+        "options": [
+          "1 ASSP DOMICILE",
+          "1 ASSP STRUCTURE",
+          "1 SPVL",
+          "TCAP"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Elève boursier",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Régime",
+        "description": "Vous devez choisir un régime pour votre enfant - merci de vous reporter à la fiche intendance ci-dessous pour les explications concernant chacun des régimes proposés.",
+        "required": true,
+        "options": [
+          "Demi pensionnaire au ticket",
+          "Demi pensionnaire au forfait",
+          "Interne",
+          "Externe"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Frais de restauration scolaire et/ou d'hébergement",
+        "description": "Je déclare avoir pris connaissance des éléments indiqués dans la notice du service Intendance de l'établissement et je m'engage à régler les frais de restauration et/ou d'hébergement concernant mon enfant, selon les modalités précisées.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Notice explicative Restaurant Scolaire",
+        "description": "Nous vous invitons à prendre connaissance des informations relatives à la demi-pension dans le document joint.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Fiche DEMI PENSIONNAIRE AU FORFAIT",
+        "description": "Cette fiche est à joindre complétée si vous avez choisi le régime DEMI PENSIONNAIRE AU FORFAIT. Elle pourra être rendue le jour de la rentrée auprès du professeur principal de votre enfant.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Demande d'inscription d'internat",
+        "description": "POUR LES ELEVES DEMANDANT L'INTERNAT :\nLes familles seront informées le 9 juillet par téléphone de la suite donnée à leur demande.",
+        "required": false,
+        "options": [
+          "Mon enfant était inscrit à l'internat en 2019/2020",
+          "Mon enfant n'était pas inscrit à l'internat en 2019/2020"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Motif de la demande d'inscription à l'internat",
+        "description": "Plusieurs réponses possibles.",
+        "required": false,
+        "options": [
+          "Distance du domicile supérieur à 30km",
+          "Raisons familiales",
+          "Choix personnel",
+          "Autre (des précisions pourront être demandées)"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Charte de vie à l'internat",
+        "description": "L'inscription à l'internat vaut acceptation de la charte à consulter avec la note d'information ci-dessous.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Correspondant local",
+        "description": "POUR LES ELEVES DEMANDANT UNE INSCRIPTION A L'INTERNAT :\nIl est obligatoire que chaque élève interne ait un correspondant local résidant à moins de 30 minutes de l'établissement. Les responsables indiquent ci-dessous les nom, prénom, et numéro de téléphone de ce correspondant. Si vous ne connaissez encore personne, il est possible d'indiquer ce correspondant (appelé uniquement en cas d'urgence) d'ici fin septembre. Si vous habitez à moins de 30 minutes, cette rubrique n'est pas indispensable.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Langue vivante",
+        "description": "La langue vivante doit être celle étudiée en classe de 2nde.\nAucune modification de langue vivante ne pourra être enregistrée sans accord de l'établissement.\nPour une inscription en terminale CAP, l'inscription en Anglais est obligatoire.",
+        "required": true,
+        "options": [
+          "Anglais",
+          "Espagnol"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité responsable 1",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom du responsable 1",
+        "description": "Le responsable 1 sera le responsable préférentiel.\nMerci, en cas de séparation, d'indiquer en responsable 1, celui chez qui l'enfant réside le plus souvent.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom responsable 1",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "adresse mail responsable 1",
+        "description": "Merci de renseigner une adresse mail valide",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse responsable 1",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune responsable 1",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone fixe responsable 1",
+        "description": "Si vous ne disposez pas de numéro de fixe, il est possible de saisir le numéro de portable.",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone portable responsable 1",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone travail responsable 1",
+        "description": "Si vous ne disposez pas de numéro professionnel, il est possible de saisir le numéro de portable.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Responsable 1 et activité",
+        "description": null,
+        "required": true,
+        "options": [
+          "En activité",
+          "Au chômage",
+          "Retraité",
+          "Sans activité"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Profession précise responsable 1",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité responsable 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du responsable 2",
+        "description": "En cas de séparation et d'autorité parentale conjointe, le nom du 2nd responsable est obligatoire quel que soit le mode de garde.\nNous vous remercions de joindre une copie du jugement de divorce au présent dossier .",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du responsable 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail responsable 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse responsable 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune responsable 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone  fixe responsable 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone portable responsable 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone travail responsable 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Responsable 2 et activité",
+        "description": null,
+        "required": false,
+        "options": [
+          "En activité",
+          "Au chômage",
+          "Retraité",
+          "Sans activité"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Profession précise responsable 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre total d'enfants à charge",
+        "description": "Y compris l'élève ci-dessus",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Enfant(s) scolarisé (s) en collège ou en lycée",
+        "description": "Le cas échéant préciser nom, prénom et établissement fréquenté",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Jugement de divorce",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Autorisez-vous les fédérations de parents à connaitre votre adresse mail ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Droit à l'image",
+        "description": "En cochant OUI, vous autorisez le lycée A DE GAULLE à :\n•\tFaire le portrait (sous forme numérique) de mon enfant ;\n•\tStocker cette image durant tout le temps de sa scolarité, sur le serveur de l’établissement ;\n•\tDiffuser cette image dans le cadre d’un trombinoscope, numérique ou imprimé, à des seules fins pédagogiques ;\n•\tA utiliser des images et des vidéos réalisées dans le cadre d’activités scolaires sous le contrôle du personnel du lycée encadrant ces activités : notamment sur le site internet de l’établissement.\n",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Accueil des élèves à besoins particuliers",
+        "description": "PAP = plan d'accompagnement personnalisé avec des aménagement pédagogiques en lien avec des troubles des apprentissages (dyslexie, dysorthographie etc)\nPAI : projet d'accueil individualisé en lien avec une situation médicale (diabète, allergie etc)\nPPS : projet personnel de scolarisation (avec dossier et notification MDPH)\nLe document sera à transmettre au lycée impérativement au mois de septembre 2020.",
+        "required": false,
+        "options": [
+          "Mon enfant bénéficie d'un PAP",
+          "Mon enfant bénéfice d'un PAI",
+          "Mon enfant bénéficie d'un PPS"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mon enfant bénéficie d'aménagements aux épreuves d'examens",
+        "description": "Vous avez reçu une notification de ces aménagements en 2019/2020.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autre personne à prévenir",
+        "description": "Précisez le lien avec l'enfant et les coordonnées téléphoniques de la personne.\nSi personne n'est à contacter, indiquer aucune.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Règlement intérieur",
+        "description": "L'inscription vaut acceptation au règlement intérieur disponible sur le site de l'établissement à partir du 25 aout 2020.\nhttps://lyc-anthoniozdegaulle-milhaud.ac-montpellier.fr/\nNous vous invitons à télécharger ce document et à le retourner signer au professeur principal début septembre.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Inscription en classe de première",
+        "description": "En cochant cette case, j'inscris mon enfant en classe de première professionnelle ou en classe de terminale CAP au LPO A DE GAULLE à Milhaud.\nJe certifie l'exactitude des renseignements fournis ci-dessus et je m'engage à informer le lycée de toutes les modifications pouvant intervenir dans ces renseignements en cours d'année scolaire.",
+        "required": true
+      }
+    ]
+  }
+}

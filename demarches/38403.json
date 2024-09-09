@@ -1,0 +1,325 @@
+{
+  "number": 38403,
+  "title": "Invalidité : Révision Allocation Supplémentaire Invalidité",
+  "description": "Ce formulaire en ligne vous permet la révision de vos droits à l'Allocation Supplémentaire Invalidité (ASI).\r\n\r\nRéservé aux invalides des départements Calvados-Manche-Orne.\r\n\r\nPour une connexion simple et pratique, utilisez la connexion France-Connect.",
+  "tags": [
+    "Handicap"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2021-01-13T16:49:58+01:00",
+  "service": {
+    "nom": "Caisse Primaire d'Assurance Maladie - Pôle assuré",
+    "organisme": "CPAM ",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/invalidite-revision-allocation-supplementaire-inva",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://declic.cpam50.fr/",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/fr/respecter-les-droits-des-personnes",
+  "logo": {
+    "filename": "Logo AM.jpg",
+    "checksum": "UjyDnhPLOXTLOUUxBkRi1Q==",
+    "byteSize": "528470",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 743,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "De quelle Caisse Primaire d'Assurance Maladie dépendez-vous ?",
+        "description": "Indiquez le numéro du département de votre Caisse Primaire d'Assurance Maladie ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Votre numéro de sécurité sociale",
+        "description": "Saisir les 15 chiffres sans espace",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Situation Familiale",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Précisez votre situation familiale actuelle",
+        "description": "",
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Vie Maritale",
+          "Marié(e)",
+          "Pascé(e)",
+          "Divorcé(e)",
+          "Séparé(e)",
+          "Veuf (Veuve)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si, votre situation a changé depuis le 1er janvier de l'année précédente (N-1). Merci de joindre les pièces justificatives (copie du livret de famille, jugement de divorce, etc) sur le lien suivant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Si, vous avez précisé, vie maritale, marié, pacsé à la question précédente. Vous devez indiquer le numéro de sécurité sociale, nom et prénom du conjoint(e), concubin(e), pacsé(e) et sa situation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de sécurité sociale du conjoint(e), concubin(e) ou partenaire PACS",
+        "description": "Saisir les 15 chiffres sans espace",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de votre conjoint(e), concubin(e) ou partenaire de PACS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom de votre conjoint(e), concubin(e) ou partenaire de PACS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Les ressources perçues par votre conjoint(e), concubin(e) ou partenaire de PACS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Salarié (Salaires)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Pôle emploi (Chômage)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Titulaire de l'AAH (Caf)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autre (à préciser)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Biens immobiliers",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous ou votre conjoint(e), concubin(e) ou partenaire PACS, êtes-vous propriétaire(s) de biens immobiliers en dehors de votre habitation principale ?",
+        "description": "Maisons, appartements, immeubles et terrains à l'exclusion de l'habitation principale et des bâtiments d'exploitation agricole.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si, oui",
+        "description": "Joindre obligatoirement une copie de l'acte d'achat",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Prévoyance",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous titulaire d'une prévoyance ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si, oui",
+        "description": "Joindre obligatoirement la dernière attestation de paiement",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Attestation financière du foyer",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "L'attestation est obligatoire pour le demandeur/demandeuse et pour votre concubin(e), conjoint(e) et partenaire PACS.",
+        "description": "Merci de respecter les zones prévues à cet effet.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Veuillez indiquer pour le demandeur/se vos placements et le montant des placements",
+        "description": "Dans le cas de plusieurs placements, merci de cliquer sur (+ Ajouter un élément pour \"Veuillez indiquer.....) en dessous de ce cadre",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Choisir le placement",
+            "description": "Si vous n'avez aucun placement, merci de choisir \"Néant\" dans la liste et d'indiquer 0 dans le montant.",
+            "required": true,
+            "options": [
+              "Néant",
+              "Actions",
+              "Bons d'épargne, bons de caisse",
+              "Bons de capitalisation",
+              "Bons du trésor",
+              "Compte Épargne Logement - CEL",
+              "Epargne Assurance Vie",
+              "Livret d’Épargne - Livret A",
+              "Livret populaire - LEP",
+              "Livret développement durable - CODEVI",
+              "Obligations",
+              "Plan Épargne Logement - PEL",
+              "SICAV et fonds communs de placement",
+              "SCPI  - société civile de placement immobilier",
+              "Autres"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si autres, merci d'indiquer l'intitulé de votre placement",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de l'établissement financier",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant du placement au 31/12",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Veuillez indiquer pour votre conjoint(e), concubin(e) ou partenaire PACS vos placements et le montant des placements",
+        "description": "Dans le cas de plusieurs placements, merci de cliquer sur (+ Ajouter un élément pour \"Veuillez indiquer.....) en dessous de ce cadre",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Choisir le placement",
+            "description": "Si vous n'avez aucun placement, merci de choisir \"Néant\" dans la liste et d'indiquer 0 dans le montant.",
+            "required": false,
+            "options": [
+              "Néant",
+              "Actions",
+              "Bons d'épargne, bons de caisse",
+              "Bons de capitalisation",
+              "Bons du trésor",
+              "Compte Épargne Logement - CEL",
+              "Epargne Assurance Vie",
+              "Livret d’Épargne - Livret A",
+              "Livret populaire - LEP",
+              "Livret développement durable - CODEVI",
+              "Obligations",
+              "Plan Épargne Logement - PEL",
+              "SICAV et fonds communs de placement",
+              "SCPI  - société civile de placement immobilier",
+              "Autres"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si autres, merci d'indiquer l'intitulé de votre placement",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de l'établissement financier",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant du placement au 31/12",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre Avis d'imposition",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre votre dernier avis d'imposition",
+        "description": "Merci de fournir l'intégralité de votre dernier avis d'imposition.\n",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5 - Avis d'imposition de votre conjoint(e), concubin(e) ou partenaire PACS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si, votre conjoint(e), concubin(e), votre partenaire PACS n'apparait pas sur votre avis d'imposition.",
+        "description": "Merci de fournir l'intégralité de son dernier avis d'imposition (ou avis de situation déclarative à l'impôt sur le revenu)",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Fait le :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'ai vérifié les informations saisies. J'ai déposé toutes les pièces justificatives. J'ai pris connaissance des informations nécessaires au traitement de ma demande.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie sur l'honneur l'exactitude des renseignements fournis sur la présente déclaration et m'engage à faciliter toute mesure d'enquête qui pourrait être ordonnée en vue de leur vérification. Toutes fausses déclarations donneront lieu à des poursuites.",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

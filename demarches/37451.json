@@ -1,0 +1,285 @@
+{
+  "number": 37451,
+  "title": "DDETSPP40 / Influenza aviaire / Demande de LPS",
+  "description": "Demande de laissez-passer sanitaire Infuenza aviaire en cas de zones réglementées",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2020-12-13T15:58:00+01:00",
+  "service": {
+    "nom": "40 / Services Vétérinaires -Santé Protection Animales et Environnement / IAHP",
+    "organisme": "DDETSPP40",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ddcspp40-influenza-demande-lps",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.landes.gouv.fr/service-veterinaire-sante-protection-animales-et-r891.html",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000017958300?tab_selection=all&searchField=ALL&query=18+janvier+2008&searchType=ALL&fonds=LEGI&typePagination=DEFAULT&pageSize=10&page=1&tab_selection=all#all",
+  "logo": {
+    "filename": "logo pref40.jpg",
+    "checksum": "R/+wAhJfhUVR/LsZXLTocw==",
+    "byteSize": "108897",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 28,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date prévue pour le mouvement",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Heure prévue pour le mouvement",
+        "description": null,
+        "required": true,
+        "options": [
+          "Entre 0h et 8h",
+          "Entre 8h et 13h",
+          "Entre 13h et 18h",
+          "Entre 18h et 0h"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ETABLISSEMENT D'ORIGINE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Zone de l'établissement d'origine",
+        "description": null,
+        "required": true,
+        "options": [
+          "zone de protection (3km)",
+          "zone de surveillance (10km)",
+          "zone de contrôle temporaire",
+          "zone indemne",
+          "zone de protection stabilisée",
+          "zone de surveillance stabilisée"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom / Raison sociale de l'établissement d'origine",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET de l'établissement d'origine",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune de l'établissement d'origine",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mèl de l'établissement d'origine",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Animaux / produits concernés par la demande",
+        "description": "Sélectionner la catégorie puis l'espèce",
+        "required": true,
+        "options": [
+          "--Gallinacés--",
+          "Poussins d'un jour",
+          "Poulets de chair",
+          "Pintades",
+          "Dindes",
+          "Cailles",
+          "Volailles festives",
+          "Poules pondeuses",
+          "Autre",
+          "--Palmipèdes--",
+          "Canetons d'un jour",
+          "Canards prêts à gaver",
+          "Canards gavés",
+          "Canettes",
+          "Oies",
+          "--Autres--",
+          "Gibier",
+          "Oeufs à couver",
+          "Sous produits animaux"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Organisation",
+        "description": null,
+        "required": true,
+        "options": [
+          "Indépendant",
+          "En groupement",
+          "Sans objet (sous produits animaux...)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du groupement (le cas échéant)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ETABLISSEMENT DE DESTINATION",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Destination",
+        "description": "Sélectionnez la raison principale\n\n",
+        "required": true,
+        "options": [
+          "Abattoir",
+          "Mise en place élevage à 1j",
+          "Mise en place élevage animaux démarrés",
+          "Mise en ponte",
+          "Mise en gavage",
+          "Couvoir",
+          "Etablissement de sous produits animaux"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Zone de l'établissement de destination",
+        "description": null,
+        "required": true,
+        "options": [
+          "zone de protection (3km)",
+          "zone de surveillance (10km)",
+          "zone de contrôle temporaire",
+          "zone indemne",
+          "zone de protection stabilisée",
+          "zone de surveillance stabilisée"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "N° du département de l'établissement de destination",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune de l'établissement des destination",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom / Raison sociale de l'établissement de destination",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET de l'établissement de destination",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Organisation",
+        "description": null,
+        "required": true,
+        "options": [
+          "Indépendant",
+          "En groupement",
+          "Sans objet (sous produits animaux...)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du groupement le cas échéant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Transport",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du transporteur utilisé pour le mouvement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PIECES JUSTIFICATIVES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du vétérinaire sanitaire ayant réalisé la visite clinique et prélèvements avant mouvement",
+        "description": "Indiquer 0 si non nécessaire pour le mouvement (ex : sous produits animaux).\nVisite doit être réalisée moins de 48h avant mouvement.\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Laissez-passer sanitaire prérempli par le demandeur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Compte rendu de visite clinique du vétérinaire sanitaire moins de 48h avant mouvementh",
+        "description": "Si déjà en votre possession, ou possible de l'ajouter plus tard tant que le dossier n'est pas passé en instruction, ou peut être ajouté par le vétérinaire si vous l'avez invité pour cette demande de LPS.\nSauf sous produits animaux.\nDoit dater de moins de 48h avant mouvement.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport analyse laboratoire le cas échéant",
+        "description": "Si déjà en votre possession,ou possible de l'ajouter plus tard tant que le dossier n'est pas passé en instruction.\nSauf sous produits animaux.\nPrélèvements réalisés par le vétérinaire sanitaire moins de 48h avant mouvement.\n",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autre document si nécessaire",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autre document si nécessaire",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire (facultatif)",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

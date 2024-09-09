@@ -1,0 +1,157 @@
+{
+  "number": 86985,
+  "title": "Taxi - sortie de conducteur(s)",
+  "description": "Ce formulaire en ligne permet au taxi de transmettre les justificatifs obligatoires et d'informer la CPAM des Pyrénées-Orientales d'une sortie de conducteur(s).",
+  "tags": [
+    "Taxi"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2024-01-08T13:25:11+01:00",
+  "service": {
+    "nom": "Caisse Primaire d'Assurance Maladie des Pyrénées-Orientales",
+    "organisme": "CPAM",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fichier-ps-taxi-sortie-de-conducteur-s",
+  "dpoUrl": "dpo.cpam-pyrenees-orientales@assurance-maladie.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "http://declic.cpam66.fr/",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/   ",
+  "logo": {
+    "filename": "Logo_AM_Des_PO.png",
+    "checksum": "NwzN0VyY1NENkmzU+ejkiw==",
+    "byteSize": "19704",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 12,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification du transporteur :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Dans quel département est située votre entreprise ?",
+        "description": "Indiquez le département de votre entreprise",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "n° Assurance Maladie",
+        "description": "Référence qui nous permet de vous identifier lors de la facturation\r\nNuméro composé de 9 caractères",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'entreprise",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du contact",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Annexe 1",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Merci de fournir l'annexe 1 complétée. Veuillez renseigner votre n° Assurance Maladie",
+        "description": "Ce document est disponible dans la convention et téléchargeable ici\r\nTous les formats sauf Office (xls, doc, ppt, pps)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Personnels :",
+        "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pour chaque sortie de conducteur(s) :",
+        "description": "Si vous avez plusieurs sorties de conducteur, cliquer sur (+  Ajouter un élément pour « Pour chaque sortie de conducteur(s) : » )",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de sortie",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Engagement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, je certifie conforme les saisies et je signe ma déclaration.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Fait à :",
+        "description": "Indiquez la commune",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Le :",
+        "description": "Format jj/mm/aaaa",
+        "required": true
+      }
+    ]
+  }
+}

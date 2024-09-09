@@ -1,0 +1,231 @@
+{
+  "number": 18844,
+  "title": "Demande de logement social réservé aux fonctionnaires de l'État dans le Gard",
+  "description": "Vous êtes agent de la fonction publique d'État dans le Gard et détenteur d'un numéro d'enregistrement de demande de logement social dans le Gard.\r\nVous pouvez formuler une demande de logement social réservé aux fonctionnaires d'État via cette plateforme.\r\n\r\nSont exclus les personnels hospitaliers ainsi que les agents territoriaux.\r\n\r\nLes contractuels doivent bénéficier d’un contrat de travail d’une durée supérieure à 12 mois et justifier d’au moins une année d’ancienneté en qualité d’agent contractuel.\r\n\r\nLes dossiers sont examinés selon différents critères réglementaires, en particulier le revenu, la composition de la famille pour la taille du logement, et le montant du loyer.",
+  "tags": [
+    "Logement"
+  ],
+  "zones": [
+    "Ministère de la Transformation et de la Fonction publiques"
+  ],
+  "datePublication": "2019-07-04T11:46:16+02:00",
+  "service": {
+    "nom": "Pôle départemental d'action sociale du SGCD",
+    "organisme": "Préfecture du Gard",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-logement-social-agents-etat-gard",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://gard.pref.minint.fr/index.php/sgc/ressources-humaines/action-sociale/297-aides-sociales-interministerielles",
+  "cadreJuridiqueUrl": "https://www.fonction-publique.gouv.fr/reservation-de-logements-sociaux-locatifs",
+  "logo": {
+    "filename": "Logo_prefete_Gard_CMJN.jpg",
+    "checksum": "55em5SDsT/yZUUxyrQKXsQ==",
+    "byteSize": "1748920",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 204,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° unique d'enregistrement",
+        "description": "Obtenu lors de l'enregistrement en ligne préalable obligatoire sur le site :https://www.demande-logement-social.gouv.fr\nLe chiffre commence par 030 et contient en tout 17 chiffres",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Administration actuelle",
+        "description": "Affectation actuelle",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prochaine affectation",
+        "description": "Si mutation prochaine",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date mutation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation familiale",
+        "description": null,
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Marié(e)",
+          "Pacsé(e)",
+          "Divorcé(e)",
+          "Concubinage"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'enfant à charge",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse actuelle",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Motifs de la demande",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Revenu fiscal de référence n-2",
+        "description": "Les revenus pris en compte sont ceux d'il y a 2 ans",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Revenus du foyer",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Vous êtes actuellement :",
+        "description": null,
+        "required": true,
+        "options": [
+          "Propriétaire",
+          "Locataire",
+          "Héberger à titre gracieux"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Propriétaire",
+        "description": "Si vous êtes propriétaire d'un autre bien que celui que vous occupez",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Montant du loyer actuel (si locataire)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous occupant d'un logement social?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, nom du bailleur social",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous fait votre demande de changement auprès de votre bailleur actuel",
+        "description": "La demande ne pourra être traité sans avoir préalablement effectué votre \"mutation\" auprès de votre bailleur social",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de logement souhaité",
+        "description": "Choix multiple",
+        "required": true,
+        "options": [
+          "T1/F1",
+          "T2/F2",
+          "T3/F3",
+          "T4/F4",
+          "T5/F5",
+          "T6/F6"
+        ]
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Montant du loyer envisagé",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune(s) souhaitée(s)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quartier(s) préférentiel(s)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune(s) limitrophe(s)",
+        "description": "Possibilité d'élargir le champs de recherche à d'autres communes",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si vous avez déjà déposé un dossier auprès d'un bailleur social, merci d'indique le nom du bailleur:",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bulletin de salaire 1",
+        "description": "3 derniers bulletins de salaire",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bulletin de salaire 2",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bulletin de salaire 3",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Avis d'imposition n-2",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

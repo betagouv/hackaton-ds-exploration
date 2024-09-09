@@ -1,0 +1,312 @@
+{
+  "number": 51712,
+  "title": "Contrôle de conformité des GAEC",
+  "description": "Conformément à l’article R.323-18 du code rural et de la pêche maritime, la direction départementale des territoires du Loiret est chargée d’effectuer un contrôle administratif approfondi de chaque GAEC afin de vérifier sa conformité au cadre juridique.\r\n",
+  "tags": [
+    "Chasse",
+    "Environnement",
+    "Animaux",
+    "Tirs"
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2022-06-15T16:23:37+02:00",
+  "service": {
+    "nom": "Service Agriculture et Développement Rural",
+    "organisme": "DDT du Loiret",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/controle-conformite-gaec-loiret",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.loiret.gouv.fr/Politiques-publiques/Agriculture-et-developpement-rural-foret/Agriculture-et-developpement-rural/Foncier-et-Structures-agricoles/GAEC",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030294858",
+  "logo": {
+    "filename": "Logo_pref_loiret.jpg",
+    "checksum": "uKVTin91D5aPCdCCvB6ecg==",
+    "byteSize": "45271",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 40,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. Identité de votre GAEC",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination",
+        "description": "Commencez la saisie par GAEC ...",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "PACAGE du GAEC",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail",
+        "description": "Il est fortement recommandé de nous indiquer une adresse mail pour faciliter les correspondances",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse postale",
+        "description": "Renseignez l'adresse à laquelle vous souhaitez recevoir les courriers de la DDT",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Par quel organisme êtes vous suivi?",
+        "description": "",
+        "required": true,
+        "options": [
+          "FDSEA",
+          "CER France"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de tenue de la dernière Assemblée Générale annuelle",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Procès verbal de l'Assemblée Générale annuelle",
+        "description": "Joindre le Procès Verbal de la dernière AG annuelle signé par tous les associé(e)s\n\nTaille limitée à 200 Mo par pièce jointe",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. Les associé(e)s",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Liste des associé(e)s en 2021",
+        "description": "Remplir les données individuellement pour chaque associé\nCliquez sur \"Ajouter un élément pour liste des associé(e)s en 2021\" en bas de la page en fonction du nombre d'associés",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom et prénom de l'associé(e)",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Lien de parenté",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de parts du capital social",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Rémunération mensuelle nette",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Avis d'imposition 2021 sur les revenus 2020",
+            "description": "Taille limitée à 200 Mo par pièce jointe.",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document complémentaire",
+            "description": "Si une somme apparaît dans la rubrique \"salaires\" de votre avis d'imposition et que vous ne bénéficiez pas de dérogation pour travail extérieur vous devez obligatoirement nous fournir les justificatifs nécessaires (bulletin de salaire, décompte d’indemnités, contrat de travail, etc.)\n\nTaille limitée à 200 Mo par pièce jointe",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. Les dérogations",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre GAEC ou l'un(e) de vos associé(e)s bénéfie d'une dérogation ?",
+        "description": "Si la réponse est \"NON\" passez à l'étape 4. Projets du GAEC",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si OUI, laquelle?",
+        "description": "Plusieurs cases peuvent être cochées",
+        "required": false,
+        "options": [
+          "Travail extérieur",
+          "Dispense de travail",
+          "Fonctionnement unipersonnel"
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Travail extérieur - Associé(e) exerçant une activité salariale",
+        "description": "Remplir les données individuellement pour chaque associé\nCliquez sur \"Ajouter un élément pour Travail extérieur - Associé(e) exerçant une activité salariale\" en bas de la page en fonction du nombre d'associés concernés",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Associé(e) concerné(e)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de l'employeur",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nature du travail réalisé",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Revenu annuel de l'activité salariale",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Nombre d'heures annuelles",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "3 derniers bulletins de salaire",
+            "description": "Taille limitée à 200 Mo par pièce jointe",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Contrat de travail",
+            "description": "Taille limitée à 200 Mo par pièce jointe",
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Commentaire",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Travail extérieur - Activité extérieure au sein d'une société",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de la société",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "SIRET",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nature de l'activité exercée",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Associés concerné(e)s",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Commentaires",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4. Projets du GAEC",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Modifications en cours ou prévues",
+        "description": "Indiquez toute modification en projet pour les deux années à venir.\nNous vous rappelons que toute modification est soumise à l’autorisation du préfet afin de vérifier que votre agrément peut être maintenu.\n\nVous pouvez, par exemple, indiquer le souhait d'entrée ou de sortie d'un ou plusieurs associé(e)s, une future transformation ou dissolution etc.\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Engagements",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Nous attestons sur l'honneur de l'exactitude des informations fournies",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fait à :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Le :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Signature des associés",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

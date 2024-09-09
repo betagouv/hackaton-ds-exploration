@@ -1,0 +1,236 @@
+{
+  "number": 88463,
+  "title": "Demande de quotas irrigation - Campagne 2024 - Département de l'Aube",
+  "description": " La période de demande des quotas d’eau destinée à l’irrigation pour 2024 s’étend :\r\n\r\n    - Cas général  : la demande de quota est à réaliser du 1er février au 15 avril 2024 ;\r\n\r\n    - Pour les 4 bassins versants en tension quantitative (Ardusson, Barbuise, Herbissonne et Lhuitrelle), la demande de quota est à réaliser au plus tard le 16 février 2024 afin de permettre la mise en place la gestion collective.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire",
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2024-02-01T09:19:10+01:00",
+  "service": {
+    "nom": "Direction Départementale des Territoires de l'Aube",
+    "organisme": "DDT 10 / Service Eau et Biodiversité",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-quotas-irrigation-2024-aube",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.aube.gouv.fr/Politiques-publiques/Environnement/Eau/Ressource-en-eau/Secheresse",
+  "cadreJuridiqueUrl": "http://www.aube.gouv.fr/Politiques-publiques/Environnement/Eau/Ressource-en-eau/Secheresse",
+  "logo": {
+    "filename": "marianne.png",
+    "checksum": "znyjSoSG//1DgUbRDB+x/Q==",
+    "byteSize": "9837",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 419,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "IMPORTANT",
+        "description": "Votre demande est à transmettre avant le 15 avril 2024 à la DDT 10.\r\nAttention : Pour les 4 bassins versants en tension quantitative (Ardusson, Barbuise, Herbissonne et Lhuitrelle), la demande de quota est à réaliser est à réaliser au plus tard le 16 février 2024 afin de faciliter la gestion collective.\r\nUn accusé de réception automatique vous sera adressé après validation.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° pacage du responsable",
+        "description": "Un numéro PACAGE comportant 9 caractères\r\n",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Ouvrage de prélèvement et moyens de pompage",
+        "description": "Décrire l'ouvrage de prélèvement principal et secondaire avec une description des compteurs rattachés.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "N° du Point prélèvement",
+            "description": "Un numéro de point prélèvement comportant 8 caractères\r\nAttention : 1000000 Rubrique réservée au nouveau point de prélèvement.",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de point prélèvement",
+            "description": "Dans chaque demande, un point de prélèvement doit être principal et unique.",
+            "required": true,
+            "options": [
+              "Principal",
+              "Secondaire"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "ATTENTION :",
+            "description": "Durant la campagne, en cas de problème sur le système d’exploitation de l’ouvrage (fuite, changement de compteur, dégradations, …) vous devez prévenir le service de la Police de l’eau via la messagerie de la plateforme Démarche Simplifiées.\r\nAucun changement sera accepté en fin campagne",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro du compteur",
+            "description": "Attention : Les numéros des compteurs comportant des lettres doivent figurer en majuscules. Aucun espace doit être inséré dans l’identifiant du compteur.",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date installation compteur",
+            "description": "RAPPEL : Les dispositifs de mesures sont une obligation réglementaire sur toutes les installations d’irrigation, sauf exception (réglementaire ou techniques avérés) il s’agit de compteurs volumétriques ou débitmétriques. Ils doivent être contrôlés tous les 7 ans ou changés tous les 9 ans.",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Marque du compteur",
+            "description": "",
+            "required": true,
+            "options": [
+              "ACTARIS SCHLUMBERGER",
+              "ANTICA FORNACE",
+              "APATOR Powogaz",
+              "ARAD",
+              "Badger Meter",
+              "CAMELLI",
+              "DELTA-SDC",
+              "FUJI ELECTRIC",
+              "HIDROCONTA",
+              "ITRON",
+              "KULKER",
+              "MADDALENA",
+              "MIL",
+              "ModMag",
+              "SIEMENS",
+              "SITRANS",
+              "TANGENTIEL",
+              "TCM",
+              "TECNIDRO",
+              "TIL",
+              "WATEAU",
+              "WaterTech",
+              "ZENNER"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de compteur",
+            "description": null,
+            "required": true,
+            "options": [
+              "Mécanique",
+              "Numérique"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Coefficient lecture index",
+            "description": null,
+            "required": true,
+            "options": [
+              "1",
+              "10",
+              "100"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Index compteur",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Moyen de pompage pour l'irrigation",
+            "description": null,
+            "required": true,
+            "options": [
+              "Fixe",
+              "Mobile"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Déclaration de surface",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "N° pacage du demandeur",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de culturel",
+            "description": "Attention : 00-00 (Demande globale) Rubrique réservée à la gestion collective uniquement.\r\nVeuillez reporter dans le champ \"Surface demandée (ha)\", le volume demandé.",
+            "required": true,
+            "options": [
+              "00-00 (Demande globale)",
+              "09-03 (Asperge)",
+              "06-05 (Autres légumineuses)",
+              "04-10 (Betterave sucrière)",
+              "09-04 (Betterave potagère)",
+              "01-02 (Blé dur)",
+              "01-12 (Blé hybride)",
+              "09-05 (Carotte / Panais)",
+              "09-06 (Céleri)",
+              "03-01 (Chanvre / Lin)",
+              "09-34 (Choux à choucroute)",
+              "09-08 (Courges)",
+              "09-11 (Endive)",
+              "06-00 (Légumineuse à grain)",
+              "07-01 (Maïs / Sorgho)",
+              "02-04 (Oeillette)",
+              "09-30 (Oignon à bulbilles)",
+              "09-18 (Oignon)",
+              "01-03 (Orge de printemps)",
+              "10-06 (Plante aromatique)",
+              "09-22 (Poireau)",
+              "09-32 (Pomme de terre de consommation)",
+              "09-33 (Pomme de terre de fécule)",
+              "02-03 (Soja)",
+              "04-03 (Tabac)",
+              "02-02 (Tournesol)"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Surface demandée (ha)",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "COMPLETUDE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre demande comporte un ou plusieurs co-utilisateur(s) différent(s)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certificat(s) de validation co-utilisateur",
+        "description": "Pièces à joindre impérativement pour les co-utilisateurs. Vous trouverez dans l'intitulé",
+        "required": true
+      }
+    ]
+  }
+}

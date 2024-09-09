@@ -1,0 +1,161 @@
+{
+  "number": 89380,
+  "title": "Justificatifs - AAP CLACT-QVT Hauts-de-France (budget 2024)",
+  "description": "Permettre aux établissements de santé de déposer les justificatifs de réalisation des actions cofinancées par l'ARS Hauts-de-France au titre des appels à projets CLACT-QVT 2020, 2021, 2022 et 2024 pour versement des subventions sur l'exercice budgétaire 2024.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2024-02-16T18:12:28+01:00",
+  "service": {
+    "nom": "Service gestion des ressources humaines hospitalières,                        ARS Hauts-de-France",
+    "organisme": "ARS Hauts-de-France, ministère de la santé",
+    "typeOrganisme": "operateur_d_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/justificatifs-aap-clact-qvt-hauts-de-france-budget2024",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.hauts-de-france.ars.sante.fr/",
+  "cadreJuridiqueUrl": "INSTRUCTION N° DGOS/RH3/MEIMMS/2013/410 du 17 décembre 2013 relative aux mesures d'amélioration des conditions de travail des personnels des établissements de santé et d’accompagnement social de la modernisation des établissements de santé éligibles au fonds d’intervention régional.",
+  "logo": {
+    "filename": "logo ARS HDF.png",
+    "checksum": "7tdmKApwXO2V5bWO1J3KxQ==",
+    "byteSize": "72415",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "Notice utilisation plateforme justificatifs  AAP CLACT QVCT_v.15.05.2024.pdf",
+    "checksum": "nV9Cm0WNH2xJiBsmd1F1aA==",
+    "byteSize": "234180",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 27,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'établissement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'établissement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune",
+        "description": "Préciser la commune d'implantation siège de l'établissement.",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Département",
+        "description": "Préciser le département d'implantation de l'établissement.",
+        "required": true,
+        "options": [
+          "Aisne",
+          "Nord",
+          "Oise",
+          "Pas-de-Calais",
+          "Somme"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "GHT",
+        "description": "A renseigner par les établissements membres d'un GHT",
+        "required": false,
+        "options": [
+          "- GHT Littoral Nord",
+          "- GHT Cote d'Opale",
+          "- GHT de l'Artois",
+          "- GHT de l'Artois-Ternois",
+          "- GHT Somme Littoral Sud",
+          "- GHT Oise Ouest et Vexin",
+          "- GHT Oise Sud",
+          "- GHT Oise Nord Est",
+          "- GHT Aisne Sud (SAPHIR)",
+          "- GHT Aisne Nord Haute Somme",
+          "- GHT Hainaut - Cambrésis",
+          "- GHT du Cambrésis",
+          "- GHT du Douaisis",
+          "- GHT Lille Métropole Flandre Intérieure",
+          "- GHT Psychiatrie 59-62"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Appel à projet CLACT-QVT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Année de référence de l'appel à projets concerné",
+        "description": "Préciser l'année de l'appel à projet CLACT-QVT au titre duquel un avenant CPOM ou une convention de financement a été signé.",
+        "required": true,
+        "options": [
+          "2020",
+          "2021",
+          "2022",
+          "2024"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de signature de l'avenant CPOM ou de la convention de financement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Justificatifs de réalisation des actions",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bordereau des pièces justificatives",
+        "description": "Merci de remplir le fichier excel joint listant les pièces justificatives par action retenue dans le cadre de l'avenant CPOM ou de la convention de financement (n° de factures, date des factures, montant des factures...)",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces justificatives - action",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "fichier des pièces justificatives - action",
+            "description": "Joindre le fichier correspondant au justificatif de l'action.",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Montant de la / des facture(s) - action",
+            "description": "Indiquer le montant total des factures relatives à l'action concernée ",
+            "required": true
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Réalisation de l'action",
+            "description": "Préciser si l'action a été réalisée partiellement (de nouveaux justificatifs seront donc transmis à l'ARS ultérieurement) ou totalement (l'action est finalisée, aucun justificatif supplémentaire ne sera transmis à l'ARS)",
+            "required": false,
+            "options": [
+              "partielle",
+              "totale"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "number": 43369,
+  "title": "[ANSM]- Signalement d'un usage non conforme",
+  "description": "Déclarer les signalements d'usages médicamenteux non conformes intentionnels à une autorisation (AMM, AAC, AAP, AIP, CPC)  et constatés sur le territoire national. ",
+  "tags": [
+    "Médicament"
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2022-03-11T18:09:26+01:00",
+  "service": {
+    "nom": "Direction de la Surveillance",
+    "organisme": "ANSM",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ansm-signalement-d-un-usage-non-conforme",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://ansm.sante.fr",
+  "cadreJuridiqueUrl": "https://ansm.sante.fr/",
+  "logo": {
+    "filename": "Ansm-logo.jpg",
+    "checksum": "EXGPWPpqqSWqB6/Ko8KP5A==",
+    "byteSize": "35937",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 31,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "MENTIONS LEGALES – Informations sur les données à caractère personnel recueillies et traitées par l’Agence Nationale de Sécurité du Médicament et des Produits de Santé (ANSM)",
+        "description": "Ce traitement est effectué sous la responsabilité de l’ANSM dans le cadre de l’exercice de ses missions, conformément aux dispositions du règlement général sur la protection des données (RGPD) et de la loi 78-17 du 6 janvier 1978 modifiée relative à l’informatique, aux fichiers et aux libertés. \nL’accès à vos données est exclusivement réservé aux agents de l’ANSM et est couvert par des mesures de sécurité permettant d’assurer leur intégrité et leur confidentialité pour toute la durée de leur traitement. \nVous disposez des droits prévus à l’article 40 de la loi 78-17 du 6 janvier 1978 modifiée, et notamment  du droit d’accès et de rectification de vos données. \nVous pouvez exercer ces droits à tout moment auprès de notre Délégué à la protection des données, par demande écrite, en y joignant un justificatif d’identité comportant votre signature à l’une des adresses suivantes : ANSM, DAJR, délégué à la protection des données, 143-147 Bd Anatole France 93285 \nSAINT DENIS Cedex ou dpo@ansm.sante.fr.\n",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Entreprise qui exploite la ou les spécialités pharmaceutiques concernée(s) :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Substance active ou association de substances actives concernée(s) (DCI) :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Spécialité(s) pharmaceutique(s) concernée(s) :",
+        "description": "https://base-donnees-publique.medicaments.gouv.fr/",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Spécialité pharmaceutique concernée :",
+            "description": "Merci de nommer selon la base de données médicaments",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Statut réglementaire :",
+        "description": "",
+        "required": true,
+        "options": [
+          "AMM",
+          "AAC",
+          "AAP",
+          "AIP",
+          "CPC",
+          "Enregistrement"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précision du statut (Type d'autorisation : nationale, européenne...)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L’usage non conforme représente-t-il un signal potentiel de pharmacovigilance en raison d’un risque pour la santé des patients ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'usage non conforme est-il potentiellement adapté au regard des connaissances actuelles sur le médicament (par exemple littérature scientifique ou recommandations des autorités ou des sociétés savantes) ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Merci de préciser la nature de l'usage non conforme ainsi que les différents points de contact pour les échanges ultérieurs (nom, adresse courriel, téléphone)",
+        "description": "Vous pouvez également joindre d'autres  documents si nécessaire dans la partie Annexe",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document de signalement",
+        "description": "Merci de joindre votre signalement conformément à ce qui est décrit dans le \"Guide à l’attention des entreprises qui exploitent des spécialités pharmaceutiques - Signalement par les entreprises d’une prescription ou utilisation non conforme de médicament\" et de le nommer ainsi : AAAAMMJJ_nom de substance_UNC",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Annexe",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Annexe au document de signalement (articles, projet de DHPC ...)",
+            "description": null,
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "number": 65229,
+  "title": "CPAM 24 - MISAS",
+  "description": "Formulaire permettant de solliciter un accompagnement personnalisé pour l’accès aux droits et aux soins",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-10-14T14:35:31+02:00",
+  "service": {
+    "nom": "ASS",
+    "organisme": "CPAM DORDOGNE",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/cpam-24-misas",
+  "dpoUrl": "dpo.cpam-dordogne@assurance-maladie.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://cpam24.fr/",
+  "cadreJuridiqueUrl": "https://legifrance.gouv.fr/",
+  "logo": {
+    "filename": "355722.png",
+    "checksum": "fqQQ34MqkCHZTeKqFCJC1Q==",
+    "byteSize": "38579",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 4,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DEPARTEMENT DE RESIDENCE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "24 - DORDOGNE",
+        "description": "Formulaire à l'usage des assurés résidant en DORDOGNE",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "TYPE D'ACCOMPAGNEMENT SOLLICITÉ",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Accompagnement demandé concernant",
+        "description": "Il est possible de sélectionner plusieurs options. ",
+        "required": true,
+        "options": [
+          "Difficultés d'accès aux droits",
+          "Renoncement ou difficultés d'accès aux soins",
+          "Fragilité face au numérique",
+          "Autre accompagnement souhaité"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire la problématique rencontrée",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTIFICATION DE LA PERSONNE A ACCOMPAGNER",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de sécurité sociale (avec la clé)",
+        "description": "Saisir les 15 chiffres sans espace ",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Une adresse mail de contact",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ENGAGEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, J’accepte que mes coordonnées soient transmises à la Mission Accompagnement Santé de ma Caisse d’Assurance Maladie afin que celle-ci me contacte pour bénéficier d’un accompagnement santé personnalisé et d’un suivi adapté.",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

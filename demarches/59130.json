@@ -1,0 +1,278 @@
+{
+  "number": 59130,
+  "title": "Fichier PS : Taxi - rachat d'une ADS non conventionnée et demande de son conventionnement",
+  "description": "Ce formulaire en ligne permet au taxi de transmettre les justificatifs obligatoires et d'informer la CPAM de la Manche d'un rachat d'une ADS non conventionnée et demande de son conventionnement",
+  "tags": [
+    "Taxi"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-06-09T14:24:27+02:00",
+  "service": {
+    "nom": "Caisse Primaire d’Assurance Maladie - Pôle Professionnels de santé",
+    "organisme": "CPAM",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/taxi-rachat-d-une-ads-non-conventionnee",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://declic.cpam50.fr/",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/   ",
+  "logo": {
+    "filename": "revu Manche_Logo_Nov.2020_CMJN jpg.png",
+    "checksum": "LX4Bt+jQLVXJOcbn/1bFmQ==",
+    "byteSize": "917811",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 5,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification du transporteur :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Dans quel département est située votre entreprise ?",
+        "description": "Indiquez le département de votre entreprise",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° de l'assurance maladie",
+        "description": "Référence qui nous permet de vous identifier lors de la facturation\nNuméro composé de 9 caractères",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'entreprise",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du contact",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Tableaux des véhicules et des personnels (Annexe 1)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau des véhicules mis à jour",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau des personnels mis à jour",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Administratif",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Acte de vente de l’ADS ou courrier du vendeur mentionnant le vendeur, l’acheteur et la date de la vente",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous déjà titulaire d'une ADS ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'acquisition de l'ADS par le vendeur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Pour les ADS délivrées avant le 01/10/2014",
+        "description": null,
+        "required": false,
+        "options": [
+          "à titre gratuit",
+          "à titre onéreux"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Historique des autorisations de stationnement des véhicules qui attestent de la date de création des ADS",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Véhicules",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pour chaque véhicule :",
+        "description": "Si vous avez plusieurs véhicules, cliquer sur (+  Ajouter un élément pour « Pour chaque  véhicule : » )",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° immatriculation du véhicule",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autorisation de stationnement délivrée par la mairie (ou la communauté de communes) pour le véhicule à conventionner",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Cartes grises justifiant de la réalisation des contrôles techniques pour les véhicules qui stationnent et/ou qui ont stationné sur l’autorisation de stationnement sur les 2 ou 3 dernières années",
+            "description": "Penser au recto/verso",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Carnets métrologique (d'installations et visites périodiques) qui stationnent et/ou qui ont stationné sur l’autorisation de stationnement sur les 2 ou 3 dernières années",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Facturette à 0",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déclaration de Détaxe de carburant taxi à la Direction Générale des Douanes et Droits Indirects ou tout autre document permettant de justifier de l’utilisation d’au moins 2 500 litres de carburant par an (ou 25 000 km par an)",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation assurance automobile pour les véhicules qui stationnent et/ou ont stationné sur l'autorisation de stationnement sur les 2 ou 3 dernières années",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Personnels si embauche suite à acquisition de l'ADS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document listant les noms des chauffeurs qui ont utilisé les véhicules au cours des 2 ou 3 années précédant la demande de conventionnement",
+        "description": "Document à fournir commun à tous les conducteurs ",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pour chaque conducteur qui utilise et qui a utilisé les véhicules stationnant sur les autorisations",
+        "description": "Si vous avez plusieurs conducteurs, cliquer sur (+  Ajouter un élément pour « Pour chaque conducteur : » )",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom  du conducteur",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom du conducteur",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Cartes professionnelles (carte taxi) en cours de validité",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Visite médicale préfectorale en cours de validité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déclaration URSAFF d'embauche",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation de formation continue en cours de validité",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Engagement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, je certifie conforme les saisies et je signe ma déclaration.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Fait à :",
+        "description": "Indiquez la commune",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Le :",
+        "description": "Format jj/mm/aaaa",
+        "required": true
+      }
+    ]
+  }
+}

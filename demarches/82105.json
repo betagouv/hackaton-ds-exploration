@@ -1,0 +1,106 @@
+{
+  "number": 82105,
+  "title": "Recensement de télétravail",
+  "description": "Recenser les personnes qui souhaitent télétravailler ou non et définir les modalités",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition énergétique"
+  ],
+  "datePublication": "2023-10-06T14:21:34+02:00",
+  "service": {
+    "nom": "Un très bon service",
+    "organisme": "d'un excellent organisme",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/recensement-de-teletravail",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ira-nantes.gouv.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000025558058/",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 1,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous faire du télétravail ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sous quelle modalité ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Fixe",
+          "Flottant"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quels sont les jours souhaitez ?",
+        "description": "Deux jours maximum autorisés par semaine",
+        "required": true,
+        "options": [
+          "lundi matin",
+          "lundi après midi",
+          "mardi matin",
+          "mardi après midi",
+          "mercredi matin",
+          "mercredi après midi",
+          "jeudi matin",
+          "jeudi après midi",
+          "vendredi matin",
+          "vendredi après midi"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quel sera le lieu du télétravail ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Domicile",
+          "Tiers lieu"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Adresse du tiers lieu",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Disposez-vous d'un matériel adapté ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation sur l'honneur de conformité électrique",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation assurance",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "number": 55310,
+  "title": "Bilan destruction à tir des pigeons ramiers",
+  "description": "Le pigeon ramier ou palombe (Columba palumbus) est une espèce commune de la famille des colombidés qui peut causer des dégâts considérables aux cultures, notamment pendant la période des semis de printemps ou juste avant la récolte de céréales. \r\nDans le département de la Vienne, l'espèce n'est pas classée comme susceptible d'occasionner des dégâts au titre des espèces du groupe 3 et sa destruction par les particuliers est donc interdite.\r\n\r\nNéanmoins, en application de l'article L.427-6 de code de l'environnement, le représentant de l’État dans le département peut, chaque fois qu'il est nécessaire, ordonner des opérations de destruction de spécimens d'espèces non domestiques après avis du directeur départemental de l'agriculture et de la forêt et du président de la fédération départementale ou interdépartementale des chasseurs, pour l'un au moins des motifs suivants :\r\n\r\n1° dans l'intérêt de la protection de la faune et de la flore sauvages et de la conservation des habitats naturels ;\r\n2° pour prévenir les dommages importants, notamment aux cultures, à l'élevage, aux forêts, aux pêcheries, aux eaux et à d'autres formes de propriétés ;\r\n3° dans l'intérêt de la santé et de la sécurité publiques ;\r\n4° pour d'autres raisons impératives d'intérêt public majeur, y compris de nature sociale ou économique ;\r\n5° pour des motifs qui comporteraient des conséquences bénéfiques primordiales pour l'environnement. \r\n\r\nCes opérations de destruction peuvent notamment consister en des chasses particulières effectuées par des tirs à postes fixes.\r\n\r\nLe bénéficiaire d'une autorisation doit établir le bilan des prélèvements effectués. S'il a bénéficié de plusieurs autorisations, il doit établir un bilan par autorisation.\r\n\r\n",
+  "tags": [
+    "Chasse"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2023-08-10T09:22:38+02:00",
+  "service": {
+    "nom": "Service Eau et Biodiversité / Unité Forêt-Chasse",
+    "organisme": "Direction Départementale des Territoires de la Vienne",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/bilan_cp_pigeons_ramiers",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.vienne.gouv.fr/Politiques-publiques/Environnement-risques-naturels-et-technologiques/Chasse-et-faune-sauvage/Especes-susceptibles-d-occasionner-des-degats-ESOD/Les-especes-susceptibles-d-occasionner-des-degats-ESOD",
+  "cadreJuridiqueUrl": "Site de la Préfecture de la Vienne",
+  "logo": {
+    "filename": "Logo.PNG",
+    "checksum": "h2nDZ/FC66BMM3V3u55hkA==",
+    "byteSize": "8903",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 337,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Je soussigné (identification du bénéficaire de l'autorisation))",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Indiquer ici votre numéro de téléphone",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "N° de l'autorisation délivrée",
+        "description": "Indiquer ici le numéro d'arrêté figurant sur votre autorisation.",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Bilan des tirs",
+        "description": "Il est demandé de donner un bilan par espèce même en cas de bilan nul, dans ce cas indiquer 0 pour l'espèce.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Espèce",
+            "description": null,
+            "required": true,
+            "options": [
+              "Pigeon ramier"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Bilan des prélèvements",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Bilan des tirs",
+        "description": "Je certifie sur l'honneur l’exactitude des données transmises.",
+        "required": true
+      }
+    ]
+  }
+}

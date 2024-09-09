@@ -1,0 +1,179 @@
+{
+  "number": 41290,
+  "title": "Questionnaire API Meublés",
+  "description": "La DGE (en partenariat avec d'autres administrations centrales) souhaite expérimenter une plateforme d'échange de données entre les plateformes de location de meublés touristiques et les communes, dans le cadre de la loi ELAN et décret Lecornu. \r\nAprès des premiers travaux en 2020,  le groupe projet souhaite initier une nouvelle phase d’expérimentation permettant de traiter le processus de bout en bout. Cela permettra de travailler les parcours utilisateurs pour l’ensemble des parties prenantes, avant toute potentielle industrialisation.\r\nPour ce faire, nous souhaiterions mieux connaître votre existant.\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2021-03-17T11:34:39+01:00",
+  "service": {
+    "nom": "Sous-direction du Tourisme",
+    "organisme": "Direction Générale des Entreprises",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/questionnaire-api-meubles",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://api-meubles.peren.org/presentation/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042116125/",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Aviez-vous participé à la première phase de l’expérimentation (réalisation de tests techniques) ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Partie Traitements",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le loueur a-t-il obligation de remplir le champ résidence principale ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le loueur a-t-il obligation de remplir le champ numéro d’enregistrement ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Comment récupérez-vous l’adresse :",
+        "description": null,
+        "required": true,
+        "options": [
+          "--Premier élément du menu--",
+          "Un seul champ texte (N° et nom de rue)",
+          "Un champ pour rue et un autre pour le numéro"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Utilisez-vous des données géographiques (coordonnées GPS, …) ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Effectuez-vous des traitements ou des vérifications  sur certains champs de l’API ?",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "sur l'adresse",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si oui, lesquels?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "sur le code postal",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si oui, lesquels?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Autres champs (précisez champ et traitement réalisé)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Aucun traitement",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Faites-vous des traitements sur le champ « numéro d’enregistrement » ? (présence obligatoire de 13 caractères, vérification d’une correspondance entre le code postal et les 5 premiers chiffres du numéro d’enregistrement, doublons,…précisez les traitements s'ils existent)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Partie exploration pour améliorer la qualité des données",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Disposez-vous des champs :",
+        "description": null,
+        "required": false,
+        "options": [
+          "--Premier élément du menu--",
+          "Identifiant BAN",
+          "Code postal INSEE",
+          "Adresse URL du meublé",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si vous avez coché \"autre\" à la question précédente, veuillez préciser",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Accepteriez-vous de nous fournir un ou plusieurs champs de données présentés ci-dessous, sur la base du volontariat et dans le cadre de cette expérimentation afin d’améliorer la qualité de la base de données?",
+        "description": null,
+        "required": false,
+        "options": [
+          "--Premier élément du menu--",
+          "Adresse BAN",
+          "Code postal INSEE",
+          "Coordonnées GPS (lat/long)",
+          "Adresse URL du meublé",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez, si vous avez coché \"Autre\" à la question précédente",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Auriez-vous d’autres solutions techniques à fournir afin de répondre à cette problématique de qualité de la base de données et particulièrement sur le volet adresse ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si vous avez des remarques ou points que vous souhaitez nous remonter",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

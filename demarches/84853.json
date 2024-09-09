@@ -1,0 +1,531 @@
+{
+  "number": 84853,
+  "title": "Fiche d’initiative région IDF (retour d'expérience)",
+  "description": "L'ARS IDF met à votre disposition une fiche d'initiative à destination des acteurs de santé franciliens engagés dans la télésanté. Cette fiche vise à recueillir et référencer tous les projets/activités télésanté existants, afin d'informer et de mettre en relation tous les professionnels ou structures de soins (médico-social, sanitaire, libérale, etc.).",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2024-01-15T16:34:32+01:00",
+  "service": {
+    "nom": "Direction de l’Innovation, de la Recherche  et de la Transformation numérique",
+    "organisme": "ARS IDF",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fiche-d-initiative-region-idf-retour-d-experience",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "Île-de-France",
+  "cadreJuridiqueUrl": "https://www.iledefrance.ars.sante.fr/system/files/2023-10/FeuilleDeRouteRegionale_telesante2023-2025.pdf",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 47,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Projet de télésanté",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": ">Test",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du projet",
+        "description": "Si vous souhaitez renseigner un projet mis en place dans plusieurs établissements, merci de compléter une fiche par établissement, en indiquant le même nom de projet pour tous.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Présentation",
+        "description": "Décrire les enjeux et les objectifs du projet",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Structure porteuse",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la structure porteuse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de la structure porteuse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quelle est la place de la structure porteuse dans le schéma de télésanté ?",
+        "description": "- Le \"requis\" étant celui qui réalise l'acte de télésanté \r\n- Le \"requérant\" étant celui qui sollicite l'acte de télésanté",
+        "required": true,
+        "options": [
+          "Requis",
+          "Requérant"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Référent projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Coordonnées du référent projet (email/n° téléphone)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Maturité du projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "État avancement du projet",
+        "description": "",
+        "required": true,
+        "options": [
+          "Cadrage",
+          "Déploiement des usages",
+          "Routine",
+          "Arrêté"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précision(s)",
+        "description": "Quels ont été les étapes clés, les leviers et les freins dans la mise en place de cette initiative de télésanté ? N'hésitez pas à aborder également les enjeux de formation, de comitologie (chefferie et suivi de projet), de règlementation, les partenariats avec les acteurs territoriaux, etc.",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la première inclusion",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre d’actes moyen par année",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre de patients moyen par année",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Acte(s) de télésanté",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type(s) d'acte de télésanté",
+        "description": "Choix muliple ",
+        "required": true,
+        "options": [
+          "Téléconsultation",
+          "Téléexpertise",
+          "Télésurveillance",
+          "Téléassistance",
+          "Régulation Médicale (UMT, SAMU...)",
+          "Télésoin"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Discipline(s) médicale(s) dans le cadre d’un acte de télémédecine",
+        "description": "",
+        "required": true,
+        "options": [
+          "Anatomie et cytologie pathologiques",
+          "Anesthésie-réanimation",
+          "Biologie médicale (médecin)",
+          "Cardiologie et maladies vasculaires",
+          "Chirurgie générale",
+          "Chirurgie infantile",
+          "Chirurgie maxillo-faciale et stomatologie",
+          "Chirurgie orale",
+          "Chirurgie orthopédique et traumatologie",
+          "Chirurgie plastique, reconstructrice et esthétique",
+          "Chirurgie thoracique et cardio-vasculaire",
+          "Chirurgie urologique",
+          "Chirurgie vasculaire",
+          "Chirurgie viscérale et digestive",
+          "Dermatologie et vénéréologie",
+          "Endocrinologie et métabolisme",
+          "Gastro-entérologie et hépatologie",
+          "Génétique médicale",
+          "Gériatrie",
+          "Gynécologie médicale",
+          "Gynécologie obstétrique",
+          "Hématologie",
+          "Médecine du travail",
+          "Médecine générale",
+          "Médecine interne",
+          "Médecine nucléaire",
+          "Médecine physique et de réadaptation",
+          "Néphrologie",
+          "Neurochirurgie",
+          "Neurologie",
+          "Odontologie",
+          "Oncologie",
+          "Ophtalmologie",
+          "ORL et chirurgie cervico-faciale",
+          "Orthopédie dento-faciale",
+          "Pédiatrie",
+          "Pneumologie",
+          "Psychiatrie",
+          "Radiodiagnostic et imagerie médicale",
+          "Réanimation médicale",
+          "Rhumatologie",
+          "Sage-femme",
+          "Santé publique et médecine sociale"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Discipline(s) paramédicale(s) dans le cadre d’un acte de télésoin",
+        "description": "Choix multiple possible",
+        "required": true,
+        "options": [
+          "Appareillage facial : épithèsiste",
+          "Appareillage facial : oculariste",
+          "Appareillage orthopédique : orthopédistes-orthésiste",
+          "Appareillage orthopédique : orthoprothésiste",
+          "Appareillage orthopédique : podo-orthésiste",
+          "Audioprothésie",
+          "Diététique",
+          "Ergothérapie",
+          "Kinésithérapie",
+          "Manipulation en électroradiologie",
+          "Optique-lunetterie",
+          "Orthophonie",
+          "Orthoptie",
+          "Pédicurie-podologie",
+          "Pharmacie",
+          "Psychomotricité"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Population(s) et territoire(s) de prise en charge",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Population(s) cible(s)",
+        "description": "",
+        "required": true,
+        "options": [
+          "Personnes Agées (PA)",
+          "Personnes en situation de Handicap (PH)",
+          "Personnes atteintes de maladies chroniques",
+          "Population en zones sous dense",
+          "Détenus"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Assistance lors d'une téléconsultation ?",
+        "description": "La téléconsultation assistée, en plein développement en France, permet à des professionnels de santé tels que des infirmières ou des pharmaciens d'accompagner les patients lors de consultations vidéo, surmontant ainsi les barrières d'accès aux soins.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, par qui ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Lieu(x) de prise en charge du patient",
+        "description": "",
+        "required": true,
+        "options": [
+          "Etablissements sociaux et médico-sociaux (EHPAD, FAM ,MAS...)",
+          "Services de soins infirmiers à domicile, service autonomie à domicile (SSIAD , SPASAD...)",
+          "Etablissements de santé (Hôpitaux, cliniques…)",
+          "Domicile (patient autonome)",
+          "Structures d’exercice collectif (CDS , MSP..)",
+          "Structures libérales (IDEL , pharmaciens, médecins)",
+          "Unité sanitaire en milieu pénitentiaire",
+          "Etablissements publics hors secteur sanitaire et médico-social"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Territoire(s) de provenance des patients",
+        "description": "",
+        "required": true,
+        "options": [
+          "75",
+          "77",
+          "78",
+          "91",
+          "92",
+          "93",
+          "94",
+          "95"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Ressources médicales et paramédicales mobilisées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Professionnel requis (le téléconsultant ou expert) qui réalise l’acte médical et structures de rattachement",
+        "description": "",
+        "required": true,
+        "options": [
+          "Soignant d'une CPTS",
+          "Soignant d'une maison ou d'un centre de santé",
+          "Soignant d'un établissement sanitaire, social ou médico-social",
+          "Pool de soignants (société commerciale)",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le nom de la CPTS de rattachement du requis",
+        "description": "En cas de structures multiples de la même catégorie les nommer toutes",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Préciser l'adresse de la CPTS de rattachement du requis",
+        "description": "En cas de structures multiples de la même catégorie donner les adresses (ex : 1 Avenue des Champs-Élysées 75008 Paris) séparées d'un \" ; \"",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le nom de la maison ou du centre de santé de rattachement du requis",
+        "description": "En cas de structures multiples de la même catégorie les nommer toutes",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Préciser l'adresse de la maison ou du centre de santé de rattachement du requis",
+        "description": "En cas de structures multiples de la même catégorie donner les adresses (ex : 1 Avenue des Champs-Élysées 75008 Paris) séparées d'un \" ; \"",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le nom de l'établissement de rattachement du requis",
+        "description": "En cas de structures multiples de la même catégorie les nommer toutes",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Préciser l'adresse de l'établissement de rattachement du requis",
+        "description": "En cas de structures multiples de la même catégorie donner les adresses (ex : 1 Avenue des Champs-Élysées 75008 Paris) séparées d'un \" ; \"",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le nom de la société commerciale de rattachement du requis",
+        "description": "En cas de structures multiples de la même catégorie les nommer toutes",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le nom de la structure de rattachement du requis",
+        "description": "En cas de structures multiples de la même catégorie les nommer toutes",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "En préciser l'adresse",
+        "description": "En cas de structures multiples de la même catégorie donner les adresses (ex : 1 Avenue des Champs-Élysées 75008 Paris) séparées d'un \" ; \"",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Professionnel requérant (le demandeur) qui sollicite l'avis d'un confrère et structures de rattachement",
+        "description": "",
+        "required": true,
+        "options": [
+          "Soignant d'une CPTS",
+          "Soignant d'une maison ou d'un centre de santé",
+          "Soignant d'un établissement sanitaire, social ou médico-social",
+          "DAC",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le nom de la CPTS de rattachement du requérant",
+        "description": "En cas de structures multiples de la même catégorie les nommer toutes",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Préciser l'adresse de la CPTS de rattachement du requérant",
+        "description": "En cas de structures multiples de la même catégorie donner les adresses (ex : 1 Avenue des Champs-Élysées 75008 Paris) séparées d'un \" ; \"",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le nom de la maison ou du centre de santé de rattachement du requérant",
+        "description": "En cas de structures multiples de la même catégorie les nommer toutes",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Préciser l'adresse de la maison ou du centre de santé de rattachement du requérant",
+        "description": "En cas de structures multiples de la même catégorie donner les adresses (ex : 1 Avenue des Champs-Élysées 75008 Paris) séparées d'un \" ; \"",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le nom de l'établissement de rattachement du requérant",
+        "description": "En cas de structures multiples de la même catégorie les nommer toutes",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Préciser l'adresse de l'établissement de rattachement du requérant",
+        "description": "En cas de structures multiples de la même catégorie donner les adresses (ex : 1 Avenue des Champs-Élysées 75008 Paris) séparées d'un \" ; \"",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le nom du DAC",
+        "description": "En cas de structures multiples de la même catégorie les nommer toutes",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Préciser l'adresse du DAC",
+        "description": "En cas de structures multiples de la même catégorie donner les adresses (ex : 1 Avenue des Champs-Élysées 75008 Paris) séparées d'un \" ; \"",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser le nom de la structure de rattachement du requérant",
+        "description": "En cas de structures multiples de la même catégorie les nommer toutes",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "En préciser l'adresse",
+        "description": "En cas de structures multiples de la même catégorie donner les adresses (ex : 1 Avenue des Champs-Élysées 75008 Paris) séparées d'un \" ; \"",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Type de financement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le projet a-t-il bénéficié d'un financement spécifique ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, préciser",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Coordonnées du contact institutionnel (email/n° téléphone)",
+        "description": "ARS/DD, CDP Télésanté, CDP e-parcours, Autre, Aucun suivi institutionnel",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Solution(s) numérique(s) utilisée(s)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "DMN/Logiciel(s) télésanté",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Objet(s) connecté(s)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si oui, préciser",
+        "description": "",
+        "required": true,
+        "options": [
+          "Caméra",
+          "Dermatoscope",
+          "Échographe",
+          "Électrocardiogramme (ECG)",
+          "Glucomètre",
+          "Otoscope",
+          "Outils de test auditif",
+          "Outils de test visuel",
+          "Oxymètre",
+          "Sonde doppler",
+          "Spiromètre",
+          "Stéthoscope",
+          "Tensiomètre",
+          "Lecteur de carte vitale /Terminal de paiement",
+          "Autres"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si autre, préciser",
+        "description": "Merci de préciser les outils et non le contenant (mallette, sac à dos, etc.)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pour aller plus loin",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lien(s) utile(s)",
+        "description": "Merci de fournir le lien pour la prise de rendez-vous",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

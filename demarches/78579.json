@@ -1,0 +1,99 @@
+{
+  "number": 78579,
+  "title": "Restriction quota irrigation du 15 juillet 2023 - Relevé de compteurs Irrigation",
+  "description": "Considérant la situation d'alerte renforcée sur le secteur aubois N°6 dit «Vanne amont» et la situation d'alerte sur le secteur N°5 dit «Affluents crayeux Aube et Seine», des mesures de restriction des usages agricoles de l’eau sont applicables sur ce dernier par l'arrêté préfectoral n°DDT/SEB/PREMA-2023194-0001 du 13 juillet 2023.\r\n \r\nEn conséquence, la limitation porte sur une restriction de :\r\n\r\n- 15 % du quota restant à prélever sur le secteur N°6 dit «Vanne amont»\r\n- 30 % du quota restant à prélever sur le secteur N°5 dit «Affluents crayeux Aube et Seine»\r\n\r\nJe vous demande de bien vouloir me faire parvenir sous 8 jours, conformément à l’arrêté susvisé, l’index de votre compteur relevé au plus près du 15 juillet 2023 ainsi que le détail de leurs consommations depuis le démarrage de la campagne d’irrigation 2023.\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire",
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2023-07-13T13:00:22+02:00",
+  "service": {
+    "nom": "Direction Départementale des Territoires de l'Aube",
+    "organisme": "DDT 10 / Service Eau et Biodiversité",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/restriction-vanneaffluent-130723",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.aube.gouv.fr/Politiques-publiques/Environnement/Eau/Ressource-en-eau/Secheresse",
+  "cadreJuridiqueUrl": "https://www.aube.gouv.fr/Politiques-publiques/Environnement/Eau/Ressource-en-eau/SecheresseA%202022151%200003%20du%2031%2005%2022_%20Secheresse_signe.pdf",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 13,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "IMPORTANT",
+        "description": "Votre déclaration est à transmettre avant le 22 juillet 2023 à la DDT 10. \r\nUn accusé de réception automatique vous sera adressé après validation.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° pacage",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Ouvrage de prélèvement",
+        "description": "Chaque compteur relié à l'ouvrage doit être décrit : Le compteur principal et les compteurs secondaires",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "N° du Point prélèvement",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Taux répartition",
+            "description": "Pour un point de prélèvement principal uniquement, le taux répartition est de 100.\nSi plusieurs points de prélèvement,  indiquez pour chaque point de prélèvement le taux de répartition approximatif.",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro compteur",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Index compteur",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Volume d'eau consommé concerné par la restriction",
+            "description": "Veuillez indiquer le quota consommé impacté jusqu'à la restriction",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Volume d'eau consommé non concerné par la restriction",
+            "description": "Veuillez indiquer le quota consommé non impacté par la restriction (Si le champ \"justification hors restriction\" est indiqué \"Néant\", veuillez mettre 0 dans ce champ).",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Justificatif hors restriction",
+            "description": "OBLIGATOIRE : Si une consommation est hors restriction, veuillez indiquer le point de prélèvement utilisé pour justifier le volume consommé hors restriction. Au cas contraire, veuillez indiquer Néant.\r\nRAPPEL : Si ce champ est \"Néant\" veuillez mettre 0 dans le champ \"Volume d'eau consommé non concerné par la restriction\".",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Détail des consommations depuis le démarrage de la campagne",
+            "description": "",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

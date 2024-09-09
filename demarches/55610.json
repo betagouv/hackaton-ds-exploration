@@ -1,0 +1,592 @@
+{
+  "number": 55610,
+  "title": "Bilan 2021 des unités de méthanisation en injection en Pays de la Loire",
+  "description": "Cette démarche s'adresse aux bénéficiaires du tarif d'achat du biométhane injecté dans les réseaux de gaz naturel. Elle permet de répondre à l'obligation réglementaire d'établir un bilan annuel de fonctionnement. Elle participe également à l'amélioration de la connaissance de la filière. Les informations demandées concernent 2021.",
+  "tags": [
+    "Chasse",
+    "Environnement",
+    "Animaux",
+    "Tirs"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2022-03-18T18:45:51+01:00",
+  "service": {
+    "nom": "Mission énergie et changement climatique",
+    "organisme": "DREAL Pays de la Loire",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/pays-de-la-loire-bilan-2021-biogaz-injection",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.pays-de-la-loire.developpement-durable.gouv.fr/air-climat-et-energie-r189.html",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000024833895",
+  "logo": null,
+  "notice": {
+    "filename": "2022_NoticeVFF.pdf",
+    "checksum": "8OwpzduicWyJKeNr9UajQw==",
+    "byteSize": "372455",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 25,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "OUI J'ai lu et j'accepte la notice explicative",
+        "description": "Vous êtes invité(e) à prendre connaissance de la notice explicative jointe au courriel d'envoi  du questionnaire et consultable sur la présente plateforme: clic sur \"guide de la démarche\" en haut de page.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Le Producteur (référent à contacter)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM",
+        "description": "Merci de renseigner les coordonnées du référent à contacter pour votre installation de méthanisation",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "PRENOM",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email 1",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "L'installation de production",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Indiquer l'adresse de l'installation de production ",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Département et commune",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de mise en service de l'installation",
+        "description": "Indiquer la date de 1ère livraison de biométhane au réseau (et non pas la date du 1er remplissage du digesteur).\n",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de valorisation en 2021",
+        "description": "Vous pouvez sélectionner plusieurs choix dans la liste;  Exemple 1 :cogénération et injection si vous avez fonctionné une partie de l'année en cogénération et une autre partie de l'année en injection. Exemple 2: mixte si votre installation fonctionne en mixte (cogénération et injection). ATTENTION : le présent questionnaire est prévu pour l'INJECTION, se reporter au questionnaire \"cogénération\" pour votre fonctionnement en cogénération.",
+        "required": true,
+        "options": [
+          "injection",
+          "cogénération",
+          "mixte (cogénération et injection)"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précisez le type de valorisation du biogaz",
+        "description": "Préciser le type de valorisation (Exemple : le biométhane alimente une station de bioGNV (gaz naturel véhicule), biométhane porté, etc...) et si vous injectez dans le réseau de distribution ou de transport.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mode de fonctionnement",
+        "description": "",
+        "required": true,
+        "options": [
+          "voix solide",
+          "infiniment mélangé"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Disposez vous d’un équipement d'hygiénisation ?",
+        "description": "Si oui, hygiénisez vous tout le mélange d'intrants ou seulement certains sous-produits ?",
+        "required": true,
+        "options": [
+          "non, pas d'hygiénisation",
+          "oui, tout le mélange d'intrants",
+          "oui, certains sous-produits"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si vous hygiénisez certains sous-produits, merci de les énumérer",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Régime ICPE de l'installation de méthanisation",
+        "description": " Indiquer la(s) rubrique(s) et le régime ICPE de l’installation de méthanisation (2781) ou  de stockage de déchets non dangereux (2760) du récépissé de déclaration (preuve de dépôt) ou de l’arrêté d’enregistrement ou de l’arrêté d’autorisation.\nPour les STEP, sélectionner \"STEP\".",
+        "required": true,
+        "options": [
+          "2781-1-Déclaration",
+          "2781-1-Enregistrement",
+          "2781-1-Autorisation",
+          "2781-2-Enregistrement",
+          "2781-2-Autorisation",
+          "2760-2- Autorisation",
+          "2760-2- Enregistrement",
+          "STEP"
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du dernier contrôle périodique ICPE par un organisme agréé ou de la dernière inspection ICPE",
+        "description": "En fonction du régime ICPE, les installations de méthanisation sont soumises à la réalisation, par un organisme agréé, d'un contrôle périodique ICPE, ou à des inspections réalisées par les services de l'Etat en charge de l'inspection des ICPE (DDPP ou DREAL) : indiquer la date (jj/mm/aaaa) du dernier contrôle périodique ICPE réalisé par un organisme agréé ou de la dernière inspection ICPE.\nSi l'installation est trop récente indiquer: 01/01/1800",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "L'achat du biométhane produit",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de signature du contrat d'achat de biométhane",
+        "description": "(jj/mm/aaaa) ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Acheteur (raison sociale et adresse du siège)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du dernier avenant au contrat d'achat du biométhane",
+        "description": "Date à indiquer sous le format jj/mm/aaaa\nSi pas d'avenant, indiquer: 01/01/1800",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "La production d'énergie",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Période du bilan : du 1er janvier au 31 décembre 2021",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Cmax: Capacité maximale de production de biométhane (en Nm3/h)",
+        "description": "Capacité maximale de production fixée dans le contrat d'achat en cours au 31 décembre 2021 (Cmax en Nm3/h).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Si vous avez modifié la Cmax en 2021, indiquer la précédente Cmax (Nm3/h)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Si vous avez modifié la Cmax en 2021, indiquer le mois de la modification",
+        "description": "Exemple : \n1 pour janvier, 6 pour juin ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "4.1. PRODUCTION DE BIOGAZ",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Présence d'un dispositif de mesure du biogaz produit (en Nm3) ?",
+        "description": "Votre installation a t elle un(des) débitmètre(s) mesurant la quantité de biogaz produit ? ",
+        "required": true,
+        "options": [
+          "non, pas de débitmètre mesurant le biogaz produit",
+          "oui, 1 débitmètre en sortie digesteur(s)",
+          "oui, 1 débitmètre en entrée épurateur",
+          "oui, 2 débitmètres : 1 en sortie digesteur(s) et 1 entrée épurateur(s)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Pouvez vous expliquer ?",
+        "description": "Pouvez vous expliquer si la quantité mesurée au débitmètre inclut le biogaz torchée et/ou le biogaz autoconsommée (pour le chauffage digesteur(s) par exemple) ?\n\n",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Quantité de biogaz produit (en m3)",
+        "description": "Indiquer la quantité annuelle de biogaz produit : quantité mesurée à l'aide d'un débitmètre ou quantité estimée si vous ne disposez pas de débitmètre",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Taux de CH4 dans le biogaz (%)",
+        "description": "Indiquer le % annuel moyen de CH4 contenu dans le biogaz produit sur la période du bilan",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Quantité annuelle de biogaz traité par le système d'épuration (en Nm3)",
+        "description": "Quantité de biogaz dirigé vers le système d'épuration pour être traité sur la période du bilan (en Nm3)",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "4.2. INJECTION de BIOMETHANE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Quantité annuelle de biométhane injecté sur le réseau de gaz (en Nm3)",
+        "description": "Quantité sur la période du bilan",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Energie annuelle injectée sur le réseau de gaz (en KWh PCS et pas en MWh PCS !)",
+        "description": "Quantité d'énergie du biométhane injecté sur la période du bilan",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Pouvoir calorifique supérieur (PCS) du biométhane injecté (en  kWh/Nm3)",
+        "description": "Moyenne annuelle du PCS du biométhane injecté sur la période du bilan (en  kWh/Nm3)",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'heures d'injection sur la période du bilan",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Quantité de biométhane injectée sur le réseau par mois",
+        "description": "Compléter le tableau mensuel proposé en Pièce jointe sur la période définie ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Addition de butane et/ou propane lors de l'injection du biométhane dans le réseau ?",
+        "description": "Préciser si du butane et/ou propane est/sont ajouté(s) lors de l’injection du biométhane dans les réseaux de gaz naturel, qui serai(en)t rendu(s) nécessaire(s) par le respect des prescriptions techniques des gestionnaires de réseaux",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "4.3. CONSOMMATIONS d'ENERGIE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Mode de chauffage du digesteur",
+        "description": "Préciser le(s) mode(s) de chauffage du digesteur\nExemples :\nChaudière utilisant du BioGAZ autoconsommé avant épuration\nChaudière utilisant des Off-gaz / gaz pauvres issus de l'épuration\nChaudière au BioMETHANE autoconsommé après épuration\nChaleur fatale récupérée d'un industriel\nChaleur fatale récupérée des compresseurs\nAutre (à expliquer)\n",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez vous un débitmètre de biogaz / biométhane / off gaz autoconsommé ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Quantité annuelle biogaz autoconsommée (en m3) ?",
+        "description": "Indiquer la quantité annuelle de biogaz autoconsommée (par exemple pour le chauffage du digesteur). \nIndiquer 0 si pas d'autoconsommation de biogaz.\nIndiquer 999 si pas connu (pas de débitmètre par exemple).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Quantité annuelle de biomethane autoconsommée (en m3) ?",
+        "description": "Indiquer la quantité annuelle de biométhane autoconsommée (par exemple pour le chauffage du digesteur). \nIndiquer 0 si pas d'autoconsommation.\nIndiquer 999 si pas connu (pas de débitmètre par exemple).\n",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Consommation électrique de l'installation pour le process de méthanisation sur la période (en kWh)",
+        "description": "Il s'agit de l'énergie consommée par les pompes,brasseurs,broyeurs, trémies...\nATTENTION : Indiquez cette information si vous avez un compteur électrique dédié sur la méthanisation sinon indiquer 0.",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Consommation électrique du système d'épuration et le cas échéant de traitement des évents (en kWh)",
+        "description": "Le système d'épuration comprend les unités fonctionnelles de désulfuration, décarbonation, et séchage du biogaz (cf annexe I de l'arrêté du 23/11/2011 fixant les conditions d'achat du biométhane injecté dans les réseaux de gaz naturel). ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Disposez vous d'un compteur spécifique permettant de mesurer la consommation électrique du système d'épuration et le cas échéant de traitement des évents ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "4.4. BIOGAZ TORCHé",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Avez-vous une torchère ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui, une torchère automatique",
+          "Oui, une torchère manuelle",
+          "Non, pas de torchère"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Avez vous un débitmètre pour mesurer le biogaz réellement torché ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui, j'ai un débitmètre pour mesurer le biogaz torché ",
+          "Non, je n'ai pas de débitmètre pour mesurer le biogaz torché ",
+          "Non, je n'ai pas de torchère"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Débit de la torchère ?",
+        "description": "Indiquer le débit maximal de la torchère en m³/h.\nATTENTION : Si vous n'avez pas cette information, indiquer  : 999",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'heures de fonctionnement de la torchère ?",
+        "description": "Indiquer le temps de fonctionnement de la torchère pendant la période du bilan (en heures).\nATTENTION: \nSi vous n'avez pas cette information, indiquer : 999\nSi vous n'avez pas torché, indiquer 0",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Volume de biogaz torché (en m³) ?",
+        "description": "Soit lue sur le débitmètre,\nSoit calculée = débit x nombre d'heures de fonctionnement de la torchère,\nSoit estimée.\nATTENTION : \nSi vous n'avez pas cette information, indiquer  : 999\nSi vous n'avez pas torché, indiquer 0",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "4.5. VOS COMMENTAIRES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire sur le fonctionnement de l'installation pendant la période",
+        "description": "Préciser en quelques mots le fonctionnement général de l'installation de méthanisation sur la période du bilan, les éventuels dysfonctionnements (panne, accident, pollution, autre...) et les évolutions de votre installation.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Quel est le nombre de jours cumulés avec arrêt total d'injection pour cause de dysfonctionnement ou panne ou maintenance en 2021 ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Les intrants alimentant l'installation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration de tous les intrants alimentant votre installation",
+        "description": "Merci d'utiliser le modèle de fichier à télécharger, un autre format ne sera pas accepté.\nY compléter les cases grisées pour TOUS les intrants ayant alimenté votre installation en 2021 (dont les tonnages de matières brutes) selon les familles et catégories du fichier.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire intrants",
+        "description": "Exemple : précisions sur la nature et l'origine d'un intrant que vous avez eu des difficultés à classer dans une des familles ou catégories du fichier.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Y a t il des modifications par rapport à l'année précédente ?",
+        "description": "Dans le cas où il y a  des modifications par rapport à l'année précédente sur la nature des intrants et/ou, pour les sous-produits animaux, sur l'origine des élevages : répondre oui et expliquer.\nSinon, répondre non.",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Origine géographique des intrants",
+        "description": "Nommer les départements d’origine de production des substrats alimentant l’installation  (plusieurs réponses possible)",
+        "required": true,
+        "options": [
+          "44",
+          "49",
+          "53",
+          "72",
+          "85",
+          "Hors Pays de la Loire"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Disposez-vous d'un agrément sanitaire ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "oui",
+          "non",
+          "en cours de demande",
+          "agrément provisoire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Les données agricoles",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Irrigation des cultures alimentant le méthaniseur ?",
+        "description": "Les cultures alimentant l'installation de méthanisation sont elles irriguées (cultures énergétiques et CIVE) ?",
+        "required": true,
+        "options": [
+          "oui toutes",
+          "oui en partie",
+          "non aucune",
+          "pas de culture alimentant le methaniseur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Quel est le rendement moyen approximatif de vos CIVE d'hiver (récoltées au 1er semestre) en tMS/Ha?",
+        "description": "Indiquer 0 si vous n'utilisez pas de CIVE d'hiver",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Quel est le rendement moyen approximatif de vos CIVE d'été (récoltées au 2e semestre) en tMS/Ha?",
+        "description": "Indiquer 0 si vous n'utilisez pas de CIVE d'été",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Les digestats",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Quantité de digestat produit en tonnes de matières brutes",
+        "description": "Préciser la quantité totale de digestat brute produite (liquide et solide) sur la période du bilan",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "SAU totale des terres du plan d'épandage (Ha)",
+        "description": "Indiquer la surface en hectares des terres du plan d'épandage.\nIndiquer 0 si pas de plan d'épandage.",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Mode de valorisation du digestat",
+        "description": "Préciser sous quelle forme est traité  le digestat : épandu brut, séparation de phase, traité par compostage, épandu selon critères du cahier des charges  DIGAGRI, autre...",
+        "required": true,
+        "options": [
+          "épandu brut",
+          "séparation de phase",
+          "traité par compostage",
+          "épandu selon critères cahier des charges  DIGAGRI ",
+          "autre"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Fertilisation des CIVE  que vous utilisez ?",
+        "description": "Si vous utilisez des CIVE, part des CIVE fertilisées par rapport à la surface totale de CIVE utilisées  (dont % avec de l'engrais minéral) ?\nIndiquer 999 si pas connue.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Une partie du digestat est elle exportée à plus de 50 km de l'unité de méthanisation ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Si oui, quel taux approximatif ? (en %)",
+        "description": "Préciser le pourcentage approximatif de la part du digestat exportée à plus de 50 km de l'unité de méthanisation (% des tonnes matières brut de digestat)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Géolocalisation de l’installation de production (obligatoire si mise en service en 2021)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Cette partie concerne exclusivement les installations mises en service en 2021",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Emplacement géographique du méthaniseur",
+        "description": "- Indiquer votre adresse dans le pavé « recherchez une adresse saisissez au moins 2 caractères »\n- La carte zoome alors automatiquement vers votre adresse (ce qui prend quelques secondes)\n- Vous pouvez zoomer plus ou moins avec les fonctions + et - à droite de la carte pour situer l'emplacement de votre méthaniseur \n- Clic sur le symbole pointeur \"ajouter un point\" en haut à gauche de la carte\n- Clic sur la carte à l'emplacement de votre méthaniseur\n- Les coordonnées de l'emplacement pointé s'affichent en bleu sous la carte \"Sélections utilisateur\" \n- Copier coller ces coordonnées en bleu et les reporter dans le pavé \"Copier coller les coordonnées\", par exemple 1°32'25\"S 47°12'30\"E",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Copier coller les coordonnées",
+        "description": "Copier coller ci-dessous les coordonnées de l'emplacement pointé qui s'affichent en bleu sous la carte \"Sélections utilisateur\"",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "N'hésitez pas à vous exprimer ...",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Votre avis",
+        "description": "Quels seraient vos besoins pour faciliter / améliorer cette activité ou la filière (formation, accompagnement, informations techniques, réglementaires, etc.) ?\nQuels effets bénéfiques voyez vous à votre activité de méthanisation ? \nMERCI DE VOTRE COLLABORATION",
+        "required": false
+      }
+    ]
+  }
+}

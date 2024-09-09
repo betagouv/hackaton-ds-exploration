@@ -1,0 +1,108 @@
+{
+  "number": 36874,
+  "title": "Justificatif de déplacement professionnel #COVID 19",
+  "description": "Cette application permet d'envoyer à votre employeur une demande de justificatif professionnel conforme aux exigences règlementaires.\r\nDepuis la fin de l'année 2020, des mesures de couvre-feu sont en vigueur. L'attestation obtenue vous permettra d'y déroger de manière exceptionnelle, pour des raisons professionnelles.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2020-11-27T12:58:02+01:00",
+  "service": {
+    "nom": "Le pôle ressources humaines [GIP FCIP]",
+    "organisme": "GIP FCIP EXPERIENCE",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/justificatif-de-deplacement-professionnel-covid-19",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "ac-nantes.fr",
+  "cadreJuridiqueUrl": "https://www.gouvernement.fr/info-coronavirus",
+  "logo": {
+    "filename": "Capture.PNG",
+    "checksum": "1V1ccgATHGqqfkTGtzIB5w==",
+    "byteSize": "840",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Contexte",
+        "description": "Le 24 novembre 2020, le président de la République a décidé d'adapter les mesures permettant de réduire à leur plus strict minimum les contacts et déplacements sur l’ensemble du territoire métropolitain et en Martinique (confinement). Le Gouvernement en a précisé les contours le 29 octobre 2020.\n\nCette procédure va permettre à votre service RH de vous délivrer une attestation dérogatoire pour \"déplacements impérieux\" conforme au modèle règlementaire et valable jusqu'au 15 décembre 2020.\n\nLe télétravail est obligatoire à 100 % partout où il est possible. \n\nLa présente collecte des données est effectuée avec la seule finalité de délivrance de l'attestation.\nLes données sont à destination du seul service RH du groupement d'intérêt public.\n\nVous possédez du droit d'accès, de rectification et tous les droits connexes prévus notamment par la Loi de 1978 \"CNIL\" et le RGPD 2014.\n\nPour toute question : dafpic.grh@ac-nantes.fr",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Votre date de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Votre commune de naissance (FRANCE)",
+        "description": "Indiquez votre commune de naissance, si vous êtes né en France.\nSi vous êtes né à l'étranger, précisez la commune et le pays dans le champ suivant.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si né à l'étranger : Précisez commune et pays de naissance",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "L'adresse de votre domicile",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "La nature de votre activité professionnelle",
+        "description": "Merci de sélectionner les deux niveaux de menus",
+        "required": true,
+        "options": [
+          "--Activités non télétravaillables liées à un organisme de formation--",
+          "GRETA & CFA de l'académie de NANTES",
+          "GIP FCIP EXPERIENCE",
+          "--Activités non télétravaillables liées à l'insertion des jeunes--",
+          "MLDS",
+          "MAST",
+          "Autres",
+          "--Activités administratives indispensables--",
+          "GRETA & CFA de l'académie de NANTES",
+          "GIP FCIP EXPERIENCE",
+          "--Autres--",
+          "Autres"
+        ]
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune d'exercice de l'activité professionnelle",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Cochez cette case si votre activité est itinérante",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Moyens déplacement",
+        "description": null,
+        "required": true,
+        "options": [
+          "Piéton & Vélos",
+          "Transports en commun (train, bus, etc..)",
+          "Véhicule individuel"
+        ]
+      }
+    ]
+  }
+}

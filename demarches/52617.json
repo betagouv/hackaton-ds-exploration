@@ -1,0 +1,202 @@
+{
+  "number": 52617,
+  "title": "Livraison 2022",
+  "description": "Formulaire à transmettre à la DDETSPP par le professionnel Corse au minimum 24 H avant l'envoi des végétaux en Corse. Y joindre les bulletins de livraison ou les factures.\r\n\r\nRAPPEL : Lors de chaque livraison, le transporteur devra disposer des  documents ci -après qui devront être conservés par le client final, notamment en cas de contrôle de traçabilité sur site  :\r\n- Attestation correspondant à la demande de dérogation annuelle de votre client,\r\n- Bon de livraison ou facture\r\n- Attestation de désinsectisation renseignée par votre fournisseur\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2022-01-05T09:27:30+01:00",
+  "service": {
+    "nom": "Service vétérinaire et phytosanitaire ",
+    "organisme": "Direction départementale de l'emploi, du travail, des solidarités et de la protection des populations ",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/livraison-2022",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "DDETSPP 2A",
+  "cadreJuridiqueUrl": "http://draaf.corse.agriculture.gouv.fr/Reglementation-Arretes",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 13,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PARTIE A : demandeur (professionnel Corse)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Numéro de la dérogation annuelle",
+        "description": "Vous trouverez ce numéro sur la demande de dérogation annuelle pour laquelle un accord vous a été transmis (6 chiffres)",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m'engage à présenter les attestations de désinsectisation accompagnant chaque livraison aux inspecteurs de la DDETSPP lors de chaque contrôle",
+        "description": " ",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m'engage à demander à chaque fournisseur de désinsectiser les plants sensibles à Xylella avant leur introduction en Corse et de remettre l'attestation de désinsectisation au transporteur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Partie B : Fournisseurs",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Identification du fournisseur",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Raison sociale",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Partie C : pièces justificatives",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Factures",
+        "description": "Si vous souhaitez nous faire parvenir plusieurs  pièces justificatives, cliquez sur : ajouter une ligne pour \"Pièces justificatives\" autant de fois que de pièces à nous transmettre",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièces justificatives",
+            "description": "Joindre le bon de livraison  ou la facture",
+            "required": true
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Je m'engage à transmettre AVANT CHAQUE LIVRAISON des plants concernés par la dérogation annuelle, les éléments suivants :",
+            "description": "- le bon de livraison, comportant pour chaque espèce les éléments de traçabilité permettant de localiser le lieu de production initiale (facture producteur initial ou attestation de ce dernier),\n- le port, la date et l'heure d'arrivée du bateau, \n- la compagnie maritime \n- le nom du navire,   \n- l'immatriculation du ou des véhicule(s),\n- l'attestation de désinsectisation.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Partie D : informations de transport",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Port d'arrivée",
+        "description": null,
+        "required": true,
+        "options": [
+          "--Corse-du-Sud--",
+          "AJACCIO",
+          "--Haute-Corse--",
+          "BASTIA"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Arrivée : Port ou Aéroport / Compagnie et Navire",
+        "description": "",
+        "required": true,
+        "options": [
+          "--AJACCIO PORT--",
+          "Corsica Ferries - Mega Andrea",
+          "Corsica Ferries Mega Express 2",
+          "Corsica Ferries - Mega Express 3",
+          "Corsica Ferries - Mega Express 4",
+          "Corsica Ferries - Mega Express 5",
+          "Corsica Ferries - Pascal Lota",
+          "Corsica Ferries - Mega Smeralda",
+          "Corsica Linéa - Paglia Orba",
+          "La Méridionale - Giraglia",
+          "La Méridionale - Girolata",
+          "La Méridionale - Kalliste",
+          "Autre",
+          "--AJACCIO AEROPORT--",
+          "Air Corsica",
+          "Air France",
+          "--BASTIA PORT--",
+          "Corsica Ferries - Corsica Victoria",
+          "Corsica Ferries - Mega Andrea",
+          "Corsica Ferries - Mega Express 2",
+          "Corsica Ferries - Mega Express 4",
+          "Corsica Ferries - Mega Express 5",
+          "Corsica Ferries -Pascal Lota",
+          "Corsica Ferries - Sardinia Regina",
+          "Corsica Ferries - Sardinia Vera",
+          "Corsica Ferries - Sardinia Virgina",
+          "Corsica Linéa - Nicoli",
+          "Corsica Linéa - Paglia Orba",
+          "Corsica Linéa - Piana",
+          "Corsica Linéa - Paoli",
+          "La Méridionale - Le Kallisté",
+          "Moby - Zara",
+          "Autre",
+          "--BASTIA AEROPORT--",
+          "Air Corsica",
+          "Air France"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si autre :  Nom du navire et Compagnie",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'arrivée",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Heure d'arrivée",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Immatriculation des véhicules",
+        "description": "Cliquez sur ajouter une ligne pour  \"immatriculation des véhicules\" dans le cas de l'arrivée de plusieurs véhicules transportant les végétaux ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Immatriculation du camion",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Immatriculation de la remorque",
+            "description": null,
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

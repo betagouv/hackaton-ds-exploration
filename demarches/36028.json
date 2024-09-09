@@ -1,0 +1,291 @@
+{
+  "number": 36028,
+  "title": "Formulaire guichet SNAP 2 AgentConnect FI (fournisseurs d'identités)",
+  "description": "Procédure dématérialisée de demande de subvention dans le cadre du guichet SNAP2 AgentConnect du plan de relance",
+  "tags": [
+    "Numérique"
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2022-09-09T14:21:44+02:00",
+  "service": {
+    "nom": "TECH.GOUV/IDNUM",
+    "organisme": "Direction interministérielle du numérique (DINUM)",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/formulaire-guichet-snap-2-agentconnect-fi-fourniss",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://france-relance.transformation.gouv.fr/953d-simplifier-lauthentification-des-agents-grace",
+  "cadreJuridiqueUrl": "Programme France Relance",
+  "logo": {
+    "filename": "logo nextgen FR.png",
+    "checksum": "gT6Um9O0l6VkiXDVI5ylsg==",
+    "byteSize": "70932",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 14,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Note à l'attention des porteurs de projet :",
+        "description": "Vous vous apprêtez à déposer un dossier de demande de subvention dans le cadre du fonds \"Sac à dos numérique de l’Agent Public\" et plus particulièrement du guichet SNAP2A dédié aux fournisseurs d'identités AgentConnect.\n\nPour être éligible à ce fonds, nous vous rappelons que : \n- Pour une administration centrale ou déconcentrée, ce projet doit être porté par la « direction du numérique » du ministère.\n- Pour un opérateur de l’État, la « direction du numérique » ministérielle doit être informée de cette candidature.\n\nPour devenir fournisseur d'identités d'AgentConnect, il est également important de satisfaire les prérequis techniques d'AgentConnect à savoir être en capacité de fournir les données de l'identité pivot et être OpenIDConnect compatible.",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "ENGAGEMENT DU DEMANDEUR",
+        "description": "Je certifie être dans l'un des deux cas suivants : \n- Je représente une administration centrale ou déconcentrée et ce projet est bien porté par la « direction du numérique » du ministère.\n- Je représente un opérateur de l’État et la « direction du numérique » ministérielle est bien informée de cette candidature.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTIFICATION DU DEMANDEUR",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Ministère",
+        "description": "Choisissez un ministère ou un ministère de tutelle dans le cas d'un opérateur de l'Etat",
+        "required": true,
+        "options": [
+          "Services du Premier Ministre",
+          "Ministère De l’Intérieur",
+          "Ministère De la Transition Écologique et Solidaire",
+          "Ministère De La Justice",
+          "Ministère Des Armées",
+          "Ministère De l’Europe et Des Affaires Étrangères",
+          "Ministère de la Cohésion des territoires et des Relations avec les collectivités territoriales",
+          "Ministère Des Solidarités et de la Santé",
+          "Ministère De la Culture",
+          "Ministère De l’Économie, des Finances et de la Relance",
+          "Ministère du Travail, de l'Emploi et de l'Insertion",
+          "Ministère de l'Education nationale, de la jeunesse et des sports",
+          "Ministère De l’Agriculture et de l’Alimentation",
+          "Ministère De l’Enseignement Supérieur, de la Recherche et de l’Innovation",
+          "Ministère Des Outre-Mer",
+          "Ministère De la Mer",
+          "Ministère de la Transformation et de la Fonction publiques"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Direction ou service d'affectation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Saisissez les dix chiffres de votre numéro de téléphone sans espace, ni point, ni tiret",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DESCRIPTION DU PROJET",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Titre du projet",
+        "description": "Saisissez un titre comme suit : \"FI_Nom du ministère en abréviation_10 caractères max\" \n(exemple : FI_MEFR_projet Alpha)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Descriptif du projet",
+        "description": "Décrivez votre projet en 5 à 30 lignes maximum (précisez le nombre d'identités fournies, le périmètre, l'organisation mise en place, les moyens alloués au projet, ...)",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de démarrage du développement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de mise en production",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Principaux jalons calendaires du projet",
+        "description": "Décrivez les dates clés de votre projet : lancement du développement, recette, mise en production, etc.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Ressources allouées au pilotage du projet",
+        "description": "Exprimez les ressources en équivalent temps plein (ETP)",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Ressources allouées au développement du projet",
+        "description": "Exprimez les ressources en équivalent temps plein (ETP)",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Coût prévisionnel total du projet",
+        "description": "Exprimez le montant en TTC",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant de la subvention demandée",
+        "description": "Exprimez le montant en TTC",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Répartition des coûts par poste",
+        "description": "Détaillez les coûts par poste (ex : pilotage du projet, développement, conduite du changement, parcours utilisateur, ...)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PRINCIPALES CARACTERISTIQUES DU PROJET",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Ce projet est-il lié à l’un des projets du panorama des 50 plus grands projets SI de l’Etat ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, lequel ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Ce projet concerne-t-il une démarche recensée dans l’observatoire des démarches numériques ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, laquelle ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous en capacité de fournir immédiatement les données pivot ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Si non, sous quel délai ?",
+        "description": "Exprimez le délai en nombre de mois",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous immédiatement OpenIDConnect compatible ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Si non, sous quel délai ?",
+        "description": "Exprimez le délai en nombre de mois",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Combien d'identités numériques sont concernées par votre projet ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Inférieur à 15 000 identités",
+          "Entre 15 000 et 50 000 identités",
+          "Entre 50 000 et 200 000 identités",
+          "Supérieur à 200 000 identités"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quel est le taux de disponibilité envisagé pour fournir vos données d'identité ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Faible : taux de disponibilité supérieur à 95 %",
+          "Significatif : taux de disponibilité supérieur à 98 %",
+          "Important : taux de disponibilité supérieur à 99 %",
+          "Critique : taux de disponibilité supérieur à 99,5 %"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "A quelle fréquence vos données d'identité sont-elles mises à jour ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Quotidiennement",
+          "Hebdomadairement",
+          "Mensuellement"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Comment déterminez-vous la qualité de vos données d'identité ?",
+        "description": "Indiquez tous les éléments utiles pour nous permettre d'évaluer la qualité de vos données d'identité (traitement des cas de doublons et d'homonymie, des changements de situation (changement de nom après un mariage ou un divorce), etc.)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DOCUMENTS A JOINDRE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document de présentation du projet",
+        "description": "Décrivez votre projet dans un support de  présentation synthétique (word, PPT, PDF, ...). Ce support devra a minima préciser : \n- le contexte et les objectifs du projet,\n- l'évaluation des coûts du projet,\n- les ressources allouées au projet,\n- le calendrier d'exécution.",
+        "required": true
+      }
+    ]
+  }
+}

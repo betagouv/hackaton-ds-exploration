@@ -1,0 +1,439 @@
+{
+  "number": 28825,
+  "title": "Tutelle des chambres consulaires - CCI/CCIR - CMA/CRMA - Institutionnelle, fonctionnement, divers   ",
+  "description": "Simplification et fluidification de la transmission des actes adoptés par les chambres consulaires (administratifs, financiers et budgétaires)",
+  "tags": [
+    "Chambre consulaire"
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2020-05-05T11:55:00+02:00",
+  "service": {
+    "nom": "SGAR Normandie",
+    "organisme": "Préfecture de la région Normandie",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/tutelle-des-chambres-consulaires-cci-ccir-cma-crma",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.prefectures-regions.gouv.fr/normandie/",
+  "cadreJuridiqueUrl": "https://www.entreprises.gouv.fr/secteurs-professionnels/chambres-consulaires",
+  "logo": null,
+  "notice": {
+    "filename": "note explicative Démarches Simplifiées.pdf",
+    "checksum": "K1z/rKhd5StPVxCp0d5Rdw==",
+    "byteSize": "131076",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 546,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom de la Chambre Consulaire",
+        "description": "Merci de bien vouloir indiquer le nom de la chambre consulaire",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de dépôt",
+        "description": "Votre demande concerne :\n- assemblée générale - bureau\n- délégations\n- élections\n- mouvements des élus - démissions (volontaire, d'office) \n- projet de création d'un groupement interconsulaire (GIC)\n- PLU, PLUI\n- ressources humaines\n- schéma directeur (CCIR uniquement)\n- schéma sectoriel et rapport \n- schéma sectoriel relatif à la formation, l'enseignement et l'emploi\n- DIVERS\n",
+        "required": false,
+        "options": [
+          "- assemblée générale - bureau",
+          "- délégations",
+          "- élections",
+          "- mouvements des élus - démissions (volontaire, d'office)",
+          "- projet de création d'un groupement interconsulaire (GIC)",
+          "- PLU, PLUI",
+          "- ressources humaines",
+          "- schéma directeur (CCIR uniquement)",
+          "- schéma sectoriel et rapport",
+          "- schéma sectoriel relatif à la formation, l'enseignement et l'emploi",
+          "- DIVERS"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ASSEMBLEE GENERALE - BUREAU",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "ASSEMBLEE GENERALE - BUREAU",
+        "description": "Si vous avez sélectionné dans la liste de choix : assemblée générale - bureau, merci de bien vouloir déposer les pièces suivantes selon le cas :\na - convocation à l'AG\nb - dossier support à la convocation \nc - délibération\nd - compte rendu d'AG\ne - compte rendu de bureau\nf - pièce autre, autant que de besoin\n\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "convocation à l'AG",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "dossier support à la convocation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "délibération",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "compte rendu d'AG",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "compte rendu de bureau",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "pièce autre, autant que de besoin",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DELEGATIONS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "DELEGATIONS",
+        "description": "Si vous avez sélectionné dans la liste de choix : délégations, merci de bien vouloir déposer les pièces suivantes selon le cas :\na - délibération\nb - pièce autre, autant que de besoin\n\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "délibération",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "pièce autre, autant que de besoin",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ELECTIONS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "ELECTIONS",
+        "description": "Si vous avez sélectionné dans la liste élections, merci de bien vouloir déposer les pièces suivantes :\na - délibération\nb - pièce autre, autant que de besoin\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "délibération",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "pièce autre, autant que de besoin",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "MOUVEMENT DES ELUS - DEMISSIONS (VOLONTAIRE, D'OFFICE)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "MOUVEMENT DES ELUS - DEMISSIONS (VOLONTAIRE, D'OFFICE)",
+        "description": "Si vous avez sélectionné dans la liste de choix : mouvement des élus - démissions (volontaire, d'office), merci de bien vouloir déposer les pièces suivantes selon le cas :\na - délibération, autant que de besoin\nb - courrier ou mail de l'élu, autant que de besoin\nc - pièce autre, autant que de besoin\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "délibération, autant que de besoin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "courrier ou mail de l'élu, autant que de besoin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "pièce autre, autant que de besoin",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PROJET DE CREATION D'UN GROUPEMENT INTERCONSULAIRE (GIC)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "PROJET DE CREATION D'UN  GROUPEMENT INTERCONSULAIRE (GIC)",
+        "description": "Si vous avez sélectionné dans la liste de choix : projet de création d'un groupement interconsulaire (GIC), merci de bien vouloir déposer les pièces suivantes selon le cas :\na - délibération\nb - projet de GIC\nc - pièce autre, autant que de besoin\n\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "délibération",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "projet de GIC",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "pièce autre, autant que de besoin",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PLU - PLUI",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "PLU - PLUI",
+        "description": "Si vous avez sélectionné dans la liste de choix : PLU - PLUI, merci de bien vouloir déposer les pièces suivantes selon le cas :\na - délibération\nb - pièce autre, autant que de besoin\n\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "délibération",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "pièce autre, autant que de besoin",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "REGLEMENT INTERIEUR",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "REGLEMENT INTERIEUR",
+        "description": "Si vous avez sélectionné dans la liste de choix : règlement intérieur , merci de bien vouloir déposer les pièces suivantes :\na - délibération\nb - règlement intérieur\nc - pièce autre, autant que de besoin\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "délibération",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "règlement intérieur",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "pièce autre, autant que de besoin",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RESSOURCES HUMAINES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "RESSOURCES HUMAINES",
+        "description": "Si vous avez sélectionné dans la liste de choix : ressources humaines, merci de bien vouloir déposer les pièces suivantes selon le cas :\na - délibération\nb - grille d'emplois\nc - pièce autre, autant que de besoin\n\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "délibération",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "grille d'emplois",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "pièce autre, autant que de besoin",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SCHEMA DIRECTEUR (CCIR UNIQUEMENT)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "SCHEMA DIRECTEUR (CCIR UNIQUEMENT)",
+        "description": "Si vous avez sélectionné dans la liste de choix : schéma directeur (CCIR uniquement), merci de bien vouloir déposer les pièces suivantes selon le cas :\na - délibération\nb - proposition de schéma directeur\nc - pièce autre, autant que de besoin\n\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "délibération",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "proposition de schéma directeur",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "pièce autre, autant que de besoin",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SCHEMA SECTORIEL ET RAPPORT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "SCHEMA SECTORIEL ET RAPPORT",
+        "description": "Si vous avez sélectionné dans la liste de choix : schéma sectoriel et rapport, merci de bien vouloir déposer les pièces suivantes selon le cas :\na - délibération\nb - projet de schéma sectoriel et rapport\nc - pièce autre, autant que de besoin\n\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "délibération",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "projet de schéma sectoriel et rapport",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "pièce autre, autant que de besoin",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SCHEMA SECTORIEL RELATIF A LA FORMATION, L'ENSEIGNEMENT ET L'EMPLOI",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "SCHEMA SECTORIEL RELATIF A LA FORMATION, L'ENSEIGNEMENT ET L'EMPLOI",
+        "description": "Si vous avez sélectionné dans la liste de choix : schéma sectoriel relatif à la formation, l'enseignement et l'emploi, merci de bien vouloir déposer les pièces suivantes selon le cas :\na - délibération\nb - projet de schéma\nc - pièce autre, autant que de besoin\n\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "délibération",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "projet de schéma",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "pièce autre, autant que de besoin",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DIVERS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "DIVERS",
+        "description": "Si vous avez sélectionné dans la liste de choix : divers, merci de bien vouloir déposer les pièces suivantes selon le cas :\na - délibération\nb - pièce autre, autant que de besoin\n\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "délibération",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "pièce autre, autant que de besoin",
+            "description": "",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "number": 12909,
+  "title": "Dépôt en ligne d'une demande de pose de Publicité ou d'Enseigne",
+  "description": "Service en ligne temporaire.\r\n\r\nATTENTION, cette plateforme va être prochainement remplacée, fondue avec le Guichet Unique de l'Urbanisme, courant 2022 (Juillet 2022).\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2019-01-15T16:16:12+01:00",
+  "service": {
+    "nom": "Service Urbanisme",
+    "organisme": "Mairie de Sarrebourg",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/sarrebourg-affichage",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "www.sarrebourg.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=6132BA02EF6D0C85BE30A90256EE6134.tplgfr36s_1?idArticle=LEGIARTI000006834693&cidTexte=LEGITEXT000006074220&dateTexte=20181220",
+  "logo": {
+    "filename": "procedure-b4f04250-f626-44db-9d43-a5e9ae4f8a11.png",
+    "checksum": "4w5qfvyBHKrpikHV0PX/PQ==",
+    "byteSize": "26580",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 3,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Principe",
+        "description": "Sur ce site, il vous est possible de déposer par voie électronique, une demande d'autorisation préalable d'installation d'une enseigne, ou de déclarer la pose d'un matériel supportant de la publicité ou une préenseigne, sur le ban communal de Sarrebourg (Code de l'Environnement).\r\nIl est nécessaire de bien remplir les champs ci-dessous, ceux indiqués par une astérisque étant obligatoires.\r\nEn bas de page, vous pouvez charger sur ce site, toutes les pièces jointes du dossier. \r\n\r\nLes conditions d'utilisation de ce service sont précisées en cadre 3.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "NATURE DE L'INSTALLATION",
+        "description": "Indiquez la nature de l'installation.",
+        "required": true,
+        "options": [
+          "Demande d'autorisation pour l'installation d'une nouvelle enseigne (cerfa 14798)",
+          "Demande d'autorisation pour la modification d'enseignes existantes (cerfa 14798)",
+          "Déclaration de pose d'un dispositif publicitaire (cerfa 14799)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Rappel des définitions",
+        "description": " 1° Constitue une PUBLICITE, à l'exclusion des enseignes et des préenseignes, toute inscription, forme ou image, destinée à informer le public ou à attirer son attention, les dispositifs dont le principal objet est de recevoir lesdites inscriptions, formes ou images étant assimilées à des publicités ;\r\n\r\n2° Constitue une ENSEIGNE, toute inscription, forme ou image apposée sur un immeuble et relative à une activité qui s'y exerce ;\r\n\r\n3° Constitue une PRE ENSEIGNE, toute inscription, forme ou image indiquant la proximité d'un immeuble où s'exerce une activité déterminée.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. DEMANDEUR",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "SI LE DEPOSANT EST UNE PERSONNE PHYSIQUE :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et Prénom du demandeur",
+        "description": "Indiquez le nom complet et prénom de la personne physique.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "SI LE DEPOSANT EST UNE PERSONNE MORALE :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la société - Raison Sociale",
+        "description": "Indiquez le nom de la société.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du représentant de la personne morale",
+        "description": "Indiquez ici le nom du représentant de la personne morale.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de SIRET",
+        "description": "Indiquez ici le numéro de SIRET de la personne morale, le cas échéant.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "ADRESSE DU DEMANDEUR - PERSONNE PHYSIQUE OU MORALE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse complète",
+        "description": "Spécifiez l'adresse complète du Demandeur (Personne physique ou Personne morale) : numéro, nom de rue, code postal, commune",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. DISPOSITIFS INSTALLES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom commercial de l'enseigne",
+        "description": "Indiquez le nom commercial de l'enseigne, de l'activité.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du projet",
+        "description": "Précisez l'adresse du lieu du projet.",
+        "required": true
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Situation du projet",
+        "description": "Précisez sur la carte, la situation du projet. Pour celà cliquez sur \"Ajouter une zone\" et dessiner l'emprise du projet sur la carte.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "SPECIFICITES DE L'INSTALLATION",
+        "description": "Veuillez cocher la case  correspondante, si l'installation projetée correspond aux critères ci-dessous.",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Le dispositif est éclairée",
+        "description": "Cocher, si au moins un dispositif du projet est éclairé par projection ou rétro-éclairé.",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Le dispositif est digital",
+        "description": "Cocher, si au moins un dispositif du projet est digital, c'est-à-dire que la source lumineuse est l'affichage en lui-même.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. ENGAGEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Conditions Générales d'Utilisation (CGU) du service",
+        "description": "1. Le demandeur atteste avoir qualité pour demander la présente autorisation et certifie exacts les renseignements qui y sont déclarés.\r\n2. Le demandeur autorise la mairie de Sarrebourg à utiliser les données déclarées sur ce site, dans son logiciel de traitement et d'instruction des dossiers. Les données recueillies ne seront pas utilisées à des fins commerciales.\r\n3. Ces données ne sont pas réutilisées comme base de calcul de la Taxe Locale sur la Publicité Extérieure. Il appartient à chaque exploitant d'un dispositif d'affichage, de déclarer chaque année ses dispositifs dans le cadre de l'application de la TLPE.\r\n4. Le demandeur fournit l'ensemble des pièces obligatoires du dossier, dûment complétées, par transfert à l'aide du cadre ci-dessous.\r\n5. Les documents fournis par voie électronique à l'administration, seront obligatoirement aux formats .PDF ou .JPG.\r\nAucun autre format n'est admis. Les documents fournis sous d'autres formats sont réputés non compatibles et seront refusés.\r\n6. Après la finalisation du dépôt du dossier par le demandeur, le service envoie automatiquement un e-mail de réception. Ce dernier n'a qu'un but informatif et ne vaut pas enregistrement officiel du dossier.\r\nSeul l'accusé d'enregistrement CERFA avec le numéro attribué au dossier et la date d'enregistrement, envoyé ultérieurement à l'adresse e-mail déclarée par le Demandeur, fait foi.\r\nA noter que cet enregistrement ne peut avoir lieu qu'un jour ouvré, pendant les heures d'ouvertures de l'Administration.\r\n7. L'enregistrement du dossier ne signifie pas qu'il est complet. Une demande de complétude pourra être faite par le service instructeur, ou l'une des commissions statuant sur cette demande.\r\n8. Il est rappelé aux demandeurs, qu'il est nécessaire d'obtenir l'accord du maire avant toute installation d'une enseigne ou d'un dispositif d'affichage soumis à autorisation.\r\nPour les déclarations de publicité fixe, le demandeur peut poser son dispositif dès que la déclaration a été enregistrée par l'Administration.\r\n9. Cocher la case ci-dessous vaut signature du dossier déposé par le demandeur.",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste avoir pris connaissance des CGU précisées ci-dessus et que les données que je déclare ici sont sincères et exactes.                     Je n'oublie pas de fournir les pièces jointes, que je charge dans le cadre ci-dessous. Je note que cocher la case ci-contre vaut signature de la demande.",
+        "description": "Merci de cocher la case.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Formulaire CERFA",
+        "description": "Dépôt du formulaire de déclaration (cerfa 14798 ou 14799).\nLe formulaire à télécharger à l'aide du lien ci-dessous est remplissable en ligne.\n\n\nRécupérer le formulaire vierge pour mon dossier : https://www.service-public.fr/professionnels-entreprises/vosdroits/R24287",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Documents descriptifs",
+        "description": "Dépôt des plans de situation, croquis côtés, descriptifs de l'installation, de \npréférence groupé en un seul fichier (Format pdf ou jpg non zippé).",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autres documents",
+        "description": "Dépôt d'autres documents que le demandeur juge utile : descriptif, plans au format pdg ou jpg non zippé.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autres documents",
+        "description": ".",
+        "required": false
+      }
+    ]
+  }
+}

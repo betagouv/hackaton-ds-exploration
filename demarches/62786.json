@@ -1,0 +1,229 @@
+{
+  "number": 62786,
+  "title": "Enquête capacités d'hébergement du DNA au 31/08/2022",
+  "description": "La présente enquête vise à recenser les places du DNA réellement ouvertes, celles qui sont actuellement indisponibles et pour quelles raisons.\r\n\r\nUn organisme gestionnaire peut renseigner plusieurs besoins. Pour ce faire, il convient de créer une fiche par structure (établissement).\r\n\r\nLa date limite pour répondre à cette enquête est fixée au jeudi 15 septembre.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2022-08-24T18:41:15+02:00",
+  "service": {
+    "nom": "Direction régionale et interdépartementale de l'hébergement et du logement - Île-de-France (DRIHL) ",
+    "organisme": "Public",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/enquete-capacites-d-hebergement-du-dna-au-31-08-22",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.drihl.ile-de-france.developpement-durable.gouv.fr/",
+  "cadreJuridiqueUrl": "",
+  "logo": null,
+  "notice": null,
+  "deliberation": {
+    "filename": "Notification 2022-IDF signé.pdf",
+    "checksum": "gdguW54J6A2XWuRHWgX3EQ==",
+    "byteSize": "658058",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 91,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Renseignements sur le centre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Département",
+        "description": "",
+        "required": true,
+        "options": [
+          "75",
+          "77",
+          "78",
+          "91",
+          "92",
+          "93",
+          "94",
+          "95"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Catégorie de centre",
+        "description": "",
+        "required": true,
+        "options": [
+          "CADA",
+          "CAES",
+          "CAES NG",
+          "CAFDA",
+          "CPH",
+          "DPAR-CARA",
+          "HUDA",
+          "HUDA EX CHUM",
+          "PRAHDA",
+          "DPHRS",
+          "CAIR",
+          "DAHAR"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code/N°FINESS",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Opérateur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du centre",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de la structure",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Code postal",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom directeur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email direction",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Capacité de la structure et état de situation des places au 31/08/2022",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Capacité totale de la structure",
+        "description": "Correspond au nombre de places autorisées",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "dont nombre de places ouvertes au 31/08/2022",
+        "description": "sur la capacité totale de la structure.\r\nCapacité totale = 'dont places ouvertes' + 'dont places indisponibles' + 'dont places en attente d'ouverture' + 'dont autres'",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "dont nombre de places indisponibles au 31/08/2022",
+        "description": "sur la capacité totale de la structure.\r\nCapacité totale = 'dont places ouvertes' + 'dont places indisponibles' + 'dont places en attente d'ouverture' + 'dont autres'",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Raison de l'indisponibilité de ces places et date prévisionnelle à laquelle les places seront disponibles",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "dont nombre de places en attente d'ouverture au 31/08/2022",
+        "description": "sur la capacité totale de la structure.\r\nCapacité totale = 'dont places ouvertes' + 'dont places indisponibles' + 'dont places en attente d'ouverture' + 'dont autres'",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Raison et date prévisionnelles d'ouverture de ces places",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "dont autres",
+        "description": "sur la capacité totale de la structure.\r\nCapacité totale = 'dont places ouvertes' + 'dont places indisponibles' + 'dont places en attente d'ouverture' + 'dont autres'",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de places qui étaient occupées au 31/08/2022",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Capacité enregistrée dans le DNA au 31/08/2022",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Types de places",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de place en diffus",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de places en collectif",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de places PMR",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de places pour personnes isolées",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de places pour familles",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

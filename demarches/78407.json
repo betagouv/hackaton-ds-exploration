@@ -1,0 +1,153 @@
+{
+  "number": 78407,
+  "title": "2023 - Déclaration d'impossibilité d'implantation de CIPAN et de destruction chimique ",
+  "description": "Dérogations aux dispositions prévues au 2.3 de l'article 2 de l'arrêté n° 2014153-0011 établissant le programme d'actions régional en vue de la protection des eaux contre la pollution par les nitrates d'origine agricole pour la région d'Ile-de-France",
+  "tags": [
+    "Cipan"
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2023-07-10T11:25:24+02:00",
+  "service": {
+    "nom": "Service Agriculture et Développement Rural",
+    "organisme": "Direction Départementale des Territoires de Seine-et-Marne",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ddt77-derogation-cipan-2023",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.seine-et-marne.gouv.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr",
+  "logo": {
+    "filename": "Logo-demarches-simplifiees.jpg",
+    "checksum": "WpI4OIunjbKamqDMtGHFfQ==",
+    "byteSize": "706634",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 145,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations du demandeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° PACAGE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": true,
+        "options": [
+          "Monsieur",
+          "Madame"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "E-mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PARCELLES CONCERNEES ET MOTIF DE LA DEMANDE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "PARCELLES CONCERNEES ET MOTIF DE LA DEMANDE",
+        "description": "Attention - la demande ne concerne pas les couverts déclarés à la PAC en IAE.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° ilôt PAC",
+            "description": "Nombre entier",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° de parcelle",
+            "description": "Nombre entier (ne pas reporter le numéro de l’ilot)",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Superficie en ha",
+            "description": "Nombre décimal",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Culture avant CIPAN",
+            "description": "Code culture ou nom de la culture",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Culture prévue après CIPAN",
+            "description": "Code culture ou nom de la culture",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Solde du bilan azoté",
+            "description": "La méthode de calcul du solde du bilan azoté à appliquer pour la région Ile-de-France est la suivante :\n\nSolde du bilan azoté = (dose totale apportée - dose totale prévue lors du calcul de la dose prévisionnelle) - [b*(Rdt réalisé - Rdt objectif utilisé pour le calcul prévisionnel)]\n\nAvec :\nRdt = rendement exprimé en quintaux par hectare\nb = besoin en azote de la culture\n\nLes doses d'azote sont exprimées en kilogramme d'azote par hectare. Elles tiennent compte à la fois des apports d'engrais minéraux (X) et des apports par les PRO (Xa) et des apports par l'irrigation (Nirr)",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Motif de la dérogation",
+            "description": null,
+            "required": true,
+            "options": [
+              "A - Lutte contre les adventices par des moyens mécaniques (faux-semis et déchaumages)",
+              "B - Lutte agronomique contre les limaces par déchaumages successsifs",
+              "C - Epandage des boues de papeterie",
+              "D - Destruction chimique de la CIPAN",
+              "E - Dérogation exceptionnelle pour la lutte contre les chardons (demande à déposer avant le 15 août)",
+              "F - Cas de force majeure"
+            ],
+            "otherOption": false
+          }
+        ]
+      }
+    ]
+  }
+}

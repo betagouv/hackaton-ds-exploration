@@ -1,0 +1,472 @@
+{
+  "number": 92304,
+  "title": "Audit de conformité des données",
+  "description": "Cet audit, sous la forme d'un questionnaire, doit permettre à chaque opérateur de vérifier, corriger si besoin et enfin certifier l'exactitude des données transmises au RPC dans le cadre de son partenariat. Ces déclarations seront consignées sur Démarches-Simplifiées et pourront être utilisées dans le cadre d'audits complémentaires.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2024-04-11T11:13:43+02:00",
+  "service": {
+    "nom": "Le Registre de preuve de covoiturage",
+    "organisme": "Ministère de la Transition écologique",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/audit-de-conformite-des-donnees",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://doc.covoiturage.beta.gouv.fr",
+  "cadreJuridiqueUrl": "https://doc.covoiturage.beta.gouv.fr/nos-services/api-primo-conducteurs-cee/cgu",
+  "logo": {
+    "filename": "Capture d’écran 2024-04-11 à 12.02.53.png",
+    "checksum": "7Mx/xwigL2oOqHqC0LunUQ==",
+    "byteSize": "17048",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 10,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Saisi du questionnaire de conformité des données",
+        "description": "Ce questionnaire doit être rempli et validé par le responsable technique de la plateforme de covoiturage en question. ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom & Prénom du responsable technique qui renseigne et certifie la véracité des réponses apportées au questionnaire :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email du responsable technique",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Questions d'ordre générale",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "En tant que responsable technique, avez-vous bien connaissance des CGU du Registre de Preuve de Covoiturage ?",
+        "description": "Les CGU sont accessibles via notre documentation publique : https://doc.covoiturage.beta.gouv.fr/nos-services/api-primo-conducteurs-cee/cgu",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vos serveurs sont-ils localisés dans un pays de l’Union européenne ou dans un pays offrant un niveau équivalent de protection des données selon la Commission Nationale de l’Informatique et des Libertés (CNIL) ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le dossier technique enregistré sur Démarches-Simplifiées et décrivant vos procédures et méthodes de lutte contre les cas de fraude répertoriés par le RPC est-il à jour ?",
+        "description": "Pour mettre à jour votre dossier technique, demander au RPC de le repasser en statut éditable (\"en construction\") afin de pouvoir le modifier et charger la nouvelle version à jour.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vos informations de contact (DPO, responsable traitement et responsable technique) enregistrées dans votre interface RPC sont-elles à jour ?",
+        "description": "Pour vérifier/mettre à jour ces informations, rendez-vous sur votre interface : https://app.covoiturage.beta.gouv.fr/admin/operator.\r\nLes membres de votre équipe ayant un compte peuvent à leur tour créer des accès via l'interface.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Questions sur les trajets transmis au RPC",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Vous confirmez transmettre au RPC :",
+        "description": "",
+        "required": true,
+        "options": [
+          "TOUS les trajets réalisés et considérés valides par la plateforme, quel que soit la classe de preuve A, B et C, sans aucune exception.",
+          "TOUS les trajets réalisés et considérés valides par la plateforme, quel que soit la classe de preuve A, B et C, après application de quelques filtres.",
+          "Une partie seulement des trajets réalisés et considérés valides par la plateforme."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Détaillez, ci-dessous, le ou les filtres appliqués au moment de l'envoi des trajets au RPC",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Vous transmettez les trajets :",
+        "description": "",
+        "required": true,
+        "options": [
+          "Avant la fin du trajet.",
+          "Dans les 24h qui suivent la fin du trajet uniquement."
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Pour chacun des trajets envoyés au RPC, vous transmettez :",
+        "description": "Lien vers API Trajet V3 : https://tech.covoiturage.beta.gouv.fr/operateurs/api-v3.html",
+        "required": true,
+        "options": [
+          "Toutes les données obligatoires ET toutes les données facultatives en votre possession listées dans l'API Trajet V3.",
+          "Toutes les données obligatoires ET certaines données facultatives en votre possession listées dans l'API Trajet V3.",
+          "Toutes les données obligatoires uniquement."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Enumérer ici les données facultatives en votre possession que vous ne transmettez pas et détailler la raison.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Questions sur les données transmises pour chaque trajet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Données sur le trajet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les operator_Journey_id transmis sont-ils tous uniques ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les operator_trip_id transmis correspondent à l’identifiant permettant de regrouper plusieurs trajets (couples passager/conducteur) dans un même véhicule.",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non, ils correspondent à une autre définition.",
+          "Nous n'envoyons pas cette donnée."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Merci de décrire précisément à quoi correspond votre définition pour cette donnée.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Merci de nous préciser pourquoi vous n'envoyez pas cette donnée.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "La classe de trajet la plus élevée que vous transmettez au RPC est :",
+        "description": "",
+        "required": true,
+        "options": [
+          "la classe A.",
+          "la classe B.",
+          "la classe C."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Chacun des trajets assignés en classe C respecte scrupuleusement la définition cette classe* et est soumis aux vérifications et procédures décrites dans votre dossier technique afin de répondre aux cas d'usage listés dans le document Classe & résultat**",
+        "description": "*définition des classes : https://doc.covoiturage.beta.gouv.fr/nos-services/le-registre-de-preuve-de-covoiturage/quest-ce-que-cest/classes-de-preuve-and-identite/classes-a-b-c\r\n**document Classe & résultat : https://docs.google.com/spreadsheets/d/1teiS257FRHstv3FtnjmuIDY3BjgrbBwsTVNIkL8bugM/edit?usp=sharing",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Chacun des trajets assignés en classe B respecte scrupuleusement la définition cette classe* et est soumis aux vérifications et procédures décrites dans votre dossier technique afin de répondre aux cas d'usage listés dans le document Classe & résultat**",
+        "description": "*définition des classes : https://doc.covoiturage.beta.gouv.fr/nos-services/le-registre-de-preuve-de-covoiturage/quest-ce-que-cest/classes-de-preuve-and-identite/classes-a-b-c\r\n**document Classe & résultat : https://docs.google.com/spreadsheets/d/1teiS257FRHstv3FtnjmuIDY3BjgrbBwsTVNIkL8bugM/edit?usp=sharing",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Lorsque vous détectez une fraude sur des trajets en cours de réalisation,",
+        "description": "",
+        "required": true,
+        "options": [
+          "vous envoyez les trajets.",
+          "vous envoyez les trajets et vous les annulez ensuite.",
+          "vous ne les envoyez pas."
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Lorsque vous identifiez un ou des comptes utilisateurs comme étant des fraudeurs :",
+        "description": "Dans les réponses par sanction, nous entendons avertissement, bannissement définitif ou temporaire…",
+        "required": true,
+        "options": [
+          "vous appliquez une sanction au(x) fraudeur(s).",
+          "vous appliquez une sanction au(x) fraudeur(s) et vous annulez les trajets réalisés sur le RPC.",
+          "vous annulez les trajets sur le RPC."
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Avez-vous une procédure de prévue pour l’annulation des trajets frauduleux sur l’API Trajet V3 ?",
+        "description": "Sur l'API Trajet V3, nous faisons ici référence au point d'API /cancel.",
+        "required": true,
+        "options": [
+          "Un envoi hebdomadaire des trajets à annuler.",
+          "Un envoi mensuel des trajets à annuler."
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quelle est la distance maximale des trajets que vous envoyez au RPC ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Nous n'appliquons pas de distance maximum.",
+          "150 km."
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quelle est la distance minimale des trajets que vous envoyez au RPC ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Nous n'appliquons pas de distance minimum.",
+          "1 km."
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Données d'identité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Vous générez la donnée phone_trunc avec :",
+        "description": "",
+        "required": true,
+        "options": [
+          "les 8 premiers chiffres du n° de téléphone.",
+          "avec le n° de téléphone au format ITU E.164 tronqué des 2 derniers chiffres."
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si vous deviez générer le last_name_trunc de Madame Nathalie D'Hérûg-de-l'Hérault, qu'enverrez-vous au RPC ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "D H",
+          "DHE",
+          "DHR"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous confirmez donc vous conformer à la syntaxe suivante :",
+        "description": "last_name_trunc : string\r\npattern: /^[A-Z ]{3}$/\r\nminLength: 3\r\nmaxLength: 3\r\nEnvoi des trois premières lettres du nom de famille avec utilisation des espaces pour compléter un nom comportant moins de 3 lettres, ou pour remplacer des caractères spéciaux.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Pour générer l’identity_key, quelle forme de chaîne de caractère hachez-vous ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "sha224(phone_number-last_name)",
+          "sha224(last_name-phone-number)",
+          "sha256(phone_number-last_name)"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Comment générez le phone_number qui compose l'identity_key ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "n° de téléphone au format ITU E.164 (+33612345678).",
+          "n° de téléphone dans un format libre (06 12 34 56 78)."
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Selon les règles que vous avez implémenté, comment formateriez-vous l'identity_key de Madame L’Hörnoû-d’Yoré ayant le numéro 06 01 02 03 04 avant hachage ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "+33601020304 - L’HÖRNOÛ-D’YORÉ",
+          "0601020304 - LHORNOU-D’YORE",
+          "+33601020304 - L HORNOU-D’YORE",
+          "+33601020304-L HORNOU D YORE"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "En tant que plateforme labellisée “vignette identité”, que faites-vous si un conducteur réalise un 21ème trajet incité avec des passagers n'ayant pas validé leur identité ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Nous transmettons le trajet au RPC.",
+          "Nous ne transmettons pas le trajet au RPC.",
+          "Nous ne sommes pas concernés par la vignette identité."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "En tant que plateforme labellisée “vignette identité”, que faites-vous si un passager souhaite réaliser un 11ème trajet incité sans avoir fourni de pièce d'identité ou bien sans que la plateforme ait validé son identité ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Nous transmettons le trajet au RPC.",
+          "Nous ne transmettons pas le trajet au RPC.",
+          "Nous ne sommes pas concernés par la vignette identité."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Données financières",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Pour renseigner la contribution du passager (passenger_contribution), respectez-vous strictement la définition suivante :",
+        "description": "Définition de la donnée passanger_contribution : Coût réel total du service pour l’occupant passager en fonction du nombre de sièges réservés APRÈS que toutes les possibles incitations aient été versées (subventions employeurs, promotions opérateurs, incitations AOM, etc).| Somme exprimée en centimes.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Merci de préciser votre réponse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Pour renseigner le revenu du conducteur (driver_revenue), respectez-vous strictement la définition suivante :",
+        "description": "Définition de la donnée driver_revenue : La somme réellement perçue par le conducteur APRÈS que toutes les incitations (subventions employeurs, promotions opérateurs, incitations AOM, etc.), contributions des passagers aient été versées et que la commission de l’opérateur soit prise. Somme exprimée en centimes.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Merci de préciser votre réponse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Selon vous peut-on calculer le coût du trajet comme suit :",
+        "description": "",
+        "required": true,
+        "options": [
+          "COUT REEL DU TRAJET = passenger_contribution + INCITATION* + COMMISSION OPERATEUR",
+          "COUT REEL DU TRAJET = driver_revenue + INCITATION* + COMMISSION OPERATEUR",
+          "Aucune des solutions proposées"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Merci de préciser comment le RPC avec les données fournies peut s'approcher du coût du trajet ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Transmettez-vous l’intégralité des incitations financières qui abondent chaque trajet ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Merci de préciser votre réponse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Vous associez une incitation à un trajet :",
+        "description": "",
+        "required": true,
+        "options": [
+          "dès lors que celui-ci bénéficie d’une incitation, qu’elle provienne d’un employeur, d’une collectivité ou directement de la plateforme de covoiturage.",
+          "dès lors qu’il bénéficie d’une incitation de la part d’une collectivité ou d’un employeur."
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Dans le cas ou un trajet serait incité à la fois par une AOM, une offre promotionnelle de la plateforme de covoiturage et un employeur, quel ordre d’application retenez-vous pour que l’incitation ne dépasse pas le montant du coût du trajet :",
+        "description": "",
+        "required": true,
+        "options": [
+          "AOM, plateforme de covoiturage, employeur.",
+          "plateforme de covoiturage, AOM, employeur.",
+          "employeur, AOM, plateforme de covoiturage."
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Pour chacune de ces incitations, associez-vous correctement le SIRET de l’autorité incitatrice : SIRET AOM quand l’incitateur est l’AOM, SIRET de l’entreprise quand l’incitateur est l’entreprise, SIRET de l’opérateur de covoiturage quand l’incitateur est l’opérateur de covoiturage ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Merci de préciser votre réponse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Dans le cas d’un trajet pour lequel une solution de paiement type “titre-mobilité” serait utilisée pour prendre en charge des frais de transports personnel, renseignez-vous les champs de données “payments” ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non",
+          "autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Merci de préciser votre réponse",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

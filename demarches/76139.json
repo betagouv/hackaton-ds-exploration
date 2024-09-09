@@ -1,0 +1,289 @@
+{
+  "number": 76139,
+  "title": "Demande de logement social-réservé aux fonctionnaires de l'État dans l'Hérault",
+  "description": "Vous êtes agent de la fonction publique d'État dans l'Hérault et détenteur d'un numéro d'enregistrement de demande de logement social.\r\nVous pouvez formuler une demande de logement social réservée aux fonctionnaires d'État via cette plateforme.\r\n\r\nSont exclus les personnels hospitaliers ainsi que les agents territoriaux.\r\n\r\nLes contractuels doivent bénéficier d’un contrat de travail conclu avec l’État, au minimum de 24 mois, et exercer les missions dans le département de l'Hérault.\r\n\r\nLes dossiers sont examinés selon différents critères réglementaires, en particulier le revenu, la composition de la famille pour la taille du logement, et le montant du loyer.",
+  "tags": [
+    "Logement",
+    "fonctionnaire",
+    "Hérault"
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2023-06-02T13:48:31+02:00",
+  "service": {
+    "nom": "Pôle inclusion sociale et logement, service logement",
+    "organisme": "Préfecture de l'Hérault",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-logement-social-reserve-aux-fonctionnai",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://herault.qualification.interieur.rie.gouv.fr/DDETS/OUTILS",
+  "cadreJuridiqueUrl": "https://www.fonction-publique.gouv.fr/reservation-de-logements-sociaux-locatifs",
+  "logo": {
+    "filename": "logo_pref_34.jpg",
+    "checksum": "fvbL9Oh1avQgm7AlrGbSug==",
+    "byteSize": "386557",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "Critères d'éligibilité à une demande de logement contingent préfectoral agents publics d'Etat.pdf",
+    "checksum": "fEt1M/8At8HPNbJN4NNHIg==",
+    "byteSize": "50744",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 426,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° unique d'enregistrement",
+        "description": "Obtenu lors de l'enregistrement en ligne préalable obligatoire sur le site :https://www.demande-logement-social.gouv.fr\r\nLe chiffre commence par 034 et contient en tout 17 chiffres.\r\nLa demande doit être complétée et actualisée.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut",
+        "description": "",
+        "required": true,
+        "options": [
+          "Fonctionnaire",
+          "Contractuel"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Ministère d'appartenance et structure",
+        "description": "Affectation actuelle précise",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Arrivez-vous dans le département par voie de mutation ?",
+        "description": "Répondez \"oui\" si vous n'êtes pas encore en poste dans l'Hérault et que votre mutation est notifiée par l’administration",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date mutation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation familiale",
+        "description": "",
+        "required": true,
+        "options": [
+          "Célibataire",
+          "En concubinage",
+          "Marié(e)",
+          "Pacsé(e)",
+          "Divorcé(e)",
+          "Veuf(ve)"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'enfant à charge",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse actuelle",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Motifs de la demande",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Revenu fiscal de référence n-2",
+        "description": "Les revenus pris en compte sont ceux d'il y a 2 ans",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Revenus mensuels du foyer",
+        "description": "Cumul de tous les revenus : salaire(s), pensions, indemnités, prestations, autres",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Vous êtes actuellement :",
+        "description": "",
+        "required": true,
+        "options": [
+          "Propriétaire",
+          "Locataire",
+          "Héberger à titre gracieux",
+          "A l'hôtel"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous propriétaire d'un bien qui n'est pas votre résidence principale ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Montant du loyer actuel (si locataire)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous allocataire CAF ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous occupant d'un logement social?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, nom du bailleur social",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous fait votre demande de changement auprès de votre bailleur actuel",
+        "description": "La demande ne pourra être traité sans avoir préalablement effectué une démarche de \"mutation\" auprès de votre bailleur social",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de logement souhaité",
+        "description": "Choix multiple",
+        "required": true,
+        "options": [
+          "T1/F1",
+          "T2/F2",
+          "T3/F3",
+          "T4/F4",
+          "T5/F5",
+          "T6/F6"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune(s) souhaitée(s)",
+        "description": "Les choix mentionnés doivent être identiques aux choix de secteurs de votre demande de numéro unique départemental.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quartier(s) préférentiel(s)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune(s) limitrophe(s)",
+        "description": "Conseillé d'élargir le champs de recherche à d'autres communes",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Bulletin de salaire demandeur",
+        "description": "3 derniers bulletins de salaire",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "bulletin demandeur n° 1",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "bulletin demandeur n°2",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "bulletin demandeur n°3",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bulletin de salaire conjoint",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bulletin de salaire autre membre du ménage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Avis d'imposition n-2",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Contrat de travail",
+        "description": "si contractuel",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tout document mentionnant la mutation",
+        "description": "si mutation",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation allocataire",
+        "description": "si allocataire",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif situation familiale",
+        "description": "mariage: livret de famille, \r\npacs : pacs, \r\ndivorce: ordonnance de non-conciliation ou jugement de divorce, \r\nveuvage : livret de famille",
+        "required": true
+      }
+    ]
+  }
+}

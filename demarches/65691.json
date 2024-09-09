@@ -1,0 +1,102 @@
+{
+  "number": 65691,
+  "title": "Nouveau test conditionnel ",
+  "description": "Test conditionnel pour faire la doc",
+  "tags": [
+
+  ],
+  "zones": [
+    "Premier ministre"
+  ],
+  "datePublication": "2024-05-14T09:57:02+02:00",
+  "service": {
+    "nom": "Beta gouv",
+    "organisme": "Beta gouv",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/nouveau-test-conditionnel",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://beta.gouv.fr/",
+  "cadreJuridiqueUrl": "Dinum",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 5,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Aimez-vous les boissons chaudes?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sélectionnez votre boisson préférée",
+        "description": "",
+        "required": false,
+        "options": [
+          "Café",
+          "Cappuccino",
+          "Thé",
+          "Chocolat chaud",
+          "Tisane",
+          "Boisson miel/citron",
+          "Lait chaud"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nouveau champ",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Nombre d'enfants",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Bloc répétable Enfants",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nombre de filles",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nombre de garçons",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Satisfait du formulaire?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Nouveau champ",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Nouveau champ",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

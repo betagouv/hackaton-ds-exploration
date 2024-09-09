@@ -1,0 +1,163 @@
+{
+  "number": 66844,
+  "title": "ARS_IDF_SRTS - DEMANDE D'AUTORISATION DE CREATION DE SOCIETE DE TRANSPORTS SANITAIRES",
+  "description": "Madame, Monsieur,\r\n\r\nVous souhaitez obtenir le transfert de plusieurs autorisations de mise en service (AMS) de véhicules de transports sanitaires, dont au moins une ambulance, afin de créer votre société.\r\n\r\nNous vous remercions du soin que vous prendrez à compléter ce formulaire établi dans une logique de simplification et de qualité de service.\r\n\r\nA compter de la réception de la demande complète, l’ARS dispose d’un délai de deux mois (maximum) pour répondre.\r\n\r\nEn cas d'interrogations, nous demeurons à votre disposition pour vous apporter tout le soutien nécessaire.\r\n\r\n\r\nLe service régional des transports sanitaires \r\nde l'ARS Ile-de-France ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2023-03-07T15:12:48+01:00",
+  "service": {
+    "nom": "Le service régional des transports sanitaires",
+    "organisme": "ARS Île-de-France, Ministère de la Santé et de la Prévention",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ars-idf-srts_creation-societe-ts",
+  "dpoUrl": "ars-idf-dpd@ars.sante.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.iledefrance.ars.sante.fr/transports-sanitaires-obtenir-un-agrement-0",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "MARIANNE_ET_LOGO-RP.jpg",
+    "checksum": "qWUf+PT8dYKqB4sIhjPNqw==",
+    "byteSize": "796360",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "Nos principales références juridiques_v3.pdf",
+    "checksum": "gxt+adYRO6Zt6xqkZFWMPA==",
+    "byteSize": "525458",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 103,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Références réglementaires :",
+        "description": "- Articles R.6312-13 et R.6312-37 du code de la santé publique\r\n- Arrêté modifié du 21 décembre 1987 relatif à la composition du dossier d’agrément des personnes effectuant des transports sanitaires et au contrôle des véhicules affectés aux transports sanitaires,\r\n- Arrêté modifié du 12 décembre 2017 fixant les conditions exigées pour les véhicules et les installations matérielles affectés aux transports sanitaires terrestres modifié.\r\n- Article 441-7 du code pénal. « […] Les peines sont portées à trois ans d’emprisonnement et à 45 000 euros d’amende lorsque l’infraction est commise en vue de porter préjudice au Trésor public ou au patrimoine d’autrui. »",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Numéro du département :",
+        "description": "",
+        "required": true,
+        "options": [
+          "75",
+          "77",
+          "78",
+          "91",
+          "92",
+          "93",
+          "94",
+          "95"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "VOUS SOLLICITEZ L'ACCORD DE L'ARS ILE-DE-FRANCE POUR LA CREATION D'UNE SOCIETE DE TRANSPORTS SANITAIRES :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale de la future société  :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination commerciale de la future société  :",
+        "description": "(si différente de la raison sociale)",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "FUTUR(S) RESPONSABLE(S) LEGAL(AUX)",
+        "description": "<em> Pour chaque responsable légal, veuillez cliquer sur <strong>\"+ ajouter un élément pour \"FUTUR(S) RESPONSABLE(S) LEGAL(AUX)\"</strong> en dessous de ce bloc, et renseignez les informations de chaque responsable légal.</em>",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité :",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom :",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom :",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "AUTORISATIONS DE MISE EN SERVICE (AMS)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "AUTORISATION DE MISE EN SERVICE A TRANSFERER",
+        "description": "<em> Pour chaque AMS à transférer, veuillez cliquer sur <strong>\"+ ajouter un élément pour \"AUTORISATION DE MISE EN SERVICE A TRANSFERER\"</strong> en dessous de ce bloc, et renseignez les informations pour chaque demande de transfert d'autorisation de mise en service.</em>",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro d'immatriculation du véhicule :",
+            "description": "<em>Les plaques délivrées depuis 2009 utilisent le format composé de sept caractères alphanumériques : deux lettres, trois chiffres et deux lettres, les trois parties étant séparées par des tirets.\r\nExemple: AA-001-AA </em>",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Catégorie de véhicule :",
+            "description": "",
+            "required": true,
+            "options": [
+              "Ambulance Catégorie A - Type B",
+              "Ambulance Catégorie C - Type A",
+              "Véhicule Sanitaire Léger Catégorie D"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de la société actuellement titulaire de l’autorisation de mise en service :",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune de la société actuellement titulaire des autorisations de mise en service :",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune de la future société titulaire des autorisations de mise en service :",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "L’Agence régionale de santé Île-de-France (ci-après ARS) procède à un traitement de données à caractère personnel pour permettre la gestion et le suivi des agréments des transporteurs sanitaires et des autorisations de véhicules affectés aux transports sanitaires terrestres conformément aux dispositions des articles L.6312-2 et suivants et R.6312-1 et suivants du code de la santé publique.",
+        "description": "<em>Ce traitement relève de l’exercice de l’autorité publique à laquelle l’ARS, en sa qualité de responsable de traitement, est investie en application de l’article 6.1.e du Règlement général sur la protection des données (RGPD) du 27 avril 2016. Les données enregistrées sont conservées jusqu’au retrait de l’agrément de transport sanitaire et ne peuvent être communiquées qu’aux destinataires suivants: personnels du service régional des transports sanitaires de l’ARS et personnels habilités de l’assurance maladie.\r\nConformément au RGPD et à la loi n° 78-du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, vous disposez d’un droit d’accès, de rectification, de limitation et d’opposition aux données vous concernant.\r\nVous pouvez exercer ces droits en adressant un courrier signé accompagné de la copie d’un justificatif d’identité au délégué à la protection des données de l’ARS à l’adresse suivante : délégué à la protection des données de l’ARS, Immeuble Curve, 13 rue du Landy 93200 SAINT-DENIS ou par courriel : ars-idf-dpd@ars.sante.fr.\r\nVous disposez d’un droit d'introduire une réclamation auprès de la Commission nationale de l’informatique et des libertés, si vous considérez que le traitement de données à caractère personnel vous concernant constitue une violation du RGPD et de la loi informatique et libertés.</em>",
+        "required": false
+      }
+    ]
+  }
+}

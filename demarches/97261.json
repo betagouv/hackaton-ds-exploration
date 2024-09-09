@@ -1,0 +1,61 @@
+{
+  "number": 97261,
+  "title": "FONDS VERT - Identification des établissements scolaires rénovés ou renaturés",
+  "description": "Chaque établissement scolaire reconnu par l'Education Nationale (écoles, collèges, lycées, CFA, enseignement supérieur public ou privé) possède un code unique inscrit dans le répertoire national des établissements (RNE). On appelle ce code unique \"UAI\" pour \"Unité Administrative Immatriculée\". \r\n\r\nDans le cadre de la politique de rénovation des écoles, il est important de pouvoir associer précisément une subvention à un établissement. \r\n\r\nCette démarche sert à collecter l'UAI des projets de rénovation d'établissements publics financés par le Fonds vert pour lesquels la donnée est manquante.\r\n\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2024-06-04T02:13:01+02:00",
+  "service": {
+    "nom": "DGALN",
+    "organisme": "Ministère de la Transition écologique et de la Cohésion des territoires",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fonds-vert-id-etablissements-scolaires",
+  "dpoUrl": "dpd.daj.sg@developpement-durable.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://aides-territoires.beta.gouv.fr/programmes/fonds-vert/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/eli/arrete/2018/8/21/CPAB1819920A/jo/texte/fr",
+  "logo": {
+    "filename": "23004_pictoFV_batimentsPublicsV3-22.jpg",
+    "checksum": "P3pZ3Hd8+Q8hfWzkM6I76A==",
+    "byteSize": "324996",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 990,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Numéro de dossier Démarches Simplifiées",
+        "description": "Dossier de demande d'aide du Fonds Vert pour la rénovation d'un ou plusieurs établissements scolaires.        ",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Identification d'un établissement scolaire concerné par l'aide du Fonds vert",
+        "description": "Définition du code UAI :\r\n• Chaque établissement scolaire reconnu par l'Education Nationale (écoles, collèges, lycées, CFA, enseignement supérieur public ou privé) possède un code unique inscrit dans le répertoire national des établissements (RNE).\r\n• On appelle ce code unique \"UAI\" pour \"Unité Administrative Immatriculée\" : il se compose d'un ensemble de 7 chiffres et d’une lettre.\r\n• Les trois premiers chiffres correspondent au numéro du département.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Comment trouver son code UAI :",
+            "description": "Si vous ignorez le code UAI de l'établissement, essayez d'entrer le nom de l'établissement ou son adresse. Vous pouvez également consulter [l'annuaire de l'Education Nationale](https://www.education.gouv.fr/acce_public/search.php?mode=simple).",
+            "required": false
+          },
+          {
+            "__typename": "AnnuaireEducationChampDescriptor",
+            "label": "Unité Administrative Immatriculée de l'établissement scolaire (UAI)",
+            "description": "",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "number": 90538,
+  "title": "DESSIN GEOJSON pour saisie ZAER remontées sous forme papier",
+  "description": "obtenir un geojson",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition énergétique"
+  ],
+  "datePublication": "2024-02-25T09:28:02+01:00",
+  "service": {
+    "nom": "Direction Energie Connaissance / Département Energie et Développement Durable / Division Energie Air",
+    "organisme": "DREAL Occitanie",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/dessin-geojson",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.occitanie.developpement-durable.gouv.fr/loi-d-acceleration-de-la-production-des-energies-a23208.html",
+  "cadreJuridiqueUrl": "https://www.occitanie.developpement-durable.gouv.fr/loi-d-acceleration-de-la-production-des-energies-a23208.html",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 15,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DESSIN d'un GEOJSON",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Département?",
+        "description": "",
+        "required": false,
+        "options": [
+          "09 Ariège",
+          "11 Aude",
+          "12 Aveyron",
+          "30 Gard",
+          "31 Haute-Garonne",
+          "32 Gers",
+          "34 Hérault",
+          "46 Lot",
+          "48 Lozère",
+          "65 Haute-Pyrénées",
+          "66 Pyrénées-Orientales",
+          "81 Tarn",
+          "82 Tarn-et-Garonne",
+          "Deuxième choix"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la commune ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Qui dessine ? (nom - prénom)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Après avoir traçé un POLYGONE (UNIQUEMENT UN/DES POLYGONE/S, ne pas utiliser les outils polyligne, point parcelle) MERCI DE NOMMER CETTE ZONE DE MANIERE UNIQUE ET REPRENDRE CE NOM DANS LA SUITE DU FORMULAIRE",
+        "description": "Ce nom -unique- doit nous permettre de faire le lien entre ce qui est dessiné et ce qui est ensuite renseigné.\r\nMERCI",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Répétez l'opération autant de fois qu'il y a de polygones dessinés",
+        "description": "Les champs à remplir sont restreints à ceux nécessaires à la construction du fichier GEOJSON au format portail national en fonction la filière EnR.\r\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de la ZAER (nom unique qui doit être le même que celui donné au polygone)",
+            "description": "VERIFIEZ BIEN QUE VOUS AVEZ DONNE LE MEME NOM AU POLYGONE",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Quelle Filière? Merci de préciser via la liste déroulante.",
+            "description": "",
+            "required": true,
+            "options": [
+              "Photovoltaïque",
+              "Solaire thermique",
+              "Bois énergie et biomasse (autre que biogaz)",
+              "Géothermie (et PAC)",
+              "Biogaz / biométhane",
+              "Hydroélectricité",
+              "EOLIEN"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "PHOTOVOLTAIQUE nouveau? Merci de préciser via la liste déroulante",
+            "description": "",
+            "required": false,
+            "options": [
+              "Nouveau",
+              "Repowering"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "PHOTOVOLTAÏQUE support? merci de préciser",
+            "description": "",
+            "required": false,
+            "options": [
+              "toiture",
+              "ombrière",
+              "sol",
+              "autre"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "EOLIEN nouveau? merci de préciser",
+            "description": "",
+            "required": false,
+            "options": [
+              "Nouveau",
+              "Repowering"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "SOLAIRE THERMIQUE: support? merci de préciser",
+            "description": "",
+            "required": false,
+            "options": [
+              "toiture",
+              "sol",
+              "réseau de chaleur/froid"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "GEOTHERMIE type? merci de préciser",
+            "description": "",
+            "required": false,
+            "options": [
+              "Surface (PAC)",
+              "Profonde"
+            ]
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "BIOGAZ / BIOMETHANE valorisation? merci de préciser",
+            "description": "",
+            "required": false,
+            "options": [
+              "Injection",
+              "Méthanisation cogé (élec + chal)",
+              "Réseau chaleur Froid"
+            ],
+            "otherOption": false
+          }
+        ]
+      }
+    ]
+  }
+}

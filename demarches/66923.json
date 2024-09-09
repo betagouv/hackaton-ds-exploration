@@ -1,0 +1,551 @@
+{
+  "number": 66923,
+  "title": "Dossier recrutement SPP",
+  "description": "Ce formulaire doit être complété par l'agent, SPP,  recruté par le SDIS de la Vendée. Il permet de joindre toutes les pièces nécessaires à la construction du dossier. Afin de faciliter votre saisie, vous devez avoir à disposition le scan des documents suivants : \r\n\r\n- CNI\r\n- Livret de famille\r\n- Attestation d'assuré social\r\n- RIB\r\n- Photo d'identité\r\n- Document attestant de votre situation citoyenne (attestation JDC...)\r\n- Derniers arrêtés de situation administrative \r\n- Dernier bulletin de salaire\r\n- Diplôme scolaire le plus élevé \r\n- L'ensemble des diplômes de sapeur-pompier détenus\r\n- Permis de conduire\r\n- Attestation de recyclage\r\n- Listes d'aptitudes opérationnelles \r\n- Attestation de secourisme FMPA\r\n- Relevé du compte personnel de formation\r\n ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2023-02-08T16:35:26+01:00",
+  "service": {
+    "nom": "Service gestion prévisionnelle des emplois et compétences",
+    "organisme": "SDIS de la Vendée",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/dossier-recrutement-spp",
+  "dpoUrl": "dpd@sdis-vendee.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://sdis-vendee.com/",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "logo.jpg",
+    "checksum": "d5OZBQ6AktTZiav6SURJHg==",
+    "byteSize": "13482",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "Politique de confidentialitév2.docx",
+    "checksum": "3W4+a/5ei0Hrm+IbRmVhNQ==",
+    "byteSize": "33634",
+    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "dossiersCount": 50,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "AFFECTATION : Groupement - Centre ou service",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de recrutement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Modalité de recrutement",
+        "description": "",
+        "required": true,
+        "options": [
+          "1ère nomination",
+          "Détachement",
+          "Mutation d'un autre SDIS"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Affectation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATIONS PERSONNELLES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Photo",
+        "description": "Merci de fournir une photo type portrait en format JPEG ou PNG, celle-ci sera uniquement réservée à un usage interne dans le but de communiquer sur votre arrivée sur notre site intranet.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autorisation de droit à l'image",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Etat-civil",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nationalité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Lieu de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièce d'identité en cours de validité",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Joindre une copie du document (recto-verso sur la même page)",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Recensement citoyen",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Joindre toutes pièces permettant d'attester de votre situation (JAPD / JDC / service militaire...)",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation familiale",
+        "description": "",
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Marié(e)",
+          "Séparé(e)",
+          "Divorcé(e)",
+          "Veuf(ve)",
+          "Pacsé(e)",
+          "Union libre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'enfants à charge",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Livret de famille",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Joindre une copie du livret de famille régulièrement tenu à jour",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Supplément familial de traitement",
+        "description": "Réservé aux agents ayant des enfants à charge",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Dossier SFT",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Immatriculation sécurité sociale",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Joindre une copie de l'attestation d'assuré social",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Relevé d'identité bancaire",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Joindre copie du RIB",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone portable",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SITUATION ADMINISTRATIVE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous titulaire de la fonction publique ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Reprise de carrière",
+        "description": "Vous devrez fournir, dans les plus brefs délais, une copie de vos contrats de travail et bulletins de salaire pour une reprise de carrière. Vous pouvez les transférer à l'adresse sgpec@sdis-vendee.fr ou nous les déposer en direct à la direction. ",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Arrêtés de situation administrative",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Joindre les derniers arrêtés de carrière (avancement d'échelon ou de grade) et de régime indemnitaire",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Bulletin de salaire",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Joindre une copie du dernier bulletin de salaire",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "FORMATIONS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Parcours de formation",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Detenez-vous un livret individuel de formation (LIF) ?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Insérer votre LIF certifié par l'autorité territoriale",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation de formations et de compétences",
+            "description": "Télécharger le document joint pour le faire compléter et signer par votre autorité territoriale.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Permis de conduire",
+        "description": "Fournir l'ensemble des permis de conduire détenus (y compris fluvial, nautique...)",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Joindre une copie des permis",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Relevé du compte personnel de formation",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "CPF",
+            "description": "téléchargeable à partir du lien suivant : https://www.moncompteformation.gouv.fr/espace-prive/html/#/",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Joindre une copie du CPF",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "HABILLEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quelle est votre taille en cm (stature) ?",
+        "description": "Exemple : 175 cm",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quelle est votre taille de pantalon (en taille française) ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46",
+          "50",
+          "52",
+          "54 et plus"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quelle est votre taille de polo ou t-shirt ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "2XL"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quelle est votre taille de gants ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quelle est votre pointure (chaussure de ville) ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45",
+          "46",
+          "47",
+          "48",
+          "49",
+          "50"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Casque : votre tour de tête est supérieur à 60 cm ?",
+        "description": "Périmètre crânien mesuré à l'aide d'un mètre ruban. ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IMPRIMÉS À REMPLIR",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Imprimés à remplir",
+        "description": "Les pièces suivantes doivent être imprimées par vos soins. Si vous êtes intéressé(e) par les prestations correspondantes, merci de scanner et d'insérer le(s) document(s) signé(s).",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Dossier de prévoyance Territoria Mutuelle",
+        "description": "Cette prestation correspond à une garantie maintien de salaire facultative. Elle permet de compléter votre rémunération en cas de passage à demi-traitement (après 90 jours de congés de maladie ordinaire).\r\nUne prise en charge partielle par le SDIS est prévue (mensuellement, catégorie C : 7€ - catégories A-B : 5€)\r\nPour plus d'information, vous pouvez contacter : \r\n- Emilie ACHER : 02.51.45.10.59\r\n- Nathalie POUPIN : 02.51.45.49.18",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Merci de retourner uniquement les bulletins d'adhésion",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Titres restaurant",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Souhaitez-vous percevoir les titres restaurant ?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Compléter l'imprimé joint",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Charte de bon usage des moyens informatiques",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Scanner et insérer uniquement la page 13",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous (ou avez-vous été) adhérent CNAS ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez le numéro d'adhérent",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dématérialisation des bulletins de salaire",
+        "description": "Vous pouvez télécharger ci-dessous une note d'information relative à la dématérialisation des bulletins de salaire et la mise en œuvre d'un coffre-fort numérique personnel.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Note d'information relative à la dématérialisation des bulletins de salaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisions",
+        "description": "Vous pouvez apporter toute précision que vous jugez utile à la compréhension du dossier.",
+        "required": false
+      }
+    ]
+  }
+}

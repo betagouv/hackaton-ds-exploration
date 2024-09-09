@@ -1,0 +1,518 @@
+{
+  "number": 29214,
+  "title": "Contrôle des prestations (spécifications Covid-19)",
+  "description": "Téléprocédure permettant de contrôler le respect des spécifications sanitaires émises par le SCA dans le cadre de la crise Covid-19.",
+  "tags": [
+    "Armée"
+  ],
+  "zones": [
+    "Ministère des Armées"
+  ],
+  "datePublication": "2020-04-28T12:27:50+02:00",
+  "service": {
+    "nom": "Service du Commissariat des Armées (SCA / CIM)",
+    "organisme": "Centre Interarmées du Soutien Multiservices (CIM)",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/controle-prestations-specifications-covid-19",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://whaller.com/sphere/qp4j49",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000038216002&categorieLien=id",
+  "logo": {
+    "filename": "sca-600x399.jpg",
+    "checksum": "0iWzK49c2hQcHXPvaH9sAQ==",
+    "byteSize": "33476",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 4,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Contrôleur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Plateforme commissariat de rattachement",
+        "description": "PFC : plateforme commissariat",
+        "required": true,
+        "options": [
+          "PFC CENTRE EST (Lyon)",
+          "PFC CENTRE OUEST (Rennes)",
+          "PFC ILE DE FRANCE (St-Germain-en-Laye)",
+          "PFC NORD EST (Metz)",
+          "PFC OUEST (Brest)",
+          "PFC Rambouillet",
+          "PFC SUD EST (Toulon)",
+          "PFC SUD OUEST (Bordeaux)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Organisme de soutien de rattachement",
+        "description": "GSBdD : groupement de soutien de base de défense",
+        "required": true,
+        "options": [
+          "DICOM ANT - Antilles",
+          "DICOM CIE - Côte d'Ivoire",
+          "DICOM DJI - Djibouti",
+          "DICOM EAU - Emirats arabes unis",
+          "DICOM GBN - Gabon",
+          "DICOM GYE - Guyane",
+          "DICOM RUN - La Réunion",
+          "DICOM NLC - Nouvelle-Calédonie",
+          "DICOM POL - Polynésie française",
+          "GS/DICOM BEFS - Dakar - Sénégal",
+          "GSPI - Groupement de soutien du personnel isolé",
+          "GSBDD AGE - Angoulême",
+          "GSBDD AMS - Angers - Le Mans - Saumur",
+          "GSBDD BFT - Belfort",
+          "GSBDD BGA - Bourges - Avord",
+          "GSBDD BLG - Brive",
+          "GSBDD BMA - Bordeaux - Mérignac - Agen",
+          "GSBDD BSL - Brest",
+          "GSBDD BSN - Besançon",
+          "GSBDD CBG - Cherbourg",
+          "GSBDD CCN - Carcassonne",
+          "GSBDD CFD - Clermont-Ferrand",
+          "GSBDD CLR - Colmar",
+          "GSBDD CQV - Vannes - Coëtquidan",
+          "GSBDD CRL - Creil",
+          "GSBDD CVI - Calvi",
+          "GSBDD CVM - Charleville - Mézières",
+          "GSBDD CZX - Cazaux",
+          "GSBDD DGN - Draguignan",
+          "GSBDD EVX - Evreux",
+          "GSBDD GAP - Gap",
+          "GSBDD GVC - Grenoble - Annecy - Chambéry",
+          "GSBDD ISP - Istres - Salon de Provence",
+          "GSBDD LLE - Lille",
+          "GSBDD LNM - Lyon - Mont-Verdun",
+          "GSBDD LVB - La Valbonne",
+          "GSBDD LXE - Epinal Luxeuil",
+          "GSBDD MDM - Mont-de-Marsan",
+          "GSBDD MHY - Montlhéry",
+          "GSBDD MNM - Mourmelon - Mailly",
+          "GSBDD MRS - Marseille - Aubagne",
+          "GSBDD MTN - Montauban",
+          "GSBDD MTZ - Metz",
+          "GSBDD NCY - Nancy",
+          "GSBDD NLL - Nîmes - Laudan - Larzac",
+          "GSBDD OAN - Orléans - Bricy",
+          "GSBDD PAU - Pau - Bayonne",
+          "GSBDD PBG - Phalsbourg",
+          "GSBDD PEM - Paris Ecole Militaire",
+          "GSBDD RNS - Rennes",
+          "GSBDD RSC - Rochefort - Saintes",
+          "GSBDD SDC - Saint-Dizier - Chaumont",
+          "GSBDD SGH - Strasbourg - Haguenau",
+          "GSBDD SGM - Saint-Germain-en-Laye",
+          "GSBDD SMP - Poitiers - Saint-Maixent",
+          "GSBDD STC - Saint-Christol",
+          "GSBDD TLN - Toulon",
+          "GSBDD TLS - Toulouse",
+          "GSBDD TRS - Tours",
+          "GSBDD VCN - Vincennes",
+          "GSBDD VLC - Valence",
+          "GSBDD VLM - Versailles",
+          "GSBDD VLY - Villacoublay",
+          "GSBDD VRN - Verdun",
+          "GSBDD VTI - Ventiseri – Solenzara"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone de contact permanent",
+        "description": "Numéro de téléphone portable personnel",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Date et lieu du contrôle",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du contrôle effectué",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Lieu exact du contrôle effectué",
+        "description": "Veuillez renseigner l'adresse civile",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "A défaut, veuillez tracer la zone concernée sur la carte",
+        "description": "Veuillez tracer un polygone fermé sur votre écran",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Nettoyage des locaux (NDL)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Contrôle effectué ? (NDL)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Respect des gestes barrières (NDL)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Tenue de travail adaptée (NDL)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si \"NON\", veuillez préciser : (NDL)",
+        "description": "Choix multiples possibles\n",
+        "required": false,
+        "options": [
+          "Pas de masque",
+          "Pas de blouse ou de surblouse (tenue de ville)",
+          "Défaut de port du masque"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Respect du mode opératoire de nettoyage des locaux (NDL)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si \"NON\", veuillez préciser : (NDL)",
+        "description": "Choix multiples possibles",
+        "required": false,
+        "options": [
+          "Non-respect des fréquences",
+          "Non-respect des produits",
+          "Matériel insuffisant ou inadapté",
+          "Absence de nettoyage de certaines zones"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Respect du mode opératoire de nettoyage des zones de contact (NDL)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si \"NON\", veuillez préciser : (NDL)",
+        "description": "Choix multiples possibles",
+        "required": false,
+        "options": [
+          "Non-respect des fréquences",
+          "Non-respect des produits",
+          "Matériel insuffisant ou inadapté",
+          "Défaut (oubli) de nettoyage de certaines zones de contact"
+        ]
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Adaptation des prestations à la demande du chef d'emprise (NDL)",
+        "description": null,
+        "required": false,
+        "options": [
+          "--OUI--",
+          "--NON. Veuillez préciser les raisons de cette non-adaptation :--",
+          "Pas prévu dans le marché",
+          "Mal défini dans le marché"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Blanchissage (BLC)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Contrôle effectué ? (BLC)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Respect de la procédure de retrait du linge (BLC)",
+        "description": null,
+        "required": false,
+        "options": [
+          "--OUI--",
+          "--NON. Veuillez préciser :--",
+          "Non-respect de la mise en sac du linge",
+          "Non-respect du nettoyage du sac avant transport"
+        ]
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Respect des modalités de transport du linge (BLC)",
+        "description": null,
+        "required": false,
+        "options": [
+          "--OUI--",
+          "--NON. Veuillez préciser :--",
+          "Non-respect du port des équipements sanitaires de la personne qui transporte le linge",
+          "Non-respect des emballages préconisés pour le linge pour le linge propre"
+        ]
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Respect de la procédure de lavage (BLC)",
+        "description": null,
+        "required": false,
+        "options": [
+          "--OUI--",
+          "--NON. Veuillez préciser :--",
+          "Non-respect de la température de lavage préconisée",
+          "Non-respect de la durée de lavage préconisée",
+          "Non-respect de la température ET de la durée de lavage préconisées"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Enlèvement des déchets (EDD)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Contrôle effectué ? (EDD)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Respect des gestes barrières (EDD)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Port du masque (EDD)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Adaptation des prestations à la demande du chef d'emprise (EDD)",
+        "description": null,
+        "required": false,
+        "options": [
+          "--OUI--",
+          "--NON. Raison de cette non-adaptation :--",
+          "Pas prévu dans le marché",
+          "Mal défini dans le marché"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Accueil, filtrage, gardiennage (AFG)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Contrôle effectué ? (AFG)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Respect des gestes barrières (AFG)",
+        "description": "\n",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Disponibilité auprès des agents des effets de protection (AFG)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Port du masque (AFG)",
+        "description": "\n",
+        "required": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Réalisation correcte des opérations de désinfection à chaque relève (AFG)",
+        "description": null,
+        "required": false,
+        "options": [
+          "--OUI--",
+          "--NON. Veuillez préciser :--",
+          "Poste de travail non désinfecté",
+          "Mobilier non désinfecté",
+          "Poste de travail ET Mobilier non désinfectés"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Opérations de désinfection mentionnées dans le registre du poste de sécurité (AFG)",
+        "description": "\n",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Évacuation par le prestataire des déchets générés par les agents de sécurité (AFG)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Gestion des espaces extérieurs (GEE)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Contrôle effectué ? (GEE)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Respect des gestes barrières (GEE)",
+        "description": "\n\n\n\n",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Port du masque (GEE)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mise à disposition du personnel des produits de lavage (gel hydro alcoolique, lingettes) (GEE)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Adaptation des prestations à la demande du chef d'emprise (GEE)",
+        "description": null,
+        "required": false,
+        "options": [
+          "--OUI--",
+          "--NON. Raison de cette non-adaptation :--",
+          "Pas prévu dans le marché",
+          "Mal défini dans le marché"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Location de véhicules de transport en commun (VTC)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Contrôle effectué ? (VTC)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Respect des gestes barrières par le conducteur (VTC)",
+        "description": "\n\n",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Porte avant condamnée pour l'accès au bus, accès aux sièges les plus proches du conducteur condamné, rideaux enlevés",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si NON, veuillez préciser : (VTC)",
+        "description": "Choix multiples possibles",
+        "required": false,
+        "options": [
+          "Porte avant non condamnée pour l'accès au bus",
+          "Accès aux sièges les plus proches du conducteur non condamné",
+          "Rideaux non enlevés"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Nettoyage désinfectant de chaque véhicule de transport public attestée par un enregistrement (VTC)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Nettoyage des chambres d’hébergement et d’hôtellerie (2H)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Contrôle effectué ? (2H)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Respect des gestes barrières par le prestataire (2H)",
+        "description": "\n\n",
+        "required": false,
+        "options": [
+          "--OUI--",
+          "--NON. Veuillez préciser :--",
+          "Non-respect du port des équipements sanitaires préconisés",
+          "Non-respect des règles de distanciation",
+          "Non-respect du port des équipements de protection sanitaire"
+        ]
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Respect du mode opératoire de nettoyage de la chambre (2H)",
+        "description": null,
+        "required": false,
+        "options": [
+          "--OUI--",
+          "--NON. Veuillez préciser :--",
+          "Non-respect des procédures de nettoyage  (aération de la chambre, nettoyage des zones contact, nettoyage des chariots de ménage…)",
+          "Non-respect des fréquences de nettoyage",
+          "Non-respect des produits utilisés"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Signature",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, je certifie l'exactitude des contrôles de prestation réalisés",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "number": 55181,
+  "title": "ARSIF - Enquete flash HAD",
+  "description": "Une enquête annuelle est adressée à la direction de votre HAD relative aux médicaments hors liste en sus que vous avez pris en charge une année donnée.\r\nLe Comité Technique Régional d’Information Médicale Ile-de-France réalise une enquête flash de quelques questions à propos de cette enquête.\r\n",
+  "tags": [
+    "Enquete"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-04-25T16:18:38+02:00",
+  "service": {
+    "nom": "ComiteDOSDA",
+    "organisme": "ARS IDF",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/arsif-enquete-flash-had",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.iledefrance.ars.sante.fr/",
+  "cadreJuridiqueUrl": "www.google.fr",
+  "logo": {
+    "filename": "ars_idf.jpg",
+    "checksum": "KTH2cgaaj78nvPe9B71v1Q==",
+    "byteSize": "42110",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "cadre.docx",
+    "checksum": "L28gxXicxzpvmD4OX98w0Q==",
+    "byteSize": "11413",
+    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "dossiersCount": 9,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Une enquête annuelle est adressée à la direction de votre HAD relative aux médicaments hors liste en sus que vous avez pris en charge une année donnée. Le Comité Technique Régional d’Information Médicale Ile-de-France réalise une enquête flash de quelques questions à propos de cette enquête.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l HAD",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "FIness",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous connaissance de cette enquête ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si oui, qui remplit le questionnaire pour votre HAD",
+        "description": null,
+        "required": false,
+        "options": [
+          "- Le DIM ",
+          "- La pharmacie",
+          "- Les 2"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Pour le canal emprunté, l’envoyez-vous à ?",
+        "description": null,
+        "required": false,
+        "options": [
+          "- A l’OMEDIT ",
+          "- A la FNEHAD ",
+          "- Aux 2"
+        ],
+        "otherOption": false
+      }
+    ]
+  }
+}

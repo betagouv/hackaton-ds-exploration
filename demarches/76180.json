@@ -1,0 +1,143 @@
+{
+  "number": 76180,
+  "title": "avis urbanisme parc national en aire d\"adhésion",
+  "description": "réponse aux services instructeurs d'autorisations d'urbanisme pour des projets en aire d'adhésion des parcs nationaux",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2023-06-21T21:26:58+02:00",
+  "service": {
+    "nom": "PATGP, instruction des demandes de travaux",
+    "organisme": "parc national des calanques",
+    "typeOrganisme": "operateur_d_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/avis-urbanisme-parc-national-en-aire-d-adhesion",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.calanques-parcnational.fr/fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074220/LEGISCTA000006176504/",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 163,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "numéro attribué par service instructeur",
+        "description": "indiquer le numéro sans espaces",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "type de demande",
+        "description": "type d'autorisation d'urbanisme (pc, pa, pd, dp, cu)",
+        "required": true,
+        "options": [
+          "PC",
+          "PA",
+          "PD",
+          "DP",
+          "CU"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "nom du demandeur",
+        "description": "indiquer le nom du pétitionnaire ou de la structure pour les personnes morales",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "intitulé des travaux",
+        "description": "description courte des travaux envisagés",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "adresse des travaux",
+        "description": "numéro de voie et adresse des travaux (sans indication de la commune et du code postal",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "commune",
+        "description": "commune où s'effectuent les travaux",
+        "required": false,
+        "options": [
+          "Marseille",
+          "Cassis",
+          "La Ciotat"
+        ]
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "adresse mail instructeur",
+        "description": "coordonnées mail de l'instructeur",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "nom et prénom instructeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "date sollicitation",
+        "description": "date de la réception de la demande d'avis émis par le service instructeur",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "sexe de l'instructeur",
+        "description": "détermination du genre de l'instructeur pour indiquer s'il s'agit de Monsieur ou Madame dans le courrier de réponse",
+        "required": false,
+        "options": [
+          "Madame",
+          "Monsieur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "date limite de réponse",
+        "description": "indiquer le délai maximum de réponse",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "emplacement du projet",
+        "description": "indiquer par un point l'emplacement des travaux",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "plans",
+        "description": "plans sous format zippé",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "mitoyen du coeur ou pas",
+        "description": "indication de la mitoyenneté / au coeur pour tri des dosssiers",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "plan de situation",
+        "description": "plan de situation  en vue de l'impression pour mise à la signature",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "plan de masse",
+        "description": "plan de situation  en vue de l'impression pour mise à la signature",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "number": 51204,
+  "title": "ELECTIONS 2022 - Recensement et adresses des emplacements d'affichage",
+  "description": "Ce questionnaire a pour objectif de recenser le nombre et les adresses des emplacements d'affichage pour les élections présidentielles de 2022.\r\n\r\nIl est à remplir impérativement avant le vendredi 04 février 16 heures.\r\n",
+  "tags": [
+    "Élections"
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2022-01-18T13:30:08+01:00",
+  "service": {
+    "nom": "Bureau des élections et de la réglementation générale",
+    "organisme": "Préfecture du Var",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/elections2022-recensement-emplacements",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/elections2022-recensement-emplacements",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028113846/",
+  "logo": {
+    "filename": "logo pref 83.jpg",
+    "checksum": "TN1foHlU1AUQfaRTo6TM4g==",
+    "byteSize": "344781",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "Article R.28 Code électoral.pdf",
+    "checksum": "Gha3xCWhwsX5SN1h1AB60w==",
+    "byteSize": "380763",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 136,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Arrondissement",
+        "description": null,
+        "required": true,
+        "options": [
+          "Brignoles",
+          "Draguignan",
+          "Toulon"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Circonscription électorale",
+        "description": null,
+        "required": true,
+        "options": [
+          "Circonscription électorale 1",
+          "Circonscription électorale 2",
+          "Circonscription électorale 3",
+          "Circonscription électorale 4",
+          "Circonscription électorale 5",
+          "Circonscription électorale 6",
+          "Circonscription électorale 7",
+          "Circonscription électorale 8"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Canton",
+        "description": null,
+        "required": true,
+        "options": [
+          "001-Brignoles",
+          "002-La Crau",
+          "003-Draguignan",
+          "004-Flayosc",
+          "005-Fréjus",
+          "006-la Garde",
+          "007-Garéoult",
+          "008-Hyères",
+          "009-Le Luc",
+          "010-Ollioules",
+          "011-Roquebrune sur Argens",
+          "012-Saint-Cyr sur Mer",
+          "013-Saint-Maximin-La-Sainte-Baume",
+          "014-Saint-Raphaël",
+          "015-Sainte-Maxime",
+          "016-La Seyne sur Mer 1",
+          "017-La Seyne sur Mer 2",
+          "018-Solliès-Pont",
+          "019-Toulon 1",
+          "020-Toulon 2",
+          "021-Toulon 3",
+          "022-Toulon 4",
+          "023-Vidauban"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de Bureaux de Vote",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'emplacements obligatoires",
+        "description": "De 1 à 500 électeurs : \n1 par bureau de vote\nDe 1 à 4999 électeurs :\n1 par bureau de vote\n5000 électeurs et plus : \n1 par bureau de vote\n\n",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'emplacements supplémentaires",
+        "description": "Si vous n'avez pas d'emplacements supplémentaires, mettre \"0\".\nSinon :\nDe 1 à 500 électeurs : \nau maximum 5 emplacements supplémentaires\nDe 1 à 4999 électeurs :\nau maximum 11 supplémentaires\n5000 électeurs et plus : \n10 supplémentaires + 1 par fraction supérieure à 2 000 électeurs\n\n",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Adresses des emplacements",
+        "description": "Vous avez la possibilité:\n* SOIT d'entrer manuellement l'adresse de vos emplacements (cliquez sur le bouton \"+ ajouter un élément...\" autant de fois que vous avez d'emplacements)\n* SOIT de nous transmettre un fichier contenant l'ensemble de vos adresses en format tableur (voir ci-dessous).",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Entrée manuelle des adresses",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse de l'emplacement",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Entrée par chargement d'un fichier",
+        "description": "Format tableur IMPÉRATIF.",
+        "required": false
+      }
+    ]
+  }
+}

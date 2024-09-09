@@ -1,0 +1,252 @@
+{
+  "number": 66287,
+  "title": "Employeurs : Réclamation sur un dossier d'indemnités journalières",
+  "description": "Je souhaite obtenir des informations sur le dossier d'indemnités journalières d'un salarié affilié à la CPAM de la Manche.\r\n\r\nAvant toute demande, merci de bien vouloir vérifier :\r\n- l'envoi d'un signalement d'évènement DSN ou d'une attestation de salaire via Net-Entreprises pour la période concernée,\r\n- la présence et l'exploitation d'un compte-rendu dans votre tableau de bord accessible depuis votre logiciel de paie ou Net-Entreprise le cas échéant.\r\n\r\nSi vous avez des questions et/ou des demandes de renseignement, vous pouvez aussi contacter le 36.79 du lundi au vendredi de 8h30 à 17h30.\r\n\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-11-09T13:49:19+01:00",
+  "service": {
+    "nom": "Caisse Primaire d'Assurance Maladie - Pôle entreprise",
+    "organisme": "CPAM",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fichier-employeur-reclamation-sur-un-dossier-d-ind",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://declic.cpam50.fr/",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/   ",
+  "logo": {
+    "filename": "revu Manche_Logo_Nov.2020_CMJN jpg.png",
+    "checksum": "LX4Bt+jQLVXJOcbn/1bFmQ==",
+    "byteSize": "917811",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'entreprise",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'entreprise",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Nom du déclarant",
+        "description": "Nom, Prénom",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": "Merci d'indiquer votre mail si vous souhaitez recevoir nos invitations pour participer aux webinaires proposés par l'Assurance Maladie",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification du/de la salarié(e) concerné(e)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Son numéro de Sécurité sociale",
+        "description": "Saisir les 15 chiffres sans espace",
+        "required": true
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "De quelle Caisse Primaire d'Assurance Maladie dépend le (la) salarié(e) concerné(e) ?",
+        "description": "Indiquez le département de la Caisse Primaire d'Assurance Maladie de rattachement du salarié ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Arrêt de travail",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Motif de l'arrêt",
+        "description": "Merci de sélectionner le motif de l'arrêt concerné",
+        "required": true,
+        "options": [
+          "Maladie",
+          "Maternité",
+          "Paternité",
+          "Congés d'adoption",
+          "Accident du travail",
+          "Maladie professionnelle"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mode de transmission de l'attestation de salaire",
+        "description": "Merci de sélectionner le mode de transmission de l'attestation de salaire\r\n",
+        "required": true,
+        "options": [
+          "Formulaire papier",
+          "DSIJ",
+          "DSN"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de transmission",
+        "description": "Merci d'indiquer la date de transmission des informations ",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début de l'arrêt de travail",
+        "description": "Format jj/mm/aaaa",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de fin de l'arrêt de travail",
+        "description": "Format jj/mm/aaaa",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Motif de la réclamation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Motif de la réclamation",
+        "description": "Afin de vous guider dans votre réclamation, merci de saisir au moins un des motifs ci-dessous ",
+        "required": true,
+        "options": [
+          "IJ non réglées",
+          "Erreur sur le destinataire de paiement",
+          "Erreur sur la période indemnisée",
+          "Erreur sur le montant de l'IJ",
+          "Erreur sur le dernier jour travaillé",
+          "Erreur sur la date de reprise de travail",
+          "Autre motif"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si votre réclamation concerne une erreur sur le destinataire de règlement, merci d'indiquer à qui doit être versées les IJ",
+        "description": "Attention : aucune régularisation en faveur de l'employeur ne sera effectuée si la période de subrogation n'a pas été renseignée sur l'attestation de salaire.",
+        "required": false,
+        "options": [
+          "Assuré",
+          "Employeur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si votre réclamation concerne une erreur sur le montant de l'IJ, merci d'indiquer les informations nécessaires à la révision du dossier",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Si votre réclamation concerne une erreur sur le dernier jour travaillé, merci d'indiquer la date du dernier jour de travail",
+        "description": "Attention : le changement de date du dernier jour de travail peut modifier la période de référence des salaires. Si tel est le cas, vous devez obligatoirement faire un signalement d'événement DSN \"annule et remplace\" ou une attestation de salaire \"rectificative\" via Net-Entreprises.",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Si votre réclamation concerne une erreur sur la date de reprise de travail, merci d'indiquer la date de reprise du travail",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Si votre réclamation concerne une erreur sur la date de début de la période indemnisée, merci d'indiquer la date de début",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Si votre réclamation concerne une erreur sur la date de fin de la période indemnisée, merci d'indiquer la date de fin",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Tous les documents que vous jugerez nécessaire de nous transmettre",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Vous pouvez déposer ici tout document",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Engagement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, je certifie conforme les saisies et je signe ma déclaration.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Le",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

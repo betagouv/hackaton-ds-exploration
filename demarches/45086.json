@@ -1,0 +1,394 @@
+{
+  "number": 45086,
+  "title": "Contestation de la caractérisation d'un écoulement - Cartographie des cours d'eau de Haute-Garonne",
+  "description": "La notion de cours d'eau, à laquelle plusieurs réglementations se réfèrent, est définie par l'article L215-7-1 du code de l'environnement. La détermination sur la base des critères définis dans cet article n'est pas toujours aisée. Afin de clarifier la réglementation pour les usagers, le ministère en charge de l'écologie a demandé aux services de l’État de mettre en place une cartographie départementale des cours d'eau.\r\n\r\nUn cours d'eau est caractérisé par l'existence de trois critères cumulatifs:\r\n- la présence d'un lit, naturel à l'origine\r\n- l'alimentation par une source\r\n- un débit suffisant une majeure partie de l'année\r\n\r\nLes cours d'eau référencés sur cette carte sont notamment concernés par l'article R214-1 du code de l'environnement, qui soumet à déclaration ou autorisation du service en charge de la police de l'eau un certain nombre  d'opérations susceptibles de porter atteinte aux milieux aquatiques.\r\n\r\nLa carte réalisée pour le département de la Haute-Garonne est évolutive. Chacun a la possibilité de contester la nature d'un écoulement. Pour le faire, le demandeur doit renseigner les motifs de la contestation, avec des photos à l'appui, dans le formulaire suivant.\r\n\r\nCes demandes seront traités par la Direction Départementale des Territoires de Haute-Garonne.\r\n\r\nToute demande incomplète ou insuffisamment justifiée pourra faire l'objet d'un classement sans suite.",
+  "tags": [
+    "Eau"
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2021-09-13T12:15:15+02:00",
+  "service": {
+    "nom": "Service Environnement, Eau et Forêt - cartographie des cours d'eau",
+    "organisme": "Direction Départementale des Territoires de Haute-Garonne",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/carto-cours-eau-31",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.haute-garonne.gouv.fr/Politiques-publiques/Environnement-eau-risques-naturels-et-technologiques/Procedures-environnementales/Eau-et-assainissement/Cartographie-et-entretien-des-cours-d-eau/La-cartographie-des-cours-d-eau-de-la-Haute-Garonne",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/circulaire/id/39701?fonds=CIRC&page=1&pageSize=10&query=instruction+3+juin+2015&searchField=ALL&searchType=ALL&tab_selection=all&typePagination=DEFAULT",
+  "logo": {
+    "filename": "pref_haute_garonne_rvb_cle727516.jpg",
+    "checksum": "r7AXwjs5DI7M8F3yMysd8A==",
+    "byteSize": "469185",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 96,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. Informations personnelles",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Organisme",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Mail",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. Informations sur le tronçon contesté",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identifiant du tronçon contesté",
+        "description": "L'identifiant du tronçon est disponible sur la carte mise en ligne sur le site de la préfecture :\nhttp://carto.geo-ide.application.developpement-durable.gouv.fr/131/Carto_cours_eau.map\nIl est de la forme suivante:\n31-ZONEX-xxxx\navec X le numéro de la zone et xxxx le numéro du tronçon\nEn cas de demande de création de tronçon, indiquer NULL dans ce champ.\nAvertissement : un remplissage incorrect de ce champ peut conduire à un rejet ou une incompréhension de la demande par le service instructeur.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d'écoulement actuel du tronçon",
+        "description": null,
+        "required": true,
+        "options": [
+          "Cours d'eau",
+          "Non cours d'eau",
+          "Cours d'eau busé",
+          "Inexistant",
+          "Indéterminé"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Requête",
+        "description": null,
+        "required": true,
+        "options": [
+          "Classement en Cours d'eau",
+          "Classement en Non cours d'eau",
+          "Découpage du tronçon",
+          "Classement en Inexistant",
+          "Classement en Cours d'eau busé",
+          "Ajout d'un tronçon",
+          "Modification de tracé"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Localisation exacte de la contestation",
+        "description": "Joindre une carte faisant figurer : \n- la portion de tronçon sur laquelle porte la contestation (identification des limites amont et aval)\n- le tracé souhaité en cas de demande d'ajout ou de modification\nAttention : en cas de demande d'ajout ou de modification de tracé, cette pièce est obligatoire.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire éventuel",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. Analyse du tronçon",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.1. Critères majeurs",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Lit naturel à l'origine",
+        "description": "Lit creusé, présent sur les cartes historiques",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Alimentation par une source",
+        "description": "Attention: les sources ne sont pas forcément visibles",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Débit suffisant une majeure partie de l'année",
+        "description": "Écoulement plus de 6 mois dans l'année",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.2. Critères complémentaires (facultatifs)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Continuité amont-aval",
+        "description": "tronçon relié au réseau hydrographique",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Présence de berges et de substrat différencié",
+        "description": "Caractéristique d'un débit suffisant une majeur partie de l'année",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Présence d'espèces aquatiques végétales ou animales",
+        "description": "Espèces nécessitant de l'eau en continu. \nCaractéristique d'un débit suffisant plus de 6 mois dans l'année",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Je ne sais pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, précisez le nom des espèces",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Photos éventuelles",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Photos de ou des espèces",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.3. Point GPS et photos",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "En cas d'incohérence entre les coordonnées GPS et la localisation du tronçon, la demande sera automatiquement rejetée",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Localisation des points",
+        "description": "Vous pouvez si vous le souhaitez utiliser ce module cartographique pour identifier les coordonnées GPS à remplir dans la présente rubrique.\nPlacer les points depuis lesquels les photos ont été prises. Merci de préciser pour chaque point s'il s'agit de l'amont, l'aval ou le milieu.\nIl est possible de choisir le fond de carte en cliquant sur l'icône en bas à gauche.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.3.1. Point amont",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Système de coordonnés du point amont",
+        "description": "Obligatoire si points non positionnés sur la carte.",
+        "required": false,
+        "options": [
+          "GPS (WCS 84)",
+          "RGF93 / Lambert 93"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Longitude ou coordonnées X - point amont",
+        "description": "Obligatoire si points non positionnés sur la carte.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Latitude ou coordonnées Y - point amont",
+        "description": "Obligatoire si points non positionnés sur la carte.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Photo point amont",
+        "description": "Cette photo doit être prise depuis le point amont, et montrer l'aval.\nLe fond du lit doit être visible.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.3.2. Point milieu",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Système de coordonnés du point milieu",
+        "description": "Obligatoire si points non positionnés sur la carte.",
+        "required": false,
+        "options": [
+          "GPS (WCS 84)",
+          "RGF93 / Lambert 93"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Longitude ou coordonnées X - point milieu",
+        "description": "Obligatoire si points non positionnés sur la carte.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Latitude ou coordonnées Y - point milieu",
+        "description": "Obligatoire si points non positionnés sur la carte.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Photo point milieu vers l'amont",
+        "description": "Cette photo doit être prise à peu près au milieu du linéaire contesté et montrer la partie amont du tronçon.\nLe fond du lit doit être visible.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Photo point milieu vers l'aval",
+        "description": "Cette photo doit être prise à peu près au milieu du linéaire contesté et montrer la partie aval du tronçon\nLe fond du lit doit être visible.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.3.3. Point aval",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Système de coordonnés du point aval",
+        "description": "Obligatoire si points non positionnés sur la carte.",
+        "required": false,
+        "options": [
+          "GPS (WCS 84)",
+          "RGF93 / Lambert 93"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Longitude ou coordonnées X - point aval",
+        "description": "Obligatoire si points non positionnés sur la carte.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Latitude ou coordonnées Y - point aval",
+        "description": "Obligatoire si points non positionnés sur la carte.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Photo point aval",
+        "description": "Cette photo doit être prise depuis le point aval, et montrer l'amont.\nLe fond du lit doit être visible.",
+        "required": true
+      }
+    ]
+  }
+}

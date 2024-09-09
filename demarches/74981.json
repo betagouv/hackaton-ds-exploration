@@ -1,0 +1,797 @@
+{
+  "number": 74981,
+  "title": "Labellisation des consultations mémoire de territoire",
+  "description": "Labellisation des consultations mémoire de territoire",
+  "tags": [
+    "ars",
+    "nouvelle-aquitaine",
+    "consultation",
+    "mémoire"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2023-06-30T14:10:55+02:00",
+  "service": {
+    "nom": " Direction déléguée à l'organisation de l'offre de soins et à la réponse aux situations sanitaires exceptionnelles, Pôle soins de ville et hospitaliers",
+    "organisme": "Agence régionalde de santé Nouvelle-Aquitaine",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/labellisation-consultations-memoire-de-territoire",
+  "dpoUrl": "ars-na-offre-de-soins-sse@ars.sante.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.nouvelle-aquitaine.ars.sante.fr/",
+  "cadreJuridiqueUrl": "https://sante.gouv.fr/fichiers/bo/2022/2022.21.sante.pdf",
+  "logo": {
+    "filename": "BlocLogo_ARS_ETAT-0_-22.jpg",
+    "checksum": "6HM+k2T+b/04AZpPxjb9Mw==",
+    "byteSize": "93163",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "DémarcheLabellisation.pdf",
+    "checksum": "eIDnHYYwE8CmTDq0q0bftw==",
+    "byteSize": "142271",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 35,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1- Données administratives du porteur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1-1 Raison sociale de l'établissement de santé porteur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1-2 Commune d'implantation de l'établissement de santé porteur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "1-3 FINESS géographique",
+        "description": "9 chiffres\r\nhttps://finess.sante.gouv.fr/\r\n",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1-4 Identité du Directeur ou Directrice de l'établissement de santé porteur",
+        "description": "Nom et Prénom",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1-5 Identité du contact privilégié pour ce dossier",
+        "description": "Nom, Prénom, fonction ",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "1-6 Courriel du contact privilégié pour ce dossier",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2- Coordonnées de la consultation mémoire de territoire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "2.1 Dénomination de la CMT",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "2.2 Responsable administratif de la CMT",
+        "description": "Nom / prénom / fonction / courriel / téléphone (ligne directe)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "2.3 Responsable médical de la CMT",
+        "description": "Nom / prénom / fonction / courriel / téléphone (ligne directe)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3- Périmètre géographique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Territoire de recours de la CMT",
+        "description": "La consultation mémoire dessert le territoire défini lors de sa labellisation par l’ARS.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Territoire de recours de la CMT pour cette labellisation",
+        "description": "Nom du territoire\r\n\r\n\r\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre la liste des communes composant le territoire de recours de la CMT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4- Organisation de la CMT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nouveau champ",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Organisation de la CMT",
+        "description": "Une consultation mémoire de territoire peut être implantée sur un site géographique (selon la nomenclature FINESS) ou sur plusieurs sites géographiques du même établissement de santé (entité juridique). \r\nDès lors qu’elle est organisée sur plusieurs sites, un des sites est identifié comme le « porteur de consultation mémoire de territoire ». Il accueille le coordonnateur de la consultation mémoire de territoire. En cas d’une organisation multi-site, une coordination ou gouvernance est organisée.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "4-1 Préciser le CMRR qui couvre le territoire de la CMT",
+        "description": "\r\n",
+        "required": true,
+        "options": [
+          "CMRR du CHU de Bordeaux",
+          "CMRR du CHU de Limoges",
+          "CMRR du CHU de Poitiers"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "4-2 La consultation mémoire de territoire est organisée",
+        "description": "",
+        "required": true,
+        "options": [
+          "sur un seul site",
+          "sur plusieurs sites"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Si la CMT est implantée sur un seul site",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "commune de localisation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "jours et horaires de consultation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Si la CMT est implantée sur plusieurs sites (CMT multi-sites)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Site 1 (porteur de la CMT) : nom de la structure",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Site 1 (porteur de la CMT) : commune de localisation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Site 1 (porteur de la CMT) : jours et horaires de consultation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Site 2 : nom de la structure",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Site 2 : commune de localisation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Site 2 : jours et horaires de consultation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Site 3 : nom de la structure",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Site 3 : commune de localisation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Site 3 : jours et horaires de consultation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quelles sont les modalités de gouvernance et de coordination de la CMT multi-sites ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Coordonnées du coordinateur médical de la consultation mémoire multi-sites",
+        "description": "Nom / prénom / fonction",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire sur l’organisation de la CMT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5-. Modalités d’accès à la CMT",
+        "description": "Le lieu de consultation doit être adapté au public accueilli.\r\nLa CMT doit être facilement identifiable au sein de l’établissement de santé quelle que soit son organisation (le cas échéant multi-sites). Elle rend visible ses horaires, son organisation ainsi que ses modalités d’accès pour les patients et leurs aidants et les acteurs du territoire et de réponse experte aux sollicitations des professionnels.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Accès à la CMT",
+        "description": "Le lieu de consultation doit être adapté au public accueilli.\r\nLa CMT doit être facilement identifiable au sein de l’établissement de santé quelle que soit son organisation (le cas échéant multi-sites). Elle rend visible ses horaires, son organisation ainsi que ses modalités d’accès pour les patients et leurs aidants et les acteurs du territoire et de réponse experte aux sollicitations des professionnels.",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "5.1 Quelles sont les modalités de prise de rendez-vous pour les patients et leurs aidants",
+        "description": "",
+        "required": true,
+        "options": [
+          "Ligne téléphonique",
+          "Plateforme de prise de rendez-vous",
+          "Pas de prise de rendez-vous directement par le patient ou son aidant",
+          "Autres"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si autres modalités de prise de rendez-vous, précisez",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaire sur les modalités de prise de rendez-vous par les patients et leurs aidants",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "5.2 Quelles sont les modalités de prise de rendez-vous pour un professionnel de santé ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Ligne téléphonique dédiée",
+          "Messagerie sécurisée dédiée",
+          "Plateforme de prise de rendez-vous dédiée",
+          "Autres"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si autres modalités de prise de rendez-vous, précisez",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire sur les modalités de prise de rendez-vous par les professionnels de santé",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "5.3 Quelles modalités d’accès proposez-vous pour de la télémédecine et/ou de la téléexpertise ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "5.4 Quelles modalités d’accès à une réponse experte proposez-vous aux professionnels de premier recours ou d’un service hospitalier ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "5.5 Quelles modalités d’accès à une réponse experte proposez-vous aux professionnels des établissements et services médicosociaux ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire sur les modalités d’accès à la CMT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "6. Accès au plateau technique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Plateau technique",
+        "description": "La consultation mémoire est dotée d’un accès organisé au plateau technique sur site en propre (de manière dérogatoire par voie de convention) suivant :\r\n•\timagerie cérébrale (scanner et IRM) ;\r\n•\texamens biologiques.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "6.1 Quelles sont les modalités d’accès facilité au plateau technique pour l'imagerie (plateau technique en site propre) ?",
+        "description": "Modalités d'accès facilité pour la CMT",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "6.2 Quelles sont les modalités d’accès facilité au plateau technique pour la biologie (plateau technique en site propre) ?",
+        "description": "Modalités d'accès facilité pour la CMT",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "6.3 Le cas échéant, quelles sont les modalités d’accès à un plateau technique hors du site porteur ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre les conventions",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "7. Équipe pluridisciplinaire dédiée à la CMT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Équipe pluridisciplinaire",
+        "description": "La CM est composée d’une équipe pluridisciplinaire comportant au moins :\r\n•\t0,5 ETP médical \r\n-\tAvec des compétences médicales en neurologie et/ou gériatrie, et/ou psychiatrie, \r\n-\tAu moins deux des trois disciplines doivent être représentées au sein des personnels médicaux affectés à la CM ou, le cas échéant, un accès rapide à une de ses disciplines doit être formalisé par convention et organisé.\r\n-\tPour les compétences non représentées, un accès formalisé est organisé (convention).\r\n•\t0,5 ETP de neuropsychologue, assuré par un neuropsychologue ou, par défaut, par un psychologue ou un orthophoniste formés à la psychométrie et aux tests neuropsychologiques validés, aux modalités de réadaptation et au soutien aux patients et aux aidants.\r\n•\t0,5 ETP de secrétariat assurant entre autres l’accueil des patients et le recueil des données d’activité de la BNA. \r\n•\tUn temps infirmier de consultation est préconisé en fonction de la file active. L’infirmier formé peut intervenir par exemple dans la consultation d’annonce, l’évaluation des troubles psycho-comportementaux et l’évaluation de l’aidant, l’élaboration et la coordination du plan de soins et d’aide élaboré par la CM s’appuyant sur la filière « Alzheimer » du territoire, en collaboration avec le médecin spécialiste et le médecin traitant.\r\n\r\nCes effectifs sont calculés sur une base de 125 nouveaux patients par an et tiennent compte de l’activité propre à la consultation mémoire et, le cas échéant, de celle induite par les CM de proximité rattachées à la CM de territoire.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre la description de l'équipe pluridisciplinaire",
+        "description": "Remplir et joindre le fichier \"Liste_Equipe_CMT.xlsx\" ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précisez les modalités de travail en équipe et de formation continue du personnel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire sur l’équipe pluridisciplinaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "8. Projet Médical",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Projet Médical",
+        "description": "La consultation mémoire élabore un projet médical. Ce dernier intègre les partenariats.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "8.1 Quelle est la part du temps de travail du responsable médical dédié à la consultation mémoire ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre le projet médical",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "8.2 Le projet médical est-il intégré dans le projet médical du GHT ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "8.3 si le projet médical de la CMT est intégré au projet médical du GHT, décrivez comment",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire sur le projet médical",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "9. Animation du territoire et partenariats",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Animation du territoire et partenariats",
+        "description": "La CM est le partenaire sur son territoire des acteurs du parcours des personnes atteintes de la maladie d’Alzheimer et des maladies apparentées et notamment des :\r\n-\tAssociations de personnes et de leurs aidants\r\n-\tOrganisations de soins de premier recours coordonnées (notamment les CPTS)\r\n-\tActeurs sanitaires tels que les UCC, les acteurs sociaux et médico-sociaux du parcours (ESA notamment\r\n-\tDispositifs d’appui à la coordination des parcours de santé complexes (DAC) \r\n-\tÉtablissements sociaux et médico-sociaux et des USLD accueillant des personnes atteintes de la maladie d’Alzheimer ou apparentées.\r\nElle désigne un professionnel référent pour les EHPAD et USLD de son territoire.\r\nElle assure son rôle avec les acteurs de la filière gériatrique et la filière neurologique de territoire dont elle est un des partenaires privilégiés.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "9.1 Avez-vous mis (ou allez-vous mettre) en place un partenariat avec les associations de patients et dispositifs d’aide aux aidants ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, avec quels acteurs ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels sont les partenariats existant ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels sont les partenariats à venir ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "9.2 Avez-vous mis (ou allez-vous mettre) en place un partenariat avec les organisations de soins de premier recours (CPTS, MSP...) ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, avec quels acteurs ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels sont les partenariats existant ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels sont les partenariats à venir ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "9.3 Avez-vous mis (ou allez-vous mettre) en place un partenariat avec les acteurs de la filière gériatrique (équipes mobiles, UCC...) ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, avec quels acteurs ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels sont les partenariats existant ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels sont les partenariats à venir ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "9.4 Avez-vous mis (ou allez-vous mettre) en place un partenariat avec les structures médicosociales (EHPAD, PASA, SSIAD, ESA...) et les USLD ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, avec quels acteurs ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels sont les partenariats existant ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels sont les partenariats à venir ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "9.5 Avez-vous mis (ou allez-vous mettre) en place un partenariat avec les dispositifs d'appui à la coordination (DAC-PTA) ou autres dispositifs de coordination de parcours ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, avec quels acteurs ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels sont les partenariats existant ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quels sont les partenariats à venir ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "9.6 Identité du référent Ehpad, USLD, ESA",
+        "description": "Nom, prénom, spécialité, temps dédié, adresse mail",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire sur l'animation et les partenariats",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "10. Rôle de recours et identification des consultations mémoire de proximité (CMP)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Rôle de recours et identification des CMP",
+        "description": "Dans certains territoires, des consultations mémoire de proximité peuvent faire l’objet d’une reconnaissance par les agences régionales de santé (ARS) afin de combiner une accessibilité au diagnostic et une facilitation du plan de soins et d’aide partagé avec les professionnels prenant en charge des personnes présentant des troubles neurocognitifs liés à la maladie d’Alzheimer. \r\nElles peuvent être implantées dans des établissements de santé ou relever du secteur libéral. \r\nElles se différencient des consultations mémoire de territoire par une absence de plateau technique complet ou de compétences de neuropsychologues. Une convention les lie aux consultations mémoire de territoire afin de définir leurs modalités d’accès aux ressources humaines et plateau techniques de ces dernières. \r\n\r\nLa CM de territoire est le recours des CM de proximité et met ses compétences (par exemple neuropsychologiques prescrits) à disposition des CM de proximité dans les conditions prévues par la convention liant ces centres.\r\nDans le cadre d’une convention, des professionnels d’une consultation mémoire de territoire peuvent exercer, hors les murs de son établissement de santé (entité juridique) sur le site d’une consultation mémoire de proximité. .\r\n\r\nA minima, chaque consultation mémoire de proximité bénéficie de réunions pluridisciplinaires communes organisées avec la CMT de son territoire de rattachement",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "10.1 Votre territoire dispose-t-il de consultations mémoire de proximité ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre la liste des CMP en établissement de santé de votre territoire",
+        "description": "Remplir et joindre le fichier \"Liste CMP ES.xlsx\"",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre la liste des CMP libérales de votre territoire",
+        "description": "Remplir et joindre le fichier \"Liste CMP libérales.xlsx\"",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "10.2 Les professionnels de la consultation mémoire de territoire exercent-ils (ou exerceront-il) sur le site d’une consultation mémoire de proximité par voie de conventionnement ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "CMP en établissement de santé",
+          "CMP libérales",
+          "Non"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, sur le site de quelles CMP ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "10.3 Quelles sont les modalités d’accès au plateau technique de la CMT par les consultations mémoire de proximité ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "10.4 Quelles sont les modalités d’appui de la CMT à l’enrichissement de la BNA par les consultations mémoire de proximité ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "10.5 Quelles sont les modalités d’animation du réseau des consultations mémoire de proximité par la CMT ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire sur le rôle de recours",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "11. Activité 2022",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "11.1 Activité de soin",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Prise en soins",
+        "description": "La CM de territoire doit avoir pour cible une file active annuelle d’au moins 125 nouveaux patients ayant fait l’objet d’une évaluation neurocognitive constatée.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "11.1.1 Nombre de nouveaux patients  en 2022",
+        "description": "Patients ayant fait l’objet d’une évaluation neurocognitive constatée en 2022",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "11.1.2 File active en 2022",
+        "description": " Nombre de patients vus au moins une fois dans l’année 2022",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "11.2 BNA",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "BNA",
+        "description": "La CM de territoire assure le renseignement de la BNA, transmet les données/items du corpus minimal des informations Alzheimer (CIMA), dans le respect du règlement général de protection des données (RGPD).",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre une extraction des données de 2022 de la BNA pour la consultation qui sollicite la labellisation CMT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "11.2.1 En cas de non enregistrement des patients dans la BNA, ou enregistrement d’une partie de l’activité, préciser les circonstances (problèmes techniques, etc.)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "11.3 Activité de formation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Activité de formation",
+        "description": "Les missions des CMT dans le domaine de la formation :\r\n- Participer à la formation des professionnels du premier recours et des professionnels des secteurs sanitaires et médico-sociaux qui contribuent au suivi et à l’accompagnement des personnes atteintes de la maladie d’Alzheimer et des maladies apparentées ; \r\n- Possibilité de participer à des actions de formation grand public",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "11.3.1 Quelles sont les activités de formation portée par la CMT en 2022 ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire sur l’activité 2022",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "12. Activité prévisionnelle",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "12.1 Quelle est votre cible de nouveaux patients pour 2023 ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "commentaire général",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "13. Commentaire général",
+        "description": "Si besoin, vous pouvez vous exprimer ici",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Lettre d'engagement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Lettre d'engagement",
+        "description": "Votre dossier doit être accompagné d’une fiche d’engagement signée par le porteur (fiche disponible sur le site de l'ARS - AAC Campagne 2023 de labellisation des CRRR et CMT)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "lettre d'engagement",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

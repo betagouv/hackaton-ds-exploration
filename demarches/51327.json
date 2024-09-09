@@ -1,0 +1,102 @@
+{
+  "number": 51327,
+  "title": "Bilan de rentrée EILE 2021-2022 - DSDEN 92",
+  "description": "Comme chaque année, une enquête EILE nous est envoyée par la DGESCO dans le but de faire un point sur les cours dispensés dans chaque circonscription. Il s’agit, pour chaque école de la carte scolaire, d’indiquer l’effectif des élèves et le nombre de groupes constatés.",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2021-11-30T11:28:05+01:00",
+  "service": {
+    "nom": "Division de l'organisation scolaire (DOS)",
+    "organisme": "Direction des services départemenatux de l'éducation nationale des Hauts-de-Seine - DSDEN 92",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/bilan-eile-2021-2022",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://ariane.ac-versailles.fr/pia/jcms/s2_7588190/fr/bilan-de-rentree-eile-2021-2022",
+  "cadreJuridiqueUrl": "https://www.education.gouv.fr/bo/15/Hebdo39/MENE1524876C.htm",
+  "logo": {
+    "filename": "logo-dsden-quadri.jpg",
+    "checksum": "kwM+1M/8wk9oUy6kWS5Kkg==",
+    "byteSize": "27940",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 27,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la circonscription",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Données par école",
+        "description": "Ce bloc est répétable à l'infini. Veuillez le dupliquer (en cliquant sur : Ajouter un élément pour « Données par école », en bas de la page) pour chaque école dans laquelle le dispositif est implanté.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de l'école",
+            "description": "Veuillez inscrire le nom de l'école.\nExemple : E.E.P.U. Paul Vaillant Couturier",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de l'enseignant",
+            "description": "Veuillez indiquer le nom de l'enseignant nommé et installé dans l'école mentionnée.",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Langue enseignée",
+            "description": null,
+            "required": true,
+            "options": [
+              "Arabe (Algérie)",
+              "Arabe (Maroc)",
+              "Arabe (Tunisie)",
+              "Italien",
+              "Portuguais"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Effectif réel",
+            "description": "Veuillez indiquer le nombre d'élèves bénéficiant du dispositif EILE dans l'école mentionnée.",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Si l'effectif réel est égal à 0",
+            "description": "Veuillez donner quelques éléments expliquant que l'effectif réel dans votre circonscription soit égal à 0.",
+            "required": false,
+            "options": [
+              "Fermeture du cours",
+              "Enquête en cours",
+              "Absence d’enseignant",
+              "Information inconnue",
+              "Changement de lieu de cours",
+              "Suspension pour cause sanitaire"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre réel de groupe(s)",
+            "description": "Veuillez indiquer le nombre de groupes EILE dans votre circonscription.",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

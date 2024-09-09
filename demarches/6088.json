@@ -1,0 +1,266 @@
+{
+  "number": 6088,
+  "title": "Demande de remboursement de la CES",
+  "description": "Formulaire de demande de remboursement de la contribution exceptionnelle de solidarité ",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2018-07-02T13:31:02+02:00",
+  "service": {
+    "nom": "DINSIC",
+    "organisme": "DINSIC",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fds_ces",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/fds_ces",
+  "cadreJuridiqueUrl": "http://www.fonds-de-solidarite.fr/",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 26,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Motivation de la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "La demande doit être faite par un employeur public et non par l'agent concerné",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Choisissez le motif de votre demande",
+        "description": "",
+        "required": true,
+        "options": [
+          "Rémunération inférieure au seuil",
+          "Calcul erroné de l'assiette",
+          "Adhésion au RAC",
+          "Double versement",
+          "Changement de situation",
+          "Versements non destinés au FDS"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Motivation de votre demande",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Période et montant concernés par la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début de la période",
+        "description": "Période la plus large comprenant l’ensemble des personnels concernés",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de fin de la période",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Montant demandé",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Renseignement complémentaire pour les télédéclarants FDS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Numéro d'inscription TéléFdS",
+        "description": "Si vous êtes télédéclarant sous TéléFdS, veuillez renseigner votre numéro d'inscription. Ce numéro comporte 8 chiffres",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations de contact",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Qualité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique",
+        "description": "Indiquez de préférence l'adresse électronique du service demandeur",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations bancaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB de votre organisme",
+        "description": "Il s'agit des informations bancaires de l'établissement demandeur",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Motif de la demande : pièces obligatoires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie de la déclaration de versement de la CES certifiée par le comptable assignataire de la paye",
+        "description": "Cachet et visa de l'ordonnateur ainsi que du comptable assignataire de la dépense. En l'absence de ces éléments, la demande sera rejetée.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bordereau récapitulatif de la CES indûment versée, revêtu du cachet de la collectivité ou de l'organisme, signé par l'ordonnateur et certifié par le comptable ou l'agent comptable assignataire de la paye (Annexe 3)",
+        "description": "Cachet et visa de l'ordonnateur ainsi que du comptable assignataire de la dépense. En l'absence de ces éléments, la demande sera rejetée.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces complémentaires en fonction du motif de la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Détail des pièces à joindre en fonction du motif de votre demande",
+        "description": "En cas de rémunération inférieure au seuil, y compris en cas de pluralité d'employeurs,\r\n- Joindre les pièces A, B et C<br/>\r\nEn cas de calcul erroné de l’assiette,\r\n- Joindre les pièces A et B\r\n<br/>\r\nEn cas d'adhésion au RAC,\r\n- Joindre les pièces justificatives D, E et F\r\n<br/>\r\nEn cas de double versement,\r\n- Joindre les pièces G et H\r\n<br/>\r\nEn cas de changement de situation administrative,\r\n- Joindre la pièce I\r\n<br/>\r\nEn cas de versement non destiné au FDS,\r\n- Joindre les pièces J et K",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "A - Fichier des données de paie indiquant les précomptes de CES effectués à tort pour les agents concernés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "B - Copie intégrale des textes ayant institué les primes ou indemnités éventuelles",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "C - Attestation de non-cumul de rémunérations (en cas de temps incomplet)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "D - Copies des justificatifs de paiement des cotisations à l’URSSAF",
+        "description": "Pour toute adhésion révocable ou irrévocable au Régime d'Assurance Chômage (RAC)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "E - Copie du contrat d’adhésion au RAC",
+        "description": "Pour toute adhesion révocable au RAC",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "F - Justificatif permettant de vérifier l’effectif couvert .",
+        "description": "si le nombre d'agents couverts par le contrat d'adhésion au RAC a évolué",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "G - Copies d'écran éditées et certifiées par le comptable assignataire de la paie à partir de l'application de gestion comptable Hélios montrant la prise en charge de la CES et son paiement à destination du FDS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "H - Extrait du relevé de compte bancaire de l'organisme sur lequel sont débitées les opérations de versement de la CES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "I - Arrêté de changement de situation administrative",
+        "description": "ou tout autre document justifiant de la demande",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "J - Courrier de la partie versante explicitant l’erreur et demandant le reversement.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "K - Pièce justificative du paiement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations relatives au paiement initial (informations déjà demandées préalablement en cas de motif de \"double paiement\")",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si vous avez effectué un versement directement auprès d’une DDFIP ou DRFIP, vous devez obligatoirement joindre les pièces suivantes",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "G - Copies d'écran éditées et certifiées par le comptable assignataire de la paie à partir de l'application de gestion comptable Hélios montrant la prise en charge de la CES et son paiement à destination du FDS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si le versement a été effectué par virement ou par chéque directement au FDS, vous devez obligatoirement joindre les pièces suivantes",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "H - Extrait du relevé de compte bancaire de l'organisme sur lequel sont débitées les opérations de versement de la CES",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

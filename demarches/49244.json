@@ -1,0 +1,86 @@
+{
+  "number": 49244,
+  "title": "Demandes spécifiques de quota d'irrigation Aube 2022",
+  "description": "Ce format concerne  pour :\r\n\r\n- une demande de volume global annuel, les essais de culture,  ..., expérimentation.\r\n\r\n- la réallocation de quota d’un détenteur vers un autre détenteur.",
+  "tags": [
+    "Agriculture"
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2022-04-06T15:10:58+02:00",
+  "service": {
+    "nom": "Direction Départementale des Territoires de l'Aube",
+    "organisme": "DDT 10 / Service Eau et Biodiversité ",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demandes-specf2022",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.aube.gouv.fr/Politiques-publiques/Environnement/Eau/Ressource-en-eau/Secheresse",
+  "cadreJuridiqueUrl": "http://www.aube.gouv.fr/Politiques-publiques/Environnement/Eau/Ressource-en-eau/Secheresse",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 16,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "IMPORTANT",
+        "description": "Un accusé de réception automatique vous sera adressé après validation.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° pacage du responsable",
+        "description": "Attention : Un numéro pacage commence par 010 et comporte 9 caractère",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Demande spécifique",
+        "description": "Pour une demande de transfert : Déclaré l'émetteur et le bénéficiaire du point de prélèvement.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "N° du Point prélèvement",
+            "description": "Attention : Les numéros de point de prélèvement comportent 8 caractères.",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Description de la demande",
+            "description": "Vous devez sélectionner pour :\n\n- une demande de volume global annuel, les essais de culture,  ..., expérimentation. L’intitulé “Demande dérogatoire”\n\n- la réallocation de quota d’un détenteur vers un autre détenteur. Les intitulés “Puits Émetteur” et  “Puits Bénéficiaire”",
+            "required": true,
+            "options": [
+              "Demande dérogation",
+              "Puits Bénéficiaire",
+              "Puits Emetteur"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Volume demandé",
+            "description": "Indiquer le volume prévisionnel maximum dont vous avez besoin",
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Justification de la demande",
+            "description": " Il convient de justifier à l’appui de la présente demande, une description détaillée permettant d’en faciliter l’instruction.",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative",
+            "description": " Il convient de produire à l’appui de la présente demande, toute pièce utile permettant d’en faciliter l’instruction.",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

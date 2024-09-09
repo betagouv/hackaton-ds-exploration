@@ -1,0 +1,552 @@
+{
+  "number": 68286,
+  "title": "PREF30 - Demande de paiement d'une subvention (DETR-DSIL-FNADT-DSID-DPV-DSEC-TIL-PITE-FONDS VERT)",
+  "description": "Cette téléprocédure concerne toutes les demandes de paiement (avance - acompte - solde) pour les subventions suivantes :\r\n- DETR\r\n- DSIL\r\n- FNADT\r\n- DSID\r\n- DPV\r\n- DSEC\r\n- TIL\r\n- PITE\r\n- FONDS VERT",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2023-03-30T19:46:15+02:00",
+  "service": {
+    "nom": "Service de la coordination des politiques publiques et de l'appui territorial",
+    "organisme": "SCPPAT, DCLC, Préfecture du Gard",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/pref30-demande-de-paiement-subvention",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.gard.gouv.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070633/LEGISCTA000006181472/#LEGISCTA000023993552",
+  "logo": {
+    "filename": "Logo prefete gard.jpg",
+    "checksum": "QGbgRRPcUTFwkkERor696g==",
+    "byteSize": "10956",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 572,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "TYPE DE DOSSIER",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre demande de paiement correspond-elle à une demande de subvention déposée sous format électronique?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Si oui, précisez le n° du dossier :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTIFICATION DU DEMANDEUR",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Arrondissement",
+        "description": "",
+        "required": true,
+        "options": [
+          "ALES",
+          "NIMES",
+          "LE VIGAN"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la collectivité ou du maître d'ouvrage",
+        "description": "Saisir en MAJUSCULES\nEx : ABBEVILLE, CA DE LA BAIE DE SOMME, ...\n",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET de la collectivité ou du maître d'ouvrage",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM, Prénom et qualité du représentant légal",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse postale de la collectivité ou du maître d'ouvrage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique de la collectivité ou du maître d'ouvrage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone de la collectivité ou du maître d'ouvrage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM et Prénom du référent en charge du dossier",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique du référent en charge du dossier",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du référent en charge du dossier",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PROJET SUBVENTIONNÉ",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Intitulé du projet",
+        "description": "Saisir l'intitulé du projet tel qu'il est précisé dans l'arrêté / la convention / la lettre de notification d'attribution de la subvention",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SUBVENTION ACCORDÉE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de subvention accordée",
+        "description": "",
+        "required": true,
+        "options": [
+          "DETR",
+          "DSIL",
+          "FNADT",
+          "DSID",
+          "DPV",
+          "DSEC",
+          "TIL",
+          "PITE",
+          "FONDS VERT"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Année d'attribution de la subvention",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser la date et/ou les références de l'arrêté, de la convention ou de la lettre de notification d'attribution de la subvention",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Indiquer le numéro d'engagement juridique (EJ)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DÉMARRAGE DE L'OPÉRATION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je déclare que l'opération précitée a reçu un commencement d'execution",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du commencement d'éxécution",
+        "description": "La date doit être la même que celle figurant dans l'attestation de commencement de l'opération à joindre à la demande.\nLe commencement de l'opération est constitué par le premier acte juridique passé pour la réalisation de l'opération (signature des devis, notification du marché, etc). Pour les travaux effectués en régie, le commencement de l'opération est constitué par la constitution d'approvisionnements ou le début d'exécution des travaux.\nLes études et acquisitions de terrains ne constituent pas un commencement d'exécution.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Je sollicite :",
+        "description": "",
+        "required": true,
+        "options": [
+          "une avance",
+          "un acompte",
+          "le solde",
+          "le versement unique (totalité)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de fin d'exécution de l'opération",
+        "description": "Précisez la date de fin d'exécution seulement en cas de demande de solde ou de versement unique",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PIÈCES JOINTES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de commencement de travaux Fonds Vert",
+        "description": "Justificatif obligatoire pour tout paiement.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de commencement de travaux DETR",
+        "description": "Justificatif obligatoire pour tout paiement.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de commencement de travaux DSEC",
+        "description": "Justificatif obligatoire pour tout paiement.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de commencement de travaux DSID",
+        "description": "Justificatif obligatoire pour tout paiement.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de commencement de travaux DPV",
+        "description": "Justificatif obligatoire pour tout paiement.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de commencement de travaux TIL",
+        "description": "Justificatif obligatoire pour tout paiement.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de commencement de travaux PITE",
+        "description": "Justificatif obligatoire pour tout paiement.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de commencement de travaux FNADT",
+        "description": "Justificatif obligatoire pour tout paiement.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de commencement de travaux DSIL",
+        "description": "Justificatif obligatoire pour tout paiement.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie de l'acte juridique marquant le commencement d’exécution de l’opération",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'une avance ou tout autre paiement si vous ne l'avez jamais transmis à la préfecture.\r\n\r\nLe commencement de l'opération est constitué par le premier acte juridique passé pour la réalisation de l'opération (signature des devis, notification du marché, etc). Pour les travaux effectués en régie, le commencement de l'opération est constitué par la constitution d'approvisionnements ou le début d'exécution des travaux.\r\nLes études et acquisitions de terrains ne constituent pas un commencement d'exécution.\r\n\r\nUn seul fichier \"pdf\" pour l'ensemble des documents.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de versement DETR",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de versement FNADT",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de versement Fonds Vert",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de versement DSID",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de versement TIL",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de versement PITE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de versement DPV",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de versement DSEC",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de versement DSIL",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement des travaux DETR",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un solde ou d'un versement unique.\r\n\r\n/!\\ Cette déclaration atteste que les travaux sont terminés, plus aucun paiement ne pourra être accepté.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement des travaux Fonds Vert",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un solde ou d'un versement unique.\r\n\r\n/!\\ Cette déclaration atteste que les travaux sont terminés, plus aucun paiement ne pourra être accepté.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement des travaux Fonds Vert",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un solde ou d'un versement unique.\r\n\r\n/!\\ Cette déclaration atteste que les travaux sont terminés, plus aucun paiement ne pourra être accepté.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement des travaux DETR",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un solde ou d'un versement unique.\r\n\r\n/!\\ Cette déclaration atteste que les travaux sont terminés, plus aucun paiement ne pourra être accepté.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement des travaux DSEC",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un solde ou d'un versement unique.\r\n\r\n/!\\ Cette déclaration atteste que les travaux sont terminés, plus aucun paiement ne pourra être accepté.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement des travaux DSEC",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un solde ou d'un versement unique.\r\n\r\n/!\\ Cette déclaration atteste que les travaux sont terminés, plus aucun paiement ne pourra être accepté.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement des travaux DPV",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un solde ou d'un versement unique.\r\n\r\n/!\\ Cette déclaration atteste que les travaux sont terminés, plus aucun paiement ne pourra être accepté.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement des travaux DPV",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un solde ou d'un versement unique.\r\n\r\n/!\\ Cette déclaration atteste que les travaux sont terminés, plus aucun paiement ne pourra être accepté.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement des travaux DSID",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un solde ou d'un versement unique.\r\n\r\n/!\\ Cette déclaration atteste que les travaux sont terminés, plus aucun paiement ne pourra être accepté.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement des travaux DSID",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un solde ou d'un versement unique.\r\n\r\n/!\\ Cette déclaration atteste que les travaux sont terminés, plus aucun paiement ne pourra être accepté.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement des travaux PITE",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un solde ou d'un versement unique.\r\n\r\n/!\\ Cette déclaration atteste que les travaux sont terminés, plus aucun paiement ne pourra être accepté.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement des travaux PITE",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un solde ou d'un versement unique.\r\n\r\n/!\\ Cette déclaration atteste que les travaux sont terminés, plus aucun paiement ne pourra être accepté.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement des travaux TIL",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un solde ou d'un versement unique.\r\n\r\n/!\\ Cette déclaration atteste que les travaux sont terminés, plus aucun paiement ne pourra être accepté.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement des travaux TIL",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un solde ou d'un versement unique.\r\n\r\n/!\\ Cette déclaration atteste que les travaux sont terminés, plus aucun paiement ne pourra être accepté.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement des travaux FNADT",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un solde ou d'un versement unique.\r\n\r\n/!\\ Cette déclaration atteste que les travaux sont terminés, plus aucun paiement ne pourra être accepté.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement des travaux FNADT",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un solde ou d'un versement unique.\r\n\r\n/!\\ Cette déclaration atteste que les travaux sont terminés, plus aucun paiement ne pourra être accepté.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement des travaux DSIL",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un solde ou d'un versement unique.\r\n\r\n/!\\ Cette déclaration atteste que les travaux sont terminés, plus aucun paiement ne pourra être accepté.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'achèvement des travaux DSIL",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un solde ou d'un versement unique.\r\n\r\n/!\\ Cette déclaration atteste que les travaux sont terminés, plus aucun paiement ne pourra être accepté.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau récapitulatif des factures DETR",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un acompte, d'un solde ou d'un versement unique.\r\n\r\nLe tableau doit être détaillé par poste de dépense et signé par le porteur et le comptable public.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau récapitulatif des factures DSEC",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un acompte, d'un solde ou d'un versement unique.\r\n\r\nLe tableau doit être détaillé par poste de dépense et signé par le porteur et le comptable public.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau récapitulatif des factures DPV",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un acompte, d'un solde ou d'un versement unique.\r\n\r\nLe tableau doit être détaillé par poste de dépense et signé par le porteur et le comptable public.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau récapitulatif des factures TIL",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un acompte, d'un solde ou d'un versement unique.\r\n\r\nLe tableau doit être détaillé par poste de dépense et signé par le porteur et le comptable public.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau récapitulatif des factures PITE",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un acompte, d'un solde ou d'un versement unique.\r\n\r\nLe tableau doit être détaillé par poste de dépense et signé par le porteur et le comptable public.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau récapitulatif des factures DSID",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un acompte, d'un solde ou d'un versement unique.\r\n\r\nLe tableau doit être détaillé par poste de dépense et signé par le porteur et le comptable public.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau récapitulatif des factures FNADT",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un acompte, d'un solde ou d'un versement unique.\r\n\r\nLe tableau doit être détaillé par poste de dépense et signé par le porteur et le comptable public.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau récapitulatif des factures DSIL",
+        "description": "Justificatif obligatoire si vous demandez le paiement d'un acompte, d'un solde ou d'un versement unique.\r\n\r\nLe tableau doit être détaillé par poste de dépense et signé par le porteur et le comptable public.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certificat d'affichage du plan de financement",
+        "description": "\r\nLa loi \"Engagement et proximité\" prévoit une obligation pour une collectivité bénéficiant de subventions de l'État de publier son plan de financement et de l'afficher de manière visible et pérenne sur l'opération subventionnée.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Preuve photographique de l'apposition d'une plaque",
+        "description": "\r\nConformément au 5° de l'article D. 1111-8 du code général des collectivités territoriales et sous réserve des dispositions applicables aux projets s'inscrivant dans un programme cofinancé par l'Union européenne, la collectivité ou le groupement appose, à l'issue de la réalisation de toute opération dont le coût total est supérieur à 10 000 € et au plus tard trois mois après l'achèvement de celle-ci, une plaque ou un panneau permanent, en un lieu aisément visible du public, sur lequel figure, s'il existe, le logotype ou l'emblème de la personne publique ayant subventionné le projet. Si l'opération a fait l'objet de subventions de la part de plusieurs personnes publiques, leur logotype ou emblème figure, à dimension égale, sur la plaque ou le panneau.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Factures acquittées",
+        "description": "Un seul fichier \"pdf\" comprenant l'ensemble des pièces justificatives doit être déposé.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autres factures (si trop lourd pour un seul dépôt)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre pièce justificative",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre pièce justificative",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "COMMENTAIRES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires",
+        "description": "Vous pouvez laisser un commentaire et/ou apporter des précisions concernant votre dossier.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ATTESTATION SUR L'HONNEUR ET VALIDATION",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste de l'exactitude des renseignements fournis dans la présente déclaration et les pièces jointes associées.",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

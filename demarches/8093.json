@@ -1,0 +1,180 @@
+{
+  "number": 8093,
+  "title": "Pré-inscription au rés'O de bibliothèques de la Champagne Picarde",
+  "description": "Démarche permettant d'obtenir une carte de lecteur afin de pouvoir réserver des ouvrages.",
+  "tags": [
+    "Culture"
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2018-09-21T14:23:01+02:00",
+  "service": {
+    "nom": "CCCP - Rés'O de bibliothèques",
+    "organisme": "Communauté de Communes de la Champagne Picarde",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/cccp-preinscription-reseau-bibliotheques",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.cc-champagnepicarde.fr",
+  "cadreJuridiqueUrl": "http://www.cc-champagnepicarde.fr/services/bibliotheques/la-carte-du-lecteur/",
+  "logo": {
+    "filename": "procedure-800a26a4-4058-4cf8-a0ea-e7a564922c6b.png",
+    "checksum": "6OrntcwiNf3FHYU2fPE95Q==",
+    "byteSize": "12016",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 11,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d'emprunteur",
+        "description": "",
+        "required": true,
+        "options": [
+          "Particulier",
+          "Collectivité"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de collectivité",
+        "description": "Ne rien cocher si vous empruntez à titre personnel",
+        "required": false,
+        "options": [
+          "Ecole / Etablissement scolaire",
+          "ITEP - IMPRO",
+          "Autre collectivité",
+          "Association"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la collectivité / association",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et Prénom du responsable légal de l'entité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Responsable légal",
+        "description": "Pour les mineurs, inscrire les nom et prénom du responsable légal",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre adresse",
+        "description": "(si nécessaire, habitant sur deux lieux... en une seule ligne, indiquez l'adresse, le code postal et la ville)",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone fixe",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone mobile",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Catégorie Socio-professionnelle",
+        "description": "Vous pouvez ignorer cette question si vous êtes une collectivité",
+        "required": false,
+        "options": [
+          "Agriculteur",
+          "Artisan",
+          "Commerçant",
+          "Chef d'entreprise",
+          "Profession libérale",
+          "Cadre",
+          "Technicien",
+          "Enseignant",
+          "Employé",
+          "Ouvrier",
+          "Elève de maternelle/primaire",
+          "Collégien",
+          "Lycéen",
+          "Etudiant",
+          "Retraité",
+          "Chômeur",
+          "Sans profession",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Bibliothèque de rattachement",
+        "description": "Un seul choix possible. Votre bibliothèque de rattachement sera le lieu où seront déposées vos réservations.",
+        "required": false,
+        "options": [
+          "Bucy lès Pierrepont",
+          "Condé sur Suippe",
+          "Coucy lès Eppes",
+          "Mauregny en Haye",
+          "Pontavert",
+          "Saint Erme",
+          "Sissonne"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Acceptation du règlement intérieur",
+        "description": "Par la validation de ce formulaire, je m'engage à respecter les conditions générales d'utilisation du service et le règlement de ma bibliothèque de rattachement, visible sur http://www.cc-champagnepicarde.fr/fileadmin/Public/CCCP/Services/Bibliotheques/Reglement_Bibliotheques_CCCP.PDF",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information",
+        "description": "Votre demande d'inscription sera traitée par la Communauté de Communes de la Champagne Picarde dans les plus brefs délais. Vous recevrez un email de confirmation ainsi  que votre carte de lecteur par voie postale (le numéro d'abonné y figurant vous permettra de réserver en ligne votre ouvrage).",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "number": 47332,
+  "title": "CPAM91-TRANSPORTEURS SANITAIRES",
+  "description": "Dépôt de pièces justificatives dans le cadre de votre activité.",
+  "tags": [
+    "Taxi"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-02-09T15:21:05+01:00",
+  "service": {
+    "nom": "DAPSE / Relations Administratives PS ",
+    "organisme": "CPAM de l'Essonne",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/cpam91_ambulances",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/cpam91_ambulances",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": {
+    "filename": "Logo.PNG",
+    "checksum": "IgPtBo6vIdNqajzy4CLiFw==",
+    "byteSize": "4973",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 322,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Mentions légales :",
+        "description": "La CPAM de l’Essonne met en œuvre des traitements informatisés ou non qui comportent des données personnelles notamment à des fins de gestion du conventionnement et de l’installation des Professionnels de santé (article 6.1.e du RGPD). Les informations sont recueillies sous la responsabilité du Directeur Général de la CPAM de l’Essonne sise 2 rue Ambroise Croizat à Evry 91000, et sont conservées pendant la durée nécessaire à leur traitement. Conformément aux dispositions relatives à la protection des données personnelles, vous pouvez exercer votre droit d’accès, de rectification ainsi que votre droit à la limitation de vos données. Le droit d’opposition ne s’applique pas au présent traitement. Ces droits s’exercent sur demande écrite auprès du Délégué à la Protection des Données de la CPAM de l’Essonne : dpo.cpam-essonne@assurance-maladie.fr. Les réclamations au titre de la protection des données personnelles peuvent être introduites auprès de la CNIL (commission nationale informatique et libertés - TSA 80715 - 75334 PARIS CEDEX 07).",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dans une volonté de simplifier et d’accélérer vos démarches, la CPAM de l'Essonne met à votre disposition ce formulaire qui remplace et sécurise les échanges.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations administratives :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro Identification Assurance Maladie",
+        "description": "Numéro à 9 chiffres qui vous a été attribué par l'Assurance Maladie lors de votre conventionnement (exemple : 912xxxxxx)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la société :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du gérant :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du gérant :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de l’arrêté portant agrément :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse email :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives (format PDF) :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Dépot des pièces justificatives (format PDF) :",
+        "description": "Le fichier doit être en PDF.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative :",
+            "description": "Le fichier doit être en PDF.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Attestation sur l'honneur de la personne remplissant le formulaire :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom Prénom :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Identité de la personne qui saisit :",
+        "description": null,
+        "required": true,
+        "options": [
+          "Je suis le professionnel de santé",
+          "Je suis mandaté par le professionnel de santé"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie sur l'honneur l'exactitude des renseignements déclarés.",
+        "description": "\n\n",
+        "required": true
+      }
+    ]
+  }
+}

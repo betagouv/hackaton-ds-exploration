@@ -1,0 +1,597 @@
+{
+  "number": 586,
+  "title": "FACT - Demande d'aide - Action sectorielle Territoriale ou Nationale",
+  "description": "Procédure de dépôt de demande de subvention Fact pour une action sectorielle Territoriale ou Nationale (Action de Branche)\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère du Travail, de la Santé et des Solidarités"
+  ],
+  "datePublication": "2017-06-20T16:36:18+02:00",
+  "service": null,
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/7d8d054a-e19a-484c-96e5-3d718e7f7331",
+  "dpoUrl": null,
+  "noticeUrl": "https://www.anact.fr/file/5626/download?token=0PMutch4",
+  "siteWebUrl": "www.anact.fr",
+  "cadreJuridiqueUrl": null,
+  "logo": {
+    "filename": "procedure-1cd4e5cd-5b4f-45a2-bc34-1e1797e6ebf8.jpg",
+    "checksum": "a1kptAlkJ/uz4qGpinHKNQ==",
+    "byteSize": "633600",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 13,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si vous saisissez votre demande en plusieurs fois, attention à bien enregistrer votre brouillon (en bas de page).",
+        "description": "Toute modification non enregistrée ne sera pas prise en compte.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": ".",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de structure",
+        "description": "",
+        "required": true,
+        "options": [
+          "Association",
+          "Entreprise"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro RNA (pour les associations)",
+        "description": "Renseignement administratif supplémentation pour les associations, numéro RNA ou, à défaut, numéro de récépissé en préfecture ou en mairie",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Responsable de la structure",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Fonction",
+        "description": "",
+        "required": true,
+        "options": [
+          "Délégué Général",
+          "Directeur",
+          "Président",
+          "Autre fonction de direction"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Personne chargée du dossier de subvention",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Fonction",
+        "description": "",
+        "required": true,
+        "options": [
+          "Chef ou dirigeant d'entreprise, directeur, directeur adjoint, chef de service, etc.",
+          "Directeur RH / Responsable RH / Directeur ou responsable du personnel",
+          "Autre fonction RH (assistant RH, etc.)",
+          "Directeur ou reponsable de la formation",
+          "Directeur / responsable commercial ou marketing",
+          "Autre fonction de direction",
+          "Chargé de mission, chargé de projet, conseiller"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Consultant accompagnant le projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Cabinet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Merci de renseigner l'adresse complète (exemple : 192 avenue Thiers CS 800 31 69457 Lyon cedex 06) ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro Siret",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Effectif",
+        "description": "",
+        "required": false,
+        "options": [
+          "0 salarié",
+          "De 1 à 9 salariés (TTPE)",
+          "De 10 à 19 salariés (TPE)",
+          "De 20 à 49 salariés (PE)",
+          "De 50 à 249 salariés (PME)",
+          "De 250 à 499 salariés (ME)",
+          "500 à 999 salariés (Grandes Entreprises)",
+          "1000 salariés ou plus (TGE)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Autre Consultant accompagnant le projet (si c'est le cas)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Cabinet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Merci de renseigner l'adresse complète (exemple : 192 avenue Thiers CS 800 31 69457 Lyon cedex 06) ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro Siret",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Effectif",
+        "description": "",
+        "required": false,
+        "options": [
+          "0 salarié",
+          "De 1 à 9 salariés (TTPE)",
+          "De 10 à 19 salariés (TPE)",
+          "De 20 à 49 salariés (PE)",
+          "De 50 à 249 salariés (PME)",
+          "De 250 à 499 salariés (ME)",
+          "500 à 999 salariés (Grandes Entreprises)",
+          "1000 salariés ou plus (TGE)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Entreprises concernées par le projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Entreprises de 0 à 9 salariés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'entreprises",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Total des effectifs des entreprises",
+        "description": "Somme totale des salariés concernés par le projet pour les entreprises de 0 à 9 salariés.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Entreprises de 10 à 19 salariés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'entreprises",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Total des effectifs des entreprises",
+        "description": "Somme totale des salariés concernés par le projet pour les entreprises de 10 à 19 salariés.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Entreprises de 20 à 49 salariés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'entreprises",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Total des effectifs des entreprises",
+        "description": "Somme totale des salariés concernés par le projet pour les entreprises de 20 à 49 salariés.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Entreprises de 50 à 249 salariés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'entreprises",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Total des effectifs des entreprises",
+        "description": "Somme totale des salariés concernés par le projet pour les entreprises de 50 à 249 salariés.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Entreprises de plus de 250 salariés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'entreprises",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Total des effectifs des entreprises",
+        "description": "Somme totale des salariés concernés par le projet pour les entreprises de plus de 250 salariés.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Budget prévisionnel de l'action - Dépenses",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous assujettie à la TVA ?",
+        "description": "Attention, dans l'ensemble des champs suivants, les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). ",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Coût total du projet",
+        "description": "Les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Coût prestations externes (intervention consultant, frais de publicité, vidéo, ingénierie de formation, autres)",
+        "description": "Les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Coût location de salle, frais de restauration",
+        "description": "Les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "à détailler",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Coût frais de déplacement",
+        "description": "Les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Charge de personnel",
+        "description": "Les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "à détailler",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Autre charge de gestion courante",
+        "description": "Les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "à détailler",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Autres dépenses (coût service bancaire, ...)",
+        "description": "Les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Budget prévisionnel de l'action - Recettes",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Total Recette",
+        "description": "Les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dont",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Montant de la subvention Fact demandée",
+        "description": "Les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Autres financements publics (région, département, OPCA, FSE, Carsat, MSA, ...)",
+        "description": "Les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Contribution des entreprises ou associations",
+        "description": "Les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Vente de produits finis, marchandises, prestations de service",
+        "description": "Les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Autres recettes",
+        "description": "Les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Part du financement public (Fact et autres) du budget total en pourcentage",
+        "description": "La subvention versée par l’Anact ne couvrira pas l’intégralité des dépenses liées à la réalisation du projet. Le demandeur s’engage à compléter le financement, soit sur ses ressources propres, soit par l’intermédiaire d’un ou plusieurs co-financeurs. Dans tous les cas, le demandeur s’engage à ne pas percevoir d’aide publique, ayant le même objet, durant la réalisation de l’action, au-delà de 80% du montant du projet.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "L'attention du demandeur est appelée sur le fait que les indications sur le budget prévisionnel valent déclaration sur l'honneur et tiennent lieu de justificatifs. Aucun document complémentaire ne sera demandé à ce stade. En revanche un bilan financier certifié par une personne qualifié (expert comptable ou directeur financier) devra être communiqué lors du bilan ainsi que les factures correspondantes aux dépenses de prestations.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description de l’action, calendrier d’exécution et résumé du projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Contexte et enjeux  (10 lignes  maximum)",
+        "description": "Ambitions au regard des enjeux de la branche ou du secteur d’activité – Problématiques spécifiques en matière de conditions de travail – Populations concernées,…). \r\n\r\n\r\nPour nous permettre d’étudier le dossier, ce descriptif doit impérativement être rempli avec soin, indépendamment des autres documents fournis.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Objectifs du projet  (10 lignes  maximum)",
+        "description": "Finalité et objectifs spécifiques du projet.\r\n\r\n\r\nPour nous permettre d’étudier le dossier, ce descriptif doit impérativement être rempli avec soin, indépendamment des autres documents fournis.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Différentes étapes du projet (10 lignes  maximum)",
+        "description": "Actions envisagées et démarche méthodologique détaillée, avec identification des différentes phases du projet dont actions de transfert.\r\n\r\nPour nous permettre d’étudier le dossier, ce descriptif doit impérativement être rempli avec soin, indépendamment des autres documents fournis.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Actions de capitalisation et de transfert envisagées (10 lignes maximum)",
+        "description": "Séminaire, plaquette de diffusion, formation,… - Préciser si possible les cibles concernées par le transfert.\r\n\r\nPour nous permettre d’étudier le dossier, ce descriptif doit impérativement être rempli avec soin, indépendamment des autres documents fournis.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Calendrier d’exécution (10 lignes  maximum)",
+        "description": "Pour nous permettre d’étudier le dossier, ce descriptif doit impérativement être rempli avec soin, indépendamment des autres documents fournis.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Effets attendus en terme de conditions de travail (10 lignes  maximum)",
+        "description": "Pour nous permettre d’étudier le dossier, ce descriptif doit impérativement être rempli avec soin, indépendamment des autres documents fournis.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Résumé du projet (10 lignes maximum)",
+        "description": "Rappel des finalités, quelques éléments de méthode, résultats et livrables envisagés, enjeux pour le porteur.\r\n\r\nPour nous permettre d’étudier le dossier, ce descriptif doit impérativement être rempli avec soin, indépendamment des autres documents fournis.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Formulaire d'attestation sur l'honneur",
+        "description": "Récupérer le formulaire vierge pour mon dossier : https://www.anact.fr/file/7307/download?token=pu_QmxXw",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Proposition du consultant : méthodologie, devis et CV",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autres devis de prestataires (location de salle, publication, édition, vidéo, formation, ...)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB sur lequel sera versée la subvention",
+        "description": "Relevé d'Identité Bancaire (RIB) sur lequel sera versée la subvention. Le  RIB doit porter une adresse correspondant à celle du SIRET.",
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,596 @@
+{
+  "number": 62317,
+  "title": "LBC Grandes Cultures ",
+  "description": "Cette méthode s’applique à des projets agricoles individuels ou collectifs en France métropolitaine ayant pour objectif d’atténuer le changement climatique via des modifications de pratiques, voire de systèmes, sur leurs ateliers de grandes cultures. Sur la base du volontariat, les porteurs de projet identifient et mettent en œuvre un cortège de leviers, permettant une réduction additionnelle des émissions de GES et/ou un stockage de  carbone  dans  les  sols  à  l’échelle  de  l’exploitation  agricole  et  sur  la  durée  du  projet. Compte-tenu du nombre et de la diversité des cultures traitées par la Méthode, les RE sont comptabilisées en teqCO2 /ha.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2022-09-09T16:44:57+02:00",
+  "service": {
+    "nom": "Direction Générale de l'Energie et du Climat",
+    "organisme": "Ministère de la Transition Ecologique",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/lbc-grandes-cultures",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ecologie.gouv.fr/label-bas-carbone",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037657959/",
+  "logo": null,
+  "notice": {
+    "filename": "notice demandeur LBC_tous projets.docx",
+    "checksum": "4vnbPCZ8HxOMPGVUdduyaA==",
+    "byteSize": "20592",
+    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "deliberation": null,
+  "dossiersCount": 606,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Avant de remplir le formulaire, nous vous conseillons de bien lire la méthode Grandes Cultures",
+        "description": "https://www.ecologie.gouv.fr/sites/default/files/M%C3%A9thode%20LBC%20Grandes%20cultures.pdf",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Région administrative du projet",
+        "description": "C'est la région dans laquelle se trouve la plus grande surface du projet. ",
+        "required": true,
+        "options": [
+          "Auvergne Rhône Alpes",
+          "Bourgogne Franche Comté",
+          "Bretagne",
+          "Centre Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Ile de France",
+          "Normandie",
+          "Nouvelle Aquitaine",
+          "Occitanie",
+          "PACA",
+          "Pays de la Loire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "I. Notification du projet",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre projet est-il individuel ou collectif ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Individuel",
+          "Collectif"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Qualité du demandeur",
+        "description": "",
+        "required": true,
+        "options": [
+          "Je suis un gérant de l'exploitation agricole concernée par le projet",
+          "Je suis mandataire du ou des gérants de l'exploitation agricole concernée par le projet"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de première notification du projet",
+        "description": "Si vous notifiez ce projet pour la première fois : indiquez la date du jour.\r\nSi vous avez déjà notifié votre projet auprès de l'autorité avant le 1er mars 2022, ou sous une version simplifiée de ce formulaire : indiquez la date de cette première notification. ",
+        "required": true
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Numéro du demandeur",
+        "description": "Si vous n'avez pas de numéro, vous pouvez vous inscrire ici : https://www.demarches-simplifiees.fr/commencer/inscription-en-tant-que-demandeur-de-lbc\nCette première inscription vous évite de renseigner les mêmes informations si vous déposez plusieurs dossiers de demande de Label Bas-Carbone. Si vous êtes une société mandataire, nous vous conseillons d'utiliser toujours le même numéro de demandeur pour cette société et non pas un numéro pour chacun de vos agents ce qui ne permettrait pas de regrouper tous vos projets dans notre futur registre.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joignez la liste des exploitations participant au projet",
+        "description": "Vous pouvez ne remplir que les colonnes à en-tête rouge de l'onglet Général au stade de la notification. Si votre projet est individuel, ne remplir qu'une seule ligne. ",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Régions dans lesquelles se situent les sous-projets",
+        "description": "Si plusieurs régions sont concernées par le projet, cliquez sur \"Ajouter un élément pour \"Régions dans lesquelles se situent les sous-projets\".\r\nCes précisions serviront à localiser vos projets sur le site internet du label bas-carbone. A défaut de précision, le projet figurera simplement dans la liste des projets collectifs sans indication géographique.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "RegionChampDescriptor",
+            "label": "Région",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de sous-projets participant dans cette région",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Principale commune concernée par le projet",
+        "description": "Ce champ permettra de localiser votre projet sur la carte des projets labellisés sur le site internet du label bas-carbone.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description succincte du projet",
+        "description": "Merci de réaliser une description succincte du projet comprenant au moins les éléments suivants :\r\n- Contexte et but du projet\r\n- Surface concernée par le projet\r\n- Principaux leviers mis en œuvre\r\n\r\nNous vous recommandons de soigner cette présentation qui figurera sur le site internet du label bas-carbone",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Important : Conditions de recevabilité du projet",
+        "description": "Nous vous rappelons les exigences de la méthode Grandes Cultures : \r\n- Chaque exploitation agricole du projet doit avoir un atelier de grandes cultures\r\n- La conditionnalité de la PAC doit être respectée par chaque exploitation agricole\r\n- Le cadre national de la Directive Nitrates (pression en azote organique inférieure au seuil de 170 kg Norganique/ha) doit être respecté par chaque exploitation agricole, y compris hors zones vulnérables\r\n- Les quotas d'eau d'irrigation (le cas échéant) doivent être respectés par chaque exploitation agricole\r\n- Un outil certifié conforme à la méthode LBC Grandes Cultures doit être utilisé pour chaque exploitation agricole\r\n- RE émissions + RE stockage > 0 pour chaque exploitation agricole\r\n\r\n<strong>A défaut, la labellisation des projets sera refusée.</strong> ",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Notification ou dépôt du dossier",
+        "description": null,
+        "required": true,
+        "options": [
+          "Je notifie mon projet et je déposerai le dossier plus tard : je remplis la partie I. et je clique sur \"Déposer le dossier\".",
+          "Je notifie mon projet et je dépose le dossier en même temps : je remplis tout le formulaire avant de cliquer sur \"Déposer le dossier\". Lorsque j'ai cliqué sur \"Déposer le dossier\", j'informe le service instructeur via la messagerie de Démarches Simplifiées que l'instruction peut débuter."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "II. Dépôt du dossier",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si vous choisissez de déposer votre dossier ultérieurement :",
+        "description": "Dans ce cas, lorsque votre dossier est finalisé, n'oubliez pas d'en informer le service instructeur via la messagerie Démarches Simplifiées, afin qu'il puisse commencer l'instruction. Lorsqu'il aura pris connaissance de votre message, il passera le dossier \"en instruction\" et vous n'aurez plus la main pour le compléter. Si des compléments sont nécessaires, le service instructeur repassera votre dossier \"en construction\" pour rendre le dossier modifiable de nouveau.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "A. Porteur de projet",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 0 : Le porteur de projet s'engage à accepter un certain nombre de contrôles.",
+        "description": "Remplissez et signez le document ci-dessous. Si le demandeur n'est pas le chef d'exploitation, il remplit aussi les encadrés concernant le mandataire.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'exploitations agricoles concernées",
+        "description": "Cette information est indiquée en haut de l'onglet Général du tableur.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 0 : Engagements et mandat [obligatoire]",
+        "description": "Document 0 signé par chaque chef d'exploitation confiant la tâche au mandataire d'être demandeur du Label Bas-Carbone pour le projet. Vous pouvez télécharger le modèle ci-dessous puis le convertir sous format PDF. ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 0 : Engagements et mandat [obligatoire]",
+            "description": "Ajoutez un Document 0 par exploitation agricole du projet. Vous pouvez éventuellement les grouper en plusieurs documents de taille raisonnable. Merci de les scanner dans l'ordre et d'indiquer la série, pour faciliter la recherche des pièces.\r\n<strong> Attention : merci de nommer les documents avec le numéro de sous-projet indiqué dans le tableau Excel précédent : [Document 0]_NuméroSousProjet. </strong>",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'exploitation agricole",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'exploitation agricole",
+        "description": "Localisation exacte du projet",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse de l'exploitation agricole",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Civilité NOM prénom du chef d'exploitation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET de l'exploitation",
+        "description": "Ce numéro donne accès à votre KBIS, ce qui vous évite de le joindre au dossier. Ce document prouve l'identité du gérant de l'exploitation agricole.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autres structures d'exploitation ne rentrant pas dans les cas précédents",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "B. Le projet",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Informations générales sur le projet",
+        "description": "Remplissez les onglets suivant les indications de l'onglet Accueil. ",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Surface agricole totale du projet (en ha)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Indiquez ci-dessous les catégories de leviers mis en oeuvre sur l'ensemble des exploitations",
+        "description": "Reportez ici les nombres de leviers mis en œuvre dans chaque catégorie, conformément au tableur mentionné ci-dessus au A, onglet \"Récapitulatif\". \r\n\r\nLes catégories ci-dessous sont communes à toutes les méthodes agricoles même si toutes les méthodes ne proposent pas les mêmes leviers ni toutes les catégories de leviers.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "L1. Réduction de la consommation énergétique de l’exploitation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "L3. Stockage de Carbone dans le sol",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "L7. Fertilisation azotée organique et minérale",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "C. Conditions d'éligibilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 1 [obligatoire] : Présence d'un atelier de grandes cultures",
+        "description": "Document de déclaration PAC (la localisation des parcelles de grandes cultures est attendue) de la campagne actuelle.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 1 [obligatoire] : Présence d'un atelier de grandes cultures",
+            "description": "Ajoutez un Document 1 par exploitation agricole du projet.\r\n<strong> Attention : merci de nommer les documents avec le numéro de sous-projet : [Document 1]_NuméroSousProjet. </strong>  ",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 1 bis [obligatoire sous condition] : Respect de la conditionnalité de la PAC",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 1 bis [obligatoire sous condition] : Respect de la conditionnalité de la PAC",
+            "description": "Ajoutez un Document 1 bis par exploitation agricole du projet. \r\n<strong> Attention : merci de nommer les documents avec le numéro de sous-projet : [Document 1bis]_NuméroSousProjet. </strong>",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 2 [obligatoire] : Respect du seuil de pression en azote organique (cadre national de la Directive Nitrates)",
+        "description": "Document prouvant le respect du seuil de pression en azote organique de 170 kg 𝑁𝑜𝑟𝑔𝑎𝑛𝑖𝑞𝑢𝑒/ha par l'exploitation du projet (plan de fumure ou document assimilé).\r\n\r\n<strong> Ce document doit répondre aux critères suivants :</strong>\r\n\r\n<strong>1. Pour un document réalisé par un prestataire compétant, il faudra que le document indique :</strong>\r\n\r\n\r\n- le nom de l'exploitation agricole concernée\r\n- l'adresse de l'exploitation agricole concernée\r\n- la période sur laquelle porte le diagnostic (dates) : doit être de moins d'un an par rapport à la date de dépôt du projet\r\n- le nom du prestataire\r\n- le nom et la signature de la personne qui a réalisé le document\r\n\r\n<strong>2. Pour un document réalisé par un conseiller, il faudra que le document indique : </strong>\r\n\r\n\r\n- le nom de l'exploitation agricole concernée\r\n- l'adresse de l'exploitation agricole concernée\r\n- la période sur laquelle porte le diagnostic (dates) : doit être de moins d'un an par rapport à la date de dépôt du projet\r\n- la structure du conseiller qui a réalisé le document\r\n- la signature du conseiller qui a réalisé le document\r\n\r\n<strong>3. Pour un document réalisé par un agriculteur seul (via l'outil Mesparcelles par exemple), il faudra que ce document soit vérifié par un conseiller et qu'il comporte :</strong>\r\n\r\n\r\n- le nom de l'exploitation agricole concernée\r\n- l'adresse de l'exploitation agricole concernée\r\n- la période sur laquelle porte le diagnostic (dates) : doit être de moins d'un an par rapport à la date de dépôt du projet\r\n- la signature de l'agriculteur\r\n- la structure du conseiller qui a vérifié le document\r\n- la signature du conseiller qui a vérifié le document\r\n- la date de vérification du document par le conseiller",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 2 [obligatoire] : Respect du seuil de pression en azote organique (cadre national de la Directive Nitrates)",
+            "description": "Ajoutez un Document 2 par exploitation agricole du projet. \r\n<strong> Attention : merci de nommer les documents avec le numéro de sous-projet : [Document 2]_NuméroSousProjet. </strong>",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 3 [obligatoire] : Respect des quotas d’eau d’irrigation le cas échéant",
+        "description": "Déclaration fournie à l’Organisme Unique.\r\nSi aucune irrigation n'est déclarée, fournir à la place une copie des pratiques renseignées dans le bilan initial montrant qu’aucune irrigation n’a effectivement été mise en place sur les systèmes de culture lors du scénario de référence.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 3 [obligatoire] : Respect des quotas d’eau d’irrigation le cas échéant",
+            "description": "Ajoutez un Document 3 par exploitation agricole du projet. \r\n<strong> Attention : merci de nommer les documents avec le numéro de sous-projet : [Document 3]_NuméroSousProjet. </strong>",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 4 [obligatoire] : Utilisation d’un outil certifié conforme à la Méthode LBC Grandes Cultures",
+        "description": "Attestation signée par un tiers certifié validant l’outil de calcul utilisé. Si plusieurs versions / mises à jour d'un même outil sont utilisées au sein d'un même projet collectif, les attestations de conformité doivent être fournies pour chaque version.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation de conformité",
+            "description": "Ajoutez un Document 4 par outil et par version de l'outil utilisés. ",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 5 [obligatoire] : RE émissions + RE stockage > 0",
+        "description": "Copie des résultats fournis par l’outil de calcul utilisé <strong> en mettant en évidence les résultats RE émissions et RE stockage </strong>",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 5 [obligatoire] : RE émissions + RE stockage > 0",
+            "description": "Ajoutez un Document 5 par exploitation agricole du projet. \r\n<strong> Attention : merci de nommer les documents avec le numéro de sous-projet : [Document 5]_NuméroSousProjet. </strong>",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 6 [obligatoire sous condition] : Si le porteur de projet sollicite des financements : expliquer",
+        "description": "Si le porteur de projet sollicite des financements, justifiez l'insuffisance du financement pour la mise en œuvre des leviers en joignant le Document 6.\r\nSinon, un rabais de 20% est appliqué sur les réductions d'émissions générées par le projet.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 6 [obligatoire sous condition] : Si le porteur de projet sollicite des financements : expliquer",
+            "description": "Ajoutez un Document 6 pour chaque exploitation agricole du projet qui sollicite un financement. \r\n<strong> Attention : merci de nommer les documents avec le numéro de sous-projet : [Document 6]_NuméroSousProjet. </strong>",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "D. Calcul des impacts et co-bénéfices",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Reportez ci-dessous les moyennes relatives aux cobénéfices",
+        "description": "Ces moyennes figurent dans l'onglet \"Récapitulatif\" du tableur Excel \"Liste_GrandesCultures\".",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "C1. Consommation d’énergie non renouvelable (en Mj/an) (obligatoire)",
+        "description": "Indiquez la valeur calculée pour cet indicateur dans l'onglet \"Récapitulatif\" du tableur Excel \"Liste_GrandesCultures\".",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "C2. Emission d'ammoniac (en kg N-NO3) (obligatoire)",
+        "description": "Indiquez la valeur calculée pour cet indicateur dans l'onglet \"Récapitulatif\" du tableur Excel \"Liste_GrandesCultures\".",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "C3. Lixiviation de nitrate (en kg N-NO3) (obligatoire)",
+        "description": "Indiquez la valeur calculée pour cet indicateur dans l'onglet \"Récapitulatif\" du tableur Excel \"Liste_GrandesCultures\".",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "C4. Usage des produits phytopharmaceutiques (IFT) (obligatoire)",
+        "description": "Indiquez la valeur calculée pour cet indicateur dans l'onglet \"Récapitulatif\" du tableur Excel \"Liste_GrandesCultures\".",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "C5. Consommation en eau (en m3/an) (obligatoire en cas d’irrigation)",
+        "description": "Indiquez la valeur calculée pour cet indicateur dans l'onglet \"Récapitulatif\" du tableur Excel \"Liste_GrandesCultures\".\r\n",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "C5 : nombre d'exploitations concernées",
+        "description": "Indiquez le nombre d'exploitations concernées par le cobénéfice C5. Consommation en eau",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "C6. Erosion des sols (en cas d’aléa moyen ou fort) (érodabilité d’un sol selon Facteur C) (obligatoire)",
+        "description": "Indiquez la valeur calculée pour cet indicateur dans l'onglet \"Récapitulatif\" du tableur Excel \"Liste_GrandesCultures\".",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "C6 : Nombre d'exploitations concernées",
+        "description": "Indiquez le nombre d'exploitations concernées par le cobénéfice C6. Erosion des sols.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "C7. Consommation du phosphore (optionnel)",
+        "description": "Indiquez la valeur calculée pour cet indicateur dans l'onglet \"Récapitulatif\" du tableur Excel \"Liste_GrandesCultures\".",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "C7 : nombre d'exploitations concernées",
+        "description": "Indiquez le nombre d'exploitations concernées par le cobénéfice C7. Consommation de phosphore (onglet Récapitulatif)",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "C8. Biodiversité (indicateur agrégé) - optionnel",
+        "description": "Si le projet est concerné par cet indicateur, précisez.\r\nSi le projet n'est pas concerné par cet indicateur, laissez ce champ vide.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "C8. Biodiversité : nombre d'exploitations",
+        "description": "Indiquez le nombre d'exploitations concernées par ce cobénéfice",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "C9. Réponses aux demandes sociétales (préciser le cas échéant) (optionnel)",
+        "description": "- Potentiel nourricier Energie et Protéines valorisables en alimentation humaine \r\n- Contribution à réduire la déforestation importée \r\n- Production de protéines végétales\r\n- Contribuer à alimenter des filières de bioénergie ou de biomatériaux\r\n\r\nSi le projet est concerné par cet indicateur, précisez.\r\nSi le projet n'est pas concerné par cet indicateur, laissez ce champ vide.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "C9. Réponses aux demandes sociétales : nombre d'exploitations",
+        "description": "Indiquez le nombre d'exploitations concernées par ce co-bénéfice.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "C10. Dynamiques territoriales (préciser le cas échéant) (optionnel)",
+        "description": "- Implication sociale\r\n- Autonomie et valorisation des ressources locales \r\n- Contribution à l’emploi\r\nSi le projet est concerné par cet indicateur, précisez.\r\nSi le projet n'est pas concerné par cet indicateur, laissez ce champ vide.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "C10. Dynamiques territoriales : nombre d'exploitations concernées",
+        "description": "Indiquez le nombre d'exploitations concernées par ce co-bénéfice",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "C11. Qualité de vie au travail (préciser le cas échéant) (optionnel)",
+        "description": "- Revenu disponible\r\n- Temps de traction\r\n- Équilibre de la charge de travail\r\n- Conditions de travail de l’agriculteur\r\n\r\nSi le projet est concerné par cet indicateur, précisez.\r\nSi le projet n'est pas concerné par cet indicateur, laissez ce champ vide.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "C11. Qualité de vie au travail : nombre d'exploitations",
+        "description": "Indiquez le nombre d'exploitations concernées par ce co-bénéfice",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "E. Quantification des réductions d'émissions",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Total RE émissions fertilisation (en teqCO2) après rabais",
+        "description": "Indiquez la valeur calculée pour cet indicateur dans l'onglet \"Récapitulatif\" du tableur Excel \"Liste_GrandesCultures\".\r\n",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Total RE émissions combustible (en teqCO2) après rabais",
+        "description": "Indiquez la valeur calculée pour cet indicateur dans l'onglet \"Récapitulatif\" du tableur Excel \"Liste_GrandesCultures\".\r\n",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Total RE stockage C dans le sol (en teqCO2) après rabais",
+        "description": "Indiquez la valeur calculée pour cet indicateur dans l'onglet \"Récapitulatif\" du tableur Excel \"Liste_GrandesCultures\".\r\n",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Total RE émissions stockage/séchage (en teqCO2) après rabais",
+        "description": "Indiquez la valeur calculée pour cet indicateur dans l'onglet \"Récapitulatif\" du tableur Excel \"Liste_GrandesCultures\".\r\n",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Total RE aval séchage OS après rabais",
+        "description": "Indiquez la valeur calculée pour cet indicateur dans l'onglet \"Récapitulatif\" du tableur Excel \"Liste_GrandesCultures\".\r\n",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Total des réductions d'émissions totales générables (teqCO2) après rabais",
+        "description": "Indiquez la valeur calculée pour cet indicateur dans l'onglet \"Récapitulatif\" du tableur Excel \"Liste_GrandesCultures\". Merci d'arrondir à l'entier le plus proche.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "F. Récapitulatif des engagements du demandeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Le mandataire certifie qu'il a contrôlé les conditions d'éligibilité de tous les sous-projets soumis au titre de ce projet.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "G. Informations supplémentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Souhaitez-vous ajouter des informations supplémentaires ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Souhaitez-vous ajouter des pièces justificatives supplémentaires ?",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Fin du dépôt de dossier",
+        "description": "Lorsque vous avez terminé de compléter votre dossier, <strong>n'oubliez pas d'envoyer un message au service instructeur via la Messagerie de la plateforme. Ce message l'informera que votre dossier a été complété et que l'instruction peut débuter. A défaut, il peut considérer que vous êtes toujours en train de le constituer.</strong>",
+        "required": false
+      }
+    ]
+  }
+}

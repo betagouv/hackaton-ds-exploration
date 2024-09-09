@@ -1,0 +1,715 @@
+{
+  "number": 18341,
+  "title": "Demande d'Allocation Personnalisée d'Autonomie à Domicile V5",
+  "description": "                                              Avant d'entamer la procédure :\r\n\r\n1- assurez-vous que le bénéficiaire est éligible à l'APA ; pour cela le bénéficiaire doit : \r\n\r\n- avoir au moins 60 ans,\r\n- justifier d’une résidence stable et régulière en France,\r\n- résider dans le département du Var depuis au moins 3 mois (dans le cas contraire, rapprochez-vous du département d'origine).\r\n\r\n2-  vous devez joindre les documents suivants :\r\n\r\n- justificatif d’identité du demandeur et du conjoint le cas échéant\r\n-  dernier avis d’imposition ou de non imposition à l’impôt sur le revenu recto-verso du demandeur et du conjoint le cas échéant\r\n- derniers relevés des taxes foncières en intégralité sur les propriétés bâties et sur les propriétés non-bâties, et, le cas échéant, ceux du conjoint\r\n- un relevé personnel d’identité bancaire ou postal\r\n- Jugement de protection si le demandeur en fait l'objet\r\n\r\nLiens utiles :\r\n\r\nCLIC : https://www.var.fr/social/autonomie-personnes-agees/les-clic-du-var",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2019-05-24T12:00:55+02:00",
+  "service": {
+    "nom": "Service instruction APA",
+    "organisme": "Département du Var",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande_apa_a_domicile_v5",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.var.fr/social/autonomie-personnes-agees/apa",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "procedure-fd6fcb3e-644f-4d6e-8b01-a74de91fc190.png",
+    "checksum": "5700161Ll2VNx1xgc3YmUw==",
+    "byteSize": "122297",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1 - Personne en charge de la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Qui êtes vous par rapport au demandeur ?",
+        "description": "Sélectionner dans la liste",
+        "required": true,
+        "options": [
+          "Je suis le bénéficiaire",
+          "Je suis une personne désignée légalement (tuteur, curateur, sauvegarde de justice)",
+          "Je suis une personne de l'entourage du bénéficiaire ( proche, parent, aidant familial...)",
+          "Je suis un organisme qui fait la demande pour le bénéficiaire (  CLIC, CCAS...  )"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'organisme qui fait la demande pour le bénéficiaire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - Identités du bénéficiaire et son entourage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2.a - Identités : informations concernant le bénéficiaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité du bénéficiaire",
+        "description": "Sélectionner dans la liste",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom  marital du bénéficiaire",
+        "description": "( si besoin)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance du bénéficiaire",
+        "description": "Exemple 12/12/1931",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu de naissance du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nationalité du bénéficiaire",
+        "description": "Sélectionner dans la liste",
+        "required": true,
+        "options": [
+          "Française",
+          "UE",
+          "Hors UE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de domicile du bénéficiaire",
+        "description": "L'adresse saisie doit être l'adresse où réside le bénéficiaire ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code postal du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Préciser si le logement principal est occupé en tant que :",
+        "description": "Sélectionner dans la liste",
+        "required": true,
+        "options": [
+          "locataire",
+          "propriétaire",
+          "usufruitier",
+          "résidence autonomie",
+          "hébergé(e)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la résidence autonomie ou de la personne qui héberge",
+        "description": "( si besoin)",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Vous résidez dans le Var depuis :",
+        "description": "Sélectionner dans la liste",
+        "required": true,
+        "options": [
+          "plus de 3 mois",
+          "moins de 3 mois"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mél du bénéficiaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone fixe ou portable du bénéficiaire ou à défaut celui de la personne qui réalise la démarche",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation familiale du bénéficiaire",
+        "description": "Si le bénéficiaire est célibataire, merci de sélectionner \"Célibataire\" dans le menu déroulant et vous passer directement à la rubrique 2.c - Identités : informations concernant la personne référente.",
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Marié",
+          "Concubin",
+          "Pacsé",
+          "Divorcé",
+          "Veuf"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "-",
+        "description": "Si la situation de veuvage date de moins de 2 ans, merci de préciser la date de décès du conjoint.",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Souhaite l'attribution de la carte mobilité inclusion (facultatif) :",
+        "description": "Sélectionner un ou plusieurs choix dans la liste",
+        "required": true,
+        "options": [
+          "--1-- pas de demande",
+          "--2-- d'invalidité",
+          "--3-- de priorité",
+          "--4-- de stationnement"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2.b - Identités : informations concernant le conjoint, concubin ou partenaire de pacs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité du conjoint, concubin ou partenaire de pacs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance du conjoint, concubin ou partenaire de pacs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom marital du conjoint, concubin ou partenaire de pacs",
+        "description": "( si besoin)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du conjoint, concubin ou partenaire de pacs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance du conjoint, concubin ou partenaire de pacs",
+        "description": "Exemple 12/12/1931",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu de naissance du conjoint, concubin ou partenaire de pacs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone fixe ou portable du conjoint, concubin ou partenaire de pacs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mél du conjoint, concubin ou partenaire de pacs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nationalité du conjoint, concubin ou partenaire de pacs",
+        "description": "Sélectionner dans la liste",
+        "required": false,
+        "options": [
+          "Française",
+          "UE",
+          "Hors UE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Lieu de résidence du conjoint, concubin ou partenaire de pacs",
+        "description": "",
+        "required": false,
+        "options": [
+          "A domicile",
+          "En établissement"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2.c - Identités : informations concernant la personne référente ou le proche aidant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Lien entre le référent/proche aidant et le demandeur",
+        "description": "Si le proche aidant est le conjoint il n'est pas nécessaire de saisir de nouveau les informations concernant l'identité. Veuillez simplement informer la nature de l'aide apportée et l'aide pour les actes essentiels de la vie quotidienne.",
+        "required": false,
+        "options": [
+          "Conjoint(e)",
+          "Enfant",
+          "Enfant du conjoint",
+          "Belle-fille",
+          "Gendre",
+          "Tiers familial",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité du référent/proche aidant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du référent/proche aidant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du référent/proche aidant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance du référent/proche aidant",
+        "description": "Exemple 12/12/1931",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu de naissance du référent/proche aidant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du référent/proche aidant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone fixe ou portable du référent/proche aidant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel du référent/proche aidant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Nature de l'aide apportée",
+        "description": "Sélectionner un ou plusieurs choix dans la liste",
+        "required": false,
+        "options": [
+          "--1-- courses",
+          "--2-- accompagnement pour les déplacements extérieurs"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Aide pour les actes essentiels de la vie quotidienne",
+        "description": "Sélectionner un ou plusieurs choix dans la liste",
+        "required": false,
+        "options": [
+          "--1-- se nourrir",
+          "--2-- se lever se coucher",
+          "--3-- s'habiller",
+          "--4-- se laver",
+          "--5-- aller aux toilettes",
+          "--6-- se déplacer dans son domicile"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - Protection juridique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quel est le type de mesure de protection ?",
+        "description": "Si le bénéficiaire ne fait pas l'objet d'une mesure de protection, merci de saisir dans le menu déroulant \"Aucune mesure\" et merci de passer à la rubrique 4 - Allocations percues.",
+        "required": true,
+        "options": [
+          "Aucune mesure",
+          "Sauvegarde de justice",
+          "Curatelle",
+          "Tutelle",
+          "Habilitation familiale",
+          "Mandat de protection futur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d’effet de la mesure",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'organisme nommé dans le cadre de cette protection",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "-- Ou --",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité de la personne désignée légalement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la personne désignée légalement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom de la personne désignée légalement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de la personne désignée légalement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone fixe ou portable de la personne désignée légalement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Mél de la personne désignée légalement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - Allocations perçues",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "_",
+        "description": "Attention, l’APA n’est pas cumulable avec les  aides citées ci-dessous. Si vous bénéficiez d'une de ces allocations, il vous faudra choisir entre l’APA et l’allocation dont vous bénéficiez actuellement.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Bénéficiez-vous d'une ou plusieurs des aides suivantes :",
+        "description": "- aide-ménagère à domicile, prise en charge par une caisse de retraite, ou l’aide sociale départementale \n- de la prestation de compensation du handicap (PCH)\n- de l’allocation compensatrice pour tierce personne (ACTP)\n- de la Majoration pour aide constante d’une Tierce Personne versée par la Sécurité sociale (MTP)\n- de la prestation complémentaire pour recours à tierce personne",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5 - Les ressources",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5.a – Les ressources : biens(s) immobilier(s), bâti(s) ou non bâti(s), en propriété ou en usufruit ou en indivision",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Je déclare posséder un ou des biens(s) immobilier(s), bâti(s) ou non bâti(s), en propriété ou en usufruit ou en indivision.",
+        "description": "Si vous répondez \"Oui\" à la question, merci de bien vouloir indiquer l’adresse des biens immobiliers bâtis ou non bâtis. ",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "____________________________________________________________________________________________________________",
+        "description": "Résidence secondaire n°1",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de la résidence secondaire n°1",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "____________________________________________________________________________________________________________",
+        "description": "Résidence secondaire n°2",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de la résidence secondaire n°2",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "valeur locative apparaissant dans le ou les derniers relevés de la taxe foncière sur les propriétés bâties et non bâties. Si néant le préciser.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5.b - Les ressources : biens mobiliers et capitaux non placés (dont assurance vie) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Je déclare posséder un ou des contrat(s) d’assurance-vie",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant (mettre \"0\" si vous n'avez pas d'assurance vie)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "6 – Pièces jointes (vous pouvez joindre le document en une ou plusieurs pièce(s) jointe(s))",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Copie recto verso du justificatif d’identité du bénéficiaire et du conjoint le cas échéant (vous pouvez joindre le document en une ou plusieurs pièce(s) jointe(s))",
+        "description": "Pour les personnes de nationalité française : carte d'identité ou passeport | Pour les personnes ressortissantes de l’Espace économique européen : carte  d'identité ou passeport en cours de validité | Pour les personnes non ressortissantes de l’Espace économique européen : carte de résidence ou titre de séjour en cours de validité.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "justificatif d’identité page 1",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "justificatif d’identité page 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dernier avis d’imposition ou de non imposition à l’impôt sur le revenu recto-verso et le cas échéant, de mon conjoint, mon concubin ou de la personne avec laquelle j’ai conclu un pacte civil solidarité (PACS). (vous pouvez joindre le document en une ou plusieurs pièce(s) jointe(s))",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "avis d’imposition ou de non imposition page 1",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "avis d’imposition ou de non imposition page 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "avis d’imposition ou de non imposition page 3",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "avis d’imposition ou de non imposition page 4",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Derniers relevés des taxes foncières en intégralité sur mes propriétés bâties et sur mes propriétés non-bâties, et, le cas échéant, ceux de mon conjoint, de mon concubin ou de la personne avec laquelle j’ai conclu un pacte civil de solidarité (PACS). (vous pouvez joindre le document en une ou plusieurs pièce(s) jointe(s))",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "taxes foncières page 1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "taxes foncières page 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Un relevé personnel d’identité bancaire ou postal : pour les comptes joints, le prénom de la personne désirant bénéficier de l’APA doit être mentionné, et en cas de mesure de protection,le RIB doit mentionner la mesure.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB / RICE",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Jugement de protection si vous vous en faites l'objet",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Jugement de protection",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "7 – Validations",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie sur l’honneur l’exactitude des renseignements saisis",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m’engage à fournir toutes les pièces justificatives demandées.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je suis informé(e) que toute fausse déclaration ou falsification de document, toute obtention usurpée d’un droit, m’expose à des sanctions pénales et financières en application des articles 313-1, 313-7 et 313-8 du Code pénal, ainsi que, le cas échéant, à la récupération par le Département des sommes indûment perçues.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je suis tenu(e) d’informer, dans les meilleurs délais, le Département, de tout changement ultérieur de situation (évolution de ma situation, changement de RIB.....)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "J'autorise l'organisme mentionné au point  \"1 - Personne en charge de la demande\" à effectuer la demande pour moi.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "8 - Evaluation du formulaire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Ergonomie",
+        "description": null,
+        "required": false,
+        "options": [
+          "Excellent",
+          "Bien",
+          "Moyen",
+          "Passable"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Simplicité d'utilisation",
+        "description": null,
+        "required": false,
+        "options": [
+          "Excellent",
+          "Bien",
+          "Moyen",
+          "Passable"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Facilité pour joindre les pièces",
+        "description": null,
+        "required": false,
+        "options": [
+          "Excellent",
+          "Bien",
+          "Moyen",
+          "Passable"
+        ],
+        "otherOption": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,537 @@
+{
+  "number": 32206,
+  "title": "avis du Maire DDT 23",
+  "description": "formulaire avis du Maire",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2020-07-08T13:01:20+02:00",
+  "service": {
+    "nom": "Bureau de l'Urbanisme et du Droit des Sols",
+    "organisme": "Direction Départementale des Territoires de la Creuse",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/avis-du-maire-ddt-23",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.creuse.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCode.do?cidTexte=LEGITEXT000006074075",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 193,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "MAIRIE DE",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "numéro de la demande :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "concernant une demande de :",
+        "description": null,
+        "required": true,
+        "options": [
+          "CU",
+          "DP",
+          "PC",
+          "PA",
+          "PD"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Dossier déposé le",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Affiché en Mairie le",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le dossier est-il transmis à l'Architecte des Bâtiments de France ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "CIVILITÉ DU PÉTITIONNAIRE",
+        "description": null,
+        "required": true,
+        "options": [
+          "Madame",
+          "Monsieur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM prénoms du pétitionnaire",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "PROJET DE (courte description)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "adresse complète du terrain (numéro, voie, lieu-dit, code postal, commune)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "référence(s) cadastrale(s) du terrain",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. Avis sur le projet dans son environnement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Le projet est-il situé dans un secteur couvert par un document d'urbanisme ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "POS/PLU",
+          "Carte Communale",
+          "Carte communale partielle",
+          "POS abrogé/caduc",
+          "non, RNU"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Préciser la ou les zone(s) concernée(s)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le territoire est-il soumis à la Loi Montagne ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, existe-il un plan d'eau dans un rayon de 300m du projet ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le terrain d'assiette du projet présente-t-il, à votre connaissance, des particularités liées à l'environnement naturel qui pourraient relever d'une autre législation (loi sur l'eau, code de l'environnement, etc...) ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui, lesquels :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Le projet est une construction agricole",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "L'exploitation agricole du pétitionnaire n'est pas classée ICPE en préfecture et :",
+        "description": null,
+        "required": false,
+        "options": [
+          "-  il existe un tiers dans les 50m. du projet.",
+          "-  il n'existe aucun tiers dans les 50m. du projet."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "L'exploitation agricole du pétitionnaire est classée ICPE en préfecture et :",
+        "description": null,
+        "required": false,
+        "options": [
+          "-  il existe un tiers dans les 100m. du projet.",
+          "-  il n'existe aucun tiers dans les 100m. du projet."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le projet est-il situé dans le périmètre inconstructible d'une IPCE non agricole (par exemple : industriel) ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Le projet n'est pas une construction agricole",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Existe-il un bâtiment agricole classé ICPE dans les 100 m ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Existe-il un bâtiment agricole non classé ICPE dans les 50 m ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le projet est-il situé dans le périmètre inconstructible d'une IPCE non agricole (par exemple : industriel) ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. Avis sur les équipements desservant le terrain",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "2.1 Y a t'il un plan d'alignement ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "2.2.1 Le terrain est-il desservi en eau potable ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, la capacité est-elle suffisante pour le projet ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, préciser à quelle date le terrain sera desservi, la longueur en mètre de l'extension et le nom du gestionnaire ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les travaux de raccordement aux réseaux seront à la charge :",
+        "description": null,
+        "required": false,
+        "options": [
+          "- de la commune",
+          "- de l'intercommunalité",
+          "- du pétitionnaire (raccordement à usage unique) < 100 m."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "2.2.2 Le terrain est-il desservi pour l'assainissement eaux usées ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, la capacité est-elle suffisante pour le projet ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, préciser à quelle date le terrain sera desservi et la longueur en mètre de l'extension ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les travaux de raccordement aux réseaux seront à la charge :",
+        "description": null,
+        "required": false,
+        "options": [
+          "- de la commune",
+          "- de l'intercommunalité"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "2.2.3 Le terrain est-il desservi pour l'assainissement eaux pluviales ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, la capacité est-elle suffisante pour le projet ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, préciser à quelle date le terrain sera desservi et la longueur en mètre de l'extension ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les travaux de raccordement aux réseaux seront à la charge :",
+        "description": null,
+        "required": false,
+        "options": [
+          "- de la commune",
+          "- de l'intercommunalité"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "2.2.4 Le terrain est-il desservi en électricité ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, la capacité est-elle suffisante pour le projet ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, préciser à quelle date le terrain sera desservi, la longueur en mètre de l'extension ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Les travaux de raccordement aux réseaux seront à la charge :",
+        "description": null,
+        "required": false,
+        "options": [
+          "- de la commune",
+          "- de l'intercommunalité",
+          "- du pétitionnaire (raccordement à usage unique) < 100 m."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "2.2.5 Le terrain est-il desservi en voirie publique ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, la capacité est-elle suffisante pour le projet ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, préciser à quelle date le terrain sera desservi, la longueur en mètre de l'extension et le nom du gestionnaire ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "2.2.6 Le terrain est-il desservi en voirie privée ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, la capacité est-elle suffisante pour le projet ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La sécurité incendie est-elle assurée ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, quel moyen est préconisé par le maire ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. Avis sur le projet d'aménagement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "3.1 Quel est le gestionnaire de la voirie desservant le terrain ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "- voirie communale",
+          "- voirie intercommunale",
+          "- route départementale",
+          "- route nationale"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les conditions d'accès sont-elles satisfaisantes ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "3.2 Observations du maire sur l'aspect extérieur du projet (toitures, façades, clôtures)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4. Participations d'urbanisme",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "4.1. Participation pour voirie et réseaux (PVR)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "instituée par délibération du :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "délibération spécifique liée au projet en date :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Montant (à joindre pour chaque projet)",
+        "description": "€/m2 (par convention ci-jointe)",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "4.2. Equipements publics exceptionnels",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "nature",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "4.3. Participation du constructeur en zone d'aménagement concertée (ZAC)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "nature",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5. Fiscalité applicable sur le territoire communal",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "5.1. Taxe d'aménagement (TA)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Taux de TA",
+        "description": " %",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "5.2. Versement pour sous densité  (VSD)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "6. Avis du Maire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "provisoire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "définitif",
+        "description": "avis réputé favorable sous 1 mois, 15 jours pour une déclaration préalable (Art. L.422-8 et R.423-72 du code de l'urbanisme).",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Avis du Maire",
+        "description": null,
+        "required": true,
+        "options": [
+          "Favorable",
+          "Défavorable"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "nature et motivation des prescriptions, s'il y a lieu",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Indiquer les motivations à prononcer un avis défavorable compte tenu des observations tirées des rubriques précédentes",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,532 @@
+{
+  "number": 39465,
+  "title": "Phase 4 EU-ETS - Intégration, sortie et modification",
+  "description": "Note : le n° SIRET demandé est celui de la DREAL complétant la DS (ou à défaut, celui du Ministère de la Transition écologique).\r\n\r\nCette télé-procédure s'adresse à l'inspection pour les installations classées soumises au système d'échange de quotas de gaz à effet de serre (SEQE 4).\r\nElle est destinée à recueillir :\r\n- les demandes d'intégration au SEQE 4 (nouveaux entrants),\r\n- les demandes de sortie du SEQE 4,\r\n- les déclarations de changement de situation (changement de dénomination, changement d'exploitant).\r\n\r\n\r\nNote : cette télé-procédure ne permet pas de recueillir les déclarations d'émissions ou de niveaux d'activité qui sont à faire dans l'outil GEREP : https://www.declarationpollution.developpement-durable.gouv.fr/gerep/ ni les documents de surveillance des émissions\r\n\r\nLes modifications d'allocations pour une installation du fait de la variation de ses niveaux d'activité sont prises en compte dans la déclaration des niveaux d'activité à transmettre chaque année sur GEREP, et aucune procédure n'est dans ce cas attendue sur démarches simplifiées.\r\n\r\nNote : le n° SIRET demandé est celui de la DREAL complétant la DS (ou à défaut, celui du Ministère de la Transition écologique).\r\n",
+  "tags": [
+    "Environnement"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2021-12-09T17:51:41+01:00",
+  "service": {
+    "nom": "Direction Générale de l'Énergie et du Climat - Bureau de la Qualité de l'Air ",
+    "organisme": "Ministère de la Transition Écologique",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/phase-4-eu-ets-integration-sortie-et-modification",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.developpement-durable.gouv.fr/marches-du-carbone#e5",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "Ministère_de_la_Transition_écologique.svg.png",
+    "checksum": "44NL7FMZo1xUGI+uIvourQ==",
+    "byteSize": "65544",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 236,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification administrative",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'exploitant",
+        "description": "Pour les installations déjà soumises au SEQE, se rapporter à la dernière version de l'\"arrêté fixant la liste des exploitants d'installations soumises à autorisation pour les émissions de gaz à effet de serre ainsi que le montant des quotas d’émissions affectés à titre gratuit pour la période 2021-2025\".",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'installation",
+        "description": "Pour les installations déjà soumises au SEQE, se rapporter à la dernière version de l'\"arrêté fixant la liste des exploitants d'installations soumises à autorisation pour les émissions de gaz à effet de serre ainsi que le montant des quotas d’émissions affectés à titre gratuit pour la période 2021-2025.\"",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° S3IC",
+        "description": "Code établissement\nFormat attendu : 00XXXXXXXX (10 chiffres)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° NIM",
+        "description": "Identifiant de l'installation dans le registre européen. Exemples : \"FR000000000000624\", \"FR000000000001056\", \"FR000000000203365\".\n\nPour les installations ayant un compte ouvert au registre, ce numéro comporte 17 caractères sous le format FR000000000YYYYYY. Les caractères YYYYYY correspondent à l'identifiant registre de l'installation dans le registre européen. Cet identifiant peut comporter moins de 6 chiffres, mais le numéro doit dans tous les cas comporter 17 caractères (voir exemples au dessus)\n\nPour les installations n'ayant pas encore de compte ouvert au registre, veuillez indiquer le numéro d'identification temporaire sous le format : FR-new-XXXXXXXX (les X correspondent aux 8 derniers chiffres du numéro S3IC)",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Service d'inspection dont dépend l'installation",
+        "description": null,
+        "required": true,
+        "options": [
+          "DREAL / DEAL / DRIEAT / DGTM / DATM",
+          "DDPP / DDETSPP",
+          "Autorité de sûreté nucléaire (ASN)",
+          "Contrôle Général des Armées (CGA)",
+          "Délégué à la sûreté nucléaire et à la radioprotection pour les activités et installations intéressant la défense (DSND)",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Région dans laquelle se situe l'installation",
+        "description": "",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Île-de-France",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d'Azur",
+          "Guadeloupe",
+          "Martinique",
+          "Guyane",
+          "La Réunion",
+          "Mayotte",
+          "Saint Pierre et Miquelon",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Caractéristiques de la demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Motif de la demande",
+        "description": "Suite à votre choix ici, remplir uniquement la section correspondante en dessous.",
+        "required": true,
+        "options": [
+          "Nouvel entrant",
+          "Sortie du SEQE",
+          "Changement de dénomination (exploitant ou installation)",
+          "Changement d'exploitant"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Année de la modification",
+        "description": "Pour un nouvel entrant, il s'agit de l'année de la signature de l'AP de permis d'émettre.\n\nPour une sortie de SEQE, il s'agit de l'année de la cessation d'activité au sens du SEQE.\n\nPour une modification de dénomination ou d'exploitant, il s'agit de l'année de déclaration par la DREAL.\n\nLa déclaration des modifications et des cessations doit être réalisée dès que l'information a été communiquée par l'exploitant.",
+        "required": true,
+        "options": [
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026",
+          "2027",
+          "2028",
+          "2029",
+          "2030"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Nouvel Entrant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Activité principale soumise au SEQE",
+        "description": "Renseigner l'activité principale soumise au SEQE ",
+        "required": false,
+        "options": [
+          "1-Combustion de combustibles dans des installations dont la puissance calorifique totale de combustion est supérieure à 20 MW (à l’exception des installations d’incinération de déchets dangereux ou municipaux)",
+          "2-Raffinage de pétrole",
+          "3-Production de coke",
+          "4-Grillage ou frittage, y compris pelletisation, de minerai métallique (y compris de minerai sulfuré)",
+          "5-Production de fonte ou d’acier (fusion primaire ou secondaire), y compris les équipements pour coulée continue d’une capacité de plus de 2,5 tonnes par heure",
+          "6-Production ou transformation de métaux ferreux (y compris les ferro-alliages) lorsque des unités de combustion dont la puissance calorifique totale de combustion est supérieure à 20 MW sont exploitées. La transformation comprend, notamment, les laminoirs, les réchauffeurs, les fours de recuit, les forges, les fonderies, les unités de revêtement et les unités de décapage.",
+          "7-Production d’aluminium primaire",
+          "8-Production d’aluminium secondaire, lorsque des unités de combustion dont la puissance calorifique totale de combustion est supérieure à 20 MW sont exploitées",
+          "9-Production ou transformation de métaux non ferreux, y compris la production d’alliages, l’affinage, le moulage en fonderie, etc., lorsque des unités de combustion dont la puissance calorifique totale de combustion (y compris les combustibles utilisés comme agents réducteurs) est supérieure à 20 MW sont exploitées.",
+          "10-Production de clinker (ciment) dans des fours rotatifs avec une capacité de production supérieure à 500 tonnes par jour, ou dans d’autres types de fours, avec une capacité de production supérieure à 50 tonnes par jour",
+          "11-Production de chaux, y compris la calcination de dolomite et de magnésite, dans des fours rotatifs ou dans d’autres types de fours, avec une capacité de production supérieure à 50 tonnes par jour",
+          "12-Fabrication du verre, y compris de fibres de verre, avec une capacité de fusion supérieure à 20 tonnes par jour",
+          "13-Fabrication de produits céramiques par cuisson, notamment de tuiles, de briques, de pierres réfractaires, de carrelages, de grès ou de porcelaines, avec une capacité de production supérieure à 75 tonnes par jour",
+          "14-Fabrication de matériau isolant en laine minérale à partir de roches, de verre ou de laitier, avec une capacité de fusion supérieure à 20 tonnes par jour.",
+          "15-Séchage ou calcination du plâtre ou production de planches de plâtre et autres compositions à base de plâtre, lorsque des unités de combustion dont la puissance calorifique de combustion est supérieure à 20 MW sont exploitées.",
+          "16-Production de pâte à papier à partir du bois ou d’autres matières fibreuses.",
+          "17-Production de papier ou de carton, avec une capacité de production supérieure à 20 tonnes par jour.\t",
+          "18-Production de noir de carbone, y compris la carbonisation de substances organiques telles que les huiles, les goudrons, les résidus de craquage et de distillation, lorsque des unités de combustion dont la puissance calorifique totale de combustion est supérieure à 20 MW sont exploitées.",
+          "19-Production d’acide nitrique.",
+          "20-Production d’acide adipique.",
+          "21-Production de glyoxal et d’acide glyoxylique.",
+          "22-Production d’ammoniac.",
+          "23-Production de produits chimiques organiques en vrac par craquage, reformage, oxydation partielle ou totale, ou par d’autres procédés similaires, avec une capacité de production supérieure à 100 tonnes par jour.",
+          "24-Production d’hydrogène (H2) et de gaz de synthèse par reformage ou oxydation partielle avec une capacité de production supérieure à 25 tonnes par jour.",
+          "25-Production de soude (Na2CO3) et de bicarbonate de sodium (NaHCO3).",
+          "26-Captage des gaz à effet de serre produits par les installations couvertes par la présente directive en vue de leur transport et de leur stockage géologique dans un site de stockage agréé au titre de la directive 2009/31/CE.",
+          "27-Transport par pipelines des gaz à effet de serre en vue de leur stockage dans un site de stockage agréé au titre de la directive 2009/31/CE.",
+          "28-Stockage géologique des gaz à effet de serre dans un site de stockage agréé au titre de la directive 2009/31/CE."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Autre activité soumise au SEQE",
+        "description": null,
+        "required": false,
+        "options": [
+          "1-Combustion de combustibles dans des installations dont la puissance calorifique totale de combustion est supérieure à 20 MW (à l’exception des installations d’incinération de déchets dangereux ou municipaux)",
+          "2-Raffinage de pétrole",
+          "3-Production de coke",
+          "4-Grillage ou frittage, y compris pelletisation, de minerai métallique (y compris de minerai sulfuré)",
+          "5-Production de fonte ou d’acier (fusion primaire ou secondaire), y compris les équipements pour coulée continue d’une capacité de plus de 2,5 tonnes par heure",
+          "6-Production ou transformation de métaux ferreux (y compris les ferro-alliages) lorsque des unités de combustion dont la puissance calorifique totale de combustion est supérieure à 20 MW sont exploitées. La transformation comprend, notamment, les laminoirs, les réchauffeurs, les fours de recuit, les forges, les fonderies, les unités de revêtement et les unités de décapage.",
+          "7-Production d’aluminium primaire",
+          "8-Production d’aluminium secondaire, lorsque des unités de combustion dont la puissance calorifique totale de combustion est supérieure à 20 MW sont exploitées",
+          "9-Production ou transformation de métaux non ferreux, y compris la production d’alliages, l’affinage, le moulage en fonderie, etc., lorsque des unités de combustion dont la puissance calorifique totale de combustion (y compris les combustibles utilisés comme agents réducteurs) est supérieure à 20 MW sont exploitées.",
+          "10-Production de clinker (ciment) dans des fours rotatifs avec une capacité de production supérieure à 500 tonnes par jour, ou dans d’autres types de fours, avec une capacité de production supérieure à 50 tonnes par jour",
+          "11-Production de chaux, y compris la calcination de dolomite et de magnésite, dans des fours rotatifs ou dans d’autres types de fours, avec une capacité de production supérieure à 50 tonnes par jour",
+          "12-Fabrication du verre, y compris de fibres de verre, avec une capacité de fusion supérieure à 20 tonnes par jour",
+          "13-Fabrication de produits céramiques par cuisson, notamment de tuiles, de briques, de pierres réfractaires, de carrelages, de grès ou de porcelaines, avec une capacité de production supérieure à 75 tonnes par jour",
+          "14-Fabrication de matériau isolant en laine minérale à partir de roches, de verre ou de laitier, avec une capacité de fusion supérieure à 20 tonnes par jour.",
+          "15-Séchage ou calcination du plâtre ou production de planches de plâtre et autres compositions à base de plâtre, lorsque des unités de combustion dont la puissance calorifique de combustion est supérieure à 20 MW sont exploitées.",
+          "16-Production de pâte à papier à partir du bois ou d’autres matières fibreuses.",
+          "17-Production de papier ou de carton, avec une capacité de production supérieure à 20 tonnes par jour.\t",
+          "18-Production de noir de carbone, y compris la carbonisation de substances organiques telles que les huiles, les goudrons, les résidus de craquage et de distillation, lorsque des unités de combustion dont la puissance calorifique totale de combustion est supérieure à 20 MW sont exploitées.",
+          "19-Production d’acide nitrique.",
+          "20-Production d’acide adipique.",
+          "21-Production de glyoxal et d’acide glyoxylique.",
+          "22-Production d’ammoniac.",
+          "23-Production de produits chimiques organiques en vrac par craquage, reformage, oxydation partielle ou totale, ou par d’autres procédés similaires, avec une capacité de production supérieure à 100 tonnes par jour.",
+          "24-Production d’hydrogène (H2) et de gaz de synthèse par reformage ou oxydation partielle avec une capacité de production supérieure à 25 tonnes par jour.",
+          "25-Production de soude (Na2CO3) et de bicarbonate de sodium (NaHCO3).",
+          "26-Captage des gaz à effet de serre produits par les installations couvertes par la présente directive en vue de leur transport et de leur stockage géologique dans un site de stockage agréé au titre de la directive 2009/31/CE.",
+          "27-Transport par pipelines des gaz à effet de serre en vue de leur stockage dans un site de stockage agréé au titre de la directive 2009/31/CE.",
+          "28-Stockage géologique des gaz à effet de serre dans un site de stockage agréé au titre de la directive 2009/31/CE."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Autre activité soumise au SEQE",
+        "description": null,
+        "required": false,
+        "options": [
+          "1-Combustion de combustibles dans des installations dont la puissance calorifique totale de combustion est supérieure à 20 MW (à l’exception des installations d’incinération de déchets dangereux ou municipaux)",
+          "2-Raffinage de pétrole",
+          "3-Production de coke",
+          "4-Grillage ou frittage, y compris pelletisation, de minerai métallique (y compris de minerai sulfuré)",
+          "5-Production de fonte ou d’acier (fusion primaire ou secondaire), y compris les équipements pour coulée continue d’une capacité de plus de 2,5 tonnes par heure",
+          "6-Production ou transformation de métaux ferreux (y compris les ferro-alliages) lorsque des unités de combustion dont la puissance calorifique totale de combustion est supérieure à 20 MW sont exploitées. La transformation comprend, notamment, les laminoirs, les réchauffeurs, les fours de recuit, les forges, les fonderies, les unités de revêtement et les unités de décapage.",
+          "7-Production d’aluminium primaire",
+          "8-Production d’aluminium secondaire, lorsque des unités de combustion dont la puissance calorifique totale de combustion est supérieure à 20 MW sont exploitées",
+          "9-Production ou transformation de métaux non ferreux, y compris la production d’alliages, l’affinage, le moulage en fonderie, etc., lorsque des unités de combustion dont la puissance calorifique totale de combustion (y compris les combustibles utilisés comme agents réducteurs) est supérieure à 20 MW sont exploitées.",
+          "10-Production de clinker (ciment) dans des fours rotatifs avec une capacité de production supérieure à 500 tonnes par jour, ou dans d’autres types de fours, avec une capacité de production supérieure à 50 tonnes par jour",
+          "11-Production de chaux, y compris la calcination de dolomite et de magnésite, dans des fours rotatifs ou dans d’autres types de fours, avec une capacité de production supérieure à 50 tonnes par jour",
+          "12-Fabrication du verre, y compris de fibres de verre, avec une capacité de fusion supérieure à 20 tonnes par jour",
+          "13-Fabrication de produits céramiques par cuisson, notamment de tuiles, de briques, de pierres réfractaires, de carrelages, de grès ou de porcelaines, avec une capacité de production supérieure à 75 tonnes par jour",
+          "14-Fabrication de matériau isolant en laine minérale à partir de roches, de verre ou de laitier, avec une capacité de fusion supérieure à 20 tonnes par jour.",
+          "15-Séchage ou calcination du plâtre ou production de planches de plâtre et autres compositions à base de plâtre, lorsque des unités de combustion dont la puissance calorifique de combustion est supérieure à 20 MW sont exploitées.",
+          "16-Production de pâte à papier à partir du bois ou d’autres matières fibreuses.",
+          "17-Production de papier ou de carton, avec une capacité de production supérieure à 20 tonnes par jour.\t",
+          "18-Production de noir de carbone, y compris la carbonisation de substances organiques telles que les huiles, les goudrons, les résidus de craquage et de distillation, lorsque des unités de combustion dont la puissance calorifique totale de combustion est supérieure à 20 MW sont exploitées.",
+          "19-Production d’acide nitrique.",
+          "20-Production d’acide adipique.",
+          "21-Production de glyoxal et d’acide glyoxylique.",
+          "22-Production d’ammoniac.",
+          "23-Production de produits chimiques organiques en vrac par craquage, reformage, oxydation partielle ou totale, ou par d’autres procédés similaires, avec une capacité de production supérieure à 100 tonnes par jour.",
+          "24-Production d’hydrogène (H2) et de gaz de synthèse par reformage ou oxydation partielle avec une capacité de production supérieure à 25 tonnes par jour.",
+          "25-Production de soude (Na2CO3) et de bicarbonate de sodium (NaHCO3).",
+          "26-Captage des gaz à effet de serre produits par les installations couvertes par la présente directive en vue de leur transport et de leur stockage géologique dans un site de stockage agréé au titre de la directive 2009/31/CE.",
+          "27-Transport par pipelines des gaz à effet de serre en vue de leur stockage dans un site de stockage agréé au titre de la directive 2009/31/CE.",
+          "28-Stockage géologique des gaz à effet de serre dans un site de stockage agréé au titre de la directive 2009/31/CE."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Autre activité soumise au SEQE",
+        "description": null,
+        "required": false,
+        "options": [
+          "1-Combustion de combustibles dans des installations dont la puissance calorifique totale de combustion est supérieure à 20 MW (à l’exception des installations d’incinération de déchets dangereux ou municipaux)",
+          "2-Raffinage de pétrole",
+          "3-Production de coke",
+          "4-Grillage ou frittage, y compris pelletisation, de minerai métallique (y compris de minerai sulfuré)",
+          "5-Production de fonte ou d’acier (fusion primaire ou secondaire), y compris les équipements pour coulée continue d’une capacité de plus de 2,5 tonnes par heure",
+          "6-Production ou transformation de métaux ferreux (y compris les ferro-alliages) lorsque des unités de combustion dont la puissance calorifique totale de combustion est supérieure à 20 MW sont exploitées. La transformation comprend, notamment, les laminoirs, les réchauffeurs, les fours de recuit, les forges, les fonderies, les unités de revêtement et les unités de décapage.",
+          "7-Production d’aluminium primaire",
+          "8-Production d’aluminium secondaire, lorsque des unités de combustion dont la puissance calorifique totale de combustion est supérieure à 20 MW sont exploitées",
+          "9-Production ou transformation de métaux non ferreux, y compris la production d’alliages, l’affinage, le moulage en fonderie, etc., lorsque des unités de combustion dont la puissance calorifique totale de combustion (y compris les combustibles utilisés comme agents réducteurs) est supérieure à 20 MW sont exploitées.",
+          "10-Production de clinker (ciment) dans des fours rotatifs avec une capacité de production supérieure à 500 tonnes par jour, ou dans d’autres types de fours, avec une capacité de production supérieure à 50 tonnes par jour",
+          "11-Production de chaux, y compris la calcination de dolomite et de magnésite, dans des fours rotatifs ou dans d’autres types de fours, avec une capacité de production supérieure à 50 tonnes par jour",
+          "12-Fabrication du verre, y compris de fibres de verre, avec une capacité de fusion supérieure à 20 tonnes par jour",
+          "13-Fabrication de produits céramiques par cuisson, notamment de tuiles, de briques, de pierres réfractaires, de carrelages, de grès ou de porcelaines, avec une capacité de production supérieure à 75 tonnes par jour",
+          "14-Fabrication de matériau isolant en laine minérale à partir de roches, de verre ou de laitier, avec une capacité de fusion supérieure à 20 tonnes par jour.",
+          "15-Séchage ou calcination du plâtre ou production de planches de plâtre et autres compositions à base de plâtre, lorsque des unités de combustion dont la puissance calorifique de combustion est supérieure à 20 MW sont exploitées.",
+          "16-Production de pâte à papier à partir du bois ou d’autres matières fibreuses.",
+          "17-Production de papier ou de carton, avec une capacité de production supérieure à 20 tonnes par jour.\t",
+          "18-Production de noir de carbone, y compris la carbonisation de substances organiques telles que les huiles, les goudrons, les résidus de craquage et de distillation, lorsque des unités de combustion dont la puissance calorifique totale de combustion est supérieure à 20 MW sont exploitées.",
+          "19-Production d’acide nitrique.",
+          "20-Production d’acide adipique.",
+          "21-Production de glyoxal et d’acide glyoxylique.",
+          "22-Production d’ammoniac.",
+          "23-Production de produits chimiques organiques en vrac par craquage, reformage, oxydation partielle ou totale, ou par d’autres procédés similaires, avec une capacité de production supérieure à 100 tonnes par jour.",
+          "24-Production d’hydrogène (H2) et de gaz de synthèse par reformage ou oxydation partielle avec une capacité de production supérieure à 25 tonnes par jour.",
+          "25-Production de soude (Na2CO3) et de bicarbonate de sodium (NaHCO3).",
+          "26-Captage des gaz à effet de serre produits par les installations couvertes par la présente directive en vue de leur transport et de leur stockage géologique dans un site de stockage agréé au titre de la directive 2009/31/CE.",
+          "27-Transport par pipelines des gaz à effet de serre en vue de leur stockage dans un site de stockage agréé au titre de la directive 2009/31/CE.",
+          "28-Stockage géologique des gaz à effet de serre dans un site de stockage agréé au titre de la directive 2009/31/CE."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Autre activité soumise au SEQE",
+        "description": null,
+        "required": false,
+        "options": [
+          "1-Combustion de combustibles dans des installations dont la puissance calorifique totale de combustion est supérieure à 20 MW (à l’exception des installations d’incinération de déchets dangereux ou municipaux)",
+          "2-Raffinage de pétrole",
+          "3-Production de coke",
+          "4-Grillage ou frittage, y compris pelletisation, de minerai métallique (y compris de minerai sulfuré)",
+          "5-Production de fonte ou d’acier (fusion primaire ou secondaire), y compris les équipements pour coulée continue d’une capacité de plus de 2,5 tonnes par heure",
+          "6-Production ou transformation de métaux ferreux (y compris les ferro-alliages) lorsque des unités de combustion dont la puissance calorifique totale de combustion est supérieure à 20 MW sont exploitées. La transformation comprend, notamment, les laminoirs, les réchauffeurs, les fours de recuit, les forges, les fonderies, les unités de revêtement et les unités de décapage.",
+          "7-Production d’aluminium primaire",
+          "8-Production d’aluminium secondaire, lorsque des unités de combustion dont la puissance calorifique totale de combustion est supérieure à 20 MW sont exploitées",
+          "9-Production ou transformation de métaux non ferreux, y compris la production d’alliages, l’affinage, le moulage en fonderie, etc., lorsque des unités de combustion dont la puissance calorifique totale de combustion (y compris les combustibles utilisés comme agents réducteurs) est supérieure à 20 MW sont exploitées.",
+          "10-Production de clinker (ciment) dans des fours rotatifs avec une capacité de production supérieure à 500 tonnes par jour, ou dans d’autres types de fours, avec une capacité de production supérieure à 50 tonnes par jour",
+          "11-Production de chaux, y compris la calcination de dolomite et de magnésite, dans des fours rotatifs ou dans d’autres types de fours, avec une capacité de production supérieure à 50 tonnes par jour",
+          "12-Fabrication du verre, y compris de fibres de verre, avec une capacité de fusion supérieure à 20 tonnes par jour",
+          "13-Fabrication de produits céramiques par cuisson, notamment de tuiles, de briques, de pierres réfractaires, de carrelages, de grès ou de porcelaines, avec une capacité de production supérieure à 75 tonnes par jour",
+          "14-Fabrication de matériau isolant en laine minérale à partir de roches, de verre ou de laitier, avec une capacité de fusion supérieure à 20 tonnes par jour.",
+          "15-Séchage ou calcination du plâtre ou production de planches de plâtre et autres compositions à base de plâtre, lorsque des unités de combustion dont la puissance calorifique de combustion est supérieure à 20 MW sont exploitées.",
+          "16-Production de pâte à papier à partir du bois ou d’autres matières fibreuses.",
+          "17-Production de papier ou de carton, avec une capacité de production supérieure à 20 tonnes par jour.\t",
+          "18-Production de noir de carbone, y compris la carbonisation de substances organiques telles que les huiles, les goudrons, les résidus de craquage et de distillation, lorsque des unités de combustion dont la puissance calorifique totale de combustion est supérieure à 20 MW sont exploitées.",
+          "19-Production d’acide nitrique.",
+          "20-Production d’acide adipique.",
+          "21-Production de glyoxal et d’acide glyoxylique.",
+          "22-Production d’ammoniac.",
+          "23-Production de produits chimiques organiques en vrac par craquage, reformage, oxydation partielle ou totale, ou par d’autres procédés similaires, avec une capacité de production supérieure à 100 tonnes par jour.",
+          "24-Production d’hydrogène (H2) et de gaz de synthèse par reformage ou oxydation partielle avec une capacité de production supérieure à 25 tonnes par jour.",
+          "25-Production de soude (Na2CO3) et de bicarbonate de sodium (NaHCO3).",
+          "26-Captage des gaz à effet de serre produits par les installations couvertes par la présente directive en vue de leur transport et de leur stockage géologique dans un site de stockage agréé au titre de la directive 2009/31/CE.",
+          "27-Transport par pipelines des gaz à effet de serre en vue de leur stockage dans un site de stockage agréé au titre de la directive 2009/31/CE.",
+          "28-Stockage géologique des gaz à effet de serre dans un site de stockage agréé au titre de la directive 2009/31/CE."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Arrêté Préfectoral d'autorisation d'émettre",
+        "description": "Joindre ici l'AP d'autorisation d'émettre des GES fourni par la DREAL à l'exploitant",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de l'Arrêté Préfectoral d'autorisation d'émettre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début d'exploitation",
+        "description": "Il s'agit du premier jour de fonctionnement prévisionnel de l'installation. Si il n'est pas encore connu, ce champs n'est pas à remplir.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Coordonnées de l'exploitant",
+        "description": "Indiquer les coordonnées de l'exploitant (téléphone et mail pour contact par le Registre)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre information utile à transmettre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre document utile à transmettre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre document utile à transmettre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Sortie du SEQE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Par cette coche, je signale que l'installation doit être retirée du SEQE suite à une cessation d'activité",
+        "description": "Une installation est réputée avoir cessé ses activités lorsque l'une quelconque des conditions suivantes est remplie :\na) L’autorisation d'émettre des gaz à effet de serre correspondante a été retirée, y compris si l'installation n'atteint plus les seuils d'activité indiqués à l'annexe I de la directive 2003/87/CE;\nb) L’installation n'est plus en activité et la reprise des activités est techniquement impossible. \n",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de cessation d'activité",
+        "description": "Pour un passage sous les seuils, c’est la date de retrait de l’autorisation d'émettre (date de retrait de l’autorisation qui est fixée dans l’APC ou dans la lettre préfectorale) qui vaut date de cessation au sens de l’article 26 du règlement FAR.\n\nPour les arrêts définitifs d'installations, c’est la date de dernier jour de fonctionnement qui vaut date de cessation au sens de l’article 26 du règlement FAR. ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Acte justifiant la cessation d'activité",
+        "description": "Pour un passage sous les seuils, joindre l’APC ou la lettre préfectorale actant le passage sous les seuils.\n\nPour les arrêts définitifs d'installations, joindre l'APC, le récépissé sans frais de la notification de mise à l'arrêt définitif délivré par le préfet, un rapport de visite, ou autre document officiel justifiant de la date de dernier jour de fonctionnement de l'installation.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport ALC",
+        "description": "Uniquement pour les installations bénéficiant de quotas d'émission à titre gratuit  : \r\n1- Dans le cas d'un passage sous les seuils, l'information de la date de sortie et l'APC sont suffisants puisque l'exploitant devra faire sa déclaration en N+1 sur GEREP;\r\n\r\n2- Dans le cas d'un arrêt définitif, déposer le fichier ALC vérifié complété intégralement jusqu'à la date de cessation.  Il peut en effet y avoir des difficultés à avoir une déclaration sur GEREP en N+1. \r\n\r\nEn cas de double déclaration DS et GEREP, c'est la version GEREP déposée l'année suivant l'année de cessation qui sera prise en compte pour acter la cessation. \r\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport de déclaration des émissions (AER) - Facultatif",
+        "description": "Pour les installations bénéficiant de quotas à titre gratuit et celles ne bénéficiant pas de quotas à titre gratuit : transmettre le rapport de déclaration des émissions (AER) du 1er janvier à la date de dernier jour de fonctionnement de l’installation ou la date de passage sous les seuils et si possible, le rapport de vérification des émissions.\n\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport de vérification des émissions - Facultatif",
+        "description": "Si possible. ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre information utile à transmettre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre document utile à transmettre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Changement de dénomination",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Ancien nom de l'installation",
+        "description": "Figurant dans la dernière version de l'arrêté fixant la liste des exploitants d'installations soumises à autorisation pour les émissions de gaz à effet de serre ainsi que le montant des quotas d’émissions affectés à titre gratuit pour la période 2021-2025.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Ancien nom de l'exploitant",
+        "description": "Figurant dans la dernière version de l'arrêté fixant la liste des exploitants d'installations soumises à autorisation pour les émissions de gaz à effet de serre ainsi que le montant des quotas d’émissions affectés à titre gratuit pour la période 2021-2025.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nouveau nom de l'installation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nouveau nom de l'exploitant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre information utile à transmettre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre document utile à transmettre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Changement d'exploitant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Ancien nom de l'installation",
+        "description": "Figurant dans la dernière version de l'arrêté fixant la liste des exploitants d'installations soumises à autorisation pour les émissions de gaz à effet de serre ainsi que le montant des quotas d’émissions affectés à titre gratuit pour la période 2021-2025.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'ancien exploitant",
+        "description": "Figurant dans la dernière version de l'arrêté fixant la liste des exploitants d'installations soumises à autorisation pour les émissions de gaz à effet de serre ainsi que le montant des quotas d’émissions affectés à titre gratuit pour la période 2021-2025.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nouveau nom de l'installation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du nouvel exploitant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document justificatif pour le changement d'exploitant",
+        "description": "Pour le changement d'exploitant, téléverser soit le récépissé de changement d'exploitant pour les sites à enregistrement (R 512-68 du code de l'environnement), soit l'accusé réception de la déclaration ou l'arrêté préfectoral de transfert de l'autorisation environnementale pour les sites à autorisation (R. 181-47 du code de l'environnement).",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Coordonnées de l'exploitant",
+        "description": "Indiquer les coordonnées de l'exploitant (téléphone et mail pour contact par le Registre)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre information utile à transmettre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre document utile à transmettre",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

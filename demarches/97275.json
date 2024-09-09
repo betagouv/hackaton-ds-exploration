@@ -1,0 +1,979 @@
+{
+  "number": 97275,
+  "title": "Recensement 2024 des acteurs de l'appui aux associations en région Bourgogne-Franche-Comté ",
+  "description": "Dans le cadre de la mise en œuvre du réseau Guid'asso, un état des lieux recensant les acteurs qui concourent à l'appui à la vie associative locale dans les territoires est lancé par les services de l’État, en lien avec leurs partenaires (notamment Le Mouvement Associatif). \r\n\r\nCe questionnaire vise à recueillir les informations de ces structures pour alimenter le diagnostic territorial. \r\nIl s’agit d’un premier état des lieux, qui ne conditionne pas les labellisations actuelles ou à venir.\r\n\r\nLORS DU REMPLISSAGE DU QUESTIONNAIRE, vous pourrez interrompre votre saisie à tout moment et la reprendre plus tard. N'hésitez pas à échanger en interne avec les autres personnes chargées de la mission d'appui aux associations.\r\n\r\nTEMPS ESTIME DE REMPLISSAGE : 20 à 30 minutes.\r\n\r\nVOS CONTACTS EN RÉGION : Si vous avez besoin de précisions complémentaires pour remplir le questionnaire, n'hésitez pas à consulter la notice explicative jointe à la démarche.",
+  "tags": [
+    "Recensement",
+    "Acteur"
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2024-06-05T10:17:28+02:00",
+  "service": {
+    "nom": "DRAJES BOURGOGNE FRANCHE COMTE",
+    "organisme": "SDJES21,SDJES25,SDJES58,SDJES70,SDJES89,SDJES90,DRAJES BFC,DJEPVA",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/recensement-2024-des-acteurs-de-l-appui-aux-associ",
+  "dpoUrl": "dpd@ac-dijon.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ac-besancon.fr/jeunesse-engagement-et-sports-121485",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/download/pdf/circ?id=40062",
+  "logo": {
+    "filename": "PREF_region_Bourgogne_Franche_Comte_CMJN.jpg",
+    "checksum": "qRCk1kybGeiGOMHY/kAMbg==",
+    "byteSize": "1276627",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "NOTICE questionnaire Recensement acteurs de l'appui.pdf",
+    "checksum": "3sbDbsKMK8rxk0oJCR74uA==",
+    "byteSize": "991114",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 22,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Précisez le territoire d'intervention de votre structure",
+        "description": "Si vous avez choisi \"interdépartemental\", précisez les départements d'intervention",
+        "required": true,
+        "options": [
+          "Côte-d'Or",
+          "Doubs",
+          "Jura",
+          "Nièvre",
+          "Haute-Saône",
+          "Saône-et-Loire",
+          "Yonne",
+          "Territoire de Belfort",
+          "Région",
+          "Interdépartemental"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1 - Présentation de la structure",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Quel est le statut juridique précis de votre structure ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "--Association loi 1901--",
+          "Fédération d'associations",
+          "Association affiliée à un réseau",
+          "Association non affiliée",
+          "--Autre structure de l'ESS--",
+          "Coopérative (SCOP, SCIC, CAE...)",
+          "Fondation",
+          "Mutuelle",
+          "Entreprise commerciale de l'ESS (immatriculée comme telle au RCS)",
+          "--Structure publique--",
+          "Service de l’État",
+          "Conseil régional",
+          "Conseil départemental",
+          "EPCI",
+          "Commune",
+          "--Organisme chargé d'une mission de service public--",
+          "Organisme chargé d'une mission de service public",
+          "--Entreprise commerciale hors ESS--",
+          "Entreprise commerciale hors ESS",
+          "--Autre--",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom du responsable",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction",
+        "description": "(ex : président, directeur de l'association ou du service, maire, etc.)",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du responsable",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel du responsable",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'adhérents ou de sociétaires de votre structure :",
+        "description": "Pour une association ou une mutuelle, indiquer le nombre d'adhérents.\nPour une SCOP, indiquer le nombre de sociétaires.\nNe rien indiquer pour les collectivités publiques.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre total de salariés de votre structure :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "soit en ETP :",
+        "description": "Équivalent Temps Plein (nombre décimal possible)",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de bénévoles réguliers :",
+        "description": "A indiquer seulement pour les associations (bénévoles réguliers = bénévoles intervenant au moins une fois par semaine pour l'association)",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - Personne référente de votre structure pour l'appui aux associations",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "Principale personne référente pour l'appui aux associations au sein de votre structure. (si c'est en projet, le préciser dans la rubrique commentaires)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction dans la structure",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - Labellisation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Votre structure est-elle actuellement labellisée pour l'appui aux associations ?",
+        "description": "Sélectionnez le(s) label(s) dont bénéficie votre structure (plusieurs réponses possibles) ou sélectionnez \"Aucun label\"",
+        "required": true,
+        "options": [
+          "Centre de ressources et d’information pour les bénévoles (CRIB)",
+          "Dispositif local d’accompagnement (DLA)",
+          "Point d’appui à la vie associative (PAVA)",
+          "Tiers de confiance Impact Emploi",
+          "Autre(s) label(s) à préciser dans le champ suivant",
+          "Aucun label"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si vous avez coché \"Autre label\", précisez :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si vous n'êtes pas labellisé aujourd'hui, l'avez-vous déjà été par le passé ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Précisez pour quel label ?",
+        "description": null,
+        "required": false,
+        "options": [
+          "Centre de ressources et d’information pour les bénévoles (CRIB)",
+          "Dispositif local d’accompagnement (DLA)",
+          "Point d’appui à la vie associative (PAVA)",
+          "Tiers de confiance Impact Emploi",
+          "Autre(s) label(s) à préciser dans le champ suivant",
+          "Aucun label"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "En quelle(s) année(s)?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - Territoire d'intervention",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Précisez le territoire d'intervention de votre structure pour l'appui aux associations",
+        "description": "1 seule réponse possible",
+        "required": true,
+        "options": [
+          "Toute la région",
+          "Tout le département",
+          "Infra-départemental (arrondissement, communauté de communes, communes, etc.)",
+          "Interdépartemental"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": "Vous pouvez notamment apporter des précisions sur les territoires sur lesquels vous intervenez (ex : nom de l'intercommunalité touchée, départements si vous avez choisi \"interdépartemental\").",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5 - Publics visés",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Précisez ci-dessous les types d'associations appuyées par votre structure :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre structure appuie-t-elle des associations de tous les secteurs d'activité ?",
+        "description": "si non, précisez dans les questions suivantes les seuls secteurs que vous appuyez.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si vous n'appuyez pas tous les secteurs, quel est le principal secteur d'activité que vous appuyez ?",
+        "description": "(non obligatoire si vous accompagnez tous les secteurs d'activité)",
+        "required": false,
+        "options": [
+          "Sport",
+          "Culture",
+          "Jeunesse et éducation populaire, socio-culturel",
+          "Éducation et formation",
+          "Santé",
+          "Social et solidarités",
+          "Défense des droits",
+          "Environnement",
+          "Développement local et économie",
+          "Loisirs et vie sociale"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quel est le second principal secteur d'activité que vous appuyez ?",
+        "description": "(non obligatoire) (si vous appuyez plus de 2 secteurs d'activité, précisez-le dans la zone commentaires à la fin de cette section)",
+        "required": false,
+        "options": [
+          "Sport",
+          "Culture",
+          "Jeunesse et éducation populaire, socio-culturel",
+          "Éducation et formation",
+          "Santé",
+          "Social et solidarités",
+          "Défense des droits",
+          "Environnement",
+          "Développement local et économie",
+          "Loisirs et vie sociale"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Concernant le type d'associations ciblées, votre structure appuie :",
+        "description": null,
+        "required": true,
+        "options": [
+          "des associations employeuses et non employeuses",
+          "uniquement des associations employeuses",
+          "uniquement des associations non employeuses"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Concernant l'appui au projet associatif, votre structure appuie :",
+        "description": null,
+        "required": true,
+        "options": [
+          "des associations déjà créées et en création (y compris des porteurs de projet individuels, en vue de la création ou non d'une association)",
+          "uniquement des associations en création",
+          "uniquement des associations déjà créées"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Le service d'appui que vous proposez est ouvert :",
+        "description": "",
+        "required": true,
+        "options": [
+          "à toutes les associations (sans conditions particulières)",
+          "uniquement aux associations de votre territoire d'implantation (ex : commune)",
+          "uniquement aux associations affiliées à votre structure"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "6 - Modalités d'accueil",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Précisez ci-dessous les modalités d'accueil que vous proposez aux associations.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Accueil physique SANS rendez-vous dans vos locaux",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Accueil physique SUR rendez-vous dans vos locaux",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Accueil physique en-dehors de vos locaux",
+        "description": "(précisez dans les commentaires s'il s'agit de permanences dans une autre structure, de rendez-vous chez les bénéficiaires, etc.)",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Accueil téléphonique",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Accueil numérique",
+        "description": "(ex : courriels, visioconférences, etc.)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Avez-vous d'autres modalités d'accueil ?",
+        "description": "Indiquez lesquelles",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quand les associations peuvent-elles vous contacter ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Toute la semaine",
+          "Sur des plages horaires spécifiques"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Indiquez éventuellement le volume horaire hebdomadaire d’accueil",
+        "description": "Ex. 20 heures",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "7 - Nature de l'appui proposé",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "L'appui proposé aux associations recouvre différentes formes. Quatre principales missions ont été identifiées. En voici la définition :",
+        "description": "ORIENTATION : votre structure oriente les acteurs associatifs vers le bon interlocuteur. EN REVANCHE, elle ne transmet pas d’informations de base sur les associations ; elle ne propose pas d’accompagnement ni d’appui/expertise\n\nINFORMATION : votre structure transmet des informations adaptées aux demandes des acteurs associatifs, sans que cela nécessite une recherche approfondie (= questions courantes des associations) ; elle met à disposition une documentation actualisée ; elle transmet des explications de base sur les démarches à effectuer (ex : comment obtenir un numéro siret). EN REVANCHE, elle n’apporte pas d’expertise aux associations, ne les accompagne pas dans la durée ni ne répond à des questions particulières complexes.\n\nACCOMPAGNEMENT GENERALISTE : votre structure est experte sur la vie associative dans son ensemble ; elle répond aux questions (y compris complexes) et aux besoins de toutes les associations, quel que soit leur secteur d’activité, leur taille, leur situation géographique ; elle pose un diagnostic sur leurs besoins, leur apporte des conseils ciblés, les accompagne dans la durée, etc. ; elle peut être amenée à proposer des formations de bénévoles.\n\nACCOMPAGNEMENT SPECIALISTE : idem accompagnement généraliste, mais seulement sur une thématique ou sur un secteur d’activité particulier.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre structure assure-t-elle une mission d’orientation telle que définie ci-dessus ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre structure assure-t-elle une mission d’information telle que définie ci-dessus ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre structure assure-t-elle une mission d’accompagnement généraliste telle que définie ci-dessus ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre structure assure-t-elle une mission d’accompagnement spécialiste telle que définie ci-dessus ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Sur quelles thématiques votre structure apporte-elle un appui aux associations ?",
+        "description": "(plusieurs choix possibles)",
+        "required": true,
+        "options": [
+          "Aide à la médiation (conflits internes, externes)",
+          "Appui juridique",
+          "Bénévolat et/ou volontariat",
+          "Communication (outils, stratégie, diagnostic)",
+          "Coopération, mutualisation entre associations",
+          "Démarches administratives (déclaration, modification de statuts...)",
+          "Développement (évolution du projet associatif)",
+          "Financements et diversification des ressources (recherche de financements, révision du modèle socio-économique, subventions, partenariat(s) public(s), partenariat(s) privé(s)...)",
+          "Gestion administrative",
+          "Gestion des ressources humaines salariées",
+          "Gestion financière, comptabilité, fiscalité",
+          "Gouvernance (fonctionnement des instances et vie statutaire)",
+          "Montage et gestion de projets",
+          "Numérique",
+          "Non concerné (mission ORIENTATION)"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si vous intervenez sur d'autres thématiques, précisez lesquelles :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Selon vous, quels sont les points forts de votre structure pour mener à bien la mission d'appui aux associations ?",
+        "description": "Indiquez vos spécificités ou votre marque de fabrique.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": "(merci de préciser si les services sont gratuits ou payants)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "8 - Nombre d'associations bénéficiaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Précisez ci-dessous le nombre d'associations que votre structure appuie au total chaque année sur la (ou les) mission(s) cochée(s) précédemment.",
+        "description": "(bénéficiaires directs) (estimation moyenne annuelle)",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nombre d'associations appuyées chaque année : mission ORIENTATION",
+        "description": "",
+        "required": true,
+        "options": [
+          "Moins de 10 associations / an",
+          "Entre 11 et 50 associations / an",
+          "Entre 51 et 100 associations / an",
+          "Entre 101 et 200 associations / an",
+          "Plus de 200 associations / an",
+          "Non concerné"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nombre d'associations appuyées chaque année : mission INFORMATION",
+        "description": "",
+        "required": true,
+        "options": [
+          "Moins de 10 associations / an",
+          "Entre 11 et 50 associations / an",
+          "Entre 51 et 100 associations / an",
+          "Entre 101 et 200 associations / an",
+          "Plus de 200 associations / an",
+          "Non concerné"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nombre d'associations appuyées chaque année : mission ACCOMPAGNEMENT GENERALISTE",
+        "description": "",
+        "required": true,
+        "options": [
+          "Moins de 10 associations / an",
+          "Entre 11 et 50 associations / an",
+          "Entre 51 et 100 associations / an",
+          "Entre 101 et 200 associations / an",
+          "Plus de 200 associations / an",
+          "Non concerné"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nombre d'associations appuyées chaque année : mission ACCOMPAGNEMENT SPECIALISTE",
+        "description": null,
+        "required": true,
+        "options": [
+          "Moins de 10 associations / an",
+          "Entre 11 et 50 associations / an",
+          "Entre 51 et 100 associations / an",
+          "Entre 101 et 200 associations / an",
+          "Plus de 200 associations / an",
+          "Non concerné"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Pour les structures proposant de la formation de bénévoles, nombre de bénévoles différents formés :",
+        "description": "",
+        "required": true,
+        "options": [
+          "Moins de 12 bénévoles / an",
+          "Entre 13 et 25 bénévoles / an",
+          "Entre 26 et 50 bénévoles / an",
+          "Entre 51 et 100 bénévoles / an",
+          "Plus de 100 / an",
+          "Non concerné"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": "Notamment : votre structure appuie-t-elle également des collectifs, des associations de fait, des élus locaux, etc. ?",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "9 - Moyens humains dédiés à l'appui aux associations au sein de votre structure",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nombre de salariés assurant une mission d'appui aux associations",
+        "description": null,
+        "required": true,
+        "options": [
+          "Aucun",
+          "1 seul salarié ou agent",
+          "2 à 3 salariés ou agents",
+          "4 à 5 salariés ou agents",
+          "Plus de 5 salariés ou agents"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "soit en équivalent temps plein (ETP) dédié à l'appui aux associations",
+        "description": null,
+        "required": true,
+        "options": [
+          "0 ETP",
+          "Moins de 1 ETP",
+          "1 à 2 ETP",
+          "3 à 5 ETP",
+          "Plus de 5 ETP"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Des bénévoles de votre structure s'impliquent-ils dans l'appui aux associations ?",
+        "description": "\n",
+        "required": true,
+        "options": [
+          "Oui, occasionnellement",
+          "Oui, régulièrement",
+          "Oui, exclusivement (la structure n'ayant pas de salarié pour cette mission)",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre structure fait-elle appel à des intervenants extérieurs pour cette mission ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui, parfois (moins d'une fois par mois)",
+          "Oui, souvent (plus d'une fois par mois)",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "10 - Financements",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Quels sont les financements qui vous permettent d'assurer cette mission d'appui ?",
+        "description": "Précisez ci-dessous la nature des subventions obtenues, voire quand vous le pouvez, leur montant.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nombre de poste(s) Fonjep dédiés à l'appui aux associations",
+        "description": "",
+        "required": true,
+        "options": [
+          "Aucun",
+          "0,5 unité Fonjep",
+          "1 unité Fonjep",
+          "2 unités Fonjep",
+          "3 unités Fonjep ou plus"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "FDVA Formation des bénévoles",
+        "description": "Indiquez le total des subventions obtenue en N-1",
+        "required": true,
+        "options": [
+          "Aucune subvention FDVA Formation",
+          "Moins de 1000 €",
+          "Entre 1000 et 3000 €",
+          "Entre 3001 et 6000 €",
+          "Plus de 6000 €"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "FDVA Fonctionnement/Projets innovants, pour un projet dédié à l'appui à la vie associative",
+        "description": "Indiquez le total des subventions obtenue en N-1",
+        "required": true,
+        "options": [
+          "Aucune subvention FDVA Projets innovants",
+          "Moins de 2000 €",
+          "Entre 2001 et 4000 €",
+          "Entre 4001 et 7000 €",
+          "Entre 7001 et 10 000 €",
+          "Plus de 10 000 €"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autres aides publiques et privées dédiées à l'appui aux associations",
+        "description": "Précisez les financeurs et si possible les montants obtenus en N-1\n(dont subventions en nature, par exemple avec la mise à disposition d'équipements ou de matériels)\nNotez par exemple : \"Région : 5 000 euros\"",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "11 - Evolutions à court et moyen termes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Prévoyez-vous de développer cette mission d'appui d'ici 3 ans ?",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si oui, est-ce pour :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "développer la couverture géographique ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "diversifier les types d'appui (ex. proposer des formations...) ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "développer votre niveau d'expertise ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si non, est-ce pour :",
+        "description": null,
+        "required": false,
+        "options": [
+          "Consolider la mission d’appui",
+          "Diminuer la mission d’appui",
+          "L’arrêter"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez pourquoi",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": "(précisez notamment si votre structure a d’autres perspectives d’évolution ou un projet de recrutement)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "12 - Réseaux et partenaires pour l'appui aux associations",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Parmi les acteurs suivants, quels sont ceux avec lesquels vous êtes en lien régulièrement ?",
+        "description": "Sélectionnez les acteurs avec lesquels vous travaillez ou vers lesquels vous orientez les associations.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Services de l’État",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez quels services de l'État :",
+        "description": "(ex DRAJES, SDJES, DREETS, DREAL, ...)",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Conseil régional",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Conseil départemental",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Intercommunalités et/ou communes",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez lesquelles",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Organismes en lien avec une mission de service public",
+        "description": "(ex. CAF, Urssaf...)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez lesquels",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Structures labellisées",
+        "description": "(DLA, CRIB, Impact emploi, etc.)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez lesquelles",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si vous travaillez avec d'autres acteurs pour l'appui aux associations, précisez",
+        "description": "(exemples : PANA, Fabriques à initiatives, Tiers-lieux, Incubateurs, etc.)",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre structure est-elle membre d'un réseau d'acteurs qui appuient les associations ?",
+        "description": "(membre régulier) (ex. MAIA, réseau ESS, etc.)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si oui, précisez le nom du ou des réseau(x)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "13 - Besoins de la structure pour assurer sa mission d'appui",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quels sont vos besoins pour maintenir ou améliorer votre appui aux associations ?",
+        "description": "Indiquez vos besoins dans l’ordre décroissant d’importance (premier besoin = le plus important)",
+        "required": true,
+        "options": [
+          "Besoin de moyens humains / de temps",
+          "Besoin de financement",
+          "Besoin de connaissances / informations / veille juridique et documentaire",
+          "Besoin de partage d'expérience et de mutualisation",
+          "Besoin de formation",
+          "Besoin de mieux connaître les autres acteurs de l'appui",
+          "Besoin d'une meilleure articulation entre acteurs de l'appui",
+          "Besoin d'être plus visible / mieux identifié",
+          "Autres besoins (à préciser ci-dessous)",
+          "Aucun besoin particulier"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autres besoins à préciser",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si vous avez des besoins de formation, précisez lesquels :",
+        "description": "Indiquez vos besoins dans l’ordre décroissant d’importance (premier besoin = le plus important)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "14 - Besoins des associations bénéficiaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quels sont les besoins des associations qui vous semblent actuellement peu ou mal satisfaits sur votre territoire ?",
+        "description": "Indiquez ces besoins dans l’ordre décroissant d’importance (premier besoin = le plus important)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "15 - Réseaux existants",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous connaissance du réseau d’appui à la vie associative existant dans votre département (CRIB, PAVA, DIVA, MAIA, etc.) ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Si oui, ce réseau répond-il à vos besoins ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, qu’est-ce qui pourrait améliorer la vie de ce réseau ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

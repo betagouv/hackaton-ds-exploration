@@ -1,0 +1,429 @@
+{
+  "number": 57870,
+  "title": "Enquête \"Pertes récolte - Gel d'avril 2022\" - Tarn",
+  "description": "Enquête sur les pertes de récolte suite au gel du 02 au 04 avril 2022 en arboriculture et en viticulture pour estimer les pertes subies à l'échelle du département du Tarn.\r\nLes premières estimations issues de cette enquête seront consolidées par des visites et constatations sur le terrain en vue du déploiement des différents dispositifs d'aides (calamités agricoles, autres dispositifs de soutien).",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2022-05-10T18:18:16+02:00",
+  "service": {
+    "nom": "Service Economie Agricole et Forestière",
+    "organisme": "Direction Départementale des Territoires du Tarn",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/enquete-gel2022-tarn",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.tarn.gouv.fr/enquete-pertes-de-recolte-gel-2022-a10613.html",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071367/LEGISCTA000006168391/",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 25,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Remarque : ce formulaire n'est pas une demande d'aide",
+        "description": "Pour enregistrer vos éléments, n'oubliez pas de cliquer sur \"Déposer le dossier\" en fin de formulaire.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "PACAGE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM",
+        "description": "Nom du demandeur de l'aide",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune du siège",
+        "description": "Commune du siège de l'exploitation",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse e-mail",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Fruits à noyau",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Cultures impactées par le gel",
+        "description": "VERGERS : Vous devez déclarer uniquement les surfaces en production, en tenant compte du nombre d’années avant production, en fonction des espèces, déterminées ci-après :\n- 2ans : pêcher, nectarinier axe, prunier japonais axe\n- 3 ans : abricotier, cerisier axe, pêcher, nectarinier gobelet\n- 4 ans : cerisier gobelet, prunier reine-claude axe\n- 5 ans : prunier reine-claude gobelet",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pertes de récoltes - fruits à noyau",
+        "description": "Sélectionner une espèce et renseigner les différents champs\nPUIS cliquer \"Ajouter un élément ...\" pour renseigner une autre espèce de fruits à noyau",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Espèces de fruits à noyau",
+            "description": "",
+            "required": false,
+            "options": [
+              "Abricotier",
+              "Cerisier",
+              "Pêcher",
+              "Nectarinier",
+              "Prunier",
+              "Prunier variété américano-japonaise",
+              "Olivier"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Votre surface productive",
+            "description": "en ha",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Votre taux de perte 2022 (en %)",
+            "description": "exemple : 40 %",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Surface protégée contre le gel",
+            "description": "en ha",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de protection",
+            "description": "Moyens de lutte mis en oeuvre",
+            "required": false,
+            "options": [
+              "aucun",
+              "aspersion",
+              "fumée",
+              "brassage d’air"
+            ],
+            "otherOption": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Fruits à pépins",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Raisins de table et fruits à pépins",
+        "description": "VERGERS : Vous devez déclarer uniquement les surfaces en production, en tenant compte du nombre d’années avant production, en fonction des espèces, déterminées ci-après :\n- 2ans : pommier axe, raisin de table en lyre et T \n- 3 ans : vigne de cuve, autres raisin de table \n- 4 ans : kiwi\n- 5 ans : poirier",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pertes de récoltes - fruits à pépins",
+        "description": "Sélectionner une espèce et renseigner les différents champs\nPUIS cliquer \"Ajouter un élément ...\" pour renseigner une autre espèce de fruits à pépins",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Espèces de fruits à pépins",
+            "description": "",
+            "required": false,
+            "options": [
+              "Poirier",
+              "Pommier gala et autres bicolores",
+              "Pommier Braeburn",
+              "Pommier Golden",
+              "Pommiers autres",
+              "Pommier Granny Smith",
+              "Pommier Fuji",
+              "Pommier Pink Lady",
+              "Kiwi",
+              "Raisin de table"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Votre surface productive",
+            "description": "en ha",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Votre taux de perte 2022 (en %)",
+            "description": "exemple : 30 %",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Surface protégée contre le gel",
+            "description": "en ha",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de protection",
+            "description": null,
+            "required": false,
+            "options": [
+              "aucun",
+              "aspersion",
+              "fumée",
+              "brassage d’air"
+            ],
+            "otherOption": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Fruits à coques",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Catégorie de fruits à coques",
+        "description": "avant production, en fonction des espèces, déterminées ci-après :\n- 4 ans : noyer haute densité, amandier \n- 7 ans : noyer basse densité, noisetier",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pertes de récoltes - fruits à coques",
+        "description": "Sélectionner une espèce et renseigner les différents champs\nPUIS cliquer \"Ajouter un élément ...\" pour renseigner une autre espèce de fruits à coques",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Fruits à coques",
+            "description": "",
+            "required": false,
+            "options": [
+              "Amandier",
+              "Châtaignier",
+              "Noisetier",
+              "Noyer"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Votre surface productive",
+            "description": "en ha",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Votre taux de perte 2022 (en %)",
+            "description": "exemple : 40 %",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Surface protégée contre le gel",
+            "description": "en ha",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de protection",
+            "description": null,
+            "required": false,
+            "options": [
+              "aucun",
+              "aspersion",
+              "fumée",
+              "brassage d’air"
+            ],
+            "otherOption": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vigne et raisins de cuve",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Viticulture",
+        "description": "VIGNES : Vous devez déclarer uniquement les surfaces en production, en tenant compte du nombre d’années avant production, en fonction des espèces, déterminées ci-après :\n- 3 ans : vigne de cuve",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pertes de récoltes - Vigne",
+        "description": "Sélectionner une espèce et renseigner les différents champs\nPUIS cliquer \"Ajouter un élément ...\" pour renseigner une autre appellation",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type d'appellations",
+            "description": "",
+            "required": false,
+            "options": [
+              "Vigne Gaillac rouge bio",
+              "Vigne Gaillac blanc bio",
+              "Vigne Gaillac  Blanc",
+              "Vigne Gaillac Rosé",
+              "Vigne Gaillac Rouge",
+              "Vigne Côtes du Tarn Blanc",
+              "Vigne Côtes du Tarn Rosé",
+              "Vigne Côtes du Tarn Rouge",
+              "Vigne vin de table blanc",
+              "Vigne vin de table rouge, rosé"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Votre surface productive",
+            "description": "en ha",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Votre taux de perte 2022 (en %)",
+            "description": "exemple : 50 %",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Surface protégée contre le gel",
+            "description": "en ha",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de protection",
+            "description": null,
+            "required": false,
+            "options": [
+              "aucun",
+              "aspersion",
+              "fumée",
+              "brassage d’air"
+            ],
+            "otherOption": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Autres productions",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Autres productions impactées par le gel",
+        "description": "Toute autre production impactée par le gel",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pertes de récoltes - Autres productions",
+        "description": "Sélectionner une espèce et renseigner les différents champs\nPUIS cliquer \"Ajouter un élément\" pour renseigner une autre production",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Type de production impactée",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Votre surface productive",
+            "description": "en ha",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Votre taux de perte 2022 (en %)",
+            "description": "exemple : 20 %",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Surface protégée contre le gel",
+            "description": "en ha",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Type de protection",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Autorisations",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'autorise",
+        "description": "la DDT du Tarn à recueillir et à traiter les données à des fins statistiques dans sa mission d'accompagnement des aides agricoles.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "J'autorise",
+        "description": "la DDT du Tarn à partager les données avec la maison des vins et la chambre d'agriculture pour un usage strictement lié à leur domaine de compétences.",
+        "required": true
+      }
+    ]
+  }
+}

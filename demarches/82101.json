@@ -1,0 +1,110 @@
+{
+  "number": 82101,
+  "title": "Organisation du télétravail",
+  "description": "Définir vos besoins et mettre en place le télétravail",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transformation et de la Fonction publiques"
+  ],
+  "datePublication": "2023-10-06T14:29:05+02:00",
+  "service": {
+    "nom": "Institut régional d'administration de Nantes",
+    "organisme": "Etablissement public national ",
+    "typeOrganisme": "etablissement_enseignement"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/organisation-du-teletravail-cbb",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ira-nantes.gouv.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000032036983",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vos besoins",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Voulez-vous bénéficier de journées de télétravail ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Combien de jours par semaine souhaitez-vous télétravailler ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Une demi-journée",
+          "Une journée",
+          "Une journée et demi",
+          "Deux journées"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quels jours souhaitez-vous télétravailler ?",
+        "description": "Vous pouvez préciser des journées fixes ou mentionner que vous êtes flexible",
+        "required": true,
+        "options": [
+          "Lundi",
+          "Mardi",
+          "Mercredi",
+          "Jeudi",
+          "Vendredi",
+          "Je suis flexible"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vos conditions matérielles de télétravail",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Où souhaitez-vous télétravailler ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "A domicile",
+          "Dans un lieu tiers"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Disposez-vous d'un poste adapté au télétravail ?",
+        "description": "Espace dédié au travail, bureau, ordinateur personnel, connexion internet, etc.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vos pièces justificatives",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Veuillez déposer ici un certificat sur l'honneur d'installation électrique conforme",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Veuillez déposer ici votre attestation d'assurance télétravail",
+        "description": "Cette attestation doit couvrir votre situation pendant vos jours de télétravail",
+        "required": true
+      }
+    ]
+  }
+}

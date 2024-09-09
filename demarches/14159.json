@@ -1,0 +1,215 @@
+{
+  "number": 14159,
+  "title": "Fiche Navette SIDSIC94",
+  "description": "Fiche navette d'accès au réseau du Ministère de l'Intérieur pour les agents de la Préfecture du Val de Marne et des DDI.",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2019-02-15T10:26:30+01:00",
+  "service": {
+    "nom": "DIDNSIC",
+    "organisme": "Préfecture du Val de Marne",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fiche-navette-sidsic94",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://val-de-marne.pref.minint.fr/Informatique/SIDSIC",
+  "cadreJuridiqueUrl": "http://val-de-marne.pref.minint.fr/",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Nouvel arrivant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "Civilité du nouvel arrivant",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "Nom du nouvel arrivant",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "Prénom du nouvel arrivant",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Direction",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Numéro de bureau",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut",
+        "description": "",
+        "required": true,
+        "options": [
+          "Titulaire",
+          "Vacataire",
+          "Stagiaire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'affectation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de fin de service",
+        "description": "(Stagiaire et vacataire)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Ancien titulaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "Civilité de l'ancien titulaire",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "Nom de l'ancien titulaire",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "Prénom de l'ancien titulaire",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date départ",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demandes techniques",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Ordinateur",
+        "description": "",
+        "required": true,
+        "options": [
+          "Existant",
+          "A prévoir"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Téléphone fixe",
+        "description": "",
+        "required": true,
+        "options": [
+          "Existant",
+          "A prévoir"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Numéro téléphone",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Téléphone portable",
+        "description": "Si demande de téléphone portable, précisez l'usage",
+        "required": true,
+        "options": [
+          "Non",
+          "Voix + SMS + MMS",
+          "Voix + Internet",
+          "Hespéris NG"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Justification de la demande de téléphone portable",
+        "description": "Si demande de téléphone portable, justification obligatoire",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Droit d'accès aux répertoires partagés",
+        "description": "(Préciser les répertoires autorisés)",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Accès agdref Bio",
+        "description": "(Réservée DMI)",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Compte Orion",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Messagerie",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Boîtes fonctionnelles",
+        "description": "(Préciser les noms des boîtes à installer)",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Applications métier",
+        "description": "(Préciser les noms des applications à installer)",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Engagement",
+        "description": "Le demandeur s'engage auprès du SIDSIC de l'exactitude des informations transmises, plus particulièrement sur les droits accordés aux agents sur les applications sensibles (Agdref, etc...).",
+        "required": true
+      }
+    ]
+  }
+}

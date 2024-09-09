@@ -1,0 +1,392 @@
+{
+  "number": 87495,
+  "title": "3ème PREPA METIER",
+  "description": "Récupérer les candidatures, par le biais des établissements, des élèves candidatant en 3ème prépa-métiers",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2024-05-27T15:01:35+02:00",
+  "service": {
+    "nom": "DAEPS 4 - affectation collèges",
+    "organisme": "DSDEN de Haute-Garonne",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/3eme-prepa-metier",
+  "dpoUrl": "https://www.ac-toulouse.fr/contacter-l-academie-de-toulouse-122618/category/contacter-le-delegue-a-la-protection-des-donnees-dpo",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ac-toulouse.fr/direction-des-services-departementaux-de-l-education-nationale-de-la-haute-garonne-121514",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006071191?codeTitle=Code+de+l%27%C3%A9ducation#code",
+  "logo": {
+    "filename": "2020_logoDSDEN_31_acTOULOUSE.jpg",
+    "checksum": "2c2LwdhlQ7Jx9uhO/iYEWw==",
+    "byteSize": "875893",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 639,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "L'ETABLISSEMENT DEPOSANT LE DOSSIER",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AnnuaireEducationChampDescriptor",
+        "label": "Etablissement d'origine déposant le dossier de candidature",
+        "description": "<strong>Il convient de saisir le RNE de l'établissement pour pouvoir le sélectionner</strong>",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "L'ELEVE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'élève",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom de l'élève",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sexe",
+        "description": "",
+        "required": true,
+        "options": [
+          "F",
+          "M"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Langue vivante",
+        "description": "",
+        "required": true,
+        "options": [
+          "LV1 anglais LV2 allemand",
+          "LV1 anglais LV2 arabe",
+          "LV1 anglais LV2 chinois",
+          "LV1 anglais LV2 espagnol",
+          "LV1 anglais LV2 italien",
+          "LV1 anglais LV2 portugais",
+          "LV1 anglais LV2 russe",
+          "LV1 allemand LV2 anglais",
+          "LV1 espagnol LV2 anglais",
+          "LV1 anglais LV2 japonnais",
+          "LV1 italien LV2 anglais"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LES REPRESENTANTS LEGAUX",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité du représentant légal",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du représentant légal",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LES VOEUX",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "LP Voeux 1",
+        "description": "",
+        "required": true,
+        "options": [
+          "LP MONTAUBAN DE LUCHON du Bois",
+          "LPO GOURDAN POLIGNAN Paul Mathou",
+          "LP SAINT GAUDENS Casteret",
+          "LP COLOMIERS Eugène Montel",
+          "LP TOULOUSE Gabriel PERI",
+          "LP TOULOUSE GUYNEMER",
+          "LP TOULOUSE Hélène BOUCHER",
+          "LPO TOULOUSE GALLIENI",
+          "LP REVEL de l'Ameublement",
+          "LP TOULOUSE Renée BONNET",
+          "LP TOULOUSE Roland GARROS",
+          "LP TOULOUSE Stéphane HESSEL",
+          "LP TOULOUSE Urbain VITRY",
+          "LPO TOULOUSE Raymond NAVES",
+          "LPO MURET Charles de Gaulle",
+          "LPO TOULOUSE Déodat De Séverac",
+          "LPO TOULOUSE Hôtellerie et Tourisme",
+          "LPO TOURNEFEUILLE Françoise"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "LP Voeux 2",
+        "description": "",
+        "required": false,
+        "options": [
+          "LP MONTAUBAN DE LUCHON du Bois",
+          "LPO GOURDAN POLIGNAN Paul Mathou",
+          "LP SAINT GAUDENS Casteret",
+          "LP COLOMIERS Eugène Montel",
+          "LP TOULOUSE Gabriel PERI",
+          "LP TOULOUSE GUYNEMER",
+          "LP TOULOUSE Hélène BOUCHER",
+          "LPO TOULOUSE GALLIENI",
+          "LP REVEL de l'Ameublement",
+          "LP TOULOUSE Renée BONNET",
+          "LP TOULOUSE Roland GARROS",
+          "LP TOULOUSE Stéphane HESSEL",
+          "LP TOULOUSE Urbain VITRY",
+          "LPO TOULOUSE Raymond NAVES",
+          "LPO MURET Charles de Gaulle",
+          "LPO TOULOUSE Déodat De Séverac",
+          "LPO TOULOUSE Hôtellerie et Tourisme",
+          "LPO TOURNEFEUILLE Françoise"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DEGRE DE MAITRISE DES COMPETENCES DE CERTAINS DOMAINES DU S4C",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "BARÊME",
+        "description": "Maitrise insuffisante : 5 points\r\nMaîtrise fragile : 10 points\r\nMaîtrise satisfaisante : 15 points\r\nMaîtrise très bonne maîtrise : 20 points",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "D2-1 - Organiser son travail personnel",
+        "description": "",
+        "required": true,
+        "options": [
+          "5",
+          "10",
+          "15",
+          "20"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "D2-2 - Comprendre et respecter les consignes",
+        "description": "",
+        "required": true,
+        "options": [
+          "5",
+          "10",
+          "15",
+          "20"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "D2-3 - Gérer ses efforts",
+        "description": "",
+        "required": true,
+        "options": [
+          "5",
+          "10",
+          "15",
+          "20"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "D2-4 - Coopérer et réaliser des projets",
+        "description": "",
+        "required": true,
+        "options": [
+          "5",
+          "10",
+          "15",
+          "20"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "D3-1 - Respecter les autres",
+        "description": "",
+        "required": true,
+        "options": [
+          "5",
+          "10",
+          "15",
+          "20"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "D3-2 - Comprendre et respecter les règles communes",
+        "description": "",
+        "required": true,
+        "options": [
+          "5",
+          "10",
+          "15",
+          "20"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "D3-3 - Respecter ses engagements",
+        "description": "",
+        "required": true,
+        "options": [
+          "5",
+          "10",
+          "15",
+          "20"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "D3-4 - Prendre des initiatives",
+        "description": "",
+        "required": true,
+        "options": [
+          "5",
+          "10",
+          "15",
+          "20"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ITEMS - ENGAGEMENT DE L'ELEVE DANS LA CONSTRUCTION DE SON PARCOURS PROFESSIONNEL ET PERSONNEL",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Barème",
+        "description": "Si réponse positive : 10 points\r\nSi réponse négative : 0 point",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "1 - L'élève a rencontré la Psy-EN au moins 2 fois dans l'année",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "2 - L'élève s'est informé (e) du contenu via recherche internet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "3 - L'élève a bénéficié d'une information collective en classe",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "4 - L'élève s'est informé (e) des journées \"portes ouvertes\" en lycée",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "5 - L'élève a effectué une visite ou un mini-stage en lycée",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "6 - L'élève a effectué une visite ou un mini-stage en entreprise",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "7 - L'élève  exprime sa volonté de s'engager dans une formation professionnelle",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "8 - Autres",
+        "description": "<strong>A renseigner si vous désirez signaler un autre engagement de l'élève dans la construction de son parcours professionnel et personnel</strong>",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nature de cet engagement particulier",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Considérez-vous que cet engagement particulier justifie des points supplémentaires ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "MOYENNE DE L'ELEVE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Moyenne générale sur 80 des 2 premiers trimestres ou du 1er semestre",
+        "description": "<u><strong>Note sur 20 x coefficient 4</strong></u>",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PIECES JUSTIFICATIVES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièces à fournir",
+        "description": "<u><strong>Merci de fournir l'annexe 3, accompagnée de l'avis du psychologue EN, ainsi que les bulletins de notes</strong></u>",
+        "required": true
+      }
+    ]
+  }
+}

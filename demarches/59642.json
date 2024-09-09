@@ -1,0 +1,698 @@
+{
+  "number": 59642,
+  "title": "Chiffres annuels d'activité de médiation de la consommation",
+  "description": "Cette téléprocédure est destinée aux médiateurs référencés par la Commission d'Evaluation et de Contrôle de la Médiation de la Consommation (CECMC). \r\n\r\nCe formulaire permet de soumettre à la CECMC les chiffres de l'activité annuelle de chaque médiateur. Auparavant ces informations étaient demandées via la saisie dans un formulaire de type tableur.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique"
+  ],
+  "datePublication": "2024-06-01T15:34:57+02:00",
+  "service": {
+    "nom": "Le secrétariat de la CECMC (Bureau 1D - DGCCRF)",
+    "organisme": "DGCCRF, Ministère de l’Économie, des Finances et de la Souveraineté industrielle et numérique",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/mediation-conso-bilan-annuel",
+  "dpoUrl": "referent-pod@dgccrf.finances.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.economie.gouv.fr/dgccrf",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032797752",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 6,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. Contact et nombre de professionnels couverts par votre entité de médiation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1.1. Contact",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Entité de médiation",
+        "description": "Ex : Médiateur du groupe La Poste, association Mediavet, Médiateur national de l'énergie etc.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom et NOM de la personne de contact au sein de l'entité",
+        "description": "Personne qui est à même d'échanger avec la CECMC sur les chiffres communiqués.",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique de contact",
+        "description": "ex : arnaud.dupont@mail.com (personne contact au sein de l'entité) et/ou service-mediation@mail.com",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Fixe ou portable",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "--> Communication du rapport d’activité, s’il est rédigé au moment de la réponse au présent formulaire (à défaut communication au secrétariat de la CECMC ultérieurement)",
+        "description": "Format PDF uniquement (Taille max 5 Mo). Ou communiquer le lien vers le rapport. ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Ou communiquer un lien vers le rapport :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1.2 - Professionnels couverts par votre entité de médiation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de professionnels couverts par votre dispositif de médiation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Indiquer le nombre de professionnels par secteur(s) - Une ligne par secteur",
+        "description": "Lister chaque secteur couvert par votre entité de médiation (une ligne par secteur), et préciser le nombre de professionnels couverts dans chacun de ces secteurs.  \r\nLa somme de chaque ligne  doit correspondre au nombre total des professionnels couverts par votre entité de médiation.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Secteur",
+            "description": "",
+            "required": true,
+            "options": [
+              "A01 - Commerce alimentaire et non alimentaire généraliste (grande distribution)",
+              "A02 - Commerce alimentaire spécialisé (boulangerie, boucherie, poissonnerie, bio, caviste…)",
+              "A03 - Commerce non alimentaire généraliste ou spécialisé (grands magasins, produits techniques, solderies, bazars…)",
+              "A04 - Eventaires, marchés de plein air",
+              "A05 - Commerce de tabac (débits de tabac), cigarette électronique",
+              "A06 - Equipement de la personne (habillement, chaussures, accessoires…)",
+              "A07 - Equipement de la maison (ameublement, appareils électro-ménagers, décoration, consommables….)",
+              "A08 - Horlogerie, bijouterie",
+              "A09 - Biens d'occasion (antiquaires, dépôts-vente, brocantes…)",
+              "B01 - Vente en ligne, vente à distance",
+              "B02 - Foires et salons",
+              "B03 - Distribution automatique",
+              "B04 - Vente en réunion",
+              "B05 - Vente directe, démarchage",
+              "C01 - Promotion, construction",
+              "C02 - Travaux d'architecture, maitrise d'œuvre",
+              "C03 - Ingénierie, expertises (géomètres-expert, expertise technique, diagnostics immobiliers...)",
+              "C04 - Transactions immobilières, administration de biens immobiliers",
+              "C05 - Gestion, vente de biens immobiliers (agences immobilières, mandataires immobiliers, viager...)",
+              "C06 - Facilitation pour valoriser la vente d'un bien immobilier (conseil dans le domaine immobilier, mise en scène d'intérieur...)",
+              "C07 - Syndics de copropriétés",
+              "C08 - Déménagement",
+              "C09 - Entreposage, stockage (garde-meuble...)",
+              "D01 - Distribution d'électricité et/ou distribution de gaz",
+              "D02 - Distribution de fioul domestique, combustibles solides (bois, charbon), gaz de pétrole liquéfiés (GPL)",
+              "D03 - Distribution d'eau chaude (chauffage urbain)",
+              "D04 - Energies renouvelables",
+              "D05 - Services Publics de l’eau et de l’assainissement collectif et non collectif",
+              "D06 - Collecte, traitement des eaux",
+              "E01 - Installation de cuisines et salles de bains",
+              "E02 - Installation de piscines",
+              "E03 - Installation et réparation d'équipements (chauffage, climatisation, efficacité énergétique…)",
+              "E04 - Aménagement de l'habitat, travaux d'installation, de réparation, de rénovation et activités de décoration",
+              "E05 - Aménagement extérieur (gros travaux)",
+              "E06 - Réparation de matériels (électroménager, télévision, vidéo…)",
+              "E07 - Dépannages urgents à domicile",
+              "E08 - Location de matériels",
+              "F01 - Transport ferroviaire de voyageurs",
+              "F02 - Transports publics urbains et suburbains",
+              "F03 - Autocars",
+              "F04 - Taxis, véhicules de transport avec chauffeur (VTC)",
+              "F05 - Transport maritime, transport fluvial",
+              "F06 - Transport aérien",
+              "F07 - Services aéroportuaires",
+              "F08 - Transport scolaire",
+              "F09 - Remontées mécaniques et téléphériques",
+              "F10 - Transport de marchandises, livraisons",
+              "G01 - Construction et/ou commerce de véhicules (automobile, motocycle, cycle, bateau, aéronef...)",
+              "G02 - Location longue durée (LDD), location avec option d'achat (LOA) de véhicules",
+              "G03 - Location de courte durée de véhicules : contrats spécifiques, autopartage, véhicules en libre-service",
+              "G04 - Accessoires pour véhicules",
+              "G05 - Entretien et réparation de véhicules (concessionnaires, agents, réparateurs indépendants, centres auto…)",
+              "G06 - Engins motorisés non réceptionnés (mini-motos, quads, trottinettes électriques, gyropodes…)",
+              "G07 - Contrôle technique de véhicules",
+              "G08 - Stationnement des véhicules (parcmètres, parcs de stationnement…)",
+              "G09 - Autoroutes (péages)",
+              "G10 - Dépannage, remorquage",
+              "G11 - Enlèvement de véhicules, fourrières",
+              "G12 - Destruction  des véhicules hors d'usage (VHU)",
+              "G13 - Distribution de carburants (stations-services)",
+              "G14 - Lavage des véhicules (haute pression…)",
+              "G15 - Formation des conducteurs (auto-école)",
+              "H01 - Produits et marchés financiers",
+              "H02 - Banque, établissements de crédit et de paiement",
+              "H03 - Intermédiaires en opérations de banque, de services de paiement et d'assurance",
+              "H04 - Recouvrement de créances",
+              "H05 - Assurance",
+              "H06 - Mutuelles",
+              "I01 - Equipements informatiques et de communication",
+              "I02 - Réparation de produits électroniques grand public, dépannage informatique",
+              "I03 - Téléphonie, Internet, communications électroniques",
+              "I04 - Audiovisuel",
+              "I05 - Services postaux",
+              "J01 - Hôtellerie",
+              "J02 - Centrales de réservation hôtelière",
+              "J03 - Restauration",
+              "J04 - Organisation d'évènements",
+              "J05 - Livraison de repas à domicile",
+              "J06 - Débits de boissons (cafés, brasserie)",
+              "K01 - Agences de voyage, voyagistes",
+              "K02 - Villages, clubs de vacances",
+              "K03 - Biens immobiliers saisonniers et temporaires",
+              "K04 - Séjours en temps partagé",
+              "K05 - Hôtellerie de plein air (camping, caravaning…)",
+              "L01 - Biens culturels (livres, musique, peinture, photos…)",
+              "L02 - Presse",
+              "L03 - Articles de puériculture, jouets",
+              "L04 - Articles de sport, articles de loisirs",
+              "L05 - Location d'articles de loisirs et de sport",
+              "L06 - Activités et manifestations sportives (leçons, locations d'installations sportives, billetterie...)",
+              "L07 - Activités récréatives et de loisirs (parcs d'attraction, parcours acrobatiques...)",
+              "L08 - Théâtres, spectacles, musées",
+              "L09 - Cinéma",
+              "L10 - Travaux photographiques",
+              "L11 - Coffret-cadeau (séjours, gastronomie, bien-être, sport-aventure, multi-activités...)",
+              "L12 - Jeux de hasard et d'argent",
+              "M01 - Bricolage et équipements spécialisés (matériels agricoles, d'espaces verts...)",
+              "M02 - Fleurs, plantes",
+              "M03 - Aménagement paysager (y compris élagage et abattage)",
+              "M04 - Jardinerie, animalerie (animaux domestiques et leurs aliments, matériels d’élevage)",
+              "M05 - Commercialisation d'animaux, services pour les animaux (toilettage, gardiennage...)",
+              "M06 - Soins vétérinaires et produits vétérinaires (médicaments, aliments et produits d'hygiène pour animaux)",
+              "N01 - Parfumerie, produits de beauté",
+              "N02 - Parapharmacie",
+              "N03 - Matériels et dispositifs médicaux  (optique, audition,…)",
+              "N04 - Coiffure, instituts de beauté (produits et services)",
+              "N05 - Services d'esthétique corporelle (bronzage, onglerie, épilation, tatouage …..)",
+              "N06 - Services de bien-être (thalassothérapie, spa..., hypnose,…)",
+              "N07 - Services à domicile (garde d'enfants, ménage…)",
+              "N08 - Crèches, assistantes maternelles",
+              "N09 - Maisons de retraite, établissements d'hébergement",
+              "N10 - Cordonnerie, reproduction de clés,...",
+              "N11 - Blanchisseries, teintureries, repassage, laveries en libre-service",
+              "N12 - Services funéraires",
+              "O01 - Etablissements privés d'enseignement",
+              "O02 - Enseignement à distance",
+              "O03 - Soutien scolaire",
+              "O04 - Séjours linguistiques, travaux de traduction et de correction de textes",
+              "O05 - Formation pour adultes",
+              "P01 - Avocat",
+              "P02 - Notaire",
+              "P03 - Huissier de justice",
+              "P04 - Commissaire priseur",
+              "Q01 - Agences de placement, agences de travail temporaire",
+              "Q02 - Agences matrimoniales, clubs de rencontres",
+              "Q03 - Développement personnel, activités d’assistance",
+              "Q04 - Généalogie",
+              "Q05 - Astrologie, voyance...",
+              "Q06 - Activités d'enquête",
+              "Q07 - Sécurité privée, surveillance (télésurveillance, vidéosurveillance, protection et traitement des vitrages….)",
+              "R01 - Franchise"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de professionnels dans ce secteur",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. Nombre de saisines des consommateurs traitées durant l'année évaluée (n-1)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "2.1- Nombre de saisines en cours de traitement au 1er janvier de l'année N-1 (Stock initial)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "2.2- Nombre de saisines enregistrées au cours de l'année N-1 (Entrées)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "2.3- Nombre de saisines en cours de traitement au 31 décembre de l'année N-1 (stock final)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "2.4- Nombre global de saisines traitées en n-1",
+        "description": "Les saisines traitées en n-1, sont les saisines encore non traitées au 1er janvier de l'année n-1 (stock), auxquelles s'ajoutent les saisines reçues cette année-là. Sont retranchées les saisines non traitées au 31 décembre de l'année n-1. \r\nSoit : 2.1 (+) 2.2 (-) 2.3 = Nombre global de saisines traitées en n-1",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. Traitement des saisines durant l'année évaluée (année N-1)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.1 - Saisines traitées hors du champ de la médiation de la consommation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de saisines traitées hors champ de la médiation de la consommation",
+        "description": "Saisines hors du champ de la médiation de la consommation, pour les motifs prévus à l'article L.611-3 du Code de la consommation (ex: litige entre professionnels) ou L.611-4 du même Code (ex : litige lié à l'enseignement supérieur privé, aux services de santé ou aux services d'intérêt général non économiques).\r\n\r\n- LIEN Article L.611-3 Code de la consommation :  https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032224811/2024-03-25/\r\n\r\n- LIEN Article L.611-4 Code de la consommation :  https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032224809/2024-03-25/\r\n",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.2- Saisines irrecevables par motif (année N-1)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre global de saisines irrecevables",
+        "description": "Pour l'un des cinq motifs prévus à l'article L.612-2 du Code de la consommation : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032224802/2024-03-25/\r\n\r\nLe nombre global de saisines irrecevables, le cas échéant, doit égaler A+ B+ C+ D+ E. ",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "a - Motif 1 d'irrecevabilité : le consommateur ne justifie pas avoir tenté, au préalable, de résoudre son litige directement auprès du professionnel par une réclamation écrite selon les modalités prévues, le cas échéant, dans le contrat",
+        "description": "Indiquer zéro le cas échéant",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "b - Motif 2 d'irrecevabilité : la demande est manifestement infondée ou abusive",
+        "description": "Indiquer zéro le cas échéant",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "c - Motif 3 d'irrecevabilité :  le litige a été précédemment examiné ou est en cours d'examen par un autre médiateur ou par un tribunal",
+        "description": "Indiquer zéro le cas échéant",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "d - Motif 4 d'irrecevabilité : le consommateur a introduit sa demande auprès du médiateur dans un délai supérieur à un an à compter de sa réclamation écrite auprès du professionnel",
+        "description": "Indiquer zéro le cas échéant",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "e - Motif 5 d'irrecevabilité : le litige n'entre pas dans le champ de compétence du médiateur (dans le champ de la médiation, mais le professionnel n'a pas adhéré au dispositif de médiation)",
+        "description": "Indiquer zéro le cas échéant",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.3 - Saisines recevables sur l'année évaluée (n-1)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.3.1 - Saisines recevables : nombre global",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre global de saisines recevables",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.3.2 - Saisines recevables non menées à leur terme",
+        "description": "Saisines non menées à leur terme du fait : \r\n- du refus du professionnel d'entrer en médiation \r\n- du désistement d'une des parties (article R.612-2 du Code de la consommation).\r\nLes deux motifs en question, expliquant que les saisines n'ont pas été menées à leur terme, sont comptabilisés ci-dessous, aux champs a et b.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre global de saisines recevables non menées à leur terme",
+        "description": "Indiquer zéro le cas échéant",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Dont nombre de refus des professionnels d'entrer en médiation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Focus sur les saisines non menées à leur terme du fait d'un refus du professionnel d'entrer en médiation (par secteur)",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Secteur concerné",
+            "description": "",
+            "required": true,
+            "options": [
+              "A01 - Commerce alimentaire et non alimentaire généraliste (grande distribution)",
+              "A02 - Commerce alimentaire spécialisé (boulangerie, boucherie, poissonnerie, bio, caviste…)",
+              "A03 - Commerce non alimentaire généraliste ou spécialisé (grands magasins, produits techniques, solderies, bazars…)",
+              "A04 - Eventaires, marchés de plein air",
+              "A05 - Commerce de tabac (débits de tabac), cigarette électronique",
+              "A06 - Equipement de la personne (habillement, chaussures, accessoires…)",
+              "A07 - Equipement de la maison (ameublement, appareils électro-ménagers, décoration, consommables….)",
+              "A08 - Horlogerie, bijouterie",
+              "A09 - Biens d'occasion (antiquaires, dépôts-vente, brocantes…)",
+              "B01 - Vente en ligne, vente à distance",
+              "B02 - Foires et salons",
+              "B03 - Distribution automatique",
+              "B04 - Vente en réunion",
+              "B05 - Vente directe, démarchage",
+              "C01 - Promotion, construction",
+              "C02 - Travaux d'architecture, maitrise d'œuvre",
+              "C03 - Ingénierie, expertises (géomètres-expert, expertise technique, diagnostics immobiliers...)",
+              "C04 - Transactions immobilières, administration de biens immobiliers",
+              "C05 - Gestion, vente de biens immobiliers (agences immobilières, mandataires immobiliers, viager...)",
+              "C06 - Facilitation pour valoriser la vente d'un bien immobilier (conseil dans le domaine immobilier, mise en scène d'intérieur...)",
+              "C07 - Syndics de copropriétés",
+              "C08 - Déménagement",
+              "C09 - Entreposage, stockage (garde-meuble...)",
+              "D01 - Distribution d'électricité et/ou distribution de gaz",
+              "D02 - Distribution de fioul domestique, combustibles solides (bois, charbon), gaz de pétrole liquéfiés (GPL)",
+              "D03 - Distribution d'eau chaude (chauffage urbain)",
+              "D04 - Energies renouvelables",
+              "D05 - Services Publics de l’eau et de l’assainissement collectif et non collectif",
+              "D06 - Collecte, traitement des eaux",
+              "E01 - Installation de cuisines et salles de bains",
+              "E02 - Installation de piscines",
+              "E03 - Installation et réparation d'équipements (chauffage, climatisation, efficacité énergétique…)",
+              "E04 - Aménagement de l'habitat, travaux d'installation, de réparation, de rénovation et activités de décoration",
+              "E05 - Aménagement extérieur (gros travaux)",
+              "E06 - Réparation de matériels (électroménager, télévision, vidéo…)",
+              "E07 - Dépannages urgents à domicile",
+              "E08 - Location de matériels",
+              "F01 - Transport ferroviaire de voyageurs",
+              "F02 - Transports publics urbains et suburbains",
+              "F03 - Autocars",
+              "F04 - Taxis, véhicules de transport avec chauffeur (VTC)",
+              "F05 - Transport maritime, transport fluvial",
+              "F06 - Transport aérien",
+              "F07 - Services aéroportuaires",
+              "F08 - Transport scolaire",
+              "F09 - Remontées mécaniques et téléphériques",
+              "F10 - Transport de marchandises, livraisons",
+              "G01 - Construction et/ou commerce de véhicules (automobile, motocycle, cycle, bateau, aéronef...)",
+              "G02 - Location longue durée (LDD), location avec option d'achat (LOA) de véhicules",
+              "G03 - Location de courte durée de véhicules : contrats spécifiques, autopartage, véhicules en libre-service",
+              "G04 - Accessoires pour véhicules",
+              "G05 - Entretien et réparation de véhicules (concessionnaires, agents, réparateurs indépendants, centres auto…)",
+              "G06 - Engins motorisés non réceptionnés (mini-motos, quads, trottinettes électriques, gyropodes…)",
+              "G07 - Contrôle technique de véhicules",
+              "G08 - Stationnement des véhicules (parcmètres, parcs de stationnement…)",
+              "G09 - Autoroutes (péages)",
+              "G10 - Dépannage, remorquage",
+              "G11 - Enlèvement de véhicules, fourrières",
+              "G12 - Destruction  des véhicules hors d'usage (VHU)",
+              "G13 - Distribution de carburants (stations-services)",
+              "G14 - Lavage des véhicules (haute pression…)",
+              "G15 - Formation des conducteurs (auto-école)",
+              "H01 - Produits et marchés financiers",
+              "H02 - Banque, établissements de crédit et de paiement",
+              "H03 - Intermédiaires en opérations de banque, de services de paiement et d'assurance",
+              "H04 - Recouvrement de créances",
+              "H05 - Assurance",
+              "H06 - Mutuelles",
+              "I01 - Equipements informatiques et de communication",
+              "I02 - Réparation de produits électroniques grand public, dépannage informatique",
+              "I03 - Téléphonie, Internet, communications électroniques",
+              "I04 - Audiovisuel",
+              "I05 - Services postaux",
+              "J01 - Hôtellerie",
+              "J02 - Centrales de réservation hôtelière",
+              "J03 - Restauration",
+              "J04 - Organisation d'évènements",
+              "J05 - Livraison de repas à domicile",
+              "J06 - Débits de boissons (cafés, brasserie)",
+              "K01 - Agences de voyage, voyagistes",
+              "K02 - Villages, clubs de vacances",
+              "K03 - Biens immobiliers saisonniers et temporaires",
+              "K04 - Séjours en temps partagé",
+              "K05 - Hôtellerie de plein air (camping, caravaning…)",
+              "L01 - Biens culturels (livres, musique, peinture, photos…)",
+              "L02 - Presse",
+              "L03 - Articles de puériculture, jouets",
+              "L04 - Articles de sport, articles de loisirs",
+              "L05 - Location d'articles de loisirs et de sport",
+              "L06 - Activités et manifestations sportives (leçons, locations d'installations sportives, billetterie...)",
+              "L07 - Activités récréatives et de loisirs (parcs d'attraction, parcours acrobatiques...)",
+              "L08 - Théâtres, spectacles, musées",
+              "L09 - Cinéma",
+              "L10 - Travaux photographiques",
+              "L11 - Coffret-cadeau (séjours, gastronomie, bien-être, sport-aventure, multi-activités...)",
+              "L12 - Jeux de hasard et d'argent",
+              "M01 - Bricolage et équipements spécialisés (matériels agricoles, d'espaces verts...)",
+              "M02 - Fleurs, plantes",
+              "M03 - Aménagement paysager (y compris élagage et abattage)",
+              "M04 - Jardinerie, animalerie (animaux domestiques et leurs aliments, matériels d’élevage)",
+              "M05 - Commercialisation d'animaux, services pour les animaux (toilettage, gardiennage...)",
+              "M06 - Soins vétérinaires et produits vétérinaires (médicaments, aliments et produits d'hygiène pour animaux)",
+              "N01 - Parfumerie, produits de beauté",
+              "N02 - Parapharmacie",
+              "N03 - Matériels et dispositifs médicaux  (optique, audition,…)",
+              "N04 - Coiffure, instituts de beauté (produits et services)",
+              "N05 - Services d'esthétique corporelle (bronzage, onglerie, épilation, tatouage …..)",
+              "N06 - Services de bien-être (thalassothérapie, spa..., hypnose,…)",
+              "N07 - Services à domicile (garde d'enfants, ménage…)",
+              "N08 - Crèches, assistantes maternelles",
+              "N09 - Maisons de retraite, établissements d'hébergement",
+              "N10 - Cordonnerie, reproduction de clés,...",
+              "N11 - Blanchisseries, teintureries, repassage, laveries en libre-service",
+              "N12 - Services funéraires",
+              "O01 - Etablissements privés d'enseignement",
+              "O02 - Enseignement à distance",
+              "O03 - Soutien scolaire",
+              "O04 - Séjours linguistiques, travaux de traduction et de correction de textes",
+              "O05 - Formation pour adultes",
+              "P01 - Avocat",
+              "P02 - Notaire",
+              "P03 - Huissier de justice",
+              "P04 - Commissaire priseur",
+              "Q01 - Agences de placement, agences de travail temporaire",
+              "Q02 - Agences matrimoniales, clubs de rencontres",
+              "Q03 - Développement personnel, activités d’assistance",
+              "Q04 - Généalogie",
+              "Q05 - Astrologie, voyance...",
+              "Q06 - Activités d'enquête",
+              "Q07 - Sécurité privée, surveillance (télésurveillance, vidéosurveillance, protection et traitement des vitrages….)",
+              "R01 - Franchise"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de refus dans ce secteur",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3.3.3 - Saisines recevables menées à leur terme",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre global de saisines menées à leur terme",
+        "description": "Ce nombre global des saisines \"menées à leur terme\" comprend :\r\n- Les saisines ayant donné lieu à un accord entre les parties sans proposition de solution (a ci-dessous) \r\n- Les propositions de solution acceptées par les parties (b ci-dessous)\r\n- Les propositions de solution refusées par les parties (c)",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "a - Nombre de saisines ayant donné lieu à un accord entre les parties sans proposition de solution",
+        "description": " \r\n",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "b - Nombre de propositions de solution acceptées par les parties",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "c - Nombre de propositions de solution refusées par les parties",
+        "description": "Dont : \r\n- c1: nombre propositions de solution refusées par le consommateur\r\n- c2 : nombre propositions de solution refusées par le consommateur et le professionnel\r\n- c3: propositions de solution refusées par le professionnel  ",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "c1 : dont nombre propositions de solution refusées par le consommateur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "c2 : dont nombre propositions de solution refusées par le consommateur et le professionnel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "c3 - dont nombre de propositions refusées par le professionnel",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 -  Propositions de solution",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "4.1 - Nombre de propositions de solution partiellement ou totalement en faveur des consommateurs",
+        "description": "Sont concernées toutes les propositions de solution, acceptées ou refusées. Indiquer zéro le cas échéant. ",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "4.2 - Nombre de propositions de solution totalement en faveur des professionnels",
+        "description": "Sont concernées toutes les propositions de solution, acceptées ou refusées. Indiquer zéro le cas échéant. ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5 - Délais",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "5.1 - Délai moyen entre la réception des demandes et les décisions relatives à leur recevabilité ou leur irrecevabilité (en nombre de jours)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "5.2 - Délai moyen entre les décisions relatives à la recevabilité des demandes et la fin de la médiation (en nombre de jours)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "6- Litiges transfrontières",
+        "description": "Merci de signaler, ci-dessous, les éventuelles difficultés rencontrées et suggestions d'amélioration.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "6.0 - Nombre de saisines liées à des litiges transfrontières reçues",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "6.1 - Nombre de saisines liées à des litiges transfrontières traitées",
+        "description": "Indiquer zéro le cas échéant",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "6.2 - Nombre de saisines liées à des litiges transfrontières recevables",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "6.3 - Nombre de saisines liées à des litiges transfrontières irrecevables",
+        "description": "Pour l'un des cinq motifs prévus à l'article L.612-2 du Code de la consommation : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032224802/2024-03-25/\r\n\r\nLe nombre global de saisines transfrontières irrecevables doit égaler A+ B+ C+ D+ E. ",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "a - (motif 1 d’irrecevabilité) : le consommateur ne justifie pas avoir tenté, au préalable, de résoudre son litige directement auprès du professionnel par une réclamation écrite selon les modalités prévues, le cas échéant, dans le contrat",
+        "description": "Indiquer zéro le cas échéant",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "b - (motif 2 d’irrecevabilité) : la demande est manifestement infondée ou abusive",
+        "description": "Indiquer zéro le cas échéant",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "c - (motif 3 d’irrecevabilité) : le litige a été précédemment examiné ou est en cours d'examen par un autre médiateur ou par un tribunal",
+        "description": "Indiquer zéro le cas échéant",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "d - (motif  4 d’irrecevabilité) : le consommateur a introduit sa demande auprès du médiateur dans un délai supérieur à un an à compter de sa réclamation écrite auprès du professionnel",
+        "description": "Indiquer zéro le cas échéant",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "e - (motif  5 d’irrecevabilité) : le litige n'entre pas dans le champ de compétence du médiateur (professionnel non couvert par l’entité de médiation)",
+        "description": "Indiquer zéro le cas échéant",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "f - Motifs d'irrecevabilité autres",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "6.4 - Commentaires concernant les motifs d'irrecevabilité",
+        "description": "Facultatif",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "6.5 - Commentaires sur les litiges transfrontières le cas échéant",
+        "description": "Facultatif",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "7 - Commentaires complémentaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires",
+        "description": "- Utilisation du formulaire DS\r\n- Explications relatives au bilan de votre entité de médiation\r\n- Faits marquants de l'année évaluée\r\n- Remarque sur la nomenclature du formulaire",
+        "required": false
+      }
+    ]
+  }
+}

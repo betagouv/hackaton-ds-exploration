@@ -1,0 +1,108 @@
+{
+  "number": 73787,
+  "title": "2023-Bilan de destruction de la pie bavarde en Haute-Garonne",
+  "description": "Bilan suite à autorisation de destruction à tir de la pie bavarde, E.S.O.D. du groupe 2, ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2023-04-14T16:39:24+02:00",
+  "service": {
+    "nom": "Pôle Chasse du SEEF",
+    "organisme": "Direction départemental des territoires de la Haute-Garonne",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/2023-bilan-destruction-pie-bavarde-31",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.haute-garonne.gouv.fr/Politiques-publiques/Environnement-eau-risques-naturels-et-technologiques/Chasse/Animaux-nuisibles/Demande-d-autorisation-de-destruction-a-tir",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "logo pref_haute_garonne.jpg",
+    "checksum": "r7AXwjs5DI7M8F3yMysd8A==",
+    "byteSize": "469185",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 2,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Déclaration de bilan de prélèvements de pies bavardes sur autorisation préfectorale pour la saison 2023",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Numéro de dossier de votre autorisation initiale de destruction à tir de pies",
+        "description": "Ce numéro vous a été attribué et figure dans le courriel reçu de la  démarche simplifiée.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Madame / Monsieur",
+        "description": "Précisez\r\n",
+        "required": true,
+        "options": [
+          "Madame",
+          "Monsieur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du bénéficiaire de l'autorisation",
+        "description": "Nom ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du bénéficiaire de l'autorisation",
+        "description": "Prénom",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Indiquer l'adresse complète (adresse, code postal et commune). Si vous représentez une ACCA, renseignez l'adresse de celle-ci.\n",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": "Téléphone de contact, de préférence portable.",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Commune",
+        "description": "Vous devez déclarer le nombre de pies bavardes prélevées par commune. Compléter les rubriques suivante pour les communes supplémentaires.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune de Haute-Garonne",
+            "description": "Préciser la commune concernée par prélèvement.",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de pies prélevées pour chaque commune",
+            "description": "Inscrire un nombre positif ou 0.\r\nRajoutez un champs commune pour déclarer les autres bilans pour chaque autre commune.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Valeur totale du préjudice estimé en Euro",
+        "description": "Inscrire le montant en € du préjudice causé par les pies qui a justifié les tirs de destruction.",
+        "required": false
+      }
+    ]
+  }
+}

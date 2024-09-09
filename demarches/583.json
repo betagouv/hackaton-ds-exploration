@@ -1,0 +1,423 @@
+{
+  "number": 583,
+  "title": "FACT - Demande d'aide - Entreprise",
+  "description": "Procédure de dépôt de demande de subvention Fact pour une entreprise\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère du Travail, de la Santé et des Solidarités"
+  ],
+  "datePublication": "2017-06-20T16:37:48+02:00",
+  "service": null,
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/b1dca4ff-bf7f-4464-8a19-0d092771d1db",
+  "dpoUrl": null,
+  "noticeUrl": "https://www.anact.fr/file/5626/download?token=0PMutch4",
+  "siteWebUrl": "www.anact.fr",
+  "cadreJuridiqueUrl": null,
+  "logo": {
+    "filename": "procedure-e4b2fbcc-2269-41be-991e-f28fc5858a0c.jpg",
+    "checksum": "a1kptAlkJ/uz4qGpinHKNQ==",
+    "byteSize": "633600",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 23,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si vous saisissez votre demande en plusieurs fois, attention à bien enregistrer votre brouillon (en bas de page).",
+        "description": "Toute modification non enregistrée ne sera pas prise en compte.\r\n\r\n",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": ".",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de Structure",
+        "description": "",
+        "required": true,
+        "options": [
+          "Association",
+          "Entreprise"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro RNA (pour les associations)",
+        "description": "Renseignement administratif supplémentaire pour les associations, numéro RNA ou, à défaut, numéro de récépissé en préfecture ou en mairie",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Responsable de la structure",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Fonction",
+        "description": "",
+        "required": true,
+        "options": [
+          "Délégué Général",
+          "Directeur",
+          "Président",
+          "Autre fonction de direction"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Personne chargée du dossier de subvention",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Fonction",
+        "description": "",
+        "required": true,
+        "options": [
+          "Chef ou dirigeant d'entreprise, directeur, directeur adjoint, chef de service, etc.",
+          "Directeur RH / Responsable RH / Directeur ou responsable du personnel",
+          "Autre fonction RH (assistant RH, etc.)",
+          "Directeur ou reponsable de la formation",
+          "Directeur / responsable commercial ou marketing",
+          "Autre fonction de direction",
+          "Chargé de mission, chargé de projet, conseiller"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Consultant accompagnant le projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Cabinet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Merci de renseigner l'adresse complète (exemple : 192 avenue Thiers CS 800 31 69457 Lyon cedex 06) ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro Siret",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Effectif",
+        "description": "",
+        "required": false,
+        "options": [
+          "0 salarié",
+          "De 1 à 9 salariés (TTPE)",
+          "De 10 à 19 salariés (TPE)",
+          "De 20 à 49 salariés (PE)",
+          "De 50 à 249 salariés (PME)",
+          "De 250 à 499 salariés (ME)",
+          "500 à 999 salariés (Grandes Entreprises)",
+          "1000 salariés ou plus (TGE)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Autre Consultant accompagnant le projet (si c'est le cas)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Cabinet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Merci de renseigner l'adresse complète (exemple : 192 avenue Thiers CS 800 31 69457 Lyon cedex 06) ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro Siret",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Effectif",
+        "description": "",
+        "required": false,
+        "options": [
+          "0 salarié",
+          "De 1 à 9 salariés (TTPE)",
+          "De 10 à 19 salariés (TPE)",
+          "De 20 à 49 salariés (PE)",
+          "De 50 à 249 salariés (PME)",
+          "De 250 à 499 salariés (ME)",
+          "500 à 999 salariés (Grandes Entreprises)",
+          "1000 salariés ou plus (TGE)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Budget prévisionnel de l'action - Dépenses",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous assujettie à la TVA ?",
+        "description": "Attention, dans l'ensemble des champs suivants, les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA).",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Coût total du projet",
+        "description": "Les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de jours d'appui-conseil (intervention consultant)",
+        "description": "Nombre de jours d'intervention du (des) prestataire(s) externe(s) (prestation de conseil) pour la réalisation du projet. \r\nLe nombre de jours maximum pris en charge est 12 jours (+ 2 jours si capitalisation). ",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Coût journée d'appui-conseil (intervention consultant)",
+        "description": "Coût d'une journée d'intervention du (des) prestataire(s) externe(s) (prestation de conseil) pour la réalisation du projet.\r\nLe coût de journée maximum pris en charge est de 1000 euros.\r\nLes montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Coût total appui-conseil (intervention consultant)",
+        "description": "Les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Budget prévisionnel de l'action - Recettes",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Total Recette",
+        "description": "Les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dont",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Montant de la subvention Fact demandée",
+        "description": "Les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Autres financements (publics ou autres)",
+        "description": "Les montants sont à exprimer en HT (si vous êtes assujettis à la TVA) ou TTC (si vous n'êtes pas assujettis à la TVA). Ne pas indiquer les centimes d’euro.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description de l’action, calendrier d’exécution et résumé du projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Contexte et enjeux  (10 lignes  maximum)",
+        "description": "Présentation de l’entreprise – Nature des problèmes rencontrés – Populations concernées,…\r\n\r\nPour nous permettre d’étudier le dossier, ce descriptif doit impérativement être rempli avec soin, indépendamment des autres documents fournis.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Objectifs du projet  (10 lignes  maximum)",
+        "description": "Finalité et objectifs généraux du projet.\r\n\r\n\r\nPour nous permettre d’étudier le dossier, ce descriptif doit impérativement être rempli avec soin, indépendamment des autres documents fournis.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Différentes étapes du projet (10 lignes  maximum)",
+        "description": "Actions envisagées et démarche méthodologique détaillée, avec identification des phases d’accompagnement au sein de chaque entreprise et phases de regroupements inter entreprises.\r\n\r\nPour nous permettre d’étudier le dossier, ce descriptif doit impérativement être rempli avec soin, indépendamment des autres documents fournis.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Calendrier d’exécution (10 lignes  maximum)",
+        "description": "Pour nous permettre d’étudier le dossier, ce descriptif doit impérativement être rempli avec soin, indépendamment des autres documents fournis.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Effets attendus en terme de conditions de travail (10 lignes  maximum)",
+        "description": "Pour nous permettre d’étudier le dossier, ce descriptif doit impérativement être rempli avec soin, indépendamment des autres documents fournis.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Résumé du projet (10 lignes maximum)",
+        "description": "Rappel des finalités, quelques éléments de méthode, résultats et livrables envisagés, enjeux pour le porteur.\r\n\r\nPour nous permettre d’étudier le dossier, ce descriptif doit impérativement être rempli avec soin, indépendamment des autres documents fournis.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Formulaire d'attestation sur l'honneur",
+        "description": "Récupérer le formulaire vierge pour mon dossier : https://www.anact.fr/file/7307/download?token=pu_QmxXw",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Proposition du consultant : méthodologie, devis et CV",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB sur lequel sera versée la subvention",
+        "description": "Relevé d'Identité Bancaire (RIB) sur lequel sera versée la subvention. Le  RIB doit porter une adresse correspondant à celle du SIRET.",
+        "required": true
+      }
+    ]
+  }
+}

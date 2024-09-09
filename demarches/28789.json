@@ -1,0 +1,700 @@
+{
+  "number": 28789,
+  "title": "Dépôt de dossier de mariage",
+  "description": "Formulaire permettant de recueillir les pièces justificatifs à l'élaboration d'un dossier de mariage.\r\nDemande effectuée en préalable à l'obtention d'un rendez-vous à la mairie de Lingolsheim.\r\n\r\nConditions relatives aux époux (ses)\r\n Chacun des futurs époux doit : \r\n• avoir au moins 18 ans. \r\n• n'avoir aucun lien de proche parenté ou d'alliance avec le futur conjoint (dans certains cas, une dispense peut être accordée par le Président de la République), \r\n• et ne pas être déjà marié (que ce soit en France ou à l'étranger).\r\n\r\nAttention : Le jour du rendez-vous en mairie, la présence des deux futur(e)s époux(ses) est obligatoire.",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2020-06-03T15:16:48+02:00",
+  "service": {
+    "nom": "Pôle services aux usagers",
+    "organisme": "Mairie de Lingolsheim",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/lingolsheim-depot-de-dossier-de-mariage",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.lingolsheim.fr/demarches-en-ligne",
+  "cadreJuridiqueUrl": "https://www.service-public.fr/particuliers/vosdroits/N142",
+  "logo": {
+    "filename": "LOGO LINGO V3.jpg",
+    "checksum": "8g3z67u9gCmTtTqysOKU1w==",
+    "byteSize": "575931",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 1,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "Date et heure",
+        "description": "Merci d'indiquer la date et l'heure souhaitées pour la cérémonie en mairie.\nLa confirmation sera effectuée le jour du rendez-vous en mairie. ",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'invités",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Remise des alliances",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identités des futurs époux-ses",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Futur-e époux-se 1",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénoms",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PaysChampDescriptor",
+            "label": "Pays de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nationalité",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse du domicile",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Téléphone",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Email",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Profession",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Situation matrimoniale",
+            "description": null,
+            "required": true,
+            "options": [
+              "Célibataire",
+              "Veuf(ve)",
+              "PACSé(e)",
+              "Divorcé(e)"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie du titre d'identité",
+            "description": "L'original est à présenter obligatoirement en mairie le jour du rendez-vous.",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Justificatif de domicile de moins de 3 mois",
+            "description": "L'original est à présenter obligatoirement en mairie le jour du rendez-vous. Justificatif accepté : facture d'eau, de gaz, d'électricité ou de téléphone (fixe uniquement) OU avis d'imposition OU quittance d'assurance du logement OU quittance de loyer d'un organisme ou titre de propriété.",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Acte de naissance (copie intégrale ou extrait avec filiation)",
+            "description": "L'original est à présenter obligatoirement en mairie le jour du rendez-vous. \nDélivré gratuitement par la mairie du lieu de naissance.\n•Si le service qui délivre l'acte est français, il doit être de 3 mois maximum ,\nhttps://www.service-public.fr/particuliers/vosdroits/N359\n\n•Si le service qui délivre l'acte est étranger, il doit être de 6 mois maximum et traduit en français pas un traducteur assermenté.. \n\nLES DOCUMENTS PROVENANT D’UN PAYS ÉTRANGER PEUVENT ETRE SOUMIS A : Apostille (par le pays d’origine) ou Légalisation (par le consulat). \n",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Acte de naissance traduit en français",
+            "description": "Si l'acte de naissance fourni est étranger, il doit être traduit par un traducteur assermenté.",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Acte de décès",
+            "description": "En cas de veuvage, merci d'apporter l'acte de décès original du/de la dernier(ère) conjoint(e) en mairie le jour du rendez-vous.",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "En cas de remariage",
+            "description": "Un acte de mariage portant la mention du divorce ou le jugement de divorce avec certificat de non-appel et signification d’huissier à apporter le jour du rendez-vous en mairie.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Parent 1",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Prénoms",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Profession",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Domicile",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "décédé/décédée",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Parent 2",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Profession",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Domicile",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Décédé/Décédée",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Futur-e époux-se 2",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénoms",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Commune de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Pays de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nationalité",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse du domicile",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Téléphone",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Email",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Profession",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Situation matrimoniale",
+            "description": null,
+            "required": true,
+            "options": [
+              "Célibataire",
+              "Veuf(ve)",
+              "PACSé(e)",
+              "Divorcé(e)"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie du titre d'identité",
+            "description": "L'original est à présenter obligatoirement en mairie le jour du rendez-vous.",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Justificatif de domicile de moins de 3 mois",
+            "description": "L'original est à présenter obligatoirement en mairie le jour du rendez-vous. Justificatif accepté : facture d'eau, de gaz, d'électricité ou de téléphone (fixe uniquement) OU avis d'imposition OU quittance d'assurance du logement OU quittance de loyer d'un organisme ou titre de propriété.",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Acte de naissance (copie intégrale ou extrait avec filiation)",
+            "description": "L'original est à présenter obligatoirement en mairie le jour du rendez-vous. \nDélivré gratuitement par la mairie du lieu de naissance.\n•Si le service qui délivre l'acte est français, il doit être de 3 mois maximum ,\nhttps://www.service-public.fr/particuliers/vosdroits/N359\n\n•Si le service qui délivre l'acte est étranger, il doit être de 6 mois maximum et traduit en français pas un traducteur assermenté.. \n\nLES DOCUMENTS PROVENANT D’UN PAYS ÉTRANGER PEUVENT ETRE SOUMIS A : Apostille (par le pays d’origine) ou Légalisation (par le consulat). \n",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Acte de naissance traduit en français",
+            "description": "Si l'acte de naissance fourni est étranger, il doit être traduit par un traducteur assermenté.",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "En cas de remariage",
+            "description": "Un acte de mariage portant la mention du divorce ou le jugement de divorce avec certificat de non-appel et signification d’huissier Un acte de mariage portant la mention du divorce ou le jugement de divorce avec certificat de non-appel et signification d’huissier à apporter le jour du rendez-vous en mairie.",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Acte de décès",
+            "description": "En cas de veuvage, le jour du rendez-vous en mairie, merci d'apporter l'acte de décès original du/de la dernier(ère) conjoint(e).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Parent 1",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénoms",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Profession",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Domicile",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Décédé/décédée",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Parent 2",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénoms",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Professsion",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse domicile",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Décédé/décédée",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Domicile conjugal",
+        "description": null,
+        "required": true,
+        "options": [
+          "Domicile Futur-e époux-se 1",
+          "Domicile Futur-e époux-se 2"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Contrat de mariage",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Contrat de mariage",
+        "description": "Si les futurs époux ont opté pour un régime matrimonial contractuel, un certificat de notaire est nécessaire. Le contrat a été passé devant notaire.\nLe jour du rendez-vous en mairie les époux doivent présenter le certificat original en attestant.\nLe contrat devra être apporté au plus tard 8 jours avant la célébration.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Témoins",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Témoin n°1",
+        "description": "Le nombre de témoins est au minimum de 1 et au maximum de 2 pour chaque époux.\nLes témoins doivent obligatoirement être majeurs.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom et prénoms",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Lieu de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Profession",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Domicile",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie du titre d'identité",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Témoin n°2",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom et prénoms",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Lieu de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Profession",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Domicile",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie du titre d'identité",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Témoin n°3",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom et prénoms",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Lieu de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Profession",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Domicile",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie du titre d'identité",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Témoin n°4",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom et prénoms",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Lieu de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Profession",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Domicile",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie du titre d'identité",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces supplémentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces supplémentaires",
+        "description": "Suivant les cas, d'autres pièces peuvent être demandées :",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Certificat de coutume de moins de 6 mois",
+            "description": "Le certificat de coutume recense le rappel des dispositions de la loi étrangère relatives au mariage, applicable à l'époux ou aux époux étrangers (conditions d'âge légal, rappel des empêchements à mariage, publication des bans, rappel du régime matrimonial…).\n\nIl indique également les documents de l'état civil prévus par la loi étrangère. Cette indication permet à l'officier de l'état civil de vérifier la capacité matrimoniale.\n\nLe certificat de coutume doit être demandé par les futurs époux étrangers aux autorités consulaires, à un avocat ou un notaire, en précisant le motif de leur demande : leur mariage devant un officier de l’état civil français.",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Certificat de célibat de moins de 6 mois",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie livret de famille",
+            "description": "Si les futurs époux ont eu des enfants avant le mariage, le livret de famille sera mis à jour avec l'acte de mariage.",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autre",
+            "description": "Tout autre document que vous jugez utile de transmettre pour la bonne instruction de votre dossier.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Suite de votre démarche",
+        "description": "Une fois votre dossier instruit, un agent du service population  vous contactera pour vous proposer un rendez-vous en Mairie afin de valide votre dossier.",
+        "required": false
+      }
+    ]
+  }
+}

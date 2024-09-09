@@ -1,0 +1,88 @@
+{
+  "number": 60230,
+  "title": "Déposer vos documents",
+  "description": "Vous avez des pièces à nous transmettre, mais le formulaire adapté n'est pas disponible sur votre compte Ameli ? Nous avons une application dédiée au dépôt de fichiers. L'application Déclic permet d'envoyer directement vos fichiers numérisés à la CPAM des Pyrénées-Orientales",
+  "tags": [
+    "Sécurité sociale"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-05-30T09:15:32+02:00",
+  "service": {
+    "nom": "Caisse Primaire d'Assurance Maladie des Pyrénées-Orientales",
+    "organisme": "CPAM",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/deposer-vos-documents-2",
+  "dpoUrl": "dpo.cpam-pyrenees-orientales@assurance-maladie.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "declic.cpam66.fr",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/",
+  "logo": {
+    "filename": "Logo_AM_Des_PO.png",
+    "checksum": "NwzN0VyY1NENkmzU+ejkiw==",
+    "byteSize": "19704",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 25873,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre formulaire de dépôt",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "La CPAM des Pyrénées-Orientales vous offre dorénavant la possibilité d'adresser vos documents, nécessaires à l'instruction de votre dossier (merci de conserver les documents originaux), en complétant le formulaire suivant.",
+        "description": "En cas de questions et/ou demandes de renseignement, nous vous invitons à vous connecter sur votre compte Ameli ou à contacter le 3646.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de sécurité sociale",
+        "description": "Saisir les 15 chiffres sans espace",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre demande concerne",
+        "description": null,
+        "required": true,
+        "options": [
+          "Paiement d'indemnités journalières maladie, maternité, congés paternité, adoption",
+          "Paiement d'indemnités journalières accident du travail/maladie professionnelle",
+          "Mise à jour de vos coordonnées bancaires uniquement si impossible à faire par votre compte Ameli",
+          "Ouverture de droits, mutation",
+          "Demande de rattachement d'un enfant",
+          "Complémentaire Santé Solidaire"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "De quelle Caisse Primaire d'Assurance Maladie dépendez-vous",
+        "description": "Indiquez le département de votre Caisse d'Assurance Maladie",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Vos pièces à fournir",
+        "description": "Plusieurs pièces à déposer, vous pouvez faire \"+ Ajouter un élément pour......\"",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déposer ici vos pièces",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

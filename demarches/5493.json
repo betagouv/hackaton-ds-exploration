@@ -1,0 +1,489 @@
+{
+  "number": 5493,
+  "title": "Allocation Personnalisée d'Autonomie",
+  "description": "Demande d'aide pour une personne âgée de 60 ans et plus",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2020-08-13T17:03:11+02:00",
+  "service": {
+    "nom": "Service Aide Sociale Générale - TEH",
+    "organisme": "Conseil Départemental de l'Aude",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/allocation-personnalisee-d",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.aude.fr",
+  "cadreJuridiqueUrl": "http://www.aude.fr/include/viewFile.php?idtf=3134&path=51%2F3134_558_Notice-d-information-APA-mai-2015.pdf",
+  "logo": {
+    "filename": "procedure-905d4d3e-6b9a-4ebb-9dac-467c60b322ae.png",
+    "checksum": "izR2fwfJRhsHOe3teyftSw==",
+    "byteSize": "8925",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de demande",
+        "description": "Première ou renouvellement",
+        "required": true,
+        "options": [
+          "Première demande",
+          "Renouvellement"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d'accueil",
+        "description": "à domicile, en etablissement ou accueil ",
+        "required": true,
+        "options": [
+          "à domicile",
+          "en établissement",
+          "accueil chez un particulier agréé"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RENSEIGNEMENTS CONCERNANT LA PERSONNE ÂGÉE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom (Marital)",
+        "description": "le nom de la personne âgée concernée",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "le prénom de la personne âgée concernée",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "l'adresse de la personne âgée concernée, en precisant le code postal et la ville",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Coordonnées de la personne à contacter pour la visite du référent APA à domicile ou en cas d'urgence",
+        "description": "A confirmer les infos nécessaire et la caractère obligatoire",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lien avec le demandeur",
+        "description": "A confirmer les infos nécessaire et la caractère obligatoire",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "N° de téléphone",
+        "description": "A confirmer les infos nécessaire et la caractère obligatoire",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mentionner le cas échéant l’existence d’une mesure de protection juridique",
+        "description": "Ne rien mentionner si non applicable",
+        "required": false,
+        "options": [
+          "Tutelle",
+          "Curatelle",
+          "Sauvegarde de justice"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom et adresse du tuteur ou de l’association chargé de la mesure",
+        "description": "A revoir eventuellement",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de jeune fille",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu de naissance",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Nationalité",
+        "description": "Ok? Il faut juste retouver si Union Européene ou non? ",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "N° de sécurité sociale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Caisse d’affiliation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation de famille",
+        "description": "",
+        "required": false,
+        "options": [
+          "célibataire",
+          "marié(e)",
+          "divorcé(e)",
+          "séparé(e)",
+          "veuf (ve)",
+          "concubin(e)",
+          "Pacs"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Régimes de retraite Principal (préciser)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Régimes de retraite Autres (préciser)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "type du lieu où vit la personne âgée",
+        "description": "",
+        "required": false,
+        "options": [
+          "à domicile",
+          "en établissement",
+          "accueil chez un particulier"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Adresse actuelle du lieu où vit la personne âgée",
+        "description": "Adresse du domicile ou\r\nNom et adresse de l’établissement \r\nou\r\nNom et adresse de l’accueillant",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Réside à cette adresse depuis le  / Date d'entrée",
+        "description": "si à domicile: Réside à cette adresse depuis le \r\nsi en établissement ou chez un particulier: Date d’entrée",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresses précédentes  avant l’entrée en établissement ou en famille d’accueil",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RENSEIGNEMENTS CONCERNANT LE CONJOINT, LE CONCUBIN, LE PACSÉ",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom (marital)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de jeune fille",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu de naissance",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Pays de nationalité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation professionnelle",
+        "description": "",
+        "required": false,
+        "options": [
+          "en activité",
+          "retraité"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si retraité: Caisse Principale",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d'adresse actuelle",
+        "description": "",
+        "required": false,
+        "options": [
+          "à domicile",
+          "en établissement",
+          "en famille d’accueil"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse, si différente de la personne âgée",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RENSEIGNEMENTS CONCERNANT LES REVENUS ET LE PATRIMOINE DE LA PERSONNE ÂGÉE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quelle allocations percevez-vous?",
+        "description": "Plusieurs choix possible => A confirmer si acceptable",
+        "required": false,
+        "options": [
+          "La majoration pour aide constante d’une tierce personne (MTP)",
+          "La prestation complémentaire pour recours à tierce personne (PCRTP)",
+          "L’allocation compensatrice pour tierce personne (ACTP)",
+          "La prestation de compensation du handicap (PCH)",
+          "L’aide-ménagère versée par les caisses de retraite",
+          "L’aide-ménagère au titre de l’aide sociale départementale"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Patrimoine dormant en Biens immobiliers (préciser la nature de ceux-ci et leur adresse)",
+        "description": "à renseigner pour la personne âgée et, le cas échéant, son conjoint, son concubin ou la personne avec laquelle elle a conclu un pacte civil de solidarité ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Patrimoine dormant en Biens mobiliers et capitaux non placés (dont assurance-vie)",
+        "description": "à renseigner pour la personne âgée et, le cas échéant, son conjoint, son concubin ou la personne avec laquelle elle a conclu un pacte civil de solidarité ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DEMANDE SIMPLIFIEE D’UNE CARTE MOBILITE INCLUSION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si l’allocation personnalisée d’autonomie vous est accordée au titre du GIR 1 ou 2, vous pouvez bénéficier sans autre condition et à titre définitif de la carte mobilité inclusion (CMI) prévue à l’art.L.241-3 du code de l’action sociale et des familles comportant les mentions “invalidité ” et “stationnement pour personnes handicapées ”",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous bénéficier de la carte de mobilité inclusion comportant la mention “ invalidité ” prévue à l’article L.241.3",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous bénéficier de la carte mobilité inclusion comportant la mention “ stationnement pour personnes handicapées ” prévue de l’article L.241-3",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dans le département de l’Aude, la carte mobilité inclusion comportant les mentions “priorité ” et “stationnement »pour personnes handicapées ” peut être délivrée sur appréciation de l’équipe médicosociale, en application du III de l’article L.241-3 si l’allocation personnalisée d’autonomie vous est accordée au titre du GIR 3 ou 4,",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous bénéficier de la carte mobilité inclusion comportant la mention “ priorité ” prévue à l’article L.241-3",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous bénéficier de la carte mobilité inclusion comportant la mention “ stationnement pour personnes handicapées ” prévue à l’article L.241-3",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RENSEIGNEMENTS CONCERNANT LE PROCHE AIDANT (facultatif)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le proche aidant vient en aide à la personne âgée de manière régulière et fréquente, à titre non professionnel, pour accomplir tout ou partie des actes ou des activités de la vie quotidienne.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM - Prénom",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu de résidence",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nature du lien (parenté, voisinage…)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nature de l’aide apportée (ménage, courses…)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Durée, périodicité approximative",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ENGAGEMENT SUR L’EXACTITUDE DES INFORMATIONS COMMUNIQUÉES ET PIECES JUSTIFICATIVES À FOURNIR IMPÉRATIVEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "A)\tDECLARE avoir joint à cette demande les pièces ci-dessous :  Pour une demande d’APA à domicile : le certificat médical circonstancié établi par le médecin traitant et placé sous pli cacheté mentionnant votre nom et votre adresse (imprimé ci-joint) ;   Pour une demande d’APA en établissement : le bulletin d’entrée dans l’établissement, la grille AGGIR établie par l’établissement. Pour un établissement extérieur au département de l’Aude, une copie de l’arrêté fixant  le prix de journée dépendance de l’établissement où réside le demandeur ; et dans tous les cas :  La photocopie d’un justificatif d’identité (livret de famille ou carte nationale d’identité) ou pour les  ressortissants hors union européenne, de la carte de résidence ou du titre de séjour en cours de validité ;   La photocopie du dernier avis d’imposition ou de non-imposition sur le revenu et, le cas échéant, celui du conjoint, du concubin ou de la personne avec laquelle a été conclu un pacte civil de solidarité ;  La photocopie de la dernière déclaration des revenus et, le cas échéant, celle du conjoint, du concubin ou de la personne avec laquelle a été conclu un pacte civil de solidarité ;  Toute pièce justificative des biens ou capitaux relevant du patrimoine dormant : o photocopie du dernier relevé des taxes foncières sur les propriétés bâties et sur les propriétés non bâties et, le cas échéant, celui du conjoint, du concubin ou de la personne avec laquelle a été conclu un pacte civil de solidarité ; o dernier relevé de situation des contrats d’assurance-vie mentionnant, le cas échéant, le montant des intérêts produits ;   La copie des relevés bancaires du compte courant des 3 derniers mois ;  Le relevé de situation de tous les comptes bancaires ;  Un relevé d’identité bancaire ou postal.  B)\tM’ENGAGE à signaler toute modification dans ma situation ;  C)\tAUTORISE le Département de l’Aude à transmettre mon dossier aux caisses de retraite et au CLIC de mon territoire en cas de rejet de ma demande d’allocation personnalisée d’autonomie  oui\t non  D)\tCERTIFIE sur l’honneur l’exactitude des renseignements figurant dans ce dossier de demande d’allocation personnalisée d’autonomie (Le fait de percevoir ou de tenter de percevoir frauduleusement des prestations au titre de l’aide sociale pourra être sanctionné sur la base des articles 313-1, 441-1, 441-6 et 441-7 du code pénal.)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "C)\tAUTORISE le Département de l’Aude à transmettre mon dossier aux caisses de retraite et au CLIC de mon territoire en cas de rejet de ma demande d’allocation personnalisée d’autonomie",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "certificat médical circonstancié établi par le médecin traitant et placé sous pli cacheté mentionnant votre nom et votre adresse (imprimé ci-apres)",
+        "description": "Si APA Domicile\nRécupérer le formulaire vierge pour mon dossier : http://www.aude.fr/include/viewFile.php?idtf=8264&path=6f%2F8264_091_Certificat-medical-APA-CMI.pdf",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "bulletin d’entrée dans l’établissement, la grille AGGIR établie par l’établissement. Pour un établissement extérieur au département de l’Aude, une copie de l’arrêté fixant  le prix de journée dépendance de l’établissement où réside le demandeur",
+        "description": "Si APA Etablissement",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "photocopie d’un justificatif d’identité (livret de famille ou carte nationale d’identité) ou pour les  ressortissants hors union européenne, de la carte de résidence ou du titre de séjour en cours de validité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "photocopie du dernier avis d’imposition ou de non-imposition sur le revenu et, le cas échéant, celui du conjoint, du concubin ou de la personne avec laquelle a été conclu un pacte civil de solidarité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "photocopie de la dernière déclaration des revenus et, le cas échéant, celle du conjoint, du concubin ou de la personne avec laquelle a été conclu un pacte civil de solidarité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Toute pièce justificative des biens ou capitaux relevant du patrimoine dormant",
+        "description": "photocopie du dernier relevé des taxes foncières sur les propriétés bâties et sur les propriétés non bâties et, le cas échéant, celui du conjoint, du concubin ou de la personne avec laquelle a été conclu un pacte civil de solidarité ;\r\no dernier relevé de situation des contrats d’assurance-vie mentionnant, le cas échéant, le montant des intérêts produits ;",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "copie des relevés bancaires du compte courant des 3 derniers mois",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "relevé de situation de tous les comptes bancaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "relevé d’identité bancaire ou postal.",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,521 @@
+{
+  "number": 72837,
+  "title": "ARSIF - Enquête sur l’efficience des dépistages ciblés de la tuberculose auprès des populations cibles",
+  "description": "Objectif de l’enquête : \r\nEvaluer l’efficience des dépistages ciblés réalisés par les CLAT chez les populations à risque de tuberculose maladie ; recenser les actions hors les murs ; quantifier le temps et les ressources humaines dédiés à ces actions",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2023-07-11T16:28:54+02:00",
+  "service": {
+    "nom": "DSP",
+    "organisme": "ARS Ile-de-France",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/arsif-enquete-sur-l-efficience-des-depistages-cibles-de-la-tuberculose-aupres-des-populations-cibles",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.iledefrance.ars.sante.fr/",
+  "cadreJuridiqueUrl": " ",
+  "logo": {
+    "filename": "ars_idf.jpg",
+    "checksum": "KTH2cgaaj78nvPe9B71v1Q==",
+    "byteSize": "42110",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "cadre_juridique_tuberculose.docx",
+    "checksum": "NIVVvxxiX4kbuIAYPBpcXw==",
+    "byteSize": "12669",
+    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "dossiersCount": 10,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Définition du terme dépistage ciblé : dépistage à la recherche de tuberculose maladie et/ou ITL en dehors d’une enquête autour d’un cas",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Définition du terme d’intervention : action de dépistage hors les murs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Année 2022 - Saisie à faire par type de lieu",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nom du CLAT",
+        "description": "",
+        "required": true,
+        "options": [
+          "CLAT 75",
+          "CLAT 77 GHEF",
+          "CLAT 77 GHSIF",
+          "CLAT 78",
+          "CLAT 91",
+          "CLAT 92",
+          "CLAT 93",
+          "CLAT 94",
+          "CLAT 95"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous intervenez en HUDA",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous intervenez en CADA",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous intervenez en centre provisoire d'hébergement / CHU",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous intervenez en CHRS",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous intervenez en foyer travailleurs migrants",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous intervenez en foyer de jeunes travailleurs",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous intervenez en résidence sociale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous intervenez en hôtel social",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous intervenez en campement de fortune",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous intervenez en bidonville",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous intervenez dans les  Centre d'hébergement pour MNA",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous intervenez  dans des établissements d'enseignement supérieur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous proposez des dépistages ciblés dans les locaux du CLAT",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous intervenez dans d'autres types de lieux",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Données quantitatives par intervention",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "Données quantitatives",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "type de lieu",
+            "description": "",
+            "required": true,
+            "options": [
+              "HUDA",
+              "CADA",
+              "Centre provisoire ’hébergement/ CHU",
+              "CHRS",
+              "Foyer travailleurs migrants",
+              "Foyer de jeunes travailleurs",
+              "Résidence sociale",
+              "Hôtel social",
+              "Campement de fortune",
+              "Bidonville",
+              "Centre d'hébergement pour MNA",
+              "Etablissements d’études supérieures",
+              "Autres, préciser :",
+              "Au CLAT"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de la Structure",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Connaissez vous le  Nombre de personnes à dépister sur le lieu",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de personnes à dépister sur le lieu",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Connaissez vous le nombre total de bons radios prescrits",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre total de bons radios prescrits",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de radiographies effectuées",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Connaissez vous le Nombre total de cas suspectés/diagnostiqués de tuberculose maladie",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre total de cas suspectés/diagnostiqués de tuberculose maladie",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de tests immunologiques à la recherche d’ITL",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Connaissez vous le Nombre total de tests immunologiques à la recherche d’ITL",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre total de tests immunologiques à la recherche d’ITL -",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de cas suspectés/diagnostiqués de tuberculose maladie",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Connaissez vous  le Nombre total d’ITL diagnostiquées",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre total d’ITL diagnostiquées",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre d’ITL diagnostiquées",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Connaissez vous le nombre d’heures consacrées en amont pour l’organisation du dépistage ciblé",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Nombre d’heures consacrées en amont pour l’organisation du dépistage ciblé",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Médical",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Infirmier",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Secrétariat",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Assistante sociale / médiateur en santé",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Cadre de santé/coordinatrice",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Nombre d’heures consacrées le jour du dépistage",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "- Médical",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "- Infirmier",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "- Secrétariat",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "- Assistante sociale / médiateur en santé",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "- Cadre de santé/coordinatrice",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Nombre de personnes mobilisées le jour J",
+            "description": "ATTENTION ne pas indiquer ici le nombre d’équivalent temps plein",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "a.\tMédical",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "b.\tInfirmier",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "c.\tSecrétariat",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "d.   Assistante sociale / médiateur en santé",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "e.\tCadre de santé/coordinatrice",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Connaissez vous le Nombre d’heure consacré à la gestion des dossiers médicaux en post dépistage",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "- - Médical",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "- - Infirmier",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "- - Secrétariat",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "- - Assistante sociale / médiateur en santé",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "- - Cadre de santé / coordonnatrice",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Considérez-vous que cette intervention a été plus chronophage que la moyenne",
+            "description": "",
+            "required": true,
+            "options": [
+              "Oui",
+              "Non",
+              "NSP"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Pourquoi",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Considérez-vous que cette intervention a mobilisé plus de RH que la moyenne",
+            "description": "",
+            "required": true,
+            "options": [
+              "Oui",
+              "Non",
+              "NSP"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "- Pourquoi",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Connaissez vous le  Nombre total d'heures consacrées à l'organisation des RDV (préparation dossier, prise de RDV)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Pour  Médical",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Pour Infirmier",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Pour Secrétariat",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Pour Assistante sociale / médiateur en santé",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Pour cadre de santé / IDE coordonnatrice",
+            "description": "",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

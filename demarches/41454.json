@@ -1,0 +1,283 @@
+{
+  "number": 41454,
+  "title": "Formulaire de demande du passeport Calinésien (un dossier par foyer) - Réservé aux habitants de La Cali",
+  "description": "Ce formulaire est réservé aux habitants de La Cali - Liste des communes sur www.lacali.fr\r\nUn passeport Calinésien est attribué par adulte vivant dans le foyer. Les enfants de moins de 16 ans sont inscrits sur le passeport de leurs parents. Les enfants de plus de 16 ans doivent avoir leur propre formulaire et passeport.",
+  "tags": [
+    "Collectivité"
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2021-04-01T15:23:05+02:00",
+  "service": {
+    "nom": "Centre Aquatique La Calinésie ",
+    "organisme": "Communauté d'agglomération du Libournais ",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/passeport-calinesien",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.lacali.fr/actualites-de-la-cali/la-calinesie-lancement-des-inscriptions",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": {
+    "filename": "logo-calinesie-couleur.png",
+    "checksum": "GRAR/oXwvjB2UzXaF5l++Q==",
+    "byteSize": "433751",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 80,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Situation Familiale actuelle",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Adulte 1",
+        "description": "•\tLes enfants de plus de 16 ans vivant dans le foyer doivent avoir leur propre passeport mais peuvent être ajoutés en adulte supplémentaire en sélectionnant « ajouter un adulte » ",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Né(e) le",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "E-mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Adulte supplémentaire",
+        "description": "(Si vous n'êtes pas concerné veuillez passer à la section suivante).",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Né(e) le",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "E-mail",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Rue",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code Postal",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre (vos) enfant(s) de moins de 16 ans",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Enfant(s) à charge de moins de 16 ans",
+        "description": "(Merci de sélectionner l'icône \"ajouter un enfant\" et de compléter les champs requis si vous disposez de plusieurs enfants à votre charge)",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Enfant",
+        "description": "(Si vous n'êtes pas concerné, merci de passer à la section suivante).\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom Enfant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom Enfant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Genre",
+            "description": null,
+            "required": false,
+            "options": [
+              "Féminin",
+              "Masculin"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Finalisation de votre demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Important : pièces à fournir obligatoirement pour finaliser votre demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m'engage à fournir les pièces suivantes (liste ci-dessous) :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Photo(s) d'identité",
+        "description": "(nom et prénom indiqués dans le nom de la pièce jointe) par personne (adultes et enfants) type format JPEG (idéalement au format 3X4 cm ou 85X113 pixels) ou format PDF (moins de 1 Mo)",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Photo d'identité",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Justificatif(s) de domicile",
+        "description": "Document de moins de 3 mois au nom et adresse du demandeur : facture de téléphone fixe ou mobile, eau, électricité, gaz, assurance du logement, quittance de loyer, taxe d’habitation…",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Justificatif de domicile",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Attestation(s) sur l'honneur",
+        "description": "Certifiant l’exactitude des informations et documents fournis, dument complétée et signée par le ou les demandeurs. Attestation disponible en téléchargement sur le site de La Cali ou manuscrite. ",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Justificatif de domicile",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mode de réception de votre passeport Calinésien",
+        "description": null,
+        "required": true,
+        "options": [
+          "Retrait à la permanence de la Calinésie",
+          "Envoi par courrier"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pour toute question vous pouvez contactez La Calinésie au 05 24 24 02 80 ou par e-mail à centreaquatique@lacali.fr. Un passeport Calinésien est attribué par adulte vivant dans le foyer. Les enfants de moins de 16 ans sont inscrits sur le passeport de leurs parents. Les enfants de plus de 16 ans doivent avoir leur propre formulaire et passeport. Attestation disponible en téléchargement sur le site de La Cali www.lacali.fr ou manuscrite.   Dès que votre passeport sera prêt, si vous choisissez la remise en main propre, l’équipe d’accueil prendra contact avec vous par téléphone ou par e-mail pour vous informer de sa disponibilité.  Si vous avez coché la case « Envoi par courrier », vous recevrez votre passeport à l’adresse indiquée sur votre formulaire.",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

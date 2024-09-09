@@ -1,0 +1,434 @@
+{
+  "number": 96632,
+  "title": "Déclaration des modifications intervenues au sein des entreprises agréées pour l’exercice des activités de distribution, d’application et de conseils de produits phytopharmaceutiques",
+  "description": "Si vous disposez déjà d’un numéro d’agrément pour l’exercice des activités de distribution, d’application et de conseils de produits phytopharmaceutique et que des changements sont intervenus sur votre entreprise ou l’un de vos établissements. Toute modification, suspension ou retrait de certification, rachat ou cessation d’activité susceptible de remettre en cause la délivrance de votre agrément doit être notifiée dans un délai de trente jours au Préfet de région (DRAAF SRAL) du siège social de votre entreprise.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2024-06-07T17:17:33+02:00",
+  "service": {
+    "nom": "Direction générale de l'alimentation ",
+    "organisme": "Ministère de l'agriculture et de la souveraineté alimentaire ",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/declaration-des-modifications-intervenues-au-sein-",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://agriculture.gouv.fr/agrement-des-entreprises-pour-la-vente-lapplication-et-le-conseil-de-produits-phytopharmaceutiques",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/id/LEGIARTI000038413564/2021-01-01/; https://www.legifrance.gouv.fr/codes/id/LEGIARTI000042436805/2021-01-01/",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 22,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'entreprise demandeur AVANT modification",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° agrément",
+        "description": "C'est le numéro de l'agrément qui vous a été fourni par le Service régional de l’alimentation de la Direction Régionale de l'Alimentation, de l'Agriculture et de la Forêt. ",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro SIRET du titulaire de l'agrément",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département du siège social de l'entreprise",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande de modification de votre agrément",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Quelles sont les informations à transmettre ?",
+        "description": "Vous pouvez transmettre ici l'ensemble des informations actualisées relatives à votre entreprise. Il n'est pas nécessaire de rappeler les informations antérieures dans cette partie. ",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "La ou les modification(s) que vous souhaitez portent sur :",
+        "description": "",
+        "required": true,
+        "options": [
+          "L'entreprise titulaire de l'agrément",
+          "Les établissements agréés"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Sur quoi portent les modifications concernant le titulaire de l'agrément ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Données d'identification de l'entreprise (adresse, contact, forme juridique, dénomination)",
+          "Cessation de l'activité",
+          "Modification du numéro SIREN",
+          "Exercice d'une nouvelle activité soumise à agrément",
+          "Changement d'organisme certificateur (vous avez transféré votre certification vers un autre organisme certificateur"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de votre nouvel organisme certificateur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Nouvelle activité soumise à agrément",
+        "description": "",
+        "required": true,
+        "options": [
+          "Distribution de produits phytopharmaceutiques à des utilisateurs professionnels",
+          "Distribution de produits phytopharmaceutiques à des utilisateurs non professionnels",
+          "Applicateur en prestation de service de produits phytopharmaceutiques",
+          "Conseils à l’utilisation de produits phytopharmaceutiques"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Précision sur l'activité de distribution : s'agit-il de ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "Vente en ligne",
+          "Micro-distribution"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous avoir le périmètre \"Indépendance élargie\" pour les activités de conseils ?",
+        "description": "Lorsque vous réalisez les démarches pour obtenir votre avis favorable, vous pouvez faire le choix du périmètre \"Indépendance élargie\" correspondant à la vérification des exigences C15 et C16 du référentiel de certification \"Conseils à l'utilisation des produits phytopharmaceutiques\". Ces deux exigences correspondent à une démarche d'indépendance plus poussée. Si vous ne savez pas si vous avez validé ce périmètre, vous pouvez consulter votre avis favorable où cela est indiqué ou contacter votre organisme certificateur.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Une modification du numéro SIREN correspond à une fermeture de votre entreprise pour créer une nouvelle entreprise. Par conséquent, vous ne pouvez pas conserver votre numéro d'agrément. Demandez-vous un retrait de votre agrément pour le numéro SIREN fermé ou que vous allez fermer ?",
+        "description": "Si vous choisissez de cocher la case, il sera considéré que vous souhaitez la fermeture de votre agrément actuel pour ré-ouvrir un nouvel agrément via votre nouveau numéro SIREN. S'il s'agit bien de la démarche que vous souhaitez effectuer, après avoir complété cette démarche, veuillez vous référer à la démarche suivante pour débuter l'activité sous votre nouveau numéro SIREN : https://www.demarches-simplifiees.fr/commencer/52aeb51d-717a-4619-93f5-84f2349068ec",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Raison de la cessation de l'activité soumise à agrément",
+        "description": "Vous devez également informer votre organisme certificateur de la cessation de votre activité soumise à agrément.",
+        "required": true,
+        "options": [
+          "Non renouvellement de la certification d'entreprise",
+          "Départ à la retraite",
+          "Cessation totale de l'entreprise",
+          "Décès"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Nature du changement des données d'identification de l'entreprise",
+        "description": "",
+        "required": true,
+        "options": [
+          "Nouvelle adresse de l'entreprise",
+          "Personne à contacter dans l'entreprise",
+          "Forme juridique de l'entreprise",
+          "Changement de dénomination de l'entreprise"
+        ]
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Nouvelle adresse du titulaire de l'agrément",
+        "description": "Avant de réaliser la démarche, veuillez prendre contact avec votre organisme certificateur pour mettre à jour votre certification d'entreprise.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom de la personne à contacter",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone de la personne à contacter au sein de l'entreprise",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique de la personne contact au sein de l'entreprise",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nouvelle forme juridique de l'entreprise",
+        "description": "Avant de réaliser la démarche, veuillez prendre contact avec votre organisme certificateur pour mettre à jour votre certification d'entreprise.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nouvelle dénomination de l'entreprise",
+        "description": "Avant de réaliser la démarche, veuillez prendre contact avec votre organisme certificateur pour mettre à jour votre certification d'entreprise.",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Au niveau des établissements, les modifications portent sur :",
+        "description": "Un ajout d'activité correspond à une situation où un établissement déjà agréé exerce une nouvelle activité soumise à agrément. \r\nUn ajout de site correspond à une situation où vous souhaitez obtenir l'agrément pour site non agréé.",
+        "required": false,
+        "options": [
+          "Des ajouts de site",
+          "Des suppressions de site",
+          "Des ajouts d'activité pour un site déjà agréé",
+          "Des suppressions d'activité pour un site déjà agréé",
+          "Des changements de numéro SIRET d'établissements",
+          "Des données d'identification des établissements (hors SIRET)"
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Nouveau(x) établissement(s)",
+        "description": "Dans ce bloc, vous pouvez ajouter autant de nouveaux établissements que nécessaire. ",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "SiretChampDescriptor",
+            "label": "Numéro SIRET de l'établissement concerné",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Libellé de l'établissement",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Activité soumise à agrément de l'établissement",
+            "description": "",
+            "required": true,
+            "options": [
+              "Distribution de produits phytopharmaceutiques à des utilisateurs professionnels",
+              "Distribution de produits phytopharmaceutiques à des utilisateurs non professionnels",
+              "Application en prestation de service de produits phytopharmaceutiques",
+              "Conseils à l'utilisation des produits phytopharmaceutiques"
+            ]
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Précision sur le périmètre pour l'application en prestation de service",
+            "description": "",
+            "required": true,
+            "options": [
+              "Traitement de semences en unité mobile",
+              "Traitements de semence en unité fixe",
+              "Hors traitement de semences"
+            ]
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Précision sur le périmètre pour le conseil à l'utilisation de produits phytopharmaceutiques",
+            "description": "",
+            "required": true,
+            "options": [
+              "Conseil stratégique",
+              "Conseil spécifique"
+            ]
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Suppression de sites",
+        "description": "Indiquer ici quels sont les établissements n'exerçant plus l'activité soumise à agrément. ",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "SiretChampDescriptor",
+            "label": "SIRET de l'établissement",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Ajouts d'activité pour un site déjà agréé",
+        "description": "Pour les établissements faisant déjà partis du périmètre de l'agrément, veuillez indiquer la nouvelle activité exercée. ",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "SiretChampDescriptor",
+            "label": "Numéro SIRET de l'établissement concerné",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Nouvelle(s) activité(s) sollicitée(s)",
+            "description": "",
+            "required": true,
+            "options": [
+              "Distribution de produits phytopharmaceutiques à des utilisateurs professionnels",
+              "Distribution de produits phytopharmaceutiques à des utilisateurs non professionnels",
+              "Application en prestation de service de produits phytopharmaceutiques",
+              "Conseils à l'utilisation des produits phytopharmaceutiques"
+            ]
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Précision sur le périmètre pour l'application en prestation de service",
+            "description": "",
+            "required": true,
+            "options": [
+              "Traitement de semences en unité mobile",
+              "Traitements de semence en unité fixe",
+              "Hors traitement de semences"
+            ]
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Précision sur le périmètre pour le conseil à l'utilisation de produits phytopharmaceutiques",
+            "description": "",
+            "required": true,
+            "options": [
+              "Conseil stratégique",
+              "Conseil spécifique"
+            ]
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Arrêt d'activités soumises à agrément pour des établissements",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "SiretChampDescriptor",
+            "label": "Numéro SIRET du site concerné",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Activité(s) soumise à agrément arrêtée(s)",
+            "description": "",
+            "required": true,
+            "options": [
+              "Distribution de produits phytopharmaceutiques à des utilisateurs professionnels",
+              "Distribution de produits phytopharmaceutiques à des utilisateurs non professionnels",
+              "Application en prestation de service de produits phytopharmaceutiques",
+              "Conseils à l'utilisation des produits phytopharmaceutiques"
+            ]
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Précision sur le périmètre pour l'application en prestation de service",
+            "description": "",
+            "required": false,
+            "options": [
+              "Traitement de semences en unité mobile",
+              "Traitements de semence en unité fixe",
+              "Hors traitement de semences"
+            ]
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Précision sur le périmètre pour le conseil à l'utilisation des produits phytopharmaceutiques",
+            "description": "",
+            "required": true,
+            "options": [
+              "Conseil stratégique",
+              "Conseil spécifique"
+            ]
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Changements de numéro SIRET d'établissements",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Ancien numéro SIRET",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "SiretChampDescriptor",
+            "label": "Nouveau numéro SIRET",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Données d'identification des établissements (hors SIRET)",
+        "description": "Ce champ vise à renseigner les changements d'adresse de vos établissements n'ayant pas engendré de changement de numéro SIRET (par exemple, ajout d'un numéro de rue pour un lieu-dit).\r\nVous pouvez répéter cette opération autant que nécessaire.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "SiretChampDescriptor",
+            "label": "Numéro SIRET de l'établissement concerné",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Nouvelle adresse de l'établissement",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Documents à fournir",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certification d'entreprise mise à jour",
+        "description": "Vous devez obligatoirement transmettre une certification d'entreprise à jour si la modification que vous souhaitez communiquer porte sur un changement d'organisme certificateur, l'ajout d'une nouvelle activité et/ou d'un nouveau site ou un changement de numéro SIRET. \r\n\r\nSi vous arrêtez votre activité, vous n'avez pas à mettre à fournir de documents relatifs à l'arrêt de votre certification.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre pièce justificative que vous souhaitez transmettre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Engagement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste sur l’honneur l’exactitude des renseignements portés sur ces documents",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

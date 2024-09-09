@@ -1,0 +1,598 @@
+{
+  "number": 10460,
+  "title": "FORMULAIRE - Déclaration d'Intention de Travaux",
+  "description": "Ce formulaire doit être rempli afin d'avertir l'administration d'une intention de mener des opérations sur des écoulements afin qu'elle puisse déterminer les démarches réglementaires à mettre en œuvre.",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2019-07-23T10:57:23+02:00",
+  "service": {
+    "nom": "Service Eau, Environnement et Forêt",
+    "organisme": "Direction Départementale des Territoires du Loiret",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/formulaire-declaration-d-intention-de-travaux",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.loiret.gouv.fr/Politiques-publiques/Environnement-eau-foret-chasse-peche/Eau/Projets-soumis-a-la-loi-sur-l-eau/Impacts-sur-le-milieu-aquatique-ou-sur-la-securite-publique/Cours-d-eau/Entretien-et-restauration-de-cours-d-eau",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000025800815&cidTexte=LEGITEXT000006074220",
+  "logo": {
+    "filename": "procedure-e432f3f3-ae3a-4a93-8fe6-c7bf9bbf6498.jpg",
+    "checksum": "vYxZFEQAeudrr9LbLy67Qw==",
+    "byteSize": "53071",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 5,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations générales",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Intitule_Operation",
+        "description": "Intitulé de l'Opération",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demandeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Denomination",
+        "description": "NOM Prénom / Raison Sociale",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Adresse postale",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "N° de Téléphone",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Fax",
+        "description": "N° Fax",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Mail",
+        "description": "Adresse électronique",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Maître d'Oeuvre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Denomination",
+        "description": "NOM Prénom / Raison sociale",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Representant",
+        "description": "Représentant du maître d'oeuvre",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Adresse postale",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Telephone",
+        "description": "N° de Téléphone",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Fax",
+        "description": "N° de Fax",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": "Adresse électronique",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Lieu des Travaux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Localisation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Commune",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu(x)-dit(s)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Parcelle(s)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Cours d'eau",
+        "description": "Indiquer le nom du cours d'eau qui figure sur la carte IGN. En l'absence de nom, préciser \"appellation locale\".",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Affluent",
+        "description": "Indiquer dans quel cours d'eau se jette le cours d'eau concerné par les travaux",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Propriété",
+        "description": "Le demandeur est-il propriétaire des terrains concernés pas l'opération ?",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Precision",
+        "description": "Si le demandeur n'est pas propriétaire, préciser son statut",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Accord",
+        "description": "Le propriétaire est-il d'accord avec l'opération ?",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Objectif",
+        "description": "Objectif de l'opération envisagée",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date",
+        "description": "Date de commencement de l'opération",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Durée",
+        "description": "Durée de l'opération",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description du milieu : état initial avant travaux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Ecoulement",
+        "description": "Mode d'écoulement",
+        "required": true,
+        "options": [
+          "Temporaire",
+          "Permanent"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Largeur_Lit",
+        "description": "Largeur du lit mineur (en m)",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Largeur_PB",
+        "description": "Largeur au sommet des berges (en m)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Vegetation_RD",
+        "description": "Nature de la végétation en rive droite : plantations, arborée, enherbée, etc. et les linéaires concernés",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Vegetation_RG",
+        "description": "Nature de la végétation en rive gauche : plantations, arborée, enherbée, etc. et les linéaires concernés",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Artificielle_RD",
+        "description": "Nature des aménagements en rive droite : enrochements, palplanches, murs, etc. et les linéaires concernés",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Artificielle_RG",
+        "description": "Nature des aménagements en rive droite : enrochements, palplanches, murs, etc. et les linéaires concernés",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Lit_Apparent",
+        "description": "Nature du lit apparent à l'emplacement des travaux (matériaux les plus représentés)",
+        "required": true,
+        "options": [
+          "Blocs, pierres (+ 5 cm)",
+          "Cailloux, graviers (2 mm à 5 cm)",
+          "Sables (- 2mm)",
+          "Limon, terre",
+          "Vase (odeur de putréfaction)"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Lit_profond",
+        "description": "Nature du lit à 20 cm de profondeur à l'emplacement des travaux (matériaux les plus représentés)",
+        "required": false,
+        "options": [
+          "Blocs, pierres (+ 5 cm)",
+          "Cailloux, graviers (2 mm à 5 cm)",
+          "Sables (- 2mm)",
+          "Limon, terre",
+          "Vase (odeur de putréfaction)"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Ouvrages_amont",
+        "description": "Existence d'ouvrages à l'amont de la zone de travaux",
+        "required": true,
+        "options": [
+          "Seuil",
+          "Barrage",
+          "Passage à gué",
+          "Busage",
+          "Pont",
+          "Vannage",
+          "Clapet"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Ouvrage_droit",
+        "description": "Existence d'ouvrages dans la zone de travaux",
+        "required": true,
+        "options": [
+          "Seuil",
+          "Barrage",
+          "Passage à gué",
+          "Busage",
+          "Pont",
+          "Vannage",
+          "Clapet"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Ouvrage_aval",
+        "description": "Existence d'ouvrages à l'aval de la zone de travaux",
+        "required": true,
+        "options": [
+          "Seuil",
+          "Barrage",
+          "Passage à gué",
+          "Busage",
+          "Pont",
+          "Vannage",
+          "Clapet"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Ouverture",
+        "description": "Si vannage ou clapet, ouverture ou abaissement régulier (en hiver ou en crue)",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Drains",
+        "description": "Présence de drains",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Info_Compl",
+        "description": "Informations complémentaires",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description des travaux projetés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Intervention sur les embâcles ou la végétation dans le lit du cours d'eau",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Embacle_nature",
+        "description": "Nature des embâcles, de la végétation au droit de la zone d'intervention",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Materiel",
+        "description": "Matériel employé pour l'opération",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Intervention sur les sédiments ou les atterissements",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type_intervention",
+        "description": "Type d'intervention",
+        "required": false,
+        "options": [
+          "Enlèvement d'atterrissements",
+          "Déplacement ou régalage d'atterrissement",
+          "Curage",
+          "Scarification ou dé-végétalisation d'atterrissements"
+        ]
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Longueur",
+        "description": "Longueur de cours d'eau concernée (en m)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Hauteur",
+        "description": "Hauteur moyenne de sédiments à retirer",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Volume",
+        "description": "Volume de sédiments à retirer (en m3)",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface",
+        "description": "Surface concernée (en m2)",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Entretien",
+        "description": "Entretien régulier",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Entretien_date",
+        "description": "Si entretien régulier, date de la dernière intervention",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Materiel_2",
+        "description": "Matériel employé",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Destination",
+        "description": "Destination des matériau retirés (le cas échéant, localiser les parcelles destinées à recevoir les matériaux)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Info_compl_2",
+        "description": "Informations complémentaires :\r\nDétailler l'intervention (critère de déclenchement, cote basse du curage, etc.)\r\nApporter toutes précisions utiles pour décrire les travaux. Ces informations peuvent faire l'objet d'une note séparée",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Mode de réalisation des travaux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Accès à la zone de travaux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Berge",
+        "description": "Les travaux seront réalisés depuis la berge",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Engins",
+        "description": "Les travaux nécessiteront le passage d'engins dans le lit du cours d'eau",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Passage_gue",
+        "description": "Aménagement d'un passage à gué provisoire",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Passage_buse",
+        "description": "Mise en place d'un passage busé provisoire",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Piste_acces",
+        "description": "Mise en place d'une piste d'accès provisoire",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Abattage_arbre",
+        "description": "Les travaux nécessiteront l'abattage d'arbres",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Isolement de la zone de travaux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Attention !",
+        "description": "L'isolement de la zone est obligatoire.\r\nA minima, la pose de filtres destinés à retenir les matières en suspension est impératif si aucun autre dispositif n'est prévu pour protéger les écoulements à l'aval.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Hors_eau_naturel",
+        "description": "La zone de travaux sera naturellement hors d'eau lors des travaux",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Hors_eau_temporaire",
+        "description": "La zone de travaux sera temporairement mise hors d'eau",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Derivation",
+        "description": "Mise en place d'une dérivation temporaire du cours d'eau",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Batardeaux",
+        "description": "Mise en place de batardeaux",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Info_compl_3",
+        "description": "Informations complémentaires\r\nPréciser ci-après les modalités d'intervention. Ces informations peuvent faire l'objet d'une note séparée.\r\n\r\nEn cas de dérivation temporaire du cours d'eau, de mise en place de batardeau, de création d'une piste ou de passage à gué dans le lit du cours d'eau, présenter un plan schématique de la zone de chantier",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Certificat",
+        "description": "Je certifie sur l'honneur que les informations mentionnés dans le présent document sont exactes.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Engagement",
+        "description": "Je m'engage à respecter intégralement les éléments présentés ci-dessus. J'ai bien noté que le service de police de l'eau pourra demander tout élément complémentaire utile, et que je ne pourrai commencer les travaux qu'après avoir reçu l'autorisation du service instructeur.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan_situation",
+        "description": "Plan de situation au 1/25 000",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan_cadastral",
+        "description": "Plan cadastral",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Schema_avant-apres",
+        "description": "Schéma avant et après travaux",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Schema_zone",
+        "description": "Schéma de la zone de chantier",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Photos",
+        "description": "Photographies",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Note",
+        "description": "Note explicative",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Courrier",
+        "description": "Courrier d'accompagnement",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre",
+        "description": "Autre pièce jointe",
+        "required": false
+      }
+    ]
+  }
+}

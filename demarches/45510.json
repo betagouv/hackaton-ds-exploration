@@ -1,0 +1,3536 @@
+{
+  "number": 45510,
+  "title": "COMPTE INDIVIDUEL DE RETRAITE",
+  "description": "formulaire du compte individuel de retraite en ligne ",
+  "tags": [
+    "Retraite"
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2021-11-18T15:04:19+01:00",
+  "service": {
+    "nom": "PENSION VALIDATION",
+    "organisme": "PENSION VALIDATION",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/compte-individuel-de-retraite",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ac-guadeloupe.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028811784#:~:text=Copier%20le%20texte-,D%C3%A9cret%20n%C2%B0%202014%2D393%20du%2029%20mars%202014%20portant,des%20retraites%20de%20l'Etat",
+  "logo": {
+    "filename": "07_logo_REGIONS-ACA_GUADELOUPE.png",
+    "checksum": "WGh5ovXN/HPfKoVBbWR3Jg==",
+    "byteSize": "5350",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 81,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Date d'entrée dans l'académie",
+        "description": "Si vous avez débuté votre carrière hors de l'académie de la Guadeloupe, merci de préciser votre date d'entrée dans l'académie Guadeloupe",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1-IDENTITE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Identité",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom patronymique",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom marital",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénoms",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro de Sécurité Sociale",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numen",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Lieu de Naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Département de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Sexe",
+            "description": null,
+            "required": true,
+            "options": [
+              "M",
+              "F"
+            ]
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pour les célibataires: extrait d'acte de naissance, ou copie carte nationale d'identité recto-verso, ou passeport en cours de validité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "copie de la carte vitale",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2-COORDONNEES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Coordonnées",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Adresse complète actuelle",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DepartementChampDescriptor",
+            "label": "code postal",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Ville",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone professionnel",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone portable",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone domicile",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "mail professionnel",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "mail personnel",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "adresse électronique à privilégier",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3-Situation administrative ACTUELLE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Situation administrative actuelle",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Affectation actuelle",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "CORPS",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "GRADE",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Echelon",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "date dernier echelon",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Chevron",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "date dernier chevron",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4-SERVICE NATIONAL ET CARRIERE MILITAIRE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Service national et carrière militaire",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Service National effectué",
+            "description": null,
+            "required": false,
+            "options": [
+              "oui",
+              "non",
+              "exempté",
+              "réformé"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "si oui précisez la date",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "service national",
+            "description": "joindre copie de la carte du service national ou du livret militaire. A défaut l'état signalétique et des services militaire (ESSM) ou attestation de position si exempté, dispensé ou réformé\n(faire la demande par mail : dsn-csng-adm@faa.defense.gouv.fr ou par téléphone au 0590 60 61 77 )",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous effectuez votre service national hors EUROPE sous la forme de l'aide technique ou de la coopération ?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous effectuez votre service national en tant qu'objecteur de conscience ?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous effectuez une carrière militaire ?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Si oui, percevez-vous une pension militaire ?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "si oui joindre le titre de pension militaire",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5-SITUATION DE FAMILLE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Situation de famille",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Statut",
+            "description": null,
+            "required": true,
+            "options": [
+              "célibataire",
+              "Marié(e)",
+              "Pacsé(e)",
+              "Veuf(ve)",
+              "Divorcé(e)"
+            ]
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "1er mariage",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Date et lieu du mariage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de naissance et prénom du (de la) conjoint(e)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance du (de la) conjoint(e)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "lieu de naissance du (de la) conjoint(e)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "photocopie complète du livret de famille",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de divorce",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "photocopie du jugement de divorce",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de décès",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "acte de décès",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "2ème mariage",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Date et lieu du mariage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de naissance et prénom du (de la) conjoint(e)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance du (de la) conjoint(e)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "lieu de naissance du (de la) conjoint(e)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "photocopie complète du livret de famille",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de divorce",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "photocopie du jugement de divorce",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de décès",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "acte de décès",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "3ème mariage",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Date et lieu du mariage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de naissance et prénom du (de la) conjoint(e)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance du (de la) conjoint(e)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "lieu de naissance du (de la) conjoint(e)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "photocopie complète du livret de famille",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de divorce",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "photocopie du jugement de divorce",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de décès",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "acte de décès",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "6-SITUATION AU REGARD DES ENFANTS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "extrait d'acte de naissance pour les enfants nés hors mariage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "pour un enfant handicapé avec un taux supérieur ou égal à 80%",
+        "description": "joindre tout autre document administratif ou médical",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Situation enfant 1",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de Naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "l'enfant est-il porteur de handicap?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Lien de parenté",
+            "description": "choisir dans le menu déroulant",
+            "required": false,
+            "options": [
+              "1-Légitime (Filiation)",
+              "2-Adoptif",
+              "3-enfant du conjoint",
+              "4-Tutelle",
+              "5-Délégation parentale",
+              "6-Receuilli"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de prise en charge",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Pour les mères, avez-vous bénéficié d'un congé de maternité pour cet enfant. (on entend par congé de maternité, le congé légal prévu par le code de la sécurité sociale)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Si l'enfant est décédé, préciser la date",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Situation enfant 2",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "l'enfant est-il porteur de handicap?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Lien de parenté",
+            "description": "choisir dans le menu déroulant",
+            "required": false,
+            "options": [
+              "1-Légitime (Filiation)",
+              "2-Adoptif",
+              "3-enfant du conjoint",
+              "4-Tutelle",
+              "5-Délégation parentale",
+              "6-Receuilli"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Pour les mères, avez-vous bénéficié d'un congé de maternité pour cet enfant. (on entend par congé de maternité, le congé légal prévu par le code de la sécurité sociale)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Si l'enfant est décédé, préciser la date",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Situation enfant 3",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "l'enfant est-il porteur de handicap?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Lien de parenté",
+            "description": "choisir dans le menu déroulant",
+            "required": false,
+            "options": [
+              "1-Légitime (Filiation)",
+              "2-Adoptif",
+              "3-enfant du conjoint",
+              "4-Tutelle",
+              "5-Délégation parentale",
+              "6-Receuilli"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Pour les mères, avez-vous bénéficié d'un congé de maternité pour cet enfant. (on entend par congé de maternité, le congé légal prévu par le code de la sécurité sociale)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Si l'enfant est décédé, préciser la date",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Situation enfant 4",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "l'enfant est-il porteur de handicap?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Lien de parenté",
+            "description": "choisir dans le menu déroulant",
+            "required": false,
+            "options": [
+              "1-Légitime (Filiation)",
+              "2-Adoptif",
+              "3-enfant du conjoint",
+              "4-Tutelle",
+              "5-Délégation parentale",
+              "6-Receuilli"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Pour les mères, avez-vous bénéficié d'un congé de maternité pour cet enfant. (on entend par congé de maternité, le congé légal prévu par le code de la sécurité sociale)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Si l'enfant est décédé, préciser la date",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Situation enfant 5",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "l'enfant est-il porteur de handicap?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Lien de parenté",
+            "description": "choisir dans le menu déroulant",
+            "required": false,
+            "options": [
+              "1-Légitime (Filiation)",
+              "2-Adoptif",
+              "3-enfant du conjoint",
+              "4-Tutelle",
+              "5-Délégation parentale",
+              "6-Receuilli"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Pour les mères, avez-vous bénéficié d'un congé de maternité pour cet enfant. (on entend par congé de maternité, le congé légal prévu par le code de la sécurité sociale)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Si l'enfant est décédé, préciser la date",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Situation enfant 6",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "l'enfant est-il porteur de handicap?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Lien de parenté",
+            "description": null,
+            "required": false,
+            "options": [
+              "1-Légitime (Filiation)",
+              "2-Adoptif",
+              "3-enfant du conjoint",
+              "4-Tutelle",
+              "5-Délégation parentale",
+              "6-Receuilli"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Pour les mères, avez-vous bénéficié d'un congé de maternité pour cet enfant. (on entend par congé de maternité, le congé légal prévu par le code de la sécurité sociale)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Si l'enfant est décédé, préciser la date",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Situation enfant 7",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "l'enfant est-il porteur de handicap?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Lien de parenté",
+            "description": null,
+            "required": false,
+            "options": [
+              "1-Légitime (Filiation)",
+              "2-Adoptif",
+              "3-enfant du conjoint",
+              "4-Tutelle",
+              "5-Délégation parentale",
+              "6-Receuilli"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Pour les mères, avez-vous bénéficié d'un congé de maternité pour cet enfant. (on entend par congé de maternité, le congé légal prévu par le code de la sécurité sociale)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Si l'enfant est décédé, préciser la date",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Situation enfant 8",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "l'enfant est-il porteur de handicap?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Lien de parenté",
+            "description": null,
+            "required": false,
+            "options": [
+              "1-Légitime (Filiation)",
+              "2-Adoptif",
+              "3-enfant du conjoint",
+              "4-Tutelle",
+              "5-Délégation parentale",
+              "6-Receuilli"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Pour les mères, avez-vous bénéficié d'un congé de maternité pour cet enfant. (on entend par congé de maternité, le congé légal prévu par le code de la sécurité sociale)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Si l'enfant est décédé, préciser la date",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Situation enfant 9",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "l'enfant est-il porteur de handicap?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Lien de parenté",
+            "description": null,
+            "required": false,
+            "options": [
+              "1-Légitime (Filiation)",
+              "2-Adoptif",
+              "3-enfant du conjoint",
+              "4-Tutelle",
+              "5-Délégation parentale",
+              "6-Receuilli"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Pour les mères, avez-vous bénéficié d'un congé de maternité pour cet enfant. (on entend par congé de maternité, le congé légal prévu par le code de la sécurité sociale)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Si l'enfant est décédé, préciser la date",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Situation enfant 10",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "l'enfant est-il porteur de handicap?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Lien de parenté",
+            "description": null,
+            "required": false,
+            "options": [
+              "1-Légitime (Filiation)",
+              "2-Adoptif",
+              "3-enfant du conjoint",
+              "4-Tutelle",
+              "5-Délégation parentale",
+              "6-Receuilli"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de prise en charge",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Pour les mères, avez-vous bénéficié d'un congé de maternité pour cet enfant. (on entend par congé de maternité, le congé légal prévu par le code de la sécurité sociale)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Si l'enfant est décédé, préciser la date",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "7-VOTRE CARRIERE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "A-Rachat d'années d'études",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Rachat d'années d'études",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous effectuez un rachat d'années d'études",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de rachat d'années d'études",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de rachat d'années d'études",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre les pièces justifiants du rachat",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Observations éventuelles à porter à la connaissance de l'administration",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "B-Scolarité effectuée dans un établissement de formation (Ecole Normale, ENS, IPES, ENSET, ENSEPS, CPR, CFPEGC, ENNA, CREPS, IREPS, IRA...)",
+        "description": "Pour que les périodes soient prises en compte, joindre attestation(s) de scolarité correspondante(s) délivrée(s) par l'organisme payeur et confirmant la retenue pour pension civile au cours de cette période ou tout autre document en votre possession.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Etablissement de formation 1",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de l'établissement",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": false,
+            "options": [
+              "-Elève",
+              "-Stagiaire"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation de formation ou autre document",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Etablissement de formation 2",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de l'établissement",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": false,
+            "options": [
+              "-Elève",
+              "-Stagiaire"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Attestation de formation ou autre document",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Etablissement de formation 3",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de l'établissement",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": false,
+            "options": [
+              "-Elève",
+              "-Stagiaire"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation de formation ou autre document",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Etablissement de formation 4",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de l'établissement",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": false,
+            "options": [
+              "-Elève",
+              "-Stagiaire"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation de formation ou autre document",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "C-Services de non titulaire effectués à l'Education Nationale en qualité de MA, MI, SE, instituteur suppléant ou remplaçant, auxiliaire de bureau ou de service, contractuel enseignant, administratif ou de service",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Service non titulaire 1",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Ces services ont-ils été:",
+            "description": null,
+            "required": false,
+            "options": [
+              "validés",
+              "non validés",
+              "en cours de validation"
+            ]
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Si \"validés\" ou \"en cours de validation\", fournir le cas échéant",
+            "description": "demande de validation\ndécision de recevabilité ou pré-décision\ntitre de perception\ndéclaration de recettes\n",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Service non titulaire 2",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Ces services ont-ils été:",
+            "description": null,
+            "required": false,
+            "options": [
+              "validés",
+              "non validés",
+              "en cours de validation"
+            ]
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Si \"validés\" ou \"en cours de validation\", fournir le cas échéant",
+            "description": "demande de validation\ndécision de recevabilité ou pré-décision\ntitre de perception\ndéclaration de recettes\n",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Service non titulaire 3",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Ces services ont-ils été:",
+            "description": null,
+            "required": false,
+            "options": [
+              "validés",
+              "non validés",
+              "en cours de validation"
+            ]
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Si \"validés\" ou \"en cours de validation\", fournir le cas échéant",
+            "description": "demande de validation\ndécision de recevabilité ou pré-décision\ntitre de perception\ndéclaration de recettes\n",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Service non titulaire 4",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Ces services ont-ils été:",
+            "description": null,
+            "required": false,
+            "options": [
+              "validés",
+              "non validés",
+              "en cours de validation"
+            ]
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Si \"validés\" ou \"en cours de validation\", fournir le cas échéant",
+            "description": "demande de validation\ndécision de recevabilité ou pré-décision\ntitre de perception\ndéclaration de recettes",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "D-Services Titulaire Education Nationale",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "NBI",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "NBI obtenu au cours de votre carrière",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Instituteur",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de stage/formation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de stage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "date de titularisation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Ajoutez l'arrêté",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Direction dans une école du premier degré",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous obtenu au cours de votre carrière un poste de direction d'école maternelle, élémentaire ou primaire",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Ajoutez l'arrêté de chaque période ci-après",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Ajoutez l'arrêté",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Ajoutez l'arrêté",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Ajoutez l'arrêté",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Ajoutez l'arrêté",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Ajoutez l'arrêté",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Disciplines techniques",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "préciser la discipline technique",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "modalité d'entrée",
+            "description": null,
+            "required": false,
+            "options": [
+              "concours interne",
+              "concours externe",
+              "liste d'aptitude"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pour bénéficier de la bonification prévue à l'article l 12 du code des pensions, joindre tout document précisant votre mode de recrutement",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de stage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de stage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de titularisation",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autre grade 1",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "préciser le grade",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "modalité d'entrée dans ce grade",
+            "description": null,
+            "required": false,
+            "options": [
+              "concours interne",
+              "concours externe",
+              "liste d'aptitude/tableau d'avancement"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "date de début de stage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de stage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de titularisation",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autre grade 2",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "préciser le grade",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "modalité d'entrée dans ce grade ?",
+            "description": null,
+            "required": false,
+            "options": [
+              "concours interne",
+              "concours externe",
+              "liste d'aptitude/tableau d'avancement"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Autre,préciser",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de stage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de stage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de titularisation",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autre grade 3",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "préciser le grade",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "modalité d'entrée dans ce grade",
+            "description": null,
+            "required": false,
+            "options": [
+              "concours interne",
+              "concours externe",
+              "liste d'aptitude/tableau d'avancement"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de stage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de stage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de titularisation",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autre grade 4",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "préciser le grade",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Modalité d'entrée dans ce grade",
+            "description": null,
+            "required": false,
+            "options": [
+              "concours interne",
+              "concours externe",
+              "liste d'aptitude/tableau d'avancement"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de stage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de stage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de titularisation",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autre grade 5",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "préciser le grade",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Modalité d'entrée dans ce grade",
+            "description": null,
+            "required": false,
+            "options": [
+              "concours interne",
+              "concours externe",
+              "liste d'aptitude/tableau d'avancement"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de stage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de stage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de titularisation",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "autre grade 6",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "préciser le grade",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Modalité d'entrée dans le grade",
+            "description": null,
+            "required": false,
+            "options": [
+              "concours interne",
+              "concours externe",
+              "liste d'aptitude/tableau d'avancement"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de stage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de stage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de titularisation",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autre grade 7",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "préciser le grade",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Modalité d'entrée dans le grade",
+            "description": null,
+            "required": false,
+            "options": [
+              "concours interne",
+              "concours externe",
+              "liste d'aptitude/tableau d'avancement"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début de stage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin de stage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de titularisation",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "E-Services hors Education Nationale exercés dans une autre administration de l'Etat, dans une collectivité (Région, Département, Commune, EPCI) ou des Etablissements rattachés (hôpitaux) relevant de la CNRACL (Caisse Nationale des Agents des Collectivités Locales)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous effectué des services hors éducation nationale comme mentionné ci-dessus",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Service hors éducation nationale 1",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Administration ou Etablissement",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Qualité",
+            "description": "",
+            "required": false,
+            "options": [
+              "Non titulaire",
+              "Titulaire",
+              "Stagiaire"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Si non titulaire, préciser",
+            "description": null,
+            "required": false,
+            "options": [
+              "service validé",
+              "service non validé"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Si vous avez obtenu une NBI, ajoutez l'arrêté de NBI",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre un relevé de carrière ou tout autre justificatif",
+            "description": "Relevé de carrière précisant le nombre de trimestres validés par année, délivré par le service de retraite de la caisse générale de sécurité sociale et, le cas échéant, par tout autre régime de retraite de base obligatoire. ( faire la demande en appelant le 3960  taper 3 pour avoir un conseiller retraite ou faire la demande à www.assuranceretraite.fr )",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Service hors éducation nationale 2",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Administration ou Etablissement",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Qualité",
+            "description": "",
+            "required": false,
+            "options": [
+              "Non titulaire",
+              "Titulaire",
+              "Stagiaire"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Si non titulaire, préciser",
+            "description": null,
+            "required": false,
+            "options": [
+              "service validé",
+              "service non validé"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Si vous avez obtenu une NBI, ajoutez l'arrêté de NBI",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre un relevé de carrière ou tout autre justificatif",
+            "description": "Relevé de carrière précisant le nombre de trimestres validés par année, délivré par le service de retraite de la caisse générale de sécurité sociale et, le cas échéant, par tout autre régime de retraite de base obligatoire. ( faire la demande en appelant le 3960  taper 3 pour avoir un conseiller retraite ou faire la demande à www.assuranceretraite.fr )",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Service hors éducation nationale 3",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Administration ou Etablissement",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Qualité",
+            "description": "",
+            "required": false,
+            "options": [
+              "Non titulaire",
+              "Titulaire",
+              "Stagiaire"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Si non titulaire, préciser",
+            "description": null,
+            "required": false,
+            "options": [
+              "service validé",
+              "service non validé"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Si vous avez obtenu une NBI, ajoutez l'arrêté de NBI",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre un relevé de carrière ou tout autre justificatif",
+            "description": "Relevé de carrière précisant le nombre de trimestres validés par année, délivré par le service de retraite de la caisse générale de sécurité sociale et, le cas échéant, par tout autre régime de retraite de base obligatoire. ( faire la demande en appelant le 3960  taper 3 pour avoir un conseiller retraite ou faire la demande à www.assuranceretraite.fr )",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Service hors éducation nationale 4",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Administration ou Etablissement",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Qualité",
+            "description": "",
+            "required": false,
+            "options": [
+              "Non titulaire",
+              "Titulaire",
+              "Stagiaire"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Si non titulaire, préciser",
+            "description": null,
+            "required": false,
+            "options": [
+              "service validé",
+              "service non validé"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Si vous avez obtenu une NBI, ajoutez l'arrêté de NBI",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre un relevé de carrière ou tout autre justificatif",
+            "description": "Relevé de carrière précisant le nombre de trimestres validés par année, délivré par le service de retraite de la caisse générale de sécurité sociale et, le cas échéant, par tout autre régime de retraite de base obligatoire. ( faire la demande en appelant le 3960  taper 3 pour avoir un conseiller retraite ou faire la demande à www.assuranceretraite.fr )",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "F- Services effectués en position de détachement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous effectué des services en position de détachement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Service détachement 1",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Administration ou organisme employeur",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre arrêté correspondant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Si vous avez obtenu une NBI, ajoutez l'arrêté de NBI",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Service détachement 2",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Administration ou organisme employeur",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre arrêté correspondant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Si vous avez obtenu une NBI, ajoutez l'arrêté de NBI",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Service détachement 3",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Administration ou organisme employeur",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre arrêté correspondant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Si vous avez obtenu une NBI, ajoutez l'arrêté de NBI",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Service détachement 4",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Administration ou organisme employeur",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre arrêté correspondant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Si vous avez obtenu une NBI, ajoutez l'arrêté de NBI",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "G- Services effectués à l'étranger",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous effectué un ou des services à l'étranger",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Service étranger 1",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Pays",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre arrêté correspondant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Si vous avez obtenu une NBI, ajoutez l'arrêté de NBI",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Observations éventuelles à porter à la connaissance de l'administration",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Service étranger 2",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Pays",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre arrêté correspondant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Si vous avez obtenu une NBI, ajoutez l'arrêté de NBI",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Observations éventuelles à porter à la connaissance de l'administration",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Service étranger 3",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Pays",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre arrêté correspondant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Si vous avez obtenu une NBI, ajoutez l'arrêté de NBI",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Observations éventuelles à porter à la connaissance de l'administration",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Service étranger 4",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Qualité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Pays",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre arrêté correspondant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Si vous avez obtenu une NBI, ajoutez l'arrêté de NBI",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Observations éventuelles à porter à la connaissance de l'administration",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "H-Interruptions de services pour: congés pour convenances personnelles, disponibilité, congés parentaux",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous bénéficiez d'une interruption de service pour les cas cités ci-dessus",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Interruption 1",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Motif de l'interruption",
+            "description": null,
+            "required": false,
+            "options": [
+              "-congés pour convenances personnelles",
+              "-disponibilité",
+              "-congés parentaux"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre arrêté correspondant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Observations éventuelles à porter à la connaissance de l'administration",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Interruption 2",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Motif de l'interruption",
+            "description": null,
+            "required": false,
+            "options": [
+              "-congés pour convenances personnelles",
+              "-disponibilité",
+              "-congés parentaux"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre arrêté correspondant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Observations éventuelles à porter à la connaissance de l'administration",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Interruption 3",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Motif de l'interruption",
+            "description": null,
+            "required": false,
+            "options": [
+              "-congés pour convenances personnelles",
+              "-disponibilité",
+              "-congés parentaux"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre arrêté correspondant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Observations éventuelles à porter à la connaissance de l'administration",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Interruption 4",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Motif de l'interruption",
+            "description": null,
+            "required": false,
+            "options": [
+              "-congés pour convenances personnelles",
+              "-disponibilité",
+              "-congés parentaux"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre arrêté correspondant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Observations éventuelles à porter à la connaissance de l'administration",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Interruption 5",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "motif de l'interruption",
+            "description": null,
+            "required": false,
+            "options": [
+              "-congés pour convenances personnelles",
+              "-disponibilité",
+              "-congés parentaux"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre arrêté correspondant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Observations éventuelles à porter à la connaissance de l'administration",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Interruption 6",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "motif de l'interruption",
+            "description": null,
+            "required": false,
+            "options": [
+              "-congés pour convenances personnelles",
+              "-disponibilité",
+              "-congés parentaux"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre arrêté correspondant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Observations éventuelles à porter à la connaissance de l'administration",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Interruption 7",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "motif de l'interruption",
+            "description": null,
+            "required": false,
+            "options": [
+              "-congés pour convenances personnelles",
+              "-disponibilité",
+              "-congés parentaux"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre arrêté correspondant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Observations éventuelles à porter à la connaissance de l'administration",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "8-Bonification pour services hors Europe ET durée des congés passés en dehors de ces territoires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Services accomplis dans le (ou les) territoire(s) désigné(s) hors Europe",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Territoire 1",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du territoire",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre l'arrêté ou l'avis d'affectation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début d'affectation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin d'affectation",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Territoire 2",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du territoire",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre l'arrêté ou l'avis d'affectation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début d'affectation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin d'affectation",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Territoire 3",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du territoire",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre l'arrêté ou l'avis d'affectation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début d'affectation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin d'affectation",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Territoire 4",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du territoire",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre l'arrêté ou l'avis d'affectation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début d'affectation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin d'affectation",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Territoire 5",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du territoire",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre l'arrêté ou l'avis d'affectation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début d'affectation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin d'affectation",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Territoire 6",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du territoire",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre l'arrêté ou l'avis d'affectation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début d'affectation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin d'affectation",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Territoire 7",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du territoire",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "joindre l'arrêté ou l'avis d'affectation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début d'affectation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin d'affectation",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Congés passés en dehors de ces territoires (congés administratifs, congés bonifiés ou autres)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Congé 1",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Année",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Durée du congé en mois ET jours",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Lieu où a été passé le congé",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Congé 2",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Année",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Durée du congé en mois ET jours",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "lieu où a été passé le congé",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Congé 3",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Année",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Durée du congé en mois ET jours",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "lieu où a été passé le congé",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Congé 4",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Année",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Durée du congé en mois ET jours",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "lieu ou a été passé le congé",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Congé 5",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Année",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Durée du congé en mois ET jours",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "lieu où a été passé le congé",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Congé 6",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Année",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Durée du congé en mois ET jours",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "lieu où a été passé le congé",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Congé 7",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Année",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Durée du congé en mois ET jours",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "lieu où a été passé le congé",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "De manière générale, avez-vous des renseignements complémentaires à porter à la connaissance de l'administration",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "number": 27622,
+  "title": "Déclaration de modification concernant l'agrainage disuasif 'sanglier' en Meurthe-et-Moselle",
+  "description": "Formulaire de modification de la déclaration initiale du jour d'agrainage dissuasif ou de la personne le réalisant.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2020-03-26T16:30:26+01:00",
+  "service": {
+    "nom": "Direction Départementale des Territoires de Meurthe-et-Moselle",
+    "organisme": "Serice Agriculture forêt chasse",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/agrainage-54",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.meurthe-et-moselle.gouv.fr/Politiques-publiques/Environnement/Chasse",
+  "cadreJuridiqueUrl": "https://www.bulletin-officiel.developpement-durable.gouv.fr/notice?id=Bulletinofficiel-0024866&reqId=40ae4b02-966d-4f4f-b6e9-f942f9a0fc0d&pos=3",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "nom du détenteur ou délégataire du plan de chasse",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "prénom du détenteur ou délégataire du plan de chasse",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Représentant (Acca, Ste Chasse)",
+        "description": "dans le cas d'une société de chasse ou d'une Association communale de chasse agrée.",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Mail",
+        "description": "mail permettant une information en cas de modification des possibilités d'agrainage.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Déclacation du jour d'agrainage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune de situation du plan de chasse",
+        "description": "indiquez la commune principale de couverture du plan de chasse concerné par la déclaration",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro du plan de chasse",
+        "description": "indiquez le numéro du plan de chasse sous forme massif/indice tel que indiqué en entête de plans de chasse sanglier (exemple: 41/023)",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Jour d'agrainage",
+        "description": "Déclaration du jour fixe d'agrainage",
+        "required": true,
+        "options": [
+          "Lundi",
+          "Mardi",
+          "Mercredi",
+          "Jeudi",
+          "Vendredi",
+          "Samedi",
+          "Dimanche"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "moment",
+        "description": "Précisez la période de déclaration de l'grainage",
+        "required": true,
+        "options": [
+          "matin",
+          "après-midi"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m'engage à respecter cette date de déclaration",
+        "description": "Vous vous engagez à respecter le jour et la période de la déclaration d'agrainage.",
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "number": 70505,
+  "title": "Fiche de remboursement des prestataires de santé",
+  "description": "Gestion des remboursements de santé vis-à-vis des tiers et agents",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2023-03-15T15:27:38+01:00",
+  "service": {
+    "nom": "DSDEN de la Gironde, Division des personnels DIPER3",
+    "organisme": "Ministère de l'Éducation nationale, de la Jeunesse et des sports - Académie de Bordeaux",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/dsden33-paiement-des-prestataires-de-sante",
+  "dpoUrl": "dpd@ac-bordeaux.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ac-bordeaux.fr/dsden33",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/jo",
+  "logo": {
+    "filename": "logo-dsden-gironde-transparent.png",
+    "checksum": "xswXejiU0qbXCFWQ6CmxHQ==",
+    "byteSize": "4604",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "notice RGPD fiche de remboursement des prestataires de santé15032023.odt",
+    "checksum": "OgT51ZcnAcEHZ9oZCBuRzg==",
+    "byteSize": "32455",
+    "contentType": "application/vnd.oasis.opendocument.text"
+  },
+  "dossiersCount": 375,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Le prestataire de santé",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Profession",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant des honoraires à rembourser",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Renseignements concernant la personne examinée",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom d'usage de la personne examinée",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de famille",
+        "description": "Votre nom de jeune fille, le cas échéant, ou tout nom que vous pourriez utiliser s'il diffère de votre nom d'usage.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Catégorie",
+        "description": "",
+        "required": true,
+        "options": [
+          "Enseignant",
+          "Administratif",
+          "Perdir",
+          "IEN - IA - IPR",
+          "AED - AESH",
+          "ATSS",
+          "Psy EN",
+          "CPE"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut",
+        "description": "",
+        "required": true,
+        "options": [
+          "Public",
+          "Privé"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Justificatifs et pièces jointes",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Facture",
+        "description": "Vous pouvez insérer plusieurs factures s'il s'agit d'un lot de prestations concernant la même personne",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Décision d'imputabilité ou certificat de prise en charge",
+        "description": "Vous pouvez demander au patient cette pièce, qui accélèrera le traitement de votre demande",
+        "required": false
+      },
+      {
+        "__typename": "IbanChampDescriptor",
+        "label": "IBAN du compte à créditer",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Relevé d'Identité Bancaire",
+        "description": "Fournissez un justificatif au format PDF du compte à créditer.",
+        "required": true
+      }
+    ]
+  }
+}

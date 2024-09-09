@@ -1,0 +1,416 @@
+{
+  "number": 86520,
+  "title": "DEMANDE DE REMBOURSEMENT OU DE REMISE DE DROITS                                                                          (SAINT DENIS Aéroport)",
+  "description": "Afin d'obtenir un remboursement ou une remise de droits, vous devez déposer une demande auprès du bureau de douane ou du service qui a notifié la dette.\r\nOù déposer la demande ?\r\nLa demande doit être déposée dans l'État membre où la dette douanière a été notifiée.\r\n\r\nEn France, la demande doit être déposée au bureau de douane où ont été validées les déclarations en douane ou auprès du service ayant notifié la dette douanière en cas de dette communiquée suite à un contrôle ex-post.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique"
+  ],
+  "datePublication": "2024-04-24T09:02:17+02:00",
+  "service": {
+    "nom": "BUREAU DE DOUANE ST DENIS AEROPORT",
+    "organisme": "DIRECTION REGIONALE DES DOUANES DE LA REUNION",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-remboursement--sda",
+  "dpoUrl": "remboursements-sda@douane.finances.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.douane.gouv.fr/demarche/deposer-une-demande-de-remboursement-ou-remise-de-droits",
+  "cadreJuridiqueUrl": "https://www.douane.gouv.fr/demarche/deposer-une-demande-de-remboursement-ou-remise-de-droits ",
+  "logo": {
+    "filename": "DGDDI_2020_RVB (1).jpg",
+    "checksum": "XAAMqZGzM9XtswoirV3EEg==",
+    "byteSize": "300363",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "modele-de-demande-de-remboursement-ou-remise-de-droits[2].pdf",
+    "checksum": "MEHczANa5tl8SaJfqXjbfg==",
+    "byteSize": "139700",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 121,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. Demandeur et son représentant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Qui est le demandeur ?",
+        "description": "Le demandeur est la personne qui sollicite une décision auprès des autorités douanières.\r\nIndiquer simplement le numéro d’enregistrement et d’identification des opérateurs économiques (numéro EORI). \r\n\r\nAttention : Si vous êtes représentant du demandeur, vous devrez fournir le numéro SIRET et le numéro EORI du demandeur en cliquant sur \"AJOUT DEMANDEUR (facultatif)\"",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° EORI",
+        "description": "Saisissez FR+14 chiffres sans espaces. Exemple : FR50000123456789\r\nAttention : il n'y a pas de vérification pour le n° EORI. Il vous appartient de saisir une information valide\r\n",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "AJOUT DEMANDEUR (facultatif)",
+        "description": "Si vous êtes représentant , fournir le le n° SIRET et le numéro EORI du demandeur.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "SiretChampDescriptor",
+            "label": "SIRET DU DEMANDEUR",
+            "description": "Attention : le n° siret doit exister dans le répertoire de l'INSEE pour être validé",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° EORI DU DEMANDEUR",
+            "description": "Saisissez FR+14 chiffres sans espaces. Exemple : FR50000123456789\r\nAttention : il n'y a pas de vérification pour le n° EORI. Il vous appartient de saisir une information valide\r\n",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. Titre pour le recouvrement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Quel(s) est(sont) le(s) titre(s)  à renseigner ?",
+        "description": "Mentionner les références à la (ou aux) déclaration(s) en douane ou au document qui a donné lieu à la\r\nnotification des droits à l’importation ou l’exportation faisant l’objet de la demande de remboursement\r\nou de remise.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Références",
+        "description": "Mentionner une référence par ligne",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "LinkedDropDownListChampDescriptor",
+            "label": "1ère subdivision du code procédure",
+            "description": "",
+            "required": false,
+            "options": [
+              "--CO--",
+              "--IM--",
+              "--EU--",
+              "--FR--"
+            ]
+          },
+          {
+            "__typename": "LinkedDropDownListChampDescriptor",
+            "label": "2eme subdivision du code procédure",
+            "description": "",
+            "required": false,
+            "options": [
+              "--A--",
+              "--B--",
+              "--C--",
+              "--D--",
+              "--E--",
+              "--F--",
+              "--X--",
+              "--Y--",
+              "--Z--"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° déclaration",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. Bureau de douane",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Quel bureau ?",
+        "description": "Mentionner le nom et l’adresse complète, y compris le code postal éventuel, du bureau de douane où ont été notifiés les droits à l’importation ou à l’exportation dont le remboursement ou la remise est demandé.\r\nSi le bureau de douane du lieu où se trouvent les marchandises est différent du bureau de douane où la dette douanière a été notifiée, les deux bureaux seront indiqués.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Bureau de douane où la dette douanière a été notifiée (obligatoire)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Nom du Bureau de douane (Identifiant)",
+        "description": "",
+        "required": true,
+        "options": [
+          "--Bureau à sélectionner--",
+          "Bureau de SAINT DENIS AEROPORT (FR006460)",
+          "Bureau du PORT (FR006420)",
+          "Bureau de SAINT PIERRE (FR006430)"
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Bureau de douane compétent du lieu où se trouvent les marchandises (facultatif)",
+        "description": "Uniquement si différent du bureau où la dette douanière a été notifiée",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "LinkedDropDownListChampDescriptor",
+            "label": "Nom du Bureau (Identifiant)",
+            "description": "",
+            "required": false,
+            "options": [
+              "--Bureau à sélectionner--",
+              "Bureau de SAINT DENIS AEROPORT (FR006460)",
+              "Bureau du PORT (FR006420)",
+              "Bureau de SAINT PIERRE (FR006430)"
+            ]
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4. Marchandises",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Précision sur la mainlevée, le lieu de stockage et certaines informations sur la marchandise",
+        "description": "Il s'agit de préciser si les marchandises ont bénéficié ou non de la mainlevée.\r\nOn Indiquera éventuellement le nom et l’adresse du lieu où se trouvent les marchandises.\r\nSeront également précisés, le régime et le code douanier, la quantité et la valeur en douane ainsi que la descriptions des marchandises",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mainlevée des marchandises",
+        "description": "Précisez si les marchandises ont bénéficié ou non de la mainlevée.",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "LIEU   (optionnel)",
+        "description": "Indiquer, si nécessaire, le nom et l’adresse du lieu (y compris le code postal) où se trouvent les marchandises.\r\nCette information n’est pas requise dans les cas où la législation européenne dispense de l’obligation de présenter les marchandises.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "NOM",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "ADRESSE",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Régime douanier",
+        "description": "Sauf dans les cas visés à l’article 116 § 1, premier alinéa, point a), \r\nindiquer le code correspondant du régime douanier sous lequel le demandeur souhaite placer les marchandises. Si le régime douanier est subordonné à une autorisation, indiquer l’identifiant de l’autorisation concernée ",
+        "required": false,
+        "options": [
+          "00",
+          "01",
+          "07",
+          "10",
+          "11",
+          "21",
+          "22",
+          "23",
+          "31",
+          "40",
+          "42",
+          "45",
+          "48",
+          "49",
+          "51",
+          "53",
+          "61",
+          "63",
+          "68",
+          "71",
+          "76",
+          "77",
+          "78"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Demande d'accomplissement au préalable des formalités",
+        "description": "Indiquer si l’accomplissement préalable des formalités est demandé.",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Article(s) concerné(s)",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Code douanier",
+            "description": "Indiquer le code de la nomenclature combinée à 8 chiffres, le code TARIC et, le cas échéant, le ou les codes additionnels TARIC et le ou les codes additionnels nationaux des marchandises concernées",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Quantité nette",
+            "description": "Indiquer la quantité nette de marchandises exprimée en unités supplémentaires au sens de la\r\nnomenclature combinée (annexe 1 au règlement (CEE) n°2658/87)",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Valeur en douane",
+            "description": "Indiquer la valeur en douane des marchandises.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Valeur en douane",
+        "description": "Indiquer la valeur en douane des marchandises.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description des marchandises",
+        "description": "Indiquer la désignation commerciale usuelle des marchandises ou leur espèce tarifaire. La désignation doit correspondre à celle utilisée dans la déclaration en douane.\r\nIndiquer le nombre, la nature, les marques et les numéros des colis. Dans le cas de marchandises non emballées, indiquer le nombre d’objets ou mentionner « en vrac »",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5. Base juridique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Choix",
+        "description": "En utilisant les codes prévus à cet effet, indiquer la base juridique de la demande de remboursement ou\r\nde remise des droits à l’importation ou à l’exportation.",
+        "required": true,
+        "options": [
+          "Code A : Article 117 du Code",
+          "Code B : Article 118 du Code",
+          "Code C : Article 119 du Code",
+          "Code D : Article 120 du Code",
+          "Code E : Article 116 § 1 du Code",
+          "Art. 352 du CDN",
+          "Art. 352 bis CDN"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "6. Montant des droits",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant des droits à l'importation ou à l'exportation à rembourser ou à remettre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "7. Type de droit",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Type de droit à l’importation ou à l’exportation",
+        "description": "En utilisant les codes prévus à cet effet, indiquer le type de droit à l’importation ou à l’exportation à rembourser ou à remettre.",
+        "required": true,
+        "options": [
+          "-- Sélectionner un type de droit --",
+          "RESSOURCES PROPRES",
+          "TAXES NATIONALES",
+          "TVA",
+          "OCTROI DE MER",
+          "TGAP"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "8. Motivation du remboursement ou de la remise",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description de la motivation du remboursement ou de la remise",
+        "description": "Description détaillée de la justification qui constitue le fondement de la demande de remboursement ou de la remise.\r\nCet élément de données doit être rempli dans tous les cas où l’information ne peut pas être déduite d’autres informations figurant dans la demande.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "9. Banque et coordonnées bancaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dans quel cas fournir des coordonnées bancaires ?",
+        "description": "Indiquer les coordonnées bancaires lorsque des droits à l’importation ou à l’exportation sont\r\nremboursés.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déposer UN RIB",
+        "description": "Déposer le fichier correspondant à votre RIB pour votre première demande.\r\nDans le cas ou vous changer de coordonnées bancaires vous devez également déposer votre nouveau RIB.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la BANQUE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IbanChampDescriptor",
+        "label": "N° IBAN",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "10. Documents joints",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Quels documents joindre ?",
+        "description": "La demande sera obligatoirement accompagnée de tout document permettant au service d'établir la recevabilité et le bien fondé du remboursement.  \r\nPreuve de réexportation, destructions,  de placement des marchandises en entrepôt douanier ou en zone franche, déclaration invalidée ou rectifiée etc. ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "IMPORTANT",
+        "description": "Votre connexion à ce téléservice et le clique sur \"Déposer le dossier\", valent signature de la demande.  \r\n<br/> Vous recevrez un mail de confirmation attestant du dépôt de la demande.\r\nVous continuez de pouvoir modifier le dossier tant qu'il n'est pas passé en instruction.\r\nAprès le passage en instruction vous devrez solliciter le bureau pour pouvoir le modifier.",
+        "required": false
+      }
+    ]
+  }
+}

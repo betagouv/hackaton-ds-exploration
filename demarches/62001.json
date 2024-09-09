@@ -1,0 +1,82 @@
+{
+  "number": 62001,
+  "title": "Déclarer mon opposition (Formulaire agent)",
+  "description": "Déclarer mon opposition à la transmission des informations liées au dépistage organisé à mon médecin traitant ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-12-05T12:30:28+01:00",
+  "service": {
+    "nom": "Déclaration d'opposition",
+    "organisme": "Caisse Nationale d'Assurance Maladie",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/declarer-une-opposition",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "Une communication sera adressée aux agents effectuant la saisie",
+  "cadreJuridiqueUrl": "",
+  "logo": null,
+  "notice": null,
+  "deliberation": {
+    "filename": "Cadre Juridique Declare Opposition.pdf",
+    "checksum": "g2qD9iStcLsBaMG4mLsIpQ==",
+    "byteSize": "394826",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 393,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Cadre réglementaire et explication du téléservice",
+        "description": "Pour répondre aux enjeux de santé publique et relancer la participation aux dépistages organisés des cancers, les services de l’Assurance Maladie adressent aux médecins traitants la liste de leurs assurés non dépistés. Cette action repose sur la place centrale du médecin traitant, acteur de la coordination des soins. Les informations fournies lui permettront d’identifier ses patients éligibles.\r\n\r\nCette mise à disposition s’inscrit dans les missions de prévention de l’Assurance Maladie mentionnées au 3° de l'article L. 221-1 et aux III bis et IV de l'article L. 315-1 du code de la sécurité sociale et dans ses missions  d’accompagnement de l’évolution des pratiques et des comportements en adéquation avec le système de santé. Le traitement a pour base légale une mission d’intérêt public qui trouve son fondement dans l’article L.162-2-3 du code de la sécurité sociale. \r\n\r\nLe texte autorisant cette mise à disposition prévoit la possibilité de s’y opposer:\r\nhttps://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037857793 \r\n\r\nIl faut également que les personnes concernées puissent revenir sur leur décision et changer leur souhait d'opposition.\r\n\r\nLe formulaire ci-dessous permet ainsi de renseigner les informations d'un assuré souhaitant exercer son droit à opposition ou souhaitant revenir sur celui-ci.\r\n\r\nLa démarche s’adresse uniquement aux assurés éligibles aux dépistages organisés des cancers (colorectal, sein, col de l’utérus) âgés de 25 à 74 ans pour les femmes et de 50 à 74 ans pour les hommes. Elle ne concerne que les assurés du régime général et des régimes hébergés de ces tranches d’âge qui n’ont pas réalisé de dépistage organisé. \r\n\r\nToute demande portant sur un autre objet ou émanant de personnes non concernées par l’action ne sera pas prise en compte dans cette démarche en ligne.\r\n\r\n",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité de l'assuré(e)",
+        "description": "Civilité de l'assuré",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance de l'assuré(e)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom de l'assuré(e)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance de l'assuré(e)",
+        "description": "Si l'assuré(e) a une date de naissance basée sur le calendrier lunaire, veuillez saisir celle-ci au format suivant : 31/12/AAAA (AAAA : Année de naissance).",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de Sécurité sociale de l'assuré(e)",
+        "description": "Attention à ne saisir que les 13 premiers numéros du numéro de Sécurité Sociale (sans les 2 derniers numéros de la clé)",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Opposition",
+        "description": "Vous pouvez matérialiser l'opposition de l'assuré à cette transmission vers son médecin traitant en cochant « Je m’oppose ». Il  n’apparaîtra pas sur la liste transmise à son médecin. \r\nVous pouvez matérialiser son changement d’avis et modifier son choix afin que son médecin accède à ces informations, en cochant « J’annule mon opposition ».\r\n\r\nNota :  L’opposition ne porte que sur cette transmission d’informations relatives au dépistage vers son médecin traitant. Elle ne concerne ni les messages d’information et de prévention de l’Assurance Maladie qui répondent à une obligation légale (L162-1-11), ni les invitations au dépistage adressées par les centres régionaux de coordination de dépistages des cancers (CRCDC) prévues dans les missions de ces derniers.",
+        "required": true,
+        "options": [
+          "Je m'oppose à la transmission de mes informations à mon médecin traitant",
+          "J'annule mon opposition à la transmission"
+        ],
+        "otherOption": false
+      }
+    ]
+  }
+}

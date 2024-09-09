@@ -1,0 +1,326 @@
+{
+  "number": 58643,
+  "title": "CD08 - Demande d'aide au permis de conduire - PDI",
+  "description": "Cette aide financière est mobilisée en faveur des bénéficiaires du RSA assujettis aux obligations d'accompagnement pour les soutenir dans leurs démarches d'insertion professionnelle. La demande n'est pas une aide mobilisable pour les bénéficiaires du RSA dont le permis a été retiré ou annulé.",
+  "tags": [
+    "Rsa"
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2022-04-27T15:18:39+02:00",
+  "service": {
+    "nom": "Service Orientation et Accompagnement vers l'Emploi",
+    "organisme": "Conseil départemental des Ardennes",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/aide-au-permis",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "www.cd08.fr",
+  "cadreJuridiqueUrl": "http://www.cd08.fr/",
+  "logo": {
+    "filename": "procedure-752d7aaf-e5f8-410f-96f8-90d705196376.jpg",
+    "checksum": "lz+0kxukKorCpKVnNRTMKg==",
+    "byteSize": "454169",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 248,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sectorisation",
+        "description": null,
+        "required": true,
+        "options": [
+          "Charleville",
+          "Rethel",
+          "Revin",
+          "Sedan"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Référence du dossier antérieur",
+        "description": "S'il s'agit d'une demande suite à une précédente demande d'aide au permis effectuée sur cette plateforme (validée ou non), indiquez le N° de dossier de la dernière demande.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Nature de la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de demande",
+        "description": "",
+        "required": true,
+        "options": [
+          "financement du code en auto-école à pédagogie adaptée",
+          "financement du code en auto-école classique",
+          "financement de la conduite en auto-école à pédagogie adaptée",
+          "financement de la conduite en auto-école classique",
+          "financement du code + de la conduite en auto-école à pédagogie adaptée",
+          "financement du code + de la conduite en auto-école classique",
+          "financement du code à distance (Packweb)",
+          "financement d'heures de perfectionnement conduite en auto-école à pédagogie adaptée",
+          "financement d'heures de perfectionnement conduite en auto-école classique"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Si heures de perfectionnement, indiquez le nombre d'heures demandées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Devis pour les demandes de financement en auto-école classique",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Orientation",
+        "description": "Secteurs d'intervention pour Assim'il et/ou Amie :\r\n<ul>\r\n<li>Charleville-Mézières</li>\r\n<li>Sedan</li>\r\n<li>Vouziers</li>\r\n<li>Rethel</li>\r\n<li>Revin</li>\r\n<li>Vireux-Molhain</li>\r\n<li>Givet</li>\r\n</ul>",
+        "required": true,
+        "options": [
+          "ASSIM'IL",
+          "AMIE"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Le bénéficiaire a-t-il déjà obtenu :",
+        "description": "",
+        "required": false,
+        "options": [
+          "Le permis B",
+          "Le code de la route il y a plus de 5 ans",
+          "Le code de la route il y a moins de 5 ans"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'obtention",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le bénéficiaire a-t-il déjà bénéficié d'une aide au permis ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, quel organisme ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification du bénéficiaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation familiale",
+        "description": "",
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Marié",
+          "Vie maritale / concubinage",
+          "Divorcé(e)",
+          "Séparé(e)",
+          "Veuf(ve)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° Allocataire (CAF / MSA)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° Pôle Emploi",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "N° de téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse email",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Structure du référent",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identité du référent (Prénom et Nom)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse email du référent",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Projet professionnel du bénéficiaire",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Motivation du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Argumentaire du référent",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Argumentaire du conseiller mobilité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Engagement et autorisation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Le bénéficiaire reconnait et accepte que toute absence non justifiée par un certificat médical, un contrat de travail ou toute autre attestation reconnue comme recevable entrainera l'annulation de la prise en charge financière de l'aide demandée ce jour.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Le bénéficiaire reconnait et accepte de respecter le règlement intérieur de l'auto-école solidaire et du présent dispositif. Tout manquement à ceux-ci entrainera une exclusion du dispositif et l'annulation de la prise en charge financière de l'aide demandée ce jour.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Le bénéficiaire reconnait et accepte qu'en cas d'annulation de la prise en charge financière de l'aide demandée ce jour, toute nouvelle demande pendant 2 ans lui sera refusée.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Le bénéficiaire est informé qu'en cas de manquement à ses engagements d'assiduité, de participation et de respect des règlements, il s'expose à une procédure de réduction de son RSA.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Conformément à la loi n°78-17 du 6 janvier 1978 modifiée relative à l’informatique, aux fichiers et aux libertés, toute personne peut obtenir communication et, le cas échéant, rectification ou suppression des informations la concernant en envoyant un courriel à soae@cd08.fr. En cochant la case, vous reconnaissez avoir informé l’ensemble des parties de ce droit, avoir recueilli leurs consentements pour la communication des informations les concernant.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "CV à jour (formations et expériences professionnelles)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TitreIdentiteChampDescriptor",
+        "label": "Pièce d'identité en cours de validité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si en emploi, contrat de travail",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si en formation, justificatif",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Diagnostic du conseiller mobilité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autres documents jugés utiles pour l'étude du dossier",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

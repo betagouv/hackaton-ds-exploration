@@ -1,0 +1,186 @@
+{
+  "number": 87680,
+  "title": "Demande de qualification d'un fournisseur d'identité pour FranceConnect ou FranceConnect+",
+  "description": "Vous souhaitez devenir fournisseur d'identité pour FranceConnect ou FranceConnect+ et vous avez déjà eu un premier contact avec l'équipe Produit /Distribution FranceConnect.\r\n\r\nL'étape suivante est de demander la qualification par l'équipe FranceConnect de l'intégration de votre FI. \r\n\r\nCette démarche vous permettra d'accéder à la production afin de pouvoir authentifier et identifier les usagers. Ils pourront ainsi accéder à leurs services au travers de FranceConnect ou de FranceConnect+.",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2024-05-15T17:36:46+02:00",
+  "service": {
+    "nom": "FranceConnect",
+    "organisme": "Direction interministérielle du numérique",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-qualification-fi-fc",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://partenaires.franceconnect.gouv.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037611479/",
+  "logo": {
+    "filename": "fc-logo.png",
+    "checksum": "iO2XAceINqgv1W1b8/XsmA==",
+    "byteSize": "17566",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 4,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur votre Fournisseur d'Identité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du Fournisseur d'Identité",
+        "description": "Renseignez ici le nom du Fournisseur d'Identité, tel qu'il apparaîtra aux utilisateurs FranceConnect",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Email du responsable technique",
+        "description": "Renseignez ici l'email de contact du responsable technique",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "FranceConnect ou FranceConnect+",
+        "description": "Indiquez ici si vous souhaitez que votre FI soit utilisé via FranceConnect ou FranceConnect+",
+        "required": true,
+        "options": [
+          "FranceConnect",
+          "FranceConnect+"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de mise en production prévisionnelle",
+        "description": "Indiquez ici la date de mise en production souhaitée de votre FI. Vous devez déposer votre demande de recette au minimum cinq semaines avant la date de mise en production prévisionnelle. \r\n\r\nCette date est donnée à titre d'information afin de permettre à l'équipe FranceConnect de s'organiser pour répondre au mieux à vos contraintes. Il ne s'agit en aucun cas d'un engagement de l'équipe FranceConnect sur le délai de traitement de votre dossier.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Niveau eIDAS",
+        "description": "Renseignez ici le niveau eIDAS de votre FI",
+        "required": true,
+        "options": [
+          "eidas1 - faible",
+          "eidas2 - substantiel",
+          "eidas3 - élevé"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Niveau eIDAS non compatible",
+        "description": "Attention, si le niveau eIDAS de votre FI n'est pas au minimum eidas2 - substantiel, vous ne pourrez pas utiliser FC+",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Logo",
+        "description": "Déposez ici le logo de votre fournisseur d'identité (format svg exclusivement)",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Recette précédente",
+        "description": "Votre FI a-t-il déjà fait l'objet d'une recette ?",
+        "required": true
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Lien de la précédente recette",
+        "description": "Si vous avez déjà effectué une demande de qualification de votre Fournisseur d'Identité qui n'a pas été validée, merci de nous l'indiquer en nous donnant la référence du dossier correspondant. Cela permettra à l'équipe FranceConnect de gagner du temps dans le traitement de votre nouvelle demande. ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre environnement de recette est il accessible sur internet ?",
+        "description": "Indiquez ici si votre environnement de recette est accessible sur internet. Si c'est le cas, la recette pourra être effectuée de manière autonome par l'équipe FranceConnect. Dans le cas contraire, l'équipe FranceConnect reviendra vers vous pour réaliser la recette.  ",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Cas de tests de votre service",
+        "description": "Indiquez ici les identités de tests à utiliser lors de la recette de votre FI et décrivez si besoin le résultat pour chaque identité. Renseigner avec précision les cas de recette permet d'accélérer le traitement de votre demande de qualification.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Identités à utiliser",
+            "description": "Indiquez ici les identités de test à utiliser",
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Description du cas d'usage",
+            "description": "Décrivez ici le cas d'usage que vous souhaitez couvrir",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations supplémentaires",
+        "description": "Indiquez ici toute information complémentaire qui pourrait être nécessaire à la réalisation de la qualification de votre FI",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Résultat de votre recette interne",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie que j'ai réalisé l'ensemble des tests de recette indiqués ci-dessous",
+        "description": "Préalablement à votre demande de qualification de votre FI, vous devez réaliser une recette interne de votre intégration à partir du cahier de recette disponible ci-dessous. Vous devez certifier avoir réalisé cette recette et certifier que vous considérez cette recette conforme aux critères indiqués dans ce cahier de recette. \r\n\r\nTout critère non respecté dans votre intégration de FranceConnect pourra amener à un refus de qualification de votre FI. ",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "1. Cinématique - Connexion",
+        "description": "L'usager peut se connecter à FranceConnect via le FI.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "1. Cinématique - Connexion",
+        "description": "L'usager peut se connecter à FranceConnect+ via le FI.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "2. Cinématique - Déconnexion",
+        "description": "Si la déconnexion du FI est disponible, elle doit être fonctionnelle",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "3. Gestion du retour vers FranceConnect",
+        "description": "L'abandon de la connexion via le lien \"Revenir sur\" doit être fonctionnel",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "3. Gestion du retour vers FranceConnect+",
+        "description": "L'abandon de la connexion via le lien \"Revenir sur\" doit être fonctionnel",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires recette interne",
+        "description": "Indiquez ici si vous avez des remarques particulières sur la recette interne que vous avez effectuée, notamment si vous considérez que certains critères ne s'appliquent pas pour votre FI. Dans ce cas, vous devez nous apporter une justification. ",
+        "required": false
+      }
+    ]
+  }
+}

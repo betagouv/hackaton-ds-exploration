@@ -1,0 +1,139 @@
+{
+  "number": 39564,
+  "title": "DDCSPP40 / IAHP / Décontamination Foyers 2020-21",
+  "description": "Plateforme pour Plans de décontamination des foyers  IAHP Landes : Echanges entre éleveurs, Chambre Agriculture 40 et DDCSPP40. ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2021-02-10T10:57:56+01:00",
+  "service": {
+    "nom": "40 / Services Vétérinaires - SPAE_Décontamination",
+    "organisme": "DDETSPP des Landes",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ddcspp40-iahp-decontamination-foyers-2020-21",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.landes.gouv.fr/service-veterinaire-sante-protection-animales-et-r891.html",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000017958300/",
+  "logo": {
+    "filename": "logo pref40.jpg",
+    "checksum": "R/+wAhJfhUVR/LsZXLTocw==",
+    "byteSize": "108897",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 2,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom / Raison sociale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du responsable",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse postale",
+        "description": "Numéro et libellé de la voie (ou lieu dit) CP Commune",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune du site concerné",
+        "description": "L'adresse de chaque site est à indiquer précisément sur le ou les plans aériens à joindre plus bas.",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone de l'éleveur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mél de l'éleveur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du groupement (le cas échéant)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du technicien groupement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Téléphone du technicien groupement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date D0",
+        "description": "Date considérée de fin de réalisation du D0",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date ND1",
+        "description": "Date considérée de fin de réalisation du ND1",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires si besoin",
+        "description": "Vous pouvez préciser, par exemple, les noms donnés aux différentes UP et/ou sites ; la répartition des différentes productions si production mixte...",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport Plan de décontamination",
+        "description": "A déposer en version texte, afin de pouvoir être amendé.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan aérien",
+        "description": "De type photo satellite\nUn plan par site (en précisant l'adresse et la commune)\nLocalisation des bâtiments et parcours avec numéros INUAV, bac équarrissage, fumier, silos, hangar, stockage paille... ",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autre pièce si nécessaire",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autre pièce si nécessaire",
+            "description": null,
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

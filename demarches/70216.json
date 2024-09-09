@@ -1,0 +1,970 @@
+{
+  "number": 70216,
+  "title": "Saisie administrative fiche RappelConso pour professionnel",
+  "description": "Saisie administrative fiche RappelConso pour professionnel",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique"
+  ],
+  "datePublication": "2023-04-05T18:05:46+02:00",
+  "service": {
+    "nom": "Unité d'alerte, DIRECTION GENERALE DE LA CONCURRENCE, DE LA CONSOMMATION ET DE LA REPRESSION DES FRAUDES (DGCCRF)",
+    "organisme": "DGCCRF, Ministère de l’Économie, des Finances et de la Souveraineté industrielle et numérique",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/saisie-administrative-fiche-rappelconso",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/saisie-administrative-fiche-rappelconso",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043038659",
+  "logo": {
+    "filename": "Image1.png",
+    "checksum": "O06oqP+eIW/gFdCQKEjUqA==",
+    "byteSize": "60050",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 38,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Enseigne",
+        "description": "Saisir l'enseigne de la société qui met en œuvre le rappel",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nature juridique du rappel",
+        "description": "Préciser la nature juridique du rappel. Celui-ci est \"Volontaire\" s'il est à l'initiative du professionnel ou \"Imposé\" s'il résulte d'une décision administrative ou de justice (exemple : arrêté préfectoral)",
+        "required": true,
+        "options": [
+          "Volontaire (sans arrêté préfectoral)",
+          "Imposé par arrêté préfectoral"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Statut de la société concernée par le rappel",
+        "description": "Préciser le statut de la société concernée par le rappel (plusieurs réponses possibles)",
+        "required": true,
+        "options": [
+          "Producteur ou fabricant",
+          "Distributeur",
+          "Centrale d'achat ou grossiste",
+          "Conditionneur ou reconditionneur",
+          "Importateur ou exportateur"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Catégorie de produit",
+        "description": "Choisir la catégorie du produit rappelé",
+        "required": true,
+        "options": [
+          "Alimentation",
+          "Automobiles et moyens de déplacement",
+          "Bébés / Enfants (hors alimentaire)",
+          "Hygiène / Beauté",
+          "Vêtements, mode, EPI",
+          "Sports / Loisirs",
+          "Maison / Habitat",
+          "Appareils électriques, Outils",
+          "Équipements de communication",
+          "Autres"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sous-catégories",
+        "description": "",
+        "required": true,
+        "options": [
+          "Additifs alimentaires",
+          "Alcool et vin",
+          "Aliments diététiques et nutrition",
+          "Aliments pour animaux domestiques",
+          "Aliments pour animaux d’élevage",
+          "Aliments pour bébés",
+          "Beurres d’origine végétale, graisses, margarines et huiles",
+          "Boissons non alcoolisées",
+          "Cacao, café, thé",
+          "Céréales et produits de boulangerie",
+          "Eaux",
+          "Escargots et grenouilles",
+          "Fruits et légumes",
+          "Herbes et épices",
+          "Laits et produits laitiers",
+          "Miel et gelée royale",
+          "Noix et graines",
+          "Œufs et produits à base d’oeufs",
+          "Plats préparés et snacks",
+          "Produits de la pêche et de l’aquaculture",
+          "Produits sucrés",
+          "Soupes, sauces et condiments",
+          "Viandes",
+          "Autres"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Additifs alimentaires",
+        "description": "",
+        "required": true,
+        "options": [
+          "Colorants",
+          "Conservateurs",
+          "Sulfites",
+          "Autres additifs"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Alcool et vin",
+        "description": "",
+        "required": true,
+        "options": [
+          "Vin",
+          "Bière",
+          "Cidre",
+          "Spiritueux",
+          "Autres"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Aliments diététiques et nutrition",
+        "description": "",
+        "required": true,
+        "options": [
+          "Compléments alimentaires",
+          "Nutrition spécialisée",
+          "Aliments diététiques destinés à des fins médicaux spéciaux",
+          "Autres aliments diététiques"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Aliments pour animaux domestiques",
+        "description": "",
+        "required": true,
+        "options": [
+          "Origine végétale exclusive",
+          "Présence d'ingrédients d'origine animale"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Aliments pour animaux d’élevage",
+        "description": "",
+        "required": true,
+        "options": [
+          "Origine végétale exclusive",
+          "Présence d'ingrédients d'origine animale",
+          "Additifs et pré-mélanges d’additifs"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Aliments pour bébés",
+        "description": "",
+        "required": true,
+        "options": [
+          "Laits infantiles en poudre",
+          "Laits infantiles liquide",
+          "Biscuits et gâteaux",
+          "Petits pots",
+          "Autres aliments pour bébés"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Beurres d’origine végétale, graisses, margarines et huiles",
+        "description": "",
+        "required": true,
+        "options": [
+          "Beurre végétal",
+          "Margarine",
+          "Huile végétale (huile d'olive, tournesol, colza etc.)",
+          "Autres"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Boissons non alcoolisées",
+        "description": "",
+        "required": true,
+        "options": [
+          "Jus de fruits et de légumes",
+          "Soda",
+          "Autres"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Cacao, café, thé",
+        "description": "",
+        "required": true,
+        "options": [
+          "Cacao, chocolats et produits de confiserie",
+          "Café",
+          "Thé",
+          "Autres"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Céréales et produits de boulangerie",
+        "description": "",
+        "required": true,
+        "options": [
+          "Céréales brutes",
+          "Farines",
+          "Riz et pâtes",
+          "Pain, biscottes, pâtisseries et viennoiseries",
+          "Autres"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Eaux",
+        "description": "",
+        "required": true,
+        "options": [
+          "Eaux minérales",
+          "Eaux de source",
+          "Eaux aromatisées"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Escargots et grenouilles",
+        "description": "",
+        "required": true,
+        "options": [
+          "Escargots",
+          "Grenouilles"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Fruits et légumes",
+        "description": "",
+        "required": true,
+        "options": [
+          "Produits bruts",
+          "Produits transformés"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Herbes et épices",
+        "description": "",
+        "required": true,
+        "options": [
+          "Produits bruts",
+          "Produits transformés"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Laits et produits laitiers",
+        "description": "",
+        "required": true,
+        "options": [
+          "Lait",
+          "Fromages",
+          "Crème et beurre d'origine animale",
+          "Yaourts, crèmes desserts, glaces",
+          "Produits laitiers autres (ex : kéfir, …)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Miel et gelée royale",
+        "description": "",
+        "required": true,
+        "options": [
+          "Miel",
+          "Gelée royale"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Noix et graines",
+        "description": "",
+        "required": true,
+        "options": [
+          "Produits bruts",
+          "Produits transformés"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Œufs et produits à base d’oeufs",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oeufs",
+          "Ovoproduits"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Produits de la pêche et de l’aquaculture",
+        "description": "",
+        "required": true,
+        "options": [
+          "Poissons",
+          "Crustacés",
+          "Mollusques bivalves vivants",
+          "Autres invertébrés (ex : oursins, concombres de mer, …)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Produits sucrés",
+        "description": "",
+        "required": true,
+        "options": [
+          "Sucre",
+          "Confiserie et produits sucrés",
+          "Autres"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Soupes, sauces et condiments",
+        "description": "",
+        "required": true,
+        "options": [
+          "Soupes",
+          "Sauces",
+          "Condiments",
+          "Autres"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Viandes",
+        "description": "",
+        "required": true,
+        "options": [
+          "Viandes fraîches",
+          "Viandes hachées et viandes pour haché",
+          "Préparations de viande",
+          "Produits à base de viande",
+          "Viandes séparées mécaniquement"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sous-catégories",
+        "description": "",
+        "required": true,
+        "options": [
+          "Automobiles, motos, scooters",
+          "Vélos, bicyclettes, vélos à assistance électrique",
+          "Engins de déplacement personnel",
+          "Autres moyens de déplacement",
+          "Pneus",
+          "Tous types d'accessoires"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sous-catégories",
+        "description": "",
+        "required": true,
+        "options": [
+          "Articles pour enfants et puériculture",
+          "Jouets",
+          "Matériels scolaires"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sous-catégories",
+        "description": "",
+        "required": true,
+        "options": [
+          "Cosmétiques",
+          "Produits d’hygiène (cotons, intime, papiers)",
+          "Dispositifs médicaux grand public",
+          "Produits de tatouage"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sous-catégories",
+        "description": "",
+        "required": true,
+        "options": [
+          "Vêtements, textiles, accessoires de mode",
+          "Bijouterie",
+          "Équipements de Protection Individuels"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sous-catégories",
+        "description": "",
+        "required": true,
+        "options": [
+          "Equipements de sports et de loisirs",
+          "Articles pyrotechniques",
+          "Gadgets"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sous-catégories",
+        "description": "",
+        "required": true,
+        "options": [
+          "Articles de décoration",
+          "Articles imitant les denrées alimentaires",
+          "Appareils à gaz",
+          "Appareils à pression",
+          "Mobilier",
+          "Papiers, cartons",
+          "Produits chimiques",
+          "Produits de construction",
+          "Matériel de cuisine (sauf électroménager)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sous-catégories",
+        "description": "",
+        "required": true,
+        "options": [
+          "Appareils électriques, électroménager",
+          "Machines",
+          "Outils à main"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sous-catégories",
+        "description": "",
+        "required": true,
+        "options": [
+          "Appareils laser",
+          "Briquets",
+          "Instruments de mesure",
+          "Divers"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Libellé du produit rappelé",
+        "description": "Saisir la dénomination du produit telle que figurant sur l'emballage, le conditionnement, tout affichage, présentation ou document destiné à la vente. Cette dénomination sera affichée comme titre de la fiche de rappel",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Marque du produit",
+        "description": "Saisir le nom de la marque commerciale figurant sur l'emballage ou le conditionnement du produit.\r\nAttention : vous ne devez saisir qu'une seule marque par fiche de rappel. Si votre rappel porte sur plusieurs noms de marques, saisissez autant de fiches de rappel que de noms de marques. Si le produit ne comporte pas de marque (exemple : produit vendu à la découpe ou en vrac), saisissez \"Sans marque\" et assurez-vous que le libellé du produit saisi au champ précédent est suffisamment clair pour les consommateurs (exemple : Céréales en vrac, Pâté en croute vendu à la tranche au rayon traiteur-charcuterie, etc.)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Noms des modèles ou références concernés",
+        "description": "Saisir les noms des modèles ou des références concernées.\r\nAttention : ces noms et modèles doivent tous relever de la même marque commerciale. Si votre rappel porte sur plusieurs marques de produits, saisissez autant de fiches de rappel que de noms de marques",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Marque de salubrité",
+        "description": "A saisir si le produit présente une marque de salubrité (marque ovale)",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Température de conservation",
+        "description": "Préciser la température de conservation du produit",
+        "required": false,
+        "options": [
+          "Produit à conserver à température ambiante",
+          "Produit à conserver au réfrigérateur",
+          "Produit à conserver au congélateur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Identification des produits",
+        "description": "Ces champs permettent d'identifier précisément les sous-ensembles de la production qui sont concernés par le rappel. Vous pouvez saisir plusieurs sous-ensembles de production. Si tous les lots sont concernés, marquer « tous » dans les numéros de lots. ",
+        "required": false,
+        "options": [
+          "GTIN",
+          "N° de lot",
+          "Type de date",
+          "Date ou période"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "GTIN",
+        "description": "Saisir le code article international (Global Trade Item Number) du produit. ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "N° de lot",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de date",
+        "description": "(DLC/DDM/DCR ou N/A)",
+        "required": true,
+        "options": [
+          "DLC",
+          "DDM",
+          "DCR",
+          "N/A"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "DLC",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "DDM",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "DCR",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Date ou période",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Liste des produits",
+        "description": "",
+        "required": false,
+        "options": [
+          "Les écrire manuellement",
+          "Insérer une pièce jointe sous format pdf"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Liste des produits",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Liste des produits",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Photos du produit",
+        "description": "Ajouter 1 à 5 photos au format JPEG permettant aux consommateurs d'identifier le produit. La première image sera celle présente sur l’affichette. ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations complémentaires permettant d’identifier le produit",
+        "description": "Saisir des informations complémentaires permettant d'identifier le produit",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Conditionnements",
+        "description": "Saisir des informations complémentaires sur les conditionnements du produit ( exemples : barquette plastique, pot de verre, sachet, brique, bouteille, emballage sous-vide, etc.) et les formats concernés (exemples : 100g, 250ml, etc.)",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début de commercialisation",
+        "description": "Préciser la date du début de la mise en vente des lots concernés",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de fin de commercialisation",
+        "description": "Préciser la date de fin de la mise en vente des lots concernés",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Origine du produit",
+        "description": "Préciser la zone géographique d'origine du produit",
+        "required": false,
+        "options": [
+          "France",
+          "UE",
+          "Non UE",
+          "Non précisée"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Zone géographique de vente",
+        "description": "Préciser la zone géographique de vente du produit",
+        "required": true,
+        "options": [
+          "France entière",
+          "Régionale",
+          "Départementale",
+          "Locale"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Régionale",
+        "description": "Indiquer région(s)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Départementale",
+        "description": "Indiquer département(s)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Locale",
+        "description": "Saisie libre",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Distributeurs concernés",
+        "description": "Préciser la liste des enseignes concernées par la distribution du produit",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Liste des points de vente",
+        "description": "Lorsque celle-ci est disponible, joignez une liste au format PDF des points de vente des produits concernés",
+        "required": false,
+        "options": [
+          "Les écrire manuellement",
+          "Insérer une pièce jointe sous format pdf"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Liste des points de vente",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Liste des points de vente",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Motif du rappel",
+        "description": "Saisir le motif du rappel",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Risques encourus par le consommateur",
+        "description": "Préciser tous les risques encourus par le consommateur (plusieurs cases possibles)",
+        "required": true,
+        "options": [
+          "Alimentaire",
+          "Non alimentaire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Alimentaire",
+        "description": "",
+        "required": true,
+        "options": [
+          "Additifs",
+          "Allergènes",
+          "Compléments alimentaires",
+          "Contaminants chimiques",
+          "Contaminants biologiques",
+          "Migration de composants (matériau au contact des denrées alimentaires)",
+          "Présence d’un corps étranger",
+          "Présence de pesticides / produits phytosanitaires",
+          "Risques microbiologiques",
+          "Autres risques alimentaires"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Additifs",
+        "description": "",
+        "required": true,
+        "options": [
+          "Additifs et arômes non autorisés",
+          "Additifs et arômes dépassement des seuils de sécurité"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Allergènes",
+        "description": "",
+        "required": true,
+        "options": [
+          "Substances allergisantes non déclarées"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Compléments alimentaires",
+        "description": "",
+        "required": true,
+        "options": [
+          "Présence de substance interdite"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Contaminants chimiques",
+        "description": "",
+        "required": true,
+        "options": [
+          "Aflatoxines",
+          "Datura (alcaloïdes tropaniques)",
+          "Dioxines PolyChloroBiphényles",
+          "Éléments traces métalliques (métaux lourds : plomb, mercure, cadmium...)",
+          "Hydrocarbures aromatiques Polycycliques",
+          "Patuline",
+          "Résidus de médicaments vétérinaires",
+          "Substances interdites (au sens du Règlement UE 37/2010)",
+          "Autres contaminants chimiques"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Contaminants biologiques",
+        "description": "",
+        "required": true,
+        "options": [
+          "Bacillus cereus",
+          "Brucella spp (agent responsable de la brucellose)",
+          "Campylobacter spp (agent responsable de la campylobactériose)",
+          "Clostridium botulinum (agent responsable du botulisme)",
+          "Clostridium perfringens",
+          "Escherichia coli",
+          "Escherichia coli shiga toxinogène (STEC)",
+          "Listeria monocytogenes (agent responsable de la listériose)",
+          "Norovirus",
+          "Pseudomonas",
+          "Salmonella spp (agent responsable de la salmonellose)",
+          "Staphylococcus aureus (agent responsable d'intoxination staphylococcique)",
+          "Vibrio parahaemolyticus",
+          "Vibrio vulnificus",
+          "Virus de l'Hépatite A",
+          "Virus de l'Hépatite E",
+          "Autres contaminants biologiques"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Migration de composants (matériau au contact des denrées alimentaires)",
+        "description": "",
+        "required": true,
+        "options": [
+          "Dépassement de seuils de sécurité"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Présence d’un corps étranger",
+        "description": "",
+        "required": true,
+        "options": [
+          "Inertes (verre, métal, plastique, papier, textile…)",
+          "Non inertes (insectes larves etc)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Présence de pesticides / produits phytosanitaires",
+        "description": "",
+        "required": true,
+        "options": [
+          "Produits phytosanitaires non autorisés",
+          "Dépassement des limites autorisées de pesticides"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Risques microbiologiques",
+        "description": "",
+        "required": true,
+        "options": [
+          "Biotoxines marines ASP (toxines amnésiantes)",
+          "Biotoxines marines DSP (toxines diarrhéiques)",
+          "Biotoxines marines PSP (toxines paralysantes)",
+          "Ciguatoxines",
+          "Parasites des viandes bovines (Téniasis)",
+          "Parasites de viandes d'équidés et suidés, porc, sanglier, (ex : Trichinella)",
+          "Parasites des poissons / céphalopodes marins (ex : Anisakis, Pseudoterranova)",
+          "Parasites des poissons d'eau douce (ex : Diphyllobothrium latum)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Autres risques alimentaires",
+        "description": "",
+        "required": true,
+        "options": [
+          "Anomalie d'étiquetage",
+          "Défaut de fabrication, défaut d'étanchéité (ex: micro fuites, thermoscellage défectueux) ou anomalies de conditionnement",
+          "Présence OGM",
+          "Prion (ex: carcasse bovin ou petit ruminant mal démédullée)",
+          "Modifications organoleptiques",
+          "Radionucléides",
+          "Toxines endogènes : histamine (poissons, fromages, boissons alcoolisées, charcuteries)",
+          "Autre risque"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Non alimentaire",
+        "description": "",
+        "required": true,
+        "options": [
+          "Arrêt respiratoire",
+          "Blessures externes",
+          "Choc électrique",
+          "Dommages internes",
+          "Incendie",
+          "Intoxication",
+          "Risque environnemental"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Descriptif complémentaire du risque",
+        "description": "Préciser le cas échéant les dangers spécifiques susceptibles de porter une atteinte grave à la santé des consommateurs",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Conduite à tenir par le consommateur",
+        "description": "Préciser la conduite à tenir par le consommateur (plusieurs cases possibles)",
+        "required": true,
+        "options": [
+          "Ne plus consommer",
+          "Ne plus utiliser le produit",
+          "Rapporter le produit au point de vente",
+          "Contacter le point de vente",
+          "Contacter le service consommateur",
+          "Détruire le produit"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de contact",
+        "description": "Saisir un numéro de téléphone auprès duquel le consommateur peut obtenir des précisions sur le rappel",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Modalités de compensation",
+        "description": "Préciser les modalités de compensation proposées au consommateur pour ce rappel (plusieurs cases possibles)",
+        "required": true,
+        "options": [
+          "Remboursement",
+          "Échange",
+          "Réparation",
+          "Autre (voir informations complémentaires)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de fin de procédure",
+        "description": "Saisir la date de fin de la procédure du rappel",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations complémentaires publiques",
+        "description": "Saisir toute information complémentaire utile. Ces informations seront visibles par le public.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations complémentaires non-publiques à destination uniquement de l'Administration",
+        "description": "Saisir toute information complémentaire utile pour l'administration. Ces informations ne seront pas visibles par le public.",
+        "required": false
+      }
+    ]
+  }
+}

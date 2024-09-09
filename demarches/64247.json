@@ -1,0 +1,946 @@
+{
+  "number": 64247,
+  "title": "ARS Bretagne - DAH - ReLabellisation Structures Douleur Chronique  - 2022",
+  "description": "Cette démarche permet à un établissement de santé de déposer sa candidature pour le renouvellement de labellisation des structures de prise en charge de la douleur chronique. ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-09-23T18:22:27+02:00",
+  "service": {
+    "nom": "Direction adjointe Hospitalisation",
+    "organisme": "ARS Bretagne",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ars-bretagne-relabellisation-sdc-2022",
+  "dpoUrl": "ars-bretagne-cil@ars.sante.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/test/30ef6022-b1ff-4d5b-afcf-68de236ab142",
+  "cadreJuridiqueUrl": "https://portail.tessadoc.social.gouv.fr/userfiles/files/public/2022_191.pdf",
+  "logo": {
+    "filename": "ARS_LOGOS_bretagne.jpg",
+    "checksum": "bfszG/gqJ4IafAPX5i02hA==",
+    "byteSize": "40934",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "Guide utilisateur ARS Bretagne SDC.pdf",
+    "checksum": "LC1oxJepgRRfz79RQMm4tw==",
+    "byteSize": "436715",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Type de SDC",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Consultation ou centre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "La SDC est-elle de type centre ou consultation ?",
+        "description": "Les SDC de type consultation doivent satisfaire aux critères communs du cahier des charges numérotés 1 à 17.\r\nLes SDC de type centre doivent satisfaire aux critères communs du cahier des charges et aux critères supplémentaires numérotés de 18 à 21.\r\n",
+        "required": true,
+        "options": [
+          "Centre",
+          "Consultation"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "S’il s’agit d’un centre, précisez les spécialités médicales différentes représentées.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Polyvalence ou spécialisation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "La SDC est-elle polyvalente ou bien spécialisée (oncologique ou pédiatrique) ou bien référente pour l’endométriose ?",
+        "description": "Les SDC spécialisées doivent satisfaire aux critères supplémentaires 22 et aux critères 23 à 28 pour les SDC oncologiques et aux critères 29 à 30 pour les SDC exclusivement pédiatriques et 31 à 32 pour les SDC accueillant des enfants mais non exclusives.",
+        "required": true,
+        "options": [
+          "Polyvalente",
+          "Spécialisée oncologique",
+          "Spécialisée pédiatrique",
+          "Mixte adulte/enfant",
+          "Référente endométriose"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Données d’activité 2021 de la SDC (centre ou consultation)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Hospitalisation - données d’activité 2021 : hospitalisation pour douleur chronique, y compris hospitalisations de jour et ambulatoires. Ces données sont disponibles dans le PMSI (GHM douleur chronique rebelle, unité médicale 61).",
+        "description": "\r\n",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de séjours",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de patients distincts hospitalisés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Consultations",
+        "description": "Données d’activité 2022 : activité de consultation. La file active est le nombre de patients distincts vus au moins une fois dans l’année. Les consultations de psychiatres ou de psychologues sont à comptabiliser ensemble pour refléter la prise en charge psychologique. ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Délai d’attente pour une première consultation",
+        "description": "Indiquer ici le délai d’attente moyen pour une première consultation dans votre SDC (préciser si en jours, semaines ou mois)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Critères communs à toutes les SDC (centre ou consultation)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "1. Rattachement à un établissement de santé",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Raison sociale et adresse de l’établissement de santé de rattachement de la structure, qui reçoit la MIG",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Finess juridique de l’établissement de rattachement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Finess géographique du site de la structure",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Type d’établissement (MCO, CLCC, CHS…)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de lits de l’ES de rattachement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "2. Locaux de la SDC",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse physique du site de la structure",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les locaux de la SDC sont-ils regroupés ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Au moins deux demi-journées par semaine, l’accès simultané, sur le même site, à deux salles de consultation est-il possible ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "3. Organisation d’une ou des permanence(s) avancée(s) rattachée(s) à la SDC",
+        "description": "Si la SDC organise des permanences avancées elle remplit le tableau en PJ.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Merci de joindre les attestations de formation.",
+        "description": "(Un seul document PDF pouvant contenir plusieurs attestations de formation)",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation de formation",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "La SDC fournit à l’ARS, les copie(s) des conventions passées avec les sites accueillant les permanences avancées.",
+        "description": "(Un seul document PDF pouvant contenir plusieurs conventions)",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Convention(s) passée(s) avec le(s) site(s) accueillant les permanences avancées.",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "4. Organisation de l’accueil téléphonique au sein de la SDC",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Accueil téléphonique dédié de la structure",
+        "description": "Numéro dédié :",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Mail de contact dédié de la structure",
+        "description": "Mail de contact :",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Jours et horaires d’ouverture de la SDC",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Jours et horaires d’ouverture de l’accueil téléphonique",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les modalités d’accueil téléphonique mises en place hors des heures d’ouverture de la SDC (répondeur, renvoi vers une SDC tierce…)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "La SDC fournit à l’ARS, la procédure d’accueil formalisée pour les nouveaux patients.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "5. Organisation des prises en charge prioritaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "La SDC fournit à l’ARS, la procédure formalisée d'organisation des prises en charge prioritaires décrivant les modalités de mise en œuvre (exemples : plages horaires dédiées à la PEC des urgences ; dispositif coupe-file…).",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "6. Responsabilité médicale de la SDC et temps consacré à la SDC",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM, Prénom du médecin responsable",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Type de diplôme « douleur » obtenu",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie du diplôme à fournir",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d’obtention du diplôme",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Quantité de demi-journées assignées par le médecin responsable à sa SDC",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "La SDC fournit à l’ARS, le CV et/ ou la fiche de poste du médecin responsable de la SDC.",
+        "description": "(Un seul document PDF pouvant contenir plusieurs documents, CV et fiche de poste)",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "CV et/ou fiche de poste du médecin responsable de la SDC.",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "7. Temps cumulé du personnel médical (PM) de la SDC",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Temps médical cumulé (total) consacré à la SDC, en équivalent-temps plein (ETP)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "La SDC fournit à l’ARS, les fiche(s) de poste indiquant la quotité de travail du personnel médical",
+        "description": "(Un seul document PDF pouvant contenir plusieurs fiches de poste)",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Fiche(s) de poste indiquant la quotité de travail du personnel médical",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "8. Temps cumulé du personnel non médical (PNM) de la SDC",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Remplir le tableau en PJ : Temps cumulé du PNM de la SDC",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "La SDC fournit à l’ARS, les CV ou attestations de formation du personnel non médical et les fiche(s) de poste indiquant la quotité de travail du personnel non médical.",
+        "description": "(Un seul document PDF pouvant contenir CV/ Attestations de formation)",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "CV ou attestation(s) de formation du personnel non médical etfiche(s) de poste indiquant la quotité de travail du personnel non médical.",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "9. Fraction du personnel affectée en propre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Remplir le tableau en PJ : fraction du personnel affectée en propre",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "10. Activité annuelle",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de consultations médicales externes réalisées en 2022",
+        "description": "(500 consultations minimum pour une SDC de type consultation\r\n1000 consultations minimum pour une SDC de type centre. Les SDC exclusivement pédiatriques ne sont pas concernées par ces seuils).\r\n",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "11. Activités internes dans l’ES de rattachement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de consultations médicales de patients internes hospitalisés vus par la SDC",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nombre et description des actions réalisées par la SDC en interne hors prise en charge (avis, formation, protocoles…)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "12. Activités en lien avec les correspondants libéraux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quelles sont les modalités de coordination  avec les professionnels correspondants libéraux (médecins traitants notamment) concernant la transmission des informations sur la prise en charge des patients (messagerie sécurisée, compte-rendu, lettre de liaison, courrier...) ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "13. Activités en lien avec l’extérieur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quelles ont été en 2022 les actions d’information/communication réalisées vers les usagers ou les professionnels de santé notamment de ville ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "La SDC  est-elle en relation avec des associations de patients et lesquelles ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "14. Réalisation de RSP",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de cas discutés en réunion de synthèse pluriprofessionnelle en 2021.",
+        "description": "Les cas discutés de façon pluriprofessionnelle en HDJ sont pris en compte. \r\n\r\nSi la situation du patient est examinée à plusieurs reprises successives au cours de différentes réunions de synthèse, il s’agit de plusieurs cas.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Comment ces réunions sont-elles formalisées et tracées ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fréquence des réunions de synthèse pluriprofessionnelle",
+        "description": "(Pour les centres a minima bimensuelle\r\nPour les consultations a minima mensuelle)\r\n",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "15. Réalisation de RCP",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de cas présentés en RCP en 2022",
+        "description": "Si la situation du patient est examinée à plusieurs reprises successives au cours de différentes RCP, il s’agit de plusieurs cas.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La SDC organise-t-elle des RCP ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La SDC a-t-elle accès aux avis d’une RCP extérieure ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, organisée par quelle SDC ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "16. Avis spécialisés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Remplir le tableau en PJ: Avis spécialisés",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "17. Accès à une assistante sociale",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les modalités d’accès à une assistante sociale pour les patients le nécessitant (au sein de l’établissement  ou hors ES)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "En cas d’accès hors établissement, la SDC fournit à l’ARS, la copie de la convention précisant les modalités d’organisation",
+        "description": "(Un seul document PDF pouvant contenir plusieurs conventions)",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Convention",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Critères supplémentaires relatifs aux SDC de type centre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "18. Fréquence des RCP",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les modalités d’organisation de la ou des RCP mises en place",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Nombre de sessions de RCP organisées en 2021",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Disciplines médicales représentées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "19. Accès à des lits et un plateau technique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La SDC a-t-elle accès à des lits ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Si oui, combien en propre ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Si oui, combien mis à disposition ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La SDC a-t-elle accès à un plateau technique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, de quel type (explorations fonctionnelles, radiologie interventionnelles, bloc opératoire…) ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "20. Activités d’enseignement universitaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Liste des enseignements universitaires initiaux et/ou post universitaires en faculté de médecine auxquels la SDC participe",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "21. Activités de recherche",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Publications référencées dans les 5 dernieres années",
+        "description": "Nombre et intitulés des publications",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Participations comme investigateur à des projets de recherche clinique acceptés par un CPP dans les 5 dernières années",
+        "description": "Nombre et intitulés des projets",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Critères supplémentaires pour les SDC spécialisées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "22. SDC spécialisée (pédiatrie, oncologie)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "La SDC fournit la procédure d’ accueil privilégié (consultations ou avis d'expert) pour les patients suivis par les autres SDC polyvalentes",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SDC spécialisées en oncologie",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "23. Accès au dossier oncologique partagé du patient",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les modalités d’accès au dossier oncologique partagé du patient",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "24. Accès en urgence des patients en consultation d’oncologie",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "La SDC fournit à l’ARS, la procédure d'accès en urgence des patients vus en consultation d’oncologie",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "25. Accès à une RCP dédiée aux douleurs du cancer",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les modalités d’organisation de la RCP",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre des session de RCP réalisées en 2021",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Spécialités médicales représentées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autres disciplines de soins de support représentées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "26.\tAccès aux techniques interventionnelles radiologiques, techniques",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Modalités d’accès aux techniques interventionnelles radiologiques,  techniques dans l’ES de rattachement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Modalités d’accès hors établissement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "La SDC fournit à l’ARS la convention d'accès hors établissement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "27.\tExpérience clinique du responsable de la SDC oncologique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Justifier de 6 mois dans un service d’oncologie médicale ou de 6 mois à travailler régulièrement en coopération avec un oncologue (procédure interne) et participer aux RCP douleur oncologique.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "La SDC fournit à l’ARS, le CV du responsable médical de la SDC oncologique.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "28.\tParticipation à des actions sur la douleur du cancer",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Liste des actions réalisées au cours des  3 dernières années",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "La SDC peut fournir à l’ARS, les attestations de présence aux formations, la copie des articles publiés par exemple.",
+        "description": "(Un seul document PDF pouvant contenir plusieurs attestations de présence aux formations et/ou copie des articles publiés)",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestation(s) de présence aux formations et/ou copie des articles publiés",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SDC spécialisées exclusivement pédiatriques",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "29.\tDouble valence des personnels médicaux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Justifier la Valence douleur du responsable médical de la SDC (DESC médecine de la douleur et médecine palliative, ou Capacité évaluation et traitement de la douleur, ou FST et 2éme année Capacité douleur ou FST et DIU douleur de l’enfant)",
+        "description": "La SDC fournit les CV ou attestations de formation du responsable médical de la SDC \r\n(Un seul document PDF pouvant contenir plusieurs CV et/ou attestations de formation)",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "CV et/ou attestation(s) de formation",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Justifier la Valence pédiatrique du responsable médical de la SDC (DES de pédiatrie ou expérience en médecine de l'enfant et de l'adolescent d'au moins 3 ans  temps plein, ou durée équivalente à temps partiel)",
+        "description": "La SDC fournit les CV ou attestations de formation douleur du responsable médical de la SDC \r\n(Un seul document PDF pouvant contenir plusieurs CV et/ou attestations de formation)",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "CV et/ou attestation(s) de formation",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Justifier la double valence pour les autres personnels médicaux, hors responsable de la structure",
+        "description": "Valence douleur : DIU douleur de l’enfant (en cours ou acquis dans les 2 premières années d’exercice)\r\n\r\nValence pédiatrique : DES de pédiatrie ou expérience en médecine de l'enfant et de l'adolescent d'au moins 3 ans temps plein, ou durée équivalente à temps partiel\r\n\r\n",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "La SDC fournit les CV ou attestations de formation des autres personnels médicaux de la structure",
+        "description": " (Un seul document PDF pouvant contenir plusieurs CV et/ou attestations de formation)",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "CV et/ou attestation(s) de formation",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "30.\tRéalisation de RCP",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les modalités de réalisation et de la RCP",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de sessions de RCP organisées en 2021",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SDC mixtes adultes-enfants",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "31.\tDouble valence du personnel médical prenant en charge les enfants",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Justifier la double valence du personnel médical prenant en charge les enfants",
+        "description": " - Valence douleur (DESC médecine de la douleur et médecine palliative, ou Capacité évaluation et traitement de la douleur ou FST ou DU douleur enfant)\r\n\r\n- Valence pédiatrique (DES de pédiatrie ou expérience en médecine de l'enfant et de l'adolescent d'au moins 1 an temps plein (ou durée équivalente à temps partiel).\r\n\r\nLa SDC fournit les CV ou attestations de formation des personnels médicaux de la structure prenant en charge les enfants (Un seul document PDF pouvant contenir plusieurs CV et/ou attestations de formation)",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "CV et/ou attestation(s) de formation",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Modalités de collaboration clinique avec les services de pédiatrie de l’hôpital ou de la région",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "32.\tRéalisation de RCP mixtes",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrire les modalités de participation des SDC adultes aux RCP mixtes",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de sessions de RCP mixtes 2021",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Eléments complémentaires si nécessaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Eléments nouveaux ou remarques que vous n'avez pas pu inclure dans les items précédents",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Fichiers que vous n'avez pas pu inclure dans les items précédents",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Fichier n°1",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le présent dossier est à compléter avant le 31 octobre 2022",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

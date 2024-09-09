@@ -1,0 +1,305 @@
+{
+  "number": 56433,
+  "title": "Organisation des plateformes de commande de transports sanitaires",
+  "description": "Enquête permettant d'établir un état des lieux sur les plateformes de commande de transports dans les établissements de santé de la région Hauts-de-France",
+  "tags": [
+    "Transport"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-06-07T10:44:25+02:00",
+  "service": {
+    "nom": "Direction de l'Offre de Soins",
+    "organisme": "Agence Régionale de Santé",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/organisation-des-pft",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": ".",
+  "cadreJuridiqueUrl": "www.legifrance.fr",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 42,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Présentation de l'établissement",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de l'établissement",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "N° finess géographique",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Ville de l'établissement",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Appartenance de l'établissement à un GHT ou un groupe ? Préciser son nom",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Coordonnées des référents transport au sein de l'établissement (Nom Prénom, fonction, adresse mail)",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Votre établissement dispose-t-il d'une plateforme de commande de transport ?",
+            "description": null,
+            "required": true,
+            "options": [
+              "Oui, logiciel interne à l'établissement",
+              "Oui, logiciel externe (prestataire)",
+              "Non, mais le projet est en cours de développement",
+              "Non et ce n'est pas prévu pour le moment"
+            ]
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "L'établissement est-il doté de salons de sortie ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Si oui, ou sont-ils situés ?",
+            "description": "",
+            "required": false,
+            "options": [
+              "A l'accueil, salons de sortie mutualisés ",
+              "Service de consultations externes",
+              "Service de chirurgie ambulatoire",
+              "Service de dialyse - chimiothérapie",
+              "Service des urgences",
+              "Autres"
+            ]
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Déploiement de la plateforme de commande de transport",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Quel est le nom de cette plateforme et de son éditeur le cas échéant ?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Quelle est l'année de mise en place de la plateforme de commande de transport ?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Dans quel service au sein de l'établissement, la plateforme est-elle déployée à ce jour ?",
+            "description": null,
+            "required": false,
+            "options": [
+              "L'ensemble des services de l'établissement",
+              "Service de consultations externes",
+              "Service de chirurgie ambulatoire",
+              "Service de dialyse - chimiothérapie",
+              "Service des urgences",
+              "Autres"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Dans le cas où la PFT est déjà complétement déployée, pouvez-vous nous indiquer une estimation du temps de déploiement ?des services?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Si la PFT n'est pas utilisée pour l'ensemble des transports, envisagez-vous une extension du périmètre ?",
+            "description": null,
+            "required": false,
+            "options": [
+              "Oui",
+              "Non, mais nous y travaillons",
+              "Non et ce n'est pas prévu pour le moment"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "A quelle échéance pensez-vous finaliser le déploiement de la PFT sur l'ensemble des services ?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "La plateforme de commande de transport est-elle en lien avec la gestion des lits en interne ?",
+            "description": "",
+            "required": false,
+            "options": [
+              "Oui",
+              "Non, mais nous y travaillons",
+              "Non, ce n'est pas prévu pour le moment"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "La plateforme de commande de transport est utilisée pour gérer les transports",
+            "description": null,
+            "required": false,
+            "options": [
+              "Relevant de l'article 80 uniquement (inter-intra hospitaliers)",
+              "Hors article 80 uniquement",
+              "Les deux (l'ensemble des transports prescrits par l'hôpital)"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "La plateforme de commande de transport est-elle étendue au GHT (établissement public) ou au niveau groupe (établissement privé) ?",
+            "description": null,
+            "required": false,
+            "options": [
+              "Oui",
+              "Non, mais c'est en cours de développement",
+              "Non, extension non envisagée"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Un comité de suivi de la plateforme est-il organisé ? (Comité comprenant des représentants de l'établissement, des autorités de tutelle, des transporteurs (VSL, taxi, Ambulance), etc.)",
+            "description": null,
+            "required": false,
+            "options": [
+              "Oui, une fois par an",
+              "Oui deux fois par an",
+              "Oui, plus de deux fois par an",
+              "Non mais c'est en cours de mise en place",
+              "Non et ce n'est pas prévu"
+            ],
+            "otherOption": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Descriptif des fonctionnalités de la plateforme",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Avez-vous rencontré des difficultés pour établir le tour de rôle et son paramétrage ?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Comment fonctionne votre PFT ?",
+            "description": null,
+            "required": false,
+            "options": [
+              "Gestion par appels téléphoniques (cellule de régulation)",
+              "Sollicitation par SMS des transporteurs",
+              "Sollicitation par mail des transporteurs",
+              "Application mobile"
+            ]
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "La PFT permet-elle de géolocaliser les transporteurs sanitaires ?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Est-ce que votre logiciel de gestion de la PFT intègre le service SPEI (Service de Prescription Electronique intégré) ?",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Bilan du déploiement de la PFT",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "La mise en place de la PFT a-t-elle facilitée la continuité des réponses des transporteurs sanitaires / taxis la nuit ?",
+            "description": null,
+            "required": false,
+            "options": [
+              "Oui",
+              "Non"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "La mise en place de la PFT a-t-elle facilitée la continuité des réponses des transporteurs sanitaires / taxis les week-end et jours fériés ?",
+            "description": null,
+            "required": false,
+            "options": [
+              "Oui",
+              "Non"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "La mise en place de la PFT a-t-elle facilitée la continuité des réponses des transporteurs sanitaires / taxis pour les transports bariatriques / TPMR (personne à mobilité réduite) ?",
+            "description": null,
+            "required": false,
+            "options": [
+              "Oui",
+              "Non"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "La mise en place de la PFT a-t-elle eu une incidence sur la qualité de la relation entre l'établissement de santé et les transporteurs sanitaires / taxis ? Préciser",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Des formations annuelles à l'utilisation de la PFT sont-elles proposées ?",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Quel bilan faites-vous depuis la mise en place de la PFT ? Merci de citer les points positifs et négatifs",
+            "description": null,
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

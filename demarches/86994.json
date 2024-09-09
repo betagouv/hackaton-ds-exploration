@@ -1,0 +1,189 @@
+{
+  "number": 86994,
+  "title": "Transporteur sanitaire - Mise à jour",
+  "description": "Ce formulaire en ligne permet au transporteur sanitaire des Pyrénées-Orientales de transmettre les justificatifs obligatoires en cas de changement de situation.",
+  "tags": [
+    "Professionnels de santé"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2024-01-08T13:08:35+01:00",
+  "service": {
+    "nom": "Caisse Primaire d'Assurance Maladie des Pyrénées-Orientales",
+    "organisme": "CPAM",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fichier-ps-transporteur-sanitaire-mise-a-jour-2",
+  "dpoUrl": "dpo.cpam-pyrenees-orientales@assurance-maladie.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://declic.cpam66.fr/",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/   ",
+  "logo": {
+    "filename": "Logo_AM_Des_PO.png",
+    "checksum": "NwzN0VyY1NENkmzU+ejkiw==",
+    "byteSize": "19704",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 35,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° assurance maladie",
+        "description": "Référence qui nous permet de vous identifier lors de la facturation\nNuméro composé de 9 caractères",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale",
+        "description": "Telle que précisé sur votre KBIS",
+        "required": true
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Dans quel département est située votre entreprise ?",
+        "description": "Indiquez le numéro du département",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Adresse :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vos pièces justificatives :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Kbis",
+        "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Référentiel national des transporteurs sanitaires complété",
+        "description": "Merci de déposer ici le référentiel national des transporteurs sanitaires complété \nTous les formats sauf Office (xls, doc, ppt, pps)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document officiel précisant la date à laquelle a eu lieu la cession de parts (pour les sociétés)",
+        "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pour chaque véhicule :",
+        "description": "Si vous avez plusieurs véhicules, cliquer sur (+  Ajouter un élément pour « Pour chaque véhicule  : » )",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Carte grise",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Autorisation ou fiche DTARS",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pour chaque conducteur :",
+        "description": "Si vous avez plusieurs conducteurs, cliquer sur (+  Ajouter un élément pour « Pour chaque conducteur : » )",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Si ce conducteur exerce dans plusieurs de vos sociétés, merci d'indiquer les N° d'assurance maladie des sociétés concernées et la raison sociale",
+            "description": "Exemple : \n502XXXXXX Ambulance A\n502XXXXXX Ambulance B",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Permis de conduire",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Diplôme(s)",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Contrat de travail",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie de l'état nominatif du personnel adressé à l'ARS ou fiche DTARS",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Carte de visite médicale délivrée par la Préfecture (si fiche DTARS non fournie)",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Carnet de vaccination complet et à jour (si fiche DTARS non fournie).",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Engagement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, je certifie conforme les saisies et je signe ma déclaration.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Fait à :",
+        "description": "Indiquez la commune",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Le :",
+        "description": "Format  jj/mm/aaaa",
+        "required": true
+      }
+    ]
+  }
+}

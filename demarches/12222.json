@@ -1,0 +1,480 @@
+{
+  "number": 12222,
+  "title": "Service sanitaire: recueil d'information par étudiant",
+  "description": "L'objectif de ce questionnaire est double : \r\nrecueillir des informations factuelles sur le déroulement du Service Sanitaire dans toute la France pour en effectuer un bilan quantitatif d'une part; et recueillir votre satisfaction en tant qu'étudiant ayant contribué au Service Sanitaire en Santé d'autre part.\r\nMerci pour votre participation.\r\n",
+  "tags": [
+    "Etudiant"
+  ],
+  "zones": [
+    "Ministère de l'Enseignement supérieur et de la Recherche"
+  ],
+  "datePublication": "2021-05-17T11:08:13+02:00",
+  "service": {
+    "nom": "Direction générale de l'enseignement supérieur et de l'insertion professionnelle",
+    "organisme": "Ministère de l'enseignement supérieur et de l'insertion professionnelle",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/service-sanitaire-recueil-d-information-par-etudia",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/service-sanitaire-recueil-d-information-par-etudia",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/eli/decret/2018/6/12/SSAH1807248D/jo/texte ",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 6431,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "A propos de vous",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "1- Age (en nombre d'années)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "2- Sexe",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "3- Filière et année d'étude",
+        "description": "",
+        "required": true,
+        "options": [
+          "--Formation en sciences infirmières--",
+          "1ère année de formation en sciences infirmières",
+          "2ème année de formation en sciences infirmières",
+          "3ème année de formation en sciences infirmières",
+          "--Formation de masso-kinésithérapie--",
+          "Masseur-kinésithérapeute 1ère année",
+          "Masseur-kinésithérapeute 2ème année",
+          "Masseur-kinésithérapeute 3ème année",
+          "Masseur-kinésithérapeute 4ème année",
+          "--Formation de sciences maïeutiques--",
+          "DFGSMa1 (2ème année)",
+          "DFGSMa2 (3ème année)",
+          "DFASMa1 (4ème année)",
+          "--Formation en sciences médicales--",
+          "DFGSM2 (2ème année)",
+          "DFGSM3 (3ème année)",
+          "DFASM1 (4ème année)",
+          "DFASM2 (5ème année)",
+          "DFASM3 (6ème année)",
+          "--Formation en sciences odontologiques--",
+          "DFGSO2 (2ème année)",
+          "DFGSO3 (3ème année)",
+          "DFASO1 (4ème année)",
+          "DFASO2 (5ème année)",
+          "--Formation en sciences pharmaceutiques--",
+          "DFGSP2 (2ème année)",
+          "DFGSP3 (3ème année)",
+          "DFASP1 (4ème année)",
+          "DFASP2 (5ème année)",
+          "--Autre formation--",
+          "Autre formation"
+        ]
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "4- Département de votre établissement de formation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "5- Numéro SIRET de votre établissement de formation",
+        "description": "Le numéro SIRET d'un établissement est facilement disponible sur internet et tapant \"SIRET + nom de la structure\" dans votre moteur de recherche; il se trouve également sur votre convention de stage.\r\nIl comporte exactement 14 chiffres, sans espace.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre groupe de travail",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "6- Nombre d'étudiants dans le groupe",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "7- Filière d'origine des membres du groupe",
+        "description": "(Plusieurs réponses possibles)",
+        "required": true,
+        "options": [
+          "Kinésithérapie",
+          "Maïeutique",
+          "Médecine",
+          "Pharmacie",
+          "Odontologie",
+          "Sciences infirmières",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre structure d'accueil",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "8- Numéro SIRET de la structure d'accueil",
+        "description": "Le numéro SIRET d'un établissement est facilement disponible sur internet et tapant \"SIRET + nom de la structure\" dans votre moteur de recherche; il se trouve également sur votre convention de stage.\r\nIl comporte exactement 14 chiffres, sans espace.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "9- Code postal de la structure d'accueil",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "10- Définition de votre lieu d'accueil",
+        "description": "Les lieux d'accueil possibles vous sont présentés ci-après",
+        "required": true,
+        "options": [
+          "--Association ou centre sportif, culturel ou de loisirs--",
+          "Association ou centre sportif, culturel ou de loisirs",
+          "--Association du secteur de la santé--",
+          "Association du secteur de la santé",
+          "--Centre de santé--",
+          "Structure de soins préventifs/de dépistage",
+          "Centre de protection maternelle et infantile",
+          "Crèche",
+          "--Entreprise--",
+          "Entreprise",
+          "--Etablissement d'action sociale--",
+          "Logement social",
+          "Centre social, CCAS",
+          "Structure d'hébergement (FJT, CHRS, etc.)",
+          "Structure d'accueil et d'information pour les jeunes (BIJ/PIJ, mission locale, etc.)",
+          "Structure en charge de la distribution alimentaire",
+          "Structure d'insertion par l'activité économique",
+          "Autre",
+          "--Etablissement d'enseignement--",
+          "Organisme de formation professionnelle (inférieur au bac, CAP, BEP, etc.)",
+          "Enseignement supérieur (post-bac, licence, master, DUT, BTS, etc.)",
+          "--Etablissement médico social--",
+          "EHPAD",
+          "Etablissement pour adulte handicapé (MAS, FAM, etc.)",
+          "Structure d'accueil des personnes en situation difficile",
+          "Autre",
+          "--Etablissement scolaire--",
+          "Ecole maternelle",
+          "Ecole élémentaire",
+          "Collège",
+          "Lycée",
+          "--Lieu de privation de liberté--",
+          "Lieu de privation de liberté accueillant les personnes placées sous main de justice (dont protection judiciaire de la jeunesse)",
+          "--Offreurs de soins--",
+          "Etablissement de santé",
+          "Maison de santé pluri professionnelle",
+          "--Structure de l'aide sociale à l'enfance--",
+          "--Autre--",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Types de lieux d'accueil :",
+        "description": "Association ou centre sportif, culturel ou de loisirs\r\n\r\nAssociation du secteur de la santé\r\n\r\nCentre de santé : structure de soins préventifs/de dépistage, centre de protection maternelle et infantile, crèche\r\n\r\nEntreprise\r\n\r\nEtablissement d'action sociale : Logement social, Centre social, CCAS, Structure d'hébergement (FJT, CHRS, etc.), Structure d'accueil et d'information pour les jeunes (BIJ/PIJ, mission locale, etc.), Structure en charge de la distribution alimentaire, Structure d'insertion par l'activité économique, Autre\r\n\r\nEtablissement d'enseignement : Organisme de formation professionnelle (inférieur au bac, CAP, BEP, etc.), Enseignement supérieur (post-bac, licence, master, DUT, BTS, etc.)\r\n\r\nEtablissement médico social : EHPAD, Etablissement pour adulte handicapé (MAS, FAM, etc.), Structure d'accueil des personnes en situation difficile, Autre\r\n\r\nEtablissement scolaire : Ecole maternelle, Ecole élémentaire, Collège, Lycée\r\n\r\nLieu de privation de liberté accueillant les personnes placées sous main de justice (dont protection judiciaire de la jeunesse)\r\n\r\nOffreurs de soins : Etablissement de santé, Maison de santé pluri professionnelle\r\n\r\nStructure de l'aide sociale à l'enfance\r\n\r\nAutre",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "11- Prénom de l'étudiant le plus jeune du groupe?",
+        "description": "(Sans majuscule, sans accent, avec un tiret si prénom composé)\r\n\r\nCet élément permettra, avec la dénomination de la structure d'accueil, d'apparier les différents membres de votre groupe",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "12- Avez-vous eu la possibilité de choisir votre structure d'accueil?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "13- Quel est votre degré de satisfaction concernant votre structure d'accueil?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Tout à fait satisfait",
+          "Plutôt satisfait",
+          "Plutôt insatisfait",
+          "Tout à fait insatisfait",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "14- Un hébergement serait-il souhaitable du fait du lieu de l'action de prévention?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "15- Combien de kilomètres effectuez-vous pour un aller-retour jusqu'au lieu d'intervention?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "16- Combien d'allers retours vers votre lieu d'intervention avez-vous effectué?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "17- Avez-vous bénéficié d'une indemnité kilométrique?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "18- Quel est votre degré de satisfaction concernant l'encadrement par votre référent de proximité sur le lieu d'accueil?",
+        "description": "Référent de proximité : référent de votre lieu d'accueil",
+        "required": true,
+        "options": [
+          "Tout à fait satisfait",
+          "Plutôt satisfait",
+          "Plutôt insatisfait",
+          "Tout à fait insatisfait",
+          "Pas de référent"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre action",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "19- Thème abordé",
+        "description": "(Plusieurs réponses possibles)",
+        "required": true,
+        "options": [
+          "Alimentation",
+          "Activité physique",
+          "Addictions: alcool",
+          "Addictions: tabac",
+          "Addictions: cannabis",
+          "Addictions: autres drogues illicites",
+          "Dépendances non liées à des produits",
+          "Vie sexuelle, intégrant la contraception",
+          "Vaccination",
+          "Hygiène",
+          "Hygiène bucco-dentaire",
+          "Troubles du sommeil",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "20- Avez-vous eu la possibilité de choisir la thématique?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "21- Public(s)",
+        "description": "A qui votre intervention était-elle destinée? (Plusieurs réponses possibles)",
+        "required": true,
+        "options": [
+          "Chômeurs",
+          "Elèves",
+          "Etudiants; apprentis",
+          "Femmes enceintes; femmes allaitantes",
+          "Habitants",
+          "Parents",
+          "Patients",
+          "Personnes âgées",
+          "Personnes en insertion professionnelle",
+          "Personnes en situation de handicap",
+          "Personnes immigrées",
+          "Personnes prostituées",
+          "Personnes sans domicile fixe",
+          "Personnes sous-main de justice",
+          "Salariés",
+          "Usagers de drogues",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "22- Tranche d'âge du public cible",
+        "description": "(Plusieurs réponses possibles)",
+        "required": true,
+        "options": [
+          "Enfants (2-5 ans)",
+          "Enfants (6-9 ans)",
+          "Pré-adolescents (10-12 ans)",
+          "Adolescents (13-18 ans)",
+          "Jeunes (19-25 ans)",
+          "Adultes (26-55 ans)",
+          "Adultes (55-75 ans)",
+          "Seniors de plus de 75 ans"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "23- Nombre total de personnes ayant pu bénéficier de votre action",
+        "description": "",
+        "required": true,
+        "options": [
+          "1 à 10 personnes",
+          "11 à 50 personnes",
+          "51 à 100 personnes",
+          "plus de 100 personnes"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "24- Type d'action",
+        "description": "Suivant les définitions ci-après",
+        "required": true,
+        "options": [
+          "Action de santé communautaire",
+          "Communication, information, sensibilisation",
+          "Education pour la santé",
+          "Etude de besoins - diagnostic",
+          "Production, analyse ou valorisation d'outil",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Type d'action",
+        "description": "Action de santé communautaire : Action portée par une communauté (Ex : Les habitants d’un village, les habitants d’un quartier). Le public va s’impliquer et devenir acteur dans le cadre d’une action collective locale.\r\n\r\nCommunication, information, sensibilisation : S’utilise pour les campagnes de communication peu ciblées ou massives ainsi que pour les actions d’information / sensibilisation au cours desquelles les personnes sensibilisées sont rencontrées une seule fois sans accompagnement par la suite (exemple : stand de réduction des risques lors d’un concert, sensibilisation lors de maraudes dans les rues etc.)\r\n\r\nEducation pour la santé : Programmes d’éducation pour la santé dans lesquels l’éducateur / formateur s’assure que le public a compris l’information et l’aide à se l’approprier pour être en mesure de l’utiliser\r\n\r\nEtude de besoins - diagnostic : Etat des lieux , pré-enquête, planifiés dans un projet\r\n\r\nProduction, analyse ou valorisation d'outil : Le projet contient un axe dont l’objectif est de produire, analyser ou valoriser un outil",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "25- Avez-vous préparé l'action en équipe avec le personnel du lieu d'accueil?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "26- Durée de l'action",
+        "description": "Moment de l'intervention, mais également réunions de préparation avec les référents...",
+        "required": true,
+        "options": [
+          "30 demi journées soit 3 semaines ou plus",
+          "20 à 30 demi journées soit 2 à 3 semaines",
+          "10 à 20 demi journées soit 1 à 2 semaines",
+          "Moins de 10 demi journées soit moins d'une semaine"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "27- La durée de l'action vous a semblé:",
+        "description": "",
+        "required": true,
+        "options": [
+          "Excessive",
+          "Adaptée",
+          "Insuffisante",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "28-  Lors de vos interventions,vous étiez majoritairement:",
+        "description": "",
+        "required": true,
+        "options": [
+          "Seul",
+          "En groupe d'étudiants uniquement",
+          "En groupe étudiant/personnel du lieu d'accueil"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "29- Quel est votre degré de satisfaction concernant vos interventions?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Tout à fait satisfait",
+          "Plutôt satisfait",
+          "Plutôt insatisfait",
+          "Tout à fait insatisfait",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "30- Quel est votre degré de satisfaction concernant la formation théorique reçue pour préparer l'action?",
+        "description": "(formaliser une démarche de projet, connaissance du public cible...)",
+        "required": true,
+        "options": [
+          "Tout à fait satisfait",
+          "Plutôt satisfait",
+          "Plutôt insatisfait",
+          "Tout à fait insatisfait",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "31- Quel est votre degré de satisfaction concernant la formation pratique reçue pour préparer l'action?",
+        "description": "(animation de groupe, prise de parole en public...)",
+        "required": true,
+        "options": [
+          "Tout à fait satisfait",
+          "Plutôt satisfait",
+          "Plutôt insatisfait",
+          "Tout à fait insatisfait",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "32- Quel est votre degré de satisfaction concernant le débriefing de l'intervention avec votre référent pédagogique?",
+        "description": "Votre référent pédagogique est désigné par votre institut de formation. ",
+        "required": true,
+        "options": [
+          "Tout à fait satisfait",
+          "Plutôt satisfait",
+          "Plutôt insatisfait",
+          "Tout à fait insatisfait",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre avis nous intéresse!",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "33- Merci de proposer une piste d'amélioration concernant le service sanitaire.",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

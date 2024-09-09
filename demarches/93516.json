@@ -1,0 +1,92 @@
+{
+  "number": 93516,
+  "title": "Recensement des ADRESSES des emplacements électoraux pour les élections européennes 2024",
+  "description": "En vue des élections Européennes qui auront lieu le 9 juin 2024, un recensement des adresses des emplacements électoraux de chaque commune de la Manche est nécessaire. Ces adresses seront communiquées aux candidats pour transmission à leurs afficheurs.\r\n\r\nMerci de bien vouloir renseigner, pour le 29 mars prochain, les adresses de TOUS les emplacements d'affichage que vous serez en mesure de mettre en place pour ce scrutin. \r\n(rappel : a minima 1 emplacement par bureau de vote)",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2024-04-08T17:42:32+02:00",
+  "service": {
+    "nom": "Bureau des élections, DCCL",
+    "organisme": "préfecture de la Manche, ministère de l'intérieur",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/recensement-des-adresses-des-emplacements-electoraux",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.manche.gouv.fr/Actions-de-l-Etat/Elections-et-citoyennete/ESPACE-RESERVE-MAIRIES/Bulletins-d-informations-Foire-aux-questions-Questionnaires/Questionnaires",
+  "cadreJuridiqueUrl": "Article L51 du Code électoral",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 445,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "NOM DE LA COMMUNE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de bureaux de vote",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "INFORMATION sur le nombre d'emplacements (lieux) d'affichage obligatoires",
+        "description": "Il doit y avoir au minimum un lieu d'affichage à proximité de chaque lieu de vote.\r\nNOMBRE D'EMPLACEMENTS OBLIGATOIRES = NOMBRE DE LIEUX DE VOTE\r\nIl ne s'agit pas du nombre de panneaux mais du (ou des) lieu(x) où vous installerez ces panneaux.\r\n\r\nATTENTION !\r\n1 emplacement = 34* panneaux (1 par liste de candidats) * prévision basée sur 2019\r\n2 emplacements = 68 panneaux, etc ...\r\n",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "VERIFICATION du nombre d'emplacements (lieux) enregistrés pour votre commune",
+        "description": "A VÉRIFIER DANS LE TABLEAU CI-DESSOUS (également joint dans le mail d'envoi).\r\nCe chiffre correspond :\r\n- soit au nombre d'emplacements que vous avez indiqué dans le questionnaire du 15/11/23\r\n- soit, au nombre de vos bureaux de vote, si vous n'avez pas répondu au questionnaire (1 bureau de vote = 1 emplacement).",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le fichier ci-dessus a bien été ouvert et le nombre d'emplacements vérifié",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "CONFIRMATION du nombre d'emplacements (lieux) d'affichage que vous souhaitez mettre en place",
+        "description": "Ce nombre peut être différent de celui du tableau ci-dessus. \r\nA noter : il sera transmis au ministère et servira de base pour calculer le nombre d'affiches remboursées aux candidats.\r\n\r\nRAPPEL : il ne s'agit pas du nombre de panneaux mais du nombre de lieu(x) où vous installerez ces panneaux.\r\n\r\n 1 lieu = 34* panneaux (prévision basée sur les listes de candidats de 2019)\r\n2 lieux = 68 panneaux, etc ...\r\nIMPORTANT ! il est OBLIGATOIRE d'installer autant de panneaux que de listes de candidats",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "NOMBRE DE LIEU(X) D'AFFICHAGE",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "ADRESSE(S) DE VOS LIEUX D'AFFICHAGE",
+        "description": "Pour chaque emplacement, cliquer sur ajouter\r\n(les adresses seront transmises aux candidats et afficheurs, pour l'apposition des affiches)",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "EMPLACEMENT(s)",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse précise de l'emplacement",
+            "description": "",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

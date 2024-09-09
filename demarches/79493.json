@@ -1,0 +1,572 @@
+{
+  "number": 79493,
+  "title": "Identification cartographique des Zones d'Accéleration ENR (ZAENR) sur le département de la Gironde",
+  "description": "Recueille des projets de Zones d'Accélération pour les Énergies Renouvelables établis par les collectivités territoriales.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires",
+    "Ministère de la Transition énergétique"
+  ],
+  "datePublication": "2023-10-30T13:56:34+01:00",
+  "service": {
+    "nom": "Pôle Energies Renouvelables",
+    "organisme": "Direction Départementale des Territoires et de la Mer de Gironde",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/identification_zaenr_gironde",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": " https://www.demarches-simplifiees.fr/commencer/identification_zaenr_gironde",
+  "cadreJuridiqueUrl": "inexistant car c'est un test",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 201,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse e-mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Choisissez le code postal de la commune concernée",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Energies concernées par les ZAENR de votre territoire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Sélectionnez les ENR concernées par vos ZAENR",
+        "description": "Une ou plusieurs énergies sélectionnable",
+        "required": true,
+        "options": [
+          "solaire photovoltaïque",
+          "solaire thermique",
+          "hydroélectricité",
+          "géothermie",
+          "biogaz - biométhane",
+          "bois-énergie - biomasse",
+          "éolien"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "SOLAIRE PHOTOVOLTAÏQUE - choix des catégories",
+        "description": "une ou plusieurs catégories sélectionnables",
+        "required": true,
+        "options": [
+          "toiture",
+          "sol",
+          "ombrière",
+          "autre"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "SOLAIRE PHOTOVOLTAÏQUE TOITURE - anteriorités des installations",
+        "description": "une ou plusieurs antériorités sélectionnables",
+        "required": true,
+        "options": [
+          "nouveau",
+          "renouvellement"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "SOLAIRE PHOTOVOLTAÏQUE SOL - anteriorités des installations",
+        "description": "une ou plusieurs antériorités sélectionnables",
+        "required": true,
+        "options": [
+          "nouveau",
+          "renouvellement"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "SOLAIRE PHOTOVOLTAÏQUE OMBRIERE - anteriorités des installations",
+        "description": "une ou plusieurs antériorités sélectionnables",
+        "required": true,
+        "options": [
+          "nouveau",
+          "renouvellement"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "SOLAIRE PHOTOVOLTAÏQUE AUTRE - anteriorités des installations",
+        "description": "une ou plusieurs antériorités sélectionnables",
+        "required": true,
+        "options": [
+          "nouveau",
+          "renouvellement"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "SOLAIRE THERMIQUE - choix des catégories",
+        "description": "une ou plusieurs catégories sélectionnables",
+        "required": true,
+        "options": [
+          "toiture",
+          "sol",
+          "rcf (réseau chaleur - froid)"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "GEOTHERMIE - choix des catégories",
+        "description": "une ou plusieurs catégories sélectionnables",
+        "required": true,
+        "options": [
+          "surface (pac)",
+          "profonde"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "BIOGAZ - BIOMETHANE - choix des catégories",
+        "description": "une ou plusieurs catégories sélectionnables",
+        "required": true,
+        "options": [
+          "injection directe",
+          "méthanisation - cogénération",
+          "rcf (réseau chaleur - froid)"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "EOLIENNES - anteriorités des installations",
+        "description": "une ou plusieurs antériorités sélectionnables",
+        "required": true,
+        "options": [
+          "nouveau",
+          "renouvellement"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type PHOTOVOLTAÏQUE sur TOITURE en RENOUVELLEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "photovoltaïque toiture renouvellement",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des installations photovoltaïques sur toiture en renouvellement sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type PHOTOVOLTAÏQUE sur TOITURE en NOUVELLE CREATION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "photovoltaïque toiture nouveau",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des nouvelles installations photovoltaïques sur troiture sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type PHOTOVOLTAÏQUE au SOL en RENOUVELLEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "photovoltaïque sol renouvellement",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des installations photovoltaïques au sol en renouvellement sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type PHOTOVOLTAÏQUE au SOL en NOUVELLE CREATION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "photovoltaïque sol nouveau",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des nouvelles installations photovoltaïques au sol sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type PHOTOVOLTAÏQUE en OMBRIERE en RENOUVELLEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "photovoltaïque ombrière renouvellement",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des installations photovoltaïques en ombrière en renouvellement sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type PHOTOVOLTAÏQUE en OMBRIERE en NOUVELLE CREATION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "photovoltaïque ombrière nouveau",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des nouvelles installations photovoltaïques en ombrière sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type PHOTOVOLTAÏQUE AUTRE en RENOUVELLEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "photovoltaïque autre renouvellement",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des installations photovoltaïques autre en renouvellement sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type PHOTOVOLTAÏQUE AUTRE en NOUVELLE CREATION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "photovoltaïque autre nouveau",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des nouvelles installations photovoltaïques autre sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type SOLAIRE THERMIQUE sur TOITURE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "solaire thermique toiture",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des installations solaires thermiques sur toiture sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type SOLAIRE THERMIQUE au SOL",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "solaire thermique sol",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des installations solaires thermiques au sol sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type SOLAIRE THERMIQUE RCF",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "solaire thermique rcf",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des installations solaires thermiques rcf sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "production cumulée estimée (en MWh) des installations solaires thermiques rcf sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type HYDROELECTRIQUE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "hydroélectrique",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des installations hydroélectriques sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type GEOTHERMIE de SURFACE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "géothermie surface",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des installations géothermiques de surface sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "production cumulée estimée (en MWh) des installations géothermiques de surface sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type GEOTHERMIE PROFONDE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "géothermie profonde",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des installations géothermiques profondes sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "production cumulée estimée (en MWh) des installations géothermiques profondes sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type BIOGAZ - BIOMETHANE par INJECTION DIRECT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "biogaz injection direct",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des installations de biogaz - biométhane par injection direct sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "production cumulée estimée (en MWh) des installations de biogaz - biométhane par injection direct sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type BIOGAZ - BIOMETHANE par METHANISATION - COGENERATION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "biogaz méthanisation - cogénération",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des installations de biogaz - biométhane par méthanisation - cogénération sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "production cumulée estimée (en MWh) des installations de biogaz - biométhane par méthanisation - cogénération sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type BIOGAZ - BIOMETHANE par RCF",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "biogaz rcf",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des installations de biogaz - biométhane par rcf sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "production cumulée estimée (en MWh) des installations de biogaz - biométhane par rcf sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type BOIS-ENERGIE - BIOMASSE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "bois energie - biomasse",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des installations bois-energie - biomasse sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "production cumulée estimée (en MWh) des installations bois-energie - biomasse sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type EOLIEN en RENOUVELLEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "éolien renouvellement",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des installations éoliennes en renouvellement sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie cartographique des emprises des ZAENR de type EOLIEN en NOUVELLE CREATION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "éolien nouveau",
+        "description": "saisissez dans le champ \"description\" de chaque polygone la puissance de la ZAENR concerné en MW (si connue).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "puissance cumulée (en MW) des nouvelles installations éoliennes sur votre territoire",
+        "description": "(si connue)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Delibération prise pour la définition des ZAENR sur votre territoire",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

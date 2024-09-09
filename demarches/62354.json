@@ -1,0 +1,221 @@
+{
+  "number": 62354,
+  "title": "Transparence : Transmission des résultats et méthode",
+  "description": "“Ce formulaire vous permet de transmettre au HDH vos résultats et méthode une fois vos analyses terminées, conformément aux obligations de transparence associées à l’utilisation des données du SNDS. \r\nDans les 6 mois après la fin des analyses, le porteur de projet doit transmettre au HDH les résultats de son étude qu’ils aient vocation à être rendus publics ou pas. Ces résultats ne seront pas mis en ligne par le HDH sur son répertoire public sans l’accord du porteur de projet.\r\nSi ces résultats ne peuvent être partagés au grand public, il vous appartiendra, dans un second temps de préciser, via ce même formulaire, que ces derniers peuvent être mis en ligne ou les transmettre à nouveau.\r\n\r\nPour plus d’information nous vous invitons à consulter le guide dédié à cet effet (lien).”",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2024-01-22T14:48:56+01:00",
+  "service": {
+    "nom": "Health Data Hub",
+    "organisme": "Health Data Hub",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/transparence-transmission-des-resultats-et-methode",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.health-data-hub.fr/depot",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000886460/",
+  "logo": {
+    "filename": "Health-Data-Hub-logo_bleu_HD (2).png",
+    "checksum": "Qq3+uaquGxI4jKCLXkPdbg==",
+    "byteSize": "72229",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 33,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Transparence : Transmission des résultats",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de dossier initial",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Titre complet de la recherche, étude, évaluation",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Titre",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Titre du projet à destination du public",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du(des) responsable(s) de traitement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du(des) responsable(s) de mise en oeuvre",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Cadre réglementaire de l'étude",
+        "description": "",
+        "required": true,
+        "options": [
+          "Accès permanent",
+          "Accès hybride",
+          "Autorisation CNIL (procédure classique)",
+          "Décision Unique",
+          "MR004",
+          "MR005",
+          "MR006"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Bénéfice de l'étude",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "RESULTATS",
+        "description": "Dans les 6 mois après la fin des analyses, le porteur de projet doit transmettre au HDH les résultats de son étude qu’ils aient vocation à être rendus publics ou pas. Ces résultats ne seront pas mis en ligne par le HDH sur son répertoire public sans l’accord du porteur de projet.\r\nSi ces résultats ne peuvent être partagés au grand public, il appartiendra au porteur de projet de se rapprocher, dans un second temps du HDH, pour lui indiquer ceux pouvant être mis en ligne ou les transmettre à nouveau. ",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Résultats CONFIDENTIELS à destination du HDH",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Type de résultats confidentiels",
+            "description": "",
+            "required": true,
+            "options": [
+              "Rapport WORD",
+              "Rapport EXCEL",
+              "Poster",
+              "Diaporama",
+              "Article"
+            ]
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Restitution 1 confidentiels",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Restitution 2 confidentiels",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "S'il s'agit d'un article, merci de préciser le lien (confidentiels)",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Résultats destinés à être mis à disposition dans le cadre du RÉPERTOIRE PUBLIC des projets du HDH",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Type de résultats destiné au public",
+            "description": "",
+            "required": false,
+            "options": [
+              "Rapport WORD",
+              "Rapport EXCEL",
+              "Poster",
+              "Diaporama",
+              "Article"
+            ]
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Restitution 1 destiné au public",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Restitution 2 destiné au public",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "S'il s'agit d'un article, merci de préciser le lien (public)",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Avis CESREES de l'étude",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Référent(e) dossier",
+        "description": "A compléter si différent(e) du dossier initial",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom et Prénom",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Adresse mail",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone",
+            "description": "",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

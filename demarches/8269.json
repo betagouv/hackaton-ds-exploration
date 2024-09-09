@@ -1,0 +1,619 @@
+{
+  "number": 8269,
+  "title": " DEMANDE DE CONTROLE DE BRANCHEMENT AU RESEAU PUBLIC D'EAUX USEES (DANS LE CADRE D'UNE TRANSACTION IMMOBILIERE)",
+  "description": "Ce téléservice vous permet de demander au Sicoval de venir contrôler le branchement d'assainissement au réseau public d'eaux usées dans le cadre d'une transaction immobilière.\r\nCe contrôle est obligatoire depuis le 1er avril 2018. \r\n\r\nLe délai d'instruction (prise de rendez-vous, contrôle sur site et rédaction du rapport) est de 3 mois à compter de la réception du dossier complet.\r\n\r\nIMPORTANT : Ce diagnostic est valable 5 ans si aucuns travaux n'ont été réalisés et doit être fourni à l'acquéreur lors de la vente. \r\n",
+  "tags": [
+    "Eau"
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2018-09-20T17:09:21+02:00",
+  "service": {
+    "nom": "Service Exploitation Assainissement",
+    "organisme": "Sicoval",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ok-demande-de-controle-de-branchement-au-reseau-pu",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.sicoval.fr/fr/mon-logement/assainissement/l-assainissement-collectif.html",
+  "cadreJuridiqueUrl": "Délibération n°S201802014 ",
+  "logo": {
+    "filename": "procedure-e97185ee-c8f7-40ca-9c8d-37591d7a0b6b.jpg",
+    "checksum": "h1q2evDh8gQ8yLdkuaLbJQ==",
+    "byteSize": "215234",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "Délib controle brancht eaux cas Ventes AC.pdf",
+    "checksum": "pI3dEYDB/frlpqWpy1sRDw==",
+    "byteSize": "340266",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 2828,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "COORDONNEES DU PROPRIETAIRE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Civilité du propriétaire",
+        "description": "",
+        "required": false,
+        "options": [
+          "Madame",
+          "Monsieur",
+          "Madame ou Monsieur",
+          "Mesdames ou Messieurs",
+          "ADM",
+          "AGENCE",
+          "AGENT",
+          "ASS",
+          "ASS SYNDICALE LIBRE",
+          "ATELIE",
+          "CABINET",
+          "CEEI",
+          "COPROPRIETE",
+          "DIRECTION",
+          "DIVERS",
+          "DR",
+          "EARL",
+          "EI",
+          "EIRL",
+          "ENTREP",
+          "ETS",
+          "EURL",
+          "GAEC",
+          "GFA",
+          "GIE",
+          "GRPT",
+          "INDIVISION",
+          "OFFICE",
+          "OFFICE NOTARIAL",
+          "SA",
+          "SARL",
+          "SARLU",
+          "SAS",
+          "SASU",
+          "SCCV",
+          "SCEA",
+          "SCI",
+          "SCM",
+          "SCP",
+          "SCPI",
+          "SDC",
+          "SELARL",
+          "SELAS",
+          "SEM",
+          "SEP",
+          "SICA",
+          "SLU",
+          "SNC",
+          "SOC",
+          "SPL",
+          "SYNDICAT",
+          "TRESOR",
+          "VILLE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Nature juridique du propriétaire",
+        "description": "",
+        "required": true,
+        "options": [
+          "--01 Particulier--",
+          "Personnes physiques",
+          "--02 Artisan / Commerçant / Agriculteur--",
+          "Personnes physiques",
+          "--03 Société--",
+          "Personnes morales de droit privé autres qu'organismes sociaux",
+          "--04 Association--",
+          "Personnes morales de droit privé autres qu'organismes sociaux",
+          "-- 05 Etat ou organisme d'Etat ou Etablissement public national--",
+          "Etat et établissements publics nationaux",
+          "Ecole nationale de la santé publique",
+          "--06 Collectivité territoriale / EPL / EPS--",
+          "Régions",
+          "Départements",
+          "Communes",
+          "Groupements de collectivités",
+          "Caisse des écoles",
+          "CCAS",
+          "Etablissements publics de santé"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom(s) ou raison social du propriétaire",
+        "description": "Merci de ne pas mettre de virgule, de \"/\" ou de guillemets.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom(s) du propriétaire",
+        "description": "Merci de ne pas mettre de virgule, de \" /\" ou de guillemets.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse postale complète du propriétaire",
+        "description": "Sélectionnez votre adresse en fonction des choix proposés - Merci de ne pas mettre de virgule, de \"/\" ou de guillemets.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse du propriétaire",
+        "description": "Préciser si nécessaire : lieu-dit, bâtiment, n° appartement, n° et nom du lotissement, n° du lot, etc.",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone 1 du propriétaire",
+        "description": "Merci de ne pas mettre de virgule, de \" /\" ou de guillemets.",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone 2 du propriétaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° de site* (déchets ou eau)",
+        "description": "*Ce numéro (2 lettres et 5 chiffres) figure sur la facture eau ou déchets du Sicoval. Ex: E20245H. \r\nDans le cas de coproprité, si le Syndic paye les factures eau et déchets, indiquez \"non concerné\" dans le champs",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PERSONNE A CONTACTER POUR LE RENDEZ-VOUS SUR SITE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et Prénom ou Raison sociale",
+        "description": "Merci de ne pas mettre de virgule, de \"/\" ou de guillemets.",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ADRESSE DU BIEN A CONTROLER",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse postale complète du bien à contrôler",
+        "description": "Sélectionnez votre adresse en fonction des choix proposés - Merci de ne pas mettre de virgule, de \"/\" ou de guillemets.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse du bien à contrôler",
+        "description": "Préciser si nécessaire : lieu-dit, bâtiment, n° appartement, n° et nom du lotissement, n° du lot, etc.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "COORDONEES DU PAYEUR",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Conformément à la délibération du conseil de communauté du Sicoval en vigueur à la date de la demande du contrôle, ce service donnera lieu à une facturation. Les tarifs sont consultables sur le site internet du Sicoval:",
+        "description": "https://www.sicoval.fr/fr/accueil.html",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information facturation",
+        "description": "Le PAYEUR sera redevable des frais liés au contrôle de branchement au réseau public d'eaux usées dans le cadre d'une transaction immobilière. \r\nLes frais relatifs à cette demande feront l'objet d'une facture à l'issu du contrôle. ",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le propriétaire est-il le payeur ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du naissance du propriétaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Numéro SIRET du propriétaire (obligatoire si vous êtes un professionnel)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous ajouter un payeur solidaire (par exemple dans le cas d’un couple) ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Civilité du payeur solidaire",
+        "description": "",
+        "required": true,
+        "options": [
+          "Madame",
+          "Monsieur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom(s) du payeur solidaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom(s) du payeur solidaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du payeur solidaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse du payeur solidaire",
+        "description": "Préciser si nécessaire : lieu-dit, bâtiment, n° appartement, n° et nom du lotissement, n° du lot, etc.",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du payeur solidaire (Portable de préférence)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Civilité du payeur",
+        "description": "",
+        "required": true,
+        "options": [
+          "Madame",
+          "Monsieur",
+          "Madame ou Monsieur",
+          "Mesdames ou Messieurs",
+          "ADM",
+          "AGENCE",
+          "AGENT",
+          "ASS",
+          "ASS SYNDICALE LIBRE",
+          "ATELIE",
+          "CABINET",
+          "CEEI",
+          "COPROPRIETE",
+          "DIRECTION",
+          "DIVERS",
+          "DR",
+          "EARL",
+          "EI",
+          "EIRL",
+          "ENTREP",
+          "ETS",
+          "EURL",
+          "GAEC",
+          "GFA",
+          "GIE",
+          "GRPT",
+          "INDIVISION",
+          "OFFICE",
+          "OFFICE NOTARIAL",
+          "SA",
+          "SARL",
+          "SARLU",
+          "SAS",
+          "SASU",
+          "SCCV",
+          "SCEA",
+          "SCI",
+          "SCM",
+          "SCP",
+          "SCPI",
+          "SDC",
+          "SELARL",
+          "SELAS",
+          "SEM",
+          "SEP",
+          "SICA",
+          "SLU",
+          "SNC",
+          "SOC",
+          "SPL",
+          "SYNDICAT",
+          "TRESOR",
+          "VILLE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Nature juridique du payeur",
+        "description": "",
+        "required": true,
+        "options": [
+          "--01 Particulier--",
+          "Personnes physiques",
+          "--02 Artisan / Commerçant / Agriculteur--",
+          "Personnes physiques",
+          "--03 Société--",
+          "Personnes morales de droit privé autres qu'organismes sociaux",
+          "--04 Association--",
+          "Personnes morales de droit privé autres qu'organismes sociaux",
+          "-- 05 Etat ou organisme d'Etat ou Etablissement public national--",
+          "Etat et établissements publics nationaux",
+          "Ecole nationale de la santé publique",
+          "--06 Collectivité territoriale / EPL / EPS--",
+          "Régions",
+          "Départements",
+          "Communes",
+          "Groupements de collectivités",
+          "Caisse des écoles",
+          "CCAS",
+          "Etablissements publics de santé"
+        ]
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "N° du SIRET (obligatoire si vous êtes un professionnel)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom / Raison sociale du payeur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom(s) du payeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance du payeur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du payeur",
+        "description": "Préciser si nécessaire : lieu-dit, bâtiment, n° appartement, n° et nom du lotissement, n° du lot, etc.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse du payeur",
+        "description": "Préciser si nécessaire : lieu-dit, bâtiment, n° appartement, n° et nom du lotissement, n° du lot, etc.",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du payeur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous ajouter un payeur solidaire (par exemple dans le cas d’un couple) ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Civilité du payeur solidaire",
+        "description": "",
+        "required": true,
+        "options": [
+          "Madame",
+          "Monsieur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom(s) du payeur solidaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom(s) du payeur solidaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du payeur solidaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse du payeur solidaire",
+        "description": "Préciser si nécessaire : lieu-dit, bâtiment, n° appartement, n° et nom du lotissement, n° du lot, etc.",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du payeur solidaire (Portable de préférence)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SI VOTRE BIEN EST UNE MAISON INDIVIDUELLE - NOMBRE DE POINTS D'EAU:",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Salles de bain / salles d'eau ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "WC ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Cuisine ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Buanderie / garage ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SI VOTRE BIEN SE SITUE DANS UN IMMEUBLE, UNE CO-PROPRIETE :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de logements à contrôler ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du Syndic",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse postale complète du Syndic",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du Syndic",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel du Syndic",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du concierge",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du concierge",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SI VOTRE BIEN EST UNE ACTIVITE ECONOMIQUE (Entreprise, bureau, restaurant...)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Type d'activité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N°  de SIRET",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de bâtiments à contrôler",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de points d'eau",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ENGAGEMENT DU DEMANDEUR (Personne qui remplit la demande en ligne)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et Prénom du demandeur ou raison sociale",
+        "description": "Merci de ne pas mettre de virgule, de \"/\" ou de guillemets.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Le demandeur atteste sur l'honneur être dûment habilité à réaliser cette demande sans que la responsabilité du Sicoval puisse être recherchée de quelque manière que ce soit et certifie être :",
+        "description": "",
+        "required": true,
+        "options": [
+          "le propriétaire du bien",
+          "l'agence mandatée par le propriétaire pour la vente du bien (justifiant d'un mandat)",
+          "le notaire chargé de la vente du bien",
+          "l'ayant droit"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Le demandeur s'engage à veiller à l'ouverture de tous les regards et de présenter les plans des réseaux afin de permettre au technicien d'accéder à l'ensemble des réseaux d'eaux usées et d'eaux pluviales",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Mentions Protection des données personnelles",
+        "description": "J’autorise la communauté d’agglomération du Sicoval à collecter et traiter les données à caractère personnel me concernant, répertoriées ci-dessus, dans le strict respect des conditions exposées ci-dessous.\r\n\r\nLes données à caractère personnel me concernant susmentionnées sont recueillies aux fins de toutes communications relatives à l’exécution des services visés ci-dessus, et ce dans un objectif de traitement de votre demande et d’exécution des prestations. \r\n\r\nLa présente autorisation est consentie pour une durée de 10 ans. Toutefois elle prendra fin en cas de cessation du recours aux services du Sicoval, avant cette période.\r\n\r\nConformément à la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers, et aux libertés, sous réserve de la seule justification de mon identité :\r\n\r\n - le libre accès aux données personnelles me concernant, et recueillies sur le fondement et au moyen de la présente m’est garanti, à tout moment, et sans qu’il me soit exigé de justifier d’un quelconque motif, sans préjudice du II de l’article 39 de la loi n° 78-17 du 6 janvier 1978,\r\n\r\n- je dispose du droit de vérifier à tout moment et sans motif, l’usage qui est fait de ces mêmes données personnelles, sans préjudice du II de l’article 39 de la loi n° 78-17 du 6 janvier 1978, et d’exiger qu’elles soient effacées si elles s’avèrent incomplètes, équivoques, ou périmées, et je conserve le droit de retirer à tout moment mon accord pour le traitement des données objets de la présente autorisation, et jouit d’un droit à la portabilité de ces données.\r\n\r\nJe suis informé de ce que les données à caractère personnel objets de la présente sont susceptibles d’être communiquées à tout tiers exerçant des activités en lien avec les services du Sicoval.\r\n\r\nToute opposition et toute demande d’accès, effacement, portabilité, ainsi que tout retrait du consentement au traitement des données objets de la présente doit être présentée au Responsable de la protection des données du Sicoval. Toute autre réclamation est à formuler auprès de monsieur le Président du Sicoval en sa qualité de responsable des traitements.\r\n\r\nJe suis informé de ce que les traitements des données personnelles me concernant, recueillies sur le fondement et au moyen de la présente, font l’objet des déclarations requises par la loi n°78-17 du 6 janvier 1978 pour leur existence.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+        "required": false
+      }
+    ]
+  }
+}

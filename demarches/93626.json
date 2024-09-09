@@ -1,0 +1,96 @@
+{
+  "number": 93626,
+  "title": "ÉLECTIONS - Recensement des emplacements des panneaux d'affichage électoral pour l'année 2024 en cas de modification",
+  "description": "Nous vous rappelons que les élections européennes se distinguent par un nombre très important de listes (34 en 2019) qui peuvent conduire les communes à revoir leur dispositif d’affichage en amont de l’élection afin de disposer d’une surface d’affichage équivalente pour chaque liste de candidats.\r\nRéponse attendue au plus tard le 15 avril 2024\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2024-04-10T14:54:43+02:00",
+  "service": {
+    "nom": "bureau des élections et de la réglementation",
+    "organisme": "préfecture de la Vendée",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/elections-recensement-des-emplacements-des-panneau",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "Courriel",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": null,
+  "notice": null,
+  "deliberation": {
+    "filename": "Liste emplacements affichage 2024.pdf",
+    "checksum": "dX57+cBxONm9s0NGr1yQdQ==",
+    "byteSize": "260487",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 44,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et qualité du référent en charge du dossier",
+        "description": "Merci d'indiquer le nom et la qualité du référent en charge du dossier : \r\nPrénom Nom Qualité (secrétaire de mairie, maire, ...)",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Coordonnées du référent - téléphone",
+        "description": "Afin de faciliter les échanges d'informations, veuillez indiquer ci-dessous les coordonnées téléphoniques du référent qui sera en charge du dossier",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous modifier vos emplacements d'affichage?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si \"oui\" Merci de préciser la demande de modification:",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Veuillez indiquer le nombre total d'emplacements de panneaux d'affichage électoral prévu pour 2024 sur votre commune",
+        "description": "Préciser le nombre d'emplacements d'affichage avant et après la modification.",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Détail de la modification sur vos emplacements d'affichage",
+        "description": "Sélectionner Ajouter un élément pour \"Détail de la modification sur vos emplacements d'affichage\"",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro et adresse de l'emplacement ajouté / supprimé / modifié (ancienne et nouvelle le cas échéant)",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Veuillez saisir le type de modification à apporter pour 2024",
+            "description": "",
+            "required": false,
+            "options": [
+              "Ajout de l'emplacement d'affichage",
+              "Suppression de l'emplacement d'affichage",
+              "Modification de l'adresse de l'emplacement d'affichage"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

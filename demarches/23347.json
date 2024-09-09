@@ -1,0 +1,319 @@
+{
+  "number": 23347,
+  "title": "Recensement simplifié des véhicules de la DSNA et de leurs aménagements",
+  "description": "La gestion de la flotte de véhicules de la DSNA se dématérialise! Cette démarche doit permettre de mieux suivre l'évolution du parc automobile de la DSNA, et de répondre plus efficacement aux besoins des centres, notamment en matière de véhicules de terrain.",
+  "tags": [
+    "Transport"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2019-12-18T17:11:12+01:00",
+  "service": {
+    "nom": "Département des redevances et du contrôle de gestion",
+    "organisme": "Direction des services de la navigation aérienne",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/recensement-vehicules-dsna",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/recensement-vehicules-dsna",
+  "cadreJuridiqueUrl": "http://circulaires.legifrance.gouv.fr/index.php?action=afficherCirculaire&hit=1&r=42085",
+  "logo": {
+    "filename": "1024px-DGAC_DSNA.svg.png",
+    "checksum": "FXpLzuss/r8oyBcDTSJLAA==",
+    "byteSize": "50217",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "notice enquete recensement.pdf",
+    "checksum": "OrfVZidKzbKDUNxsCo8rOA==",
+    "byteSize": "239450",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTIFICATION DE VOTRE CENTRE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quel est votre centre?",
+        "description": "Si vous êtes en charge de compléter pour plusieurs centres, par exemple dans le cas d'un SG mutualisé, vous devez compléter un dossier par centre.",
+        "required": true,
+        "options": [
+          "SNA/O",
+          "SNA/N",
+          "SNA/RP CDG-LB",
+          "SNA/RP ORLY-AG",
+          "SNA/NE",
+          "SNA/CE",
+          "SNA/SE",
+          "SNA/SSE",
+          "SNA/S",
+          "SNA/SO",
+          "GSO/CESNAC",
+          "GSO/SIA",
+          "DTI",
+          "DO-EC",
+          "SNA/AG",
+          "SNA/OI",
+          "SAC/SPM",
+          "SNA/PF",
+          "SNA/NC",
+          "SEAC/WF",
+          "CRNA/O",
+          "CRNA/E",
+          "CRNA/SE",
+          "CRNA/SO",
+          "CRNA/N",
+          "Autre centre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si \"autre centre\", indiquez votre centre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse principale du centre",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "VOTRE INFRASTRUCTURE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de places de parking pour votre centre",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "dont nombre de places pour personnes à mobilité réduite (PMR)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de bornes de chargement pour automobiles électriques",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RECENSEMENT DE VOTRE FLOTTE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Nouveau véhicule à renseigner (répétez cette étape pour chaque véhicule en cliquant sur \"+Ajouter une ligne nouveau véhicule..\")",
+        "description": "Merci de recenser tous les véhicules immatriculés.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "Identification du véhicule",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Immatriculation au format AB123CD",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Ce véhicule est-il stationné à l'adresse principale du centre?",
+            "description": "Si non, complétez le champ suivant.",
+            "required": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Si non, adresse de stationnement",
+            "description": "Par exemple, \"Aerodrome Toussus le Noble 78117 Toussus-le-Noble\"",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Affectation au sein du centre",
+            "description": "Si le véhicule est mutualisé pour tous les services du centre, indiquez \"Direction\".\n",
+            "required": true,
+            "options": [
+              "Direction",
+              "Service exploitation",
+              "Service technique",
+              "Service administratif"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Mission principale du véhicule",
+            "description": "Voir la notice pour les définitions.\n",
+            "required": true,
+            "options": [
+              "Véhicule de transport de personnes côté piste (zone réservée)",
+              "Véhicule de transport de personnes autre que côté piste",
+              "Véhicule d'intervention technique",
+              "Follow Me"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "FACULTATIF : Description détaillée des missions du véhicule",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "HeaderSectionChampDescriptor",
+            "label": "Aménagements techniques du véhicule",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Ce véhicule est-il marqué avec un logo de la DSNA?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Ce véhicule est-il un FLYCO (peinture jaune)?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Selectionnez dans la liste suivante les équipements embarqués dans le véhicule",
+            "description": "Si aucun équipement n'est présent, cochez \"Aucun équipement spécifique\".",
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Aucun équipement spécifique",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Radio (CB)",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Gyrophare",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Ecran de visualisation radar",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Equipements de mesure RadioNav",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Transpondeur",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Equipement spécifique de transport de matériel",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Signal Follow Me",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Autre équipement",
+            "description": "indiquez ici les équipements non listés",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Ce véhicule a-t-il subi une modification de carrosserie extérieure, ou intérieure (tableau de bord, coffre...)?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Le cas échéant, commentaire sur les modifications apportées à ce véhicule :",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "En complément, si vous diposez d'une base de données au format tableur, ou d'un recensement de votre parc, même partiel, vous pouvez joindre ces documents (max 3) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "PJ n°1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "PJ n°2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "PJ n°3",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "BOITE A IDEES : LA GESTION DU PARC",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Avez-vous des propositions pour la gestion du parc automobile de votre centre?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Merci pour votre participation à cette enquête. Nous restons à votre disposition pour tout complément d'information.",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

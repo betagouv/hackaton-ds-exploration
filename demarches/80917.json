@@ -1,0 +1,366 @@
+{
+  "number": 80917,
+  "title": "Enquête annuelle - Établissements privés d'enseignement supérieur d'Auvergne-Rhône-Alpes",
+  "description": "L'enquête annuelle doit être renseignée annuellement par chaque établissement d'enseignement supérieur privés. Elle permet la mise à jour de ses informations administratives. (art. R731-4 du code de l'éducation).",
+  "tags": [
+    "Education",
+    "Enquête"
+  ],
+  "zones": [
+    "Ministère de l'Enseignement supérieur et de la Recherche"
+  ],
+  "datePublication": "2023-09-22T15:09:56+02:00",
+  "service": {
+    "nom": "La direction régionale académique de l'enseignement supérieur",
+    "organisme": "La direction régionale académique de l'enseignement supérieur",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/enquete-annuelle-etablissements-sup-prive-cours-prive-aura",
+  "dpoUrl": "dpd@ac-lyon.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "Transmis par courriels aux utilisateurs",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041435065/2021-09-25",
+  "logo": {
+    "filename": "Logo.jpg",
+    "checksum": "TJWMb2OTq1S2pcDV+6V2mQ==",
+    "byteSize": "3564",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "Guide démarche enquête sup prive.pdf",
+    "checksum": "ewdrPjhMhvSILcJ1xU7dfQ==",
+    "byteSize": "635766",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 19,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Académie de résidence de l'établissement (lieu où les cours sont dispensés)",
+        "description": "",
+        "required": true,
+        "options": [
+          "Lyon",
+          "Clermont",
+          "Grenoble"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Région académique AURA",
+        "description": "Académie de Lyon : Départements du Rhône (69), de l'Ain (01), de la Loire (42).\r\nAcadémie de Grenoble : Départements de l'Isère (38), de la Savoie (73) et de la  Haute-Savoie (74)\r\nAcadémie de Clermont-Ferrand : Départements du Puy-de-Dôme (63), de l'Allier (03), du Cantal (03) et de la Haute-Loire (43).",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Instructions générales",
+        "description": "L'enquête annuelle doit être complétée au plus tard pour le <strong>15 novembre</strong>.\r\nLa structure des tableaux constituant les pièces justificatives relatives aux enseignants et aux formations ne doit pas être modifiée.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations relatives à l'établissement",
+        "description": "Cette partie doit être remplie pour chaque structure disposant de son propre UAI.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination exacte de la structure",
+        "description": "Indiquez ici la dénomination officielle de votre établissement.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'ouverture légale",
+        "description": "Sauf mention contraire et par défaut, il s'agit de la date à laquelle les autorités rectorales vous ont notifié l'ouverture légale de l'établissement.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation",
+        "description": "",
+        "required": true,
+        "options": [
+          "Mère",
+          "Fille",
+          "Célibataire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si fille, veuillez précisez l'UAI mère",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code UAI",
+        "description": "Unité Administrative Immatriculée (UAI)\r\nIl s'agit du code unique d'inscription de votre établissement au répertoire national des établissements. \r\nIl est composé de 7 chiffres et d'1 lettre. (Ex: 0690001C)",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut",
+        "description": "",
+        "required": true,
+        "options": [
+          "Commercial",
+          "Associatif"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "SIRET",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie des statuts",
+        "description": "Statuts adoptés en assemblée générale, récépissé préfectoral...",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Siège de l'établissement",
+        "description": "Adresse physique du siège de l'établissement ",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone de contact",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Courriel de contact",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Coordonnées internes",
+        "description": "Vous pouvez également joindre l'organigramme de votre structure.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Site internet de l'établissement",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "CVEC 2022-2023",
+        "description": "Avez-vous effectuer un dépôt de liste CVEC en 2022-2023 pour l'ensemble des étudiants inscrits en formation initiale?",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si non, veuillez justifier",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Qualification d'établissement d'intérêt général (EESPIG)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "Date à laquelle l'établissement a été officiellement reconnu d'intéret général (ESSPIG)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Cours privé",
+        "description": "Concerne les formations de soutien, en renfort d'un enseignement dispensé par ailleurs, ou de préparation à un diplôme sans qu'il soit délivré par votre structure",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations relatives aux administrateurs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité administrateur (1)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom administrateur (1)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom administrateur (1)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité administrateur (2)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom administrateur (2)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom administrateur (2)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité administrateur (3)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom administrateur (3)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom administrateur (3)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations relatives au directeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "Civilité du directeur en fonction au 1er septembre.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "Nom du directeur d'établissement en fonction au 1er septembre.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom d'usage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "E-mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations relatives aux formations",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Liste détaillée des formations dispensées",
+        "description": "Merci d'utiliser le tableau ci-dessous et de remplir l'intégralité des colonnes.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations relatives aux enseignants",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Liste des enseignants",
+        "description": "Dépôt des dossiers par l'établissement des enseignants nouvellement recrutés. Tout nouvel enseignant doit faire l'objet d'une demande d'autorisation à enseigner.\r\nMerci d'utiliser le modèle ci-dessous et de remplir l'intégralité des colonnes.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations relatives aux locaux",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Lieux d'enseignement",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse du lieu d'enseignement",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Dernière date de la commission de sécurité",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative de la commission de sécurité",
+            "description": "Si votre établissement ne relève pas d'une catégorie soumise à avis de la commission de sécurité (communale ou préfectorale) , vous devez joindre la pièce justificative de la déclaration de catégorie de l'ERP.",
+            "required": true
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Ajouter un lieu d'enseignement",
+            "description": "Pour ajouter un lieu d'enseignement cliquez sur Ajouter une élément pour \"Lieux d'enseignement)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Attestation sur l'honneur du directeur de l'établissement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste sur l'honneur l'exactitude des éléments déclarés ci-dessus",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,944 @@
+{
+  "number": 46962,
+  "title": "DOSSIER DE CANDIDATURE 2021 - Présence IDE de nuit en EHPAD",
+  "description": "Le présent dossier de candidature doit impérativement être présenté par le porteur du dispositif, c'est à dire la structure qui recevra le financement. Cette structure doit appartenir à une catégorie d'établissement ou de service médico-social du secteur personne âgée financé par l’assurance maladie.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2021-07-20T16:08:08+02:00",
+  "service": {
+    "nom": "ARS ARA - Direction de l'autonomie - pôle qualité",
+    "organisme": "ARS Auvergne-Rhône-Alpes",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/presenceidedenuit",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.auvergne-rhone-alpes.ars.sante.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/eli/arrete/2019/5/14/SSAZ1914071A/jo/texte",
+  "logo": {
+    "filename": "2020_Logo_RF_ARS_ARA_Horizontal.png",
+    "checksum": "D31EUTNyHIFk63RNkPLFrQ==",
+    "byteSize": "67620",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 9,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Titre du projet",
+        "description": "Selon un format \"standardisé\", veuillez indiquer ci-dessous le nom du dispositif proposé à la candidature en précisant le \"régime de travail des IDE (donc Astreinte ou Garde_)\" suivi de la \"raison sociale du porteur_\", \"sa commune_\" puis le département_ suivi du texte \"IDEdeNUIT_2021\" (ex: astreinte_EHPAD_la_Mémoire_des_Ailes_Le_Couriat_81_IDEdeNUIT_2021). Ce libellé devra être utilisé pour nommer le dossier de candidature.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Département du porteur de projet",
+        "description": null,
+        "required": true,
+        "options": [
+          "01",
+          "03",
+          "07",
+          "15",
+          "26",
+          "38",
+          "42",
+          "43",
+          "63",
+          "69",
+          "73",
+          "74"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DISPOSITIF EXISTANT OU A METTRE EN PLACE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Indiquez si, le dispositif proposé à la candidature correspond à un projet à mettre en place",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Indiquez si, le dispositif proposé à la candidature correspond un dispositif existant qui ne requiert pas d'adaptation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Indiquez si, le dispositif proposé à la candidature correspond un dispositif existant qui nécessite des adaptations mineures",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Indiquez si, le dispositif proposé à la candidature correspond un dispositif existant qui requiert des adaptations majeures",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si le dispositif proposé à la candidature est déjà existant, indiquez :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Année de mise en place",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Montant annuel (€)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Année de fin de financement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de financement",
+        "description": "",
+        "required": false,
+        "options": [
+          "Autofinancement",
+          "Crédits non reconductibles",
+          "Fond d'intervention régional",
+          "Convention tripartite",
+          "Autres"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précisez si \"Autres\"",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": "(saisie libre dans le cadre ci-dessous)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LES DIFFERENTS ETABLISSEMENTS DU DISPOSITIF",
+        "description": "(modèle facultatif)",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Différents types d'établissements sont à distinguer ci-après :  Le porteur : c'est le destinataire unique des financements. Il doit impérativement être une structure médico-sociale du secteur personne âgée financée par l’assurance maladie.  Les partenaires : il s'agit des établissements qui bénéficieront des interventions du personnel IDE de nuit à titre gratuit quel que soit le mode d'organisation retenu.  Le prestataire : Il s'agit d'une structure autre que le porteur et les partenaires qui assure la prestation \"IDE de nuit\" pour l'ensemble des établissements intégrés dans le dispositif. Le prestataire peut être un établissement de santé (ex: service des urgences, HAD), un groupement d'infirmiers libéraux…",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "2.1.\tIdentité / Caractéristiques du porteur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Catégorie d'établissement",
+        "description": " (EHPAD, SSIAD)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "n° FINESS ET",
+        "description": "N° FINESS : A chaque établissement et à chaque entité juridique est attribué un numéro FINESS à 9 caractères dont les 2 premiers correspondent au numéro du département d'implantation : n° FINESS ET : c'est le numéro FINESS de l'établissement (ET) qui correspond à une implantation géographique.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "n° FINESS EJ",
+        "description": "N° FINESS : A chaque établissement et à chaque entité juridique est attribué un numéro FINESS à 9 caractères dont les 2 premiers correspondent au numéro du département d'implantation. N° FINESS EJ : c'est le numéro de l'entité juridique (EJ ) qui correspond à la notion de personne morale (détient des droits -autorisations, agréments, conventions- lui permettant d'exercer ses activités dans des établissements).",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse postale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom de la personne à contacter",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Capacité",
+        "description": "(places d'hébergement permanent et temporaire installées)",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "GMP",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "PMP et année de validation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "ETP du médecin Coordinateur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Le porteur est-il l'employeur direct de tous les IDE de nuit?",
+        "description": null,
+        "required": true,
+        "options": [
+          "oui de tous",
+          "oui de certains",
+          "non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "2.2.\tEHPAD Partenaires",
+        "description": "Veuillez préciser ci-dessous les EHPAD partenaires (dénomination, FINESS ...)\nCliquer sur \"ajouter un élément\" pour ajouter un nouvel EHPAD partenaire.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Raison sociale",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° FINESS ET.",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° FINESS EJ.",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "ETP médecin coordinateur",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Capacité HP +HT",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "GMP",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "PMP",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Convention ou lettre d'intention avec le porteur",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "2.3.\tAutres établissements partenaires",
+        "description": "Si des établissements autres que des EHPAD sont intégrés au dispositif proposé à la candidature, veuillez préciser dans le tableau ci-dessous le type de structure, leur FINESS, leur dénomination, leur commune et le nombre de places d'Hébergement Permanent (HP) et Temporaire (HT) installées. ",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autres établissements partenaires",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Type de structure",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "FINESS ET",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "FINESS EJ",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Raison sociale",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Convention ou lettre d'intention",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Capacité HP+HT",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "2.4.\tSynthèse",
+        "description": "Indiquez dans le tableau ci-dessous (en prenant en compte tous les partenaires et le porteur) : le nombre d'EHPAD impliqués dans le dispositif et le nombre de places d'hébergement permanent et temporaire installées (capacité HP + HT). ",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "EHPAD  : nombre d'établissements",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "EHPAD : capacité HP + HT globale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "2.5.\tLes \"Prestataires\"",
+        "description": "Remarque : ne remplir la partie \"prestataire\" que si des prestations IDE de nuit sont confiées à des structures extérieures aux EHPAD et aux SSIAD. Si des IDE de prestataires sont mobilisés, une convention spécifique entre le porteur et le prestataire devra être établie. Elle précisera le mode de financement du prestataire (ex : rémunération forfaitaire ou rémunération différenciée de l'astreinte et de l'acte de l'IDE) et que ce financement sera du ressort exclusif du porteur pour tous les EHPAD inclus dans le dispositif.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "2.5.1. Prestataire(s) rattaché(s) à un établissement de santé",
+        "description": "Si un prestataire est rattaché à un établissement de santé (ex: Hôpital au service des Urgence ou HAD), veuillez indiquer le(s) prestataire(s) dans le tableau ci-après.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Type de structure",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "FINESS ET",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "FINESS EJ",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Raison sociale",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Convention / intention",
+            "description": "Pour les dispositifs de garde au service des urgences veuillez impérativement fournir en annexe un document attestant que les missions de ces IDE sont exclusivement dédiées aux personnes âgées et prioritairement aux résidents d'EHPAD (interventions dans les EHPAD, puis auprès des résidents d'EHPAD aux urgences) puis aux personnes de 75 ans et plus de la filière urgence. ",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Service de rattachement",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de responsable de service",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "2.5.2. Groupement d'infirmiers libéraux",
+        "description": "Si la prestation \"IDE de nuit\" est confiée à un groupement d'infirmiers libéraux, il sera nécessaire de fournir en annexe un document précisant  le(s) lieu(x) d'exercice et les numéros ADELI des IDE concernés.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du cabinet de groupe",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Modalité d'exercice",
+            "description": "(SCP, SCM...)",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document précisant  le(s) lieu(x) d'exercice et les numéros ADELI des IDE concernés",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "2.5.3. Autres type de prestataires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "2.6.\tCommentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INTEGRATION DU DISPOSITIF DANS SON TERRITOIRE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le dispositif proposé à la candidature requiert une réflexion territoriale qui repose, notamment, sur la triple contrainte de respecter un périmètre géographique compatible avec des interventions pour des situations  \"d'urgence non vitales\" (soit, sauf cas particulier à expliciter, un temps de trajet maximal de 30-40 minutes entre tous les établissements du dispositif), de s'assurer que, sur le territoire considéré, des EHPAD ne se retrouveront pas isolés et dans l'incapacité d'intégrer un futur dispositif d'IDE de nuit et une calibration détaillée dans le cahier des charges.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "3.1.\tPrincipales caractéristiques du périmètre géographique couvert par le dispositif :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de territoire",
+        "description": null,
+        "required": true,
+        "options": [
+          "Rural",
+          "Péri-urbain",
+          "Urbain"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre géographique : mentionner la commune la plus à l'ouest et la commune la plus à l'est",
+        "description": "séparées par  /",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Distance entre ces communes",
+        "description": "",
+        "required": true,
+        "options": [
+          "Inférieur à 15 minutes",
+          "Entre 15 et 30 minutes",
+          "Entre 30 et 45 minutes",
+          "Supérieur à 45 minutes"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Périmètre géographique : mentionner la commune la plus au nord et la commune la plus au sud",
+        "description": "séparées par  /",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Distance entre ces communes",
+        "description": null,
+        "required": true,
+        "options": [
+          "Inférieur à 15 minutes",
+          "Entre 15 et 30 minutes",
+          "Entre 30 et 45 minutes",
+          "Supérieur à 45 minutes"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Si des EHPAD ne sont pas inclus dans le dispositif proposé à la candidature dans un périmètre géographique de 30-40 minutes et que les seuils cibles ne sont atteints, précisez le nombre d'EHPAD du périmètre non inclus",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Expliquez ici pourquoi ils ne sont pas inclus",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Une carte du territoire positionnant les différents établissements inclus et non inclus dans le dispositif peut être fournie afin d'illustrer la réflexion territoriale conduite.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "3.2.\tLa permanence des soins ambulatoires et le service des urgences sur ce territoire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Nom et commune du service des urgences de l'hôpital le plus proche",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'établissements du dispositif dont la distance / urgences est > 30min",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Fonctionnement de la Permanence des Soins Ambulatoires sur ce territoire",
+        "description": "(horaire semaine et WE, visites, point fixe de consultation, transport, effectivité lors de la nuit profonde…)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "BESOINS DES RESIDENTS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Veuillez indiquer les besoins des résidents, les difficultés rencontrées en l'absence d'IDE la nuit et l'évaluation du nombre d'interventions par nuit.",
+        "description": "Le travail d'analyse détaillé est à annexer à la candidature. ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Le travail d'analyse détaillé est à annexer ici",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Nombre estimé de sollicitations IDE / nuit",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Nombre estimé d'interventions IDE / nuit",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "MISSSIONS DEVOLUES AUX IDE DE NUIT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Veuillez préciser ci-après les missions dévolues aux IDE de nuit en distinguant les réponses apportées au porteur et à l'ensemble des partenaires.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Est-ce que l'IDE répond aux sollicitations du/des :",
+        "description": null,
+        "required": true,
+        "options": [
+          "Porteur",
+          "Partenaire(s)"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Est-ce que l'IDE pourra fournir des avis/conseils sans déplacement auprès du/des :",
+        "description": null,
+        "required": true,
+        "options": [
+          "Porteur",
+          "Partenaire(s)"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Est-ce que l'IDE pourra effectuer des interventions in situ (déplacements) pour des situations d'urgences non vitales auprès du/des :",
+        "description": null,
+        "required": true,
+        "options": [
+          "Porteur",
+          "Partenaire(s)"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Est-ce que l'IDE pourra effectuer des interventions in situ (déplacements) pour soulager les douleurs de fin de vie auprès du/des :",
+        "description": null,
+        "required": true,
+        "options": [
+          "Porteur",
+          "Partenaire(s)"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Est-ce que l'IDE pourra effectuer des interventions in situ (déplacements) pour des actes programmés auprès du/des :",
+        "description": null,
+        "required": true,
+        "options": [
+          "Porteur",
+          "Partenaire(s)"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si certains partenaires ne peuvent bénéficier de certains types d'interventions, veuillez le préciser dans cet encadré. Si le périmètre d'intervention des IDE de nuit inclut des gestes programmés, veuillez indiquer ici s'ils sont circonscrits ou non à des actions particulières, à des établissements spécifiques et/ou dans le temps, si oui, précisez lesquels et/ou quelle temporalité. Veuillez également exposer les critères d'exclusion et indiquer si les missions de l'IDE ont été formalisées au sein d'une fiche de poste, d'un cahier des charges ou d'une procédure (si oui, veuillez annexer le document ci-dessous).",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Annexe éventuelle",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "MODALITES ORGANISATIONNELLES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "6.1.\tFonctionnement du dispositif 365 jours/an",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le dispositif est-il destiné à être fonctionnel 365/an, sauf cas de force majeure (ex: intempéries empêchant les déplacements) et absence pour maladie ou formation permanente ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si le dispositif n'a pas été conçu pour être fonctionnel 365 jours/an, indiquez dans le cadre ci-après les jours et les motifs.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "6.2.\tRégime de travail des IDE de nuit : Indiquez le régime de travail souhaité des IDE de nuit",
+        "description": null,
+        "required": true,
+        "options": [
+          "Astreinte",
+          "Garde",
+          "Astreinte et garde"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "6.2.1. Si le dispositif repose exclusivement sur des Astreintes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Nombre d'IDE de nuit souhaité ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Démarche d'information/sollicitation des IDE initiée ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Si oui, nb total IDE volontaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si Non, capacité estimée de mobilisation des IDE",
+        "description": null,
+        "required": false,
+        "options": [
+          "Importante",
+          "Plutôt importante",
+          "Plutôt difficile",
+          "Difficile"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Horaires de travail",
+        "description": "Horaires de travail semaine, week-end, jours fériés.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "6.2.2. Si le dispositif repose exclusivement sur des gardes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Nb total ETP IDE de nuit souhaité ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Capacité estimée de recrutement des IDE",
+        "description": null,
+        "required": false,
+        "options": [
+          "Importante",
+          "Plutôt importante",
+          "Plutôt difficile",
+          "Difficile"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Lieux où seront postés les IDE",
+        "description": null,
+        "required": false,
+        "options": [
+          "Toujours chez le porteur",
+          "Toujours chez un partenaire",
+          "Toujours chez un prestataire",
+          "Rotation entre porteur et partenaire/prestataire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si rotation, fréquence de rotation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Horaires de travail",
+        "description": "Horaires de travail semaine, week-end, jours fériés.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "CAS PARTICULIER : le déplacement d'un IDE de garde au service des urgences est-il subordonné à l'avis préalable du médecin régulateur / des urgences?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires libres pour les dispositifs de garde",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "6.2.3. Si le dispositif repose sur une combinaison d'astreintes et de gardes",
+        "description": "Veuillez décrire le mode organisationnel du dispositif IDE proposé à la candidature en précisant le fonctionnement par rapport au régime de travail des IDE, et notamment :\n- Le nombre (cas des astreintes) ou les ETP (cas des gardes) d'IDE de nuit souhaité(s) ;\n- La provenance des IDE de nuit en distinguant le porteur des partenaires et des prestataires,\n- Si les IDE des structures ont été informées et sont volontaires,\n- Intervention à partir d'une structure (\"toujours\" la même) et pouvant se déplacer dans les autres établissements si besoin ou sur la base d'une rotation entre certains ou tous les établissements du dispositif…\n- recours ou non à des prestations extérieures (hors EHPAD et SSIAD) d'IDE de nuit (ex: IDE d'un CH)\n- basé sur le recrutement spécifique d'IDE de nuit et/ou sur la mobilisation du personnel IDE déjà en place.\n- rattachement administratif des IDE : une seule structure, certaines ou toutes les structures du dispositif…\n",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "6.3.\tMoyens dédiés au dispositif IDE de nuit",
+        "description": "Détailler dans la cadre ci-après, les moyens mis à disposition des IDE de nuit pour assurer leurs missions auprès de tous les établissements partenaires (ex : mise à disposition d’un véhicule ou véhicule personnel, d’un téléphone portable, d'un accès informatique aux dossiers patients au sein des établissements partenaires [voire à partir du domicile], aux différents locaux et notamment à la pharmacie des établissements et au matériel infirmier…).",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PROCESSUS A METTRE EN PLACE POUR MAXIMISER LE ROLE DES IDE DE NUIT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "7.1.\tProcédures harmonisées entre les établissements partenaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "7.1.1. Guider l'IDE de nuit dans sa gestion des problèmes de santé imprévus et les équipes en poste de nuit en définissant les motifs de recours à l'IDE",
+        "description": "Décrivez dans le cadre ci-après les procédures visant à guider l'IDE de nuit et/ou les équipes en poste de nuit dans les établissements, les protocoles \"d’urgence\", les partenariats existants ou sollicités ainsi que l'implication du SAMU-centre 15, des services des urgences, des dispositifs de permanence des soins ambulatoires et de la filière gériatrique dans ces procédures. ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "7.1.2. Connaissance des établissements partenaires",
+        "description": "Décrivez dans le cadre ci-dessous les modalités retenues ou envisagées pour que les IDE de nuit connaissent préalablement les établissements partenaires, le système d'information, les patients, l'organisation de la pharmacie…. Précisez la fréquence de passage dans chaque établissement partenaire. ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "7.2.\tReconnaissance du rôle de l'IDE de nuit auprès des services hospitaliers et les acteurs de la permanence des soins ambulatoires.",
+        "description": "Mentionnez dans le cadre ci-dessous le mode opératoire retenu ou mis en œuvre pour que le dispositif IDE de nuit (établissements impliqués, missions dévolues, mode de recours) soit connu et reconnu auprès du SAMU-centre 15, du service des urgences, des dispositifs de permanence des soins ambulatoires (gestion et orientation des résidents dans le cas de problèmes de santé nocturnes) et de la filière gériatrique (retour d'hospitalisation). ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "7.3.\tMise en place de protocoles et incitation des praticiens libéraux à rédiger des prescriptions anticipées",
+        "description": "Indiquez dans le cadre ci-après, les protocoles élaborés, le mode opératoire retenu/mis en œuvre pour que les médecins libéraux intervenant dans les EHPAD partenaires soient incités à rédiger des prescriptions anticipées",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "7.4.\tCoordinations entre les équipes médicales de jour et l'IDE de nuit (cas des gardes)",
+        "description": "Si un mode de coordination entre les équipes médicales de jour des différents établissements et l'IDE de nuit a été établi ou en cours, décrivez succinctement dans le cadre ci-dessous la procédure et précisez les partenaires impliqués dans son élaboration. ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "BUDGET PREVISIONNEL (année pleine)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "BUDGET PREVISIONNEL (année pleine)",
+        "description": "Veuillez compléter le modèle ci-joint.\nATTENTION : il s'agit du budget annuel prévisionnel du dispositif proposé à la candidature.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "8.1.\tMode de calculs utilisés pour établir le budget prévisionnel",
+        "description": "Veuillez préciser dans l'encadré ci-dessous, pour chaque poste budgétaire le mode de calcul utilisé, notamment pour ce qui concerne : \n- les frais liés aux IDE de nuit (rémunération + charges) selon leur régime de travail (ex : la convention collective, l'échelon/indice majorée IDE souhaitée, indemnisation ou non des temps d'astreintes, des temps d'interventions [nombre d'interventions théorique x temps moyen d'une intervention]…) ;\n- les frais liés à la coordination et/ou à l'organisation du dispositif (ex: temps dédié du cadre de santé, d'un temps administratif) ;\n- les coûts associés aux déplacements (kilométrage prévisionnel [nombre de déplacements théorique x km moyen], carburant, entretien/réparation, assurance, éventuelle location véhicule (à déterminer au prorata de l'utilisation du véhicule entre période diurne et nocturne) ;\n- les charges diverses telles que téléphone (location téléphone + forfait), fournitures de bureau, informatique…",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "8.2.\tModèle économique : veuillez indiquer le coût annuel à la place du dispositif",
+        "description": "Mode de calcul :\nx = financement annuel demandé (€)/ nombre de places d'EHPAD (HT + HP ) couvertes par le dispositif",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "COMMENTAIRES LIBRES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire libre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autre pièce jointe éventuelle",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Pièce jointe",
+            "description": null,
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

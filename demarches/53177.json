@@ -1,0 +1,92 @@
+{
+  "number": 53177,
+  "title": "Bidonvilles résorbés en 2021",
+  "description": "Pour mémoire, un site est considéré résorbé si sa disparition n'a pas entraîné de réinstallations des personnes sur un autre site et si des solutions pérennes ont été mises en place pour au moins 2/3 des personnes (ceci incluant le relogement dans des dispositifs \"sas\"). Ces solutions doivent permettre aux personnes de s'inscrire dans une logique de parcours d'insertion.\r\n\r\nCe questionnaire permettra de réaliser le point d'étape national de la politique de résorption des bidonvilles, transmis aux ministres concernés ainsi qu'à la Commission européenne.",
+  "tags": [
+    "Logement"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2022-01-14T17:17:48+01:00",
+  "service": {
+    "nom": "Manuel Demougeot",
+    "organisme": "Dihal",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/bidonvilles-resorbes-en-2021",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://resorption-bidonvilles.beta.gouv.fr",
+  "cadreJuridiqueUrl": "https://www.gouvernement.fr/sites/default/files/contenu/piece-jointe/2018/06/circulaire_du_25_janvier_2018.pdf",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 11,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Votre département",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Nombre de sites résorbés en 2021",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pour rappel :",
+        "description": "Un site est considéré comme résorbé si sa disparition n'a pas entraîné de réinstallations des personnes sur un autre site ou la création d'un nouveau, et si des solutions pérennes ont été mises en place pour au moins 2/3 des personnes (celles-ci pouvant inclure des relogements dans des dispositifs \"sas\").",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Détail des sites résorbés",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Site par site",
+        "description": "Pour ajouter un site, il vous faudra cliquer plus bas sur le lien \"ajouter un élément pour \"Site par site\".",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du site",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Lien du site enregistré sur la plateforme numérique Résorption-bidonvilles",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "En quelques lignes, pouvez-vous décrire les solutions proposées et la proportion du nombre de ménages pour qui une solution pérenne a été mise en place ?",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Merci",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

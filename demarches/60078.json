@@ -1,0 +1,225 @@
+{
+  "number": 60078,
+  "title": "F201 - Demande d'attribution de carte de professionnel de santé (CPS) Auxiliaires Médicaux salariés",
+  "description": "Pré requis : La structure doit déjà avoir souscrit un contrat d’adhésion auprès de l'ANS.\r\n\r\nVotre profession doit être : Orthophoniste, Orthoptiste.\r\n\r\nCette démarche est l’équivalent en ligne du formulaire de <i>demande d'attribution de carte de professionnel de santé (CPS) Auxiliaires Médicaux salariés (201).</i>",
+  "tags": [
+    "ANS"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-12-02T10:23:59+01:00",
+  "service": {
+    "nom": "Agence du Numérique en Santé – Service clients",
+    "organisme": "Agence du Numérique en Santé",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/f201",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://esante.gouv.fr/documents/201",
+  "cadreJuridiqueUrl": "https://esante.gouv.fr/services/mentions-legales",
+  "logo": {
+    "filename": "Logo ANS.png",
+    "checksum": "JYFOVj2PrV1k00rrX0n2BQ==",
+    "byteSize": "232068",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 310,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. Identification du client",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Objet de la démarche",
+        "description": "Cette démarche s’adresse exclusivement au professionnel de santé exerçant une activité salariée au sein d’une structure.\nSi vous exercez une activité libérale, veuillez contacter l’ARS dans laquelle vous êtes inscrit pour faire votre demande de carte.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de contrat d'adhésion",
+        "description": "Si vous connaissez le numéro de contrat d'adhésion existant, veuillez le mentionner ici",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "FINESS",
+        "description": "Champ obligatoire pour les structures prenant en charge des patients ou des usagers.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination de la structure",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2.Identification du porteur (le cas échéant le porteur peut être le représentant légal de la structure ou mandataire)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de famille",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom(s)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom d'usage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom usuel",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro ADELI",
+        "description": "le numéro ADELI contient 9 caractères",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Profession",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse courriel",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Langues parlées par ordre de préférence",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. Description de l'activité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Si différent du client remplissez le N° SIRET, le FINESS et  la dénomination de la structure",
+        "description": "Si le N° de SIRET que vous avez renseigné en préambule de cette démarche ne correspond pas à la structure bénéficiaire ",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "FINESS",
+        "description": "Si le N° FINESS que vous avez renseigné en préambule de cette démarche ne correspond pas à la structure bénéficiaire",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination de la structure",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Etes vous le représentant légal de la structure ?",
+        "description": "S’il s’agit d’une demande consécutive à un changement de représentant légal ou mandataire, pensez à déclarer le départ du précédent représentant légal ou mandataire.",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Avez-vous été désigné en qualité de mandataire pour la gestion des cartes ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de livraison",
+        "description": "Préciser le pays pour les adresses hors France ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination de la structure",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4. Pièces justificatives à joindre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si vous ne vous êtes pas connecté par France Connect, merci de nous faire parvenir un justificatif de votre identité",
+        "description": "Carte d’identité française/européenne (recto & verso), passeport européen, permis de conduire, carte de séjour ou de résident.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de représentant légal",
+        "description": "Copie de l’acte de nomination désignant le représentant légal de la structure dûment habilité à signer le présent Contrat (décret, arrêté, décision, procès-verbal d’Assemblée Générale, extrait du K-bis datant de moins de 3 mois et mentionnant le nom du représentant légal, etc.) ou de l’acte formalisant la délégation de signature\r\n\r\nCette information nous permet de valider que cette demande a été faite avec l'autorisation du représentant légal de la structure. ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation du Représentant légal ou d'un mandataire",
+        "description": "Votre demande doit être validée par le représentant légal ou un mandataire de la structure. \r\nPour cela nous mettons à votre disposition une attestation à joindre à votre demande. ",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie avoir lu et accepté les conditions générales d’utilisation relatives aux moyens d’identification électronique.",
+        "description": "les C.G.U sont consultables à l'adresse suivante : https://esante.gouv.fr/procedures/conditions-generales-utilisation",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie exactes les informations mentionnées ci-dessus. Il est rappelé que les fraudes et tentatives de fraude sont passibles de sanctions pénales et peuvent conduire à la suspension de l'instruction de votre demande ou au retrait des droits dont le bénéfice est demandé.",
+        "description": " Il est rappelé que les fraudes et tentatives de fraude sont passibles de sanctions\npénales et peuvent conduire à la suspension de l'instruction de votre demande ou au retrait des droits dont le bénéfice est demandé.",
+        "required": true
+      }
+    ]
+  }
+}

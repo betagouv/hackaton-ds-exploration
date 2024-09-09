@@ -1,0 +1,198 @@
+{
+  "number": 37870,
+  "title": "Demande d'avenant à l'agrément de service civique des organismes d'accueil en Ille-et-Vilaine",
+  "description": "Réservée aux organismes agréés localement en Ille-et-Vilaine (numéro d'agrément commençant par BR-035-xx-xxxxx-xx) cette démarche permet la transmission dématérialisée de vos demandes de modification d'agrément de service civique. \r\n\r\nNB : cette démarche n'est pas destinée aux renouvellements d'agrément. Lorsque votre agrément arrive à échéance (3 ans), la demande de renouvellement s'opère via votre compte organisme. ",
+  "tags": [
+    "Agrément"
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2021-01-08T16:54:52+01:00",
+  "service": {
+    "nom": "Service départemental à la jeunesse, à l'engagement et aux sports (SDJES) d'Ille-et-Vilaine",
+    "organisme": "Direction des services départementaux de l'éducation nationale (DSDEN) d'Ille-et-Vilaine",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-avenant-service-civique-ille-et-vilaine",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ille-et-vilaine.gouv.fr/Politiques-publiques/Citoyennete-Elections/Service-civique/Demandez-un-agrement-en-Ille-et-Vilaine-pour-accueillir-un.e-volontaire",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030647557/2015-05-30",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 119,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Avant toute demande :",
+        "description": "- Merci de vérifier que votre agrément de service civique est en cours de validité et lire attentivement les articles ou annexes relatifs aux modifications souhaitées. \n\n- Cette démarche n'est pas destinée aux renouvellements d'agrément. Lorsque votre agrément arrive à échéance, la demande de renouvellement s'opère via votre compte organisme. \n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTIFICATION DE L'ORGANISME ET DE LA DEMANDE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro d'agrément en cours de validité",
+        "description": "Votre numéro d'agrément de service civique ou votre dernier avenant sous la forme BR-035-xx-xxxxx-xx",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'organisme d'accueil",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Compte rendu d'activité de service civique de l'année N-1",
+        "description": "Si vous n'avez pas déjà transmis le compte rendu d'activité de service civique de l'année N-1, merci de le joindre ici. ",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Votre demande de modification porte sur",
+        "description": "Plusieurs choix possibles.",
+        "required": true,
+        "options": [
+          "Un nouveau calendrier prévisionnel d’accueil des volontaires [compléter la partie 2 du formulaire]",
+          "L’ajout d’une ou plusieurs mission(s) [compléter la partie 3 du formulaire]",
+          "L’ajout d’établissements secondaires dans le cadre d’un agrément collectif [compléter la partie 4 du formulaire]",
+          "La possibilité pour votre organisme de mettre à disposition des volontaires auprès de structures tierces non-agréées (aussi appelée « intermédiation »)  [compléter la partie 4 du formulaire]",
+          "Des modifications de données administratives (modification de l’adresse du siège de l’organisme agréé, nouveau numéro de SIRET).  [compléter la partie 4 du formulaire]"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DEMANDE DE MODIFICATION DU CALENDRIER D'ACCUEIL",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Calendrier d'accueil",
+        "description": "A compléter uniquement si vous souhaitez ajouter des autorisations d'accueil à votre calendrier. La durée moyenne des missions est actuellement de 8 mois par agrément. ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Méthode 1 : saisie rapide de votre demande (uniquement pour les demandes de quelques accueils)",
+            "description": "Sélectionner le mois / le nombre d'accueils / la durée. Vous pouvez répéter l'opération (une à deux fois maximum, merci) en cliquant sur \"ajouter un élément\" (sous l'encadré) pour des accueils qui ne commenceraient pas tous le même mois, ou de durées différentes. Merci de se référer à la méthode 2 ci-dessous pour les demandes plus détaillées.",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Je souhaite une modification au calendrier d'accueil pour le mois",
+            "description": "Sélectionner le 1er jour du mois concerné.",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Nombre d'autorisation d'accueil",
+            "description": "Préciser le nombre de volontaires que vous souhaitez accueillir à partir du mois sélectionné. ",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Durée de mission",
+            "description": "Préciser la durée de mission souhaitée pour les valeurs sélectionnées ci-dessus. Si vous souhaitez des durées de missions différentes pour un même mois au calendrier, répéter l'opération pour chaque durée souhaitée en cliquant sur \"ajouter un élément\" sous l'encadré. Ou référez-vous à la méthode 2 ci-dessous.",
+            "required": false,
+            "options": [
+              "6 mois",
+              "7 mois",
+              "8 mois"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Méthode 2 : chargement de la fiche \"calendrier prévisionnel d'accueil\"",
+        "description": "- Télécharger la fiche au lien suivant : https://www.ille-et-vilaine.gouv.fr/content/download/33891/247768/file/Agr%C3%A9ment%20Service%20civique%20-%20Calendrier%20pr%C3%A9visionnel.doc\n\n- Compléter la fiche telle que souhaitée dans l'avenant. \n\n- Charger ci-dessous la fiche complétée.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Charger ici la fiche \"calendrier prévisionnel d'accueil\" duement complétée si vous optez pour la méthode 2",
+        "description": "La fiche doit présenter vos prévisions d'accueil telles que souhaitées à l'avenant.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "MODIFICATION ET/OU AJOUT D'UNE OU PLUSIEURS MISSION(S)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Missions",
+        "description": "A compléter uniquement si vous souhaitez ajouter et/ou modifier des missions à votre agrément. Répéter l'opération en cliquant sur \"ajouter un élément\" (sous l'encadré) pour formuler l'ensemble de vos souhaits. ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Je souhaite",
+            "description": "",
+            "required": false,
+            "options": [
+              "Modifier une mission déjà présente à l'agrément",
+              "Ajouter une mission à l'agrément"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Téléchargez la fiche mission au lien suivant",
+            "description": "https://www.service-civique.gouv.fr/uploads/content/files/asc_fiche_mission.docx",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Charger la fiche mission",
+            "description": "Merci de charger un document dans un format modifiable (doc, docx, odt)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "AUTRES MODIFICATIONS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autres demandes",
+        "description": "Pour toute autre demande : \n- L’ajout d’établissements secondaires dans le cadre d’un agrément collectif\n- La possibilité pour votre organisme de mettre à disposition des volontaires auprès de structures tierces non-agréées\n(aussi appelée « intermédiation »)\n- Des modifications de données administratives (modification de l’adresse du siège de l’organisme agréé, nouveau numéro de SIRET).",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Formulez votre demande ici",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Ajouter une pièce à ma demande",
+            "description": "Si la demande formulée dans l'encadré ci-dessus nécessite l'ajout d'un document. ",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie l'exactitude des données transmises à l'administration.",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "number": 50406,
+  "title": "Certificats sanitaires intra UE_ VOP_Hautes-Pyrénées",
+  "description": "dépôt des certificats sanitaires intra UE TRACES NT.\r\nA l'attention des vétérinaires officiels privés rattachés à un centre de rassemblement agrée.",
+  "tags": [
+    "Certification"
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2021-11-22T09:38:50+01:00",
+  "service": {
+    "nom": "DDETSPP 65/Service Santé Protection Animales et Environnement",
+    "organisme": "Direction Départementale de l'emploi, du travail, des solidarités et de la protection des populations des Hautes-Pyrénées",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/certificats-sanitaires-intra-ue_-vop_hautes-pyrene",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.hautes-pyrenees.gouv.fr/",
+  "cadreJuridiqueUrl": "",
+  "logo": null,
+  "notice": {
+    "filename": "Notice Demarches simplifiées Traces NT_.pdf",
+    "checksum": "mylMPmFkM1ElG1Cx9odCvA==",
+    "byteSize": "15499",
+    "contentType": "application/pdf"
+  },
+  "deliberation": {
+    "filename": "l'arrété du 29 septembre 2011.pdf",
+    "checksum": "9aO4NkFfjrcynOPnnlXxQQ==",
+    "byteSize": "114800",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 726,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "DESIGNATION CENTRE DE RASSEMBLEMENT",
+        "description": null,
+        "required": true,
+        "options": [
+          "-ALLIANCE OCCITANE",
+          "-GOUZENNE",
+          "-LUR BERRI"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "VETERINAIRE OFFICIEL PRIVE_VOP",
+        "description": null,
+        "required": true,
+        "options": [
+          "-HELENE SAUTTER",
+          "-JULIE MARTINEL",
+          "-JEAN MARC DELCASSO",
+          "-NICOLAS LUMET",
+          "-THOMAS DELAHAIE",
+          "-YANN DECADT"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "POUR BOVINS A DESTINATION DE:",
+        "description": " INDIQUER LE PAYS DE DESTINATION EN LETTRES CAPITALES.Cette procédure est dédiée exclusivement aux certificats intra UE établis par les VOP",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "JJ/MM/AAAA",
+        "description": "Date de certification",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de certificats",
+        "description": "indiquer le nombre de certificats validés à la date indiquée et pour un même pays de destination et inclus dans le fichier scanné",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "INTRA.FR.AAAA.XXX...",
+        "description": "indiquer les n° de référence des certificats date numéro: AAAA.XXX...",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "INTRA.FR.AAAA.XXX...",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "scans des certificats par date de validation et pays de destination",
+        "description": "transmettre les pdf des certificats regroupés par date et pays de destination dans un délai de 48 heures",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "noter ici les commentaires ou informations  éventuels sur le(s) certificats transmis",
+        "required": false
+      }
+    ]
+  }
+}

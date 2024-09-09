@@ -1,0 +1,170 @@
+{
+  "number": 48908,
+  "title": "Saisine CCAPEX par les bailleurs sociaux - Val-d'Oise",
+  "description": "Formulaire de saisine de la CCAPEX du Val-d'Oise par les bailleurs sociaux, deux mois avant la notification de l'acte d'assignation à l'encontre des locataires non bénéficiaires des aides personnelles du logement.\r\n\r\nLa Commission de Coordination des Actions de Prévention des Expulsions (CCAPEX) est une commission compétente pour examiner toute situation d'impayés locatifs, de troubles de voisinage ou de reprise de logement par le bailleur. \r\nElle intervient dans le respect des droits du bailleur et du locataire.",
+  "tags": [
+    "Logement"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2021-09-27T11:08:07+02:00",
+  "service": {
+    "nom": "Commission de coordination des actions de la prévention des expulsions (CCAPEX) du Val d'Oise",
+    "organisme": "DDETS 95",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/saisine-ccapex-par-les-bailleurs-sociaux-val-d-oise",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.val-doise.gouv.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000028776052/",
+  "logo": {
+    "filename": "PREF_Val_d_oise_RVB.png",
+    "checksum": "rbb+gGuP4YbkuwVnWD/JyQ==",
+    "byteSize": "122459",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 8218,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Bailleur social",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du bailleur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Locataire(s)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Information de chaque locataire",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité du locataire",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du locataire",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom du locataire",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "N° allocataire",
+            "description": "À ne renseigner que si connu pour d'autres prestations",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse Locataire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Arrondissement",
+        "description": "Dans quel arrondissement se trouve le logement concerné par la procédure ?",
+        "required": false,
+        "options": [
+          "Pontoise",
+          "Sarcelles",
+          "Argenteuil"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Situation locative",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant de l'impayé",
+        "description": "Renseigner sous la forme 1234,89",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant du loyer principal",
+        "description": "Renseigner sous la forme 1234,89",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant de l'échéance mensuelle",
+        "description": "Renseigner sous la forme 1234,89",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Motif de saisine",
+        "description": "Ne pas mettre de date\r\nUniquement si procédure en cours",
+        "required": true,
+        "options": [
+          "Dettes",
+          "Défaut d’assurance",
+          "Défaut d’entretien",
+          "Expulsion pour troubles",
+          "Expulsion pour occupation illicite",
+          "Maintien dans les lieux en fin de bail suite congé"
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de commandement de payer",
+        "description": "procédure en cours",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Décompte locatif",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bail",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

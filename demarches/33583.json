@@ -1,0 +1,169 @@
+{
+  "number": 33583,
+  "title": "Situation numérique des élèves du Collège Beauséjour de Trinité",
+  "description": "Une enquête à destination des parents afin de recenser l'équipement informatique et la connexion internet de chacun des élèves qui nous sont confiés.\r\nCompte tenu de l'importance grandissante du numérique dans l'enseignement, La connaissance de ces données nous permettra de mieux organiser l'apprentissage des élèves en situation sanitaire normale; et également, de relever le défi de la continuité pédagogique en cas de situation sanitaire d'urgence devant conduire à la  mise en quarantaine d’élèves, de fermeture de classe ou de l'établissement.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2020-09-05T11:23:48+02:00",
+  "service": {
+    "nom": "Référent numérique",
+    "organisme": "Collège Beauséjour de Trinité",
+    "typeOrganisme": "etablissement_enseignement"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/situation-numerique-des-eleves-du-college-beausejo",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "Lien communiqué par message électronique",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000554201&categorieLien=id",
+  "logo": {
+    "filename": "logo beausejour.png",
+    "checksum": "9HQvDhyhf0STGbhJ1XHI0A==",
+    "byteSize": "21007",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "Arrêté_du_22_septembre_1995_version_consolidee_au_20200531.pdf",
+    "checksum": "cimX1YcXbp0jAuZo0IJRCw==",
+    "byteSize": "134243",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Responsabilité",
+        "description": "Veuillez indiquer votre situation de responsabilité pour l'élève concerné",
+        "required": true,
+        "options": [
+          "Mère",
+          "Père",
+          "Tuteur",
+          "Famille d’accueil",
+          "Organisme social"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'élève",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom de l'élève",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Classe de l'élève",
+        "description": "Veuillez indiquer dans la première liste le niveau de classe, puis dans la seconde liste la classe de l'élève",
+        "required": false,
+        "options": [
+          "--Sixième--",
+          "6ème1",
+          "6ème2",
+          "6ème3",
+          "--Cinquième--",
+          "5ème1",
+          "5ème2",
+          "5ème3",
+          "5ème4",
+          "--Quatrième--",
+          "4ème1",
+          "4ème2",
+          "4ème3",
+          "4ème4",
+          "--Troisième--",
+          "3ème1",
+          "3ème2",
+          "3ème3",
+          "3ème4"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Équipement de l'élève en Ordinateur",
+        "description": "Veuillez indiquer dans la liste la situation de l'élève concernant son équipement en ordinateur",
+        "required": true,
+        "options": [
+          "son ordinateur personnel",
+          "un ordinateur du foyer",
+          "son ordinateur personnel et un autre ordinateur du foyer",
+          "Sans ordinateur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Équipement de l'élève en tablette numérique",
+        "description": "Veuillez indiquer dans la liste la situation de l'élève concernant son équipement en tablette numérique",
+        "required": true,
+        "options": [
+          "sa tablette personnelle",
+          "une tablette du foyer",
+          "sa tablette personnelle et une autre tablette du foyer",
+          "Sans tablette"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Équipement de l'élève en connexion internet",
+        "description": "Veuillez indiquez dans la première liste le type de connexion internet, puis dans la seconde liste la qualité de la réception",
+        "required": true,
+        "options": [
+          "--Connexion WIFI (par box)--",
+          "Bonne qualité de réception",
+          "Moyenne qualité de réception",
+          "Mauvaise qualité de réception",
+          "Sans réception ",
+          "--Connexion 4G (par téléphone mobile)--",
+          "Bonne qualité de réception",
+          "Moyenne qualité de réception",
+          "Mauvaise qualité de réception",
+          "Sans réception",
+          "--Sans Connexion Internet--",
+          "Sans réception"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "partage de connexion",
+        "description": "En cas de situation de confinement de l'élève, pensez-vous avoir la possibilité d'utiliser le partage de connexion internet d'un voisin proche de votre domicile ?",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Smartphone",
+        "description": "veuillez indiquer si vous avez fourni à l'élève un téléphone mobile avec accès à internet",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "N° du smartphone",
+        "description": "Si oui et si possible, veuillez indiquer le numéro de téléphone de l'élève",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Observations",
+        "description": "Si vous le souhaitez, vous pouvez inscrire ici toute remarque que vous jugerez utile de nous communiquer sur la situation numérique de l'élève",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "FIN DU FORMULAIRE",
+        "description": "Nous vous remercions d'avoir renseigné ce formulaire, veuillez cliquer sur le bouton bleu ci-après  \"Déposer le dossier\" pour terminer.\n\nSi vous avez un autre enfant scolarisé au collège Beauséjour , à la page suivante, cliquez  sur \"Déposer un autre dossier\"\n",
+        "required": false
+      }
+    ]
+  }
+}

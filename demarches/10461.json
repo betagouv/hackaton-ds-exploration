@@ -1,0 +1,301 @@
+{
+  "number": 10461,
+  "title": "FORMULAIRE - Demande d'Expertise et de Ré-Expertise d'Ecoulement",
+  "description": "Ce formulaire a pour objectif d'accompagner les usagers dans leurs demandes relative aux statuts des écoulements.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2019-01-11T10:18:41+01:00",
+  "service": {
+    "nom": "Service Eau, Environnement et Forêt",
+    "organisme": "Direction Départementale des Territoires du Loiret",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande_expertise_ecoulement_045",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.loiret.gouv.fr/",
+  "cadreJuridiqueUrl": "http://circulaires.legifrance.gouv.fr/pdf/2015/06/cir_39701.pdf",
+  "logo": {
+    "filename": "procedure-fcb7e729-4aae-4d69-bdf6-6fcf124722c1.png",
+    "checksum": "V8uli5pQkNjFdlkXemIBPQ==",
+    "byteSize": "1607248",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 4,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Introduction",
+        "description": "Un guide de la démarche vous est proposé en haut à droite. Il est à votre disposition afin de vous accompagner dans le remplissage du présent formulaire.\r\nUne fois votre demande validée et transmise au service instructeur, un accusé de réception vous sera délivré. L'ensemble du suivi du dossier sera alors réalisé par l'intermédiaire de la plate-forme \"démarches-simplifiées\" sur votre compte.\r\nPour toute information complémentaire veuillez consulter les services de la Direction Départementale des Territoires du Loiret dont les informations sont indiquées au début de la démarche.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité du demandeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM",
+        "description": "Particulier : NOM Prénom\r\nPersonne morale : Dénomination",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identification",
+        "description": "Particulier : Date de naissance (JJ-MM-AAAA)\r\nPersonne morale : N° SIRET (XXX-XXX-XXX-XXXXX)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Representant_PM",
+        "description": "Représentant de la personne morale (NOM Prénom)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées du demandeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse",
+        "description": "Adresse postale",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Tel",
+        "description": "N° de Téléphone (XX-XX-XX-XX-XX)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Port",
+        "description": "N° de portable (XX-XX-XX-XX-XX)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Mail",
+        "description": "Adresse électronique (test@exemple.fr)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Caractérisation de la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Cartographie",
+        "description": "Localisation de l'écoulement faisant l'objet de la présente démarche\r\n--> Pour ajouter une zone cliquer sur \"Ajouter une Zone\" et tracer à l'aide de la souris\r\n--> Pour supprimer la zone, double cliquer sur la zone créée",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "ID_Topo",
+        "description": "Identifiant(s) du(es) tronçon(s)\r\n--> https://carto2.geo-ide.din.developpement-durable.gouv.fr/frontoffice/?map=49c7d61e-60f9-4697-abdb-4791e754861a\r\n\r\nVerser le fichier .csv généré par l'export du tableau \"résultat de recherche\".\r\nPossibilité de sélectionner plusieurs tronçons continus.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Stat_init",
+        "description": "Quel est le statut actuel du tronçon ?\r\n--> https://carto2.geo-ide.din.developpement-durable.gouv.fr/frontoffice/?map=49c7d61e-60f9-4697-abdb-4791e754861a",
+        "required": true,
+        "options": [
+          "Cours d'eau",
+          "Non cours d'eau",
+          "Indéterminé",
+          "Non connu"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Circ_demand",
+        "description": "Circonstances de la demande",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Stat_souhait",
+        "description": "Que est le statut souhaité ?",
+        "required": true,
+        "options": [
+          "Cours d'eau",
+          "Non cours d'eau",
+          "Indifférent"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Analyse cartographique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Cassini",
+        "description": "L'écoulement est-il présent sur la carte de Cassini ?\r\n--> https://www.geoportail.gouv.fr/donnees/carte-de-cassini",
+        "required": true,
+        "options": [
+          "Présent",
+          "Absent"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Etat-Major",
+        "description": "L'écoulement est-il présent sur la carte d'Etat-major ?\r\n--> https://www.geoportail.gouv.fr/donnees/carte-de-letat-major-1820-1866",
+        "required": true,
+        "options": [
+          "Présent",
+          "Absent"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Cad_Nap",
+        "description": "L'écoulement est-il présent sur le cadastre Napoléonien ?\r\n--> https://consultation.archives-loiret.fr/e/Cadastre?",
+        "required": true,
+        "options": [
+          "Présent",
+          "Absent"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Carte_obs",
+        "description": "Observations relatives à l'analyse cartographique de l'écoulement",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Analyse des critères",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Lit",
+        "description": "Le critère de présence et de permanence d'un lit naturel à l'origine est-il validé ?",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lit_obs",
+        "description": "Observations relatives à la confirmation ou l'infirmation du critère relatif à la présence et la permanence d'un lit naturel à l'origine.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Debit",
+        "description": "Le critère de présence d'un débit suffisant une majeure partie de l'année est-il validé ?",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Debit_obs",
+        "description": "Observations relatives à la confirmation ou l'infirmation du critère relatif à la présence d'un débit suffisant une majeure partie de l'année.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Source",
+        "description": "Le critère de présence d'une source est-il validé ?",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Source_obs",
+        "description": "Observations relatives à la confirmation ou l'infirmation du critère relatif à la présence d'une source.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Analyse de la continuité amont-aval",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Ecoul_Amont",
+        "description": "Que est le statut de l'écoulement amont ?\r\n--> http://carto.geo-ide.application.developpement-durable.gouv.fr/879/Carte_cours_eau_police_eau_045.map",
+        "required": true,
+        "options": [
+          "Cours d'eau",
+          "Non cours d'eau",
+          "Indéterminé",
+          "Non connu",
+          "Inexistant"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Ecoul_Aval",
+        "description": "Quel est le statut de l'écoulement aval ?\r\n--> http://carto.geo-ide.application.developpement-durable.gouv.fr/879/Carte_cours_eau_police_eau_045.map",
+        "required": true,
+        "options": [
+          "Cours d'eau",
+          "Non cours d'eau",
+          "Indéterminé",
+          "Non connu",
+          "Inexistant"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Certificat",
+        "description": "Je certifie sur l'honneur que les informations mentionnés dans le présent document sont exactes.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Carte",
+        "description": "Carte de localisation de l'écoulement sur IGN à l'échelle 1/25 000",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Courrier",
+        "description": "Courrier d'accompagnement à la demande",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "DIT",
+        "description": "Déclaration d'intention de travaux\nRécupérer le formulaire vierge pour mon dossier : https://www.demarches-simplifiees.fr/commencer/declaration_intention_travaux_045",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre",
+        "description": "Toute autre pièce jointe permettant de compléter la demande.",
+        "required": false
+      }
+    ]
+  }
+}

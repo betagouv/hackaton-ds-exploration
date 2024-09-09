@@ -1,0 +1,88 @@
+{
+  "number": 54270,
+  "title": "Bilan destruction à tir des animaux d'espèces susceptibles d'occasionner des dégâts dans le département de la Vienne - Campagne 2021-2022",
+  "description": "Le droit de destruction par les particuliers d' animaux d’espèces classées susceptibles d’occasionner des dégâts est strictement encadré. L’administration détermine la liste de ces animaux et fixe les modalités d’exercice du droit de destruction (cf. arrêtés ministériels du 2 septembre 2016 et du 3 juillet 2019 modifié).\r\nL’article R 427-8 du code de l’environnement reconnaît aux propriétaires, possesseurs et fermiers le droit de destruction, en précisant que les détenteurs de ce droit doivent l’exercer personnellement ou le déléguer par écrit.\r\nLes arrêtés ministériels de 2016 et de 2019 déterminent, pour chaque espèce, les modes de destruction autorisés, les périodes de destruction et les formalités requises.\r\nDans la Vienne, le classement porte sur les espèces suivantes : ragondin, rat musqué, renard, fouine, corbeau freux, corneille noire, étourneau sansonnet, bernache du Canada.\r\n\r\nChaque autorisation délivrée doit donner lieu à un bilan établi par son bénéficiaire, même en l'absence de prélèvement.",
+  "tags": [
+    "Chasse"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2022-09-02T15:37:04+02:00",
+  "service": {
+    "nom": "Service Eau et Biodiversité / Unité Forêt-Chasse",
+    "organisme": "Direction Départementale des Territoires de la Vienne",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/bilan_destruction_tir_esod",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.vienne.gouv.fr/Politiques-publiques/Environnement-risques-naturels-et-technologiques/Chasse-et-faune-sauvage/Especes-susceptibles-d-occasionner-des-degats-ESOD/Les-especes-susceptibles-d-occasionner-des-degats-ESOD",
+  "cadreJuridiqueUrl": "Site de la Préfecture de la Vienne",
+  "logo": {
+    "filename": "Logo.PNG",
+    "checksum": "h2nDZ/FC66BMM3V3u55hkA==",
+    "byteSize": "8903",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 474,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Je soussigné (identification du bénéficaire de l'autorisation)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Indiquer ici votre numéro de téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "N° de l'autorisation délivrée",
+        "description": "Indiquer ici le numéro d'arrêté figurant sur votre autorisation.\r\nAttention, bien vérifier que l'intitulé qui s'affiche est bien une demande d'autorisation de destruction à tir des ESOD.",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Bilan des tirs",
+        "description": "Il est demandé de donner un bilan par espèce même en cas de bilan nul, dans ce cas indiquer 0 pour l'espèce.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Espèce",
+            "description": null,
+            "required": true,
+            "options": [
+              "Corbeau Freux",
+              "Corneille Noire",
+              "Renard",
+              "Fouine",
+              "Étourneau sansonnet",
+              "Bernache du Canada"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Bilan des prélèvements",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Bilan des tirs",
+        "description": "Je certifie sur l'honneur l’exactitude des données transmises.",
+        "required": true
+      }
+    ]
+  }
+}

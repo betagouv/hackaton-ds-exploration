@@ -1,0 +1,1233 @@
+{
+  "number": 76597,
+  "title": "Déclaration de durabilité RED II : électricité et chaleur / biomasse solide",
+  "description": "Cette démarche permet aux obligés RED II, producteurs d'électricité et de chaleur à partir de biomasse solide, de soumettre leur déclaration de durabilité au titre de l'année 2022 (biomasse utilisée du 1er juillet 2022 - 31 décembre 2022).\r\nPar extension, les opérateurs utilisant des déchets solides ou liquides sont invités à remplir ce même formulaire.\r\nPour plus d'information, vous pouvez consulter : https://www.ecologie.gouv.fr/durabilite-des-bioenergies",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition énergétique"
+  ],
+  "datePublication": "2024-01-17T10:32:03+01:00",
+  "service": {
+    "nom": "Direction Générale de l'Energie et du Climat",
+    "organisme": "Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique, DREAL",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/declaration-2022-elec-chaleur-solide-liquide",
+  "dpoUrl": "dpd.daj.sg@developpement-durable.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ecologie.gouv.fr/durabilite-des-bioenergies",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043210190",
+  "logo": null,
+  "notice": {
+    "filename": "Consignes déclaration RED II 2022 v2.pdf",
+    "checksum": "z7xW4Ngd5vHqvZ1Y3oGP/A==",
+    "byteSize": "531989",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 156,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Conseil avant de compléter ce formulaire",
+        "description": "Le présent formulaire constitue la \"déclaration de durabilité et de réduction des émissions de gaz à effet de serre\" pour les obligés RED II produisant de l'électricité et/ou de la chaleur au titre de l'année 2022, à partir de biomasse solide.\r\nPour un rappel du cadre dans lequel s'inscrit cette déclaration, vous êtes invités à vous reporter à la page : https://www.ecologie.gouv.fr/durabilite-des-bioenergies\r\n\r\nIl vous est conseillé de travailler préalablement sur la version excel du formulaire de déclaration afin de faciliter vos calculs préalables. Cette version excel est téléchargeable sur https://cibe.fr/2022/09/27/directive-europeenne-red/\r\nAttention : les obligés RED II doivent travailler sur la \"déclaration\" (et non l'attestation).\r\n\r\nLe référentiel 2017 combustibles bois-énergie de l'ADEME est disponible sur : https://librairie.ademe.fr/produire-autrement/1783-referentiels-combustibles-bois-energie-de-l-ademe.html\r\nLe référentiel plus spécifique de classification du bois-déchet est disponible sur :\r\nhttps://librairie.ademe.fr/produire-autrement/5645-referentiel-de-classification-des-dechets-bois.html\r\n",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Rappel important",
+        "description": "La déclaration de durabilité ci-dessous porte sur les combustibles issus de la biomasse utilisés du 1er juillet 2022 au 31 décembre 2022 uniquement.\r\nVous devez renseigner autant de \"déclarations de durabilité\" que d'installations, c'est-à-dire de sites de production de bioénergies pris dans leur globalité. Chaque installation peut comporter plusieurs unités techniques, par exemple 3 chaudières biomasse, mais ne fera l'objet que d'une seule déclaration par opérateur.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Concernant les opérateurs soumis au marché européen des quotas carbone ETS",
+        "description": "Il est rappelé que, pour la biomasse utilisée durant l'année 2022, aucune preuve de durabilité n'est exigée. Vous n'êtes donc pas appelés à remplir ce formulaire si vous n'êtes pas, par ailleurs, assujetti à ces exigences au titre du Code de l'énergie.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Région d'implantation de l'installation",
+        "description": "Cette question permettra d'affecter votre dossier à l'instructeur compétent",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Ile-de-France",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d’Azur.",
+          "Guadeloupe",
+          "Réunion",
+          "Martinique",
+          "Guyane",
+          "Mayotte"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées de l'opérateur et de l'installation concernée par la déclaration",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d'énergie produite",
+        "description": "",
+        "required": true,
+        "options": [
+          "production de chaleur",
+          "production de chaleur et d'électricité/cogénération",
+          "production d'électricité"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Puissance thermique nominale totale de l'installation",
+        "description": "Pour rappel, on entend par “ puissance thermique nominale ” d'une installation, la somme des puissances thermiques de toutes les unités techniques qui la composent, pouvant fonctionner simultanément et dans lesquelles des combustibles ou carburants issus de biomasse (solides ou gazeux) ou des bioliquides sont utilisés. Ces puissances sont fixées et garanties par le constructeur, exprimées en pouvoir calorifique inférieur et susceptibles d'être consommées en marche continue. ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Recensement RED II déjà effectué",
+        "description": "Vous êtes vous recensé auprès de votre D(R)EAL, depuis avril 2023, via \"démarches simplifiées\" sur le \"Formulaire d'identification des installations de production d'électricité, de chaleur et de froid assujetties à la directive dite \"RED II\" ?\r\nSi vous ne disposez pas de votre numéro de dossier, cochez \"non\" afin de renseigner à nouveau vos coordonnées.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Référence du dossier \"démarches simplifiées\" de recensement (8 chiffres)",
+        "description": "Indiquez le numéro à 8 chiffres de votre dossier du recensement \"démarches simplifiées\" via le \"Formulaire d'identification des installations de production d'électricité, de chaleur et de froid assujetties à la directive dite \"RED II\".\r\nVous devez renseigner autant de \"déclaration de durabilité\" que d'installation, de même que lors du recensement DREAL : chaque installation fait l'objet d'un numéro de dossier unique lors du précédent recensement",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'installation (site)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département d'implantation de l'installation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'installation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Numéro SIRET de l'installation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM Prénom du déclarant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse mail du déclarant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Téléphone du déclarant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Nature et quantité de la biomasse, gaz à effet de serre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Concernant les réductions d'émissions de gaz à effet de serre :",
+        "description": "Il est rappelé que, pour les installations utilisant des combustibles solides, l'exigence de réduction des émissions de gaz à effet de serre ne s'applique que si la \"mise en service\" ou la conversion à l'utilisation de combustibles ou carburants issus de la biomasse a eu lieu après le 1er janvier 2021.\r\nLes autres installations n'ont pas à renseigner les éléments relatifs à ces réductions d'émission dans cette 2e section.\r\n\r\nDans le contexte de ce formulaire, une installation est considérée comme mise en service une fois que la production physique de biocarburants, de bioliquides, de biogaz, de chaleur et de froid ou d'électricité à partir de combustibles issus de la biomasse y a débuté.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Bois rond",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "% du mix produit en tonnes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Distances",
+        "description": "",
+        "required": true,
+        "options": [
+          "0-500km",
+          "500-2 500km",
+          "2 500-10 000km",
+          "plus de 10 000km"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Région(s) d'origine",
+        "description": "Plusieurs choix possibles",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Ile-de-France",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d’Azur.",
+          "Guadeloupe",
+          "Réunion",
+          "Martinique",
+          "Guyane",
+          "Mayotte",
+          "autre, précisez"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pays étranger(s) d'origine",
+        "description": "Si vous avez sélectionné \"autre, précisez\" à la question précédente",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Source de données GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Réductions GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Plaquette forestière",
+        "description": "1A_PFA dans le référentiel combustible ADEME",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "% du mix produit en tonnes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Distances",
+        "description": "",
+        "required": true,
+        "options": [
+          "0-500km",
+          "500-2 500km",
+          "2 500-10 000km",
+          "plus de 10 000km"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Région(s) d'origine",
+        "description": "",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Ile-de-France",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d’Azur.",
+          "Guadeloupe",
+          "Réunion",
+          "Martinique",
+          "Guyane",
+          "Mayotte",
+          "autre, précisez"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pays étranger(s) d'origine",
+        "description": "Si vous avez sélectionné \"autre, précisez\" à la question précédente",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Sources de données GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Réductions GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Bois hors forêt - plaquettes bocagères ou agroforestières",
+        "description": "1B_PFA dans le référentiel combustible ADEME",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "% du mix produit en tonnes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Distances",
+        "description": "",
+        "required": true,
+        "options": [
+          "0-500km",
+          "500-2 500km",
+          "2 500-10 000km",
+          "plus de 10 000km"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Région(s) d'origine",
+        "description": "",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Ile-de-France",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d’Azur.",
+          "Guadeloupe",
+          "Réunion",
+          "Martinique",
+          "Guyane",
+          "Mayotte",
+          "autre, précisez"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pays étranger(s) d'origine",
+        "description": "Si vous avez sélectionné \"autre, précisez\" à la question précédente",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Sources de données GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Réductions GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Bois hors forêts - Plaquettes paysagères ligneuses résidelles",
+        "description": "1C_PFA dans le référentiel combustible ADEME",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "% du mix produit en tonnes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Distances",
+        "description": "",
+        "required": true,
+        "options": [
+          "0-500km",
+          "500-2 500km",
+          "2 500-10 000km",
+          "plus de 10 000km"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Région(s) d'origine",
+        "description": "",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Ile-de-France",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d’Azur.",
+          "Guadeloupe",
+          "Réunion",
+          "Martinique",
+          "Guyane",
+          "Mayotte",
+          "autre, précisez"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pays étranger(s) d'origine",
+        "description": "Si vous avez sélectionné \"autre, précisez\" à la question précédente",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Sources de données GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Réductions GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Produit connexe des industries de transformation - Ecorces",
+        "description": "2A-CIB dans le référentiel combustible ADEME",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "% du mix produit en tonnes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Distances",
+        "description": "",
+        "required": true,
+        "options": [
+          "0-500km",
+          "500-2 500km",
+          "2 500-10 000km",
+          "plus de 10 000km"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Région(s) d'origine",
+        "description": "",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Ile-de-France",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d’Azur.",
+          "Guadeloupe",
+          "Réunion",
+          "Martinique",
+          "Guyane",
+          "Mayotte",
+          "autre, précisez"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pays étranger(s) d'origine",
+        "description": "Si vous avez sélectionné \"autre, précisez\" à la question précédente",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Sources de données GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Réductions GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Produit connexe des industries de transformation - Plaquettes",
+        "description": "2B-CIB dans le référentiel combustible ADEME",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "% du mix produit en tonnes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Distances",
+        "description": "",
+        "required": true,
+        "options": [
+          "0-500km",
+          "500-2 500km",
+          "2 500-10 000km",
+          "plus de 10 000km"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Région(s) d'origine",
+        "description": "",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Ile-de-France",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d’Azur.",
+          "Guadeloupe",
+          "Réunion",
+          "Martinique",
+          "Guyane",
+          "Mayotte",
+          "autre, précisez"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pays étranger(s) d'origine",
+        "description": "Si vous avez sélectionné \"autre, précisez\" à la question précédente",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Sources de données GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Réductions GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Bois déchet - Bois SSD sortis du statut de déchet",
+        "description": "3A_BFVBD dans le référentiel combustible ADEME",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "% du mix produit en tonnes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Distances",
+        "description": "",
+        "required": true,
+        "options": [
+          "0-500km",
+          "500-2 500km",
+          "2 500-10 000km",
+          "plus de 10 000km"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Région(s) d'origine",
+        "description": "",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Ile-de-France",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d’Azur.",
+          "Guadeloupe",
+          "Réunion",
+          "Martinique",
+          "Guyane",
+          "Mayotte",
+          "autre, précisez"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pays étranger(s) d'origine",
+        "description": "Si vous avez sélectionné \"autre, précisez\" à la question précédente",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Sources de données GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Réductions GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Déchets de bois non dangereux rubrique réglementaire 2910-B ICPE",
+        "description": "BR1 -  classification  bois déchet ADEME\r\n3B_BFVBD dans le référentiel combustible ADEME",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "% du mix produit en tonnes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Distances",
+        "description": "",
+        "required": true,
+        "options": [
+          "0-500km",
+          "500-2 500km",
+          "2 500-10 000km",
+          "plus de 10 000km"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Région(s) d'origine",
+        "description": "",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Ile-de-France",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d’Azur.",
+          "Guadeloupe",
+          "Réunion",
+          "Martinique",
+          "Guyane",
+          "Mayotte",
+          "autre, précisez"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pays étranger(s) d'origine",
+        "description": "Si vous avez sélectionné \"autre, précisez\" à la question précédente",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Source de données GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Réductions GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Déchets de bois non dangereux rubrique réglementaire 2771 ICPE",
+        "description": "BR2 - classification  bois déchet ADEME\r\n3C_BFVBD dans le référentiel combustible ADEME",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "% du mix produit en tonnes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Distances",
+        "description": "",
+        "required": true,
+        "options": [
+          "0-500km",
+          "500-2 500km",
+          "2 500-10 000km",
+          "plus de 10 000km"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Région(s) d'origine",
+        "description": "",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Ile-de-France",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d’Azur.",
+          "Guadeloupe",
+          "Réunion",
+          "Martinique",
+          "Guyane",
+          "Mayotte",
+          "autre, précisez"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pays étranger(s) d'origine",
+        "description": "Si vous avez sélectionné \"autre, précisez\" à la question précédente",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Source de données GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Réductions GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Déchets de bois  dangereux rubrique réglementaire 2770 ICPE",
+        "description": "C  -  classification  bois déchet ADEME\r\n3D_BFVBD dans le référentiel combustible ADEME",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "% du mix produit en tonnes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Distance",
+        "description": "",
+        "required": true,
+        "options": [
+          "0-500km",
+          "500-2 500km",
+          "2 500-10 000km",
+          "plus de 10 000km"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Région(s) d'origine",
+        "description": "",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Ile-de-France",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d’Azur.",
+          "Guadeloupe",
+          "Réunion",
+          "Martinique",
+          "Guyane",
+          "Mayotte",
+          "autre, précisez"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pays étranger(s) d'origine",
+        "description": "Si vous avez sélectionné \"autre, précisez\" à la question précédente",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Source de données GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Réductions GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Granulés bois",
+        "description": "4A_GR dans le référentiel combustible ADEME",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "% du mix produit en tonnes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Distance",
+        "description": "",
+        "required": true,
+        "options": [
+          "0-500km",
+          "500-2 500km",
+          "2 500-10 000km",
+          "plus de 10 000km"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Région(s) d'origine",
+        "description": "",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Ile-de-France",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d’Azur.",
+          "Guadeloupe",
+          "Réunion",
+          "Martinique",
+          "Guyane",
+          "Mayotte",
+          "autre, précisez"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pays étranger(s) d'origine",
+        "description": "Si vous avez sélectionné \"autre, précisez\" à la question précédente",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Source de données GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Réductions GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Granulés bois d'origine agricole",
+        "description": "4B_GR dans le référentiel combustible ADEME",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "% du mix produit en tonnes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Distance",
+        "description": "",
+        "required": true,
+        "options": [
+          "0-500km",
+          "500-2 500km",
+          "2 500-10 000km",
+          "plus de 10 000km"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Région(s) d'origine",
+        "description": "",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Ile-de-France",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d’Azur.",
+          "Guadeloupe",
+          "Réunion",
+          "Martinique",
+          "Guyane",
+          "Mayotte",
+          "autre, précisez"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pays étranger(s)",
+        "description": "Si vous avez sélectionné \"autre, précisez\" à la question précédente",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Source de données GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Réductions GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Granulés bois traités thermiquement",
+        "description": "4C_GR dans le référentiel combustible ADEME",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "% dans le mix produit en tonnes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Distance",
+        "description": "",
+        "required": true,
+        "options": [
+          "0-500km",
+          "500-2 500km",
+          "2 500-10 000km",
+          "plus de 10 000km"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Région(s) d'origine",
+        "description": "",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Ile-de-France",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d’Azur.",
+          "Guadeloupe",
+          "Réunion",
+          "Martinique",
+          "Guyane",
+          "Mayotte",
+          "autre, précisez"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pays étranger(s) d'origine",
+        "description": "Si vous avez sélectionné \"autre, précisez\" à la question précédente",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Source de données GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Réductions GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Autres type d'approvisionnement - préciser",
+        "description": "Ex : liqueurs noires, résidus d'industries agroalimentaires, résidus agricoles (pailles...), autres biocombustibles...",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "% dans le mix produit en tonnes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Détail des approvisionnements \"autres\"",
+        "description": "Idéalement, préciser la ventilation en tonnage de vos approvisionnements autres, le total devant correspondre au \"% dans le mix produit\" de la question précédente.\r\nExemple : si 65% du mix produit est constitué d'un autre type d'approvisionnement (question précédente), vous pouvez indiquer que 20% correspondent à la paille, et 45% à des résidus de l'industrie agroalimentaire.",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Distance",
+        "description": "",
+        "required": true,
+        "options": [
+          "0-500km",
+          "500-2 500km",
+          "2 500-10 000km",
+          "plus de 10 000km"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Région(s) d'origine",
+        "description": "",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Ile-de-France",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d’Azur.",
+          "Guadeloupe",
+          "Réunion",
+          "Martinique",
+          "Guyane",
+          "Mayotte",
+          "autre, précisez"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pays étranger(s) d'origine",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Source de données GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Réductions GES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "QUANTITE TOTALE RECEPTIONNEE EN TONNES",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "REDUCTION TOTALE GES (en %)",
+        "description": "Moyenne pondérée des réductions GES des approvisionnements.\r\nExemple : si votre approvisionnement se compose de 60% de plaquette forestière 1A_PFA à 91% de réduction de GES, et 40% de bois SSD 3A_BFVBD à 93% de réduction, la réduction totale sera de 0,6x91% + 0,4x93% = 91,8%",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Durabilité de la biomasse issue directement de forêt",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Biomasse forestière française",
+        "description": "Pour les produits livrés et directement issus de la forêt française, j’atteste que ceux-ci sont conformes à l’analyse du risque pour la France. A ce titre, ils respectent les critères de durabilité de la directive RED II, à savoir  :\r\n•\tla légalité des opérations de récolte;\r\n•\tla régénération effective de la forêt dans les zones de récolte;\r\n•\tla protection des zones désignées par le droit national ou international ou par l'autorité compétente en la matière à des fins de protection de la nature, notamment dans les zones humides et les tourbières, à moins qu'il n'ait été prouvé que la récolte de ces matières premières ne compromet pas ces objectifs de protection de la nature;\r\n•\tque l'exploitation est assurée dans le souci de la préservation de la qualité des sols et de la biodiversité, dans le but de réduire au minimum les incidences négatives; \r\n•\tque l'exploitation maintient ou améliore la capacité de production à long terme de la forêt;\r\n•\tla biomasse forestière répond aux critères relatifs à l'utilisation des terres, le changement d'affectation des terres et la foresterie (UTCATF) définis à l'article L. 281-10 du code de l'énergie.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Biomasse forestière issue d'un pays étranger",
+        "description": "En cas d’approvisionnement hors France, conformément aux attestations complémentaires jointes  ou en référence à l’analyse de risque de la zone hors France considérée - Je déclare que la biomasse associée à cette attestation a fait l’objet des mesures suivantes :\r\n• la légalité des opérations de récolte;\r\n• la régénération effective de la forêt dans les zones de récolte;\r\n• la protection des zones désignées par le droit national ou international ou par l'autorité compétente en la matière à des fins de protection de la nature, notamment dans les zones humides et les tourbières, à moins qu'il n'ait été prouvé que la récolte de ces matières premières ne compromet pas ces objectifs de protection de la nature;\r\n• que l'exploitation est assurée dans le souci de la préservation de la qualité des sols et de la biodiversité, dans le but de réduire au minimum les incidences négatives; \r\n• que l'exploitation maintient ou améliore la capacité de production à long terme de la forêt;\r\n•\tla biomasse forestière répond aux critères relatifs à l'utilisation des terres, le changement d'affectation des terres et la foresterie (UTCATF) définis à l'article L. 281-10 du code de l'énergie.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si vous  ne disposez pas des éléments permettant d'attester de la durabilité de la biomasse importée, indiquez-le ici",
+        "description": "Ex : \"je ne dispose pas des éléments d'analyse concernant mon approvisionnement en plaquette forestière en provenance de [pays]\"",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Documents justificatif concernant la durabilité de la biomasse importée",
+        "description": "Ex : certificats de durabilité RED de vos fournisseurs, \"analyse de risque RED\" portant sur le pays d'origine...",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Efficacité énergétique des installations produisant de l'électricité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mon installation a commencé à utiliser de la biomasse après le 25 décembre 2021",
+        "description": "L'article L. 281-11 du code de l'énergie ne s'applique qu'aux installations \"mises en service\" ou converties à l'utilisation de combustibles ou carburants issus de la biomasse après le 25 décembre 2021.\r\nDans le contexte de ce formulaire, une installation est considérée comme mise en service une fois que la production physique de biocarburants, de bioliquides, de biogaz, de chaleur et de froid ou d'électricité à partir de combustibles issus de la biomasse y a débuté.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation de l'installation en termes d'efficacité énergétique",
+        "description": "En application de l'article L. 281-11 du code de l'énergie, l'électricité produite à partir de biomasse doit respecter l'une ou plusieurs des conditions suivantes:\r\n1° Etre produite dans des installations dont la puissance thermique nominale totale est inférieure à 50 MW ;\r\n2° Pour les installations dont la puissance thermique nominale totale se situe entre 50 et 100 MW, être produite au moyen d'une technologie de cogénération à haut rendement ou dans une installation exclusivement électrique respectant un niveau d'efficacité énergétique associé aux meilleures technologies disponibles, au sens de la décision d'exécution prévue au paragraphe 5 de l'article 13 de la directive 2010/75/ UE du Parlement européen et du Conseil du 24 novembre 2010 relative aux émissions industrielles (prévention et réduction intégrées de la pollution), pour les grandes installations de combustion ;\r\n3° Pour les installations dont la puissance thermique nominale totale est supérieure à 100 MW, être produite au moyen d'une technologie de cogénération à haut rendement ou dans une installation exclusivement électrique atteignant un rendement électrique net d'au moins 36 % ;\r\n4° Etre produite dans des installations procédant au captage et au stockage de CO2 issu de la biomasse.\r\n\r\nMerci de préciser quelle option correspond à votre situation.",
+        "required": true,
+        "options": [
+          "Cas 1°",
+          "Cas 2°",
+          "Cas 3°",
+          "Cas 4°"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Expression et contribution libre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Expression libre",
+        "description": "Vous pouvez faire des commentaires dans cette section.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dépôt de document additionnel",
+        "description": "Vous pouvez déposer tout document que vous jugez utile à l'analyse de votre dossier par les services de l'Etat, par exemple un bilan d'approvisionnement déjà établi pour l'année 2022 au titre d'obligations contractuelles",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "number": 62793,
+  "title": "Demande de création d'un fournisseur de service pour FranceConnect ou FranceConnect+",
+  "description": "Cette démarche vous permet de demander la création d'un fournisseur de service FranceConnect ou FranceConnect+ sur l'environnement d'intégration ou de production. \r\n\r\n=> Pour une demande concernant l'environnement d'intégration, votre demande Datapass doit avoir été validée.\r\n=> Pour une demande concernant l'environnement de production, votre intégration doit avoir fait l'objet d'une recette et avoir été qualifiée par l'équipe FranceConnect.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Premier ministre"
+  ],
+  "datePublication": "2024-05-15T17:38:27+02:00",
+  "service": {
+    "nom": "FranceConnect",
+    "organisme": "Direction interministérielle du numérique",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-creation-fs-fc",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://partenaires.franceconnect.gouv.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037611479/",
+  "logo": {
+    "filename": "fc-logo.png",
+    "checksum": "iO2XAceINqgv1W1b8/XsmA==",
+    "byteSize": "17566",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 165,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Choix de l'environnement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "FranceConnect ou FranceConnect+",
+        "description": "Indiquez ici si vous souhaitez que votre Fournisseur de Service soit créé sur FranceConnect ou FranceConnect+",
+        "required": true,
+        "options": [
+          "FranceConnect",
+          "FranceConnect+"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Intégration ou Production",
+        "description": "Votre demande de création de Fournisseur de Service concerne-t-elle l'environnement d'Intégration ou de Production ?",
+        "required": true,
+        "options": [
+          "Intégration",
+          "Production"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de mise en production prévisionnelle",
+        "description": "Indiquez ici la date de mise en production souhaitée de votre Fournisseur de Service",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Demande concernant l'environnement de Production",
+        "description": "Pour faire une demande de création de Fournisseur de Service en Production, votre intégration de FranceConnect doit avoir fait l'objet d'une recette et avoir été qualifiée par l'équipe FranceConnect",
+        "required": false
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Dossier de qualification",
+        "description": "Indiquez ici le numéro de dossier de la recette validée",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": "Indiquez ici le numéro de téléphone portable sur lequel vous souhaitez recevoir par SMS le client secret de votre FS. Le client ID vous sera envoyé via la messagerie de Démarches Simplifiées",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur votre Fournisseur de Service",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de la demande Datapass",
+        "description": "Renseignez ici le numéro de la demande Datapass qui a été validée et qui vous permet d'utiliser FranceConnect ou FranceConnect+",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'organisation",
+        "description": "Renseignez ici le nom de votre organisation, tel qu'il a été déclaré dans votre demande Datapass",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du Fournisseur de Service",
+        "description": "Renseignez ici le nom du Fournisseur de Service, tel que vous souhaitez qu'il s'affiche dans la cinématique FranceConnect",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Configuration de votre Fournisseur de Service",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "URL du site",
+        "description": "Renseignez ici l'URL de votre Fournisseur de Service (page affichant le bouton FranceConnect)",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Liste des URLs de redirection de connexion",
+        "description": "Renseignez ici la liste exhaustive des URLs de redirection de connexion de votre Fournisseur de Service à la fin de la cinématique de connexion FranceConnect. ",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "URL de redirection de connexion",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Attention",
+            "description": "Il n'est pas permis d'enrôler plusieurs environnements sous un même Fournisseur de Service. \r\nCela signifie qu'un seul nom de domaine et un seul nom de sous-domaine est autorisé par FS",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Liste des URLs de redirection de déconnexion",
+        "description": "Renseignez ici la liste exhaustive des URLs de redirection de déconnexion de votre Fournisseur de Service à la fin de la cinématique de déconnexion FranceConnect.  ",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "URL de redirection de déconnexion",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Attention",
+            "description": "Il n'est pas permis d'enrôler plusieurs environnements sous un même Fournisseur de Service. \r\nCela signifie qu'un seul nom de domaine et un seul nom de sous-domaine est autorisé par FS",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Client keys url",
+        "description": "Renseignez ici l'URL qui expose les clés publiques de signature de votre Fournisseur de Service",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Algorithme de chiffrement",
+        "description": "Renseignez ici l'algorithme de chiffrement que vous souhaitez utiliser pour le chiffrement des jetons transmis par FranceConnect+",
+        "required": true,
+        "options": [
+          "ECDH-ES + A256GCM",
+          "RSA-OAEP-256 + A256GCM"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Algorithme de signature",
+        "description": "Renseignez ici l'algorithme de signature que vous souhaitez utiliser pour la signature des jetons transmis par FranceConnect",
+        "required": true,
+        "options": [
+          "ES256",
+          "RS256"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Liste des adresses IP d'Intégration",
+        "description": "Renseignez ici la liste des adresses IP d'Intégration, utilisées par votre Fournisseur de Service",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse IP",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Liste des adresses IP de Production",
+        "description": "Renseignez ici la liste des adresses IP de Production, utilisées par votre Fournisseur de Service",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse IP",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Gestion des subs pour votre Fournisseur de Service",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous réutiliser les subs d'un de vos Fournisseurs de Service FranceConnect ?",
+        "description": "Dans le cas où vous auriez un Fournisseur de Service FranceConnect, vous avez la possibilité que les subs générés pour votre Fournisseur de Service FranceConnect-v2 ou FranceConnect+ soient les mêmes que ceux générés pour votre Fournisseur de Service FranceConnect",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Client ID de votre Fournisseur de Service FranceConnect",
+        "description": "Si vous souhaitez avoir les mêmes subs générés pour votre Fournisseur de Service FranceConnect et pour votre Fournisseur de Service FranceConnect-v2 ou FranceConnect+, veuillez renseigner ici le client ID de votre Fournisseur de Service FranceConnect que vous utilisez en intégration ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations supplémentaires",
+        "description": "Indiquez ici toute information complémentaire que vous jugerez nécessaire concernant le traitement de votre demande",
+        "required": false
+      }
+    ]
+  }
+}

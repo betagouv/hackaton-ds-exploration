@@ -1,0 +1,885 @@
+{
+  "number": 18153,
+  "title": "ARS IDF - EVALUATION - Autorisation d'activité de traitement de l'IRC",
+  "description": "Cette démarche d'évaluation en vue d'un renouvellement, prévue par l'article L. 6122-10 du Code de la Santé Publique, s'adresse aux titulaires d'une autorisation d'activité de traitement de l’Insuffisance Rénale Chronique par épuration extra-rénale (IRC) implantée en région Ile-de-France . Via cette démarche en ligne, le titulaire de l'autorisation sollicite le renouvellement de ses autorisations et adresse les résultats de l'évaluation à l'agence régionale de santé au plus tard quatorze mois avant l'échéance de l'autorisation.  Elle se substitue au dépôt d'un dossier \"papier\" auprès des services de l'ARS.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2019-06-18T12:24:43+02:00",
+  "service": {
+    "nom": "Service des autorisations d'activités de soins (siège)",
+    "organisme": "ARS Ile-de-France",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ars-idf-eval-irc-2019",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.iledefrance.ars.sante.fr/dossiers-types-de-demandes",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=D66043A501604B2778671FAB42B73C40.tplgfr23s_2?idArticle=LEGIARTI000037443784&cidTexte=LEGITEXT000006072665&dateTexte=20190527&categorieLien=id&oldAction=&nbResultRech=",
+  "logo": {
+    "filename": "procedure-0270312b-4e1e-4265-8bc6-f44e4e17977c.jpg",
+    "checksum": "KTH2cgaaj78nvPe9B71v1Q==",
+    "byteSize": "42110",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 6,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "ATTENTION",
+        "description": "Pensez à enregistrer régulièrement votre dossier en cours de rédaction.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTIFICATION",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° FINESS juridique",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale du titulaire de l’autorisation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut",
+        "description": null,
+        "required": true,
+        "options": [
+          "Établissement public de santé",
+          "ESPIC",
+          "Établissement privé à but lucratif",
+          "Établissement privé non lucratif",
+          "GCS",
+          "GIE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° FINESS du site d'implantation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du site d'implantation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du site d'implantation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Département d'implantation",
+        "description": null,
+        "required": true,
+        "options": [
+          "75 - Paris",
+          "77 - Seine-et-Marne",
+          "78 - Yvelines",
+          "91 - Essonne",
+          "92 - Hauts-de-Seine",
+          "93 - Seine-Saint-Denis",
+          "94 - Val-de-Marne",
+          "95 - Val-d'Oise"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom - prénom du représentant légal",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Coordonnées du représentant légal",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "CONTACT",
+        "description": "Personne référente pour le suivi du dossier, si différente du représentant légal. ",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom - prénom",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Email",
+        "description": "L'adresse mail utilisée pour la création du compte sera utilisée pour les échanges courriels relatifs au suivi du dossier. ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DESCRIPTION GENERALE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "CONTEXTE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Projet médical",
+        "description": "Décrire le projet médical global de la structure concernant le traitement de la maladie rénale chronique.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Projet d'établissement",
+        "description": "Indiquer les évolutions envisagées dans les sept ans pouvant impacter l'activité évaluée.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "ORGANISATION DU TRAITEMENT DE L'IRC",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Postes autorisés",
+        "description": "Mentionner le nombre de postes d'hémodialyse autorisés, toutes modalités confondues. ",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Postes installés",
+        "description": "Mentionner le nombre de postes d'hémodialyse actuellement installés, toutes modalités confondues. ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Changements dans la mise en oeuvre",
+        "description": "Le cas échéant, indiquer tout changement intervenu depuis la dernière visite de conformité dans la mise en œuvre de l'autorisation.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Planning",
+        "description": "Décrire la répartition des séances théoriques par modalité, selon un planning hebdomadaire et selon les unités existantes. Le cas échéant, décrire l'organisation prévue pour la dialyse à domicile. ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Planning (à télécharger)",
+        "description": "En complément, vous pouvez joindre 1 document. Si plusieurs documents, merci d'utiliser la messagerie à votre disposition une fois votre dossier soumis.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Description des équipes",
+        "description": "Joindre la description des équipes médicales et paramédicales, toutes modalités confondues. ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Continuité et permanence des soins",
+        "description": "Préciser l'organisation de la continuité médicale et paramédicale selon les modalités ainsi que des gardes et astreintes (pour l'hospitalisation complète).",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Important : Application du Règlement général sur la protection des données",
+        "description": "Pour permettre l’examen et le suivi des dossiers d’évaluation de l’activité de traitement de l’Insuffisance Rénale Chronique par épuration extra-rénale (IRC), l’ARS Ile-de-France procède à un traitement de données personnelles sur le fondement de l’article 6 e) du Règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 (Règlement général sur la protection des données, ou RGPD).  \n\nLes données sont conservées par l’ARS Ile-de-France tout au long de l’existence juridique de la structure titulaire de l’autorisation et ne peuvent être communiquées qu’à des destinataires internes à l’ARS Ile-de-France. \n\nConformément au RGPD et à la loi n° 78-du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés (loi informatique et libertés), vous disposez d’un droit d’accès, de rectification, d’effacement et de portabilité des données vous concernant. Vous pouvez également demander la limitation du traitement de vos données. Vous pouvez exercer ces droits, en vous adressant au Délégué à la protection des données de l’ARS par courriel à l’adresse : ars-idf-dpd@ars.sante.fr.\nVous disposez enfin d’un droit d'introduire une réclamation auprès de la CNIL, si vous considérez que le traitement de données à caractère personnel vous concernant constitue une violation du RGPD et de la loi informatique et libertés.\n\nPour permettre le traitement des demandes d’activité de traitement de l'IRC, certaines données personnelles de professionnels médicaux intervenant dans la structure sont requises dans le descriptif des équipes ci-dessus. \n\nCes professionnels doivent être informés de l’existence du traitement de données précité  ainsi que des modalités d’exercice de leurs droits.\n\nA cet effet, un document d’information qu’il vous convient de télécharger et de remettre aux intéressés est disponible à cette adresse : https://www.iledefrance.ars.sante.fr/system/files/2019-06/Fiche%20d%27information%20RGPD.docx  ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "PARCOURS DES PATIENTS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Consultations de nephrologie",
+        "description": "Indiquer si la structure réalise des consultations externes ou dans l'établissement (hors consultations pendant les séances).",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Préciser :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Accessibilité",
+        "description": "Préciser les mesures prises relatives à l’accessibilité dans ses différentes dimensions (amplitude horaire d’ouverture, amélioration de l’accessibilité aux personnes à mobilité réduite, respect des réglementations en matière d’information des patients, accès au tarif opposable etc.).",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Actions de prévention",
+        "description": "Indiquer le nombre d’actions de prévention /dépistage effectuées ou auxquelles a participé la structure (pour les trois dernières années complètes). Le cas échéant, décrire ces actions.  ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Information du patient",
+        "description": "Décrire l’organisation de la consultation d’annonce et l’information du patient sur les différentes modalités de traitement de l’insuffisance rénale stade 5 (transplantation rénale / dialyse à domicile / autodialyse / hémodialyse en unité de dialyse médicalisée ou en hémodialyse en centre, traitement conservateur) permettant un choix éclairé de la modalité de traitement.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Consultation de pré-suppléance / consultation d'annonce",
+        "description": "Indiquer le nombre de patients ayant bénéficié d’une consultation de pré-suppléance ou d'une consultation d'annonce (pour les trois dernières années complètes).  ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Organisation de la pré-dialyse",
+        "description": "Indiquer si la structure a mis en place une organisation dédiée à la prise en charge des patients aux stades 4 et 5 en attente de prise en charge en traitement de suppléance pré-dialyse.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Préciser :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Education Thérapeutique du Patient",
+        "description": "Décrire les programmes d’Education Thérapeutique du Patient mis en place ou envisagés.\nPréciser le nombre de personnels formés pour réaliser l’ETP.\nPréciser le nombre de patients ayant bénéficié de l’ETP.\n",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Prise en charge des personnes âgées",
+        "description": "Indiquer si la structure a mis en place une organisation dédiée de prise en charge des personnes âgées. \nPréciser le pourcentage de professionnels médicaux et paramédicaux formés à la prise en charge des personnes âgées en unité de dialyse médicalisée et en centre lourd. Préciser les modalités de formation du personnel (DU, master, autres...). ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Préciser :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Prise en charge des populations spécifiques",
+        "description": "Indiquer si la structure a mis en place des organisations dédiées de prise en charge des populations spécifiques (détenus, personnes précaires, avec des troubles psychiatriques ou handicapées).",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Préciser :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Pathologies intercurrentes",
+        "description": "Décrire la prise en charge des pathologies spécifiques intercurrentes (traumatologie, cancers, ...). ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Soins palliatifs",
+        "description": "Décrire l'organisation des prises en charge en soins palliatifs. ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Accès à la transplantation",
+        "description": "Indiquer le pourcentage de dossiers évalués, parmi les dossiers des patients au stade de pré-suppléance ou suppléance en vue d’inscriptions éventuelles sur liste d’attente de transplantation (pour les trois dernières années complètes).\nDécrire l’organisation de l’accès à la greffe pour les patients (bilans pré-greffes, listes d’attente, suivi partagé, coordination inter-centres etc.).",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Conventions pour la transplantation",
+        "description": "Joindre, le cas échéant, la convention avec au moins un établissement pratiquant la transplantation rénale. ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "COORDINATION DES PRISES EN CHARGE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Organisation de la complémentarité",
+        "description": "Préciser les conventions de coopération  ou de groupements de coopération sanitaire établies permettant de proposer aux patients les quatre modalités de dialyse (hémodialyse en centre, unité de dialyse médicalisée, unité d’autodialyse assistée, dialyse péritonéale, dialyse à domicile).\nPréciser les critères annuels d'évaluation.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Conventions à joindre au dossier",
+        "description": "Si plusieurs documents, merci d'utiliser la messagerie à votre disposition une fois votre dossier soumis.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Patients adressés à d'autres structures",
+        "description": "Préciser, pour les trois dernières années complètes, combien de patients ont été adressés à une autre structure afin d’être pris en charge dans le cadre d’une modalité non autorisée au sein de votre structure (par modalité). ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Protocoles internes",
+        "description": "Préciser l’existence de protocoles et/ou conventions avec les autres services au sein de la structure (réanimation, néphrologie…). \n\nPour les hémodialyse en centre, préciser : \n- si réanimation sur place, sinon joindre ci-dessous la convention de coopération avec une unité de réanimation du territoire de soins,\n- le nombre de patients / séjours / jours de repli en unité d'hospitalisation dans la structure hébergeant l'unité d'hémodialyse en centre.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Convention de réanimation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Convention de repli",
+        "description": "Joindre la convention de repli (vers une unité hors  hémodialyse en centre).",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autres complémentarités",
+        "description": "Décrire toutes les autres complémentarités mises en œuvre (au sein de l’établissement et avec les autres opérateurs, y compris les professionnels de la ville et du médico-social, notamment pour la prise en charge des personnes âgées ou des comorbidités les plus fréquentes : diabète, maladie cardio-vasculaire...).",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "QUALITE ET SECURITE DES SOINS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Lien avec la démarche de certification",
+        "description": "Préciser si l’activité d’IRC est concernée par des recommandations ou obligations d’amélioration inscrites dans le rapport de certification produit par la HAS, et, le cas échéant, les mesures mises en place ou envisagées pour y répondre. ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Bientraitance",
+        "description": "Décrire les actions de promotion et de formation du personnel à la bientraitance.\nIndiquer le pourcentage du personnel médical et paramédical ayant bénéficié d’une formation à la bientraitance.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Gestes d'urgence",
+        "description": "Décrire les modalités de formation des soignants aux gestes d'urgence (AFGSU 2...). ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Evenements indésirables graves",
+        "description": "Préciser les méthodes mises en œuvre pour déclarer les évènements indésirables graves (EIG) associés aux soins, dont celles spécifiques à l’activité de traitement de l’IRC le cas échéant. ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autres démarches qualité",
+        "description": "Préciser toute autre action en faveur de l'amélioration de la qualité (exemples :  EPP, surveillance des infections nosocomiales...).",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "ELEMENTS COMPLEMENTAIRES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Registre REIN",
+        "description": "Fournir les données détaillées issues du registre REIN.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "Le cas échéant, mentionner toute information supplémentaire permettant de compléter la description générale de l'activité.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document complémentaire",
+        "description": "Si plusieurs documents, merci d'utiliser la messagerie à votre disposition une fois votre dossier soumis.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DESCRIPTION PAR MODALITE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Modalité(s) évaluée(s)",
+        "description": "Sélectionner dans le menu déroulant les modalités arrivant à échéance dans les 14 mois et pour lesquelles vous sollicitez le renouvellement.\nPuis, pour chaque modalité sélectionnée, remplir la section du formulaire d'évaluation correspondante ci-après.",
+        "required": true,
+        "options": [
+          "Dialyse péritonéale à domicile",
+          "Hémodialyse à domicile",
+          "Hémodialyse en centre pour adultes",
+          "Hémodialyse en unité d'auto dialyse simple ou assistée",
+          "Hémodialyse en unité médicalisée"
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "HEMODIALYSE EN CENTRE POUR ADULTES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Séances",
+        "description": "Renseigner le nombre de séances hebdomadaires théoriques.",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "File active",
+        "description": "Renseigner la file active constatée au 31 décembre dernier. ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Patients entrants",
+        "description": "Renseigner le nombre de nouveaux patients entrants pour chacune des trois dernières années complètes. ",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de nouveaux patients entrants N-3",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de nouveaux patients entrants N-2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de nouveaux patients entrants N-1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Patients greffés",
+        "description": "Renseigner le nombre de patients greffés pour chacune des trois dernières années complètes. ",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de patients greffés N-3",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de patients greffés N-2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de patients greffés N-1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Liste d'attente de greffe",
+        "description": "Renseigner le nombre de patients inscrits sur la liste d'attente de greffe au jour de l'évaluation. ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "HEMODIALYSE EN UNITE MEDICALISEE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Séances",
+        "description": "Renseigner le nombre de séances hebdomadaires théoriques.",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "File active",
+        "description": "Renseigner la file active constatée au 31 décembre dernier. ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Patients entrants",
+        "description": "Renseigner le nombre de nouveaux patients entrants pour chacune des trois dernières années complètes. ",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de nouveaux patients entrants N-3",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de nouveaux patients entrants N-2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de nouveaux patients entrants N-1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Patients greffés",
+        "description": "Renseigner le nombre de patients greffés pour chacune des trois dernières années complètes. ",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de patients greffés N-3",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de patients greffés N-2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de patients greffés N-1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Liste d'attente de greffe",
+        "description": "Renseigner le nombre de patients inscrits sur la liste d'attente de greffe au jour de l'évaluation. ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "HEMODIALYSE EN UNITE D'AUTO DIALYSE SIMPLE ET/OU ASSISTEE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Séances",
+        "description": "Renseigner le nombre de séances hebdomadaires théoriques.",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "File active",
+        "description": "Renseigner la file active constatée au 31 décembre dernier. ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Patients entrants",
+        "description": "Renseigner le nombre de nouveaux patients entrants pour chacune des trois dernières années complètes. ",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de nouveaux patients entrants N-3",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de nouveaux patients entrants N-2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de nouveaux patients entrants N-1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Patients greffés",
+        "description": "Renseigner le nombre de patients greffés pour chacune des trois dernières années complètes. ",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de patients greffés N-3",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de patients greffés N-2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de patients greffés N-1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Liste d'attente de greffe",
+        "description": "Renseigner le nombre de patients inscrits sur la liste d'attente de greffe au jour de l'évaluation. ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "DIALYSE PERITONEALE A DOMICILE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "File active",
+        "description": "Renseigner la file active constatée au 31 décembre dernier. ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Patients entrants",
+        "description": "Renseigner le nombre de nouveaux patients entrants pour chacune des trois dernières années complètes. ",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de nouveaux patients entrants N-3",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de nouveaux patients entrants N-2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de nouveaux patients entrants N-1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Patients greffés",
+        "description": "Renseigner le nombre de patients greffés pour chacune des trois dernières années complètes. ",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de patients greffés N-3",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de patients greffés N-2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de patients greffés N-1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Liste d'attente de greffe",
+        "description": "Renseigner le nombre de patients inscrits sur la liste d'attente de greffe au jour de l'évaluation. ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "HEMODIALYSE A DOMICILE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "File active",
+        "description": "Renseigner la file active constatée au 31 décembre dernier. ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Patients entrants",
+        "description": "Renseigner le nombre de nouveaux patients entrants pour chacune des trois dernières années complètes. ",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de nouveaux patients entrants N-3",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de nouveaux patients entrants N-2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de nouveaux patients entrants N-1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Patients greffés",
+        "description": "Renseigner le nombre de patients greffés pour chacune des trois dernières années complètes. ",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de patients greffés N-3",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de patients greffés N-2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de patients greffés N-1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Liste d'attente de greffe",
+        "description": "Renseigner le nombre de patients inscrits sur la liste d'attente de greffe au jour de l'évaluation. ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ENGAGEMENTS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "ENGAGEMENTS REALISES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Satisfaction des patients",
+        "description": "Décrire les modalités d’évaluation de la satisfaction des patients.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Dépenses à la charge de l'Assurance Maladie",
+        "description": "Détailler le respect des engagements relatifs aux montants des dépenses à la charge de l'assurance maladie ou le volume d'activité, en application de l'article L. 6122-5 du code de la santé publique. ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Objectifs CPOM",
+        "description": "Si le CPOM signé par votre structure comprend des objectifs spécifiques à l'activité de traitement de l'IRC, décrire leur état de réalisation actuel.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Conditions particulières de l'autorisation",
+        "description": "Si l'autorisation initiale de l'activité évaluée prévoit des conditions particulières imposées dans l'intérêt de la santé publique (coopérations, permanence des soins, etc.), décrire leur état de réalisation actuel. ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Modalités de l'évaluation",
+        "description": "Décrire les modalités de participation des personnels médicaux et non médicaux intervenant dans cette procédure d’évaluation.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "NOUVEAUX ENGAGEMENTS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Non renouvellement de certaines modalités",
+        "description": "Le cas échéant, sélectionner les modalités  pour lesquelles vous ne demandez pas le renouvellement de l'autorisation.",
+        "required": false,
+        "options": [
+          "Dialyse péritonéale à domicile",
+          "Hémodialyse à domicile",
+          "Hémodialyse en centre pour adultes",
+          "Hémodialyse en unité d'auto dialyse simple ou assistée",
+          "Hémodialyse en unité médicalisée"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Objectifs CPOM",
+        "description": "Préciser les engagements relatifs à l’activité de traitement de l’IRC pouvant être contractualisés dans le CPOM. ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Engagements à renouveller",
+        "description": "Vous engagez-vous à : \n- respecter le montant des dépenses d’assurance maladie ou le volume d’activité en application de l'article L. 6122-5 du code de la santé publique ;\n- respecter les caractéristiques du projet évalué ;\n- respecter les dispositions réglementaires en vigueur et mettre en œuvre les évaluations prévues ?",
+        "required": true
+      }
+    ]
+  }
+}

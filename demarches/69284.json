@@ -1,0 +1,643 @@
+{
+  "number": 69284,
+  "title": "Consortium EFP Occitanie > Prévisions des Mobilités 2023-2024",
+  "description": "Calculs de vos prévisions de mobilités sur la période février 2023 - mai 2024",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2023-01-25T08:41:28+01:00",
+  "service": {
+    "nom": "Service des Relations Internationales",
+    "organisme": "ENSFEA",
+    "typeOrganisme": "etablissement_enseignement"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/previsions2023-des-mobilites-consortium-efp-occitanie",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/previsions2023-des-mobilites-consortium-efp-occitanie",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031367350/",
+  "logo": {
+    "filename": "Logo ENSFEA + Erasmus+.png",
+    "checksum": "5rjRKTNK9QLGPu+MVaUJ/Q==",
+    "byteSize": "20042",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 33,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Février 2023 - Mai 2024",
+        "description": "Identifiez et indiquez-nous vos mobilités prévisionnelles entre le 1er février 2023 et le 31 mai 2024.\r\nCet exercice est important et doit se réaliser rigoureusement pour calculer le montant de la bourse à prévoir durant cette période.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Etablissement",
+        "description": "Choisissez votre établissement",
+        "required": true,
+        "options": [
+          "ARIEGE-PYRENEES",
+          "AUCH Beaulieu-Lavacant",
+          "CAHORS Le Montat",
+          "CARCASSONNE",
+          "CASTELNAU LE LEZ",
+          "CASTELNAUDARY",
+          "FIGEAC",
+          "LOZERE",
+          "MIRANDE-RISCLE",
+          "MONTPELLIER-ORB-HERAULT",
+          "NÎMES RODILHAN",
+          "ONDES",
+          "PERPIGNAN-ROUSSILLON",
+          "RODEZ LA ROQUE",
+          "SAINT-AFFRIQUE",
+          "SAINT-GAUDENS",
+          "TARBES",
+          "TARN",
+          "TARN ET GARONNE",
+          "TOULOUSE-AUZEVILLE",
+          "VIC EN BIGORRE",
+          "VILLEFRANCHE DE ROUERGUE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Centre constitutif",
+        "description": "Vous pouvez cliquer sur plusieurs centres si vous faites une prévision groupée.\r\nPar exemple : cliquez sur toutes les options de centres, si les prévisions sont celles de l'EPL dans son ensemble.",
+        "required": true,
+        "options": [
+          "CFA",
+          "CFPPA",
+          "LEGTA",
+          "LPA",
+          "Exploitation"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Mobilité de type apprenant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Apprenants éligibles",
+        "description": "Apprenants : 4ème et 3ème de l'enseignement agricole, CAP, 1ere et terminale STAV, 2nde, 1ere et terminale Bac Pro, apprentis (hors BTS), les salariés en formation et les stagiaires de la formation professionnelle préparant un diplôme technologique ou professionnel, un titre ou une certification à finalité professionnelle enregistré au RNCP de niveau 3 (par exemple, le certificat d'aptitudes professionnelles) ou de niveau 4 (par exemple, le baccalauréat professionnel).",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mobilités pour les apprenants",
+        "description": "Est-ce que vous prévoyez de réaliser des mobilités de type \"apprenant\" (mobilité de courte durée, participation à des concours de métiers) dans le cadre du Consortium EFP Occitanie, entre février 2023 et mai 2024 ?",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Concours de métier",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mobilités \"Participation à des concours de métier\"",
+        "description": "Est-ce que vous prévoyez de participer à des concours de métier (1 à 10 jours) dans le cadre de l'EFP, entre février 2023 et mai 2024 ?",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de concours de métier",
+        "description": "Identifiez le nombre d'apprenants qui participeront à des concours de métier dans le cadre de l'EFP (1 à 10 jours), entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours des mobilités de concours",
+        "description": "Additionnez le nombre de jours des mobilités des apprenants qui participeront à des concours de métier (1 à 10 jours), en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités de concours de métier, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "STAV",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mobilités \"Apprenant - courte durée\" pour les STAV",
+        "description": "Est-ce que vous prévoyez de réaliser des mobilités de type \"apprenant\" (mobilité de courte durée de 10 à 89 jours) pour les élèves de 1ère et de Terminale STAV, entre février 2023 et mai 2024 ?",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de mobilités courte durée - STAV",
+        "description": "Identifiez le nombre d'apprenants STAV qui réaliseront une mobilité de courte durée à des fins d'apprentissage (de 10 à 89 jours), entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours des mobilités courte durée - STAV",
+        "description": "Additionnez le nombre de jours des mobilités des apprenants STAV qui réaliseront une mobilité de courte durée à des fins d'apprentissage (de 10 à 89 jours), en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités de courte durée des apprenants STAV, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de PAMO (Participants Ayant Moins d'Opportunités) - STAV",
+        "description": "Identifiez le nombre de Participants Ayant Moins d'Opportunités (PAMO) parmi les apprenants STAV qui réaliseront des mobilités, entre février 2023 et mai 2024, afin d’obtenir un financement complémentaire lors de la demande.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'Accompagnateurs - STAV",
+        "description": "Identifiez le nombre d'accompagnateurs pour les mobilités des apprenants STAV, entre février 2023 et mai 2024.\r\nLes accompagnateurs comprennent les enseignants, formateurs et autres personnes qualifiées qui accompagnent les apprenants pour organiser et superviser les activités d’apprentissage.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours des mobilités d'accompagnateurs - STAV",
+        "description": "Additionnez le nombre de jours des mobilités d’accompagnateurs des apprenants STAV (de 10 à 89 jours), en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités des accompagnateurs des apprenants STAV, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre mobilités vertes - STAV",
+        "description": "Identifiez le nombre de mobilités des participants STAV (apprenants et accompagnateurs), utilisant des moyens de transport à faibles émissions pour la majeure partie du déplacement : train, bus, covoiturage, vélo et autres moyens de transport écoresponsables. \r\nDes compléments financiers sont octroyés pour aider, s'il y a lieu, à couvrir le coût plus élevé de ces modes de transport.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de visites préparatoires - STAV",
+        "description": "Identifiez le nombre de visites préparatoires (minimum 2 jours) que vous réaliserez pour préparer une mobilité d'apprenants STAV, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Bac Pro",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mobilités \"Apprenant - courte durée\" pour les Bac Pro",
+        "description": "Est-ce que vous prévoyez de réaliser des mobilités de type \"apprenant\" (mobilité de courte durée de 10 à 89 jours) pour les classes de 2nde, 1ère et Terminale Pro, entre février 2023 et mai 2024 ?",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de mobilités courte durée – Bac Pro",
+        "description": "Identifiez le nombre d’apprenants en Bac Pro (2nde, 1ère, terminale) qui réaliseront une mobilité de courte durée à des fins d'apprentissage (de 10 à 89 jours), entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours des mobilités courte durée – Bac Pro",
+        "description": "Additionnez le nombre de jours des mobilités des apprenants en Bac Pro qui réaliseront une mobilité de courte durée à des fins d'apprentissage (de 10 à 89 jours), en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités de courte durée des apprenants en Bac Pro, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de PAMO (Participants Ayant Moins d'Opportunités) - Bac Pro",
+        "description": "Identifiez le nombre de Participants Ayant Moins d'Opportunités (PAMO) parmi les apprenants en Bac Pro (2nde, 1ère, terminale) qui réaliseront des mobilités \"apprenants\", entre février 2023 et mai 2024, afin d’obtenir un financement complémentaire lors de la demande.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'Accompagnateurs - Bac Pro",
+        "description": "Identifiez le nombre d'accompagnateurs pour les mobilités des apprenants en Bac Pro (2nde, 1ère, terminale), entre février 2023 et mai 2024.\r\nLes accompagnateurs comprennent les enseignants, formateurs et autres personnes qualifiées qui accompagnent les apprenants pour organiser et superviser les activités d’apprentissage.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours des mobilités d'accompagnateurs - Bac Pro",
+        "description": "Additionnez le nombre de jours des mobilités d’accompagnateurs des apprenants en Bac Pro (de 10 à 89 jours), en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités des accompagnateurs des apprenants en Bac Pro, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre mobilités vertes - Bac Pro",
+        "description": "Identifiez le nombre de mobilités des participants en Bac Pro (apprenants et accompagnateurs), utilisant des moyens de transport à faibles émissions pour la majeure partie du déplacement : train, bus, covoiturage, vélo et autres moyens de transport écoresponsables. \r\nDes compléments financiers sont octroyés pour aider, s'il y a lieu, à couvrir le coût plus élevé de ces modes de transport.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de visites préparatoires - Bac Pro",
+        "description": "Identifiez le nombre de visites préparatoires (minimum 2 jours) que vous réaliserez pour préparer une mobilité d'apprenants en Bac Pro (2nde, 1ère, terminale), entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "CAPA",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mobilités \"Apprenant - courte durée\" pour les CAPA",
+        "description": "Est-ce que vous prévoyez de réaliser des mobilités de type \"apprenant\" (mobilité de courte durée de 10 à 89 jours) pour les élèves/apprentis du CAPA, entre février 2023 et mai 2024 ?",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de mobilités courte durée – CAPA",
+        "description": "Identifiez le nombre d’apprenants du CAPA qui réaliseront une mobilité de courte durée à des fins d'apprentissage (de 10 à 89 jours), entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours des mobilités courte durée – CAPA",
+        "description": "Additionnez le nombre de jours des mobilités des apprenants du CAPA qui réaliseront une mobilité de courte durée à des fins d'apprentissage (de 10 à 89 jours), en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités de courte durée des apprenants du CAPA, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de PAMO (Participants Ayant Moins d'Opportunités) - CAPA",
+        "description": "Identifiez le nombre de Participants Ayant Moins d'Opportunités (PAMO) parmi les apprenants du CAPA qui réaliseront des mobilités, entre février 2023 et mai 2024, afin d’obtenir un financement complémentaire lors de la demande.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'Accompagnateurs - CAPA",
+        "description": "Identifiez le nombre d'accompagnateurs pour les mobilités des apprenants du CAPA, entre février 2023 et mai 2024.\r\nLes accompagnateurs comprennent les enseignants, formateurs et autres personnes qualifiées qui accompagnent les apprenants pour organiser et superviser les activités d’apprentissage.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours des mobilités d'accompagnateurs - CAPA",
+        "description": "Additionnez le nombre de jours des mobilités d’accompagnateurs des apprenants du CAPA (de 10 à 89 jours), en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités des accompagnateurs des apprenants du CAPA, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre mobilités vertes - CAPA",
+        "description": "Identifiez le nombre de mobilités des participants du CAPA (apprenants et accompagnateurs), utilisant des moyens de transport à faibles émissions pour la majeure partie du déplacement : train, bus, covoiturage, vélo et autres moyens de transport écoresponsables. \r\nDes compléments financiers sont octroyés pour aider, s'il y a lieu, à couvrir le coût plus élevé de ces modes de transport.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de visites préparatoires - CAPA",
+        "description": "Identifiez le nombre de visites préparatoires (minimum 2 jours) que vous réaliserez pour préparer une mobilité d'apprenants du CAPA, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "BP",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mobilités \"Apprenant - courte durée\" pour les BP",
+        "description": "Est-ce que vous prévoyez de réaliser des mobilités de type \"apprenant\" (mobilité de courte durée de 10 à 89 jours) pour les élèves/apprentis en BP, entre février 2023 et mai 2024 ?",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de mobilités courte durée – BP",
+        "description": "Identifiez le nombre d’apprenants en BP qui réaliseront une mobilité de courte durée à des fins d'apprentissage (de 10 à 89 jours), entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours des mobilités courte durée – BP",
+        "description": "Additionnez le nombre de jours des mobilités des apprenants en BP qui réaliseront une mobilité de courte durée à des fins d'apprentissage (de 10 à 89 jours), en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités de courte durée des apprenants en BP, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de PAMO (Participants Ayant Moins d'Opportunités) - BP",
+        "description": "Identifiez le nombre de Participants Ayant Moins d'Opportunités (PAMO) parmi les apprenant en BP qui réaliseront des mobilités \"apprenants\", entre février 2023 et mai 2024, afin d’obtenir un financement complémentaire lors de la demande.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'Accompagnateurs - BP",
+        "description": "Identifiez le nombre d'accompagnateurs pour les mobilités des apprenant en BP, entre février 2023 et mai 2024.\r\nLes accompagnateurs comprennent les enseignants, formateurs et autres personnes qualifiées qui accompagnent les apprenants pour organiser et superviser les activités d’apprentissage.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours des mobilités d'accompagnateurs - BP",
+        "description": "Additionnez le nombre de jours des mobilités d’accompagnateurs des apprenants en BP (de 10 à 89 jours), en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités des accompagnateurs des apprenants en BP, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre mobilités vertes - BP",
+        "description": "Identifiez le nombre de mobilités des participants en BP (apprenants et accompagnateurs), utilisant des moyens de transport à faibles émissions pour la majeure partie du déplacement : train, bus, covoiturage, vélo et autres moyens de transport écoresponsables. \r\nDes compléments financiers sont octroyés pour aider, s'il y a lieu, à couvrir le coût plus élevé de ces modes de transport.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de visites préparatoires - BP",
+        "description": "Identifiez le nombre de visites préparatoires (minimum 2 jours) que vous réaliserez pour préparer une mobilité d'apprenants en BP, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Stagiaire CFPPA",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mobilités \"Apprenant - courte durée\" pour les Stagiaires CFPPA",
+        "description": "Est-ce que vous prévoyez de réaliser des mobilités de type \"apprenant\" (mobilité de courte durée de 10 à 89 jours) pour les Stagiaires CFPPA, entre février 2023 et mai 2024 ?",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de mobilités courte durée – Stagiaires CFPPA",
+        "description": "Identifiez le nombre d’apprenants Stagiaires CFPPA qui réaliseront une mobilité de courte durée à des fins d'apprentissage (de 10 à 89 jours), entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours des mobilités courte durée – Stagiaires CFPPA",
+        "description": "Additionnez le nombre de jours des mobilités des apprenants Stagiaires CFPPA qui réaliseront une mobilité de courte durée à des fins d'apprentissage (de 10 à 89 jours), en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités de courte durée des apprenants Stagiaires CFPPA, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de PAMO (Participants Ayant Moins d'Opportunités) - Stagiaires CFPPA",
+        "description": "Identifiez le nombre de Participants Ayant Moins d'Opportunités (PAMO) parmi les Stagiaires CFPPA qui réaliseront des mobilités, entre février 2023 et mai 2024, afin d’obtenir un financement complémentaire lors de la demande.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'Accompagnateurs - Stagiaires CFPPA",
+        "description": "Identifiez le nombre d'accompagnateurs pour les mobilités des Stagiaires CFPPA, entre février 2023 et mai 2024.\r\nLes accompagnateurs comprennent les enseignants, formateurs et autres personnes qualifiées qui accompagnent les apprenants pour organiser et superviser les activités d’apprentissage.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours des mobilités d'accompagnateurs - Stagiaires CFPPA",
+        "description": "Additionnez le nombre de jours des mobilités d’accompagnateurs des apprenants Stagiaires CFPPA (de 10 à 89 jours), en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités des accompagnateurs des apprenants Stagiaires CFPPA, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre mobilités vertes - Stagiaires CFPPA",
+        "description": "Identifiez le nombre de mobilités des participants CFPPA (apprenants et accompagnateurs), utilisant des moyens de transport à faibles émissions pour la majeure partie du déplacement : train, bus, covoiturage, vélo et autres moyens de transport écoresponsables. \r\nDes compléments financiers sont octroyés pour aider, s'il y a lieu, à couvrir le coût plus élevé de ces modes de transport.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de visites préparatoires - Stagiaires CFPPA",
+        "description": "Identifiez le nombre de visites préparatoires (minimum 2 jours) que vous réaliserez pour préparer une mobilité d'apprenants des Stagiaires CFPPA, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "CS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mobilités \"Apprenant - courte durée\" pour les CS",
+        "description": "Est-ce que vous prévoyez de réaliser des mobilités de type \"apprenant\" (mobilité de courte durée de 10 à 89 jours) pour les apprentis en Contrats de Spécialisation (CS), entre février 2023 et mai 2024 ?",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de mobilités courte durée – CS",
+        "description": "Identifiez le nombre d’apprenants CS qui réaliseront une mobilité de courte durée à des fins d'apprentissage (de 10 à 89 jours), entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours des mobilités courte durée – CS",
+        "description": "Additionnez le nombre de jours des mobilités des apprenants en CS qui réaliseront une mobilité de courte durée à des fins d'apprentissage (de 10 à 89 jours), en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités de courte durée des apprenants en CS, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de PAMO (Participants Ayant Moins d'Opportunités) - CS",
+        "description": "Identifiez le nombre de Participants Ayant Moins d'Opportunités (PAMO) parmi les apprenants en CS qui réaliseront des mobilités \"apprenants\", entre février 2023 et mai 2024, afin d’obtenir un financement complémentaire lors de la demande.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'Accompagnateurs - CS",
+        "description": "Identifiez le nombre d'accompagnateurs pour les mobilités des apprenants en CS, entre février 2023 et mai 2024.\r\nLes accompagnateurs comprennent les enseignants, formateurs et autres personnes qualifiées qui accompagnent les apprenants pour organiser et superviser les activités d’apprentissage.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours des mobilités d'accompagnateurs - CS",
+        "description": "Additionnez le nombre de jours des mobilités d’accompagnateurs des apprenants en CS (de 10 à 89 jours), en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités des accompagnateurs des apprenants en CS, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre mobilités vertes - CS",
+        "description": "Identifiez le nombre de mobilités des participants en CS (apprenants et accompagnateurs), utilisant des moyens de transport à faibles émissions pour la majeure partie du déplacement : train, bus, covoiturage, vélo et autres moyens de transport écoresponsables. \r\nDes compléments financiers sont octroyés pour aider, s'il y a lieu, à couvrir le coût plus élevé de ces modes de transport.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de visites préparatoires - CS",
+        "description": "Identifiez le nombre de visites préparatoires (minimum 2 jours) que vous réaliserez pour préparer une mobilité d'apprenants en CS, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Autres formations de l'EFP",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mobilités \"Apprenant - courte durée\" pour d'autres formations de l'EFP",
+        "description": "Est-ce que vous prévoyez de réaliser des mobilités de type \"apprenant\" (mobilité de courte durée de 10 à 89 jours) pour d'autres formations de l'EFP que celles mentionnées, entre février 2023 et mai 2024 ?",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de mobilités courte durée – Autres formations EFP",
+        "description": "Identifiez le nombre d’apprenants d'autres formations qui réaliseront une mobilité de courte durée à des fins d'apprentissage (de 10 à 89 jours), entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours des mobilités courte durée – Autres formations EFP",
+        "description": "Additionnez le nombre de jours des mobilités des apprenants d'autres formations qui réaliseront une mobilité de courte durée à des fins d'apprentissage (de 10 à 89 jours), en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités de courte durée des apprenants d'autres formations, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de PAMO (Participants Ayant Moins d'Opportunités) – Autres formations EFP",
+        "description": "Identifiez le nombre de Participants Ayant Moins d'Opportunités (PAMO) parmi les apprenants d'autres formations qui réaliseront des mobilités \"apprenants\", entre février 2023 et mai 2024, afin d’obtenir un financement complémentaire lors de la demande.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'Accompagnateurs – Autres formations EFP",
+        "description": "Identifiez le nombre d'accompagnateurs pour les mobilités des apprenants d'autres formations, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours des mobilités d'accompagnateurs – Autres formations EFP",
+        "description": "Additionnez le nombre de jours des mobilités d’accompagnateurs des apprenants d'autres formations - courte durée, en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités des accompagnateurs des apprenants d'autres formations, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre mobilités vertes – Autres formations EFP",
+        "description": "Identifiez le nombre de mobilités des participants d'autres formations (apprenants et accompagnateurs), utilisant des moyens de transport à faibles émissions pour la majeure partie du déplacement : train, bus, covoiturage, vélo et autres moyens de transport écoresponsables.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de visites préparatoires - Autres formations EFP",
+        "description": "Identifiez le nombre de visites préparatoires (minimum 2 jours) que vous réaliserez pour préparer une mobilité d'apprenants d'autres formations, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Mobilité de type personnel",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Personnels éligibles",
+        "description": "Personnels : les enseignants, personnels et formateurs, y compris les responsables de formation des entreprises et les tuteurs et maîtres d'apprentissage dans les entreprises.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mobilités pour le personnel",
+        "description": "Est-ce que vous prévoyez de réaliser des mobilités de type \"personnel\" (stage d'observation, cours et formation, mission d'enseignement ou de formation, expert invité) dans le cadre du Consortium EFP Occitanie, entre février 2023 et mai 2024 ?",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Période d'observation en situation de travail",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mobilités Personnel > Période d'observation en situation de travail",
+        "description": "Est-ce que vous prévoyez de réaliser des mobilités de type \"personnel > Période d'observation en situation de travail\" (2 à 60 jours), entre février 2023 et mai 2024 ?",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de personnels en période d'observation en situation de travail",
+        "description": "Identifiez le nombre de membres du personnel qui réaliseront des périodes d'observation en situation de travail (2 à 60 jours), entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours des périodes d'observation en situation de travail",
+        "description": "Additionnez le nombre de jours des mobilités des personnels qui réaliseront des périodes d’observation en situation de travail (de 2 à 60 jours), en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités de périodes d'observation en situation de travail, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre mobilités vertes - Observation en situation de travail",
+        "description": "Identifiez le nombre de mobilités de périodes d'observation en situation de travail, utilisant des moyens de transport à faibles émissions pour la majeure partie du déplacement : train, bus, covoiturage, vélo et autres moyens de transport écoresponsables. \r\nDes compléments financiers sont octroyés pour aider, s'il y a lieu, à couvrir le coût plus élevé de ces modes de transport.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Cours et formations",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mobilités Personnel > Cours et formations",
+        "description": "Est-ce que vous prévoyez de réaliser des mobilités de type \"personnel > cours et formations\" (2 à 30 jours), entre février 2023 et mai 2024 ?",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de cours et formations",
+        "description": "Identifiez le nombre de membres du personnel qui participeront à des cours et formations (2 à 30 jours), entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours des cours et formations",
+        "description": "Additionnez le nombre de jours des mobilités des personnels qui réaliseront des cours et formations (de 2 à 30 jours), en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités de cours et formations, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre mobilités vertes - Cours et formations",
+        "description": "Identifiez le nombre de mobilités de cours et formations, utilisant des moyens de transport à faibles émissions pour la majeure partie du déplacement : train, bus, covoiturage, vélo et autres moyens de transport écoresponsables. \r\nDes compléments financiers sont octroyés pour aider, s'il y a lieu, à couvrir le coût plus élevé de ces modes de transport.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Missions d'enseignement ou de formation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mobilités Personnel > Missions d'enseignement ou de formation",
+        "description": "Est-ce que vous prévoyez de réaliser des mobilités de type \"personnel > Missions d'enseignement ou de formation\" (2 à 365 jours), entre février 2023 et mai 2024 ?",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de missions d'enseignement ou de formations",
+        "description": "Identifiez le nombre de membres du personnel qui participeront à des Missions d'enseignement ou de formation (2 à 365 jours), entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours de missions d'enseignement ou de formations",
+        "description": "Additionnez le nombre de jours des mobilités des personnels qui réaliseront des missions d’enseignement ou de formation (de 2 à 365 jours), en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités de missions d’enseignement ou de formation, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre mobilités vertes - Missions d'enseignement ou de formation",
+        "description": "Identifiez le nombre de mobilités de missions d'enseignement ou de formation, utilisant des moyens de transport à faibles émissions pour la majeure partie du déplacement : train, bus, covoiturage, vélo et autres moyens de transport écoresponsables. \r\nDes compléments financiers sont octroyés pour aider, s'il y a lieu, à couvrir le coût plus élevé de ces modes de transport.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Expert invité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mobilités Personnel > Expert invité",
+        "description": "Est-ce que vous prévoyez de réaliser des mobilités de type \"personnel > expert invité\" , entre février 2023 et mai 2024 ?",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'experts invités",
+        "description": "Identifiez le nombre d'experts que vous inviterez (2 à 60 jours), entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de jours des experts invités",
+        "description": "Additionnez le nombre de jours des mobilités d’experts invités (de 2 à 60 jours), en prenant en compte les jours de voyage, afin d'avoir le nombre de jours totaux que représenteront toutes les mobilités d’experts invités, entre février 2023 et mai 2024.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre mobilités vertes - Expert invité",
+        "description": "Identifiez le nombre de mobilités d'experts invités, utilisant des moyens de transport à faibles émissions pour la majeure partie du déplacement : train, bus, covoiturage, vélo et autres moyens de transport écoresponsables. \r\nDes compléments financiers sont octroyés pour aider, s'il y a lieu, à couvrir le coût plus élevé de ces modes de transport.",
+        "required": true
+      }
+    ]
+  }
+}

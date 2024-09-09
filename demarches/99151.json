@@ -1,0 +1,124 @@
+{
+  "number": 99151,
+  "title": "BC ROISSY SOGARIS - Justification de la valeur déclarée des marchandises contrôlées en fret-express (COSMOS)",
+  "description": "Cette démarche permet de transmettre de manière dématérialisée les informations et documents nécessaires à la justification de la valeur déclarée des marchandises contrôlées par le bureau de douane Roissy SOGARIS (FRA0617B), en matière de fret-express (colis).",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique"
+  ],
+  "datePublication": "2024-07-10T18:35:53+02:00",
+  "service": {
+    "nom": "Bureau de contrôle des douanes de ROISSY SOGARIS (FRA0617B)",
+    "organisme": "DR Roissy-Fret, DI Paris-Aéroports, Direction Générale des Douanes et Droits indirects",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/roissy-sogaris-express-valeur",
+  "dpoUrl": "le-delegue-a-la-protection-des-donnees-personnelles@finances.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.douane.gouv.fr/service-en-ligne/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000049579434",
+  "logo": {
+    "filename": "dgddi-logo-rvb-web.jpg",
+    "checksum": "DjpM4EGF/T1S321Oii3H8Q==",
+    "byteSize": "235821",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "Cadre Juridique - Justification de la valeur declaree des marchandises.pdf",
+    "checksum": "5OqCOax7h5jFOFAuumbmkQ==",
+    "byteSize": "27076",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 183,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification des parties prenantes au dossier",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la personne représentant l'opérateur (RDE)",
+        "description": "Indiquez votre NOM et Prénom.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'agent des douanes chargé du dossier",
+        "description": "Si applicable, indiquer le nom de l'agent du service ayant déjà en charge le traitement de ce dossier.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de la déclaration et des marchandises",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Téléprocédure utilisée pour le dédouanement",
+        "description": "Indiquez le téléservice utilisé pour effectuer votre déclaration.",
+        "required": true,
+        "options": [
+          "Delta-H7",
+          "Delta-X-Import",
+          "Delta-X-Export"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de la déclaration en douane initiale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro d'identification de l'envoi",
+        "description": "Aussi appelé \"LRN\", \"Numéro d'expédition ou de suivi\", \"tracking\", il s'agit du numéro de suivi qui figure sur le bordereau de transport attaché au colis.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Justification de la valeur des marchandises contrôlées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Valeur déclarée",
+        "description": "Valeur en EUROS présente sur la déclaration initiale.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Valeur facture",
+        "description": "Valeur en EUROS présente sur la facture ou les pièces justificatives transmises au travers de cette téléprocédure. Si la facture est en devise étrangère, merci d'indiquer la valeur convertie en EUROS à date de déclaration.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Valeur facture en devise",
+        "description": "Remplir ce champ avec la valeur facture non convertie et le code devise si cette dernière n'est pas n'est pas en EUROS. Par exemple 250 USD.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Facture et autres documents justificatifs de la transaction",
+        "description": "Il est demandé de respecter les éléments et l'ordre suivant: 1-Facture, 2-Preuve de transaction/paiement, 3-Page/Lien de vente, 4-Explication si la valeur présentée dans les documents est différente de la valeur déclarée initialement.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Observations",
+        "description": "Saisissez ici les observations que vous souhaitez formuler à l'attention du service qui procédera à l'analyse des pièces envoyées. ",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "number": 18144,
+  "title": "Demande d'affectation dans un collège public de l'Aude pour l'année scolaire 2019 2020 : collège du secteur",
+  "description": "Ce formulaire permet de demander l'affectation d'un élève ou de plusieurs élèves d'une même fratrie dans le collège public de secteur qui relève de l'adresse du demandeur, ce qui autorisera ensuite l'inscription.\r\n\r\nCe formulaire ne permet pas de traiter les demandes d'affectation en ULIS ou en SEGPA, qui relèvent de procédures particulières décrites sur le site internet de la DSDEN de l'Aude (voir www.ac-montpellier.fr/dsden11/cid89366/modalites-d-affectation.html).\r\n\r\nPour les entrées en 6ème, les élèves audois de CM2 sont déjà suivis dans le cadre d'une procédure informatisée spécifique. Ce formulaire en ligne ne devra donc être utilisé pour des demandes d'affectation en 6ème que dans le cas où elles sont liées à un changement de résidence (nouveaux arrivants dans l'Aude, déménagements dans le département). ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2019-05-16T11:25:47+02:00",
+  "service": {
+    "nom": "DIRECTION DES SERVICES DEPARTEMENTAUX DE L'EDUCATION NATIONALE DE L'AUDE - Division de l'Organisation Scolaire et du Parcours des Elèves",
+    "organisme": "MINISTERE DE L'EDUCATION NATIONALE - ACADEMIE DE MONTPELLIER",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/0806de34-421b-4095-98a6-7779a7941eff",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.ac-montpellier.fr/dsden11/cid89366/modalites-d-affectation.html",
+  "cadreJuridiqueUrl": "https://www.education.gouv.fr/cid79/l-inscription-au-college.html",
+  "logo": {
+    "filename": "procedure-cd6b248b-627e-4ebb-aa13-c60572b43e15.jpg",
+    "checksum": "LzuEZPsgFpUhwSivY0XKdA==",
+    "byteSize": "109069",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RESPONSABLE LÉGAL",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité du responsable légal",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du reponsable légal",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du responsable légal",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Adresse à retenir pour l'affectation",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune",
+        "description": "Commune à retenir pour l'affectation",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif d'identité du demandeur",
+        "description": "Carte nationale d'identité ou\nPasseport ou\nPermis de conduire",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de domicile",
+        "description": "liste des justificatifs acceptés : https://www.service-public.fr/particuliers/vosdroits/F14807\r\nAttention, si le justificatif de domicile n'est pas au nom du responsable légal,\r\nfournir en plus une attestation d'hébergement",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation d'hébergement",
+        "description": "Dans le cas où le justificatif de domicile n'est pas au nom du responsable légal, une attestation d'hébergement sur l'honneur sera demandée",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "INFORMATIONS SUR L'ÉLÈVE",
+        "description": "Si votre demande concerne plusieurs élèves, utiliser le bouton \"ajouter une ligne pour \"informations sur l'élève\" une fois les informations sur le premier enfant renseignées",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de l'élève",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom de l'élève",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Classe actuelle",
+            "description": "Classe de l'enfant pour l'année scolaire en cours. Cette classe sera considérée comme le niveau demandé pour la nouvelle affectation sauf si vous remplissez la partie \"classe demandée différente de la classe actuelle\" ci-dessous.",
+            "required": true,
+            "options": [
+              "Primaire",
+              "6è",
+              "5è",
+              "4è",
+              "3è"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Classe demandée différente de la classe actuelle",
+            "description": "Classe demandée pour l'affectation, si elle est différente de celle de l'année scolaire en cours",
+            "required": false,
+            "options": [
+              "6è",
+              "5è",
+              "4è",
+              "3è"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Justificatif du niveau de classe",
+            "description": "A fournir pour l'élève :\nCertificat de scolarité ou\nCertificat de fin de scolarité ou\nDécision de passage si la classe demandée est différente de la classe actuelle",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "A quelle date l'affectation du ou des enfants est-elle demandée ?",
+        "description": "Compter un minimum de 10 jours entre la réception de la demande complète et la réponse qui vous sera adressée.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "COLLÈGE DE SECTEUR",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Sectorisation des collèges de l'Aude",
+        "description": "Permet de trouver son collège de secteur\r\nhttp://www.ac-montpellier.fr/dsden11/cid89364/sectorisation-des-colleges-et-lycees.html",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Collège demandé",
+        "description": "Choisir le collège de secteur correspondant à l'adresse du demandeur.",
+        "required": true,
+        "options": [
+          "--Collège de secteur--",
+          "BRAM Saint-Exupéry",
+          "CAPENDU Alaric",
+          "CARCASSONNE Alain",
+          "CARCASSONNE André Chénier",
+          "CARCASSONNE Le Bastion",
+          "CARCASSONNE Jules VERNE",
+          "CARCASSONNE Grazailles",
+          "CARCASSONNE Varsovie",
+          "CASTELNAUDARY Blaise d'Auriol",
+          "CASTELNAUDARY Fontanilles",
+          "CHALABRE Antoine Pons",
+          "COUIZA JB Bieules",
+          "COURSAN Les Mailheuls",
+          "CUXAC-CABARDES A. Courrière",
+          "LEZIGNAN-CORBIERES J. Anglade",
+          "LEZIGNAN-CORBIERES Rosa Parks",
+          "LIMOUX Joseph Delteil",
+          "NARBONNE Georges Brassens",
+          "NARBONNE Cité",
+          "NARBONNE Jules Ferry",
+          "NARBONNE Victor Hugo",
+          "NARBONNE Montesquieu",
+          "PORT-LA-NOUVELLE La Nadière",
+          "QUILLAN Michel Bousquié",
+          "RIEUX-MINERVOIS P. et M. Curie",
+          "SAINT NAZAIRE M. Albert",
+          "SIGEAN Corbières maritimes",
+          "TREBES G. Bonheur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "FINALISATION DU DOSSIER",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre pièce à votre convenance, le cas échéant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires du demandeur",
+        "description": "Vous pouvez compléter ce champ avec d'éventuels éléments d'information complémentaires sur votre demande (attention : pas d'éléments d'information de nature médicale)",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je, soussigné, responsable légal, certifie l'exactitude des renseignements fournis",
+        "description": "Faire une fausse attestation ou mentir lors d'une démarche administrative est un délit : https://www.service-public.fr/particuliers/vosdroits/F31612",
+        "required": true
+      }
+    ]
+  }
+}

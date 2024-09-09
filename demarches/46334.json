@@ -1,0 +1,94 @@
+{
+  "number": 46334,
+  "title": "Fiche d’instruction - procédures EML 2021 ARS IDF",
+  "description": "Démarche de standardisation des rapports d'instructions sur les demandes d'équipements matériels lourds déposées au cours de la fenêtre ouverte du 1er novembre 2020 au 21 juillet 2021.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2021-06-29T15:05:37+02:00",
+  "service": {
+    "nom": "Service des autorisations d'activités de soins (siège)",
+    "organisme": "ARS Ile-de-France",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fiche-d-instruction-procedures-eml-2021-ars-idf",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ars.sante.gouv.fr/sites/ARSIF/default.aspx",
+  "cadreJuridiqueUrl": "Procédure suivie en application (principalement) des articles L. 6122-1 et suivants, ainsi que les articles R. 6122-23 et suivants du Code de la santé publique",
+  "logo": {
+    "filename": "Présentation1.jpg",
+    "checksum": "aPjwxS91Vq/3nsT8Fa7Q/Q==",
+    "byteSize": "41665",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de dossier",
+        "description": "Indiquez numéro SDLI",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Département d'implantation",
+        "description": "Sélectionnez le département dans lequel l'implantation / l'équipement est projeté(e)",
+        "required": true,
+        "options": [
+          "Paris (75)",
+          "Seine-et-Marne (77)",
+          "Yvelines (78)",
+          "Essonne (91)",
+          "Hauts-de-Seine (92)",
+          "Seine-Saint-Denis (93)",
+          "Val-de-Marne (94)",
+          "Val-d'Oise (95)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d'équipement matériel lourd concerné",
+        "description": null,
+        "required": true,
+        "options": [
+          "IRM",
+          "Scanographe",
+          "Scanographe interventionnel",
+          "Gamma Caméra",
+          "TEP",
+          "Caisson hyperbare",
+          "Cyclotron"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Nature de l'opération",
+        "description": "",
+        "required": true,
+        "options": [
+          "Création",
+          "Regroupement",
+          "Confirmation suite à cession",
+          "Remplacement",
+          "Transfert",
+          "Autre modification substantielle"
+        ]
+      }
+    ]
+  }
+}

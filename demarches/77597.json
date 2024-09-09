@@ -1,0 +1,158 @@
+{
+  "number": 77597,
+  "title": "World Triathlon - Customs formalities for re-export",
+  "description": "Accredited persons and accompanied luggages.\r\n\r\nRe-export of goods imported under temporary admission.\r\n\r\nCommunication of mandatory documents regarding firearms.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique"
+  ],
+  "datePublication": "2023-07-18T17:10:58+02:00",
+  "service": {
+    "nom": "DGDDI",
+    "organisme": "DGDDI",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/world-triathlon-customs-formalities-for-re-export",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.douane.gouv.fr/",
+  "cadreJuridiqueUrl": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32013R0952&from=GA",
+  "logo": {
+    "filename": "World Triathlon.png",
+    "checksum": "dB2y1ijzKbDYWNn48fxuzA==",
+    "byteSize": "7080",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 16,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "COJOChampDescriptor",
+        "label": "Identification DATA",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Legal capacity",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "I'm a minor or protected adult",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Identity of the person legaly responsible",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Location of arrival in France",
+        "description": "",
+        "required": true,
+        "options": [
+          "Roissy Charles de Gaulle Airport",
+          "Orly Airport",
+          "Other"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Status",
+        "description": "Inform the reason of your participation in the OG-PG",
+        "required": true,
+        "options": [
+          "Dignitary",
+          "Athlete",
+          "Sports federation member",
+          "Press team member",
+          "Sports federation doctor",
+          "International technical officials"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Re-export",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Temporary Admission discharge of goods",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DatetimeChampDescriptor",
+            "label": "Day and time of departure",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PaysChampDescriptor",
+            "label": "Destination",
+            "description": "Inform the country of destination",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Inventory of reexported goods",
+            "description": "Join the file .pdf regarding the inventory of reexported goods in accordance with Annex 6.11 of the guidance",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Data relating to arrival in France",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Did you complete a \"Démarches simplifiées\" form when you arrived in France ?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Import form number",
+            "description": "Inform the number of the \"Démarches simplifiées\" import file.",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "What customs formalities did you complete upon arrival in France ?",
+            "description": "",
+            "required": true,
+            "options": [
+              "I didn't do any formality",
+              "I have an ATA Carnet",
+              "I completed Annex 71-01"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Annex 71-01",
+            "description": "Join the annex 71-01 completed upon arrival in France.",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

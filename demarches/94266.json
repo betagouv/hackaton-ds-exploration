@@ -1,0 +1,198 @@
+{
+  "number": 94266,
+  "title": "Avance sur frais de déplacements examens (MIREX Nord-Est)",
+  "description": "Cette télé-procédure permet de demander une avance sur frais de déplacement dans le cadre d'une convocation à un examen. Effectuez une demande par convocation.",
+  "tags": [
+    "Examen",
+    "Déplacement"
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2024-05-02T15:57:23+02:00",
+  "service": {
+    "nom": "MIREX Nord-Est",
+    "organisme": "DRAAF Bourgogne Franche Comté",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/avance-sur-frais-de-deplacements-examens-mirex-nor",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "DRAAF",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046081337",
+  "logo": {
+    "filename": "logo-masa.png",
+    "checksum": "0D+wc0pCfNd5TCx7BjsS6g==",
+    "byteSize": "56014",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 110,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande d'avance sur frais pour les missions d'examen (Mirex Nord-Est)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous êtes convoqué(e) pour une mission « examen » et vous souhaitez obtenir une avance sur frais, veuillez renseigner le formulaire ci-après et joindre les pièces demandées",
+        "description": "- Ce formulaire ne concerne que les avances de frais pour les centres d'examen organisés par la MIREX Nord-Est.\r\n- Les avances sur frais ne concernent pas les convocations pour de la surveillance ou de l'assistance à candidat sur les centres écrits.\r\n- Sont éligibles aux avances sur frais les convocations relevant des centres pour les épreuves orales et pratiques, et les centres de corrections (épreuves ponctuelles terminales).\r\n- Une seule demande par convocation, si vous souhaitez obtenir plusieurs avances sur frais parce vous êtes convoqué plusieurs fois, il faudra remplir un nouveau formulaire;\r\n- L'avance de frais doit être transmise au plus tard 21 jours avant le début de la mission.\r\n- L'ordre de mission doit être complété et signé. L'intégralité des documents listés sur l' OM doit être transmis dans les 15 jours suivant la fin de la mission et en une seule fois.\r\n- Référence : NS DGER/SDPFE/2023-342 du 24/05/2023",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Tarifs de remboursement en vigueur",
+        "description": "- Repas = 20€ (tarif forfaitaire, pas de justificatif à fournir)\r\n- Nuitée (petit déjeuner compris) = en fonction du lieu de convocation (120€ pour les \"GRANDES VILLES\" / 140€ pour Paris / 90€ pour les autres villes) --> Facture nominative obligatoire.\r\nPour le remboursement des nuitées, il se fait en fonction du lieu de convocation et non pas en fonction du lieu de réservation de l'hébergement. (Arrêté du 20 septembre 2023 modifiant l'arrêté du 3 juillet 2006 fixant les taux des indemnités de mission prévues à l'article 3 du décret n° 2006-781 du 3 juillet 2006)\r\n- Billet de train : remboursement intégral en fonction du prix --> Présentation du billet ou d'un justificatif sur lequel est indiqué le prix du voyage (seconde classe).\r\n- Kilomètres : remboursement en fonction de la puissance fiscale du véhicule (0,32€ entre 0 et 5CV / 0,41€ entre 6 et 7CV / 0,45€ pour 8CV et plus). En cas d'absence de la carte grise, le tarif le plus bas est appliqué. Remboursement des frais de péage sur justificatifs.\r\n     ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Questions, commentaires",
+        "description": "Si vous avez une question à poser concernant les avances sur frais, merci de remplir le champ et nous vous répondrons.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Veuillez renseigner votre numéro de sécurité sociale",
+        "description": "15 chiffres figurant sur la carte vitale.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Veuillez joindre une copie de votre RIB",
+        "description": "Le RIB sert à vérifier si vos coordonnées bancaires n'ont pas été modifiées par rapport à d'éventuelles convocation lors de session antérieures.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2) Déclaration des frais de déplacement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Préciser le nombre de nuitées",
+        "description": "Renseigner 0 si le déplacement ne prévoit pas de nuitées à vous rembourser .\r\nLe montant pour repas du soir est ajouté à l'avance sur frais en fonction du nombre de nuitées déclarées.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sélectionner le moyen de transport",
+        "description": "Choisissez le moyen de transport que vous utiliserez pour vous rendre sur le lieu de votre convocation",
+        "required": true,
+        "options": [
+          "Voiture personnelle",
+          "Voiture administrative",
+          "Train",
+          "Covoiturage (en tant que co-voituré)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "En tant que co-voituré, les frais kilométriques ne sont pas pris en charge.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Prix du billet de train",
+        "description": "Indiquez le montant total du voyage",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre la copie de billets de train",
+        "description": "Sur le billet (ou sur le justificatif d'achat) doit être obligatoirement indiqué le prix du voyage.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Puissance fiscale du véhicule utilisé",
+        "description": "Voir champ P6 sur votre carte grise.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre la copie de la carte grise de votre véhicule personnel.",
+        "description": "Si la carte grise n'est pas fournie, le tarif le plus bas sera appliqué.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de kilomètres Aller - Retour",
+        "description": "Le nombre de kilomètre est donné à titre indicatif.\r\nLe calcul réel de kilomètre sera calculé en machine lors de l'instruction de votre ordre de service, une fois la mission effectuée.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Coût du péage",
+        "description": "Renseigner 0 si le trajet ne prévoit pas de péage.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3) Identification du centre d'examen et convocation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Sélectionner le département du centre d'examen",
+        "description": "Après sélection du département, la liste des centres de ce département sera disponible.",
+        "required": true,
+        "options": [
+          "--10--",
+          "Centre d'épreuves pratiques/orales - CAPa - A10160 - CFA de St Pouange",
+          "--21--",
+          "Centre d'épreuves de contrôle - Bac Pro - D21211 - LEGTPA Dijon Quétigny",
+          "Centre d'épreuves pratiques/orales - BTSA VO  - D21110 - LEGTPA Beaune",
+          "Centre de correction - CAPa - Bac Pro - Bac Techno - D21531 - LEGTA Plombières les Dijon",
+          "--25--",
+          "Centre d'épreuves pratiques/orales - CAPa - D25K02 - LAP François-Xavier de Besançon",
+          "Centre d'épreuves pratiques/orales - BTSA GF/ACSE - D25160 - CFAA du Doubs",
+          "--51--",
+          "Centre d'épreuves pratiques/orales - Bac Pro - A51110 - LEGTPA Châlons en Champagne",
+          "--55--",
+          "Centre d'épreuves de contrôle - Bac Pro - A55110 - LEGTPA de la Meuse - Bar le duc",
+          "Centre d'épreuves pratiques/orales - CAPA - Bac Techno - Bac Pro - A55110 - LEGTPA de la Meuse - Bar le duc",
+          "--59--",
+          "Centre d'épreuves de contrôle - Bac Pro - Bac Techno  - Q59210 - LEGTPA Lomme",
+          "Centre d'épreuves pratiques/orales - CAPa - Bac Techno - Q59210 - LEGTPA Lomme",
+          "Centre d'épreuves pratiques/orales - CAPa - Q591C1 - LEGTA du Nord - site du Quesnoy",
+          "--68--",
+          "Centre d'épreuves pratiques/orales - CAPA - Bac Pro - A68110 - LEGTPA Rouffach",
+          "--70--",
+          "Centre de correction - BTSA - D70110 - LEGTPA Etienne Munier à Vesoul",
+          "--75--",
+          "Centre d'épreuves pratiques/orales - BTSA AP - K75M01 - Ecole du Breuil à Paris",
+          "--77--",
+          "Centre d'épreuves pratiques/orales - CAPa  - K77NF1 - CFA de Forges",
+          "Centre d'épreuves de contrôle - Bac Pro - Bac Techno - K77110 - LEGTPA Brie Comte Robert",
+          "Centre d'épreuves pratiques/orales - Bac Techno - Bac Pro - K77110 - LEGTPA Brie Comte Robert",
+          "--80--",
+          "Centre d'épreuves pratiques/orales - BTSA ANABIOTEC - Q80110 - LEGTA Amiens le Paraclet",
+          "Centre d'épreuves pratiques/orales - Bac Pro - Q80110 - LEGTA Amiens le Paraclet",
+          "--89--",
+          "Centre d'épreuves pratiques/orales - Bac Pro - Bac Techno - D89110 - LEGTPA d'Auxerre"
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la convocation",
+        "description": "Indiquer ici la date du 1er jour de convocation.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie de la convocation",
+        "description": "Si le centre de convocation ne correspond pas au centre indiqué dans le champ précédent, la demande ne sera pas prise en compte.",
+        "required": true
+      }
+    ]
+  }
+}

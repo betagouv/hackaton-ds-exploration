@@ -1,0 +1,536 @@
+{
+  "number": 35994,
+  "title": "Formulaire de candidature - rejoindre beta.gouv.fr",
+  "description": "Ce formulaire vous permet de déposer votre candidature pour  nous rejoindre en tant que chargé.e de déploiement ou développeur.se au sein de beta.gouv.fr, pour un contrat en CDD de 6 mois, à partir du 4 janvier 2021. \r\n\r\nEt ce, que vous soyez junior ou expérimenté.e (plus de 5 ans)\r\n\r\nL'appel à candidatures est ouvert jusqu'au Lundi 23 novembre 2020 à 23h59. \r\nNotez que vous pouvez sauvegarder votre dossier en tant que \"brouillon\" avant de le soumettre.\r\n\r\nPour plus d'informations sur les 2 offres vous pouvez vous rendre sur : https://blog.beta.gouv.fr/dinsic/2020/11/10/nous-recrutons-une-brigade-numerique/\r\n\r\nPour toute question sur le contenu du dossier de soumission, vous pouvez contacter recrutement@beta.gouv.fr. \r\n\r\nPour toute question technique à propos de la procédure de dépôt, vous pouvez contacter contact@demarches-simplifiees.fr. ",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2020-11-10T19:18:19+01:00",
+  "service": {
+    "nom": "Incubateur de services numériques",
+    "organisme": "DINUM",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/rejoigneznous",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://blog.beta.gouv.fr/dinsic/2020/11/10/nous-recrutons-une-brigade-numerique/",
+  "cadreJuridiqueUrl": "https://blog.beta.gouv.fr/dinsic/2020/11/10/nous-recrutons-une-brigade-numerique/",
+  "logo": {
+    "filename": "logo-beta.gouv.fr.png",
+    "checksum": "kiTGaKZQReDg80VTZhn4wA==",
+    "byteSize": "281288",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 186,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "L'appel à candidatures est sur notre blog beta.gouv.fr.",
+        "description": "Vous trouverez toutes les informations ici : \nhttps://blog.beta.gouv.fr/dinsic/2020/11/04/nous-recrutons-une-brigade-numerique/\n\nL'annonce développement : https://beta.gouv.fr/recrutement/2020/11/04/recrutement-devs-beta.html\n\nL'annonce déploiement : \nhttps://beta.gouv.fr/recrutement/2020/11/04/recrutement-bizdevs-beta.html\n\nEt les annonces de recrutement en général ici : https://beta.gouv.fr/recrutement/",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations personnelles",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Civilité",
+        "description": "Ce champ sera utilisé uniquement à des fins statistiques.",
+        "required": true,
+        "options": [
+          "Monsieur",
+          "Madame",
+          "Je préfère ne pas répondre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Ville de résidence actuelle",
+        "description": "Ce champ sera utilisé uniquement à des fins statistiques.",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": "Cette information sera uniquement utilisée pour vous recontacter dans le cadre de ce dossier. ",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Cette information sera uniquement utilisée pour vous recontacter dans le cadre de ce dossier. ",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "A quel poste candidatez-vous ?",
+        "description": "Pour être considéré.e comme expérimenté.e, vous devez avoir au moins 5 ans d'expérience dans le champ des missions indiquées. ",
+        "required": true,
+        "options": [
+          "Développeur / développeuse expérimenté.e (>5 ans)",
+          "Chargé.e de déploiement junior (<5 ans)",
+          "Chargé.e de déploiement expérimenté.e (>5 ans)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre motivation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Ces questions visent à comprendre les raisons qui vous poussent à postuler chez beta.gouv.fr et ce que vous comprenez du rôle et des missions proposées.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quelles sont les raisons qui vous poussent à nous rejoindre ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Les membres de beta.gouv.fr forment plusieurs équipes de Startup d'État et de Territoires, mais font aussi partie d’une communauté qui se retrouve régulièrement en présentiel ou sur slack. Que pensez-vous pouvoir apporter au collectif ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Décrivez-nous une bonne et/ou une mauvaise expérience utilisateur d'un service public en ligne. Vous pouvez proposer des axes d'amélioration de ce service.",
+        "description": "Cette question vise à appréhender votre capacité à analyser des outils et à proposer des améliorations (techniques, d'expérience utilisateur...). ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre expérience",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "URL de votre LinkedIn, Viadéo ou autre type de CV en ligne",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "URL de vos comptes GitHub / BitBucket / FramaGit / GitLab ou autre",
+        "description": "Si vous postulez pour les offres de développement informatique. ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Site web",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Pour les profils développement : dépôt en ligne d’un projet représentatif de vos compétences techniques",
+        "description": "Cet exemple de projet nous permettra d'apprécier au mieux vos compétences techniques. Si vous n'avez pas de projet de ce type, vous pouvez trouver une autre manière d'illustrer vos compétences en utilisant ce champ de réponse.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vos engagements et votre esprit d'entreprise",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Parlez-nous d'un projet que vous avez initié, dans le cadre professionnel ou autre",
+        "description": "Cette question vise à évaluer votre esprit d'initiative et votre capacité à concrétiser un projet. \n\nVous pouvez avoir mené ce projet dans le cadre de votre emploi, ou bien un projet dans le domaine associatif, de la recherche, un projet d'entrepreneuriat, etc. \nN'hésitez pas à inclure un lien vers la réalisation, si pertinent / disponible. \n\n",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Parlez-nous d'un projet auquel vous avez contribué (hors du cadre de votre emploi)",
+        "description": "Cette question vise à évaluer vos engagements préalables et à mieux connaître ce qui vous passionne et vous porte.\n\nPar exemple : contribution à un projet open-source, Open Street Map, Wikipédia, un projet associatif, de design, de recherche, d'entrepreneuriat, etc. N'hésitez pas à inclure un lien vers la réalisation, si pertinent / disponible. ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vos compétences",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Note générale : dans la partie suivante, nous vous demandons de renseigner vos différentes compétences techniques. Si le ou les profils auxquels vous postulez ne requièrent pas ces compétences, vous n’avez pas besoin de remplir ces champs.",
+        "description": "Les évaluateurs n’évalueront pas le nombre de compétences maîtrisées, mais l’adéquation des compétences renseignées avec les défis. Il n’est pas nécessaire de savoir maîtriser toutes ces compétences, ni d’être experte ou expert partout.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Compétences en développement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Indiquez quelles compétences vous avez en développement (sans être experte ou expert)",
+        "description": "",
+        "required": false,
+        "options": [
+          "JavaScript",
+          "Java",
+          "PHP",
+          "Python",
+          "C",
+          "C++",
+          "C#",
+          "Objective C",
+          "Perl",
+          "Shell",
+          "Ruby",
+          "Postgresql/GIS",
+          "Django",
+          "Gestion d’API",
+          "OAuth2",
+          "Text mining",
+          "Front-end",
+          "Back-end",
+          "Administration système",
+          "Devops",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si vous avez répondu \"autre\", précisez",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Indiquez dans quelles compétences vous êtes experte ou expert",
+        "description": "",
+        "required": false,
+        "options": [
+          "JavaScript",
+          "Java",
+          "PHP",
+          "Python",
+          "C",
+          "C++",
+          "C#",
+          "Objective C",
+          "Perl",
+          "Shell",
+          "Ruby",
+          "Postgresql/GIS",
+          "Django",
+          "Gestion d’API",
+          "OAuth2",
+          "Text mining",
+          "Front-end",
+          "Back-end",
+          "Administration système",
+          "Devops",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si vous avez répondu \"autre\", précisez",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Pour les langages dans lesquels vous avez mentionné être experte ou expert, précisez les frameworks / librairies fréquemment utilisées (ou autres détails qui vous semblent pertinents)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Pour les compétences dans lesquelles vous vous êtes déclaré experte ou expert, vous pouvez les préciser dans ce champ (projets, etc.)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Compétences en déploiement / gestion de projet / méthodes agiles",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Indiquez quelles compétences en déploiement vous possédez, sans être experte ou expert",
+        "description": "",
+        "required": false,
+        "options": [
+          "Méthodes agiles ",
+          "Rédaction / éditorial",
+          "Recherche utilisateurs",
+          "Démarchage commercial",
+          "Communication sur les réseaux sociaux",
+          "Marketing et promotion de produits",
+          "Négociation",
+          "Création et animation de partenariats / de communauté",
+          "Evaluation des résultats obtenus (KPI)",
+          "Création et animation d'évènements",
+          "Prise de parole en public",
+          "Suivi de projet",
+          "Outils numériques (slack, outils de mesure d'audience, drive, outils de suivi de projet, outils de visio conférence...)",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si vous avez répondu \"autre\", précisez",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Indiquez dans quelles compétences en déploiement vous êtes experte ou expert",
+        "description": "",
+        "required": false,
+        "options": [
+          "Méthodes agiles ",
+          "Rédaction / éditorial",
+          "Recherche utilisateurs",
+          "Démarchage commercial",
+          "Communication sur les réseaux sociaux",
+          "Marketing et promotion de produits",
+          "Négociation",
+          "Création et animation de partenariats / de communauté",
+          "Evaluation des résultats obtenus (KPI)",
+          "Création et animation d'évènements",
+          "Prise de parole en public",
+          "Suivi de projet",
+          "Outils numériques (slack, outils de mesure d'audience, drive, outils de suivi de projet, outils de visio conférence...)",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si vous avez répondu \"autre\", précisez",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si vous avez mentionné le suivi de projet, donnez-nous un exemple d'outil ou de méthode que vous utilisez",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si vous avez mentionné les méthodes agiles, donnez-nous un exemple de méthode agile employée",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si vous avez répondu être experte ou expert dans l'une des compétences ci-dessus, vous pouvez inclure ici tout élément permettant d'apprécier cette expertise et les méthodologies que vous avez employées",
+        "description": "Note : vous pourrez également inclure un document supplémentaire à la fin de ce formulaire.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Autres compétences",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si vous souhaitez préciser une des compétences mentionnées ci-dessus ou en ajouter une autre, vous pouvez remplir ce champ",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Comment organiseriez-vous votre première semaine de travail dans votre équipe ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Les produits qui recrutent !",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Tous les produits ont une fiche produit sur notre site. Ils possèdent également un site dédié que vous trouverez sur la fiche produit.",
+        "description": "Tous les produits sont sur : https://beta.gouv.fr/startups/",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Cliquez sur \"oui\" ou \"non\" pour signifier que vous postulez sur le produit. Précisez ensuite pourquoi vous pensez être la bonne personne sur ce poste et dans cette équipe.",
+        "description": "Vous pouvez également postulez spontanément sur d'autres produits en fin de liste.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Ecolab - 1 chargé.e de déploiement junior.",
+        "description": "Les français se déclarent de plus en plus nombreux à vouloir agir en faveur de l’environnement, et tant mieux. Mais concrètement, pris dans des routines quotidiennes, il est difficile de savoir que faire.\nEcolab vise à apporter l’information environnementale là où les citoyens (en) sont, dans les applications, les services, les sites, les médias les plus consultés (pour découvrir plus précisément notre offre : https://ecolab.ademe.fr/blog/g%C3%A9n%C3%A9ral/pourquoi-ecolab.md )\nAvec la disponibilité récente de jeux de données de l'ADEME à fort potentiel (Base Carbone, Base Agribalyse...), nous avons désormais besoin de renfort pour augmenter le nombre de réutilisateurs de ces données environnementales et ainsi continuer d'avoir toujours plus d'impact !\nConcrètement, il s'agit de nous aider à trouver de nouveaux réutilisateurs :\n- de nos simulateurs simples et ludiques (https://ecolab.ademe.fr/transport et https://ecolab.ademe.fr/impactcarbone ) intégrables sur tous types de sites : médias, collectivités, associations, direction RSE de grands groupes ... dans ce cas peu d'accompagnement de ces acteurs, il faut surtout trouver les bons contacts pour qu'ils diffusent le calculateur et toucher leurs communautés.\n- des données de l'ADEME : ces applications et services qui pourraient faire évoluer leur produit en ajoutant des infos environnementales (ex. applis alimentation, applis bancaires ...) ont besoin d'un accompagnement plus fort et sur un temps plus long (ateliers, webinaire, documentation ...).\n\nPas besoin d'être expert en environnement pour nous aider à faire exploser nos stats (https://ecolab.ademe.fr/stats ) : les données et l'expertise sont déjà là, il faut maintenant largement les diffuser, alors rejoins-nous !",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précisez-ici si vous avez choisi Ecolab : pourquoi pensez-vous être la bonne personne pour ce poste ?",
+        "description": "Vous pouvez également partager vos interrogations.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Registre de preuve de covoiturage - 2 chargé.e.s de déploiement (junior et expérimenté.e)",
+        "description": "Le registre de preuve de covoiturage c’est un service public :\n- permettant aux collectivités de développer le covoiturage sur son territoire en  lançant des programmes d’incitation (incitation financière, places de piscines, paniers de légumes, bons d’achats, etc.) sans crainte de fraude massive tout en suivant les résultats au jour le jour de ces programmes d’incitation ;\n- qui permettra, à termes, de faciliter la mise en oeuvre du Forfait Mobilité Durable : une prise en charge par l'employeur des frais de trajet des salariés qui se rendent au travail en covoiturage.\n\nNous cherchons des personnes intéressées par les sujets de la mobilité et de l'intérêt général pour rejoindre notre équipe et nous aider à atteindre les objectifs suivants :\n- Couvrir la majorité du marché français des opérateurs et services de covoiturage ;\n- Promouvoir le registre auprès des autorités organisatrices de mobilité ;\n- Promouvoir le registre auprès des employeurs ;\n- Assurer la stratégie de communication.\n\nConcrètement, les missions incluent :\nCibler, identifier et approcher les collectivités territoriales intéressées par le développement du covoiturage  ;\nAccompagner les collectivités dans la mise en oeuvre de leur politique incitative au covoiturage ;\nDéfinir une stratégie de communication adéquate et les supports adaptés (plaquettes, vidéos, etc.) ;\nAnimer et stimuler les partenariats noués ;\nGérer les relations avec les utilisateurs du registre en proposant des stratégies d’amélioration continue du support ;\nParticipation et organisation des événements de rencontre des utilisateurs en région ;\nSoutenir l'équipe sur les autres sujets relatifs au déploiement de registre : harmonisation juridique, design des interfaces, retours utilisateurs, etc ;\nParticipation aux événements (rencontres ouvertes avec les collectivités et employeurs, séminaire, etc. ).\n\nTu maîtrises notamment :\nLes technologies de suivi client, de promotion sur le web et les réseaux sociaux, de gestion de campagne, et de référencement ;\nLes outils de création de contenu marketing ;\nLes bases de l'organisation des administrations publiques centrales et territoriales.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précisez-ici si vous avez choisi Registre de preuve de covoiturage : pourquoi pensez-vous être la bonne personne ?",
+        "description": "Précisez si c'est pour un poste junior ou expérimenté.\nVous pouvez également partager vos interrogations.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Acceslibre - 2 postes en description",
+        "description": "A l’heure du tout numérique, les personnes en situation de handicap doivent encore quasi systématiquement décrocher leur téléphone pour obtenir les informations dont elles ont besoin concernant leurs déplacements. \n\nAcceslibre est un outil de collecte et de diffusion des informations d’accessibilité essentielles pour permettre à tout le monde d’organiser et d’anticiper sereinement ses déplacements.\n\nComment ?\nD’une part nous collectons des données d‘accessibilité - selon un format prédéfini - via un formulaire auprès des collectivités et gestionnaires d’ERP. De l’autre, nous disposons d’une API pour favoriser le circulation et la diffusion de ce premier socle d’informations auprès d’autres acteurs.\n\nAfin d’apporter un réel service au public handicapé, l’exhaustivité et la fiabilité des données constituent deux impératifs. C’est pourquoi nous privilégions une stratégie de déploiement territoriale, pour garantir la qualité des données recueillies. Pour y parvenir, il nous semble nécessaire de travailler en collaboration avec des trois types acteurs :\ndes territoires investis sur les questions d’accessibilité, convaincus par la pertinence d’un tel outil autant pour la mise en valeur des ERP présents sur leurs périmètres que pour les habitants;\nles acteurs proposant des solutions de description d’accessibilité : \nles grandes plateformes du web (moteur de recherche, itinéraire, réservation, événementiel, etc.).\n\nLes 2 postes à pourvoir : \n1/ Chargé.e de déploiement :  \n- Formaliser de nouveaux partenariats tant pour la collecte de données (acteurs de l’accessibilité public et privé) que pour sa diffusion via notre API (grandes plateformes du web - moteur de recherche, itinéraire, réservation, événementiel, etc…);\n- Promouvoir Acceslibre auprès des institutions représentatives pour faire le relai de la solution (associations d’élus, fédérations professionnelles, associations de personnes handicapées, etc) ;\n- Déployer Acceslibre sur de nouveaux territoires en France (évaluer la pertinence du territoire, mobiliser les acteurs locaux, évangéliser aux pratiques d’accessibilité\n\n----\n\n2/Développeur/se expérimenté.e : \nNous recherchons un profil de développeur senior expérimenté justifiant d'une ou plusieurs expériences significatives dans le domaine du développement Python/Django/Postgresql et de la data science : outils de reporting, aggrégation de données, APIs.\n\nMissions :\nImport et normalisation de données, contrôle d'intégrité\nTravail sur l'API (authentification, rate-limiting, quotas)\nMoteur de recherche full text (postgres)\nGénération de rapports (statistiques, BI)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précisez-ici si vous avez choisi Acceslibre : pourquoi pensez-vous être la bonne personne ?",
+        "description": "Vous pouvez candidater pour le produit ici que vous soyez développeur/se ou chargé.e de déploiement.\nVous pouvez également partager vos interrogations.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Urban vitaliz / friches - 1 chargé.e de déploiement junior ou expérimenté.e",
+        "description": "UrbanVitaliz est un service numérique qui appuie les petites et moyennes collectivités pour lancer leurs projets de revitalisation des friches. \nL'outil, qui est en construction depuis septembre 2020, guide les collectivités dans les étapes à suivre, propose les contacts, outils et financement pertinents en fonction du contexte et de l'usage souhaité du site.\nCe service est porté par le Cerema et s'inscrit dans le cadre du plan de relance et de l'objectif environnemental et sociétal de sobriété foncière.\n\nLes attentes spécifiques :\n- 2 ans d'expérience dans le domaine de l'urbanisme ou de l'aménagement,\n- une connaissance de l'écosystème de l'aménagement urbain, comment ça marche, qui fait quoi etc.\n- Etre à l'aise au téléphone, à passer beaucoup de coups de téléphone, à relancer par téléphone, à appeler à froid par téléphone... Bref 📞🔥📞🔥 pour constituer des réseaux d'acteurs publics par territoire, et aussi chercher et échanger avec nos utilisateurs (collectivités)\n- Etre à l'aise à l'écrit également, pour créer les contenus du service, synthétiser etc.\nQuelqu'un d'autonome, qui n'a pas besoin d'un.e chef.fe qui lui dira quoi faire de ses journées 👻\n... mais qui aime travailler en équipe quand même, d'autant qu'on binôme au maximum 👯",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez-ici si vous avez choisi Friches / Urban vitaliz : pourquoi pensez-vous être la bonne personne ?",
+        "description": "Vous pouvez également partager vos interrogations.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Signal Conso - 1 chargé.e de déploiement junior ou expérimenté.e",
+        "description": "L’objectif de SignalConso est de donner la parole aux consommateurs, en leur permettant de signaler des problèmes liés à la consommation (ex: hygiène dans un magasin, garantie non respectée, arnaque..) sans formalisme lourd, via un service ouvert sur internet. Ces signalements sont communiqués à la DGCCRF et aux professionnels concernés, qui peuvent ainsi corriger l’anomalie directement. \nLe but est ainsi de faire baisser significativement les problématiques rencontrées par les consommateurs en responsabilisant les professionnels et en améliorant le ciblage des enquêteurs.\n\nMissions :\nDans le cadre du projet, vous participez à la construction de SignalConso, interface web innovante entre l’administration, les professionnels et les consommateurs.\n- Accompagner les utilisateurs du site (professionnels, consommateurs, et agents) : sauver les utilisateurs perdus et répondre à leurs interrogations ;\n- Récolter les retours des utilisateurs pour être source de proposition sur le produit ;\n- Suivre et analyser les métriques du produit (taux de transformation, indicateurs d’impact...) ;\n- Initier notre démarche d'acquisition de nouveaux utilisateurs (growth hacking, référencement naturel...) ;\n- Présenter et incarner SignalConso lors d’évènements extérieurs ;\n- Animer les réseaux sociaux de SignalConso.\n- Rencontrer de futurs partenaires afin d’étudier les passerelles entre SignalConso et d’autres sites internet ;\n- Faire grandir le produit en étant force de propositions, au regard des contacts pris quotidiennement pendant vos missions.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez-ici si vous avez choisi Signal Conso : pourquoi pensez-vous être la bonne personne ?",
+        "description": "Précisez ici si vous candidatez pour le poste de chargé.e de déploiement junior ou expérimenté.e.\nVous pouvez également partager vos interrogations.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Equipe transverse beta.gouv.fr - 2 postes en description",
+        "description": "Vous trouverez plus d'infos sur l'appel à candidatures sur qui nous-sommes :\n\nNous recherchons :\n\n1/ un.e chargé.e de déploiement transverse* à l'équipe pour :\n- développer le fonds d'accélération des Startups d'Etat et de Territoires en trouvant de nouveaux produits susceptibles de postuler et en organisant les jury de financement (https://beta.gouv.fr/approche/fast)\n- participer au programme d'accélération gamma pour aider à la croissance des produits dans ce portefeuille (https://blog.beta.gouv.fr/dinsic/2020/08/20/acceleration-des-startups-d-etat-d-un-retour-d-experience-a-l-experimentation-d-un-programme-d-accompagnement-cible-1/)  \n- contribuer à l’animation de la communauté beta.gouv.fr sur nos formations, nos rituels, la participation à nos décisions collectives et à la vie de l’incubateur, la diffusion de l’approche beta.gouv.fr dans l’administration, la participation aux événements des partenaires de l’incubateur et l’apprentissage puis la transmission des outils internes à l’incubateur. \n\n---\n\n2/ Un.e développeur/se expérimenté.e justifiant d’une ou plusieurs expériences significatives dans le domaine du développement NodeJS pour :\n- Développer les outils utilisés par la communauté beta.gouv.fr, tels que l'application de secretariat qui sert à rendre autonome les membres de la commununauté beta.gouv.fr et automatiser les taches administratives ;\n- développer et maintenir des outils pour les agents (par exemple en ce moment des outils collaboratifs tels que audioconf.numerique.gouv.fr et visio BigBlueButton)\nTechnologies :\n- NodeJS\n- PostgreSQL\n- DevOps\n\nL'équipe est en construction, d'autres missions seront donc à prévoir. \n\n*transverse = ne travaille pas sur un produit précis mais auprès de l'équipe d'animation de 12 personnes qui co-anime le programme beta.gouv.fr ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précisez-ici si vous avez choisi l'équipe transverse : pourquoi pensez-vous être la bonne personne ?",
+        "description": "Vous pouvez également partager vos interrogations.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si vous souhaitez postuler à d'autres produits de manière spontanée, ou sur d'autres annonces présentes sur https://beta.gouv.fr/recrutement/ n'hésitez pas à le préciser ici.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations statistiques",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Ces questions sont à des fins statistiques et vos réponses n'influeront pas sur votre sélection.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Comment avez-vous entendu parler de beta.gouv.fr",
+        "description": "",
+        "required": true,
+        "options": [
+          "Grâce à un post sur LinkedIn",
+          "Sur les réseaux sociaux (Facebook, Twitter, Slack)",
+          "Grâce à une newsletter (précisez laquelle si possible)",
+          "Grâce à vos réseaux personnels ou professionnels (précisez si possible)",
+          "Lors d'un évènement type meetup (précisez lequel si possible)",
+          "Autre (précisez)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Vous pouvez préciser ici votre réponse à la question précédente (quel réseau social / événement / newsletter / meetup / autre)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "1ère pièce jointe",
+        "description": "Tout ce qui pourrait concerner votre expérience (ex : un CV)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "2ème pièce jointe",
+        "description": "Tout ce qui pourrait concerner votre motivation (ex : une lettre ou un mail de motivation)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "3ème pièce jointe",
+        "description": "Tout ce qui pourrait concerner une recommandation / toute pièce additionnelle que vous souhaiteriez ajouter ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si vous avez des questions à poser ou des remarques à faire, vous pouvez les indiquer ici :",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

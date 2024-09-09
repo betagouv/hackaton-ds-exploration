@@ -1,0 +1,614 @@
+{
+  "number": 15215,
+  "title": "Attestation d'effet équivalent (AEE)",
+  "description": "L' article 49 de la loi pour un État au service d’une société de confiance (ESSOC) promulguée le 10 août 2018, habilite le gouvernement à prendre deux ordonnances. \r\nL’ordonnance I, publiée le 31 octobre 2018 sous le nom \"Ordonnance n° 2018-937 visant à faciliter la réalisation de projets de construction et à favoriser l'innovation\", définit les modalités selon lesquelles les maîtres d’ouvrage peuvent proposer des projets de construction contenant des solutions d’effet équivalent aux dispositions constructives applicables à l’opération. Le décret n°2019-184 du 11 mars 2019 fixe les conditions d'application de cette ordonnance, notamment le contenu du dossier de demande et le contenu de l'attestation d'effet équivalent.\r\nCe décret d'application indique, dans son article 8, que l'organisme délivrant la solution d'effet équivalent utilise le présent formulaire pour réaliser cette attestation.\r\n\r\nPour le remplissage du présent formulaire, l'acronyme \"SEE\" pour Solution d'effet équivalent a été utilisé.\r\nEn ce qui concerne le téléchargement des pièces jointes, privilégier des pièces de poids limité. Le chargement de ces pièces peut être long mais doit se terminer avant que la page de confirmation de dépôt de votre dossier ne s'affiche.\r\n\r\nMentions légales disponibles via le lien : http://www.cohesion-territoires.gouv.fr/permis-d-experimenter-faciliter-la-realisation-des-projets-de-construction-et-favoriser-l-innovation",
+  "tags": [
+    "Autorisation"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2019-03-25T18:13:36+01:00",
+  "service": {
+    "nom": "Sous-direction de la Qualité et du Développement durable dans la Construction - DGALN/DHUP/QC",
+    "organisme": "Ministère de la Transition Ecologique",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/aee",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.cohesion-territoires.gouv.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/eli/ordonnance/2018/10/30/TERL1824356R/jo/texte",
+  "logo": {
+    "filename": "procedure-90eb4169-396e-4486-a932-9cf6c28f60d6.jpg",
+    "checksum": "VuRAMzcWZZb7Hq7liBvRyA==",
+    "byteSize": "1046002",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 7,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations génériques",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Maître d'ouvrage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut",
+        "description": "Statut du maître d'ouvrage",
+        "required": true,
+        "options": [
+          "Public",
+          "Professionnel",
+          "Particulier"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom",
+        "description": "Nom, prénom ou intitulé de la société du maître d'ouvrage",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Adresse du maître d'ouvrage",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Téléphone du maître d'ouvrage",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "Adresse électronique du maître d'ouvrage",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom, Prénom du référent",
+        "description": "Nom, Prénom du contact au sein du maître d'ouvrage",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Fonction du référent",
+        "description": "Ex : Chargé d'opération, ...",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du référent",
+        "description": "Téléphone professionnel du contact au sein du maître d'ouvrage",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel du référent",
+        "description": "Adresse électronique professionnelle du contact au sein du maître d'ouvrage",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Données relatives à l'opération",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département de l'opération",
+        "description": "Département de l'opération",
+        "required": true
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Situation précise de l'opération",
+        "description": "NB : Cette information ne sera pas divulguée au grand public.",
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Type de bâtiment",
+        "description": "Type de bâtiment",
+        "required": true,
+        "options": [
+          "--A - Exploitation agricole et forestière--",
+          "A100 – exploitation agricole",
+          "A200 – exploitation forestière",
+          "--B – Habitation--",
+          "B100 – logement",
+          "B200 – hébergement",
+          "--C – Commerce et activités de service--",
+          "C100 – artisanat et commerce de détail",
+          "C200 – restauration",
+          "C300 – commerce de gros",
+          "C400 – activités de services où s'effectue l'accueil d'une clientèle",
+          "C500 – hébergement hôtelier et touristique",
+          "C600 – cinéma",
+          "--D – Equipements d'intérêt collectif et services publics--",
+          "D100 – locaux et bureaux accueillant du public des administrations publiques et assimilés",
+          "D200 – locaux techniques et industriels des administrations publiques et assimilés",
+          "D300 – établissements d'enseignement",
+          "D400 – établissements de santé",
+          "D500 – établissements d'action sociale",
+          "D600 – salles d'art et de spectacles",
+          "D700 – équipements sportifs",
+          "D800 – autres équipements recevant du public",
+          "--E – Autres activités des secteurs secondaire ou tertiaire--",
+          "E100 – lieux d’activité du secteur secondaire",
+          "E200 – entrepôt",
+          "E300 – bureau",
+          "E400 – centre de congrès et d'exposition",
+          "E500 – Autres lieux d’activité du secteur tertiaire SANS accueil de public"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nature de l'opération",
+        "description": "Nature des travaux",
+        "required": true,
+        "options": [
+          "Construction neuve",
+          "Rénovation",
+          "Réhabilitation lourde"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Surface de plancher",
+        "description": "Surface de plancher en m²",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description de l'opération",
+        "description": "Exemple:\r\nRéhabilitation de 500 logements datant de 1950.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Phase de l'opération",
+        "description": "Phase de l'opération au moment de la réalisation  de la présente attestation.",
+        "required": true,
+        "options": [
+          "APS",
+          "APD",
+          "PRO",
+          "DCE",
+          "PC/DP",
+          "EXE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début prévue de l'opération",
+        "description": "Date estimée du démarrage du chantier",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de livraison prévue de l'opération",
+        "description": "Date estimée de fin du chantier",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de dépôt du dossier de demande d'attestation",
+        "description": "Date à laquelle le maître d'ouvrage a transmis son dossier à l'organisme délivrant la présente attestation",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Données relatives à l'organisme délivrant l'attestation d'effet équivalent",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Qualité de l'organisme délivrant l'attestation",
+        "description": "Selon l'article 6 du décret n° 2019-184 du 11 mars 2019",
+        "required": true,
+        "options": [
+          "CSTB",
+          "CEREMA",
+          "Bureau de contrôle",
+          "Bureau d'étude",
+          "Laboratoire agréé pour la sécurité incendie",
+          "Organisme reconnu compétent par le ministre de l’intérieur pour la sécurité incendie"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Dénomination de l'organisme délivrant l'attestation",
+        "description": "Nom, Prénom ou intitulé de l'organisme délivrant l'attestation",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'organisme délivrant l'attestation",
+        "description": "Adresse de l'organisme délivrant l'attestation",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone de l'organisme délivrant l'attestation",
+        "description": "Téléphone professionnel de l'organisme délivrant l'attestation",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel de l'organisme délivrant l'attestation",
+        "description": "Adresse électronique professionnelle de l'organisme délivrant l'attestation",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom, Prénom du référent",
+        "description": "Nom, Prénom du contact référent chez l'organisme délivrant l'attestation",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Fonction du référent",
+        "description": "Ex : Chargé d'opération, ...",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du référent",
+        "description": "Téléphone professionnel du contact référent chez l'organisme délivrant l'attestation",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel du référent",
+        "description": "Adresse électronique professionnelle du contact référent chez l'organisme délivrant l'attestation",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation d'assurance",
+        "description": "Attestation d'assurance pour la mission spécifique de délivrance de l'attestation d'effet équivalent\r\n(cf. Article 5 de l'ordonnance n° 2018-937 du 30 octobre 2018)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom et coordonnées de l'assureur",
+        "description": "Nom et coordonnées de l'assureur ayant délivré l'attestation d'assurance spécifique à la mission de délivrance de l'attestation d'effet équivalent",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "N° de police d'assurance et n° d'assuré",
+        "description": "Informations disponibles sur votre attestation d'assurance qui seront reportées sur l'attestation d'effet équivalent",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Données relatives à la SEE 1",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de concepteur à l'origine de la SEE1",
+        "description": "Type de concepteur à l'origine de la solution d'effet équivalent n°1",
+        "required": true,
+        "options": [
+          "Industriel",
+          "Bureau d'études",
+          "Architecte",
+          "Entreprise de travaux"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Thématique de la SEE1",
+        "description": "Thématique de la SEE telle qu'indiquée à l'article 3 de l'ordonnance n°2018-937",
+        "required": true,
+        "options": [
+          "Sécurité et protection contre l'incendie (résistance au feu et désenfumage)",
+          "Aération",
+          "Accessibilité du cadre bâti",
+          "Performance énergétique et environnementale et caractéristiques énergétiques et environnementales",
+          "Caractéristiques acoustiques",
+          "Construction à proximité des forêts",
+          "Protection contre les insectes  xylophages",
+          "Prévention du risque sismique et cyclonique",
+          "Matériaux et réemploi"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Règle(s) constructive(s) à laquelle la SEE propose une alternative (SEE1)",
+        "description": "Référence(s) légale(s) à laquelle (auxquelles) il est proposée une alternative\r\n(Cf. Article 2 du décret n° 2019-184 du 11 mars 2019)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Résultat minimal attendu (SEE1)",
+        "description": "Interprétation de la réglementation en vigueur par l'organisme délivrant la présente attestation débouchant sur un résultat minimal à atteindre qualitatif ou quantitatif",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Présentation sommaire de la SEE1",
+        "description": "Ex : La SEE propose une solution architecturale nouvelle au besoin d'accessibilité de l'opération",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Mention des conditions de mise en oeuvre (SEE1)",
+        "description": "Telles que proposées par le maître d'ouvrage et validées par l'organisme délivrant l'attestation d'effet équivalent",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Validation du protocole de contrôle de l'atteinte des résultats attendus (SEE1)",
+        "description": "Rappel du protocole et validation par l'organisme délivrant l'attestation d'effet équivalent",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Conditions de contrôle périodique éventuel (SEE1)",
+        "description": "Rappel des conditions de contrôle périodique et validation par l'organisme délivrant l'attestation d'effet équivalent.\r\nSi aucun contrôle périodique n'est nécessaire, indiquer \"Néant\"",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "OU document rappelant des conditions de contrôle périodique validées par l'organisme délivrant l'attestation d'effet équivalent (SEE1)",
+        "description": "Document à joindre",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dossier transmis initialement par le maître d'ouvrage (SEE1)",
+        "description": "Dossier de demande d'attestation d'effet équivalent transmis par le maître d'ouvrage. L'organisme délivrant cette attestation a obtenu au préalable l'autorisation de transmettre ce dossier à l'administration.\r\nNB : Ces documents ne seront pas divulgués au grand public.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Documents d'analyse de la solution innovante proposée par le maître d'ouvrage (SEE1)",
+        "description": "Documents d'analyse réalisés par l'organisme délivrant l'attestation\r\nNB : Ces documents ne seront pas divulgués au grand public.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document complémentaire (SEE1)",
+        "description": "Tout document que l'organisme délivrant la présente attestation souhaiterait communiquer à l'administration",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Données relatives à la SEE 2 (si existante)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de concepteur à l'origine de la SEE2",
+        "description": "Type de concepteur à l'origine de la solution d'effet équivalent n°2",
+        "required": false,
+        "options": [
+          "Industriel",
+          "Bureau d'études",
+          "Architecte",
+          "Entreprise de travaux"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Thématique de la SEE2",
+        "description": "Thématique de la SEE telle qu'indiquée à l'article 3 de l'ordonnance n°2018-937",
+        "required": false,
+        "options": [
+          "Sécurité et protection contre l'incendie (résistance au feu et désenfumage)",
+          "Aération",
+          "Accessibilité du cadre bâti",
+          "Performance énergétique et environnementale et caractéristiques énergétiques et environnementales",
+          "Caractéristiques acoustiques",
+          "Construction à proximité des forêts",
+          "Protection contre les insectes  xylophages",
+          "Prévention du risque sismique et cyclonique",
+          "Matériaux et réemploi"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Règle(s) constructive(s) à laquelle la SEE propose une alternative (SEE2)",
+        "description": "Référence(s) légale(s) à laquelle (auxquelles) il est proposée une alternative\r\n(Cf. Article 2 du décret n° 2019-184 du 11 mars 2019)",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Résultat minimal attendu (SEE2)",
+        "description": "Interprétation de la réglementation en vigueur par l'organisme délivrant la présente attestation débouchant sur un résultat minimal à atteindre qualitatif ou quantitatif",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Présentation sommaire de la SEE2",
+        "description": "Ex : La SEE propose une solution architecturale nouvelle au besoin d'accessibilité de l'opération",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Mention des conditions de mise en oeuvre (SEE2)",
+        "description": "Telles que proposées par le maître d'ouvrage et validées par l'organisme délivrant l'attestation d'effet équivalent",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Validation du protocole de contrôle de l'atteinte des résultats attendus (SEE2)",
+        "description": "Rappel du protocole et validation par l'organisme délivrant l'attestation d'effet équivalent",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Conditions de contrôle périodique éventuel (SEE2)",
+        "description": "Rappel des conditions de contrôle périodique et validation par l'organisme délivrant l'attestation d'effet équivalent.\r\nSi aucun contrôle périodique n'est nécessaire, indiquer \"Néant\"",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Ou document rappelant des conditions de contrôle périodique validées par l'organisme délivrant l'attestation d'effet équivalent (SEE2)",
+        "description": "Document à joindre",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dossier transmis initialement par le maître d'ouvrage (SEE2)",
+        "description": "Dossier de demande d'attestation d'effet équivalent transmis par le maître d'ouvrage. L'organisme délivrant cette attestation a obtenu au préalable l'autorisation de transmettre ce dossier à l'administration.\r\nNB : Ces documents ne seront pas divulgués au grand public.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Documents d'analyse de la solution innovante proposée par le maître d'ouvrage (SEE2)",
+        "description": "Documents d'analyse réalisés par l'organisme délivrant l'attestation\r\nNB : Ces documents ne seront pas divulgués au grand public.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document complémentaire (SEE2)",
+        "description": "Tout document que l'organisme délivrant la présente attestation souhaiterait communiquer à l'administration",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Données relatives à la SEE 3 (si existante)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de concepteur à l'origine de la SEE3",
+        "description": "Type de concepteur à l'origine de la solution d'effet équivalent n°3",
+        "required": false,
+        "options": [
+          "Industriel",
+          "Bureau d'études",
+          "Architecte",
+          "Entreprise de travaux"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Thématique de la SEE3",
+        "description": "Thématique de la SEE telle qu'indiquée à l'article 3 de l'ordonnance n°2018-937",
+        "required": false,
+        "options": [
+          "Sécurité et protection contre l'incendie (résistance au feu et désenfumage)",
+          "Aération",
+          "Accessibilité du cadre bâti",
+          "Performance énergétique et environnementale et caractéristiques énergétiques et environnementales",
+          "Caractéristiques acoustiques",
+          "Construction à proximité des forêts",
+          "Protection contre les insectes  xylophages",
+          "Prévention du risque sismique et cyclonique",
+          "Matériaux et réemploi"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Règle(s) constructive(s) à laquelle la SEE propose une alternative (SEE3)",
+        "description": "Référence(s) légale(s) à laquelle (auxquelles) il est proposée une alternative\r\n(Cf. Article 2 du décret n° 2019-184 du 11 mars 2019)",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Résultat minimal attendu (SEE3)",
+        "description": "Interprétation de la réglementation en vigueur par l'organisme délivrant la présente attestation débouchant sur un résultat minimal à atteindre qualitatif ou quantitatif",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Présentation sommaire de la SEE3",
+        "description": "Ex : La SEE propose une solution architecturale nouvelle au besoin d'accessibilité de l'opération",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Mention des conditions de mise en oeuvre (SEE3)",
+        "description": "Telles que proposées par le maître d'ouvrage et validées par l'organisme délivrant l'attestation d'effet équivalent",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Validation du protocole de contrôle de l'atteinte des résultats attendus (SEE3)",
+        "description": "Rappel du protocole et validation par l'organisme délivrant l'attestation d'effet équivalent",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Conditions de contrôle périodique éventuel (SEE3)",
+        "description": "Rappel des conditions de contrôle périodique et validation par l'organisme délivrant l'attestation d'effet équivalent.\r\nSi aucun contrôle périodique n'est nécessaire, indiquer \"Néant\"",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Ou document rappelant des conditions de contrôle périodique validées par l'organisme délivrant l'attestation d'effet équivalent (SEE3)",
+        "description": "Document à joindre",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dossier transmis initialement par le maître d'ouvrage (SEE3)",
+        "description": "Dossier de demande d'attestation d'effet équivalent transmis par le maître d'ouvrage. L'organisme délivrant cette attestation a obtenu au préalable l'autorisation de transmettre ce dossier à l'administration.\r\nNB : Ces documents ne seront pas divulgués au grand public.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Documents d'analyse de la solution innovante proposée par le maître d'ouvrage (SEE3)",
+        "description": "Documents d'analyse réalisés par l'organisme délivrant l'attestation\r\nNB : Ces documents ne seront pas divulgués au grand public.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document complémentaire (SEE3)",
+        "description": "Tout document que l'organisme délivrant la présente attestation souhaiterait communiquer à l'administration",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Engagements",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Engagement 1",
+        "description": "L'organisme ayant délivré l'attestation d'effet équivalent s’engage à informer le maître d'ouvrage qu'il devra, lui-même, solliciter la réouverture de ce formulaire pour signaler une modification ou une suppression d’une ou plusieurs solutions d’effet équivalent dans l'opération de construction concernée par le présent formulaire. Les personnes dont les coordonnées ont été indiquées pourront ainsi être contactées par l'autorité administrative pour obtenir des informations sur l’état d’avancement de l’opération de construction.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Engagement 2",
+        "description": "La solution d’effet équivalent n’a finalement pas été mise en œuvre.",
+        "required": false
+      }
+    ]
+  }
+}

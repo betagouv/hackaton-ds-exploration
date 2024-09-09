@@ -1,0 +1,162 @@
+{
+  "number": 25375,
+  "title": "Demande d'orpaillage - Ariège",
+  "description": "Demande de pratique d'orpaillage  dans les cours d'eau du département de l'Ariège\r\nEn cas de difficulté pour remplir la demande, vous pouvez contacter l'unité eau au 05 61 02 15 82 ou par mel à l'adresse ddt-spe@ariege.gouv.fr.",
+  "tags": [
+    "Formation"
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2020-07-16T10:32:22+02:00",
+  "service": {
+    "nom": "Service Environnement Risques - Unité Eau",
+    "organisme": "Direction départementale des Territoires de l'Ariège",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-d-orpaillage-ariege",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.ariege.gouv.fr/Politiques-publiques/Environnement-biodiversite/Eau/Orpaillage-de-loisir/",
+  "cadreJuridiqueUrl": "https://legifrance.gouv.fr/",
+  "logo": {
+    "filename": "pref_ariege_couleur_petit_cle2c2685-733e2-e6b46.jpg",
+    "checksum": "QA5YJfAZqkqV9z6Aq9vTPg==",
+    "byteSize": "4499",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 117,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "M ou Mme",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "Nom du demandeur",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "Prénom du demandeur",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse",
+        "description": "Adresse complète du demandeur",
+        "required": true
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Pays",
+        "description": "Pays du demandeur",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "numéro de téléphone du demandeur",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique",
+        "description": "adresse électronique du demandeur éventuellement différente de l'adresse utilisée sur démarches simplifiées",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Accompagnant(s)",
+        "description": "Liste des accompagnants",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": "Nom de l'accompagnant",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": "Prénom de l'accompagnant",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse",
+            "description": "Adresse complète de l'accompagnant",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Début Pratique",
+        "description": "date de début de la pratique d'orpaillage",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Fin pratique",
+        "description": "date de fin de la pratique d'orpaillage",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Cours d'eau sur lesquels l'orpaillage sera pratiqué",
+        "description": "Sélectionner tous les cours d'eau sur lesquels l'orpaillage sera pratiqué",
+        "required": true,
+        "options": [
+          "Le Salat de la confluence du Lez à la limite du département"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Matériel utilisé pour l'orpaillage",
+        "description": "Sélectionner tous les matériels qui seront utilisés pour la pratique de l'orpaillage",
+        "required": true,
+        "options": [
+          "Pelle",
+          "Pan",
+          "Bâtée",
+          "Seau",
+          "Tamis",
+          "Pompe manuelle",
+          "Grattoirs",
+          "Pied de biche inférieur à 50 cm",
+          "Sluice léger (simples recherches)",
+          "Rampe de lavage en bois d’une longueur maximale de 100 cms hors entonnoir et d’une largeur maximale de 30 cms ; une seule rampe par personne est autorisée,",
+          "Piolet"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre matériel utilisé pour l'orpaillage",
+        "description": "Indiquer précisément les autres matériels qui seront utilisés pour la pratique de l'orpaillage",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d'orpaillage",
+        "description": null,
+        "required": false,
+        "options": [
+          "Loisir",
+          "Touristique",
+          "Pédagogique",
+          "Scientifique"
+        ],
+        "otherOption": false
+      }
+    ]
+  }
+}

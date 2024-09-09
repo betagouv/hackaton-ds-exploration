@@ -1,0 +1,424 @@
+{
+  "number": 87715,
+  "title": "Reporting Agent de liaison MEAE JOP 2024",
+  "description": "En tant qu'agent de liaison d'une délégation pays durant les JOP 2024, vous devez remplir chaque jour de mission le présent formulaire de retour d'expérience sur votre journée de suivi.\r\nVeuillez remplir les informations comme suit : \r\n- prénom : PAYS\r\n- nom : PÔLE",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Europe et des Affaires étrangères"
+  ],
+  "datePublication": "2024-01-29T16:30:54+01:00",
+  "service": {
+    "nom": "Protocole JOP - PCC",
+    "organisme": "MEAE",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/reporting-agent-de-liaison-meae-jop-2024",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://cojoparis2024-my.sharepoint.com/personal/ltchakerian-ext_paris2024_org/_layouts/15/onedrive.aspx?login_hint=ltchakerian%2Dext%40paris2024%2Eorg&id=%2Fpersonal%2Fltchakerian%2Dext%5Fparis2024%5Forg%2FDocuments%2FReporting&view=0",
+  "cadreJuridiqueUrl": "inexistant car c'est un test",
+  "logo": {
+    "filename": "Logo double JOP MEAE.jpg",
+    "checksum": "EzxMkG6J4RkBOuwThKsTkg==",
+    "byteSize": "1191583",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "1. Incident de sécurité",
+        "description": "Ajouter un champ pour chaque incident de sécurité à rapporter ce jour.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PaysChampDescriptor",
+            "label": "Ce reporting concerne quel pays ?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Quel jour a eu lieu l'incident ?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type d'incident de sécurité",
+            "description": "Remplir \"Autre\" si l'incident ne correspond à aucun type de la liste et le préciser.",
+            "required": false,
+            "options": [
+              "Accident de la route",
+              "Accident d'une personne",
+              "Chute d'une personne",
+              "Défaillance escorte moto",
+              "Intoxication/maladie",
+              "Mouvement de foule",
+              "Port d'arme"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Lieu de l'incident de sécurité",
+            "description": "Saisir un site olympique, une adresse ou une voie, en précisant l'emplacement exact si nécessaire. Exemple : Stade de France, Tribune H.",
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Cotation de l'incident de sécurité",
+            "description": "Cocher une seule case. ",
+            "required": false,
+            "options": [
+              "1 faible",
+              "2 moyen",
+              "3 fort",
+              "4 très fort"
+            ]
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "État de résolution",
+            "description": "Cocher une seule case. \r\nPréciser en commentaire les points de blocage, les étapes à suivre ou toute information utile à la résolution de l'incident.",
+            "required": false,
+            "options": [
+              "Résolu",
+              "En cours de résolution",
+              "Non-résolu"
+            ]
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Commentaires sur l'état de résolution",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Autres commentaires sur l'incident de sécurité",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "2. Incident de programme",
+        "description": "Ajouter un champ pour chaque incident de programme à rapporter ce jour.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PaysChampDescriptor",
+            "label": "Ce reporting concerne quel pays ?",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Quel jour a eu lieu l'incident ?",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type d'incident de programme",
+            "description": "Remplir \"Autre\" si l'incident ne correspond à aucun type de la liste et le préciser.",
+            "required": false,
+            "options": [
+              "Ajout d'une séquence",
+              "Besoin d'interprétation",
+              "Demande de reconnaissance",
+              "Gestion des cadeaux",
+              "Modification d'une séquence",
+              "Retard"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Lieu de l'incident de programme",
+            "description": "Saisir un site olympique, une adresse ou une voie, en précisant l'emplacement exact si nécessaire. Exemple : Stade de France, Tribune H.",
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Cotation de l'incident de programme",
+            "description": "Cocher une seule case. ",
+            "required": false,
+            "options": [
+              "1 faible",
+              "2 moyen",
+              "3 fort",
+              "4 très fort"
+            ]
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "État de résolution",
+            "description": "Cocher une seule case. \r\nPréciser en commentaire les points de blocage, les étapes à suivre ou toute information utile à la résolution de l'incident.",
+            "required": false,
+            "options": [
+              "Résolu",
+              "En cours de résolution",
+              "Non résolu"
+            ]
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Commentaires sur l'état de résolution",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Autres commentaires sur l'incident de programme",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "3. Incident Arrivée / Départ (AnD)",
+        "description": "Ajouter un champ pour chaque incident AnD à rapporter ce jour.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PaysChampDescriptor",
+            "label": "Ce reporting concerne quel pays ?",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Quel jour a eu lieu l'incident ?",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type d'incident AnD",
+            "description": "Remplir \"Autre\" si l'incident ne correspond à aucun type de la liste et le préciser.",
+            "required": false,
+            "options": [
+              "Annulation vol",
+              "Changement d'aéroport",
+              "Décalage de la date/heure de départ",
+              "Gestion des accueillants",
+              "Problème de salon/pavillon",
+              "Retard"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Lieu de l'incident AnD",
+            "description": "A compléter si nécessaire.",
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Cotation de l'incident AnD",
+            "description": "Cocher une seule case. ",
+            "required": false,
+            "options": [
+              "1 faible",
+              "2 moyen",
+              "3 fort",
+              "4 très fort"
+            ]
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "État de résolution",
+            "description": "Cocher une seule case. \r\nPréciser en commentaire les points de blocage, les étapes à suivre ou toute information utile à la résolution de l'incident.",
+            "required": false,
+            "options": [
+              "Résolu",
+              "En cours de résolution",
+              "Non-résolu"
+            ]
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Commentaires sur l'état de résolution",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Autres commentaires sur l'incident AnD",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "4. Incident sur un site JOP",
+        "description": "Ajouter un champ pour chaque incident sur un site JOP à rapporter ce jour.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PaysChampDescriptor",
+            "label": "Ce reporting concerne quel pays ?",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Quel jour a eu lieu l'incident ?",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type d'incident sur un site JOP",
+            "description": "Remplir \"Autre\" si l'incident ne correspond à aucun type de la liste et le préciser.",
+            "required": false,
+            "options": [
+              "Interpellation / Mouvement de foule",
+              "Problème d'accès/billets",
+              "Problème à l'entrée du site",
+              "Problème avec le staff Paris2024",
+              "Problème d'hospitalité dans l'enceinte du site",
+              "Problème food & beverage"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Lieu de l'incident sur un site JOP",
+            "description": "Saisir un site olympique en précisant l'emplacement exact si nécessaire. Exemple : Stade de France, Tribune H.",
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Cotation de l'incident",
+            "description": "Cocher une seule case. ",
+            "required": false,
+            "options": [
+              "1 faible",
+              "2 moyen",
+              "3 fort",
+              "4 très fort"
+            ]
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "État de résolution",
+            "description": "Cocher une seule case. Préciser en commentaire les points de blocage, les étapes à suivre ou toute information utile à la résolution de l'incident.",
+            "required": false,
+            "options": [
+              "Résolu",
+              "En cours de résolution",
+              "Non-résolu"
+            ]
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Commentaires sur l'état de résolution",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Autres commentaires sur l'incident sur un site JOP",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "5. Incident relationnel avec les partenaires",
+        "description": "Ajouter un champ pour chaque incident sur un site JOP à rapporter ce jour.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PaysChampDescriptor",
+            "label": "Ce reporting concerne quel pays ?",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Quel jour a eu lieu l'incident ?",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Avec quel partenaire y a-t-il eu un incident ?",
+            "description": "Remplir \"Autre\" si l'incident relationnel est intervenu avec un partenaire qui ne figure pas dans la liste et le préciser.",
+            "required": false,
+            "options": [
+              "Ambassade",
+              "CEG",
+              "Chauffeur",
+              "CIO",
+              "Mairie",
+              "Membre délégation officielle",
+              "Membre délégation technique",
+              "Membre d'une autre délégation",
+              "Officier de sécurité étranger",
+              "SDLP",
+              "Paris 2024 staff",
+              "Préfecture de région",
+              "Préfecture de département",
+              "Tiers"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Lieu de l'incident relationnel",
+            "description": "Saisir un site olympique, une adresse ou une voie, en précisant l'emplacement exact si nécessaire. Exemple : Stade de France, Tribune H.",
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Cotation de l'incident",
+            "description": "Cocher une seule case. ",
+            "required": false,
+            "options": [
+              "1 faible",
+              "2 moyen",
+              "3 fort",
+              "4 très fort"
+            ]
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "État de résolution de l'incident",
+            "description": "Cocher une seule case. \r\nPréciser en commentaire les points de blocage, les étapes à suivre ou toute information utile à la résolution de l'incident.",
+            "required": false,
+            "options": [
+              "Résolu",
+              "En cours de résolution",
+              "Non résolu"
+            ]
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Commentaires sur l'état de résolution",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Autres commentaires sur l'incident relationnel",
+            "description": "",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

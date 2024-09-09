@@ -1,0 +1,109 @@
+{
+  "number": 68116,
+  "title": "Demande de Rupture Conventionnelle - Personnels relevant de la fonction publique hospitalière de Guadeloupe et Martinique",
+  "description": "Suite à la simulation d'indemnité de rupture conventionnelle\r\nVous souhaitez transmettre à l'administration vos documents.\r\n\r\nConditions d'éligibilité :\r\n\r\nÊtre titulaire ou en CDI dans la Fonction Publique Hospitalière\r\nExercer dans les départements Guadeloupe ou Martinique\r\nAvoir moins de 62 ans\r\n\r\nEn remplissant le formulaire, vous acceptez d'être recontactés par l'administration dans le cadre de l'instruction du dossier.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2023-02-08T12:04:42+01:00",
+  "service": {
+    "nom": "Ministère de la Santé",
+    "organisme": "DGOS",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-rc",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "www.sante.gouv.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070633/LEGISCTA000006181021/",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 4,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre statut",
+        "description": "",
+        "required": true,
+        "options": [
+          "Titulaire",
+          "CDI"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre établissement d'exercice",
+        "description": "Veuillez séléctionner l'établissement dans lequel vous exercez vos fonctions",
+        "required": false,
+        "options": [
+          "C.H.U  - GUADELOUPE",
+          "CH BASSE TERRE - GUADELOUPE",
+          "EPSM de la GUADELOUPE",
+          "C.H DE SAINTE-MARIE- GUADELOUPE",
+          "C.H MAURICE SELBONNE - GUADELOUPE",
+          "C.H. Louis Daniel BEAUPERTHUY - GUADELOUPE",
+          "C.H CAPESTERRE BELLE-EAU - GUADELOUPE",
+          "C.H CGR PALAIS ROYAL - GUADELOUPE",
+          "AUTRE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si autre, veuillez préciser votre établissement d'exercice",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Ancienneté de l'agent dans la fonction publique",
+        "description": "Ancienneté totale de l’agent dans la Fonction Publique = durée cumulée des services accomplis dans la FPE, FPT, FPH exprimée en années complètes.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Rémunération brute annuelle",
+        "description": "Rémunération brute annuelle totale de la dernière année civile (apparaissant sur le bulletin de salaire de décembre) ",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Les éléments de rémunération à prendre en compte pour la base de calcul sont :",
+        "description": "o   Le traitement indiciaire ;\r\n\r\no   L’indemnité de résidence,\r\n\r\no   Le supplément de traitement familial ;\r\n\r\no   La nouvelle bonification indiciaire ;\r\n\r\no   La majoration et indexation relatives à une affectation outre-mer (comme l’indique Vincent ci-dessous, ce n’est pas le cas usuellement mais le nouveau décret doit ouvrir cette prise en compte exceptionnellement) ;\r\n\r\no   Les autres primes et indemnités ;\r\n\r\no   En cas de logement de fonction, le montant des primes et indemnités pris en compte est celui qui aurait été perçu sans bénéfice de ce logement.\r\n\r\n·         Ne sont pas pris en compte : les remboursements de frais, les primes et indemnités  de changement de résidence, de primo-affectation, liées à la mobilité géographique et aux restructurations, les indemnités d'enseignement ou de jury et autres indemnités non directement liées à l'emploi.\r\n\r\n·         La base annuelle de référence est la somme des éléments à prendre en compte ci-dessus sur l’année N-1.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Bulletins de salaire de la dernière année de travail au CHU",
+        "description": "Veuillez joindre les bulletins de salaire de vos douze derniers mois de présence au CHU",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Bulletin de salaire",
+            "description": "Veuillez ajouter un bulletin de salaire",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": "Veuillez ajouter votre numéro de téléphone pour être joint en cas de besoin",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Autorisation de contact",
+        "description": "J'autorise l'administration instructrice à transmettre au service RH de mon établissement mes coordonnées pour être recontacté(e)",
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "number": 54960,
+  "title": "F413 - Déclaration des administrateurs techniques autorisés à commander des certificats logiciels",
+  "description": "Pré requis : \r\n- La structure doit déjà avoir souscrit <a href=\"https://esante.gouv.fr/index-des-formulaires\">un contrat d’adhésion</a> auprès de l'ANS;\r\n- Le représentant légal ou mandataire doit avoir une carte en cours de validité.\r\n<br>\r\n\r\nAfin de réaliser la démarche, vous devez être : \r\n      - Représentant légal de la structure\r\n      - Mandataire de la structure\r\n\r\nCette démarche est l’équivalent en ligne du formulaire de <i>déclaration des administrateurs techniques autorisés à commander des certificats logiciels (F413).</i>",
+  "tags": [
+    "ANS"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-03-31T19:06:03+02:00",
+  "service": {
+    "nom": "Service Client Certificats",
+    "organisme": "Agence du Numérique en Santé",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/f413",
+  "dpoUrl": "dpo@esante.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://esante.gouv.fr/documents/413",
+  "cadreJuridiqueUrl": "https://esante.gouv.fr/procedures/conditions-generales-utilisation",
+  "logo": {
+    "filename": "Logo ANS.png",
+    "checksum": "JYFOVj2PrV1k00rrX0n2BQ==",
+    "byteSize": "232068",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 3434,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. La demande d'habilitation d'administrateur technique",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "1.1 Objet de la démarche",
+        "description": "La présente démarche s’adresse au représentant légal d’une structure, ou un mandataire désigné préalablement.\r\nIl a pour objet de déclarer les personnes de la structure, ou extérieures (éditeurs) qui doivent être autorisées auprès de l’Agence du Numérique en Santé (ANS) pour commander des certificats logiciels. Il est nécessaire dans la démarche de préciser le type de certificats souhaités et leur périmètre.\r\nCes personnes qualifiées d’administrateurs techniques ont le droit de gérer le cycle de vie (demande, retrait, révocation et suivi) des certificats logiciels commandés auprès de l’ANS.\r\n\r\nVous avez également la possibilité de réaliser cette démarche via le Portail mesHabilitations :\r\nhttps://meshabilitations.esante.gouv.fr",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "1.2 Prérequis à la demande",
+        "description": " - Avoir signé avec l’ANS, au moyen du contrat d’adhésion aux services de l’ANS relatifs aux moyens d’identification électronique (hors structures libérales), et avoir pris connaissance des Conditions Générales d’Utilisation (CGU) des moyens d’identification électronique délivrés par l’ANS (https://esante.gouv.fr/procedures/conditions-generales-utilisation) ainsi que les politiques de certification accessibles sur http://igc-sante.esante.gouv.fr/PC/. \r\n- Le responsable légal de la structure, ou son mandataire, doit disposer d’une carte active ;\r\n- Avoir identifié la ou les personnes à désigner en tant qu’administrateurs techniques, ayant déjà des cartes actives.\r\n\r\nPour retrouver l’ensemble des certificats disponibles et les usages associés, vous pouvez consulter la page suivante : \r\nhttps://esante.gouv.fr/securite/cartes-et-certificats/certificats-logiciels",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. Identification de la structure bénéficiaire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Informations sur la structure",
+        "description": "Les éléments demandés ci-dessous concernent la structure pour laquelle seront désignés des administrateurs techniques. ",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "N° SIRET de la structure",
+        "description": "Remplir ce champ si le n° de SIRET fournit en préambule de cette démarche n'est pas celui de la structure bénéficiaire.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "OU",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "FINESS",
+        "description": "Champ obligatoire composé de 9 chiffres pour les structures prenant en charge des patients ou des usagers.\r\nPour savoir sur quel FINESS commander : https://esante.gouv.fr/sur-quel-identifiant-de-structure-commander-son-certificat",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "OU",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "RPPS rang",
+        "description": "Il est nécessaire uniquement pour les cabinets de radiologie, hors sociétés d'exercice. \r\nLe RPPS Rang correspond au numéro RPPS du professionnel de santé suivit des 3 chiffres de structure. ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "RPPS rang",
+            "description": "Vous pouvez désigner un ou plusieurs RPPS Rang en cliquant sur <strong>+ Ajouter un élément pour RPPS Rang </strong>",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. Identification du représentant légal ou du mandataire ou titulaire du cabinet",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Êtes vous le",
+        "description": "",
+        "required": true,
+        "options": [
+          "Responsable légal",
+          "Mandataire",
+          "Titulaire du cabinet"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom(s)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "N° de téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email professionnel",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° de carte",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4. Informations spécifiques",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "4.1 Déclaration des administrateurs techniques",
+        "description": "Les administrateurs que vous déclarez ici seront les personnes habilitées à retirer et gérer les certificats logiciels pour lesquels vous les avez désignés. ",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Déclarer vos administrateurs techniques possédant déjà une carte délivrée par l’ANS",
+        "description": "Vous pouvez désigner un ou plusieurs administrateur technique en cliquant sur <strong>+ Ajouter un élément pour \"Déclarer un administrateur technique\" </strong>",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "N° de carte",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom et prénom(s) figurant sur la carte",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "N° de téléphone",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Email professionnel",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Déclarez vos administrateurs ne possédant pas encore de carte",
+        "description": "Inscrivez ici la liste des bénéficiaires d'une carte nominative (CPE ou CPA) que vous souhaitez désigner comme administrateur technqiue.\r\n\r\nPour chaque bénéficiaire vous pouvez cocher les cases facultative ci-après :\r\n- [MANDAT] : Cochez cette case si le bénéficiaire doit disposer d'un mandat afin d'être habilité à commander et à gérer le parc de cartes pour le compte du Client ayant signé un contrat d'adhésion avec l'ANS. \r\n- [LOTS de Feuilles de Soins Electroniques (FSE)]  : Cochez cette case si le bénéficiaire doit être habilité à signer des lots de FSE (uniquement pour les centres de santé, les centres de PMI et les centres de transfusion sanguine).",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom(s)",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "N° de téléphone",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Email professionnel",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° Matricule",
+            "description": "Le n° matricule (n° employé, n° de registre personnel...) sert d'identifiant de la carte (10 caractères). Il appartient à chaque structure de gérer l'unicité de ce numéro pour les cartes de service.",
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Mandat",
+            "description": "[MANDAT] : Cochez cette case si le bénéficiaire doit disposer d'un mandat afin d'être habilité à commander et à gérer le parc de cartes pour le compte du Client ayant signé un contrat d'adhésion avec l'ANS",
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "FSE",
+            "description": "[LOTS de Feuilles de Soins Electroniques (FSE)]  : Cochez cette case si le bénéficiaire doit être habilité à signer des lots de FSE (uniquement pour les centres de santé, les centres de PMI et les centres de transfusion sanguine).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "4.2 Usage des certificats et solution utilisée",
+        "description": "Veuillez décrire dans les champs ci-dessous le contexte d'utilisation  des certificats demandés. \r\nPour vous aider, vous pouvez utiliser la page suivante : https://esante.gouv.fr/quel-certificat-commander",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisions sur l’usage des certificats et sur votre projet",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Éditeur de la solution",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Solution utilisée",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "4.3 Type de certificats souhaités",
+        "description": "Cochez les types de certificats souhaités et remplissez les informations complémentaires associées. \r\n\r\nLe certificat de type SSL_SERVEUR peut être rattaché à un nom de domaine OU à un nom de serveur. ",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Sélection des certificats",
+        "description": "Cochez le ou les types de certificat souhaités. ",
+        "required": true,
+        "options": [
+          "Certificat ORG",
+          "Certificat SSL_SERVEUR",
+          "Certificat SMIME, SIGN, CONF",
+          "Certificat Logiciel Pro AUTH, SIGN, CONF"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Certificat ORG",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Certificat ORG",
+        "description": "A destination des personnes morales, pour un usage AUTH_CLI, SIGN, CONF. \r\nDes cas d'utilisation peuvent être : DMP, ROR, Annuaire santé, etc.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Certificat logiciel SERVEUR usage SSL_SERVEUR",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Certificat logiciel SSL_SERVEUR",
+        "description": "Vous devez indiquer pour ce type de certificat soit un nom de domaine  soit un nom de serveur.  \r\nDes cas d'utilisation peuvent être : MSSanté, Diapason, PSIG, etc.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sélection du type de certificat SSL Serveur",
+        "description": "",
+        "required": true,
+        "options": [
+          "Certificat SSL pour un nom de domaine",
+          "Certificat SSL restreint"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Certificat SSL pour le nom de domaine suivant",
+        "description": "Indiquez le nom de domaine souhaité, l'adresse Web. \r\nExemple: domaine.fr",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Certificat SSL restreint au serveur suivant",
+        "description": "Indiquez le nom de serveur spécifique.\r\nExemple : nomdeserveur.domaine.fr",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Certificat logiciel SERVEUR usage SMIME, SIGN, CONF",
+        "description": "Ces  2 types de certificats doivent être rattachés à un  domaine de messagerie qu'il vous faudra fournir. ",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Certificat logiciel SERVEUR",
+        "description": "Pour un usage SMIME, SIGN, CONF.\r\nDes cas d'utilisation peuvent être : Messagerie HPRIM NET, etc. ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Certificat pour le nom de domaine de messagerie suivant",
+        "description": "Veuillez indiquer uniquement le nom de domaine souhaité, exemple: @domaine.fr",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Certificat logiciel PRO (Personne physique) usage AUTH, SIGN, CONF",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Certificat logiciel PR",
+        "description": "Pour un usage AUTH, SIGN, CONF. \r\nDes cas d'utilisation peuvent être : Messagerie HPRIM NET, etc. ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Certificat pour le nom de domaine de messagerie suivant",
+        "description": "Veuillez indiquer uniquement le nom de domaine souhaité, exemple: @domaine.fr",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives à joindre",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si vous ne vous êtes pas connecté par France Connect, merci de nous faire parvenir un justificatif de votre identité",
+        "description": "Carte d’identité (recto/verso), passeport, permis de conduire, carte de séjour ou de résident.",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie avoir lu et accepté les conditions générales d’utilisation relatives aux moyens d’identification électronique.",
+        "description": "les C.G.U sont consultables à l'adresse suivante : https://esante.gouv.fr/procedures/conditions-generales-utilisation",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie exactes les informations mentionnées ci-dessus. Il est rappelé que les fraudes et tentatives de fraude sont passibles de sanctions pénales et peuvent conduire à la suspension de l'instruction de votre demande ou au retrait des droits dont le bénéfice est demandé.",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

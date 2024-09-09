@@ -1,0 +1,1301 @@
+{
+  "number": 63696,
+  "title": "Téléprocédure APA Etablissement (v17) - clone de production (DATN)",
+  "description": "Avant d'entamer la procédure, assurez-vous que le bénéficiaire est éligible à l'APA. \r\n\r\nPour être éligible, le bénéficiaire doit : \r\n- avoir au moins 60 ans,\r\n- justifier d’une résidence stable et régulière en France,\r\n- résider dans le département des Hauts-de-Seine depuis au moins 3 mois (dans le cas contraire, rapprochez-vous de votre département d'origine).\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2022-09-02T17:27:38+02:00",
+  "service": {
+    "nom": "Service APA Etablissement, Direction de l'Autonomie, Pôle Solidarités",
+    "organisme": "Département des Hauts-de-Seine",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/teleprocedure-apa-etablissement-v17-clone-de-produ",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.78-92.fr/annuaire/aides-et-services/detail/apa-allocation-personnalisee-dautonomie-en-etablissement",
+  "cadreJuridiqueUrl": "https://www.78-92.fr/annuaire/aides-et-services/detail/apa-allocation-personnalisee-dautonomie-en-etablissement",
+  "logo": {
+    "filename": "logo CD92.jfif",
+    "checksum": "lhEhiP/ZifBmbdwMuk08ug==",
+    "byteSize": "5333",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 12,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1 - Personne en charge de la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Pour qui faites-vous la demande?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Je suis le bénéficiaire",
+          "Je suis une personne désignée légalement (tuteur, curateur, sauvegarde de justice)",
+          "Je suis un organisme désigné légalement (tuteur, curateur, sauvegarde de justice)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - Informations concernant le bénéficiaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel du bénéficiaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Pays de naissance du bénéficiaire",
+        "description": "",
+        "required": true,
+        "options": [
+          "France",
+          "Afghanistan",
+          "Afrique du Sud",
+          "Åland (les Îles)",
+          "Albanie",
+          "Algérie",
+          "Allemagne",
+          "Andorre",
+          "Angola",
+          "Anguilla",
+          "Antarctique",
+          "Antigua-et-Barbuda",
+          "Arabie saoudite",
+          "Argentine",
+          "Arménie",
+          "Aruba",
+          "Australie",
+          "Autriche",
+          "Azerbaïdjan",
+          "Bahamas",
+          "Bahreïn",
+          "Bangladesh",
+          "Barbade",
+          "Bélarus",
+          "Belgique",
+          "Belize",
+          "Bénin",
+          "Bermudes",
+          "Bhoutan",
+          "Bolivie (État plurinational de)",
+          "Bonaire, Saint-Eustache et Saba",
+          "Bosnie-Herzégovine",
+          "Botswana",
+          "Bouvet (l'Île)",
+          "Brésil",
+          "Brunéi Darussalam",
+          "Bulgarie",
+          "Burkina Faso",
+          "Burundi",
+          "Cabo Verde",
+          "Caïmans (les Îles)",
+          "Cambodge",
+          "Cameroun",
+          "Canada",
+          "Chili",
+          "Chine",
+          "Christmas (l'Île)",
+          "Chypre",
+          "Cocos (les Îles) / Keeling (les Îles)",
+          "Colombie",
+          "Comores",
+          "Congo",
+          "Congo (la République démocratique du)",
+          "Cook (les Îles)",
+          "Corée (la République de)",
+          "Corée (la République populaire démocratique de)",
+          "Costa Rica",
+          "Côte d'Ivoire",
+          "Croatie",
+          "Cuba",
+          "Curaçao",
+          "Danemark",
+          "Djibouti",
+          "dominicaine (la République)",
+          "Dominique",
+          "Égypte",
+          "El Salvador",
+          "Émirats arabes unis",
+          "Équateur",
+          "Érythrée",
+          "Espagne",
+          "Estonie",
+          "Eswatini",
+          "États-Unis d'Amérique",
+          "Éthiopie",
+          "Falkland (les Îles) /Malouines (les Îles)",
+          "Féroé (les Îles)",
+          "Fidji",
+          "Finlande",
+          "Gabon",
+          "Gambie",
+          "Géorgie",
+          "Géorgie du Sud-et-les Îles Sandwich du Sud",
+          "Ghana",
+          "Gibraltar",
+          "Grèce",
+          "Grenade",
+          "Groenland",
+          "Guadeloupe",
+          "Guam",
+          "Guatemala",
+          "Guernesey",
+          "Guinée",
+          "Guinée équatoriale",
+          "Guinée-Bissau",
+          "Guyana",
+          "Guyane française (la)",
+          "Haïti",
+          "Heard-et-Îles MacDonald (l'Île)",
+          "Honduras",
+          "Hong Kong",
+          "Hongrie",
+          "Île de Man",
+          "Îles mineures éloignées des États-Unis",
+          "Inde",
+          "Indien (le Territoire britannique de l'océan)",
+          "Indonésie",
+          "Iran (République Islamique d')",
+          "Iraq",
+          "Irlande",
+          "Islande",
+          "Israël",
+          "Italie",
+          "Jamaïque",
+          "Japon",
+          "Jersey",
+          "Jordanie",
+          "Kazakhstan",
+          "Kenya",
+          "Kirghizistan",
+          "Kiribati",
+          "Koweït",
+          "Lao (la République démocratique populaire)",
+          "Lesotho",
+          "Lettonie",
+          "Liban",
+          "Libéria",
+          "Libye",
+          "Liechtenstein",
+          "Lituanie",
+          "Luxembourg",
+          "Macao",
+          "Macédoine du Nord",
+          "Madagascar",
+          "Malaisie",
+          "Malawi",
+          "Maldives",
+          "Mali",
+          "Malte",
+          "Mariannes du Nord (les Îles)",
+          "Maroc",
+          "Marshall (les Îles)",
+          "Martinique",
+          "Maurice",
+          "Mauritanie",
+          "Mayotte",
+          "Mexique",
+          "Micronésie (États fédérés de)",
+          "Moldavie (la République de)",
+          "Monaco",
+          "Mongolie",
+          "Monténégro",
+          "Montserrat",
+          "Mozambique",
+          "Myanmar",
+          "Namibie",
+          "Nauru",
+          "Népal",
+          "Nicaragua",
+          "Niger",
+          "Nigéria",
+          "Niue",
+          "Norfolk (l'Île)",
+          "Norvège",
+          "Nouvelle-Calédonie",
+          "Nouvelle-Zélande",
+          "Oman",
+          "Ouganda",
+          "Ouzbékistan",
+          "Pakistan",
+          "Palaos",
+          "Palestine, État de",
+          "Panama",
+          "Papouasie-Nouvelle-Guinée",
+          "Paraguay",
+          "Pays-Bas",
+          "Pérou",
+          "Philippines",
+          "Pitcairn",
+          "Pologne",
+          "Polynésie française",
+          "Porto Rico",
+          "Portugal",
+          "Qatar",
+          "République arabe syrienne",
+          "République centrAfriqueine",
+          "Réunion",
+          "Roumanie",
+          "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord",
+          "Russie (la Fédération de)",
+          "Rwanda",
+          "Sahara occidental",
+          "Saint-Barthélemy",
+          "Sainte-Hélène, Ascension et Tristan da Cunha",
+          "Sainte-Lucie",
+          "Saint-Kitts-et-Nevis",
+          "Saint-Marin",
+          "Saint-Martin (partie française)",
+          "Saint-Martin (partie néerlandaise)",
+          "Saint-Pierre-et-Miquelon",
+          "Saint-Siège",
+          "Saint-Vincent-et-les Grenadines",
+          "Salomon (les Îles)",
+          "Samoa",
+          "Samoa américaines",
+          "Sao Tomé-et-Principe",
+          "Sénégal",
+          "Serbie",
+          "Seychelles",
+          "Sierra Leone",
+          "Singapour",
+          "Slovaquie",
+          "Slovénie",
+          "Somalie",
+          "Soudan",
+          "Soudan du Sud",
+          "Sri Lanka",
+          "Suède",
+          "Suisse",
+          "Suriname",
+          "Svalbard et l'Île Jan Mayen",
+          "Tadjikistan",
+          "Taïwan (Province de Chine)",
+          "Tanzanie (la République-Unie de)",
+          "Tchad",
+          "Tchéquie",
+          "Terres australes françaises",
+          "Thaïlande",
+          "Timor-Leste",
+          "Togo",
+          "Tokelau",
+          "Tonga",
+          "Trinité-et-Tobago",
+          "Tunisie",
+          "Turkménistan",
+          "Turks-et-Caïcos (les Îles)",
+          "Turquie",
+          "Tuvalu",
+          "Ukraine",
+          "Uruguay",
+          "Vanuatu",
+          "Venezuela (République bolivarienne du)",
+          "Vierges britanniques (les Îles)",
+          "Vierges des États-Unis (les Îles)",
+          "Viet Nam",
+          "Wallis-et-Futuna",
+          "Yémen",
+          "Zambie",
+          "Zimbabwe"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département de naissance du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de Sécurité sociale du bénéficiaire",
+        "description": "Ce numéro, composé de 15 chiffres, se trouve au <u>recto</u> de la carte vitale.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nationalité du bénéficiaire",
+        "description": "",
+        "required": true,
+        "options": [
+          "Française",
+          "UE",
+          "Hors UE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le justificatif d'identité (copie recto verso)",
+        "description": "Pour les personnes de nationalité française : carte d'identité,  passeport, extrait d'acte de naissance ou livret de famille.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le justificatif d'identité (copie recto verso)",
+        "description": "Pour les personnes ressortissantes de l’Espace économique européen : carte  d'identité ou passeport en cours de validité.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le justificatif d'identité (copie recto verso)",
+        "description": "Pour les personnes non ressortissantes de l’Espace économique européen : carte de résidence ou titre de séjour en cours de validité.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie recto verso du justificatif d’identité du bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du domicile du bénéficiaire",
+        "description": "L'adresse saisie doit être l'adresse où résidait le bénéficiaire avant son entrée en établissement (EHPAD/USLD/EHPA/Foyer logement).",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Date d’entrée dans le logement",
+        "description": "",
+        "required": true,
+        "options": [
+          "Depuis plus de 3 mois",
+          "Depuis moins de 3 mois"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de sortie du logement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie d’un justificatif de domicile (de moins de 3 moins avant l'entrée en EHPAD, type quittance EDF ou de loyer)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation familiale du bénéficiaire",
+        "description": "Si le bénéficiaire est célibataire, merci de sélectionner \"Célibataire\" dans le menu déroulant et merci de passer à la rubrique 4 -Informations concernant la personne référente.",
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Marié",
+          "Concubin",
+          "Pacsé",
+          "Séparé",
+          "Veuf"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de décès du conjoint",
+        "description": "Si la situation de veuvage date de moins de 2 ans, merci de préciser la date de décès du conjoint.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - Informations concernant le conjoint, concubin ou partenaire de PACS du bénéficiaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance du conjoint",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de Sécurité sociale du conjoint",
+        "description": "Ce numéro, composé de 15 chiffres, se trouve au <u>recto</u> de la carte vitale.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Pays de naissance",
+        "description": "",
+        "required": true,
+        "options": [
+          "France",
+          "Afghanistan",
+          "Afrique du Sud",
+          "Åland (les Îles)",
+          "Albanie",
+          "Algérie",
+          "Allemagne",
+          "Andorre",
+          "Angola",
+          "Anguilla",
+          "Antarctique",
+          "Antigua-et-Barbuda",
+          "Arabie saoudite",
+          "Argentine",
+          "Arménie",
+          "Aruba",
+          "Australie",
+          "Autriche",
+          "Azerbaïdjan",
+          "Bahamas",
+          "Bahreïn",
+          "Bangladesh",
+          "Barbade",
+          "Bélarus",
+          "Belgique",
+          "Belize",
+          "Bénin",
+          "Bermudes",
+          "Bhoutan",
+          "Bolivie (État plurinational de)",
+          "Bonaire, Saint-Eustache et Saba",
+          "Bosnie-Herzégovine",
+          "Botswana",
+          "Bouvet (l'Île)",
+          "Brésil",
+          "Brunéi Darussalam",
+          "Bulgarie",
+          "Burkina Faso",
+          "Burundi",
+          "Cabo Verde",
+          "Caïmans (les Îles)",
+          "Cambodge",
+          "Cameroun",
+          "Canada",
+          "Chili",
+          "Chine",
+          "Christmas (l'Île)",
+          "Chypre",
+          "Cocos (les Îles) / Keeling (les Îles)",
+          "Colombie",
+          "Comores",
+          "Congo",
+          "Congo (la République démocratique du)",
+          "Cook (les Îles)",
+          "Corée (la République de)",
+          "Corée (la République populaire démocratique de)",
+          "Costa Rica",
+          "Côte d'Ivoire",
+          "Croatie",
+          "Cuba",
+          "Curaçao",
+          "Danemark",
+          "Djibouti",
+          "dominicaine (la République)",
+          "Dominique",
+          "Égypte",
+          "El Salvador",
+          "Émirats arabes unis",
+          "Équateur",
+          "Érythrée",
+          "Espagne",
+          "Estonie",
+          "Eswatini",
+          "États-Unis d'Amérique",
+          "Éthiopie",
+          "Falkland (les Îles) /Malouines (les Îles)",
+          "Féroé (les Îles)",
+          "Fidji",
+          "Finlande",
+          "Gabon",
+          "Gambie",
+          "Géorgie",
+          "Géorgie du Sud-et-les Îles Sandwich du Sud",
+          "Ghana",
+          "Gibraltar",
+          "Grèce",
+          "Grenade",
+          "Groenland",
+          "Guadeloupe",
+          "Guam",
+          "Guatemala",
+          "Guernesey",
+          "Guinée",
+          "Guinée équatoriale",
+          "Guinée-Bissau",
+          "Guyana",
+          "Guyane française (la)",
+          "Haïti",
+          "Heard-et-Îles MacDonald (l'Île)",
+          "Honduras",
+          "Hong Kong",
+          "Hongrie",
+          "Île de Man",
+          "Îles mineures éloignées des États-Unis",
+          "Inde",
+          "Indien (le Territoire britannique de l'océan)",
+          "Indonésie",
+          "Iran (République Islamique d')",
+          "Iraq",
+          "Irlande",
+          "Islande",
+          "Israël",
+          "Italie",
+          "Jamaïque",
+          "Japon",
+          "Jersey",
+          "Jordanie",
+          "Kazakhstan",
+          "Kenya",
+          "Kirghizistan",
+          "Kiribati",
+          "Koweït",
+          "Lao (la République démocratique populaire)",
+          "Lesotho",
+          "Lettonie",
+          "Liban",
+          "Libéria",
+          "Libye",
+          "Liechtenstein",
+          "Lituanie",
+          "Luxembourg",
+          "Macao",
+          "Macédoine du Nord",
+          "Madagascar",
+          "Malaisie",
+          "Malawi",
+          "Maldives",
+          "Mali",
+          "Malte",
+          "Mariannes du Nord (les Îles)",
+          "Maroc",
+          "Marshall (les Îles)",
+          "Martinique",
+          "Maurice",
+          "Mauritanie",
+          "Mayotte",
+          "Mexique",
+          "Micronésie (États fédérés de)",
+          "Moldavie (la République de)",
+          "Monaco",
+          "Mongolie",
+          "Monténégro",
+          "Montserrat",
+          "Mozambique",
+          "Myanmar",
+          "Namibie",
+          "Nauru",
+          "Népal",
+          "Nicaragua",
+          "Niger",
+          "Nigéria",
+          "Niue",
+          "Norfolk (l'Île)",
+          "Norvège",
+          "Nouvelle-Calédonie",
+          "Nouvelle-Zélande",
+          "Oman",
+          "Ouganda",
+          "Ouzbékistan",
+          "Pakistan",
+          "Palaos",
+          "Palestine, État de",
+          "Panama",
+          "Papouasie-Nouvelle-Guinée",
+          "Paraguay",
+          "Pays-Bas",
+          "Pérou",
+          "Philippines",
+          "Pitcairn",
+          "Pologne",
+          "Polynésie française",
+          "Porto Rico",
+          "Portugal",
+          "Qatar",
+          "République arabe syrienne",
+          "République centrAfriqueine",
+          "Réunion",
+          "Roumanie",
+          "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord",
+          "Russie (la Fédération de)",
+          "Rwanda",
+          "Sahara occidental",
+          "Saint-Barthélemy",
+          "Sainte-Hélène, Ascension et Tristan da Cunha",
+          "Sainte-Lucie",
+          "Saint-Kitts-et-Nevis",
+          "Saint-Marin",
+          "Saint-Martin (partie française)",
+          "Saint-Martin (partie néerlandaise)",
+          "Saint-Pierre-et-Miquelon",
+          "Saint-Siège",
+          "Saint-Vincent-et-les Grenadines",
+          "Salomon (les Îles)",
+          "Samoa",
+          "Samoa américaines",
+          "Sao Tomé-et-Principe",
+          "Sénégal",
+          "Serbie",
+          "Seychelles",
+          "Sierra Leone",
+          "Singapour",
+          "Slovaquie",
+          "Slovénie",
+          "Somalie",
+          "Soudan",
+          "Soudan du Sud",
+          "Sri Lanka",
+          "Suède",
+          "Suisse",
+          "Suriname",
+          "Svalbard et l'Île Jan Mayen",
+          "Tadjikistan",
+          "Taïwan (Province de Chine)",
+          "Tanzanie (la République-Unie de)",
+          "Tchad",
+          "Tchéquie",
+          "Terres australes françaises",
+          "Thaïlande",
+          "Timor-Leste",
+          "Togo",
+          "Tokelau",
+          "Tonga",
+          "Trinité-et-Tobago",
+          "Tunisie",
+          "Turkménistan",
+          "Turks-et-Caïcos (les Îles)",
+          "Turquie",
+          "Tuvalu",
+          "Ukraine",
+          "Uruguay",
+          "Vanuatu",
+          "Venezuela (République bolivarienne du)",
+          "Vierges britanniques (les Îles)",
+          "Vierges des États-Unis (les Îles)",
+          "Viet Nam",
+          "Wallis-et-Futuna",
+          "Yémen",
+          "Zambie",
+          "Zimbabwe"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone fixe ou portable",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nationalité",
+        "description": "",
+        "required": true,
+        "options": [
+          "Française",
+          "UE",
+          "Hors UE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Lieu de résidence",
+        "description": "",
+        "required": true,
+        "options": [
+          "A domicile",
+          "En établissement"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - Informations concernant la personne référente",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité du référent",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du référent",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du référent",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance du référent",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du référent",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone fixe ou portable du référent",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel du référent",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Lien entre le référent et le demandeur",
+        "description": "",
+        "required": true,
+        "options": [
+          "Conjoint(e)",
+          "Enfant",
+          "Belle-fille",
+          "Gendre",
+          "Tiers familial",
+          "Ami(e)",
+          "Voisin(e)"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5 - Protection juridique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Est-ce que le bénéficiaire fait l'objet d'une mesure de protection ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Non",
+          "Non, mais une demande est en cours",
+          "Oui"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quel est le type de mesure de protection ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Sauvegarde de justice",
+          "Curatelle",
+          "Tutelle",
+          "Habilitation familiale",
+          "Mandat de protection futur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d’effet de la mesure",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie du jugement de la mesure de protection juridique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Dans le cadre de cette mesure, qui a été désigné pour la protection?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Un organisme",
+          "Une personne"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'organisme nommé dans le cadre de cette protection",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone de l'organisme",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel de l'organisme",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité de la personne désignée légalement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la personne désignée légalement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom de la personne désignée légalement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de la personne désignée légalement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone fixe ou portable de la personne désignée légalement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel de la personne désignée légalement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "6 - Informations concernant l'établissement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'établissement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'entrée dans cet établissement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'établissement",
+        "description": "L’adresse saisie doit être l’adresse de l’établissement.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie du bulletin d’entrée en établissement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel de l'établissement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone de l'établissement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "7 - Allocations perçues",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "De quelle(s) prestation(s) le bénéficiaire dispose-t-il déjà?",
+        "description": "L'APA n'est pas cumulable avec :\r\n- La prestation de compensation du handicap (PCH) ;\r\n- L'aide ménagère prise en charge par l'Aide sociale ou les caisses de retraite ;\r\n- L'allocation compensatrice pour tierce personne (ACTP) versée par le Conseil départemental ;\r\n- La majoration pour aide constante d'une tierce personne versée par la Sécurité sociale\r\n- L'APA à domicile\r\n- La prestation complémentaire pour recours à tierce personne",
+        "required": true,
+        "options": [
+          "Aucune prestation",
+          "Une ou des prestations"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le bénéficiaire dispose-t-il de l'Aide Sociale à l'Hébergement (ASH)?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le bénéficiaire dispose-t-il d'une aide-ménagère à domicile, prise en charge par une caisse de retraite, ou l’aide sociale départementale?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le bénéficiaire dispose-t-il de la Prestation de Compensation du Handicap (PCH)?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le bénéficiaire dispose-t-il d'une Allocation Compensatrice pour Tierce Personne (ACTP)?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le bénéficiaire dispose-t-il d'une majoration pour aide constante d’une tierce personne versée par la Sécurité sociale?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le bénéficiaire dispose-t-il d'une prestation complémentaire pour recours à tierce personne?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le bénéficiaire dispose-t-il de l'APA (Allocation Personnalisée d'Autonomie) à domicile?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie de la décision d’attribution d'une aide ou allocation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Une demande d'Aide Sociale à l’Hébergement ASH est-elle en cours ?",
+        "description": "L'APA est cumulable avec l'aide sociale à l'hébergement (ASH).",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "8 – Les ressources : biens(s) immobilier(s), bâti(s) ou non bâti(s), en propriété ou en usufruit ou en indivision",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de la résidence principale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Concernant sa résidence principale, le bénéficiaire est:",
+        "description": "",
+        "required": true,
+        "options": [
+          "Locataire",
+          "Propriétaire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "La résidence principale est:",
+        "description": "",
+        "required": true,
+        "options": [
+          "Occupée par le demandeur et/ou son conjoint, et/ou ses enfants, petits-enfants",
+          "Louée à un tiers",
+          "Non louée (vide ou occupée à titre gracieux par un tiers autre que le conjoint et les enfants et petits-enfants)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie recto verso de la taxe foncière pour la résidence principale",
+        "description": "Ici, sont considérés les éléments suivants: maison, appartement, terrain etc, du demandeur et de son / sa conjoint(e).",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autres biens immobiliers (maison, appartement, terrain, etc.) du demandeur et de son / sa conjoint(e)",
+        "description": "Merci de nous fournir dans le commentaire la description de ces autres bien immobiliers.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Préciser l'adresse des autres biens immobiliers",
+        "description": "Pour chaque bien qui n’est pas mis en location, joindre une photocopie du dernier avis de taxe foncière au dossier.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse du bien immobilier",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Dernier avis de taxes foncières pour les autres biens immobiliers non loués",
+        "description": "Merci de nous fournir si le demandeur ou son éventuel conjoint, concubin ou partenaire de pacte civil de solidarité (PACS) sont propriétaires de résidences secondaires non-louées : la copie intégrale (sauf les pages de notice explicative) du dernier avis de taxes foncières pour chaque bien non loué (hors résidence principale), bâti ou non bâti.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Dernier avis de taxes foncières",
+            "description": "Vous pouvez ajouter en pièce justificative autant d'avis de taxes foncières que de biens immobiliers.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Biens en indivision",
+        "description": "Si vous possédez un bien non loué en indivision, veuillez cliquer sur \"Ajouter un élément pour «Biens en indivision»\".",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Préciser dans la zone de commentaire ci-dessous la quote-part de chaque bien non loué en indivision",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "9 - Biens mobiliers et capitaux non placés de valeur du demandeur et de son / sa conjoint(e)",
+        "description": "Si le demandeur et/ou son conjoint (marié, pacsé, concubin) possèdent des biens mobiliers et des capitaux non placés de valeur, les déclarer dans le tableau suivant en précisant leur montant ou leur valeur estimée",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Possédez-vous, vous ou votre conjoint, des biens mobiliers et des capitaux non placés (œuvre d'art de collection, voiture de luxe, etc...) ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Combien en possédez-vous ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Nature du bien",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Description de la nature du bien (ex: œuvre d'art, voiture de luxe, etc...)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Montant / valeur estimée (en €)",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande de Carte Mobilité Inclusion (CMI)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Je souhaite bénéficier de la Carte Mobilité Inclusion (CMI)",
+        "description": "Le bénéfice de cette carte est prévu à l’article L241-3 du Code de l’action Sociale et des familles (CASF)\r\nSi vous êtes en GIR 1 ou 2, vous pourrez bénéficier d’une CMI comportant les mentions « Invalidité » et  « Stationnement ».\r\nSi vous êtes en GIR 3 ou 4, vous pourrez bénéficier d’une CMI comportant les mentions « Priorité » et « Stationnement ».",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "10 - Autres pièces justificatives",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie intégrale (les 2 feuilles recto-verso, soit 4 pages) du dernier avis d'imposition ou de non-imposition à l'impôt sur le revenu",
+        "description": "Si la demande est déposée entre janvier et août de l'année en cours N, il s'agit de l'avis d'imposition de l'année N.\r\n\r\nsi la demande est déposée entre septembre et décembre de l'année en cours N, il s'agit de l'avis d'imposition de l'année N-1",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Relevé d’identité bancaire (RIB)",
+        "description": "Pour le paiement de l'APA, les personnes résidant dans un établissement situé en dehors des Hauts-de-Seine devront transmettre:\r\n- Un relevé d'identité bancaire au nom de l'établissement d'accueil précisant les codes IBAN/BIC. <strong>Le versement de l'APA à l'établissement est privilégié afin d'assurer un traitement plus rapide des dossiers</strong> et vous éviter de rembourser des sommes qui vous seraient éventuellement trop versées par la suite\r\n- Ou un relevé d'identité bancaire au nom du demandeur précisant les codes IBAN/BIC. <strong>Vous vous engagez à régler le tarif dépendance directement auprès de l'établissement d'accueil.</strong>",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation du degré de dépendance : grille AGGIR",
+        "description": "Pièce complémentaire à joindre si vous l'avez en votre possession. Ces pièces seront demandées en parallèle à l'établissement par le Conseil Départemental.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Arrêté de tarification de l’établissement",
+        "description": "Pièce complémentaire à joindre si vous l'avez en votre possession.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "11 – Validation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie sur l’honneur l’exactitude des renseignements saisis",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m’engage à fournir toutes les pièces justificatives demandées.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je suis informé(e) que toute fausse déclaration ou falsification de document, toute obtention usurpée d’un droit, m’expose à des sanctions pénales et financières en application des articles 313-1, 313-7 et 313-8 du Code pénal, ainsi que, le cas échéant, à la récupération par le Département des sommes indûment perçues.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je suis tenu(e) d’informer, dans les meilleurs délais, le Département, de tout changement ultérieur de situation (changement d’établissement, retour à domicile, changement de GIR, changement de tarifs, changement de RIB, décès du bénéficiaire ou du conjoint).",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'accepte le traitement de mes données à caractère personnel par le Conseil départemental des Hauts-de-Seine selon les dispositions de la loi Informatique et Libertés. Conformément au Règlement 2016/679 du 27 avril 2016 et à la loi n°78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés (dite « Loi informatique et libertés ») telle que modifiée par la loi n° 2018-493 du 20 juin 2018 relative à la protection des données personnelles, vous disposez d’un droit d'accès, de rectification, de suppression et de portabilité des données vous concernant ainsi que d’un droit d’opposition et de limitation des traitements. Ces droits s’exercent en écrivant au Conseil départemental des Hauts-de-Seine : dpo@hauts-de-seine.fr Vous disposez également d’un droit de saisir l’Autorité compétente en matière de protection des données personnelles (CNIL). Pour en savoir plus sur la gestion de vos données personnelles et pour exercer vos droits, vous pouvez consulter notre politique de confidentialité : https://www.hauts-de-seine.fr/protection-des-donnees",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

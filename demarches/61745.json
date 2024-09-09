@@ -1,0 +1,150 @@
+{
+  "number": 61745,
+  "title": "CPAM91 Médecins : PJ_télétransmission",
+  "description": "Dépôt de pièces justificatives dans le cadre des échanges avec l'Assurance Maladie.\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2023-02-21T13:37:51+01:00",
+  "service": {
+    "nom": "DAPSE / DPSR / FRAIS DE SANTE",
+    "organisme": "CPAM de l'Essonne",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/cpam91_pj-teletransmission",
+  "dpoUrl": "dpo.cpam-essonne@assurance-maladie.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/cpam91_pj-teletransmission",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": {
+    "filename": "Logo_CPAM91_couleur.png",
+    "checksum": "KW8+nx7wvfQ1Mwdf0uJ8ng==",
+    "byteSize": "83989",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 3180,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Mentions légales :",
+        "description": "La CPAM de l’Essonne met en œuvre des traitements informatisés ou non qui comportent des données personnelles notamment à des fins de gestion du conventionnement et de l’installation des Professionnels de santé et de leur immatriculation et affiliations (article 6.1.e du RGPD). Les informations sont recueillies sous la responsabilité du Directeur Général de la CPAM de l’Essonne sise 2 rue Ambroise Croizat à Evry 91000, et sont conservées pendant la durée nécessaire à leur traitement. Conformément aux dispositions relatives à la protection des données personnelles, vous pouvez exercer votre droit d’accès, de rectification ainsi que votre droit à la limitation de vos données. Le droit d’opposition ne s’applique pas au présent traitement. Ces droits s’exercent sur demande écrite auprès du Délégué à la Protection des Données de la CPAM de l’Essonne : dpo.cpam-essonne@assurance-maladie.fr. Les réclamations au titre de la protection des données personnelles peuvent être introduites auprès de la CNIL (commission nationale informatique et libertés - TSA 80715 - 75334 PARIS CEDEX 07)",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dans une volonté de simplifier et d’accélérer vos démarches, la CPAM de l'Essonne met à votre disposition ce formulaire qui remplace et sécurise les échanges.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations administratives :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro FINESS :",
+        "description": "Le numéro FINESS est limité à 9 chiffres.",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone :",
+        "description": "Le numéro de téléphone doit être celui que vous avez indiqué à l'Assurance Maladie.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Dépôt des pièces justificatives pour un lot particulier (format PDF limité à 200 MO) :",
+        "description": "Vous pouvez fournir un document contenant toutes les pages ou fournir page par page. Vous pouvez avoir une totalité de 5 pages.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "N° Lot :",
+            "description": "Le numéro de lot est limité à 3 chiffres.",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date création du lot :",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative (document complet ou page 1) :",
+            "description": "Le fichier doit être en PDF (limité à 200 MO). Fichier complet ou page 1 du document.",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative (page2) :",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative (page3) :",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative (page4) :",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative (page5) :",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Attestation sur l'honneur de la personne remplissant le formulaire :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom Prénom :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Identité de la personne qui saisit :",
+        "description": null,
+        "required": true,
+        "options": [
+          "Je suis le professionnel de santé",
+          "Je suis mandaté par le professionnel de santé"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie sur l'honneur l'exactitude des renseignements déclarés.",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "number": 59768,
+  "title": "ARSIF - Etat des lieux des transports bariatriques programmés",
+  "description": "ARSIF - Etat des lieux des transports bariatriques programmés pour les années 2019, 2021 et premier trimestre 2022",
+  "tags": [
+    "Transport"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-05-19T08:05:26+02:00",
+  "service": {
+    "nom": "Transport Sanitaire",
+    "organisme": "ARSIF",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/arsif-etat-des-lieux-des-transports-bariatriques-p",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.iledefrance.ars.sante.fr/",
+  "cadreJuridiqueUrl": "www.google.fr",
+  "logo": {
+    "filename": "ars_idf.jpg",
+    "checksum": "KTH2cgaaj78nvPe9B71v1Q==",
+    "byteSize": "42110",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 6,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pour les données numériques obligatoires , si vous ne pouvez pas répondre , renseigner la valeur 9999",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Les parties \"Volumétrie\", \"Destination des transports\" et \"Question complémentaire\" sont à renseigner pour les 3 années . Après avoir renseigné une année , cliquer sur \"ajouter un élément\" pour pouvoir renseigner les données pour  une nouvelle année",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Nom de la structure / service",
+        "description": null,
+        "required": false,
+        "options": [
+          "--CSO centre--",
+          "-\tService nutrition de la Pitié ",
+          "-\tService de chirurgie bariatrique de la Pitié ",
+          "-\tService nutrition d’Ambroise Paré ",
+          "-\tService de chirurgie bariatrique d’Ambroise Paré",
+          "--CINFO--",
+          "-        Service de nutrition d’Avicenne ",
+          "-        Service de Chirurgie bariatrique d'Avicenne",
+          "-        Service de nutrition de Jean Verdier ",
+          "-        Service des explorations fonctionnelles de Louis Mourier  ",
+          "-        Service de Chirurgie bariatrique de Louis Mourier",
+          "-        Service de nutrition de Bichat-Claude-Bernard   ",
+          "-        Service de Chirurgie bariatrique de Bichat-Claude-Bernard",
+          "-        Service de nutrition du SSR René Muret",
+          "--CSO SUD --",
+          "-\tService de nutrition de l’HEGP ",
+          "-\tService de chirurgie bariatrique de l’HEGP",
+          "-\tService de nutrition d’Antoine Béclère ",
+          "-\tService de chirurgie bariatrique d’Antoine Béclère",
+          "-\tServices de nutrition et de chirurgie bariatrique du CHIC",
+          "--CSO OUEST--",
+          "-\tService de nutrition du CHIPS",
+          "-\tService de chirurgie bariatrique du CHIPS ",
+          "-\tService de nutrition du centre hospitalier privé de l’Europe ",
+          "-\tService de chirurgie bariatrique du centre hospitalier privé de l’Europe"
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Volumétrie",
+        "description": "La partie volumétrie est à renseigner pour les 3 années . Après avoir renseigné une année , cliquer sur \"ajouter un élément Volumétrie\" pour pouvoir renseigner les données pour  une nouvelle année ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Année",
+            "description": null,
+            "required": true,
+            "options": [
+              "1 er trimestre 2022",
+              "2021",
+              "2019"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de patients en situation d'obésité ayant nécessité l'organisation d'un transport bariatrique pendant la période concernée",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Parmi ces patients nombre de transport bariatrique pendant la période concernée pour les patients de typologie de moins de 180 Kg",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Parmi ces patients nombre de transport bariatrique pendant la période concernée pour les patients de typologie de +180 Kg à 250 Kg",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Parmi ces patients nombre de transport bariatrique pendant la période concernée pour les patients de typologie de +250 Kg",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre total de transports pendant la période concernée ayant nécessité un équipage supplémentaire",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Destination des transports",
+        "description": "La partie \"Destination des transports\"  est à renseigner pour les 3 années . Après avoir renseigné une année , cliquer sur \"ajouter un élément Destination des transports\" pour pouvoir renseigner les données pour  une nouvelle année ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Année",
+            "description": null,
+            "required": true,
+            "options": [
+              "1 er trimestre 2022",
+              "2021",
+              "2019"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Parmi le nombre  total de transport bariatrique pendant la période concernée , nombre de trajets vers le domicile patient  résidant à Paris pendant la tranche horaire Lundi à Vendredi de 8h à 20h /  Samedi de 8h à 12h",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Parmi le nombre  total de transport bariatrique pendant la période concernée , nombre de trajets vers le domicile patient résidant à  Paris pendant la tranche horaire Dimanche/jour Férie de 8h à 20h / Samedi de 12h à 20h",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Parmi le nombre  total de transport bariatrique pendant la période concernée , nombre de trajets vers le domicile patient  résidant à Paris pendant la tranche horaire Nuit de 20h à 8h",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Parmi le nombre  total de transport bariatrique pendant la période concernée , nombre de trajets vers le domicile patient  résidant dans la Petit Couronne (92,93,94) pendant la tranche horaire Lundi à Vendredi de 8h à 20h /  Samedi de 8h à 12h",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Parmi le nombre  total de transport bariatrique pendant la période concernée, nombre de trajets vers le domicile patient   résidant dans la Petit Couronne (92,93,94) pendant la tranche horaire Dimanche/jour Férie de 8h à 20h / Samedi de 12h à 20h",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Parmi le nombre  total de transport bariatrique pendant la période concernée, nombre de trajets vers le domicile patient   résidant dans la Petit Couronne (92,93,94) pendant la tranche horaire Nuit de 20h à 8h",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Parmi le nombre  total de transport bariatrique pendant la période concernée , nombre de trajets vers le domicile patient  Grande Couronne (77,78,91,95)pendant la tranche horaire Lundi à Vendredi de 8h à 20h /  Samedi de 8h à 12h",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Parmi le nombre  total de transport bariatrique pendant la période concernée  , nombre de trajets vers le domicile patient  résidant dans la Grande Couronne (77,78,91,95) pendant la tranche horaire Dimanche/jour Férie de 8h à 20h / Samedi de 12h à 20h",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Parmi le nombre  total de transport bariatrique pendant la période concernée , nombre de trajets vers le domicile patient   résidant dans la Grande Couronne (77,78,91,95) pendant la tranche horaire Nuit de 20h à 8h",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Parmi le nombre  total de transport bariatrique pendant la période concernée  , nombre de trajets vers le domicile patient  résidant Hors Ile de France pendant la tranche horaire Lundi à Vendredi de 8h à 20h /  Samedi de 8h à 12h",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Parmi le nombre  total de transport bariatrique pendant la période concernée  ,  nombre de trajets vers le domicile patient résidant Hors Ile de France pendant la tranche horaire Dimanche/jour Férie de 8h à 20h / Samedi de 12h à 20h",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Parmi le nombre  total de transport bariatrique pendant la période concernée , nombre de trajets vers le domicile patient résidant Hors Ile de France pendant la tranche horaire Nuit de 20h à 8h",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Question complémentaire",
+        "description": "La partie \"Question complémentaire\" est à renseigner pour les 3 années . Après avoir renseigné une année , cliquer sur \"ajouter un élément Question complémentaire\" pour pouvoir renseigner les données pour  une nouvelle année ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Période",
+            "description": null,
+            "required": true,
+            "options": [
+              "1 er trimestre 2022",
+              "2021",
+              "2019"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez vous mis en place des \"solutions\" pour éviter les Aller/Retour nécessitant un transport bariatrique",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Si oui , pouvez-vous quantifier le nombre de tranports bariatriques ainsi évités pour le patient",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Si oui, quelles sont-elles ?",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaire",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

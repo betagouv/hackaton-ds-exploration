@@ -1,0 +1,188 @@
+{
+  "number": 8649,
+  "title": "SIGNALEMENT DE CHANGEMENT DE SITUATION - REGISTRE ADELI",
+  "description": "Cette démarche administrative dématérialisée permet le signalement d'un changement de situation (personnelle, mobilité professionnelle, cessation d'activité) afin de mettre à jour votre enregistrement au fichier ADELI.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2018-10-02T11:39:18+02:00",
+  "service": {
+    "nom": "Pôle ambulatoire, innovation et démocratie sanitaire",
+    "organisme": "Délégation départementale de Paris - ARS Ile-de-France",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/signalement-de-changement-de-situation-registre-ad",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.iledefrance.paps.sante.fr/Focus-Adeli.37907.0.html",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000026393379&dateTexte=20180803",
+  "logo": {
+    "filename": "procedure-5862a977-1285-475d-b54c-f1da18e99f28.png",
+    "checksum": "CFpvKNvYDYhG2q859Q2T7g==",
+    "byteSize": "6673",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM d'exercice",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom patronymique",
+        "description": "Inscrire Idem si le même nom",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de Naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Profession",
+        "description": "",
+        "required": true,
+        "options": [
+          "Assistant dentaire",
+          "Assistant de service social",
+          "Audioprothésiste",
+          "Chiropracteur (usage de titre)",
+          "Diététicien",
+          "Epithésiste",
+          "Ergothérapeute",
+          "Infimier",
+          "Infirmier psychiatrique",
+          "Manipulateur ERM",
+          "Oculariste",
+          "Opticien-Lunetier",
+          "Orthopédiste-orthésiste",
+          "Orthophoniste",
+          "Orthoprothésiste",
+          "Orthoptiste",
+          "Ostéopathe (usage de titre)",
+          "Podo-orthésiste",
+          "Psychologue",
+          "Psychomotricien",
+          "Psychothérapeute (usage de titre)",
+          "Technicien de laboratoire médical"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "N° ADELI",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Changement de situation",
+        "description": "Indiquer sur quel motif porte le changement de situation, puis continuer à remplir les champs correspondants à la lettre du motif",
+        "required": true,
+        "options": [
+          "A. Coordonnées personnelles (nom d'exercice, domicile...)",
+          "B. Cessation d'activité (entraîne une radiation du fichier)",
+          "C. Changement de département (entraîne une radiation du fichier pour Paris et nécessite une nouvelle inscription dans le département d'exercice)",
+          "D. Changement de lieu d'exercice dans Paris",
+          "E. Nouvelle activité secondaire ou changement d'activité secondaire (si l'activité principale est à Paris)",
+          "F. Autres"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nouveau nom/prénom d'exercice",
+        "description": "Champ A.\r\nVous devez joindre la copie du livret de famille ou la copie de la décision du tribunal pour un changement de nom/prénom civil",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nouveau domicile",
+        "description": "Champ A.\r\nAttention, si votre activité principale consiste à réaliser des remplacements, et si vous quittez Paris, cela entraîne la radiation du fichier pour Paris et vous devrez vous enregistrer dans le nouveau département",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de cessation d'activité",
+        "description": "Champ B.\r\nCela entraîne la radiation du fichier",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de changement professionnel de département",
+        "description": "Champ C.\r\nCela entraine la radiation du fichier pour Paris et nécessite que vous alliez vous enregistrer dans le nouveau département",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de changement d'exercice professionel dans Paris",
+        "description": "Champ D.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nouvelle situation professionnelle, dans Paris",
+        "description": "Champ D.\r\nVous devez détailler :\r\nle mode d'exercice (libéral, salarié), la raison sociale du lieu d'exercice, l'adresse professionnelle, le numéro FINESS, autres informations si besoin\r\nIl conviendra de justifier cette nouvelle activité par un contrat de travail (salarié), une lettre de mission (intérim) ou le bail du cabinet avec un avis SIRET (libéral)",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de changement d'activité secondaire",
+        "description": "Champ E.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Changement ou nouvelle activité secondaire",
+        "description": "Champ E. \r\nVous devez détailler :\r\nle mode d'exercice (libéral, salarié), la raison sociale du lieu d'exercice, l'adresse professionnelle, le numéro FINESS, autres informations si besoin\r\nIl conviendra de justifier cette nouvelle activité par un contrat de travail (salarié), une lettre de mission (intérim) ou le bail du cabinet avec un avis SIRET (libéral)\r\nSi vous arrêtez votre activité secondaire, le préciser",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autres informations",
+        "description": "Champ F.\r\nCommentaires libres sur un autre changement de situation dont vous souhaitez nous faire part (ex : une 3e activité)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Changement de nom d'exercice",
+        "description": "Champ A.\nLivret de famille ou décision du tribunal entérinant le changement d'état civil",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Changement d'exercice professionnel (principal ou secondaire)",
+        "description": "Champ D. et E.\nFournir les documents nécessaires à identifier votre nouvel exercice (contrat, bail du cabinet, lettre de mission si intérim, justificatif de domicile si remplacement)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autres pièces justificatives",
+        "description": "En cas de besoin, vous pouvez joindre une autre pièce",
+        "required": false
+      }
+    ]
+  }
+}

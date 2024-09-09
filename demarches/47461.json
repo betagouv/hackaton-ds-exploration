@@ -1,0 +1,789 @@
+{
+  "number": 47461,
+  "title": "Candidature au programme du Ségur Usage Numérique en Etablissements de Santé (SUN-ES) - Volet 1 - Fenêtre 1",
+  "description": "Formulaire à remplir par tout établissement sanitaire se portant candidat au programme SUN-ES. \r\n\r\nATTENTION : Ce formulaire concerne uniquement les établissements s'engageant à atteindre les cibles d'usages du volet 1 au premier semestre 2022.\r\n\r\nL'établissement sanitaire peut se porter candidat à un ou plusieurs des domaines du volet 1 : \r\n- Domaine 1 : Documents de sortie\r\n- Domaine 2 : Biologie médicale\r\n- Domaine 3 : Imagerie",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-01-06T15:08:09+01:00",
+  "service": {
+    "nom": "Ministère de la Santé et des Solidarités",
+    "organisme": "Direction Générale de l'Offre de Soins",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/candidature-au-programme-du-segur-usage-numerique",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/segur-de-la-sante/sun-es",
+  "cadreJuridiqueUrl": "https://solidarites-sante.gouv.fr/fichiers/bo/2016/16-12/ste_20160012_0000_0074.pdf",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 985,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Indiquez votre région",
+        "description": null,
+        "required": true,
+        "options": [
+          "Auvergne Rhône Alpes",
+          "Bourgogne Franche- Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Guadeloupe",
+          "Guyane",
+          "Hauts de France",
+          "Ile de France",
+          "La Réunion",
+          "Martinique",
+          "Mayotte",
+          "Normandie",
+          "Nouvelle Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence Alpes Côte d'Azur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Préambule",
+        "description": "Ce formulaire est ouvert à tous les établissements qui souhaitent candidater au volet 1 - fenêtre 1 du programme SUN-ES. \n\nChaque candidature sera traitée par l'ARS et fera l'objet d'une réponse dans démarches-simplifiées. \n\nLes établissements candidats doivent :\n- renseigner intégralement le formulaire sur \"démarches-simplifiées.fr\" \n- indiquer l'atteinte des prérequis Ségur en complétant les indicateurs concernés dans l'outil OSIS https://osis.atih.sante.fr/ et en téléchargeant les pièces justificatives correspondantes.\n\nAprès validation de la candidature par l'ARS, l'établissement devra renseigner les indicateurs d'usages  dans OSIS, dès lors qu'il seront atteints, et au plus tard avant la fin de la fenêtre de financement. ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Etablissement sanitaire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse complète",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "SIRET",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "FINESS PMSI",
+        "description": "La candidature de l'établissement se fait au niveau du FINESS PMSI. Le FINESS PMSI est utilisé par l'établissement de santé pour la transmission de ses données. Il correspond soit au FINESS juridique pour les établissements publics soit au FINESS géographique pour les établissements privés (lucratifs ou non lucratifs). Afin de disposer de tous les éléments nécessaires à la qualification de l'établissement, il est demandé à l'usager de compléter le FINESS PMSI, le FINESS juridique, le FINESS géographique de l'établissement",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "FINESS Établissement géographique",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "FINESS juridique",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut juridique",
+        "description": null,
+        "required": true,
+        "options": [
+          "Établissement public",
+          "Établissement privé à but lucratif",
+          "Établissement à but non lucratif",
+          "Centre de lutte contre le cancer"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Appartenance à un groupe (GHT, groupe privé, association, fondation, etc.)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, nom du groupe d'appartenance (GHT, groupe privé)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Adhésion à une fédération",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si oui, précisez la ou les fédération(s) d'adhésion",
+        "description": null,
+        "required": false,
+        "options": [
+          "FHF",
+          "FHP",
+          "FEHAP",
+          "FNEHAD",
+          "UNICANCER"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom, prénom du Chef d'établissement",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel du Chef d'établissement",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Equipe SI",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom, prénom du DSI",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel du DSI",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom, prénom du référent projet SUN-ES",
+        "description": "Renseigner les informations sur le référent projet même si le DSI remplit aussi la fonction de référent projet SUN-ES",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du référent projet SUN-ES",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel du référent projet SUN-ES",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Eligibilité de la candidature",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Critères d'éligibilité",
+        "description": "Votre candidature ne pourra être validée que si votre établissement satisfait à l'ensemble des critères d'éligibilité suivants :",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "----------------------- Atteinte des prérequis SUN-ES -----------------------",
+        "description": "L'atteinte des prérequis doit être renseignée dans l'onglet HOP'EN (dans l'attente de la création de l'onglet SUN-ES) de l'observatoire OSIS (https://osis.atih.sante.fr/). Les pièces justificatives doivent également y être déposées, à l'exception du questionnaire d'appropriation du RNIV (prérequis PS1.2) qui doit être intégralement rempli à la fin de ce formulaire de candidature.\n\nMerci de consulter au préalable le guide des prérequis pour vous assurer que vous avez bien atteint les exigences de prérequis SUN-ES : https://solidarites-sante.gouv.fr/IMG/pdf/sun_es_-_guide_des_prerequis_v1.pdf ",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Atteinte du prérequis PS 1.1",
+        "description": "Cellule d'identitovigilance opérationnelle \n(identique au prérequis P1.1 d'HOP'EN)\n\nJustificatif à déposer dans l'onglet prérequis HOP'EN de l'observatoire OSIS (dans l'attente de la création de l'onglet SUN-ES) - https://osis.atih.sante.fr",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Atteinte du prérequis PS 1.2",
+        "description": "Appropriation du référentiel national d'identitovigilance RNIV1 et RNIV2 \n(https://solidarites-sante.gouv.fr/soins-et-maladies/qualite-des-soins-et-pratiques/securite/securite-des-soins-securite-des-patients/article/identitovigilance)\n\nQUESTIONNAIRE D'APPROPRIATION DU RNIV A COMPLETER A LA FIN DE CE FORMULAIRE DE CANDIDATURE\n\n\n\n",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Atteinte du prérequis PS 2.1",
+        "description": "Présence d'une politique de sécurité et plan d'actions SSI réalisé, existence d'un responsable sécurité de systèmes d'information (RSSI)\n\n(identique au prérequis P2.4 d'HOP'EN)\n\n\nJustificatif à déposer dans l'onglet prérequis HOP'EN de l'observatoire OSIS (dans l'attente de la création de l'onglet SUN-ES) - https://osis.atih.sante.fr",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Atteinte du prérequis PS 2.2",
+        "description": "Cybersécurité - réalisation d'un audit externe de cybersurveillance\n\nJustificatif à déposer dans l'onglet prérequis HOP'EN de l'observatoire OSIS (dans l'attente de la création de l'onglet SUN-ES) - https://osis.atih.sante.fr",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Atteinte du prérequis PS 3.1",
+        "description": "Capacité du SIH à alimenter le DMP\n(identique au prérequis P4.1 d'HOP'EN)\n\n\nJustificatif à déposer dans l'onglet prérequis HOP'EN de l'observatoire OSIS (dans l'attente de la création de l'onglet SUN-ES) - https://osis.atih.sante.fr",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Atteinte du prérequis PS 3.2",
+        "description": "Existence d'une messagerie opérationnelle intégrée à l'espace de confiance MS Santé\n(identique au prérequis P4.3 d'HOP'EN)\n\n\nJustificatif à déposer dans l'onglet prérequis HOP'EN de l'observatoire OSIS (dans l'attente de la création de l'onglet SUN-ES) - https://osis.atih.sante.fr",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "----------------------- Engagement de l'établissement dans le programme -----------------------",
+        "description": "Votre établissement s'engage à atteindre les cibles d'usage sur la fenêtre de financement concernée et s'engage à en effectuer la saisie dans l'observatoire OSIS, au plus tard avant la fin de la fenêtre de financement.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "----------------------- Référencement des éditeurs dans le référentiel RELIMS -----------------------",
+        "description": "Votre établissement utilise des logiciels référencés dans le référentiel RELIMS (http://relims.atih.sante.fr/logiciel)  pour  les périmètre fonctionnels suivants :\n- Dossier patient informatisé (DPI)\n- Plateforme d'intermédiation (PFI)\n- Imagerie (RIS)\n- Biologie médicale (SGL)",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "----------------------- Critères spécifiques au GHT -----------------------",
+        "description": "Les établissements qui ne font pas partie d'un GHT sont invités à cocher la case \"Non applicable\"\nLes établissements parties d’un GHT et qui sont candidats doivent également justifier de :\n- La validation d’un schéma directeur actualisé qui doit être déposé par l’établissement support sur l’observatoire des systèmes d’information de santé (oSIS) dans l’espace dédié ;\n- La saisie des indicateurs de convergence dans oSIS ;\n- La mise en place d’une gouvernance commune de groupement par la nomination d’un directeur des systèmes d’information (DSI) de GHT validé par le directeur de l’établissement support.\n- la validation de la candidature par le Directeur de l'établissement support\nVotre établissement confirme le respect de ces exigences",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non",
+          "Non applicable"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Avance",
+        "description": "Après la validation de votre candidature par l'ARS, celle-ci vous adressera, dans les meilleurs délais, une notification de crédits correspondant à une avance d'un montant égal à 30% du montant forfaitaire total fixé par convention avec l'ARS. \n\nAprès vérification de l'atteinte des cibles d'usage par l'ARS,  celle-ci vous adressera, dans les meilleurs délais, une notification de crédits correspondant à un montant égal à 70% du montant forfaitaire total fixé par convention avec l'ARS. ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Domaines de candidature pour les cibles d'usage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Simulateur de forfait",
+        "description": "Vous pouvez télécharger ce simulateur EXCEL afin de déterminer le montant de votre forfait en fonction de votre activité combinée 2019 et de vos choix de domaines et de fenêtres de candidature.\n\nLa valeur de votre activité combinée est indiquée dans OSIS (onglet Ségur). A défaut, afin de la connaitre, veuillez adresser une demande par courriel depuis la messagerie de démarches simplifiées. L'instructeur de votre dossier en sera alerté et vous communiquera l'information dans les meilleurs délais.\n",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Sur quel(s) domaine(s) votre établissement candidate-t-il ?",
+        "description": "Veuillez préciser le ou les domaines sur lesquels votre établissement candidate pour cette fenêtre de financement : ",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "--------------- Domaine 1 ---------------",
+        "description": "Documents de sortie (lettre de liaison, ordonnance de sortie, compte rendu opératoire) \nVeuillez consulter le guide des indicateurs d'usage à l'adresse suivante : https://solidarites-sante.gouv.fr/IMG/pdf/sun_es_-_guide_des_indicateurs_d_usage__v1.pdf",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date prévue d'atteinte des cibles d'usage pour le domaine 1",
+        "description": "Date à laquelle vous avez prévu que les cibles d'usage seront atteintes, en y incluant la période d'observation",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Bonus CRO",
+        "description": "Veuillez indiquer \"oui\" si vous avez prévu de transmettre les comptes rendus opératoires",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "--------------- Domaine 2 ---------------",
+        "description": "Compte rendu d'examen de biologie médicale\n\nVeuillez consulter le guide des indicateurs d'usage à l'adresse suivante : https://solidarites-sante.gouv.fr/IMG/pdf/sun_es_-_guide_des_indicateurs_d_usage__v1.pdf",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date prévue d'atteinte des cibles d'usage pour le domaine 2",
+        "description": "Date à laquelle vous avez prévu que les cibles d'usage seront atteintes, en y incluant la période d'observation",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "--------------- Domaine 3 ---------------",
+        "description": "Compte rendu d'examen d'imagerie\n\nVeuillez consulter le guide des indicateurs d'usage à l'adresse suivante : https://solidarites-sante.gouv.fr/IMG/pdf/sun_es_-_guide_des_indicateurs_d_usage__v1.pdf",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date prévue d'atteinte des cibles d'usage pour le domaine 3",
+        "description": "Date à laquelle vous avez prévu que les cibles d'usage seront atteintes, en y incluant la période d'observation",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant forfaitaire estimé à l'aide du simulateur de soutien financier (en euros)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "--------------------------------------- ANNEXE 1 ---------------------------------------------",
+        "description": "Questionnaire relatif à l'appropriation du RNIV (prérequis PS 1.2).\nVeuillez répondre à l'intégralité des questions ci dessous pour satisfaire à ce prérequis\n\n",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Questionnaire relatif à l'appropriation du référentiel RNIV",
+        "description": "L’appropriation du RNIV constitue l’un des 6 prérequis à atteindre dans le cadre du programme SUN-ES. \n\nPour atteindre l’exigence du prérequis « Appropriation du RNIV », il est demandé aux établissements candidats de compléter de manière exhaustive le présent questionnaire. La complétude exhaustive implique d’avoir pris connaissance du RNIV 1 et 2, sans quoi certaines questions resteront sans réponse invalidant ainsi le questionnaire.\n\nLes questions ou remarques sur le questionnaire peuvent être adressées au référent Ségur numérique de votre région, ou à l’adresse mail : dgos-sun@sante.gouv.fr",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "-----------------------Communication et diffusion du RNIV----------------------",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1.  Au sein de votre structure, quels sont les profils de personnes qui ont pris connaissance du RNIV 1 et 2 ainsi que du Référentiel d’Identifiant National de Santé ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "2. Quelles sont les actions de communication que vous avez mises en œuvre pour faire connaitre le RNIV 1 et le RNIV 2 ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "3. Quelles sont les actions que vous avez mises en œuvre pour former le personnel au contenu du RNIV 1 et RNIV 2 ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "-----------------------L’identification primaire d’un usager-----------------------",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "4. Dans le cadre de la création d’une nouvelle identité numérique, doit-on systématiquement procéder à une recherche d’antériorité d’identité au niveau du référentiel identité de la structure ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "5. Pouvez-vous expliciter comment vous réalisez une recherche d’antériorité d'identité au niveau du référentiel identité de votre structure ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "6. Au sein de l’établissement, comment peuvent être créées les nouvelles identités numériques ?",
+        "description": "Plusieurs réponses possibles",
+        "required": true,
+        "options": [
+          "--Premier élément du menu--",
+          "A partir des traits INS récupérés automatiquement après interrogation du téléservice INSi",
+          "A partir du scan du passeport ou de la carte d'identité nationale",
+          "Par la saisie manuelle de traits d’identité fournis directement par l’usager ou un accompagnant",
+          "A partir des donnes d'identité récupérées directement dans le dossier médical du patient",
+          "A partir de l’identité numérique transmise par une autre structure ayant pris en charge l’usager ou par le patient lui-même"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "7. Quels sont les traits stricts définissant l’identité numérique d’un usager ?",
+        "description": "Plusieurs réponses possibles",
+        "required": true,
+        "options": [
+          "--Premier élément du menu--",
+          "Nom de naissance",
+          "Nom d’usage",
+          "Premier prénom de naissance",
+          "Numéro de carte d’identité nationale",
+          "Eventuels autres prénoms de naissance",
+          "Date de naissance",
+          "Numéro de téléphone",
+          "Sexe",
+          "Code postal du domicile",
+          "Numéro de carte bleue",
+          "Code INSEE du lieu de naissance",
+          "Numéro de passeport"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "8. Parmi les traits stricts, quels sont ceux qui doivent être saisis a minima dans le SI pour créer une identité numérique ?",
+        "description": "Plusieurs réponses possibles",
+        "required": true,
+        "options": [
+          "--Premier élément du menu--",
+          "Nom de naissance",
+          "Nom d’usage",
+          "Premier prénom de naissance",
+          "Numéro de carte d’identité nationale",
+          "Eventuels autres prénoms de naissance",
+          "Date de naissance",
+          "Numéro de téléphone",
+          "Sexe",
+          "Code postal du domicile",
+          "Code INSEE du lieu de naissance",
+          "Numéro de passeport"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "9. Des traits d’identification complémentaires peuvent-ils être utilisés ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, veuillez préciser lesquels :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "10. Le téléservice INSi est-il opérationnel pour votre structure ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, veuillez préciser quelles en sont les raisons ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "11. De quelle manière le téléservice INSi peut-il être interrogé ?",
+        "description": "Plusieurs réponses possibles",
+        "required": true,
+        "options": [
+          "--Premier élément du menu--",
+          "Par saisie des traits d’identité enregistrés localement ou transmis par un tiers",
+          "Par l’intermédiaire de la carte vitale",
+          "Par l'intermédiaire de la saisie du numéro de la carte nationale d'identité ou du passeport",
+          "Par l'intermédiaire du DMP"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "12. Dans le cas où l’interrogation du téléservice INSi se fait par le mode saisie, quels sont les traits d’identité à saisir ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "13. Quels sont les cas d’usage pour lesquels il n’y a pas lieu d’interroger le téléservice INSi ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "14. Lequel de ces 4 statuts de confiance de l’identité numérique permet de référencer et transmettre les données de santé avec le matricule INS ?",
+        "description": "Une seule réponse possible",
+        "required": true,
+        "options": [
+          "--Premier élément du menu--",
+          "Identité provisoire",
+          "Identité validée",
+          "Identité récupérée",
+          "Identité qualifiée"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "15. Comment doit s’effectuer le contrôle de l’identité du patient et à l’aide de quels éléments ?",
+        "description": "Plusieurs réponses possibles",
+        "required": true,
+        "options": [
+          "--Premier élément du menu--",
+          "En demandant au patient son nom d’usage",
+          "En demandant au patient son nom de naissance",
+          "En demandant au patient son prénom",
+          "En demandant au patient sa date de naissance",
+          "En interrogeant sa famille",
+          "En demandant d’épeler son nom d’usage",
+          "En demandant d’épeler son nom de naissance",
+          "En vérifiant sur le bracelet",
+          "En accédant à son dossier médical si existant",
+          "En demandant ses papiers d’identité",
+          "En comparant avec sa photo"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "16. Est-il autorisé de procéder à la validation d’une identité numérique sans pouvoir contrôler sa cohérence à la lumière d’un titre d’identité, ou de son équivalent numérique ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, veuillez préciser les contextes :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "17. Lesquelles de ces informations doivent figurer sur tous les documents produits par votre établissement contenant des données de santé ?",
+        "description": "Plusieurs réponses possibles",
+        "required": true,
+        "options": [
+          "--Premier élément du menu--",
+          "Nom de naissance",
+          "Premier prénom de naissance",
+          "Nom d’usage",
+          "Prénom(s) d’usage",
+          "Date de naissance",
+          "Code INSEE du lieu de naissance",
+          "Sexe",
+          "Matricule INS"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "18. Dès lors qu’une identité est qualifiée ou récupérée, les traits INS doivent-il remplacer les traits stricts locaux ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "19. Dès lors qu’une identité est qualifiée, l’IPP patient peut - il être utilisé dans le cadre d’échange de données vers l’extérieur ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "20. Pouvez-vous décrire brièvement à quel(s) niveau(x) organisationnel(s) de votre structure sont réalisées les actions suivantes ?",
+        "description": "a) La création d’une nouvelle identité numérique\nb) La qualification des identités numériques",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "-----------------------Gestion des risques liés à l’identification des usagers-----------------------",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "21.\tComment gérez-vous en interne une erreur d’attribution d’identité numérique constatée ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "22.\tQuelle est votre organisation pour gérer la fusion des identités numériques de vos patients ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "23.\tAvez-vous formalisé des procédures qui précisent la conduite à tenir a minima pour les cas suivants ?",
+        "description": "Veuillez cocher les cases pour lesquelles des procédures existent",
+        "required": true,
+        "options": [
+          "--Premier élément du menu--",
+          "Retranscription d’une identité INS reçue sur format papier",
+          "Quand il est constaté une divergence avérée entre l’identité numérique locale et les traits INS à l’occasion d’un appel INSi (que ce soit lors d’une recherche initiale ou d’une opération de vérification)",
+          "Lorsque la qualification de l’identité numérique n’est pas possible à court terme faute de présentation de documents d’identité à haut niveau de preuve",
+          "En cas d’erreur d’attribution d’un matricule INS à un usager",
+          "Aucune procédure n’existe"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "24.\tLes évènements indésirables rencontrés font-ils l’objet de retours d'expérience ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, veuillez préciser pourquoi ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "-----------------------Politique et gouvernance en matière d’identitovigilance-----------------------",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "25.\tDisposez - vous de référent(s) identitoviglance ?",
+        "description": "Plusieurs réponses possibles",
+        "required": true,
+        "options": [
+          "--Premier élément du menu--",
+          "Oui, au niveau de notre structure",
+          "Oui, au niveau du groupement",
+          "Non"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, quelles sont les missions associées à votre référent(s) identitoviglance ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, veuillez préciser pourquoi ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "26.\tAvez-vous mis en place une politique d’identitovigilance ?",
+        "description": "Plusieurs réponses possibles",
+        "required": true,
+        "options": [
+          "--Premier élément du menu--",
+          "Oui, elle est propre à notre structure",
+          "Oui, elle est commune à plusieurs structures associées (notamment groupement)",
+          "Non"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, veuillez préciser pourquoi ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "27.\tAvez-vous communiqué sur l’existence de cette politique et sensibilisé les professionnels quant à son contenu ?",
+        "description": "Plusieurs réponses possibles",
+        "required": true,
+        "options": [
+          "--Premier élément du menu--",
+          "Oui, au niveau de la structure",
+          "Oui, au niveau du groupement",
+          "Non"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, veuillez préciser pourquoi ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "28.\tLa politique d’identitovigilance est-elle formalisée sous forme de charte ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, veuillez préciser pourquoi ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "29.\tParmi les éléments suivants, quelles informations une charte d’identitovigilance doit obligatoirement comprendre ?",
+        "description": "Plusieurs réponses possibles",
+        "required": true,
+        "options": [
+          "--Premier élément du menu--",
+          "La politique et la gouvernance mises en œuvre dans la structure",
+          "La description des systèmes d’informations participant à l’identification primaire de l’usager et des interfaces",
+          "Les modalités d’attribution des habilitations pour la gestion des identités numériques",
+          "La description des solutions d’identification primaire et secondaire de l’usager en vigueur dans la structure",
+          "La méthode d’implémentation de l’INS dans les solutions logicielles",
+          "La gestion documentaire associée à l’identification des usagers et à la gestion des risques",
+          "Les références réglementaires et techniques applicable",
+          "Le taux moyen de doublons d’identité par mois",
+          "Les droits de l’usager"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "30.\tAvez-vous intégré les recommandations du RNIV2 dans la structuration de votre gouvernance autour de l’identitovigilance ?",
+        "description": "Plusieurs réponses possibles",
+        "required": true,
+        "options": [
+          "--Premier élément du menu--",
+          "Oui, au niveau de la structure",
+          "Oui, au niveau du groupement",
+          "Non"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si non, veuillez préciser pourquoi ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "31.\tDans le cadre d’un GHT, pouvez-vous expliciter comment s’articulent les CIV d’établissements avec la CIV du GHT ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "32.\tQuelles sont les missions assurées par votre cellule d’identitovigilance ?",
+        "description": "Plusieurs réponses possibles",
+        "required": true,
+        "options": [
+          "--Premier élément du menu--",
+          "Participer à la formation des professionnels dans le cadre du plan de de formation, y compris lors de l’accueil des nouveaux arrivants, toutes catégories professionnelles confondues",
+          "Initier et mener des actions de sensibilisation des usagers et des partenaires externes",
+          "Analyser les risques a priori y compris relatifs à la sécurité informatique",
+          "Formaliser les documents qualité relatifs à l’identitovigilance",
+          "Définir, suivre et analyser les indicateurs relatifs à l’identitovigilance",
+          "Réaliser des audits de connaissance et de pratiques",
+          "Guider les professionnels sur la conduite à tenir vis-à-vis des cas particuliers",
+          "Contrôler la qualité des identités dans les domaines d’identification utilisés par la structure",
+          "Contribuer au rapprochement d’identité entre structures",
+          "Réaliser la veille réglementaire et technique",
+          "Participer aux instances des réseaux régionaux des référents identitovigilance",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si autre, veuillez préciser :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "33.\tQuelles actions préventives menez-vous auprès de vos agents pour faire connaître les procédures d’identitovigilance ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "34.\tQuelles actions avez-vous mises en œuvre pour informer et sensibiliser les usagers à l’identitovigilance ?",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "number": 30785,
+  "title": "Pour une forêt propre et tranquille",
+  "description": "Permet d'informer l'ONF de  la localisation des incivilités observées en forêt (déchets, dégradations,, etc.)\r\nATTENTION : ce signalement ne sera pas traité instantanément, en cas d'urgence grave (ex : feu de forêt) il faut prévenir le service d'urgence adéquat.",
+  "tags": [
+    "Biodiversité"
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2020-08-07T13:58:47+02:00",
+  "service": {
+    "nom": "Agence de Sarrebourg",
+    "organisme": "ONF",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/foret-propre-et-tranquille",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "ag.sarrebourg@onf.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCode.do?cidTexte=LEGITEXT000006071514&dateTexte=20080505",
+  "logo": {
+    "filename": "procedure-3d80b235-691b-49ff-acc7-6c0ece814c29.jpg",
+    "checksum": "l5loSLhplYS+afR23Cz4+w==",
+    "byteSize": "98944",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 4,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date",
+        "description": "Date et heure de votre observation",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Heure",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de portable",
+        "description": "Pour vous joindre pour de plus amples renseignements.",
+        "required": true
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Localisation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Nature de l'observation",
+        "description": "Vous pouvez en saisir plusieurs si elles sont simultanées.",
+        "required": true,
+        "options": [
+          "- Dépôt de déchets",
+          "- Moto ou Quad dans le milieu naturel",
+          "- Feux (barbecue, feu de camp, etc.)",
+          "- Cueillette ou ramassage excessif de produits forestiers ",
+          "- Circulation ou stationnement hors route ouverte à la circulation (Voiture)",
+          "- Autres"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Observations",
+        "description": "Décrivez-nous le plus précisément possible ce que vous voyez",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Photographie",
+        "description": "Vous pouvez nous envoyer une photo de ce que vous avez vu.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Photo",
+            "description": "",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

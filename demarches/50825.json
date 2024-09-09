@@ -1,0 +1,97 @@
+{
+  "number": 50825,
+  "title": "OBLIGATION VACCINALE",
+  "description": " dépôt des informations pour les personnels soumis à l'obligation vaccinale",
+  "tags": [
+    "Covid"
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2021-11-16T21:31:53+01:00",
+  "service": {
+    "nom": "DRRH",
+    "organisme": "RECTORAT DE GUADELOUPE",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/obligation-vaccinale",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ac-guadeloupe.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043909676",
+  "logo": {
+    "filename": "07_logo_REGIONS-ACA_GUADELOUPE.png",
+    "checksum": "WGh5ovXN/HPfKoVBbWR3Jg==",
+    "byteSize": "5350",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 144,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Suivi vaccinal",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Renseignements",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu d'affectation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Etat du schéma vaccinal",
+        "description": "état engagé désigne le fait d'être vacciné\nétat non engagé désigne le fait d'avoir fait un test",
+        "required": true,
+        "options": [
+          "--Engagé--",
+          "première injection",
+          "deuxième injection",
+          "--Non engagé--",
+          "Test PCR",
+          "Test Antigénique"
+        ]
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de l'injection",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "pièce justificative",
+        "description": "justificatif de l'injection si vacciné\nrésultat du test effectué si non vacciné",
+        "required": true
+      }
+    ]
+  }
+}

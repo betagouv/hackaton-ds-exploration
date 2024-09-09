@@ -1,0 +1,384 @@
+{
+  "number": 45148,
+  "title": "Aides d'urgence - Episode de gel 2021 - Ille-et-Vilaine",
+  "description": "Plusieurs dispositifs d'aide sont ouverts pour accompagner les exploitations agricoles touchées par le gel en Ille-et-Vilaine. Ces aides s’adressent aux exploitations spécialisées en production fruitière : pommes et poires à couteau, cerises, kiwis, prunes, coings, groseilles…\r\n1) Aide d'urgence : il s'agit d'une aide à la trésorerie forfaitaire d'un montant maximum de 5 000 €, avec application de la transparence GAEC. L’aide sera attribuée aux demandeurs dans la limite de l’enveloppe disponible après classement des demandes en fonction des priorités.\r\n2) Exonération des cotisations sociales : cette aide est réservée aux exploitations avec un taux de spécialisation de plus de 50 % du CA et un taux de perte prévisionnel compris entre 20 et 100%. Le montant de l'aide est compris entre 3800 et 15 000 euros en fonction du taux de perte.\r\n3) Dégrèvement de la taxe sur le foncier non bâti (TFNB) : dégrèvement proportionnel aux pertes subies. Cette aide s'applique à la parcelle cadastrale.\r\n4) Prêt garanti par l'Etat (PGE) : la démarche s'effectue auprès de l'établissement bancaire habituel de l'exploitation. En cas de refus de la banque, le demandeur peut contacter BPIFrance à l'adresse suivante : supportentreprise-attestation-pge@bpifrance.fr ou le médiateur du crédit.\r\n5) Activité partielle : l'employeur adresse une demande d'autorisation d'activité partielle à la Direction départementale de l'Economie, de l'Emploi, du Travail et des Solidarités via la démarche en ligne : https://activitepartielle.emploi.gouv.fr/aparts\r\nLa(es) demande(s) d'aide est (sont) à déposer avant le 20 juin.\r\nCe formulaire permet de demander uniquement les trois premières aides.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2021-06-04T16:58:25+02:00",
+  "service": {
+    "nom": "Service Economie et Agriculture Durable",
+    "organisme": "DDTM d'Ille-et-Vilaine",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/aides-d-urgence-episode-de-gel-2021-ille-et-vilain",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ille-et-vilaine.gouv.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/download/pdf/circ?id=45164",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 25,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pour compléter correctement le formulaire, vous devrez vous munir d'un Relevé d’Identité Bancaire et télécharger et faire compléter l'attestation comptable par votre centre de gestion.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification du demandeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro PACAGE de l'exploitation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "d'un gérant (pour les sociétés)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "d'un gérant (pour les sociétés)",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'exploitation",
+        "description": "L'adresse doit être la même que celle indiquée sur le RIB de l'exploitation. ",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse e-mail",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Caractéristiques du demandeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut juridique",
+        "description": null,
+        "required": true,
+        "options": [
+          "Exploitation unipersonnelle",
+          "GAEC",
+          "EARL",
+          "SCEA",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si autre, préciser",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'associés exploitants",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Identification des associés exploitants",
+        "description": "Créer un élément par associé.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom, prénom de l'associé exploitant ou raison sociale",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro PACAGE de l'associé",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Jeune Agriculteur (JA) depuis le 1er juin 2016",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de l'installation (date de conformité DJA)",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Caractéristiques de l'exploitation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Cultures sinistrées par le gel en 2021",
+        "description": "SAU en ha",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pertes par type de production",
+        "description": "Créer un élément par type de production.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Production",
+            "description": "Indiquer la ou les production(s) affectées par le gel parmi les catégories suivantes :\n- Pommes à cidre\n- Pommes à couteau\n- Pommes à jus\n- Poires\n- Cerises\n- Autres fruits à noyau, préciser\n- Kiwis\n- Petits fruits\n- Raisin\n- Autres cultures sinistrées, préciser",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Surface produite",
+            "description": "En ha",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Taux de perte estimé",
+            "description": "En %",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Les dégâts occasionnés par le gel en 2021 vont-ils vous obliger à replanter ?",
+        "description": "Si oui, une facture correspondant aux frais de plantation vous sera demandée a posteriori.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si oui, sur quelle culture ? Préciser.",
+            "description": "Créer un élément par type de culture.",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Préciser la surface de la culture concernée.",
+            "description": "En ha",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Avez-vous été sinistré par le gel en 2017 et/ou en 2019 ?",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Préciser l'année",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Préciser les cultures",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Préciser les surfaces",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Préciser le taux de perte",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous été indemnisé par le régime des calamités agricoles ?",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Avez-vous été indemnisé par une assurance professionnelle pour des pertes de récolte ?",
+            "description": "Si oui, joindre un justificatif ci-dessous.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Données économiques",
+        "description": "Veuillez reporter ci-dessous les indicateurs  validés par votre centre comptable.",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de clôture de l'exercice comptable",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Taux de spécialisation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Taux d'endettement",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Trésorerie nette globale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande d'aide",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Je demande à bénéficier",
+        "description": null,
+        "required": true,
+        "options": [
+          "d’une aide du fond d’urgence forfaitaire d’un montant maximale de 5 000 € avec application de la transparence GAEC,",
+          "du dispositif exceptionnel de prise en charge de cotisations sociales,",
+          "dans l'attente de cette prise en charge, le report de l'intégralité des cotisations MSA en cours,",
+          "d’un dégrèvement de taxe sur les propriétés foncières non bâties (TFNB)."
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Parcelles cadastrales concernées par la demande de dégrèvement de la TFNB",
+        "description": "En cas de demande de dégrèvement de la taxe sur le foncier non bâti (TFNB), il est impératif de préciser la référence de chacune des parcelles cadastrales concernées.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Commune",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Référence cadastrale",
+            "description": "Les références cadastrales doivent être précisées selon le format suivant : \nCommune : sur 3 caractères,\nPréfixe : sur 3 caractères / ne se renseigne que dans le cas de communes fusionnées, \nSection : sur 2 caractères maximum,\nPlan : sur 4 caractères.\nEx : 004 113 C 001",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Engagements et autorisations",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste sur l'honneur l'exactitude des renseignements fournis à l'appui de la présente demande.",
+        "description": "\n",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'autorise la DDTM à recueillir et/ou transmettre les informations relatives à mon dossier auprés d’autres administrations ou collectivités dont notamment la MSA et la DRFIP(mes) établissement(s) de crédit(s) et mon centre comptable à communiquer à l’administration tous nécessaires à l’étude et au contrôle éventuel de mon dossier.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je suis informés que les éléments déclarés dans ce dossier pourront être vérifiés par comparaison avec les éléments des demandes d’indemnisation au titre du régime des calamités agricoles dont la demande de reconnaissance du département est initiée.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Télécharger l'attestation comptable",
+        "description": "Faire apposer le cachet et la signature du centre de gestion obligatoirement.",
+        "required": true
+      },
+      {
+        "__typename": "IbanChampDescriptor",
+        "label": "Coordonnées bancaires",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Télécharger votre RIB / IBAN",
+        "description": "L'adresse du RIB doit être la même que l'adresse du siège d'exploitation. ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Statuts signés et paraphés",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif d'une indemnisation par une assurance professionnelle",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

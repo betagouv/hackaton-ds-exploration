@@ -1,0 +1,405 @@
+{
+  "number": 28371,
+  "title": "Formulaire de diagnostic d’Assainissement Non Collectif  dans le cadre d'une transaction immobilière - Communauté de communes du Bonnevalais",
+  "description": "Cette demande est destinée à toutes personnes souhaitant réaliser le contrôle de l'état de son dispositif d'assainissement individuel dans le cadre d'une transaction immobilière.\r\nLe diagnostic d'assainissement non-collectif fait parti des pièces obligatoires à fournir lors d'une transaction immobilière.\r\n\r\nCette demande donne lieu au paiement d'une redevance :\r\n- Diagnostic (sans passage camera) 220 € TTC par immeuble\r\n- Diagnostic (avec passage camera) 264 € TTC par immeuble\r\n--> 2 chèques : 220 € + 44 € TTC\r\n- Contre-visite 66 € TTC\r\n\r\nEtablir chèque(s) libellé(s) à l'ordre du Trésor Public et à adresser à la :\r\n          Communauté de communes du Bonnevalais\r\n          Service assainissement non collectif\r\n          19 rue Saint Roch\r\n          28800 BONNEVAL",
+  "tags": [
+    "Urbanisme"
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2022-05-18T14:47:07+02:00",
+  "service": {
+    "nom": "Service Public d'Assainissement Non Collectif du Bonnevalais",
+    "organisme": "Communauté de Communes du Bonnevalais",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/formulaire-diagnostic-vente-anc-bonnevalais",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.comcomdubonnevalais.com/nos-competences/environnement/assainissement",
+  "cadreJuridiqueUrl": "",
+  "logo": null,
+  "notice": null,
+  "deliberation": {
+    "filename": "Code de la santé publique - Article L1331-11-1 _ Legifrance.pdf",
+    "checksum": "VhVNjd+uhU7ne44puhuvNQ==",
+    "byteSize": "83487",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 5,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous un passage caméra (sous réserve d’accessibilité) lors de la visite ?",
+        "description": "Rappel des tarifs\n- Diagnostic (sans passage camera) 220 € TTC par immeuble\n- Diagnostic (avec passage camera) 264 € TTC  par immeuble   \n   --> 2 chèques : 220 € + 44 € TTC\n- Contre-visite 66 € TTC\n\nEtablir chèque(s) libellé(s) à l'ordre du Trésor Public et à adresser à la :\n Communauté de communes du Bonnevalais\nService assainissement non collectif\n19 rue Saint Roch\n28800 BONNEVAL",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1 - Renseignements sur le ou les immeubles en vente",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Définition",
+        "description": "Le mot immeuble est un terme générique qui désigne indifféremment toute construction utilisée pour l’habitation, qu’elle soit temporaire (mobil home, caravanes…) ou permanente (maisons, immeuble collectif…), y compris les bureaux et les locaux affectés à d’autres usages que l’habitat (industriel, commercial et artisanal) produisant des eaux usées domestiques ou assimilées.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Références cadastrales",
+        "description": "Pour connaitre vos références cadastrales, il est possible d'effectuer une recherche sur :\nhttps://www.cadastre.gouv.fr/scpc/accueil.do",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Section",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro(s)",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Superficie totale du terrain (m²)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Surface totale habitable (m²)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'immeubles produisant des eaux usées domestiques",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Immeuble",
+        "description": "Ici, vous indiquerez les caractéristiques de chaque immeuble.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Année de construction",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Type d'immeuble",
+            "description": null,
+            "required": false,
+            "options": [
+              "Maison individuelle",
+              "Immeuble collectif",
+              "Bâtiment industriel",
+              "Local commercial",
+              "Autre"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si autre, préciser",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de pièces principales",
+            "description": "Code de la construction et de l'habitation - Article R111-1-1 :\n\"Un logement ou habitation comprend, d'une part, des pièces principales destinées au séjour ou au sommeil, éventuellement des chambres isolées et, d'autre part, des pièces de service, telles que cuisines, salles d'eau, cabinets d'aisance, buanderies, débarras, séchoirs, ainsi que, le cas échéant, des dégagements et des dépendances.\"",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de chambres",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Combles ou greniers aménageables",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Utilisation de l'immeuble",
+            "description": null,
+            "required": false,
+            "options": [
+              "Habitation principale",
+              "Location ",
+              "Habitation secondaire"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Occupation",
+            "description": null,
+            "required": false,
+            "options": [
+              "Inoccupée",
+              "Quelques jours/an",
+              "<= 6 mois/an",
+              "> 6 mois/an",
+              "Permanente"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de personnes occupant l'habitation (pendant la période d'utilisation)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Capacité d'accueil en Equivalent Habitant",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Terrain desservi par un réseau public d'eau potable",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Présence d'un puits sur la parcelle",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si oui, utilisation du puits",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Si utilisation pour une alimentation en eau potable, déclaration en Mairie",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Consommation d'eau moyenne annuelle (m3/an)",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Date du dernier diagnostic",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Date de la conformité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Date de la dernière vidange",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Date du dernier entretien",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Interventions récentes sur l'installation",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Problèmes de fonctionnement rencontrés (odeurs, écoulements, débordements….)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document(s) à joindre avec ce formulaire",
+        "description": "A minima, un plan de situation doit être joint avec le présent formulaire. Celui-ci doit permettre d’identifier précisément la situation de la parcelle dans la commune ou le hameau.\nSi vous disposez d'autres documents (diagnostic, conformité, facture d'entretien, facture de pose…) vous pouvez les joindre à votre demande.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2 - Renseignements sur le vendeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3 - Notaire chargé de la vente",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et Prénom",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4 - Personne à contacter pour un rendez-vous sur site, si différente du propriétaire (agence immobilière, voisin, ami…)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et Prénom",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5 - Engagement du demandeur (personne qui remplit la demande en ligne)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et Prénom du demandeur ou raison sociale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Le demandeur atteste sur l'honneur être dûment habilité à réaliser cette demande sans que la responsabilité du SPANC de la communauté de communes du Bonnevalais puisse être recherchée de quelque manière que ce soit et certifie être :",
+        "description": null,
+        "required": true,
+        "options": [
+          "le propriétaire du bien",
+          "le notaire chargé de la vente du bien",
+          "l'agence immobilière mandatée par le propriétaire",
+          "l'ayant droit"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Le demandeur s'engage à veiller à l'ouverture de tous les regards avant la visite du technicien et à présenter tous les documents concernant le dispositif d'assainissement non collectif (photos de l'installation, caractéristiques techniques des ouvrages, factures de vidange, études hydrogéologiques, etc.) afin de permettre au technicien d'accéder à l'ensemble du dispositif (traitement primaire et traitement secondaire). Il est demandé de ne pas fermer le compteur d’eau pour tester l’évacuation de tous les points d’eau indiqués.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Redevance",
+        "description": "Ce diagnostic donne lieu au paiement d’une redevance dont le montant est fixé par le SPANC à :\n220 € TTC (sans passage caméra) par immeuble\n264 € TTC (avec passage caméra) par immeuble\n --> 2 chèques : 220 € + 44 € TTC\n- en cas de contre-visite avec passage caméra : 66 € TTC.\n\nEtablir chèque(s) libellé(s) à l'ordre du Trésor Public et à adresser à la :\nCommunauté de communes du Bonnevalais\nService assainissement non collectif\n          19 rue Saint Roch\n          28800 BONNEVAL",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Mentions Protection des données personnelles",
+        "description": "J’autorise le SPANC de la communauté de communes du Bonnevalais à collecter et traiter les données à caractère personnel me concernant, répertoriées ci-dessus, dans le strict respect des conditions exposées ci-dessous.\n\nLes données à caractère personnel me concernant susmentionnées sont recueillies aux fins de toutes communications relatives à l’exécution des services visés ci-dessus, et ce dans un objectif de traitement de votre demande et d’exécution des prestations.\n\nLa présente autorisation est consentie pour une durée de 10 ans.\n\nConformément à la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers, et aux libertés, sous réserve de la seule justification de mon identité :\n\n- le libre accès aux données personnelles me concernant, et recueillies sur le fondement et au moyen de la présente m’est garanti, à tout moment, et sans qu’il me soit exigé de justifier d’un quelconque motif, sans préjudice du II de l’article 39 de la loi n° 78-17 du 6 janvier 1978,\n\n- je dispose du droit de vérifier à tout moment et sans motif, l’usage qui est fait de ces mêmes données personnelles, sans préjudice du II de l’article 39 de la loi n° 78-17 du 6 janvier 1978, et d’exiger qu’elles soient effacées si elles s’avèrent incomplètes, équivoques, ou périmées, et je conserve le droit de retirer à tout moment mon accord pour le traitement des données objets de la présente autorisation, et jouit d’un droit à la portabilité de ces données.\n\nJe suis informé(e) de ce que les données à caractère personnel objets de la présente sont susceptibles d’être communiquées à tout tiers exerçant des activités en lien avec les services du SPANC de la communauté de communes du Bonnevalais.\n\nToute opposition et toute demande d’accès, effacement, portabilité, ainsi que tout retrait du consentement au traitement des données objets de la présente doit être présentée au Responsable de la protection des données du SPANC de la communauté de communes du Bonnevalais. Toute autre réclamation est à formuler auprès de monsieur le Président de la Communauté de commune du Bonnevalais en sa qualité de responsable des traitements.\n\nJe suis informé(e) de ce que les traitements des données personnelles me concernant, recueillies sur le fondement et au moyen de la présente, font l’objet des déclarations requises par la loi n°78-17 du 6 janvier 1978 pour leur existence.",
+        "required": true
+      }
+    ]
+  }
+}

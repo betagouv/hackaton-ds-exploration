@@ -1,0 +1,390 @@
+{
+  "number": 43523,
+  "title": "Mise à disposition des données LOVAC",
+  "description": "La mise à disposition des données LOVAC s’inscrit dans le cadre du plan national de lutte contre les logements logements vacants, lancé en 2020 par la DHUP en partenariat avec l'ANAH et le réseau national des collectivités mobilisées contre le logement vacant (RNCLV).\r\n\r\nLes données LOVAC permettent de repérer et caractériser finement les logements vacants et leurs propriétaires. Elles apportent des informations sur :\r\n● le logement : adresse, ancienneté de la vacance, taxation, taille, année de construction, niveau de confort potentiel\r\n● le propriétaire : âge, adresse, type.\r\n\r\nElles peuvent donc être utilisées à des fins d’objectivation et de prise de contact avec les propriétaires pour leur proposer une remise de leurs biens vacants sur le marché.\r\n\r\nLe traitement LOVAC est issu d'un croisement du fichier <strong> 1767BISCOM </strong> et des <strong> Fichiers fonciers </strong>, réalisé par le CEREMA pour le compte de la DHUP. Il présente l’intérêt de combiner les informations complémentaires des deux sources.",
+  "tags": [
+    "Urbanisme"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2021-05-03T19:35:23+02:00",
+  "service": {
+    "nom": "Direction Générale de l'Aménagement, du Logement et de la Nature (DGALN)",
+    "organisme": "Ministère de la transition écologique",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/mad-donnees-lovac",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://datafoncier.cerema.fr/lovac",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre2#Article6",
+  "logo": {
+    "filename": "logo-MTE.png",
+    "checksum": "44NL7FMZo1xUGI+uIvourQ==",
+    "byteSize": "65544",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "tuto-formulaire-LOVAC-final.pdf",
+    "checksum": "NCP66a3Kz4zV2CIgUzXj6Q==",
+    "byteSize": "1023944",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 3127,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. Structure",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Structure du demandeur",
+        "description": "Indiquez la catégorie de votre structure.",
+        "required": true,
+        "options": [
+          "Service de l'Etat - administration centrale",
+          "Service de l'Etat - service déconcentré",
+          "ANAH",
+          "Conseil régional",
+          "Conseil départemental",
+          "EPCI ",
+          "Commune",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si autre, précisez",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Zone géographique de rattachement",
+        "description": "Choisissez la zone de rattachement administrative de votre structure.",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Guadeloupe",
+          "Guyane",
+          "Hauts-de-France",
+          "Île-de-France",
+          "La Réunion",
+          "Martinique",
+          "Mayotte",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d'Azur",
+          "France entière",
+          "France métropolitaine",
+          "Région(s)",
+          "Département(s)",
+          "Commune(s)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. Coordonnées de la personne habilitée",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Veuillez indiquer ci-dessous les coordonnées de la personne habilitée.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Habilitation",
+        "description": "J'atteste être habilité.e pour le dépôt de dossier de demande d'accès aux données LOVAC au nom du représentant de la structure.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Acte d'engagement principal",
+        "description": "Vous devez joindre le modèle d'acte d'engagement dûment complété et signé.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. Nature de la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Finalité(s) du traitement",
+        "description": "Indiquez la ou les finalités recherchée(s) du traitement.",
+        "required": true,
+        "options": [
+          "Production de données statistiques sur les logements vacants (localisation, caractéristiques des logements et de leurs propriétaires, évolution)",
+          "Prise de contact avec les propriétaires de logements vacants, uniquement dans le cadre d'exploitation statistique (sondage, recueil de données complémentaires...) ou qualitative (ex : entretiens) dans une visée de connaissance sur la vacance et/ou de remobilisation de ces logements",
+          "Identifier les propriétaires de logements vacants pour leur proposer une remise sur le marché de leur(s) bien(s), notamment dans le cadre de l'accès à la solution Zéro Logement Vacant (pour toute demande d'accès, remplir le formulaire suivant : https://startupdetat.typeform.com/rectification#source=ds-lovac)"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précisions sur la ou les finalité(s) du traitement",
+        "description": "Indiquez le plus clairement possible les finalités recherchées d'utilisation des données LOVAC (facultatif).",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4. Périmètre géographique demandé",
+        "description": "Indiquez le périmètre géographique sur lequel vous souhaitez avoir accès aux données (Région x, Département y, commune z).",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Avertissement",
+        "description": "<strong> Vous ne pouvez pas avoir accès aux données en dehors de votre territoire de compétence ou d'étude.</strong>",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Instructions",
+        "description": "Choisissez un type de périmètre parmi les suivants : France entière, région(s), département(s) ou commune(s).",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "France entière",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Régions",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "RegionChampDescriptor",
+            "label": "Région(s)",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Départements",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DepartementChampDescriptor",
+            "label": "Département(s)",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Communes / EPCI",
+        "description": "Veuillez indiquer la ou les communes du périmètre géographique demandé.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "EPCI",
+        "description": "<strong> Remplir et joindre le modèle de fichier tableur ci-joint, listant les communes concernées par le territoire sur lequel les données LOVAC sont demandées, en indiquant les codes INSEE sauf si votre demande concerne une seule commune.</strong>",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Recherche des codes INSEE",
+        "description": "Pour rechercher les codes INSEE des communes, vous pouvez vous rendre à l'adresse suivante : <strong> https://www.insee.fr/fr/information/5057840 </strong>",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5. Recours à un prestataire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Recours à un prestataire",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Choix du type de prestataire",
+        "description": null,
+        "required": false,
+        "options": [
+          "ADIL",
+          "Agence d'urbanisme",
+          "Bureau d'études ",
+          "CEREMA",
+          "Etablissement public foncier",
+          "Parc National Régional ",
+          "PETR",
+          "SAFER",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du prestataire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Coordonnées du représentant du prestataire",
+        "description": "Veuillez renseigner les coordonnées du représentant du prestataire. ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Email",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Numéro de téléphone",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Engagement obligatoire du demandeur",
+            "description": "En cas de recours à un prestataire, le demandeur s'engage à ce que les informations communiquées ne soient ni dupliquées, ni conservées, ni utilisées par cet intervenant à d'autres fins que celles déclarées. Le demandeur fait signer préalablement l'acte d’engagement du prestataire et le joint à la présente demande.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Acte d'engagement du prestataire",
+        "description": "<strong> A fournir obligatoirement en cas de recours à un prestataire.</strong>",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Acte d'engagement du prestataire",
+            "description": "Joindre le modèle ci-dessous rempli et signé.\n<strong> En cas de recours à plusieurs prestataires, joindre autant d'actes d'engagement que de prestataires. </strong>",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "6. Engagements du demandeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Connaissance de l'acte d'engagement",
+        "description": "Le demandeur atteste avoir pris connaissance de l’acte d’engagement DGALN/DGFiP ci-dessous et de la déclaration normale effectuée par la DGALN auprès de la CNIL.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Obligation de discrétion et de sécurité",
+        "description": "Le demandeur s'engage à respecter et à faire respecter les obligations suivantes  par son personnel :\n- ne prendre aucune copie des données du fichier LOVAC qui leur sont communiqués, sinon pour les besoins de l'exécution de la prestation objet de la présente délivrance ;\n- ne pas délivrer ni céder ces données à des tiers non autorisés ;\n- prendre toutes mesures, notamment de sécurité matérielle, pour assurer la sécurité des informations, et empêcher notamment qu’elles ne soient déformées, endommagées ou communiquées à des personnes non autorisées ;\n- détruire, à l’expiration de la durée de conservation retenue par la CNIL ou à la demande de la direction générale des finances publiques, tous les fichiers manuels ou informatisés stockant les informations communiquées.\nLes fichiers remis devront être traités sur le territoire français. Cette disposition, qui s'inscrit dans le cadre des mesures de protection des données gérées par la DGFiP, s'entend exclusivement du lieu de traitement des données.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vérifications par la DGALN",
+        "description": "La DGALN se réserve le droit de procéder à toute vérification qui lui paraîtrait utile pour constater le respect des engagements par le demandeur, par les tiers bénéficiaires ainsi que par leurs prestataires.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Rappel des sanctions pénales",
+        "description": "En cas de non-respect des formalités préalables, la responsabilité pénale du demandeur peut être engagée sur le fondement des articles 226-16 à 226-24 du Code pénal.",
+        "required": false
+      }
+    ]
+  }
+}

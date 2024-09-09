@@ -1,0 +1,151 @@
+{
+  "number": 53875,
+  "title": "GetDF SD - Données foncières pour les services déconcentrés de l'Etat DREAL, DEAL, DDT(M)",
+  "description": "Ceci est un formulaire à validation automatique permettant aux services déconcentrés de l'Etat, d'obtenir les données foncières mises à disposition par la DGALN (Fichiers fonciers, DV3F, RFP)\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2022-02-09T14:47:30+01:00",
+  "service": {
+    "nom": "Direction Générale de l'Aménagement, du Logement et de la Nature (DGALN)",
+    "organisme": "Ministère de la transition écologique",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/getdf-sd",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://datafoncier.cerema.fr/obtention-des-donnees-foncieres",
+  "cadreJuridiqueUrl": "https://datafoncier.cerema.fr/sites/datafoncier/files/fichiers/2019/02/Declaration_CNIL_Modifiee_2014-140702-V4.pdf",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 6,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PREAMBULE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Objet du formulaire",
+        "description": "Ce formulaire est EXCLUSIVEMENT destiné aux services déconcentrés de l'Etat ; DREAL (DEAL) ou DDT(M) sur l'intégralité du périmètre de compétence, pour les derniers millésimes en cours et pour les besoins de ses propres services uniquement (si l'organisme recourt à un prestataire pour une mission particulière, sur un périmètre restreint, il convient d'utiliser la procédure générale d'obtention des données 'GetDF: Demande de données foncières FF, DV3F, RFP')\nToute demande formulée par une personne d'un organisme autre qu'un service déconcentré de l'Etat, sera rejetée.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATION SUR LA DEMANDE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "ATTENTION",
+        "description": "Veiller à bien distinguer la structure (personne morale) de la personne au sein de cette structure qui fait la demande (le demandeur).\nPour rappel, les notifications, informations - notamment lors de la mise à disposition des données - ou messages d'alerte seront envoyés à l'adresse mail utilisée pour accéder à cette plateforme (c'est aussi l'adresse mail associée au compte utilisateur). Ainsi, s'il s'agit d'une adresse générique, il est recommandé de consulter sa boite de \"spams\".",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "1- Le demandeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "2- Structure d'appartenance du demandeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la structure d'appartenance",
+        "description": "Exemple : DREAL Occitanie, DEAL Martinique, DDTM Calvados",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATIONS SUR LES DONNEES DEMANDEES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Je souhaite recevoir les données foncières suivantes :",
+        "description": "Il est possible d'effectuer plusieurs choix",
+        "required": true,
+        "options": [
+          "DV3F - dernière version",
+          "RFP - dernier millésime",
+          "Fichiers Fonciers Anonymisés (FFA) - dernier millésime",
+          "Fichiers Fonciers non anonymisés (FFnA) - dernier millésime"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ENGAGEMENTS DU DEMANDEUR",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Engagement envers le cadre légal en vigueur",
+        "description": "Le demandeur atteste se conformer aux dispositions de la Loi informatique et libertés et à celles du Règlement général sur la protection des données, le cas échéant.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Engagement envers la DGALN et la DGFiP",
+        "description": "Le demandeur atteste avoir pris connaissance de l’acte d’engagement DGALN/DGFiP\n(Adresse de la page où figure l'acte d'engagement DGALN/DGFIP : https://datafoncier.cerema.fr/obtention-des-donnees-foncieres)",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Obligation de discrétion et de sécurité",
+        "description": "Le demandeur s'engage à respecter, de façon absolue, les obligations suivantes et à les faire respecter par son personnel :\n- ne prendre aucune copie des Fichiers fonciers qui leur sont communiqués, sinon pour les besoins de l'exécution de la prestation objet de la présente délivrance ;\n- ne pas délivrer ni céder ces fichiers à des tiers non autorisés ;\n- prendre toutes mesures, notamment de sécurité matérielle, pour assurer la sécurité des informations, et empêcher notamment qu’elles ne soient déformées, endommagées ou communiquées à des personnes non autorisées ;\n- détruire, à l’expiration de la durée de conservation retenue par la CNIL ou à la demande de la direction générale des finances publiques, tous les fichiers manuels ou informatisés stockant les informations communiquées.\n\nLes fichiers remis devront être traités sur le territoire français. Cette disposition, qui s'inscrit dans le cadre des mesures de protection des données gérées par la direction générale des finances publiques, s'entend exclusivement du lieu de traitement des données.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Rappel des sanctions pénales",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Sanctions pénales",
+        "description": "Il est rappelé que la responsabilité pénale du demandeur peut être engagée, sur la base des articles du Code pénal n°226-16 à 226-24 pour ce qui concerne les atteintes aux droits de la personne et les articles n°433-12 et 433-13 pour ce qui concerne l'usurpation de fonction.",
+        "required": false
+      }
+    ]
+  }
+}

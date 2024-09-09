@@ -1,0 +1,382 @@
+{
+  "number": 75050,
+  "title": "DDPP 64 / IAHP / Demande de LPS 2022-2023",
+  "description": "\r\nDemande de laissez-passer sanitaire pour le mouvement de volailles et oiseaux captifs en cas de zones réglementées vis-à-vis de l'influenza aviaire.\r\n\r\nA déposer impérativement la veille du départ des animaux, avant 14h (la demande pouvant être complétée une fois déposée (ajout des pièces jointes...)).\r\n\r\nArrêtés préfectoraux définissant les Zones Réglementées disponibles sur : https://www.pyrenees-atlantiques.gouv.fr/Publications/Recueil-des-actes-administratifs\r\n\r\nContact téléphonique : 05 47 41 33 80\r\n(astreinte soirs et week-end : 06 82 03 62 84)",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2023-05-10T16:29:12+02:00",
+  "service": {
+    "nom": "64 / Service Santé Protection Animales et Environnement",
+    "organisme": "DDPP64",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ddpp64-lps-iahp",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.pyrenees-atlantiques.gouv.fr/Actions-de-l-Etat/Agriculture-foret-et-developpement-rural/Influenza-aviaire-2022-2023",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000017958300?tab_selection=all&searchField=ALL&query=18+janvier+2008&searchType=ALL&fonds=LEGI&typePagination=DEFAULT&pageSize=10&page=1&tab_selection=all#all",
+  "logo": {
+    "filename": "Logo_Préfet_PA2.png",
+    "checksum": "6uSzCJbClZP7Rs2w+LFjpQ==",
+    "byteSize": "10702",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 9,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ETABLISSEMENT D'ORIGINE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Zone de l'établissement d'origine",
+        "description": "",
+        "required": true,
+        "options": [
+          "ZP - Zone de Protection",
+          "ZS - Zone de Surveillance",
+          "ZRS - Zone Réglementée Supplémentaire",
+          "ZRT - Zone Réglementée Temporaire",
+          "ZCT-FS - Zone de Contrôle Temporaire Faune Sauvage",
+          "ZPS - Zone de Protection Stabilisée",
+          "ZSS - Zone de Surveillance Stabilisée",
+          "ZI - Zone Indemne"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom / Raison sociale de l'établissement d'origine",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Elevage sous APMS (poussins/canetons en provenance de ZR)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET de l'établissement d'origine",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'établissement d'origine",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse email de l'établissement d'origine",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone de l'établissement d'origine",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "INUAV d'origine",
+        "description": "Indiquer TOUS les n°INUAV d'origine des animaux prévus au mouvement (plusieurs INUAV possibles)",
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Animaux / produits concernés par la demande",
+        "description": "Sélectionner la catégorie.\r\nSi \"Autre\", \"Gibier\" ou \"SPAN\", veuillez préciser dans le champ libre ci-dessous.\r\nLes demandes de LPS pour des denrées alimentaire d'origine animale (DAOA) sont à déposer sur la démarches simplifiée dédiée.",
+        "required": true,
+        "options": [
+          "--Gallinacés--",
+          "Poussins d'un jour",
+          "Poulets de chair",
+          "Pintades",
+          "Dindes",
+          "Cailles",
+          "Volailles festives",
+          "Poules pondeuses",
+          "Poulettes futures pondeuses",
+          "Autre",
+          "--Palmipèdes--",
+          "Canetons d'un jour",
+          "Canards prêts à gaver",
+          "Canards gavés",
+          "Canards / Canettes à rôtir",
+          "Oies",
+          "--Autres--",
+          "Gibier",
+          "Œufs à couver",
+          "Sous-produits animaux"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "*Animaux / produits concernés par la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Quantité",
+        "description": "- en nombre pour les animaux et œufs à couver\r\n- en tonne pour les sous-produits",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sexe",
+        "description": "",
+        "required": false,
+        "options": [
+          "Mâle",
+          "Femelle",
+          "Mixte"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Organisation",
+        "description": "",
+        "required": true,
+        "options": [
+          "Indépendant",
+          "En groupement",
+          "Mixte  : filière courte / filière longue",
+          "Sans objet (sous produits animaux...)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du groupement (le cas échéant)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ETABLISSEMENT DE DESTINATION",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de destination",
+        "description": "Sélectionnez la raison principale\r\n\r\n",
+        "required": true,
+        "options": [
+          "Abattoir",
+          "Mise en place élevage à 1j",
+          "Mise en place élevage animaux démarrés",
+          "Mise en ponte",
+          "Mise en gavage",
+          "Remise en nature",
+          "Couvoir",
+          "Établissement de sous-produits animaux"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Zone de l'établissement de destination",
+        "description": "",
+        "required": true,
+        "options": [
+          "ZP - Zone de Protection",
+          "ZS - Zone de Surveillance",
+          "ZRS - Zone Réglementée Supplémentaire",
+          "ZRT - Zone Réglementée Temporaire",
+          "ZCT-FS - Zone de Contrôle Temporaire Faune Sauvage",
+          "ZPS - Zone de Protection Stabilisée",
+          "ZSS - Zone de Surveillance Stabilisée",
+          "ZI - Zone Indemne"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département de l'établissement de destination",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom / Raison sociale de l'établissement de destination",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET de l'établissement de destination",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'établissement de destination",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone de l'établissement de destination",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse email de l'établissement de destination",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "INUAV de destination",
+        "description": "Si différent d'un INUAV (SPAN, casserie...), renseigner \"non concerné\".",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Organisation",
+        "description": "",
+        "required": true,
+        "options": [
+          "Indépendant",
+          "En groupement",
+          "Mixte  : filière courte / filière longue",
+          "Sans objet (sous produits animaux...)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du groupement le cas échéant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "TRANSPORT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de départ prévue",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Heure de départ prévue",
+        "description": "Indiquer l'heure au format hh:mm",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'arrivée prévue",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Heure d'arrivée prévue",
+        "description": "Indiquer l'heure au format hh:mm",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du transporteur utilisé pour le mouvement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse email du transporteur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Immatriculation du véhicule transportant les animaux",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PIECES JUSTIFICATIVES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du vétérinaire sanitaire ayant réalisé la visite clinique et prélèvements avant mouvement",
+        "description": "Indiquer 0 si non nécessaire pour le mouvement (ex : sous produits animaux).\n",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pièces jointes",
+        "description": "Les pièces justificatives peuvent être ajoutées :\r\n- lors de la demande si déjà en votre possession ;\r\n- plus tard, tant que le dossier n'est pas passé en instruction ;\r\n- par une personne extérieur (vétérinaire par exemple) si vous l'avez invitée sur votre demande de LPS.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Compte rendu de visite clinique du vétérinaire sanitaire",
+        "description": "Sauf sous-produits animaux.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport d'analyses du laboratoire le cas échéant",
+        "description": "Sauf sous-produits animaux.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Itinéraire du camion de transport",
+        "description": "L’itinéraire du camion se fait en utilisant les grands axes routiers qui doivent être rejoints le plus rapidement possible.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dernier audit biosécurité le cas échéant",
+        "description": "Uniquement pour les mouvements à destination d'un élevage.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autre document si nécessaire",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autre document si nécessaire",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire (facultatif)",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

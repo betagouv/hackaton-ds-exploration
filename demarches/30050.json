@@ -1,0 +1,347 @@
+{
+  "number": 30050,
+  "title": "Plan \"Meilleure réussite scolaire\" Projets de collèges",
+  "description": "Année scolaire 2020-2021.\r\n\r\nPour compléter ce formulaire vous aurez besoin des informations suivantes :\r\n- Numéro de SIRET de votre collège (vous pouvez le trouver sur https://entreprise.data.gouv.fr/)\r\n- Fiche bilan de l'année écoulée en cas de reconduction (le modèle de document est fourni dans la procédure)\r\n- Devis des intervenants et prestations\r\n- Données budgétaires du projet (le modèle de tableau est fourni dans la procédure)",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2020-09-28T09:44:47+02:00",
+  "service": {
+    "nom": "Direction de l'éducation, de l'enseignement supérieur et du sport",
+    "organisme": "Conseil départemental d’Eure-et-Loir  ",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/pmrs-projets-colleges-2020-2021",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.eurelien.fr/",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "LOGO CD28 RVB.jpg",
+    "checksum": "mfFAByNxWuh1r0XEms/Osw==",
+    "byteSize": "227549",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "Projets Clg. Descriptif 2020-2021.pdf",
+    "checksum": "NXzWRByULejBxeiXC8MpJQ==",
+    "byteSize": "245178",
+    "contentType": "application/pdf"
+  },
+  "deliberation": {
+    "filename": "Délib 5.2 - PMRS 2ème session projets de collèges.pdf",
+    "checksum": "7x+8EVsDA33F+YP3wZ1+lA==",
+    "byteSize": "160759",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Avertissement important",
+        "description": "Vous pouvez dans un premier temps enregistrer votre demande à l'état de brouillon pour vous permettre de revenir dessus et de la modifier. Elle ne sera pas encore visible de nos services à ce stade. Votre dossier ne sera effectivement transmis que lorsque vous aurez cliqué sur \"Déposer le dossier\".",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie que cette démarche a été portée à la connaissance du chef d’établissement",
+        "description": "Tous les dossiers déposés doivent avoir au préalable reçu l'aval du chef d'établissement. A cet effet, vous devez utiliser le bouton \"Inviter une personne à modifier ce dossier\" en haut de page. A défaut, le Conseil départemental se réserve le droit de solliciter l'avis du chef d'établissement au cours de l'instruction du dossier.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de présentation du projet au Conseil d'administration",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Reconduction",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Ce projet est une reconduction et a bénéficié d'un financement par le Conseil départemental l'année dernière",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Fiche bilan",
+        "description": "Un bilan détaillé devra être fourni après la réalisation du projet. En cas de reconduction, merci de nous transmettre votre fiche bilan pour l'année dernière. A défaut, vous pourrez la transmettre ultérieurement à pmrs@eurelien.fr",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Enseignant référent",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Matière enseignée",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autres enseignants engagés dans le projet",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Matière enseignée",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Elèves",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Niveaux",
+            "description": null,
+            "required": true,
+            "options": [
+              "6e",
+              "5e",
+              "4e",
+              "3e",
+              "Segpa",
+              "ULIS",
+              "UPE2A"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Nombre d'élèves",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Domaine",
+        "description": "Plusieurs choix possibles.",
+        "required": true,
+        "options": [
+          "Artistique",
+          "Sportif",
+          "Technique et scientifique",
+          "Usages numériques",
+          "Education à l'image",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autre domaine : précisez",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Intervenants",
+        "description": "Vous pouvez déclarer plusieurs intervenants en cliquant sur \"Ajouter une ligne\".",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Nom et coordonnées de l’association, de la compagnie, structure ou organisme…",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Nom des intervenants et qualifications",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° SIRET et / ou autre affiliation (maison des artistes…), numéro de carte professionnelle...",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Type d'interventions attendues",
+            "description": "Exemples : ateliers, spectacles...",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Devis",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Le projet",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Titre du projet",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Analyse de la situation motivant la candidature",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Objectifs pédagogiques",
+        "description": "Décrivez les actions et les enjeux en corrélation avec le socle commun (sans nécessairement énumérer les items)",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Citez les œuvres, les thèmes abordés",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Résultats attendus",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Critères d'évaluation",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Production(s) envisagée(s)",
+        "description": "Réalisations, exposition, clip vidéo, bande dessinée, journal…",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Le projet engendrera-t-il une sortie ? (précisez)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Phases de travail",
+        "description": "Cliquez sur \"Ajouter une ligne pour Phases de travail\" si vous souhaitez décomposer l'action en différentes séquences.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de début (approximative)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de fin (approximative)",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Description de la séquence",
+            "description": "Exemple : 12 séances de 2 heures d'atelier",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Date(s) de restitution le cas échéant (avec lieu, public)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Budget prévisionnel",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau budgétaire à compléter",
+        "description": "Pour équilibrer votre budget, merci d'utiliser obligatoirement ce modèle de tableau, à l'exclusion de toute ancienne version (y compris si vous l'avez téléchargé lors d'une précédente session). Veuillez le télécharger et l'enregistrer sur votre ordinateur, indiquer les montants des dépenses et des recettes, puis joindre le fichier complété à votre dossier de candidature en cliquant sur le bouton Parcourir.\n\nLes devis correspondants seront à joindre à la section suivante.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Total des dépenses (TTC)",
+        "description": "Reportez le montant calculé dans le tableau budgétaire.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Total des recettes",
+        "description": "Reportez le montant calculé dans le tableau budgétaire.",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Subvention demandée au Conseil départemental d'Eure-et-Loir",
+        "description": "Reportez le montant demandé dans le tableau budgétaire.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Complément de pièces justificatives",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Devis défraiement OU matériel fongible",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Devis frais de billetterie",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Devis frais de transport",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

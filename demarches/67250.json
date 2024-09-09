@@ -1,0 +1,603 @@
+{
+  "number": 67250,
+  "title": "Demande de retournement de prairies",
+  "description": "Au regard de la baisse significative des surfaces déclarées en prairies et pâturages permanents en région Hauts-de-France lors de la campagne PAC 2022, le système d’autorisation préalable à la conversion des prairies permanentes situées en Hauts-de-France est reconduit.\r\nAinsi, si vous exploitez des surfaces sises dans cette région et souhaitez convertir une surface déclarée à la PAC en 2022 avec un des codes cultures suivant : PRL, PPH, SPL, SPH, BOP, CAE, CEE, ROS ou J6P (1), pour y implanter un\r\nautre type de couvert (terre arable ou culture permanente) pour la campagne 2023, vous devez demander une\r\nautorisation préalable à votre DDT(M) via ce formulaire <strong>avant le 02 janvier 2023.<strong/>\r\nLa demande d’autorisation préalable doit être déposée par l’exploitant qui déclarera en 2023 les parcelles faisant\r\nl’objet d’une conversion. Les surfaces déclarées en compensation le cas échéant doivent également se situer sur son exploitation pour la PAC 2023.\r\n\r\n(1) pour la signification des codes cultures, veuillez vous référer à la notice \"Codes cultures et précisions\" accessible sur Télépac",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2022-12-22T15:14:56+01:00",
+  "service": {
+    "nom": "DDTM62 - Service de l'économie agricole",
+    "organisme": "DDTM",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-retournement-prairies-campagne-2022-2023",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.pas-de-calais.gouv.fr/Politiques-publiques/Agriculture-developpement-rural/Economie-Agricole",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046672641",
+  "logo": {
+    "filename": "PREF_Pas_de_calais_RVB.png",
+    "checksum": "jyasqCGasC2faA61C2ju/A==",
+    "byteSize": "138115",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTITÉ",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination sociale de l'exploitation",
+        "description": "nom, prénom ou raison sociale",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro PACAGE",
+        "description": "(Ex : 062000001 – nombre à 9 chiffres) ",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Numéro SIRET",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone portable/fixe",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous éleveur ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous bénéficiaire d'aides animales au titre de la PAC 2022?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "CRITÈRES D’ÉLIGIBILITÉ",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pour que votre demande de retournement de prairies soit potentiellement autorisée, vous devez faire partie de l'une des 3 catégories d'exploitants suivantes :",
+        "description": " - les agriculteurs/trices engagé(e)s dans un plan de redressement arrêté par le préfet dans le cadre de la procédure « agriculteur en difficulté »,\r\n- les éleveurs/euses détenant plus de 75 % de prairies permanentes déclarées en 2022,\r\n- les jeunes agriculteurs.rices ou nouvels.elles installés.ées ayant fait une déclaration PAC en 2022.\r\nDans le cas contraire, votre demande ne pourra être accordée.\r\nRépondez aux questions qui vous sont posées.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous engagé.e dans un plan de redressement arrêté par le Préfet dans le cadre de la procédure \"agriculteur en difficulté\"?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de l'arrêté préfectoral",
+        "description": " L'arrêté préfectoral sera à joindre à la fin de la démarche (voir paragraphe \"5. Pièces justificatives\")",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous éleveur.se détenant strictement plus de 75% de prairies permanentes déclarées en 2022?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface agricole admissible de votre exploitation déclarée à la PAC 2022",
+        "description": "Information en hectare",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface de prairies permanentes déclarée à la PAC 2022",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Calcul du pourcentage de prairies permanentes",
+        "description": "Veuillez calculer le pourcentage  de prairies permanentes présentes sur votre exploitation.\r\nValeur en pourcentage : (Surface de prairies permanentes déclarée à la PAC 2022/Surface agricole admissible de votre exploitation déclarée à la PAC 2022)*100",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le pourcentage de prairies permanentes présentes sur votre exploitation est inférieur ou égal à 75 %.",
+        "description": "Il s’avère donc que conformément à l’arrêté du 17 avril 2019 modifié, vous ne répondez pas au critère « éleveurs/euses détenant strictement plus de 75 % de prairies permanentes déclarées en 2022 ».\r\n\r\nVotre demande de retournement de prairies permanentes ne peut malheureusement être acceptée.  A l’appui dudit critère, vous n’êtes donc pas autorisé à retourner les parcelles envisagées.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Nombre d'hectares de prairies permanentes que vous souhaitez retourner",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Calcul du nouveau pourcentage de prairies permanentes après déduction de la surface de prairies faisant l'objet de votre demande de retournement en cours",
+        "description": "Veuillez calculer le nouveau pourcentage  de prairies permanentes présentes sur votre exploitation.\r\nValeur en pourcentage : (Surface de prairies permanentes déclarée à la PAC 2022 - nombre d'hectares de prairies permanentes que vous souhaitez retourner / Surface agricole admissible de votre exploitation déclarée à la PAC 2022) * 100",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Après déduction de la surface de prairies faisant l’objet de votre demande de retournement, le nouveau pourcentage de prairies permanentes présentes sur votre exploitation est inférieur ou égal à 75 %. Il s’avère donc que conformément à l’arrêté du 17 avril 2019 modifié, vous ne répondez donc plus au critère « éleveurs/euses détenant strictement plus de 75 % de prairies permanentes déclarées en 2022 ».",
+        "description": "Votre demande de retournement de prairies permanentes ne peut malheureusement être acceptée en l’état.\r\nPour pouvoir bénéficier potentiellement d’un avis favorable à votre demande, le pourcentage de prairies permanentes présentes sur votre exploitation doit rester strictement supérieur à 75 % après retournement des parcelles envisagées. Réduisez la surface que vous souhaitez retourner afin que le critère « éleveurs/euses détenant strictement plus de 75 % de prairies permanentes » soit toujours respecté, même après les travaux projetés.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Etes-vous ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Jeune agriculteur.rice",
+          "Nouvel.le installé.e",
+          "Autre statut agriculteur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Au titre de la PAC et pour la campagne de déclaration 2023, conformément à l’arrêté du 17 avril 2019 modifié, seules trois catégories d’exploitants peuvent potentiellement bénéficier d’un avis favorable suite au dépôt d’une demande de retournement de prairies, à savoir :",
+        "description": "- les agriculteurs/trices engagés dans un plan de redressement arrêté par le préfet dans le cadre de la procédure « agriculteur en difficulté »,\r\n- les éleveurs/euses détenant plus de 75 % de prairies permanentes déclarées en 2022,\r\n- les nouveaux/elles installés/ées ayant fait une déclaration PAC en 2022 (N.B. : en cas de forme sociétaire, l’ensemble des associés doit être « nouvel installé » ou être accompagné d’au moins un JA), dans la limite de 25 % au maximum de la surface admissible en prairies permanentes de l’exploitation.\r\n\r\nAprès analyse de votre situation, il s’avère que vous ne répondez pas aux critères prévus ci-avant.\r\nC’est pourquoi, je vous informe que votre demande ne peut malheureusement être acceptée. Vous n’êtes donc pas autorisé à retourner les parcelles, objet de votre sollicitation.\r\n\r\nLa faisabilité de votre projet au regard de la réglementation visant la protection de l’environnement n’a pas été étudiée. Par conséquent, le retournement des prairies pourrait faire l’objet en cas d’infraction, d’un rapport de manquement administratif et d’une mise en demeure de réimplantation assortie le cas échéant, d’une astreinte et d’une amende administrative. Il vous exposera par ailleurs à des réductions des aides du premier pilier de la PAC au titre de la conditionnalité.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Indiquer votre nom et prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Indiquer votre date de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Votre date de première installation",
+        "description": "(date de la première affiliation à la MSA en tant qu'exploitant agricole ou cotisant solidaire)",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous vous êtes donc installé.e après le 1er janvier 2017?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous vous êtes donc installé.e avant le 16 mai 2022?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous vous êtes donc installé.e après le 1er janvier 2020",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous vous êtes donc installé.e avant le 16 mai 2022",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Quel était votre âge au 31 décembre de l'année de votre installation ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etiez-vous installé précédemment au sein d'une autre structure à titre individuel ou au sein d'une société ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous vous êtes installé au cours des 5 dernières années au sein d'une autre structure agricole",
+        "description": "(à titre individuel ou au sein d'une société)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination sociale de la structure au sein de laquelle a eu lieu la première installation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous membre d'une société ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Tous les membres de la société sont-ils nouvel.le installé.e ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Au titre de la PAC et pour la campagne de déclaration 2023, conformément à l’arrêté du 17 avril 2019 modifié, seules trois catégories d’exploitants peuvent potentiellement bénéficier d’un avis favorable suite au dépôt d’une demande de retournement de prairies, à savoir :",
+        "description": "- les agriculteurs/trices engagés dans un plan de redressement arrêté par le préfet dans le cadre de la procédure « agriculteur en difficulté »,\r\n - les éleveurs/euses détenant plus de 75 % de prairies permanentes déclarées en 2022, \r\n- les nouveaux/elles installés/ées ayant fait une déclaration PAC en 2022 (N.B. : en cas de forme sociétaire, l’ensemble des associés doit être « nouvel installé » ou être accompagné d’au moins un JA), dans la limite de 25 % au maximum de la surface admissible en prairies permanentes de l’exploitation.  \r\n\r\nAprès analyse de votre situation, il s’avère que vous ne répondez pas aux critères prévus ci-avant : le JA ou nouvel installé de votre structure ne répond pas (ou plus) à la définition établie dans les règlements européens relevant de la politique agricole commune. C’est pourquoi, je vous informe que votre demande ne peut malheureusement être acceptée. Vous n’êtes donc pas autorisé à retourner les parcelles, objet de votre sollicitation.\r\n\r\nLa faisabilité de votre projet au regard de la réglementation visant la protection de l’environnement n’a pas été étudiée. Par conséquent, le retournement des prairies pourrait faire l’objet en cas d’infraction, d’un rapport de manquement administratif et d’une mise en demeure de réimplantation assortie le cas échéant, d’une astreinte et d’une amende administrative. Il vous exposera par ailleurs à des réductions des aides du premier pilier de la PAC au titre de la conditionnalité.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Au titre de la PAC et pour la campagne de déclaration 2023, conformément à l’arrêté du 17 avril 2019 modifié, seules trois catégories d’exploitants peuvent potentiellement bénéficier d’un avis favorable suite au dépôt d’une demande de retournement de prairies, à savoir :",
+        "description": "- les agriculteurs/trices engagés dans un plan de redressement arrêté par le préfet dans le cadre de la procédure « agriculteur en difficulté »,\r\n- les éleveurs/euses détenant plus de 75 % de prairies permanentes déclarées en 2022,\r\n- les nouveaux/elles installés/ées ayant fait une déclaration PAC en 2022 (N.B. : en cas de forme sociétaire, l’ensemble des associés doit être « nouvel installé » ou être accompagné d’au moins un JA), dans la limite de 25 % au maximum de la surface admissible en prairies permanentes de l’exploitation.\r\n\r\nAprès analyse de votre situation, il s’avère que vous ne répondez pas aux critères prévus ci-avant : le JA ou nouvel installé de votre structure n’étant pas encore installé au 16 mai 2022, ni déposant d’une déclaration PAC en 2022.\r\nC’est pourquoi, je vous informe que votre demande ne peut malheureusement être acceptée. Vous n’êtes donc pas autorisé à retourner les parcelles, objet de votre sollicitation.\r\n\r\nLa faisabilité de votre projet au regard de la réglementation visant la protection de l’environnement n’a pas été étudiée. Par conséquent, le retournement des prairies pourrait faire l’objet en cas d’infraction, d’un rapport de manquement administratif et d’une mise en demeure de réimplantation assortie le cas échéant, d’une astreinte et d’une amende administrative. Il vous exposera par ailleurs à des réductions des aides du premier pilier de la PAC au titre de la conditionnalité.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Au titre de la PAC et pour la campagne de déclaration 2023, conformément à l’arrêté du 17 avril 2019 modifié, seules trois catégories d’exploitants peuvent potentiellement bénéficier d’un avis favorable suite au dépôt d’une demande de retournement de prairies, à savoir :",
+        "description": "- les agriculteurs/trices engagé(e)s dans un plan de redressement arrêté par le préfet dans le cadre de la procédure « agriculteur en difficulté »,\r\n- les éleveurs/euses détenant plus de 75 % de prairies permanentes déclarées en 2022,\r\n- les nouveaux/elles installés/ées ayant fait une déclaration PAC en 2022 (N.B. : en cas de forme sociétaire, l’ensemble des associés doit être « nouvel installé » ou être accompagné d’au moins un JA), dans la limite de 25 % au maximum de la surface admissible en prairies permanentes de l’exploitation.\r\n\r\nAprès analyse de votre situation, il s’avère que vous ne répondez pas aux critères prévus ci-avant :  l’ensemble des associés de votre société ne sont pas tous « nouvel installé », critère exigé pour pouvoir bénéficier d’une autorisation.\r\n\r\nC’est pourquoi, je vous informe que votre demande ne peut malheureusement être acceptée.\r\nVous n’êtes donc pas autorisé à retourner les parcelles, objet de votre sollicitation.\r\n\r\nLa faisabilité de votre projet au regard de la réglementation visant la protection de l’environnement n’a pas été étudiée. Par conséquent, le retournement des prairies pourrait faire l’objet en cas d’infraction, d’un rapport de manquement administratif et d’une mise en demeure de réimplantation assortie le cas échéant, d’une astreinte et d’une amende administrative. Il vous exposera par ailleurs à des réductions des aides du premier pilier de la PAC au titre de la conditionnalité.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "En tant que jeune agriculteur, avez-vous déjà fait une autre demande de retournement de prairies avant celle-ci ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "En tant que nouvel.le installé.e, avez-vous déjà fait une autre demande de retournement de prairies avant celle-ci ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la première demande de retournement de prairies",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface de prairies à retourner accordée",
+        "description": "information à donner en hectare",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "ATTENTION, conformément à l'arrêté du 17 avril 2019 modifié, seuls 25% de la surface de prairies admissibles lors de la première demande peuvent être accordés.",
+        "description": "Ce critère sera systématiquement vérifié lors de l'instruction des demandes de retournement de prairies.\r\nLA POURSUITE DE VOTRE DÉMARCHE SUR L'OUTIL NE PRÉSAGE PAS DE LA DÉLIVRANCE D'UNE AUTORISATION DE LA SURFACE DEMANDÉE.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous fait une demande de retournement supplémentaire ? (Demande n°2)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la deuxième demande de retournement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surfaces de prairies à retourner accordées",
+        "description": "information à donner en hectare",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous fait une demande de retournement supplémentaire ? (demande n°3)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la 3 ème demande de retournement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surfaces de prairies à retourner accordées",
+        "description": "information à donner en hectare",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous fait une demande de retournement supplémentaire ? (demande n°4)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la 4 ème demande de retournement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surfaces de prairies à retourner accordées",
+        "description": "information à donner en hectare",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous fait une cinquième demande de retournement? (demande N°5)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la 5 ème demande de retournement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surfaces de prairies à retourner accordées",
+        "description": "information à donner en hectare",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DEMANDE AU TITRE DE LA PAC",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Indiquez la surface totale (en hectare)  que  vous souhaitez retourner, surface de prairie permanente  et/ou de parcelles avec l'un des codes cultures suivants : PRL, PPH, SPL, SPH, BOP, CAE, CEE, ROS ou J6P que vous exploitez, surface située dans la région des Hauts-de-France.",
+        "description": "Cette surface a été déclarée et identifiée au titre de la campagne PAC 2022.\r\nCette surface doit être indiquée en hectare.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Votre demande portant sur une surface de plus de 4 ha, elle doit faire l’objet d’un examen au cas par cas conformément à l’article R.122-2 du Code de l’environnement. Cette démarche doit permettre de déterminer si une évaluation environnementale doit être ou non réalisée, au regard des impacts potentiels que peut occasionner sur l'environnement le retournement des parcelles prévues dans l’opération. Cette instruction peut aboutir éventuellement à interdire tout ou partie d’un retournement de prairies envisagé. ATTENTION_votre demande de retournement de plus de 4 ha ne pourra être instruite que si l'examen au cas par cas a été réalisé.",
+        "description": "Cette instruction relève de la Mission Régionale d’Autorité Environnementale Hauts-de-France (MRAe) basée à la DREAL Hauts-de-France (Direction Régionale de l’Environnement, de l’Aménagement et du Logement). \r\n\r\nLes formulaires de demande d’examen au cas par cas préalable à la réalisation d’une étude d’impact et leurs notices explicatives sont disponibles sur le site :\r\nhttps://www.hauts-de-france.developpement-durable.gouv.fr/?Info-Pratiques\r\n\r\nIl vous revient donc de renseigner ces formulaires et de les transmettre à la MRAe.\r\n\r\nDes informations complémentaires liées à cette démarche sont également consultables sur le site :\r\nhttp://www.mrae.developpement-durable.gouv.fr/hauts-de-france-r22.html\r\n\r\nVous avez à remplir le cerfa 14734-03 et l'annexe 1 (sachant que la rubrique à renseigner est la rubrique 46) et envoyer le tout par mail à : aecasparcas.dreal-hdf@developpement-durable.gouv.fr\r\nou par courrier en indiquant en gros sur l’enveloppe \"AE\" :\r\nDREAL Hauts-de-France – Service IDDEE Pôle AE\r\n44, rue de Tournai\r\nCS 40259\r\n59019 LILLE CEDEX\r\n\r\nSi vous souhaitez des renseignements complémentaires concernant la demande d'examen au cas par cas, vous pouvez vous rapprocher de la DREAL.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Informations sur chacune des surfaces à retourner",
+        "description": "Vous devez apporter tous les renseignements ci-dessous pour chacune des parcelles. Pour ajouter une nouvelle parcelle, vous devez cliquer sur \"Ajouter un élément pour \"Informations sur chacune des surfaces à retourner\".",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Numéro PACAGE du détenteur pour la campagne 2022",
+            "description": "à renseigner si la parcelle était déclarée par un tiers\r\n(Ex : 062000001 – nombre à 9 chiffres) ",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro d'ilôt",
+            "description": "N'indiquer qu'un seul ilôt\r\n(tel que renseigné dans la déclaration PAC 2022)",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro de parcelle",
+            "description": "N'indiquer qu'une seule parcelle\r\n(tel que renseigné dans la déclaration PAC 2022)",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Surface totale de la parcelle",
+            "description": "en hectare",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Surface à retourner",
+            "description": "en hectare",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Code culture de la parcelle affiché dans votre déclaration PAC 2022",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune où est située la parcelle",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Section(s) et numéro(s) cadastrale(s) de la parcelle",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Parmi les parcelles à retourner, certaines sont des prairies qui ont fait l'objet d'un transfert les années antérieures",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, indiquer les numéros d'ilôts et de parcelles concernés ainsi que la date d'autorisation de transfert",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Parmi les prairies à retourner, certaines sont dites sensibles au titre de la PAC (sites Natura 2000)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Conformément à l’arrêté du 17 avril 2019 modifié, les prairies dites sensibles doivent être maintenues en place. Le labour ou la conversion de ces surfaces vers une autre catégorie de surface ou en une surface non agricole ne sont pas autorisés.",
+        "description": "Votre demande de retournement de prairies permanentes ne peut malheureusement être acceptée en l’état.\r\n\r\nA l’appui dudit critère, vous n’êtes donc pas autorisé à retourner la ou les parcelles repérées comme étant sensibles. \r\n\r\nModifiez votre demande en excluant ces parcelles.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DEMANDE AU TITRE DE L'ENVIRONNEMENT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les parcelles concernées par le retournement sont-elles situées sur des sols dont la pente est supérieure à 7%?",
+        "description": "L'outil Géoportail (https://www.geoportail.gouv.fr/ ) dispose d'une fonctionnalité dans \"Accéder aux outils cartographiques/Mesures / Établir un profil altimétrique\" permettant de mesurer la pente présente sur les parcelles.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, indiquer les numéros d'ilôts et de parcelles concernés",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les parcelles concernées par le retournement sont-elles situées sur des zones humides définies conformément à l'article R211-108 du code de l'environnement par la morphologie des sols liés à la présence prolongée d'eau d'origine naturelle et à la présence éventuelle de plantes hygrophiles ?",
+        "description": "Avec l'outil Carto 2- Environnement (https://carto2.geo-ide.din.developpement-durable.gouv.fr/frontoffice/?map=45b4fc9b-98bd-4d91-b12a-337a77f16e63&x=275120&y=6531906&z=0), vous pouvez consulter les Zones à dominantes humides Artois-Picardie. \r\nLes zones humides sont également consultables auprès du SAGE (Schéma d'Aménagement et de Gestion de l'Eau - https://www.gesteau.fr/rechercher/sage) couvrant le territoire où sont implantées la ou les parcelle(s).",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, indiquer les numéros d'ilôts et de parcelles concernés",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les parcelles concernées par le retournement sont-elles situées sur des périmètres de protection de captages d'eau potable ?",
+        "description": "Les périmètres de protection de captage d'eau potable sont consultables à la mairie de la commune où sont implantées la ou les parcelle(s).",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, indiquer les numéros d'ilôts et de parcelles concernés",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les parcelles concernées par le retournement sont-elles situées dans une aire d'alimentation de captage ?",
+        "description": "Les aires d'alimentation de captage sont consultables à l'adresse suivante : https://aires-captages.fr/aires-alimentation-captages/carte-des-aac",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, indiquer les numéros d'ilôts et de parcelles concernés",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les parcelles concernées par le retournement sont-elles situées sur des zones inondables ?",
+        "description": "Les zones inondables sont consultables à la mairie de la communes où sont implantées la ou les parcelle(s).",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, indiquer les numéros d'ilôts et de parcelles concernés",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Les parcelles concernées par le retournement sont-elles situées dans une zone réglementée ou présentant un enjeu environnemental (type natura 2000, réserve naturelle, arrêté de biotope, zone de protection spéciale, ZNIEFF...)",
+        "description": "Les zones réglementées présentant un enjeu environnemental peuvent être consultées avec l'outil Carto 2- Environnement (https://carto2.geo-ide.din.developpement-durable.gouv.fr/frontoffice/?map=45b4fc9b-98bd-4d91-b12a-337a77f16e63&x=275120&y=6531906&z=0). ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, indiquer la dénomination de la zone de protection et enjeu environnemental visé",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Indiquer les ilôts/parcelles concernés par la zone de protection",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le retournement de prairie va-t-il impacter l'espèce ou l'habitat pour lesquels la zone de protection a été repérée ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie que les parcelles ne font pas l'objet d'un engagement agro-environnemental contractuel contraignant au maintien des prairies permanentes auprès d'autres structures type Conservatoire du Littoral, Parc Naturel Régional ou autre",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie être  l'exploitant en titre des parcelles demandées et éventuellement les avoir mis à disposition en cas de forme sociétaire conformément au titre du fermage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m'engage, en cas d'accord des services de la DDTM sur la présente demande et si je ne dispose pas de l'accord écrit de mon (mes) bailleur(s), à lui (leur) fournir dans le mois qui précède l'opération, par lettre recommandée avec demande d'avis de réception, une description détaillée des travaux de retournement, conformément à l'article L.411-29 du Code rural.",
+        "description": "Le bailleur peut, s'il estime que les opérations entraînent une dégradation du fonds, saisir le tribunal paritaire dans un délai de 15 jours à compter de l'avis du preneur. Le preneur peut exécuter ou faire exécuter ces travaux si aucune opposition n'a été formée ou si le tribunal paritaire n'a pas admis la recevabilité ou le bien-fondé des motifs de l’opposition du bailleur.",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie que les renseignements figurant sur le présent imprimé sont sincères et véritables.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PIÈCE(S) JUSTIFICATIVE(S)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièce(s) justificative(s)",
+        "description": "Vous devez apporter tous les renseignements ci-dessous pour chacune des parcelles. Pour ajouter un nouveau fichier, vous devez cliquer sur \"Ajouter un élément pour \"Pièce(s) justificative(s)\".",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Uniquement en cas de découpage de parcelles, vous devez importer un (ou des) fichier(s) contenant un extrait du RPG situant précisément les parcelles ou partie de parcelles que vous souhaitez retourner (avec des mesures précises en mètres de la zone à retourner)",
+            "description": "Vous devez cliquer sur \"Parcourir\" pour importer le document.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pour les demandes de retournement de prairies faites au nom du critère \"agriculteur en difficulté, engagé dans un plan de redressement arrêté par le préfet\" (et uniquement pour cette situation), vous devez importer un fichier contenant l'arrêté préfectoral actant la procédure en cours.",
+        "description": "Vous devez cliquer sur \"Parcourir\" pour importer le document.\r\n",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "number": 63247,
+  "title": "DDETSPP 40 / SPAE / Exposition avicole Demander une attestation de provenance",
+  "description": "Cette procédure dématérialisée doit être employée pour demander une attestation de provenance pour les oiseaux issus du département des Landes en vue d'une participation à une exposition ou un concours.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2023-08-02T15:43:13+02:00",
+  "service": {
+    "nom": "40 / Services Vétérinaires -Santé Protection Animales et Environnement",
+    "organisme": "DDETSPP40",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ddetspp-40-spae-exposition-avicole-attestation",
+  "dpoUrl": "ddetspp@landes.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "Aucun lien fohttps://www.landes.gouv.fr/service-veterinaire-sante-protection-animales-et-r891.htmlurni",
+  "cadreJuridiqueUrl": "Code rural et de la pêche maritime",
+  "logo": {
+    "filename": "pref40.png",
+    "checksum": "BiohjVPrheN5e5nKbz3CSg==",
+    "byteSize": "43143",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 144,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'élevage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM Prénom de l'éleveur des oiseaux",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'élevage (N°, Rue)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune de l'élevage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Espèces concernées par la demande",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du club d'appartenance (si adhésion à un club ornithologique)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'exposition ou concours",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune du rassemblement",
+        "description": "Saisir le département puis la commune",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du rassemblement",
+        "description": "Indiquer la date du premier jour s'il se déroule sur plusieurs jours.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Participation à des rassemblements dans les 30 derniers jours",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez- vous participé à un ou plusieurs rassemblements dans les 30 derniers jours?",
+        "description": "Si oui, remplir autant de champs suivants que de rassemblements des 30 derniers jours.",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Liste des rassemblements dans les 30 derniers jours :",
+        "description": "Si participation à un rassemblement dans les 30 derniers jours, saisir la localisation et la date. SI PLUSIEURS PARTICIPATIONS, cliquer sur \" Ajouter un élément pour « Liste des rassemblements dans les 30 derniers jours : » \"",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune du rassemblement dans les 30 derniers jours",
+            "description": "Saisir le département puis la commune",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date du rassemblement dans les 30 derniers jours",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièce justificative si nécessaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièce justificative si nécessaire",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative si nécessaire",
+            "description": "",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

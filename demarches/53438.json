@@ -1,0 +1,301 @@
+{
+  "number": 53438,
+  "title": "CONTRÔLE pédagogique CFA 2022 / MONTPELLIER",
+  "description": "Cet espace permet le dépôt des pièces demandées par la mission de contrôle  MCPFA de l'académie de Montpellier dans le cadre d'un contrôle pédagogique des formations dispensées en apprentissage dans un CFA.\r\n\r\n\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2023-01-23T11:46:32+01:00",
+  "service": {
+    "nom": "Mission de contrôle pédagogique des formation par apprentissage MCPFA",
+    "organisme": "Rectorat de Montpellier",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/controle-pedagogique-cfa-2022-montpellier",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ac-montpellier.fr/cid89992/l-apprentissage.html",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042045805/2020-11-18/",
+  "logo": {
+    "filename": "2020_logo_REGIONS ACA_OCCITANIE.jpg",
+    "checksum": "bdK43a5JtNk/MRsG4T84NA==",
+    "byteSize": "26985",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "CONTRÔLE notice dépôt pièces.pdf",
+    "checksum": "LerS5IOwy+kOGEVD0IioCw==",
+    "byteSize": "27750",
+    "contentType": "application/pdf"
+  },
+  "deliberation": {
+    "filename": "CONTRÔLE notice dépôt pièces1.pdf",
+    "checksum": "74uIQcjkG5cu+3+IYWZk8g==",
+    "byteSize": "397815",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 18,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "CADRE GENERAL",
+        "description": "La loi du 5 septembre 2018 relative à la liberté de choisir son avenir professionnel a installé la mission de contrôle pédagogique des formations par apprentissage. Les modalités de mise en œuvre de cette mission ont ensuite été précisées par :\r\n•\tle décret 2018-1210 du 21 décembre 2018 portant sur le contrôle pédagogique des formations par apprentissage conduisant à l'obtention d'un diplôme ;\r\n•\tl’arrêté du 25-4-2019 portant sur l’organisation et le fonctionnement de la mission de contrôle pédagogique ;\r\n•\tla circulaire n°2019-131 du 26-9-2019 portant sur le contrôle pédagogique des formations par apprentissage.\r\nLa demande concerne :\r\n- les centres de formation d'apprentis\r\n- les établissements publics dans le cadre de la formation professionnelle continue qui doivent fournir les documents relatifs à un contrôle pédagogique des formations par apprentissage dans l'académie de Montpellier ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTIFICATION DU CFA",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Désignation du CFA",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du CFA",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° UAI du CFA",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Fiche descriptive UAI du CFA",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse du CFA",
+            "description": "N°, rue, avenue...",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Ville",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Code Postal",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DepartementChampDescriptor",
+            "label": "Département",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "N° de téléphone du CFA",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Mail du CFA (générique de préférence)",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Choisir le diplôme",
+        "description": "Choisir le type de diplôme dans la liste ci-dessous (BAC PRO, BMA, BP, BTS, CAP, DMA, MC).",
+        "required": true,
+        "options": [
+          "BAC PRO",
+          "BMA",
+          "BP",
+          "BTS",
+          "CAP",
+          "DMA",
+          "MC"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Libellé long du diplôme et le code",
+        "description": "A partir du lien ci-dessous, rechercher le libellé long exact et son code d'inscription au RNCP (copier-coller comme ci-dessous) :\r\nExemple : Niveau 4 / 400-31107 T / Baccalauréat professionnel / Conducteur transport routier marchandises / RNCP16770.\r\n\r\nListe des diplômes professionnels éducation nationale en apprentissage :\r\nhttps://data.education.gouv.fr/explore/dataset/fr-en-liste-diplomes-professionnels/table/?disjunctive.commission_professionnelle_consultative&disjunctive.secteur_de_rattachement&disjunctive.sous_secteur_de_rattachement&disjunctive.niveau_du_diplome&disjunctive.code_diplome&disjunctive.diplome&disjunctive.date_de_1ere_session&disjunctive.date_de_derniere_session&dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6ImZyLWVuLWxpc3RlLWRpcGxvbWVzLXByb2Zlc3Npb25uZWxzIiwib3B0aW9ucyI6eyJkaXNqdW5jdGl2ZS5jb21taXNzaW9uX3Byb2Zlc3Npb25uZWxsZV9jb25zdWx0YXRpdmUiOnRydWUsImRpc2p1bmN0aXZlLnNlY3RldXJfZGVfcmF0dGFjaGVtZW50Ijp0cnVlLCJkaXNqdW5jdGl2ZS5zb3VzX3NlY3RldXJfZGVfcmF0dGFjaGVtZW50Ijp0cnVlLCJkaXNqdW5jdGl2ZS5uaXZlYXVfZHVfZGlwbG9tZSI6dHJ1ZSwiZGlzanVuY3RpdmUuY29kZV9kaXBsb21lIjp0cnVlLCJkaXNqdW5jdGl2ZS5kaXBsb21lIjp0cnVlLCJkaXNqdW5jdGl2ZS5kYXRlX2RlXzFlcmVfc2Vzc2lvbiI6dHJ1ZSwiZGlzanVuY3RpdmUuZGF0ZV9kZV9kZXJuaWVyZV9zZXNzaW9uIjp0cnVlfX0sImNoYXJ0cyI6W3siYWxpZ25Nb250aCI6dHJ1ZSwidHlwZSI6ImxpbmUiLCJmdW5jIjoiQ09VTlQiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjQUYxOTc0In1dLCJ4QXhpcyI6ImRhdGVfZGVfbF9hcnJldGVfZGVfY3JlYXRpb24iLCJtYXhwb2ludHMiOiIiLCJ0aW1lc2NhbGUiOiJ5ZWFyIiwic29ydCI6IiJ9XSwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZX0%3D",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Cycle de formation",
+        "description": "",
+        "required": false,
+        "options": [
+          "Cycle en 1 an",
+          "Cycle en 2 ans"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Référentiel de certification du diplôme contrôlé (voir site EDUSCOL)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "COORDONNEES Directeur d'établissement et responsable(s) pédagogique(s)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Nom et Prénom du DIRECTEUR DE L'ETABLISSEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom, Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Coordonnées mail",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Coordonnées téléphoniques",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "RESPONSABLE(S) PEDAGOGIQUE(S) du diplôme",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Nom et prénom",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom, Prénom",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Coordonnées mail",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Coordonnées téléphoniques",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations et pièces justificatives  nécessaires pour l'instruction",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pièces justificatives à déposer",
+        "description": "Les blocs ci-dessous vous permettent de déposer les pièces requises pour l'instruction de votre dossier en respectant les modèles de documents proposés lorsqu'ils sont présents.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Avis du conseil de perfectionnement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Composition et qualification de l'équipe pédagogique de l'organisme de formation",
+        "description": "Pièce obligatoire \r\nLa liste des enseignants - formateurs - précisant leur discipline et leur niveau d'étude permettant d'apprécier leurs capacités à enseigner au niveau du diplôme contrôlé. (l'ancienneté et les CV des intervenants peuvent être demandés).",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Descriptif organisation pédagogique et progression biannuelle des activités professionnelles",
+        "description": "Organisation et progression biannuelle des activités professionnelles, (en liaison avec le référentiel des activités professionnelles)  et des compétences, (en liaison avec le référentiel de certification) mises en œuvre en centre de formation et le lien avec les activités et compétences développées en entreprise. ",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autres pièces nécessaires au traitement du dossier",
+        "description": "Ce bloc vous permet de déposer :\r\n- Livret de suivi de l'apprenti ;\r\n- Contrat d'apprentissage type ;\r\n- Fiche de suivi de compétences de l'apprenti ;\r\n- La liste des étudiants apprentis des classes du diplôme contrôlé (1ère, 2ème et/ou 3ème année selon le cas) ;\r\n- La liste des entreprises partenaires accueillant les apprentis de la formation contrôlée ;\r\n - La liste des matériels utilisés sur le plateau technique ;\r\n- Le tableau ou planning d'alternance permettant de vérifier la répartition horaire minimale réglementaire du temps de formation en centre de formation Loi L6211-2 du code du travail et son décret :\r\nLa durée de formation en centre de formation tient compte des exigences propres à chaque niveau de qualification et des orientations prévues par les conventions ou les accords de branches nationaux ou conclus à d'autres niveaux territoriaux mentionnés à l'article L. 2261-23. \r\nSous réserve, le cas échéant, des règles fixées par l'organisme certificateur du diplôme ou titre à finalité professionnelle visé, cette durée ne peut être inférieure à 25 % de la durée totale du contrat. \r\nAinsi, pour les diplômes relevant du Ministère de l’éducation nationale, seul le décret n°2020-624 du 22 mai 2020 s’applique.\r\nPour les diplômes professionnels relevant de l’éducation nationale, les durées de formation minimales exigées pour l’inscription à l’examen sont les suivantes :\r\n        * CAP : 800 heures (2 ans) ou 400 heures (1 an)\r\n        * Baccalauréat professionnel : 1850, 1350 ou 675 heures (respectivement pour 3 ans, 2 ans ou 1 an)\r\n          * Mention complémentaire : 400 heures (1 an)\r\n          * Brevet professionnel : 800 heures (2 ans) ou 400 heures (1 an)\r\n          * Brevet des métiers d’art : 1350 heures (2 ans) ou 675 heures (1an)\r\n          * BTS : 1350 heures (2 ans) ou 675 heures (1an)\r\nCes durées pourront être proratisées en fonction de la durée effective du contrat d’apprentissage.\r\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative",
+            "description": "Ajouter un document",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Dépôt de documents pédagogiques",
+        "description": "Pour chaque discipline du diplôme contrôlé et afin de permettre d'instruire le dossier vous voudrez bien déposer ci-dessous les documents pédagogiques suivants :\r\n\r\n- Un exemple de TP, TD, cours pour chaque discipline en lien avec les modalités du référentiel de formation du diplôme contrôlé. (Habilité ou non)\r\n\r\n- Les modalités de mise en œuvre du contrôle en cours de formation (situation inédite de CCF avec son corrigé) si habilité.\r\n\r\n- Arrêté de l'habilitation en cours de validité à pratiquer le contrôle en cours de formation signé par le recteur ou la rectrice si habilité.\r\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "IMPORTANT : Respecter une codification qui permette l'instruction de chacune des pièces demandées.",
+            "description": "Si la formation est habilitée en CCF :\r\n- Diplôme - Spécialité abrégée - n° de l'épreuve ou de la sous-épreuve - numéro de la situation d'évaluation\" \r\nexemples : \r\n* CAP-AEPE-EP1-2\r\n* BCP-MEI-FRANC\r\n* BCP-TISEC-LV\r\n* BTS-MCO-E3-\r\nSi le diplôme n'est pas habilité en CCF remplacer les documents précédents par des devoirs significatifs de la préparation à l'examen.",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Intitulé complet de l'épreuve",
+            "description": "Ajouter un élément pour chaque dépôt de document en respectant la codification.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Projet pédagogique",
+        "description": "Présenter, lorsque le diplôme le précise dans ses modalités de mise en œuvre un exemple de projet pédagogique.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Finalisation du dossier",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Compléments - Avis - Commentaires",
+        "description": "A remplir si besoin avec des informations complémentaires utiles pour l'étude du dossier",
+        "required": false
+      }
+    ]
+  }
+}

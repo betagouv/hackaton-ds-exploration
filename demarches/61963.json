@@ -1,0 +1,218 @@
+{
+  "number": 61963,
+  "title": " F301 - Commande de carte de personnel de structure",
+  "description": "Pré requis : \r\n- La structure doit déjà avoir souscrit <a href=\"https://esante.gouv.fr/index-des-formulaires\">un contrat d’adhésion</a> auprès de l'ANS;\r\n- Le représentant légal ou mandataire doit avoir une carte en cours de validité.\r\n<br>\r\n\r\nAfin de réaliser la démarche, vous devez être : \r\n      - Représentant légal de la structure\r\n      - Mandataire de la structure\r\n\r\nCette démarche est l’équivalent en ligne du formulaire de <i>commande de carte de personnel de structure (F301).</i>",
+  "tags": [
+    "ANS"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-12-02T10:23:17+01:00",
+  "service": {
+    "nom": "Agence du Numérique en Santé – Service clients",
+    "organisme": "Agence du Numérique en Santé",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/f301",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://esante.gouv.fr/documents/102",
+  "cadreJuridiqueUrl": "https://esante.gouv.fr/services/mentions-legales",
+  "logo": {
+    "filename": "Logo ANS.png",
+    "checksum": "JYFOVj2PrV1k00rrX0n2BQ==",
+    "byteSize": "232068",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 4291,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commande de carte de personnel de structure",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Objet de la démarche",
+        "description": "Cette démarche s'adresse au représentant légal d'une structure ou à son mandataire. \r\nElle a pour objet de permettre l'attribution aux personnels de structure : \r\n- de cartes CPE Cartes de Personnel d'Etablissement) nominatives, pour les structures de soin.\r\n- de cartes CPA (Carte de Personnel Autorisé) nominatives, pour les structures ne prenant pas en charge de patients/usagers.\r\n- de cartes CPE (Carte de Personnel d'Etablissement) de service, pour les structures de soins.\r\n\r\nElle peut servir à la désignation de mandataires en même temps que l'attribution des cartes. ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Prérequis à la demande",
+        "description": " - Avoir signé avec l’ANS, au moyen du contrat d’adhésion aux services de l’ANS relatifs aux moyens d’identification électronique (hors structures libérales), et avoir pris connaissance des Conditions Générales d’Utilisation (CGU) des moyens d’identification électronique délivrés par l’ANS ainsi que les politiques de certification accessibles sur https://esante.gouv.fr/procedures/conditions-generales-utilisation. \r\n- Le responsable légal de la structure, ou son mandataire, doit disposer d’une carte active (CDE, CDA ou CPS) ; \r\n- Pour la désignation de mandataire(s), avoir identifié la ou les personne(s) à désigner en tant que mandataires, ayant déjà des cartes en cours de validité.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de la structure ayant contractualisé avec l'ANS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "FINESS",
+        "description": "Champ obligatoire composé de 9 chiffres uniquement pour les structures prenant en charge des patients/usagers. ",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Etes-vous le représentant légal ou son mandataire",
+        "description": "",
+        "required": true,
+        "options": [
+          "Responsable légal",
+          "Mandataire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom(s)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de la structure",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La structure bénéficiaire de cette demande est elle différente de celle renseignée en début de démarche  ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination de la structure",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "FINESS",
+        "description": "Champ obligatoire uniquement pour les structures prenant en charge des patients/usagers. ",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET",
+        "description": "Si aucun numéro de FINESS n'a été renseigné ",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de livraison des cartes",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations spécifiques",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Commande de cartes CPE et CPA nominatives",
+        "description": "Inscrivez ici la liste des bénéficiaires d'une carte nominative (CPE ou CPA). Pour chaque bénéficiaire vous pouvez cocher les cases facultative ci-après :\r\n- [MANDAT] : Cochez cette case si le bénéficiaire doit disposer d'un mandat afin d'être habilité à commander et à gérer le parc de cartes pour le compte du Client ayant signé un contrat d'adhésion avec l'ANS. \r\n- [LOTS de Feuilles de Soins Electroniques (FSE)]  : Cochez cette case si le bénéficiaire doit être habilité à signer des lots de FSE (uniquement pour les centres de santé, les centres de PMI et les centres de transfusion sanguine).\r\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom d'usage",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom(s)",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "N° Matricule",
+            "description": "Le n° matricule (n° employé, n° de registre personnel...) sert d'identifiant de la carte (10 caractères). Il appartient à chaque structure de gérer l'unicité de ce numéro pour les cartes de service.",
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Mandat",
+            "description": "[MANDAT] : Cochez cette case si le bénéficiaire doit disposer d'un mandat afin d'être habilité à commander et à gérer le parc de cartes pour le compte du Client ayant signé un contrat d'adhésion avec l'ANS",
+            "required": false
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "FSE",
+            "description": "[LOTS de Feuilles de Soins Electroniques (FSE)]  : Cochez cette case si le bénéficiaire doit être habilité à signer des lots de FSE (uniquement pour les centres de santé, les centres de PMI et les centres de transfusion sanguine).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Commande des cartes CPE de service (cartes non nominatives destinées exclusivement aux structures de soins)",
+        "description": "Les CPE de service ne sont pas nominatives. Toutefois chaque carte CPE est remise par le Client à une personne qui doit être identifiée nominativement (liste tenue par le gestionnaire du parc). Attention les cartes destinées aux personnels en charge du circuit de facturation (signature de FSE, tarification à l'activité -T2A-) doivent être obligatoirement nominatives. ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du service",
+            "description": "Exemple : Pour que le nom <strong>\"Service de cardiologie\" </strong> soit inscrit sur une carte, veuillez n'écrire que <strong>\"cardiologie\" </strong>dans ce champ.",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° matricule",
+            "description": "Le n° matricule (n° employé, n° de registre personnel...) sert d'identifiant de la carte (10 caractères). Il appartient à chaque structure de gérer l'unicité de ce numéro pour les cartes de service.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives à joindre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si vous ne vous êtes pas connecté par France Connect, merci de nous faire parvenir un justificatif de votre identité",
+        "description": "Carte d’identité française/européenne (recto & verso), passeport européen, permis de conduire, carte de séjour ou de résident.",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie avoir lu et accepté les conditions générales d’utilisation relatives aux moyens d’identification électronique.",
+        "description": "les C.G.U sont consultables à l'adresse suivante : https://esante.gouv.fr/procedures/conditions-generales-utilisation",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie exactes les informations mentionnées ci-dessus. Il est rappelé que les fraudes et tentatives de fraude sont passibles de sanctions pénales et peuvent conduire à la suspension de l'instruction de votre demande ou au retrait des droits dont le bénéfice est demandé.",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "number": 1568,
+  "title": "Demande d'agrément \"Entreprise Solidaire d'Utilité Sociale\" (ESUS) - Formulaire TPSv1.4 test prod",
+  "description": "*** Version 1.4 du formulaire TPS de demande d'agrément ESUS // test production\n*** Champs construits:\n- ID du demandeur : raison sociale, numéro SIRET, correspondance SIRET avec siège social\n- ID représentant légal : civilité\n- PJ : formulaire de demande d'agrément\n*** Champs rendus non obligatoires\n",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2017-10-26T17:14:10+02:00",
+  "service": null,
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-agrement-esus-v1-4",
+  "dpoUrl": null,
+  "noticeUrl": "",
+  "siteWebUrl": "https://www.tresor.economie.gouv.fr/Ressources/14662_agrement-esus",
+  "cadreJuridiqueUrl": null,
+  "logo": {
+    "filename": "procedure-56529557-9588-431b-85c6-cbf9ed3976e1.png",
+    "checksum": "+G2t09pg+/F9REMol5grhA==",
+    "byteSize": "94068",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 2,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'entreprise demandeuse de l'agrément",
+        "description": "Données d'identification de l'entreprise demandeuse de l'agrément",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Numéro SIRET",
+        "description": "Numéro SIRET de l'établissement hébergeant le siège social de l'entreprise",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Correspondance du SIRET au siège social",
+        "description": "En cochant cette case, j'atteste que le numéro de SIRET fourni est bien celui de l'établissement hébergeant le siège social de l'entreprise",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification du ou de la représentant.e légal.e",
+        "description": "Données relatives à l'identification du représentant légal de l'entreprise demandeuse",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité du ou de la représentant.e",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Téléchargement du formulaire unique de demande d'agrément et des pièces à fournir",
+        "description": "Annonce de la séquence de téléchargement du formulaire et des pièces à fournir",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Formulaire unique de demande d'agrément",
+        "description": "Après avoir été téléchargé (à partir du lien intitulé 'Télécharger', figurant ici), rempli puis validé (directement dans le fichier ainsi chargé), le formulaire ainsi validé doit être retransmis ici par téléchargement, à partir du répertoire dans lequel il a été sauvegardé après validation\nRécupérer le formulaire vierge pour mon dossier : https://www.tresor.economie.gouv.fr/Ressources/14662_agrement-esus",
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "number": 70775,
+  "title": "CCAM - Pré-inscription usagers Pôle Environnement - Dotation des bacs",
+  "description": "Vous souhaitez échanger votre bac d'ordures ménagères suite à un déménagement, un changement de situation familiale... Effectuez votre demande en ligne. \r\n\r\nUne fois votre demande validée, vous serez recontacté par nos services ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2023-03-28T12:20:11+02:00",
+  "service": {
+    "nom": "Pole Environnement",
+    "organisme": "CC Adour Madiran",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ccam--inscription-usagers-pole-environnement",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.adour-madiran.fr",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "LOGO VAE_2019@0,5x-100.jpg",
+    "checksum": "rby64BRP616miTy9ryQm4w==",
+    "byteSize": "761957",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "RGPD.pdf",
+    "checksum": "I3EiGV5N63CHYewfIRAe4A==",
+    "byteSize": "58501",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 86,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Ma demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quel est le motif de ma demande ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Je suis un nouvel arrivant",
+          "Je déménage",
+          "Je déclare un changement de situation familiale"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Mes coordonnées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Votre NOM",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Votre Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Votre mail :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Votre téléphone :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Je suis un nouvel arrivant ou Je déménage....",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Mon ancien logement :",
+        "description": "Préciser l'adresse et le nom de la commune de votre ancien logement",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Vous êtes...",
+            "description": "",
+            "required": true,
+            "options": [
+              "Propriétaire",
+              "Locataire"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Quel sont les coordonnées de votre ancien bailleur ?",
+            "description": "Merci de préciser les coordonnées  (NOM + Prénom et adresse complète) de votre ancien bailleur. ",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Mon nouveau logement :",
+        "description": "Préciser l'adresse et le nom de la commune de votre nouveau logement",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Vous êtes...",
+            "description": "",
+            "required": true,
+            "options": [
+              "Propriétaire",
+              "Locataire"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Quels sont les coordonnées de votre nouveau bailleur ?",
+            "description": "Merci de préciser les coordonnées  (NOM + Prénom et adresse complète) de votre nouveau bailleur. ",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de personnes dans votre foyer   :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative :",
+        "description": "Pour une demande d’ouverture ou de clôture de compte usager, nous vous remercions de joindre un justificatif de votre nouvelle adresse (acte d'achat ou vente, bail, État des lieux,....). \r\nToute demande transmise sans justificatif ne pourra être traitée.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Je déclare un changement de situation familiale...",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information",
+        "description": "Tout changement de situation familiale doit être actualisé afin que le pôle environnement vous dote d'un bac adapté à votre foyer. Celui-ci à une incidence sur la facturation de la redevance. ",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Votre logement :",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Vous êtes....",
+            "description": "",
+            "required": false,
+            "options": [
+              "Propriétaire",
+              "Locataire"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Quels sont les coordonnées de votre nouveau bailleur ?",
+            "description": "Merci de préciser les coordonnées  (NOM + Prénom et adresse complète) de votre nouveau bailleur. ",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de personnes dans votre foyer   :",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative",
+            "description": "Pour une demande de changement de volume de bac, nous vous remercions de joindre un document permettant de justifier le changement du nombre de personne. Toute demande transmise sans justificatif ne pourra être traitée.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vente de composteur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Afin d’encourager la pratique du compostage domestique, le Pôle Environnement propose des composteurs à prix réduit.",
+        "description": "> Composteur bois - 400 litres : 16 €\r\n> Composteurs plastique  - 400 litres : 12 €\r\nVous pouvez également acquérir un Bio seau de 10 litres pour 3 €\r\n\r\n",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez vous acquérir un composteur à prix réduit ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quel est votre choix ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "Composteur bois 400 litres : 16 €",
+          "Composteur plastique 400 litres : 12 €",
+          "Bio seau 10 litres : 3 €"
+        ],
+        "otherOption": false
+      }
+    ]
+  }
+}

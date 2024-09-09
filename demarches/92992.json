@@ -1,0 +1,165 @@
+{
+  "number": 92992,
+  "title": "Sondage – Dites-le nous une fois",
+  "description": "L'équipe technique de Démarches simplifiées souhaite explorer une solution autour du \" Dites-le nous une fois \", qui permettrait de réemployer des informations déjà données par l'utilisateur.\r\nPar exemple, le cas de figure suivant : un usager donne sa date de naissance dans une première démarche. Dans les démarches suivantes, sa date de naissance est pré-remplie.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Premier ministre"
+  ],
+  "datePublication": "2024-04-03T15:56:17+02:00",
+  "service": {
+    "nom": "Demarches-simplifiees",
+    "organisme": "DINUM",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/sondage-dites-le-nous-une-fois",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/release_notes",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037307624",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 46,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vos cas d'usage - Dites-le nous une fois (DLNUF)",
+        "description": "Bonjour,\r\nNous souhaitons mettre en place le principe du \" Dites-le nous une fois \" (DLNUF) entre plusieurs démarches. Concrètement, si un usager a déjà donné des informations dans le cadre d'une première démarche, celles-ci seront pré-remplies dans les démarches suivantes.\r\nAfin de vous proposer une solution technique adaptée, **nous avons besoins de vos retours**, donc par avance **merci** de remplir ce sondage. Vos réponses nous aideront à :\r\n* **quantifier la volumétrie des démarches** ayant besoin du DLNUF (plus vous serez nombreux, plus ce sera notre priorité)\r\n* **qualifier les usages** de DNLUF (nous anticipons des besoins liés aux subventions, aux accréditations, aux formulaires en plusieurs étapes... mais qui sait, il y a peut-être d'autres cas d'usages, et plus ils seront nombreux, plus ce sera notre priorité)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Mes besoins en termes de DLNUF",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Pour quel(s) type(s) de démarches auriez-vous besoin de ré-utiliser des informations déjà données par l'utilisateur dans une autre démarche ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Pour quel(s) type(s) de champs cette possibilité de pré-remplissage serait utile ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Description d'au moins deux démarches ayant besoin de DLNUF",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Dites nous comment vous utiliseriez le DLNUF",
+            "description": "Merci de nous présenter un cas d'usage où le DLNUF faciliterait la mise en œuvre de votre démarche",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Sans le DLNUF, combien de champs l'usager a-t-il à saisir ?",
+            "description": "Une approximation est suffisante",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Avec le DLNUF, combien de champs l'usager aurait-il à saisir ?",
+            "description": "Une approximation est suffisante",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Cela s'applique-t-il à une démarche existante ?",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DossierLinkChampDescriptor",
+            "label": "Numéro du 1er dossier rempli par un usager",
+            "description": "Cela nous aidera à voir la nature des champs et mesurer l'effort que l'usager doit déployer pour les remplir",
+            "required": false
+          },
+          {
+            "__typename": "DossierLinkChampDescriptor",
+            "label": "Numéro du 2nd dossier que vous aimeriez pré-remplir",
+            "description": "Cela nous aidera à voir la nature des champs et mesurer l'effort que l'usager doit déployer pour les remplir",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Notre proposition en termes de DLNUF",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Solution aujourd'hui envisagée",
+        "description": "Nous vous proposons un système vous permettant d'associer aux champs de vos formulaire des labels (identifiants DLNUF) qui seront ré-utilisables entre vos différents formulaires. Le principe est le suivant : \r\n1. vous associez un identifiant DLNUF aux champs pour lesquels vous souhaitez avoir un pré-remplissage de formulaire en formulaire\r\n2. tous vos formulaires peuvent utiliser/réutiliser ces identifiants DLNUF\r\n3. lorsqu'un usager remplit un champ ayant été labellisé avec cet identifiant DLNUF, Démarches simplifiées préremplit automatiquement le champ avec la dernière valeur saisie sur un autre de vos formulaires\r\n\r\nPour vous faire une idée de la configuration : ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Qu'en pensez-vous ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Quel serait votre niveau de satisfaction avec cette solution ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Très insatisfaisant",
+          "Insatisfaisant",
+          "Satisfaisant",
+          "Très satisfaisant"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quelles sont vos attentes pour être très satisfait en terme de DLNUF ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quels bénéfices y voyez vous ?",
+        "description": "ex: des economies en coût de développement, moins de frustration usager etc...",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Avez-vous quelque chose à ajouter ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Souhaitez-vous être recontacté par l'équipe de Démarches Simplifiées ?",
+        "description": "Il se peut que votre cas d'usage nous intéresse particulièrement, auquel cas nous aimerions revenir vers vous afin d'échanger plus en détails",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Votre numéro de téléphone",
+        "description": "Nous vous appellerons pour un bref échange, ou pour planifier un bref échange.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Vos disponibilités",
+        "description": "Faites nous savoir quand cela vous arrangerait de recevoir un appel",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "number": 42007,
+  "title": "FIPD 2021 - Sécurisation des établissements scolaires - Préfecture de l'Ariège",
+  "description": "SITE DE DEPÔT DES DOSSIERS DE DEMANDES DE SUBVENTION DANS LE CADRE DU FONDS INTERMINISTÉRIEL DE PREVENTION DE LA DELINQUANCE (FIPD)\r\n\r\nVous ne pouvez déposer qu'un projet à la fois, et uniquement après en avoir informé la collectivité qui est concernée par le projet. \r\n\r\nLes trames de ces documents sont disponibles sur le site internet de la préfecture de l'Ariège. Pour les télécharger, suivre le lien ci-dessous :\r\nhttps://www.ariege.gouv.fr/Politiques-publiques/Dotations-publiques/Demandes-de-subvention\r\n\r\nVous avez besoin de votre numéro SIRET pour déposer votre demande de subvention. \r\nAssurez vous que les données qui y figurent soient à jour et correspondent bien à celles de votre RIB (adresse, dénomination de la structure).\r\n\r\n\r\nPréfecture de l'Ariège\r\nDirection des services du Cabinet\r\nBureau de la sécurité intérieure\r\npref-fipd@ariege.gouv.fr\r\n05 61 02 10 19",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2021-04-07T13:50:23+02:00",
+  "service": {
+    "nom": "Bureau de la sécurité intérieure",
+    "organisme": "Préfecture de l'Ariège",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fipd-2021-etab-scolaire-prefecture-ariege",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ariege.gouv.fr/",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "Logo.jpg",
+    "checksum": "G/JGZXOzHUslrgm12HWWeQ==",
+    "byteSize": "35698",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 5,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Contacts",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination de l'établissement scolaire",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Adresse de l'établissement scolaire",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "CP Ville",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d'établissement",
+        "description": null,
+        "required": true,
+        "options": [
+          "Établissement public d'enseignement",
+          "Établissement privé sous contrat",
+          "Établissement privé hors contrat"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Dénomination de l'organisme de gestion",
+        "description": "Indiquer le nom de la commune ou de l'organisme de gestion de l'établissement scolaire",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Dénomination de l'organisme de gestion",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de porteur de projet",
+            "description": null,
+            "required": true,
+            "options": [
+              "Collectivité territoriale",
+              "Association",
+              "Organisme de gestion",
+              "Personne morale",
+              "Autre"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse de l'organisme de gestion",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du responsable du projet",
+        "description": "Cette personne  sera l'interlocuteur privilégié des services de l'Etat, des collectivités territoriales et le cas échéant d'autres co-financeurs sollicités.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction du responsable du projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Mail du responsable",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone du responsable",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Nature du projet :",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Localisation du projet (QPV ou hors QPV).",
+        "description": "",
+        "required": true,
+        "options": [
+          "QPV",
+          "Hors QPV"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Dispositif de Vidéoprotection",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Alarme \"attentat anti-intrusion\"",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Sécurisation périmétrique des bâtiments",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autres (précisez impérativement)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Type de projet",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Choisir le type de projet",
+            "description": null,
+            "required": true,
+            "options": [
+              "1- 1ère demande",
+              "2- Extension du dispositif",
+              "3- Renouvellement des équipements"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description du projet :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Budget",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Coût total du projet (HT)",
+        "description": "Préciser ici le coût total du budget HT du projet.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Coût du TTC dispositif",
+        "description": "Préciser ici le coût total TTC du projet.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Montant de la subvention FIPD sollicitée",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autres sources de financement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Compléments",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Information complémentaire éventuelle",
+        "description": "Cette rubrique vous permet d'apporter des précisions complémentaires susceptibles d'éclairer davantage les financeurs sur la pertinence de votre projet",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Déclaration",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du représentant légal",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du représentant légal",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction du représentant légal",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail du représentant légal",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse de correspondance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Attestation sur l'honneur",
+        "description": "J'atteste être le (la) représentant(e) légal(e) de l’association, ou être autorisé(e) pour celui-ci à déposer cette demande de subvention. \nJe certifie que l’association est régulièrement déclarée, certifie que l’association est en règle au regard de l’ensemble des déclarations sociales et fiscales ainsi que des cotisations et paiements correspondants ; certifie exactes et sincères les informations du présent dossier, notamment la mention de l’ensemble des demandes de subventions introduites auprès d’autres financeurs publics ainsi que l’approbation du budget par les instances statutaires.\nJe précise que cette subvention, si elle est accordée, devra être versée au compte bancaire ou postal de l’association (RIB joint).\n\nATTENTION\n\nToute fausse déclaration est passible de peines d’emprisonnement et d’amendes prévues par les articles 4441-6 et 441-7 du code pénal.\nLe droit d’accès aux informations prévues par la loi n°78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés s’exerce auprès de service ou de l’Établissement auprès duquel vous avez déposé votre dossier.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes à transmettre -- voir liste des pièces à fournir",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Formulaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Cerfa de demande de subvention",
+        "description": "Complété, daté et signé (valable pour les établissements publics).",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Dans le cadre de l'implantation d'un système de vidéoprotection, copie du formulaire de demande d'autorisation ou arrêté préfectoral autorisant le système",
+        "description": "Obligatoire pour les dispositifs de vidéoprotection",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Délibération du conseil compétent autorisant la demande.",
+        "description": "Conseil municipal, départemental ou régional ou du conseil d'administration.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande officielle du maître d'ouvrage sollicitant une subvention au titre du FIPD et précisant le caractère prioritaire du dispositif et le montant de subvention demandée.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Etude ou diagnostic du référent sûreté ayant conduit le porteur du projet à finaliser celui-ci.",
+        "description": "Obligatoire pour les dispositifs de vidéoprotection",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan d'implantation des caméras indiquant leurs champs de vision et la finalité de leur positionnement.",
+        "description": "Obligatoire pour les dispositifs de vidéoprotection",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan Particulier de Mise en Sûreté (PPMS)",
+        "description": "Joindre une attestation",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Devis établi par un prestataire de service, daté et signé.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Devis établi par un prestataire de service, daté et signé.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Devis établi par un prestataire de service, daté et signé.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Devis établi par un prestataire de service, daté et signé.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Relevé d'identité bancaire (RIB)",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

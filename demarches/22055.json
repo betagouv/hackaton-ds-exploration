@@ -1,0 +1,388 @@
+{
+  "number": 22055,
+  "title": "Recensement citoyen (militaire)",
+  "description": "Le recensement citoyen concerne tout jeune Français âgé de 16 ans.\r\nIl permet à l'administration de convoquer le jeune pour qu'il effectue la journée défense et citoyenneté (JDC).\r\n\r\nSe munir des documents suivants :\r\n• Carte nationale d'identité ou passeport valide\r\n• Livret de famille à jour",
+  "tags": [
+    "Armée"
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2019-10-09T12:11:21+02:00",
+  "service": {
+    "nom": "État civil – Élections",
+    "organisme": "Mairie de Conflans-Sainte-Honorine",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/recensement-citoyen",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.conflans-sainte-honorine.fr/votre-mairie/demarches-administratives/etat-civil/recensement-citoyen/",
+  "cadreJuridiqueUrl": "http://www.legifrance.gouv.fr/affichCode.do?idSectionTA=LEGISCTA000006151645&cidTexte=LEGITEXT000006071335",
+  "logo": {
+    "filename": "procedure-ee10c9cf-af11-4afc-a6c0-7b115764bc90.png",
+    "checksum": "h1WYYYKOMKw3hhMwQM41CQ==",
+    "byteSize": "196899",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 449,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Ma situation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Motif de l'inscription",
+        "description": "Vous êtes de nationalité française et demandez à être :",
+        "required": true,
+        "options": [
+          "Recensé pour la participation à la journée défense et citoyenneté",
+          "Recensé, et exempté pour raison médicale de participation à la journée défense et citoyenneté"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si vous demandez à être exempté, veuillez préciser la raison :",
+        "description": "Exemption médicale\nEn cas d'absence, les pièces justificatives vous seront réclamées ultérieurement par votre centre du service national (la demande d'exemption médicale peut également être formulée après votre recensement, auprès du centre du service national dont vous dépendez)",
+        "required": false,
+        "options": [
+          "Titulaire d'une carte d'invalidité de 80% minimum",
+          "Autre situation"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Possédez-vous une double nationalité ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Si oui, quel est le pays de votre deuxième nationalité ?",
+        "description": "En principe, un double-national doit remplir ses obligations de service national dans les deux États dont il a la nationalité. Néanmoins, afin d'éviter cette situation, des conventions internationales ont été conclues entre la France et certains pays étrangers. Il en résulte, théoriquement, que les administrés binationaux (de sexe masculin uniquement) peuvent, lorsque la France est signataire d'une convention avec le pays dont ils ont également la nationalité, n'effectuer qu'un seul service. Ils seront alors considérés comme étant en règle à l'égard de l'autre État.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Mes informations personnelles",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom d'usage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom(s)",
+        "description": "Les prénoms doivent être indiqués dans l’ordre de l’état civil, avec l’orthographe figurant sur l’acte de naissance.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Pays de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code postal / Commune de naissance",
+        "description": "Exemple : 75000 PARIS",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Mon adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Adresse de domicile",
+        "description": "Votre adresse de domicile est votre adresse légale (ex : adresse de vos parents). \nVotre adresse de résidence est le lieu où vous habitez quotidiennement (ex : adresse de votre logement étudiant).",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre adresse de domicile est-elle différente de votre adresse de résidence ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Numéro et libellé de voie du domicile",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Étage - escalier - appartement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Immeuble - bâtiment - résidence",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Boite postale / lieu-dit",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département de domicile",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code postal / Commune de domicile",
+        "description": "Exemple : 75000 PARIS",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Adresse de résidence",
+        "description": "Dans le cas où votre adresse de domicile est différente de votre adresse de résidence veuillez remplir les champs suivants.",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Numéro et libellé de voie de résidence",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département de résidence",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code Postal / Commune",
+        "description": "Exemple : 75000 PARIS",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Situation Familiale",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation matrimoniale",
+        "description": null,
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Marié(e)",
+          "PACS",
+          "Autres"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'enfants à charge",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de frères et soeurs",
+        "description": "Indiquez le nombre total de frères et sœurs germains, et de frères et sœurs utérins ou consanguins (demi-frères et demi-sœurs).",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous pupille ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone fixe",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone portable",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Ma filiation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information importante",
+        "description": "Vous devez renseigner les rubriques concernant vos parents. \nSi votre filiation n'est pas établie, ou n'est que partiellement établie, cochez la ou les cases correspondant à votre situation.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Parent 1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance du parent 1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom(s) du parent 1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance du parent 1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Pays de naissance du parent 1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code postal / Commune de naissance du parent 1",
+        "description": "Exemple : 75000 PARIS",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nationalité du parent 1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Filiation inconnue pour le parent 1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Parent 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance du parent 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom(s) du parent 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance du parent 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Pays de naissance du parent 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code postal / Commune de naissance du parent 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nationalité du parent 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Filiation inconnue pour le parent 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Une photocopie d'un titre d'identité et de nationalité en cours de validité",
+        "description": "Justificatifs d'identité admis :\n• une carte nationale d'identité (photocopie recto-verso)\n• un passeport",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Une photocopie du livret de famille prouvant votre filiation (page du demandeur et des parents)",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

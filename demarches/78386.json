@@ -1,0 +1,545 @@
+{
+  "number": 78386,
+  "title": "ICPE - Sécheresse - Déclenchement niveau \"Alerte Renforcée\" - 2023",
+  "description": "Formulaire à compléter par les exploitants prélevant dans une masse d'eau concernée par un arrêté départemental déclenchant le seuil d'alerte renforcée.",
+  "tags": [
+    "Industrie",
+    "ICPE",
+    "Autorisation",
+    "Enregistrement",
+    "sécheresse"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2023-07-10T09:49:45+02:00",
+  "service": {
+    "nom": "Service Prévention des Risques Anthropiques",
+    "organisme": "DREAL GE",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/icpe-secheresse-alerte-renforcee",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "Internet DREAL GE",
+  "cadreJuridiqueUrl": "http://propluvia.developpement-durable.gouv.fr/propluvia/faces/index.jsp",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 15,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations générales sur votre installation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'ICPE",
+        "description": "Raison sociale (ou nom d'usage) de votre installation classée pour la protection de l'environnement (ICPE).",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Code Inspection",
+        "description": "Code AIOT ou anciennement code S3IC\r\nCode à dix chiffres unique à votre installation attribué par l'Inspection des Installations classées (qui peut être retrouvé dans les rapports d'inspection, sur l'application GIDAF ou en haut à droite de votre espace de déclaration GEREP).",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune d'implantation",
+        "description": "Commune d'implantation de votre ICPE",
+        "required": true
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département",
+        "description": "Département de la commune d'implantation",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Gestion de la ressource en eau (Prélèvements et Rejets)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Prélèvements - Origine(s) de l'approvisionnement en eau",
+        "description": "Précisez le(s) origine(s) de votre approvisionnement en eau: Réseau d'adduction en eau potable (AEP) de la ville, masse d'eau souterraine (nappes), masse d'eau superficielle (ruisseau, cours d'eau), mer.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Réseau d'adduction en eau potable (AEP)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Prélèvement dans le réseau AEP",
+        "description": "Cochez la case si vous prélever dans le réseau de ville pour des besoins d'eau industriels (process, refroidissement...).\r\nNe pas cocher cette case si l'eau prélevée dans le réseau AEP est utilisée exclusivement pour des usages sanitaires.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du réseau AEP",
+        "description": "Précisez le nom du réseau ainsi que le syndicat des eaux qui assure votre approvisionnement en eau potable.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Seuil de prélèvement annuel autorisé (AEP)",
+        "description": "Précisez le seuil de prélèvement autorisé dans le réseau d'adduction en eau potable en mètres cubes par an (quantité maximale annuelle prescrite).\r\n\r\nLe seuil à indiquer est celui qui figure dans votre arrêté préfectoral (si ce niveau maximal n'est pas inscrit dans votre arrêté préfectoral, indiquez le seuil figurant dans votre dossier de demande d'autorisation/enregistrement).\r\nSi vous ne disposez pas de seuils, indiquez 0.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Prélèvement moyen journalier (AEP) - Réel",
+        "description": "Précisez le volume moyen journalier (réel) prélevé dans le réseau AEP en mètres cube par jour \r\n(calculé sur la base des volumes prélevés durant les jours d'activité, sans mesures de restrictions, durant l'année civile précédente).\r\n\r\nDans le cas où les mesures de restrictions forfaitaires de volumes de l'arrêté ministériel s'appliquent à votre site, vos efforts de réductions seront évalués par rapport au volume de prélèvement moyen journalier indiqué.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Prélèvement indispensable (AEP)",
+        "description": "Cochez \"oui\" si une partie (ou l'ensemble) du prélèvement dans le réseau AEP est nécessaire et indispensable à l'activité (pour des raisons de sécurité et d'intégrité des installations)",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Volume journalier indispensable à l'activité (AEP) - Réel",
+        "description": "Précisez la quantité moyenne journalière des prélèvements effectués (en mètres cubes par jour) dans le réseau AEP qui sont liés à des usages nécessaires à la sécurité et à l'intégrité des installations ainsi que pour les usages sanitaires.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Eaux superficielles",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Prélèvement dans les eaux superficielles",
+        "description": "Cochez la case si vous prélevez directement dans une masse d'eau superficielle (cours d'eau, ruisseau, rivière...) pour des besoins d'eau industriels (process, refroidissement...).",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la masse d'eau superficielle",
+        "description": "Précisez le nom de la masse d'eau superficielle dans laquelle s'effectue le prélèvement ainsi que le code de masse d'eau associée.\r\nSi le prélèvement s'effectue dans plusieurs masses d'eau, précisez l'ensemble des masses d'eau.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Seuil de prélèvement annuel autorisé (Eaux superficielles)",
+        "description": "Précisez le seuil de prélèvement autorisé dans les eaux superficielles en mètres cubes par an (quantité maximale annuelle prescrite).\r\n\r\nSi le prélèvement s'effectue dans plusieurs masses d'eau, indiquez le volume total annuel maximal autorisé.\r\n\r\nLe seuil à indiquer est celui qui figure dans votre arrêté préfectoral (si ce niveau maximal n'est pas inscrit dans votre arrêté préfectoral, indiquez le seuil figurant dans votre dossier de demande d'autorisation/enregistrement).\r\nSi vous ne disposez pas de seuils, indiquez 0.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Prélèvement moyen journalier (Eaux superficielles) - Réel",
+        "description": "Précisez le volume moyen journalier (réel) prélevé dans les eaux superficielles en mètres cube par jour\r\n(calculé sur la base des volumes prélevés durant les jours d'activité, sans mesures de restrictions, durant l'année civile précédente).\r\n\r\nDans le cas où les mesures de restrictions forfaitaires de volumes de l'arrêté ministériel s'appliquent à votre site, vos efforts de réductions seront évalués par rapport au volume de prélèvement moyen journalier indiqué.\r\n\r\nSi le prélèvement s'effectue dans plusieurs masses d'eau, indiquez le prélèvement total moyen journalier prélevé dans l'ensemble des masses d'eau superficielles.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Eaux souterraines",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Prélèvement dans les eaux souterraines",
+        "description": "Cochez la case si vous prélevez directement dans une masse d'eau souterraine (nappe profonde, phréatique... via un forage/puits) pour des besoins d'eau industriels (process, refroidissement...).",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la masse d'eau souterraine",
+        "description": "Précisez le nom de la masse d'eau souterraine dans laquelle s'effectue le prélèvement ainsi que le code de masse d'eau associée.\r\nSi le prélèvement s'effectue dans plusieurs masses d'eau, précisez l'ensemble des masses d'eau.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de nappe",
+        "description": "Précisez si votre prélèvement s'effectue dans une nappe d'accompagnement d'une rivière (alluvions de la Seine...) ou dans une nappe profonde (forages généralement profond et nappe déconnectée des cours d'eau superficielles).\r\n\r\nSi vous prélevez dans plusieurs nappes, indiquez la nature de la nappe dans laquelle vous prélevez en priorité en période de sécheresse (ou la nappe dans laquelle les prélèvements sont les plus importants).",
+        "required": false,
+        "options": [
+          "Nappe d'accompagnement",
+          "Nappe profonde"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Seuil de prélèvement annuel autorisé (Eaux souterraines)",
+        "description": "Précisez le seuil de prélèvement autorisé dans les eaux souterraines en mètres cubes par an (quantité maximale annuelle prescrite).\r\n\r\nSi le prélèvement s'effectue dans plusieurs masses d'eau, indiquez le volume total annuel maximal autorisé.\r\n\r\nLe seuil à indiquer est celui qui figure dans votre arrêté préfectoral (si ce niveau maximal n'est pas inscrit dans votre arrêté préfectoral, indiquez le seuil figurant dans votre dossier de demande d'autorisation/enregistrement).\r\nSi vous ne disposez pas de seuils, indiquez 0.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Prélèvement moyen journalier (Eaux souterraines) - Réel",
+        "description": "Précisez le volume moyen journalier (réel) prélevé dans les eaux souterraines en mètres cube par jour\r\n(calculé sur la base des volumes prélevés durant les jours d'activité, sans mesures de restrictions, durant l'année civile précédente).\r\n\r\nSi le prélèvement s'effectue dans plusieurs masses d'eau, indiquez le prélèvement total moyen journalier prélevé dans l'ensemble des masses d'eau souterraines.\r\n\r\nDans le cas où les mesures de restrictions forfaitaires de volumes de l'arrêté ministériel s'appliquent à votre site, vos efforts de réductions seront évalués par rapport au volume de prélèvement moyen journalier indiqué.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Canal",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Prélèvement dans un canal",
+        "description": "Cochez la case si vous prélevez directement dans un canal (géré par VNF) pour des besoins d'eau industriels (process, refroidissement...).",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du canal",
+        "description": "Précisez le nom du canal dans lequel s'effectue le prélèvement ainsi que le code de masse d'eau associée.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Seuil de prélèvement annuel autorisé (Canal)",
+        "description": "Précisez le seuil de prélèvement autorisé dans le canal en mètres cubes par an (quantité maximale annuelle prescrite).\r\n\r\nLe seuil à indiquer est celui qui figure dans votre arrêté préfectoral (si ce niveau maximal n'est pas inscrit dans votre arrêté préfectoral, indiquez le seuil figurant dans votre dossier de demande d'autorisation/enregistrement ou dans votre convention avec VNF).\r\nSi vous ne disposez pas de seuils, indiquez 0.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Prélèvement moyen journalier (Canal) - Réel",
+        "description": "Précisez le volume moyen journalier (réel) prélevé dans le canal en mètres cube par jour\r\n(calculé sur la base des volumes prélevés durant les jours d'activité, sans mesures de restrictions, durant l'année civile précédente).",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Rejets",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Rejet direct",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Rejet direct dans une masse d'eau superficielle",
+        "description": "Précisez si vos eaux résiduaires sont rejetées directement dans une masse d'eau superficielle après traitement 'interne' dans votre installation (après un pré-traitement / passage via une station de traitement interne).",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Masse d'eau de rejet",
+        "description": "Précisez le nom ainsi que le code masse d'eau associé où s'effectuent les rejets de votre installation.\r\nSi les rejets s'effectuent dans plusieurs masses d'eau indiquez les noms de l'ensemble des masses d'eau de rejets.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Seuil de rejet autorisé (mètres cubes par an)",
+        "description": "Précisez le seuil de rejet autorisé dans le milieu naturel en mètres cubes par an (quantité maximale annuelle prescrite).\r\nSi vous ne disposez pas de seuils, indiquez 0.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Rejet moyen journalier (mètres cubes par jour) - Réel",
+        "description": "Précisez le volume moyen journalier (réel) rejeté dans le milieu naturel en mètres cube par jour\r\n(calculé sur la base des volumes rejetés durant les jours d'activité, sans mesures de restrictions, durant l'année civile précédente).",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Rejet Indirect",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Rejet indirect dans une STEP ou par épandage",
+        "description": "Précisez si vous rejetez dans une station d'épuration urbaine collective ou vous épandez vos effluents résiduaires.",
+        "required": true,
+        "options": [
+          "Rejets dans une STEP",
+          "Épandage"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la STEP",
+        "description": "Indiquez le nom de la station d'épuration",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Masse d'eau (finale) de rejet",
+        "description": "Indiquez le nom ainsi que le code de la masse d'eau superficielle de rejet finale (masse d'eau dans laquelle la station d'épuration rejette ses effluents traités).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Seuil de rejet autorisé (mètres cubes par an)",
+        "description": "Précisez le seuil de rejet autorisé dans la station d'épuration en mètres cubes par an (quantité maximale annuelle prescrite).\r\nSi vous ne disposez pas de seuils, indiquez 0.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Rejet moyen journalier (mètres cubes par jour) - Réel",
+        "description": "Précisez le volume moyen journalier (réel) rejeté dans la STEP en mètres cube par jour\r\n(calculé sur la base des volumes rejetés durant les jours d'activité, sans mesures de restrictions, durant l'année civile précédente).",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Notion de consommation d'eau",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Consommation d'eau",
+        "description": "Précisez si vous restituez tout ou une partie du volume prélevé dans le même milieu (la masse d'eau de prélèvement est la même que la masse d'eau de rejets).\r\nSi vous prélevez dans un réseau AEP ou si vous épandez, la notion de consommation d'eau ne s'applique pas à votre site.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Sécheresse - Cadre réglementaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Zone d'alerte Sécheresse",
+        "description": "Précisez la zone d'alerte sécheresse associé à votre ICPE.\r\nVous pouvez consulter le site internet de votre DREAL pour retrouver les zones d'alerte (disponibles également dans les arrêtés cadre départementaux/arrêtés cadre sécheresse).",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "APC Sécheresse (Arrêté préfectoral de prescriptions spécifiques sécheresse)",
+        "description": "Précisez si votre site dispose de prescriptions spécifiques sécheresse (figurant dans un arrêté préfectoral individuel). Il s'agit de dispositions/mesures, spécifiques à votre site, à mettre en œuvre en période de sécheresse.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Restrictions des prélèvements (APC)",
+        "description": "Précisez si, parmi les mesures à mettre en œuvre de vos prescriptions spécifiques, les quantités de prélèvements maximaux autorisés sont réduits en période de sécheresse (réduction forfaitaires ou valeurs limites de prélèvements différents). ",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Cadre réglementaire Sécheresse",
+        "description": "Précisez le texte de référence des mesures de restrictions que vous mettez en place sur votre site (en ce qui concerne spécifiquement les réductions de prélèvement et de consommations).\r\n\r\nSi votre site est soumis aux dispositions de l'article 2 de l'arrêté ministériel sécheresse du 30/06/2023 (https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047784127), en plus de ce questionnaire, vous devez renseigner un questionnaire spécifique chaque semaine dès le déclenchement du niveau de gravité d'\"Alerte Renforcée\" (https://www.demarches-simplifiees.fr/commencer/icpe-secheresse-rapportage-hebdomadaire).",
+        "required": true,
+        "options": [
+          "Arrêté ministériel \"Sécheresse\" du 30 juin 2023",
+          "Arrêté Préfectoral de votre site",
+          "Arrêté Cadre Sécheresse"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Période estivale 2023",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Arrêt technique / estival",
+        "description": "Précisez si un arrêt technique ou estival est prévu pour la période de sécheresse 2023 (entre juin et novembre).",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Arrêt complet / Partiel",
+        "description": "Précisez s'il s'agit d'un arrêt partiel (ralentissement de l'activité, maintenance partielle...) ou d'un arrêt complet.",
+        "required": true,
+        "options": [
+          "Arrêt Partiel",
+          "Arrêt Complet"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Mois d'arrêt complet/partiel",
+        "description": "",
+        "required": true,
+        "options": [
+          "Juin",
+          "Juillet",
+          "Août",
+          "Septembre",
+          "Octobre",
+          "Novembre"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Semaine d'arrêt complet/partiel",
+        "description": "",
+        "required": true,
+        "options": [
+          "Semaine 22",
+          "Semaine 23",
+          "Semaine 24",
+          "Semaine 25",
+          "Semaine 26",
+          "Semaine 27",
+          "Semaine 28",
+          "Semaine 29",
+          "Semaine 30",
+          "Semaine 31",
+          "Semaine 32",
+          "Semaine 33",
+          "Semaine 34",
+          "Semaine 35",
+          "Semaine 36",
+          "Semaine 37",
+          "Semaine 38",
+          "Semaine 39",
+          "Semaine 40",
+          "Semaine 41",
+          "Semaine 42",
+          "Semaine 43",
+          "Semaine 44",
+          "Semaine 45",
+          "Semaine 46",
+          "Semaine 47"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autres précisions",
+        "description": "Difficultés particulières à signaler; \r\nModification procédés envisagés;\r\nReport d'opération/ de fabrication envisagés...",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Déclenchement du stade \"Alerte Renforcée\"",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Mesures \"Sécheresse\" mises en oeuvre",
+        "description": "Précisez l'ensemble des dispositions prises (en application de votre arrêté préfectoral ou l'arrêté cadre départemental ou pour respecter les mesures de restrictions de l'arrêté ministériel).\r\n\r\nExemples de mesures génériques qui peuvent être mises en œuvre: renforcement de la sensibilisation du personnel sur les économies d'eau et les risques liés à la manipulation de produits toxiques susceptibles d'entraîner une pollution des eaux; interdiction de laver les véhicules et les abords de l'installation; report des opérations de maintenance régulières utilisatrices d'eau...\r\n\r\nVous devez tenir les éléments justificatifs à la disposition de l'inspection des installations classées.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Prélèvements en période d'\"Alerte Renforcée\"",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Réseau d'adduction en eau potable (AEP)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Volume moyen journalier - AEP (en mètres cubes par jour)",
+        "description": "Précisez le volume journalier moyen (en mètres cubes par jour) prélevé dans le réseau AEP depuis le déclenchement du seuil d'alerte renforcée.\r\n\r\nSi des prescriptions portant limitation des volumes prélevés s'appliquent à votre site, le volume moyen journalier doit les respecter.\r\nPar ailleurs, si l'arrêté ministériel s'applique à votre site, vous devez réduire vos prélèvements de 10% par rapport au volume de référence défini dans l'AM.\r\n\r\nVous devez tenir les éléments justificatifs à la disposition de l'inspection des installations classées.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Eaux superficielles",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Volume moyen journalier - Eaux superficielles (en mètres cubes par jour)",
+        "description": "Précisez le volume journalier moyen (en mètres cubes par jour) prélevé dans les eaux superficielles depuis le déclenchement du seuil d'alerte renforcée.\r\n\r\nSi des prescriptions portant limitation des volumes prélevés s'appliquent à votre site, le volume moyen journalier doit les respecter.\r\nPar ailleurs, si l'arrêté ministériel s'applique à votre site, vous devez réduire vos prélèvements de 10% par rapport au volume de référence défini dans l'AM.\r\n\r\nVous devez tenir les éléments justificatifs à la disposition de l'inspection des installations classées.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Eaux souterraines",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Volume moyen journalier - Eaux souterraines (en mètres cubes par jour)",
+        "description": "Précisez le volume journalier moyen (en mètres cubes par jour) prélevé dans les eaux souterraines depuis le déclenchement du seuil d'alerte renforcée.\r\n\r\nSi des prescriptions portant limitation des volumes prélevés s'appliquent à votre site, le volume moyen journalier doit les respecter.\r\nPar ailleurs, si l'arrêté ministériel s'applique à votre site, vous devez réduire vos prélèvements de 10% par rapport au volume de référence défini dans l'AM.\r\n\r\nVous devez tenir les éléments justificatifs à la disposition de l'inspection des installations classées.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Canal",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Volume moyen journalier - Canal (en mètres cubes par jour)",
+        "description": "Précisez le volume journalier moyen (en mètres cubes par jour) prélevé dans le Canal depuis le déclenchement du seuil d'alerte renforcée.\r\n\r\nSi des prescriptions portant limitation des volumes prélevés s'appliquent à votre site, le volume moyen journalier doit les respecter.\r\nPar ailleurs, si l'arrêté ministériel s'applique à votre site, vous devez réduire vos prélèvements de 10% par rapport au volume de référence défini dans l'AM.\r\n\r\nVous devez tenir les éléments justificatifs à la disposition de l'inspection des installations classées.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Rejets en période d'\"Alerte Renforcée\"",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Rejets direct",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Rejet Moyen Journalier - Rejet direct (mètres cubes par jour)",
+        "description": "Précisez le volume moyen journalier (réel) rejeté directement dans le milieu en mètres cube par jour depuis le déclenchement du stade d'\"Alerte Renforcée\".",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Rejet indirect",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Rejet Moyen Journalier - Rejet indirect (mètres cubes par jour)",
+        "description": "Précisez le volume moyen journalier (réel) rejeté dans la STEP en mètres cube par jour depuis le déclenchement du stade d'\"Alerte Renforcée\".",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Consommation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Consommation moyenne journalière (en mètres cubes par jour)",
+        "description": "Précisez le volume journalier moyen consommé (en mètres cubes par jour) depuis le déclenchement du seuil d'alerte renforcée.\r\n\r\nSi des prescriptions portant limitation des volumes consommés s'appliquent à votre site, le volume moyen journalier doit les respecter.\r\nPar ailleurs, si l'arrêté ministériel s'applique à votre site, vous devez réduire vos prélèvements de 10% par rapport au volume de référence défini dans l'AM.\r\n\r\nVous devez tenir les éléments justificatifs à la disposition de l'inspection des installations classées.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Difficultés particulières",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Difficultés particulières",
+        "description": "Précisez si vous rencontrez des difficultés particulières liées à la disponibilité de la ressource ou à l'impact de vos prélèvements/rejets sur le milieu.\r\nNous vous invitons également à remonter d'éventuelles difficultés à respecter les mesures de restrictions qui s'appliquent à votre site.\r\nEn cas de besoin, vous pouvez prendre l'attache de l'inspecteur en charge du suivi de votre site.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce-jointe",
+        "description": "Vous pouvez ajouter une pièce-jointe au besoin.",
+        "required": false
+      }
+    ]
+  }
+}

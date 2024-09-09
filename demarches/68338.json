@@ -1,0 +1,141 @@
+{
+  "number": 68338,
+  "title": "Demande de création d'un Fournisseur de Services AgentConnect",
+  "description": "Cette demande peut concerner le réseau RIE, Internet ou les deux. \r\n\r\nElle permet : \r\n\r\n- soit de demander la création d'un Fournisseur de Services AgentConnect sur l'environnement d'intégration afin de vous permettre de réaliser vos développements et vos tests une fois que votre demande datapass a été validée, \r\n\r\n- soit de demander la création d'un Fournisseur de Services AgentConnect sur l'environnement de production une fois que la recette de votre implémentation a été validée par un membre de notre équipe. ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transformation et de la Fonction publiques"
+  ],
+  "datePublication": "2023-01-13T10:05:52+01:00",
+  "service": {
+    "nom": "AgentConnect",
+    "organisme": "DINUM",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-creation-fs-fca",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/demande-creation-fs-fca",
+  "cadreJuridiqueUrl": "https://www.gouvernement.fr/sites/default/files/contenu/piece-jointe/2021/05/20210601-dinum-ac-creation_agentconnect-vf.pdf",
+  "logo": {
+    "filename": "AgentConnect-Logo-HD.png",
+    "checksum": "mB5DL1JgQOqjzF37lSR5OA==",
+    "byteSize": "44535",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 123,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur votre Fournisseur de Services",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du Fournisseur de Services",
+        "description": "Précisez dans cette section le nom que vous souhaitez donner à votre Fournisseur de Services Internet tel qu'il apparaîtra aux utilisateurs d'AgentConnect.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Réseau(x) du Fournisseur de Services",
+        "description": "Merci de sélectionner le(s) réseau(x) sur lequel (lesquels) vous souhaitez que votre Fournisseur de Services soit créé (RIE, Internet ou les deux). ",
+        "required": true,
+        "options": [
+          "RIE",
+          "Internet"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Environnement du Fournisseur de Services",
+        "description": "Merci de sélectionner sur quel environnement vous souhaitez que votre Fournisseur de Services soit créé.  ",
+        "required": true,
+        "options": [
+          "Intégration",
+          "Production"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Configuration de votre Fournisseur de Services",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Note d'information",
+        "description": "Précisez dans cette section l'ensemble des informations techniques nécessaires à l'équipe AgentConnect pour configurer votre Fournisseur de Services.  ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "URLs de redirection de connexion (Internet)",
+        "description": "Renseignez ici la liste exhaustive des URLs de redirection de connexion vers votre Fournisseur de Services sur Internet après l'authentification auprès d'AgentConnect.\r\nIl s'agit d'URLs correspondant au(x) nom(s) de domaine de votre Fournisseur de Service.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "URLs de redirection de connexion (RIE)",
+        "description": "Renseignez ici la liste exhaustive des URLs de redirection de connexion vers votre Fournisseur de Services sur le RIE après l'authentification auprès d'AgentConnect.\r\nIl s'agit d'URLs correspondant au(x) nom(s) de domaine de votre Fournisseur de Service.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "URLs de redirection de déconnexion Internet",
+        "description": "Renseignez ici la liste exhaustive des URLs de redirection de déconnexion vers votre Fournisseur de Services sur Internet après la déconnexion via d'AgentConnect.\r\nIl s'agit d'URLs correspondant au(x) nom(s) de domaine de votre Fournisseur de Service.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "URLs de redirection de déconnexion RIE",
+        "description": "Renseignez ici la liste exhaustive des URLs de redirection de déconnexion vers votre Fournisseur de Services sur le RIE après la déconnexion via d'AgentConnect.\r\nIl s'agit d'URLs correspondant au(x) nom(s) de domaine de votre Fournisseur de Service.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Plages / adresses IP",
+        "description": "Le RIE est une fédération de réseaux (réseau Bercy, réseau DGFiP, etc.). Par défaut, les réseaux sont coupés les uns des autres par des firewalls. Il y a parfois même des interdictions spécifiques dans chaque réseau (à la discrétion de chaque service). Pour communiquer d'un réseau à l'autre, il faut ouvrir des flux réseaux. Donc pour que vous puissiez effectuer des appels à notre serveur (par exemple POST /token et GET /userinfo), nous avons besoin de l'adresse IP avec laquelle votre serveur va contacter notre serveur sur le RIE.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Algorithme de signature Internet",
+        "description": "Renseignez ici l'algorithme utilisé pour la signature des jetons id token et userinfo Internet.\r\nSi vous n'avez pas de préférence, nous vous recommandons de sélectionner RS256.",
+        "required": true,
+        "options": [
+          "ES256",
+          "RS256",
+          "HS256"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Algorithme de signature RIE",
+        "description": "Renseignez ici l'algorithme utilisé pour la signature des jetons id token et userinfo RIE.\r\nSi vous n'avez pas de préférence, nous vous recommandons de sélectionner RS256.",
+        "required": true,
+        "options": [
+          "ES256",
+          "RS256",
+          "HS256"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Voulez-vous ouvrir l'application aux personnes professionnelles du privé ?",
+        "description": "Exemple : application où l'on peut inviter des prestataires externes (ex: Tchap), ou application ouverte aux personnes du privé.\r\n\r\nSi votre application ne concerne que les agents de la fonction publique (ex: Annuaire des Entreprises), mettre \"Non\".",
+        "required": true
+      }
+    ]
+  }
+}

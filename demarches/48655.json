@@ -1,0 +1,82 @@
+{
+  "number": 48655,
+  "title": "TEST IRA NANTES",
+  "description": "Collecte Justificatif vaccination",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2021-09-22T09:36:41+02:00",
+  "service": {
+    "nom": "Service Plages",
+    "organisme": "Mairie de Dinard",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/test-ira-nantes-6",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/test/a74c9f4f-5cc5-49eb-8e2a-1aa659e113c2",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": {
+    "filename": "3rcy8b.jpg",
+    "checksum": "o5Zavvshj1REaKEGBxkfGQ==",
+    "byteSize": "526213",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 5,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Catégorie professionnelle",
+        "description": "Précisez votre fonction",
+        "required": true,
+        "options": [
+          "administratif",
+          "infirmier",
+          "kinésithérapeute",
+          "orthophoniste",
+          "psychologue"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Situation vaccinale",
+        "description": "Avez-vous contracté le COVID-19 durant les 6 derniers mois ?",
+        "required": true,
+        "options": [
+          "--J'ai contracté le COVID-19--",
+          "J'ai reçu 1 dose de vaccin",
+          "J'attends de recevoir 1 dose de vaccin",
+          "--Je n'ai pas contracté le COVID-19--",
+          "J'attends de recevoir ma 1ere dose",
+          "J'attends de recevoir ma 2è dose",
+          "J'ai reçu les 2 doses"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif",
+        "description": "Attestation selon cas :\nvaccination 1 dose ou attestation vaccination 2 doses",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "N° de mobile",
+        "description": "Précisez votre numéro de téléphone mobile",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse email",
+        "description": "Précisez votre email professionnel",
+        "required": true
+      }
+    ]
+  }
+}

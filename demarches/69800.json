@@ -1,0 +1,66 @@
+{
+  "number": 69800,
+  "title": "Réservation Braderie Riverains",
+  "description": "Réservation Braderie Riverains",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2023-02-21T15:35:32+01:00",
+  "service": {
+    "nom": "Administration Braderie",
+    "organisme": "Mairie d'Avelin",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/reservation-braderie-riverains",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.mairie-avelin.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000636232/",
+  "logo": {
+    "filename": "Blason_Avelin_texte.jpg",
+    "checksum": "u+67MzZ5WxYvhdhIRswWwQ==",
+    "byteSize": "332645",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "N° de téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Rue",
+        "description": "",
+        "required": true,
+        "options": [
+          "rue de Lille",
+          "rue des Arts",
+          "Rue d'Antroeuilles",
+          "Rue Madeleine Caulier"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro d'emplacement",
+        "description": "L’emplacement devra être partagé entre tous les copropriétaires  et locataires désirant brader devant leur habitation ou commerce",
+        "required": true
+      },
+      {
+        "__typename": "TitreIdentiteChampDescriptor",
+        "label": "Copie CNI recto verso",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

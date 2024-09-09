@@ -1,0 +1,408 @@
+{
+  "number": 85580,
+  "title": "DDPP29 / Influenza aviaire / Demande de LPS ",
+  "description": "Demande de laissez-passer sanitaire pour le transport d'animaux ou d’œufs provenant de zone réglementée vis-à-vis de l'influenza aviaire.\r\nLes demandes sont à déposer au moins 48 heures avant le mouvement.\r\n\r\nContact téléphonique : 02 98 64 36 24\r\nCourriel : ddpp-crise-lps@finistere.gouv.fr\r\n\r\nArrêté préfectoral définissant les Zones Réglementées disponibles sur : https://www.finistere.gouv.fr/Publications/Recueil-des-actes-administratifs/Recueils-publies-en-2022\r\n",
+  "tags": [
+    "Chasse",
+    "Environnement",
+    "Animaux",
+    "Tirs"
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2023-12-12T11:14:05+01:00",
+  "service": {
+    "nom": "Cellule LPS - DDPP29",
+    "organisme": "DDPP du Finistère",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ddpp29-influenza-aviaire-demande-de-lps",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.finistere.gouv.fr/Demarches-administratives/Monde-animal",
+  "cadreJuridiqueUrl": "https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:32016R0429",
+  "logo": {
+    "filename": "LOGO_DD29_prefecture.png",
+    "checksum": "u8aSWSxbqD9Em1wIKCM2NQ==",
+    "byteSize": "10710",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 4,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de départ prévue pour le mouvement",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Créneau horaire de départ prévue pour le mouvement",
+        "description": null,
+        "required": true,
+        "options": [
+          "Entre 0h et 8h",
+          "Entre 8h et 13h",
+          "Entre 13h et 18h",
+          "Entre 18h et 23h59"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ETABLISSEMENT D'ORIGINE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Zone de l'établissement d'origine",
+        "description": "Si autre zone, veuillez sélectionner \"autre\" et préciser dans le champ libre",
+        "required": true,
+        "options": [
+          "zone de protection (3km)",
+          "zone de surveillance (10km)",
+          "zone réglementée temporaire (ZCT)",
+          "zone réglementaire supplémentaire",
+          "zone indemne",
+          "zone de protection stabilisée",
+          "zone de surveillance stabilisée"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom / Raison sociale de l'établissement d'origine",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET de l'établissement d'origine",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'établissement d'origine",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email de l'établissement d'origine",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone de l'établissement d'origine",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "INUAV d'origine",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Animaux / produits concernés par la demande",
+        "description": "Sélectionner la catégorie",
+        "required": true,
+        "options": [
+          "--Gallinacés--",
+          "Œufs à couver",
+          "Œufs de consommation",
+          "Poussins d'un jour",
+          "Poules pondeuses",
+          "Poulets de chair",
+          "Pintades",
+          "Dindes",
+          "Cailles",
+          "Autres",
+          "--Palmipèdes--",
+          "Œufs à couver",
+          "Canetons d'un jour",
+          "Canards prêts à gaver",
+          "Canards gavés",
+          "Canettes",
+          "Oies",
+          "--Autres--",
+          "Gibier",
+          "Sous produits animaux"
+        ]
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Quantité",
+        "description": "- en nombre pour les animaux et œufs\r\n- en tonnes pour les sous-produits",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sexe",
+        "description": null,
+        "required": false,
+        "options": [
+          "Mixte",
+          "Mâle",
+          "Femelle"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Organisation",
+        "description": null,
+        "required": true,
+        "options": [
+          "Indépendant",
+          "En groupement",
+          "Sans objet (sous produits animaux...)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du groupement (le cas échéant)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ETABLISSEMENT DE DESTINATION",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Destination",
+        "description": "Sélectionnez la raison principale\r\n\r\n",
+        "required": true,
+        "options": [
+          "Abattoir",
+          "Mise en place élevage à 1j",
+          "Mise en place élevage animaux démarrés",
+          "Mise en ponte",
+          "Mise en gavage",
+          "Couvoir",
+          "Casserie",
+          "Centre d'Emballage d'Œufs",
+          "Plateforme de stockage d’œufs",
+          "Établissement de sous produits animaux"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Zone de l'établissement de destination",
+        "description": null,
+        "required": true,
+        "options": [
+          "zone de protection (3km)",
+          "zone de surveillance (10km)",
+          "zone réglementée temporaire (ZCT)",
+          "zone réglementaire supplémentaire",
+          "zone indemne",
+          "zone de protection stabilisée",
+          "zone de surveillance stabilisée"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "DEPARTEMENT de l'établissement de destination",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom / Raison sociale de l'établissement de destination",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET de l'établissement de destination",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'établissement de destination",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone de l'établissement de destination",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email de l'établissement de destination",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "INUAV ou N° d'agrément de destination",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Organisation",
+        "description": null,
+        "required": true,
+        "options": [
+          "Indépendant",
+          "En groupement",
+          "Sans objet (sous produits animaux...)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du groupement le cas échéant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Transport",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de départ prévue",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Heure de départ prévue",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'arrivée prévue",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Heure d'arrivée prévue",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du transporteur utilisé pour le mouvement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email du transporteur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Immatriculation du véhicule transportant les animaux",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PIECES JUSTIFICATIVES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information",
+        "description": "Les justificatifs à fournir peuvent être joints :\r\n- Directement à cette demande\r\n- ou envoyés par e-mail à :  ddpp-crise-lps@finistere.gouv.fr",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Vétérinaire",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du vétérinaire sanitaire ayant réalisé la visite clinique et prélèvements avant mouvement",
+            "description": "Indiquer \"Non Applicable\" pour les sous-produits animaux",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Compte rendu de visite clinique du vétérinaire sanitaire (le cas échéant)",
+            "description": "Document daté, signé et dans un format non modifiable (.pdf, .jpg...)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Rapport d'analyses laboratoire",
+        "description": "Document daté, signé et dans un format non modifiable (.pdf, .jpg...)\r\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Résultats laboratoire",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Transport",
+        "description": "Itinéraire\r\nNettoyage / Désinfection\r\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document transport",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Biosécurité",
+        "description": "Expéditeur, transporteur, destinataire (le cas échéant)",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Attestion biosécurité",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire (facultatif)",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

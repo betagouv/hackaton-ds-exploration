@@ -1,0 +1,623 @@
+{
+  "number": 48306,
+  "title": "Formulaire d'offre de formation Lycée Privé",
+  "description": "Offre de formation pour le Lycée Privé",
+  "tags": [
+    "Education"
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2021-09-17T10:25:55+02:00",
+  "service": {
+    "nom": "[DOS] Rectorat Académie Nancy-Metz",
+    "organisme": "DOS",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/offre-formation-lycee-pr",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://partage.ac-nancy-metz.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 13,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Etablissement :",
+        "description": "Nom de l'établissement",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. ENSEIGNEMENTS DE SPECIALITE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q1 : Cochez les enseignements de spécialité que vous souhaitez ajouter pour la classe de première à la rentrée 2022 :",
+        "description": "",
+        "required": false,
+        "options": [
+          "Arts",
+          "Histoire géographie, géopolitique et sciences politiques",
+          "Humanités, littérature et philosophie",
+          "Langues, littératures et cultures étrangères ",
+          "Littérature et LCA",
+          "Mathématiques",
+          "Numérique et sciences informatiques",
+          "Physique chimie",
+          "Sciences de la Vie et de la Terre",
+          "Sciences de l’ingénieur",
+          "Sciences économiques et sociales",
+          "EPPCS"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q1 bis : Précisez la discipline pour les enseignements de spécialité artistiques :",
+        "description": "( si Q1 est parmi « Arts » )",
+        "required": false,
+        "options": [
+          "ARTS PLASTIQUES",
+          "CINEMA-AUDIOVISUEL",
+          "DANSE",
+          "HISTOIRE DES ARTS",
+          "MUSIQUE",
+          "THEATRE"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q1 ter : Précisez la langue concernant LLCE :",
+        "description": "( si Q1 est parmi « Langues, Littératures et Cultures étrangères » )",
+        "required": false,
+        "options": [
+          "ANGLAIS",
+          "ANGLAIS MONDE CONTEMPORAIN",
+          "ALLEMAND",
+          "ESPAGNOL",
+          "ITALIEN"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Q2 : Contenu de la demande :",
+        "description": "Analyse des besoins, Vivier envisagé, Impact attendu",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Q3 : Disposez-vous des compétences dans votre établissement :",
+        "description": null,
+        "required": false,
+        "options": [
+          "OUI",
+          "NON"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Q3 bis : Si non, lesquelles seraient nécessaires ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q4 : Cochez les enseignements de spécialité que vous souhaitez supprimer pour la classe de première à la rentrée 2022 :",
+        "description": null,
+        "required": false,
+        "options": [
+          "Arts",
+          "Histoire géographie, géopolitique et sciences politiques",
+          "Humanités, littérature et philosophie",
+          "Langues, littératures et cultures étrangères",
+          "Littérature et LCA",
+          "Mathématiques",
+          "Numérique et sciences informatiques",
+          "Physique chimie",
+          "Sciences de la Vie et de la Terre",
+          "Sciences de l’ingénieur",
+          "Sciences économiques et sociales",
+          "EPPCS"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q4 bis : Précisez la discipline pour les enseignements de spécialité artistiques :",
+        "description": "( si Q4 est parmi « Arts » )",
+        "required": false,
+        "options": [
+          "ARTS PLASTIQUES",
+          "CINEMA-AUDIOVISUEL",
+          "DANSE",
+          "HISTOIRE DES ARTS",
+          "MUSIQUE",
+          "THEATRE"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q4 ter : Précisez la langue concernant LLCE :",
+        "description": "( si Q4 est parmi « Langues, Littératures et Cultures étrangères » )",
+        "required": false,
+        "options": [
+          "ANGLAIS",
+          "ANGLAIS MONDE CONTEMPORAIN",
+          "ALLEMAND",
+          "ESPAGNOL",
+          "ITALIEN"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Q5 : Informations relatives à la demande de fermeture :",
+        "description": "( Vivier ... )",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. ENSEIGNEMENTS OPTIONNELS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "a. Enseignements optionnels communs aux trois niveaux.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q6: Cochez les enseignements optionnels que vous souhaitez ajouter pour la classe de seconde à la rentrée 2022 :",
+        "description": null,
+        "required": false,
+        "options": [
+          "EPS",
+          "Latin",
+          "Grec",
+          "Italien",
+          "Espagnol",
+          "Russe",
+          "Arabe",
+          "Hébreu",
+          "Portugais",
+          "Chinois",
+          "LSF",
+          "LPRM",
+          "Musique",
+          "Théâtre",
+          "Arts Plastiques",
+          "Histoire des Arts",
+          "Ciné – Audio",
+          "Danse"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Q7 : Contenu de la demande :",
+        "description": "Analyse des besoins, Vivier envisagé, Impact attendu",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Q8 : Disposez-vous des compétences dans votre établissement :",
+        "description": null,
+        "required": false,
+        "options": [
+          "OUI",
+          "NON"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Q8 bis : Si non, lesquelles seraient nécessaires ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q9: Cochez les enseignements optionnels que vous souhaitez supprimer pour la classe de seconde à la rentrée 2022 :",
+        "description": null,
+        "required": false,
+        "options": [
+          "EPS",
+          "Latin",
+          "Grec",
+          "Italien",
+          "Espagnol",
+          "Russe",
+          "Arabe",
+          "Hébreu",
+          "Portugais",
+          "Chinois",
+          "LSF",
+          "LPRM",
+          "Musique",
+          "Théâtre",
+          "Arts Plastiques",
+          "Histoire des Arts",
+          "Ciné – Audio",
+          "Danse"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Q10 : Informations relatives à la demande de fermeture :",
+        "description": "( Vivier ... )",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "b. Enseignements optionnels uniquement en classe de seconde.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q11: Cochez les enseignements optionnels que vous souhaitez ajouter pour la classe de seconde à la rentrée 2022 :",
+        "description": null,
+        "required": false,
+        "options": [
+          "Management et gestion",
+          "SS",
+          "BIO",
+          "SL",
+          "SI / CIT",
+          "Création & culture design"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Q12 : Contenu de la demande :",
+        "description": "Analyse des besoins, Vivier envisagé, Impact attendu",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Q13 : Disposez-vous des compétences dans votre établissement :",
+        "description": null,
+        "required": false,
+        "options": [
+          "OUI",
+          "NON"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Q13 bis : Si non, lesquelles seraient nécessaires ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q14: Cochez les enseignements optionnels que vous souhaitez supprimer pour la classe de seconde à la rentrée 2022 :",
+        "description": null,
+        "required": false,
+        "options": [
+          "Management et gestion",
+          "SS",
+          "BIO",
+          "SL",
+          "SI / CIT",
+          "Création & culture design"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Q15 : Informations relatives à la demande de fermeture :",
+        "description": "( Vivier ... )",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "c. Enseignements optionnels uniquement en classe de terminale.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q16: Cochez les enseignements optionnels que vous souhaitez ajouter pour la classe de terminale à la rentrée 2022 :",
+        "description": null,
+        "required": false,
+        "options": [
+          "Mathématiques complémentaires",
+          "Mathématiques expertes",
+          "DGEMC"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Q17 : Contenu de la demande :",
+        "description": "Analyse des besoins, Vivier envisagé, Impact attendu",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Q18 : Disposez-vous des compétences dans votre établissement :",
+        "description": null,
+        "required": false,
+        "options": [
+          "OUI",
+          "NON"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Q18 bis : Si non, lesquelles seraient nécessaires ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q19: Cochez les enseignements optionnels que vous souhaitez supprimer pour la classe de terminale à la rentrée 2022 :",
+        "description": null,
+        "required": false,
+        "options": [
+          "Mathématiques complémentaires",
+          "Mathématiques expertes",
+          "DGEMC"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Q20 : Informations relatives à la demande de fermeture :",
+        "description": "( Vivier ... )",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. ENSEIGNEMENTS TECHNOLOGIQUES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "a. Enseignements de spécialité technologiques.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q21: Cochez les enseignements de spécialité technologiques que vous souhaitez ajouter pour la classe de terminale à la rentrée 2022 :",
+        "description": null,
+        "required": false,
+        "options": [
+          "STMG Gestion Finance",
+          "STMG Ressources humaines",
+          "STMG Mercatique",
+          "STMG SIG",
+          "STI ITEC",
+          "STI EE",
+          "STI SIN",
+          "STI AC",
+          "STL SPCL",
+          "STL Bio.",
+          "ST2S",
+          "STDAA",
+          "STHR",
+          "S2TMD Musique",
+          "S2TMD Théâtre",
+          "S2TMD Danse"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Q22 : Contenu de la demande :",
+        "description": "Analyse des besoins, Vivier envisagé, Impact attendu",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Q23 : Disposez-vous des compétences dans votre établissement :",
+        "description": null,
+        "required": false,
+        "options": [
+          "OUI",
+          "NON"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Q23 bis : Si non, lesquelles seraient nécessaires ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q24: Cochez les enseignements de spécialité technologiques que vous souhaitez supprimer pour la classe de terminale à la rentrée 2022 :",
+        "description": null,
+        "required": false,
+        "options": [
+          "STMG Gestion Finance",
+          "STMG Ressources humaines",
+          "STMG Mercatique",
+          "STMG SIG",
+          "STI ITEC",
+          "STI EE",
+          "STI SIN",
+          "STI AC",
+          "STL SPCL",
+          "STL Bio.",
+          "ST2S",
+          "STDAA",
+          "STHR",
+          "S2TMD Musique",
+          "S2TMD Théâtre",
+          "S2TMD Danse"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Q25 : Informations relatives à la demande de fermeture :",
+        "description": "( Vivier ... )",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "b. Enseignements technologiques.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q26: Cochez les enseignements technologiques que vous souhaitez ajouter pour la classe de première à la rentrée 2022 :",
+        "description": null,
+        "required": false,
+        "options": [
+          "STMG",
+          "STI ",
+          "STL",
+          "ST2S",
+          "STDAA",
+          "STHR",
+          "S2TMD"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Q27 : Contenu de la demande :",
+        "description": "Analyse des besoins, Vivier envisagé, Impact attendu",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Q28 : Disposez-vous des compétences dans votre établissement :",
+        "description": null,
+        "required": false,
+        "options": [
+          "OUI",
+          "NON"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Q28 bis : Si non, lesquelles seraient nécessaires ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q29: Cochez les enseignements technologiques que vous souhaitez supprimer pour la classe de première à la rentrée 2022 :",
+        "description": null,
+        "required": false,
+        "options": [
+          "STMG",
+          "STI ",
+          "STL",
+          "ST2S",
+          "STDAA",
+          "STHR",
+          "S2TMD"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Q30 : Informations relatives à la demande de fermeture :",
+        "description": "( Vivier ... )",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4. LANGUES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q31.1 : Cochez les langues que vous souhaitez ajouter à la rentrée 2022 :",
+        "description": "LV1",
+        "required": false,
+        "options": [
+          "Anglais",
+          "Allemand",
+          "Espagnol",
+          "Italien",
+          "Chinois",
+          "Russe"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q31.2 : Cochez les langues que vous souhaitez ajouter à la rentrée 2022 :",
+        "description": "LV2",
+        "required": false,
+        "options": [
+          "Anglais",
+          "Allemand",
+          "Espagnol",
+          "Italien",
+          "Chinois",
+          "Russe"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Q32 : Contenu de la demande :",
+        "description": "Analyse des besoins, Vivier envisagé, Impact attendu",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Q33 : Disposez-vous des compétences dans votre établissement :",
+        "description": null,
+        "required": false,
+        "options": [
+          "OUI",
+          "NON"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Q33 bis : Si non, lesquelles seraient nécessaires ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q34.1 : Cochez les langues que vous souhaitez supprimer à la rentrée 2022 :",
+        "description": "LV1",
+        "required": false,
+        "options": [
+          "Anglais",
+          "Allemand",
+          "Espagnol",
+          "Italien",
+          "Chinois",
+          "Russe"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Q34.1 : Cochez les langues que vous souhaitez supprimer à la rentrée 2022 :",
+        "description": "LV2",
+        "required": false,
+        "options": [
+          "Anglais",
+          "Allemand",
+          "Espagnol",
+          "Italien",
+          "Chinois",
+          "Russe"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Q35 : Informations relatives à la demande de fermeture :",
+        "description": "( Vivier ... )",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "number": 73309,
+  "title": "CPAM 24 - PS - DEPOT DE PJ DE TELETRANSMISSION",
+  "description": "Démarche réservée aux Médecins et Chirurgiens dentistes pour le dépôt de pièces justificatives des lots télétransmis en mode dégradé. \r\nPour tout autre document conserver le circuit habituel.\r\nATTENTION : Faire une déclaration par lot et joindre  seulement les documents correspondants à ce lot à joindre à la demande",
+  "tags": [
+    "PIECES JUSTIFICATIVES",
+    "Teletransmission"
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2023-04-13T18:01:10+02:00",
+  "service": {
+    "nom": "GFE - Gestion Flux Entrants",
+    "organisme": "CPAM DORDOGNE",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/cpam-24-ps-depot-de-pj-de-teletransmission",
+  "dpoUrl": "dpo.cpam-dordogne@assurance-maladie.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://cpam24.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006073189?codeTitle=Code+de+la+s%C3%A9curit%C3%A9+sociale",
+  "logo": {
+    "filename": "355722.png",
+    "checksum": "fqQQ34MqkCHZTeKqFCJC1Q==",
+    "byteSize": "38579",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 5165,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ORGANISME DESTINATAIRE DU LOT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Renseigner l'organisme destinataire du lot",
+        "description": "A noter : pour les assurés du régime agricole les lots sont à transmettre directement à la MSA",
+        "required": true,
+        "options": [
+          "CPAM 24"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATIONS TELETRANSMISSIONS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° ADELI ou N° FINESS si salariat,  sur 9 caractères",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom praticien",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° de lot sur 3 caractères",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la télétransmission",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DEPOT DES PIECES JUSTIFICATIVES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Délai d'envoi des PJ",
+        "description": "Rappel : Les pièces justificatives doivent nous être adressées dans les 30 jours suivant la télétransmission",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièces justificatives de lot concerné",
+            "description": "Pour déposer plusieurs documents, cliquez sur le bouton \"Ajouter un élément\"",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ENGAGEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je conserve les originaux que je m'engage à fournir aux services de l'Assurance Maladie sur demande",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case le Professionnel de santé certifie l'exactitude des données renseignées et déposées",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

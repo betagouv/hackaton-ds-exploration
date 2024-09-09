@@ -1,0 +1,541 @@
+{
+  "number": 13433,
+  "title": "Consultation du Domaine",
+  "description": "Vous êtes une collectivité territoriale, un groupement de collectivités \r\nterritoriales, un établissement public national ou local, une autre personne publique ou privée tenue à la consultation du Domaine préalablement\r\nà la réalisation de vos projets immobiliers.\r\nLe Portail  \"Consultation du Domaine\" permet désormais de dématérialiser la procédure d'avis du Domaine : saisie et envoi des formulaires de demande d'évaluation au pôle d'évaluation domaniale (PED) compétent par le consultant, échanges entre le PED et le consultant via la messagerie intégrée, envoi des avis d'évaluation par le PED au consultant.\r\nUn guide d'utilisation de l'outil et une notice d'aide à la saisie du formulaire dématérialisé sont accessibles à partir du lien ci-dessous :\r\nhttps://www.portail-immo.gouv.fr/documentations/d/ea2363d8fc6942e38545/",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2019-01-25T17:15:29+01:00",
+  "service": {
+    "nom": "Direction générale des Finances Publiques",
+    "organisme": "Direction de l'immobilier de l'État",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fdce9b58-de03-444e-99d9-b3cff7121116",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "",
+  "cadreJuridiqueUrl": "https://www.portail-immo.gouv.fr",
+  "logo": {
+    "filename": "procedure-1dec23ca-b0dd-44aa-86e9-89802e1bdbf8.png",
+    "checksum": "+mWy2qeXz8rds8PVGsSmDg==",
+    "byteSize": "69224",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 1,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom, Prénom de la personne à contacter y compris pour une visite sur place",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonctions",
+        "description": "de la personne à contacter",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": "de la personne à contacter",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse courriel",
+        "description": "de la personne à contacter",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1.  Évaluations relevant de la compétence de la DNID",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La demande d'évaluation relève-t-elle de la compétence de la DNID?",
+        "description": "Hors région Ile-de-France, cochez systématiquement la case non",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. Description de l’opération envisagée (voir notice):",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nature de l'opération",
+        "description": "",
+        "required": true,
+        "options": [
+          "Cession",
+          "Acquisition amiable",
+          "Acquisition par expropriation",
+          "Acquisition par exercice du droit de préemption",
+          "Acquisition par exercice du droit de préemption renforcé",
+          "Prise à bail",
+          "Bail emphytéotique",
+          "Déclaration d'utilité publique",
+          "Éviction commerciale"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si acquisition par exercice du droit de préemption, joindre la DIA",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Modalités particulières de l'opération",
+        "description": "voir notice",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Motif et contexte de l'opération",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Opération d'ensemble",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Calendrier prévisionnel",
+        "description": "Délai / période prévisionnelle de réalisation de l'opération",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Négociation engagée",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si oui, joindre le justificatif",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. Identification, description du ou des biens (voir notice) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si pluralité de biens",
+        "description": "Dans les suivantes (....) veuillez remplir l'un des tableurs ci-dessous.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau de Biens Excel",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau de Biens libreOffice",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dans les autres cas",
+        "description": "Veuillez compléter les rubrique 3, 4 et 5",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Adresse précise du bien à évaluer",
+        "description": "Faute d'adresse précise veuillez indiquer le nom de la commune",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autres parcelles cadastrales",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Numéro(s) de lot(s)",
+        "description": "(le cas échéant)",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Département du bien à évaluer",
+        "description": "",
+        "required": true,
+        "options": [
+          "1 - Ain",
+          "2 - Aisne",
+          "3 - Allier",
+          "5 - Hautes-Alpes",
+          "4 - Alpes-de-Haute-Provence",
+          "6 - Alpes-Maritimes",
+          "7 - Ardèche",
+          "8 - Ardennes",
+          "9 - Ariège",
+          "10 - Aube",
+          "11 - Aude",
+          "12 - Aveyron",
+          "13 - Bouches-du-Rhône",
+          "14 - Calvados",
+          "15 - Cantal",
+          "16 - Charente",
+          "17 - Charente-Maritime",
+          "18 - Cher",
+          "19 - Corrèze",
+          "2a - Corse-du-sud",
+          "2b - Haute-corse",
+          "21 - Côte-d'or",
+          "22 - Côtes-d'armor",
+          "23 - Creuse",
+          "24 - Dordogne",
+          "25 - Doubs",
+          "26 - Drôme",
+          "27 - Eure",
+          "28 - Eure-et-Loir",
+          "29 - Finistère",
+          "30 - Gard",
+          "31 - Haute-Garonne",
+          "32 - Gers",
+          "33 - Gironde",
+          "34 - Hérault",
+          "35 - Ile-et-Vilaine",
+          "36 - Indre",
+          "37 - Indre-et-Loire",
+          "38 - Isère",
+          "39 - Jura",
+          "40 - Landes",
+          "41 - Loir-et-Cher",
+          "42 - Loire",
+          "43 - Haute-Loire",
+          "44 - Loire-Atlantique",
+          "45 - Loiret",
+          "46 - Lot",
+          "47 - Lot-et-Garonne",
+          "48 - Lozère",
+          "49 - Maine-et-Loire",
+          "50 - Manche",
+          "51 - Marne",
+          "52 - Haute-Marne",
+          "53 - Mayenne",
+          "54 - Meurthe-et-Moselle",
+          "55 - Meuse",
+          "56 - Morbihan",
+          "57 - Moselle",
+          "58 - Nièvre",
+          "59 - Nord",
+          "60 - Oise",
+          "61 - Orne",
+          "62 - Pas-de-Calais",
+          "63 - Puy-de-Dôme",
+          "64 - Pyrénées-Atlantiques",
+          "65 - Hautes-Pyrénées",
+          "66 - Pyrénées-Orientales",
+          "67 - Bas-Rhin",
+          "68 - Haut-Rhin",
+          "69 - Rhône",
+          "70 - Haute-Saône",
+          "71 - Saône-et-Loire",
+          "72 - Sarthe",
+          "73 - Savoie",
+          "74 - Haute-Savoie",
+          "75 - Paris",
+          "76 - Seine-Maritime",
+          "77 - Seine-et-Marne",
+          "78 - Yvelines",
+          "79 - Deux-Sèvres",
+          "80 - Somme",
+          "81 - Tarn",
+          "82 - Tarn-et-Garonne",
+          "83 - Var",
+          "84 - Vaucluse",
+          "85 - Vendée",
+          "86 - Vienne",
+          "87 - Haute-Vienne",
+          "88 - Vosges",
+          "89 - Yonne",
+          "90 - Territoire de Belfort",
+          "91 - Essonne",
+          "92 - Hauts-de-Seine",
+          "93 - Seine-Saint-Denis",
+          "94 - Val-de-Marne",
+          "95 - Val-d'oise",
+          "976 - Mayotte",
+          "971 - Guadeloupe",
+          "973 - Guyane",
+          "972 - Martinique",
+          "974 - Réunion"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nature du bien",
+        "description": "",
+        "required": true,
+        "options": [
+          "Appartement",
+          "Maison",
+          "Bien militaire",
+          "Bureau",
+          "Commerce",
+          "Exploitation agricole",
+          "Terrain à bâtir",
+          "Terres agricoles",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si autre, précisez",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description du bien (parcelle, nature des constructions, surfaces par types de biens..)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le bien a-t-il déjà été évalué par le service du Domaine",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si ce bien a déjà été évalué par le service du Domaine, joindre l'avis d'évaluation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4. Situation juridique du bien (voir notice) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identité des propriétaires du bien :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation locative du bien :",
+        "description": "",
+        "required": true,
+        "options": [
+          "Libre",
+          "Loué"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si le bien est loué, joindre le bail en vigueur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5. Urbanisme (voir notice) :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Plan Local d'Urbanisme (PLU)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Zonage PLU",
+        "description": "",
+        "required": false,
+        "options": [
+          "A",
+          "N",
+          "AU",
+          "U"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre le PLU",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation Particulière",
+        "description": "",
+        "required": false,
+        "options": [
+          "ZAC",
+          "ZAD / pré ZAD",
+          "Emplacement réservé"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de référence",
+        "description": "(ZAC, ZAD/ pré ZAD,...)",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Servitudes administratives ou de droit privé :",
+        "description": "(emplacement réservé, périmètre de protection : PPRI,  PPRT , ...)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Insérer les justificatifs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Réseaux et voiries :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Insérer les justificatifs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "6.  Précisions complémentaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précisions complémentaires : (voir notice )",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "7. Autres documents joints à la demande : (photos et autres documents utiles à la réalisation de l’évaluation cf. notice)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif 1",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif 2",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif 3",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif 4",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif 5",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif 6",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif 7",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif 8",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif 9",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif 10",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Signataire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du signataire :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Qualité du signataire",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

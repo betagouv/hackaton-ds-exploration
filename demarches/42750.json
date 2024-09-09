@@ -1,0 +1,966 @@
+{
+  "number": 42750,
+  "title": "Demande d'agrément pour l'immobilier d'entreprise (art. L. 510-1 du code de l'urbanisme)",
+  "description": "L’agrément constitue une autorisation préliminaire nécessaire à la mise en œuvre de certaines opérations immobilières soumises à un permis de construire ou à une déclaration préalable de travaux. La procédure a été créée au milieu des années 1950 avec comme objectif d’orienter les acteurs publics et privés du marché, dans leur choix de localisation de leurs activités économiques, dans le but de favoriser une répartition équilibrée entre les activités et l’habitat. \r\nLa procédure de l’agrément est régie par les articles L. 510-1 à L 510-4 et R. 510-1 à R. 510-15 du code de l’urbanisme.",
+  "tags": [
+    "Transport"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2021-09-15T13:56:28+02:00",
+  "service": {
+    "nom": "Mission immobilier d'entreprise",
+    "organisme": "Direction régionale et interdépatementale de l'environnement, de l'aménagement et des transports d'Ile-de-France",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-d-agrement-pour-l-immobilier-d-entreprise-",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.driea.ile-de-france.developpement-durable.gouv.fr/depot-de-dossier-de-demande-d-agrement-a5179.html",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006074075&idArticle=LEGIARTI000006816039&dateTexte=&categorieLien=cid",
+  "logo": {
+    "filename": "PREF_region_Ile_de_France_RVB.jpg",
+    "checksum": "qOn5Cu6FAjBCP13TkFJngA==",
+    "byteSize": "522239",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 675,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. Informations concernant le demandeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du bénéficiaire de l'agrément",
+        "description": "Reprendre l'intitulé exact de la raison sociale correspondant au n°SIRET du bénéficiaire (=demandeur)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du 2ème bénéficiaire de l'agrément le cas échéant",
+        "description": "Pour les projets portés par 2 structures, indiquer le nom du second bénéficiaire",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET 2ème  bénéficiaire de l'agrément le cas échéant",
+        "description": "Pour les projets portés par 2 structures, indiquer le SIRET du second bénéficiaire",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du 3ème bénéficiaire de l'agrément le cas échéant",
+        "description": "Pour les projets portés par 3 structures, indiquer le nom du 3ème bénéficiaire",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET 3ème  bénéficiaire de l'agrément le cas échéant",
+        "description": "Pour les projets portés par 3 structures, indiquer le SIRET du 3ème bénéficiaire",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom et Nom du contact opérationnel",
+        "description": "Indiquer le nom de la personne pouvant répondre à toute question technique ou administrative",
+        "required": true
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone fixe",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone mobile",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Groupe auquel appartient le bénéficiaire",
+        "description": "Indiquer la société/le groupe principal qui détient la société bénéficiaire si la dénomination du bénéficiaire est différente",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Présentation synthétique du bénéficiaire de l'agrément",
+        "description": "Préciser les activités et le profil de la société (foncière, promoteur, investisseur,...), son ancienneté, ses spécificités...",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. Nature de l'autorisation d'urbanisme et utilisateur du bien immobilier",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nature de l'autorisation d'urbanisme sollicitée",
+        "description": "",
+        "required": false,
+        "options": [
+          "Permis de construire",
+          "Déclaration préalable de travaux",
+          "Permis d'aménager"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Utilisateur",
+        "description": "",
+        "required": true,
+        "options": [
+          "Pour son propre usage",
+          "Pour un utilisateur identifié",
+          "Pour un utilisateur pressenti",
+          "Pour un usage \"en blanc\""
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez l'utilisateur, dans le cas d'un utilisateur identifié ou pressenti",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Présentation synthétique de l'utilisateur le cas échéant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. Nature de l'agrément demandé",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d'agrément demandé",
+        "description": "",
+        "required": true,
+        "options": [
+          "Nouvel agrément",
+          "Renouvellement d'un agrément caduc",
+          "Prorogation d'un agrément valide",
+          "Modification d'un agrément valide",
+          "Modification du bénéficiaire d'un agrément valide",
+          "Régularisation d'un agrément"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "S'agit-il d'un transfert vers autre bénéficiaire ?",
+        "description": "Dans le cas d'une modification/prorogation/renouvellement d'agrément, préciser si il y a un transfert vers un autre bénéficiaire.",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Nature de l'agrément demandé",
+        "description": "Sélectionner les mentions correspondant au projet (plusieurs mentions possibles).\r\nCes mentions doivent être identiques à celles détaillées dans la partie \"5. Détail des surfaces de plancher soumises à agrément\"\r\n",
+        "required": true,
+        "options": [
+          "Construction neuve",
+          "Extension de locaux",
+          "Réhabilitation",
+          "Démolition-reconstruction",
+          "Changement de destination de locaux"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Destination principale de l'agrément demandé",
+        "description": "Un seul choix possible\r\nLes différents usages seront détaillés dans la partie \"5. Détail des surfaces de plancher soumises à agrément\"\r\n",
+        "required": true,
+        "options": [
+          "bureaux",
+          "entrepôts",
+          "locaux d'activités techniques",
+          "locaux d'activités industrielles",
+          "locaux d'activités scientifiques",
+          "locaux d'enseignement",
+          "hôtel"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Sagit-il d'un Data Center?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dans le cas d'un renouvellement, d'une prorogation ou de modification d'agrément",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de l'arrêté précédent",
+        "description": "Exemple : IDF 2019-06-04-003",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de l'arrêté précédent",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du bénéficiaire de l'arrêté précédent",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Expliquer les raisons de la demande de modificaton, de renouvellement ou de prorogation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4. Implantation projetée",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse principale du projet",
+        "description": "IMPORTANT : Sélectionner une adresse proposée dans le menu déroulant et vérifier que le N° INSEE de la commune apparaisse. ",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse n°2 le cas échéant",
+        "description": "IMPORTANT : Sélectionner une adresse proposée dans le menu déroulant - ",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse n°3 le cas échéant",
+        "description": "IMPORTANT : Sélectionner une adresse proposée dans le menu déroulant - ",
+        "required": false
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Localisation du projet",
+        "description": "A compléter obligatoirement pour les projets ne disposant pas d'adresse postale précise",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Superficie des parcelles du projet en m²",
+        "description": "Surface de l'unité foncière",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le projet est-il situé en  Opération d'Intérêt National (OIN) ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le projet est-il situé en ZAC, ZAE, PUP,... ?",
+        "description": "ZAC : zone d'aménagement concertée\r\nZAE : zone d'activités économiques\r\nPUP : projet urbain partenarial",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si oui, préciser :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "le nom de la ZAC, de la  ZAE, du PUP,...",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "le nom de l'aménageur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "le n° de lot",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5. Détail des surfaces de plancher soumises à agrément",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Surfaces de plancher soumises à agrément",
+        "description": "Pour chaque type d'activité et chaque type de travaux associé, indiquer les surfaces de plancher correspondantes.\r\nRépéter le bloc autant de fois que nécessaire \r\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type d'activité",
+            "description": "",
+            "required": true,
+            "options": [
+              "bureaux",
+              "entrepôts",
+              "locaux d'activités techniques",
+              "locaux d'activités industrielles",
+              "locaux d'activités scientifiques",
+              "locaux d'enseignement",
+              "hôtel"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de travaux",
+            "description": "pour l'activité définie ci-dessus (cf. mentions indiquées dans la partie \"3. Nature de l'agrément demandé\").\r\n* A noter que les surfaces existantes sans travaux et les surfaces démolies non reconstruites ne sont pas soumises à agrément.",
+            "required": true,
+            "options": [
+              "construction neuve",
+              "extension de locaux",
+              "réhabilitation",
+              "démolition-reconstruction",
+              "changement de destination",
+              "*surfaces existantes sans travaux",
+              "*surfaces démolies non reconstruites"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Surface de plancher en m²",
+            "description": "relative à l'usage et au type de travaux définis ci-dessus.\r\nLes surfaces sont à arrondir à la centaine de m2 supérieure.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "SURFACE TOTALE soumise à agrément",
+        "description": "Somme des surfaces déclarées ci-dessus, en m²,\r\nà l'exception des *surfaces existantes sans travaux et des *surfaces démolies non reconstruites qui ne sont pas soumises à agrément.",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Indiquer le cas échéant, la destination antérieure des surfaces déclarées en changement de destination",
+        "description": "",
+        "required": false,
+        "options": [
+          "Logements",
+          "Commerces",
+          "Activités",
+          "Autres (à préciser dans la présentation du projet)"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "6. Surfaces du projet non soumises à agrément",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Surfaces du projet non soumises à agrément",
+        "description": "Pour chaque type d'activité, indiquer les surfaces de plancher correspondantes.\r\nRépéter le bloc autant de fois que nécessaire.\r\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Activité non soumise à agrément",
+            "description": "",
+            "required": false,
+            "options": [
+              "Logements",
+              "Logements sociaux",
+              "Commerces",
+              "Autre activité"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Surface de plancher en m2 avant travaux",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Surface de plancher en m2 après travaux",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Commentaires",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "7. Caractéristiques et finalité du projet",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Cas d'un projet en ZAC, ZAE ou PUP",
+        "description": "Indiquer la date de création, le programme de l'opération d'aménagement (en m² de surface de plancher) par types de surfaces aussi bien pour les activités que pour les logements \r\nET son état d’avancement (viabilisation/PC délivrés/commercialisation - informations à récupérer auprès de l’aménageur).\r\nPour les ZAC en extension urbaine, ajouter en PJ le plan de la ZAC faisant apparaitre son état d'avancement.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Présentation synthétique du projet",
+        "description": "Présenter un rapide historique du site (notamment usage passé et actuel).\r\nSi le site comprenait des bâtiments qui ont été démolis, préciser leur nature et leur surface.\r\nPrésenter les principales caractéristiques architecturales et paysagères du projet (notamment les surfaces végétalisées).",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Les effectifs préexistants au projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Les effectifs attendus suite au projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pour les entrepôts, indiquer les possibilités de transport multimodal le cas échéant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "8. Performances environnementales",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Champs à renseigner pour les opérations à destination principale de bureaux. Facultatif pour les autres destinations.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "A- QUESTIONS GENERALES relatives au projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Cep (coefficient d'énergie primaire RT 2012) envisagé",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Niveau BEPOS (Bâtiment à énergie positive) envisagé",
+        "description": "Indiquer le niveau E+C- (exemple : E2C1)",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Evaluation des émissions de GES",
+        "description": "Indiquer le cas échéant les résultats de l'évaluation des émissions de gaz à effet de serre sur tout le cycle de vie du bâtiment (construction-exploitation-fin de vie), en Kg de CO²/m² de surface de plancher (SDP)",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Certification(s) visée(s)",
+        "description": "Préciser le niveau visé  (dans le champs\" autres objectifs, à préciser visés\") pour chaque certification sélectionné",
+        "required": false,
+        "options": [
+          "BREAAM",
+          "LEED",
+          "HQE BATIMENT DURABLE",
+          "BBCA"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autres objectifs, à préciser",
+        "description": "Préciser notamment si une réversibilité de bureaux à logements est prévue. En expliquer les grands principes en quelques lignes.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Production et/ou utilisation d'énergie renouvelable envisagée ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si oui, préciser l'énergie utilisée/produite :",
+        "description": "autres que celles des réseaux de chaleur urbain",
+        "required": false,
+        "options": [
+          "Panneaux photovoltaïques",
+          "Géothermie",
+          "Bois",
+          "Panneaux solaires (eau chaude sanitaire)",
+          "Autres"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "Indiquer les études conduites pour la production/utilisation d' énergies renouvelables dans le cadre du projet. Le cas échéant, indiquer les énergies retenues (principales caractéristiques).",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le projet sera t-il raccordé au RCU ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Si oui, préciser les énergie utilisées par le RCU",
+        "description": "Répéter le bloc si plusieurs énergies utilisées pour le RCU.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Type d'énergie(s) utilisée(s) pour le RCU",
+            "description": "",
+            "required": false,
+            "options": [
+              "Biomasse (hors bois)",
+              "Bois",
+              "Géothermie",
+              "Énergie fatale",
+              "Autres non \"renouvelables\""
+            ]
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Indiquer, en pourcentage, la part de cette énergie utilisée dans le RCU",
+            "description": "Exemple: exemple indiquer 10 si la part d'énergie renouvelable est de de 10% . (Nombre entier).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Utilisation de matériaux biosourcés ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si oui, préciser les materiaux biosourcés envisagés :",
+        "description": "",
+        "required": false,
+        "options": [
+          "Bois",
+          "Chanvre",
+          "Paille",
+          "Autres"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "Préciser si un calcul a été fait pour estimer la part de matériaux biosourcés dans le bâtiment projeté. Exprimer cette donnée selon les termes du label \"bâtiment biosourcé\".",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Recyclage de matériaux prévu ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Réemploi / réutilisation de matériaux (matériels) prévu ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "Préciser si le chantier prévoit une filière de recyclage pour ses déchets et s'il utilisera des matériaux issus de filières de recyclage.\r\nPréciser si le chantier prévoit de réutiliser des matériaux (matériels) issus du chantier ou/et d'utiliser des matériaux issus d'une filière de réemploi (kg matière envisagé).",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "B- QUESTIONS RELATIVES AUX OPERATIONS VISANT UNE DEMOLITION SIGNIFICATIVE DU BATIMENT EXISTANT",
+        "description": "Cette rubrique vise à comprendre le choix environnemental du projet en termes d'impact carbone en s'assurant que les deux solutions (réhabilitation et démolition reconstruction) ont bien été étudiées et analysées . ",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de construction du bâtiment démoli.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Un diagnostic du bâtiment à démolir (ou déjà démoli) a t-il été réalisé?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Justifier le choix de la démolition",
+        "description": "Préciser les éléments du diagnostic qui ont conduit au choix de la démolition, notamment vis à vis d'une réhabilitation.\r\nPréciser si une déconstruction sélective est prévue.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "C-  QUESTIONS RELATIVES AUX OPERATIONS DE REHABILITATION / RESTRUCTURATION",
+        "description": "Cette rubrique vise à comprendre le choix environnemental du projet en termes d'impact carbone en s'assurant que les deux solutions (réhabilitation et démolition reconstruction) ont bien été étudiées et analysées . ",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Justifier le choix de la réhabilitation",
+        "description": "Préciser notamment la performance énergétique du bâtiment avant réhabilitation et celle projetée après réhabilitation.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "9-Consommation d'espaces  naturels, agricoles et forestiers",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre projet contribue t-il à artificialiser des espaces naturels, agricoles ou forestiers ?",
+        "description": "Même si le projet est située en ZAC ou dans une zone ouverte à l'urbanisation dans les documents d'urbanisme mais qu'elle est en friche ou en zone non encore urbanisée remplir ce champs.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si oui, veuillez renseigner les deux champs suivants :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Justification de la consommation d'espaces non artificialisés",
+        "description": "Préciser les raisons qui ont conduit au choix du foncier prévu pour ce projet (analyse de la disponibilité de terrains déjà urbanisés, possibilité de recyclage foncier, ...).",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Mesures de réduction et/ou de compensation  des impacts sur l’artificialisation des sols",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "10. Stationnement et accès",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de places de stationnement pour les véhicules légers",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de places de stationnement pour les poids lourds",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de places de stationnement 2 roues motorisées",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Surface de stationnement (en m²) prévue pour les vélos",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Observations complémentaires concernant les places de stationement",
+        "description": "Localisation, espaces de stationnement préexistants,...",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Accès via les pistes cyclables",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Accès en transport en commun",
+        "description": "Préciser notamment les distances et temps de parcours pour accéder aux stations/gares.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "11. Calendrier du projet et état des discussions avec les services locaux",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Echanges avec les services en charge de l'instruction du permis de construire",
+        "description": "Indiquer, le cas échéant, si le projet a été présenté à l'ABF",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Calendrier prévisionnel de l'opération :",
+        "description": "Les dates prévisionnelles indiquées ci-dessous n'ont qu'une valeur indicative.",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Dépôt de l'autorisation d'urbanisme",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Obtention de l'autorisation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Ouverture du chantier",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Livraison",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "12. Description des opérations de logements proposées en compensation",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le projet fait-il l'objet d'une cession de droit de commercialité (au titre du L.631-7 du code de la construction et de l'habitation)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Si oui, description des surfaces proposées en cession de commercialité",
+        "description": "Répéter le bloc autant de fois que nécessaire.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Maitre d'ouvrage des logements",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse du bien",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Surface des logements",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Bloc suivant à compléter UNIQUEMENT pour les projets soumis à compensation",
+        "description": "Projets situés dans le périmètre d'attention renforcée et développant plus de 10 % de surface de bureaux supplémentaire par rapport à l'existant. cf. orientations préfectorales :\r\nhttp://www.driea.ile-de-france.developpement-durable.gouv.fr/orientations-de-la-prefecture-de-region-pour-l-a5540.html\r\nEn cas de doute, contacter le bureau de l'immobilier d'entreprise.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Opérations de logements proposées en compensation au titre de l'agrément",
+        "description": "Répéter le bloc autant de fois que nécessaire.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Maitre d'ouvrage du projet de logements",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse du projet",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Surface de bureaux démolie ou transformée",
+            "description": "SDP en m2",
+            "required": false
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Surface de logements créée",
+            "description": "SDP en m2",
+            "required": false
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "dont surface de logements sociaux",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date d'obtention du PC",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Etape d'avancement du projet",
+            "description": "",
+            "required": false,
+            "options": [
+              "PC purgé de tout recours",
+              "démarrage à venir du chantier",
+              "construction en cours",
+              "projet livré"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Surfaces de logements créées ou de bureaux démolis/transformés en logements utilisées pour compenser le projet.",
+            "description": "Surface en m². Cette surface ne correspond pas forcément à la totalité des surface de logements de l'opération désignée.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "13. Les pièces à joindre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Remarque importante :",
+        "description": "Chaque fichier ne doit pas dépasser la taille de 5 Mo et doit être au format PDF.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Cerfa PC ou tableau récapitulatif des surfaces",
+        "description": "Pour le cerfa PC : version de travail ou version signée - pages 1 à 8 \r\nPour le tableau des surfaces : tableau type cerfa PC uniquement.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Le cas échéant, copie de l'agrément précédemment délivré",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièces graphiques",
+        "description": "Joindre dans un seul document pdf (10 Mo maxi) les pièces suivantes :\r\n- Plans de situation au 1/50000e et au 1/5000e\r\n- Plan masse du projet\r\n- Photo(s) du site existant\r\n- Perspectives du projet\r\n- hors Paris : Plan de desserte du projet par les transports en commun (en service et en projet) - préciser les distances et temps de marche depuis les arrêts pour rejoindre le site\r\n- hors Paris : Plan de desserte du projet par le réseau routier, matérialiser le réseau magistral (autoroute/RN) et le réseau secondaire (RD)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau des compensations",
+        "description": "Pour les opérations soumises à compensation\r\ncf. http://www.driea.ile-de-france.developpement-durable.gouv.fr/orientations-de-la-prefecture-de-region-pour-l-a5540.html",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Etude de circulation répondant aux instructions de la Préfecture de Région",
+        "description": "A joindre obligatoirement pour les demandes créant plus de 24 000 m² d’entrepôts et/ou de locaux industriels par rapport à l'existant;\r\n\r\nLes instructions (annexe 2) sont téléchargeables sur :\r\nhttp://www.driea.ile-de-france.developpement-durable.gouv.fr/depot-de-dossier-de-demande-d-agrement-a5179.html",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce complémentaire 1",
+        "description": "Par exemple : note, attestation, tableau des surfaces, relevé géomètre, plan ZAC",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Data Center - Note spécifique",
+        "description": "Note d'argumentation au regard des orientations d'instruction des agréments relatives aux centres de donnée :\r\nhttp://www.driea.ile-de-france.developpement-durable.gouv.fr/orientations-de-la-prefecture-de-region-pour-l-a5540.html",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce complémentaire 2",
+        "description": "Par exemple : note, attestation, tableau des surfaces, relevé géomètre, plan ZAC",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce complémentaire 3",
+        "description": "Par exemple : note, attestation, tableau des surfaces, relevé géomètre, plan ZAC",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "14. Engagement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie l'exactitude des informations mentionnées ci-dessus, et certifie être habilité(e) à déposer la présente demande d'agrément",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

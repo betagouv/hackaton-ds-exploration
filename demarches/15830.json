@@ -1,0 +1,251 @@
+{
+  "number": 15830,
+  "title": "Fiche navette professionnels (nombre de salariés inférieurs à 5)",
+  "description": "Formulaire de saisie des informations concernant les salariés et les véhicules des sociétés localisées dans les zones de sécurité afin de délivrance de badges d'accès",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2019-04-18T14:13:53+02:00",
+  "service": {
+    "nom": "Sous préfecture de Bayonne/vie locale - badgeage professionnels",
+    "organisme": "Préfecture des Pyrénées-Atlantiques",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/40607b81-495f-4fee-b09d-650cd73adccd",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.pyrenees-atlantiques.gouv.fr/Actualites/Sommet-du-G7-2019-a-Biarritz/Sommet-du-G7-2019-a-Biarritz",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000023943358",
+  "logo": {
+    "filename": "procedure-1a494557-b2d9-4bdb-8d2e-cc5a1708e8e2.jpg",
+    "checksum": "bocvClBAR9R1p2Na66X/cQ==",
+    "byteSize": "179658",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 4,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Liste des salariés concernés",
+        "description": "Informations nécessaires à la fabrication des badges nominatifs de tous les salariés de l'entreprise",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": "Nom du salarié",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": "Prénom usuel du salarié",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": "Date de naissance",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Lieu de naissance",
+            "description": "Lieu de naissance",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Pièce d'identité",
+            "description": "type de pièce d'identité qui sera présentée lors des contrôles",
+            "required": true,
+            "options": [
+              "Carte d'identité / ID card",
+              "Passeport / passeport",
+              "Permis de conduire / driving licence",
+              "Titre de séjour / residence permit"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro de la pièce d'identité",
+            "description": "Numéro de la pièce d'identité\n",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce d'identité",
+            "description": "joindre obligatoirement une photocopie de la pièce d'identité pour vérification",
+            "required": true
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "Retrait de l'ensemble des laisser-passer",
+            "description": "personne autorisée à retirer l'ensemble des laisser-passer de l'entreprise. Attention une seule personne doit être désignée pour retirer les laisser-passer de l'entreprise",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": "Numéro de téléphone où le professionnel peut être joint",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Véhicules",
+        "description": "liste des véhicules de la société et des véhicules du personnel devant être dotés d'un macaron",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Immatriculation",
+            "description": "immatriculation du véhicule concerné",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Marque",
+            "description": "marque du véhicule concerné",
+            "required": false,
+            "options": [
+              "Audi",
+              "Bmw",
+              "Citroen",
+              "Fiat",
+              "Ford",
+              "Mercedes",
+              "Opel",
+              "Peugeot",
+              "Renault",
+              "Volkswagen",
+              "Abarth",
+              "Aleko",
+              "Alfa Romeo",
+              "Alpina",
+              "Aro",
+              "Artega",
+              "Aston Martin",
+              "Autobianchi",
+              "Auverland",
+              "Bentley",
+              "Bertone",
+              "Bluecar Groupe Bollore",
+              "Buick",
+              "Cadillac",
+              "Chevrolet",
+              "Chrysler",
+              "Corvette",
+              "Dacia",
+              "Daewoo",
+              "Daihatsu",
+              "Dangel",
+              "De La Chapelle",
+              "Dodge",
+              "Donkervoort",
+              "Dr",
+              "Ds",
+              "Ferrari",
+              "Fisker",
+              "Gme",
+              "Honda",
+              "Hummer",
+              "Hyundai",
+              "Infiniti",
+              "Innocenti",
+              "Isuzu",
+              "Iveco",
+              "Jaguar",
+              "Jeep",
+              "Kia",
+              "Lada",
+              "Lamborghini",
+              "Lancia",
+              "Land Rover",
+              "Lexus",
+              "Lotus",
+              "Mahindra",
+              "Maruti",
+              "Maserati",
+              "Mastretta",
+              "Maybach",
+              "Mazda",
+              "Mclaren",
+              "Mega",
+              "Mg",
+              "Mia",
+              "Mini",
+              "Mitsubishi",
+              "Morgan",
+              "Nissan",
+              "Pgo",
+              "Piaggo",
+              "Polski/fso",
+              "Pontiac",
+              "Porsche",
+              "Proton",
+              "Rolls-Royce",
+              "Rover",
+              "Saab",
+              "Santana",
+              "Seat",
+              "Shuanghuan",
+              "Skoda",
+              "Smart",
+              "Ssangyoung",
+              "Subaru",
+              "Suzuki",
+              "Talbot",
+              "Tavria",
+              "Tesla",
+              "Toyota",
+              "Tvr",
+              "Venturi",
+              "Volvo"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Couleur",
+            "description": "couleur dominante du véhicule",
+            "required": false,
+            "options": [
+              "blanc",
+              "bleu ciel",
+              "bleu clair",
+              "bleu foncé",
+              "bordeaux",
+              "champagne",
+              "crème",
+              "gris clair",
+              "gris foncé",
+              "jaune",
+              "noir",
+              "orange",
+              "rose",
+              "rouge",
+              "vert",
+              "violet"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Dossier complet",
+        "description": "Positionner ce champ à \"oui\" lorsque la fiche est complète. Elle sera alors traitée par un instructeur.",
+        "required": true
+      }
+    ]
+  }
+}

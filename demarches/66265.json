@@ -1,0 +1,364 @@
+{
+  "number": 66265,
+  "title": "Inscription Ligne Générique Télésurveillance ",
+  "description": "Demande de code individuel pour l'inscription sur une ligne générique d'un DM de Télésurveillance",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2023-06-28T17:47:19+02:00",
+  "service": {
+    "nom": "Direction sécurité sociale",
+    "organisme": "Ministère des solidarités et de la santé",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/inscription-ligne-generique-telesurveillance",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://sante.gouv.fr/soins-et-maladies/autres-produits-de-sante/dispositifs-medicaux/article/identification-individuelle-pour-un-rattachement-a-une-ligne-generique-inscrite",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046849110",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 60,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Contexte",
+        "description": "La liste prévue au L. 162-52 du code de sécurité sociale prévoit une prise en charge de droit commun des activités de télésurveillance médicale avec : <br>\r\n-\tune rémunération spécifique des opérateurs de télésurveillance médicale réalisant le suivi ;<br>\r\n-\tune rémunération du dispositif médical numérique (DMN) de télésurveillance médical, et le cas échéant des accessoires de collecte. <br>\r\nAfin d’être pris en charge sur un référentiel générique de télésurveillance médicale, les exploitants des DMN de télésurveillance doivent détenir un code permettant l’identification du dispositif médical numérique et, le cas échéant, des accessoires de collecte qu’il utilise. Ces codes identifient également l’exploitant ainsi que l’indication de la classe et du chapitre de la classification internationale des maladies concernés. <br>\r\nIl convient de compléter ce formulaire pour chaque activité de télésurveillance médicale prise en charge au titre du référentiel générique de la liste de télésurveillance. <br>\r\n<br>\r\n\r\n[The list provided for in L. 162-52 of the Social Security Code provides for common law coverage of telemedical monitoring activities with : <br>\r\n- specific remuneration for telemedical monitoring operators carrying out the monitoring ;<br>\r\n- remuneration of the digital medical device (DMN) for telemedical monitoring and, where applicable, the collection accessories. <br>\r\nIn order to be covered by a generic telemedical medical monitoring reference system, the operators of remote monitoring DMNs must hold a code that identifies the digital medical device and, where applicable, the collection accessories that it uses. These codes also identify the operator and the relevant International Classification of Diseases class and chapter.<br>\r\nThis form must be completed for each telemedical monitoring activity covered by the generic list of telemonitoring activities. ]",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Rappel des dispositions en vigueur",
+        "description": "Conformément aux articles R. 162-102 et R. 162-104 du code de la sécurité sociale (CSS), la justification par les exploitants, dans les délais requis, du code d’identification individuelle des activités de télésurveillance médicales se rattachant à une ligne générique inscrite sur la liste de télésurveillance médicale constitue une condition de leur prise en charge ou remboursement par l’assurance maladie obligatoire. <br>\r\nIl est rappelé par ailleurs, conformément aux articles L. 162-48 et R. 162-73 et R. 162-84 du CSS, que ce remboursement est subordonné au respect de certaines conditions d’inscription sur la liste des activités télésurveillance médicale, concernant notamment les spécifications techniques minimales que doivent respecter les dispositifs médicaux s’y rattachant et, le cas échéant, les accessoires de collecte, d’indications de l’activité de télésurveillance médicale, de conditions particulières de prescription, d’utilisation et de distribution.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité de l'exploitant",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination sociale de l'entreprise exploitante",
+        "description": "[Corporate name of the company]",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Disposez-vous d'un numéro SIRET ?",
+        "description": "[Do you have a SIRET number ?]",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET de l'entreprise déclarant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de TVA intracommunautaire",
+        "description": "[VAT number]",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Forme juridique de l'entreprise",
+        "description": "[Legal form of the company]",
+        "required": true,
+        "options": [
+          "Entrepreneur individuel (EI)",
+          "Entreprise unipersonnelle à responsabilité limitée (EURL)",
+          "Société à responsabilité limitée (SARL)",
+          "Société par actions simplifiée unipersonnelle (SASU)",
+          "Société par actions simplifiée (SAS)",
+          "Société anonyme (SA)",
+          "Société en nom collectif (SNC)",
+          "Société en commandite simple (SCS)",
+          "Société en commandite par actions (SCA)"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Date de création",
+        "description": "[Date of creation of the company]",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'entreprise déclarante",
+        "description": "[Address of the company]",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email de l'entreprise déclarante",
+        "description": "[E-mail of the company]",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Correspondant unique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "[Civility]",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "[Surname]",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "[Name]",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction dans la société",
+        "description": "[Position in the company]",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous le fabricant du produit ?",
+        "description": "Conformément aux articles L. 165-1-1-1, L.162-49 du code de la sécurité sociale (CSS), les exploitants de produits soumis au remboursement sur la liste de télésurveillance prévue à l’article L.162-52 et qui ne sont pas fabricant ou mandataire du produit au sens du règlement européen 2017/745 relatif aux dispositifs médicaux, doivent signer un accord de distribution avec ce fabricant.\r\n\r\n[In accordance with Articles L. 165-1-1-1, L.162-49 of the Social Security Code (CSS), operators of products subject to reimbursement on the list provided for in Article L.162-52 and who are not the manufacturer of the product within the meaning of European Regulation 2017/745 on medical devices, must sign a distribution agreement with that manufacturer. ] ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Fabricant/mandataire (si différent de l'exploitant qui effectue la demande)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Rappel",
+        "description": "Conformément aux articles L. 165-1-1-1, L.162-49 du code de la sécurité sociale (CSS), les exploitants de produits soumis au remboursement sur la liste de télésurveillance prévue à l’article L.162-52 et qui ne sont pas fabricant ou mandataire du produit au sens du règlement européen 2017/745 relatif aux dispositifs médicaux, doivent signer un accord de distribution avec ce fabricant. \r\n\r\n[In accordance with Articles L. 165-1-1-1, L.162-49 of the Social Security Code (CSS), operators of products subject to reimbursement on the list provided for in Article L.162-52 and who are not the manufacturer of the product within the meaning of European Regulation 2017/745 on medical devices, must sign a distribution agreement with that manufacturer. ]",
+        "required": false
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Si vous êtes concernés, merci de fournir le numéro du dossier correspondant à la déclaration de l’accord de distribution sur la plateforme accessible sur le lien suivant. https://www.demarches-simplifiees.fr/commencer/accord-distribution.",
+        "description": "[If you are concerned, please provide the file number corresponding to the declaration of the distribution agreement on the platform accessible on the following link https://www.demarches-simplifiees.fr/commencer/accord-distribution ]",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande de code individuel pour l'inscription sur une ligne générique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le DMN concerné par cette demande est-il déjà inscrit sur une autre ligne générique ( i.e. pour une autre indication) ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Ligne générique sur laquelle le DMN est déjà inscrit",
+        "description": "",
+        "required": true,
+        "options": [
+          "1659468 - DMN-TSM, INSU RESPIRATOIRE PATIENT ADULT forfait mensuel",
+          "1654962 - DMN-TSM, DIABETE TYPE 1 ET TYPE 2 SOUS INS forfait mensuel",
+          "1694358 - DMN-TSM, DIABETE GESTA SOUS INSULINE, forfait mensuel",
+          "1668102 - DMN-TSM, INSU RENALE CHRONIQUE DIALYSE TRANSPLANT forfait mensuel",
+          "1612544 - DMN-TSM, INSU CARDIAQUE CHRONIQUE, forfait mensuel",
+          "1662186 - DMN-TSM,  TLS DEFIBRILLATEUR OU STIMULATEUR CARDIAQUE forfait semestriel",
+          "1643272 - DMN-TSM,  TLS DEFIBRILLATEUR OU STIMULATEUR CARDIAQUE forfait mensuel"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code individuel déjà obtenu",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Code LATM se rattachant à la Ligne Générique concernée",
+        "description": "Veuillez sélectionner ici le code LATM de la ligne générique sur laquelle vous demandez une inscription de votre solution de télésurveillance.\r\n\r\n[Please select here the LATM code on which your product is registered]",
+        "required": true,
+        "options": [
+          "1659468 - DMN-TSM, INSU RESPIRATOIRE PATIENT ADULT forfait mensuel",
+          "1654962 - DMN-TSM, DIABETE TYPE 1 ET TYPE 2 SOUS INS forfait mensuel",
+          "1694358 - DMN-TSM, DIABETE GESTA SOUS INSULINE, forfait mensuel",
+          "1668102 - DMN-TSM, INSU RENALE CHRONIQUE DIALYSE TRANSPLANT forfait mensuel",
+          "1612544 - DMN-TSM, INSU CARDIAQUE CHRONIQUE, forfait mensuel",
+          "1662186 - DMN-TSM,  TLS DEFIBRILLATEUR OU STIMULATEUR CARDIAQUE forfait semestriel",
+          "1643272 - DMN-TSM,  TLS DEFIBRILLATEUR OU STIMULATEUR CARDIAQUE forfait mensuel"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Indication correspondante",
+        "description": "Je confirme que l'indication correspondant à mon activité de télésurveillance est la suivante :\r\n\r\nPatients éligibles :\r\nLes patients souffrant d'insuffisance respiratoire chronique de cause obstructive ou restrictive relevant des indications de l'ALD 14 (insuffisance respiratoire chronique grave) sous ventilation non invasive (VNI) et/ou les patients insuffisants respiratoires chroniques sous oxygénothérapie à court ou long terme.\r\n\r\nPatients non éligibles :\r\n- patients de moins de 18 ans ;\r\n- impossibilité physique ou psychique pour le patient ou l'aidant d'utiliser le DM numérique de télésurveillance médicale et/ou ses accessoires de collecte selon le jugement du médecin désirant inclure le patient dans le projet de télésurveillance médicale ;\r\n- refus du patient à la transmission des données nécessaires à la mise en œuvre du contrôle de l'utilisation effective du DMN et à l'obtention de résultats individualisés ou nationaux d'utilisation en vie réelle ;\r\n- refus du patient d'avoir un accompagnement thérapeutique.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Indication correspondante",
+        "description": "Je confirme que l'indication correspondant à mon activité de télésurveillance est la suivante :\r\n\r\nPatients éligibles :\r\n\r\n- patients diabétiques de type 1 pour optimiser le contrôle glycémique ou en cas de déséquilibre glycémique ;\r\n- patients diabétiques de type 2 traités sous insuline pour optimiser le contrôle glycémique ou en cas de déséquilibre glycémique.\r\n\r\n\r\nPatients non éligibles :\r\n- impossibilité physique ou psychique pour le patient ou l'aidant d'utiliser le DM numérique de télésurveillance médicale et/ou ses accessoires de collecte selon le jugement du médecin désirant inclure le patient dans le projet de télésurveillance médicale ;\r\n- refus du patient à la transmission des données nécessaires à la mise en œuvre du contrôle de l'utilisation effective du DMN et à l'obtention de résultats individualisés ou nationaux d'utilisation en vie réelle ;\r\n- refus du patient d'avoir un accompagnement thérapeutique.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Indication correspondante",
+        "description": "Je confirme que l'indication correspondant à mon activité de télésurveillance est la suivante :\r\n\r\nPatients éligibles :\r\n- patientes ayant un diabète gestationnel traité par insuline.\r\n\r\nPatients non éligibles :\r\n\r\n- impossibilité physique ou psychique pour le patient ou l'aidant d'utiliser le DM numérique de télésurveillance médicale et/ou ses accessoires de collecte selon le jugement du médecin désirant inclure le patient dans le projet de télésurveillance médicale ;\r\n- refus du patient à la transmission des données nécessaires à la mise en œuvre du contrôle de l'utilisation effective du DMN et à l'obtention de résultats individualisés ou nationaux d'utilisation en vie réelle ;\r\n- refus du patient d'avoir un accompagnement thérapeutique.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Indication correspondante",
+        "description": "Je confirme que l'indication correspondant à mon activité de télésurveillance est la suivante :\r\n\r\nPatients éligibles :\r\n- patients transplantés rénaux ayant été greffés il y a plus de 3 mois ;\r\n- patients dialysés à domicile quel qu'en soit le mode (hémodialyse ou dialyse péritonéale) ;\r\n- patients dialysés chroniques en unité de dialyse médicalisée (UDM) ou en unité d'autodialyse ;\r\n- patients présentant une maladie rénale chronique (MRC) de stade 4 (débit de filtration glomérulaire compris entre 15 et 30 ml/min/1,73 m2) ou de stade 5 (débit de filtration glomérulaire inférieur à 15 ml/min/1,73 m2).\r\n\r\nPatients non éligibles :\r\n\r\n- impossibilité physique ou psychique pour le patient ou l'aidant d'utiliser le dispositif médical numérique (DMN) de télésurveillance médicale et/ou ses accessoires de collecte selon le jugement du médecin désirant inclure le patient dans le projet de télésurveillance médicale ;\r\n- refus du patient à la transmission des données nécessaires à la mise en œuvre du contrôle de l'utilisation effective du DMN et à l'obtention de résultats individualisés ou nationaux d'utilisation en vie réelle ;\r\n- refus du patient d'avoir un accompagnement thérapeutique.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Indication correspondante",
+        "description": "Je confirme que l'indication correspondant à mon activité de télésurveillance est la suivante :\r\n\r\nPatients éligibles :\r\nLes patients souffrant d'insuffisance cardiaque chronique, quels que soient le type et l'étiologie de la maladie et remplissant une des deux conditions suivantes :\r\n- hospitalisation au cours des 12 derniers mois pour une poussée d'insuffisance cardiaque ;\r\n- actuellement en classe NYHA 2 ou plus avec un taux de peptides natriurétiques élevé (BNP > 100 pg/mL ou NT pro BNP > 1000 pg/mL).\r\n\r\nPatients non éligibles :\r\n- impossibilité physique ou psychique pour le patient ou l'aidant d'utiliser le DM numérique de télésurveillance médicale et/ou ses accessoires de collecte selon le jugement du médecin désirant inclure le patient dans le projet de télésurveillance médicale ;\r\n- refus du patient à la transmission des données nécessaires à la mise en œuvre du contrôle de l'utilisation effective du DMN et à l'obtention de résultats individualisés ou nationaux d'utilisation en vie réelle ;\r\n- refus du patient d'avoir un accompagnement thérapeutique.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Indication correspondante",
+        "description": "Je confirme que l'indication correspondant à mon activité de télésurveillance est la suivante :\r\n\r\nPatients éligibles :\r\n-\tpatients porteurs d’un défibrillateur automatique implantable ayant une fonction de télésurveillance ;\r\n-\tpatients porteurs d’un stimulateur cardiaque ayant une fonction de télésurveillance.\r\n\r\nPatients non éligibles\r\n-\timpossibilité technique, physique ou psychique pour le patient ou l’aidant d’utiliser le DM numérique de télésurveillance médicale selon le jugement du médecin désirant inclure le patient dans le projet de télésurveillance médicale ;\r\n-\trefus du patient à la transmission des données nécessaires à la mise en œuvre du contrôle de l’utilisation effective du DMN et à l’obtention de résultats individualisés ou nationaux d’utilisation en vie réelle  ;\r\n-\tprothèses cardiaques implantées à visée diagnostique unique, même en cas de possibilité de télésurveillance.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Indication correspondante",
+        "description": "Je confirme que l'indication correspondant à mon activité de télésurveillance est la suivante :\r\n\r\n\r\nPatients éligibles :\r\n-\tpatients porteurs d’un défibrillateur automatique implantable ayant une fonction de télésurveillance ;\r\n-\tpatients porteurs d’un stimulateur cardiaque ayant une fonction de télésurveillance.\r\n\r\nPatients non éligibles\r\n-\timpossibilité technique, physique ou psychique pour le patient ou l’aidant d’utiliser le DM numérique de télésurveillance médicale selon le jugement du médecin désirant inclure le patient dans le projet de télésurveillance médicale ;\r\n-\trefus du patient à la transmission des données nécessaires à la mise en œuvre du contrôle de l’utilisation effective du DMN et à l’obtention de résultats individualisés ou nationaux d’utilisation en vie réelle  ;\r\n-\tprothèses cardiaques implantées à visée diagnostique unique, même en cas de possibilité de télésurveillance.",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "RAPPEL :",
+        "description": "L'identification individuelle définie à l'article R. 162-102 pour un exploitant ne peut être détenue que pour l'un des codes 1662186 ou 1643272 présents.",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Radiation du code individuel associé à l'autre périodicité de facturation",
+        "description": "Je confirme la demande d'un code individuel pour un forfait semestriel et par conséquent je sollicite également la radiation du code individuel associé à l'autre périodicité de facturation mensuelle.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Radiation du code individuel associé à l'autre périodicité de facturation",
+        "description": "Je confirme la demande d'un code individuel pour un forfait mensuel et par conséquent je sollicite également la radiation du code individuel associé à l'autre périodicité de facturation semestrielle.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dénomination commerciale de la solution de télésurveillance",
+        "description": "[Commercial name of the medical telemonitoring]",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description et références précises de la solution inscrite sous la description générique sélectionnée",
+        "description": "Veuillez indiquer la description précise et les références ou toutes autres caractéristiques techniques (notamment la version du logiciel) utiles à la bonne identification du dispositif médical numérique.\r\n[Please indicate the precise description and the references or any other technical characteristics (in particular the software version) useful for the correct identification of the digital medical device. ]",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Votre dispositif médical numérique de télésurveillance est-il utilisé avec un accessoire de collecte  connecté?",
+        "description": "[Is your digital medical monitoring device used with a connected collection accessory?]",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Accessoire de collecte connecté",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Dénomination commerciale de l'accessoire de collecte connecté",
+            "description": "[Commercial name of the collection accessory]",
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Références de l'accessoire de collecte connecté compatible avec votre solution de télésurveillance",
+            "description": "Veuillez indiquer ici les références ou toutes autres caractéristiques techniques utiles à la bonne identification de l'accessoire de collecte compatible avec votre solution de télésurveillance.\r\n\r\n[Please indicate here the name, references or any other technical characteristics useful for the correct identification of the associated collection accessory]",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Documents à fournir",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Marquage CE",
+        "description": "[Certification of CE marking]",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certification de conformité aux référentiels interopérabilité et sécurité délivré par ANS",
+        "description": "[Certification of compliance with interoperability and security standards issued by ANS]",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Validation de conformité à la description générique considérée mentionnés à l’article R. 162-76 du code de la sécurité sociale délivré par l’ANS",
+        "description": "[Validation of compliance with the generic description in question mentioned in Article R. 162-76 of the Social Security Code issued by the ANS]",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Type de certificat délivré par l'ANS",
+        "description": "Votre certificat de conformité aux référentiels d'interopérabilité et de sécurité est-il un certificat provisoire ?",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Engagement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Engagement de conformité",
+        "description": "En cochant, l'entreprise s'engage sur la conformité de la déclaration effectuée.\r\n\r\n[By checking, the company commits itself to the conformity of the declaration made.]",
+        "required": true
+      }
+    ]
+  }
+}

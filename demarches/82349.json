@@ -1,0 +1,446 @@
+{
+  "number": 82349,
+  "title": "Compte-rendu d'activité (CRA) - Conseiller numérique coordinateur",
+  "description": "Ce formulaire permet aux Conseillers numérique coordinateurs de documenter et de mettre en valeur leur activité. ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique"
+  ],
+  "datePublication": "2024-01-31T17:16:31+01:00",
+  "service": {
+    "nom": "Programme Société numérique",
+    "organisme": "ANCT",
+    "typeOrganisme": "operateur_d_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/compte-rendu-d-activite-cra-conseiller-numerique-c",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://pilotage.conseiller-numerique.gouv.fr/accueil",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 53,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "COMPTE-RENDU D'ACTIVITE (CRA) CONSEILLER NUMERIQUE COORDINATEUR",
+        "description": "Ce compte rendu d'activité poursuit trois objectifs : \r\n- permettre de documenter l'activité des conseillers numériques coordinateurs ;\r\n- permettre aux conseillers numériques coordinateurs de valoriser leur action ;\r\n- permettre à l'ANCT d'attester de l'utilité des fonds consacrés au financement des postes des conseillers numériques coordinateurs.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "QUI ÊTES-VOUS ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Ces informations nous permettent de vous identifier",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Voir le détail de mes informations pré-remplies",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Veuillez renseigner votre nom de famille",
+        "description": "En majuscules",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Veuillez renseigner votre prénom",
+        "description": "En minuscule",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Veuillez renseigner votre identifiant conseiller numérique (ID CoNum)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Veuillez renseigner votre adresse mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Veuillez renseigner le nom de votre structure",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Veuillez renseigner l'identifiant de votre structure (ID structure)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ÉVÉNEMENTS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Événements que vous avez organisé ou auxquels vous avez participé autour de la médiation numérique. Temps d'échanges collectifs avec les conseillers numériques.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Je",
+        "description": "",
+        "required": true,
+        "options": [
+          "souhaite ajouter au moins un événement",
+          "n'ai pas d'événement à ajouter"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "ÉVÉNEMENT",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de l'événement",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Organisé par",
+            "description": "(Vous pouvez sélectionner plusieurs options)",
+            "required": true,
+            "options": [
+              "Un Hub",
+              "Une association",
+              "Une entreprise",
+              "Un opérateur de l'Etat",
+              "Une commune",
+              "Un EPCI",
+              "Le département",
+              "La région",
+              "Un syndicat mixte (veuillez préciser sa composition dans le champ dédié)",
+              "Un consortium (veuillez préciser sa composition dans le champ dédié)",
+              "Ma structure"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Détail sur le syndicat mixte/consortium",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type d'événement",
+            "description": "",
+            "required": true,
+            "options": [
+              "Journée d'inclusion numérique",
+              "Événement emploi",
+              "Comité technique/comité de pilotage/réunion de service ou de direction",
+              "Réunion de coordination",
+              "Assemblée générale (conseil municipal, conseil communautaire, conseil départemental, CA d'association)",
+              "Comité partenarial",
+              "Événement national (NEC, ANCTour, etc.)",
+              "NEC local",
+              "Événement grand public",
+              "Autre"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Précisez",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de l'événement",
+            "description": "Si l'événement se déroule sur plusieurs jours, renseigner la date de début de l'événement",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PARTENARIATS",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Imaginer et mettre en place des collaborations, renforcer le maillage et les synergies territoriales (missions 1 et 3). Prendre contact avec des opérateurs du territoire : opérateurs de l'État, collectivités, associations, entreprises.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Je",
+        "description": "",
+        "required": true,
+        "options": [
+          "souhaite renseigner au moins un nouveau partenariat",
+          "n'ai pas de nouveau partenariat à ajouter"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "PARTENARIAT",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du partenaire",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de structure",
+            "description": "",
+            "required": true,
+            "options": [
+              "Un Hub",
+              "Une association",
+              "Une entreprise",
+              "Un opérateur de l'Etat",
+              "Une commune",
+              "Un EPCI",
+              "Le département",
+              "La région",
+              "Un syndicat mixte (veuillez préciser sa composition dans le champ dédié)",
+              "Un consortium (veuillez préciser sa composition dans le champ dédié)"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Détail sur le syndicat mixte/consortium",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Nature du partenariat",
+            "description": "(Vous pouvez sélectionner plusieurs options)",
+            "required": true,
+            "options": [
+              "Démarchage subvention",
+              "Conception de parcours usager",
+              "Journée de coordination départementale",
+              "Rendez-vous avec un·e élu·e",
+              "Autre"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Précisez",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de lancement du partenariat",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ACCOMPAGNEMENT DES STRUCTURES ET DES MÉDIATEURS NUMERIQUES",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Je",
+        "description": "",
+        "required": true,
+        "options": [
+          "souhaite renseigner au moins un nouvel accompagnement",
+          "n'ai pas de nouvel accompagnement à ajouter"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "ACCOMPAGNEMENT",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "J'ai accompagné",
+            "description": "",
+            "required": true,
+            "options": [
+              "Une/des structure(s)",
+              "Un(e)/des médiateur(trice/s) numérique(s)"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Type(s) de structure(s) accompagnée(s)",
+            "description": "",
+            "required": true,
+            "options": [
+              "Commune",
+              "EPCI",
+              "Département",
+              "Région",
+              "Syndicat mixte",
+              "Opérateur de l'Etat",
+              "Association",
+              "Entreprise"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom(s) de la/des structure(s) accompagnée(s)",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du/de la/des médiateur/trice(s) numérique(s)",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de structure du/de la/des médiateur/trice(s) numérique(s) accompagné(e/s)",
+            "description": "",
+            "required": true,
+            "options": [
+              "Commune",
+              "EPCI",
+              "Département",
+              "Région",
+              "Syndicat mixte",
+              "Opérateur de l'Etat",
+              "Association",
+              "Entreprise"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de la/des structure(s) du/de la/des médiateur/trice(s) numérique(s) accompagné(e/s)",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Type(s) de problématique(s)",
+            "description": "",
+            "required": true,
+            "options": [
+              "Périmètre géographique",
+              "Périmètre d'action conseiller numérique",
+              "Planning",
+              "Organisation d'atelier",
+              "Besoin d'information (sur le dispositif CoNum, sur les actions et partenaires locaux, etc.)",
+              "Matériel",
+              "Prodiguer une recommandation",
+              "Formation interne",
+              "RH (recrutement, fin de contrat)",
+              "Recherche de financement et démarches associées",
+              "Onboarding d'un(e) médiateur/trice",
+              "Autre"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Précisez",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Action(s) engagée(s)",
+            "description": "",
+            "required": true,
+            "options": [
+              "Positionnement territorial",
+              "Information sur le dispositif CoNum",
+              "Information sur actions et partenariats locaux",
+              "Accompagnement à l'organisation d’événements",
+              "Accompagnement à la mise en place de partenariats",
+              "Accompagnement à la recherche de financements",
+              "Échange sur la posture professionnelle",
+              "Réorganisation du temps de travail",
+              "Recherche de local",
+              "Demande d'intervention technique",
+              "Dépannage",
+              "Commande de fournitures",
+              "Demande de formation",
+              "Mise en relation intra services",
+              "Remplacement / renfort",
+              "Report hiérarchique",
+              "Rencontre avec un(e) médiateur/trice",
+              "Autre",
+              "Pas d'action"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Précisez",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "TEMPS DÉDIÉ À LA COMMUNICATION ET À l'ANIMATION",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Temps hebdomadaire moyen consacré à la communication et à l'animation",
+        "description": "- Temps d'informations (webinaires, etc.) suivis ou animés au sujet du dispositif Conseiller numérique ou plus généralement de France Numérique Ensemble ;\r\n- Veille réalisée sur les sujets liés à l'inclusion numérique ; \r\n- Actions d'animation du réseau des Conseiller numériques (animation sur les réseaux sociaux, forums d'échange, rédaction et envoi de newsletters) ; \r\n- Etc.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je souhaite préciser la répartition de ce temps entre les actions de communication et d'animation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Temps hebdomadaire moyen consacré à la communication",
+        "description": "- Temps d'informations (webinaires, etc.) suivis ou animés au sujet du dispositif Conseiller numérique ou plus généralement de France Numérique Ensemble ;\r\n- Veille réalisée sur les sujets liés à l'inclusion numérique.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Temps hebdomadaire moyen consacré à l'animation du réseau des Conseiller numériques",
+        "description": "- Animation sur les réseaux sociaux ;\r\n- Forums d'échange ;\r\n- Rédaction et envoi de newsletters ; \r\n- etc.",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "number": 57037,
+  "title": "Demande de distraction du régime forestier dans le DOUBS",
+  "description": "Demande déposée par l'ONF pour le compte des communes pour distraire des parcelles de forêt communale du régime forestier.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2022-04-15T10:35:39+02:00",
+  "service": {
+    "nom": "Unité Nature Forêt",
+    "organisme": "Direction Départementale des Territoires",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-distraction-regime-forestier-doubs",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/demande-distraction-regime-forestier-doubs",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025246542",
+  "logo": {
+    "filename": "PREF_Doubs_CMJN.jpg",
+    "checksum": "jSj58R7/St1wN8+kCY6oZQ==",
+    "byteSize": "1086835",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 25,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Renseignement du demandeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du représentant déposant la demande",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Qualité",
+        "description": "Par exemple: maire",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune bénéficiaire",
+        "description": "Renseigner le nom de la commune  demandant la distraction du régime forestier",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Parcelles cadastrales concernées par la demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Liste:",
+        "description": "Indiquer la liste des parcelles sur lesquelles il est demandé la distraction du régime forestier.\nRépéter l'opération pour chaque section cadastrale différente.\n",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune",
+            "description": "Indiquer le département",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Section cadastrale",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro de parcelle",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Surface de la parcelle (en ha)",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Surface à distraire (en ha)",
+            "description": "Indiquer la surface sur laquelle porte la demande de distraction du régime forestier",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "TOTAL des surfaces à distraire du régime forestier (en ha)",
+        "description": "Indiquez ici le total des surfaces à distraire du régime forestier, en hectares.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Motivation de la demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Motif de la distraction du régime forestier",
+        "description": "Indiquer ici les motivations qui conduisent la commune à vouloir distraire les parcelles ci-dessous du régime forestier",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "PLANS",
+        "description": "pour ajouter plusieurs pièces, cliquer sur +",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Plan de situation des parcelles au regard de la situation communale",
+            "description": "Joindre le plan de situation des parcelles de la forêt communale et des parcelles à distraire du régime forestier",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "PROPRIÉTÉ",
+        "description": "pour ajouter plusieurs pièces, cliquer sur +",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Relevé de la matrice cadastrale ou acte de propriété",
+            "description": "Joindre le relevé de la matrice cadastrale de la parcelle concernée par la distraction du régime forestier ou l'acte de propriété correspondant",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Délibération du conseil municipal",
+        "description": "Joindre la délibération du conseil municipal demandant la distraction du régime forestier",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport de l'ONF",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avis de l'ONF",
+        "description": "Indiquer l'avis favorable (OUI) ou défavorable (NON) de l'ONF",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de l'avis ONF",
+        "description": "Indiquer la date de l'avis ONF ci-dessus",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "__________________________",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "FIN DU FORMULAIRE",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

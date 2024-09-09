@@ -1,0 +1,111 @@
+{
+  "number": 81203,
+  "title": "DDETSPP 28 / SPAEN / Exposition avicole Demander une attestation de provenance",
+  "description": "Cette procédure dématérialisée doit être employée pour demander une attestation de provenance pour les oiseaux issus du département d'Eure-et-Loir en vue d'une participation à une exposition ou un concours.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2023-09-29T17:40:47+02:00",
+  "service": {
+    "nom": "Service SPAEN",
+    "organisme": "DDETSPP 28",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ddetspp-28-spaen-exposition-avicole-demander-une-a",
+  "dpoUrl": "ddetspp@eure-et-loir.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "Aucun lien",
+  "cadreJuridiqueUrl": "Code rural et de la pêche maritime",
+  "logo": {
+    "filename": "index.png",
+    "checksum": "n7Y+Uo2ezxwjs+dKfl1eiA==",
+    "byteSize": "4425",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 35,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'élevage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Identification de l'élevage",
+        "description": "Saisir un ou plusieurs élevages",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "NOM Prénom de l'éleveur des oiseaux",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse de l'élevage (Adresse compléte)",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Ordre (s) et espèce (s) concernée (s) par la demande (annexe 1 de l'AM du 25/09/2023)",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'exposition ou concours",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune du rassemblement",
+        "description": "Saisir le département puis choisir la commune",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse du rassemblement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du rassemblement",
+        "description": "Indiquer la date du premier jour s'il se déroule sur plusieurs jours.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièce justificative si nécessaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièce justificative si nécessaire",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative si nécessaire",
+            "description": "",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

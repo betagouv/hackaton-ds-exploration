@@ -1,0 +1,560 @@
+{
+  "number": 56024,
+  "title": "Dossier d'inscription Scolaire pour une 1ère inscription",
+  "description": "Dossier d'inscription Scolaire pour une 1ère inscription",
+  "tags": [
+    "Scolaire"
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2022-03-18T09:48:35+01:00",
+  "service": {
+    "nom": "Services Inscription scolaire",
+    "organisme": "Mairie de COUBLEVIE",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/dossier-d-inscription-scolaire-pour-une-1ere-inscr",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.coublevie.com/groupe-scolaire-de-la-grande-sure",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "logo scolaire.png",
+    "checksum": "p1tLvZ5o1Awa7DZI7iOfwA==",
+    "byteSize": "791530",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "notice démarches simplifiées inscription scolaire.pdf",
+    "checksum": "Me76jTvHrA3AG5Yrj2h4yA==",
+    "byteSize": "448977",
+    "contentType": "application/pdf"
+  },
+  "deliberation": {
+    "filename": "RI janvier 22.pdf",
+    "checksum": "KXCGL8nQlAjMd/B7jgkQAw==",
+    "byteSize": "716559",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 78,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Familles recomposées",
+        "description": "Pour les familles recomposées, nous vous invitons à remplir, pour chaque enfant,  un seul dossier par enfant en précisant bien les coordonnées des 2 responsables légaux.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Renseignements enfant(s)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Enfant(s) à inscrire",
+        "description": "Si vous devez inscrire un autre enfant, vous devez utiliser l'onglet  \"Ajouter un élément  pour enfant(s) à inscrire\". ",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "NOM ET PRENOM DE  L'ENFANT",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "DATE DE NAISSANCE",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "LIEU DE NAISSANCE",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DepartementChampDescriptor",
+            "label": "DEPARTEMENT DE NAISSANCE",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "SEXE",
+            "description": null,
+            "required": true,
+            "options": [
+              "F",
+              "G"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "CLASSE",
+            "description": null,
+            "required": true,
+            "options": [
+              "PS",
+              "MS",
+              "GS",
+              "CP",
+              "CE1",
+              "CE2",
+              "CM1",
+              "CM2"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "PAI",
+            "description": "En cas d’allergie alimentaire, un PAI, Projet d’Accueil Individualisé sera obligatoire (Voir règlement intérieur, paragraphe 9.4) ",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Régime alimentaire",
+            "description": "En cas d’allergie alimentaire, un PAI, Projet d’Accueil Individualisé sera obligatoire (Voir règlement intérieur, paragraphe 9.4) ",
+            "required": false,
+            "options": [
+              "Classique",
+              "Sans Porc",
+              "Sans Viande"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Problème de santé",
+            "description": "Si votre enfant est suivi pour un problème de santé (Préciser asthme, diabète, allergie alimentaire ...)",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Aménagement particulier",
+            "description": "Si votre enfant est porteur d’un handicap et a besoin d’un aménagement particulier dans l’école (Préciser l’aide souhaitée). Joindre un justificatif.",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Justificatif aménagement particulier",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Votre enfant utilisera t’il les services suivants:",
+            "description": null,
+            "required": false,
+            "options": [
+              "Bus scolaire",
+              "Cantine",
+              "Garderie"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de l'arrêt de bus",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Vaccin Type INFANTRIX",
+            "description": "Renseigner les dates d'injection du vaccin (pour une première inscription)",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Vaccin Type ROR",
+            "description": "Renseigner les dates d'injection du vaccin (pour une première inscription)",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Vaccin Autre",
+            "description": "Renseigner le / les noms et dates d'injection du/ des vaccin(s) (pour une première inscription)",
+            "required": true
+          },
+          {
+            "__typename": "CheckboxChampDescriptor",
+            "label": "J'ai pris connaissance que le/les enfants declaré dans cette procédure participe à différentes activités sportives et/ou de motricité  et déclare, qu’à ma connaissance, son état de santé lui permet de pratiquertous les sports/activités.",
+            "description": "Veuillez joindre un certificat médical pour toute contre-indication.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "REPRESENTANT LEGAL 1",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Téléphone domicile ou profesionnel",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Téléphone Mobile",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro d'allocataire CAF",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de quotient familial ou avis d'imposition",
+        "description": "Une attestation de quotient familial datant de moins de 3 mois, ou pour les personnes ne bénéficiant pas de prestations familiales le dernier avis d'imposition du responsable 1 et du responsable 2",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Profession",
+        "description": "Merci de ne pas indiquer de catégorie socioprofessionnelle mais bien votre profession. Exemple : Profession libérale => Psychologue\nProfessionnel de santé => Kinésithérapeute",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom et Adresse de l'employeur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation familiale",
+        "description": null,
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Marié",
+          "Pacsé",
+          "Union libre",
+          "Divorcé",
+          "Séparé",
+          "Veuf"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mode de garde",
+        "description": "Mode de garde en cas de séparation ou divorce. Joindre obligatoirement un document officiel ou amiable sur la garde de l’enfant. ",
+        "required": false,
+        "options": [
+          "Garde alternée",
+          "Garde exclusive",
+          "Autorité parentale"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif en cas de séparation ou divorce.",
+        "description": "Si jugement une copie de la décision de justice relative à l'autorité parentale ou l'ordonnance  de séparation mentionnant les conditions d'exercice de l'autoritéparentale. Si pas de jugementune attestation écrite sur l’honneur, autorisant l’inscription de l’enfant dans le groupe scolaire, ainsi qu’une copie de la pièce d’identité du parent n’effectuant pas les formalités d’inscription scolaire.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "REPRESENTANT LEGAL 2",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et Prénom",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone domicile ou profesionnel",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone Mobile",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro d'allocataire CAF",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de quotient familial ou avis d'imposition",
+        "description": "Une attestation de quotient familial datant de moins de 3 mois, ou pour les personnes ne bénéficiant pas de prestations familiales le dernier avis d'imposition du responsable 1 et du responsable 2",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Profession",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom et Adresse de l'employeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation familiale",
+        "description": null,
+        "required": false,
+        "options": [
+          "Célibataire",
+          "Marié",
+          "Pacsé",
+          "Union libre",
+          "Divorcé",
+          "Séparé",
+          "Veuf"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mode de garde",
+        "description": "Mode de garde en cas de séparation ou divorce. Joindre obligatoirement un document officiel ou amiable sur la garde de l’enfant. ",
+        "required": false,
+        "options": [
+          "Garde alternée",
+          "Garde exclusive",
+          "Autorité parentale"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif en cas de séparation ou divorce.",
+        "description": "Si jugement une copie de la décision de justice relative à l'autorité parentale ou l'ordonnance  de séparation mentionnant les conditions d'exercice de l'autoritéparentale. Si pas de jugementune attestation écrite sur l’honneur, autorisant l’inscription de l’enfant dans le groupe scolaire, ainsi qu’une copie de la pièce d’identité du parent n’effectuant pas les formalités d’inscription scolaire.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Personnes de + de 16ans habilitées à venir chercher votre enfant muni de sa pièce d’identité (pas plus de 6 personnes hors membres du foyer)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Personne(s) habilitée(s)",
+        "description": "Si vous devez renseigner une autre personne habilitée, vous devez utiliser l'onglet \"Ajouter un élément pour Personnes habilitées\". ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Dispositions particulières à l'école maternelle",
+            "description": "Dans les classes et sections maternelles, les enfants sont remis par la ou les personnes qui les accompagnent, soit au personnel enseignant chargé de la surveillance soit au personnel chargé de l'accueil.Les élèves sont repris, à la fin de chaque demi-journée, par la ou les personnes responsables légales ou par toute personne nommément désignée par elles par écrit au directeur d'école, sauf s'ils sont pris en charge, à la demande des personnes responsables, par un service de garde, de restauration scolaire ou de transport ou par l'accueil périscolaire auquel l'élève est inscrit.",
+            "required": false
+          },
+          {
+            "__typename": "ExplicationChampDescriptor",
+            "label": "Dispositions particulières à l'école élémentaire",
+            "description": "À l'issue des classes du matin et de l'après-midi, la sortie des élèves s'effectue sous la surveillance d'un enseignant dans la limite de l'enceinte des locaux scolaires, sauf pour les élèves pris en charge, à la demande des personnes responsables, par un service de garde, de restauration scolaire ou de transport, ou par un dispositif d'accompagnement ou par l'accueil périscolaire auquel l'élève est inscrit.Au-delà de l'enceinte des locaux scolaires, les parents assument la responsabilité de leur enfant selon les modalités qu'ils choisissent.",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom - Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Téléphone",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Lien de parenté",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Enfants de –de 3 ans non scolarisés, résidant à la même adresse pour les prévisions scolaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Enfants de - 3 ans",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom- Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de Naissance",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "AUTORISATIONS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Autorisation de prises et diffusions de photos de mon (mes) enfant(s) lors des manifestations de l'accueil périscolaire",
+        "description": "Nous autorisons la commune de Coublevie à photographier mon enfant dans le cadre des activités périscolaires et autorisons également la diffusion de ces photos pour l’illustration de documents municipaux uniquement",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Utilisation de photos de votre enfant par l’école",
+        "description": "Dans le cadre de notre travail pédagogique, nous sommes amenés à utiliser des photos des enfants de l’école (pour le journal scolaire, le site internet, dans les différentes publications de l’école et, éventuellement, à l’occasion de reportages télévisés). Il ne s’agit pas de photographies individuelles d’identité mais de photos de groupe ou bien de vues montrant des enfants en activité. En application de la loi informatique et libertés et des règles de protection des mineurs, les légendes accompagnant les photos ne communiqueront aucune information susceptible d’identifier directement ou indirectement les enfants ou leur famille. La loi nous fait obligation d’avoir l’autorisation écrite des parents pour cette utilisation. Aussi, nous vous serions reconnaissantsde bien vouloir remplir le talon ci-dessous. Nous attirons votre attention sur le fait que l’usage des images est sans aucun but lucratif et sans publication de nom de famille (prénom seulement). Un refus de votre part aura pour conséquence, soit d’écarter votre enfant lors des prises de vue, soit de masquer son visage.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "J’autorise les responsables à faire donner tous les soins par un médecin ou à faire transporter mon enfant dans un hôpital en cas d’urgence",
+        "description": "ll sera fait appel au 15 (SAMU) qui prendra toutes dispositions utiles. Un élève accidenté ou malade est orienté et transporté par les services de secours d’urgence vers l’hôpital le mieux adapté. La famille est immédiatement avertie par nos soins. Un élève mineur ne peut sortir de l’hôpital qu’accompagné de sa famille.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Justificatifs en cas de 1er inscription",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Livret de famille",
+        "description": "Une copie du livret de famille (toutes les pages) ou copie intégrale de l’acte de naissance de l’enfant datant de moins de 3 mois.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce d'identité",
+        "description": "Une copie de la pièce d’identité recto-verso ou passeport du responsable 1 et du responsable 2.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de domicile",
+        "description": "Une copie de justificatif de domicile datant de moins de 3 mois (EDF, quittance de loyer...) du responsable 1 et du responsable 2. Aucune inscription ne se fait avec un compromis de vente ou avec un arrêté de construction de maison individuelle en cours sur le commune.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation d’assurance",
+        "description": "Une attestation d’assurance au nom de l’enfant pour l'année scolaire 2021-2022.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Vaccins",
+        "description": "Une copie de toutes les pages vaccins du carnet de santé de l’enfant.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autorisation de prélèvement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autre pièce à votre convenance, le cas échéant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DECLARATION",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Consultation des dossiers",
+        "description": "Tous les documents: Jugement, livret de famille, CNI, justificatif de domicile, assurance, carnet de santé seront consultables par les différents services (Les agents du périscolaire, La directrice, L’adjoint au scolaire et Les agents administratifs)",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie sur l’honneur l’exactitude de tous les renseignements qui figurent  sur  le  présent  document  et  reconnais  avoir  pris  connaissance  que  les  informations  recueillies  font  l'objet  d'un traitement informatique  destiné  à  la  gestion  administrative  et  pédagogique  des  élèves.  Conformément  à  la  loi  «  informatique  et  libertés  »  du  6 janvier 1978 modifié en 2004, vous bénéficiez d'un droit d’accès et de rectification aux informations qui vous concernent en contactant la mairie deCoublevie.Je certifie l’exactitude des renseignements figurants ci-dessus, en accord avec l’article 372-2 du code civil, à l’égard « des tiers de bonne foi, chacun des parents est réputé agir avec l’accord de l’autre, quand il fait seul un acte usuel de l’autorité parentale relativement à la personne de l’enfant », je certifie en outre sur l’honneur que l’inscription scolaire de mon enfant est effectuée conjointement.J’atteste  l’exactitude  de  ces  renseignements  et  m’engage  à  signaler  toute  modification  (situation  familiale, adresse  etc...)  qui interviendrait avant la rentrée des classes et pendant sa scolarité. Je m’engage à respecter le règlement intérieur des services périscolaires en vigueur.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Mentions d'information sur la protections des données à caractère personnel",
+        "description": "« Le déclarant reconnait avoir connaissance des conditions légales d’utilisation des données personnelles recueillies par la gestion des inscriptions scolaires en application du décret n° 2020-811 du 29 juin 2020. Il est informé que la Commune pourra communiquer ces informations aux Autorités désignées par les textes législatifs ou règlementaires, ainsi qu’aux Autorités judiciaires.\nEn application des dispositions des Articles 15 et 16 du RGPD, le déclarant peut à tout instant, dans les conditions prévues par la loi 2018-493 du 20 Juin 2018, accéder à ses données personnelles et en demander le cas échéant la rectification. S’agissant de données dont la collecte est prévue par la loi ou le règlement, il ne peut pas en demander l’effacement ni la limitation d’utilisation dans les conditions légalement définies, sauf en cas de décision judiciaire.\nLa Commune de Coublevie s’engage à ce que la confidentialité et l’intégrité des données soient strictement protégées. Les données sont conservées dans le respect des dispositions légales applicables. Les informations seront utilisées dans le strict respect de la finalité pour laquelle elles ont été collectées et elles ne seront transmises à aucun tiers autre que désigné par les textes organisant leur collecte et leur traitement. Elles ne pourront en aucun cas être utilisées à des fins commerciales.\nVous pouvez accéder aux données vous concernant et les rectifier. Pour organiser votre droit d’accès et de rectification :\n@ dpo@paysvoironnais.com\n DPO\nCommunauté du Pays Voironnais \n40, rue Mainssieux - CS 80363\n38516 VOIRON CEDEX\nSi vous n'êtes pas satisfait du traitement de votre demande, il vous est possible de contacter la CNIL www.cnil.fr. »",
+        "required": true
+      }
+    ]
+  }
+}

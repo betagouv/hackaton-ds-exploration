@@ -1,0 +1,488 @@
+{
+  "number": 65198,
+  "title": "Incorporation des élèves gendarmes adjoints volontaires du stage 48/2022(EGAV) de l'école de gendarmerie de Fontainebleau (EGF)",
+  "description": "Cette démarche permet la constitution du dossier de prise en charge initiale des élèves gendarmes adjoints volontaires de l'école de gendarmerie de Fontainebleau",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer",
+    "Ministère des Armées"
+  ],
+  "datePublication": "2022-11-10T09:06:47+01:00",
+  "service": {
+    "nom": "Ecole de gendarmerie de Fontainebleau",
+    "organisme": "Ministère de l'Intérieur - gendarmerie nationale",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/incorpo_egf_stage_48_2022",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.interieur.gouv.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.com",
+  "logo": {
+    "filename": "egf-2015.jpg",
+    "checksum": "hKvkIxg4ubkA0gAk2yyk9A==",
+    "byteSize": "286988",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° Matricule",
+        "description": "Ce numéro correspond à l'identifiant défense présent sur l'attestation de la journée défense et citoyenneté (JDC)",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° INSEE (sécurité sociale)",
+        "description": "Pour la Polynésie et la Nouvelle-Calédonie, indiquer \"999\"",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Etat-civil",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Sexe",
+        "description": null,
+        "required": true,
+        "options": [
+          "Masculin",
+          "Féminin"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom d'usage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Pays de naissance",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations diverses",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Taille",
+        "description": "en cm",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Groupe sanguin",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Restriction alimentaire",
+        "description": "allergie, végétarien, gluten, sans porc, ...",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Situation familiale",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Situation",
+        "description": null,
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Marié",
+          "PACS",
+          "Concubinage",
+          "Divorcé",
+          "Séparé",
+          "Veuf"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de situation de famille (hors célibataire)",
+        "description": "Acte de mariage, PACS, ...",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom du conjoint",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Date et lieu de naissance du conjoint",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Profession du conjoint",
+        "description": null,
+        "required": false,
+        "options": [
+          "Salarié du secteur privé",
+          "Salarié du secteur public",
+          "Fonctionnaire",
+          "Militaire"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Si conjoint MILITAIRE, indiquer l'Arme",
+        "description": null,
+        "required": false,
+        "options": [
+          "Terre",
+          "Air",
+          "Marine",
+          "Gendarmerie"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "N° INSEE (sécurité sociale) du conjoint",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'enfants fiscalement à charge",
+        "description": "Si 0, merci de le préciser.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom, prénom, date et lieu de naissance des enfants",
+        "description": "1 ligne par enfant",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Acte(s) de naissance des enfants",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du domicile",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone fixe",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone portable",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Personne à prévenir en cas d'urgence",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lien",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone 1",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone 2",
+        "description": "le cas échéant",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Qualifications",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Dernier diplôme obtenu",
+        "description": "",
+        "required": true,
+        "options": [
+          "néant",
+          "diplôme national du brevet",
+          "CAP / BEP",
+          "certificat de capacité en droit",
+          "diplôme d'accès aux études universitaires (DAEU)",
+          "baccalauréat",
+          "brevet de technicien supérieur (BTS)",
+          "diplôme universitaire de technologie (DUT)",
+          "licence",
+          "licence professionnelle",
+          "maîtrise",
+          "master",
+          "doctorat"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie des diplômes obtenus",
+        "description": "Fournir la copie des diplômes (pas des relevés de notes) en 1 seul fichier",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie des diplômes de premiers secours",
+        "description": "ex. PSC1",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dernière profession civile",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Permis de conduire VL",
+        "description": null,
+        "required": true,
+        "options": [
+          "Oui intégralement",
+          "Uniquement le code",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "copie du permis (recto-verso) ou de l'attestation d'obtention du code",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Spécialité",
+        "description": "Préciser la spécialité et le niveau :\ncavalier / niveau\nski / niveau",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "diplôme spécialité",
+        "description": "Fournir le diplôme de la spécialité\n- minimum galop 5 ;",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Préparation militaire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous suivi une préparation militaire ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Préparation militaire",
+        "description": "Si oui, fournir une copie du brevet obtenu.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Volontariat / Engagement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "-",
+        "description": "(Autre que la journée défense et citoyenneté (JDC) et préparations militaires)",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous déjà servi en qualité de gendarme adjoint ou en tant que réserviste de la gendarmerie ?",
+        "description": "A renseigner, même si vous n'avez effectué qu'un ou deux jours.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "NIGEND",
+        "description": "Si ancien gendarme adjoint ou réserviste, précisez le NIGEND",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous déjà été engagé dans un autre corps d'armée ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièces justificatives d'un engagement militaire",
+        "description": "Si oui à la précédente question, fournir tous les documents relatifs aux services effectués :\n- État Signalétique et des Services (anciens militaires)\n- Dernier Bulletin de Solde (anciens militaires)\n- Copies des anciens contrat(s), renouvellement(s) et / ou décisions de résiliation(s)\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces à joindre",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Informations",
+        "description": "Merci de joindre les différentes pièces justificatives en respectant les consignes suivantes :\n- privilégier le format PDF (format image JPG toléré).\n- respect impératif des noms de fichier indiqué pour chaque pièce.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autorisation de soins en cas d’accident",
+        "description": "à fournir uniquement pour les élèves mineurs\nNom du fichier : AUTORISATION_SOINS_NOM_PRENOM",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Charte sanitaire de l'apprenant",
+        "description": "Nom du fichier :\nCHARTE_SANITAIRE_NOM_PRENOM",
+        "required": true
+      },
+      {
+        "__typename": "IbanChampDescriptor",
+        "label": "IBAN",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB",
+        "description": "Le RIB doit :\r\n- être au nom de l'élève ;\r\n- concerner un compte courant ;\r\n- être domicilié dans une banque française ;\r\n\r\nobligatoirement au format A4\r\nnom du fichier : RIB_NOM_PRENOM\r\n\r\n**Pour la Polynésie et la Nouvelle Calédonie, merci de fournir un RIB de votre banque actuelle. Un compte métropolitain sera ouvert au début de votre formation.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Carte nationale d'identité ou passeport",
+        "description": "(recto-verso sur le même document)\nnom du fichier : CNI_NOM_PRENOM",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Acte de naissance intégral ou copie complète du livret du famille (en couleurs)",
+        "description": "extrait de moins de 3 mois à demander en ligne à la mairie du lieu de naissance.\n\nnom du fichier : ACTE_NAISS_NOM_PRENOM",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation JDC (ou document justificatif)",
+        "description": "nom du fichier :  :\n- ATTEST_JDC_NOM_PRENOM",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation sécurité sociale et/ou carte vitale",
+        "description": "nom du fichier :\r\n- ATTEST_SS_NOM_PRENOM\r\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certificat médico-administratif d'aptitude à l'incorporation",
+        "description": "Validation de votre aptitude par le médecin militaire.\n\nnom du fichier :\n- CMAA_NOM_PRENOM",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestations de vaccination COVID",
+        "description": "Insérer toutes les attestations de vaccination ou de test positif sur un seul document.\r\nL'attestation est le document papier remis lors des vaccinations ou des dépistages.\r\nNe pas transmettre de capture d'écran du QR code.\r\nnom du fichier : ATT_VACC_NOM_PRENOM",
+        "required": false
+      }
+    ]
+  }
+}

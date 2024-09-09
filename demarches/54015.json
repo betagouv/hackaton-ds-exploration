@@ -1,0 +1,130 @@
+{
+  "number": 54015,
+  "title": " FCTVA automatisé (procédure déclarative résiduelle)",
+  "description": "Procédure dématérialisée de demandes de remboursement de la taxe sur la valeur ajoutée destinée aux collectivités soumis à l'automatisation de la gestion du FCTVA. \r\n\r\n",
+  "tags": [
+    "Entreprises"
+  ],
+  "zones": [
+    "Ministère de la Cohésion des territoires et des Relations avec les collectivités territoriales"
+  ],
+  "datePublication": "2022-02-08T18:04:31+01:00",
+  "service": {
+    "nom": "Bureau des finances locales",
+    "organisme": "Préfecture de l'Essonne",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/essonne-fctva-automatise",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.essonne.gouv.fr/Vous-etes/Collectivite/Finances-publiques/Dotations/Fonds-de-compensation-de-la-taxe-sur-la-valeur-ajoutee-FCTVA/Procedure-automatisee",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "Logo pref 91.PNG",
+    "checksum": "fzEMHO7KSsj+nUa8RvY+Ow==",
+    "byteSize": "8257",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 141,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Intitulé du dossier",
+        "description": "Exemple : 1er trim. 2022, 2e trim. 2022 ou FCTVA 2022",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "RENSEIGNEMENTS DE LA COLLECTIVITE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la collectivité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail de la collectivité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et qualité du référent en charge du dossier",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone du référent",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "FCTVA",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Régime FCTVA",
+        "description": null,
+        "required": true,
+        "options": [
+          "1/ FCTVA versé l'année de réalisation de la dépense (régime N)",
+          "2/ FCTVA versé l'année suivant les dépenses (régime N+1)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PIECES DU DOSSIER",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Etat 2-A",
+        "description": "Cet état permet de déclarer l'ensemble des dépenses à ajouter à la déclaration car inscrites sur des comptes qui ne font pas partie du dispositif automatisé.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Etat 2-B",
+        "description": "Cet état permet de déclarer l'ensemble des dépenses non éligibles transmises par Hélios mais à déduire de la déclaration FCTVA.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Etat 2-C",
+        "description": "Cet état est consacré aux montants à reverser. Ex : cession de bien immobilier ou mobilier.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pages du compte de gestion",
+        "description": "ou documents des services fiscaux.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Convention",
+        "description": "dans les cas prévus par la loi.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Autres",
+        "description": "Tout document que vous jugerez utile pour l'instruction de votre dossier.",
+        "required": false
+      }
+    ]
+  }
+}

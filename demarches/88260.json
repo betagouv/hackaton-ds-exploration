@@ -1,0 +1,348 @@
+{
+  "number": 88260,
+  "title": "Déclaration annuelle des unités de méthanisation en cogénération d'électricité et de chaleur",
+  "description": "Pour la région Nouvelle-Aquitaine, la démarche permet de transmettre le bilan annuel des unités de méthanisation, obligatoire dans le cadre des arrêtés tarifaires au titre des dispositions du code de l'énergie.\r\n\r\nSeules les installations produisant de l'électricité sont concernées.\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition énergétique"
+  ],
+  "datePublication": "2024-01-25T18:24:52+01:00",
+  "service": {
+    "nom": "Service Environnement Industriel",
+    "organisme": "DREAL Nouvelle-Aquitaine, DGEC",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/declaration-annuelle-des-unites-de-methanisation-e",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.nouvelle-aquitaine.developpement-durable.gouv.fr/dispositif-de-soutien-a-la-methanisation-a13775.html",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/eli/arrete/2016/12/13/DEVR1636693A/jo",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 21,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur l'installation et données ICPE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Renseignez l'adresse du site de production de biométhane",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Département où est située l'installation",
+        "description": "Indiquez le département dans lequel est située l'installation de méthanisation",
+        "required": true,
+        "options": [
+          "16",
+          "17",
+          "19",
+          "23",
+          "24",
+          "33",
+          "40",
+          "47",
+          "64",
+          "79",
+          "86",
+          "87"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type d'unité de production",
+        "description": "Les <em> unités de méthanisation à la ferme </em> sont portées par un agriculteur ou des établissements de développement agricole, majoritaires au capital (> 50% du capital), et implantées sur la ferme.  \r\nLes <em> unités de méthanisation collectives agricoles </em> sont portées par au minimum 3 structures agricoles (actionnaires majoritaires).  \r\nLes <em> unités de méthanisation centralisées multi-acteurs </em> sont des unités portées par un territoire ou un développeur privé.  \r\nLes <em> unités de méthanisation industrielles </em> sont des installations portées par une entreprise pour la valorisation de ses déchets.",
+        "required": true,
+        "options": [
+          "Méthanisation à la ferme",
+          "Méthanisation collective agricole",
+          "Méthanisation centralisée multi-acteurs",
+          "Méthanisation industrielle",
+          "Installation de Stockage de Déchets Non Dangereux (ISDND)",
+          "Station de Traitement des Eaux Polluées (STEP)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de mise en service de l'installation",
+        "description": "Indiquez ici la date de première livraison d'énergie au réseau (et non pas la date du premier remplissage du digesteur)",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Rubrique ICPE de l'installation de production de biométhane",
+        "description": "Indiquez la(es) rubrique(s) ICPE de l’installation de méthanisation (2781) ou de stockage de déchets non dangereux (2760) du récépissé de déclaration (preuve de dépôt) ou de l’arrêté d’enregistrement ou de l’arrêté d’autorisation.",
+        "required": true,
+        "options": [
+          "2781-1",
+          "2781-2",
+          "2760-2"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Régime ICPE de l'installation de production de biométhane",
+        "description": "",
+        "required": true,
+        "options": [
+          "Autorisation",
+          "Enregistrement",
+          "Déclaration"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Tonnage journalier du méthaniseur (t/j)",
+        "description": "Indiquez le tonnage journalier indiqué dans votre récépissé de déclaration, arrêté d'enregistrement ou arrêté d'autorisation",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Contrat d'achat de l'électricité produite",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du co-contracant",
+        "description": "Indiquez le nom de l'acheteur de l'électricité produite (exemple : EDF OA)",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de signature du contrat d'achat",
+        "description": "Indiquez la date de signature du contrat d'achat",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Arrêté tarifaire",
+        "description": "Précisez sur la base de quel arrêté tarifaire le contrat d'achat a été signé\r\nBG11 : arrêté tarifaire du 19/05/2011\r\nBG16 : arrêté tarifaire du 13/12/2016\r\nSi autre cas, merci de préciser (exemple: BG11 revu en 2015)",
+        "required": true,
+        "options": [
+          "BG11",
+          "BG16"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Des avenants au contrat d'achat ont-t'ils été signés?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de prise d'effet du dernier avenant au contrat d'achat de l'électricité",
+        "description": "Indiquez la date de prise d'effet du dernier avenant au contrat d'achat de l'électricité produite",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nature des modifications liées aux différents avenants",
+        "description": "Précisez la nature des différentes modifications apportées depuis la signature du contrat d'achat",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Contrôle de l'installation de production",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du contrôle réalisé au titre du code de l'énergie",
+        "description": "Les installations de méthanisations ou de valorisation du biogaz bénéficiant d'un tarif d'achat de l'électricité doivent faire l'objet d'un contrôle par un organisme agréé la première année de mise en service, puis tous les 4 ans (arrêté du 2 novembre 2017 relatif aux modalités de contrôle des installations de production d'électricité), ainsi que lors des modifications.\r\nMerci d'indiquer la date du dernier contrôle.\r\nSi l'installation n'a pas encore fait l'objet de contrôle, indiquer 01/01/1900",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de contrôle réalisé",
+        "description": "Indiquez la raison du dernier contrôle réalisé (mise en service, modification ou contrôle périodique).",
+        "required": true,
+        "options": [
+          "Mise en service",
+          "Modification soumise à contrôle",
+          "Contrôle périodique"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nom de l'organisme agréé ayant réalisé le contrôle",
+        "description": "Indiquez le nom de l'organisme agréé ayant réalisé le dernier contrôle.",
+        "required": true,
+        "options": [
+          "APAVE SA",
+          "Bureau Alpes Contrôles",
+          "Bureau Veritas Exploitation",
+          "Dekra Industrial SAS",
+          "Quali-consult Exploitation",
+          "Socotec Equipements"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Justification du calcul de l'efficacité énergétique",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Bénéficiez-vous d'un contrat BG11 avec un avenant 2015?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Energie thermique (en kWh)",
+        "description": "Indiquez la quantité d'énergie thermique Eth (en kWh).\r\nEth représente <strong>l'énergie thermique</strong> valorisée autrement que par la production d'électricité, l'autoconsommation ou la transformation des intrants.\r\nPour le calcul de l'efficacité énergétique (V), seule est comptabilisée l'énergie thermique qui alimente une activité consommatrice en chaleur créée en même temps que l'installation ou vient en substitution d'un moyen de production d'énergie thermique fossile.\r\nEn cas d'absence de compteur, indiquez zéro.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Quantité d'électricité totale produite relevée en sortie de génératrice (en kWh)",
+        "description": "Indiquez la quantité d'électricité produite relevée en sortie de moteur de cogénération (en kWh).\r\nEn cas d'absence de compteur, indiquez zéro.",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Consommation électrique des auxiliaires du moteur de cogénération (en kWh)",
+        "description": "Il s'agit de la différence entre la quantité d’électricité produite par la (les) génératrice(s) et la quantité d’électricité injectée sur le réseau (en kWh).\r\nEn cas d'absence de compteur, indiquez zéro",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Energie primaire Ep (kWh PCI)",
+        "description": "Indiquez l'énergie primaire du biogaz en entrée de centrale (en kWh).",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Valeur de l'efficacité énergétique (%)",
+        "description": "Indiquer la valeur de l'efficacité énergétique (V).\r\nLa formule de calcul à appliquer est la suivante : V = (Eth + Eélec) / (0.97*Ep )\r\n",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Intrants",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Période du bilan annuel",
+        "description": "Précisez la période prise en compte dans ce bilan annuel : du 1er janvier au 31 décembre 2023 (année civile) ou du 1er novembre 2022 au 31 octobre 2023  (année EDF OA) ",
+        "required": true,
+        "options": [
+          "du 1er janvier au 31 décembre 2023",
+          "du 1er novembre 2022 au 31 octobre 2023"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous utilisez de l'énergie fossile pour le fonctionnement de l'installation?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Pour quelle utilisation?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Phase de démarrage/arrêt/entretien"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez la nature de l'énergie fossile utilisée",
+        "description": "Renseignez la donnée en kWh",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Précisez la quantité d'énergie fossile utilisée",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration des intrants",
+        "description": "Merci de remplir les tonnages de matières entrantes selon les catégories proposées dans le fichier en pièce jointe.\r\nPour une ligne donnée, toutes les colonnes doivent être remplies.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Y a-t-il eu des modifications des intrants par rapport à l'année précédentes ?",
+        "description": "Modification de la nature des intrants et/ou, pour les sous-produits animaux, sur l'origine des élevages",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Explicitez la nature des modifications apportées sur les intrants",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Dysfonctionnements",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous rencontré des dysfonctionnements sur la période 2023 ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quels types de dysfonctionnements ou problèmes avez-vous rencontrés ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Problème conception unité (mauvais dimensionnement, introduction non adaptée, matériel non fonctionnel...)",
+          "Dysfonctionnement moteur cogénération ou génératrice",
+          "Problème biologique (croûte, acidose, mousse...)",
+          "Manque substrats (ou potentiel méthanogène surestimé au stade projet)",
+          "Grosse maintenance (vidange digesteur, changement moteur...)",
+          "Autres : préciser (dans la question suivante)"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire sur le fonctionnement de l'installation pendant la période",
+        "description": "Merci de préciser en quelques mots le fonctionnement général de l'installation sur la période définie (panne, incident, autre)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commentaires/avis/remarques",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Votre avis",
+        "description": "Votre avis sur ce questionnaire ? y a t-il des questions mal formulées ? peu compréhensibles?\r\nCette question libre est pour vous, n'hésitez pas à vous exprimer.\r\nMerci de votre collaboration",
+        "required": false
+      }
+    ]
+  }
+}

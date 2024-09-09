@@ -1,0 +1,116 @@
+{
+  "number": 40374,
+  "title": "HABILITATION CCF / RENNES",
+  "description": "Cet espace permet la gestion des demandes d'habilitation au contrôle en cours de formation.",
+  "tags": [
+    "Habilitation",
+    "Formation",
+    "Ccf"
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2021-03-23T09:55:08+01:00",
+  "service": {
+    "nom": "Mission de Contrôle Pédagogique des Formations par Apprentissage (MCPFA)",
+    "organisme": "Direction Académique à la Formation Professionnelle Initiale et Continue (DAFPIC)",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/habilitation-ccf-rennes",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/habilitation-ccf-rennes",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042045805/2020-11-18/",
+  "logo": {
+    "filename": "logo Rennes.jpg",
+    "checksum": "a+IPimBqK7YL4WrZJB0Rmg==",
+    "byteSize": "12223",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "Arrete du 17 juin 2020.pdf",
+    "checksum": "bekCpkjzWnTUCiA6prx/fg==",
+    "byteSize": "134785",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 399,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Diplôme pour lequel la demande d'habilitation à mettre en oeuvre le CCF est formulée",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Cadre général",
+        "description": "Conforme à l'arrêté du 17 juin 2020, pour :\n– les centres de formation d’apprentis;\n– les établissements publics dans le cadre de la formation professionnelle continue qui, en cas de préparation au certificat d’aptitude professionnelle, au baccalauréat professionnel ou au brevet professionnel, souhaitent pratiquer le contrôle en cours de formation pour l’intégralité des épreuves du diplôme conformément aux articles D. 337-12 pour le certificat d’aptitude professionnelle, D.337-74 pour le baccalauréat, D. 337-111 pour le brevet professionnel.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Intitulé précis du diplôme",
+        "description": "Voir la liste et les codes des diplômes en lien avec les CPC.\nCommencer nécessairement par l'abréviation du diplôme en majuscule (ex : CAP, MC, BP, BAC PRO, BTS)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'établissement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Désignation de l'OF \"mère\"",
+        "description": "Intitulé exact de l'OF déclaré à la DIRECCTE (Nom de l'établissement, code postal et ville)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code UAI de l'OF \"mère\"",
+        "description": "Code UAI de l'OF \"mère\"",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Désignation du site de formation",
+        "description": "Intitulé exact du site de formation (Nom de l'établissement, code postal et ville)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Code UAI du site de formation",
+        "description": "Code UAI du lieu ou se déroule la formation - correspond également au statut de l'apprenant",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "S'agit-il d'une demande d'habilitation simplifiée",
+        "description": "Art.3 Dès lors que les apprentis sont intégrés pour la totalité de leur formation au sein d'un groupe constitué :\n- d'un public scolaire dans un établissement public local d'enseignement ;\n- de stagiaires de la formation professionnelle continue dans un établissement public ;\n\n\nle CFA dépose une demande d'habilitation simplifiée.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations obligatoires pour l'instruction",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Dépôt de pièces",
+        "description": "Liste des pièces à déposer:\n- Formulaire de demande (signature unique du directeur-trice de l'OF \"Mère\")\n- Avis du conseil de perfectionnement\n+ LE DOSSIER DE GUIDANCE\n- Composition et qualification de l'équipe pédagogique de l'organisme de formation (Sauf si demande habilitation simplifiée) ;\n- Organisation pédagogique de la formation en centre ou en établissement, et en entreprise ;\n- Modalités de mise en œuvre du contrôle en cours de formation.\nAinsi que toute pièce complémentaire demandée par le service instructeur.",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Dépôt de pièce",
+            "description": "",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "number": 3964,
+  "title": "Demande de réservation de salle",
+  "description": "Pendant la durée de cette réservation, le local et ses équipements se trouvent placés sous l’entière responsabilité de l’organisateur de la réunion.\r\nL’organisateur s’engage personnellement à prendre en charge tous les frais de réparation ou de remise en état des dégradations ou détériorations constatées aux équipements du local ainsi que les frais de rachat des matériels disparus ou volés.",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2018-04-12T17:51:06+02:00",
+  "service": null,
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-reservation-de-salle",
+  "dpoUrl": null,
+  "noticeUrl": "",
+  "siteWebUrl": "Aucun lien fourni",
+  "cadreJuridiqueUrl": null,
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "1) Demande de réservation :",
+        "description": "",
+        "required": true,
+        "options": [
+          "D'une salle de cours",
+          "De l'amphithéâtre",
+          "De la cafétéria",
+          "De la salle de restaurant (salle à manger – salle de distribution de repas – cuisine – plonge)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si salle, indiquez le nom ou numéro de la salle",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "2) Demande de prêt des matériels suivants durant la réservation du local :",
+        "description": "",
+        "required": false,
+        "options": [
+          "magnétoscope",
+          "vidéoprojecteur",
+          "amplificateur",
+          "vaisselle"
+        ]
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "3) Date et heure de début",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "4) Date et heure de fin",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "5) Motif de la réservation :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "6) Nombre de personnes participantes :",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "number": 20942,
+  "title": "94-Demande de permis de stationnement, sur places existantes, pour déménagement (ou livraison de matériels) v2",
+  "description": "Pour le département du Val-de-Marne (94) et pour les routes classées à grande circulation, demande de permis de stationnement pour effectuer un déménagement (ou une livraison de matériels) sur places existantes.\r\nversion du 03/09/2019",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2019-09-04T09:04:50+02:00",
+  "service": {
+    "nom": "DRIEAT-ILE DE FRANCE (partie arrêtés de circulation 94)",
+    "organisme": "Service de la sécurité des transports-Département Sécurité, Education et Circulation Routières",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/499ee220-9682-4989-b2d3-21da3cc14aa5",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.driea.ile-de-france.developpement-durable.gouv.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000022289346&categorieLien=id",
+  "logo": {
+    "filename": "logoweb-pref94.jpg",
+    "checksum": "CNj1ENrrZ4Txjse/Q8LXZw==",
+    "byteSize": "18095",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Descriptif de la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information : le stationnement sur les emplacements réservés (vigipirate, police, GIG, GIC, transports de fonds...) est INTERDIT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de déménagement",
+        "description": "Moyen de levage : nacelle ou monte-meubles",
+        "required": true,
+        "options": [
+          "SANS moyen de levage",
+          "AVEC moyen de levage"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de véhicule à stationner",
+        "description": "Préciser la catégorie du véhicule, afin de pouvoir définir le nombre de places à neutraliser",
+        "required": true,
+        "options": [
+          "Voiture",
+          "Petit camion (< 20 m3)",
+          "Gros camion (> 20 m3)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nombre de place(s) de stationnement matérialisée(s) et réglementaire(s) à neutraliser",
+        "description": "Voiture = 1 place [par voiture]\nPetit camion (< 20 m³) = 2 places [par petit camion]\nGros camion (> 20 m³) = 3 places [par gros camion]",
+        "required": true,
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          ">20"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "Date et heure de début du stationnement :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "Date et heure de fin du stationnement :",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro du lieu du stationnement",
+        "description": "Préciser uniquement le numéro",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du lieu du stationnement",
+        "description": "Rue, code postal, ville\nNous vous demandons de vous assurer que le stationnement est possible (absence de travaux sur les places par exemple)\n",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Numéro de la route départementale",
+        "description": "Dans le doute, nous vous conseillons :\n- d'effectuer une recherche sur un moteur de recherche.\n- de vous adresser à la mairie du lieu du déménagement. ",
+        "required": true,
+        "options": [
+          "D1",
+          "D10",
+          "D101",
+          "D110",
+          "D111",
+          "D120",
+          "D130",
+          "D136",
+          "D138",
+          "D143B",
+          "D145",
+          "D148",
+          "D150",
+          "D152",
+          "D152A",
+          "D155",
+          "D158",
+          "D165",
+          "D19",
+          "D204",
+          "D205",
+          "D229",
+          "D244",
+          "D245",
+          "D246",
+          "D3",
+          "D4",
+          "D5",
+          "D6",
+          "D60",
+          "D6A",
+          "D7",
+          "D86",
+          "D87",
+          "D920",
+          "Avenue de la Pépinière",
+          "Rue des Fusillés",
+          "Rue des Pommiers",
+          "Rue du Moulin-Bateau",
+          "Rue Jean Mazet"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précision complémentaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Contre-allée",
+        "description": "",
+        "required": false,
+        "options": [
+          "Côté habitation",
+          "Côté chaussée"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Emplacement livraison / Arrêt minute / Arrêt taxi",
+        "description": "",
+        "required": false,
+        "options": [
+          "Emplacement livraison",
+          "Arrêt minute",
+          "Arrêt taxi"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées de la personne morale (société)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le déménagement est-il effectué par une personne morale (société) ?",
+        "description": "Si oui, veuillez renseigner les coordonnées de la personne morale",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "N° du SIRET",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la société",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse complète",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées du permissionnaire (personne physique qui sera redevable de la redevance (facture) relative au permis de stationnement)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "En application de l’article L 2331-4-8 du code général des collectivités territoriales, l’autorisation délivrée donne lieu au paiement d’une redevance dont le montant, les modalités de paiement et de révision sont fixées par la commune du lieu du stationnement",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Complément d'adresse",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "En répondant \"Oui\", je confirme qu'au moment où j'effectue ma demande, les places demandées sont existantes et disponibles (absence de travaux ou d'obstacle gênant le stationnement par exemple).",
+        "description": "Pour votre information, la mairie concernée par votre emménagement/déménagement attestera de l'absence de travaux ou d'obstacle gênant le stationnement, le(les) jour(s) de votre (vos) emménagement(s)/déménagement(s).",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Photographie très récente du ou des lieux concerné(s) par la demande",
+        "description": "Si vous avez répondu \"Non\" à la question présente, nous vous demandons de nous transmettre une photo de l'emplacement demandé et éventuellement un schéma.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de situation (ou schéma) précisant les cotations du ou des lieux concerné(s) par la demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

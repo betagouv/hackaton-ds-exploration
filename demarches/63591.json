@@ -1,0 +1,257 @@
+{
+  "number": 63591,
+  "title": "RADON : Déclaration des mesurages de l'activité volumique en radon effectués dans certains établissements recevant du public au titre du code de la santé publique",
+  "description": "Ce formulaire a pour vocation de remplacer la partie radon de l'application SISE-ERP. Il permet de répondre à l'obligation figurant au V de l'article R.1333-36 du Code de la santé publique de transmettre les résultats des mesurages en radon effectués au titre du I du même article dans certains établissements recevant du public. \r\nLa saisie est réalisée par les organismes agréés par l'Autorité de Sûreté Nucléaire selon les informations figurant dans la décision de l'ASN concernée. Le rapport concernant les mesurages en radon est déposé en pièce jointe au formulaire.\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2023-02-27T10:07:06+01:00",
+  "service": {
+    "nom": "Sous-Direction Environnement et Alimentation, Direction Générale de la Santé",
+    "organisme": "Direction des Affaires Juridiques",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/radon-declaration-des-mesurages-de-l-activite-volu",
+  "dpoUrl": "dpd-minsociaux@sg.social.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "Site de l'Autorité de Sûreté Nucléaire : décision relative au dépôt des rapports de mesurage en radon à paraître fin 2022.",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046829907",
+  "logo": null,
+  "notice": null,
+  "deliberation": {
+    "filename": "arrêté homologation et décision 2022-DC-0745 de l'ASN.pdf",
+    "checksum": "dZ2MKg/Moe43N2LwkCHf6g==",
+    "byteSize": "1028941",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 2051,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Aide pour bien remplir le formulaire",
+        "description": "https://youtu.be/xRL1T0yTqyw",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'organisme agréé déclarant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Numéro d'agrément ASN de l'organisme déclarant",
+        "description": "Saisir le numéro de l'agrément de l'Autorité de sûreté nucléaire  (ex: CODEP-DIS-2020-123456)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Etablissement recevant du public dans lequel la mesure a été effectuée au titre du CSP",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département dans lequel la mesure a été effectuée",
+        "description": "Choisir le département de l'établissement (ERP) concerné par les mesures ",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Commune concernée par la mesure",
+        "description": "Saisir le nom de la commune où se situe l'établissement (ERP) concerné par les mesures",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Code postal de la commune",
+        "description": "Code postal de la commune où se situe l'ERP surveillé",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Zone à potentiel radon de l'établissement",
+        "description": "Choisir la zone radon concernée selon le zonage communal défini par l'arrêté du 27 juin 2018",
+        "required": true,
+        "options": [
+          "Zone 1",
+          "Zone 2",
+          "Zone 3"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Catégorie d'établissement recevant du public",
+        "description": "ERP au sens de l’article D. 1333-32 du code de la santé publique ",
+        "required": true,
+        "options": [
+          "Etablissement scolaire",
+          "Autre établissement recevant des enfants de moins de 6 ans",
+          "Etablissement de santé",
+          "Etablissement médico-social",
+          "Etablissement pénitentiaire",
+          "Etablissement thermal"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Code APE/NAF de l’établissement surveillé",
+        "description": "Préciser le type d'activité (4 chiffres et une lettre)",
+        "required": true,
+        "options": [
+          "8423Z",
+          "8510Z",
+          "8520Z",
+          "8531Z",
+          "8532Z",
+          "8541Z",
+          "8610Z",
+          "8710A",
+          "8710B",
+          "8710C",
+          "8720A",
+          "8720B",
+          "8730A",
+          "8730B",
+          "8790A",
+          "8790B",
+          "8891A",
+          "8891B",
+          "8899A",
+          "9604Z",
+          "Autre"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'établissement recevant du public dans lequel le mesurage a été réalisé",
+        "description": "A remplir avec ou sans SIRET",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'établissement recevant du public concerné",
+        "description": "A renseigner avec ou sans SIRET",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Numéro SIRET de l’établissement recevant du public concerné",
+        "description": "Saisir le numéro de SIRET de l'établissement recevant du public, et, si l'identifiant complémentaire est disponible, remplir ci-dessous :\r\n\r\n- les champs FINESS pour un établissement de santé ou médico-social ou l'UAI pour un établissement scolaire\r\n",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro FINESS de l'établissement recevant du public concerné",
+        "description": "Saisir le numero FINESS s'il s'agit d'un établissement de santé ou médico-social. ",
+        "required": false
+      },
+      {
+        "__typename": "AnnuaireEducationChampDescriptor",
+        "label": "Code UAI de l'établissement scolaire concerné",
+        "description": " Ajouter l'Unité Administrative Immatriculée s'il s'agit d'un établissement scolaire (code UAI - RNE composé de 7 chiffres et d’une lettre). ex: 1234567Z",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Dépôt du rapport de mesurage en radon et renseignement des données particulières",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RAPPORT de mesurage en radon de l'établissement concerné",
+        "description": "Saisir la pièce jointe (10 MO max), dont le nom sera normalisé sous la forme : numéo du département_année_mois_APE_nom de l'établissement.pdf (ex : 29_2019_09_1234Z_nom-établissement).\r\nPuis déposer le fichier au format pdf exclusivement. Attention un rapport synthétique par établissement comprenant tous les bâtiments.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du rapport",
+        "description": "correspond à la date d'envoi du rapport au propriétaire ou au gestionnaire de l'établissemennt",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Données particulières sur les mesurages  de l'activité volumique en radon mentionnés à l'article R.1333-33 et des prestations de contrôle d'efficacité mentionnées à l'article 1333-34 du CSP.",
+        "description": "Vous devez saisir les éléments suivants",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Contexte du mesurage en radon",
+        "description": "Choisir entre 4 catégories de contexte",
+        "required": true,
+        "options": [
+          "Mesurage initial",
+          "Contrôle d'efficacité",
+          "Mesurage décennal",
+          "Mesurages supplémentaires"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de bâtiments mesurés au titre du CSP",
+        "description": "Nombre de bâtiments ayant fait de mesures dans l'établissement et surveillé au titre du CSP.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Activité volumique attribuée à l'établissement",
+        "description": "Renseigner la valeur maximale attribuée à l'établissement (et pas bâtiment par bâtiment).",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom du bâtiment présentant la valeur attribuée à l'établissement",
+        "description": "Nom du bâtiment avec l'activité volumique la plus élevée, pour ce qui concerne les zones homogènes définies au titre du CSP donc fréquentées par le public (ex: bâtiment B ; Administration ; Internat ; Foyer).",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Période de construction du bâtiment présentant la valeur la plus élevée",
+        "description": "Période de construction du bâtiment fréquenté par le public et présentant l'activité volumique en radon la plus élevée.",
+        "required": true,
+        "options": [
+          "Antérieur à 1948",
+          "De 1949 à 1975",
+          "De 1976 à 2011",
+          "De 2012 à 2020",
+          "Après 2020"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de zones homogènes de l'établissement qui sont fréquentées par le public",
+        "description": "Nombre total de zones homogènes fréquentées par le public dans l'établissement surveillé (somme de toutes les zones homogènes des différents bâtiments surveillés).",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de zones homogènes supérieures à 300 Bq/m3",
+        "description": "Nombre de zones homogènes fréquentées par le public et dont le résultat du mesurage en radon est supérieur à 300 Bq/m3. Il s'agit du nombre total de zones homogènes dans l'ERP et non pas bâtiment par bâtiment.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Parmi ces zones, nombre de zones homogènes supérieures à 1000 Bq/m3",
+        "description": "Nombre de zones homogènes fréquentées par le public mesurées dans l'ERP dont le résultat du mesurage est supérieur à 1000 Bq/m3 (nombre total dans l'ERP et non pas bâtiment par bâtiment).",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Engagement du déposant",
+        "description": "Je m'engage à ce que les informations fournies dans ce formulaire soient correctes.",
+        "required": true
+      }
+    ]
+  }
+}

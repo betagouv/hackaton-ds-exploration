@@ -1,0 +1,732 @@
+{
+  "number": 18238,
+  "title": "Pôle Ornais de Lutte contre l’Habitat Indigne - Formulaire de signalement",
+  "description": "Formulaire de signalement et dossier d'instruction des signalements d'habitats indignes au POLHI (Pôle Ornais de Lutte contre l’Habitat Indigne).",
+  "tags": [
+    "Habitat"
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2019-05-17T16:20:27+02:00",
+  "service": {
+    "nom": "Service habitat construction, pôle ornais de lutte contre l'habitat indigne",
+    "organisme": "Direction départementale des territoires de l'Orne",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/polhi",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.orne.gouv.fr/le-pole-ornais-de-lutte-contre-l-habitat-indigne-a6332.html",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000020438861&dateTexte=20090327",
+  "logo": {
+    "filename": "procedure-e978ad29-edc3-40af-998a-f84f5c7b986b.png",
+    "checksum": "rSkN+BdiTmHhvcw2mVrZWQ==",
+    "byteSize": "30617",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "20190605_NOTICE_ds_polhi_signalement.pdf",
+    "checksum": "JqibjIrGGk534xJUSShHGg==",
+    "byteSize": "31830",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 863,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Besoin d'aide ?",
+        "description": "Cliquez sur le bouton \"Guide de la démarche\" ci-dessus.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "____________________________________________________________________________________________________",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date du signalement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "____________________________________________________________________________________________________",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité de la personne ou de l’organisme à l’origine du signalement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Auteur du signalement",
+        "description": null,
+        "required": true,
+        "options": [
+          "Propriétaire occupant",
+          "Locataire",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Auteur du signalement si \"Autre\"",
+        "description": "Plusieurs choix possibles",
+        "required": false,
+        "options": [
+          "ADMR",
+          "Anonyme",
+          "AS CH",
+          "AS SNCF",
+          "ATMPO",
+          "Autre",
+          "Avocat",
+          "Bailleur",
+          "Bailleur social",
+          "CAF",
+          "CARSAT",
+          "CCAS",
+          "CD",
+          "CLIC",
+          "Comité technique délocalisé",
+          "DDCSPP",
+          "Elu",
+          "EPCI",
+          "Gendarmerie",
+          "Gérant",
+          "INDECOSA",
+          "Infirmier",
+          "MAIA",
+          "Mairie",
+          "Média'Dom",
+          "MSA",
+          "Occupant",
+          "Opérateurs",
+          "Orne Habitat",
+          "Pays du Perche",
+          "Police",
+          "Préfecture",
+          "PRIS ANAH",
+          "Proche",
+          "SDIS",
+          "Soutien accompagnement insertion orientation",
+          "UDAF",
+          "Voisin",
+          "YSOS"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "Nom de l'auteur du signalement",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Adresse de l'auteur du signalement",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Numéro de téléphone  de l'auteur du signalement",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "Adresse courriel (mail) de l'auteur du signalement",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Signalement",
+        "description": "",
+        "required": true,
+        "options": [
+          "Sur déclaration de l'occupant ou d'un tiers",
+          "Suite à une visite"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la visite",
+        "description": "Si le signalement est fait suite à une visite à domicile",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "____________________________________________________________________________________________________",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Occupation du logement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'adulte(s)",
+        "description": "Adulte(s) occupant le logement",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'enfant(s)",
+        "description": "Enfant(s) occupant le logement",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom(s), prénom(s) et date(s) de naissance du ou des occupant(s)",
+        "description": "Pour les femmes mariées, préciser le nom de jeune fille",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Adresse du logement objet du signalement",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Numéro de téléphone de l'occupant du logement",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "____________________________________________________________________________________________________",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Statut d'occupation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut d'occupation du logement",
+        "description": "Si \"Autre\", remplir le cadre suivant \"Statut d'occupation si \"Autre\"\"",
+        "required": true,
+        "options": [
+          "Propriétaire occupant",
+          "Locataire",
+          "Sans titre",
+          "Sous-locataire",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Statut d'occupation si \"Autre\"",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Si locataire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Bail",
+        "description": "",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "DPE fourni",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'entrée dans les lieux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant du loyer",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant des charges",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Aide au logement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro allocataire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Organisme payeur des aides",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type d'aide",
+        "description": "",
+        "required": false,
+        "options": [
+          "ALF",
+          "ALS",
+          "APL"
+        ]
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant aides / logement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Bailleur privé",
+        "description": "",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Bailleur public (HLM)",
+        "description": "",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Dette de loyer",
+        "description": "",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas",
+          "Sans objet (propriétaire)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Propriétaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom",
+        "description": "Nom et prénom du propriétaire ou nom du bailleur social",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Adresse du propriétaire",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Telephone",
+        "description": "Numéro de téléphone du propriétaire",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "Adresse Courriel (mail) du propriétaire",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Gérant (SCI, agence immobilière...)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom",
+        "description": "Nom et prénom du gérant",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": "Adresse du gérant",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "Numéro de téléphone du gérant",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": "Adresse courriel (mail) du gérant",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "____________________________________________________________________________________________________",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Accompagnement social",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Accompagnement social",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, nom et coordonnées du travailleur social",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "____________________________________________________________________________________________________",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Description du logement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type",
+        "description": "",
+        "required": true,
+        "options": [
+          "Maison",
+          "Appartement",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Année de construction",
+        "description": "",
+        "required": false,
+        "options": [
+          "Avant 1949",
+          "Après 1949",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de pièces",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Surface approximative",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "____________________________________________________________________________________________________",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Problèmes repérés dans le logement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Suspicion d'incurie",
+        "description": "Accumulation d'objets et/ou de déchets",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Mode de chauffage",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Mode de chauffage",
+        "description": "",
+        "required": false,
+        "options": [
+          "--Absence--",
+          "--Chauffage central--",
+          "Fuel",
+          "Électrique",
+          "Gaz",
+          "Bois",
+          "Autre",
+          "Ne sait pas",
+          "--Autre--"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Installation électrique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Préciser l'état de l'installation électrique",
+        "description": "État du compteur, des fils, des prises...",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Bâti dégradé",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Gros oeuvre : murs fissurés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Gros oeuvre : Menuiseries extérieures dégradées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Toitures : fuites",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Toitures : couvertures précaires",
+        "description": "",
+        "required": false,
+        "options": [
+          "--Oui--",
+          "Tôles",
+          "Papier goudronnés",
+          "Autre",
+          "--Non--"
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Intérieur : absence ou insuffisance d'isolation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Intérieur : absence ou insuffisance de ventilation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Intérieur : ventilation obstruée",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Intérieur : présence importante de moisissures",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Autres dégradations",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Sols dégradés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Peintures dégradées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Menuiseries intérieures dégradées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Papiers peints dégradés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Plafonds dégradés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Escalier dégradé",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Rampes dégradées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Garde corps dégradés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Risque de danger",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Immédiat",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "À moyen terme",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Risque pour la santé",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Risque pour la sécurité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commentaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire",
+        "description": "Indiquer ici toute information utile à l'appréciation de l'état du logement",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": "Pour joindre plusieurs documents, cliquer sur \"Ajouter une ligne\"",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document à joindre",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "____________________________________________________________________________________________________",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je comprends que les informations recueillies sur ce formulaire sont exclusivement réservées à l'instruction du dossier par le pôle ornais de lutte contre l'habitat indigne.",
+        "description": " Conformément aux dispositions de la loi « informatique et libertés », je dispose d'un droit d’accès, de rectification, d’opposition, d’effacement, à la portabilité et à la limitation du traitement des données personnelles me concernant en contactant le pôle ornais de lutte contre l'habitat indigne (ddt-polhi@orne.gouv.fr).",
+        "required": true
+      }
+    ]
+  }
+}

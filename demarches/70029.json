@@ -1,0 +1,121 @@
+{
+  "number": 70029,
+  "title": "Bilan des tirs du sanglier",
+  "description": "Vous avez sollicité une autorisation de tir du sanglier. Nous vous remercions de compléter le bilan des tirs. \r\nBilan a retourner obligatoirement avant le 30 septembre 2023 (Art.R424-8 du Code de l'Environnement)",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2023-02-09T13:24:06+01:00",
+  "service": {
+    "nom": "DDT37 - Service de l'Eau et des Ressources Naturelles",
+    "organisme": "Direction Départementale des Territoires d'Indre et Loire",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/bilan-des-tirs-du-sanglier",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.indre-et-loire.gouv.fr",
+  "cadreJuridiqueUrl": "https://www.legifrance.fr",
+  "logo": {
+    "filename": "Intro DS logo préfet DDT.png",
+    "checksum": "0x2yB+Hisasw5wD9i9kMPw==",
+    "byteSize": "92641",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 4,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code Postal",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de dossier de l'autorisation individuelle",
+        "description": "A retrouver sur votre attestation d'autorisation de tir du sanglier. ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Bilan des tirs de sangliers",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre total de sangliers prélevés",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Description du bilan",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Commune",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date",
+            "description": "Date à laquelle les sangliers ont été prélevés",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre d'animaux prélevés",
+            "description": "Saisir 0 en cas d'absence de tir",
+            "required": true
+          },
+          {
+            "__typename": "TextareaChampDescriptor",
+            "label": "Observation",
+            "description": "Vous pouvez laisser une observation si nécessaire. \r\nCliquer sur \"ajouter un élément\" autant de fois que vous voulez déclarer un bilan. ",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Déclaration sur l'honneur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste de l'exactitude des informations déclarées ci-dessus",
+        "description": "Case à cocher",
+        "required": true
+      }
+    ]
+  }
+}

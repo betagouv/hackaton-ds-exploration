@@ -1,0 +1,310 @@
+{
+  "number": 74345,
+  "title": "Enquête Irrigation : relevés annuels d'index de prélèvements d'eau pour la campagne 2023 et estimation des besoins en prélèvements d'eau 2024 pour le département de l'Aisne ",
+  "description": "L'objectif est ici de recueillir les index de prélèvement d'eau en m3 pour la campagne d'irrigation 2023 ainsi que les besoins estimés de prélèvements d'eau en m3 pour l'année 2024.\r\n\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2024-02-27T08:12:16+01:00",
+  "service": {
+    "nom": "Service environnement",
+    "organisme": "Direction départementale des territoires de l'Aisne",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/enquete-irrigation-2023",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.aisne.gouv.fr/Actions-de-l-Etat/Environnement/L-eau/Secheresse",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "bloc-marque2020_pref02_moyen.jpg",
+    "checksum": "DFv+qt27j616Z4Obm3h2jg==",
+    "byteSize": "908260",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "DDT02-202302-20-ACD-20022023.pdf",
+    "checksum": "E43RDitBw405mLIs2gv93Q==",
+    "byteSize": "2049503",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 52,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom ou raison sociale du propriétaire de l'ouvrage",
+        "description": "Il s'agit ici du propriétaire figurant sur l'acte administratif délivré pour l'ouvrage que vous allez sélectionner. Il peut s'agir d'une personne physique ou morale.",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "n°, nom de la rue, commune",
+        "description": "Veuillez renseigner votre adresse : N° rue, commune",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Code postal",
+        "description": "Merci de saisir votre code postal et sélectionner votre commune",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET",
+        "description": "Veuillez renseigner votre numéro SIRET",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro du formulaire papier de la Chambre d'agriculture",
+        "description": "Numéro du formulaire papier transmis par la Chambre d'agriculture de l'Aisne",
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique du déclarant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Ouvrage de prélèvement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations administratives complémentaires concernant le prévèvement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Numéro d'enregistrement du prélèvement auprès des services de Police de l'Eau",
+        "description": "Le numéro d'enregistrement de votre dossier de prélèvement auprès des services de Police de l'Eau figure sur tous les courriers relatifs à votre dossier de prélèvement (numéro de dossier transmis dans la correspondance avec la Direction départementale des territoires de l'Aisne).\r\n<strong> Si vous disposez de plusieurs ouvrages, vous pourrez répéter le bloc autant de fois que nécessaire en cliquant sur le bouton ci-dessous .</strong>\r\nSi vous ne disposez pas de cette information, vous pouvez uniquement indiquer votre référence Agence de l'Eau ci-après. \r\nSi vous avez des questions, vous pouvez nous contacter à l'adresse ddt-env-ppe@aisne.gouv.fr",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro d'enregistrement du prélèvement auprès des services de Police de l'Eau",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Référence Agence de l'eau",
+        "description": "Vous pouvez indiquer vos numéros d'enregistrement auprès de l'Agence de l'Eau sous le format 002527XXX (identifiant).\r\n<strong> Si vous disposez de plusieurs ouvrages, vous pourrez répéter le bloc autant de fois que nécessaire en cliquant sur le bouton ci-dessous. </strong>\r\nSi vous avez des questions, vous pouvez nous contacter à l'adresse ddt-env-ppe@aisne.gouv.fr",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Référence Agence de l'eau",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de prélèvement",
+        "description": "Votre prélèvement a lieu en eau superficielle ou en eau souterraine ?",
+        "required": true,
+        "options": [
+          "Eau superficielle (en rivière)",
+          "Eau souterraine (forage)",
+          "Les deux"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Références à fournir pour les prélèvements en eaux superficielles",
+        "description": "Si votre prélèvement se fait sur les eaux superficielles, veuillez indiquer la commune et la parcelle où est localisé le prélèvement.\r\nSi vous disposez de plusieurs prélèvements, vous pourrez répéter la déclaration d'index autant de fois que nécessaire cette opération en cliquant sur le bouton ci-dessous.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Références à fournir pour les prélèvements en eaux superficielles",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Code BSS forage en eau souterraine",
+        "description": "Si votre prélèvement se fait sur les eaux souterraines, veuillez indiquer le code BSS de votre forage.\r\nSi vous disposez de plusieurs forages, vous pourrez répéter la déclaration d'index autant de fois que nécessaire cette opération en cliquant sur le bouton ci-dessous",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Code BSS forage en eau souterraine",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Date de l'arrêté ou de l'accord sur le récépissé au titre de la loi sur l'eau",
+        "description": "Vous pouvez ajouter autant de date que d'ouvrage",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de l'arrêté ou du récépissé au titre de la loi sur l'eau",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Débit maximal autorisé (m3/h)",
+        "description": "Veuillez indiquer le débit maximal autorisé dans la décision administrative (pour les décisions à compter de 2006). <strong> Si vous disposez de plusieurs ouvrages, vous pourrez répéter le bloc autant de fois que nécessaire en cliquant sur le bouton ci-dessous. </strong>Si vous ne disposez pas de cette information, vous pouvez contacter la DDT : ddt-env-ppe@aisne.gouv.fr ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Débit maximal autorisé (m3/h)",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Volume annuel autorisé",
+        "description": "Veuillez indiquer le volume annuel autorisé dans la décision administrative (pour les décisions à compter de 2006). <strong> Si vous disposez de plusieurs ouvrages, vous pourrez répéter le bloc autant de fois que nécessaire en cliquant sur le bouton ci-dessous. </strong>Si vous ne disposez pas de cette information, vous pouvez contacter la DDT : ddt-env-ppe@aisne.gouv.fr ",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Volume annuel autorisé",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Prélèvement 2023",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez vous irrigué en 2023 ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Informations sur le prélèvement 2023",
+        "description": "<strong> Si vous disposez de plusieurs ouvrages, vous pourrez répéter le bloc autant de fois que nécessaire en cliquant sur le bouton ci-dessous. </strong>",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro du compteur figurant sur la pompe du forage",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Est-ce-que vous avez un autre compteur sur le forage ?",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Index de début de campagne en m3",
+            "description": "Veuillez saisir l'index de début de campagne en m³. Si vous possédez un compteur décamétrique, pensez à ajouter un zéro au résultat indiqué sur le compteur (exemple si l'index décamétrique indique 45031, le volume en m³ est 450 310). ATTENTION, vous ne pouvez saisir ici que des chiffres.\r\nEn cas de co-utilisation, le propriétaire est responsable de déclarer l'ensemble des volumes prélevés sur son ouvrage. Il convient donc de reporter l’index de début de campagne (et non du tour d’eau) et l’index de fin de campagne assorti du total volume prélevé. Le volume prélevé doit être égal à l’index de fin moins l’index de début de campagne, sauf cas particuliers (compteurs/pompes mobiles, changement de compteur en cours d'année…). Dans ce cas, n'hésitez pas à apporter toute information complémentaire que vous jugez utile dans le cadre commentaire prévu à cet effet.",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Index de fin de campagne en m3 total",
+            "description": "Veuillez saisir l'index de fin de campagne (en m³). Si plusieurs irrigants ont prélevé sur ce même forage, ne pas tenir compte des consommations intermédiaires, mais ne retenir que le résultat final qui figure actuellement sur le compteur. ATTENTION, vous ne pouvez saisir ici que des chiffres.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaires",
+        "description": "Veuillez ici apporter toute précision que vous jugez utile, qu'il s'agisse de co-utilisation (tierce personne), de changement de compteur au cours de la campagne d'irrigation ou autre.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Déclaration des besoins de prélèvements d'eau pour l'année 2024",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Allez vous irriguer en 2024 ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Volume total envisagé (tous ouvrages confondus et en m3) pour la campagne 2024",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Fiche de la Chambre d'agriculture de l'Aisne",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Merci d'ajouter le scan (les 2 pages) de la fiche transmise par la Chambre d'agriculture de l'Aisne",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Fiche transmise par la Chambre d'agriculture de l'Aisne",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Fin de questionnaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations diverses",
+        "description": "Merci de préciser ci-après toute nouvelle coordonnée en cas de changement d'adresse, de dénomination, de mail, de numéro de téléphone...\r\nSi rien n'a changé, merci d'indiquer \"néant\".",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

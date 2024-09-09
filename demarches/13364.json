@@ -1,0 +1,396 @@
+{
+  "number": 13364,
+  "title": "bilan annuel des unités de méthanisation",
+  "description": "déclaration annuelle du fonctionnement de l'unité de méthanisation obligatoire dans le cadre des arrêtés tarifaires\r\nPermet aux exploitants d'unités de remonter à l'ensemble des administrations les évolutions de l'unité (evolution de puissance, plan d'approvisionnement etc.)",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2019-04-11T16:34:55+02:00",
+  "service": {
+    "nom": "DREAL Bretagne ",
+    "organisme": "DREAL Bretagne",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/declaration-annuelle-methanisation-bzh",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/eli/arrete/2016/12/13/DEVR1636693A/jo",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 1,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de mise en fonction de l'installation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Période du bilan",
+        "description": "préciser la période prise en compte dans ce bilan annuel: du 1er janvier au 31 décembre (année civile) ou du 1er novembre au 31 octobre ",
+        "required": true,
+        "options": [
+          "du 1er janvier au 31 décembre",
+          "du 1er novembre au 31 octobre"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Valorisation",
+        "description": "",
+        "required": true,
+        "options": [
+          "chaudiere",
+          "injection",
+          "cogénération",
+          "cogénération et injection",
+          "carburant (GNV/GNC)"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Arrêté tarifaire",
+        "description": "",
+        "required": true,
+        "options": [
+          "BG11",
+          "BG6",
+          "BG16",
+          "injection"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Régime ICPE",
+        "description": "",
+        "required": false,
+        "options": [
+          "déclaration",
+          "enregistrement",
+          "autorisation"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type d'unité",
+        "description": "Les unités de méthanisation à la ferme sont portées par un agriculteur ou des établissements de développement agricole, majoritaires au capital (>50% du capital) et implantées sur la ferme.  \r\nLes unités de méthanisation collectives agricoles sont portées par au minimum 3 structures agricoles (actionnaires majoritaires).  \r\nLes unités de méthanisation centralisées multi-acteurs sont des unités portées par un territoire ou un développeur privé.  \r\nLes unités de méthanisation industrielles sont des installations portées par une entreprise pour la valorisation de ses déchets.",
+        "required": true,
+        "options": [
+          "à la ferme",
+          "collectif agricole",
+          "centralisée multiacteurs",
+          "industrielle",
+          "ISDND",
+          "STEP"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Production d'énergie",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Cogénération",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Présence d'un débimètre de biogaz",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Quantité de biogaz produit",
+        "description": "production d'énergie primaire en m3 - Indiquer la quantité de biogaz mesurée si présence d'un débitmètre et la quantité calculée sinon",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "% de CH4",
+        "description": "Indiquer le % de CH4 contenu dans le biogaz produit (mesuré ou calculé en fonction des éléments à disposition)",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Energie primaire produite",
+        "description": "kWh d'énergie primaire produit sur l'année (PCI du biogaz)",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Puissance moteur installée",
+        "description": "en  kWe - indiquer la puissance moteur du contrat (si plusieurs moteurs)",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'heure de fonctionnement du moteur",
+        "description": "indiquer le nombre d'heures de fonctionnement du moteur sur l'année. Si plusieurs moteurs, faire la moyenne.",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Consommation des auxiliaires sur l'année",
+        "description": "en kWh",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Consommation de l'unité pour le process sur l'année",
+        "description": "en kWh - consommation réelle si mesurées sinon indiquer le chiffre estimé",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Utilisation d'énergie fossile",
+        "description": "indiquer si utilisation ou non d'énergie fossile (démarrage/redémarrage installation ou autre). \r\nSi non: indiquer  0\r\nSi oui: indiquer l'énergie équivalente (kWh)",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'heure de fonctionnement de la torchère",
+        "description": "indiquer le temps de fonctionnement de la torchère pour l'année (en heure)",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Production électrique injectée sur le réseau sur l'année",
+        "description": "en kWh",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Quantité de chaleur valorisée",
+        "description": "si pas de chaleur valorisée, indiquer zero. sinon préciser en kWh",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Type de valorisation de la chaleur",
+        "description": "exemple séchoir, maison, exploitation, pasteurisation",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Injection",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Capacité max d'injection de biométhane",
+        "description": "en Nm3/h - capacité max d'injection définie sur le contrat",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Quantité de biogaz produit",
+        "description": "en m3 pour la période",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "% de CH4 dans le biogaz",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Quantité de biométhane injecté sur le réseau",
+        "description": "en m3 sur la période concernée",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Quantité de biométhane injecté sur le réseau par mois",
+        "description": "remplir le tableau mensuel proposé en Pièce jointe sur la période définie (janvier à décembre ou novembre à octobre)",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Quantité de biogaz torché",
+        "description": "en m3 sur la période concernée",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'heures de fonctionnement de la torchère sur la période",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Pouvoir calorifique supérieur (PCS) du biométhane injecté",
+        "description": "en  kWh/Nm3",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre d'heures de fonctionnement (d'injection)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Modalité de chauffage du digesteur",
+        "description": "préciser les modalités de chauffage du digesteur",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Consommation électrique du système d'épuration",
+        "description": "kWhe par Nm3/h de biogaz à traiter (moyenne annuelle)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "% de CH4 dans le off-gaz relaché après épuration",
+        "description": "% de CH4 dans le gaz non injecté dans le réseau et relâché dans la nature après épuration",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Addition de propane ou butane",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Débit moyen de biométhane sur l'année",
+        "description": "Nm3/h",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Surface agricole",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "SAU total de l'exploitation agricole",
+        "description": "pour les unités agricole, la SAU de l'exploitation principale liée à l'unité de méthanisation",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "SAU de cultures principales dédiées à l'énergie",
+        "description": "indiquer la surface en hectare de terre agricole utilisée annuellement pour les cultures dédiées à l'énergie (culture principale valorisée en énergie type maïs, herbe, orge etc.).\nPour les unités de méthanisation collective territoriale et agricole, faire la somme des surfaces utilisées par les exploitations agricoles adhérentes livrant ce type de produit. \nSi l'unité n'utilise aucune culture principale dans ses intrants indiquer 0. ",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "SAU de CIVE",
+        "description": "Nombre d'hectares dédiés à la culture de CIVE incorporées dans le méthaniseur. \nNombre d'hectares cultivés en propre pour un méthaniseur à la ferme, et sommes des hectares cultivés par les différents fournisseurs de matières pour un méthaniseur collectif",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Réduction engrais minérale",
+        "description": "%",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Intrants",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration intrant",
+        "description": "remplir les tonnages de matières entrantes selon les catégories proposées dans le fichier excel en PJ.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Digestat",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Volume de digestat produit",
+        "description": "préciser la quantité de digestat produite sur l'année en m3",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Azote (N)",
+        "description": "quantité d'azote sortant selon l'analyse des digestats produits (en kg)",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Phosphore (P)",
+        "description": "quantité de phosphore sortant selon l'analyse des digestats produits (en kg)",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Potassium (K)",
+        "description": "quantité de potassium sortant selon l'analyse des digestats produits (en kg)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Agrément sanitaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de l'agrément sanitaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Disposez-vous d'une hygénisation?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Liste des intrants hygénisés",
+        "description": "en cas d'hygénisation, préciser les intrants qui subissent ce processus si cela n'a pas déjà été fait dans le tableau de déclaration des intrants- si déjà fait, ne pas remplir cette case.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ICPE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bilan des contrôles règlementaires/ accident/épandage/actions de communication etc.",
+        "description": "pour les installations soumises au régime ICPE de l'autorisation, vous pouvez ajouter ici en PJ les différentes études règlementaires prévues par l'article 51 de l'arrêté ministériel du 10 novembre 2009",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commentaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaire sur le fonctionnement de l'installation pendant la période",
+        "description": "Merci de préciser en quelques mots le fonctionnement général de l'installation sur la période défini (panne, incident, autre)",
+        "required": true
+      }
+    ]
+  }
+}

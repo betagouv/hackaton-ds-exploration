@@ -1,0 +1,530 @@
+{
+  "number": 44615,
+  "title": "\"Fonds d'urgence\" en vue de soutenir les exploitations agricoles les plus fragiles touchées par les épisodes de gel.",
+  "description": "Face à la catastrophe que vient de subir le monde agricole et viticole français, le Premier ministre a annoncé une série de mesures qui représentent une mobilisation de grande ampleur estimée. Une enveloppe d’urgence a  été par ailleurs allouée aux Préfets pour apporter un soutien immédiat aux exploitations les plus en difficulté. Ce formulaire permet aux agriculteurs impactés de formaliser leur demande.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2021-05-31T17:06:15+02:00",
+  "service": {
+    "nom": "DDTM 44 - service économie agricole - bureau investissements - mesures conjoncturelles",
+    "organisme": "Direction départementale des territoires et de la mer de la Loire-Atlantique",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fonds-d-urgence-gel-2021",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.loire-atlantique.gouv.fr/Services-de-l-Etat",
+  "cadreJuridiqueUrl": "https://info.agriculture.gouv.fr/gedei/site/bo-agri/instruction-2021-322",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 3,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "VOTRE IDENTIFICATION",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale de l'exploitation agricole",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Forme juridique de l'exploitation agricole",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse de l'exploitation agricole",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité de la personne responsable de l'exploitation agricole",
+        "description": "La personne responsable est la personne bénéficiaire du fonds d'urgence.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la personne responsable de l'exploitation agricole",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom de la personne responsable de l'exploitation agricole",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone de la personne responsable de l'exploitation agricole",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse mail de la personne responsable de l'exploitation agricole",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Associés",
+        "description": "Pour renseigner des associés supplémentaires, cliquez sur le bouton \" + Ajouter un élément pour «Associés»\" situé à la fin du paragraphe .",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date d'installation",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Installation avec DJA",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Coordonnées de la personne qui suit le dossier",
+        "description": "Si la personne qui suit ce dossier est différente de la personne responsable de l'exploitation agricole, indiquez nom, prénom, fonction dans l'exploitation, et téléphone de la personne qui suit ce dossier. Elle pourra être contactée directement dans le cadre de l'instruction de ce dossier.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "COORDONNEES BANCAIRES DU BENEFICIAIRE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IbanChampDescriptor",
+        "label": "IBAN",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "BIC",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Titulaire du Compte",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "SAU - PRODUCTIONS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "SAU totale",
+        "description": "exemple : \"2,47\" (utilisez la virgule pour les décimaux)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "CULTURES POUVANT ETRE IMPACTEES PAR LE GEL",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "A LIRE ATTENTIVEMENT",
+        "description": "Les cases suivantes sont obligatoires, même si vous n'êtes pas concerné par la culture notée en titre. \nPar exemple, si vous n'êtes pas concerné par la culture des pommiers, indiquez \"0\" (chiffre zéro) pour la surface et \"0\" (chiffre zéro) pour l'estimation du taux de perte pour les pommiers.\nSi vous n'êtes pas concerné par les rubriques \"3. Autres arbres fruitiers\" et \"4. Petits fruits rouges\", indiquez \"sans objet\" pour le nom de la culture, et \"0\" pour la surface et le taux.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. Pommiers",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface cultivée pour les pommiers (en ha)",
+        "description": "exemple : \"2,47\" (utilisez la virgule pour les décimaux).\nIndiquez \"0\" si pas de culture de pommes.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Estimation du taux de perte pour les pommiers (en %)",
+        "description": "exemple : \"20\" (indiquez un nombre entier, sans virgule)\nIndiquez \"0\" si pas de culture de pommes.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. Poiriers",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface cultivée pour les poiriers (en ha)",
+        "description": "exemple : \"2,47\" (utilisez la virgule pour les décimaux).\nIndiquez \"0\" si pas de culture de poires.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Estimation du taux de perte pour les poiriers (en %)",
+        "description": "exemple : \"20\" (indiquez un nombre entier, sans virgule).\nIndiquez \"0\" si pas de culture de poires.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. Autres arbres fruitiers (cerisiers, pruniers ...)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Liste des fruits cultivés (arbres), autres que la poire ou la pomme",
+        "description": "Pour renseigner des fruits supplémentaires, cliquez sur le bouton \" + Ajouter un élément pour «Liste des fruits cultivés (arbres)»\" situé à la fin du paragraphe .",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du fruit cultivé",
+            "description": "exemple : \"cerise\".\nIndiquez \"sans objet\" si pas de culture d'autres fruits que la pomme ou la poire.",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Surface cultivée pour ce fruit (en ha)",
+            "description": "exemple : \"2,47\" (utilisez la virgule pour les décimaux).\nIndiquez \"0\" si pas de culture d'autres fruits que la pomme ou la poire.",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Estimation du taux de perte pour ce fruit autre que la pomme ou la poire (en %)",
+            "description": "exemple : \"20\" (indiquez un nombre entier, sans virgule).\nIndiquez \"0\" si pas de cultures d'autres fruits que la pomme ou la poire).",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4. Petits fruits rouges (fraises, framboises, ...)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Liste des fruits rouges cultivés",
+        "description": "Pour renseigner des fruits supplémentaires, cliquez sur le bouton \" + Ajouter un élément pour «Liste des fruits rouges cultivés»\" situé à la fin du paragraphe .",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom du petit fruit rouge cultivé",
+            "description": "exemple : \"fraise\".\nIndiquez \"sans objet\" si pas de culture de petits fruits rouges.",
+            "required": true
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Surface cultivée pour ce petit fruit rouge (en ha)",
+            "description": "exemple : \"2,47\" (utilisez la virgule pour les décimaux).\nIndiquez \"0\" si pas de culture de petits fruits rouges.",
+            "required": true
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Estimation du taux de perte pour les petits fruits rouges (en %) (en %)",
+            "description": "exemple : \"20\" (indiquez un nombre entier, sans virgule)\nIndiquez \"0\" si pas de culture de petits fruits rouges.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5. Viticulture",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface cultivée pour la viticulture (en ha)",
+        "description": "exemple : \"2,47\" (utilisez la virgule pour les décimaux).\nIndiquez \"0\" si pas de viticulture.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Estimation du taux de perte pour la viticulture (en %)",
+        "description": "exemple : \"20\" (indiquez un nombre entier, sans virgule). \nIndiquez \"0\" si pas de viticulture.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "AUTRES CULTURES DE L'EXPLOITATION AGRICOLE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface cultivée pour les autres cultures (en ha)",
+        "description": "exemple : \"2,47\" (utilisez la virgule pour les décimaux).\nIndiquez \"0\" si pas d'autres cultures.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "AUTRES PRODUCTIONS (BOVINS, OVINS ...)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Liste des autres productions",
+        "description": "Pour renseigner des productions supplémentaires, cliquez sur le bouton \" + Ajouter un élément pour «Liste des autres productions de la structure»\" situé à la fin du paragraphe .",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de la production",
+            "description": "Indiquez \"sans objet\" si pas d'autres productions.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ELEMENTS ECONOMIQUES ET COMPTABLES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Chiffre d'affaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Chiffre d'affaires total 2020 (en €)",
+        "description": "exemple : \"1 000\".",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Chiffres d'affaires 2020 en arboriculture et viticulture (en €)",
+        "description": "Chiffre correspondant aux surfaces que vous avez déclarées ci-dessus dans le paragraphe \"Cultures pouvant être impactées par le gel\".",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Trésorerie globlale",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Dernière trésorerie nette globale connue (campagne 20...)",
+        "description": "Trésorerie nette globale = (créances + banques si positive) - ( court terme + ouverture de crédit + dettes exploitation hors emprunts moyen terme)\nexemple : \"-1000\".",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Procédure collective en cours",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Procédure collective en cours",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si oui, remplissez les 3 champs suivants",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "1 - Nom de la procédure collective en cours",
+        "description": "exemples : sauvegarde, redressement, liquidation, ...",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "2 - Date de jugement d'ouverture",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "3 - Date d'homologation du plan",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si vous êtes en attente d'une procédure collective, remplissez le champ suivant.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de jugement d'ouverture",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Prêt Garantie Etat",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Prêt Garantie Etat sollicité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si oui, renseignez les deux champs suivants.",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "1 - Date de demande",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "2 - Montant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PIECES A JOINDRE A LA DEMANDE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si vous êtes une société : Kbis",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation affiliation MSA",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si vous êtes un jeune agriculteur : CJA, RJA",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB au nom du bénéficiaire",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si Trésorerie Nette négative : dernier bilan",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ELEMENTS SUPPLEMENTAIRES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires libres",
+        "description": "Le cas échéant, indiquez tout élément supplémentaire qui pourrait être utile à l'instruction de votre dossier.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "VOS ENGAGEMENTS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie l'exactitude de l'ensemble des informations fournies dans le présent formulaire,",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je déclare être agriculteur à titre principal,",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je déclare ne pas percevoir de pension à titre principal,",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je m'engage, sous réserve d'attribution d'une aide, à délivrer tout justificatif demandé par l'autorité compétente pendant 3 années, et à me soumettre et à faciliter l'ensemble des contrôles administratifs et des contrôles sur place.",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "A LIRE ATTENTIVEMENT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information",
+        "description": "Le dépôt de votre dossier vaut demande d'aide.",
+        "required": false
+      }
+    ]
+  }
+}

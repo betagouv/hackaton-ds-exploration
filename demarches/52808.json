@@ -1,0 +1,554 @@
+{
+  "number": 52808,
+  "title": "Dossier de demande de subvention PDASR 2022 du GARD",
+  "description": "PDASR : Plan Départemental d'Action Sécurité Routière\r\n\r\n\r\n\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2022-01-10T13:08:04+01:00",
+  "service": {
+    "nom": "Coordination Sécurité routière",
+    "organisme": "Préfecture du Gard",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-subvention-pdasr-du-gard-2022",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.gard.gouv.fr/",
+  "cadreJuridiqueUrl": "https://www.service-public.fr/associations/vosdroits/R1271",
+  "logo": {
+    "filename": "Marianne2021.jpg",
+    "checksum": "JanQPYZruBDlD3vVpZW9hQ==",
+    "byteSize": "143597",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 15,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Contrat d'engagement Républicain",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Je prends connaissance et je remplie le contrat Républicain",
+        "description": "L’importance des associations et des fondations dans la vie de la Nation et leur contribution à l’intérêt général justifient que les autorités administratives décident de leur apporter un soutien financier ou matériel. Il en va de même pour les fédérations sportives et les ligues professionnelles. L’administration, qui doit elle-même rendre des comptes aux citoyens, justifier du bon usage des deniers publics et de la reconnaissance qu’elle peut attribuer, est fondée à s’assurer que les organismes bénéficiaires de subventions publiques ou d’un agrément respectent le pacte républicain.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "L'association a pris connaissance du pacte républicain et s'engage à le respecter",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "DEMANDE de SUBVENTION (Pg1/9 CERFA)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Récurrence",
+        "description": "S'agit-il d'une première demande de subvention au titre du PDASR ou de la reconduction du partenariat ?",
+        "required": true,
+        "options": [
+          "Première demande",
+          "Renouvellement"
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Récurrence",
+        "description": "S'agit-il d'une première demande de subvention au titre du PDASR ou de la reconduction du partenariat ?",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Sagit-il d'une première demande au PDASR",
+            "description": "Si la réponse et non vous devez fournir le Bilan N-1",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Si la réponse est non à la question précédente télécharger le bilan N-1",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "PERIODE",
+        "description": "Pour les demandes de subvention \"pluriannuelles\" type projets, contactez obligatoirement la coordination SR.",
+        "required": true,
+        "options": [
+          "ANNUELLE",
+          "PLURIANNUELLE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "La demande est-elle présentée à d'autres autorités administratives ?",
+        "description": "Le budget présenté doit être en cohérence avec les réponses .",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "MultipleDropDownListChampDescriptor",
+            "label": "Nouveau champ Adresse",
+            "description": null,
+            "required": false,
+            "options": [
+              "ETAT -Ministère",
+              "Conseil Régional",
+              "Conseil départemental",
+              "Commune ou intercommunalité",
+              "Etablissement public"
+            ]
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Précisez les autres services consultés pour cette demande",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'association (Section1 CERFA)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom de l'association",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "SIGLE de l'association",
+        "description": "Si l'association est dotée d'un LOGO et/ou d'une identité Visuelle vous pouvez télécharger le fichier",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "SIGLE",
+        "description": "ou Acronyme",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Site web",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "N° SIRET",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Numéro RNA",
+        "description": "A défaut celui du récépissé en Préfecture ",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse siège SOCIAL",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Code POSTAL",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Adresse de gestion ou locale",
+        "description": "Si différente du Siège Social",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nouveau champ Adresse",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "code postal",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "commune",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "NOM Prénom du représentant LEGAL",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom Prénom représentant Légal",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Association bénéficie d'agréments",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Type d'agrément / attribués par / date",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Association reconnue d'utilité publique",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Association assujettie aux impôts commerciaux",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Champ libre",
+        "description": "Toutes autres informations sur l'association que vous souhaitez porter à connaissance ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Moyens humains de l'association (section 4 CERFA)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de bénévoles",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de volontaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "nombre de salarié",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Equivalence Temps Plein",
+            "description": "1 salarié à temps plein + & salarié à 50% = 1,5 ETP",
+            "required": false
+          },
+          {
+            "__typename": "DecimalNumberChampDescriptor",
+            "label": "Dont emplois aidés",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Adhérents",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Budget de l'association (section 5 CERFA)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Télécharger et remplir le document",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Porteur de projet / Contact",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom prénom du porteur de projet",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "\n",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "PORTABLE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Courriel",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PRESENTATION du Projet d'action de prévention sécurité routière",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Intitulé du projet / de l'action",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Les objectifs de l'action",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Les enjeux de sécurité routière ( DGO )",
+        "description": "Les actions doivent cibler des enjeux définis dans le document général d'orientation",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Enjeux Du DGO auquel se réfère l'action",
+            "description": "Plusieurs enjeux peuvent être ciblés , privilégier cependant le public au thème ( jeunes sur alcool)/ Précisez si vous choisissez \"autre\"",
+            "required": true,
+            "options": [
+              "Conduites Addictives (alcool Stup)",
+              "Jeunes",
+              "Séniors",
+              "Risque Routier en Entreprise",
+              "2 roues motorisés",
+              "Vulnérables ( EDP-cyclistes-piétons)",
+              "Autres ( actions spécifiques ar exemple : téléphones, ceinture, éclairage,... )"
+            ],
+            "otherOption": true
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description de l'action (modalités)",
+        "description": "Détails du projet ",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Public cible",
+        "description": null,
+        "required": true,
+        "options": [
+          "Jeunes (hors scolaire)",
+          "Scolaires",
+          "Séniors",
+          "Actifs",
+          "Motards",
+          "Cyclistes",
+          "Piétons",
+          "Tous publics"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Date(s) ou période(s) et lieu(x) de réalisation",
+        "description": "L'action peut se dérouler tout au long de l'année, dans ce cas dans la mesure du possible merci de fournir un calendrier (possibilité de joindre un fichier ci-dessous)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Calendrier d'intervention",
+        "description": "Eventuellement télécharger le calendrier d'action",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Indicateurs de suivi prévus",
+        "description": "Les indicateurs choisis (à préciser) doivent permettre de répondre à la question : « à quoi constatera-t-on que l’objectif est atteint ? ». Ils devront figurer dans le bilan de l'action.\n",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Indicateurs de suivis prévus",
+        "description": "Les indicateurs choisis (à préciser) doivent permettre de répondre à la question : « à quoi constatera-t-on que l’objectif est atteint ? ». Ils devront figurer dans le bilan de l'action.\n",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Nombre de personnes sensibilisées",
+            "description": "même approximativement",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Questionnaire d'évaluation",
+            "description": "Charger vos documents d'évalution",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Autres moyens d'évaluation",
+            "description": "décrire",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Evaluation",
+            "description": "chargez éventuellement vos documents d'évaluation, fiches, photos, témoignages, articles de presse d'actions similaires et/ou précédentes",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "photos",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "article presse",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Besoins en moyens humains et matériels",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Besoins en Intervenant(s) Départemental(aux) de Sécurité Routiére ( IDSR )",
+        "description": "Dans l'hypothèse où la participation d'IDSR est souhaitée, le calendrier d'interventions doit être connu et la coordination SR contactée.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Partenaires",
+        "description": "Préciser si le(s) partenariat(s) est (sont) acquis, sollicité(s) (attente de réponse) ou recherché(s)",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Besoins en matériels",
+        "description": "Préciser vos besoins : présentoirs, simulateurs voiture ou deux roues motorisés ; mallette : alcool, stupéfiants, vieillesse...",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Besoins en supports de communication",
+        "description": "Préciser si vous avez des besoins en plaquettes, affiches, flyers, kakémonos, goodies,...",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "BUDGET",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant de la subvention au titre du PDASR",
+        "description": "Indiqué le montant de la subvention sollicité au titre du PDASR",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Montant global des subvention HORS PDASR",
+        "description": "Si il y a lieux, indiqué le montant total des subventions sollicitées aux divers organismes HORS PDASR",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Section 6 CERFA",
+        "description": "télécharger le document joint, le compléter et le joindre à la demande",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Coût total de l'action",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Devis et autres justificatifs",
+        "description": "Joindre l'ensemble des devis et tout justificatif utile",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "IBAN",
+        "description": "Code Pays (FR pour France) + Clé IBAN (2 chiffres) + Code Banque (5 chiffres) + Code Guichet (5 chiffres) + Numéro de compte (11 chiffres) + clé RIB (2 chiffres)\n\nExemple de numéro IBAN:\nFR7630004015870002601171220\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Joindre le RIB",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

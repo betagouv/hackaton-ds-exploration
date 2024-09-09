@@ -1,0 +1,357 @@
+{
+  "number": 60754,
+  "title": "Ma demande d'aide financière en ligne",
+  "description": "La CPAM de Loire Atlantique vous offre la possibilité d'adresser votre demande d'aide financière exceptionnelle de façon dématérialisée. \r\n\r\nCONSEIL : avant de commencer votre démarche en ligne, pensez à préparer les pièces justificatives suivantes:\r\n\r\n1- le devis ou la facture des soins ou produits pour lesquels vous demandez une aide\r\n2- la prescription médicale\r\n3- le montant de la participation de votre complémentaire santé\r\n4- les justificatifs de ressources de tous les membres du foyer des 3 derniers mois\r\n5- un relevé de situation de compte de vos banques précisant le montant de votre épargne\r\n6- votre dernier avis d'imposition",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-11-07T13:36:12+01:00",
+  "service": {
+    "nom": "Service Solidarité",
+    "organisme": "CPAM de Loire Atlantique",
+    "typeOrganisme": "operateur_d_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ass44",
+  "dpoUrl": "dpo.cpam-loireatlantique@assurance-maladie.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ameli.fr/loire-atlantique/assure/droits-demarches/difficultes-acces-droits-soins/aides-financieres-individuelles",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/",
+  "logo": {
+    "filename": "logo3 .png",
+    "checksum": "ncr5t5VkBmBL/mb3FM349Q==",
+    "byteSize": "341618",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 393,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Indiquez le département de votre Caisse Primaire d'Assurance Maladie",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Attention : Seuls les dossiers des assurés relevant de la CPAM de Loire Atlantique (44) seront traités.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de l'assuré(e)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro d'assuré social",
+        "description": "numéro de sécurité sociale à 15 chiffres sans espaces",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse e-mail",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Ma demande d'aide financière",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre demande concerne",
+        "description": "",
+        "required": true,
+        "options": [
+          "des soins ou l'achat de matériels",
+          "des bilans ou des séances de psychomotricité, d'ergothérapie ou neuropsychologiques"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si votre demande concerne des bilans ou des séances de psychomotricité, d'ergothérapie ou neuropsychologiques , veuillez compléter le formulaire prévu à cet effet.",
+        "description": "Compléter et joindre en utilisant le bouton \"Parcourir\"",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant de l'aide sollicitée",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes vous bénéficiare de la Complémentaire Santé Solidaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations que vous souhaitez nous communiquer",
+        "description": "Informations médicales, complément d’ information \r\nexemple: \"je n'ai pas eu de salaire en décembre 2019\"",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Composition du foyer",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nombre de personnes au foyer",
+        "description": "",
+        "required": true,
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Identité du ou des bénéficiaires",
+        "description": "Veuillez nous indiquer le nom, le prénom et le numéro d'assuré des autres membres du foyer en cliquant sur Ajouter un élément pour \"Identité du ou des bénéficiaires\"",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Numéro d'assuré",
+            "description": "Numéro de sécurité sociale à 15 chiffres",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom et prénom",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Ressources",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Montant mensuel des ressources",
+        "description": "Montant des ressources pour chaque membres du foyer des 3 derniers mois.",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Ressources Mois 1",
+        "description": "Montant cumulé des ressources, perçues par vous-même et les membres de votre foyer",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Ressources Mois 2",
+        "description": "Montant cumulé des ressources, perçues par vous-même et les membres de votre foyer",
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Ressources Mois 3",
+        "description": "Montant cumulé des ressources, perçues par vous-même et les membres de votre foyer",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Attention",
+        "description": "Si vous souhaitez déposer plusieurs pièces, veuillez utiliser :\r\n \"+ Ajouter un élément pour......\"\r\n\r\n- Formats acceptés ; .pdf, .jpeg, .img  \r\nLes formats Office ne sont pas acceptés (xls, doc, ppt, pps). \r\n- Les pièces verrouillées ou protégées ne sont pas acceptées\r\n\r\n- Taille maximale 5 Mo par pièce  \r\n- Nom des pièces 100 caractères maximum\r\n",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "1- Le devis ou la facture des soins ou produits pour lesquels vous demandez une aide",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Devis, facture ou avis de sommes à payer concernant des soins, des médicaments, ...",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "1.1 - Le bilan détaillé de la psychomotricienne",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Le bilan de psychomotricité ou tout autre bilan précisant les difficultés rencontrées.",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "2 - La prescription médicale",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Certificat médical circonstancié ou ordonnance",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "3- L'attestation de la complémentaire santé  précisant le montant de sa prise en charge",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Estimation  de remboursement ou  décompte de remboursement",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "4- Les justificatifs de ressources  des 3 derniers mois pour chaque membre du foyer",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Bulletins de salaire, Attestations Pôle Emploi, Rentes accident de travail, Pensions (retraite, retraite complémentaire, réversion...), Attestations de paiement CAF, Bourses d'études supérieures, Pension alimentaire.",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "5- Un justificatif du montant de votre épargne",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Montant de votre épargne, quel que soit le placement (livrets, assurance vie, actions…) concernant tous les membres adultes du foyer.",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "6- Le dernier avis d'impositon",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "L'avis d'imposition de tous les membres du foyer",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Attestation sur l'honneur à compléter par l'assuré(e)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie sur l'honneur l'exactitude des renseignements portés sur la présente déclaration. Je m'engage à faire connaître à ma Caisse Primaire d'Assurance Maladie tous les changements pouvant les modifier, et à fournir toutes les pièces justificatives sur demande.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "En cochant cette case, je certifie conforme les saisies et je signe ma déclaration.",
+        "description": "Quiconque se rend coupable de fraude ou de fausse déclaration est passible de pénalités financières, d'amende et/ou d'emprisonnement (articl es 313-1, 441-1 et 441-6 du Code pénal, articles L.114-13 et L.162 2-1-14 du Code de la sécurité sociale).\nToutes les informations figurant sur cette déclaration sont destinées à votre organisme d'assurance maladie aux fins de contrôle et de paiement. En application de la loi du 6 janvier 1978 modifiée, vous pouvez obtenir communication des informations vous concernant et, le cas échéant, leur rectification en vous adressant à votre organisme d'assurance maladie.",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Fait le",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Attention, lorsque vous aurez déposé votre dossier, il ne pourra plus être modifié",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "number": 47849,
+  "title": "PREFECTURE DE MEURTHE-ET-MOSELLE - Section asile : Demande de document de circulation pour étranger mineur (DCEM)",
+  "description": "Un mineur étranger résidant en France n’est pas soumis à l’obligation de détenir un titre de séjour. Toutefois, pour faciliter ses déplacements hors de France, il peut obtenir un document de circulation pour étranger mineur (DCEM).\r\n\r\nLe document de circulation pour étranger mineur (DCEM) permet au mineur étranger, après un voyage à l’étranger, de revenir en France ou aux frontières extérieures de l’espace Schengen sans avoir besoin de visa.\r\n\r\nLe DCEM doit être accompagné d’un document de voyage (passeport dans la plupart des cas) en cours de validité, dès lors que l’enfant circule hors de France.\r\nCe portail numérique vous permet de déposer une demande de document de circulation pour étranger mineur (1 demande par enfant). Votre devez être domicilié dans le département de la Meurthe-et-Moselle.\r\n Vous êtes tenu informé sur votre compte \"démarches simplifiées\" et par courriel de l'instruction de votre demande, et de la décision de la préfecture.\r\n\r\nLe retrait du document de circulation pour étranger mineur s'effectuera en préfecture (apporter les timbres fiscaux et la photographie d'identité du mineur à cette occasion). La présence du mineur est nécessaire lors du retrait du titre.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2021-09-02T14:36:22+02:00",
+  "service": {
+    "nom": "Préfecture de Meurthe-et-Moselle - Direction de l'immigration et de l'intégration - Bureau de l'admission au séjour",
+    "organisme": "Préfecture de Meurthe-et-Moselle",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/asile-dcem-pref54",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.meurthe-et-moselle.gouv.fr/Prise-de-rendez-vous",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006070158/",
+  "logo": {
+    "filename": "Logo PREF_Meurthe_et_moselle_RVB.jpg",
+    "checksum": "Ei+X8wV59i0hyCs1/sekUw==",
+    "byteSize": "498131",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 117,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATIONS IMPORTANTES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": "Les pièces justificatives doivent être téléchargées en PDF.\nVous pouvez consulter la liste des pièces justificatives sur https://www.meurthe-et-moselle.gouv.fr/Demarches-administratives/Etrangers2/Liste-des-pieces-a-fournir/Liste-des-pieces-a-fournir\nVeillez à bien produire tous les justificatifs demandés : lorsque votre dossier aura commencé à être instruit, vous ne pourrez plus le modifier sauf si l'administration vous demande des compléments.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Votre lieu de résidence",
+        "description": "Vous devez résider en Meurthe-et-Moselle pour déposer votre demande sur ce formulaire. Si vous résidez dans un autre département, votre dossier sera rejeté pour irrecevabilité et vous devrez faire la demande auprès de la préfecture de votre lieu de résidence.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Qui est concerné ?",
+        "description": "Le DCEM est délivré au mineur résidant en France et dont l’un au moins des parents possède une des cartes suivantes  en tant que bénéficiaire de la protection internationale :\n– carte de séjour pluriannuelle,\n– carte de résident.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Remise du DCEM",
+        "description": "Le DCEM est délivré contre paiement d’une taxe de 50 € à régler par timbre fiscal dématérialisé lors de la remise du titre.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Durée de validité",
+        "description": "5 ans ou jusqu'aux 19 ans du bénéficiaire.\nLe DCEM peut être retiré lorsque l’enfant ne remplit plus les conditions de délivrance.\nSi l’enfant devient français ou s’il obtient un titre de séjour, le DCEM doit être restitué à la préfecture.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Son statut",
+        "description": null,
+        "required": true,
+        "options": [
+          "Réfugié",
+          "Protection subsidiaire",
+          "Apatride",
+          "Membre de famille"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LE MINEUR BENEFICIAIRE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Type de demande",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de demande",
+            "description": null,
+            "required": false,
+            "options": [
+              "Première demande de DCEM",
+              "Renouvellement de DCEM",
+              "Duplicata de DCEM",
+              "Modification de DCEM"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "NumberChampDescriptor",
+            "label": "Numéro étranger à 10 chiffres",
+            "description": "si renouvellement, duplicata ou modification de DCEM",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Sexe",
+        "description": null,
+        "required": true,
+        "options": [
+          "Féminin",
+          "Masculin"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du mineur (en majuscule)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom(s) du mineur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Date de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PaysChampDescriptor",
+        "label": "Pays de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nationalité",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Copie du DCEM actuel",
+        "description": "S'il s'agit d'un renouvellement",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "L'enfant a la protection",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Décision de l'OFPRA mentionnant la protection du mineur ou certificat administratif de l'OFPRA",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "L'enfant n'a pas la protection internationale",
+        "description": "Il faut qu'au moins un des deux parents soit bénéficiaire de la protection internationale et en en possession d'un titre de séjour.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Acte de naissance",
+            "description": "Délivré par :\n- l'OFPRA (le plus récent) ;\n- la mairie de naissance si l'enfant est né en France (moins de 3 mois) ;\n- le pays de naissance, accompagné de la traduction établie par un traducteur agréé, dans le seul cas où l'enfant n'a pas la protection et n'est pas né en France. ",
+            "required": false
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Copie recto-verso des cartes de séjour en cours de validité des parents",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de présence de l'enfant en France",
+        "description": "- Certificat de scolarité du mineur, datant de moins de 3 mois, pour l’année en cours (assurance scolaire pour les mois de juillet août)\n- Pour les enfants non scolarisés : carnet de santé, attestation CPAM, mutuelle, CAF, crèche…",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LE DEMANDEUR",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Je soussigné, le DEMANDEUR, déclare sur l'honneur exercer l'autorité parentale en qualité de :",
+        "description": null,
+        "required": true,
+        "options": [
+          "Père",
+          "Mère",
+          "Tuteur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Numéro étranger du demandeur",
+        "description": "Le numéro personnel (aussi appelé numéro étranger, AGDREF ou numéro FNE) est un numéro à 10 chiffres unique attribué à chaque étranger séjournant en France. Il vous sera demandé lors de vos démarches.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CiviliteChampDescriptor",
+            "label": "Civilité",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom d'usage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom(s)",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "PhoneChampDescriptor",
+            "label": "Numéro de téléphone",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "EmailChampDescriptor",
+            "label": "Adresse mail",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Identité de l'autre parent",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N°étranger",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom de naissance",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom d'usage",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom(s)",
+            "description": null,
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Ville de naissance",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nationalité",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Adresse",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Titre de séjour des 2 parents en cours de validité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Titre de séjour ou carte d'identité du demandeur en cours de validité",
+        "description": "Si le demandeur n'est pas le père ou la mère",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de domicile de moins de 6 mois",
+        "description": "Exemples :\n- factures électricité, gaz,eau, téléphone fixe, internet ; \n- bail de location ou quittances de loyer ; \n- si hébergement à l'hôtel : attestation de l'hôtelier et facture du dernier mois\n- si hébergement chez un particulier : attestation de l'hébergeant datée et signée, copie de sa carte d'identité ou de sa carte de séjour\nPour vous aider à créer votre attestation, cliquez sur ce lien :\nhttps://www.service-public.fr/simulateur/calcul)/AttestationHebergement",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tout document attestant de l'autorité parentale du demandeur sur le mineur",
+        "description": "jugement de divorce, jugement de tutelle, jugement d’adoption ou plénière, décision de délégation de l’autorité parentale, original de la procuration légalisée du parent absent…",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "CERFA n°11203*03 complété, daté et signé par le demandeur",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

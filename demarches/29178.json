@@ -1,0 +1,155 @@
+{
+  "number": 29178,
+  "title": "Demande de paiement - Agence de l'eau Seine Normandie v.1.1",
+  "description": "Vous êtes bénéficiaire d'une aide financière de l'agence de l'eau Seine Normandie. Vous pouvez déposer votre demande d'acompte ou de solde sur ce site.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2020-04-27T17:09:48+02:00",
+  "service": {
+    "nom": "Service d'instruction des demandes d'aides AESN",
+    "organisme": "Agence de l'eau Seine Normandie",
+    "typeOrganisme": "operateur_d_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-paiement-aesn-v1-1",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.eau-seine-normandie.fr/formulaires_aides",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=CBE1EADFF36C2E06AD46214AEB5E38C7.tplgfr26s_2?idArticle=LEGIARTI000033033752&cidTexte=LEGITEXT000006074220&dateTexte=20200417",
+  "logo": {
+    "filename": "Image1.jpg",
+    "checksum": "mKBzTEhloQIktzFOK9D/3A==",
+    "byteSize": "51321",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "Code de l'environnement - Article L213-8-1 _ Legifrance.pdf",
+    "checksum": "Q/ctGawhZS0LNuxVPO85CA==",
+    "byteSize": "54163",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 107,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Direction instructrice de l'aide",
+        "description": null,
+        "required": true,
+        "options": [
+          "Direction territoriale et maritime des Bocages Normands (Départements : 14-35-50-53-61)",
+          "Direction territoriale Seine-Amont (Départements : 10-21-45-58-89)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "IMPORTANT",
+        "description": "Consulter les conditions générales d’attribution et de paiement des aides de l’agence de l'eau Seine Normandie.\nhttp://www.eau-seine-normandie.fr/sites/public_file/inline-files/OAM002.pdf\n\nAttention, pour déposer une demande de paiement, vous devez être attributaire d'une aide de l'agence de l'eau et avoir retourné votre convention d'aide dument signée, dans les délais impartis.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Nouveau champ Texte",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Référence de l'aide AESN",
+        "description": "Indiquer le numéro de l'aide pour laquelle vous effectuez une demande de paiement. Attention il s'agit du N° AESN indiqué sur votre convention d'aide. Pour le numéro DS voir le champ suivant.",
+        "required": true
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Référence de dossier DS",
+        "description": "FACULTATIF. S'il s'agit d'une aide initialement déposée par l'intermédiaire de Démarches Simplifiées (DS), indiquer le numéro DS correspondant. Attention il ne s'agit pas du numéro d'aide AESN voir le champ précédent.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Intitulé du projet",
+        "description": "FACULTATIF. Rappeler l'intitulé de votre projet tel qu'il figure dans la convention d'aide AESN.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'instructeur AESN",
+        "description": "Indiquer autant que possible le nom de l'instructeur financier AESN qui suit normalement votre dossier. A défaut, indiquer le nom de l'instructeur technique de votre demande d'aide (se référer à votre convention d'aide AESN).",
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département du lieu du projet",
+        "description": "FACULTATIF. Préciser le département où est localisé le projet.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "VOTRE DEMANDE DE PAIEMENT",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nature de la demande de paiement",
+        "description": "Rédiger votre message de demande de paiement à l'agence de l'eau en indiquant explicitement, s'il s'agit d'une demande d'acompte ou de solde. En cas d'acompte, préciser le numéro.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": "<p>Joindre toutes les pi&egrave;ces n&eacute;cessaires &agrave; l'instruction de votre demande de paiement. Pour une premi&egrave;re demande, penser &agrave; joindre un RIB ou IBAN.<br />Pour ajouter plusieurs pi&egrave;ces compl&eacute;mentaires, appuyer sur le bouton \"<strong>+ <a>Ajouter un &eacute;l&eacute;ment pour &laquo; Pi&egrave;ces justificatives &raquo;</a></strong>\".</p>",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "N° et Nature de la pièce justificative",
+            "description": "Préciser l'intitulé et la nature de la pièce justificative. Indiquer par exemple : tableau de synthèse, facture travaux, facture maîtrise d’œuvre… Pour les factures, indiquer le N° correspondant. Si vous joignez plusieurs pièces, penser à les numéroter, par exemple : \"3 - facture travaux N°1456732\".",
+            "required": true
+          },
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative",
+            "description": "Joindre la pièce correspondante. Autant que possible, nommer le document numérique avec un intitulé en rapport avec sa nature et précisant le N° de pièce, par exemple : \"3-facture_travaux_1456732\".",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PERSONNE EN CHARGE DU DOSSIER DANS VOTRE STRUCTURE",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM et Prénom du correspondant",
+        "description": "Indiquer vos nom et prénom, ou ceux de la personne en charge du dossier de demande de paiement pour votre organisme (exemple : DUPONT Marcus).",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Personne habilitée",
+        "description": "Si différent du correspondant, indiquer le nom, le prénom et la fonction de la personne habilitée à effectuer la demande de paiement pour votre organisme (exemple : DUPONT Marianne Présidente).",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "AVIS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Avis",
+        "description": "Indiquez-nous vos remarques concernant la procédure, le formulaire, l'accès aux informations ou toutes autres remarques qui nous permettrons de progresser. Pour tout autre question sur votre demande, adresser un message depuis votre espace personnel à l'instructeur. Merci ",
+        "required": false
+      }
+    ]
+  }
+}

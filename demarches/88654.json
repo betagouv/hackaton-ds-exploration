@@ -1,0 +1,326 @@
+{
+  "number": 88654,
+  "title": "[Qualif] Déclaration des changements dans l'administration d'une fondation d'entreprise",
+  "description": "Cette procédure permet de déclarer les changements survenus dans l'administration d'une fondation d'entreprise\r\n\r\nLes changements survenus dans l'administration doivent être déclarés en préfecture sous un délai de 3 mois.\r\n\r\nSeules les personnes membres de l'administration ou mandatées par la fondation d'entreprise peuvent effectuer cette déclaration.",
+  "tags": [
+    "Fondation",
+    "entreprise"
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2024-02-05T10:26:07+01:00",
+  "service": {
+    "nom": "Bureau des associations et fondations - Pôle conseil",
+    "organisme": "Direction des libertés publiques et des affaires juridiques",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/qualif-changement-admin-fe",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "MI",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/LEGIARTI000034773755/2017-05-11/",
+  "logo": {
+    "filename": "Logo MI.png",
+    "checksum": "FKQ7wmsT4e9rsj3E1oEWng==",
+    "byteSize": "17561",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 10,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification de la structure",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identifiant au répertoire national des fondations (RNF)",
+        "description": "<strong>L'identifiant RNF</strong> est un numéro unique qui suit votre structure tout au long de sa vie administrative. Si vous voulez créer votre identifiant RNF ou retrouver cet identifiant, vous devez engager la démarche \"Demande d'identifiant RNF\".",
+        "required": true
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département du siège de votre structure",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Déclarant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Qualité du déclarant",
+        "description": null,
+        "required": true,
+        "options": [
+          "Personne relevant de l'administration (interne à la structure)",
+          "Personne mandatée (externe à la structure)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonctions du déclarant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Le mandat provenant de la fondation d'entreprise",
+        "description": "Pièce à déposer si la déclaration est réalisée par une personne externe à la structure.\r\nA défaut la déclaration sera rejetée.",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone du déclarant",
+        "description": "Nous vous invitons à renseigner ce numéro de téléphone qui permettra à l'administration de vous joindre plus facilement pour compléter ou modifier votre dossier en cas de difficulté.\nA défaut, les demandes de l'administration seront réalisées sur la boite mail rattachée à votre compte \"démarches simplifiées\".",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Nature des changements dans l'administration de la fondation d'entreprise",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type de déclaration de changement dans l'administration",
+        "description": "Vous pouvez réaliser simultanément plusieurs déclarations de changements dans l'administration de votre fondation d'entreprise.",
+        "required": true,
+        "options": [
+          "Changement dans la liste des personnes chargées de l'administration ou de la direction de la fondation d'entreprise",
+          "Changement des coordonnées de contact (mail/tél) de la fondation"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Coordonnées de la fondation d'entreprise",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Coordonnées de contact de la fondation d'entreprise",
+        "description": "Veuillez cocher les coordonnées que vous souhaitez déclarer ou mettre à jour.",
+        "required": true,
+        "options": [
+          "Adresse électronique de contact",
+          "Coordonnée téléphonique de contact"
+        ]
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse électronique de contact de la fondation d'entreprise",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Coordonnées téléphoniques de la fondation d'entreprise",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Personnes chargées de l'administration de la fondation d'entreprise",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Périmètre de la déclaration relative aux personnes chargées de l'administration ou de la direction de la fondation d'entreprise",
+        "description": "Le décret mentionne que doivent être déclarés <em>\"La fondation d'entreprise est tenue de faire connaître dans les trois mois à l'autorité administrative mentionnée à l'article 1er tous les changements survenus dans son administration ou sa direction.\"</em>. La liste des membres de l'administration doit comprendre  : les personnes membres du conseil d'administration et les personnes chargées de la direction de la fondation (salariés).",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Membre de l'administration de la fondation d'entreprise",
+        "description": "<!-- #rnf-administrateur-rnf# -->",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date d'entrée dans l'adminstration",
+            "description": "La date retenue sera celle définie par le conseil d'administration",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date de naissance",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse de domiciliation",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PaysChampDescriptor",
+            "label": "Pays de résidence",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PaysChampDescriptor",
+            "label": "Nationalité",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TitreIdentiteChampDescriptor",
+            "label": "Pièce justificative de l'identité",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Profession",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Qualité de la personne chargée de l'administration",
+            "description": "<!-- #rnf-person-qualite-rnf# -->",
+            "required": true,
+            "options": [
+              "Membre du conseil d'administration",
+              "Personne exerçant des fonctions de direction"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de membre du conseil d'administration",
+            "description": "",
+            "required": true,
+            "options": [
+              "Représentant du fondateur",
+              "Représentant du personnel",
+              "Personnalité qualifiée"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "SiretChampDescriptor",
+            "label": "Numéro SIRET de l'entreprise ou de l'institution représentée",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Fonction au sein de l'administration",
+            "description": "",
+            "required": true,
+            "options": [
+              "Président",
+              "Vice président",
+              "Trésorier",
+              "Secrétaire",
+              "Administrateur"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Liste des départs dans l'administration ou la direction de la fondation d'entreprise",
+        "description": "",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date du départ",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Prénom",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Nom",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Adresse de domiciliation",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "PaysChampDescriptor",
+            "label": "Nationalité",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TitreIdentiteChampDescriptor",
+            "label": "Pièce justificative de l'identité",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Profession",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Qualité de la personne chargée de l'administration ou de la direction",
+            "description": "",
+            "required": true,
+            "options": [
+              "Représentant du fondateur (membre du conseil d'administration)",
+              "Représentant du personnel du fondateur (membre du conseil d'administration)",
+              "Personnalité qualifiée (membre du conseil d'administration)",
+              "Salarié de la fondation d'entreprise",
+              "Personne membre d'un autre organe prévu par les statuts de la fondation d'entreprise"
+            ],
+            "otherOption": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Raison ou dénomination sociale de l'entreprise ou de l'institution représentée",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Procès verbaux",
+        "description": " Plusieurs procès verbaux ou extraits de décisions portant sur les différents changements dans l'administration peuvent être déposés.\r\nCes documents doivent être datés et signés.",
+        "required": true
+      }
+    ]
+  }
+}

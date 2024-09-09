@@ -1,0 +1,193 @@
+{
+  "number": 30945,
+  "title": "DEETS 974 - Contrôle Activité Partielle - Crise COVID-19",
+  "description": "Dans le cadre de l'activité partielle liée à la crise COVID-19, le présent outil permet à l'établissement soumis à un contrôle de la part de la DEETS 974 de fournir les pièces nécessaires et à d'échanger avec le service en charge du contrôle.",
+  "tags": [
+    "Covid"
+  ],
+  "zones": [
+    "Ministère du Travail, de la Santé et des Solidarités"
+  ],
+  "datePublication": "2020-06-18T05:54:10+02:00",
+  "service": {
+    "nom": "Activité Partielle",
+    "organisme": "DIECCTE Réunion",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/dieccte-974-controle-ap-crise-covid-19",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://reunion.dieccte.gouv.fr/prevenir-et-surmonter-les-difficultes-de-son-entreprise",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000041804453&categorieLien=id",
+  "logo": {
+    "filename": "Logo Travail.png",
+    "checksum": "Sqzg55rEPr15fG/PaXiw3g==",
+    "byteSize": "79063",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 201,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Engagement",
+        "description": "Le responsable de l'établissement s'engage à compléter l'ensemble des rubriques ci-dessous, et à déposer l'ensemble des documents qui sont demandés par la DIECCTE. \nS'il ne dispose pas de tous les documents demandés, il doit en informer l'administration via l'encart \"Commentaires\" figurant en fin de formulaire.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous une entreprise de plus de 50 salariés ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Disposez-vous d'un Comité Social et Economique ?",
+        "description": "Plus d'infos sur le CSE : https://travail-emploi.gouv.fr/dialogue-social/le-comite-social-et-economique/article/cse-definition-et-cadre-de-mise-en-place",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si oui, déposez ici l'avis du CSE",
+        "description": "Rappel : cet avis peut être recueilli postérieurement à la demande d'activité partielle, et l’employeur adresse l’avis du CSE dans un délai d’au plus 2 mois à compter de la demande d’autorisation préalable.",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Quel est le jour de solidarité dans votre établissement ?",
+        "description": "Mentionnez la date de la journée de solidarité au sein de votre établissement (doit correspondre à celle déclarée sur votre Demande d'Autorisation Préalable sur le SI APART)",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Précisez les jours fériés habituellement travaillés par vos salariés",
+        "description": "Vous pouvez choisir un ou plusieurs jours fériés dans le menu déroulant.",
+        "required": true,
+        "options": [
+          "Lundi de Pâques",
+          "1er mai",
+          "8 mai",
+          "Ascension",
+          "Lundi de Pentecôte",
+          "14 juillet",
+          "Assomption (15 août)",
+          "Toussaint",
+          "11 novembre",
+          "25 décembre"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Précisez les jours fériés habituellement NON travaillés par vos salariés",
+        "description": "Vous pouvez choisir un ou plusieurs jours fériés dans le menu déroulant.",
+        "required": false,
+        "options": [
+          "Lundi de Pâques",
+          "1er mai",
+          "8 mai",
+          "Ascension",
+          "Lundi de Pentecôte",
+          "14 juillet",
+          "Assomption (15 août)",
+          "Toussaint",
+          "11 novembre",
+          "25 décembre"
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Bulletins de salaire à partir de janvier 2020",
+        "description": "Nous vous conseillons de faire un fichier PDF par mois, sauf si trop volumineux. \nSi besoin d'ajouter d'autres fichiers, cliquez sur ajouter un élément pour \"Bulletins de salaire\".",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Bulletins salaires",
+            "description": "Déposez les bulletins de salaires émis depuis JANVIER 2020 et jusqu'à ce jour.\n\nSi vous adhérez au Titre Emploi Service Entreprise (TESE), déposez ici les relevés de cotisations.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous sollicité du FNE formation ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Contrats de travail",
+        "description": "Nous vous conseillons de faire un seul fichier PDF de tous les contrats de travail de vos salariés, sauf si trop volumineux. \nSi besoin d'ajouter d'autres fichiers, cliquez sur : Ajouter un élément pour \"Contrats de travail\".",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Contrats de travail",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Relevés des heures travaillées",
+        "description": "A partir du mois de JANVIER 2020 et jusqu'à ce jour.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Relevés des heures travaillées à partir de janvier 2020",
+            "description": null,
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Si horaires collectifs, veuillez préciser",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Appliquez-vous une convention collective ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si oui, laquelle ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Est-ce que votre établissement relève du régime des heures d'équivalence ?",
+        "description": "En savoir plus : / https://www.service-public.fr/particuliers/vosdroits/F1903\n\nCf. art. L3121-13 du Code du Travail \"Le régime d'équivalence constitue un mode spécifique de détermination du temps de travail effectif et de sa rémunération pour des professions et des emplois déterminés comportant des périodes d'inaction.\"",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autres pièces justificatives",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autres pièces justificatives",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": "Eléments que vous souhaitez porter à la connaissance de l'administration (notamment si vous n'avez pas déposé tous les documents demandés, expliquez pourquoi).",
+        "required": false
+      }
+    ]
+  }
+}

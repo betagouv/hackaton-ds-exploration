@@ -1,0 +1,513 @@
+{
+  "number": 78477,
+  "title": "Demande d'un agrément JEP (Jeunesse - Education Populaire)",
+  "description": "Cette démarche permet aux associations éligibles de demander un agrément JEP (Jeunesse - Éducation populaire). ",
+  "tags": [
+    "agrément",
+    "JEP",
+    "agrément JEP",
+    "subvention",
+    "association",
+    "associations",
+    "jeunesse",
+    "éducation",
+    "éducation populaire"
+  ],
+  "zones": [
+    "Ministère des Sports et des Jeux olympiques et paralympiques",
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2023-12-22T12:40:54+01:00",
+  "service": {
+    "nom": "Un très bon service",
+    "organisme": "d'un excellent organisme",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-d-un-agrement-jep-jeunesse-education-popul",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "www.associations.gouv.fr ",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043982147",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 11,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "plaquette explicative",
+        "description": "Vous trouverez ci joint une plaquette qui reprend les conditions obligatoires et les effets que procurent l'agrément JEP. Merci de bien lire ces informations avant d'entamer la démarche.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Première demande ou renouvellement d'un ancien agrément expiré",
+        "description": "",
+        "required": true,
+        "options": [
+          "Première demande",
+          "demande suite à un agrément JEP expiré"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre association",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations signalétiques de l'association",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro d'agrément JEP",
+        "description": "Si vous n'avez pas de numéro d'agrément JEP, ou si vous ne le connaissez pas, ou si c'est une première demande, merci d'inscrire \"pas de numéro\"",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de RNA",
+        "description": "Numéro inscrit sur votre récépissé de déclaration du greffe des associations commençant par la lettre W suivie de 9 chiffres",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de SIRET",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de création de l'association",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Objet social de l'association",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du siège social",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Contacts de l'association",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Représentants légaux",
+        "description": "Veuillez indiquer le ou les représentants légaux de l'association tels qu'ils sont enregistrés auprès du greffe des associations (si les dirigeants ne sont pas à jour, vous pouvez faire votre actualisation en ligne sur www.service-public.fr)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Personne en charge du suivi du dossier",
+        "description": "Si ce n'est pas le représentant légal déclaré plus haut",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Thématique de l'association",
+        "description": "Plusieurs choix possibles",
+        "required": true,
+        "options": [
+          "Culture",
+          "Sport",
+          "Solidarité de proximité",
+          "Solidarité internationale",
+          "Loisirs éducatifs",
+          "Vacances",
+          "Engagement / citoyenneté",
+          "Inclusion / handicap",
+          "Environnement / Développement durable",
+          "Chantiers de jeunes / Mobilité internationale des jeunes",
+          "Sciences / culture scientifique",
+          "Droit des femmes et égalité de genre",
+          "Lutte contre les discriminations",
+          "Travail mémoriel",
+          "Transports / Mobilités",
+          "Logement / Habitat"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "A quelle échelle votre association intervient-elle ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Quartier",
+          "Communale",
+          "Intercommunale",
+          "Départementale",
+          "Inter-départementale",
+          "Régionale",
+          "Inter-régionale"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "A quels publics vous adressez-vous ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Tout public",
+          "Enfants (moins de 3 ans)",
+          "Enfants (plus de 3 ans)",
+          "Adolescents",
+          "Jeunes (16 / 30 ans)",
+          "Adultes",
+          "Seniors",
+          "Personnes avec une situation de handicap",
+          "Professionnels"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Indication sommaire des immeubles dont vous êtes propriétaires ou locataires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si votre association est membre d'un réseau ou d'une fédération, veuillez indiquer lesquels.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Disposez-vous d'un autre agrément ministériel ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Si oui, merci de préciser",
+        "description": null,
+        "required": false,
+        "options": [
+          "AECEP (Association éducative complémentaire de l'enseignement public)",
+          "Association agréée de protection de l'environnement",
+          "Association sportive",
+          "Agrément de protection de l'environnement",
+          "AAPPMA (Association Agréée pour la Pêche et la Protection du Milieu Aquatique)",
+          "ACCA (Association Communale de Chasse Agréée)",
+          "Agrément Association de consommateurs",
+          "Agrément pour accueillir des volontaires de solidarité internationale",
+          "Agrément des associations représentant les usagers dans les instances hospitalières et de santé publique",
+          "Agrément Service civique",
+          "Autre agrément"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Vous avez bénéficié, au cours des 3 dernières années, grâce à votre agrément JEP",
+        "description": "",
+        "required": false,
+        "options": [
+          "D'une subvention \"Partenariat local JEP\"",
+          "D'un ou plusieurs postes FONJEP",
+          "Du tarif privilégié sur les redevances à acquitter auprès de la SACEM",
+          "Du principe de l’assiette forfaitaire pour le paiement des cotisations sociales",
+          "Aucun de ces éléments"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Composition de l'association",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de femmes adhérentes à l'association",
+        "description": "Personne ayant marqué leur souhait d'être membre de l'association et à jour de ses cotisations",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'hommes adhérents à l'association",
+        "description": "Personne ayant marqué leur souhait d'être membre de l'association et à jour de ses cotisations",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'adhérents de moins de 18 ans",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de membres d'honneur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de membres bienfaiteurs",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Instances de l'association",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quelles sont les instances de votre association ?",
+        "description": "Choisissez les instances prévues à vos statuts",
+        "required": true,
+        "options": [
+          "Assemblée générale",
+          "Conseil d'administration",
+          "Bureau",
+          "Commission de contrôle",
+          "Comité directeur",
+          "Collèges",
+          "Comité scientifique"
+        ]
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de personnes composant le Conseil d'administration",
+        "description": "Ou de l'instance jouant son rôle habituellement ",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Au sein du CA : nombre de femmes",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Au sein du CA : nombre d'hommes",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Au sein du CA : nombre de jeunes de moins de 18 ans",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Au sein du CA : nombre de membres de 18 à 30 ans",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Au sein du CA : nombre membres de 30 à 60 ans",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Au sein du CA : nombre de membres de plus de 60 ans",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Ressources humaines",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de bénévoles",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de volontaires en service civique",
+        "description": "Nombre de volontaires accueillis par an",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre de salariés",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre démarche de jeunesse et d'éducation populaire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le document joint (Questionnaire) permet d'apprécier l'activité au regard des marqueurs de l'Education Populaire. Merci de le remplir et le téléverser dans le champs suivant",
+        "description": "Le questionnaire permet un auto-diagnostic. \r\nLe chiffre \"1\" traduit le \"plus bas niveau\", et le chiffre \"5\", le plus haut niveau.\r\nex : comment tu vas ?    1 = pas du tout bien , 5 = très bien",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "dépôt du questionnaire rempli",
+        "description": "merci de déposer le questionnaire sous format PDF si possible",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "En quoi votre association s'inscrit-elle dans la jeunesse ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Comment favorisez-vous la participation de tous, y-compris des jeunes à la gouvernance de votre association?",
+        "description": "Quelles actions concrètes mettez-vous en place pour favoriser la participation de tous, y compris des jeunes, à la gouvernance de votre association ( instances dirigeantes, de réflexion collective ) ?",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Comment votre association s'inscrit-elle dans une démarche d'éducation populaire ?",
+        "description": "Vous pouvez appuyer votre réponse en complétant celle-ci avec des exemples de projets ou de réalisations, de bonnes pratiques et de fonctionnement interne, d'ouverture et de partenariats avec des structures favorisant le lien  social et le vivre ensemble.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vos documents administratifs",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Récépissé de création",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Composition des instances dirigeantes actuelles de l'association (bureau et conseil d'administration le cas échéant)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Statuts en vigueur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Projet associatif",
+        "description": "Si votre association dispose d'un projet formalisé, ou de tout autre document validé en assemblée générale (projet stratégique, plan d'action...) définissant les objectifs et les moyens d'actions de l'association.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Procès-verbal de la dernière Assemblée Générale (année N-1)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport d'activité (année N-1)",
+        "description": "Dernier rapport d'activité validé par l'Assemblée Générale",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport financier (année N-1)",
+        "description": "Rapport moral et financier validé par la dernière Assemblée Générale",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport du commissaire aux comptes année n-1",
+        "description": "si l'association y est soumise au regard de la réglementation en vigueur",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Budget de l'année en cours",
+        "description": "Budget voté par l'assemblée générale",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Procès-verbal de l'avant-dernière Assemblée Générale (année N-2)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport d'activité (année N-2)",
+        "description": "Avant-dernier rapport d'activité validé par l'Assemblée Générale",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport financier (année N-2)",
+        "description": "Rapport moral et financier validé par l'avant-dernière Assemblée Générale",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Rapport du commissaire aux comptes année n-2",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Validation du dossier",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Je, soussigné, (nom et prénom)",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration sur l'honneur :",
+        "description": "1° Que les informations portées dans la présente demande, sont exactes et sincères ;\r\n2° Que l'association se conforme aux lois et règlements ;\r\n3° Que l’association respecte les principes et valeurs de la Charte des engagements réciproques conclue le 14 février 2014 entre l’Etat, les associations d’élus territoriaux et le mouvement associatif, ainsi que les déclinaisons de cette Charte.\r\n4° Le cas échéant, que l'association est à jour de ses obligations comptables conformément à l'article L. 113-13 du code des relations entre le public et l'administration ;\r\n5° Et qu'elle s'engage à respecter le contrat d'engagement républicain prévu à l'article 10-1 de la loi   du 12 avril 2000 relative aux droits des citoyens dans leurs relations avec les administrations, et approuvé par le décret n° 2021-1947 du 31 décembre 2021 pris pour l'application de l'article 10-1 de la loi n° 2000-321 du 12 avril 2000, et approuvant le contrat d'engagement républicain des associations et fondations bénéficiant de subventions publiques ou d'un agrément de l'Etat - https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000044806657\r\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si le déclarant n'est pas le représentant statutaire ou légal de l'association, joindre le pouvoir ou mandat (portant les 2 signatures : celle du représentant légal et celle de la personne qui va le représenter) lui permettant d'engager celle-ci",
+        "description": "Le mandat ou procuration est un acte par lequel une personne donne à une autre le pouvoir de faire quelque chose pour le mandant et en son nom. Le contrat ne se forme que par l'acceptation du mandataire (Art. 1984 du code civil)",
+        "required": false
+      }
+    ]
+  }
+}

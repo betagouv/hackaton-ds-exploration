@@ -1,0 +1,87 @@
+{
+  "number": 29782,
+  "title": "Date de retour sur Metz et choix du mode de transport",
+  "description": "Suite au déconfinement et à l'annonce de la réouverture de l'Institut en présentiel, cette démarche a pour but de connaître précisément le calendrier de retour sur Metz des JH, et de centraliser les demandes de covoiturage entre Strasbourg et Metz",
+  "tags": [
+    "Rh"
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2020-05-13T17:12:31+02:00",
+  "service": {
+    "nom": "DNum",
+    "organisme": "LJH",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/retour-metz",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "www.linkedin.fr",
+  "cadreJuridiqueUrl": "https://www.gouvernement.fr/info-coronavirus/strategie-de-deconfinement",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Date de retour",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date envisagée du retour sur Metz",
+        "description": "si vous résidez déjà sur Metz, indiquez la date du jour.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Mode de transport",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Mode de transport envisagé",
+        "description": null,
+        "required": true,
+        "options": [
+          "Train",
+          "Voiture",
+          "Bus grande ligne",
+          "Aucun, je réside déjà sur Metz"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous bénéficier d'une place en co-voiturage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Souhaitez-vous proposer une place en covoiturage",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Si oui, depuis quelle(s) commune(s) seriez-vous prêt à partir",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune",
+            "description": null,
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

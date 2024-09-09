@@ -1,0 +1,71 @@
+{
+  "number": 73462,
+  "title": "Agrément des agents pour le visionnage des images de videoprotection",
+  "description": "Afin de visionner les images issues d’un dispositif de vidéoprotection, les agents (hors police municipale) doivent être préalablement agréés par le représentant de l’État dans le département (L. 132-14-1 CSI), agrément qui sera  délivré après enquête administrative du SNEAS.\r\n",
+  "tags": [
+    "Agrément"
+  ],
+  "zones": [
+    "Ministère de l'Intérieur et des Outre-mer"
+  ],
+  "datePublication": "2023-04-11T12:07:21+02:00",
+  "service": {
+    "nom": "Direction des Sécurités",
+    "organisme": "Préfecture de la Drôme / Cabinet",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/agrement-des-agents-pour-le-visionnage-des-images-",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.drome.gouv.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043533269/2023-04-04",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "EpciChampDescriptor",
+        "label": "EPCI",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Catégorie d'employeur",
+        "description": "Catégorie d'employeur à laquelle appartiennent les agents de visionnage",
+        "required": true,
+        "options": [
+          "Commune",
+          "EPCI",
+          "Syndicat"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si syndicat, préciser lequel",
+        "description": "A compléter si l'employeur est un syndicat",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'agents territoriaux agréés ou en cours",
+        "description": "Nombre d'agents territoriaux (non policiers municipaux) pour lesquels \r\nune demande d'agrément préfectoral vidéoprotection \r\na déjà été reçue et est en attente de traitement par la préfecture",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'agents territoriaux qui pourraient faire l'objet d'une demande d'agrément",
+        "description": "Nombre d'agents territoriaux (non policiers municipaux) pour lesquels \r\nles employeurs locaux prévoient de demander \r\nultérieurement en 2023 un agrément préfectoral vidéoprotection",
+        "required": false
+      }
+    ]
+  }
+}

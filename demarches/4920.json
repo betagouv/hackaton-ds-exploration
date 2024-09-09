@@ -1,0 +1,102 @@
+{
+  "number": 4920,
+  "title": "Demandes d'intervention de la Section des Services Numériques V2 avec SIRET et cadastre",
+  "description": "(site pédagogique de test pour le CD06)   au sein du SG,  la SSN intervient pour finaliser les demandes à la DSN: habilitations, matériels informatiques, services numériques, évolutions logiciels, requêtes BO, AMOA informatiques, etc.",
+  "tags": [
+    "Numérique"
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2018-05-22T12:17:09+02:00",
+  "service": {
+    "nom": "CD06/DGA DSH/SG",
+    "organisme": "Secrétariat général de la DGA DSH",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/cd06demande-intervention-ssn-v2",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "CD06DemandeInterventionSSN-V2",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "procedure-ee987bf0-a2d8-410b-9dbb-0165b7824600.jpg",
+    "checksum": "ZPzx5WZY57EtBA0ZztiByg==",
+    "byteSize": "13115",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 1,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Cartographie",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Demandeur",
+        "description": "nom et prénom du demandeur ",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Bénéficiaire",
+        "description": "Email de l'agent concerné",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Domaines demandés",
+        "description": "choisir un ou plusieurs domaines",
+        "required": true,
+        "options": [
+          "_matériel_",
+          "_habilitation_",
+          "_logiciel_",
+          "_conseil_",
+          "_autres_"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu bénéficiaire",
+        "description": "lieu de livraison ou structure concernée",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Objet détaillé de la demande",
+        "description": "quoi, combien, comment cf PJ si nécessaire",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Justification",
+        "description": "priorité, urgence, risque, gain attendu  cf PJ si nécessaire",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse bénéficiaire",
+        "description": "adresse concernée",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "PJ justificative",
+        "description": "Détaille et justifie la demande",
+        "required": false
+      }
+    ]
+  }
+}

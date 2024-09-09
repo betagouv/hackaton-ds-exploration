@@ -1,0 +1,833 @@
+{
+  "number": 96124,
+  "title": "Appel à projets investissements Pays de la Loire Bocage (État et Région)",
+  "description": "Ce téléservice couvre à la fois les aides aux investissements de l’Etat dans le cadre du Pacte de la Haie et celles de la Région dans son Plan régional en faveur de la haie, dans la dynamique régionale amorcée dès 2021 en collaboration entre la Région, l’Agence de l’Eau et les départements. \r\n\r\nL’objectif est d’atteindre un gain net du linéaire de haies de 500 km par an à l’échelle des Pays de la Loire, venant contribuer à l’objectif de 50 000 km de haies supplémentaires d’ici 2030 sur l’ensemble du territoire français.\r\n\r\nL’appel à projets Pacte haie (Etat) finance des projets d’investissement, en complémentarité avec l’appel à projets pour les actions d’animation (https://draaf.pays-de-la-loire.agriculture.gouv.fr/appel-a-projets-2024-animation-du-pacte-en-faveur-de-la-haie-a1292.html) ouvert début avril 2024. Il a pour objet le financement en 2024 de tous les travaux liés à la plantation et l'entretien de nouvelles haies ou l’installation de nouvelles parcelles en agroforesterie sur parcelles agricoles.\r\n\r\nLes aides de la Région sont complémentaires et concernent les projets de haies non agricoles, mais aussi les projets de plantation de bosquets, de création ou restauration de mares, l’acquisition de matériels pour l’entretien durable et la valorisation des arbres bocagers, ainsi que les projets de développement de la filière bois-bocage. \r\n",
+  "tags": [
+    "2024",
+    "agroécologie",
+    "haie",
+    "PaysDeLaLoire",
+    "PacteHaie"
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2024-06-14T16:17:15+02:00",
+  "service": {
+    "nom": "Pays de la Loire Bocage",
+    "organisme": "DRAAF Pays de la Loire et Conseil Régional des Pays de la Loire",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/aap-investissements-pdl-bocage",
+  "dpoUrl": "donneespersonnelles@paysdelaloire.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.paysdelaloire.fr/les-aides/pays-de-la-loire-bocage et https://draaf.pays-de-la-loire.agriculture.rie.gouv.fr/pacte-en-faveur-de-la-haie-investissements-2024-a1798.html",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000033283792 et https://www.paysdelaloire.fr/donnees-personnelles",
+  "logo": {
+    "filename": "Logo DS.PNG",
+    "checksum": "Ndbp91X77IYfBKYrU+4AhA==",
+    "byteSize": "196011",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "Notice explicative PDL Bocage Investissements(1).pdf",
+    "checksum": "49CPxjJs/hglH2p6ko2BGA==",
+    "byteSize": "11535666",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 23,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Information",
+        "description": "Dès l'ouverture du formulaire, un numéro de dossier vous est attribué. Ce numéro sera utile pour la saisie cartographique de votre projet dans l'espace collaboratif Géo Pays de Loire Bocage.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Cadre général de votre projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Pour vous aider à remplir le formulaire, reportez-vous à la notice explicative",
+        "description": "Cette notice détaille les attendus techniques et précise les définitions des champs du formulaire.\r\n> Si vous rencontrez un problème pour télécharger vos justificatifs, il est conseillé de changer de navigateur.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "La demande est déposée pour un :",
+        "description": "",
+        "required": true,
+        "options": [
+          "Projet individuel",
+          "Projet collectif"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre projet porte sur :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Un aménagement bocager (haie, agroforesterie, RNA, bosquet, mare...) ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La plantation de haie ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Sur une surface agricole (haies) ?",
+        "description": "Sont considérées comme surfaces agricoles toutes surfaces support d’une production agricole primaire, comprenant notamment les terres arables, les cultures permanentes ou les prairies permanentes.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La plantation d'arbres intraparcellaires (Agroforesterie) ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Sur une surface agricole (arbres intraparcellaires) ?",
+        "description": "Sont considérées comme surfaces agricoles toutes surfaces support d’une production agricole primaire, comprenant notamment les terres arables, les cultures permanentes ou les prairies permanentes.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Regarnissage ?",
+        "description": "Plantation d'arbres ou d'arbustes au sein d'une haie dégradée",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Régénération Naturelle Assistée (RNA) ?",
+        "description": "La Régénération Naturelle Assistée consiste à créer ou regarnir des haies en facilitant, protégeant et gérant les repousses naturelles que produisent les souches d'arbres et arbustes dans les champs. ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Sur une surface agricole (RNA et/ou regarnissage) ?",
+        "description": "Sont considérées comme surfaces agricoles toutes surfaces support d’une production agricole primaire, comprenant notamment les terres arables, les cultures permanentes ou les prairies permanentes.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La création ou réhabilitation de mares ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La création de bosquet(s) ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Sur une surface agricole  (bosquet)?",
+        "description": "Sont considérées comme surfaces agricoles toutes surfaces support d’une production agricole primaire, comprenant notamment les terres arables, les cultures permanentes ou les prairies permanentes.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'acquisition de matériel d'entretien et de valorisation ?",
+        "description": "Les projets d’acquisition de matériels d’entretien du bocage et de valorisation s’insèrent dans une démarche territoriale et collective pour entretenir durablement les éléments du bocage (haies, arbres, bosquets…).\r\n",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Mise en place d’un projet d’aide à la structuration des filières ou projets innovants ?",
+        "description": "Les projets de structuration de filières bois bocage ou innovants s'inscrivent dans une démarche territoriale et collective. Il s'agit de valoriser le bois comme ressource dans le respect des règles de gestion durable (paillage de plantation, bois raméal fragmenté en épandage direct au sol, litière pour l’élevage, bois énergie, bois d'œuvre, bois de construction etc...)\r\nPour les projets innovants, il s'agit d'études et d'actions d’amélioration, de structuration et de valorisation de la connaissance des complexes bocagers ligériens.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Par quelle structure technique êtes-vous accompagné ?",
+        "description": "Cette liste ne présage pas de l'agrément octroyé en tant que structure facilitatrice par la Région.",
+        "required": false,
+        "options": [
+          "AGROECOLOGIE & SFN",
+          "ARBOR & SCIENCE",
+          "BOIS ENERGIE MAINE ATLANTIQUE (BEMA)",
+          "CHAMBRE REGIONALE D'AGRICULTURE DES PAYS DE LA LOIRE",
+          "CPIE SEVRE BOCAGE",
+          "EIRL DE LA HAIE A LA FORET",
+          "EURL SYLVALOIR",
+          "FEDERATION REGIONALE DES CHASSEURS DES PAYS DE LA LOIRE",
+          "FEDERATION DEPARTEMENTALE DES CHASSEURS DE LA DE MAINE-ET-LOIRE",
+          "FEDERATION DEPARTEMENTALE DES CHASSEURS DE LA SARTHE",
+          "FEDERATION DEPARTEMENTALE DES CHASSEURS DE VENDEE",
+          "HORIZON BOCAGE",
+          "MY TREE",
+          "SYLVAGRAIRE-L'ARBRE CULTIVEFRANCE"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1) Identification du demandeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut juridique",
+        "description": "",
+        "required": true,
+        "options": [
+          "Association loi 1901",
+          "Collectivité territoriale et leur groupement (EPCI, Syndicats,...)",
+          "Établissement public d'enseignement et établissement d'enseignement agricole",
+          "Exploitation agricole",
+          "Entreprise non agricole",
+          "Coopérative agricole",
+          "Propriétaire de terres agricoles (non exploitant)",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Précisez votre statut juridique",
+        "description": "Avant de continuer dans le dépôt de cette démarche, nous vous invitons à utiliser l'outil de fléchage suivant afin de vérifier votre éligibilité.\r\nlien outil de fléchage",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut de votre exploitation agricole",
+        "description": "",
+        "required": true,
+        "options": [
+          "- Exploitation individuelle",
+          "- GAEC",
+          "- EARL",
+          "- SCEA"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Numéro de SIRET",
+        "description": "Cette donnée permettra d'accéder à certaines informations officielles concernant votre structure (Extrait Kbis, statuts...)",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Possédez-vous un numéro PACAGE ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro PACAGE",
+        "description": "format du numéro= 0DD ______\r\nne pas oublier le début de votre numéro composé de 0+ n° de votre département.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Civilité du représentant légal",
+        "description": "",
+        "required": true,
+        "options": [
+          "Madame",
+          "Monsieur"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du représentant légal",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom patronymique du représentant légal",
+        "description": "ou nom de naissance",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du représentant légal",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "E mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "N° de portable",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "La personne à contacter pour le suivi de la demande est différente du représentant légal ?",
+        "description": "Ces éléments nous serviront pour les éventuelles demandes de complément(s) administratif(s) et/ou technique(s)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du responsable du projet",
+        "description": "Si différent du représentant légal",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom du responsable du projet",
+        "description": "Si différent du représentant légal",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone du responsable du projet",
+        "description": "De préférence le numéro de portable",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Email du responsable du projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justifiez que vos parcelles ont une valeur agricole primaire",
+        "description": "Joindre tout justificatif qui prouve une activité primaire agricole du ou des demandeur(s) si votre projet est réalisé sur surface agricole.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2) Description du projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Eléments techniques",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Localisation du projet",
+        "description": "Départements sur lesquels les projets d'aménagements du bocage ont lieux ",
+        "required": true,
+        "options": [
+          "Loire- Atlantique (44)",
+          "Maine et Loire (49)",
+          "Mayenne (53)",
+          "Sarthe (72)",
+          "Vendée (85)",
+          "Hors Pays de la Loire"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Localisation du siège d'exploitation",
+        "description": "Départements du(es) siège(s) d'exploitation de(s) bénéficiaire(s) final(aux) du projet.",
+        "required": true,
+        "options": [
+          "Loire- Atlantique (44)",
+          "Maine et Loire (49)",
+          "Mayenne (53)",
+          "Sarthe (72)",
+          "Vendée (85)",
+          "Siège situé hors Pays de la Loire mais parcelles en PDL"
+        ]
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'exploitation(s) accompagné(es) en Loire-Atlantique",
+        "description": "Se référer au(x) siège(s) d'exploitation du/des bénéficiaire(s) final (aux).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'exploitation(s) accompagné(es) en Maine et loire",
+        "description": "Se référer au(x) siège(s) d'exploitation du/des bénéficiaire(s) final (aux).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'exploitation(s) accompagné(es) en Mayenne",
+        "description": "Se référer au(x) siège(s) d'exploitation du/des bénéficiaire(s) final (aux).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'exploitation(s) accompagné(es) en Sarthe",
+        "description": "Se référer au(x) siège(s) d'exploitation du/des bénéficiaire(s) final (aux).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'exploitation(s) accompagné(es) en Vendée",
+        "description": "Se référer au(x) siège(s) d'exploitation du/des bénéficiaire(s) final (aux).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'exploitation(s) accompagné(es) ayant leur siège d'exploitation hors des PdL mais des projets sur des parcelles des PdL",
+        "description": "Se référer au(x) siège(s) d'exploitation du/des bénéficiaire(s) final (aux).",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Linéaire de haie prévu en plantation",
+        "description": "Attention ce nombre est à noter en METRE LINEAIRE\r\nSi le dossier est déposé pour plusieurs planteurs, faire la somme des linéaires.\r\nRemarque: une haie double de 100 ml compte pour 200 ml,\r\nune haie triple de 100 ml compte pour 300 ml.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Linéaire de haie prévue en RNA",
+        "description": "Attention ce nombre à mettre en METRE LINEAIRE.\r\nFaire le total présenté dans la demande. Si le dossier est déposé pour plusieurs planteurs, faire la somme.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'arbres ou arbustes de regarnissage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'arbres prévus en intraparcellaire (Agroforesterie)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombres de mares",
+        "description": "minimum de 6 mares par projet",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Etes-vous propriétaire des parcelles concernées par le projet ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "OUI",
+          "NON"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Fournir l'accord écrit et signé du propriétaire",
+        "description": "Ce document ne constitue pas une pièce obligation au dépôt de la demande.\r\nPAR CONTRE ces pièces seront demandées et nécessaires avant tous paiements.\r\nLes usagers peuvent envoyer plusieurs fichiers si nécessaire.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Accord de l'exploitant agricole locataire de la parcelle",
+        "description": "Si la parcelle concernée est en locataire à une exploitation agricole",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Contexte du projet",
+        "description": "Fournir un rapide descriptif du contexte par bénéficiaire final.\r\nEn cas plantation complexe, intégrer dans votre descriptif un plan de masse et une explication correspondant à la particularité. \r\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Etude de faisabilité de modèle de développement économique",
+        "description": "A renseigner uniquement pour les projets de filières et projets innovants.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Avez-vous renseigné les données cartographiques de votre projet dans l’espace cartographique GEOPDL Bocage ?",
+        "description": "Saisissez directement vos projets de plantation dans l'outil cartographique GEOPDL Bocage\r\n",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de situation",
+        "description": "Pour les projets de création de mares, joindre les plans de situation du projet (carte PDF au 1/25 000)\r\nSi vous avez plusieurs documents, zippez les en un fichier pour le joindre ici",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan détaillé du projet",
+        "description": "Pour les projets de création de mares, ajoutez un plan de masse avec le schéma d'implantation de vos investissements en indiquant une référence pour chaque élément du projet. Vous indiquerez sur les plans le nom du bénéficiaire, les longueurs, distances... pertinents pour l'analyse du projet.\r\nVous pouvez fournir les plans des différentes types d'investissements sollicités sur un seul plan ou sur différents plans.\r\nSi vous avez plusieurs documents, zippez les en un fichier pour le joindre ici",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Données techniques et financières du projet individuel",
+        "description": "Complétez le tableau pour le projet individuel.\r\nTéléchargez le fichier joint, vous devez le compléter avant de le charger (localisation cadastrale des surfaces concernées, liste des essences plantées... ).\r\nMerci de bien vouloir charger le document au format .XLSX",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Données techniques et financières du projet collectif",
+        "description": "Complétez le tableau pour un projet collectif.\r\nCette présentation doit couvrir tous les types d'investissements que vous sollicitez. \r\nMerci de bien vouloir charger le document au format .XLSX",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan de financement daté et signé (onglet synthèse du projet)",
+        "description": "Après avoir complété et signé l'onglet \"Synthèse projet\" charger le document au format PDF.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièces relatives aux autorisations de travaux pour les mares (le cas échéant)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Dépenses prévisionnelles",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Montant prévisionnel du projet (total)",
+        "description": "Indiquer le montant total des dépenses prévisionnelles du projet en HT. ",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quels types de dépenses éligibles sont concernées par le projet ?",
+        "description": "Ce champ concerne uniquement les projets d'aide à la structuration des filières, projets innovants...\r\nSalaires dédiés à l’ingénierie des projets, au titre de l’investissement immatériel nécessaire à la réalisation du projet, dans la limite de 15 % du coût total des dépenses éligibles.",
+        "required": true,
+        "options": [
+          "Dépenses sur devis",
+          "Frais de personnel"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Données techniques et financières du projet d'acquisition de matériel d'entretien ou de valorisation",
+        "description": "Cette présentation doit couvrir tous le type d'investissement que vous sollicitez.\r\nMerci de bien vouloir charger le document au format .XLSX",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Données techniques et financières pour les projets de filières et projets innovants",
+        "description": "Joindre les données techniques et financières pour les projets de filières et projets innovants et le plan de financement en utilisant le modèle proposé.\r\nEnregistrer le document en format modifiable (.odt ou .xlsx - pas de .pdf)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation(s) du coût journalier",
+        "description": "Ce champ concerne uniquement les projets d'aide à la structuration des filières, projets innovants mobilisant des frais de personnel.\r\n> Joindre pour chaque structure (demandeur et partenaires éventuels), une attestation de coût journalier établie par la personne en charge de la comptabilité de la structure d'appartenance.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Devis",
+        "description": "Joindre les devis correspondant à chaque dépense en format PDF zippé en regroupant les devis par type d'investissement.\r\nSont éligibles les dépenses matérielles (prestation de service pour travaux, achat de matériel), nécessaires à la création et la réhabilitation de mares ou à la régénération naturelle ainsi que les études préalables dans la limite de 20% du montant des dépenses matérielles éligibles à l'exclusion des dépenses déjà prises en charge dans un projet d'animation.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3) Pièces administratives à fournir",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce d'identité du respresentant légal",
+        "description": "Copie recto-verso de la carte nationale d'identité ou du passeport en cours de validité.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Convention de mandat de gestion",
+        "description": "Pour chaque bénéficiaire représenté, établir une convention de  mandat de gestion dûment complété et signé par les deux parties.\r\nCe document sera à fournir pour chaque bénéficiaire final accompagné.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Mandat GAEC",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pour les CUMA",
+        "description": " Copie du pouvoir signé habilitant le représentant à demander l'aide et engager la CUMA",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Exemplaire des statuts à jour, datés et signés",
+        "description": "Ou tout autre document attestant de la qualité de la personne physique qui agit pour le compte de la personne morale et permet de vérifier qu’elle est habilitée à engager l'entreprise (par exemple : arrêté constitutif pour les GAEC, PV d’AG…).",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Délibération",
+        "description": "Joindre la délibération de l’organe compétent approuvant le projet et le plan de financement.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièces supplémentaires pour les associations",
+        "description": "Pour les associations, joindre obligatoirement :\r\n  - Statuts approuvés  ou déposés de la structure associative attestant de la qualité de la personne physique qui agit pour le compte de la personne morale et permet de vérifier qu’elle est habilitée à engager l'entreprise + liste des membres composant le conseil d'administration (Copie de la publication au JO ou récépissé de la déclaration en préfecture ou N°RNA)\r\n- le contrat d’engagement républicain signé (modèle à télécharger) : les associations loi 1901 qui sollicitent une subvention publique, doivent souscrire au contrat d’engagement républicain.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Respect des règles de la commande publique",
+        "description": "Si vous êtes structure publique relevant de la commande publique, veuillez joindre le formulaire de respect de la commande publique.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Déclaration d'absence de conflit d'intérêt",
+        "description": "Attention charger modèle",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation du pouvoir du signataire si le demandeur n'est pas le représentant légal de la structure",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative à joindre en complément du dossier",
+        "description": "Autres justificatifs que vous souhaitez joindre à votre demande",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4) Attestations et engagements",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "J'autorise :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "l'administration à transmettre l'ensemble des données de ma demande à toute structure publique chargée de l'instruction de ma demande d'aide ou de la subvention me concernant.",
+        "description": "Afin de faciliter les démarches auprès de l'administration.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "la diffusion de certaines données renseignées (nom, indicateurs, plans, montant demandé) au comité technique Pays de la Loire Bocage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Je déclare et atteste sur l'honneur:",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "que le projet ne comporte pas de dépenses relevant de la mise en œuvre d’obligations réglementaires (notamment des mesures compensatoires prescrites dans le cadre de procédures réglementaires ou suite à des arrachages de haies)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "que le projet pour lequel la subvention est sollicitée n’a reçu aucun commencement d’exécution (signature de bon de commande, approbation de devis, ordre de service…) avant la date de dépôt de la présente demande.",
+        "description": "La date de dépôt de la demande sous démarches simplifiées est considérée comme la date de dossier complet (administrativement) pour les aides du pacte.",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "que mon entreprise n'est pas en difficulté au sens du point (33) (63) des lignes directrices agricoles et forestières (LDAF) concernant les aides d'Etat dans les secteurs agricoles et forestiers et dans les zones rurales",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "détenir les droits réels et personnels des biens sur lesquels la plantation va être réalisée, ou disposer à la demande de paiement d’une autorisation du propriétaire de ces biens",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "ne pas avoir sollicité pour le même projet / les mêmes investissements, une aide autre que celle(s) indiquée(s) sur le présent formulaire de demande d’aide",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "avoir lu la notice explicative disponible sur la démarche simplifiée",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "avoir pris connaissance des points de contrôle spécifique à ce dispositif d'aide figurant dans le réglement",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "avoir pris connaissance des délais maximum de début d'exécution éventuels et de réalisation des travaux qui s'attachent à mon projet, et qui figurent dans le réglement de l'appel à projet.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "de l’exactitude des renseignements fournis dans le présent formulaire, ses annexes et pièces jointes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "être à jour de mes obligations légales, administratives, sociales, fiscales et comptables",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Je m'engage, sous réserve de l'attribution de l'aide, à :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "informer le service instructeur de ma demande de toute modification de ma situation, de la raison sociale de ma structure, de mes engagements, de mon action",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "réaliser l'opération présentée dans ma demande conformément aux conditions techniques et financières définies par la décision attributive d'aide",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "ne pas solliciter ou avoir sollicité un autre financement européen pour les mêmes dépenses que celles présentées pour ce dispositif",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "renseigner sur GEOPDL Bocage le tracé des linéaires plantés (post plantation)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "déclarer les linéaires implantés dans la PAC (si je suis soumis à déclaration) ou demander au(x) bénéficiaire(s) final(aux) de le faire pour les projets collectifs",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "entretenir les haies et arbres plantés, de manière à assurer la viabilité d’au moins 80% des arbres ou arbustes plantés, pendant au moins 5 ans",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "respecter les obligations de publicité des financeurs par un visuel appropriée sur le lieu de l'opération, tout au long des travaux",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "respecter la réglementation relative au droit de la commande publique, le cas échéant, (voir l’annexe relative au respect du droit de la commande publique) et en tout état de cause à respecter toute obligation réglementaire nationale et régionale s’imposant à mon projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "fournir toute pièce complémentaire jugée utile par les services compétents pour instruire la demande et suivre la réalisation de l’opération",
+        "description": "Notamment déclarer les changements intervenus dans la réalisation des projets (nouveaux plans,...)",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "respecter les règles de distance pour la plantation par rapport aux voisins (https://www.service-public.fr/particuliers/vosdroits/F614) ainsi que les usages locaux et du code civil ;",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "réaliser la totalité des travaux liés à la plantation au plus tard 2 ans après la décision juridique d’attribution de l’aide",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "permettre et faciliter l’accès à ma propriété et me soumettre à l’ensemble des contrôles administratifs et sur place qui pourraient résulter de l’octroi des aides nationales et européennes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Je suis informé(e):",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "qu'en cas d'irrégularité ou de non-respect de mes (nos) engagements, le remboursement des sommes perçues sera exigé, majoré d'intérêts de retard et éventuellement de pénalités financières, sans préjudice des autres poursuites et sanctions prévues dans les textes en vigueur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "que l'ensemble des informations recueillies dans le présent formulaire fait l'objet d'un traitement informatique destiné à la gestion de mon dossier de demande d'aide et à l'évaluation de la mesure. Les destinataires des données sont, le Conseils Régional des Pays de la Loire, le Ministère de l'agriculture et de la souveraineté alimentaire et l'Agence de l'eau Loire Bretagne. Conformément à la loi \"informatique et libertés\" n°78-17 du 6 janvier 1978, je bénéficie d'un droit d'accès et rectification aux informations à caractère personnel me concernant. Si je souhaite exercer ce droit et obtenir communication des informations me concernant, je peux m'adresser au service instructeur.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "que toute fausse déclaration est passible de peines d'emprisonnement et d'amendes prévues par les articles 441-6 et 441-7 du code pénal. Le droit d'accès aux informations par la loi n° 78-17 du 6/01/1978 relative à l’informatique, aux fichiers et aux libertés s’exerce auprès du service ou de l'établissement auprès duquel vous avez déposé votre dossier",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5) Signatures",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Signature de la demande d'aide",
+        "description": "Cochez cette case vaut signature de la présente demande d'aide auprès des services compétents pour le traitement du dossier.\r\nA compter du dépôt du dossier, vous ne pourrez plus revenir sur le dossier, les modifications ne pourront plus être apportées qu'auprès du service instructeur de la présente demande.",
+        "required": true
+      }
+    ]
+  }
+}

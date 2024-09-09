@@ -1,0 +1,161 @@
+{
+  "number": 69049,
+  "title": "Demande de recette d'un Fournisseur d'Identité AgentConnect",
+  "description": "Vous souhaitez être Fournisseur d'Identité pour AgentConnect et votre demande datapass a déjà été validée. \r\n\r\nL'étape suivante est la qualification de l'intégration de votre Fournisseur d'Identité AgentConnect (RIE / Internet / ou les deux). \r\n\r\nCette démarche vous permet donc de demander la recette de votre implémentation afin d'obtenir la validation qui vous permettra de passer en production. ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transformation et de la Fonction publiques"
+  ],
+  "datePublication": "2023-01-24T10:04:55+01:00",
+  "service": {
+    "nom": "AgentConnect",
+    "organisme": "DINUM",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-recette-fi-fca",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.demarches-simplifiees.fr/commencer/demande-recette-fi-fca",
+  "cadreJuridiqueUrl": "https://www.gouvernement.fr/sites/default/files/contenu/piece-jointe/2021/05/20210601-dinum-ac-creation_agentconnect-vf.pdf",
+  "logo": {
+    "filename": "AgentConnect-Logo-HD.png",
+    "checksum": "mB5DL1JgQOqjzF37lSR5OA==",
+    "byteSize": "44535",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 5,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations sur votre Fournisseur d'Identité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Implémentation d'AgentConnect",
+        "description": "Merci d'indiquer dans cette section si vous avez implémenté votre Fournisseur d'Identité AgentConnect sur le RIE, Internet ou sur les deux.",
+        "required": true,
+        "options": [
+          "RIE",
+          "Internet",
+          "RIE et Internet"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Domaines emails concernés par votre Fournisseur d'Identité",
+        "description": "Renseignez ici les domaines emails utilisés par votre Fournisseur d'identité. AgentConnect redirige automatiquement l'utilisateur vers le Fournisseur d'Identité qui gère ce domaine.\r\nPar exemple : un utilisateur entre son email jean.dupont@insee.fr, il est redirigé par AgentConnect vers le fournisseur d'identité opéré par l'INSEE.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Accès à votre environnement de recette",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Pouvez-vous fournir une identité test à l'équipe AgentConnect - Internet?",
+        "description": "Avez-vous la possibilité de: \r\n- créer un ou plusieurs compte(s) test temporaire(s) ou permanent(s) pour l'équipe AgentConnect (ou un membre en particulier de l'équipe) \r\nou\r\n- nous fournir une identité test générique\r\nafin que nous puissions faire la recette de votre implémentation en toute autonomie? ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identité(s) test à utiliser - Internet",
+        "description": "Indiquez ici: \r\n-  l'identité de test générique à utiliser\r\nou\r\n- le ou les compte(s) test créé(s) pour le ou les membre(s) de l'équipe AgentConnect à utiliser\r\nafin que nous puissions effectuer la recette de votre implémentation en toute autonomie. \r\n",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identité(s) test à utiliser - Internet",
+        "description": "Indiquez ici: \r\n-  l'identité de test générique à utiliser\r\nou\r\n- le ou les compte(s) test créé(s) pour le ou les membre(s) de l'équipe AgentConnect à utiliser\r\nafin que nous puissions effectuer la recette de votre implémentation en toute autonomie. \r\n",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Demande de recette à distance - Internet",
+        "description": "Si vous ne pouvez pas nous fournir une identité de test, une recette en visio devra alors se faire car nous ne serons pas en mesure de tester votre Fournisseur d'Identité. \r\nMerci de nous contacter à l'adresse suivante support.partenaires@agentconnect.gouv.fr afin de fixer ce point.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Demande de recette à distance - Internet",
+        "description": "Si vous ne pouvez pas nous fournir une identité de test, une recette en visio devra alors se faire car nous ne serons pas en mesure de tester votre Fournisseur d'Identité. \r\nMerci de nous contacter à l'adresse suivante support.partenaires@agentconnect.gouv.fr afin de fixer ce point.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Demande de recette à distance - RIE",
+        "description": "Si vous implémentez votre Fournisseur d'Identité AgentConnect sur le RIE, une recette devra se faire soit en visio, si possible, soit via un autre moyen (vidéo, captures d'écrans ou autres) car nous ne pouvons pas tester la cinématique et accéder à votre  Fournisseur d'Identité. \r\nMerci de nous contacter à l'adresse suivante support.partenaires@agentconnect.gouv.fr  afin de fixer ce point.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations supplémentaires",
+        "description": "Indiquez ici toute information complémentaire qui pourrait être nécessaire à la réalisation de la qualification de l'intégration de votre Fournisseur d'Identité AgentConnect. ",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Résultat de votre recette interne",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Cahier de recette",
+        "description": "Avant de soumettre votre demande de qualification à notre équipe, merci de réaliser une recette interne de votre implémentation à partir du cahier de recette disponible ci dessous. \r\nVous devez certifier avoir vérifié l'ensemble des points cités ci-après. Vous devez également certifier que vous considérez cette recette conforme aux critères indiqués dans le cahier de recette fourni ci-après. \r\nTout critère non respecté dans votre intégration d'AgentConnect pourra amener à un refus de qualification de votre Fournisseur d'Identité. ",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Homologation RGS",
+        "description": "Votre Fournisseur d'Identité à été homologué RGS. ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Est-il prévu que vous fassiez homologuer votre Fournisseur d'Identité ?",
+        "description": "Quand est-il prévu de passer l'homologation RGS pour votre Fournisseur d'Identité ? ",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Attention",
+        "description": "Le Référentiel Général de Sécurité (RGS 2.0) rend la démarche d’homologation obligatoire pour les SI relatifs aux échanges entre une autorité administrative et les usagers ou entre autorités administratives.",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Cinématique - Connexion",
+        "description": "En tant qu'utilisateur je peux me connecter sur le Fournisseur de Services en utilisant le Fournisseur d'Identité. La cinématique fonctionne de bout en bout et je suis authentifié auprès du Fournisseur de Services.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Il n'y a pas d'erreur technique au retour du Fournisseur d'Identité",
+        "description": "En tant qu'utilisateur, une fois que je me suis authentifié auprès du Fournisseur de Service, je tombe sur le service et non sur une page d'erreur (ex: erreur technique Yxxxxx). ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Cinématique - Déconnexion",
+        "description": "La déconnexion fonctionne : il est nécessaire de vérifier que lorsque l'utilisateur se déconnecte sur le service, il est déconnecté du service, d'AgentConnect et du Fournisseur de Service. ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires recettes internes",
+        "description": "Indiquer ici si vous avez des remarques particulières sur la recette interne que vous avez effectuée. ",
+        "required": false
+      }
+    ]
+  }
+}

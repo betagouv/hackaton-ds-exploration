@@ -1,0 +1,301 @@
+{
+  "number": 77622,
+  "title": "Demande de projet (Voyage/Sortie/Action)",
+  "description": "Formulaire à remplir pour tout projet de voyage/sortie/action interne à l'établissement",
+  "tags": [
+    ""
+  ],
+  "zones": [
+    "Ministère de l'Éducation nationale et de la Jeunesse"
+  ],
+  "datePublication": "2024-08-20T09:58:14+02:00",
+  "service": {
+    "nom": "Secrétariat de Direction",
+    "organisme": "LPO Rabelais Fontenay le Comte",
+    "typeOrganisme": "etablissement_enseignement"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-projet-voyage-sortie-action",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://rabelais.paysdelaloire.e-lyco.fr/",
+  "cadreJuridiqueUrl": "https://elyco.itslearning.com/ContentArea/ContentArea.aspx?LocationID=646&LocationType=2",
+  "logo": {
+    "filename": "logo + E3D.jpg",
+    "checksum": "IK1wRdjuc6Ip310PZRFHfQ==",
+    "byteSize": "141976",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "Dossier voyage scolaire 2022-23 projet.docx",
+    "checksum": "3HklfvWiNHhDVL6kLzIJ4g==",
+    "byteSize": "601728",
+    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "deliberation": null,
+  "dossiersCount": 210,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Mode d'emploi",
+        "description": "Ce questionnaire est à remplir pour toute demande de voyage, sortie ou action interne à l'établissement, dans les délais indiqués dans le VADEMECUM des voyages et sorties.\r\nTout élément utile à la validation du dossier devra être joint: liste des élèves et des accompagnateurs, devis et programme.\r\nUne réponse par mail sera générée à l'instruction du dossier.\r\nLa validation ou le refus seront également adressés par mail.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de projet",
+        "description": "",
+        "required": true,
+        "options": [
+          "Voyage",
+          "Sortie",
+          "Action interne à l'établissement"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du responsable du projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Titre de l'action",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DatetimeChampDescriptor",
+        "label": "Préciser la date et les horaires",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dates du voyage",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "public concerné",
+        "description": "Effectif\r\nPréciser les personnes concernées (classe/groupe/service/personnes extérieures, etc)\r\n",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Nom des accompagnateurs (en général 1 pour 15 à 20 élèves avec un minimum de 2)",
+        "description": "Indiquer les noms des collègues concernés après leur avoir demandé et avoir vérifié les impacts sur les EDT.",
+        "required": true
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Axes et objectifs du projet d'établissement",
+        "description": "",
+        "required": true,
+        "options": [
+          "--Sans objet--",
+          "--RÉUSSITE \"Garantir à chaque élève sa propre réussite\"--",
+          "Axe 1 - Assurer la maîtrise des fondamentaux et des compétences pour chaque élève de l'école au lycée",
+          "Axe 2 - Accompagner l'élève dans la construction de son parcours",
+          "Axe 3 - Former à la complexité du monde",
+          "--INSERTION \"Construire pour chacun sa place dans la société\"--",
+          "Axe 1 - Favoriser une scolarité sereine dans un climat de confiance",
+          "Axe 2 - Développer des compétences citoyennes et culturelles et l'ouverture à l'international",
+          "Axe 3 - Construire des parcours de formation professionnelle pour tous les apprenants",
+          "--SOLIDARITÉ \"Ne laisser personne au bord du chemin\"--",
+          "Axe 1 - Réduire l'impact des fractures sociales et territoriales",
+          "Axe 2 - Garantir la réussite ds élèves à besoins particuliers",
+          "Axe 3 - Vaincre le décrochage scolaire",
+          "--COOPÉRATION \"Travailler ensemble à la réussite de tous\"--",
+          "Axe 1 - Favoriser l'initiative des écoles et des établissements",
+          "Axe 2 - Accompagner et valoriser l'engagement des personnels",
+          "Axe 3 - Répondre aux besoins des écoles et des établissements par une organisation académique adaptée et des partenariats renforcés"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Programme pédagogique",
+        "description": "Joindre le programme pédagogique de l'action: cela peut être un document word avec le descriptif de l'action",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Organisation de l'action",
+        "description": "Précisez dans les blocs ci-dessous la manière dont l'action est organisée\r\n",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Préparation en aval de l'action avec les élèves",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Déroulé de l'action",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Exploitation de l'action après réalisation",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Coût du projet",
+        "description": "Merci de ne prendre en compte que les frais liés à des factures. Sont exclus : les frais liés à l'utilisation du minibus ou du véhicule du lycée, les HSE éventuelles.",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Participation des familles",
+        "description": "Si oui, la participation des familles doit être actée en Conseil d'administration. Pour ce faire, le budget de l'action doit être établi selon le modèle mis à disposition par l'intendance et doit être équilibré. Il doit être fourni 15 jours avant la date du CA avec le programme de l'action.",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Financement de l'action",
+        "description": "Merci d'indiquer si l'action peut être prise en charge. ",
+        "required": true,
+        "options": [
+          "Adage",
+          "Action éducatives",
+          "NEFLE"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Adage",
+        "description": "Si vous n'avez pas compléter ADAGE, merci de voir avec les professeures documentalistes pour vous aider dans votre démarches",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Demande de financement déposée",
+        "description": "Si vous avez effectué une demande via les actions éducatives de la Région ou NEFLE, merci de déposer le dossier ici",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autres financements",
+        "description": "Merci d'indiquer vos autres sources de financements",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Détails du financement",
+        "description": "Joindre les devis et le budget prévisionnel",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avec intervenant extérieur",
+        "description": "Les conventions et contrats doivent être soumis à l'accord du Conseil d'administration et doivent être fournis 15 jours avant la date du CA. ",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Réservation véhicule",
+        "description": "",
+        "required": false,
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Choix du véhicule",
+        "description": "",
+        "required": false,
+        "options": [
+          "Clio",
+          "206",
+          "Minibus 1",
+          "Minibus 2"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Pique-nique",
+        "description": "La demande des piques niques ne sera prise en compte que pour les élèves internes concernés et si la demande a été validée 8 jours avant la sortie",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre d'internes pour les pique-niques, noms des élèves et/ou régimes particuliers",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Réservation de salle",
+        "description": "Préciser la salle souhaitée",
+        "required": false,
+        "options": [
+          "A108",
+          "B040",
+          "Salle du conseil",
+          "Foyer"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Collation demandée",
+        "description": "",
+        "required": false,
+        "options": [
+          "Accueil-type petit déjeuner café viennoiseries",
+          "Accueil-type café gâteaux secs",
+          "Accueil-type goûter brioche",
+          "Accueil-type apéritif",
+          "Accueil-type réception petits fours"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Effectif, lieu et heure de la collation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Réservation de matériel",
+        "description": "Si vous avez besoin de matériel, merci de compléter GLPI pour le service en charge de ce matériel",
+        "required": false,
+        "options": [
+          "Sono (à récupérer à l'accueil)",
+          "Vidéo projecteur (GLPI informatique)",
+          "Ordinateur (GLPI informatique)",
+          "Grilles (GLPI maintenance)"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Informations complémentaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Bilan pédagogique",
+        "description": "A l'issue de l'action, un bilan pédagogique devra être adressé au chef d'établissement (dernière annexe du VADEMECUM)",
+        "required": false
+      }
+    ]
+  }
+}

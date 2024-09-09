@@ -1,0 +1,242 @@
+{
+  "number": 28011,
+  "title": "Invalidité - Révision Allocation Supplémentaire Invalidité",
+  "description": "Attestation en ligne permettant de réviser les droits à l'Allocation Supplémentaire Invalidité (ASI).\r\n\r\nRéservé aux invalides des départements Calvados-Manche-Orne.\r\n\r\nPour une connexion simple et pratique, utilisez la connexion France-Connect.",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2020-09-25T15:21:05+02:00",
+  "service": {
+    "nom": "Caisse Primaire d'Assurance Maladie",
+    "organisme": "CPAM",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/invalidite-revision-allocation-supplementaire-inva",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://declic.cpam50.fr/",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/fr/respecter-les-droits-des-personnes",
+  "logo": {
+    "filename": "logo test1.png",
+    "checksum": "hAQF+K0XZRI3JxIgj54dAw==",
+    "byteSize": "60707",
+    "contentType": "image/png"
+  },
+  "notice": {
+    "filename": "note explicative V3.0.pdf",
+    "checksum": "bVvvw7F9I+rmjvhFNkQWtw==",
+    "byteSize": "1229688",
+    "contentType": "application/pdf"
+  },
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "De quelle Caisse Primaire d'Assurance Maladie dépendez-vous ?",
+        "description": "Indiquez le département de votre Caisse Primaire d'Assurance Maladie ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Votre numéro de sécurité sociale",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Situation Familiale",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Précisez votre situation familiale actuelle",
+        "description": "",
+        "required": true,
+        "options": [
+          "Célibataire",
+          "Vie Maritale",
+          "Marié(e)",
+          "Pascé(e)",
+          "Divorcé(e)",
+          "Séparé(e)",
+          "Veuf (Veuve)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si, votre situation a changé depuis le 1er janvier de cette année. Merci de joindre les pièces justificatives (copie du livret de famille, jugement de divorce, etc) sur le lien suivant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Si, vous avez précisé, vie maritale, marié, pacsé à la quesion précédente. Vous devez indiquer le numéro de sécurité sociale, nom et prénom du conjoint(e), concubin(e), pacsé(e) et sa situation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de sécurité sociale du conjoint(e), concubin(e) ou partenaire PACS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de votre conjoint(e), concubin(e) ou partenaire de PACS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom de votre conjoint(e), concubin(e) ou partenaire de PACS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Les ressources perçues par votre conjoint(e), concubin(e) ou partenaire de PACS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Salarié (Salaires)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Pôle emploi (Chômage)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Titulaire de l'AAH (Caf)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Autre (à préciser)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vos ressources",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1- Biens immobiliers",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous ou votre conjoint(e), concubin(e) ou partenaire PACS, êtes-vous propriétaire(s) de biens immobiliers en dehors de votre habitation principale ?",
+        "description": "Maisons, appartements, immeubles et terrains à l'exclusion de l'habitation principale et des bâtiments d'exploitation agricole.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si, oui",
+        "description": "Joindre obligatoirement une copie de l'acte d'achat",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2- Prévoyance",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes-vous titulaire d'une prévoyance ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si, oui",
+        "description": "Joindre obligatoirement la dernière attestation de paiement",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3- Attestation financière du foyer",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Remplir obligatoirement le document en ligne à partir du lien ci-dessous intitulé \"le modèle suivant\", enregistrer ce document sur votre ordinateur/tablette/smartphone et joindre votre copie complétée en cliquant sur \"Parcourir\"",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Votre dossier sera incomplet sans cette attestation.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "4- Votre Avis d'imposition",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous déjà envoyé votre avis d'imposition 2019 sur vos revenus de 2018 ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si non,",
+        "description": "Joindre votre avis d'imposition (ou avis de situation déclarative à l’impôt sur le revenu) 2019 des revenus perçus en 2018",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "5 - Avis d'imposition de votre conjoint(e), concubin(e) ou partenaire PACS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Si, votre conjoint(e), concubin(e), votre partenaire PACS n'apparait pas sur votre avis d'imposition.",
+        "description": "Veuillez fournir son avis d'imposition (ou avis de situation déclarative à l'impôt sur le revenu) 2019 des revenus perçus en 2018",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Fait le :",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie sur l'honneur l'exactitude des renseignements fournis sur la présente déclaration et m'engage à faciliter toute mesure d'enquête qui pourrait être ordonnée en vue de leur vérification. Toutes fausses déclarations donneront lieu à des poursuites.",
+        "description": null,
+        "required": true
+      }
+    ]
+  }
+}

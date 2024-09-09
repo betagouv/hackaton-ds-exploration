@@ -1,0 +1,97 @@
+{
+  "number": 35267,
+  "title": "UFR3 - UPVM3 - Demande de justificatif déplacement dérogatoire",
+  "description": "En raison du couvre-feu sur la Métropole de Montpellier, un justificatif de déplacement professionnel est nécessaire pour les étudiants ayant des cours tardifs (20h15, 20h30 et 20h45) ne permettant pas de rejoindre leur domicile avant 21h. \r\n\r\n\r\nCette attestation devra être jointe à l'attestation nationale délivrée sur le site du Ministère de l'intérieur, cochée au motif professionnel, qu'ils doivent télécharger via le lien suivant :\r\n\r\nhttps://www.interieur.gouv.fr/Actualites/L-actu-du-Ministere/Attestations-de-deplacement-couvre-feu\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Enseignement supérieur et de la Recherche"
+  ],
+  "datePublication": "2020-10-19T18:18:45+02:00",
+  "service": {
+    "nom": "Faculté des Sciences Humaines et des Sciences de l'Environnement - UFR3",
+    "organisme": "Université Paul-Valéry Montpellier 3",
+    "typeOrganisme": "etablissement_enseignement"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/ufr3-upvm3-demande-de-justificatif-deplacement-for",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://etu-ufr3.www.univ-montp3.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042424377",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Formation",
+        "description": "Merci d'indiquer la formation et le niveau (L1 histoire, L3 Aménagement, Master 2 Valorisation et Médiation du patrimoine...)",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du domicile",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Jours concernés",
+        "description": "Merci d'indiquer les jours pour lesquels vos cours ne vous permettent pas de rentrer à votre domicile avant 21h",
+        "required": true,
+        "options": [
+          "-- Jours--",
+          "Lundi",
+          "Mardi",
+          "Mercredi",
+          "Jeudi",
+          "Vendredi"
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Lieux concernés",
+        "description": "merci d'indiquer les lieux dans lesquels les cours concernés ont lieu",
+        "required": true,
+        "options": [
+          "--Campus--",
+          "Campus route de Mende",
+          "Campus Saint Charles"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "COdes ECUEs",
+        "description": "Merci d'indiquer les codes des  cours, les jours, le lieu (campus).\nEx : E14XX5 - Lundi - route de mende\nV11XX5 - Mardi - Saint Charles",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autres commentaires",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

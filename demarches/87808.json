@@ -1,0 +1,514 @@
+{
+  "number": 87808,
+  "title": "Mises à jour administrative des dossiers des taxis conventionnés des Yvelines",
+  "description": "Démarche dédiée aux demandes de mises à jours des dossiers des taxis des Yvelines ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2024-01-30T14:46:56+01:00",
+  "service": {
+    "nom": "CPAM des Yvelines -Section Taxis",
+    "organisme": "Secteur Fichiers & Paiements",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/mises-a-jour-administrative-des-dossiers-des-taxis",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ameli.fr",
+  "cadreJuridiqueUrl": "https://www.ameli.fr/yvelines",
+  "logo": {
+    "filename": "Logo AM78.png",
+    "checksum": "llfX7cvOkWUUR7xt35EUjg==",
+    "byteSize": "464617",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 115,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dans une volonté de simplifier et d’accélérer vos démarches, la CPAM des Yvelines met à votre disposition ce formulaire de demande de mise(s) à jour de votre dossier professionnel. Attention: cette démarche ne concerne que les entreprises de taxis déjà conventionnées auprès de la CPAM des Yvelines.",
+        "description": "Vous êtes conventionné dans autre département : veuillez vous rapprocher de la CPAM dont vous dépendez.\r\nConcernant vos démarches en tant qu'assuré, veuillez vous connecter sur votre compte Ameli.fr .",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Motif de la demande",
+        "description": "Veuillez ne sélectionner que les mises à jours relatives à l'entreprise conventionnée. ",
+        "required": true,
+        "options": [
+          "Changement d'adresse professionnelle",
+          "Changement de RIB professionnel",
+          "Changement de téléphone et/ou mail professionnel",
+          "Changement de véhicule",
+          "Changement de chauffeur",
+          "Utilisation d'un véhicule relai",
+          "Passage d'une location gérance à exploitation directe de la licence que vous exploitez",
+          "Passage d'une exploitation directe à une location gérance de la licence que vous exploitez",
+          "Actualisation du contrôle technique",
+          "Actualisation de l'attestation de formation",
+          "Actualisation de l'attestation d'aptitude médicale",
+          "Nouvelle carte professionnelle de taxi"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1- Données administratives de l'entrepreneur individuel ou de l'entreprise",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Numéro Siret de votre entreprise",
+        "description": "Veuillez indiquer les 14 chiffres",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Raison sociale de l'entreprise ou Nom commercial",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom / Prénom du dirigeant de l'entreprise conventionnée",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse complète du siège de votre entreprise",
+        "description": "Indiquez ici l'adresse du siège tel qu'elle est enregistrée en nos bases pour votre conventionnement",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Veuillez indiquer votre N° Assurance Maladie de facturation en tant que professionnel en santé",
+        "description": "Numéro commençant par 78XXXXXXX ( veuillez ne pas renseigner votre NIR d'assuré )",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune de stationnement concernée par la demande de mise à jour",
+        "description": "Veuillez renseigner la ville de stationnement figurant sur l'Autorisation de Stationnement telle qu'enregistrée auprès de nos services",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'ADS conventionnées",
+        "description": "Conventionnées ou non conventionnées, dans et hors Yvelines.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "ADS conventionnée(s)",
+        "description": "Pour tout changement concernant le véhicule et / ou le chauffeur, veuillez renseigner l'ensemble des licences conventionnées sous votre Identifiant Assurance Maladie , dans et hors Yvelines.\r\nLe remplissage du formulaire vaut valeur de la page Annexe du RNT.\r\nSi vous ne visualisez pas les éléments, vous n'êtes pas concerné, ceux ci s'affichent en fonction des mises à jour à effectuer sur votre dossier.\r\nVous n'êtes pas concerné non plus par \"Ajouter un éléments pour ADS conventionnée(s)\"",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Immatriculation",
+            "description": "Immatriculation complète du véhicule conventionné",
+            "required": true
+          },
+          {
+            "__typename": "YesNoChampDescriptor",
+            "label": "Véhicule équipé pour les transports de personnes à mobilité réduite",
+            "description": "A renseigner si vous avez adhéré au cahier des charges du transport des personnes à mobilité réduite",
+            "required": true
+          },
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Commune de stationnement",
+            "description": "Commune figurant sur l'Autorisation de Stationnement et ayant délivré la licence",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date délivrance ADS",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Numéro d'ADS",
+            "description": "Numéro - Autorisation de Stationnement ",
+            "required": true
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type d'exploitation de l'ADS",
+            "description": "",
+            "required": true,
+            "options": [
+              "Exploitation directe",
+              "Exploitation directe avec salarié",
+              "Location gérance",
+              "Location gérance avec salarié",
+              "Location simple avec salarié d'une SCOP"
+            ],
+            "otherOption": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "NOM et prénom du bailleur",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "CHAUFFEUR - NOM et Prénom",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "CHAUFFEUR - Date de naissance",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "CHAUFFEUR - Numéro de carte professionnelle",
+            "description": "",
+            "required": true
+          },
+          {
+            "__typename": "DepartementChampDescriptor",
+            "label": "CHAUFFEUR - Département d'obtention de la carte professionnelle",
+            "description": "",
+            "required": true
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Aide au remplissage",
+        "description": "Si vous avez une autre ADS à renseigner, cliquer sur le bouton (+ Ajouter une ligne pour \"INFORMATION ADS\")\r\nSi non, passez à la suite du questionnaire",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2- Informations à mettre à  jour et transmissions des documents",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous n'avez pas trouvé le motif convenant à votre situation ?",
+        "description": "Concernant les démarches personnelles ( adresse domicile) , veuillez vous connecter sur votre compte Ameli Assuré.\r\nEn cas de changement de statuts, de changement ou d'ajout de licence : veuillez vous connecter sur la démarche démarche «  Démarche de conventionnement des Taxis, Yvelines ( Convention 2024) »  dont le lien est le suivant : https://www.demarches-simplifiees.fr/commencer/demarche-de-conventionnement-des-taxis-yvelines-co",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Nouvelle adresse professionnelle.",
+        "description": "Veuillez renseigner la nouvelle adresse tel qu'indiqué sur le Registre National des Entreprises ou votre Extrait Kbis",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Extrait d’immatriculation au Répertoire National des Établissements ou Extrait KBIS",
+        "description": "Ce document doit comporté la nouvelle adresse et être daté de moins de 3 mois",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certificat INSEE avec numéro de SIRET",
+        "description": "Ce document doit comporté la nouvelle adresse et être daté de moins de 3 mois",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Nouveau RIB professionnel en format PDF",
+        "description": "Veuillez nous fournir votre nouveau RIB professionnel correspondant à l'exploitant (en nom propre ou en société) tel qu'indiqué  à l'extrait d’immatriculation au Répertoire National des Établissements ou extrait KBIS \r\n\r\nAttention: Si cette demande concerne un changement de votre RIB personnel, veuillez vous rendre sur votre compte Améli assuré.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de droit de communication",
+        "description": "Afin de confirmer votre demande d’enregistrement des coordonnées bancaires relatives à votre activité au fichier national des professionnels de santé, nous vous remercions de compléter le questionnaire et de le signer.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse Mail",
+        "description": "Attention de bien indiquer une adresse mail valide, des informations importantes peuvent vous être communiquées par mail par nos services.",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Numéro de téléphone professionnel",
+        "description": "Pour rappel, le téléphone professionnel sera publié sur la liste des taxis conventionnés disponible sur Ameli .fr",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez vous déjà transmis à nos services l'attestation Mairie au titre des documents annuels conventionnels de cette année ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de la mairie 2024",
+        "description": "confirmant l'exploitation effective et continue de la licence sur l’exercice 2023",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Immatriculation du nouveau véhicule",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'utilisation du véhicule relai est elle supérieure à 30 jours ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Vous nous informez de l’utilisation d’un véhicule relai pour un délai inférieur à 30 jours",
+        "description": "Comme stipulé dans la convention locale du 1er février 2024 en son article 4 : \r\n\r\n•\tSi l’utilisation est inférieure à 1 mois, vous n'avez pas à nous envoyer les documents cependant il faut les conserver en cas de contrôle de facturation.\r\n•\tSi la durée est supérieure à 1 mois, l'envoi des documents est obligatoire.\r\n \r\nLes documents à conserver, en fonction de la situation que vous déclarez, sont : \r\n•\tJustificatif de l’immobilisation du véhicule officiel \r\n•\tContrat de location , \r\n•\tCopie carte grise, recto verso\r\n•\tAssurances : carte verte et RCP ( au nom du loueur ou du locataire tel que défini dans le contrat de location)\r\n•\tCarnet métrologique, ticket compteur \r\n•\tPage 12 de la convention locale 2024 ci dessous complétée de la période d’utilisation \r\n•\tL'arrêté ou attestation mairie actant l'utilisation du véhicule relai \r\n•\tAttestation de circulation provisoire délivrée par la Préfecture.\r\n\r\n⚠ N’oubliez surtout pas de prévenir la Préfecture et la Mairie. ⚠\r\n",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Page 12 de la convention_ Annexe 1 2024",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Immatriculation du véhicule relai",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Arrêté ou attestation mairie actant le changement de véhicule",
+        "description": "Le document doit impérativement mentionner l'immatriculation du nouveau véhicule et la date de mise en exploitation sur la licence ( = date du paramétrage du carnet métrologique). ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Carte grise recto verso à jour du contrôle technique",
+        "description": "Pour les locations gérances : le nom du loueur et titulaire de la licence doit forcément apparaitre sur la carte grise et de Préférence en  C.1 car celui-ci doit être le propriétaire et doit le mettre à disposition de son locataire. \r\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif de l’immobilisation du véhicule officiel",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Contrôle Technique mentionnant \"CT TAXI OU TRANSPORT AVEC CHAUFFEUR\"",
+        "description": "A fournir pour les véhicules de plus d'un an ",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Etes vous locataire de la licence exploitée ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Avenant du contrat de location gérance actant le changement de véhicule signé des 2 parties",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Arrêté ou attestation mairie actant l'utilisation du véhicule relai",
+        "description": "Le document doit impérativement mentionner l'immatriculation du véhicule relai et la période de mise en exploitation sur la licence ( = date du paramétrage du carnet métrologique). ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Avenant du contrat de location gérance établi avec votre loueur suite à la mise à disposition du nouveau véhicule",
+        "description": "Cet avenant doit être parafé et signé des 2 parties\r\nPour rappel, la mairie doit être informée du changement de véhicule",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le véhicule est il equipé pour le Transport des Personnes à Mobilité Réduite ?",
+        "description": "Véhicule dont la carte grise stipule en J.3 la mention \"handicap\"",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certificat de conformité",
+        "description": "Veuillez joindre la copie du certificat de conformité transmise par le fournisseur \r\ndu véhicule spécialement adapté.\r\n",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Annexe 3 TPMR",
+        "description": "Veuillez compléter entièrement l'annexe 3 , la signer et la dater.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de la mairie confirmant l’exploitation effective et continue de la licence pour l’année précédente",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Edition d'un ticket compteur paramétré",
+        "description": "Mentionnant le nom de l'exploitant ( personne ou société), le numéro d'autorisation de stationnement et la commune de stationnement",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Carnet métrologique : relevé d'installation des équipements embarqués",
+        "description": "Au nom du titulaire de la licence. Doivent apparaitre l'immatriculation du véhicule, le numéro de licence, la ville de stationnement et la date de paramétrage des équipements embarqués",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Carte verte d'Assurance du véhicule valable à compter du paramétrage des équipements embarqués",
+        "description": "Attestation ou carte verte en cours de validité ( hors provisoire)",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation d'assurance responsabilité civile professionnelle spécifique au transport de personnes à titre onéreux valable à compter du paramétrage des équipements embarqués",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation Prefectorale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Contrat de mise à disposition du véhicule relai",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom prénom du nouveau chauffeur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Date de naissance du chauffeur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Date d'entrée du nouveau chauffeur",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Temps de travail du chauffeur à enregister",
+        "description": "",
+        "required": true,
+        "options": [
+          "Mi temps",
+          "3/4 Temps",
+          "Plein temps"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Récépissé de déclaration Préalable à l'embauche du salarié envoyé par l'Urssaf",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation de formation initiale ou continue du chauffeur Certificat de Capacité Professionnelle de Chauffeur de Taxi, de moins de 5 ans",
+        "description": "Certificat de Capacité Professionnelle de Chauffeur de Taxi, de moins de 5 ans (ou relevé de notes préfectorales ) OU Attestation de formation continue (d’un minimum de 14 heures) ",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation d’aptitude physique du chauffeur",
+        "description": "Datée de moins de 5 ans ou datée de moins de 2 ans si vous êtes âgé de plus de 60 ans.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numero de carte professionnelle de taxi",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Recto-verso de la Carte professionnelle de taxi du conducteur",
+        "description": "en cours de validité",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3- Attestation sur l'honneur de la personne remplissant le formulaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Identité de la personne qui saisit",
+        "description": "Le mandatement s'applique aux entreprises mandatées pour gérer la demande de conventionnement.\r\nLa catégorie \"Autre\" dans le cadre où vous intervenez pour un proche ( mari, femme, enfants ...). Veuillez préciser.",
+        "required": true,
+        "options": [
+          "Je suis le professionnel",
+          "Je suis mandaté par le professionnel"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "TitreIdentiteChampDescriptor",
+        "label": "Piece d'identité du mandataire ( celui qui complète la démarche pour une tierce personne)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TitreIdentiteChampDescriptor",
+        "label": "Piece d'identité du mandant  ( celui pour lequel ou laquelle vous compléter la démarche)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Procuration du mandataire signé par le professionnel représenté",
+        "description": "Document daté et signé par le taxiteur qui vous a mandaté",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je certifie sur l'honneur l'exactitude des renseignements et des documents administratifs transmis.",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Date",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "number": 40213,
+  "title": "CD08 - Demande de fin de mandat",
+  "description": "Vous êtes référent RSA conventionné dans le cadre du PDI et avez en charge l'accompagnement d'un usager dont le récent changement de situation (reprise d'activité, déménagement hors département, obtention de l'AAH, etc.) le conduit a sortir du dispositif d'accompagnement obligatoire. \r\n\r\nCe formulaire vous permet de solliciter une fin de mandat. \r\n\r\nAttention, les demandes de réorientation, notamment dans le cadre d'un déménagement dans le département est a adresser directement par mail au COA garant du parcours. ",
+  "tags": [
+
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2021-02-27T11:31:45+01:00",
+  "service": {
+    "nom": "Service Orientation et Accompagnement vers l'Emploi",
+    "organisme": "Conseil départemental des Ardennes",
+    "typeOrganisme": "collectivite_territoriale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/fdm",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "www.cd08.fr",
+  "cadreJuridiqueUrl": "http://www.cd08.fr",
+  "logo": {
+    "filename": "Logo_CD08.jpg",
+    "checksum": "lz+0kxukKorCpKVnNRTMKg==",
+    "byteSize": "454169",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 911,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité de l'allocataire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom de l'allocataire",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'allocataire",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de naissance de l'allocataire",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro allocataire (CAF ou MSA)",
+        "description": "Dans le cas ou le n° est inconnu, indiquez 999999. ",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Demande de fin de mandat",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Motif de la demande de fin de mandat",
+        "description": "Le motif devra être précisé dans le menu déroulant suivant.",
+        "required": true,
+        "options": [
+          "--Reprise d'un emploi (contrat de travail à joindre)--",
+          "CDD de 3 à 6 mois",
+          "CDD de plus de 6 mois",
+          "CDI",
+          "Contrat d’apprentissage ou de professionnalisation",
+          "CDDI (Insertion par l'Activité Économique)",
+          "--Reprise d'une activité (non salarié / formation)--",
+          "Création ou la reprise d'une entreprise (revenus > plafond).",
+          "Entrée en formation rémunérée",
+          "--Déménagement--",
+          "Hors département",
+          "Dans le département (contactez le COA)",
+          "--Autres motifs--",
+          "Changement de situation familiale",
+          "Autre motif (AAH, radiation RSA, ...)"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièce justificative",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

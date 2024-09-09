@@ -1,0 +1,120 @@
+{
+  "number": 84317,
+  "title": "Commande de kit CNFS - dernière vague",
+  "description": "Ce formulaire vise à vous permettre de commander des kits supplémentaire d'animation pour les Conseillers numériques France Services (polos, sweat, masques, tote-bag et stickers supplémentaires uniquement). \r\n\r\nMerci de vous munir du numéro SIRET de votre structure.\r\n\r\nMerci de déterminer à l'avance l'adresse postale à laquelle vous souhaitez recevoir le carton, le nom et le prénom de la personne qui les réceptionnera et votre taille vestimentaire.\r\nLe formulaire requiert certaines spécificités d’entrée (lettres capitales, pas d’accent…) des commentaires vous indiquent ces contraintes au-dessous des questions.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2023-11-16T16:56:44+01:00",
+  "service": {
+    "nom": "Dispositif Conseiller numérique France services",
+    "organisme": "Banque des Territoires",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/commande-de-kit-cnfs-derniere-vague",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.conseiller-numerique.gouv.fr/",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033288123/",
+  "logo": {
+    "filename": "Conseiller_Numerique_RF_logo_horizontal_RVB.jpg",
+    "checksum": "LUd64rYX4uclb4qd6E3bjw==",
+    "byteSize": "392665",
+    "contentType": "image/jpeg"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 181,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Votre adresse mail",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Kit complet ou juste la tenue",
+        "description": "Merci de préciser si vous souhaitez un kit complet (tenue + kakémono et oriflamme) ou juste un carton de tenue CNFS ( 1 pull et 2 polos )",
+        "required": true,
+        "options": [
+          "Kit Complet",
+          "Tenue CNFS"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Taille vestimentaire (mixte)",
+        "description": "Votre taille vestimentaire de S à XXL",
+        "required": true,
+        "options": [
+          "--Premier élément du menu--",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la personne qui réceptionnera le colis",
+        "description": "Son nom en lettres capitales sans accent ni cédille. Il peut s'agir de votre responsable hiérarchique par exemple.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom de la personne qui réceptionnera le colis",
+        "description": "Son prénom en lettres capitales sans accent ni cédille.",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone de la personne qui réceptionnera le colis",
+        "description": "Format : 06 58 45 XX XX",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de votre structure",
+        "description": "En lettres capitales sans accent ni cédille.\r\nMerci d'indiquer un nom explicite pour le livreur.",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Numéro SIRET de votre structure",
+        "description": "Numéro de SIRET de votre structure employeuse, 14 chiffres sans espaces. A demander à votre responsable.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro et rue de l'adresse de réception du colis",
+        "description": "En lettres capitales sans accent ni cédille. Merci de ne pas indiquer de boîte postale ou de CEDEX (non pris en charge par Chronopost).\r\n\r\nex : 2 RUE MARCEAU",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse",
+        "description": "En lettres capitales sans accent ni cédille. ",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code postal",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune",
+        "description": "En lettres capitales sans accents ni cédille.",
+        "required": true
+      }
+    ]
+  }
+}

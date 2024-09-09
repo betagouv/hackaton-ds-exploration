@@ -1,0 +1,176 @@
+{
+  "number": 33842,
+  "title": "Demande d'attestation d'intervention",
+  "description": "Délivrance d'attestation suite à l'intervention du SDIS des Landes à destination des victimes ou ayants droits, locataires ou propriétaires des biens sinistrés.",
+  "tags": [
+    "Pompiers"
+  ],
+  "zones": [
+    "Collectivité territoriale"
+  ],
+  "datePublication": "2020-10-15T17:08:37+02:00",
+  "service": {
+    "nom": "Direction opérationnelle - Groupement opérations - Pôle méthodes Opérationnelles",
+    "organisme": "Service départemental d'incendie et de secours des Landes",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-d-attestation-d-intervention",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://www.sdis40.fr",
+  "cadreJuridiqueUrl": "http://www.sdis40.fr",
+  "logo": {
+    "filename": "logo SDIS XL.png",
+    "checksum": "kOfWHjWwNQ/ZBMUcz8RDSA==",
+    "byteSize": "14087",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 745,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification du demandeur",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Monsieur ou Madame",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du demandeur",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Code postal",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Adresse email",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Situation",
+        "description": null,
+        "required": true,
+        "options": [
+          "Victime",
+          "Locataire sinistré",
+          "Propriétaire sinistré",
+          "Ayant-droit"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si \"Ayant-droit\" préciser le lien de parenté avec la victime ou le sinistré",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Justificatif d'identité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires particuliers",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Détails de l'intervention du SDIS des Landes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date  de l'intervention",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Heure de l'intervention",
+        "description": "ex : 10 h 30",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Lieu de l'intervention",
+        "description": "adresse de l'intervention (numéro, rue,...)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commune de l'intervention",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nature de l'intervention",
+        "description": "ex : accident de la circulation, secours à personne à domicile, incendie, inondation,....",
+        "required": true,
+        "options": [
+          "Accident de la circulation",
+          "Secours à personne",
+          "Incendie",
+          "Inondation",
+          "Protection de biens",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si \"Autre\"",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Dégâts",
+        "description": "dégâts particuliers causés par le sinistre ou l'intervention des secours",
+        "required": false
+      }
+    ]
+  }
+}

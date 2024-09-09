@@ -1,0 +1,273 @@
+{
+  "number": 59891,
+  "title": "DDETSPP79 / Influenza aviaire / Déclaration Mise en place Repeuplement 2022",
+  "description": "Démarche pour déclaration des mises en place pour repeuplement dans les zones réglementées des Deux-Sèvres (détails dans les Instructions techniques DGAL/SDPAL/2021-148 et DGAL/SDSBEA/2022-360 ou IT les remplaçant) :\r\n- des élevages en zone de surveillance avec assainissement suivi d'une surveillance des remises en place \r\n- des élevages déclarés \"foyers\" (quelle que soit la commune), dès lors que l'arrêté préfectoral de déclaration d'infection (APDI) a été levé avec mise sous surveillance du repeuplement.\r\n\r\n- Déclaration à déposer minimum 15 jours ouvrés avant l'arrivée des animaux.\r\n- Le silence de la DDETSPP79 dans les 8 jours ouvrés (donc hors week-end et JF) après le dépôt de la déclaration, vaut autorisation pour l'introduction des volailles.\r\nCette autorisation n'est possible que si la DGAL a bien validé les zonages et la chronologie de levée des zones.\r\n",
+  "tags": [
+    "Aviaire"
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2022-05-19T10:39:39+02:00",
+  "service": {
+    "nom": "79 - DDETSPP - Service Santé et Protection Animale",
+    "organisme": "DDETSPP79",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/79-iahp-declaration-mise-en-place",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.deux-sevres.gouv.fr/Politiques-publiques/Alimentation-consommation-animaux/Influenza-aviaire/INFLUENZA-AVIAIRE",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "pref79petit.png",
+    "checksum": "S1Fg26xEs+a7tg4NsHSoyw==",
+    "byteSize": "29924",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": {
+    "filename": "AM Mesures Tech IAHP_18012008_Modif3.docx",
+    "checksum": "NaGOmwr1XFCADoU+8KnRZA==",
+    "byteSize": "62822",
+    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "dossiersCount": 661,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATIONS SUR LE SITE DE MISE EN PLACE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de l'exploitation où se fait la mise en place",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune du site où se fait la mise en place",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Ce site a-t-il été déclaré \"Foyer\" en 2021-22 ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de la mise en place",
+        "description": "(Nota bene : cette déclaration ne remplace pas la déclaration de toute entrée / sortie d'oiseaux sur une base de données électronique (Ex : BDAvicole, ATM).",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "INUAV concernés par la mise en place",
+        "description": null,
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "INUAV sous la forme V079XXX",
+            "description": " Ajouter une ligne par INUAV",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "SURFACE totale du bâtiment (par INUAV)",
+            "description": "Mentionner la surface de chaque INUAV",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Type d'organisation",
+        "description": null,
+        "required": true,
+        "options": [
+          "En groupement",
+          "Indépendant"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du groupement le cas échéant",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "INFORMATIONS SUR LES ANIMAUX MIS EN PLACE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "LinkedDropDownListChampDescriptor",
+        "label": "Type d'animaux mis en place",
+        "description": null,
+        "required": true,
+        "options": [
+          "--Galliformes--",
+          "Poussins 1 jour",
+          "Poulettes futures pondeuses",
+          "Poules pondeuses",
+          "Volailles démarrées",
+          "Futurs reproducteurs",
+          "Reproducteurs",
+          "--Palmipèdes--",
+          "Canetons 1 jour",
+          "Palmipèdes démarrés",
+          "Palmipèdes  pour prégavage",
+          "Palmipèdes pour mise en gavage",
+          "Futurs reproducteurs",
+          "Reproducteurs",
+          "--Autres--",
+          "Autres"
+        ]
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Nombre d'animaux mis en place",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Densité attendue en kg/m2",
+        "description": "ATTENTION: il ne pourra pas être mis en place plus d'animaux que ce qui peut être gardé en claustration (jusqu'au retour en zone indemne). \nA ce stade les dérogations à la densité seront réétudiées.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du couvoir ou exploitation d'origine des animaux mis en place",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune d'origine des animaux",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Zone d'origine des animaux mis en place",
+        "description": null,
+        "required": true,
+        "options": [
+          "Zone indemne",
+          "Zone réglementée"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaire si nécessaire",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "INUAV des parentaux:",
+        "description": "A renseigner au plus tard à la livraison.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "INUAV des parentaux:",
+            "description": "Indiquer le ou les INUAV des parquets de parentaux si connus.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PIECES JOINTES",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Attestation sur l'honneur. Déclaration de mise en place renseignée par le détenteur",
+        "description": "Déclaration remplie et signée par le détenteur des animaux mis en place.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certificat de conformité à la biosécurité avec grille d'audit",
+        "description": "Attestation remplie et signée par le vétérinaire ou technicien ayant réalisé l'audit de moins de 6 mois.",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Diagnostic biosécurité",
+        "description": "Copie de l'audit biosécurité réalisé (type PULSE (site internet ITAVI) ou équivalent reconnu (Ex : PalmiGconfiance))",
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autre pièce jointe si nécessaire",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autre pièce jointe",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "COMPLEMENT DE DOSSIER LORS DE LA MISE EN PLACE",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "AVANT LA MISE EN PLACE (ou le jour de la MEP) : résultats des analyses de laboratoire",
+        "description": "L'analyse avant MEP ne concerne que les FOYERS (ne concerne pas les élevages non-foyer) se repeuplant avec des VOLAILLES DEMARREES (= autres que poussins d'un jour) (dont mise en gavage). Se reporter à l'annexe 3 de l'IT2022-360 (ou remplaçante)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "APRES LA MISE EN PLACE : compte-rendu visite clinique du vétérinaire sanitaire",
+        "description": "A partir de 21j après la mise en place (au plus tôt 5j avant abattage si gavage), l'éleveur fait réaliser une visite clinique du lot mis en place, par un vétérinaire sanitaire. Et l'éleveur ajoute le compte-rendu de cette visite à son dossier sur Démarches Simplifiées.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "APRES LA MISE EN PLACE : résultats des analyses de laboratoire",
+        "description": "Complément à la visite vétérinaire selon le type de repeuplement Se reporter à l'annexe 3 de l'IT2022-360 (ou remplaçante)",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Autre pièce jointe si besoin",
+        "description": null,
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Autre pièce jointe",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Commentaire si besoin",
+        "description": null,
+        "required": false
+      }
+    ]
+  }
+}

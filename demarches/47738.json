@@ -1,0 +1,89 @@
+{
+  "number": 47738,
+  "title": "Demande de versement Fonds National pour la société Numérique",
+  "description": "Formulaire pour le dépôt de pièces justificatives relatives aux demandes de versement pour le FSN",
+  "tags": [
+    "Fsn"
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2021-10-06T11:44:59+02:00",
+  "service": {
+    "nom": "Direction Générale Déléguée au Numérique - Cohésion numérique",
+    "organisme": "Programme France Très Haut Débit",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-versement-fsn",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.caissedesdepots.fr/fileadmin/PDF/02._Activites/Emprunt_national/ami-fsn-vf.pdf",
+  "cadreJuridiqueUrl": "",
+  "logo": {
+    "filename": "Logo FSN.JPG",
+    "checksum": "TfDc7sz0co1n9OQs1QtuFg==",
+    "byteSize": "27992",
+    "contentType": "image/jpeg"
+  },
+  "notice": {
+    "filename": "Cahier des charges FSN.pdf",
+    "checksum": "MUhTb3qYRSzQjYu4s079Ag==",
+    "byteSize": "280978",
+    "contentType": "application/pdf"
+  },
+  "deliberation": {
+    "filename": "convention ETATCDC 10092010.pdf",
+    "checksum": "eqRosHCVd36cxv8L6NR66g==",
+    "byteSize": "458181",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 101,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Projet/secteur",
+        "description": null,
+        "required": true,
+        "options": [
+          "AAP COHESION NUMERIQUE DES TERRITOIRES",
+          "AAP CONTINUITE TERRITORIALE NUMERIQUE",
+          "AAP RIP AURA- HAUTS DE FRANCE",
+          "AAP RIP CORSE- TERRITOIRE OUTREMARINS- BOURGOGNE FRANCHE COMTE",
+          "AAP RIP  GRAND EST- ILE DE FRANCE - NORMANDIE",
+          "AAP RIP NOUVELLE AQUITAINE- BRETAGNE",
+          "AAP RIP OCCITANIE - CENTRE VAL DE LOIRE",
+          "AAP RIP PACA - PAYS DE LA LOIRE",
+          "AAP ZBCB - 800 SITES",
+          "MOBILE (DCC)BFC - GRAND EST",
+          "MOBILE (DCC)BRETAGNE-NORMANDIE",
+          "MOBILE (DCC) CENTRE VAL DE LOIRE- AURA",
+          "MOBILE (DCC)HAUTS-DE-France/OCCITANIE",
+          "MOBILE (DCC)ILE DE France/ PACA",
+          "MOBILE (DCC)NOUVELLE AQUITAINE"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Courrier de demande de versement",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Pièces justificatives",
+        "description": "Ajouter autant d'éléments que nécessaire avec le bouton + en dessous du bloc pour le dépôt de chaque pièce justificative",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative",
+            "description": null,
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}

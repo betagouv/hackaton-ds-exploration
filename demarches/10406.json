@@ -1,0 +1,131 @@
+{
+  "number": 10406,
+  "title": "Gestion des demandes de devis / bons de commandes et services faits au sein du département du SIET",
+  "description": "Cette démarche a pour but de centraliser et organiser le circuit de demandes de devis / bons de commandes et services faits au sein du département du SIET à la DINSIC",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2019-01-08T09:26:54+01:00",
+  "service": {
+    "nom": "MI / admin",
+    "organisme": "DP SI ATE",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/gestion-des-demandes-de-devis-bons-de-commandes",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "www.numerique.gouv.fr",
+  "cadreJuridiqueUrl": "",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 2,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nom du demandeur",
+        "description": "",
+        "required": true,
+        "options": [
+          "BOUDARD Alexis",
+          "CHARBONNEL Marie",
+          "DELBART Yves",
+          "LAVIGNE Claude",
+          "LIGNIER Jean-Yves",
+          "MAZOUTH Jean-Michel",
+          "SZENDY Olivier",
+          "XU Caroline"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du Prestataire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Intitulé de la prestation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de demande du devis",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° de marché",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'envoi du parapheur avec le devis",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Montant de la commande (TTC)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N° de bon de commande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'envoi du parapheur pour le SF",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Devis de la prestation",
+        "description": "Ou copie du mél pour les demandes de contremarques de restaurant administratif",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bon de commande non signé",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bon de commande signé",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "SF non signé",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "SF signé",
+        "description": "",
+        "required": false
+      }
+    ]
+  }
+}

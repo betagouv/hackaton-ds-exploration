@@ -1,0 +1,194 @@
+{
+  "number": 13399,
+  "title": "Démonstration - Commande de carte(s) - DREAL de Normandie",
+  "description": "Formulaire en ligne de commande de carte(s) auprès du Bureau de l'Information Géographique de la DREAL de Normandie",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2019-01-25T11:31:47+01:00",
+  "service": {
+    "nom": "DREAL Normandie",
+    "organisme": "DREAL Normandie",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demo-dreal-normandie-commande-cartographique",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "",
+  "cadreJuridiqueUrl": "-",
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 4,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commanditaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Service",
+        "description": "",
+        "required": true,
+        "options": [
+          "Direction",
+          "MiCOM",
+          "MQEA",
+          "CMSGAR",
+          "CPER-CPIER",
+          "ME",
+          "MMSM",
+          "SPR",
+          "SG",
+          "SMCAP",
+          "SECLAD",
+          "SRN",
+          "SRI",
+          "SSTV",
+          "SMI",
+          "UDRD",
+          "UDLH",
+          "UDE",
+          "UDC",
+          "UDM",
+          "ASN"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre demande de prestation cartographique",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Commande - informations obligatoires",
+        "description": "Les informations suivantes nous sont nécessaires pour prendre contact avec vous et définir précisément vos besoins",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Thème général de la carte",
+        "description": "Exemples : \"Carte des ZNIEFF dans le département de la Manche\",\"Evolution du trait de côte en Seine-Maritime\"",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Type de commande",
+        "description": "le choix \"Actualisation d'une carte\" doit satisfaire 2 obligations :\r\n- aucune modification de mise en page (format, taille, ajout d'informations,...)\r\n- fourniture des données à mettre à jour\r\nDans tous les autres cas choisir \"Nouvelle carte\"",
+        "required": true,
+        "options": [
+          "Actualisation d'une carte",
+          "Nouvelle carte"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Echéance souhaitée",
+        "description": "Attention, cette date pourra être revue lors de la mise au point définitive de la commande",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Précision sur la commande",
+        "description": "Texte libre permettant de donner toutes les informations utiles à la compréhension de la commande :\r\n- informations à représenter,\r\n- étiquettes\r\n- type de représentation\r\n- référence à une carte pouvant servir de modèle (un pdf de cette carte peut être transmis en pièce jointe à ce formulaire)\r\n- justificatif du délai",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Diffusion future",
+        "description": "",
+        "required": true,
+        "options": [
+          "Carte publique",
+          "Carte non publique",
+          "Ne sait pas"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Commande - informations complémentaires",
+        "description": "Les renseignements ci-dessous ne sont pas obligatoires pour une prise de contact mais peuvent permettre une prise immédiate de la commande s'ils sont fournis",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Titre de la carte",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Format",
+        "description": "Dimension finale de la carte",
+        "required": false,
+        "options": [
+          "A0",
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "Autre à préciser"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Orientation",
+        "description": "",
+        "required": false,
+        "options": [
+          "Paysage",
+          "Portrait"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Format de fichier",
+        "description": "Vous pouvez renseigner plusieurs formats différents",
+        "required": false,
+        "options": [
+          "jpg/jepg",
+          "pdf",
+          "tiff",
+          "png"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Emprise",
+        "description": "Zone à représenter sur la carte",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Carte pouvant servir de modèle",
+        "description": "Si la commande se rapproche d'une carte déjà réalisée. Si besoin, d'autres pièces peuvent être transmise par courriel au Bureau de l'Information Géographique : cartographie.dreal-normandie@developpement-durable.gouv.fr",
+        "required": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "number": 70247,
+  "title": "Déclaration de changement de bénéficiaire d'un plan d'eau de loisirs en Maine-et-Loire",
+  "description": "Cette démarche simplifiée permet d'effectuer une  déclaration de changement de bénéficiaire d'un plan d'eau de loisirs autorisé par un acte administratif. \r\n\r\n\r\n\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition écologique et de la Cohésion des territoires"
+  ],
+  "datePublication": "2023-09-04T16:16:47+02:00",
+  "service": {
+    "nom": "Service Eau Environnement Biodiversité, Direction Départementale des Territoires",
+    "organisme": "Direction Départementale des Territoires, ministère de la Transition Ecologique",
+    "typeOrganisme": "service_deconcentre_de_l_etat"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/declaration-de-changement-de-beneficiaire-d-un-pla",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.maine-et-loire.gouv.fr/Actions-de-l-Etat/Environnement.-eau.-chasse.-peche.-foret/Eau-et-milieux-aquatiques/Mes-demarches-administratives/Changement-de-beneficiaire-et-cessation-d-activite",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033931368",
+  "logo": {
+    "filename": "Image predt metloire.png",
+    "checksum": "LbRomKU6oiOV1aznjLuoHw==",
+    "byteSize": "29593",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 6,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "NUMERO D'IDENTITE DU PLAN D' EAU",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Connaissez-vous le numéro IOTA du plan d'eau ?",
+        "description": "Le numéro IOTA (installations, ouvrages, travaux, activités) est attribué par l'administration au plan d'eau lors de son autorisation. Il figure sur les courriers et actes administratifs.",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Indiquer le numéro du plan d'eau",
+        "description": "Numéro dit \"IOTA\" ( Installations, Ouvrages, Travaux, Activités).\r\nEx : 5023, 21 999 ... nombre à 4 ou 5 chiffres\r\n",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Nom usuel du plan d'eau",
+        "description": "Nom figurant sur la carte IGN  exemple :  \"Étang de la forge\"   Sinon attribuer un nom constitué du lieu-dit le plus proche suivi du n° cadastral de la parcelle exemple :  \"Les  Aulnaies parcelle AK 119\"",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTITE DU OU DES NOUVEAU(X) BENEFICIAIRE(S)",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "NOUVEAU(X) BENEFICIAIRE(S)",
+        "description": "Le nouveau bénéficiaire est le nouvel exploitant ou nouveau propriétaire",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Le nouveau bénéficiaire du plan d'eau est-il une personne physique ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Le bénéficiaire est une personne physique : quel est son statut vis à vis du plan d'eau ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "Propriétaire",
+          "Exploitant",
+          "Indivisaire",
+          "Le représentant (ou le gérant)"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Civilité et NOM et Prénom du nouveau bénéficiaire",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Le bénéficiaire est une personne morale : intitulé de la personne morale et NOM Prénom de son représentant",
+        "description": "Ex :  Collectivité, Établissement, Société, SCI + NOM et prénom du représentant ... ",
+        "required": false
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "N° SIRET (personnalité morale)",
+        "description": "Veuillez saisir les 14 caractères du n° SIRET ",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Le bénéficiaire est une personne morale : quel est son statut vis à vis du plan d'eau ?",
+        "description": "",
+        "required": false,
+        "options": [
+          "Propriétaire",
+          "Exploitant",
+          "Indivisaire",
+          "Le représentant (ou le gérant)"
+        ]
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse et code postal",
+        "description": "Saisir le n° de rue ou du lieu-dit suivi du code postal  et le nom de la commune",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "IDENTITE DE L'ANCIEN OU DES ANCIEN(S) BENEFICIAIRE(S)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "ANCIEN BENEFICIAIRE",
+        "description": "L'ancien bénéficiaire est la personne propriétaire ou exploitante du plan d'eau avant la demande de changement",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "L'ancien bénéficiaire est une personne physique ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM Prénom de l'ancien bénéficiaire",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Le bénéficiaire est une personne morale : intitulé de la personne morale et NOM Prénom de son représentant",
+        "description": "Ex :  Collectivité, Établissement, Société, SCI + NOM et prénom du représentant ... ",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Quel est le statut de l'ancien bénéficiaire vis à vis du plan d'eau ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Propriétaire",
+          "Exploitant",
+          "Le représentant (ou le gérant)",
+          "Indivisaire"
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Acte de vente ou de cession d'activité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "LOCALISATION CARTOGRAPHIQUE DU PLAN D'EAU",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Références cadastrales",
+        "description": "Préfixe, section ...\r\nEx : AK 149 ou 000 OA 0822",
+        "required": true
+      },
+      {
+        "__typename": "CarteChampDescriptor",
+        "label": "Outil cartographique  d'aide à la localisation",
+        "description": "Vous pouvez localiser le plan d'eau  sur la carte ci-dessous, pour cela il faut :\r\n1. Entrer dans \"Rechercher une adresse  ....\" le lieu-dit suivi du  nom commune ou code postal.\r\n2. Localiser le plan d'eau au moyen des outils (en haut et à gauche de la carte) :  \"Ajouter un point\" (cordonnées en X Y) ou \"Sélectionner les parcelles cadastrales\" (N° de(s) parcelle(s) concernée(s)).",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Nom de la commune d'implantation du plan d'eau",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Superficie du plan d'eau déclaré (en m2)",
+        "description": "au niveau maximal, dite surface \"au miroir\"",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Volume du plan d'eau (en m³)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Profondeur du plan d'eau (en mètres)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "PRECISIONS SUR L'USAGE DU PLAN D'EAU DE LOISIRS",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Précisions sur l'usage du plan d'eau de loisirs",
+        "description": "",
+        "required": true,
+        "options": [
+          "Arrosage du potager",
+          "Agrément",
+          "Pêche/Chasse",
+          "Abreuvement",
+          "Autres"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "AUTRES PLANS D'EAU",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Avez-vous un ou plusieurs autre(s) plan(s) d'eau ?",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Si oui, préciser le nombre :",
+        "description": "Si vous souhaitez déclarer un changement de bénéficiaire pour ces autres plans d'eau, une \"démarche simplifiée\" doit être effectuée pour chaque plan d'eau",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "ENGAGEMENT DU DÉCLARANT",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "NOM Prénom",
+        "description": "propriétaire, personne autorisée à effectuer cette démarche ou représentant de la société propriétaire du plan d'eau, certifie l'exactitude des renseignements fournis",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nouveau champ",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "le",
+        "description": null,
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste que les éléments fournis sont conformes",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

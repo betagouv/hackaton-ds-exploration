@@ -1,0 +1,137 @@
+{
+  "number": 62618,
+  "title": "[STAGING - CB v4] Dépôt de coordonnées bancaires de remboursement des offres pass Culture d'un lieu - TEST  ",
+  "description": "Pour remplir cette procédure, vous devez :\r\n\r\n1. avoir référencé votre organisme sur le pass Culture (https://pro.passculture.beta.gouv.fr/) et avoir créé au moins un lieu au sein de votre structure ;\r\n\r\n2. avoir été habilité par le gérant de l'organisme à mettre à jour ses coordonnées bancaires ;\r\n\r\n3. renseigner ci-contre votre nom et prénom \r\n\r\n4. être doté de l'identifiant de votre lieu (celui-ci se trouve sur la page lieu sur le site passculture.pro)\r\n\r\n\r\nLe pass Culture est un nouveau service public visant à améliorer l’accès des jeunes de 18 ans aux offres culturelles, notamment proches de chez eux.\r\n\r\nLe site \"pass Culture pro\" permet aux acteurs de proposer des biens et des services dans ce cadre, et de gérer les réservations et les paiements associés.\r\n\r\nCette procédure permet d'indiquer les coordonnées du compte bancaire sur lequel effectuer les remboursements pour un lieu au sein de votre structure.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Culture"
+  ],
+  "datePublication": "2022-09-23T16:06:02+02:00",
+  "service": {
+    "nom": "Homologation des acteurs culturels",
+    "organisme": "Pass Culture",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/staging-cb-depot-de-coordonnees-bancaires-de-rembo",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://pro.staging.passculture.team",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000038108956",
+  "logo": {
+    "filename": "procedure-360477a2-718b-42ff-b8af-2b4931f3a2d1.png",
+    "checksum": "x+jrSg4Tx8lU/WUsqWo33Q==",
+    "byteSize": "618739",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 107,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identifiant du lieu (PRO-XXXXXXXXXXXXXXXX)",
+        "description": "L'identifiant du lieu est présent en haut de votre page lieu sur votre portail pass Culture PRO. ATTENTION : il s'agit d'une chaîne de caractères qui commence par PRO- et composée de chiffres et de lettres, et non du nom de votre lieu.",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Ajouter ici le SIRET de votre lieu.  Ne rien remplir si votre lieu ne possède pas de SIRET.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Mon numéro de téléphone",
+        "description": "Pour vous contacter pour toute question sur votre dossier. ",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Sélection la nature juridique de votre structure",
+        "description": "",
+        "required": true,
+        "options": [
+          "association",
+          "entreprise individuelle",
+          "société commerciale",
+          "collectivité territoriale"
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identité du responsable légal",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Carte d'identité ou passeport du responsable légal de la structure : recto et  verso",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Justificatif relatif à la structure ou au lieu",
+        "description": "Merci d'également nous fournir tout document qui atteste de la délégation de mission de gestion financière de la part du responsable légal de votre structure ou de votre lieu, ou de nous envoyer le document ci-dessous rempli. ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "PV AG daté et signé par le responsable légal , de moins d'un an",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Arrêté de nomination du Régisseur ou Délibération du conseil décisionnaire",
+        "description": "Document justifiant la création ou de l'activité de l'établissement (décret, délibération du conseil décisionnaire, arrêté de nomination du régisseur)",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Vos coordonnées bancaires",
+        "description": "Envoyer ci-dessous votre RIB au format PDF",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "BIC",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "IbanChampDescriptor",
+        "label": "IBAN",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "RIB",
+        "description": "Envoyer ci-dessous votre RIB au format PDF",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Déclaration sur l'honneur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je déclare sur l’honneur disposer de l'autorisation du responsable légal pour effectuer cette démarche",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Je déclare que l'ensemble des réponses et documents fournis sont corrects et authentiques",
+        "description": "",
+        "required": true
+      }
+    ]
+  }
+}

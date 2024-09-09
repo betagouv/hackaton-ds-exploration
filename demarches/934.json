@@ -1,0 +1,774 @@
+{
+  "number": 934,
+  "title": "Territoire de Seclin - Dossier de demande de subventions Contrat de ville",
+  "description": "Ce formulaire permet la saisie des demandes de subventions, au titre du Contrat de ville, auprès de l’Etat (dont ASV, CLAS, CV, DRE, VVV, hors FIPD), de la Région (NQE, SREI), du Département, de la MEL, des communes et de la CAF.\nLes programmes de subventions sont décrits dans l’appel à projet Politique de la ville 2018 que vous pouvez retrouver sur le site de la MEL.\nPour pouvoir compléter ce dossier de demande de subventions, vous devez vous munir du numéro d’enregistrement de votre structure reçu par email. Vous pouvez aussi le retrouver sur votre interface tps.apientreprise.fr.\n",
+  "tags": [
+
+  ],
+  "zones": [
+
+  ],
+  "datePublication": "2017-07-25T09:05:48+02:00",
+  "service": null,
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/4d9a2efe-07a7-478a-8c2a-9d1ce82fc789",
+  "dpoUrl": null,
+  "noticeUrl": "",
+  "siteWebUrl": "",
+  "cadreJuridiqueUrl": null,
+  "logo": null,
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 0,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Merci de rappeler le numéro d'enregistrement dématérialisé de votre structure",
+        "description": "Numéro reçu par email après la création du dossier d’enregistrement de votre structure (via le lien « j’enregistre ma structure »)",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Action reconduite ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Si oui, depuis quelle année ?",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Personnes en charge du projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CiviliteChampDescriptor",
+        "label": "Civilité",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Prénom",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PhoneChampDescriptor",
+        "label": "Téléphone",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Contact mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Fonction au sein de la structure",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Chef de projet \"politique de la ville\" référent",
+        "description": "",
+        "required": true,
+        "options": [
+          "Ludovic FREMAUT"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Présentation de la demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description synthétique du projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description complète du projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Objectifs du projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Thématique d'intervention",
+        "description": "",
+        "required": true,
+        "options": [
+          "Emploi et développement économique - Accompagner vers l’emploi et soutenir le développement d’activités",
+          "Cohésion sociale - Soutenir les parcours éducatifs innovants des jeunes en difficulté",
+          "Cohésion sociale - Assurer l’accès aux soins et aux équipements de santé ainsi qu’à la prévention",
+          "Cohésion sociale - Consolider et mieux coordonner les dispositifs de sécurité et de prévention de la délinquance",
+          "Cadre de vie et renouvellement urbain - Agir sur l’urbain",
+          "Cadre de vie et renouvellement urbain - Favoriser un habitat de qualité et conforter les parcours résidentiels",
+          "Développer des actions visant à promouvoir la participation et les initiatives des habitants, l'expression de la citoyenneté",
+          "Ingénierie"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Axes transversaux",
+        "description": "",
+        "required": false,
+        "options": [
+          "Égalité Femmes - Hommes",
+          "Diversité et égalité des chances",
+          "Participation des habitants",
+          "Culture comme moyen pour atteindre l'objectif",
+          "Sport comme support pour atteindre l'objectif",
+          "Gestion urbaine de proximité",
+          "Développement durable et transition énergétique"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Lien avec les objectifs communaux du contrat de ville",
+        "description": "Merci d’indiquer de quelle manière l’action répond aux objectifs de la commune concernée (en se référant le cas échéant à l’appel à projet spécifique de la commune ou à la convention territoriale d’application signée par la ville)",
+        "required": false
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Territoire(s) de réalisation",
+        "description": "",
+        "required": true,
+        "options": [
+          "La Mouchonnière"
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Fonctionnement ou investissement ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Fonctionnement",
+          "Investissement"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Besoins et contexte dans lequel s'inscrit le projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "A quel(s) besoins répond le projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Qui et comment ont-ils été identifiés ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Public bénéficiaire prévisionnel et partenaires locaux",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de bénéficiaires en quartiers prioritaires",
+        "description": "Rappel du quartier prioritaire : La Mouchonnière",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Dont femmes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Dont hommes",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "0 - 5 ans",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "6 - 15 ans",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "16 - 17 ans",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "18 - 25 ans",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "26 - 64 ans",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "+ de 65 ans",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre de bénéficiaires en quartiers de veille",
+        "description": "Rappel du quartier de veille : La Mouchonnière (hors QPV)",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Nombre total prévisionnel de bénéficiaires (en quartiers prioritaires et quartiers de veille)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Présentation du public cible",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Moyens mis en oeuvre pour sensibiliser le public à l'action",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Modalités d'association des bénéficiaires",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Partenaires locaux associés à l'action",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Services municipaux associés",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Temps de l'action",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de début prévue",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de fin prévisionnelle",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Action se déroulant sur une année civile ou scolaire ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Année civile",
+          "Année scolaire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Action récurrente ou ponctuelle ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Action récurrente",
+          "Action ponctuelle"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations budgétaires sur le projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Montant total du projet",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Pratique tarifaire appliquée à la participation financière des bénéficiaires (ou du public visé)",
+        "description": "",
+        "required": true,
+        "options": [
+          "Gratuité",
+          "Tarifs modulés",
+          "Barème",
+          "Prix unique",
+          "Autre"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si autre, merci de préciser",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Observations éventuelles sur le budget prévisionnel",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie des subventions demandées aux co-financeurs",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Etat - crédits politique de la ville - Montant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Dispositif spécifique Etat politique de la ville dans lequel s'inscrit le projet",
+        "description": "Merci d'indiquer \"Aucun\" dans le cas où aucune subvention spécifique Etat politique de la ville n'est demandée",
+        "required": true,
+        "options": [
+          "Aucun",
+          "ASV (Atelier Santé Ville)",
+          "CLAS (Contrat Local d'Accompagnement à la Scolarité)",
+          "CV (Contrat de Ville)",
+          "DRE (Dispositif de Réussite Educative)",
+          "VVV (opération Ville Vie Vacances)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Etat - droit commun - Montant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Service(s) de l'Etat concerné(s)",
+        "description": "Indiquer \"Aucune\" si aucune subvention Etat - droit commun n'est sollicitée",
+        "required": true,
+        "options": [
+          "Aucune",
+          "Agence Régionale de Santé (ARS)",
+          "Direction Départementale de la Cohésion Sociale (DDCS)",
+          "Délégation aux Droits des Femmes et pour l'Egalité (DDFE)",
+          "Direction Départementale des Territoires et de la Mer (DDTM)",
+          "Direction Régionale des Entreprises, de la Concurrence, de la Consommation, du Travail et de l'Emploi (DIRECCTE)",
+          "Direction Régionale de la Jeunesse, des Sports et de la Cohésion Sociale (DRJSCS)",
+          "Education Nationale",
+          "Justice",
+          "Autre"
+        ]
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Si autre, merci de préciser",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Région - crédits politique de la ville - Montant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Dispositif spécifique Région politique de la ville dans lequel s'inscrit le projet",
+        "description": "Merci d'indiquer \"Aucun\" dans le cas où aucune subvention spécifique Région politique de la ville n'est demandée",
+        "required": true,
+        "options": [
+          "Aucun",
+          "NQE (Nos Quartiers d'Eté)",
+          "SREI / figure imposée (Soutien Régional à l'Emploi et à l'Innovation)",
+          "SREI / figure libre (Soutien Régional à l'Emploi et à l'Innovation)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Région - droit commun - Montant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Commune - crédit politique de la ville - Montant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Commune - droit commun - Montant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Département - Montant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Direction(s) du Département concernée(s)",
+        "description": "Merci d'indiquer \"Aucune\" dans le cas où aucune subvention Département n'est demandée",
+        "required": true,
+        "options": [
+          "Aucune",
+          "Direction de l’Insertion Professionnelle et Lutte contre les Exclusions",
+          "Direction Enfance Famille Jeunesse",
+          "Direction Générale Adjointe Développement Territorial",
+          "Service Habitat, Urbanisme, Quartiers Prioritaires (SHUQP)",
+          "Direction Education Sport et Culture",
+          "Autre direction du département"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Merci de préciser si \"autre direction du Département\"",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "CAF - Montant",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "MultipleDropDownListChampDescriptor",
+        "label": "Dispositif(s) CAF concerné(s)",
+        "description": "Merci d'indiquer \"Aucun\" dans le cas où aucune subvention CAF n'est demandée",
+        "required": true,
+        "options": [
+          "Aucun",
+          "Parentalité : REAAP",
+          "Scolarité : CLAS",
+          "Fonds Publics et Territoires",
+          "Autre dispositif CAF"
+        ]
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Merci de préciser si \"autre dispositif CAF\"",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Saisie des autres subventions sollicitées",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Financeur (1)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Montant (1)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Financeur (2)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Montant (2)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Financeur (3)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "NumberChampDescriptor",
+        "label": "Montant (3)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Identification des subventions déjà obtenues",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Subvention(s) déjà obtenue(s) :",
+        "description": "Financeur(s) et montant(s)",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Dispositif d'évaluation",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Critères d'évaluation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Quels outils de suivi et d'évaluation avez-vous prévu ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Comment avez-vous conçu le suivi de l'action (quelles instances, quelle fréquence, qui est associé et comment ?)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Comment allez-vous associer les bénéficiaires à l'évaluation ?",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Moyens humains et matériels nécessaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Moyens humains et matériels",
+        "description": "Merci d'apporter en pièce jointe de ce dossier le descriptif précis des éléments demandés : la présentation des moyens humains et des moyens matériels (Vous trouverez un modèle vierge en bas de ce formulaire).\r\n \r\nMerci également d'apporter des éléments descriptifs synthétiques ci-dessous.",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Descriptif synthétique des moyens humains mobilisés",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Descriptif synthétique des moyens matériels (locaux, équipements, etc.)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Attestation sur l'honneur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom et prénom du déclarant",
+        "description": "Pour les associations : si le déclarant n'est pas le responsable légal, merci de joindre ci-dessous la délégation de pouvoir",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "J'atteste",
+        "description": "Le représentant légal atteste sur l'honneur, conformément à l'article L. 113-13 du code des relations entre le public et l'administration, que l'association est à jour de ses obligations légales, administratives, sociales, fiscales et comptables et :\r\n- que les informations ou données portées dans le formulaire ou provenant d'un système d'échange de données mentionné à l'article L. 113-12 du code des relations entre le public et l'administration, notamment celles relatives aux demandes de subventions déposées auprès d'autres financeurs publics ainsi que l'approbation du budget par les instances statutaires, sont exactes et sincères ;\r\n- que le montant total et cumulé d'aides publiques attribuées à l'association sur les trois derniers exercices, dont l'exercice en cours est, soit inférieur ou égal à 500 000 euros, soit supérieur à ce montant.",
+        "required": true
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Commentaires supplémentaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Merci d'indiquer ici tous les éléments supplémentaires dont vous voulez informer les co-instructeurs de votre dossier :",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Pièces jointes",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Budget prévisionnel du projet",
+        "description": "Récupérer le formulaire vierge pour mon dossier : http://www.lillemetropole.fr/files/live/sites/lmcu/files/docs/POLITIQUE%20DE%20LA%20VILLE/untitled/Budget_pr%c3%a9visionnel_action.odt",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bilan définitif de l'année 2016",
+        "description": "Déposer le bilan déjà saisi sur la plateforme ADDEL (addel.cget.gouv.fr), s'il s'agit d'une action reconduite",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Bilan intermédiaire 2017 de l'action",
+        "description": "Si et seulement si l'action est reconduite\nRécupérer le formulaire vierge pour mon dossier : http://www.lillemetropole.fr/files/live/sites/lmcu/files/docs/POLITIQUE%20DE%20LA%20VILLE/untitled/Bilan_intermediaire_projet_2017.odt",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Moyens humains et matériels",
+        "description": "Attention, ce modèle comporte 3 onglets (moyens humains, moyens matériels et autres charges)\nRécupérer le formulaire vierge pour mon dossier : http://www.lillemetropole.fr/files/live/sites/lmcu/files/docs/POLITIQUE%20DE%20LA%20VILLE/untitled/Moyens_humains_et_mat%c3%a9riels.ods",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Délégation de pouvoir",
+        "description": "Uniquement pour les associations et dans le cas où le déclarant n'est pas le représentant légal de la structure",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Schéma d'ingénierie",
+        "description": "Uniquement pour les actions en Ingénierie",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau récapitulatif des actions DRE",
+        "description": "Pour les dossiers DRE\nRécupérer le formulaire vierge pour mon dossier : http://www.lillemetropole.fr/files/live/sites/lmcu/files/docs/POLITIQUE%20DE%20LA%20VILLE/untitled/Tableau_recapitulatif_actions_DRE.ods",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Tableau de bord des parcours anonymisés",
+        "description": "Pour les dossiers DRE\nRécupérer le formulaire vierge pour mon dossier : http://www.lillemetropole.fr/files/live/sites/lmcu/files/docs/POLITIQUE%20DE%20LA%20VILLE/untitled/Tableau_de_bord_parcours_anonymis%c3%a9s.ods",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments à joindre (1)",
+        "description": "Les autres pièces jointes à fournir pour les différents dispositifs (DRE, ASV, ingénierie) sont précisées dans l’appel à projet politique de la ville 2018 (partie 3) : Curriculum Vitae, diplômes, fiches de postes, contrats de travail…)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments à joindre (2)",
+        "description": "Les autres pièces jointes à fournir pour les différents dispositifs (DRE, ASV, ingénierie) sont précisées dans l’appel à projet politique de la ville 2018 (partie 3) : Curriculum Vitae, diplômes, fiches de postes, contrats de travail…)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments à joindre (3)",
+        "description": "Les autres pièces jointes à fournir pour les différents dispositifs (DRE, ASV, ingénierie) sont précisées dans l’appel à projet politique de la ville 2018 (partie 3) : Curriculum Vitae, diplômes, fiches de postes, contrats de travail…)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments à joindre (4)",
+        "description": "Les autres pièces jointes à fournir pour les différents dispositifs (DRE, ASV, ingénierie) sont précisées dans l’appel à projet politique de la ville 2018 (partie 3) : Curriculum Vitae, diplômes, fiches de postes, contrats de travail…)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments à joindre (5)",
+        "description": "Les autres pièces jointes à fournir pour les différents dispositifs (DRE, ASV, ingénierie) sont précisées dans l’appel à projet politique de la ville 2018 (partie 3) : Curriculum Vitae, diplômes, fiches de postes, contrats de travail…)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments à joindre (6)",
+        "description": "Les autres pièces jointes à fournir pour les différents dispositifs (DRE, ASV, ingénierie) sont précisées dans l’appel à projet politique de la ville 2018 (partie 3) : Curriculum Vitae, diplômes, fiches de postes, contrats de travail…)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments à joindre (7)",
+        "description": "Les autres pièces jointes à fournir pour les différents dispositifs (DRE, ASV, ingénierie) sont précisées dans l’appel à projet politique de la ville 2018 (partie 3) : Curriculum Vitae, diplômes, fiches de postes, contrats de travail…)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments à joindre (8)",
+        "description": "Les autres pièces jointes à fournir pour les différents dispositifs (DRE, ASV, ingénierie) sont précisées dans l’appel à projet politique de la ville 2018 (partie 3) : Curriculum Vitae, diplômes, fiches de postes, contrats de travail…)",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Eléments à joindre (9)",
+        "description": "Les autres pièces jointes à fournir pour les différents dispositifs (DRE, ASV, ingénierie) sont précisées dans l’appel à projet politique de la ville 2018 (partie 3) : Curriculum Vitae, diplômes, fiches de postes, contrats de travail…)",
+        "required": false
+      }
+    ]
+  }
+}

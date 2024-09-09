@@ -1,0 +1,79 @@
+{
+  "number": 46535,
+  "title": "Invalidité - Déposer vos documents",
+  "description": "Les invalides CPAM du Calvados, de la Manche et de l'Orne peuvent utiliser ce formulaire pour joindre les documents liés à leur invalidité.\r\n\r\nPour une connexion simple et pratique, utilisez la connexion France-Connect.",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2021-07-02T16:26:21+02:00",
+  "service": {
+    "nom": "Caisse Primaire d'Assurance Maladie - Pôle assuré",
+    "organisme": "CPAM ",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/invalidite-deposer-vos-documents",
+  "dpoUrl": null,
+  "noticeUrl": null,
+  "siteWebUrl": "http://declic.cpam50.fr/ ",
+  "cadreJuridiqueUrl": "https://www.cnil.fr/",
+  "logo": {
+    "filename": "revu Manche_Logo_Nov.2020_CMJN jpg.png",
+    "checksum": "LX4Bt+jQLVXJOcbn/1bFmQ==",
+    "byteSize": "917811",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 1621,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Votre formulaire de dépôt - uniquement dans le cadre de l'invalidité",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Le Pôle Régional Invalidité vous offre la possibilité d'adresser vos documents, nécessaires à l'instruction de votre dossier (merci de conserver les documents originaux), en complétant le formulaire suivant.",
+        "description": "En cas de questions et/ou demandes de renseignement, nous vous invitons à vous connecter sur la messagerie sécurisée du compte ameli (www.ameli.fr) ou à contacter le 36 46.",
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "De quelle Caisse Primaire d'Assurance Maladie dépendez-vous ?",
+        "description": "Indiquez le département de votre Caisse Primaire d'Assurance Maladie\n",
+        "required": true
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Numéro de sécurité sociale",
+        "description": "Saisir les 15 chiffres sans espace",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Commentaires",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Vos pièces à fournir",
+        "description": "Plusieurs pièces à déposer, vous pouvez faire \"+ Ajouter un élément pour......\"",
+        "required": true,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Déposer ici vos pièces",
+            "description": "Tous les formats sauf Office (xls, doc, ppt, pps)",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+}

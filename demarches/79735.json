@@ -1,0 +1,426 @@
+{
+  "number": 79735,
+  "title": "Demande de dérogation à un arrêté régional sur les Matériels Forestiers de Reproduction (MFR)",
+  "description": "Cette démarche a pour but de centraliser et fluidifier les demandes de dérogation aux arrêtés régionaux MFR, et ainsi faciliter leur traitement par l'administration",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+  ],
+  "datePublication": "2024-02-22T12:22:17+01:00",
+  "service": {
+    "nom": "Bureau de la gestion durable de la forêt et du bois, Direction générale de la performance économique et environnementale des entreprises",
+    "organisme": "Ministère de l'Agriculture et de la Souveraineté alimentaire",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/demande-de-derogation-a-un-arrete-regional-sur-les",
+  "dpoUrl": "dpo@agriculture.gouv.fr",
+  "noticeUrl": null,
+  "siteWebUrl": "https://agriculture.gouv.fr/materiels-forestiers-de-reproduction-arretes-regionaux-relatifs-aux-aides-de-letat-linvestissement",
+  "cadreJuridiqueUrl": "https://agriculture.gouv.fr/materiels-forestiers-de-reproduction-arretes-regionaux-relatifs-aux-aides-de-letat-linvestissement",
+  "logo": null,
+  "notice": {
+    "filename": "Notice demarches-simplifiees.docx",
+    "checksum": "9q7mHIzGSj6awaZUaGIuAA==",
+    "byteSize": "110549",
+    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "deliberation": {
+    "filename": "IT MFR eligibles aide Etat 2020-656_final.pdf",
+    "checksum": "wZV/7iRwz5tbrZtVa1TIgA==",
+    "byteSize": "744165",
+    "contentType": "application/pdf"
+  },
+  "dossiersCount": 154,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Note d'information",
+        "description": "Les dérogations accordées permettent de pallier à une pénurie de plants forestiers avérée sur plusieurs années, remettant en cause les choix de reboisement initiaux. Elles ne sauraient  répondre à une indisponibilité locale ou ponctuelle de certains MFR, liée notamment aux cycles de fructification de certaines essences ou à la production de pépinières en particulier.\r\nDans tous les cas, les MFR listés dans les arrêtés régionaux et dans les fiches conseil d'utilisation sont à privilégier. Leur inscription dans ces listes prend toujours en compte le changement climatique et ses effets, et permet la plupart du temps une migration assistée mesurée. \r\nL'utilisation de MFR très méridionaux, non conseillés, est à éviter pour des projets de reboisement de grande ampleur car le risque de maladaptation aux conditions actuelles est élevé. A l'inverse, l'utilisation de provenances au climat plus frais et continental pourrait affaiblir la capacité d'adaptation des futurs peuplements. Le recours à l'expérimentation, avec une quantité limitée de plants, est à privilégier dans ces situations, et permettra d'affiner les recommandations à moyen terme.\r\nL'utilisation de MFR autorisés en dérogation doit donc se faire avec grande prudence, en gardant à l'esprit que les risques (inadéquation aux conditions environnementales actuelles et/ou futures, faible qualité phénotypique, moindre vigueur) sont plus élevés par rapport aux MFR normalement recommandés. \r\nBien souvent, il est préférable d'attendre quelques années que les MFR souhaités soient disponibles sur le marché. Le passage de contrats de culture avec les pépiniéristes permet d'anticiper les besoins, et donc les quantités de graines récoltées et de plants produits.\r\n\r\nLes avis préalables aux dérogations déjà rendus par la DGPE sont disponibles en bas de page à l’adresse : https://agriculture.gouv.fr/materiels-forestiers-de-reproduction-arretes-regionaux-relatifs-aux-aides-de-letat-linvestissement",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "1 - Type de demande",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Je suis:",
+        "description": "Utilisateur: demande qui concerne un projet de plantation précis (ou une liste de projets) dans une région donnée. Aboutit à la délivrance d'une dérogation à un arrêté régional.\r\nFournisseur: demande qui concerne une zone d'utilisation potentielle d'un MFR, pouvant dépasser le cadre régional. Aboutit à l'émission d'un avis préalable aux dérogations.",
+        "required": true,
+        "options": [
+          "Utilisateur de MFR (Propriétaire, Gestionnaire, Reboiseur...)",
+          "Fournisseur de MFR (Pépiniériste, Semencier, Négociant...)"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom (Raison sociale)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Numéro de SIRET",
+        "description": "Pour les sociétés, merci de préciser votre numéro de SIRET",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "2 - Concernant le projet de plantation :",
+        "description": "Si le projet de plantation requiert une dérogation pour plusieurs MFR différents, merci de remplir un formulaire par demande",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Nombre de chantiers",
+        "description": "",
+        "required": true,
+        "options": [
+          "Ma demande concerne un unique chantier de plantation",
+          "Ma demande concerne plusieurs chantiers de plantations et un même MFR"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Région",
+        "description": "Les dérogations sont accordées par le Préfet de Région au cas par cas. L'instruction des dossiers est faite par la DRAAF compétente. Si la demande concerne plusieurs projets dans différentes régions, merci de remplir un formulaire par région.",
+        "required": true,
+        "options": [
+          "Auvergne-Rhône-Alpes",
+          "Bourgogne-Franche-Comté",
+          "Bretagne",
+          "Centre-Val de Loire",
+          "Corse",
+          "Grand-Est",
+          "Hauts-de-France",
+          "Île-de-France",
+          "Normandie",
+          "Nouvelle-Aquitaine",
+          "Occitanie",
+          "Pays de la Loire",
+          "Provence-Alpes-Côte d'Azur",
+          "- Non renseigné -"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identité du bénéficiaire",
+        "description": "Si l'identité du bénéficiaire n'a pas été renseignée en début de formulaire et est différente de celle du demandeur, merci de l'indiquer dans ce champ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Numéro de dossier d'aides",
+        "description": "Si votre demande est associée à une dossier d'aides en cours d'instruction, merci de préciser son numéro ici",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Dérogation à une norme",
+        "description": "Les dérogations concernant les normes figurant dans les arrêtés régionaux sont à adresser directement par le producteur de plants à la DRAAF compétente afin que ceux-ci puissent être commercialisés de qualité loyale et marchande.",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "3 - Localisation du projet de reboisement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "3 - Localisation et détail des projets de reboisement",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DepartementChampDescriptor",
+        "label": "Département",
+        "description": "Indiquer ici le département principal du projet de plantation",
+        "required": true
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Commune principale",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom de la forêt",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Références cadastrales ou parcellaire forestier",
+        "description": "En cas de parcellaire forestier en forêt privée, un plan est à joindre obligatoirement",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Sylvoécorégion",
+        "description": "Le découpage des sylvoécorégions est visualisable sur Géoportail: https://www.geoportail.gouv.fr/carte",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "4 - Caractéristiques du MFR",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Essence",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Essence",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Provenance demandée en dérogation",
+        "description": "L'identification complète et précise du MFR est indispensable avant tout traitement de la demande. \r\nLes numéros de certificat-maître ne sont pas acceptés dans ce champ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Provenance(s) indisponible(s)",
+        "description": "La demande de dérogation n'est justifiée qu'en cas de pénurie de tous les MFR éligibles aux aides mentionnés dans les arrêtés régionaux pour le lieu de plantation",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Provenance demandée en dérogation",
+        "description": "L'identification complète et précise du MFR est indispensable avant tout traitement de la demande. \r\nLes numéros de certificat-maître ne sont pas acceptés dans ce champ",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Campagne de plantation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Détail de chaque projet de plantation",
+        "description": "Merci d'utiliser et compléter impérativement le modèle de tableau à télécharger ci-dessous",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre de plants demandés en dérogation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Utilisation en essence objectif",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre de plants total du projet de plantation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "4 - Documents",
+        "description": "La fourniture de documents en complément des informations saisies ci-dessus peuvent faciliter le traitement de votre demande. Vous pouvez déposer plusieurs documents par champ",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "5 - Documents",
+        "description": "La fourniture de documents en complément des informations saisies ci-dessus peuvent faciliter le traitement de votre demande. Vous pouvez déposer plusieurs documents par champ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan du projet de plantation",
+        "description": "Champ obligatoire si un parcellaire forestier en forêt privée est renseigné",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Plan des projets de plantation",
+        "description": "Champ obligatoire si un parcellaire forestier en forêt privée est renseigné",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certificat-Maître, Document du Fournisseur, ou autre document faisant mention du MFR demandé",
+        "description": "La transmission de ce document est facultative mais vivement recommandée pour le bon traitement de la demande. Il peut s'agir par exemple d'un devis préalable à la fourniture des plants.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certificat-Maître, Document du Fournisseur, ou autre document faisant mention du MFR demandé",
+        "description": "La fourniture de ces documents est facultative mais vivement recommandée pour le bon traitement de la demande. Il peut s'agir par exemple d'un devis préalable à la fourniture des plants.",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Preuve de l'impossibilité de s'approvisionner en MFR éligibles",
+        "description": "Déposer ici tout document (attestation des pépinières, échange de mails, résumé des recherches infructueuses...) prouvant l'indisponibilité des MFR éligibles aux aides de l'État. La pénurie doit être avérée au niveau national et pas seulement auprès de l'entreprise fournisseuse habituelle. ",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Preuve de l'impossibilité de s'approvisionner en MFR éligibles",
+        "description": "Déposer ici tout document attestant de l'indisponibilité en pépinière des MFR éligibles aux aides de l'État. La pénurie doit être avérée au niveau national et pas seulement auprès de l'entreprise fournisseuse habituelle. ",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom (raison sociale)",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "Numéro de SIRET",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Concernant la demande de dérogation",
+        "description": "Les dérogations de norme ne peuvent être accordées qu'au niveau régional, dans le respect de l'Arrêté ministériel du 29 novembre 2003 modifié relatif à certaines normes qualitatives applicables à la production sur le territoire national de matériels forestiers de reproduction",
+        "required": true,
+        "options": [
+          "Je souhaite rendre éligibles aux aides de l'État un MFR non conseillé sur tout ou partie du territoire français",
+          "Je souhaite rendre éligibles aux aides de l'État un MFR conseillé ne respectant pas les normes d'un arrêté régional"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "2 - Caractéristiques du MFR",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "2 - Caractéristiques du MFR",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Essence",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Identification du MFR (Provenance)",
+        "description": "L'identification complète et précise du MFR est indispensable avant tout traitement de la demande.\r\nLes numéros de certificat-maître ne sont pas acceptés dans ce champ",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Zone d'utilisation pressentie",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Quantité disponible",
+        "description": "Nombre de plants, volume de semences...",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Campagne de plantation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "MFR à substituer",
+        "description": "Indiquer quel(s) MFR en pénurie motive cette demande",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "3 - Documents",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Certificat-maître, Document du Fournisseur, Document d'importation...",
+        "description": "L'identification complète et précise du lot de MFR est indispensable avant tout traitement de la demande. La fourniture de ces documents est facultative mais vivement recommandée",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Essence",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Dimensions des plants",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Âge des plants",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Conditionnement",
+        "description": "Préciser s'il s'agit de plants en racines nues, mottes ou godets, et le cas échéant le volume et le type de conteneur",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Zone d'utilisation pressentie",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre de plants disponibles",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Motivations de la demande",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "3 - Documents",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Pièces jointes",
+        "description": "Déposer ici tout document permettant d'appuyer votre demande",
+        "required": false
+      }
+    ]
+  }
+}

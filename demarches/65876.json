@@ -1,0 +1,138 @@
+{
+  "number": 65876,
+  "title": "Formulaire de demande COSCOM (CPAM du Val-de-Marne)",
+  "description": "Formulaire de demande d'adhésion à un contrat démographique médecin (COSCOM)",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Santé et de la Prévention"
+  ],
+  "datePublication": "2022-10-28T17:24:37+02:00",
+  "service": {
+    "nom": "Pôle des relations conventionnelles avec les professionnels de santé",
+    "organisme": "CPAM du Val-de-Marne",
+    "typeOrganisme": "autre"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/formulaire-de-demande-coscom-cpam-du-val-de-marne",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://ameli.fr",
+  "cadreJuridiqueUrl": "https://www.ameli.fr/",
+  "logo": {
+    "filename": "logo---assurance-maladie-du-val-de-marne.png",
+    "checksum": "ajxFhfbGA3A0lEe7nqfqAQ==",
+    "byteSize": "21588",
+    "contentType": "image/png"
+  },
+  "notice": null,
+  "deliberation": null,
+  "dossiersCount": 14,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "1. Identification du médecin",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "N°AM",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Adresse",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "EmailChampDescriptor",
+        "label": "Mail",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date d'installation",
+        "description": "",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Secteur conventionnel",
+        "description": "",
+        "required": true,
+        "options": [
+          "Secteur 1",
+          "Secteur 1 titré (DP)",
+          "Secteur 2",
+          "Secteur 2 OPTAM",
+          "Secteur 2 OPTAM-CO"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Avez-vous adhéré à un contrat incitatif antérieurement ?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Si vous avez répondu oui à la question précédente, précisez (type de contrat, date, durée, CPAM de rattachement...)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "2. Engagements socles",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Vous êtes toujours installé dans une zone identifiée par l'ARS en ZIP",
+        "description": "Les ZIP sont définies par l'ARS : https://www.iledefrance.paps.sante.fr/ou-minstaller-170?parent=10002",
+        "required": true
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Vous vous engagez à maintenir une activité libérale conventionnée dans cette zone pendant trois ans",
+        "description": "Une vérification annuelle sera réalisée par la CPAM",
+        "required": true
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Vous exercez en groupe ou en CPTS ou en équipe de soins primaires",
+        "description": "Joindre un justificatif :\r\n- Pour l'exercice de groupe : exercice d'au moins 2 médecins dans les mêmes locaux (contrat, ordonnance mentionnant l'adresse commune de cabinet, statuts de la MSP comportant la liste des médecins adhérents dont celui du demandeur...)\r\n- Pour une CPTS/équipe de soins primaires : document attestant de l'adhésion et/ou participation",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "3. Engagements optionnels",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Vous réalisez une partie de son activité libérale au sein d'un hôpital de proximité",
+        "description": "Joindre un justificatif : production d’un document attestant de cette activité, au moment de l’adhésion ou dans les semaines qui suivent : copie du contrat d’activité libérale conclu avec la structure\r\n\r\nCes hôpitaux sont référencés sur : https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038534032",
+        "required": false
+      },
+      {
+        "__typename": "YesNoChampDescriptor",
+        "label": "Vous exercez les fonctions de maître de stage universitaire et accueillez en stage des internes ou externes",
+        "description": "Un justificatif vous sera demandé en N+1 (copie de la production de la convention précisant le type de stage (stage ambulatoire de niveau 1, stage d’externat en médecine générale, SASPAS) ou de tout document attestant de l’accueil de stagiaires / et copie des notifications des rémunérations reçues à ce titre par le Ministère de l’enseignement supérieur et de la recherche)",
+        "required": false
+      }
+    ]
+  }
+}

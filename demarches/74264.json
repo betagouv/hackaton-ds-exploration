@@ -1,0 +1,511 @@
+{
+  "number": 74264,
+  "title": "LBC Bâtiment – Valorisation du stockage carbone longue durée ",
+  "description": "Cette méthode s’applique aux projets immobiliers de construction de bâtiments neufs, employant une quantité significative de matériaux d’origine biosourcée qui contiennent un stock de carbone issu de la capture de CO2 de l’atmosphère par les végétaux. Cet usage de matériaux biosourcés dans le bâtiment permet un stockage longue durée du carbone contenu dans les matériaux.\r\n\r\nPour s’assurer de la performance du bâtiment sur le plan de la réduction de l’empreinte carbone des matériaux mis en œuvre sur l’ensemble de son cycle de vie, les bâtiments de logements et de bureaux devront être labellisés BBCA (Bâtiment Bas Carbone) et atteindre les seuils RE2020 - Niveau 2025 pour l’indicateur suivant : IC construction.\r\n",
+  "tags": [
+
+  ],
+  "zones": [
+    "Ministère de la Transition énergétique"
+  ],
+  "datePublication": "2023-06-12T10:19:36+02:00",
+  "service": {
+    "nom": "Direction Générale de l'Energie et du Climat",
+    "organisme": "Ministère de la Transition Ecologique",
+    "typeOrganisme": "administration_centrale"
+  },
+  "demarcheUrl": "https://www.demarches-simplifiees.fr/commencer/lbc-batiment-valorisation-du-stockage-carbone-long",
+  "dpoUrl": "",
+  "noticeUrl": null,
+  "siteWebUrl": "https://www.ecologie.gouv.fr/label-bas-carbone",
+  "cadreJuridiqueUrl": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037657959/",
+  "logo": null,
+  "notice": {
+    "filename": "notice demandeur LBC_tous projets.docx",
+    "checksum": "3wI9DXpM3qZzHJ2pOWI4sQ==",
+    "byteSize": "20508",
+    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "deliberation": null,
+  "dossiersCount": 20,
+  "revision": {
+    "champDescriptors": [
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Avant de remplir le formulaire, nous vous conseillons de bien lire la méthode Bâtiment – Valorisation du stockage carbone longue durée",
+        "description": "LIEN DE LA METHODE <a href=\"https://www.bulletin-officiel.developpement-durable.gouv.fr/notice?id=Bulletinofficiel-0032959&reqId=48c26788-0d29-4956-9498-465d71fe3db9&pos=4\">ICI</a>",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Région administrative du projet",
+        "description": "C'est la région dans laquelle se trouve le projet. ",
+        "required": true,
+        "options": [
+          "Auvergne Rhône Alpes",
+          "Bretagne",
+          "Bourgogne Franche Comté",
+          "Centre Val de Loire",
+          "Corse",
+          "Grand Est",
+          "Hauts-de-France",
+          "Ile de France",
+          "Normandie",
+          "Nouvelle Aquitaine",
+          "Occitanie",
+          "PACA",
+          "Pays de la Loire"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Notification du projet",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "DateChampDescriptor",
+        "label": "Date de notification du projet",
+        "description": "Indiquez la date du jour. La notification du projet doit avoir lieu avant le démarrage des travaux.",
+        "required": true
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du projet",
+        "description": "Indiquez ici le nom de votre projet.",
+        "required": true
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Description succincte du projet",
+        "description": "Merci de réaliser une description succincte de votre projet de  comprenant au moins les éléments suivants :\r\n- Contexte et but du projet\r\n- Le type de bâtiment concerné par le projet.\r\n\r\nNous vous recommandons de soigner cette présentation qui figurera sur le site internet du Label bas-carbone.",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Votre projet concerne un bâtiment unique ou un regroupement de bâtiments?",
+        "description": "",
+        "required": true,
+        "options": [
+          "Unique",
+          "Regroupement"
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nombre de bâtiments concernés",
+        "description": "Cette information est indiquée en haut de l'onglet Général du tableur (Document 7)",
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Principale commune concernée par le projet",
+        "description": "Il s'agit de la commune au droit de laquelle se trouve le projet. Cette information permettra de localiser votre projet sur la carte des projets labellisés sur le site internet du Label bas-carbone.",
+        "required": false
+      },
+      {
+        "__typename": "CommuneChampDescriptor",
+        "label": "Principale commune concernée par le projet",
+        "description": "Il s'agit de la commune où se trouve le projet. Cette information permettra de localiser votre projet sur la carte des projets labellisés sur le site internet du Label bas-carbone.",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Communes dans lesquelles se situent les sous-projets",
+        "description": "Si plusieurs communes sont concernées par le projet, cliquez sur \"Ajouter un élément pour \"Communes dans lesquelles se situent les sous-projets\".\r\nCes précisions serviront à localiser vos projets sur le site internet du label bas-carbone. A défaut de précision, le projet figurera simplement dans la liste des projets collectifs sans indication géographique.",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "CommuneChampDescriptor",
+            "label": "Communes",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "IntegerNumberChampDescriptor",
+            "label": "Nombre de sous-projets participant dans cette commune",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Notification ou dépôt du dossier",
+        "description": "Le dossier peut être déposé au plus tard un an après la date de notification.",
+        "required": true,
+        "options": [
+          "Je notifie mon projet et je déposerai le dossier plus tard : je remplis la partie I. et je clique sur \"Déposer le dossier\".",
+          "Je notifie mon projet et je dépose le dossier en même temps : je remplis tout le formulaire avant de cliquer sur \"Déposer le dossier\". Lorsque j'ai cliqué sur \"Déposer le dossier\", j'informe le service instructeur via la messagerie de Démarches Simplifiées que l'instruction peut débuter."
+        ],
+        "otherOption": false
+      },
+      {
+        "__typename": "DossierLinkChampDescriptor",
+        "label": "Numéro du demandeur",
+        "description": "Si vous n'avez pas de numéro, vous pouvez vous inscrire ici : https://www.demarches-simplifiees.fr/commencer/inscription-en-tant-que-demandeur-de-lbc\r\nCette première inscription vous évite de renseigner les mêmes informations si vous déposez plusieurs dossiers de demande de Label bas-carbone. \r\nLe champ affiche \"numéro de dossier\", parce que le numéro de demandeur qui vous a été attribué provient d'un dossier Démarches Simplifiées. Mais il faut donc bien indiquer votre numéro de demandeur. ",
+        "required": true
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Qualité du demandeur",
+        "description": "Le porteur de projet est la personne physique ou morale qui a la capacité juridique de mettre en œuvre le projet. Il s'agit du maître d'ouvrage du projet immobilier, c’est-à-dire l’entité qui finance les travaux et valide les choix techniques, et notamment les matériaux, les modes constructifs. Exemples : promoteurs immobiliers, particuliers, collectivités, bailleurs sociaux… \r\nLe porteur de projet peut déléguer à un mandataire la préparation du dossier de demande de labellisation, la responsabilité de la mise en œuvre du projet voire la demande de reconnaissance des réductions d'émissions.",
+        "required": true,
+        "options": [
+          "Je suis un porteur de projet individuel",
+          "Je suis un mandataire"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Important : conditions de recevabilité du projet",
+        "description": "<strong><font size=\"+20\">Conditions d'éligibilités</font></strong>: \r\n\r\n\r\n- Les bâtiments de logements et de bureaux labellisés BBCA (Bâtiment Bas Carbone) et ayant atteint les seuils RE2020 - Niveau 2025 pour l’indicateur suivant : IC construction.\r\n- Les bâtiments éligibles à la RE2020.\r\n- Types de bâtiments éligibles : résidentiel collectif, tertiaire, industriel, agricole et de stockage.\r\n- Avoir une surface de plus de 500 m2 de surface de plancher : projets cumulant 500m2 de surface de plancher ou regroupement de projets dont la somme des surfaces serait supérieure à 500 m² soit éligible. \r\n- Un seul Maitre d'ouvrage par projet, y compris dans le cas de regroupement de projets.\r\n- Type de matériaux éligibles :  les produits et matériaux biosourcés doivent disposer d’une fiche de déclaration environnementale et sanitaire spécifique ou collective (FDES) qui indique leurs impacts environnementaux et le carbone biogénique stocké sur tout son cycle de vie. Elles sont disponibles sur la base INIES . Les données environnementales par défaut (DED) fournies par la base INIES pourront également être utilisées à défaut d’une FDES.\r\n- Seuls les produits et matériaux issus de forêts gérées durablement sont pris en compte. \r\n- Toutes les provenances géographiques des matériaux sont éligibles\r\n\r\n<strong><font size=\"+20\">La justification de la gestion durable de ces forêts devra se faire au moment de l'audit </font></strong>:\r\n\r\n- pour les matériaux issus de forêts française, par les labels FSC et/ou par la fourniture d’un document de gestion durable pour la forêt privée (plan Simple de gestion, code de bonnes pratiques sylvicoles ou règlement Type de gestion), ou d’un document d’aménagement (simple ou standard) pour la forêt publique.\r\n- pour les matériaux issus de forêts non françaises, par les labels FSC et/ou PEFC\r\n\r\n<strong><font size=\"+20\">Sont non éligibles</font> :\r\n\r\n\r\n- Les industriels, fabricants et/ou commerçants de matériaux de constructions biosourcés à longue durée de vie ne sont pas éligibles à cette Méthode.\r\n- Les bâtiments périodiques ne sont pas éligibles (mobile-home, préfabriqués déplaçables, etc.).\r\n- Les maisons individuelles ne sont pas éligibles.\r\n",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Dépôt du dossier",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Si vous choisissez de déposer votre dossier ultérieurement :",
+        "description": "Dans ce cas, lorsque votre dossier est finalisé, n'oubliez pas d'en informer le service instructeur via la messagerie Démarches Simplifiées, afin qu'il puisse commencer l'instruction. Lorsqu'il aura pris connaissance de votre message, il passera le dossier \"en instruction\" et vous n'aurez plus la main pour le compléter. Si des compléments sont nécessaires, le service instructeur repassera votre dossier \"en construction\" pour rendre le dossier modifiable de nouveau.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Porteur de projet, engagements et mandat",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 0 [obligatoire] : Engagements du porteur de projet et mandat",
+        "description": "Si le demandeur est mandataire, le document d'engagements comporte les mentions concernant le mandat et il est cosigné par le mandataire. \r\n",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du porteur de projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "AddressChampDescriptor",
+        "label": "Adresse du porteur de projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Complément d'adresse du porteur de projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Nom du représentant du porteur de projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DropDownListChampDescriptor",
+        "label": "Statut juridique du porteur de projet",
+        "description": "",
+        "required": false,
+        "options": [
+          "Promoteur immobilier",
+          "Collectivité",
+          "Bailleur social",
+          "Particulier"
+        ],
+        "otherOption": true
+      },
+      {
+        "__typename": "SiretChampDescriptor",
+        "label": "SIRET de la structure",
+        "description": "Ce numéro donne accès à votre KBIS, ce qui vous évite de le joindre au dossier. Ce document prouve l'identité du porteur de projet.",
+        "required": false
+      },
+      {
+        "__typename": "TextChampDescriptor",
+        "label": "Autres structures ne rentrant pas dans les cas précédents",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Le projet",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Indiquez les informations du projet ou des sous-projets",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "AddressChampDescriptor",
+            "label": "Localisation du projet",
+            "description": "Indiquer l'adresse du bâtiment",
+            "required": false
+          },
+          {
+            "__typename": "TextChampDescriptor",
+            "label": "Complément d'adresse du bâtiment",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DateChampDescriptor",
+            "label": "Date prévisionnelle du début du projet",
+            "description": "",
+            "required": false
+          },
+          {
+            "__typename": "DropDownListChampDescriptor",
+            "label": "Type de bâtiment",
+            "description": "",
+            "required": false,
+            "options": [
+              "Logement collectif",
+              "Tertiaire",
+              "Industriel + stockage"
+            ],
+            "otherOption": false
+          }
+        ]
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Surface du projet (en m²)",
+        "description": "Indiquez la surface totale du projet (surface de plancher du bâtiment).\r\nDans le cas d’une surélévation d’un bâtiment existant, le périmètre retenu par la méthode sera celui de la surface de plancher créée.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Durée du projet (en années)",
+        "description": "Il s'agit de la durée entre la date de lancement la plus précoce et la date de livraison la plus tardive.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Additionnalité",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 1 [obligatoire] : Analyse des règlementations locales types PCAET ou PLH par rapport au stockage carbone (attestation sur l’honneur)",
+        "description": "Le Porteur de projet devra démontrer que les réglementations locales type plan climat-air-énergie territorial (PCAET) ou programme local de l’habitat (PLH) relatives à la localisation du projet n’incluent pas de dispositifs obligatoires et de financements concernant le stockage carbone, afin de compléter la démonstration d’additionnalité par rapport aux réglementations et financements. \r\nCeci prend la forme d'une attestation sur l'honneur.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Critères d'éligibilité - Pièces justificatives",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 2 [obligatoire] : Etude(s) RE2020 et en annexe le(s) résumé(s) de RSEE",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "RE2020 et RSEE",
+            "description": "Étude(s) liée(s) à la Réglementation Environnementale 2020 avec en annexe le(s) résumé(s) du Récapitulatif Standardisé d’étude Energétique et Environnementale (RS2E), avec précision de l'indicateur IC-Construction (Niveau 2025).\r\nIl faut une RE2020 et RSEE par sous-projets. ",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 3 [obligatoire] : Attestation d’obtention du label BBCA au stade Conception",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 3 [obligatoire]",
+            "description": "Attestation d’obtention du label BBCA (ou autre label équivalent approuvé par la DGEC) au stade Conception",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 4 [obligatoire] : Dossier permis de construire déposé ainsi qu'arrêté correspondant",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 4 [obligatoire] : Dossier permis de construire déposé ainsi qu'arrêté correspondant",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 5 [obligatoire] : Fiches FDES spécifiques ou collectives de tous les matériaux comptabilisés, ou les Données Environnementales par Défaut (DED) fournies par la base INIES",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 5 [obligatoire] : Fiches FDES spécifiques ou collectives de tous les matériaux comptabilisés, ou les Données Environnementales par Défaut (DED) fournies par la base INIES",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 6 [obligatoire] : Marché travaux concerné signé, ou attestation de la maîtrise d’œuvre de l’opération",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 6 [obligatoire]",
+            "description": "Les marchés de travaux sont les marchés conclus avec des entrepreneurs qui ont pour objet soit l'exécution, soit conjointement la conception et l'exécution d'un ouvrage ou de travaux de bâtiment ou de génie civil répondant à des besoins précisés par le pouvoir adjudicateur ou l'entité adjudicatrice.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Réductions d'émissions",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 7 [obligatoire] : calcul du stock de CO2",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "DecimalNumberChampDescriptor",
+        "label": "Total de Réductions d'Emissions générées par le projet (en tCO2e)",
+        "description": "Les réductions d'émissions sont des réductions d'émissions anticipées, exprimées en tCO2e. La valeur est disponible dans l'onglet récapitulatif du tableur de calcul, cellule B8.",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Calcul des co-bénéfices",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Document 8 [obligatoire] : calcul des co-bénéfices",
+        "description": "Remplissez le calculateur des co-bénéfices, comme indiqué dans l'onglet \"Accueil\". Les données à renseigner dans le formulaire sont indiquées dans la feuille \"Récapitulatif\". \r\n<strong> Merci de ne remplir qu'une seule fois ce document lorsqu'il n'existe pas plusieurs sous-projets et, à l'inverse, de le renseigner et déposer autant de fois qu'il existe de sous-projets. Car il faudra ensuite effectuer une pondération totale des co-bénéfices, en fonction des surfaces de chaque sous-projet.</strong>",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Document 8 [obligatoire] : calcul des co-bénéfices",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "PieceJustificativeChampDescriptor",
+        "label": "Document 9 [obligatoire sous conditions] : calcul des co-bénéfices AVEC PONDERATION",
+        "description": "Remplissez le calculateur des co-bénéfices, comme indiqué dans l'onglet \"Accueil\". \r\nMerci de ne PAS remplir ce document lorsqu'il n'existe qu'un seul sous-projet.",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Bien être et santé (en %)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Environnement (en %)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Biodiversité (en %)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Socio-économique (en %)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Atténuation du changement climatique (en %)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "IntegerNumberChampDescriptor",
+        "label": "Adaptation au changement climatique (en %)",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Récapitulatif des engagements du demandeur",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "CheckboxChampDescriptor",
+        "label": "Le mandataire certifie qu'il a vérifié les conditions d'éligibilité du projet.",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "HeaderSectionChampDescriptor",
+        "label": "Informations supplémentaires",
+        "description": "",
+        "required": false
+      },
+      {
+        "__typename": "TextareaChampDescriptor",
+        "label": "Souhaitez-vous ajouter des informations supplémentaires ?",
+        "description": null,
+        "required": false
+      },
+      {
+        "__typename": "RepetitionChampDescriptor",
+        "label": "Souhaitez-vous ajouter des pièces justificatives supplémentaires ?",
+        "description": "",
+        "required": false,
+        "champDescriptors": [
+          {
+            "__typename": "PieceJustificativeChampDescriptor",
+            "label": "Pièce justificative",
+            "description": "",
+            "required": false
+          }
+        ]
+      },
+      {
+        "__typename": "ExplicationChampDescriptor",
+        "label": "Fin du dépôt de dossier",
+        "description": "Lorsque vous avez terminé de compléter votre dossier, <strong>n'oubliez pas d'envoyer un message au service instructeur via la Messagerie de la plateforme. Ce message l'informera que votre dossier a été complété et que l'instruction peut débuter. A défaut, il peut considérer que vous êtes toujours en train de le constituer.</strong>",
+        "required": false
+      }
+    ]
+  }
+}
