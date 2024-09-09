@@ -39,7 +39,7 @@ def search(regex, data)
     matched = false
     
     d[:words].each do |words| 
-      if words =~ regex 
+      if words.downcase =~ regex 
         matched = true
         break
       end
@@ -47,7 +47,7 @@ def search(regex, data)
 
     matched
   end.map do |d|
-    d[:words] = d[:words].select{|words| words =~ regex }
+    d[:words] = d[:words].select{|words| words.downcase =~ regex }
     d
   end
 end
