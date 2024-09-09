@@ -14,7 +14,21 @@ file = File.read(DATA_PATH)
 data = JSON.parse(file)
 
 puts "#{p_number data.count} Démarches au total"
-# json_pp data.first
-
 data_with_dossiercount = data.select{|d| d['dossiersCount'] > 0}
 puts "#{p_number data_with_dossiercount.count} Démarches avec au moins un dossier"
+
+
+def words_of(field_descriptor)
+  [field_descriptor['label'], field_descriptor['description'] || nil].compact.join(' ## ')
+end
+
+useful_data = data.map do |d|
+  {
+    number: d['number'],
+    dossiersCount: d['dossiersCount'],
+    words: d['revision']['champDescriptors'].map{|cd| words_of(cd)}
+  }
+end
+
+pp useful_data.first
+
