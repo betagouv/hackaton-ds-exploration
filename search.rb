@@ -55,6 +55,24 @@ end
 
 query = ARGV[0]
 search_results = search(query, useful_data)
+result = {
+  query: query,
+  results_count: search_results.count,
+  total_dossiers_count: search_results.map{|r| r[:dossiersCount]}.sum,
+  results: search_results.sort_by{|r| -r[:dossiersCount]}
+}
 
-puts "Résultats de la recherche #{query} : #{p_number search_results.count} résultats:\n\n"
-search_results.each{ |r| pp r; puts "\n"}
+# puts "Résultats de la recherche #{query} : #{p_number search_results.count} résultats:\n\n"
+# search_results.each{ |r| pp r; puts "\n"}
+
+def sanitize_filename(filename)
+  filename = filename.gsub('\s', ' ')
+  fn = filename.split /(?<=.)\.(?=[^.])(?!.*\.[^.])/m
+  fn.map! { |s| s.gsub /[^a-z0-9\-]+/i, '_' }
+  return fn.join '.'
+end
+
+result_filename = sanitize_filename("search_result_#{query}.json")
+File.open(result_filename, 'w') do |f|
+  f.write(JSON.pretty_generate(result))
+end
