@@ -20,9 +20,12 @@ end
 USEFUL_FIELDS_TYPES = %w[RepetitionChampDescriptor PieceJustificativeChampDescriptor]
 
 useful_data = data.map do |d|
+  orga = d['service'] ? d['service']['organisme'] : nil
   {
     id: d['number'],
     dossiersCount: d['dossiersCount'],
+    title: d['title'],
+    organisme: orga,
     link: "https://github.com/betagouv/hackaton-ds-exploration/blob/main/demarches/#{d['number']}.json",
     words: d['revision']['champDescriptors'].select do |cd|
       USEFUL_FIELDS_TYPES.include? cd['__typename'] || cd['champDescriptors']
