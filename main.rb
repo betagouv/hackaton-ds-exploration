@@ -13,9 +13,10 @@ DATA_PATH = '../20240901041013-demarches.json'
 file = File.read(DATA_PATH)
 data = JSON.parse(file)
 
-p "#{p_number data.count} Démarches au total"
+puts "#{p_number data.count} Démarches au total"
 # json_pp data.first
 
 data_with_dossiercount = data.select{|d| d['dossiersCount'] > 0}
-p "#{p_number data_with_dossiercount.count} Démarches avec au moins un dossier"
+puts "#{p_number data_with_dossiercount.count} Démarches avec au moins un dossier"
 # json_pp data_with_dossiercount.first
+

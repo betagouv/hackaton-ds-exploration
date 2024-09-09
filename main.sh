@@ -1,0 +1,1 @@
+ruby main.rb > results.txt
