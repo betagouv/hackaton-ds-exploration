@@ -6,18 +6,33 @@ Le json de données est disponible [sur data.gouf.fr](https://www.data.gouv.fr/f
 
 La description des champs est disponible [ici](https://www.demarches-simplifiees.fr/graphql/schema/index.html#definition-ChampDescriptor)
 
+
 ## Usage
 
-### Recherche parmi les labels et descriptions de champs
+Il faut avoir le jeu de données dézippé à côté du dossier `hackaton-ds-exploration` et lancer les commandes depuis le dossier `hackaton-ds-exploration` pour qu'elles fonctionnent.
+
+
+### Recherche parmi les labels et descriptions des pièces jointes
+
 ```sh
-# Produit un fichier search_quotient_famililal.json
-# Accepte des regex en entrée
 ruby search.rb "quotient familial"
 ```
 
-### Recherche parmi les labels et descriptions de champs uniquement des pièces jointes
+Produit un fichier `search_attachments/{query}.json`
+Accepte des regex en argument.
+
+### Compte les combinaisons de N mots parmi les labels et descriptions des pièces jointes
+
 ```sh
-# Produit un fichier de search_attachments_quotient_famililal.json
-# Accepte des regex en entrée
-ruby search_attachments.rb "quotient familial"
+ruby get_ngrams.rb
 ```
+
+Produit 4 fichiers :
+- `words_analysis/sequences_of_1_words.json` Compte tous les mots un par un
+- `words_analysis/sequences_of_1_words.json` Compte toutes les paires de mots
+- `words_analysis/sequences_of_1_words.json` Compte tous les paquets de 3 mots
+- `words_analysis/sequences_of_1_words.json` Compte tous les paquets de 4 mots
+
+On ignore les mots "inutiles" de la liste contenue dans [app/french_stop_words.yml](https://github.com/betagouv/hackaton-ds-exploration/blob/main/app/french_stop_words.yml)
+
+On ignore aussi un max de caractères de ponctuations, ainsi que les chiffres (voir `Ngrams::SPLIT_REGEX`)
