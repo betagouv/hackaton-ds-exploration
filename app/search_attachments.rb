@@ -1,7 +1,7 @@
 require 'json'
-require_relative './data_source'
+require_relative './json_handler'
 
-class SearchAttachments < DataSource
+class SearchAttachments < JsonHandler
   USEFUL_FIELDS_TYPES = %w[RepetitionChampDescriptor PieceJustificativeChampDescriptor]
 
   def initialize(query)
@@ -77,9 +77,7 @@ class SearchAttachments < DataSource
   def print_result
     result_filename = sanitize_filename("#{@query}.json")
     
-    File.open("search_attachments/#{result_filename}", 'w') do |f|
-      f.write(JSON.pretty_generate(@result))
-    end
+    write_json("search_attachments/#{result_filename}", @result)
 
     "#{@result.count} résultats"
   end
