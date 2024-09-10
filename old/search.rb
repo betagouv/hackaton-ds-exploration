@@ -5,33 +5,19 @@ DATA_PATH = '../20240901041013-demarches.json'
 file = File.read(DATA_PATH)
 data = JSON.parse(file)
 
-def all_words_of(field_descriptor)
-  first_level_words = words_of(field_descriptor)
-  second_level_words = field_descriptor['champDescriptors'].map{|d| all_words_of(d)} if field_descriptor['champDescriptors']
-
-  [first_level_words, second_level_words].flatten.compact.join(' ## ')
-end
-
 def words_of(field_descriptor)
-  description = field_descriptor['description'] == "" ? nil : field_descriptor['description']
-  [field_descriptor['label'], description]
+  [field_descriptor['label'], field_descriptor['description'] || nil].compact.join(' ## ')
 end
-
-USEFUL_FIELDS_TYPES = %w[RepetitionChampDescriptor PieceJustificativeChampDescriptor]
 
 useful_data = data.map do |d|
-  orga = d['service'] ? d['service']['organisme'] : nil
   {
-    id: d['number'],
+    number: d['number'],
     dossiersCount: d['dossiersCount'],
-    title: d['title'],
-    organisme: orga,
-    link: "https://github.com/betagouv/hackaton-ds-exploration/blob/main/demarches/#{d['number']}.json",
-    words: d['revision']['champDescriptors'].select do |cd|
-      USEFUL_FIELDS_TYPES.include? cd['__typename'] || cd['champDescriptors']
-    end.map{|cd| all_words_of(cd)}
+    words: d['revision']['champDescriptors'].map{|cd| words_of(cd)}
   }
 end
+
+# pp useful_data.first
 
 def search(regex, data)
   regex = /#{regex}/ if regex.is_a? String
@@ -70,7 +56,7 @@ def sanitize_filename(filename)
   return fn.join '.'
 end
 
-result_filename = sanitize_filename("#{query}.json")
-File.open("search_attachments/#{result_filename}", 'w') do |f|
+result_filename = sanitize_filename("search_#{query}.json")
+File.open(result_filename, 'w') do |f|
   f.write(JSON.pretty_generate(result))
 end
