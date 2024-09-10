@@ -31,11 +31,17 @@ ruby get_ngrams.rb
 
 [→ Voir les résultats](https://github.com/betagouv/hackaton-ds-exploration/tree/main/words_analysis)
 
-Produit 4 fichiers :
+Produit 4 fichiers pour compter simplement les mots :
 - `words_analysis/sequences_of_1_words.json` Compte tous les mots un par un
 - `words_analysis/sequences_of_1_words.json` Compte toutes les paires de mots
 - `words_analysis/sequences_of_1_words.json` Compte tous les paquets de 3 mots
 - `words_analysis/sequences_of_1_words.json` Compte tous les paquets de 4 mots
+
+Et 4 autres fichiers pour compter les mots _pondérés par le nombre de dossiers_:
+- `words_analysis/sequences_of_1_words_-_weighted.json` Compte tous les mots un par un
+- `words_analysis/sequences_of_1_words_-_weighted.json` Compte toutes les paires de mots
+- `words_analysis/sequences_of_1_words_-_weighted.json` Compte tous les paquets de 3 mots
+- `words_analysis/sequences_of_1_words_-_weighted.json` Compte tous les paquets de 4 mots
 
 On ignore les mots "inutiles" de la liste contenue dans [app/french_stop_words.yml](https://github.com/betagouv/hackaton-ds-exploration/blob/main/app/french_stop_words.yml)
 
