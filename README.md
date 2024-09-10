@@ -18,6 +18,8 @@ Il faut avoir le jeu de données dézippé à côté du dossier `hackaton-ds-exp
 ruby search.rb "quotient familial"
 ```
 
+[→ Voir les résultats](https://github.com/betagouv/hackaton-ds-exploration/tree/main/search_attachments)
+
 Produit un fichier `search_attachments/{query}.json`
 Accepte des regex en argument.
 
@@ -26,6 +28,8 @@ Accepte des regex en argument.
 ```sh
 ruby get_ngrams.rb
 ```
+
+[→ Voir les résultats](https://github.com/betagouv/hackaton-ds-exploration/tree/main/words_analysis)
 
 Produit 4 fichiers :
 - `words_analysis/sequences_of_1_words.json` Compte tous les mots un par un
