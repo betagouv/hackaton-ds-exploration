@@ -9,5 +9,7 @@ ngrams = Ngrams.new
 end
 
 t2 = Time.now
-duration = (t2 - t1)
-puts "Durée du traitement : #{duration}s"
+seconds = (t2 - t1)
+minutes = seconds / 60
+leftover_seconds = seconds % 60
+puts "Durée du traitement : #{minutes}min #{leftover_seconds}s"
