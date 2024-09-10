@@ -1,8 +1,6 @@
 # Exploration des données Démarches Simplifiées
 
-En résumé pour ceux qui ont la flemme de lire :
-- [Résultats de recherches](https://github.com/betagouv/hackaton-ds-exploration/tree/main/search_attachments)
-- [Comptes des séquences de mots](https://github.com/betagouv/hackaton-ds-exploration/tree/main/words_analysis)
+En résumé pour ceux qui ont la flemme de lire [Résumé des résultats de recherches](https://github.com/betagouv/hackaton-ds-exploration/tree/main/search_summary.json)
 
 
 ## Requirements & docs
@@ -59,3 +57,9 @@ Accepte des regex en argument.
 [→ Voir les résultats](https://github.com/betagouv/hackaton-ds-exploration/tree/main/search_attachments)
 
 En s'inspirant des plus gros résultats de séquences de mots (principalement `sequences_of_2_words_-_weighted.json`), j'ai effectué des recherches dont les résultats sont présents dans le dossiers `search_attachments`. 
+
+### Produire le résumé des recherches
+
+```sh
+ruby search_summary.rb
+```
