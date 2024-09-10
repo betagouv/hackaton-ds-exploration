@@ -1,5 +1,9 @@
 # Exploration des données Démarches Simplifiées
 
+> En résumé :
+> - Résultats de recherches [ici](https://github.com/betagouv/hackaton-ds-exploration/tree/main/search_attachments)
+> - Compte des séquences de mots [ici](https://github.com/betagouv/hackaton-ds-exploration/tree/main/words_analysis)
+
 Créé avec `ruby 3.0.2p107`
 
 Le json de données est disponible [sur data.gouf.fr](https://www.data.gouv.fr/fr/datasets/descriptif-des-demarches-publiees/)
