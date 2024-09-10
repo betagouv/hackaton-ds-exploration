@@ -4,6 +4,7 @@ require_relative './attachments_handler'
 class Ngrams < AttachmentsHandler
   STOP_WORDS_PATH = 'app/french_stop_words.yml'
   MIN_RELEVANT_COUNT = 10
+  SPLIT_REGEX = /[\s’<>'",.?!;:\-\d()+*°•\/\\]+/
 
   def compute(words_count)
     @words_count = words_count
@@ -33,7 +34,7 @@ class Ngrams < AttachmentsHandler
   end
 
   def ngrams_of_words(sentence, count)
-    words = sentence.downcase.split(/[\s’<>'",.?!;:\-\d()+*°•\/\\]+/)
+    words = sentence.downcase.split(SPLIT_REGEX)
     relevant_words = (words - stop_words) - [""]
     ngrams(relevant_words, count).map{|words| words.join(' ')}
   end
