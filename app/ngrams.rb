@@ -31,7 +31,7 @@ class Ngrams < AttachmentsHandler
   end
 
   def ngrams_of_words(sentence, count)
-    words = sentence.downcase.split(/[\s',.?!;]+/)
+    words = sentence.downcase.split(/[\s’<>'",.?!;:\-\d()+*°•\/\\]+/)
     relevant_words = words - stop_words
     ngrams(relevant_words, count).map{|words| words.join(' ')}
   end
