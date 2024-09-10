@@ -4,31 +4,28 @@ class Ngrams < AttachmentsHandler
   def initialize(words_count)
     super()
     @words_count = words_count
-    @result = all_ngrams(@words_count, useful_data[0..10])
+    @result = ngrams_counts(@words_count, useful_data)
+  end
+
+  def ngrams_counts(word_count, data)
+    all_ngrams(word_count, data)
+      # .tally
+      # .sort_by{|ngram, count| -count}
+      # .to_h
   end
 
   def all_ngrams(words_count, data)
-    data.map do |d|
+    ngrams = []
+    data.each do |d|
       d[:words].map do |words|
-        ngrams = ngrams_of_words(words, words_count)
-      end.compact.inject(:+)
-    end.compact.inject(:+)
-  end
-
-  def all_words
-    @all_words ||= useful_data.map do |d|
-      d[:words].map{|words| words.split("\s")}
+        ngrams.concat ngrams_of_words(words, words_count)
+      end
     end
-  end
-
-  def print_result
-    write_json("words_analysis/sequence_of_#{@words_count}_words.json", @result)
-
-    puts "#{all_words.flatten.count} résultats"
+    ngrams
   end
 
   def ngrams_of_words(sentence, count)
-    ngrams(sentence.split("\s"), count).map{|words| words.join(' ')}
+    ngrams(sentence.split(/[\s',.?!;]+/), count).map{|words| words.join(' ')}
   end
 
   def ngrams(array, count)
@@ -40,5 +37,11 @@ class Ngrams < AttachmentsHandler
     end
     
     ngrams
+  end
+
+  def print_result
+    write_json("words_analysis/sequence_of_#{@words_count}_words.json", @result)
+
+    puts "#{@result.flatten.count} résultats"
   end
 end
