@@ -66,17 +66,8 @@ class SearchAttachments < JsonHandler
     end
   end
 
-  def sanitize_filename(filename)
-    filename = filename.gsub('\s', ' ')
-    fn = filename.split /(?<=.)\.(?=[^.])(?!.*\.[^.])/m
-    fn.map! { |s| s.gsub /[^a-z0-9\-]+/i, '_' }
-    return fn.join '.'
-  end
-
   def print_result
-    result_filename = sanitize_filename("#{@query}.json")
-    
-    write_json("search_attachments/#{result_filename}", @result)
+    write_json("search_attachments/#{@query}.json", @result)
 
     "#{@result.count} résultats"
   end

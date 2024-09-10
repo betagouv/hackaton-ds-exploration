@@ -9,8 +9,19 @@ class JsonHandler
   end
 
   def write_json(filename, content)
-    File.open(filename, 'w') do |f|
+    File.open(sanitize_filename(filename), 'w') do |f|
       f.write(JSON.pretty_generate(content))
     end
+  end
+
+  def sanitize_filename(filename)
+    filename.split('/').map{|f| sanitize_filename_part(f)}.join('/')
+  end
+
+  def sanitize_filename_part(filename)
+    filename = filename.gsub('\s', ' ')
+    fn = filename.split /(?<=.)\.(?=[^.])(?!.*\.[^.])/m
+    fn.map! { |s| s.gsub /[^a-z0-9\-]+/i, '_' }
+    return fn.join '.'
   end
 end
