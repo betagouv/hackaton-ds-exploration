@@ -26,10 +26,10 @@ Produit 4 fichiers pour compter simplement les mots :
 - `words_analysis/sequences_of_1_words.json` Compte tous les paquets de 4 mots
 
 Et 4 autres fichiers pour compter les mots _pondérés par le nombre de dossiers_:
-- `words_analysis/sequences_of_1_words_-_weighted.json` Compte tous les mots un par un
-- `words_analysis/sequences_of_1_words_-_weighted.json` Compte toutes les paires de mots
-- `words_analysis/sequences_of_1_words_-_weighted.json` Compte tous les paquets de 3 mots
-- `words_analysis/sequences_of_1_words_-_weighted.json` Compte tous les paquets de 4 mots
+- `words_analysis/sequences_of_1_words_-_weighted.json` Somme les dossiers avec chaque mot
+- `words_analysis/sequences_of_1_words_-_weighted.json` Somme les dossiers avec chaque paire de mots
+- `words_analysis/sequences_of_1_words_-_weighted.json` Somme les dossiers avec chaque groupe de 3 mots
+- `words_analysis/sequences_of_1_words_-_weighted.json` Somme les dossiers avec chaque groupe de 4 mots
 
 On ignore les mots "inutiles" de la liste contenue dans [app/french_stop_words.yml](https://github.com/betagouv/hackaton-ds-exploration/blob/main/app/french_stop_words.yml)
 
