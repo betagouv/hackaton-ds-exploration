@@ -18,7 +18,7 @@ class Ngrams < AttachmentsHandler
   end
 
   def print_result
-    write_json("words_analysis/sequence_of_#{@query}_words.json", @result)
+    write_json("words_analysis/sequence_of_#{@words_count}_words.json", @result)
 
     puts "#{all_words.flatten.count} résultats"
   end
