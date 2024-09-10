@@ -11,16 +11,19 @@ class Ngrams < AttachmentsHandler
 
     puts "Counting #{words_count}-grams in data..."
     @result = ngrams_counts(@words_count, useful_data)
-    puts "#{@result.flatten.count} ngrams trouvés"
+    puts "#{@result.flatten.count} #{words_count}-grams trouvés"
+
+    puts "Counting weighted #{words_count}-grams in data..."
+    @weighted_result = weighted_ngrams_counts(@words_count, useful_data)
+    puts "#{@weighted_result.flatten.count} weighted #{words_count}-grams trouvés"
+
     self
   end
 
   def ngrams_counts(word_count, data)
-    all_ngrams(word_count, data)
-      .tally
-      .select{|ngram, count| count >= 10}
-      .sort_by{|ngram, count| -count}
-      .to_h
+    select_and_sort_ngrams(
+      all_ngrams(word_count, data).tally
+    )
   end
 
   def all_ngrams(words_count, data)
@@ -31,6 +34,32 @@ class Ngrams < AttachmentsHandler
       end
     end
     ngrams
+  end
+
+  def weighted_ngrams_counts(words_count, data)
+    weighted_ngrams_counts = {}
+    
+    data.each do |d|
+      ngrams_of_data = []
+
+      d[:words].map do |words|
+        ngrams_of_data.concat ngrams_of_words(words, words_count)
+      end
+
+      ngrams_of_data.uniq.each do |ngram|
+        weighted_ngrams_counts[ngram] = 0 unless weighted_ngrams_counts[ngram]
+        weighted_ngrams_counts[ngram] += d[:dossiersCount]
+      end
+    end
+
+    select_and_sort_ngrams(weighted_ngrams_counts)
+  end
+
+  def select_and_sort_ngrams(ngrams_hash)
+    ngrams_hash
+      .select{|ngram, count| count >= 10}
+      .sort_by{|ngram, count| -count}
+      .to_h
   end
 
   def ngrams_of_words(sentence, count)
@@ -52,6 +81,7 @@ class Ngrams < AttachmentsHandler
 
   def print_result
     write_json("words_analysis/sequences_of_#{@words_count}_words.json", @result)
+    write_json("words_analysis/sequences_of_#{@words_count}_words - weighted.json", @weighted_result)
   end
 
   def stop_words

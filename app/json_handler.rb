@@ -11,8 +11,9 @@ class JsonHandler
   end
 
   def write_json(filename, content)
-    puts "Writing results..."
-    File.open(sanitize_filename(filename), 'w') do |f|
+    name = sanitize_filename(filename)
+    puts "Writing results in #{name}..."
+    File.open(name, 'w') do |f|
       f.write(JSON.pretty_generate(content))
     end
     puts "Done."
