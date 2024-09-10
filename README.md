@@ -11,19 +11,7 @@ La description des champs est disponible [ici](https://www.demarches-simplifiees
 
 Il faut avoir le jeu de données dézippé à côté du dossier `hackaton-ds-exploration` et lancer les commandes depuis le dossier `hackaton-ds-exploration` pour qu'elles fonctionnent.
 
-
-## Rechercher parmi les labels et descriptions des pièces jointes
-
-```sh
-ruby search.rb "quotient familial"
-```
-
-[→ Voir les résultats](https://github.com/betagouv/hackaton-ds-exploration/tree/main/search_attachments)
-
-Produit un fichier `search_attachments/{query}.json`
-Accepte des regex en argument.
-
-## Compter les combinaisons de N mots parmi les labels et descriptions des pièces jointes
+## Compter les séquences de N mots parmi les labels et descriptions des pièces jointes
 
 ```sh
 ruby get_ngrams.rb
@@ -46,3 +34,21 @@ Et 4 autres fichiers pour compter les mots _pondérés par le nombre de dossiers
 On ignore les mots "inutiles" de la liste contenue dans [app/french_stop_words.yml](https://github.com/betagouv/hackaton-ds-exploration/blob/main/app/french_stop_words.yml)
 
 On ignore aussi un max de caractères de ponctuations, ainsi que les chiffres (voir `Ngrams::SPLIT_REGEX`)
+
+
+
+## Rechercher parmi les labels et descriptions des pièces jointes
+
+```sh
+ruby search.rb "quotient familial"
+```
+
+Produit un fichier `search_attachments/{query}.json`
+Accepte des regex en argument.
+
+
+### Recherches effectuées
+
+[→ Voir les résultats](https://github.com/betagouv/hackaton-ds-exploration/tree/main/search_attachments)
+
+En s'inspirant des plus gros résultats de séquences de mots (principalement `sequences_of_2_words_-_weighted.json`), j'ai effectué des recherches dont les résultats sont présents dans le dossiers `search_attachments`. 
