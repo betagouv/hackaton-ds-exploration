@@ -1,8 +1,11 @@
 # Exploration des données Démarches Simplifiées
 
-> En résumé :
-> - Résultats de recherches [ici](https://github.com/betagouv/hackaton-ds-exploration/tree/main/search_attachments)
-> - Compte des séquences de mots [ici](https://github.com/betagouv/hackaton-ds-exploration/tree/main/words_analysis)
+En résumé pour ceux qui ont la flemme de lire :
+- [Résultats de recherches](https://github.com/betagouv/hackaton-ds-exploration/tree/main/search_attachments)
+- [Comptes des séquences de mots](https://github.com/betagouv/hackaton-ds-exploration/tree/main/words_analysis)
+
+
+## Requirements & docs
 
 Créé avec `ruby 3.0.2p107`
 
