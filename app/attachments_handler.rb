@@ -16,18 +16,22 @@ class AttachmentsHandler < JsonHandler
         title: d['title'],
         organisme: orga,
         link: "https://github.com/betagouv/hackaton-ds-exploration/blob/main/demarches/#{d['number']}.json",
-        words: d['revision']['champDescriptors'].select do |cd|
-          USEFUL_FIELDS_TYPES.include? cd['__typename'] || cd['champDescriptors']
-        end.map{|cd| all_words_of(cd)}
+        words: words_of_fields(d['revision']['champDescriptors'])
       }
     end
+  end
+
+  def words_of_fields(fields)
+    fields.select do |cd|
+      USEFUL_FIELDS_TYPES.include? cd['__typename'] || cd['champDescriptors']
+    end.map{|cd| all_words_of(cd)}.flatten
   end
 
   def all_words_of(field_descriptor)
     first_level_words = words_of(field_descriptor)
     second_level_words = field_descriptor['champDescriptors'].map{|d| all_words_of(d)} if field_descriptor['champDescriptors']
 
-    [first_level_words, second_level_words].flatten.compact.join(' ## ')
+    [first_level_words, second_level_words].flatten.compact
   end
 
   def words_of(field_descriptor)
