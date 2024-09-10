@@ -8,7 +8,7 @@ class SearchAttachments < JsonHandler
     super()
     @query = query
 
-    search_results = search(@query, useful_data)
+    search_results = search(@query, data_with_attachments)
     @result = {
       query: @query,
       results_count: search_results.count,
@@ -29,8 +29,7 @@ class SearchAttachments < JsonHandler
     [field_descriptor['label'], description]
   end
 
-
-  def useful_data
+  def data_with_attachments
     @data.map do |d|
       orga = d['service'] ? d['service']['organisme'] : nil
       {
