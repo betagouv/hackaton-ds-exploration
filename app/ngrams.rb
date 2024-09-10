@@ -22,4 +22,15 @@ class Ngrams < AttachmentsHandler
 
     puts "#{all_words.flatten.count} résultats"
   end
+
+  def ngrams(array, count)
+    ngrams = []
+    range = 0..(array.count - count)
+
+    range.each do |index|
+      ngrams.push array[index..(index+count - 1)]
+    end
+    
+    ngrams
+  end
 end
