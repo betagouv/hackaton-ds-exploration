@@ -7,7 +7,7 @@ class Ngrams < AttachmentsHandler
   def initialize(words_count)
     super()
     @words_count = words_count
-    
+
     puts "Counting #{words_count}-grams in data..."
     @result = ngrams_counts(@words_count, useful_data)
     puts "#{@result.flatten.count} ngrams trouvés"
@@ -23,7 +23,7 @@ class Ngrams < AttachmentsHandler
   def all_ngrams(words_count, data)
     ngrams = []
     data.each_with_index do |d, i|
-      puts "#{i}: #{d[:id]}"
+      # puts "#{i}: #{d[:id]}"
       d[:words].map do |words|
         ngrams.concat ngrams_of_words(words, words_count)
       end
@@ -49,7 +49,7 @@ class Ngrams < AttachmentsHandler
   end
 
   def print_result
-    write_json("words_analysis/sequence_of_#{@words_count}_words.json", @result)
+    write_json("words_analysis/sequences_of_#{@words_count}_words.json", @result)
   end
 
   def stop_words
