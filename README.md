@@ -1,6 +1,6 @@
 # Exploration des données Démarches Simplifiées
 
-En résumé pour ceux qui ont la flemme de lire [Résumé des résultats de recherches](https://github.com/betagouv/hackaton-ds-exploration/tree/main/search_summary.json)
+En résumé pour ceux qui ont la flemme de lire : [Résumé des résultats de recherches](https://github.com/betagouv/hackaton-ds-exploration/tree/main/search_summary.json)
 
 
 ## Requirements & docs
