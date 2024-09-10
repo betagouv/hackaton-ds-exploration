@@ -4,11 +4,15 @@ class Ngrams < AttachmentsHandler
   def initialize(words_count)
     super()
     @words_count = words_count
-    @result = get_ngrams(@words_count, useful_data)
+    @result = all_ngrams(@words_count, useful_data[0..10])
   end
 
-  def get_ngrams(words_count, data)
-    "coucou"
+  def all_ngrams(words_count, data)
+    data.map do |d|
+      d[:words].map do |words|
+        ngrams = ngrams_of_words(words, words_count)
+      end.compact.inject(:+)
+    end.compact.inject(:+)
   end
 
   def all_words
@@ -23,9 +27,13 @@ class Ngrams < AttachmentsHandler
     puts "#{all_words.flatten.count} résultats"
   end
 
+  def ngrams_of_words(sentence, count)
+    ngrams(sentence.split("\s"), count).map{|words| words.join(' ')}
+  end
+
   def ngrams(array, count)
     ngrams = []
-    range = 0..(array.count - count)
+    range = 0..(array.length - count)
 
     range.each do |index|
       ngrams.push array[index..(index+count - 1)]
