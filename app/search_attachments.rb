@@ -1,48 +1,18 @@
 require 'json'
-require_relative './json_handler'
+require_relative './attachments_handler'
 
-class SearchAttachments < JsonHandler
-  USEFUL_FIELDS_TYPES = %w[RepetitionChampDescriptor PieceJustificativeChampDescriptor]
-
+class SearchAttachments < AttachmentsHandler
   def initialize(query)
     super()
     @query = query
 
-    search_results = search(@query, data_with_attachments)
+    search_results = search(@query, useful_data)
     @result = {
       query: @query,
       results_count: search_results.count,
       total_dossiers_count: search_results.map{|r| r[:dossiersCount]}.sum,
       results: search_results.sort_by{|r| -r[:dossiersCount]}
     }
-  end
-
-  def all_words_of(field_descriptor)
-    first_level_words = words_of(field_descriptor)
-    second_level_words = field_descriptor['champDescriptors'].map{|d| all_words_of(d)} if field_descriptor['champDescriptors']
-
-    [first_level_words, second_level_words].flatten.compact.join(' ## ')
-  end
-
-  def words_of(field_descriptor)
-    description = field_descriptor['description'] == "" ? nil : field_descriptor['description']
-    [field_descriptor['label'], description]
-  end
-
-  def data_with_attachments
-    @data.map do |d|
-      orga = d['service'] ? d['service']['organisme'] : nil
-      {
-        id: d['number'],
-        dossiersCount: d['dossiersCount'],
-        title: d['title'],
-        organisme: orga,
-        link: "https://github.com/betagouv/hackaton-ds-exploration/blob/main/demarches/#{d['number']}.json",
-        words: d['revision']['champDescriptors'].select do |cd|
-          USEFUL_FIELDS_TYPES.include? cd['__typename'] || cd['champDescriptors']
-        end.map{|cd| all_words_of(cd)}
-      }
-    end
   end
 
   def search(regex, data)
@@ -69,6 +39,6 @@ class SearchAttachments < JsonHandler
   def print_result
     write_json("search_attachments/#{@query}.json", @result)
 
-    "#{@result.count} résultats"
+    puts "#{@result[:results_count]} résultats"
   end
 end
