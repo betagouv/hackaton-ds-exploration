@@ -4,13 +4,13 @@ require_relative './attachments_handler'
 class Ngrams < AttachmentsHandler
   STOP_WORDS_PATH = 'app/french_stop_words.yml'
 
-  def initialize(words_count)
-    super()
+  def compute(words_count)
     @words_count = words_count
 
     puts "Counting #{words_count}-grams in data..."
     @result = ngrams_counts(@words_count, useful_data)
     puts "#{@result.flatten.count} ngrams trouvés"
+    self
   end
 
   def ngrams_counts(word_count, data)
@@ -22,8 +22,7 @@ class Ngrams < AttachmentsHandler
 
   def all_ngrams(words_count, data)
     ngrams = []
-    data.each_with_index do |d, i|
-      # puts "#{i}: #{d[:id]}"
+    data.each do |d|
       d[:words].map do |words|
         ngrams.concat ngrams_of_words(words, words_count)
       end
