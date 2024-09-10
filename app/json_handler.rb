@@ -4,14 +4,18 @@ class JsonHandler
   DATA_PATH = '../20240901041013-demarches.json'
 
   def initialize
+    puts "Loading Data..."
     file = File.read(DATA_PATH)
-    @data = JSON.parse(file)    
+    @data = JSON.parse(file)
+    puts "Data loaded."
   end
 
   def write_json(filename, content)
+    puts "Writing results..."
     File.open(sanitize_filename(filename), 'w') do |f|
       f.write(JSON.pretty_generate(content))
     end
+    puts "Done."
   end
 
   def sanitize_filename(filename)

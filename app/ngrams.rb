@@ -1,22 +1,29 @@
+require 'yaml'
 require_relative './attachments_handler'
 
 class Ngrams < AttachmentsHandler
+  STOP_WORDS_PATH = 'app/french_stop_words.yml'
+
   def initialize(words_count)
     super()
     @words_count = words_count
+    
+    puts "Counting #{words_count}-grams in data..."
     @result = ngrams_counts(@words_count, useful_data)
+    puts "#{@result.flatten.count} ngrams trouvés"
   end
 
   def ngrams_counts(word_count, data)
     all_ngrams(word_count, data)
-      # .tally
-      # .sort_by{|ngram, count| -count}
-      # .to_h
+      .tally
+      .sort_by{|ngram, count| -count}
+      .to_h
   end
 
   def all_ngrams(words_count, data)
     ngrams = []
-    data.each do |d|
+    data.each_with_index do |d, i|
+      puts "#{i}: #{d[:id]}"
       d[:words].map do |words|
         ngrams.concat ngrams_of_words(words, words_count)
       end
@@ -25,7 +32,9 @@ class Ngrams < AttachmentsHandler
   end
 
   def ngrams_of_words(sentence, count)
-    ngrams(sentence.split(/[\s',.?!;]+/), count).map{|words| words.join(' ')}
+    words = sentence.downcase.split(/[\s',.?!;]+/)
+    relevant_words = words - stop_words
+    ngrams(relevant_words, count).map{|words| words.join(' ')}
   end
 
   def ngrams(array, count)
@@ -41,7 +50,9 @@ class Ngrams < AttachmentsHandler
 
   def print_result
     write_json("words_analysis/sequence_of_#{@words_count}_words.json", @result)
+  end
 
-    puts "#{@result.flatten.count} résultats"
+  def stop_words
+    @stop_words ||= YAML.load_file(STOP_WORDS_PATH)
   end
 end
