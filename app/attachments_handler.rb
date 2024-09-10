@@ -24,7 +24,7 @@ class AttachmentsHandler < JsonHandler
   def words_of_fields(fields)
     fields.select do |cd|
       USEFUL_FIELDS_TYPES.include? cd['__typename'] || cd['champDescriptors']
-    end.map{|cd| all_words_of(cd)}.flatten
+    end.map{|cd| all_words_of(cd)}.flatten.uniq
   end
 
   def all_words_of(field_descriptor)
