@@ -12,7 +12,7 @@ La description des champs est disponible [ici](https://www.demarches-simplifiees
 Il faut avoir le jeu de données dézippé à côté du dossier `hackaton-ds-exploration` et lancer les commandes depuis le dossier `hackaton-ds-exploration` pour qu'elles fonctionnent.
 
 
-### Recherche parmi les labels et descriptions des pièces jointes
+## Rechercher parmi les labels et descriptions des pièces jointes
 
 ```sh
 ruby search.rb "quotient familial"
@@ -23,7 +23,7 @@ ruby search.rb "quotient familial"
 Produit un fichier `search_attachments/{query}.json`
 Accepte des regex en argument.
 
-### Compte les combinaisons de N mots parmi les labels et descriptions des pièces jointes
+## Compter les combinaisons de N mots parmi les labels et descriptions des pièces jointes
 
 ```sh
 ruby get_ngrams.rb
