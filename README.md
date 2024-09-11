@@ -8,7 +8,7 @@ En résumé pour ceux qui ont la flemme de lire :
 
 Créé avec `ruby 3.0.2p107`
 
-Le json de données est disponible [sur data.gouf.fr](https://www.data.gouv.fr/fr/datasets/descriptif-des-demarches-publiees/)
+Le json de données est disponible [sur data.gouv.fr](https://www.data.gouv.fr/fr/datasets/descriptif-des-demarches-publiees/)
 
 La description des champs est disponible [ici](https://www.demarches-simplifiees.fr/graphql/schema/index.html#definition-ChampDescriptor)
 
