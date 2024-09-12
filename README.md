@@ -61,6 +61,10 @@ En s'inspirant des plus gros résultats de séquences de mots (principalement `s
 
 ### Produire le résumé des recherches
 
+Effectuer une recherche met aussi à jour le résumé des recherches dispo dans [search_summary.json](https://github.com/betagouv/hackaton-ds-exploration/blob/main/search_summary.json).
+
+On peut aussi le générer à part avec :
+
 ```sh
 ruby search_summary.rb
 ```
