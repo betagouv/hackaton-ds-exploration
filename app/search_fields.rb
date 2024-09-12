@@ -1,4 +1,4 @@
-require_relative './attachments_handler'
+require_relative './fields_handler'
 
 class SearchFields < FieldsHandler
   def initialize(query)

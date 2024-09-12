@@ -1,16 +1,13 @@
 require 'yaml'
 require_relative './fields_handler'
+require_relative './attachments_filter'
 
 class Ngrams < FieldsHandler
+  include AttachmentsFilter
+
   STOP_WORDS_PATH = 'app/french_stop_words.yml'
   MIN_RELEVANT_COUNT = 10
   SPLIT_REGEX = /[\s’<>'",.?!;:\-\d()+*°•\/\\]+/
-
-  USEFUL_FIELDS_TYPES = %w[RepetitionChampDescriptor PieceJustificativeChampDescriptor]
-
-  def useful_field_type?(field_type)
-    USEFUL_FIELDS_TYPES.include? field_type
-  end
 
   def compute(words_count)
     @words_count = words_count
