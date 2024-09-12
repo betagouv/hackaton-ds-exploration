@@ -1,38 +1,10 @@
-require_relative './attachments_handler'
+require_relative './search_fields'
 
-class SearchAttachments < AttachmentsHandler
-  def initialize(query)
-    super()
-    @query = query
+class SearchAttachments < SearchFields
+  USEFUL_FIELDS_TYPES = %w[RepetitionChampDescriptor PieceJustificativeChampDescriptor]
 
-    search_results = search(@query, useful_data)
-    @result = {
-      query: @query,
-      results_count: search_results.count,
-      total_dossiers_count: search_results.map{|r| r[:dossiersCount]}.sum,
-      results: search_results.sort_by{|r| -r[:dossiersCount]}
-    }
-  end
-
-  def search(regex, data)
-    regex = /#{regex}/ if regex.is_a? String
-
-    matched_data = data.select do |d|
-      matched = false
-      
-      d[:words].each do |words| 
-        if words.downcase =~ regex 
-          matched = true
-          break
-        end
-      end
-
-      matched
-    end.map do |d|
-      d[:matchs] = d[:words].select{|words| words.downcase =~ regex }
-      d.delete :words
-      d
-    end
+  def useful_field_type?(field_type)
+    USEFUL_FIELDS_TYPES.include? field_type
   end
 
   def print_result
