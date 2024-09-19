@@ -1,7 +1,7 @@
 # Exploration des données Démarches Simplifiées
 
 En résumé pour ceux qui ont la flemme de lire : 
-- [Résumé des résultats de recherches](https://github.com/betagouv/hackaton-ds-exploration/tree/main/search_summary.json)
+- [Résumé des résultats de recherches](https://github.com/betagouv/hackaton-ds-exploration/tree/main/search_summary.csv)
 - [Séquences de 2 mots pondérées](https://github.com/betagouv/hackaton-ds-exploration/blob/main/words_analysis/sequences_of_2_words_-_weighted.json)
 
 ## Requirements & docs
@@ -64,6 +64,13 @@ ruby search.rb "effectifs" all
 Produit un fichier `search_non_attachments/{query}.json`
 
 
+---
+Pour chercher en masse parmi les pièces jointes :
+```sh
+ruby bulk_search.rb csv_file
+```
+A besoin d'une colonne `regex`. Utilise par défaut le fichier `./bulk_searches.csv`.
+
 
 ### Recherches effectuées
 
@@ -73,7 +80,7 @@ En s'inspirant des plus gros résultats de séquences de mots (principalement `s
 
 ### Produire le résumé des recherches
 
-Effectuer une recherche met aussi à jour le résumé des recherches dispo dans [search_summary.json](https://github.com/betagouv/hackaton-ds-exploration/blob/main/search_summary.json).
+Effectuer une recherche met aussi à jour le résumé des recherches dispo dans [search_summary.csv](https://github.com/betagouv/hackaton-ds-exploration/blob/main/search_summary.csv).
 
 On peut aussi le générer à part avec :
 
