@@ -1,10 +1,6 @@
 require_relative './fields_handler'
 
 class SearchFields < FieldsHandler
-  def initialize
-    super()
-  end
-
   def perform(query)
     @query = query
 
