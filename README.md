@@ -45,12 +45,24 @@ On ignore aussi un max de caractères de ponctuations, ainsi que les chiffres (v
 
 ## Rechercher parmi les labels et descriptions des pièces jointes
 
+Accepte des regex en argument.
+
+Pour chercher parmi les pièces jointes :
+
 ```sh
 ruby search.rb "quotient familial"
 ```
-
 Produit un fichier `search_attachments/{query}.json`
-Accepte des regex en argument.
+
+---
+Pour chercher parmi les champs non piècesjointes :
+
+```sh
+ruby search.rb "effectifs" all
+```
+
+Produit un fichier `search_non_attachments/{query}.json`
+
 
 
 ### Recherches effectuées
