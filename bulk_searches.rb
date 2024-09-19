@@ -3,7 +3,7 @@ require_relative './app/search_non_attachments'
 require_relative './app/search_summary'
 require 'csv'
 
-csv_path = ARGV[0]
+csv_path = ARGV[0] || "./bulk_searches.csv"
 option = ARGV[1]
 
 if option
@@ -12,7 +12,7 @@ else
   search_class = SearchAttachments
 end
 
-bulk_searches = CSV.read(csv_path || "./bulk_searches.csv", headers: true, col_sep: ";")
+bulk_searches = CSV.read(csv_path, headers: true, col_sep: ";")
 search_instance = search_class.new
 
 results = bulk_searches.map do |csv_row|
