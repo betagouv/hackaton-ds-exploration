@@ -6,8 +6,8 @@ query = ARGV[0]
 option = ARGV[1]
 
 if option
-  SearchNonAttachments.new(query).print_result
+  SearchNonAttachments.new.perform(query).print_result
 else
-  SearchAttachments.new(query).print_result
+  SearchAttachments.new.perform(query).print_result
   SearchSummary.new.summarize
 end

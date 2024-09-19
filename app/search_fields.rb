@@ -1,8 +1,11 @@
 require_relative './fields_handler'
 
 class SearchFields < FieldsHandler
-  def initialize(query)
+  def initialize
     super()
+  end
+
+  def perform(query)
     @query = query
 
     search_results = search(@query, useful_data)
@@ -12,6 +15,7 @@ class SearchFields < FieldsHandler
       total_dossiers_count: search_results.map{|r| r[:dossiersCount]}.sum,
       results: search_results.sort_by{|r| -r[:dossiersCount]}
     }
+    self
   end
 
   def search(regex, data)
