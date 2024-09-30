@@ -1,5 +1,7 @@
 # Exploration des données Démarches Simplifiées
 
+[Document résumé d'analyse](https://github.com/betagouv/hackaton-ds-exploration/tree/main/resume analyse.md)
+
 En résumé pour ceux qui ont la flemme de lire : 
 - [Résumé des résultats de recherches](https://github.com/betagouv/hackaton-ds-exploration/tree/main/search_summary.csv)
 - [Séquences de 2 mots pondérées](https://github.com/betagouv/hackaton-ds-exploration/blob/main/words_analysis/sequences_of_2_words_-_weighted.json)
