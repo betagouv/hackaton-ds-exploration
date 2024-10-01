@@ -37,7 +37,7 @@ end
 puts "Nombre de saisies de RIB : #{fields_stuff.values.sum}"
 
 
-cross_data = attachments_stuff || fields_stuff
+cross_data = attachments_stuff && fields_stuff
 
 puts "Mauvais élèves !\nNombre de démarches qui demandent le RIB en pièce jointe ET de saisir les infos : #{cross_data.count}"
 puts "Nombre de dossiers concernés #{cross_data.values.sum}"
