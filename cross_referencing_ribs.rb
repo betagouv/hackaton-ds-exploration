@@ -4,7 +4,8 @@ require 'csv'
 attachments_filenames = [
   "search_attachments/_relev_e_attestation_justificatif_identit_e_compte_coordon_bancaire.json",
   "search_attachments/_rib_iban_.json",
-   "search_attachments/_rib_.json"
+  "search_attachments/_rib_.json",
+  "search_attachments/_rib_format.json"
 ]
 
 fields_filenames = [

@@ -1,6 +1,7 @@
 require_relative './json_handler'
 
 class FieldsHandler < JsonHandler
+  INFORMATIVE_FIELDS_TYPES = %w[ExplicationChampDescriptor HeaderSectionChampDescriptor]
   def initialize
     super
   end
@@ -20,7 +21,7 @@ class FieldsHandler < JsonHandler
   end
 
   def useful_field_type?(field_type)
-    true
+    !INFORMATIVE_FIELDS_TYPES.include?(field_type)
   end
 
   def words_of_fields(fields)
