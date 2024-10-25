@@ -18,9 +18,17 @@ dossiers_per_organism = results.reduce({}) do |h, r|
   h
 end
 
-
-
-# puts "#{results_count} démarches demandant un siret"
-# puts "#{total_dossiers_count} dossiers au total"
 puts "Organisme	démarches	dossiers"
-puts results_per_organism.map{|org,demarches| [org,demarches,dossiers_per_organism[org]].join("\t")}.sort_by{|row| row[2]}
+puts results_per_organism.map{|org,demarches| [org,demarches,dossiers_per_organism[org]]}.sort_by{|row| -row[2]}.map{|row| row.join("\t")}
+
+# results_per_title = results.map{|r| r['title']}.tally
+# dossiers_per_title = results.reduce({}) do |h, r|
+#   title = r['title']
+#   h[title] = 0 if h[title] == nil
+#   h[title] += r['dossiersCount']
+#   h
+# end
+
+# puts "Titre	démarches	dossiers"
+# puts results_per_title.map{|title,demarches| [org,demarches,dossiers_per_title[title]].join("\t")}.sort_by{|row| row[2]}
+
